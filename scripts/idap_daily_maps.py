@@ -28,6 +28,7 @@ import urllib.error
 import xml.etree.ElementTree as ET
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from typing import Any, Dict, List, Optional, Tuple
 
 import geopandas as gpd
@@ -162,6 +163,62 @@ class AlertRecord:
 
 def _now_sp() -> datetime:
     return datetime.now().astimezone()
+
+
+_SP_TZ = ZoneInfo("America/Sao_Paulo")
+
+_MONTH_PT = {
+    1: "Janeiro", 2: "Fevereiro", 3: "Março", 4: "Abril",
+    5: "Maio", 6: "Junho", 7: "Julho", 8: "Agosto",
+    9: "Setembro", 10: "Outubro", 11: "Novembro", 12: "Dezembro",
+}
+
+
+def _parse_iso_dt(value: Optional[str]) -> Optional[datetime]:
+    if not value:
+        return None
+    v = value.strip()
+    if not v:
+        return None
+    # suporta final "Z"
+    v = v.replace("Z", "+00:00")
+    try:
+        dt = datetime.fromisoformat(v)
+    except Exception:
+        return None
+    try:
+        return dt.astimezone(_SP_TZ)
+    except Exception:
+        return dt
+
+
+def _period_label(alerts: List["AlertRecord"]) -> str:
+    dts: List[datetime] = []
+    for a in alerts:
+        dt = _parse_iso_dt(a.sent)
+        if dt is not None:
+            dts.append(dt)
+
+    if not dts:
+        return "Período não informado"
+
+    d1 = min(dts).date()
+    d2 = max(dts).date()
+
+    if d1 == d2:
+        mes = _MONTH_PT.get(d1.month, str(d1.month))
+        return f"Alertas em {d1.day:02d} de {mes} de {d1.year}"
+
+    if (d1.year == d2.year) and (d1.month == d2.month):
+        mes = _MONTH_PT.get(d1.month, str(d1.month))
+        return f"Alertas entre {d1.day:02d} e {d2.day:02d} de {mes} de {d1.year}"
+
+    mes1 = _MONTH_PT.get(d1.month, str(d1.month))
+    mes2 = _MONTH_PT.get(d2.month, str(d2.month))
+    return (
+        f"Alertas de {d1.day:02d} de {mes1} de {d1.year} "
+        f"a {d2.day:02d} de {mes2} de {d2.year}"
+    )
 
 
 def _safe_text(elem: Optional[ET.Element]) -> Optional[str]:
@@ -722,6 +779,8 @@ def main() -> int:
 
     print(f"[INFO] CAPs parseados: {len(alerts)} | erros: {len(errors)}")
 
+    period_label = _period_label(alerts)
+
     # salva dados brutos
     with open(os.path.join(run_dir, "alerts.json"), "w", encoding="utf-8") as f:
         json.dump([asdict(a) for a in alerts], f, ensure_ascii=False, indent=2)
@@ -755,7 +814,7 @@ def main() -> int:
             uf_gdf,
             alerts_gdf_all,
             map1,
-            f"Alertas IDAP (todos) | {run_ts}",
+            f"Alertas IDAP (todos)\n{period_label} | {run_ts}",
             counts1,
         )
         print(f"[INFO] Mapa gerado: {map1}")
@@ -773,7 +832,7 @@ def main() -> int:
             uf_gdf,
             gdf_2,
             map2,
-            f"Alertas: Chuvas Intensas, Tempestades Convectivas, Inundações | {run_ts}",
+            f"Alertas: Chuvas Intensas, Tempestades Convectivas, Inundações\n{period_label} | {run_ts}",
             counts2,
         )
         print(f"[INFO] Mapa gerado: {map2}")
@@ -791,7 +850,7 @@ def main() -> int:
             uf_gdf,
             gdf_3,
             map3,
-            f"Alertas: Deslizamento | {run_ts}",
+            f"Alertas: Deslizamento\n{period_label} | {run_ts}",
             counts3,
         )
         print(f"[INFO] Mapa gerado: {map3}")
@@ -811,7 +870,7 @@ def main() -> int:
             uf_gdf,
             gdf_4,
             map4,
-            f"Alertas: Outros tipos | {run_ts}",
+            f"Alertas: Outros tipos\n{period_label} | {run_ts}",
             counts4,
         )
         print(f"[INFO] Mapa gerado: {map4}")
