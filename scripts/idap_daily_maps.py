@@ -530,7 +530,84 @@ def _plot_alerts_map(
             linewidth=0.8,
             alpha=0.35,
         )
+from matplotlib.patches import Patch
 
+def _add_legend(ax, counts_by_nivel: Dict[str, int], title: str = "Níveis") -> None:
+    # ordem fixa (e sem Indefinido)
+    order = ["Extremo", "Severo", "Alto", "Médio", "Baixo"]
+    handles = []
+    labels = []
+
+    for n in order:
+        v = int(counts_by_nivel.get(n, 0) or 0)
+        if v <= 0:
+            continue
+
+        col = NIVEL_COLORS.get(n, "#7f7f7f")
+        handles.append(
+            Patch(
+                facecolor=col,          # <- aqui garante a cor preenchida
+                edgecolor=col,
+                linewidth=1.2,
+                alpha=0.90,
+            )
+        )
+        labels.append(f"{n}: {v}")
+
+    if not handles:
+        return
+
+    leg = ax.legend(
+        handles,
+        labels,
+        title=title,
+        loc="lower right",
+        frameon=True,
+        fancybox=True,
+        framealpha=0.95,
+        borderpad=0.9,        # mais “respiro” dentro da caixa
+        labelspacing=0.5,
+        handlelength=1.2,     # tamanho do quadradinho
+        handletextpad=0.6,
+        fontsize=10,          # aumenta a letra
+        title_fontsize=10,
+    )
+
+    # opcional: deixa a borda da caixa um pouquinho mais visível
+    leg.get_frame().set_linewidth(0.8)
+
+
+def _plot_alerts_map(uf_gdf, alerts_gdf, out_path, title) -> None:
+    fig = plt.figure(figsize=(12, 12))
+    ax = plt.gca()
+
+    uf_gdf.boundary.plot(ax=ax, linewidth=0.6, alpha=BORDER_ALPHA)
+
+    if len(alerts_gdf) > 0:
+        def nivel_color(n: str) -> str:
+            n = (n or "").strip()
+            return NIVEL_COLORS.get(n, NIVEL_COLORS["Indefinido"])
+
+        alerts_gdf["_color"] = alerts_gdf["nivel"].apply(nivel_color)
+
+        alerts_gdf.plot(
+            ax=ax,
+            color=alerts_gdf["_color"],
+            edgecolor=alerts_gdf["_color"],
+            linewidth=0.8,
+            alpha=ALERT_ALPHA,
+        )
+
+        # legenda com cores (sem Indefinido)
+        counts = alerts_gdf["nivel"].value_counts().to_dict()
+        counts.pop("Indefinido", None)
+        _add_legend(ax, counts, title="Níveis")
+
+    ax.set_title(title, fontsize=12)
+    ax.set_axis_off()
+    plt.tight_layout()
+    fig.savefig(out_path, dpi=200)
+    plt.close(fig)
     ax.set_title(title, fontsize=12)
     ax.set_axis_off()
 
