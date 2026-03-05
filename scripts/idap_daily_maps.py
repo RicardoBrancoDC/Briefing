@@ -294,31 +294,34 @@ def _read_url(url: str, timeout: int = 60, retries: int = 4) -> bytes:
 
 
 def _ensure_logo_file(logo_path: str, logo_url: str) -> Optional[str]:
-    """Garante um PNG local para uso no mapa.
-    - Se logo_path existe, usa ele.
-    - Se não existe, tenta baixar logo_url para logo_path.
-    Retorna o caminho se ok, senão None.
     """
-    try:
-        if logo_path and os.path.exists(logo_path):
-            return logo_path
+    Garante que a logomarca exista localmente.
+    Se não existir, baixa do URL e salva em logo_path.
+    """
+    if logo_path and os.path.exists(logo_path):
+        return logo_path
 
-        if not logo_url:
-            return None
-
-        parent = os.path.dirname(logo_path) or "."
-        os.makedirs(parent, exist_ok=True)
-
-        # baixa e salva
-        data = _read_url(logo_url, timeout=60)
-        with open(logo_path, "wb") as f:
-            f.write(data)
-
-        if os.path.exists(logo_path):
-            return logo_path
-    except Exception:
+    if not logo_path:
         return None
 
+    os.makedirs(os.path.dirname(logo_path) or ".", exist_ok=True)
+
+    last_err: Optional[Exception] = None
+    for attempt in range(1, 4):
+        try:
+            data = _read_url(logo_url, timeout=60)
+            with open(logo_path, "wb") as f:
+                f.write(data)
+
+            if os.path.exists(logo_path) and os.path.getsize(logo_path) > 0:
+                print(f"[INFO] Logo: baixada para {logo_path}")
+                return logo_path
+        except Exception as e:
+            last_err = e
+            print(f"[WARN] Logo: falha no download (tentativa {attempt}/3): {e}")
+
+    if last_err:
+        print("[WARN] Logo: não foi possível obter a logomarca, seguindo sem logo")
     return None
 
 def _normalize_text(s: Optional[str]) -> str:
@@ -736,25 +739,36 @@ def _write_resumo_md(path: str, resumo: Dict[str, Any]) -> None:
 
 
 
-def _add_logo_to_map(fig: plt.Figure, logo_path: str, scale: float = 0.80) -> None:
-    """Coloca a logomarca no canto superior direito (coordenadas da figura)."""
+def _add_logo_to_map(ax, logo_path: str, scale: float = 0.8) -> None:
+    """
+    Coloca a logomarca no canto superior direito (dentro do mapa).
+    scale ~ 0.8 significa 80% do tamanho.
+    """
     try:
-        import matplotlib.image as mpimg
         from matplotlib.offsetbox import OffsetImage, AnnotationBbox
+        import matplotlib.image as mpimg
+
+        if not logo_path or (not os.path.exists(logo_path)):
+            return
 
         img = mpimg.imread(logo_path)
-        oi = OffsetImage(img, zoom=scale)
+
+        # zoom do matplotlib é relativo; esse fator fica bom em figura 12x12.
+        zoom = 0.18 * float(scale)
+
+        oi = OffsetImage(img, zoom=zoom)
         ab = AnnotationBbox(
             oi,
-            (0.985, 0.985),  # canto superior direito
-            xycoords="figure fraction",
+            (0.985, 0.985),
+            xycoords=ax.transAxes,
             frameon=False,
             box_alignment=(1, 1),
+            pad=0.0,
         )
-        fig.add_artist(ab)
-    except Exception:
-        return
-
+        ab.set_clip_on(False)
+        ax.add_artist(ab)
+    except Exception as e:
+        print(f"[WARN] Logo: falha ao inserir no mapa: {e}")
 
 def _add_counts_box(ax: plt.Axes, counts_by_nivel: Dict[str, int]) -> None:
     """Caixa de resumo (inferior direito) com as cores dos níveis, sem 'Indefinido'."""
