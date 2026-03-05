@@ -654,15 +654,13 @@ def _plot_alerts_map(
             edgecolor=alerts_gdf["_color"],
             linewidth=0.8,
             alpha=ALERT_ALPHA,
-            logo_file=logo_file,
-            logo_zoom=logo_zoom,
         )
 
     # Logo (canto superior direito)
     if logo_file and os.path.exists(logo_file):
         try:
             arr = plt.imread(logo_file)
-            img = OffsetImage(arr, zoom=float(logo_zoom))
+            img = OffsetImage(arr, zoom=float(logo_scale))
             ab = AnnotationBbox(
                 img,
                 (1.0, 1.0),
@@ -814,7 +812,7 @@ def main() -> int:
     logo_path = os.getenv("LOGO_PATH", "").strip()
     logo_url = os.getenv("LOGO_URL", DEFAULT_LOGO_URL).strip()
     logo_cache = os.getenv("LOGO_CACHE", DEFAULT_LOGO_CACHE).strip()
-    logo_zoom = float(os.getenv("LOGO_ZOOM", str(DEFAULT_LOGO_ZOOM)))
+    logo_scale = float(os.getenv("LOGO_ZOOM", str(DEFAULT_LOGO_ZOOM)))
     logo_file = None
     if logo_path:
         logo_file = logo_path if os.path.exists(logo_path) else None
@@ -899,8 +897,6 @@ def main() -> int:
             map1,
             f"Alertas IDAP (todos)\n{period_label} | {run_ts}",
             counts1,
-            logo_file=logo_file,
-            logo_zoom=logo_zoom,
         )
         print(f"[INFO] Mapa gerado: {map1}")
     else:
@@ -919,8 +915,6 @@ def main() -> int:
             map2,
             f"Alertas: Chuvas Intensas, Tempestades Convectivas, Inundações\n{period_label} | {run_ts}",
             counts2,
-            logo_file=logo_file,
-            logo_zoom=logo_zoom,
         )
         print(f"[INFO] Mapa gerado: {map2}")
     else:
@@ -939,8 +933,6 @@ def main() -> int:
             map3,
             f"Alertas: Deslizamento\n{period_label} | {run_ts}",
             counts3,
-            logo_file=logo_file,
-            logo_zoom=logo_zoom,
         )
         print(f"[INFO] Mapa gerado: {map3}")
     else:
@@ -961,8 +953,6 @@ def main() -> int:
             map4,
             f"Alertas: Outros tipos\n{period_label} | {run_ts}",
             counts4,
-            logo_file=logo_file,
-            logo_zoom=logo_zoom,
         )
         print(f"[INFO] Mapa gerado: {map4}")
     else:
