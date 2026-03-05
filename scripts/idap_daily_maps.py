@@ -657,73 +657,59 @@ def _plot_alerts_map(
         )
 
     # Logo (canto superior direito)
-    if logo_file and os.path.exists(logo_file):
+    # garante o arquivo da logo (se possível), mas não quebra o mapa se falhar
+    logo_path = None
+    if logo_file:
         try:
-            arr = plt.imread(logo_file)
-            img = OffsetImage(arr, zoom=float(logo_scale))
-            ab = AnnotationBbox(
-                img,
-                (1.0, 1.0),
-                xycoords="axes fraction",
-                xybox=(-8, -8),
-                boxcoords="offset points",
-                box_alignment=(1, 1),
-                frameon=False,
-            )
-            ax.add_artist(ab)
+            # se for o default e não existir, tenta baixar
+            if (logo_file == DEFAULT_LOGO_FILE) and (not os.path.exists(logo_file)):
+                logo_path = _ensure_logo_file(DEFAULT_LOGO_URL, DEFAULT_LOGO_FILE)
+            else:
+                logo_path = logo_file if os.path.exists(logo_file) else None
         except Exception:
-            pass
-    ax.set_title(title, fontsize=12)
-    ax.set_axis_off()
+            logo_path = None
 
-    # Legenda com contagem por nível (sem "Indefinido")
-    if counts_nivel:
-        from matplotlib.patches import Patch
-
-        order = ["Extremo", "Severo", "Alto", "Médio", "Baixo"]
-        handles = []
-        for nivel in order:
-            cnt = int(counts_nivel.get(nivel, 0))
-            if cnt <= 0:
-                continue
-            col = NIVEL_COLORS.get(nivel, NIVEL_COLORS["Indefinido"])
-            handles.append(Patch(facecolor=col, edgecolor=col, label=f"{nivel}: {cnt}"))
-
-        if handles:
-            leg = ax.legend(
-                handles=handles,
-                loc="lower right",
-                fontsize=10,
-                frameon=True,
-                framealpha=0.85,
-                borderpad=0.8,
-                labelspacing=0.5,
-                handlelength=1.4,
-                handletextpad=0.6,
-            )
-            leg.get_frame().set_edgecolor("#333333")
-
-    plt.tight_layout()
-
-    # Logo (canto superior direito)
-    if logo_file and os.path.exists(logo_file):
+    if logo_path:
         try:
             import matplotlib.image as mpimg
-            img = mpimg.imread(logo_file)
-            # tamanho base da caixa do logo na figura (fração)
-            base = 0.16
-            s = float(logo_scale) if logo_scale else 0.8
-            w = max(0.06, min(base * s, 0.25))
-            h = w
-            ax_logo = fig.add_axes([1.0 - w - 0.02, 1.0 - h - 0.02, w, h])
+            img = mpimg.imread(logo_path)
+            # inset no canto superior direito (em coordenadas da figura)
+            # tamanho base 16% da largura/altura da figura
+            size = 0.16 * float(logo_scale or 1.0)
+            left = 1.0 - size - 0.015
+            bottom = 1.0 - size - 0.015
+            ax_logo = fig.add_axes([left, bottom, size, size])
             ax_logo.imshow(img)
-            ax_logo.axis("off")
+            ax_logo.axis('off')
         except Exception:
             pass
-    fig.savefig(out_path, dpi=200)
-    plt.close(fig)
+    # Logo (canto superior direito)
+    # garante o arquivo da logo (se possível), mas não quebra o mapa se falhar
+    logo_path = None
+    if logo_file:
+        try:
+            # se for o default e não existir, tenta baixar
+            if (logo_file == DEFAULT_LOGO_FILE) and (not os.path.exists(logo_file)):
+                logo_path = _ensure_logo_file(DEFAULT_LOGO_URL, DEFAULT_LOGO_FILE)
+            else:
+                logo_path = logo_file if os.path.exists(logo_file) else None
+        except Exception:
+            logo_path = None
 
-
+    if logo_path:
+        try:
+            import matplotlib.image as mpimg
+            img = mpimg.imread(logo_path)
+            # inset no canto superior direito (em coordenadas da figura)
+            # tamanho base 16% da largura/altura da figura
+            size = 0.16 * float(logo_scale or 1.0)
+            left = 1.0 - size - 0.015
+            bottom = 1.0 - size - 0.015
+            ax_logo = fig.add_axes([left, bottom, size, size])
+            ax_logo.imshow(img)
+            ax_logo.axis('off')
+        except Exception:
+            pass
 def _ensure_dirs(*paths: str) -> None:
     for p in paths:
         os.makedirs(p, exist_ok=True)
