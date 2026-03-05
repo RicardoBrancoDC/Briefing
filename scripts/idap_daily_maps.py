@@ -632,22 +632,28 @@ def _plot_alerts_map(
     alerts_gdf: gpd.GeoDataFrame,
     out_path: str,
     title: str,
-    counts_nivel: Optional[Dict[str, int]] = None,
+    counts_by_nivel: Optional[Dict[str, int]] = None,
     logo_file: Optional[str] = None,
-    logo_scale: float = 0.8,
+    logo_scale: float = 0.80,
 ) -> None:
+    """Plota UF + polígonos de alertas e adiciona:
+    - caixa de resumo por nível (inferior direito)
+    - logomarca (superior direito)
+    """
     fig = plt.figure(figsize=(12, 12))
     ax = plt.gca()
 
-    uf_gdf.boundary.plot(ax=ax, linewidth=0.6, alpha=BORDER_ALPHA)
+    # Base Brasil
+    uf_gdf.boundary.plot(ax=ax, linewidth=0.6, alpha=BORDER_ALPHA, color="#2f2f2f")
 
+    # Alertas
     if len(alerts_gdf) > 0:
-        def nivel_color(n: str) -> str:
+        def _nivel_color(n: str) -> str:
             n = (n or "").strip()
             return NIVEL_COLORS.get(n, NIVEL_COLORS["Indefinido"])
 
-        alerts_gdf["_color"] = alerts_gdf["nivel"].apply(nivel_color)
-
+        alerts_gdf = alerts_gdf.copy()
+        alerts_gdf["_color"] = alerts_gdf["nivel"].apply(_nivel_color)
         alerts_gdf.plot(
             ax=ax,
             color=alerts_gdf["_color"],
@@ -656,60 +662,32 @@ def _plot_alerts_map(
             alpha=ALERT_ALPHA,
         )
 
-    # Logo (canto superior direito)
-    # garante o arquivo da logo (se possível), mas não quebra o mapa se falhar
+    # Título
+    ax.set_title(title, fontsize=12)
+    ax.set_axis_off()
+
+    # Caixa de contagem (inferior direito)
+    _add_counts_box(ax, counts_by_nivel or {})
+
+    # Logo (superior direito)
     logo_path = None
     if logo_file:
         try:
-            # se for o default e não existir, tenta baixar
             if (logo_file == DEFAULT_LOGO_FILE) and (not os.path.exists(logo_file)):
-                logo_path = _ensure_logo_file(DEFAULT_LOGO_URL, DEFAULT_LOGO_FILE)
+                logo_path = _ensure_logo_file(DEFAULT_LOGO_FILE, DEFAULT_LOGO_URL)
             else:
                 logo_path = logo_file if os.path.exists(logo_file) else None
         except Exception:
             logo_path = None
 
     if logo_path:
-        try:
-            import matplotlib.image as mpimg
-            img = mpimg.imread(logo_path)
-            # inset no canto superior direito (em coordenadas da figura)
-            # tamanho base 16% da largura/altura da figura
-            size = 0.16 * float(logo_scale or 1.0)
-            left = 1.0 - size - 0.015
-            bottom = 1.0 - size - 0.015
-            ax_logo = fig.add_axes([left, bottom, size, size])
-            ax_logo.imshow(img)
-            ax_logo.axis('off')
-        except Exception:
-            pass
-    # Logo (canto superior direito)
-    # garante o arquivo da logo (se possível), mas não quebra o mapa se falhar
-    logo_path = None
-    if logo_file:
-        try:
-            # se for o default e não existir, tenta baixar
-            if (logo_file == DEFAULT_LOGO_FILE) and (not os.path.exists(logo_file)):
-                logo_path = _ensure_logo_file(DEFAULT_LOGO_URL, DEFAULT_LOGO_FILE)
-            else:
-                logo_path = logo_file if os.path.exists(logo_file) else None
-        except Exception:
-            logo_path = None
+        _add_logo_to_map(fig, logo_path, scale=logo_scale)
 
-    if logo_path:
-        try:
-            import matplotlib.image as mpimg
-            img = mpimg.imread(logo_path)
-            # inset no canto superior direito (em coordenadas da figura)
-            # tamanho base 16% da largura/altura da figura
-            size = 0.16 * float(logo_scale or 1.0)
-            left = 1.0 - size - 0.015
-            bottom = 1.0 - size - 0.015
-            ax_logo = fig.add_axes([left, bottom, size, size])
-            ax_logo.imshow(img)
-            ax_logo.axis('off')
-        except Exception:
-            pass
+    plt.tight_layout()
+    os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
+    fig.savefig(out_path, dpi=200)
+    plt.close(fig)
+
 def _ensure_dirs(*paths: str) -> None:
     for p in paths:
         os.makedirs(p, exist_ok=True)
@@ -756,6 +734,52 @@ def _write_resumo_md(path: str, resumo: Dict[str, Any]) -> None:
     with open(path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
 
+
+
+def _add_logo_to_map(fig: plt.Figure, logo_path: str, scale: float = 0.80) -> None:
+    """Coloca a logomarca no canto superior direito (coordenadas da figura)."""
+    try:
+        import matplotlib.image as mpimg
+        from matplotlib.offsetbox import OffsetImage, AnnotationBbox
+
+        img = mpimg.imread(logo_path)
+        oi = OffsetImage(img, zoom=scale)
+        ab = AnnotationBbox(
+            oi,
+            (0.985, 0.985),  # canto superior direito
+            xycoords="figure fraction",
+            frameon=False,
+            box_alignment=(1, 1),
+        )
+        fig.add_artist(ab)
+    except Exception:
+        return
+
+
+def _add_counts_box(ax: plt.Axes, counts_by_nivel: Dict[str, int]) -> None:
+    """Caixa de resumo (inferior direito) com as cores dos níveis, sem 'Indefinido'."""
+    try:
+        order = ["Extremo", "Severo", "Alto", "Médio", "Baixo"]
+        items = [(k, int(counts_by_nivel.get(k, 0))) for k in order if int(counts_by_nivel.get(k, 0)) > 0]
+        if not items:
+            return
+
+        # inset no canto inferior direito
+        iax = ax.inset_axes([0.66, 0.02, 0.32, 0.22])
+        iax.set_axis_off()
+
+        # fundo branco
+        iax.add_patch(plt.Rectangle((0, 0), 1, 1, transform=iax.transAxes, facecolor="white", edgecolor="#dddddd", alpha=0.85))
+
+        y = 0.82
+        step = 0.15 if len(items) <= 5 else 0.12
+        for nivel, count in items:
+            color = NIVEL_COLORS.get(nivel, "#7f7f7f")
+            iax.add_patch(plt.Rectangle((0.06, y - 0.05), 0.08, 0.08, transform=iax.transAxes, facecolor=color, edgecolor=color))
+            iax.text(0.17, y - 0.01, f"{nivel}: {count}", transform=iax.transAxes, fontsize=11, va="center", ha="left", color="#111111")
+            y -= step
+    except Exception:
+        return
 
 # ----------------------------
 # Filtros de mapa
@@ -1027,7 +1051,7 @@ def main() -> int:
             (map3, f"Mapa 3: deslizamento | {run_ts}"),
             (map4, f"Mapa 4: outros | {run_ts}"),
         ]:
-            if pth:
+            if pth and os.path.exists(pth):
                 try:
                     _send_photo(pth, cap)
                     print(f"[INFO] Telegram: enviado {os.path.basename(pth)}")
