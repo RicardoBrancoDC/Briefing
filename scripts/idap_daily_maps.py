@@ -35,6 +35,7 @@ import geopandas as gpd
 from shapely.geometry import Polygon, MultiPolygon
 from shapely.geometry.base import BaseGeometry
 import matplotlib.pyplot as plt
+from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 
 
 # ----------------------------
@@ -48,6 +49,11 @@ DEFAULT_RSS_URL = "https://idapfile.mdr.gov.br/idap/api/rss/cap"
 DEFAULT_UF_GEOJSON_PATH = "resources/br_uf.geojson"
 DEFAULT_OUT_DIR = "out"
 DEFAULT_STATE_PATH = ".cache/state.json"
+
+# Logo (SEDEC) no mapa (opcional)
+DEFAULT_LOGO_URL = "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/defesa-civil/marca_sedec.png/@@images/84bdffd6-9b85-4795-959a-fe726209120e.png"
+DEFAULT_LOGO_CACHE = ".cache/marca_sedec.png"
+DEFAULT_LOGO_ZOOM = 0.8  # 80% do tamanho original
 
 # UF -> Região
 UF_TO_REGION = {
@@ -285,6 +291,35 @@ def _read_url(url: str, timeout: int = 60, retries: int = 4) -> bytes:
                 continue
 
     raise last_err  # type: ignore
+
+
+def _ensure_logo_file(logo_path: str, logo_url: str) -> Optional[str]:
+    """Garante um PNG local para uso no mapa.
+    - Se logo_path existe, usa ele.
+    - Se não existe, tenta baixar logo_url para logo_path.
+    Retorna o caminho se ok, senão None.
+    """
+    try:
+        if logo_path and os.path.exists(logo_path):
+            return logo_path
+
+        if not logo_url:
+            return None
+
+        parent = os.path.dirname(logo_path) or "."
+        os.makedirs(parent, exist_ok=True)
+
+        # baixa e salva
+        data = _read_url(logo_url, timeout=60)
+        with open(logo_path, "wb") as f:
+            f.write(data)
+
+        if os.path.exists(logo_path):
+            return logo_path
+    except Exception:
+        return None
+
+    return None
 
 def _normalize_text(s: Optional[str]) -> str:
     if not s:
@@ -617,8 +652,27 @@ def _plot_alerts_map(
             edgecolor=alerts_gdf["_color"],
             linewidth=0.8,
             alpha=ALERT_ALPHA,
+            logo_file=logo_file,
+            logo_zoom=logo_zoom,
         )
 
+    # Logo (canto superior direito)
+    if logo_file and os.path.exists(logo_file):
+        try:
+            arr = plt.imread(logo_file)
+            img = OffsetImage(arr, zoom=float(logo_zoom))
+            ab = AnnotationBbox(
+                img,
+                (1.0, 1.0),
+                xycoords="axes fraction",
+                xybox=(-8, -8),
+                boxcoords="offset points",
+                box_alignment=(1, 1),
+                frameon=False,
+            )
+            ax.add_artist(ab)
+        except Exception:
+            pass
     ax.set_title(title, fontsize=12)
     ax.set_axis_off()
 
@@ -738,6 +792,17 @@ def main() -> int:
     tg_token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
     tg_chat_id = os.getenv("TELEGRAM_CHAT_ID", "").strip()
 
+    # Logo no mapa (opcional)
+    logo_path = os.getenv("LOGO_PATH", "").strip()
+    logo_url = os.getenv("LOGO_URL", DEFAULT_LOGO_URL).strip()
+    logo_cache = os.getenv("LOGO_CACHE", DEFAULT_LOGO_CACHE).strip()
+    logo_zoom = float(os.getenv("LOGO_ZOOM", str(DEFAULT_LOGO_ZOOM)))
+    logo_file = None
+    if logo_path:
+        logo_file = logo_path if os.path.exists(logo_path) else None
+    if logo_file is None and logo_cache:
+        logo_file = _ensure_logo_file(logo_cache, logo_url)
+
     print(f"[INFO] RSS_URL={rss_url}")
     print(f"[INFO] UF_GEOJSON_PATH={uf_geojson_path}")
     print(f"[INFO] OUT_DIR={out_dir}")
@@ -816,6 +881,8 @@ def main() -> int:
             map1,
             f"Alertas IDAP (todos)\n{period_label} | {run_ts}",
             counts1,
+            logo_file=logo_file,
+            logo_zoom=logo_zoom,
         )
         print(f"[INFO] Mapa gerado: {map1}")
     else:
@@ -834,6 +901,8 @@ def main() -> int:
             map2,
             f"Alertas: Chuvas Intensas, Tempestades Convectivas, Inundações\n{period_label} | {run_ts}",
             counts2,
+            logo_file=logo_file,
+            logo_zoom=logo_zoom,
         )
         print(f"[INFO] Mapa gerado: {map2}")
     else:
@@ -852,6 +921,8 @@ def main() -> int:
             map3,
             f"Alertas: Deslizamento\n{period_label} | {run_ts}",
             counts3,
+            logo_file=logo_file,
+            logo_zoom=logo_zoom,
         )
         print(f"[INFO] Mapa gerado: {map3}")
     else:
@@ -872,6 +943,8 @@ def main() -> int:
             map4,
             f"Alertas: Outros tipos\n{period_label} | {run_ts}",
             counts4,
+            logo_file=logo_file,
+            logo_zoom=logo_zoom,
         )
         print(f"[INFO] Mapa gerado: {map4}")
     else:
