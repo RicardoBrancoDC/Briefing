@@ -2,19 +2,21 @@
 # -*- coding: utf-8 -*-
 
 """
-IDAP Daily Maps (refino final)
+IDAP Daily Maps (versão congelada + caixa de resumo por nível em cada mapa)
 Saídas:
 1) mapa_alertas_todos.png
 2) mapa_alertas_chuva_temp_inund.png
 3) mapa_alertas_deslizamento.png
 4) mapa_alertas_outros.png
-+ resumo.json e resumo.md
++ alerts.json, errors.json, resumo.json e resumo.md
 
 Regras:
 - Varre o RSS completo a cada execução (sem filtrar por status).
-- Cor por NIVEL calculado:
+- Cor por NÍVEL calculado:
     Extremo, Severo, Alto, Médio, Baixo, Indefinido
 - Mapas 2, 3 e 4 são filtros por EVENTO.
+- Em cada mapa, no canto inferior direito, aparece um resumo com quantidades por nível
+  (NÃO mostra "Indefinido").
 """
 
 import json
@@ -189,7 +191,7 @@ def _all(elem: ET.Element, path: str, ns: Dict[str, str]) -> List[ET.Element]:
 def _read_url(url: str, timeout: int = 30) -> bytes:
     req = urllib.request.Request(
         url,
-        headers={"User-Agent": "IDAP-Daily-Maps/1.2 (+github-actions)", "Accept": "*/*"},
+        headers={"User-Agent": "IDAP-Daily-Maps/1.3 (+github-actions)", "Accept": "*/*"},
         method="GET",
     )
     with urllib.request.urlopen(req, timeout=timeout) as resp:
@@ -479,16 +481,40 @@ def _make_summary(alerts: List[AlertRecord]) -> Dict[str, Any]:
     }
 
 
+def _counts_by_nivel_from_gdf(alerts_gdf: gpd.GeoDataFrame) -> Dict[str, int]:
+    if alerts_gdf is None or len(alerts_gdf) == 0:
+        return {}
+    d: Dict[str, int] = {}
+    for n in alerts_gdf["nivel"].fillna("Indefinido").astype(str):
+        n2 = n.strip() if n else "Indefinido"
+        d[n2] = d.get(n2, 0) + 1
+    return d
+
+
+def _format_nivel_box(counts: Dict[str, int]) -> str:
+    # Ordem fixa, sem mostrar "Indefinido"
+    order = ["Extremo", "Severo", "Alto", "Médio", "Baixo"]
+    parts = []
+    for k in order:
+        v = counts.get(k, 0)
+        if v > 0:
+            parts.append(f"{nivel_emoji(k)} {k}: {v}")
+    if not parts:
+        return "Sem níveis definidos"
+    return "\n".join(parts)
+
+
 def _plot_alerts_map(
     uf_gdf: gpd.GeoDataFrame,
     alerts_gdf: gpd.GeoDataFrame,
     out_path: str,
     title: str,
+    counts_nivel: Optional[Dict[str, int]] = None,
 ) -> None:
     fig = plt.figure(figsize=(12, 12))
     ax = plt.gca()
 
-    uf_gdf.boundary.plot(ax=ax, linewidth=0.6, alpha=BORDER_ALPHA)
+    uf_gdf.boundary.plot(ax=ax, linewidth=0.6, alpha=0.9)
 
     if len(alerts_gdf) > 0:
         def nivel_color(n: str) -> str:
@@ -502,11 +528,29 @@ def _plot_alerts_map(
             color=alerts_gdf["_color"],
             edgecolor=alerts_gdf["_color"],
             linewidth=0.8,
-            alpha=ALERT_ALPHA,
+            alpha=0.35,
         )
 
     ax.set_title(title, fontsize=12)
     ax.set_axis_off()
+
+    if counts_nivel is not None:
+        box_text = _format_nivel_box(counts_nivel)
+        ax.text(
+            0.99, 0.02,
+            box_text,
+            transform=ax.transAxes,
+            ha="right",
+            va="bottom",
+            fontsize=9,
+            bbox=dict(
+                boxstyle="round,pad=0.35",
+                facecolor="white",
+                alpha=0.85,
+                edgecolor="#333333",
+            ),
+        )
+
     plt.tight_layout()
     fig.savefig(out_path, dpi=200)
     plt.close(fig)
@@ -643,7 +687,7 @@ def main() -> int:
     with open(os.path.join(run_dir, "errors.json"), "w", encoding="utf-8") as f:
         json.dump(errors, f, ensure_ascii=False, indent=2)
 
-    # resumo
+    # resumo geral
     resumo = _make_summary(alerts)
     resumo_json_path = os.path.join(run_dir, "resumo.json")
     resumo_md_path = os.path.join(run_dir, "resumo.md")
@@ -665,11 +709,13 @@ def main() -> int:
     # Mapa 1: todos
     map1 = os.path.join(run_dir, "mapa_alertas_todos.png")
     if len(alerts_gdf_all) > 0:
+        counts1 = _counts_by_nivel_from_gdf(alerts_gdf_all)
         _plot_alerts_map(
             uf_gdf,
             alerts_gdf_all,
             map1,
             f"Alertas IDAP (todos) | {run_ts}",
+            counts1,
         )
         print(f"[INFO] Mapa gerado: {map1}")
     else:
@@ -681,11 +727,13 @@ def main() -> int:
     gdf_2 = _alerts_to_gdf(alerts_2)
     map2 = os.path.join(run_dir, "mapa_alertas_chuva_temp_inund.png")
     if len(gdf_2) > 0:
+        counts2 = _counts_by_nivel_from_gdf(gdf_2)
         _plot_alerts_map(
             uf_gdf,
             gdf_2,
             map2,
             f"Alertas: Chuvas Intensas, Tempestades Convectivas, Inundações | {run_ts}",
+            counts2,
         )
         print(f"[INFO] Mapa gerado: {map2}")
     else:
@@ -697,11 +745,13 @@ def main() -> int:
     gdf_3 = _alerts_to_gdf(alerts_3)
     map3 = os.path.join(run_dir, "mapa_alertas_deslizamento.png")
     if len(gdf_3) > 0:
+        counts3 = _counts_by_nivel_from_gdf(gdf_3)
         _plot_alerts_map(
             uf_gdf,
             gdf_3,
             map3,
             f"Alertas: Deslizamento | {run_ts}",
+            counts3,
         )
         print(f"[INFO] Mapa gerado: {map3}")
     else:
@@ -715,18 +765,20 @@ def main() -> int:
     gdf_4 = _alerts_to_gdf(alerts_4)
     map4 = os.path.join(run_dir, "mapa_alertas_outros.png")
     if len(gdf_4) > 0:
+        counts4 = _counts_by_nivel_from_gdf(gdf_4)
         _plot_alerts_map(
             uf_gdf,
             gdf_4,
             map4,
             f"Alertas: Outros tipos | {run_ts}",
+            counts4,
         )
         print(f"[INFO] Mapa gerado: {map4}")
     else:
         map4 = ""
         print("[WARN] Mapa 4 não gerado: nenhum alerta (outros) com polygon")
 
-    # Telegram (opcional): aqui eu só mando texto, e as imagens uma a uma
+    # Telegram (opcional): manda texto + imagens
     if tg_token and tg_chat_id:
         by_nivel = resumo.get("by_nivel", {}) or {}
         by_reg = resumo.get("by_region", {}) or {}
