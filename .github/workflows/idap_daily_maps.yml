@@ -28,30 +28,20 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Restore cache (.cache)
-        uses: actions/cache@v4
-        with:
-          path: .cache
-          key: idap-daily-cache-${{ runner.os }}-${{ github.ref_name }}
-          restore-keys: |
-            idap-daily-cache-${{ runner.os }}-
-
       - name: Run daily maps
         env:
           RSS_URL: "https://idapfile.mdr.gov.br/idap/api/rss/cap"
           UF_GEOJSON_PATH: "resources/br_uf.geojson"
           OUT_DIR: "out"
-          CACHE_DIR: ".cache"
-          # Se quiser limitar por teste:
-          # MAX_ITEMS: "50"
-
-          # Telegram (se quiser enviar resumo)
-          SEND_TELEGRAM: "1"
+          STATE_PATH: ".cache/state.json"
+          MAX_ITEMS: ""  # vazio = sem limite
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           mkdir -p .cache out
           python scripts/idap_daily_maps.py
+          echo "----- OUT TREE -----"
+          find out -maxdepth 3 -type f -print
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
