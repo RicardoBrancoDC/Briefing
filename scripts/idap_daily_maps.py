@@ -188,15 +188,46 @@ def _all(elem: ET.Element, path: str, ns: Dict[str, str]) -> List[ET.Element]:
         return []
 
 
-def _read_url(url: str, timeout: int = 30) -> bytes:
-    req = urllib.request.Request(
-        url,
-        headers={"User-Agent": "IDAP-Daily-Maps/1.3 (+github-actions)", "Accept": "*/*"},
-        method="GET",
-    )
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return resp.read()
+def _read_url(url: str, timeout: int = 60, retries: int = 4) -> bytes:
+    """
+    Faz download do RSS com tolerância a falhas transitórias.
+    Em alguns runs do GitHub Actions pode ocorrer IncompleteRead (conexão fechada no meio).
+    Aqui a gente tenta novamente algumas vezes, e lê em chunks.
+    """
+    last_err: Optional[Exception] = None
 
+    headers = {
+        "User-Agent": "IDAP-Daily-Maps/1.4 (+github-actions)",
+        "Accept": "*/*",
+        # evita gzip e reduz chance de chunking estranho em alguns ambientes
+        "Accept-Encoding": "identity",
+        "Connection": "close",
+    }
+
+    for attempt in range(1, retries + 1):
+        try:
+            req = urllib.request.Request(url, headers=headers, method="GET")
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                chunks: List[bytes] = []
+                while True:
+                    buf = resp.read(1024 * 64)
+                    if not buf:
+                        break
+                    chunks.append(buf)
+                data = b"".join(chunks)
+
+            # sanity check simples (não falha hard, só tenta novamente se vier vazio)
+            if not data:
+                raise RuntimeError("download vazio")
+            return data
+
+        except Exception as e:
+            last_err = e
+            # pequenas tentativas em sequência, sem dormir pra não alongar o job
+            if attempt < retries:
+                continue
+
+    raise last_err  # type: ignore
 
 def _normalize_text(s: Optional[str]) -> str:
     if not s:
