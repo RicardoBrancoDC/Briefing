@@ -684,9 +684,9 @@ def _plot_alerts_map(
             logo_path = None
 
     if logo_path:
-        _add_logo_to_map(fig, logo_path, scale=logo_scale)
+        _add_logo_to_figure(fig, logo_path, logo_scale=logo_scale)
 
-    plt.tight_layout()
+    fig.tight_layout(rect=[0, 0, 1, 0.92])
     os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
     fig.savefig(out_path, dpi=200)
     plt.close(fig)
@@ -739,36 +739,45 @@ def _write_resumo_md(path: str, resumo: Dict[str, Any]) -> None:
 
 
 
-def _add_logo_to_map(ax, logo_path: str, scale: float = 0.8) -> None:
+def _add_logo_to_figure(fig: plt.Figure, logo_path: str, logo_scale: float = 0.8) -> None:
     """
-    Coloca a logomarca no canto superior direito (dentro do mapa).
-    scale ~ 0.8 significa 80% do tamanho.
+    Insere a logomarca no canto superior direito (dentro da figura).
+    Evita sumir por recorte/tight_layout e funciona bem no GitHub Actions.
+
+    - logo_path: caminho local do PNG
+    - logo_scale: escala relativa (0.8 = 80%)
     """
     try:
-        from matplotlib.offsetbox import OffsetImage, AnnotationBbox
-        import matplotlib.image as mpimg
-
-        if not logo_path or (not os.path.exists(logo_path)):
+        if (not logo_path) or (not os.path.exists(logo_path)):
             return
 
+        import matplotlib.image as mpimg
+
         img = mpimg.imread(logo_path)
+        if img is None:
+            return
 
-        # zoom do matplotlib é relativo; esse fator fica bom em figura 12x12.
-        zoom = 0.18 * float(scale)
+        h = int(getattr(img, "shape", [0, 0])[0] or 0)
+        w = int(getattr(img, "shape", [0, 0])[1] or 0)
+        if h <= 0 or w <= 0:
+            return
 
-        oi = OffsetImage(img, zoom=zoom)
-        ab = AnnotationBbox(
-            oi,
-            (0.985, 0.985),
-            xycoords=ax.transAxes,
-            frameon=False,
-            box_alignment=(1, 1),
-            pad=0.0,
-        )
-        ab.set_clip_on(False)
-        ax.add_artist(ab)
+        aspect = h / float(w)
+
+        # tamanho base (fração da largura da figura)
+        base_w = 0.16 * float(logo_scale)   # ~16% da largura
+        base_h = base_w * aspect
+
+        # deixa uma faixa para o título (duas linhas), então coloca um pouco mais abaixo
+        top_limit = 0.90
+        x0 = 0.985 - base_w
+        y0 = top_limit - base_h
+
+        ax_logo = fig.add_axes([x0, y0, base_w, base_h], zorder=50)
+        ax_logo.imshow(img)
+        ax_logo.axis("off")
     except Exception as e:
-        print(f"[WARN] Logo: falha ao inserir no mapa: {e}")
+        print(f"[WARN] Logo: falha ao inserir: {e}")
 
 def _add_counts_box(ax: plt.Axes, counts_by_nivel: Dict[str, int]) -> None:
     """Caixa de resumo (inferior direito) com as cores dos níveis, sem 'Indefinido'."""
