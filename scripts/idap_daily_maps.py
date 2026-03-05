@@ -633,6 +633,8 @@ def _plot_alerts_map(
     out_path: str,
     title: str,
     counts_nivel: Optional[Dict[str, int]] = None,
+    logo_file: Optional[str] = None,
+    logo_scale: float = 0.8,
 ) -> None:
     fig = plt.figure(figsize=(12, 12))
     ax = plt.gca()
@@ -704,6 +706,22 @@ def _plot_alerts_map(
             leg.get_frame().set_edgecolor("#333333")
 
     plt.tight_layout()
+
+    # Logo (canto superior direito)
+    if logo_file and os.path.exists(logo_file):
+        try:
+            import matplotlib.image as mpimg
+            img = mpimg.imread(logo_file)
+            # tamanho base da caixa do logo na figura (fração)
+            base = 0.16
+            s = float(logo_scale) if logo_scale else 0.8
+            w = max(0.06, min(base * s, 0.25))
+            h = w
+            ax_logo = fig.add_axes([1.0 - w - 0.02, 1.0 - h - 0.02, w, h])
+            ax_logo.imshow(img)
+            ax_logo.axis("off")
+        except Exception:
+            pass
     fig.savefig(out_path, dpi=200)
     plt.close(fig)
 
