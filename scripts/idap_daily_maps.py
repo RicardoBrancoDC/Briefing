@@ -1,579 +1,484 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+# scripts/idap_daily_maps.py
 
-import csv
 import json
 import os
+import re
 import sys
 import time
 import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
-from dataclasses import dataclass, asdict
-from datetime import datetime, timezone
-from typing import Any, Dict, List, Optional, Tuple
-from zoneinfo import ZoneInfo
+from dataclasses import dataclass
+from datetime import datetime
+from typing import Dict, List, Optional, Tuple
+
+import pandas as pd
+import geopandas as gpd
+from shapely.geometry import Polygon
+import matplotlib.pyplot as plt
+
 
 # -----------------------------
 # Config
 # -----------------------------
-
 RSS_URL = os.getenv("RSS_URL", "https://idapfile.mdr.gov.br/idap/api/rss/cap")
 UF_GEOJSON_PATH = os.getenv("UF_GEOJSON_PATH", "resources/br_uf.geojson")
 OUT_DIR = os.getenv("OUT_DIR", "out")
 STATE_PATH = os.getenv("STATE_PATH", ".cache/state.json")
-
-# Limite opcional só para debug (0/ vazio = sem limite)
-MAX_ITEMS_ENV = os.getenv("MAX_ITEMS", "").strip()
-MAX_ITEMS: Optional[int] = int(MAX_ITEMS_ENV) if MAX_ITEMS_ENV.isdigit() and int(MAX_ITEMS_ENV) > 0 else None
-
-HTTP_TIMEOUT = float(os.getenv("HTTP_TIMEOUT", "25"))
-HTTP_RETRIES = int(os.getenv("HTTP_RETRIES", "3"))
-SLEEP_BETWEEN = float(os.getenv("SLEEP_BETWEEN", "0.2"))
-
-TZ = ZoneInfo("America/Sao_Paulo")
+MAX_ITEMS = os.getenv("MAX_ITEMS", "").strip()  # vazio = sem limite
 
 
 # -----------------------------
-# Helpers HTTP
+# Helpers
 # -----------------------------
+def _now_tag() -> str:
+    return datetime.now().strftime("%Y%m%d_%H%M%S")
 
-def _http_get(url: str, timeout: float = HTTP_TIMEOUT) -> bytes:
-    headers = {
-        "User-Agent": "idap-daily-maps/1.0 (github-actions)",
-        "Accept": "*/*",
-    }
-    req = urllib.request.Request(url, headers=headers, method="GET")
+
+def _ensure_dir(path: str) -> None:
+    os.makedirs(path, exist_ok=True)
+
+
+def _http_get(url: str, timeout: int = 30) -> bytes:
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "idap-daily-maps/1.0 (+github-actions)",
+            "Accept": "*/*",
+        },
+        method="GET",
+    )
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read()
 
 
-def http_get_with_retries(url: str, retries: int = HTTP_RETRIES) -> bytes:
-    last_err: Optional[Exception] = None
-    for attempt in range(1, retries + 1):
-        try:
-            return _http_get(url)
-        except Exception as e:
-            last_err = e
-            if attempt < retries:
-                time.sleep(0.8 * attempt)
-                continue
-            raise
-    raise last_err if last_err else RuntimeError("HTTP error (unknown)")
+def _clean_xml_bytes(b: bytes) -> bytes:
+    # remove BOM se existir e espaços estranhos no início
+    if b.startswith(b"\xef\xbb\xbf"):
+        b = b[3:]
+    return b.lstrip()
 
 
-# -----------------------------
-# CAP parsing
-# -----------------------------
-
-NS_ATOM = {"a": "http://www.w3.org/2005/Atom"}
-# CAP 1.2
-NS_CAP = {"cap": "urn:oasis:names:tc:emergency:cap:1.2"}
-
-def _text(el: Optional[ET.Element]) -> str:
-    if el is None or el.text is None:
-        return ""
-    return el.text.strip()
+def _try_parse_xml(b: bytes) -> ET.Element:
+    b = _clean_xml_bytes(b)
+    return ET.fromstring(b)
 
 
-def _find(el: ET.Element, path: str, ns: Dict[str, str]) -> Optional[ET.Element]:
-    return el.find(path, ns)
+def _strip_ns(tag: str) -> str:
+    # "{namespace}tag" -> "tag"
+    if "}" in tag:
+        return tag.split("}", 1)[1]
+    return tag
 
 
-def _findall(el: ET.Element, path: str, ns: Dict[str, str]) -> List[ET.Element]:
-    return el.findall(path, ns)
-
-
-def parse_rss_entries(rss_xml: bytes) -> List[Dict[str, str]]:
+def _find_first_text(root: ET.Element, path_tags: List[str]) -> Optional[str]:
     """
-    Retorna lista de itens do RSS com campos básicos.
-    Tenta capturar o link do CAP (xml) de cada entry.
+    Busca um caminho simples ignorando namespace.
+    Ex: ["info","severity"] pega o primeiro <info><severity>...</severity>
     """
-    root = ET.fromstring(rss_xml)
-    entries: List[Dict[str, str]] = []
-
-    for entry in root.findall("a:entry", NS_ATOM):
-        title = _text(entry.find("a:title", NS_ATOM))
-        entry_id = _text(entry.find("a:id", NS_ATOM))
-
-        # links possíveis
-        links = entry.findall("a:link", NS_ATOM)
-        hrefs = [l.attrib.get("href", "").strip() for l in links if l.attrib.get("href")]
-        hrefs = [h for h in hrefs if h]
-
-        # heurística: preferir link que termine com .xml ou contenha "cap" e "xml"
-        cap_url = ""
-        for h in hrefs:
-            hl = h.lower()
-            if hl.endswith(".xml"):
-                cap_url = h
+    cur = root
+    for t in path_tags:
+        found = None
+        for ch in list(cur):
+            if _strip_ns(ch.tag) == t:
+                found = ch
                 break
-        if not cap_url:
-            for h in hrefs:
-                hl = h.lower()
-                if "cap" in hl and "xml" in hl:
-                    cap_url = h
+        if found is None:
+            return None
+        cur = found
+    return (cur.text or "").strip() if cur is not None else None
+
+
+def _find_all_elements(root: ET.Element, tag_name: str) -> List[ET.Element]:
+    out = []
+    stack = [root]
+    while stack:
+        node = stack.pop()
+        if _strip_ns(node.tag) == tag_name:
+            out.append(node)
+        stack.extend(list(node))
+    return out
+
+
+def _parse_atom_links(feed_root: ET.Element) -> List[str]:
+    """
+    Lê Atom/RSS com tolerância:
+    - Atom: <entry><link href="..."/>
+    - RSS: <item><link>...</link>
+    - Alguns feeds colocam URL no <id> do entry
+    """
+    urls: List[str] = []
+
+    # Atom entries
+    entries = [el for el in list(feed_root) if _strip_ns(el.tag) == "entry"]
+    if entries:
+        for e in entries:
+            # 1) link href
+            for ch in list(e):
+                if _strip_ns(ch.tag) == "link":
+                    href = ch.attrib.get("href", "").strip()
+                    if href.startswith("http"):
+                        urls.append(href)
+                        break
+            else:
+                # 2) <id>http...</id>
+                id_txt = None
+                for ch in list(e):
+                    if _strip_ns(ch.tag) == "id":
+                        id_txt = (ch.text or "").strip()
+                        break
+                if id_txt and id_txt.startswith("http"):
+                    urls.append(id_txt)
+
+        return urls
+
+    # RSS items
+    items = [el for el in list(feed_root) if _strip_ns(el.tag) == "channel"]
+    if items:
+        channel = items[0]
+        for it in list(channel):
+            if _strip_ns(it.tag) != "item":
+                continue
+            link_txt = None
+            for ch in list(it):
+                if _strip_ns(ch.tag) == "link":
+                    link_txt = (ch.text or "").strip()
                     break
-        if not cap_url and hrefs:
-            cap_url = hrefs[0]
+            if link_txt and link_txt.startswith("http"):
+                urls.append(link_txt)
 
-        updated = _text(entry.find("a:updated", NS_ATOM))
-        published = _text(entry.find("a:published", NS_ATOM))
-
-        entries.append(
-            {
-                "title": title,
-                "entry_id": entry_id,
-                "cap_url": cap_url,
-                "updated": updated,
-                "published": published,
-            }
-        )
-
-    return entries
+    return urls
 
 
-@dataclass
-class CapAlert:
-    identifier: str
-    sender: str
-    sent: str
-    status: str
-    msgType: str
-    scope: str
-
-    senderName: str
-    contact: str
-
-    event: str
-    category: str
-    severity: str
-    urgency: str
-    certainty: str
-    headline: str
-    description: str
-    instruction: str
-
-    areaDesc: str
-    polygon: str
-    geocodes: str  # "key=value; key=value"
-    source_cap_url: str
-
-
-def _cap_first_info(alert_root: ET.Element) -> Optional[ET.Element]:
-    infos = alert_root.findall("cap:info", NS_CAP)
-    return infos[0] if infos else None
-
-
-def _join_geocodes(area_el: ET.Element) -> str:
-    pairs: List[str] = []
-    for geocode in area_el.findall("cap:geocode", NS_CAP):
-        name = _text(geocode.find("cap:valueName", NS_CAP))
-        value = _text(geocode.find("cap:value", NS_CAP))
-        if name or value:
-            pairs.append(f"{name}={value}")
-    return "; ".join(pairs)
-
-
-def parse_cap_xml(cap_xml: bytes, source_cap_url: str) -> CapAlert:
-    root = ET.fromstring(cap_xml)
-
-    identifier = _text(_find(root, "cap:identifier", NS_CAP))
-    sender = _text(_find(root, "cap:sender", NS_CAP))
-    sent = _text(_find(root, "cap:sent", NS_CAP))
-    status = _text(_find(root, "cap:status", NS_CAP))
-    msgType = _text(_find(root, "cap:msgType", NS_CAP))
-    scope = _text(_find(root, "cap:scope", NS_CAP))
-
-    senderName = _text(_find(root, "cap:senderName", NS_CAP))
-    contact = _text(_find(root, "cap:contact", NS_CAP))
-
-    info = _cap_first_info(root)
-    if info is None:
-        # CAP estranho, mas vamos manter um objeto "vazio" sem quebrar
-        return CapAlert(
-            identifier=identifier,
-            sender=sender,
-            sent=sent,
-            status=status,
-            msgType=msgType,
-            scope=scope,
-            senderName=senderName,
-            contact=contact,
-            event="",
-            category="",
-            severity="",
-            urgency="",
-            certainty="",
-            headline="",
-            description="",
-            instruction="",
-            areaDesc="",
-            polygon="",
-            geocodes="",
-            source_cap_url=source_cap_url,
-        )
-
-    # alguns campos podem aparecer várias vezes (ex: category), então juntamos
-    category_list = [_text(x) for x in info.findall("cap:category", NS_CAP)]
-    category = "; ".join([c for c in category_list if c])
-
-    event = _text(_find(info, "cap:event", NS_CAP))
-    severity = _text(_find(info, "cap:severity", NS_CAP))
-    urgency = _text(_find(info, "cap:urgency", NS_CAP))
-    certainty = _text(_find(info, "cap:certainty", NS_CAP))
-    headline = _text(_find(info, "cap:headline", NS_CAP))
-    description = _text(_find(info, "cap:description", NS_CAP))
-    instruction = _text(_find(info, "cap:instruction", NS_CAP))
-
-    # Pega primeira área por padrão, mas se quiser depois dá pra expandir
-    area = info.find("cap:area", NS_CAP)
-    areaDesc = _text(area.find("cap:areaDesc", NS_CAP)) if area is not None else ""
-    polygon = _text(area.find("cap:polygon", NS_CAP)) if area is not None else ""
-    geocodes = _join_geocodes(area) if area is not None else ""
-
-    return CapAlert(
-        identifier=identifier,
-        sender=sender,
-        sent=sent,
-        status=status,
-        msgType=msgType,
-        scope=scope,
-        senderName=senderName,
-        contact=contact,
-        event=event,
-        category=category,
-        severity=severity,
-        urgency=urgency,
-        certainty=certainty,
-        headline=headline,
-        description=description,
-        instruction=instruction,
-        areaDesc=areaDesc,
-        polygon=polygon,
-        geocodes=geocodes,
-        source_cap_url=source_cap_url,
-    )
-
-
-# -----------------------------
-# Stats
-# -----------------------------
-
-def _norm(s: str) -> str:
-    return (s or "").strip()
-
-
-def compute_stats(alerts: List[CapAlert]) -> Dict[str, Any]:
-    def count_by(key_fn):
-        out: Dict[str, int] = {}
-        for a in alerts:
-            k = _norm(key_fn(a)) or "(vazio)"
-            out[k] = out.get(k, 0) + 1
-        # ordenar por contagem desc
-        return dict(sorted(out.items(), key=lambda kv: (-kv[1], kv[0])))
-
-    stats = {
-        "total_alerts": len(alerts),
-        "by_status": count_by(lambda a: a.status),
-        "by_msgType": count_by(lambda a: a.msgType),
-        "by_severity": count_by(lambda a: a.severity),
-        "by_event": count_by(lambda a: a.event),
-        "by_senderName": count_by(lambda a: a.senderName),
-        "by_areaDesc": count_by(lambda a: a.areaDesc),
-    }
-    return stats
-
-
-# -----------------------------
-# Map plotting (optional)
-# -----------------------------
-
-def _parse_cap_polygon(polygon_text: str):
+def _parse_polygon_text(poly_text: str) -> Optional[Polygon]:
     """
-    CAP polygon: "lat,lon lat,lon ..."
-    Retorna shapely Polygon em EPSG:4326.
+    CAP polygon é algo tipo:
+    "-21.611,-44.386 -21.603,-44.373 ..."
+    (lat,lon) separados por espaço.
+    Shapely usa (x,y) = (lon,lat).
     """
-    from shapely.geometry import Polygon  # type: ignore
-
-    pts = []
-    raw = (polygon_text or "").strip()
-    if not raw:
+    poly_text = (poly_text or "").strip()
+    if not poly_text:
         return None
 
-    # CAP separa pontos por espaço
-    parts = raw.split()
-    for p in parts:
-        p = p.strip()
-        if not p:
+    pts = []
+    for token in re.split(r"\s+", poly_text):
+        token = token.strip()
+        if not token:
             continue
-        if "," not in p:
+        if "," not in token:
             continue
-        lat_s, lon_s = p.split(",", 1)
+        a, b = token.split(",", 1)
         try:
-            lat = float(lat_s)
-            lon = float(lon_s)
+            lat = float(a)
+            lon = float(b)
+            pts.append((lon, lat))
         except ValueError:
             continue
-        # shapely usa (x, y) = (lon, lat)
-        pts.append((lon, lat))
 
     if len(pts) < 3:
         return None
 
-    # às vezes o CAP repete o primeiro ponto no final, ok
+    # fecha polígono se necessário
+    if pts[0] != pts[-1]:
+        pts.append(pts[0])
+
     try:
         return Polygon(pts)
     except Exception:
         return None
 
 
-def plot_map(alerts: List[CapAlert], uf_geojson_path: str, out_png: str) -> Tuple[bool, str]:
-    """
-    Plota mapa do Brasil (UF) + polígonos dos alertas que tiverem polygon.
-    Se geopandas/shapely/matplotlib não existirem, retorna False.
-    """
+def _severity_color(sev: str) -> str:
+    s = (sev or "").strip().lower()
+    # você pode ajustar aqui se quiser “muito alta” virar vermelho etc.
+    if s in ["extreme", "extremo"]:
+        return "#7B2CBF"  # roxo
+    if s in ["severe", "severo"]:
+        return "#D00000"  # vermelho
+    if s in ["very high", "muito alta", "muito alto"]:
+        return "#D00000"
+    if s in ["high", "alta", "alto"]:
+        return "#FFB703"  # amarelo/laranja
+    if s in ["moderate", "moderada", "moderado"]:
+        return "#2A9D8F"  # verde
+    if s in ["minor", "baixa", "baixo"]:
+        return "#6C757D"  # cinza
+    return "#1D3557"     # azul escuro fallback
+
+
+@dataclass
+class CapAlert:
+    cap_url: str
+    identifier: str
+    sender: str
+    sent: str
+    status: str
+    msg_type: str
+    event: str
+    severity: str
+    urgency: str
+    certainty: str
+    area_desc: str
+    polygons: List[Polygon]
+
+
+def _parse_cap_xml(cap_xml: bytes, cap_url: str) -> CapAlert:
+    root = _try_parse_xml(cap_xml)
+
+    # CAP 1.2 normalmente tem raiz <alert> e <info>...
+    identifier = _find_first_text(root, ["identifier"]) or ""
+    sender = _find_first_text(root, ["sender"]) or ""
+    sent = _find_first_text(root, ["sent"]) or ""
+    status = _find_first_text(root, ["status"]) or ""
+    msg_type = _find_first_text(root, ["msgType"]) or ""
+
+    # pega o primeiro <info> (se tiver vários)
+    info_nodes = [n for n in list(root) if _strip_ns(n.tag) == "info"]
+    info = info_nodes[0] if info_nodes else root
+
+    def info_text(tag: str) -> str:
+        for ch in list(info):
+            if _strip_ns(ch.tag) == tag:
+                return (ch.text or "").strip()
+        return ""
+
+    event = info_text("event")
+    severity = info_text("severity")
+    urgency = info_text("urgency")
+    certainty = info_text("certainty")
+
+    # pega areaDesc e polygons (pode ter múltiplos <area>)
+    area_desc = ""
+    polygons: List[Polygon] = []
+
+    for area in [n for n in list(info) if _strip_ns(n.tag) == "area"]:
+        for ch in list(area):
+            t = _strip_ns(ch.tag)
+            if t == "areaDesc" and not area_desc:
+                area_desc = (ch.text or "").strip()
+            if t == "polygon":
+                poly = _parse_polygon_text(ch.text or "")
+                if poly is not None and poly.is_valid:
+                    polygons.append(poly)
+
+    return CapAlert(
+        cap_url=cap_url,
+        identifier=identifier,
+        sender=sender,
+        sent=sent,
+        status=status,
+        msg_type=msg_type,
+        event=event,
+        severity=severity,
+        urgency=urgency,
+        certainty=certainty,
+        area_desc=area_desc,
+        polygons=polygons,
+    )
+
+
+def _safe_write_json(path: str, obj: dict) -> None:
+    _ensure_dir(os.path.dirname(path) or ".")
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(obj, f, ensure_ascii=False, indent=2)
+    os.replace(tmp, path)
+
+
+def _load_state(path: str) -> dict:
+    if not os.path.exists(path):
+        return {}
     try:
-        import geopandas as gpd  # type: ignore
-        import matplotlib.pyplot as plt  # type: ignore
-        from shapely.geometry import Polygon  # noqa
-    except Exception as e:
-        return False, f"dependências do mapa não disponíveis ({e})"
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
 
-    if not os.path.exists(uf_geojson_path):
-        return False, f"UF_GEOJSON_PATH não encontrado: {uf_geojson_path}"
 
-    # carregar UF
-    try:
-        uf_gdf = gpd.read_file(uf_geojson_path)
-    except Exception as e:
-        return False, f"falha lendo geojson de UF ({e})"
-
-    # montar gdf de polígonos de alertas
+def _plot_map(uf_path: str, alerts: List[CapAlert], out_png: str) -> bool:
     polys = []
-    meta = []
+    rows = []
     for a in alerts:
-        poly = _parse_cap_polygon(a.polygon)
-        if poly is None:
-            continue
-        polys.append(poly)
-        meta.append(
-            {
-                "identifier": a.identifier,
-                "severity": a.severity,
-                "event": a.event,
-                "areaDesc": a.areaDesc,
-            }
-        )
+        for p in a.polygons:
+            polys.append(p)
+            rows.append(
+                {
+                    "identifier": a.identifier,
+                    "event": a.event,
+                    "severity": a.severity,
+                    "status": a.status,
+                    "sent": a.sent,
+                    "cap_url": a.cap_url,
+                }
+            )
 
     if not polys:
-        return False, "nenhum alerta com polygon para plotar"
+        print("[WARN] Mapa não gerado: nenhum alerta com polygon para plotar")
+        return False
 
     try:
-        gdf_alerts = gpd.GeoDataFrame(meta, geometry=polys, crs="EPSG:4326")
+        uf = gpd.read_file(uf_path)
     except Exception as e:
-        return False, f"falha criando GeoDataFrame dos alertas ({e})"
+        print(f"[ERROR] Falha ao ler UF_GEOJSON_PATH={uf_path}: {e}")
+        raise
 
-    # plot
-    try:
-        fig = plt.figure(figsize=(12, 10))
-        ax = fig.add_subplot(1, 1, 1)
+    gdf = gpd.GeoDataFrame(rows, geometry=polys, crs="EPSG:4326")
 
-        uf_gdf.plot(ax=ax, linewidth=0.6, edgecolor="black", facecolor="none")
-        gdf_alerts.plot(ax=ax, alpha=0.35)  # sem forçar cores aqui
+    fig = plt.figure(figsize=(12, 10))
+    ax = plt.gca()
 
-        ax.set_title("IDAP CAP: polígonos presentes no RSS (execução do horário)", fontsize=12)
-        ax.set_xlabel("Longitude")
-        ax.set_ylabel("Latitude")
+    # estados como base
+    uf.boundary.plot(ax=ax, linewidth=0.8)
 
-        fig.tight_layout()
-        fig.savefig(out_png, dpi=150)
-        plt.close(fig)
-        return True, "ok"
-    except Exception as e:
-        return False, f"falha plotando mapa ({e})"
+    # plot por severidade, mantendo simples
+    # (fazemos em camadas para não misturar)
+    severities = list(pd.unique(gdf["severity"].fillna("").astype(str)))
+    for sev in severities:
+        sub = gdf[gdf["severity"].astype(str) == sev]
+        if sub.empty:
+            continue
+        sub.plot(
+            ax=ax,
+            facecolor=_severity_color(sev),
+            edgecolor=_severity_color(sev),
+            alpha=0.35,
+            linewidth=1.0,
+        )
 
+    ax.set_title("IDAP CAP, polígonos do RSS (varredura completa)")
+    ax.set_axis_off()
 
-# -----------------------------
-# IO
-# -----------------------------
+    _ensure_dir(os.path.dirname(out_png) or ".")
+    plt.savefig(out_png, dpi=200, bbox_inches="tight")
+    plt.close(fig)
+    return True
 
-def ensure_parent_dir(path: str) -> None:
-    parent = os.path.dirname(path)
-    if parent:
-        os.makedirs(parent, exist_ok=True)
-
-
-def write_csv(alerts: List[CapAlert], path: str) -> None:
-    ensure_parent_dir(path)
-    fieldnames = list(asdict(alerts[0]).keys()) if alerts else [
-        "identifier","sender","sent","status","msgType","scope","senderName","contact",
-        "event","category","severity","urgency","certainty","headline","description","instruction",
-        "areaDesc","polygon","geocodes","source_cap_url"
-    ]
-    with open(path, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=fieldnames)
-        w.writeheader()
-        for a in alerts:
-            w.writerow(asdict(a))
-
-
-def write_json(obj: Any, path: str) -> None:
-    ensure_parent_dir(path)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(obj, f, ensure_ascii=False, indent=2)
-
-
-def write_text(text: str, path: str) -> None:
-    ensure_parent_dir(path)
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(text)
-
-
-def update_state(state_path: str, run_meta: Dict[str, Any]) -> None:
-    """
-    Não filtra nada. Só grava um registro simples para você saber que o job
-    rodou e em que horário, e quantos CAPs conseguiu ler.
-    """
-    ensure_parent_dir(state_path)
-    state = {}
-    if os.path.exists(state_path):
-        try:
-            with open(state_path, "r", encoding="utf-8") as f:
-                state = json.load(f) or {}
-        except Exception:
-            state = {}
-
-    state["last_run"] = run_meta
-    with open(state_path, "w", encoding="utf-8") as f:
-        json.dump(state, f, ensure_ascii=False, indent=2)
-
-
-# -----------------------------
-# Main
-# -----------------------------
 
 def main() -> int:
-    os.makedirs(OUT_DIR, exist_ok=True)
+    _ensure_dir(".cache")
+    _ensure_dir(OUT_DIR)
 
-    now_sp = datetime.now(TZ)
-    run_id = now_sp.strftime("%Y%m%d_%H%M%S")
-    run_dir = os.path.join(OUT_DIR, f"run_{run_id}")
-    os.makedirs(run_dir, exist_ok=True)
+    run_tag = _now_tag()
+    run_dir = os.path.join(OUT_DIR, f"run_{run_tag}")
+    _ensure_dir(run_dir)
 
     print(f"[INFO] RSS_URL={RSS_URL}")
     print(f"[INFO] UF_GEOJSON_PATH={UF_GEOJSON_PATH}")
     print(f"[INFO] OUT_DIR={OUT_DIR}")
     print(f"[INFO] RUN_DIR={run_dir}")
     print(f"[INFO] STATE_PATH={STATE_PATH}")
-    print(f"[INFO] MAX_ITEMS={MAX_ITEMS if MAX_ITEMS else '(sem limite)'}")
+    print(f"[INFO] MAX_ITEMS={(MAX_ITEMS or '(sem limite)')}")
 
-    # 1) RSS
+    # garante state.json sempre
+    state = _load_state(STATE_PATH)
+    state["last_run_tag"] = run_tag
+    state["last_run_iso"] = datetime.now().isoformat(timespec="seconds")
+    _safe_write_json(STATE_PATH, state)
+
+    # baixa RSS
     try:
-        rss_xml = http_get_with_retries(RSS_URL)
+        rss_bytes = _http_get(RSS_URL, timeout=40)
     except Exception as e:
-        print(f"[ERROR] Falha baixando RSS: {e}", file=sys.stderr)
+        print(f"[ERROR] Falha ao baixar RSS: {e}")
         return 2
 
-    rss_path = os.path.join(run_dir, "rss.xml")
-    write_text(rss_xml.decode("utf-8", errors="replace"), rss_path)
+    try:
+        feed_root = _try_parse_xml(rss_bytes)
+    except Exception as e:
+        print(f"[ERROR] RSS retornou algo que não parece XML: {e}")
+        return 2
 
-    entries = parse_rss_entries(rss_xml)
-    if MAX_ITEMS is not None:
-        entries = entries[:MAX_ITEMS]
+    cap_urls = _parse_atom_links(feed_root)
 
-    print(f"[INFO] Entradas no RSS (consideradas): {len(entries)}")
+    # remove duplicadas mantendo ordem
+    seen = set()
+    cap_urls_unique = []
+    for u in cap_urls:
+        if u in seen:
+            continue
+        seen.add(u)
+        cap_urls_unique.append(u)
+
+    if MAX_ITEMS:
+        try:
+            n = int(MAX_ITEMS)
+            cap_urls_unique = cap_urls_unique[: max(0, n)]
+        except ValueError:
+            pass
+
+    print(f"[INFO] Entradas no RSS (consideradas): {len(cap_urls_unique)}")
 
     alerts: List[CapAlert] = []
     errors: List[Dict[str, str]] = []
 
-    # 2) baixar e parsear cada CAP
-    for i, it in enumerate(entries, start=1):
-        cap_url = it.get("cap_url", "")
-        if not cap_url:
-            errors.append({"where": "rss_entry", "error": "cap_url vazio", "entry_id": it.get("entry_id", "")})
-            continue
-
+    for i, cap_url in enumerate(cap_urls_unique, start=1):
         try:
-            cap_xml = http_get_with_retries(cap_url)
-            alert = parse_cap_xml(cap_xml, cap_url)
+            cap_xml = _http_get(cap_url, timeout=40)
+            alert = _parse_cap_xml(cap_xml, cap_url=cap_url)
             alerts.append(alert)
+        except urllib.error.HTTPError as e:
+            errors.append({"cap_url": cap_url, "error": f"HTTPError {e.code}"})
+        except urllib.error.URLError as e:
+            errors.append({"cap_url": cap_url, "error": f"URLError {e.reason}"})
+        except ET.ParseError as e:
+            errors.append({"cap_url": cap_url, "error": f"XML ParseError: {e}"})
         except Exception as e:
-            errors.append({"where": "cap_download_or_parse", "cap_url": cap_url, "error": str(e)})
-        finally:
-            if SLEEP_BETWEEN > 0:
-                time.sleep(SLEEP_BETWEEN)
+            errors.append({"cap_url": cap_url, "error": f"Exception: {e}"})
 
-        if i % 25 == 0:
-            print(f"[INFO] Processadas {i}/{len(entries)} entradas...")
+        # uma pequena pausa ajuda em alguns hosts
+        time.sleep(0.2)
 
     print(f"[INFO] CAPs parseados: {len(alerts)} | erros: {len(errors)}")
 
-    # 3) salvar tabela completa
-    csv_path = os.path.join(run_dir, "alerts_full.csv")
-    write_csv(alerts, csv_path)
-
-    # 4) stats completas (sem filtrar status)
-    stats = compute_stats(alerts)
-    stats_path = os.path.join(run_dir, "stats.json")
-    write_json(stats, stats_path)
-
-    # 5) relatório simples em markdown
-    lines = []
-    lines.append(f"# IDAP Daily Maps\n")
-    lines.append(f"- Data/hora (São Paulo): {now_sp.strftime('%d/%m/%Y %H:%M:%S')}\n")
-    lines.append(f"- Total de alertas no RSS (considerados): {len(entries)}\n")
-    lines.append(f"- CAPs parseados com sucesso: {len(alerts)}\n")
-    lines.append(f"- Erros: {len(errors)}\n")
-
-    def top_n(d: Dict[str, int], n: int = 12) -> str:
-        items = list(d.items())[:n]
-        return "\n".join([f"  - {k}: {v}" for k, v in items]) if items else "  - (vazio)"
-
-    lines.append("\n## Por severidade\n")
-    lines.append(top_n(stats.get("by_severity", {})))
-
-    lines.append("\n\n## Por evento\n")
-    lines.append(top_n(stats.get("by_event", {})))
-
-    lines.append("\n\n## Por status\n")
-    lines.append(top_n(stats.get("by_status", {})))
-
-    lines.append("\n\n## Por órgão (senderName)\n")
-    lines.append(top_n(stats.get("by_senderName", {})))
-
-    md_path = os.path.join(run_dir, "stats.md")
-    write_text("\n".join(lines) + "\n", md_path)
-
-    # 6) erros (se houver)
+    # salva erros
     if errors:
-        errors_path = os.path.join(run_dir, "errors.json")
-        write_json(errors, errors_path)
+        _safe_write_json(os.path.join(run_dir, "errors.json"), {"errors": errors})
 
-    # 7) mapa (opcional)
-    map_png = os.path.join(run_dir, "map_alert_polygons.png")
-    ok_map, msg_map = plot_map(alerts, UF_GEOJSON_PATH, map_png)
-    if ok_map:
-        print(f"[INFO] Mapa gerado: {map_png}")
-    else:
-        print(f"[WARN] Mapa não gerado: {msg_map}")
+    # dataframe para estatísticas (inclui todos status)
+    rows = []
+    for a in alerts:
+        rows.append(
+            {
+                "identifier": a.identifier,
+                "sender": a.sender,
+                "sent": a.sent,
+                "status": a.status,
+                "msgType": a.msg_type,
+                "event": a.event,
+                "severity": a.severity,
+                "urgency": a.urgency,
+                "certainty": a.certainty,
+                "areaDesc": a.area_desc,
+                "cap_url": a.cap_url,
+                "polygon_count": len(a.polygons),
+            }
+        )
 
-    # 8) state.json: não filtra nada, só registra a execução
-    run_meta = {
-        "run_id": run_id,
-        "timestamp_sp": now_sp.isoformat(),
+    df = pd.DataFrame(rows)
+    df.to_csv(os.path.join(run_dir, "alerts.csv"), index=False, encoding="utf-8")
+
+    stats = {
+        "run_tag": run_tag,
         "rss_url": RSS_URL,
-        "entries_considered": len(entries),
-        "alerts_parsed": len(alerts),
-        "errors": len(errors),
-        "run_dir": run_dir,
+        "count_rss_items": len(cap_urls_unique),
+        "count_parsed": len(alerts),
+        "count_errors": len(errors),
+        "by_status": df["status"].value_counts(dropna=False).to_dict() if not df.empty else {},
+        "by_severity": df["severity"].value_counts(dropna=False).to_dict() if not df.empty else {},
+        "by_event": df["event"].value_counts(dropna=False).head(30).to_dict() if not df.empty else {},
+        "with_polygon": int((df["polygon_count"] > 0).sum()) if not df.empty else 0,
     }
+    _safe_write_json(os.path.join(run_dir, "stats.json"), stats)
+
+    # mapa
+    out_png = os.path.join(run_dir, "mapa_alertas.png")
     try:
-        update_state(STATE_PATH, run_meta)
-        # também copia uma versão dentro do run_dir só pra você ver no artifact
-        write_json(run_meta, os.path.join(run_dir, "run_meta.json"))
-    except Exception as e:
-        print(f"[WARN] Falha atualizando STATE_PATH: {e}")
+        _plot_map(UF_GEOJSON_PATH, alerts, out_png)
+    except Exception:
+        # já logou erro específico, não derruba tudo
+        pass
 
     print("[INFO] Finalizado.")
     return 0
