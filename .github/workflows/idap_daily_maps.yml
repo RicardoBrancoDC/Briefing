@@ -32,6 +32,7 @@ jobs:
         env:
           RSS_URL: "https://idapfile.mdr.gov.br/idap/api/rss/cap"
           UF_GEOJSON_PATH: "resources/br_uf.geojson"
+          LOGO_PATH: "resources/marca_sedec.png"
           OUT_DIR: "out"
           STATE_PATH: ".cache/state.json"
           MAX_ITEMS: ""  # vazio = sem limite
