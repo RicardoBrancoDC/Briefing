@@ -1,167 +1,172 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import csv
-import io
+"""
+IDAP Daily Maps
+- Lê o RSS Atom da IDAP (CAP 1.2 dentro do <content type="text/xml">)
+- Faz varredura COMPLETA a cada execução (não filtra por status)
+- Parseia CAPs, extrai polygon/geocode, monta estatísticas
+- Gera um mapa PNG (UFs + polígonos dos alertas)
+- Envia resumo + mapa para Telegram (opcional, via env vars)
+- Escreve saídas em out/run_YYYYMMDD_HHMMSS/
+- Mantém .cache/state.json (mesmo que você não use para filtro)
+"""
+
 import json
 import os
+import re
 import sys
 import time
-from dataclasses import dataclass, asdict
+import urllib.request
+import urllib.error
+import xml.etree.ElementTree as ET
+from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional, Tuple
 
-import xml.etree.ElementTree as ET
-
-# deps
-import pandas as pd
-import matplotlib.pyplot as plt
-
+# Dependências: geopandas, shapely, matplotlib
 import geopandas as gpd
 from shapely.geometry import Polygon, MultiPolygon
-from shapely import wkt
+from shapely.geometry.base import BaseGeometry
+import matplotlib.pyplot as plt
 
-try:
-    import requests
-except Exception:
-    requests = None
 
+# ----------------------------
+# Config / Env
+# ----------------------------
 
 ATOM_NS = {"atom": "http://www.w3.org/2005/Atom", "dc": "http://purl.org/dc/elements/1.1/"}
 CAP_NS = {"cap": "urn:oasis:names:tc:emergency:cap:1.2"}
 
+DEFAULT_RSS_URL = "https://idapfile.mdr.gov.br/idap/api/rss/cap"
+DEFAULT_UF_GEOJSON_PATH = "resources/br_uf.geojson"
+DEFAULT_OUT_DIR = "out"
+DEFAULT_STATE_PATH = ".cache/state.json"
 
-def _env(name: str, default: str = "") -> str:
-    v = os.getenv(name)
-    return default if v is None else v
+SEVERITY_COLORS = {
+    # CAP severity: Extreme, Severe, Moderate, Minor, Unknown
+    "Extreme": "#6a0dad",   # roxo
+    "Severe":  "#d62728",   # vermelho
+    "Moderate": "#ff7f0e",  # laranja
+    "Minor":   "#ffd92f",   # amarelo
+    "Unknown": "#7f7f7f",   # cinza
+    None:      "#7f7f7f",
+    "":        "#7f7f7f",
+}
+
+# se quiser deixar mais visível:
+ALERT_ALPHA = 0.35
+BORDER_ALPHA = 0.9
 
 
-def _now_utc_iso() -> str:
-    return datetime.now(timezone.utc).isoformat()
+# ----------------------------
+# Modelos
+# ----------------------------
+
+@dataclass
+class AlertRecord:
+    identifier: str
+    sender: Optional[str]
+    senderName: Optional[str]
+    sent: Optional[str]
+    status: Optional[str]
+    msgType: Optional[str]
+
+    category: Optional[str]
+    event: Optional[str]
+    urgency: Optional[str]
+    severity: Optional[str]
+    certainty: Optional[str]
+    onset: Optional[str]
+    expires: Optional[str]
+
+    headline: Optional[str]
+    description: Optional[str]
+    instruction: Optional[str]
+    web: Optional[str]
+    contact: Optional[str]
+
+    channel_list: Optional[str]
+
+    areaDesc: Optional[str]
+    polygon_raw: Optional[str]
+    polygon_points: int
+    has_geocode: bool
+    uf_hint: Optional[str]  # tentativa de UF (ex: GO)
+
+    # geometria (não vai para JSON direto)
+    geometry_wkt: Optional[str]
 
 
-def _safe_filename(s: str) -> str:
-    keep = []
-    for ch in s:
-        if ch.isalnum() or ch in ("-", "_", ".", " "):
-            keep.append(ch)
-        else:
-            keep.append("_")
-    out = "".join(keep).strip().replace(" ", "_")
-    return out[:120] if len(out) > 120 else out
+# ----------------------------
+# Utilitários
+# ----------------------------
+
+def _now_sp() -> datetime:
+    # sem depender de pytz/zoneinfo
+    # a string do run dir só precisa ser estável
+    return datetime.now().astimezone()
 
 
-def _parse_iso(dt_str: str) -> Optional[datetime]:
-    if not dt_str:
+def _safe_text(elem: Optional[ET.Element]) -> Optional[str]:
+    if elem is None:
         return None
+    txt = elem.text
+    if txt is None:
+        return None
+    txt = txt.strip()
+    return txt if txt != "" else None
+
+
+def _first(elem: ET.Element, path: str, ns: Dict[str, str]) -> Optional[ET.Element]:
     try:
-        # aceita Z e offsets
-        if dt_str.endswith("Z"):
-            return datetime.fromisoformat(dt_str.replace("Z", "+00:00"))
-        return datetime.fromisoformat(dt_str)
+        return elem.find(path, ns)
     except Exception:
         return None
 
 
-def _http_get_text(url: str, timeout: int = 30) -> str:
-    if requests is None:
-        import urllib.request
-        with urllib.request.urlopen(url, timeout=timeout) as r:
-            return r.read().decode("utf-8", errors="replace")
-    r = requests.get(url, timeout=timeout)
-    r.raise_for_status()
-    r.encoding = "utf-8"
-    return r.text
-
-
-def _mkdirp(path: str) -> None:
-    os.makedirs(path, exist_ok=True)
-
-
-def _read_json(path: str) -> Optional[Dict[str, Any]]:
-    if not os.path.exists(path):
-        return None
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def _write_json(path: str, obj: Any) -> None:
-    _mkdirp(os.path.dirname(path) or ".")
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(obj, f, ensure_ascii=False, indent=2)
-
-
-def _telegram_send_message(token: str, chat_id: str, text: str) -> bool:
-    if not token or not chat_id:
-        return False
-    url = f"https://api.telegram.org/bot{token}/sendMessage"
-    payload = {"chat_id": chat_id, "text": text}
+def _all(elem: ET.Element, path: str, ns: Dict[str, str]) -> List[ET.Element]:
     try:
-        if requests is None:
-            import urllib.parse, urllib.request
-            data = urllib.parse.urlencode(payload).encode("utf-8")
-            req = urllib.request.Request(url, data=data, method="POST")
-            with urllib.request.urlopen(req, timeout=30) as r:
-                _ = r.read()
-            return True
-        r = requests.post(url, data=payload, timeout=30)
-        r.raise_for_status()
-        return True
-    except Exception as e:
-        print(f"[WARN] Telegram: falha ao enviar mensagem: {e}")
-        return False
+        return elem.findall(path, ns) or []
+    except Exception:
+        return []
 
 
-def _telegram_send_document(token: str, chat_id: str, file_path: str, caption: str = "") -> bool:
+def _read_url(url: str, timeout: int = 30) -> bytes:
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": "IDAP-Daily-Maps/1.0 (+github-actions)",
+            "Accept": "*/*",
+        },
+        method="GET",
+    )
+    with urllib.request.urlopen(req, timeout=timeout) as resp:
+        return resp.read()
+
+
+def _parse_polygon_str(poly_str: str) -> Optional[BaseGeometry]:
     """
-    Envia arquivo como documento (melhor para PNG grande, sem compressão agressiva).
-    Requer requests. Se requests não estiver disponível, retorna False.
-    """
-    if not token or not chat_id:
-        return False
-    if not os.path.exists(file_path):
-        return False
-    if requests is None:
-        print("[WARN] Telegram: requests não disponível, não dá para enviar arquivo.")
-        return False
-
-    url = f"https://api.telegram.org/bot{token}/sendDocument"
-    try:
-        with open(file_path, "rb") as f:
-            files = {"document": (os.path.basename(file_path), f)}
-            data = {"chat_id": chat_id, "caption": caption} if caption else {"chat_id": chat_id}
-            r = requests.post(url, data=data, files=files, timeout=60)
-            r.raise_for_status()
-        return True
-    except Exception as e:
-        print(f"[WARN] Telegram: falha ao enviar arquivo: {e}")
-        return False
-
-
-def _cap_text(el: Optional[ET.Element]) -> str:
-    if el is None or el.text is None:
-        return ""
-    return el.text.strip()
-
-
-def _parse_polygon_str(poly_str: str) -> Optional[Polygon]:
-    """
-    CAP polygon: "lat,lon lat,lon lat,lon"
-    shapely Polygon espera (x,y) = (lon,lat)
+    CAP polygon vem como "lat,lon lat,lon ..."
+    Shapely espera (x,y) = (lon,lat)
     """
     if not poly_str:
         return None
-    pts = []
-    for part in poly_str.strip().split():
-        if "," not in part:
+    poly_str = poly_str.strip()
+    if not poly_str:
+        return None
+
+    pts: List[Tuple[float, float]] = []
+    for token in poly_str.split():
+        if "," not in token:
             continue
-        a, b = part.split(",", 1)
+        a, b = token.split(",", 1)
         try:
             lat = float(a)
             lon = float(b)
-            pts.append((lon, lat))
-        except Exception:
+        except ValueError:
             continue
+        pts.append((lon, lat))
 
     if len(pts) < 3:
         return None
@@ -170,366 +175,521 @@ def _parse_polygon_str(poly_str: str) -> Optional[Polygon]:
     if pts[0] != pts[-1]:
         pts.append(pts[0])
 
+    geom: BaseGeometry = Polygon(pts)
+
+    # “conserta” polígonos inválidos; pode virar MultiPolygon
+    if not geom.is_valid:
+        geom = geom.buffer(0)
+
+    if geom.is_empty:
+        return None
+
+    return geom
+
+
+def _geom_points_count(geom: Optional[BaseGeometry]) -> int:
+    """
+    Conta pontos do contorno, funciona para Polygon e MultiPolygon.
+    Esse é o ponto que estava quebrando no seu run.
+    """
     try:
-        p = Polygon(pts)
-        if not p.is_valid or p.is_empty:
-            p = p.buffer(0)
-        if p.is_empty:
-            return None
-        return p
+        if geom is None or geom.is_empty:
+            return 0
+
+        if geom.geom_type == "Polygon":
+            return len(geom.exterior.coords) if geom.exterior else 0
+
+        if geom.geom_type == "MultiPolygon":
+            best = 0
+            mp: MultiPolygon = geom  # type: ignore
+            for g in mp.geoms:
+                if g.exterior:
+                    best = max(best, len(g.exterior.coords))
+            return best
+
+        return 0
+    except Exception:
+        return 0
+
+
+def _guess_uf(area_desc: Optional[str], identifier: str) -> Optional[str]:
+    # exemplos comuns: "/GO", "MINAS GERAIS/MG", "GOIÁS/GO", "GO", etc
+    txt = (area_desc or "").strip().upper()
+
+    m = re.search(r"/([A-Z]{2})\b", txt)
+    if m:
+        return m.group(1)
+
+    m = re.search(r"\b([A-Z]{2})\b", txt)
+    if m:
+        # cuidado: pode pegar coisas aleatórias, mas costuma funcionar se areaDesc for curto
+        return m.group(1)
+
+    # fallback: nada
+    return None
+
+
+def _cap_get_parameter(info_elem: ET.Element, value_name: str) -> Optional[str]:
+    # <parameter><valueName>CHANNEL-LIST</valueName><value>Google</value></parameter>
+    for p in _all(info_elem, "cap:parameter", CAP_NS):
+        vn = _safe_text(_first(p, "cap:valueName", CAP_NS))
+        if vn and vn.strip().upper() == value_name.strip().upper():
+            return _safe_text(_first(p, "cap:value", CAP_NS))
+    return None
+
+
+def _extract_cap_xml_from_entry(entry: ET.Element) -> Optional[ET.Element]:
+    """
+    Pega o <content type="text/xml"> que contém <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">...</alert>
+    Alguns feeds colocam como elemento filho real, outros como texto.
+    """
+    content = _first(entry, "atom:content", ATOM_NS)
+    if content is None:
+        return None
+
+    # Caso 1: o <alert> vem como filho dentro do content
+    for child in list(content):
+        if child.tag.endswith("alert"):
+            return child
+
+    # Caso 2: o conteúdo vem como texto (às vezes escapado)
+    raw = content.text
+    if raw is None:
+        return None
+    raw = raw.strip()
+    if not raw:
+        return None
+
+    # Se vier como XML “normal”, parseia direto
+    try:
+        root = ET.fromstring(raw)
+        if root.tag.endswith("alert"):
+            return root
+    except Exception:
+        pass
+
+    # Se vier escapado, tenta “desescapar” o mínimo
+    raw2 = raw.replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", '"').replace("&amp;", "&")
+    try:
+        root = ET.fromstring(raw2)
+        if root.tag.endswith("alert"):
+            return root
     except Exception:
         return None
 
-
-@dataclass
-class ParsedAlert:
-    identifier: str
-    sent: str
-    expires: str
-    status: str
-    msgType: str
-    senderName: str
-    event: str
-    category: str
-    urgency: str
-    severity: str
-    certainty: str
-    areaDesc: str
-    channels: List[str]
-    polygon_wkt: str  # salvar WKT para JSON
-    polygon_points: int
+    return None
 
 
-def _parse_cap_from_entry(entry_el: ET.Element) -> Tuple[Optional[ParsedAlert], Optional[str]]:
-    """
-    Extrai CAP XML de <content type="text/xml"> ... </content> dentro do Atom.
-    """
-    content_el = entry_el.find("atom:content", ATOM_NS)
-    if content_el is None:
-        return None, "entry sem content"
-
-    # O <content> contém um nó <alert xmlns="urn:oasis...">
-    # Em ElementTree, isso fica como child.
-    alert_el = None
-    for child in list(content_el):
-        # procura a tag que termina com 'alert'
-        if child.tag.endswith("alert"):
-            alert_el = child
-            break
-
-    if alert_el is None:
-        return None, "content sem alert CAP"
-
-    ident = _cap_text(alert_el.find("cap:identifier", CAP_NS))
-    sent = _cap_text(alert_el.find("cap:sent", CAP_NS))
-    status = _cap_text(alert_el.find("cap:status", CAP_NS))
-    msgType = _cap_text(alert_el.find("cap:msgType", CAP_NS))
-
-    info_el = alert_el.find("cap:info", CAP_NS)
-    if info_el is None:
-        return None, f"{ident or 'sem-id'}: sem info"
-
-    category = _cap_text(info_el.find("cap:category", CAP_NS))
-    event = _cap_text(info_el.find("cap:event", CAP_NS))
-    urgency = _cap_text(info_el.find("cap:urgency", CAP_NS))
-    severity = _cap_text(info_el.find("cap:severity", CAP_NS))
-    certainty = _cap_text(info_el.find("cap:certainty", CAP_NS))
-    expires = _cap_text(info_el.find("cap:expires", CAP_NS))
-    senderName = _cap_text(info_el.find("cap:senderName", CAP_NS))
-
-    channels = []
-    for p in info_el.findall("cap:parameter", CAP_NS):
-        vn = _cap_text(p.find("cap:valueName", CAP_NS))
-        vv = _cap_text(p.find("cap:value", CAP_NS))
-        if vn.upper() == "CHANNEL-LIST" and vv:
-            # pode vir "SMS, Google" etc
-            for it in vv.replace(";", ",").split(","):
-                it2 = it.strip()
-                if it2:
-                    channels.append(it2)
-
-    area_el = info_el.find("cap:area", CAP_NS)
-    if area_el is None:
-        return None, f"{ident or 'sem-id'}: sem area"
-
-    areaDesc = _cap_text(area_el.find("cap:areaDesc", CAP_NS))
-    polygon_str = _cap_text(area_el.find("cap:polygon", CAP_NS))
-    poly = _parse_polygon_str(polygon_str)
-    if poly is None:
-        return None, f"{ident or 'sem-id'}: polygon inválido/ausente"
-
-    return ParsedAlert(
-        identifier=ident,
-        sent=sent,
-        expires=expires,
-        status=status,
-        msgType=msgType,
-        senderName=senderName,
-        event=event,
-        category=category,
-        urgency=urgency,
-        severity=severity,
-        certainty=certainty,
-        areaDesc=areaDesc,
-        channels=channels,
-        polygon_wkt=poly.wkt,
-        polygon_points=len(poly.exterior.coords) if poly.exterior else 0,
-    ), None
-
-
-def _load_rss_entries(rss_xml: str) -> List[ET.Element]:
-    root = ET.fromstring(rss_xml)
-    entries = root.findall("atom:entry", ATOM_NS)
-    return entries
-
-
-def _load_uf_gdf(path: str) -> Optional[gpd.GeoDataFrame]:
-    if not path:
-        return None
-    if not os.path.exists(path):
-        print(f"[WARN] UF_GEOJSON_PATH não encontrado: {path}")
-        return None
+def _parse_cap_from_entry(entry: ET.Element) -> Tuple[Optional[AlertRecord], Optional[str]]:
     try:
-        gdf = gpd.read_file(path)
-        # tenta achar coluna de nome/UF
-        return gdf
+        cap_alert = _extract_cap_xml_from_entry(entry)
+        if cap_alert is None:
+            return None, "entry sem CAP <alert>"
+
+        identifier = _safe_text(_first(cap_alert, "cap:identifier", CAP_NS)) or _safe_text(_first(entry, "atom:id", ATOM_NS)) or "UNKNOWN"
+        sender = _safe_text(_first(cap_alert, "cap:sender", CAP_NS))
+        sent = _safe_text(_first(cap_alert, "cap:sent", CAP_NS))
+        status = _safe_text(_first(cap_alert, "cap:status", CAP_NS))
+        msgType = _safe_text(_first(cap_alert, "cap:msgType", CAP_NS))
+
+        info = _first(cap_alert, "cap:info", CAP_NS)
+        if info is None:
+            # alguns CAP podem ter vários <info>, pega o primeiro
+            infos = _all(cap_alert, "cap:info", CAP_NS)
+            info = infos[0] if infos else None
+
+        category = event = urgency = severity = certainty = onset = expires = None
+        senderName = headline = description = instruction = web = contact = None
+        channel_list = None
+        areaDesc = None
+        polygon_raw = None
+        has_geocode = False
+        geom: Optional[BaseGeometry] = None
+
+        if info is not None:
+            category = _safe_text(_first(info, "cap:category", CAP_NS))
+            event = _safe_text(_first(info, "cap:event", CAP_NS))
+            urgency = _safe_text(_first(info, "cap:urgency", CAP_NS))
+            severity = _safe_text(_first(info, "cap:severity", CAP_NS))
+            certainty = _safe_text(_first(info, "cap:certainty", CAP_NS))
+            onset = _safe_text(_first(info, "cap:onset", CAP_NS))
+            expires = _safe_text(_first(info, "cap:expires", CAP_NS))
+            senderName = _safe_text(_first(info, "cap:senderName", CAP_NS))
+            headline = _safe_text(_first(info, "cap:headline", CAP_NS))
+            description = _safe_text(_first(info, "cap:description", CAP_NS))
+            instruction = _safe_text(_first(info, "cap:instruction", CAP_NS))
+            web = _safe_text(_first(info, "cap:web", CAP_NS))
+            contact = _safe_text(_first(info, "cap:contact", CAP_NS))
+
+            channel_list = _cap_get_parameter(info, "CHANNEL-LIST")
+
+            area = _first(info, "cap:area", CAP_NS)
+            if area is not None:
+                areaDesc = _safe_text(_first(area, "cap:areaDesc", CAP_NS))
+                polygon_raw = _safe_text(_first(area, "cap:polygon", CAP_NS))
+
+                geocodes = _all(area, "cap:geocode", CAP_NS)
+                has_geocode = len(geocodes) > 0
+
+                if polygon_raw:
+                    geom = _parse_polygon_str(polygon_raw)
+
+        uf_hint = _guess_uf(areaDesc, identifier)
+
+        rec = AlertRecord(
+            identifier=identifier,
+            sender=sender,
+            senderName=senderName,
+            sent=sent,
+            status=status,
+            msgType=msgType,
+            category=category,
+            event=event,
+            urgency=urgency,
+            severity=severity,
+            certainty=certainty,
+            onset=onset,
+            expires=expires,
+            headline=headline,
+            description=description,
+            instruction=instruction,
+            web=web,
+            contact=contact,
+            channel_list=channel_list,
+            areaDesc=areaDesc,
+            polygon_raw=polygon_raw,
+            polygon_points=_geom_points_count(geom),
+            has_geocode=has_geocode,
+            uf_hint=uf_hint,
+            geometry_wkt=geom.wkt if geom is not None else None,
+        )
+        return rec, None
+
     except Exception as e:
-        print(f"[WARN] Falha ao ler UF geojson: {e}")
-        return None
+        return None, f"erro parse CAP: {e}"
 
 
-def _alerts_to_gdf(alerts: List[ParsedAlert]) -> gpd.GeoDataFrame:
-    rows = []
-    geoms = []
-    for a in alerts:
+def _load_uf_gdf(path: str) -> gpd.GeoDataFrame:
+    gdf = gpd.read_file(path)
+
+    # garante CRS
+    if gdf.crs is None:
+        gdf = gdf.set_crs("EPSG:4326", allow_override=True)
+    else:
         try:
-            geom = wkt.loads(a.polygon_wkt)
+            gdf = gdf.to_crs("EPSG:4326")
         except Exception:
-            continue
-        rows.append(asdict(a))
-        geoms.append(geom)
-    gdf = gpd.GeoDataFrame(rows, geometry=geoms, crs="EPSG:4326")
+            # se der ruim, mantém
+            pass
+
     return gdf
 
 
-def _severity_color(sev: str) -> str:
-    """
-    CAP severity típico: Extreme, Severe, Moderate, Minor, Unknown
-    """
-    s = (sev or "").strip().lower()
-    if s == "extreme":
-        return "#6a1b9a"  # roxo
-    if s == "severe":
-        return "#d32f2f"  # vermelho
-    if s == "moderate":
-        return "#fbc02d"  # amarelo
-    if s == "minor":
-        return "#388e3c"  # verde
-    return "#1565c0"      # azul fallback
-
-
-def _plot_map(uf_gdf: Optional[gpd.GeoDataFrame], alerts_gdf: gpd.GeoDataFrame, out_png: str) -> bool:
-    if alerts_gdf.empty:
-        return False
-
-    fig, ax = plt.subplots(figsize=(11, 11))
-    ax.set_title("Alertas CAP (IDAP) - polígonos do RSS", fontsize=12)
-
-    if uf_gdf is not None and not uf_gdf.empty:
+def _alerts_to_gdf(alerts: List[AlertRecord]) -> gpd.GeoDataFrame:
+    geoms = []
+    rows = []
+    for a in alerts:
+        if not a.geometry_wkt:
+            continue
         try:
-            uf_gdf = uf_gdf.to_crs("EPSG:4326")
-            uf_gdf.boundary.plot(ax=ax, linewidth=0.6)
+            geom = gpd.GeoSeries.from_wkt([a.geometry_wkt], crs="EPSG:4326").iloc[0]
         except Exception:
-            pass
+            continue
+        geoms.append(geom)
+        rows.append(a)
 
-    # plota por severidade, em camadas
-    for sev in ["Extreme", "Severe", "Moderate", "Minor", "Unknown"]:
-        sub = alerts_gdf[alerts_gdf["severity"].fillna("") == sev]
-        if not sub.empty:
-            sub.plot(ax=ax, facecolor=_severity_color(sev), edgecolor="black", linewidth=0.5, alpha=0.35)
+    if not rows:
+        return gpd.GeoDataFrame(columns=["identifier"], geometry=[], crs="EPSG:4326")
 
-    # pega o resto que não bateu
-    rest = alerts_gdf[~alerts_gdf["severity"].isin(["Extreme", "Severe", "Moderate", "Minor", "Unknown"])]
-    if not rest.empty:
-        rest.plot(ax=ax, facecolor=_severity_color(""), edgecolor="black", linewidth=0.5, alpha=0.35)
+    df = gpd.GeoDataFrame([asdict(r) for r in rows], geometry=geoms, crs="EPSG:4326")
+    return df
 
-    ax.set_xlabel("Longitude")
-    ax.set_ylabel("Latitude")
 
-    # legenda simples com contagem
-    counts = alerts_gdf["severity"].fillna("Unknown").value_counts().to_dict()
-    legend_lines = []
-    for k in ["Extreme", "Severe", "Moderate", "Minor", "Unknown"]:
-        if k in counts:
-            legend_lines.append(f"{k}: {counts[k]}")
-    ax.text(
-        0.01, 0.01,
-        "\n".join(legend_lines),
-        transform=ax.transAxes,
-        fontsize=10,
-        verticalalignment="bottom",
-        bbox=dict(boxstyle="round", facecolor="white", alpha=0.85)
+def _make_stats(alerts: List[AlertRecord]) -> Dict[str, Any]:
+    def _count_by(key_fn):
+        d: Dict[str, int] = {}
+        for a in alerts:
+            k = key_fn(a) or "N/A"
+            d[k] = d.get(k, 0) + 1
+        return dict(sorted(d.items(), key=lambda x: (-x[1], x[0])))
+
+    stats = {
+        "total_alerts": len(alerts),
+        "by_status": _count_by(lambda a: a.status),
+        "by_severity": _count_by(lambda a: a.severity),
+        "by_category": _count_by(lambda a: a.category),
+        "by_event": _count_by(lambda a: a.event),
+        "by_channel_list": _count_by(lambda a: a.channel_list),
+        "by_senderName": dict(list(_count_by(lambda a: a.senderName).items())[:15]),
+        "by_uf_hint": _count_by(lambda a: a.uf_hint),
+        "with_polygon": sum(1 for a in alerts if a.geometry_wkt),
+        "with_geocode": sum(1 for a in alerts if a.has_geocode),
+    }
+    return stats
+
+
+def _plot_map(
+    uf_gdf: gpd.GeoDataFrame,
+    alerts_gdf: gpd.GeoDataFrame,
+    out_path: str,
+    title: str,
+) -> None:
+    fig = plt.figure(figsize=(12, 12))
+    ax = plt.gca()
+
+    # base: estados
+    uf_gdf.boundary.plot(ax=ax, linewidth=0.6, alpha=BORDER_ALPHA)
+
+    if len(alerts_gdf) > 0:
+        # cria uma coluna de cor
+        def sev_color(s):
+            s = (s or "").strip()
+            return SEVERITY_COLORS.get(s, SEVERITY_COLORS["Unknown"])
+
+        alerts_gdf["_color"] = alerts_gdf["severity"].apply(sev_color)
+
+        alerts_gdf.plot(
+            ax=ax,
+            color=alerts_gdf["_color"],
+            edgecolor=alerts_gdf["_color"],
+            linewidth=0.8,
+            alpha=ALERT_ALPHA,
+        )
+
+    ax.set_title(title, fontsize=12)
+    ax.set_axis_off()
+    plt.tight_layout()
+    fig.savefig(out_path, dpi=200)
+    plt.close(fig)
+
+
+def _tg_api(method: str) -> str:
+    return f"https://api.telegram.org/bot{method}"
+
+
+def _send_telegram_message(token: str, chat_id: str, text: str) -> Tuple[bool, str]:
+    url = f"https://api.telegram.org/bot{token}/sendMessage"
+    data = json.dumps({"chat_id": chat_id, "text": text}).encode("utf-8")
+    req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            _ = resp.read()
+        return True, "ok"
+    except Exception as e:
+        return False, str(e)
+
+
+def _send_telegram_photo(token: str, chat_id: str, photo_path: str, caption: str = "") -> Tuple[bool, str]:
+    """
+    Envia o PNG como multipart/form-data (sem requests, só stdlib).
+    """
+    import uuid
+    boundary = f"----WebKitFormBoundary{uuid.uuid4().hex}"
+    url = f"https://api.telegram.org/bot{token}/sendPhoto"
+
+    try:
+        with open(photo_path, "rb") as f:
+            photo_bytes = f.read()
+    except Exception as e:
+        return False, f"falha lendo foto: {e}"
+
+    def _part(name: str, value: str) -> bytes:
+        return (
+            f"--{boundary}\r\n"
+            f'Content-Disposition: form-data; name="{name}"\r\n\r\n'
+            f"{value}\r\n"
+        ).encode("utf-8")
+
+    body = b""
+    body += _part("chat_id", str(chat_id))
+    if caption:
+        body += _part("caption", caption)
+
+    filename = os.path.basename(photo_path)
+    body += (
+        f"--{boundary}\r\n"
+        f'Content-Disposition: form-data; name="photo"; filename="{filename}"\r\n'
+        f"Content-Type: image/png\r\n\r\n"
+    ).encode("utf-8")
+    body += photo_bytes
+    body += b"\r\n"
+    body += f"--{boundary}--\r\n".encode("utf-8")
+
+    req = urllib.request.Request(
+        url,
+        data=body,
+        headers={"Content-Type": f"multipart/form-data; boundary={boundary}"},
+        method="POST",
     )
 
-    _mkdirp(os.path.dirname(out_png) or ".")
-    fig.tight_layout()
-    fig.savefig(out_png, dpi=160)
-    plt.close(fig)
-    return True
+    try:
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            _ = resp.read()
+        return True, "ok"
+    except Exception as e:
+        return False, str(e)
 
+
+def _ensure_dirs(*paths: str) -> None:
+    for p in paths:
+        os.makedirs(p, exist_ok=True)
+
+
+def _load_state(path: str) -> Dict[str, Any]:
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+
+def _save_state(path: str, state: Dict[str, Any]) -> None:
+    parent = os.path.dirname(path) or "."
+    os.makedirs(parent, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(state, f, ensure_ascii=False, indent=2)
+
+
+# ----------------------------
+# Main
+# ----------------------------
 
 def main() -> int:
-    rss_url = _env("RSS_URL", "https://idapfile.mdr.gov.br/idap/api/rss/cap")
-    uf_geojson_path = _env("UF_GEOJSON_PATH", "resources/br_uf.geojson")
-    out_dir = _env("OUT_DIR", "out")
-    state_path = _env("STATE_PATH", ".cache/state.json")
-    max_items_env = _env("MAX_ITEMS", "").strip()
-    max_items = int(max_items_env) if max_items_env.isdigit() else None
+    rss_url = os.getenv("RSS_URL", DEFAULT_RSS_URL)
+    uf_geojson_path = os.getenv("UF_GEOJSON_PATH", DEFAULT_UF_GEOJSON_PATH)
+    out_dir = os.getenv("OUT_DIR", DEFAULT_OUT_DIR)
+    state_path = os.getenv("STATE_PATH", DEFAULT_STATE_PATH)
 
-    tg_token = _env("TELEGRAM_BOT_TOKEN", "").strip()
-    tg_chat_id = _env("TELEGRAM_CHAT_ID", "").strip()
+    max_items_env = os.getenv("MAX_ITEMS", "").strip()
+    max_items: Optional[int] = None
+    if max_items_env:
+        try:
+            max_items = int(max_items_env)
+        except ValueError:
+            max_items = None
 
-    run_id = datetime.now().strftime("%Y%m%d_%H%M%S")
-    run_dir = os.path.join(out_dir, f"run_{run_id}")
+    tg_token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
+    tg_chat_id = os.getenv("TELEGRAM_CHAT_ID", "").strip()
 
     print(f"[INFO] RSS_URL={rss_url}")
     print(f"[INFO] UF_GEOJSON_PATH={uf_geojson_path}")
     print(f"[INFO] OUT_DIR={out_dir}")
+
+    run_ts = _now_sp().strftime("%Y%m%d_%H%M%S")
+    run_dir = os.path.join(out_dir, f"run_{run_ts}")
     print(f"[INFO] RUN_DIR={run_dir}")
     print(f"[INFO] STATE_PATH={state_path}")
     print(f"[INFO] MAX_ITEMS={'(sem limite)' if max_items is None else max_items}")
 
-    _mkdirp(run_dir)
-    _mkdirp(os.path.dirname(state_path) or ".")
+    _ensure_dirs(".cache", out_dir, run_dir)
+
+    # estado (não filtra, só registra que rodou)
+    state = _load_state(state_path)
 
     # baixa RSS
     try:
-        rss_xml = _http_get_text(rss_url, timeout=40)
-    except Exception as e:
+        rss_bytes = _read_url(rss_url, timeout=40)
+    except urllib.error.URLError as e:
         print(f"[ERROR] Falha ao baixar RSS: {e}")
-        _telegram_send_message(tg_token, tg_chat_id, f"IDAP Daily Maps: falha ao baixar RSS.\n{e}")
         return 2
 
-    # parse entries
     try:
-        entries = _load_rss_entries(rss_xml)
+        root = ET.fromstring(rss_bytes)
     except Exception as e:
-        print(f"[ERROR] RSS inválido: {e}")
-        _telegram_send_message(tg_token, tg_chat_id, f"IDAP Daily Maps: RSS inválido.\n{e}")
+        print(f"[ERROR] RSS inválido (XML): {e}")
         return 3
 
+    entries = _all(root, "atom:entry", ATOM_NS)
     if max_items is not None:
         entries = entries[:max_items]
 
     print(f"[INFO] Entradas no RSS (consideradas): {len(entries)}")
 
-    alerts: List[ParsedAlert] = []
+    alerts: List[AlertRecord] = []
     errors: List[Dict[str, Any]] = []
 
-    for i, entry in enumerate(entries, start=1):
+    for entry in entries:
         a, err = _parse_cap_from_entry(entry)
-        if a is not None:
-            alerts.append(a)
-        else:
-            errors.append({"idx": i, "error": err or "erro desconhecido"})
+        if a is None:
+            errors.append({"error": err or "desconhecido"})
+            continue
+        alerts.append(a)
 
     print(f"[INFO] CAPs parseados: {len(alerts)} | erros: {len(errors)}")
 
-    # salva erros, mesmo se vazio
-    _write_json(os.path.join(run_dir, "errors.json"), errors)
+    # salva JSONs
+    alerts_json_path = os.path.join(run_dir, "alerts.json")
+    errors_json_path = os.path.join(run_dir, "errors.json")
+    stats_json_path = os.path.join(run_dir, "stats.json")
 
-    # monta estatística completa do momento do run (você pediu isso)
-    stats = {
-        "run_id": run_id,
-        "run_utc": _now_utc_iso(),
-        "rss_url": rss_url,
-        "entries_considered": len(entries),
-        "caps_parsed": len(alerts),
-        "caps_errors": len(errors),
-        "by_severity": {},
-        "by_senderName": {},
-        "by_event": {},
-        "by_channel": {},
-    }
+    with open(alerts_json_path, "w", encoding="utf-8") as f:
+        json.dump([asdict(a) for a in alerts], f, ensure_ascii=False, indent=2)
 
-    if alerts:
-        df = pd.DataFrame([asdict(a) for a in alerts])
-        stats["by_severity"] = df["severity"].fillna("Unknown").value_counts().to_dict()
-        stats["by_senderName"] = df["senderName"].fillna("Unknown").value_counts().head(20).to_dict()
-        stats["by_event"] = df["event"].fillna("Unknown").value_counts().head(20).to_dict()
+    with open(errors_json_path, "w", encoding="utf-8") as f:
+        json.dump(errors, f, ensure_ascii=False, indent=2)
 
-        # canais: explode
-        ch = []
-        for a in alerts:
-            if a.channels:
-                ch.extend(a.channels)
-        if ch:
-            stats["by_channel"] = pd.Series(ch).value_counts().to_dict()
+    stats = _make_stats(alerts)
+    with open(stats_json_path, "w", encoding="utf-8") as f:
+        json.dump(stats, f, ensure_ascii=False, indent=2)
 
-        # CSV de resumo
-        csv_path = os.path.join(run_dir, "alerts_summary.csv")
-        cols = ["identifier", "sent", "expires", "severity", "urgency", "certainty", "event", "senderName", "status", "msgType", "areaDesc"]
-        df[cols].to_csv(csv_path, index=False, encoding="utf-8")
-
-    _write_json(os.path.join(run_dir, "stats.json"), stats)
-
-    # salva alerts.json (sem shapely dentro, só WKT)
-    _write_json(os.path.join(run_dir, "alerts.json"), [asdict(a) for a in alerts])
-
-    # carrega base do mapa
-    uf_gdf = _load_uf_gdf(uf_geojson_path)
-
-    # plota mapa
+    # mapa
     map_path = os.path.join(run_dir, "mapa_alertas.png")
-    map_ok = False
-    if alerts:
-        gdf_alerts = _alerts_to_gdf(alerts)
-        map_ok = _plot_map(uf_gdf, gdf_alerts, map_path)
 
-    if not map_ok:
+    alerts_gdf = _alerts_to_gdf(alerts)
+    if len(alerts_gdf) == 0:
         print("[WARN] Mapa não gerado: nenhum alerta com polygon para plotar")
+        map_path = ""  # não envia foto
     else:
+        try:
+            uf_gdf = _load_uf_gdf(uf_geojson_path)
+        except Exception as e:
+            print(f"[ERROR] Falha ao ler UF GeoJSON: {e}")
+            return 4
+
+        title = f"Alertas IDAP (varredura completa) | {run_ts}"
+        _plot_map(uf_gdf, alerts_gdf, map_path, title)
         print(f"[INFO] Mapa gerado: {map_path}")
 
-    # grava/atualiza state.json só para histórico simples (não controla filtro)
-    state_obj = {
-        "last_run_id": run_id,
-        "last_run_utc": _now_utc_iso(),
-        "last_entries_considered": len(entries),
-        "last_caps_parsed": len(alerts),
-    }
-    _write_json(state_path, state_obj)
-
-    # Telegram: manda resumo + manda mapa (arquivo)
+    # Telegram
     if tg_token and tg_chat_id:
-        sev = stats.get("by_severity", {})
-        line_sev = ", ".join([f"{k}:{v}" for k, v in sev.items()]) if sev else "sem dados"
-
-        txt = (
+        sev_counts = stats.get("by_severity", {})
+        top_sev = ", ".join([f"{k}:{v}" for k, v in list(sev_counts.items())[:4]]) if isinstance(sev_counts, dict) else ""
+        msg = (
             f"IDAP Daily Maps\n"
-            f"Run: {run_id}\n"
-            f"Entradas RSS: {len(entries)}\n"
+            f"Rodada: {run_ts}\n"
+            f"Total CAPs no RSS (considerados): {len(entries)}\n"
             f"CAPs parseados: {len(alerts)} | erros: {len(errors)}\n"
-            f"Severidade: {line_sev}"
+            f"Com polygon: {stats.get('with_polygon', 0)} | com geocode: {stats.get('with_geocode', 0)}\n"
+            f"Severidade (top): {top_sev}\n"
         )
-        ok_msg = _telegram_send_message(tg_token, tg_chat_id, txt)
 
-        ok_file = False
-        if map_ok and os.path.exists(map_path):
-            ok_file = _telegram_send_document(
-                tg_token,
-                tg_chat_id,
-                map_path,
-                caption=f"Mapa de alertas (run {run_id})"
-            )
-
-        if ok_msg and (ok_file or not map_ok):
-            if ok_file:
-                print("[INFO] Telegram: mensagem + mapa enviados")
-            else:
-                print("[INFO] Telegram: mensagem enviada")
+        ok, detail = _send_telegram_message(tg_token, tg_chat_id, msg)
+        if ok:
+            print("[INFO] Telegram: mensagem enviada")
         else:
-            print("[WARN] Telegram: não consegui enviar mensagem e/ou arquivo")
+            print(f"[WARN] Telegram: falha ao enviar mensagem: {detail}")
+
+        if map_path:
+            ok2, detail2 = _send_telegram_photo(tg_token, tg_chat_id, map_path, caption=f"Mapa | {run_ts}")
+            if ok2:
+                print("[INFO] Telegram: mapa enviado")
+            else:
+                print(f"[WARN] Telegram: falha ao enviar mapa: {detail2}")
+
+    else:
+        print("[INFO] Telegram: não configurado (TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID vazios)")
+
+    # atualiza state.json (só log de execução)
+    state["last_run_ts"] = run_ts
+    state["last_run_iso"] = datetime.now(timezone.utc).isoformat()
+    state["last_counts"] = {
+        "entries": len(entries),
+        "alerts": len(alerts),
+        "errors": len(errors),
+    }
+    _save_state(state_path, state)
 
     print("[INFO] Finalizado.")
     return 0
