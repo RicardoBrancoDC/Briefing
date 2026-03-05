@@ -28,14 +28,26 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      # 1) restaura cache do state
+      - name: Restore state cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/state.json
+          key: idap-state-${{ runner.os }}
+          restore-keys: |
+            idap-state-${{ runner.os }}
+
       - name: Run daily maps
         env:
           RSS_URL: "https://idapfile.mdr.gov.br/idap/api/rss/cap"
           UF_GEOJSON_PATH: "resources/br_uf.geojson"
           OUT_DIR: "out"
+          STATE_PATH: ".cache/state.json"
         run: |
+          mkdir -p .cache out
           python scripts/idap_daily_maps.py
 
+      # 2) subir outputs (como você já faz)
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
