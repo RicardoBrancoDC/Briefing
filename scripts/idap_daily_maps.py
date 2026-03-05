@@ -40,7 +40,7 @@ def _http_get(url: str, timeout: int = 30) -> Tuple[int, bytes, Dict[str, str]]:
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "idap-daily-maps/1.1 (GitHub Actions)",
+            "User-Agent": "idap-daily-maps/1.2 (GitHub Actions)",
             "Accept": "application/xml,text/xml,*/*;q=0.8",
             "Accept-Encoding": "gzip",
         },
@@ -132,9 +132,6 @@ def _cap_area_block(info: ET.Element) -> Optional[ET.Element]:
 
 
 def _parse_cap_alert_element(alert_el: ET.Element) -> Dict[str, Any]:
-    """
-    Recebe o Element <alert ...cap:1.2> e parseia.
-    """
     root = alert_el
 
     alert: Dict[str, Any] = {
@@ -154,6 +151,7 @@ def _parse_cap_alert_element(alert_el: ET.Element) -> Dict[str, Any]:
         "areaDesc": "",
         "polygon_str": "",
         "geocodes": [],
+        # geom fica só em memória, não vai para JSON
         "polygon_geom": None,
     }
 
@@ -208,37 +206,21 @@ def _parse_cap_alert_element(alert_el: ET.Element) -> Dict[str, Any]:
 
 
 def _parse_cap_xml_bytes(cap_xml: bytes) -> Dict[str, Any]:
-    """
-    Aceita um XML que pode ser:
-    - o CAP inteiro com <alert ...>
-    - ou algo que contenha um <alert> dentro
-    """
     root = ET.fromstring(cap_xml)
 
     if _strip_ns(root.tag) == "alert":
         return _parse_cap_alert_element(root)
 
-    # busca <alert> em qualquer profundidade
     for el in root.iter():
         if _strip_ns(el.tag) == "alert":
             return _parse_cap_alert_element(el)
 
-    # se não achou, devolve algo mínimo
     return {"identifier": "", "sender": "", "sent": "", "status": "", "msgType": "", "scope": ""}
 
 
 def _extract_cap_from_entry(entry_el: ET.Element) -> Optional[bytes]:
-    """
-    No seu feed, o CAP vem dentro de:
-      <content type="text/xml"><alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">...</alert></content>
-
-    O ElementTree já parseia isso como sub-elemento do content.
-    Aqui a gente pega o primeiro <alert> que estiver dentro do entry.
-    """
-    # procura content
     content_el = entry_el.find("a:content", ATOM_NS)
     if content_el is None:
-        # fallback por localname
         for x in entry_el.iter():
             if _strip_ns(x.tag) == "content":
                 content_el = x
@@ -247,7 +229,6 @@ def _extract_cap_from_entry(entry_el: ET.Element) -> Optional[bytes]:
     if content_el is None:
         return None
 
-    # procura alert dentro do content
     for el in content_el.iter():
         if _strip_ns(el.tag) == "alert":
             return ET.tostring(el, encoding="utf-8", xml_declaration=True)
@@ -256,10 +237,6 @@ def _extract_cap_from_entry(entry_el: ET.Element) -> Optional[bytes]:
 
 
 def _parse_atom_entries(feed_xml: bytes) -> List[Dict[str, Any]]:
-    """
-    Retorna lista de dicts com:
-      {id, link, cap_embedded_xml_bytes}
-    """
     root = ET.fromstring(feed_xml)
 
     entries = root.findall("a:entry", ATOM_NS)
@@ -269,7 +246,6 @@ def _parse_atom_entries(feed_xml: bytes) -> List[Dict[str, Any]]:
         for e in entries:
             eid = _safe_text(e.find("a:id", ATOM_NS))
 
-            # link é opcional no seu feed, mas deixo aqui para compatibilidade
             href = ""
             link_el = e.find("a:link", ATOM_NS)
             if link_el is not None:
@@ -280,7 +256,6 @@ def _parse_atom_entries(feed_xml: bytes) -> List[Dict[str, Any]]:
             out.append({"id": eid, "link": href, "cap_embedded": cap_bytes})
         return out
 
-    # fallback RSS 2.0 (se um dia mudar)
     items = root.findall(".//item")
     for it in items:
         link = _safe_text(it.find("link"))
@@ -308,7 +283,7 @@ def _plot_map(uf_geojson_path: str, alerts: List[Dict[str, Any]], out_png: str, 
     poly_rows = []
     for a in alerts:
         geom = a.get("polygon_geom")
-        if geom is None or geom.is_empty:
+        if geom is None or getattr(geom, "is_empty", False):
             continue
         poly_rows.append(
             {
@@ -364,6 +339,23 @@ def _telegram_send(token: str, chat_id: str, text: str) -> Tuple[bool, str]:
         return True, body
     except Exception as e:
         return False, str(e)
+
+
+def _json_safe_alert(a: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Remove coisas não serializáveis (Polygon) e adiciona um WKT opcional pra debug.
+    """
+    out = dict(a)
+    geom = out.pop("polygon_geom", None)
+
+    # ajuda a debugar sem quebrar o json
+    out["has_polygon"] = bool(geom is not None)
+    try:
+        out["polygon_wkt"] = geom.wkt if geom is not None else ""
+    except Exception:
+        out["polygon_wkt"] = ""
+
+    return out
 
 
 def main() -> int:
@@ -434,7 +426,7 @@ def main() -> int:
             if cap_embedded:
                 a = _parse_cap_xml_bytes(cap_embedded)
                 a["cap_source"] = "embedded"
-                a["cap_url"] = ""  # não existe URL do CAP nesse formato
+                a["cap_url"] = ""
             else:
                 if not link:
                     errors.append({"id": eid, "link": link, "error": "entrada sem CAP embutido e sem link"})
@@ -447,7 +439,6 @@ def main() -> int:
                 a["cap_source"] = "link"
                 a["cap_url"] = link
 
-            # se o identifier vier vazio, tenta usar o id do entry
             if not a.get("identifier"):
                 a["identifier"] = eid
 
@@ -458,8 +449,10 @@ def main() -> int:
 
     print(f"[INFO] CAPs parseados: {len(alerts)} | erros: {len(errors)}")
 
+    # salva versão "json safe"
+    alerts_json = [_json_safe_alert(a) for a in alerts]
     with open(os.path.join(run_dir, "alerts.json"), "w", encoding="utf-8") as f:
-        json.dump(alerts, f, ensure_ascii=False, indent=2)
+        json.dump(alerts_json, f, ensure_ascii=False, indent=2)
 
     with open(os.path.join(run_dir, "errors.json"), "w", encoding="utf-8") as f:
         json.dump(errors, f, ensure_ascii=False, indent=2)
@@ -492,8 +485,8 @@ def main() -> int:
 
     with open(os.path.join(run_dir, "alerts_summary.csv"), "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f, delimiter=";")
-        w.writerow(["identifier", "sent", "status", "msgType", "event", "severity", "urgency", "certainty", "areaDesc", "cap_source"])
-        for a in alerts:
+        w.writerow(["identifier", "sent", "status", "msgType", "event", "severity", "urgency", "certainty", "areaDesc", "cap_source", "has_polygon"])
+        for a in alerts_json:
             w.writerow([
                 a.get("identifier", ""),
                 a.get("sent", ""),
@@ -505,6 +498,7 @@ def main() -> int:
                 a.get("certainty", ""),
                 a.get("areaDesc", ""),
                 a.get("cap_source", ""),
+                a.get("has_polygon", False),
             ])
 
     polys = [a for a in alerts if a.get("polygon_geom") is not None]
