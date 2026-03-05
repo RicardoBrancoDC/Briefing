@@ -22,30 +22,29 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"
 
       - name: Install dependencies
-        run: 
+        run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # 1) restaura cache do state
-      - name: Restore state cache
-        uses: actions/cache@v4
-        with:
-          path: .cache/state.json
-          key: idap-state-${{ runner.os }}
-          restore-keys: |
-            idap-state-${{ runner.os }}
-
-                  - name: Run daily maps
-        env:
-          RSS_URL: "https://idapfile.mdr.gov.br/idap/api/rss/cap"
-          UF_GEOJSON_PATH: "resources/br_uf.geojson"
-          OUT_DIR: "out"
-          STATE_PATH: ".cache/state.json"
+      - name: Prepare folders
         run: |
-          python scripts/idap_daily_maps.py
-          
+          mkdir -p .cache out resources
+
+      - name: Sanity check inputs
+        run: |
+          echo "RSS_URL=https://idapfile.mdr.gov.br/idap/api/rss/cap"
+          echo "UF_GEOJSON_PATH=resources/br_uf.geojson"
+          echo "OUT_DIR=out"
+          echo "STATE_PATH=.cache/state.json"
+          echo ""
+          echo "Files in resources/:"
+          ls -la resources || true
+          echo ""
+          echo "First bytes of br_uf.geojson (if exists):"
+          head -c 200 resources/br_uf.geojson 2>/dev/null || echo "br_uf.geojson not found"
 
       - name: Run daily maps
         env:
@@ -53,13 +52,15 @@ jobs:
           UF_GEOJSON_PATH: "resources/br_uf.geojson"
           OUT_DIR: "out"
           STATE_PATH: ".cache/state.json"
+          # MAX_ITEMS: "200"   # opcional, vazio = sem limite
         run: |
-          mkdir -p .cache out
           python scripts/idap_daily_maps.py
 
-      # 2) subir outputs (como você já faz)
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
           name: idap_daily_outputs
-          path: out/
+          path: |
+            out/
+            .cache/state.json
+          if-no-files-found: warn
