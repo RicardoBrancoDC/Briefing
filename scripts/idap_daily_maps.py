@@ -2,23 +2,24 @@
 # -*- coding: utf-8 -*-
 
 """
-IDAP Daily Maps (refinado)
-- Lê RSS Atom da IDAP (CAP 1.2 dentro do <content type="text/xml">)
-- Varredura completa a cada execução (sem filtrar por status)
-- Gera 4 mapas:
-  1) mapa_alertas_todos.png (todos os alertas com polygon, cor por severity)
-  2) mapa_alertas_chuva_temp_inund.png (subset de eventos)
-  3) mapa_ocorrencias_deslizamento.png (pontos)
-  4) mapa_ocorrencias_outros.png (pontos)
-- Gera quadro geral: resumo.json e resumo.md
-- Envia resumo + mapas para Telegram (se configurado)
+IDAP Daily Maps (refino final)
+Saídas:
+1) mapa_alertas_todos.png
+2) mapa_alertas_chuva_temp_inund.png
+3) mapa_alertas_deslizamento.png
+4) mapa_alertas_outros.png
++ resumo.json e resumo.md
+
+Regras:
+- Varre o RSS completo a cada execução (sem filtrar por status).
+- Cor por NIVEL calculado:
+    Extremo, Severo, Alto, Médio, Baixo, Indefinido
+- Mapas 2, 3 e 4 são filtros por EVENTO.
 """
 
-import csv
 import json
 import os
 import re
-import sys
 import unicodedata
 import urllib.request
 import urllib.error
@@ -28,7 +29,7 @@ from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional, Tuple
 
 import geopandas as gpd
-from shapely.geometry import Polygon, MultiPolygon, Point
+from shapely.geometry import Polygon, MultiPolygon
 from shapely.geometry.base import BaseGeometry
 import matplotlib.pyplot as plt
 
@@ -45,27 +46,6 @@ DEFAULT_UF_GEOJSON_PATH = "resources/br_uf.geojson"
 DEFAULT_OUT_DIR = "out"
 DEFAULT_STATE_PATH = ".cache/state.json"
 
-# Arquivo opcional de ocorrências.
-# Aceita:
-# - CSV com colunas: lat, lon, tipo (ou type), e opcionalmente data/hora
-# - GeoJSON com Point e um campo tipo/type
-DEFAULT_OCCURRENCES_PATH = ""  # via env OCCURRENCES_PATH
-
-# CAP severity -> cor
-SEVERITY_COLORS = {
-    "Extreme": "#6a0dad",    # roxo
-    "Severe":  "#d62728",    # vermelho
-    "Moderate": "#2ca02c",   # verde (você pode preferir laranja, mas deixei assim por leitura)
-    "Minor":   "#ffd92f",    # amarelo
-    "Unknown": "#7f7f7f",
-    None:      "#7f7f7f",
-    "":        "#7f7f7f",
-}
-
-ALERT_ALPHA = 0.35
-BORDER_ALPHA = 0.9
-
-
 # UF -> Região
 UF_TO_REGION = {
     # Norte
@@ -81,15 +61,55 @@ UF_TO_REGION = {
     "PR": "S", "RS": "S", "SC": "S",
 }
 
-
-# Eventos para o mapa 2 (normalizados)
-TARGET_EVENTS_NORM = {
-    "CHUVAS INTENSAS",
-    "TEMPESTADE LOCAL CONVECTIVA",
-    "TEMPESTADES CONVECTIVAS",
-    "INUNDACOES",
-    "INUNDAÇÕES",
+# Cores por NÍVEL (não por severity)
+NIVEL_COLORS = {
+    "Extremo": "#6a0dad",     # 🟣
+    "Severo":  "#d62728",     # 🔴
+    "Alto":    "#ff7f0e",     # 🟠
+    "Médio":   "#ffd92f",     # 🟡
+    "Baixo":   "#2ca02c",     # 🟢
+    "Indefinido": "#7f7f7f",  # ⚪ (cinza aqui no mapa)
 }
+
+ALERT_ALPHA = 0.35
+BORDER_ALPHA = 0.9
+
+
+# ----------------------------
+# Regras de nível (as suas)
+# ----------------------------
+
+def calc_nivel(severity: str, urgency: str, certainty: str, response_type: str) -> str:
+    s = (severity or "").strip()
+    u = (urgency or "").strip()
+    c = (certainty or "").strip()
+    r = (response_type or "").strip()
+
+    if s == "Extreme":
+        return "Extremo"
+    if s == "Moderate":
+        return "Médio"
+    if s == "Minor":
+        return "Baixo"
+
+    if s == "Severe":
+        if (u == "Expected") and (c in {"Likely", "Observed"}) and (r in {"Execute", "Prepare"}):
+            return "Severo"
+        return "Alto"
+
+    return "Indefinido"
+
+
+def nivel_emoji(nivel: str) -> str:
+    n = (nivel or "").strip()
+    return {
+        "Extremo": "🟣",
+        "Severo": "🔴",
+        "Alto": "🟠",
+        "Médio": "🟡",
+        "Baixo": "🟢",
+        "Indefinido": "⚪",
+    }.get(n, "⚪")
 
 
 # ----------------------------
@@ -107,11 +127,14 @@ class AlertRecord:
 
     category: Optional[str]
     event: Optional[str]
+    responseType: Optional[str]
     urgency: Optional[str]
     severity: Optional[str]
     certainty: Optional[str]
     onset: Optional[str]
     expires: Optional[str]
+
+    nivel: str  # calculado
 
     headline: Optional[str]
     description: Optional[str]
@@ -132,7 +155,7 @@ class AlertRecord:
 
 
 # ----------------------------
-# Utilitários gerais
+# Utilitários
 # ----------------------------
 
 def _now_sp() -> datetime:
@@ -166,7 +189,7 @@ def _all(elem: ET.Element, path: str, ns: Dict[str, str]) -> List[ET.Element]:
 def _read_url(url: str, timeout: int = 30) -> bytes:
     req = urllib.request.Request(
         url,
-        headers={"User-Agent": "IDAP-Daily-Maps/1.1 (+github-actions)", "Accept": "*/*"},
+        headers={"User-Agent": "IDAP-Daily-Maps/1.2 (+github-actions)", "Accept": "*/*"},
         method="GET",
     )
     with urllib.request.urlopen(req, timeout=timeout) as resp:
@@ -179,7 +202,6 @@ def _normalize_text(s: Optional[str]) -> str:
     s = s.strip()
     if not s:
         return ""
-    # remove acentos
     s2 = unicodedata.normalize("NFKD", s)
     s2 = "".join([c for c in s2 if not unicodedata.combining(c)])
     return s2.upper()
@@ -250,7 +272,6 @@ def _guess_uf(area_desc: Optional[str]) -> Optional[str]:
     if m:
         return m.group(1)
 
-    # fallback: tenta "MINAS GERAIS/MG"
     m = re.search(r"\b([A-Z]{2})\b", txt)
     if m:
         return m.group(1)
@@ -278,6 +299,7 @@ def _extract_cap_xml_from_entry(entry: ET.Element) -> Optional[ET.Element]:
     if content is None:
         return None
 
+    # caso venha como filho XML mesmo
     for child in list(content):
         if child.tag.endswith("alert"):
             return child
@@ -289,6 +311,7 @@ def _extract_cap_xml_from_entry(entry: ET.Element) -> Optional[ET.Element]:
     if not raw:
         return None
 
+    # tenta direto
     try:
         root = ET.fromstring(raw)
         if root.tag.endswith("alert"):
@@ -296,6 +319,7 @@ def _extract_cap_xml_from_entry(entry: ET.Element) -> Optional[ET.Element]:
     except Exception:
         pass
 
+    # tenta des-escapar
     raw2 = raw.replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", '"').replace("&amp;", "&")
     try:
         root = ET.fromstring(raw2)
@@ -324,7 +348,7 @@ def _parse_cap_from_entry(entry: ET.Element) -> Tuple[Optional[AlertRecord], Opt
             infos = _all(cap_alert, "cap:info", CAP_NS)
             info = infos[0] if infos else None
 
-        category = event = urgency = severity = certainty = onset = expires = None
+        category = event = responseType = urgency = severity = certainty = onset = expires = None
         senderName = headline = description = instruction = web = contact = None
         channel_list = None
         areaDesc = None
@@ -335,6 +359,7 @@ def _parse_cap_from_entry(entry: ET.Element) -> Tuple[Optional[AlertRecord], Opt
         if info is not None:
             category = _safe_text(_first(info, "cap:category", CAP_NS))
             event = _safe_text(_first(info, "cap:event", CAP_NS))
+            responseType = _safe_text(_first(info, "cap:responseType", CAP_NS))
             urgency = _safe_text(_first(info, "cap:urgency", CAP_NS))
             severity = _safe_text(_first(info, "cap:severity", CAP_NS))
             certainty = _safe_text(_first(info, "cap:certainty", CAP_NS))
@@ -363,6 +388,8 @@ def _parse_cap_from_entry(entry: ET.Element) -> Tuple[Optional[AlertRecord], Opt
         uf_hint = _guess_uf(areaDesc)
         region = _uf_to_region(uf_hint)
 
+        nivel = calc_nivel(severity or "", urgency or "", certainty or "", responseType or "")
+
         rec = AlertRecord(
             identifier=identifier,
             sender=sender,
@@ -372,11 +399,13 @@ def _parse_cap_from_entry(entry: ET.Element) -> Tuple[Optional[AlertRecord], Opt
             msgType=msgType,
             category=category,
             event=event,
+            responseType=responseType,
             urgency=urgency,
             severity=severity,
             certainty=certainty,
             onset=onset,
             expires=expires,
+            nivel=nivel,
             headline=headline,
             description=description,
             instruction=instruction,
@@ -438,33 +467,15 @@ def _count_by(alerts: List[AlertRecord], key_fn) -> Dict[str, int]:
 
 
 def _make_summary(alerts: List[AlertRecord]) -> Dict[str, Any]:
-    by_severity = _count_by(alerts, lambda a: a.severity)
+    by_nivel = _count_by(alerts, lambda a: a.nivel)
     by_channel = _count_by(alerts, lambda a: a.channel_list)
     by_region = _count_by(alerts, lambda a: a.region)
 
-    by_event = _count_by(alerts, lambda a: a.event)
-
-    # por região e severity (matriz simples)
-    regions = ["N", "NE", "CO", "SE", "S", "N/A"]
-    sev_keys = list(by_severity.keys()) if by_severity else []
-    matrix: Dict[str, Dict[str, int]] = {r: {s: 0 for s in sev_keys} for r in regions}
-
-    for a in alerts:
-        r = a.region or "N/A"
-        s = a.severity or "N/A"
-        if r not in matrix:
-            matrix[r] = {}
-        if s not in matrix[r]:
-            matrix[r][s] = 0
-        matrix[r][s] += 1
-
     return {
         "total_alerts": len(alerts),
-        "by_severity": by_severity,
+        "by_nivel": by_nivel,
         "by_channel_list": by_channel,
         "by_region": by_region,
-        "by_event": dict(list(by_event.items())[:30]),
-        "region_x_severity": matrix,
     }
 
 
@@ -480,11 +491,11 @@ def _plot_alerts_map(
     uf_gdf.boundary.plot(ax=ax, linewidth=0.6, alpha=BORDER_ALPHA)
 
     if len(alerts_gdf) > 0:
-        def sev_color(s):
-            s = (s or "").strip()
-            return SEVERITY_COLORS.get(s, SEVERITY_COLORS["Unknown"])
+        def nivel_color(n: str) -> str:
+            n = (n or "").strip()
+            return NIVEL_COLORS.get(n, NIVEL_COLORS["Indefinido"])
 
-        alerts_gdf["_color"] = alerts_gdf["severity"].apply(sev_color)
+        alerts_gdf["_color"] = alerts_gdf["nivel"].apply(nivel_color)
 
         alerts_gdf.plot(
             ax=ax,
@@ -493,90 +504,6 @@ def _plot_alerts_map(
             linewidth=0.8,
             alpha=ALERT_ALPHA,
         )
-
-    ax.set_title(title, fontsize=12)
-    ax.set_axis_off()
-    plt.tight_layout()
-    fig.savefig(out_path, dpi=200)
-    plt.close(fig)
-
-
-def _load_occurrences(path: str) -> Optional[gpd.GeoDataFrame]:
-    if not path or not os.path.exists(path):
-        return None
-
-    # tenta GeoJSON/qualquer coisa que o geopandas leia
-    try:
-        gdf = gpd.read_file(path)
-        if gdf.crs is None:
-            gdf = gdf.set_crs("EPSG:4326", allow_override=True)
-        else:
-            try:
-                gdf = gdf.to_crs("EPSG:4326")
-            except Exception:
-                pass
-        # garante que é point
-        if "geometry" not in gdf.columns:
-            return None
-        return gdf
-    except Exception:
-        pass
-
-    # fallback CSV
-    try:
-        rows = []
-        with open(path, "r", encoding="utf-8") as f:
-            reader = csv.DictReader(f)
-            for r in reader:
-                rows.append(r)
-        if not rows:
-            return None
-
-        pts = []
-        tipos = []
-        for r in rows:
-            lat = r.get("lat") or r.get("latitude")
-            lon = r.get("lon") or r.get("lng") or r.get("longitude")
-            tp = r.get("tipo") or r.get("type") or r.get("ocorrencia") or r.get("event") or ""
-            if lat is None or lon is None:
-                continue
-            try:
-                latf = float(str(lat).replace(",", "."))
-                lonf = float(str(lon).replace(",", "."))
-            except ValueError:
-                continue
-            pts.append(Point(lonf, latf))
-            tipos.append(tp)
-
-        if not pts:
-            return None
-
-        gdf = gpd.GeoDataFrame({"tipo": tipos}, geometry=pts, crs="EPSG:4326")
-        return gdf
-    except Exception:
-        return None
-
-
-def _is_landslide_occurrence(tipo: str) -> bool:
-    t = _normalize_text(tipo)
-    # aceita variações: DESLIZAMENTO, ESCORREGAMENTO, CORRIDA DE MASSA etc
-    return any(k in t for k in ["DESLIZ", "ESCORREG", "CORRIDA DE MASSA", "MOVIMENTO DE MASSA"])
-
-
-def _plot_occurrences_map(
-    uf_gdf: gpd.GeoDataFrame,
-    occ_gdf: gpd.GeoDataFrame,
-    out_path: str,
-    title: str,
-) -> None:
-    fig = plt.figure(figsize=(12, 12))
-    ax = plt.gca()
-
-    uf_gdf.boundary.plot(ax=ax, linewidth=0.6, alpha=BORDER_ALPHA)
-
-    if len(occ_gdf) > 0:
-        # pontos pretos simples
-        occ_gdf.plot(ax=ax, markersize=12)
 
     ax.set_title(title, fontsize=12)
     ax.set_axis_off()
@@ -607,66 +534,6 @@ def _save_state(path: str, state: Dict[str, Any]) -> None:
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 
-def _send_telegram_message(token: str, chat_id: str, text: str) -> Tuple[bool, str]:
-    url = f"https://api.telegram.org/bot{token}/sendMessage"
-    data = json.dumps({"chat_id": chat_id, "text": text}).encode("utf-8")
-    req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"})
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            _ = resp.read()
-        return True, "ok"
-    except Exception as e:
-        return False, str(e)
-
-
-def _send_telegram_photo(token: str, chat_id: str, photo_path: str, caption: str = "") -> Tuple[bool, str]:
-    import uuid
-    boundary = f"----WebKitFormBoundary{uuid.uuid4().hex}"
-    url = f"https://api.telegram.org/bot{token}/sendPhoto"
-
-    try:
-        with open(photo_path, "rb") as f:
-            photo_bytes = f.read()
-    except Exception as e:
-        return False, f"falha lendo foto: {e}"
-
-    def _part(name: str, value: str) -> bytes:
-        return (
-            f"--{boundary}\r\n"
-            f'Content-Disposition: form-data; name="{name}"\r\n\r\n'
-            f"{value}\r\n"
-        ).encode("utf-8")
-
-    body = b""
-    body += _part("chat_id", str(chat_id))
-    if caption:
-        body += _part("caption", caption)
-
-    filename = os.path.basename(photo_path)
-    body += (
-        f"--{boundary}\r\n"
-        f'Content-Disposition: form-data; name="photo"; filename="{filename}"\r\n'
-        f"Content-Type: image/png\r\n\r\n"
-    ).encode("utf-8")
-    body += photo_bytes
-    body += b"\r\n"
-    body += f"--{boundary}--\r\n".encode("utf-8")
-
-    req = urllib.request.Request(
-        url,
-        data=body,
-        headers={"Content-Type": f"multipart/form-data; boundary={boundary}"},
-        method="POST",
-    )
-
-    try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            _ = resp.read()
-        return True, "ok"
-    except Exception as e:
-        return False, str(e)
-
-
 def _write_resumo_md(path: str, resumo: Dict[str, Any]) -> None:
     lines = []
     lines.append("# Quadro geral")
@@ -674,25 +541,46 @@ def _write_resumo_md(path: str, resumo: Dict[str, Any]) -> None:
     lines.append(f"Total de alertas (RSS considerados): **{resumo.get('total_alerts', 0)}**")
     lines.append("")
 
-    def _block(title: str, d: Dict[str, int]):
+    def _block(title: str, d: Dict[str, int], emoji: bool = False):
         lines.append(f"## {title}")
         lines.append("")
         for k, v in d.items():
-            lines.append(f"- {k}: {v}")
+            if emoji:
+                lines.append(f"- {nivel_emoji(k)} {k}: {v}")
+            else:
+                lines.append(f"- {k}: {v}")
         lines.append("")
 
-    _block("Nível (severity)", resumo.get("by_severity", {}))
-    _block("Tipo (CHANNEL-LIST)", resumo.get("by_channel_list", {}))
-    _block("Alertas por regiões do Brasil", resumo.get("by_region", {}))
-
-    lines.append("## Alertas por evento (top)")
-    lines.append("")
-    for k, v in resumo.get("by_event", {}).items():
-        lines.append(f"- {k}: {v}")
-    lines.append("")
+    _block("Nível (calculado)", resumo.get("by_nivel", {}), emoji=True)
+    _block("Tipo (CHANNEL-LIST)", resumo.get("by_channel_list", {}), emoji=False)
+    _block("Alertas por regiões do Brasil", resumo.get("by_region", {}), emoji=False)
 
     with open(path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
+
+
+# ----------------------------
+# Filtros de mapa
+# ----------------------------
+
+def _is_chuva_temp_inund(event: Optional[str]) -> bool:
+    n = _normalize_text(event)
+
+    # compatibilidade com textos compostos tipo: "TEMPESTADE LOCAL CONVECTIVA - CHUVAS INTENSAS"
+    if "CHUVA" in n and "INTENSA" in n:
+        return True
+    if "TEMPESTADE" in n and "CONVECT" in n:
+        return True
+    if "INUND" in n:
+        return True
+
+    return False
+
+
+def _is_deslizamento(event: Optional[str]) -> bool:
+    n = _normalize_text(event)
+    # cobre DESLIZAMENTO(S), e variações que você usa no dia a dia
+    return ("DESLIZ" in n) or ("MOVIMENTO DE MASSA" in n) or ("CORRIDA DE MASSA" in n)
 
 
 # ----------------------------
@@ -704,15 +592,6 @@ def main() -> int:
     uf_geojson_path = os.getenv("UF_GEOJSON_PATH", DEFAULT_UF_GEOJSON_PATH)
     out_dir = os.getenv("OUT_DIR", DEFAULT_OUT_DIR)
     state_path = os.getenv("STATE_PATH", DEFAULT_STATE_PATH)
-    occ_path = os.getenv("OCCURRENCES_PATH", DEFAULT_OCCURRENCES_PATH).strip()
-
-    max_items_env = os.getenv("MAX_ITEMS", "").strip()
-    max_items: Optional[int] = None
-    if max_items_env:
-        try:
-            max_items = int(max_items_env)
-        except ValueError:
-            max_items = None
 
     tg_token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
     tg_chat_id = os.getenv("TELEGRAM_CHAT_ID", "").strip()
@@ -720,13 +599,11 @@ def main() -> int:
     print(f"[INFO] RSS_URL={rss_url}")
     print(f"[INFO] UF_GEOJSON_PATH={uf_geojson_path}")
     print(f"[INFO] OUT_DIR={out_dir}")
-    print(f"[INFO] OCCURRENCES_PATH={(occ_path if occ_path else '(não informado)')}")
 
     run_ts = _now_sp().strftime("%Y%m%d_%H%M%S")
     run_dir = os.path.join(out_dir, f"run_{run_ts}")
     print(f"[INFO] RUN_DIR={run_dir}")
     print(f"[INFO] STATE_PATH={state_path}")
-    print(f"[INFO] MAX_ITEMS={'(sem limite)' if max_items is None else max_items}")
 
     _ensure_dirs(".cache", out_dir, run_dir)
 
@@ -746,9 +623,6 @@ def main() -> int:
         return 3
 
     entries = _all(root, "atom:entry", ATOM_NS)
-    if max_items is not None:
-        entries = entries[:max_items]
-
     print(f"[INFO] Entradas no RSS (consideradas): {len(entries)}")
 
     alerts: List[AlertRecord] = []
@@ -769,7 +643,7 @@ def main() -> int:
     with open(os.path.join(run_dir, "errors.json"), "w", encoding="utf-8") as f:
         json.dump(errors, f, ensure_ascii=False, indent=2)
 
-    # quadro geral
+    # resumo
     resumo = _make_summary(alerts)
     resumo_json_path = os.path.join(run_dir, "resumo.json")
     resumo_md_path = os.path.join(run_dir, "resumo.md")
@@ -785,13 +659,15 @@ def main() -> int:
         print(f"[ERROR] Falha ao ler UF GeoJSON: {e}")
         return 4
 
-    # Mapa 1: todos alertas
-    alerts_gdf = _alerts_to_gdf(alerts)
+    # prepara gdf geral com polygons
+    alerts_gdf_all = _alerts_to_gdf(alerts)
+
+    # Mapa 1: todos
     map1 = os.path.join(run_dir, "mapa_alertas_todos.png")
-    if len(alerts_gdf) > 0:
+    if len(alerts_gdf_all) > 0:
         _plot_alerts_map(
             uf_gdf,
-            alerts_gdf,
+            alerts_gdf_all,
             map1,
             f"Alertas IDAP (todos) | {run_ts}",
         )
@@ -800,98 +676,131 @@ def main() -> int:
         map1 = ""
         print("[WARN] Mapa 1 não gerado: nenhum alerta com polygon")
 
-    # Mapa 2: subset eventos
-    def _is_target_event(ev: Optional[str]) -> bool:
-        n = _normalize_text(ev)
-        # compatibiliza “Tempestade Local Convectiva - Chuvas Intensas”
-        if "TEMPESTADE" in n and "CONVECT" in n:
-            return True
-        if "CHUVA" in n and "INTENSA" in n:
-            return True
-        if "INUND" in n:
-            return True
-        return n in { _normalize_text(x) for x in TARGET_EVENTS_NORM }
-
-    alerts_subset = [a for a in alerts if _is_target_event(a.event)]
-    subset_gdf = _alerts_to_gdf(alerts_subset)
+    # Mapa 2: chuva/temp/inund
+    alerts_2 = [a for a in alerts if _is_chuva_temp_inund(a.event)]
+    gdf_2 = _alerts_to_gdf(alerts_2)
     map2 = os.path.join(run_dir, "mapa_alertas_chuva_temp_inund.png")
-    if len(subset_gdf) > 0:
+    if len(gdf_2) > 0:
         _plot_alerts_map(
             uf_gdf,
-            subset_gdf,
+            gdf_2,
             map2,
             f"Alertas: Chuvas Intensas, Tempestades Convectivas, Inundações | {run_ts}",
         )
         print(f"[INFO] Mapa gerado: {map2}")
     else:
         map2 = ""
-        print("[WARN] Mapa 2 não gerado: nenhum alerta (subset) com polygon")
+        print("[WARN] Mapa 2 não gerado: nenhum alerta (filtro) com polygon")
 
-    # Ocorrências (opcional)
-    map3 = os.path.join(run_dir, "mapa_ocorrencias_deslizamento.png")
-    map4 = os.path.join(run_dir, "mapa_ocorrencias_outros.png")
-
-    occ_gdf = _load_occurrences(occ_path) if occ_path else None
-    if occ_gdf is None:
-        map3 = ""
-        map4 = ""
-        print("[WARN] Ocorrências não carregadas. Mapas 3 e 4 não serão gerados.")
+    # Mapa 3: deslizamento
+    alerts_3 = [a for a in alerts if _is_deslizamento(a.event)]
+    gdf_3 = _alerts_to_gdf(alerts_3)
+    map3 = os.path.join(run_dir, "mapa_alertas_deslizamento.png")
+    if len(gdf_3) > 0:
+        _plot_alerts_map(
+            uf_gdf,
+            gdf_3,
+            map3,
+            f"Alertas: Deslizamento | {run_ts}",
+        )
+        print(f"[INFO] Mapa gerado: {map3}")
     else:
-        # tenta descobrir o campo de tipo
-        tipo_col = None
-        for c in ["tipo", "type", "ocorrencia", "evento", "event"]:
-            if c in occ_gdf.columns:
-                tipo_col = c
-                break
-        if tipo_col is None:
-            # se não tiver, cria vazio para não quebrar filtro
-            occ_gdf["tipo"] = ""
-            tipo_col = "tipo"
+        map3 = ""
+        print("[WARN] Mapa 3 não gerado: nenhum alerta de deslizamento com polygon")
 
-        occ_gdf["_tipo_norm"] = occ_gdf[tipo_col].apply(lambda x: _normalize_text(str(x) if x is not None else ""))
+    # Mapa 4: demais alertas (exclui mapas 2 e 3)
+    ids_2 = {a.identifier for a in alerts_2}
+    ids_3 = {a.identifier for a in alerts_3}
+    alerts_4 = [a for a in alerts if (a.identifier not in ids_2) and (a.identifier not in ids_3)]
+    gdf_4 = _alerts_to_gdf(alerts_4)
+    map4 = os.path.join(run_dir, "mapa_alertas_outros.png")
+    if len(gdf_4) > 0:
+        _plot_alerts_map(
+            uf_gdf,
+            gdf_4,
+            map4,
+            f"Alertas: Outros tipos | {run_ts}",
+        )
+        print(f"[INFO] Mapa gerado: {map4}")
+    else:
+        map4 = ""
+        print("[WARN] Mapa 4 não gerado: nenhum alerta (outros) com polygon")
 
-        occ_land = occ_gdf[occ_gdf[tipo_col].apply(lambda x: _is_landslide_occurrence(str(x) if x is not None else ""))].copy()
-        occ_other = occ_gdf[~occ_gdf[tipo_col].apply(lambda x: _is_landslide_occurrence(str(x) if x is not None else ""))].copy()
-
-        if len(occ_land) > 0:
-            _plot_occurrences_map(uf_gdf, occ_land, map3, f"Ocorrências: Deslizamento | {run_ts}")
-            print(f"[INFO] Mapa gerado: {map3}")
-        else:
-            map3 = ""
-            print("[WARN] Mapa 3 não gerado: nenhuma ocorrência de deslizamento")
-
-        if len(occ_other) > 0:
-            _plot_occurrences_map(uf_gdf, occ_other, map4, f"Ocorrências: Outros tipos | {run_ts}")
-            print(f"[INFO] Mapa gerado: {map4}")
-        else:
-            map4 = ""
-            print("[WARN] Mapa 4 não gerado: nenhuma ocorrência em outros tipos")
-
-    # Telegram
+    # Telegram (opcional): aqui eu só mando texto, e as imagens uma a uma
     if tg_token and tg_chat_id:
-        by_sev = resumo.get("by_severity", {})
-        by_reg = resumo.get("by_region", {})
-        by_typ = resumo.get("by_channel_list", {})
+        by_nivel = resumo.get("by_nivel", {}) or {}
+        by_reg = resumo.get("by_region", {}) or {}
+        by_typ = resumo.get("by_channel_list", {}) or {}
 
-        sev_line = ", ".join([f"{k}:{v}" for k, v in list(by_sev.items())[:6]]) if isinstance(by_sev, dict) else ""
-        reg_line = ", ".join([f"{k}:{v}" for k, v in list(by_reg.items())[:6]]) if isinstance(by_reg, dict) else ""
-        typ_line = ", ".join([f"{k}:{v}" for k, v in list(by_typ.items())[:6]]) if isinstance(by_typ, dict) else ""
+        def _fmt_counts(d: Dict[str, int], with_emoji: bool = False) -> str:
+            parts = []
+            for k, v in list(d.items())[:10]:
+                if with_emoji:
+                    parts.append(f"{nivel_emoji(k)} {k}:{v}")
+                else:
+                    parts.append(f"{k}:{v}")
+            return ", ".join(parts)
 
         msg = (
             f"IDAP Daily Maps\n"
             f"Rodada: {run_ts}\n"
-            f"Total (RSS considerados): {len(entries)}\n"
+            f"Entradas RSS: {len(entries)}\n"
             f"CAPs parseados: {len(alerts)} | erros: {len(errors)}\n"
-            f"Nível: {sev_line}\n"
-            f"Tipo (CHANNEL-LIST): {typ_line}\n"
-            f"Regiões: {reg_line}\n"
+            f"Nível: {_fmt_counts(by_nivel, with_emoji=True)}\n"
+            f"Tipo: {_fmt_counts(by_typ, with_emoji=False)}\n"
+            f"Regiões: {_fmt_counts(by_reg, with_emoji=False)}\n"
         )
 
-        ok, detail = _send_telegram_message(tg_token, tg_chat_id, msg)
-        if ok:
+        # sendMessage
+        try:
+            url = f"https://api.telegram.org/bot{tg_token}/sendMessage"
+            data = json.dumps({"chat_id": tg_chat_id, "text": msg}).encode("utf-8")
+            req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"})
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                _ = resp.read()
             print("[INFO] Telegram: mensagem enviada")
-        else:
-            print(f"[WARN] Telegram: falha ao enviar mensagem: {detail}")
+        except Exception as e:
+            print(f"[WARN] Telegram: falha ao enviar mensagem: {e}")
+
+        # sendPhoto
+        def _send_photo(photo_path: str, caption: str) -> None:
+            import uuid
+            boundary = f"----WebKitFormBoundary{uuid.uuid4().hex}"
+            url = f"https://api.telegram.org/bot{tg_token}/sendPhoto"
+
+            with open(photo_path, "rb") as f:
+                photo_bytes = f.read()
+
+            def _part(name: str, value: str) -> bytes:
+                return (
+                    f"--{boundary}\r\n"
+                    f'Content-Disposition: form-data; name="{name}"\r\n\r\n'
+                    f"{value}\r\n"
+                ).encode("utf-8")
+
+            body = b""
+            body += _part("chat_id", str(tg_chat_id))
+            if caption:
+                body += _part("caption", caption)
+
+            filename = os.path.basename(photo_path)
+            body += (
+                f"--{boundary}\r\n"
+                f'Content-Disposition: form-data; name="photo"; filename="{filename}"\r\n'
+                f"Content-Type: image/png\r\n\r\n"
+            ).encode("utf-8")
+            body += photo_bytes
+            body += b"\r\n"
+            body += f"--{boundary}--\r\n".encode("utf-8")
+
+            req = urllib.request.Request(
+                url,
+                data=body,
+                headers={"Content-Type": f"multipart/form-data; boundary={boundary}"},
+                method="POST",
+            )
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                _ = resp.read()
 
         for pth, cap in [
             (map1, f"Mapa 1: todos | {run_ts}"),
@@ -900,15 +809,15 @@ def main() -> int:
             (map4, f"Mapa 4: outros | {run_ts}"),
         ]:
             if pth:
-                ok2, detail2 = _send_telegram_photo(tg_token, tg_chat_id, pth, caption=cap)
-                if ok2:
+                try:
+                    _send_photo(pth, cap)
                     print(f"[INFO] Telegram: enviado {os.path.basename(pth)}")
-                else:
-                    print(f"[WARN] Telegram: falha ao enviar {os.path.basename(pth)}: {detail2}")
+                except Exception as e:
+                    print(f"[WARN] Telegram: falha ao enviar {os.path.basename(pth)}: {e}")
     else:
         print("[INFO] Telegram: não configurado (TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID vazios)")
 
-    # state.json (só registro)
+    # state.json (registro simples)
     state["last_run_ts"] = run_ts
     state["last_run_iso"] = datetime.now(timezone.utc).isoformat()
     state["last_counts"] = {"entries": len(entries), "alerts": len(alerts), "errors": len(errors)}
