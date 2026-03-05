@@ -37,6 +37,16 @@ jobs:
           restore-keys: |
             idap-state-${{ runner.os }}
 
+                  - name: Run daily maps
+        env:
+          RSS_URL: "https://idapfile.mdr.gov.br/idap/api/rss/cap"
+          UF_GEOJSON_PATH: "resources/br_uf.geojson"
+          OUT_DIR: "out"
+          STATE_PATH: ".cache/state.json"
+        run: |
+          python scripts/idap_daily_maps.py
+          
+
       - name: Run daily maps
         env:
           RSS_URL: "https://idapfile.mdr.gov.br/idap/api/rss/cap"
