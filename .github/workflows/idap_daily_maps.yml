@@ -3,8 +3,8 @@ name: IDAP Daily Maps
 on:
   schedule:
     # Horários em UTC
-    # 00:17, 06:17, 12:17, 18:17 America/Sao_Paulo
-    - cron: "17 3,9,15,21 * * *"
+    # 01:17, 07:17, 13:17, 19:17 America/Sao_Paulo
+    - cron: "17 4,10,16,22 * * *"
   workflow_dispatch: {}
 
 permissions:
