@@ -854,12 +854,11 @@ def main() -> int:
             return ", ".join(parts)
 
         msg = (
-            f"IDAP Daily Maps\n"
+            f"Mapas de Alertas - IDAP - SEDEC/DPS/CGMA/CISDA\n"
             f"{period_txt}\n"
             f"Entradas RSS: {len(entries)}\n"
             f"CAPs parseados: {len(alerts)} | erros: {len(errors)}\n"
             f"Nível: {_fmt_counts(by_nivel, with_emoji=True)}\n"
-            f"Tipo: {_fmt_counts(by_typ, with_emoji=False)}\n"
             f"Regiões: {_fmt_counts(by_reg, with_emoji=False)}\n"
         )
         try:
