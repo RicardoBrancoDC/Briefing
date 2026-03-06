@@ -187,10 +187,10 @@ def _format_period_title(min_dt: Optional[datetime], max_dt: Optional[datetime])
     if d1 == d2:
         return f"Alertas em {d1.day:02d} de {_PT_MONTHS[d1.month]} de {d1.year}"
     if d1.year == d2.year and d1.month == d2.month:
-        return f"Alertas entre {d1.day:02d} e {d2.day:02d} de {_PT_MONTHS[d1.month]} de {d1.year}"
+        return f"Alertas últimas 24h - Gerado em: {d1.day:02d} de {_PT_MONTHS[d1.month]} de {d1.year}"
     if d1.year == d2.year:
-        return f"Alertas entre {d1.day:02d} de {_PT_MONTHS[d1.month]} e {d2.day:02d} de {_PT_MONTHS[d2.month]} de {d1.year}"
-    return f"Alertas entre {d1.day:02d}/{d1.month:02d}/{d1.year} e {d2.day:02d}/{d2.month:02d}/{d2.year}"
+        return f"Alertas últimas 24h - Gerado em: {d1.day:02d} de {_PT_MONTHS[d1.month]} de {_PT_MONTHS[d2.month]} de {d1.year}"
+    return f"Alertas últimas 24h - Gerado em: {d1.day:02d}/{d1.month:02d}/{d1.year}"
 
 
 def _parse_iso_any(s: Optional[str]) -> Optional[datetime]:
