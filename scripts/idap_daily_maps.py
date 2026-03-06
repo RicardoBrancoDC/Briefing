@@ -152,7 +152,7 @@ _PT_MONTHS = {
 
 def _format_run_date_title(run_dt: Optional[datetime] = None) -> str:
     dt = run_dt or _now_sp()
-    return f"Gerado em: {dt.day:02d} de {_PT_MONTHS[dt.month]} de {dt.year} - Últimas 12h"
+    return f"Gerado em: {dt.day:02d} de {_PT_MONTHS[dt.month]} de {dt.year}"
 
 
 def _parse_iso_any(s: Optional[str]) -> Optional[datetime]:
