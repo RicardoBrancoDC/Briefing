@@ -2,12 +2,13 @@ name: IDAP Daily Maps
 
 on:
   schedule:
-    # 07:00 America/Sao_Paulo = 10:00 UTC
-    - cron: "0 10 * * *"
+    # Horários em UTC
+    # 00:17, 06:17, 12:17, 18:17 America/Sao_Paulo
+    - cron: "17 3,9,15,21 * * *"
   workflow_dispatch: {}
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   run:
@@ -17,6 +18,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -30,22 +33,55 @@ jobs:
 
       - name: Run daily maps
         env:
+          TZ: "America/Sao_Paulo"
           RSS_URL: "https://idapfile.mdr.gov.br/idap/api/rss/cap"
           UF_GEOJSON_PATH: "resources/br_uf.geojson"
           LOGO_PATH: "resources/marca_sedec.png"
           OUT_DIR: "out"
           STATE_PATH: ".cache/state.json"
-          MAX_ITEMS: ""  # vazio = sem limite
+          HISTORY_PATH: ".cache/historico_alertas.json"
+          WINDOW_HOURS: "24"
+          RETENTION_HOURS: "72"
+          MAX_ITEMS: ""
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           mkdir -p .cache out
+          [ -f .cache/state.json ] || echo "{}" > .cache/state.json
+          [ -f .cache/historico_alertas.json ] || echo "[]" > .cache/historico_alertas.json
+
           python scripts/idap_daily_maps.py
+
           echo "----- OUT TREE -----"
-          find out -maxdepth 3 -type f -print
+          find out -maxdepth 3 -type f -print || true
+
+          echo "----- CACHE TREE -----"
+          find .cache -maxdepth 2 -type f -print || true
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: idap_daily_outputs
-          path: out/
+          path: |
+            out/
+            .cache/state.json
+            .cache/historico_alertas.json
+          if-no-files-found: warn
+          retention-days: 7
+
+      - name: Commit history/state
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add .cache/state.json .cache/historico_alertas.json
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração para commit."
+            exit 0
+          fi
+
+          git commit -m "Atualiza histórico IDAP [skip ci]"
+          git push
