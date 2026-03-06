@@ -16,8 +16,10 @@ Regras:
 - Cor por NIVEL calculado:
     Extremo, Severo, Alto, Médio, Baixo, Indefinido
 - Mapas 2, 3 e 4 são filtros por EVENTO.
-- Em cada mapa, coloca uma legenda (inferior direita) com a contagem por nível (sem "Indefinido"),
-  sempre nesta ordem, de cima para baixo:
+- Em cada mapa, coloca duas legendas:
+    - inferior direita: contagem por nível (sem "Indefinido")
+    - inferior esquerda: resumo de alertas por região
+  na legenda por nível, a ordem é:
     Extremo, Severo, Alto, Médio, Baixo
 - Logo (canto superior direito) se LOGO_PATH existir.
 """
@@ -150,9 +152,9 @@ _PT_MONTHS = {
 }
 
 
-def _format_run_date_title(run_dt: Optional[datetime] = None) -> str:
-    dt = run_dt or _now_sp()
-    return f"Gerado em: {dt.day:02d} de {_PT_MONTHS[dt.month]} de {dt.year}"
+def _format_period_title(min_dt: Optional[datetime], max_dt: Optional[datetime]) -> str:
+    now_dt = _now_sp()
+    return f"Alertas últimas 24h - Gerado em: {now_dt.day:02d} de {_PT_MONTHS[now_dt.month]} de {now_dt.year}"
 
 
 def _parse_iso_any(s: Optional[str]) -> Optional[datetime]:
@@ -510,6 +512,60 @@ def _add_logo(ax, logo_path: str, width_frac: float = 0.04, x: float = 0.985, y:
         return
 
 
+REGION_LABELS = {
+    "N": "Norte",
+    "NE": "Nordeste",
+    "CO": "Centro-Oeste",
+    "SE": "Sudeste",
+    "S": "Sul",
+    "N/A": "Não identificado",
+}
+
+
+def _add_region_legend(ax, alerts_gdf: gpd.GeoDataFrame, loc: str = "lower left") -> None:
+    try:
+        if alerts_gdf is None or len(alerts_gdf) == 0 or "region" not in alerts_gdf.columns:
+            return
+        order = ["N", "NE", "CO", "SE", "S", "N/A"]
+        counts: Dict[str, int] = {}
+        for r in alerts_gdf["region"].tolist():
+            rr = (r or "N/A").strip()
+            if rr not in order:
+                rr = "N/A"
+            counts[rr] = counts.get(rr, 0) + 1
+
+        lines = ["Resumo por região"]
+        for r in order:
+            c = counts.get(r, 0)
+            if c > 0:
+                lines.append(f"{REGION_LABELS.get(r, r)}: {c}")
+
+        if len(lines) == 1:
+            return
+
+        x = 0.015 if loc == "lower left" else 0.985
+        ha = "left" if loc == "lower left" else "right"
+
+        ax.text(
+            x,
+            0.03,
+            "\n".join(lines),
+            transform=ax.transAxes,
+            ha=ha,
+            va="bottom",
+            fontsize=11,
+            zorder=1000,
+            bbox=dict(
+                boxstyle="round,pad=0.45",
+                facecolor="white",
+                edgecolor="#666666",
+                alpha=0.95,
+            ),
+        )
+    except Exception:
+        return
+
+
 def _add_counts_legend(ax, alerts_gdf: gpd.GeoDataFrame, loc: str = "lower right") -> None:
     try:
         if alerts_gdf is None or len(alerts_gdf) == 0 or "nivel" not in alerts_gdf.columns:
@@ -563,6 +619,7 @@ def _plot_alerts_map(
     ax.set_axis_off()
     if logo_path:
         _add_logo(ax, logo_path)
+    _add_region_legend(ax, alerts_gdf, loc="lower left")
     _add_counts_legend(ax, alerts_gdf, loc="lower right")
     plt.tight_layout()
     fig.savefig(out_path, dpi=200)
@@ -672,7 +729,10 @@ def main() -> int:
         json.dump(resumo, f, ensure_ascii=False, indent=2)
     _write_resumo_md(os.path.join(run_dir, "resumo.md"), resumo)
 
-    period_txt = _format_run_date_title(_now_sp())
+    sent_dts = [dt for dt in (_parse_iso_any(a.sent) for a in alerts) if dt is not None]
+    min_dt = min(sent_dts) if sent_dts else None
+    max_dt = max(sent_dts) if sent_dts else None
+    period_txt = _format_period_title(min_dt, max_dt)
 
     try:
         uf_gdf = _load_uf_gdf(uf_geojson_path)
