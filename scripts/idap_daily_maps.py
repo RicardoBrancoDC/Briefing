@@ -609,7 +609,7 @@ def _nivel_color(n: str) -> str:
     return NIVEL_COLORS.get(n, NIVEL_COLORS["Indefinido"])
 
 
-def _add_logo(ax, logo_path: str, width_frac: float = 0.14, x: float = 0.985, y: float = 0.985) -> None:
+def _add_logo(ax, logo_path: str, width_frac: float = 0.04, x: float = 0.985, y: float = 0.985) -> None:
     try:
         if not logo_path or (not os.path.exists(logo_path)):
             return
