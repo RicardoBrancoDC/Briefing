@@ -858,7 +858,7 @@ def main() -> int:
         return 4
 
     alerts_gdf_all = _alerts_to_gdf(alerts)
-    title_line2 = f"{period_txt} | {run_ts}"
+    title_line2 = f"{period_txt}"
 
     map1 = os.path.join(run_dir, "mapa_alertas_todos.png")
     if len(alerts_gdf_all) > 0:
@@ -920,7 +920,6 @@ def main() -> int:
 
         msg = (
             f"IDAP Daily Maps\n"
-            f"Rodada: {run_ts}\n"
             f"{period_txt}\n"
             f"Entradas RSS: {len(entries)}\n"
             f"CAPs parseados: {len(alerts)} | erros: {len(errors)}\n"
@@ -936,10 +935,10 @@ def main() -> int:
             print(f"[WARN] Telegram: falha ao enviar mensagem: {e}")
 
         for pth, cap in [
-            (map1, f"Mapa 1: todos | {run_ts}"),
+            (map1, f"Mapa 1: Todas as Categorias"),
             (map2, f"Mapa 2: chuva/temp/inund | {run_ts}"),
-            (map3, f"Mapa 3: deslizamento | {run_ts}"),
-            (map4, f"Mapa 4: outros | {run_ts}"),
+            (map3, f"Mapa 3: Deslizamentos | {run_ts}"),
+            (map4, f"Mapa 4: Outras Categorias | {run_ts}"),
         ]:
             if pth:
                 try:
