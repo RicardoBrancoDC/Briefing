@@ -277,15 +277,72 @@ def _geom_points_count(geom: Optional[BaseGeometry]) -> int:
         return 0
 
 
-def _guess_uf(area_desc: Optional[str]) -> Optional[str]:
-    txt = (area_desc or "").strip().upper()
+STATE_NAME_TO_UF = {
+    "ACRE": "AC",
+    "ALAGOAS": "AL",
+    "AMAPÁ": "AP",
+    "AMAPA": "AP",
+    "AMAZONAS": "AM",
+    "BAHIA": "BA",
+    "CEARÁ": "CE",
+    "CEARA": "CE",
+    "DISTRITO FEDERAL": "DF",
+    "ESPÍRITO SANTO": "ES",
+    "ESPIRITO SANTO": "ES",
+    "GOIÁS": "GO",
+    "GOIAS": "GO",
+    "MARANHÃO": "MA",
+    "MARANHAO": "MA",
+    "MATO GROSSO": "MT",
+    "MATO GROSSO DO SUL": "MS",
+    "MINAS GERAIS": "MG",
+    "PARÁ": "PA",
+    "PARA": "PA",
+    "PARAÍBA": "PB",
+    "PARAIBA": "PB",
+    "PARANÁ": "PR",
+    "PARANA": "PR",
+    "PERNAMBUCO": "PE",
+    "PIAUÍ": "PI",
+    "PIAUI": "PI",
+    "RIO DE JANEIRO": "RJ",
+    "RIO GRANDE DO NORTE": "RN",
+    "RIO GRANDE DO SUL": "RS",
+    "RONDÔNIA": "RO",
+    "RONDONIA": "RO",
+    "RORAIMA": "RR",
+    "SANTA CATARINA": "SC",
+    "SÃO PAULO": "SP",
+    "SAO PAULO": "SP",
+    "SERGIPE": "SE",
+    "TOCANTINS": "TO",
+}
+
+
+def _guess_uf_from_text(text: Optional[str]) -> Optional[str]:
+    txt = (text or "").strip().upper()
+    if not txt:
+        return None
     m = re.search(r"/([A-Z]{2})\b", txt)
     if m:
         return m.group(1)
-    m = re.search(r"\b([A-Z]{2})\b", txt)
+    m = re.search(r"\(([A-Z]{2})\)", txt)
     if m:
         return m.group(1)
+    m = re.search(r"\b([A-Z]{2})\b", txt)
+    if m and m.group(1) in UF_TO_REGION:
+        return m.group(1)
+    for state_name, uf in sorted(STATE_NAME_TO_UF.items(), key=lambda x: -len(x[0])):
+        if state_name in txt:
+            return uf
     return None
+
+
+def _guess_uf(area_desc: Optional[str], sender_name: Optional[str] = None) -> Optional[str]:
+    uf = _guess_uf_from_text(area_desc)
+    if uf:
+        return uf
+    return _guess_uf_from_text(sender_name)
 
 
 def _uf_to_region(uf: Optional[str]) -> Optional[str]:
@@ -376,7 +433,7 @@ def _parse_cap_from_entry(entry: ET.Element) -> Tuple[Optional[AlertRecord], Opt
                 has_geocode = len(geocodes) > 0
                 if polygon_raw:
                     geom = _parse_polygon_str(polygon_raw)
-        uf_hint = _guess_uf(areaDesc)
+        uf_hint = _guess_uf(areaDesc, senderName)
         region = _uf_to_region(uf_hint)
         nivel = calc_nivel(severity or "", urgency or "", certainty or "", responseType or "")
         rec = AlertRecord(
