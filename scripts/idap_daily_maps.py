@@ -2,17 +2,21 @@
 # -*- coding: utf-8 -*-
 
 """
-IDAP Daily Maps (versão estável + logo + legenda colorida)
+IDAP Daily Maps (versão estável + histórico 24h + logo + legenda colorida)
 
 Saídas:
 1) mapa_alertas_todos.png
 2) mapa_alertas_chuva_temp_inund.png
 3) mapa_alertas_deslizamento.png
 4) mapa_alertas_outros.png
-+ alerts.json, errors.json, resumo.json, resumo.md
++ alerts_feed.json, alerts_24h.json, historico_alertas.json, errors.json, resumo.json, resumo.md
 
 Regras:
 - Varre o RSS completo a cada execução (sem filtrar por status).
+- Mantém histórico local de alertas para contornar o limite de 12h do feed.
+- Considera o campo onset como horário de geração do alerta.
+- Deduplica pelo campo atom:id do entry RSS.
+- Gera mapas e resumos com base nos alertas das últimas 24h.
 - Cor por NIVEL calculado:
     Extremo, Severo, Alto, Médio, Baixo, Indefinido
 - Mapas 2, 3 e 4 são filtros por EVENTO.
@@ -34,7 +38,7 @@ import urllib.error
 import http.client
 import xml.etree.ElementTree as ET
 from dataclasses import asdict, dataclass
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from typing import Any, Dict, List, Optional, Tuple
 
 import geopandas as gpd
@@ -54,6 +58,9 @@ DEFAULT_UF_GEOJSON_PATH = "resources/br_uf.geojson"
 DEFAULT_OUT_DIR = "out"
 DEFAULT_STATE_PATH = ".cache/state.json"
 DEFAULT_LOGO_PATH = ".cache/marca_sedec.png"
+DEFAULT_HISTORY_PATH = ".cache/historico_alertas.json"
+DEFAULT_WINDOW_HOURS = 24
+DEFAULT_RETENTION_HOURS = 72
 
 UF_TO_REGION = {
     "AC": "N", "AP": "N", "AM": "N", "PA": "N", "RO": "N", "RR": "N", "TO": "N",
@@ -113,6 +120,7 @@ def nivel_emoji(nivel: str) -> str:
 @dataclass
 class AlertRecord:
     identifier: str
+    entry_id: str
     sender: Optional[str]
     senderName: Optional[str]
     sent: Optional[str]
@@ -152,7 +160,7 @@ _PT_MONTHS = {
 }
 
 
-def _format_period_title(min_dt: Optional[datetime], max_dt: Optional[datetime]) -> str:
+def _format_period_title() -> str:
     now_dt = _now_sp()
     return f"Alertas últimas 24h - Gerado em: {now_dt.day:02d} de {_PT_MONTHS[now_dt.month]} de {now_dt.year}"
 
@@ -204,7 +212,7 @@ def _read_url(url: str, timeout: int = 30, retries: int = 3, backoff_s: float = 
         try:
             req = urllib.request.Request(
                 url,
-                headers={"User-Agent": "IDAP-Daily-Maps/1.4 (+github-actions)", "Accept": "*/*"},
+                headers={"User-Agent": "IDAP-Daily-Maps/1.5 (+github-actions)", "Accept": "*/*"},
                 method="GET",
             )
             with urllib.request.urlopen(req, timeout=timeout) as resp:
@@ -393,7 +401,8 @@ def _parse_cap_from_entry(entry: ET.Element) -> Tuple[Optional[AlertRecord], Opt
         cap_alert = _extract_cap_xml_from_entry(entry)
         if cap_alert is None:
             return None, "entry sem CAP <alert>"
-        identifier = _safe_text(_first(cap_alert, "cap:identifier", CAP_NS)) or "UNKNOWN"
+        entry_id = _safe_text(_first(entry, "atom:id", ATOM_NS)) or "UNKNOWN"
+        identifier = _safe_text(_first(cap_alert, "cap:identifier", CAP_NS)) or entry_id
         sender = _safe_text(_first(cap_alert, "cap:sender", CAP_NS))
         sent = _safe_text(_first(cap_alert, "cap:sent", CAP_NS))
         status = _safe_text(_first(cap_alert, "cap:status", CAP_NS))
@@ -437,13 +446,35 @@ def _parse_cap_from_entry(entry: ET.Element) -> Tuple[Optional[AlertRecord], Opt
         region = _uf_to_region(uf_hint)
         nivel = calc_nivel(severity or "", urgency or "", certainty or "", responseType or "")
         rec = AlertRecord(
-            identifier=identifier, sender=sender, senderName=senderName, sent=sent, status=status, msgType=msgType,
-            category=category, event=event, responseType=responseType, urgency=urgency, severity=severity,
-            certainty=certainty, onset=onset, expires=expires, nivel=nivel, headline=headline,
-            description=description, instruction=instruction, web=web, contact=contact,
-            channel_list=channel_list, areaDesc=areaDesc, polygon_raw=polygon_raw,
-            polygon_points=_geom_points_count(geom), has_geocode=has_geocode, uf_hint=uf_hint,
-            region=region, geometry_wkt=geom.wkt if geom is not None else None,
+            identifier=identifier,
+            entry_id=entry_id,
+            sender=sender,
+            senderName=senderName,
+            sent=sent,
+            status=status,
+            msgType=msgType,
+            category=category,
+            event=event,
+            responseType=responseType,
+            urgency=urgency,
+            severity=severity,
+            certainty=certainty,
+            onset=onset,
+            expires=expires,
+            nivel=nivel,
+            headline=headline,
+            description=description,
+            instruction=instruction,
+            web=web,
+            contact=contact,
+            channel_list=channel_list,
+            areaDesc=areaDesc,
+            polygon_raw=polygon_raw,
+            polygon_points=_geom_points_count(geom),
+            has_geocode=has_geocode,
+            uf_hint=uf_hint,
+            region=region,
+            geometry_wkt=geom.wkt if geom is not None else None,
         )
         return rec, None
     except Exception as e:
@@ -501,25 +532,99 @@ def _ensure_dirs(*paths: str) -> None:
         os.makedirs(p, exist_ok=True)
 
 
-def _load_state(path: str) -> Dict[str, Any]:
+def _load_json_file(path: str, default: Any) -> Any:
     if not os.path.exists(path):
-        return {}
+        return default
     try:
         with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
     except Exception:
-        return {}
+        return default
 
 
-def _save_state(path: str, state: Dict[str, Any]) -> None:
+def _save_json_file(path: str, data: Any) -> None:
     parent = os.path.dirname(path) or "."
     os.makedirs(parent, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
-        json.dump(state, f, ensure_ascii=False, indent=2)
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def _load_state(path: str) -> Dict[str, Any]:
+    return _load_json_file(path, {})
+
+
+def _save_state(path: str, state: Dict[str, Any]) -> None:
+    _save_json_file(path, state)
+
+
+def _load_history(path: str) -> List[AlertRecord]:
+    raw = _load_json_file(path, [])
+    alerts: List[AlertRecord] = []
+    if not isinstance(raw, list):
+        return alerts
+    for item in raw:
+        try:
+            if not isinstance(item, dict):
+                continue
+            if "entry_id" not in item:
+                item["entry_id"] = item.get("identifier", "UNKNOWN")
+            alerts.append(AlertRecord(**item))
+        except Exception:
+            continue
+    return alerts
+
+
+def _save_history(path: str, alerts: List[AlertRecord]) -> None:
+    _save_json_file(path, [asdict(a) for a in alerts])
+
+
+def _merge_history(existing: List[AlertRecord], new_alerts: List[AlertRecord]) -> Tuple[List[AlertRecord], int]:
+    merged: Dict[str, AlertRecord] = {}
+    for a in existing:
+        key = (a.entry_id or a.identifier or "").strip()
+        if key:
+            merged[key] = a
+    added = 0
+    for a in new_alerts:
+        key = (a.entry_id or a.identifier or "").strip()
+        if not key:
+            continue
+        if key not in merged:
+            added += 1
+        merged[key] = a
+    def _sort_key(a: AlertRecord) -> datetime:
+        return _parse_iso_any(a.onset) or _parse_iso_any(a.sent) or datetime(1970, 1, 1, tzinfo=timezone.utc)
+    items = list(merged.values())
+    items.sort(key=_sort_key)
+    return items, added
+
+
+def _filter_recent_history(alerts: List[AlertRecord], retention_hours: int, ref_now: datetime) -> List[AlertRecord]:
+    cutoff = ref_now - timedelta(hours=retention_hours)
+    kept: List[AlertRecord] = []
+    for a in alerts:
+        ref_dt = _parse_iso_any(a.onset) or _parse_iso_any(a.sent)
+        if ref_dt is None:
+            continue
+        if ref_dt >= cutoff:
+            kept.append(a)
+    return kept
+
+
+def _filter_window(alerts: List[AlertRecord], window_hours: int, ref_now: datetime) -> List[AlertRecord]:
+    cutoff = ref_now - timedelta(hours=window_hours)
+    selected: List[AlertRecord] = []
+    for a in alerts:
+        ref_dt = _parse_iso_any(a.onset) or _parse_iso_any(a.sent)
+        if ref_dt is None:
+            continue
+        if cutoff <= ref_dt <= ref_now:
+            selected.append(a)
+    return selected
 
 
 def _write_resumo_md(path: str, resumo: Dict[str, Any]) -> None:
-    lines = ["# Quadro geral", "", f"Total de alertas (RSS considerados): **{resumo.get('total_alerts', 0)}**", ""]
+    lines = ["# Quadro geral", "", f"Total de alertas (últimas 24h): **{resumo.get('total_alerts', 0)}**", ""]
     def _block(title: str, d: Dict[str, int], emoji: bool = False):
         lines.append(f"## {title}")
         lines.append("")
@@ -727,12 +832,18 @@ def main() -> int:
     out_dir = os.getenv("OUT_DIR", DEFAULT_OUT_DIR)
     state_path = os.getenv("STATE_PATH", DEFAULT_STATE_PATH)
     logo_path = os.getenv("LOGO_PATH", DEFAULT_LOGO_PATH).strip()
+    history_path = os.getenv("HISTORY_PATH", DEFAULT_HISTORY_PATH)
+    window_hours = int(os.getenv("WINDOW_HOURS", str(DEFAULT_WINDOW_HOURS)))
+    retention_hours = int(os.getenv("RETENTION_HOURS", str(DEFAULT_RETENTION_HOURS)))
     tg_token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
     tg_chat_id = os.getenv("TELEGRAM_CHAT_ID", "").strip()
 
     print(f"[INFO] RSS_URL={rss_url}")
     print(f"[INFO] UF_GEOJSON_PATH={uf_geojson_path}")
     print(f"[INFO] OUT_DIR={out_dir}")
+    print(f"[INFO] HISTORY_PATH={history_path}")
+    print(f"[INFO] WINDOW_HOURS={window_hours}")
+    print(f"[INFO] RETENTION_HOURS={retention_hours}")
 
     run_ts = _now_sp().strftime("%Y%m%d_%H%M%S")
     run_dir = os.path.join(out_dir, f"run_{run_ts}")
@@ -765,18 +876,33 @@ def main() -> int:
     entries = _all(root, "atom:entry", ATOM_NS)
     print(f"[INFO] Entradas no RSS (consideradas): {len(entries)}")
 
-    alerts: List[AlertRecord] = []
+    feed_alerts: List[AlertRecord] = []
     errors: List[Dict[str, Any]] = []
     for entry in entries:
         a, err = _parse_cap_from_entry(entry)
         if a is None:
             errors.append({"error": err or "desconhecido"})
             continue
-        alerts.append(a)
+        feed_alerts.append(a)
 
-    print(f"[INFO] CAPs parseados: {len(alerts)} | erros: {len(errors)}")
+    print(f"[INFO] CAPs parseados do feed: {len(feed_alerts)} | erros: {len(errors)}")
 
-    with open(os.path.join(run_dir, "alerts.json"), "w", encoding="utf-8") as f:
+    history_before = _load_history(history_path)
+    history_merged, added_count = _merge_history(history_before, feed_alerts)
+    history_kept = _filter_recent_history(history_merged, retention_hours=retention_hours, ref_now=_now_sp())
+    alerts = _filter_window(history_kept, window_hours=window_hours, ref_now=_now_sp())
+
+    print(f"[INFO] Histórico anterior: {len(history_before)}")
+    print(f"[INFO] Alertas novos inseridos no histórico: {added_count}")
+    print(f"[INFO] Histórico após limpeza: {len(history_kept)}")
+    print(f"[INFO] Alertas considerados nas últimas {window_hours}h: {len(alerts)}")
+
+    _save_history(history_path, history_kept)
+    _save_history(os.path.join(run_dir, "historico_alertas.json"), history_kept)
+
+    with open(os.path.join(run_dir, "alerts_feed.json"), "w", encoding="utf-8") as f:
+        json.dump([asdict(a) for a in feed_alerts], f, ensure_ascii=False, indent=2)
+    with open(os.path.join(run_dir, "alerts_24h.json"), "w", encoding="utf-8") as f:
         json.dump([asdict(a) for a in alerts], f, ensure_ascii=False, indent=2)
     with open(os.path.join(run_dir, "errors.json"), "w", encoding="utf-8") as f:
         json.dump(errors, f, ensure_ascii=False, indent=2)
@@ -786,10 +912,7 @@ def main() -> int:
         json.dump(resumo, f, ensure_ascii=False, indent=2)
     _write_resumo_md(os.path.join(run_dir, "resumo.md"), resumo)
 
-    sent_dts = [dt for dt in (_parse_iso_any(a.sent) for a in alerts) if dt is not None]
-    min_dt = min(sent_dts) if sent_dts else None
-    max_dt = max(sent_dts) if sent_dts else None
-    period_txt = _format_period_title(min_dt, max_dt)
+    period_txt = _format_period_title()
 
     try:
         uf_gdf = _load_uf_gdf(uf_geojson_path)
@@ -828,9 +951,9 @@ def main() -> int:
         map3 = ""
         print("[WARN] Mapa 3 não gerado: nenhum alerta de deslizamento com polygon")
 
-    ids_2 = {a.identifier for a in alerts_2}
-    ids_3 = {a.identifier for a in alerts_3}
-    alerts_4 = [a for a in alerts if (a.identifier not in ids_2) and (a.identifier not in ids_3)]
+    ids_2 = {a.entry_id for a in alerts_2}
+    ids_3 = {a.entry_id for a in alerts_3}
+    alerts_4 = [a for a in alerts if (a.entry_id not in ids_2) and (a.entry_id not in ids_3)]
     gdf_4 = _alerts_to_gdf(alerts_4)
     map4 = os.path.join(run_dir, "mapa_alertas_outros.png")
     if len(gdf_4) > 0:
@@ -854,8 +977,10 @@ def main() -> int:
         msg = (
             f"IDAP Daily Maps\n"
             f"{period_txt}\n"
-            f"Entradas RSS: {len(entries)}\n"
-            f"CAPs parseados: {len(alerts)} | erros: {len(errors)}\n"
+            f"Entradas RSS atuais: {len(entries)}\n"
+            f"CAPs parseados do feed: {len(feed_alerts)} | erros: {len(errors)}\n"
+            f"Alertas válidos últimas {window_hours}h: {len(alerts)}\n"
+            f"Histórico total salvo: {len(history_kept)}\n"
             f"Nível: {_fmt_counts(by_nivel, with_emoji=True)}\n"
             f"Tipo: {_fmt_counts(by_typ, with_emoji=False)}\n"
             f"Regiões: {_fmt_counts(by_reg, with_emoji=False)}\n"
@@ -882,7 +1007,16 @@ def main() -> int:
 
     state["last_run_ts"] = run_ts
     state["last_run_iso"] = datetime.now(timezone.utc).isoformat()
-    state["last_counts"] = {"entries": len(entries), "alerts": len(alerts), "errors": len(errors)}
+    state["last_counts"] = {
+        "entries": len(entries),
+        "feed_alerts": len(feed_alerts),
+        "window_alerts": len(alerts),
+        "history_alerts": len(history_kept),
+        "errors": len(errors),
+    }
+    state["history_path"] = history_path
+    state["window_hours"] = window_hours
+    state["retention_hours"] = retention_hours
     _save_state(state_path, state)
 
     print("[INFO] Finalizado.")
