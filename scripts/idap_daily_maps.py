@@ -2,39 +2,43 @@
 # -*- coding: utf-8 -*-
 
 """
-IDAP Daily Maps (versão congelada + caixa de resumo por nível em cada mapa)
+IDAP Daily Maps (versão estável + logo + legenda colorida)
+
 Saídas:
 1) mapa_alertas_todos.png
 2) mapa_alertas_chuva_temp_inund.png
 3) mapa_alertas_deslizamento.png
 4) mapa_alertas_outros.png
-+ alerts.json, errors.json, resumo.json e resumo.md
++ alerts.json, errors.json, resumo.json, resumo.md
 
 Regras:
 - Varre o RSS completo a cada execução (sem filtrar por status).
-- Cor por NÍVEL calculado:
+- Cor por NIVEL calculado:
     Extremo, Severo, Alto, Médio, Baixo, Indefinido
 - Mapas 2, 3 e 4 são filtros por EVENTO.
-- Em cada mapa, no canto inferior direito, aparece um resumo com quantidades por nível
-  (NÃO mostra "Indefinido").
+- Em cada mapa, coloca uma legenda (inferior direita) com a contagem por nível (sem "Indefinido").
+- Logo (canto superior direito) se LOGO_PATH existir.
 """
 
 import json
 import os
 import re
+import time
 import unicodedata
 import urllib.request
 import urllib.error
+import http.client
 import xml.etree.ElementTree as ET
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
-from zoneinfo import ZoneInfo
 from typing import Any, Dict, List, Optional, Tuple
 
 import geopandas as gpd
 from shapely.geometry import Polygon, MultiPolygon
 from shapely.geometry.base import BaseGeometry
+
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 
 
@@ -49,11 +53,7 @@ DEFAULT_RSS_URL = "https://idapfile.mdr.gov.br/idap/api/rss/cap"
 DEFAULT_UF_GEOJSON_PATH = "resources/br_uf.geojson"
 DEFAULT_OUT_DIR = "out"
 DEFAULT_STATE_PATH = ".cache/state.json"
-
-# Logo (SEDEC) no mapa (opcional)
-DEFAULT_LOGO_URL = "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/defesa-civil/marca_sedec.png/@@images/84bdffd6-9b85-4795-959a-fe726209120e.png"
-DEFAULT_LOGO_CACHE = ".cache/marca_sedec.png"
-DEFAULT_LOGO_ZOOM = 0.8  # 80% do tamanho original
+DEFAULT_LOGO_PATH = ".cache/marca_sedec.png"  # você pode sobrepor via env LOGO_PATH
 
 # UF -> Região
 UF_TO_REGION = {
@@ -70,14 +70,14 @@ UF_TO_REGION = {
     "PR": "S", "RS": "S", "SC": "S",
 }
 
-# Cores por NÍVEL (não por severity)
+# Cores por NÍVEL
 NIVEL_COLORS = {
     "Extremo": "#6a0dad",     # 🟣
     "Severo":  "#d62728",     # 🔴
     "Alto":    "#ff7f0e",     # 🟠
     "Médio":   "#ffd92f",     # 🟡
     "Baixo":   "#2ca02c",     # 🟢
-    "Indefinido": "#7f7f7f",  # ⚪ (cinza aqui no mapa)
+    "Indefinido": "#7f7f7f",  # cinza
 }
 
 ALERT_ALPHA = 0.35
@@ -171,60 +171,43 @@ def _now_sp() -> datetime:
     return datetime.now().astimezone()
 
 
-_SP_TZ = ZoneInfo("America/Sao_Paulo")
-
-_MONTH_PT = {
-    1: "Janeiro", 2: "Fevereiro", 3: "Março", 4: "Abril",
-    5: "Maio", 6: "Junho", 7: "Julho", 8: "Agosto",
-    9: "Setembro", 10: "Outubro", 11: "Novembro", 12: "Dezembro",
+_PT_MONTHS = {
+    1: "Janeiro", 2: "Fevereiro", 3: "Março", 4: "Abril", 5: "Maio", 6: "Junho",
+    7: "Julho", 8: "Agosto", 9: "Setembro", 10: "Outubro", 11: "Novembro", 12: "Dezembro"
 }
 
 
-def _parse_iso_dt(value: Optional[str]) -> Optional[datetime]:
-    if not value:
-        return None
-    v = value.strip()
-    if not v:
-        return None
-    # suporta final "Z"
-    v = v.replace("Z", "+00:00")
-    try:
-        dt = datetime.fromisoformat(v)
-    except Exception:
-        return None
-    try:
-        return dt.astimezone(_SP_TZ)
-    except Exception:
-        return dt
+def _format_period_title(min_dt: Optional[datetime], max_dt: Optional[datetime]) -> str:
+    if not min_dt or not max_dt:
+        return "Período não identificado"
 
-
-def _period_label(alerts: List["AlertRecord"]) -> str:
-    dts: List[datetime] = []
-    for a in alerts:
-        dt = _parse_iso_dt(a.sent)
-        if dt is not None:
-            dts.append(dt)
-
-    if not dts:
-        return "Período não informado"
-
-    d1 = min(dts).date()
-    d2 = max(dts).date()
+    d1 = min_dt.date()
+    d2 = max_dt.date()
 
     if d1 == d2:
-        mes = _MONTH_PT.get(d1.month, str(d1.month))
-        return f"Alertas em {d1.day:02d} de {mes} de {d1.year}"
+        return f"Alertas em {d1.day:02d} de {_PT_MONTHS[d1.month]} de {d1.year}"
+    if d1.year == d2.year and d1.month == d2.month:
+        return f"Alertas entre {d1.day:02d} e {d2.day:02d} de {_PT_MONTHS[d1.month]} de {d1.year}"
+    if d1.year == d2.year:
+        return f"Alertas entre {d1.day:02d} de {_PT_MONTHS[d1.month]} e {d2.day:02d} de {_PT_MONTHS[d2.month]} de {d1.year}"
+    return f"Alertas entre {d1.day:02d}/{d1.month:02d}/{d1.year} e {d2.day:02d}/{d2.month:02d}/{d2.year}"
 
-    if (d1.year == d2.year) and (d1.month == d2.month):
-        mes = _MONTH_PT.get(d1.month, str(d1.month))
-        return f"Alertas entre {d1.day:02d} e {d2.day:02d} de {mes} de {d1.year}"
 
-    mes1 = _MONTH_PT.get(d1.month, str(d1.month))
-    mes2 = _MONTH_PT.get(d2.month, str(d2.month))
-    return (
-        f"Alertas de {d1.day:02d} de {mes1} de {d1.year} "
-        f"a {d2.day:02d} de {mes2} de {d2.year}"
-    )
+def _parse_iso_any(s: Optional[str]) -> Optional[datetime]:
+    if not s:
+        return None
+    txt = s.strip()
+    if not txt:
+        return None
+    try:
+        if txt.endswith("Z"):
+            txt = txt[:-1] + "+00:00"
+        dt = datetime.fromisoformat(txt)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone()
+    except Exception:
+        return None
 
 
 def _safe_text(elem: Optional[ET.Element]) -> Optional[str]:
@@ -251,78 +234,28 @@ def _all(elem: ET.Element, path: str, ns: Dict[str, str]) -> List[ET.Element]:
         return []
 
 
-def _read_url(url: str, timeout: int = 60, retries: int = 4) -> bytes:
-    """
-    Faz download do RSS com tolerância a falhas transitórias.
-    Em alguns runs do GitHub Actions pode ocorrer IncompleteRead (conexão fechada no meio).
-    Aqui a gente tenta novamente algumas vezes, e lê em chunks.
-    """
+def _read_url(url: str, timeout: int = 30, retries: int = 3, backoff_s: float = 1.2) -> bytes:
     last_err: Optional[Exception] = None
-
-    headers = {
-        "User-Agent": "IDAP-Daily-Maps/1.4 (+github-actions)",
-        "Accept": "*/*",
-        # evita gzip e reduz chance de chunking estranho em alguns ambientes
-        "Accept-Encoding": "identity",
-        "Connection": "close",
-    }
-
-    for attempt in range(1, retries + 1):
+    for i in range(retries):
         try:
-            req = urllib.request.Request(url, headers=headers, method="GET")
+            req = urllib.request.Request(
+                url,
+                headers={"User-Agent": "IDAP-Daily-Maps/1.4 (+github-actions)", "Accept": "*/*"},
+                method="GET",
+            )
             with urllib.request.urlopen(req, timeout=timeout) as resp:
-                chunks: List[bytes] = []
-                while True:
-                    buf = resp.read(1024 * 64)
-                    if not buf:
-                        break
-                    chunks.append(buf)
-                data = b"".join(chunks)
-
-            # sanity check simples (não falha hard, só tenta novamente se vier vazio)
-            if not data:
-                raise RuntimeError("download vazio")
-            return data
-
+                return resp.read()
+        except http.client.IncompleteRead as e:
+            last_err = e
+        except urllib.error.URLError as e:
+            last_err = e
         except Exception as e:
             last_err = e
-            # pequenas tentativas em sequência, sem dormir pra não alongar o job
-            if attempt < retries:
-                continue
 
-    raise last_err  # type: ignore
+        time.sleep(backoff_s * (i + 1))
 
+    raise last_err if last_err else RuntimeError("Falha ao baixar URL (erro desconhecido)")
 
-def _ensure_logo_file(logo_path: str, logo_url: str) -> Optional[str]:
-    """
-    Garante que a logomarca exista localmente.
-    Se não existir, baixa do URL e salva em logo_path.
-    """
-    if logo_path and os.path.exists(logo_path):
-        return logo_path
-
-    if not logo_path:
-        return None
-
-    os.makedirs(os.path.dirname(logo_path) or ".", exist_ok=True)
-
-    last_err: Optional[Exception] = None
-    for attempt in range(1, 4):
-        try:
-            data = _read_url(logo_url, timeout=60)
-            with open(logo_path, "wb") as f:
-                f.write(data)
-
-            if os.path.exists(logo_path) and os.path.getsize(logo_path) > 0:
-                print(f"[INFO] Logo: baixada para {logo_path}")
-                return logo_path
-        except Exception as e:
-            last_err = e
-            print(f"[WARN] Logo: falha no download (tentativa {attempt}/3): {e}")
-
-    if last_err:
-        print("[WARN] Logo: não foi possível obter a logomarca, seguindo sem logo")
-    return None
 
 def _normalize_text(s: Optional[str]) -> str:
     if not s:
@@ -336,10 +269,6 @@ def _normalize_text(s: Optional[str]) -> str:
 
 
 def _parse_polygon_str(poly_str: str) -> Optional[BaseGeometry]:
-    """
-    CAP polygon vem como "lat,lon lat,lon ..."
-    Shapely espera (x,y) = (lon,lat)
-    """
     if not poly_str:
         return None
     poly_str = poly_str.strip()
@@ -427,7 +356,6 @@ def _extract_cap_xml_from_entry(entry: ET.Element) -> Optional[ET.Element]:
     if content is None:
         return None
 
-    # caso venha como filho XML mesmo
     for child in list(content):
         if child.tag.endswith("alert"):
             return child
@@ -439,7 +367,6 @@ def _extract_cap_xml_from_entry(entry: ET.Element) -> Optional[ET.Element]:
     if not raw:
         return None
 
-    # tenta direto
     try:
         root = ET.fromstring(raw)
         if root.tag.endswith("alert"):
@@ -447,7 +374,6 @@ def _extract_cap_xml_from_entry(entry: ET.Element) -> Optional[ET.Element]:
     except Exception:
         pass
 
-    # tenta des-escapar
     raw2 = raw.replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", '"').replace("&amp;", "&")
     try:
         root = ET.fromstring(raw2)
@@ -607,90 +533,6 @@ def _make_summary(alerts: List[AlertRecord]) -> Dict[str, Any]:
     }
 
 
-def _counts_by_nivel_from_gdf(alerts_gdf: gpd.GeoDataFrame) -> Dict[str, int]:
-    if alerts_gdf is None or len(alerts_gdf) == 0:
-        return {}
-    d: Dict[str, int] = {}
-    for n in alerts_gdf["nivel"].fillna("Indefinido").astype(str):
-        n2 = n.strip() if n else "Indefinido"
-        d[n2] = d.get(n2, 0) + 1
-    return d
-
-
-def _format_nivel_box(counts: Dict[str, int]) -> str:
-    # Ordem fixa, sem mostrar "Indefinido"
-    order = ["Extremo", "Severo", "Alto", "Médio", "Baixo"]
-    parts = []
-    for k in order:
-        v = counts.get(k, 0)
-        if v > 0:
-            parts.append(f"{nivel_emoji(k)} {k}: {v}")
-    if not parts:
-        return "Sem níveis definidos"
-    return "\n".join(parts)
-
-
-def _plot_alerts_map(
-    uf_gdf: gpd.GeoDataFrame,
-    alerts_gdf: gpd.GeoDataFrame,
-    out_path: str,
-    title: str,
-    counts_by_nivel: Optional[Dict[str, int]] = None,
-    logo_file: Optional[str] = None,
-    logo_scale: float = 0.80,
-) -> None:
-    """Plota UF + polígonos de alertas e adiciona:
-    - caixa de resumo por nível (inferior direito)
-    - logomarca (superior direito)
-    """
-    fig = plt.figure(figsize=(12, 12))
-    ax = plt.gca()
-
-    # Base Brasil
-    uf_gdf.boundary.plot(ax=ax, linewidth=0.6, alpha=BORDER_ALPHA, color="#2f2f2f")
-
-    # Alertas
-    if len(alerts_gdf) > 0:
-        def _nivel_color(n: str) -> str:
-            n = (n or "").strip()
-            return NIVEL_COLORS.get(n, NIVEL_COLORS["Indefinido"])
-
-        alerts_gdf = alerts_gdf.copy()
-        alerts_gdf["_color"] = alerts_gdf["nivel"].apply(_nivel_color)
-        alerts_gdf.plot(
-            ax=ax,
-            color=alerts_gdf["_color"],
-            edgecolor=alerts_gdf["_color"],
-            linewidth=0.8,
-            alpha=ALERT_ALPHA,
-        )
-
-    # Título
-    ax.set_title(title, fontsize=12)
-    ax.set_axis_off()
-
-    # Caixa de contagem (inferior direito)
-    _add_counts_box(ax, counts_by_nivel or {})
-
-    # Logo (superior direito)
-    logo_path = None
-    if logo_file:
-        try:
-            if (logo_file == DEFAULT_LOGO_FILE) and (not os.path.exists(logo_file)):
-                logo_path = _ensure_logo_file(DEFAULT_LOGO_FILE, DEFAULT_LOGO_URL)
-            else:
-                logo_path = logo_file if os.path.exists(logo_file) else None
-        except Exception:
-            logo_path = None
-
-    if logo_path:
-        _add_logo_to_figure(fig, logo_path, logo_scale=logo_scale)
-
-    fig.tight_layout(rect=[0, 0, 1, 0.92])
-    os.makedirs(os.path.dirname(out_path) or ".", exist_ok=True)
-    fig.savefig(out_path, dpi=200)
-    plt.close(fig)
-
 def _ensure_dirs(*paths: str) -> None:
     for p in paths:
         os.makedirs(p, exist_ok=True)
@@ -719,7 +561,6 @@ def _write_resumo_md(path: str, resumo: Dict[str, Any]) -> None:
     lines.append("")
     lines.append(f"Total de alertas (RSS considerados): **{resumo.get('total_alerts', 0)}**")
     lines.append("")
-
     def _block(title: str, d: Dict[str, int], emoji: bool = False):
         lines.append(f"## {title}")
         lines.append("")
@@ -729,7 +570,6 @@ def _write_resumo_md(path: str, resumo: Dict[str, Any]) -> None:
             else:
                 lines.append(f"- {k}: {v}")
         lines.append("")
-
     _block("Nível (calculado)", resumo.get("by_nivel", {}), emoji=True)
     _block("Tipo (CHANNEL-LIST)", resumo.get("by_channel_list", {}), emoji=False)
     _block("Alertas por regiões do Brasil", resumo.get("by_region", {}), emoji=False)
@@ -738,72 +578,6 @@ def _write_resumo_md(path: str, resumo: Dict[str, Any]) -> None:
         f.write("\n".join(lines))
 
 
-
-def _add_logo_to_figure(fig: plt.Figure, logo_path: str, logo_scale: float = 0.8) -> None:
-    """
-    Insere a logomarca no canto superior direito (dentro da figura).
-    Evita sumir por recorte/tight_layout e funciona bem no GitHub Actions.
-
-    - logo_path: caminho local do PNG
-    - logo_scale: escala relativa (0.8 = 80%)
-    """
-    try:
-        if (not logo_path) or (not os.path.exists(logo_path)):
-            return
-
-        import matplotlib.image as mpimg
-
-        img = mpimg.imread(logo_path)
-        if img is None:
-            return
-
-        h = int(getattr(img, "shape", [0, 0])[0] or 0)
-        w = int(getattr(img, "shape", [0, 0])[1] or 0)
-        if h <= 0 or w <= 0:
-            return
-
-        aspect = h / float(w)
-
-        # tamanho base (fração da largura da figura)
-        base_w = 0.16 * float(logo_scale)   # ~16% da largura
-        base_h = base_w * aspect
-
-        # deixa uma faixa para o título (duas linhas), então coloca um pouco mais abaixo
-        top_limit = 0.90
-        x0 = 0.985 - base_w
-        y0 = top_limit - base_h
-
-        ax_logo = fig.add_axes([x0, y0, base_w, base_h], zorder=50)
-        ax_logo.imshow(img)
-        ax_logo.axis("off")
-    except Exception as e:
-        print(f"[WARN] Logo: falha ao inserir: {e}")
-
-def _add_counts_box(ax: plt.Axes, counts_by_nivel: Dict[str, int]) -> None:
-    """Caixa de resumo (inferior direito) com as cores dos níveis, sem 'Indefinido'."""
-    try:
-        order = ["Extremo", "Severo", "Alto", "Médio", "Baixo"]
-        items = [(k, int(counts_by_nivel.get(k, 0))) for k in order if int(counts_by_nivel.get(k, 0)) > 0]
-        if not items:
-            return
-
-        # inset no canto inferior direito
-        iax = ax.inset_axes([0.66, 0.02, 0.32, 0.22])
-        iax.set_axis_off()
-
-        # fundo branco
-        iax.add_patch(plt.Rectangle((0, 0), 1, 1, transform=iax.transAxes, facecolor="white", edgecolor="#dddddd", alpha=0.85))
-
-        y = 0.82
-        step = 0.15 if len(items) <= 5 else 0.12
-        for nivel, count in items:
-            color = NIVEL_COLORS.get(nivel, "#7f7f7f")
-            iax.add_patch(plt.Rectangle((0.06, y - 0.05), 0.08, 0.08, transform=iax.transAxes, facecolor=color, edgecolor=color))
-            iax.text(0.17, y - 0.01, f"{nivel}: {count}", transform=iax.transAxes, fontsize=11, va="center", ha="left", color="#111111")
-            y -= step
-    except Exception:
-        return
-
 # ----------------------------
 # Filtros de mapa
 # ----------------------------
@@ -811,7 +585,6 @@ def _add_counts_box(ax: plt.Axes, counts_by_nivel: Dict[str, int]) -> None:
 def _is_chuva_temp_inund(event: Optional[str]) -> bool:
     n = _normalize_text(event)
 
-    # compatibilidade com textos compostos tipo: "TEMPESTADE LOCAL CONVECTIVA - CHUVAS INTENSAS"
     if "CHUVA" in n and "INTENSA" in n:
         return True
     if "TEMPESTADE" in n and "CONVECT" in n:
@@ -824,8 +597,178 @@ def _is_chuva_temp_inund(event: Optional[str]) -> bool:
 
 def _is_deslizamento(event: Optional[str]) -> bool:
     n = _normalize_text(event)
-    # cobre DESLIZAMENTO(S), e variações que você usa no dia a dia
     return ("DESLIZ" in n) or ("MOVIMENTO DE MASSA" in n) or ("CORRIDA DE MASSA" in n)
+
+
+# ----------------------------
+# Plot helpers
+# ----------------------------
+
+def _nivel_color(n: str) -> str:
+    n = (n or "").strip()
+    return NIVEL_COLORS.get(n, NIVEL_COLORS["Indefinido"])
+
+
+def _add_logo(ax, logo_path: str, width_frac: float = 0.14, x: float = 0.985, y: float = 0.985) -> None:
+    try:
+        if not logo_path or (not os.path.exists(logo_path)):
+            return
+
+        fig = ax.figure
+        dpi = fig.dpi
+        fig_w_px = fig.get_figwidth() * dpi
+
+        img = plt.imread(logo_path)
+        if img is None:
+            return
+
+        img_w = img.shape[1]
+        if img_w <= 0:
+            return
+
+        desired_w_px = max(1.0, fig_w_px * width_frac)
+        zoom = desired_w_px / float(img_w)
+
+        oi = OffsetImage(img, zoom=zoom)
+        ab = AnnotationBbox(
+            oi,
+            (x, y),
+            xycoords=ax.transAxes,
+            frameon=False,
+            box_alignment=(1, 1),
+            zorder=50,
+        )
+        ax.add_artist(ab)
+    except Exception:
+        return
+
+
+def _add_counts_legend(ax, alerts_gdf: gpd.GeoDataFrame, loc: str = "lower right") -> None:
+    try:
+        if alerts_gdf is None or len(alerts_gdf) == 0 or "nivel" not in alerts_gdf.columns:
+            return
+
+        order = ["Extremo", "Severo", "Alto", "Médio", "Baixo"]
+        counts: Dict[str, int] = {}
+        for n in alerts_gdf["nivel"].tolist():
+            nn = (n or "").strip()
+            if nn in order:
+                counts[nn] = counts.get(nn, 0) + 1
+
+        handles = []
+        for n in order:
+            c = counts.get(n, 0)
+            if c <= 0:
+                continue
+            handles.append(mpatches.Patch(color=_nivel_color(n), label=f"{n}: {c}"))
+
+        if not handles:
+            return
+
+        leg = ax.legend(
+            handles=handles,
+            loc=loc,
+            fontsize=12,
+            frameon=True,
+            framealpha=0.92,
+            borderpad=1.3,
+            labelspacing=1.0,
+            handlelength=2.0,
+            handleheight=1.3,
+        )
+        leg.get_frame().set_linewidth(0.8)
+    except Exception:
+        return
+
+
+def _plot_alerts_map(
+    uf_gdf: gpd.GeoDataFrame,
+    alerts_gdf: gpd.GeoDataFrame,
+    out_path: str,
+    title_line1: str,
+    title_line2: str,
+    logo_path: str = "",
+) -> None:
+    fig = plt.figure(figsize=(12, 12), dpi=200)
+    ax = plt.gca()
+
+    uf_gdf.boundary.plot(ax=ax, linewidth=0.6, alpha=BORDER_ALPHA)
+
+    if len(alerts_gdf) > 0:
+        alerts_gdf = alerts_gdf.copy()
+        alerts_gdf["_color"] = alerts_gdf["nivel"].apply(_nivel_color)
+
+        alerts_gdf.plot(
+            ax=ax,
+            color=alerts_gdf["_color"],
+            edgecolor=alerts_gdf["_color"],
+            linewidth=0.8,
+            alpha=ALERT_ALPHA,
+        )
+
+    ax.set_title(f"{title_line1}\n{title_line2}", fontsize=12)
+    ax.set_axis_off()
+
+    if logo_path:
+        _add_logo(ax, logo_path)
+
+    _add_counts_legend(ax, alerts_gdf, loc="lower right")
+
+    plt.tight_layout()
+    fig.savefig(out_path, dpi=200)
+    plt.close(fig)
+
+
+# ----------------------------
+# Telegram
+# ----------------------------
+
+def _tg_send_message(token: str, chat_id: str, text: str) -> None:
+    url = f"https://api.telegram.org/bot{token}/sendMessage"
+    data = json.dumps({"chat_id": chat_id, "text": text}).encode("utf-8")
+    req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        _ = resp.read()
+
+
+def _tg_send_photo(token: str, chat_id: str, photo_path: str, caption: str) -> None:
+    import uuid
+    boundary = f"----WebKitFormBoundary{uuid.uuid4().hex}"
+    url = f"https://api.telegram.org/bot{token}/sendPhoto"
+
+    with open(photo_path, "rb") as f:
+        photo_bytes = f.read()
+
+    def _part(name: str, value: str) -> bytes:
+        return (
+            f"--{boundary}\r\n"
+            f'Content-Disposition: form-data; name="{name}"\r\n\r\n'
+            f"{value}\r\n"
+        ).encode("utf-8")
+
+    body = b""
+    body += _part("chat_id", str(chat_id))
+    if caption:
+        body += _part("caption", caption)
+
+    filename = os.path.basename(photo_path)
+    body += (
+        f"--{boundary}\r\n"
+        f'Content-Disposition: form-data; name="photo"; filename="{filename}"\r\n'
+        f"Content-Type: image/png\r\n\r\n"
+    ).encode("utf-8")
+    body += photo_bytes
+    body += b"\r\n"
+    body += f"--{boundary}--\r\n".encode("utf-8")
+
+    req = urllib.request.Request(
+        url,
+        data=body,
+        headers={"Content-Type": f"multipart/form-data; boundary={boundary}"},
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=60) as resp:
+        _ = resp.read()
 
 
 # ----------------------------
@@ -838,19 +781,10 @@ def main() -> int:
     out_dir = os.getenv("OUT_DIR", DEFAULT_OUT_DIR)
     state_path = os.getenv("STATE_PATH", DEFAULT_STATE_PATH)
 
+    logo_path = os.getenv("LOGO_PATH", DEFAULT_LOGO_PATH).strip()
+
     tg_token = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
     tg_chat_id = os.getenv("TELEGRAM_CHAT_ID", "").strip()
-
-    # Logo no mapa (opcional)
-    logo_path = os.getenv("LOGO_PATH", "").strip()
-    logo_url = os.getenv("LOGO_URL", DEFAULT_LOGO_URL).strip()
-    logo_cache = os.getenv("LOGO_CACHE", DEFAULT_LOGO_CACHE).strip()
-    logo_scale = float(os.getenv("LOGO_ZOOM", str(DEFAULT_LOGO_ZOOM)))
-    logo_file = None
-    if logo_path:
-        logo_file = logo_path if os.path.exists(logo_path) else None
-    if logo_file is None and logo_cache:
-        logo_file = _ensure_logo_file(logo_cache, logo_url)
 
     print(f"[INFO] RSS_URL={rss_url}")
     print(f"[INFO] UF_GEOJSON_PATH={uf_geojson_path}")
@@ -863,12 +797,18 @@ def main() -> int:
 
     _ensure_dirs(".cache", out_dir, run_dir)
 
+    if logo_path and os.path.exists(logo_path):
+        print(f"[INFO] LOGO_PATH={logo_path}")
+    else:
+        if logo_path:
+            print(f"[WARN] LOGO_PATH não encontrado: {logo_path}")
+        logo_path = ""
+
     state = _load_state(state_path)
 
-    # baixa RSS
     try:
-        rss_bytes = _read_url(rss_url, timeout=40)
-    except urllib.error.URLError as e:
+        rss_bytes = _read_url(rss_url, timeout=45, retries=4)
+    except Exception as e:
         print(f"[ERROR] Falha ao baixar RSS: {e}")
         return 2
 
@@ -893,15 +833,11 @@ def main() -> int:
 
     print(f"[INFO] CAPs parseados: {len(alerts)} | erros: {len(errors)}")
 
-    period_label = _period_label(alerts)
-
-    # salva dados brutos
     with open(os.path.join(run_dir, "alerts.json"), "w", encoding="utf-8") as f:
         json.dump([asdict(a) for a in alerts], f, ensure_ascii=False, indent=2)
     with open(os.path.join(run_dir, "errors.json"), "w", encoding="utf-8") as f:
         json.dump(errors, f, ensure_ascii=False, indent=2)
 
-    # resumo geral
     resumo = _make_summary(alerts)
     resumo_json_path = os.path.join(run_dir, "resumo.json")
     resumo_md_path = os.path.join(run_dir, "resumo.md")
@@ -910,89 +846,64 @@ def main() -> int:
         json.dump(resumo, f, ensure_ascii=False, indent=2)
     _write_resumo_md(resumo_md_path, resumo)
 
-    # base brasil
+    sent_dts = [dt for dt in (_parse_iso_any(a.sent) for a in alerts) if dt is not None]
+    min_dt = min(sent_dts) if sent_dts else None
+    max_dt = max(sent_dts) if sent_dts else None
+    period_txt = _format_period_title(min_dt, max_dt)
+
     try:
         uf_gdf = _load_uf_gdf(uf_geojson_path)
     except Exception as e:
         print(f"[ERROR] Falha ao ler UF GeoJSON: {e}")
         return 4
 
-    # prepara gdf geral com polygons
     alerts_gdf_all = _alerts_to_gdf(alerts)
+    title_line2 = f"{period_txt} | {run_ts}"
 
-    # Mapa 1: todos
     map1 = os.path.join(run_dir, "mapa_alertas_todos.png")
     if len(alerts_gdf_all) > 0:
-        counts1 = _counts_by_nivel_from_gdf(alerts_gdf_all)
-        _plot_alerts_map(
-            uf_gdf,
-            alerts_gdf_all,
-            map1,
-            f"Alertas IDAP (todos)\n{period_label} | {run_ts}",
-            counts1,
-        )
+        _plot_alerts_map(uf_gdf, alerts_gdf_all, map1, "Alertas IDAP (todos)", title_line2, logo_path=logo_path)
         print(f"[INFO] Mapa gerado: {map1}")
     else:
         map1 = ""
         print("[WARN] Mapa 1 não gerado: nenhum alerta com polygon")
 
-    # Mapa 2: chuva/temp/inund
     alerts_2 = [a for a in alerts if _is_chuva_temp_inund(a.event)]
     gdf_2 = _alerts_to_gdf(alerts_2)
     map2 = os.path.join(run_dir, "mapa_alertas_chuva_temp_inund.png")
     if len(gdf_2) > 0:
-        counts2 = _counts_by_nivel_from_gdf(gdf_2)
         _plot_alerts_map(
-            uf_gdf,
-            gdf_2,
-            map2,
-            f"Alertas: Chuvas Intensas, Tempestades Convectivas, Inundações\n{period_label} | {run_ts}",
-            counts2,
+            uf_gdf, gdf_2, map2,
+            "Alertas: Chuvas Intensas, Tempestades Convectivas, Inundações",
+            title_line2, logo_path=logo_path
         )
         print(f"[INFO] Mapa gerado: {map2}")
     else:
         map2 = ""
         print("[WARN] Mapa 2 não gerado: nenhum alerta (filtro) com polygon")
 
-    # Mapa 3: deslizamento
     alerts_3 = [a for a in alerts if _is_deslizamento(a.event)]
     gdf_3 = _alerts_to_gdf(alerts_3)
     map3 = os.path.join(run_dir, "mapa_alertas_deslizamento.png")
     if len(gdf_3) > 0:
-        counts3 = _counts_by_nivel_from_gdf(gdf_3)
-        _plot_alerts_map(
-            uf_gdf,
-            gdf_3,
-            map3,
-            f"Alertas: Deslizamento\n{period_label} | {run_ts}",
-            counts3,
-        )
+        _plot_alerts_map(uf_gdf, gdf_3, map3, "Alertas: Deslizamento", title_line2, logo_path=logo_path)
         print(f"[INFO] Mapa gerado: {map3}")
     else:
         map3 = ""
         print("[WARN] Mapa 3 não gerado: nenhum alerta de deslizamento com polygon")
 
-    # Mapa 4: demais alertas (exclui mapas 2 e 3)
     ids_2 = {a.identifier for a in alerts_2}
     ids_3 = {a.identifier for a in alerts_3}
     alerts_4 = [a for a in alerts if (a.identifier not in ids_2) and (a.identifier not in ids_3)]
     gdf_4 = _alerts_to_gdf(alerts_4)
     map4 = os.path.join(run_dir, "mapa_alertas_outros.png")
     if len(gdf_4) > 0:
-        counts4 = _counts_by_nivel_from_gdf(gdf_4)
-        _plot_alerts_map(
-            uf_gdf,
-            gdf_4,
-            map4,
-            f"Alertas: Outros tipos\n{period_label} | {run_ts}",
-            counts4,
-        )
+        _plot_alerts_map(uf_gdf, gdf_4, map4, "Alertas: Outros tipos", title_line2, logo_path=logo_path)
         print(f"[INFO] Mapa gerado: {map4}")
     else:
         map4 = ""
         print("[WARN] Mapa 4 não gerado: nenhum alerta (outros) com polygon")
 
-    # Telegram (opcional): manda texto + imagens
     if tg_token and tg_chat_id:
         by_nivel = resumo.get("by_nivel", {}) or {}
         by_reg = resumo.get("by_region", {}) or {}
@@ -1010,6 +921,7 @@ def main() -> int:
         msg = (
             f"IDAP Daily Maps\n"
             f"Rodada: {run_ts}\n"
+            f"{period_txt}\n"
             f"Entradas RSS: {len(entries)}\n"
             f"CAPs parseados: {len(alerts)} | erros: {len(errors)}\n"
             f"Nível: {_fmt_counts(by_nivel, with_emoji=True)}\n"
@@ -1017,56 +929,11 @@ def main() -> int:
             f"Regiões: {_fmt_counts(by_reg, with_emoji=False)}\n"
         )
 
-        # sendMessage
         try:
-            url = f"https://api.telegram.org/bot{tg_token}/sendMessage"
-            data = json.dumps({"chat_id": tg_chat_id, "text": msg}).encode("utf-8")
-            req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"})
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                _ = resp.read()
+            _tg_send_message(tg_token, tg_chat_id, msg)
             print("[INFO] Telegram: mensagem enviada")
         except Exception as e:
             print(f"[WARN] Telegram: falha ao enviar mensagem: {e}")
-
-        # sendPhoto
-        def _send_photo(photo_path: str, caption: str) -> None:
-            import uuid
-            boundary = f"----WebKitFormBoundary{uuid.uuid4().hex}"
-            url = f"https://api.telegram.org/bot{tg_token}/sendPhoto"
-
-            with open(photo_path, "rb") as f:
-                photo_bytes = f.read()
-
-            def _part(name: str, value: str) -> bytes:
-                return (
-                    f"--{boundary}\r\n"
-                    f'Content-Disposition: form-data; name="{name}"\r\n\r\n'
-                    f"{value}\r\n"
-                ).encode("utf-8")
-
-            body = b""
-            body += _part("chat_id", str(tg_chat_id))
-            if caption:
-                body += _part("caption", caption)
-
-            filename = os.path.basename(photo_path)
-            body += (
-                f"--{boundary}\r\n"
-                f'Content-Disposition: form-data; name="photo"; filename="{filename}"\r\n'
-                f"Content-Type: image/png\r\n\r\n"
-            ).encode("utf-8")
-            body += photo_bytes
-            body += b"\r\n"
-            body += f"--{boundary}--\r\n".encode("utf-8")
-
-            req = urllib.request.Request(
-                url,
-                data=body,
-                headers={"Content-Type": f"multipart/form-data; boundary={boundary}"},
-                method="POST",
-            )
-            with urllib.request.urlopen(req, timeout=60) as resp:
-                _ = resp.read()
 
         for pth, cap in [
             (map1, f"Mapa 1: todos | {run_ts}"),
@@ -1074,16 +941,15 @@ def main() -> int:
             (map3, f"Mapa 3: deslizamento | {run_ts}"),
             (map4, f"Mapa 4: outros | {run_ts}"),
         ]:
-            if pth and os.path.exists(pth):
+            if pth:
                 try:
-                    _send_photo(pth, cap)
+                    _tg_send_photo(tg_token, tg_chat_id, pth, cap)
                     print(f"[INFO] Telegram: enviado {os.path.basename(pth)}")
                 except Exception as e:
                     print(f"[WARN] Telegram: falha ao enviar {os.path.basename(pth)}: {e}")
     else:
         print("[INFO] Telegram: não configurado (TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID vazios)")
 
-    # state.json (registro simples)
     state["last_run_ts"] = run_ts
     state["last_run_iso"] = datetime.now(timezone.utc).isoformat()
     state["last_counts"] = {"entries": len(entries), "alerts": len(alerts), "errors": len(errors)}
