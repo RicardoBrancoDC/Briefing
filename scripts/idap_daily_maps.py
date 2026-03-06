@@ -862,7 +862,7 @@ def main() -> int:
 
     map1 = os.path.join(run_dir, "mapa_alertas_todos.png")
     if len(alerts_gdf_all) > 0:
-        _plot_alerts_map(uf_gdf, alerts_gdf_all, map1, "Alertas IDAP (todos)", title_line2, logo_path=logo_path)
+        _plot_alerts_map(uf_gdf, alerts_gdf_all, map1, "Alertas IDAP - SEDEC/DPS/CGMA/CISDA", title_line2, logo_path=logo_path)
         print(f"[INFO] Mapa gerado: {map1}")
     else:
         map1 = ""
