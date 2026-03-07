@@ -4,7 +4,7 @@ on:
   schedule:
     # Horários em UTC
     # 01:17, 07:17, 13:17, 19:17 America/Sao_Paulo
-    - cron: "17 4,10,16,22 * * *"
+    - cron: "17 */2 * * *"
   workflow_dispatch: {}
 
 permissions:
