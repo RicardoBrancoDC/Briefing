@@ -696,13 +696,15 @@ def _add_region_legend(ax, alerts_gdf: gpd.GeoDataFrame, loc: str = "lower left"
                 rr = "N/A"
             counts[rr] = counts.get(rr, 0) + 1
 
-        lines = ["Resumo por região"]
+        total_alertas = len(alerts_gdf)
+
+        lines = [f"Resumo por região: {total_alertas}", ""]
         for r in order:
             c = counts.get(r, 0)
             if c > 0:
                 lines.append(f"{REGION_LABELS.get(r, r)}: {c}")
 
-        if len(lines) == 1:
+        if len(lines) <= 2:
             return
 
         x = 0.015 if loc == "lower left" else 0.985
