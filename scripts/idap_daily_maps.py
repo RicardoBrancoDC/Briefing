@@ -762,6 +762,46 @@ def _add_counts_legend(ax, alerts_gdf: gpd.GeoDataFrame, loc: str = "lower right
         return
 
 
+
+
+def _plot_alerts_per_hour(alerts: List[AlertRecord], out_path: str, title: str) -> None:
+    hourly_counts: Dict[datetime, int] = {}
+    for a in alerts:
+        dt = _parse_iso_any(a.onset)
+        if dt is None:
+            continue
+        bucket = dt.replace(minute=0, second=0, microsecond=0)
+        hourly_counts[bucket] = hourly_counts.get(bucket, 0) + 1
+
+    if not hourly_counts:
+        return
+
+    buckets = sorted(hourly_counts.keys())
+    start = buckets[0]
+    end = buckets[-1]
+
+    full_buckets: List[datetime] = []
+    cur = start
+    while cur <= end:
+        full_buckets.append(cur)
+        cur = cur + timedelta(hours=1)
+
+    values = [hourly_counts.get(b, 0) for b in full_buckets]
+    labels = [b.strftime('%d/%m - %H:%M') for b in full_buckets]
+
+    fig = plt.figure(figsize=(14, 5), dpi=200)
+    ax = plt.gca()
+    ax.bar(range(len(full_buckets)), values)
+    ax.set_title(title, fontsize=12)
+    ax.set_ylabel('Quantidade de alertas')
+    ax.set_xlabel('Hora de emissão (onset)')
+    ax.set_xticks(range(len(full_buckets)))
+    ax.set_xticklabels(labels, rotation=45, ha='right')
+    ax.grid(True, axis='y', alpha=0.3)
+    plt.tight_layout()
+    fig.savefig(out_path, dpi=200)
+    plt.close(fig)
+
 def _plot_alerts_map(
     uf_gdf: gpd.GeoDataFrame,
     alerts_gdf: gpd.GeoDataFrame,
@@ -923,6 +963,18 @@ def main() -> int:
     alerts_gdf_all = _alerts_to_gdf(alerts)
     title_line2 = period_txt
 
+    graf_hora = os.path.join(run_dir, "grafico_alertas_por_hora_24h.png")
+    try:
+        _plot_alerts_per_hour(alerts, graf_hora, "Alertas emitidos por hora nas últimas 24h")
+        if os.path.exists(graf_hora):
+            print(f"[INFO] Gráfico gerado: {graf_hora}")
+        else:
+            graf_hora = ""
+            print("[WARN] Gráfico por hora não gerado: nenhum alerta com onset válido")
+    except Exception as e:
+        graf_hora = ""
+        print(f"[WARN] Falha ao gerar gráfico por hora: {e}")
+
     map1 = os.path.join(run_dir, "mapa_alertas_todos.png")
     if len(alerts_gdf_all) > 0:
         _plot_alerts_map(uf_gdf, alerts_gdf_all, map1, "Alertas IDAP - SEDEC/DPS/CGMA/CISDA", title_line2, logo_path=logo_path)
@@ -991,6 +1043,7 @@ def main() -> int:
         except Exception as e:
             print(f"[WARN] Telegram: falha ao enviar mensagem: {e}")
         for pth, cap in [
+            (graf_hora, "Gráfico: Alertas emitidos por hora nas últimas 24h"),
             (map1, "Mapa 1: Todas as Categorias"),
             (map2, "Mapa 2: Chuva, Tempestade e Inundação"),
             (map3, "Mapa 3: Deslizamentos"),
