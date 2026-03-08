@@ -965,7 +965,7 @@ def main() -> int:
 
     graf_hora = os.path.join(run_dir, "grafico_alertas_por_hora_24h.png")
     try:
-        _plot_alerts_per_hour(alerts, graf_hora, "Alertas emitidos por hora nas últimas 24h")
+        _plot_alerts_per_hour(alerts, graf_hora, "Alertas emitidos por hora nas últimas 24h (SEDEC/DPS/CGMA/CISDA)")
         if os.path.exists(graf_hora):
             print(f"[INFO] Gráfico gerado: {graf_hora}")
         else:
