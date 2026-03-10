@@ -640,7 +640,7 @@ def _write_resumo_md(path: str, resumo: Dict[str, Any]) -> None:
 
 def _is_chuva_temp_inund(event: Optional[str]) -> bool:
     n = _normalize_text(event)
-    return ("CHUVA" in n and "INTENSA" in n) or ("TEMPESTADE" in n and "CONVECT" in n) or ("INUND" in n)
+    return ("CHUVA" in n and "INTENSA" in n) or ("TEMPESTADE" in n and "CONVECT" in n) or ("INUND" in n) or ("GRANIZO" in n) 
 
 
 def _is_deslizamento(event: Optional[str]) -> bool:
@@ -972,14 +972,14 @@ def main() -> int:
             print(f"[INFO] Gráfico gerado: {graf_hora}")
         else:
             graf_hora = ""
-            print("[WARN] Gráfico por hora não gerado: nenhum alerta com onset válido")
+            print("[WARN] Gráfico por hora não gerado: nenhum alerta válido no período")
     except Exception as e:
         graf_hora = ""
         print(f"[WARN] Falha ao gerar gráfico por hora: {e}")
 
     map1 = os.path.join(run_dir, "mapa_alertas_todos.png")
     if len(alerts_gdf_all) > 0:
-        _plot_alerts_map(uf_gdf, alerts_gdf_all, map1, "Alertas IDAP - SEDEC/DPS/CGMA/CISDA", title_line2, logo_path=logo_path)
+        _plot_alerts_map(uf_gdf, alerts_gdf_all, map1, "Alertas IDAP - (SEDEC/DPS/CGMA/CISDA)", title_line2, logo_path=logo_path)
         print(f"[INFO] Mapa gerado: {map1}")
     else:
         map1 = ""
@@ -989,7 +989,7 @@ def main() -> int:
     gdf_2 = _alerts_to_gdf(alerts_2)
     map2 = os.path.join(run_dir, "mapa_alertas_chuva_temp_inund.png")
     if len(gdf_2) > 0:
-        _plot_alerts_map(uf_gdf, gdf_2, map2, "Alertas: Chuvas Intensas, Tempestades Convectivas, Inundações", title_line2, logo_path=logo_path)
+        _plot_alerts_map(uf_gdf, gdf_2, map2, "Alertas IDAP - Chuvas, Tempestades, Inundações, Granizo", title_line2, logo_path=logo_path)
         print(f"[INFO] Mapa gerado: {map2}")
     else:
         map2 = ""
@@ -999,7 +999,7 @@ def main() -> int:
     gdf_3 = _alerts_to_gdf(alerts_3)
     map3 = os.path.join(run_dir, "mapa_alertas_deslizamento.png")
     if len(gdf_3) > 0:
-        _plot_alerts_map(uf_gdf, gdf_3, map3, "Alertas: Deslizamento", title_line2, logo_path=logo_path)
+        _plot_alerts_map(uf_gdf, gdf_3, map3, "Alertas IDAP - Deslizamentos", title_line2, logo_path=logo_path)
         print(f"[INFO] Mapa gerado: {map3}")
     else:
         map3 = ""
@@ -1011,7 +1011,7 @@ def main() -> int:
     gdf_4 = _alerts_to_gdf(alerts_4)
     map4 = os.path.join(run_dir, "mapa_alertas_outros.png")
     if len(gdf_4) > 0:
-        _plot_alerts_map(uf_gdf, gdf_4, map4, "Alertas: Outros tipos", title_line2, logo_path=logo_path)
+        _plot_alerts_map(uf_gdf, gdf_4, map4, "Alertas IDAP: Outras Categorias", title_line2, logo_path=logo_path)
         print(f"[INFO] Mapa gerado: {map4}")
     else:
         map4 = ""
