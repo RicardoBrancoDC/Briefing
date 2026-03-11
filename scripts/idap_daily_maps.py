@@ -645,7 +645,7 @@ def _is_chuva_temp_inund(event: Optional[str]) -> bool:
 
 def _is_deslizamento(event: Optional[str]) -> bool:
     n = _normalize_text(event)
-    return ("DESLIZ" in n) or ("MOVIMENTO DE MASSA" in n) or ("CORRIDA DE MASSA" in n)
+    return ("DESLIZ" in n) or ("MOVIMENTO DE MASSA" in n) or ("CORRIDAS DE MASSA" in n)
 
 
 def _nivel_color(n: str) -> str:
