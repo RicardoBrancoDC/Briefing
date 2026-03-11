@@ -640,7 +640,7 @@ def _write_resumo_md(path: str, resumo: Dict[str, Any]) -> None:
 
 def _is_chuva_temp_inund(event: Optional[str]) -> bool:
     n = _normalize_text(event)
-    return ("CHUVA" in n and "INTENSA" in n) or ("TEMPESTADE" in n and "CONVECT" in n) or ("INUND" in n) or ("GRANIZO" in n) 
+    return ("CHUVA" in n and "INTENSA" in n) or ("TEMPESTADE" in n and "CONVECT" in n) or ("INUND" in n) or ("GRANIZO" in n)  or ("ENXURRA" in n) or ("ALAGAM" in n)
 
 
 def _is_deslizamento(event: Optional[str]) -> bool:
