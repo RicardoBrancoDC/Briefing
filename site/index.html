@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mapas de Alertas</title>
+  <title>Mapas e Gráficos de Alertas</title>
   <style>
     * {
       box-sizing: border-box;
@@ -34,7 +34,7 @@
     }
 
     main {
-      max-width: 1200px;
+      max-width: 1280px;
       margin: 0 auto;
       padding: 24px 16px 48px;
     }
@@ -67,6 +67,17 @@
       font-weight: bold;
     }
 
+    .secao {
+      margin-top: 28px;
+      margin-bottom: 12px;
+    }
+
+    .secao h2 {
+      margin: 0 0 14px 0;
+      font-size: 22px;
+      color: #f8fafc;
+    }
+
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -81,7 +92,7 @@
       box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
     }
 
-    .card h2 {
+    .card h3 {
       margin: 0;
       padding: 16px 16px 8px;
       font-size: 20px;
@@ -92,6 +103,7 @@
       padding: 0 16px 16px;
       color: #cbd5e1;
       font-size: 14px;
+      line-height: 1.5;
     }
 
     .img-wrap {
@@ -108,11 +120,31 @@
       background: white;
     }
 
-    footer {
-      margin-top: 32px;
-      color: #94a3b8;
-      font-size: 13px;
-      text-align: center;
+    .destaque {
+      background: #111827;
+      border: 1px solid #1f2937;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+      margin-bottom: 20px;
+    }
+
+    .destaque h3 {
+      margin: 0;
+      padding: 16px 16px 8px;
+      font-size: 22px;
+    }
+
+    .destaque p {
+      margin: 0;
+      padding: 0 16px 16px;
+      color: #cbd5e1;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .destaque .img-wrap {
+      padding: 16px;
     }
 
     .erro {
@@ -123,12 +155,19 @@
       color: #fee2e2;
       display: none;
     }
+
+    footer {
+      margin-top: 36px;
+      color: #94a3b8;
+      font-size: 13px;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Mapas de Alertas</h1>
-    <p>Painel estático publicado com GitHub Pages</p>
+    <h1>Painel de Alertas</h1>
+    <p>Mapas e gráficos gerados automaticamente a partir da execução mais recente</p>
   </header>
 
   <main>
@@ -144,46 +183,81 @@
     </section>
 
     <div id="mensagem-erro" class="erro">
-      Não foi possível carregar o arquivo de atualização. Verifique se o workflow gerou o arquivo
-      <code>site/ultima_atualizacao.json</code>.
+      Não foi possível carregar o arquivo <code>ultima_atualizacao.json</code>.
     </div>
 
-    <section class="grid">
-      <article class="card">
-        <h2>Todos os alertas</h2>
-        <p>Mapa geral com todos os alertas processados na última execução.</p>
-        <div class="img-wrap">
-          <img src="./imagens/mapa_alertas_todos.png" alt="Mapa com todos os alertas" />
-        </div>
-      </article>
+    <section class="secao">
+      <h2>Gráfico</h2>
 
-      <article class="card">
-        <h2>Chuva, tempestade e inundação</h2>
-        <p>Mapa filtrado para eventos hidrometeorológicos principais.</p>
+      <article class="destaque card-auto">
+        <h3>Alertas por hora nas últimas 24h</h3>
+        <p>Distribuição dos alertas emitidos ao longo das últimas 24 horas.</p>
         <div class="img-wrap">
-          <img src="./imagens/mapa_alertas_chuva_temp_inund.png" alt="Mapa de chuva, tempestade e inundação" />
-        </div>
-      </article>
-
-      <article class="card">
-        <h2>Deslizamentos</h2>
-        <p>Mapa específico para alertas associados a movimentos de massa.</p>
-        <div class="img-wrap">
-          <img src="./imagens/mapa_alertas_deslizamento.png" alt="Mapa de deslizamentos" />
-        </div>
-      </article>
-
-      <article class="card">
-        <h2>Outros alertas</h2>
-        <p>Mapa com categorias residuais e demais tipos de alertas.</p>
-        <div class="img-wrap">
-          <img src="./imagens/mapa_alertas_outros.png" alt="Mapa de outros alertas" />
+          <img
+            src="./imagens/grafico_alertas_por_hora_24h.png"
+            alt="Gráfico de alertas por hora nas últimas 24 horas"
+            data-card="true"
+          />
         </div>
       </article>
     </section>
 
+    <section class="secao">
+      <h2>Mapas</h2>
+
+      <div class="grid">
+        <article class="card card-auto">
+          <h3>Todos os alertas</h3>
+          <p>Mapa geral com todos os alertas processados na execução mais recente.</p>
+          <div class="img-wrap">
+            <img
+              src="./imagens/mapa_alertas_todos.png"
+              alt="Mapa com todos os alertas"
+              data-card="true"
+            />
+          </div>
+        </article>
+
+        <article class="card card-auto">
+          <h3>Chuva, tempestade e inundação</h3>
+          <p>Mapa filtrado para eventos hidrometeorológicos principais.</p>
+          <div class="img-wrap">
+            <img
+              src="./imagens/mapa_alertas_chuva_temp_inund.png"
+              alt="Mapa de chuva, tempestade e inundação"
+              data-card="true"
+            />
+          </div>
+        </article>
+
+        <article class="card card-auto">
+          <h3>Deslizamentos</h3>
+          <p>Mapa específico para alertas associados a movimentos de massa, quando houver dados com polígono.</p>
+          <div class="img-wrap">
+            <img
+              src="./imagens/mapa_alertas_deslizamento.png"
+              alt="Mapa de deslizamentos"
+              data-card="true"
+            />
+          </div>
+        </article>
+
+        <article class="card card-auto">
+          <h3>Outros alertas</h3>
+          <p>Mapa com categorias residuais e demais tipos de alertas.</p>
+          <div class="img-wrap">
+            <img
+              src="./imagens/mapa_alertas_outros.png"
+              alt="Mapa de outros alertas"
+              data-card="true"
+            />
+          </div>
+        </article>
+      </div>
+    </section>
+
     <footer>
-      Site gerado automaticamente por GitHub Actions.
+      Site gerado automaticamente por GitHub Actions e publicado no GitHub Pages.
     </footer>
   </main>
 
@@ -218,7 +292,21 @@
       }
     }
 
+    function esconderCardsSemImagem() {
+      const imagens = document.querySelectorAll("img[data-card='true']");
+
+      imagens.forEach((img) => {
+        img.addEventListener("error", () => {
+          const card = img.closest(".card-auto");
+          if (card) {
+            card.style.display = "none";
+          }
+        });
+      });
+    }
+
     carregarAtualizacao();
+    esconderCardsSemImagem();
   </script>
 </body>
 </html>
