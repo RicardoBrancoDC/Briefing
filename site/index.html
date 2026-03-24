@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mapas de Alertas</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+
+    header {
+      background: #111827;
+      padding: 24px 16px;
+      border-bottom: 1px solid #1f2937;
+    }
+
+    header h1 {
+      margin: 0 0 8px 0;
+      font-size: 28px;
+    }
+
+    header p {
+      margin: 0;
+      color: #cbd5e1;
+      font-size: 15px;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 24px 16px 48px;
+    }
+
+    .topo {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 24px;
+    }
+
+    .info-box {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 10px;
+      padding: 12px 16px;
+      color: #e2e8f0;
+      font-size: 14px;
+    }
+
+    .botao {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #111827;
+      border: 1px solid #1f2937;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    }
+
+    .card h2 {
+      margin: 0;
+      padding: 16px 16px 8px;
+      font-size: 20px;
+    }
+
+    .card p {
+      margin: 0;
+      padding: 0 16px 16px;
+      color: #cbd5e1;
+      font-size: 14px;
+    }
+
+    .img-wrap {
+      background: #0b1220;
+      padding: 12px;
+    }
+
+    .img-wrap img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+      border: 1px solid #334155;
+      background: white;
+    }
+
+    footer {
+      margin-top: 32px;
+      color: #94a3b8;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .erro {
+      margin-top: 24px;
+      padding: 14px 16px;
+      border-radius: 10px;
+      background: #7f1d1d;
+      color: #fee2e2;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mapas de Alertas</h1>
+    <p>Painel estático publicado com GitHub Pages</p>
+  </header>
+
+  <main>
+    <section class="topo">
+      <div class="info-box">
+        <strong>Última atualização:</strong>
+        <span id="ultima-atualizacao">carregando...</span>
+      </div>
+
+      <a class="botao" href="./imagens/" target="_blank" rel="noopener noreferrer">
+        Abrir pasta de imagens
+      </a>
+    </section>
+
+    <div id="mensagem-erro" class="erro">
+      Não foi possível carregar o arquivo de atualização. Verifique se o workflow gerou o arquivo
+      <code>site/ultima_atualizacao.json</code>.
+    </div>
+
+    <section class="grid">
+      <article class="card">
+        <h2>Todos os alertas</h2>
+        <p>Mapa geral com todos os alertas processados na última execução.</p>
+        <div class="img-wrap">
+          <img src="./imagens/mapa_alertas_todos.png" alt="Mapa com todos os alertas" />
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Chuva, tempestade e inundação</h2>
+        <p>Mapa filtrado para eventos hidrometeorológicos principais.</p>
+        <div class="img-wrap">
+          <img src="./imagens/mapa_alertas_chuva_temp_inund.png" alt="Mapa de chuva, tempestade e inundação" />
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Deslizamentos</h2>
+        <p>Mapa específico para alertas associados a movimentos de massa.</p>
+        <div class="img-wrap">
+          <img src="./imagens/mapa_alertas_deslizamento.png" alt="Mapa de deslizamentos" />
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Outros alertas</h2>
+        <p>Mapa com categorias residuais e demais tipos de alertas.</p>
+        <div class="img-wrap">
+          <img src="./imagens/mapa_alertas_outros.png" alt="Mapa de outros alertas" />
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      Site gerado automaticamente por GitHub Actions.
+    </footer>
+  </main>
+
+  <script>
+    async function carregarAtualizacao() {
+      const el = document.getElementById("ultima-atualizacao");
+      const erro = document.getElementById("mensagem-erro");
+
+      try {
+        const resposta = await fetch("./ultima_atualizacao.json?ts=" + Date.now(), {
+          cache: "no-store"
+        });
+
+        if (!resposta.ok) {
+          throw new Error("Arquivo não encontrado");
+        }
+
+        const dados = await resposta.json();
+
+        if (dados && dados.gerado_em) {
+          const data = new Date(dados.gerado_em);
+          el.textContent = data.toLocaleString("pt-BR", {
+            dateStyle: "short",
+            timeStyle: "medium"
+          });
+        } else {
+          el.textContent = "arquivo sem campo gerado_em";
+        }
+      } catch (e) {
+        el.textContent = "não disponível";
+        erro.style.display = "block";
+      }
+    }
+
+    carregarAtualizacao();
+  </script>
+</body>
+</html>
