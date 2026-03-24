@@ -39,7 +39,27 @@ jobs:
         run: |
           mkdir -p site/imagens
 
+      - name: Verificar variáveis do Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ]; then
+            echo "TELEGRAM_BOT_TOKEN está vazio"
+          else
+            echo "TELEGRAM_BOT_TOKEN ok"
+          fi
+
+          if [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "TELEGRAM_CHAT_ID está vazio"
+          else
+            echo "TELEGRAM_CHAT_ID ok"
+          fi
+
       - name: Gerar imagens
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           python scripts/idap_daily_maps.py
 
