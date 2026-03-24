@@ -44,7 +44,7 @@ jobs:
 
       - name: Gerar imagens
         run: |
-          python scripts/gerar_mapas.py
+          python scripts/idap_daily_maps.py
 
       - name: Copiar imagens geradas para o site
         run: |
