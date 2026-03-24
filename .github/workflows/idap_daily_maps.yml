@@ -46,9 +46,11 @@ jobs:
         run: |
           python scripts/idap_daily_maps.py
 
-      - name: Copiar imagens geradas para o site
+      
+          - name: Copiar imagens geradas para o site
         run: |
-          cp -f saida/*.png site/imagens/ || true
+         cp -f out/run_*/*.png site/imagens/ || true
+         ls -la site/imagens/
 
       - name: Gerar arquivo de data da última atualização
         run: |
