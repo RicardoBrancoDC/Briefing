@@ -1,12 +1,12 @@
-name: Gerar e publicar mapas no GitHub Pages
+name: IDAP Daily Maps + Pages
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
-  workflow_dispatch:
+    - cron: "17 */2 * * *"
+  workflow_dispatch: {}
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -17,27 +17,32 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
-      - name: Checkout do repositório
+      - name: Checkout
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
-      - name: Configurar Python
+      - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: "pip"
 
-      - name: Instalar dependências
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
           fi
 
-      - name: Criar pastas do site
+      - name: Criar pastas necessárias
         run: |
-          mkdir -p site/imagens
+          mkdir -p .cache out site/imagens
+          [ -f .cache/state.json ] || echo "{}" > .cache/state.json
+          [ -f .cache/historico_alertas.json ] || echo "[]" > .cache/historico_alertas.json
 
       - name: Verificar variáveis do Telegram
         env:
@@ -56,12 +61,28 @@ jobs:
             echo "TELEGRAM_CHAT_ID ok"
           fi
 
-      - name: Gerar imagens
+      - name: Run daily maps
         env:
+          TZ: "America/Sao_Paulo"
+          RSS_URL: "https://idapfile.mdr.gov.br/idap/api/rss/cap"
+          UF_GEOJSON_PATH: "resources/br_uf.geojson"
+          LOGO_PATH: "resources/marca_sedec.png"
+          OUT_DIR: "out"
+          STATE_PATH: ".cache/state.json"
+          HISTORY_PATH: ".cache/historico_alertas.json"
+          WINDOW_HOURS: "24"
+          RETENTION_HOURS: "72"
+          MAX_ITEMS: ""
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           python scripts/idap_daily_maps.py
+
+          echo "----- OUT TREE -----"
+          find out -maxdepth 3 -type f -print || true
+
+          echo "----- CACHE TREE -----"
+          find .cache -maxdepth 2 -type f -print || true
 
       - name: Localizar pasta mais recente de saída
         id: localizar_saida
@@ -112,10 +133,38 @@ jobs:
           echo "Conteúdo final da pasta site:"
           find site -maxdepth 3 -type f | sort
 
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: idap_daily_outputs
+          path: |
+            out/
+            .cache/state.json
+            .cache/historico_alertas.json
+          if-no-files-found: warn
+          retention-days: 7
+
       - name: Upload do artifact do Pages
         uses: actions/upload-pages-artifact@v4
         with:
           path: ./site
+
+      - name: Commit history/state
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add .cache/state.json .cache/historico_alertas.json
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração para commit."
+            exit 0
+          fi
+
+          git commit -m "Atualiza histórico IDAP [skip ci]"
+          git push
 
   deploy:
     needs: build
