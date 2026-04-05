@@ -1,276 +1,587 @@
-const LEVEL_COLORS = {
-  'Baixo': '#2ca02c',
-  'Médio': '#ffd92f',
-  'Alto': '#ff7f0e',
-  'Severo': '#d62728',
-  'Extremo': '#6a0dad',
-  'Indefinido': '#94a3b8'
-};
+async function carregarDashboard() {
+  try {
+    const response = await fetch("dashboard_data.json", { cache: "no-store" });
+    if (!response.ok) {
+      throw new Error(`Falha ao carregar dashboard_data.json: ${response.status}`);
+    }
 
-const STATUS_LABELS = {
-  vigente: 'Vigente',
-  futuro: 'Futuro',
-  expirado: 'Expirado',
-  sem_validade: 'Sem validade'
-};
+    const data = await response.json();
 
-const STATUS_COLORS = {
-  vigente: '#1e88e5',
-  futuro: '#7c3aed',
-  expirado: '#94a3b8',
-  sem_validade: '#cbd5e1'
-};
-
-function fmtDateTime(value) {
-  if (!value) return 'não disponível';
-  const dt = new Date(value);
-  return dt.toLocaleString('pt-BR', { dateStyle: 'short', timeStyle: 'medium' });
+    preencherCabecalho(data);
+    preencherCards(data);
+    renderUltimosAlertas(data.ultimos_alertas || []);
+    renderTop5Autoridades(data.top5_autoridades || []);
+    renderResumoOperacional(data);
+    renderTabelaAlertas(data.tabela_alertas || data.ultimos_alertas || []);
+    renderMapaUF(data);
+    renderGraficos(data);
+  } catch (error) {
+    console.error(error);
+    renderErroGeral(error);
+  }
 }
 
-function setText(id, value) {
-  const el = document.getElementById(id);
-  if (el) el.textContent = value;
+function preencherCabecalho(data) {
+  setText("meta-atualizado", formatarDataHora(data.atualizado_em || data.gerado_em));
+  setText("meta-base", data.base || "últimas 24h");
+  setText("meta-fonte", data.fonte || "CAP processado pelo workflow atual");
+  setText("meta-execucao", data.execucao || data.run_id || "--");
 }
 
-function setHTML(id, value) {
-  const el = document.getElementById(id);
-  if (el) el.innerHTML = value;
+function preencherCards(data) {
+  setText("card-vigentes", numero(data.cards?.vigentes ?? data.resumo?.vigentes ?? 0));
+  setText("card-24h", numero(data.cards?.ultimas_24h ?? data.resumo?.ultimas_24h ?? 0));
+  setText("card-autoridades", numero(data.cards?.autoridades_ativas ?? data.resumo?.autoridades_ativas ?? 0));
+  setText("card-extremos", numero(data.cards?.extremos ?? data.resumo?.extremos ?? 0));
 }
 
-function renderCards(cards) {
-  setText('card-vigentes', cards?.vigentes ?? 0);
-  setText('card-24h', cards?.ultimas24h ?? 0);
-  setText('card-autoridades', cards?.autoridadesAtivas ?? 0);
-  setText('card-extremos', cards?.alertasExtremos ?? 0);
-}
+function renderUltimosAlertas(alertas) {
+  const container = document.getElementById("ultimos-alertas");
+  if (!container) return;
 
-function renderLatestAlerts(items = []) {
-  const el = document.getElementById('latest-alerts');
-  if (!el) return;
-  if (!items.length) {
-    el.innerHTML = '<div class="empty-state">Nenhum alerta disponível para o período processado.</div>';
+  container.innerHTML = "";
+
+  if (!alertas.length) {
+    container.innerHTML = `<div class="empty-state">Nenhum alerta recente disponível.</div>`;
     return;
   }
-  el.innerHTML = items.map(item => `
-    <div class="alert-item">
-      <div>
-        <div class="alert-time">${item.time}</div>
-        <span class="alert-date">${item.date}</span>
-      </div>
-      <div class="alert-main">
-        <strong>${item.senderName}</strong>
-        <div>${item.location || item.uf || 'Local não informado'}</div>
-      </div>
-      <div class="alert-event">
-        <strong>${item.event}</strong>
-        <div>${item.headline || 'Sem headline disponível'}</div>
-      </div>
-      <div>
-        <span class="badge ${item.nivel}">${item.nivel}</span>
-      </div>
-    </div>
-  `).join('');
-}
 
-function renderTopEmitters(items = []) {
-  const el = document.getElementById('top-emitters');
-  if (!el) return;
-  if (!items.length) {
-    el.innerHTML = '<div class="empty-state">Sem dados de autoridades emissoras.</div>';
-    return;
-  }
-  const max = Math.max(...items.map(item => item.count), 1);
-  el.innerHTML = items.map(item => {
-    const width = Math.max(18, (item.count / max) * 100);
-    return `
-      <div class="emitter-row">
-        <div class="emitter-bar-wrap">
-          <div class="emitter-bar" style="width:${width}%">${item.short_name}</div>
-        </div>
-        <div class="emitter-count">${item.count}</div>
+  alertas.slice(0, 5).forEach((alerta) => {
+    const item = document.createElement("div");
+    item.className = "alert-item";
+
+    const hora = obterHoraAlerta(alerta);
+    const dataAlerta = obterDataAlerta(alerta);
+    const emissor = alerta.emissor || alerta.senderName || alerta.sender || "Sem emissor";
+    const local = montarLocal(alerta);
+    const evento = alerta.evento || alerta.event || "Sem evento";
+    const descricao = truncar(
+      alerta.descricao_curta ||
+      alerta.descricao ||
+      alerta.description ||
+      alerta.headline ||
+      "Sem descrição disponível.",
+      150
+    );
+    const nivel = normalizarNivel(alerta.nivel || alerta.nivel_calculado || alerta.severidade_label || alerta.severity_label || "Indefinido");
+
+    item.innerHTML = `
+      <div class="alert-time">
+        <div class="alert-time-hour">${esc(hora)}</div>
+        <div class="alert-time-date">${esc(dataAlerta)}</div>
+      </div>
+
+      <div class="alert-emissor">
+        <div class="alert-emissor-name" title="${escAttr(emissor)}">${esc(emissor)}</div>
+        <div class="alert-emissor-loc">${esc(local)}</div>
+      </div>
+
+      <div class="alert-desc">
+        <div class="alert-desc-evento">${esc(evento)}</div>
+        <div class="alert-desc-texto">${esc(descricao)}</div>
+      </div>
+
+      <div class="alert-tag-wrap">
+        <span class="alert-tag ${classeNivel(nivel)}">${esc(nivel)}</span>
       </div>
     `;
-  }).join('');
+
+    container.appendChild(item);
+  });
 }
 
-function renderCharts(data) {
-  const levelCtx = document.getElementById('chart-levels');
-  const eventCtx = document.getElementById('chart-events');
-  const statusCtx = document.getElementById('chart-status');
+function renderTop5Autoridades(items) {
+  const container = document.getElementById("top5-autoridades");
+  if (!container) return;
 
-  const levelLabels = (data.level_distribution || []).map(item => item.label);
-  const levelValues = (data.level_distribution || []).map(item => item.count);
-  const levelColors = levelLabels.map(label => LEVEL_COLORS[label] || '#94a3b8');
+  container.innerHTML = "";
 
-  new Chart(levelCtx, {
-    type: 'bar',
-    data: {
-      labels: levelLabels,
-      datasets: [{
-        data: levelValues,
-        backgroundColor: levelColors,
-        borderRadius: 8,
-        borderSkipped: false
-      }]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: { legend: { display: false } },
-      scales: {
-        y: { beginAtZero: true, ticks: { precision: 0 } },
-        x: { grid: { display: false } }
-      }
-    }
+  if (!items.length) {
+    container.innerHTML = `<div class="empty-state">Nenhuma autoridade emissora encontrada.</div>`;
+    return;
+  }
+
+  const cores = ["top5-blue", "top5-green", "top5-orange", "top5-red", "top5-purple"];
+  const maxValor = Math.max(...items.map((item) => Number(item.valor ?? item.total ?? item.count ?? 0)), 1);
+
+  items.slice(0, 5).forEach((item, index) => {
+    const nome = item.nome || item.autoridade || item.emissor || "Sem nome";
+    const valor = Number(item.valor ?? item.total ?? item.count ?? 0);
+    const largura = Math.max((valor / maxValor) * 100, valor > 0 ? 8 : 0);
+    const cor = cores[index % cores.length];
+
+    const div = document.createElement("div");
+    div.className = "top5-item";
+
+    div.innerHTML = `
+      <div class="top5-item-header">
+        <div class="top5-item-name" title="${escAttr(nome)}">${esc(nome)}</div>
+        <div class="top5-item-value">${numero(valor)}</div>
+      </div>
+      <div class="top5-bar-track">
+        <div class="top5-bar-fill ${cor}" style="width: ${largura}%;"></div>
+      </div>
+    `;
+
+    container.appendChild(div);
   });
+}
 
-  const eventLabels = (data.event_distribution || []).map(item => item.label);
-  const eventValues = (data.event_distribution || []).map(item => item.count);
-  new Chart(eventCtx, {
-    type: 'doughnut',
+function renderResumoOperacional(data) {
+  const container = document.getElementById("resumo-operacional");
+  if (!container) return;
+
+  const vigentes = data.cards?.vigentes ?? data.resumo?.vigentes ?? 0;
+  const ultimas24h = data.cards?.ultimas_24h ?? data.resumo?.ultimas_24h ?? 0;
+  const autoridades = data.cards?.autoridades_ativas ?? data.resumo?.autoridades_ativas ?? 0;
+  const extremos = data.cards?.extremos ?? data.resumo?.extremos ?? 0;
+
+  const expirados = data.vigencia?.expirados ?? data.status_vigencia?.expirados ?? 0;
+  const futuros = data.vigencia?.futuros ?? data.status_vigencia?.futuros ?? 0;
+  const ufs = data.resumo?.ufs_ativas ?? data.ufs_ativas ?? contarUFs(data.alertas_por_uf || data.ufs || []);
+
+  container.innerHTML = `
+    <div class="resumo-box">
+      <div class="resumo-box-label">Alertas vigentes</div>
+      <div class="resumo-box-value">${numero(vigentes)}</div>
+    </div>
+
+    <div class="resumo-box">
+      <div class="resumo-box-label">Alertas expirados</div>
+      <div class="resumo-box-value">${numero(expirados)}</div>
+    </div>
+
+    <div class="resumo-box">
+      <div class="resumo-box-label">Alertas futuros</div>
+      <div class="resumo-box-value">${numero(futuros)}</div>
+    </div>
+
+    <div class="resumo-box">
+      <div class="resumo-box-label">UFs com alertas</div>
+      <div class="resumo-box-value">${numero(ufs)}</div>
+    </div>
+
+    <div class="resumo-box">
+      <div class="resumo-box-label">Autoridades ativas</div>
+      <div class="resumo-box-value">${numero(autoridades)}</div>
+    </div>
+
+    <div class="resumo-box">
+      <div class="resumo-box-label">Alertas extremos</div>
+      <div class="resumo-box-value">${numero(extremos)}</div>
+    </div>
+  `;
+}
+
+function renderTabelaAlertas(alertas) {
+  const tbody = document.getElementById("tabela-alertas-body");
+  if (!tbody) return;
+
+  tbody.innerHTML = "";
+
+  if (!alertas.length) {
+    tbody.innerHTML = `
+      <tr>
+        <td colspan="6" class="empty-state">Nenhum alerta disponível para a tabela.</td>
+      </tr>
+    `;
+    return;
+  }
+
+  alertas.slice(0, 20).forEach((alerta) => {
+    const tr = document.createElement("tr");
+
+    const dataHora = formatarDataHoraCurta(
+      alerta.data ||
+      alerta.onset ||
+      alerta.sent ||
+      alerta.inicio ||
+      alerta.timestamp
+    );
+
+    const emissor = alerta.emissor || alerta.senderName || alerta.sender || "-";
+    const evento = alerta.evento || alerta.event || "-";
+    const severidade = normalizarNivel(alerta.nivel || alerta.nivel_calculado || alerta.severidade_label || alerta.severity_label || alerta.severity || "-");
+    const uf = alerta.uf || alerta.estado || extrairUF(alerta.areaDesc || alerta.local || "") || "-";
+    const municipio = alerta.municipio || alerta.cidade || extrairMunicipio(alerta.areaDesc || alerta.local || "") || "-";
+
+    tr.innerHTML = `
+      <td>${esc(dataHora)}</td>
+      <td title="${escAttr(emissor)}">${esc(emissor)}</td>
+      <td title="${escAttr(evento)}">${esc(evento)}</td>
+      <td>${esc(severidade)}</td>
+      <td>${esc(uf)}</td>
+      <td title="${escAttr(municipio)}">${esc(municipio)}</td>
+    `;
+
+    tbody.appendChild(tr);
+  });
+}
+
+function renderMapaUF(data) {
+  const container = document.getElementById("mapa-uf");
+  if (!container) return;
+
+  const mapaImg = data.mapa_uf_png || data.mapa_png || data.imagem_mapa || null;
+
+  if (mapaImg) {
+    container.innerHTML = `
+      <img
+        src="${escAttr(mapaImg)}"
+        alt="Mapa de alertas por UF"
+        style="max-width: 100%; width: 100%; height: auto; display: block; border-radius: 18px;"
+      />
+    `;
+    return;
+  }
+
+  const listaUF = data.alertas_por_uf || data.ufs || [];
+  if (Array.isArray(listaUF) && listaUF.length) {
+    const resumo = listaUF
+      .slice(0, 10)
+      .map((item) => {
+        const uf = item.uf || item.nome || item.label || "--";
+        const valor = item.valor ?? item.total ?? item.count ?? 0;
+        return `<strong>${esc(uf)}</strong>: ${numero(valor)}`;
+      })
+      .join(" &nbsp;&nbsp; ");
+
+    container.innerHTML = `<div style="padding:24px; text-align:center;">${resumo}</div>`;
+    return;
+  }
+
+  container.innerHTML = `<div class="empty-state">Mapa por UF não disponível nesta execução.</div>`;
+}
+
+function renderGraficos(data) {
+  renderChartSeveridade(data.severidade || data.alertas_por_severidade || {});
+  renderChartEventos(data.eventos || data.alertas_por_evento || {});
+  renderChartVigencia(data.vigencia || data.status_vigencia || {});
+}
+
+function renderChartSeveridade(severidadeData) {
+  const ctx = document.getElementById("chart-severidade");
+  if (!ctx) return;
+
+  const ordem = ["Baixo", "Médio", "Alto", "Severo", "Extremo"];
+  const valoresMap = normalizarColecaoParaMapa(severidadeData);
+
+  const labels = ordem.filter((label) => (valoresMap[label] ?? 0) > 0 || ordem.length > 0);
+  const valores = labels.map((label) => valoresMap[label] ?? 0);
+
+  destruirGraficoAnterior(ctx);
+
+  new Chart(ctx, {
+    type: "bar",
     data: {
-      labels: eventLabels,
+      labels,
       datasets: [{
-        data: eventValues,
-        backgroundColor: ['#5b6dee', '#2ea8df', '#4caf50', '#ffb300', '#ef5350', '#7e57c2', '#90a4ae'],
-        borderColor: '#ffffff',
-        borderWidth: 2
+        data: valores,
+        backgroundColor: ["#4caf50", "#d2be45", "#f08c24", "#db3d34", "#6a43d9"],
+        borderRadius: 8
       }]
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { position: 'right' }
+        legend: { display: false }
       },
-      cutout: '54%'
-    }
-  });
-
-  const statusLabels = (data.status_distribution || []).map(item => STATUS_LABELS[item.label] || item.label);
-  const statusValues = (data.status_distribution || []).map(item => item.count);
-  const statusColors = (data.status_distribution || []).map(item => STATUS_COLORS[item.label] || '#94a3b8');
-  new Chart(statusCtx, {
-    type: 'bar',
-    data: {
-      labels: statusLabels,
-      datasets: [{
-        label: 'Quantidade',
-        data: statusValues,
-        backgroundColor: statusColors,
-        borderRadius: 8,
-        borderSkipped: false
-      }]
-    },
-    options: {
-      indexAxis: 'y',
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: { legend: { display: false } },
       scales: {
-        x: { beginAtZero: true, ticks: { precision: 0 } },
-        y: { grid: { display: false } }
+        x: {
+          ticks: { color: "#33415f", font: { weight: "700" } },
+          grid: { display: false }
+        },
+        y: {
+          beginAtZero: true,
+          ticks: { color: "#667085" },
+          grid: { color: "rgba(102, 112, 133, 0.16)" }
+        }
       }
     }
   });
 }
 
-function renderTable(items = []) {
-  const el = document.getElementById('table-body');
-  if (!el) return;
-  if (!items.length) {
-    el.innerHTML = '<tr><td colspan="6" class="empty-state">Nenhum alerta disponível.</td></tr>';
-    return;
+function renderChartEventos(eventosData) {
+  const ctx = document.getElementById("chart-eventos");
+  if (!ctx) return;
+
+  const mapa = normalizarColecaoParaMapa(eventosData);
+  const entries = Object.entries(mapa)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 6);
+
+  const labels = entries.map(([k]) => k);
+  const valores = entries.map(([, v]) => v);
+
+  destruirGraficoAnterior(ctx);
+
+  new Chart(ctx, {
+    type: "doughnut",
+    data: {
+      labels,
+      datasets: [{
+        data: valores,
+        backgroundColor: ["#f08c24", "#db3d34", "#6a43d9", "#2382ea", "#4caf50", "#c8ccd6"],
+        borderColor: "#f3f4f6",
+        borderWidth: 3
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      cutout: "58%",
+      plugins: {
+        legend: {
+          position: "bottom",
+          labels: {
+            color: "#33415f",
+            padding: 16,
+            boxWidth: 14,
+            font: { size: 12 }
+          }
+        }
+      }
+    }
+  });
+}
+
+function renderChartVigencia(vigenciaData) {
+  const ctx = document.getElementById("chart-vigencia");
+  if (!ctx) return;
+
+  const vigentes = Number(vigenciaData.vigentes ?? 0);
+  const expirados = Number(vigenciaData.expirados ?? 0);
+  const futuros = Number(vigenciaData.futuros ?? 0);
+
+  destruirGraficoAnterior(ctx);
+
+  new Chart(ctx, {
+    type: "doughnut",
+    data: {
+      labels: ["Vigentes", "Expirados", "Futuros"],
+      datasets: [{
+        data: [vigentes, expirados, futuros],
+        backgroundColor: ["#2382ea", "#c8ccd6", "#6a43d9"],
+        borderColor: "#f3f4f6",
+        borderWidth: 3
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      cutout: "58%",
+      plugins: {
+        legend: {
+          position: "bottom",
+          labels: {
+            color: "#33415f",
+            padding: 16,
+            boxWidth: 14,
+            font: { size: 12 }
+          }
+        }
+      }
+    }
+  });
+}
+
+function renderErroGeral(error) {
+  console.error("Erro geral do dashboard:", error);
+
+  const ids = [
+    "ultimos-alertas",
+    "top5-autoridades",
+    "resumo-operacional",
+    "mapa-uf"
+  ];
+
+  ids.forEach((id) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.innerHTML = `<div class="empty-state">Não foi possível carregar os dados do painel.</div>`;
+    }
+  });
+
+  const tbody = document.getElementById("tabela-alertas-body");
+  if (tbody) {
+    tbody.innerHTML = `
+      <tr>
+        <td colspan="6" class="empty-state">Não foi possível carregar os dados da tabela.</td>
+      </tr>
+    `;
   }
-  el.innerHTML = items.map(item => `
-    <tr>
-      <td><strong>${item.date}</strong><div class="small-muted">${item.time}</div></td>
-      <td>${item.senderName}</td>
-      <td>${item.event}</td>
-      <td><span class="badge ${item.nivel}">${item.nivel}</span></td>
-      <td>${item.uf || '-'}</td>
-      <td>${item.location || '-'}</td>
-    </tr>
-  `).join('');
 }
 
-async function renderMap(ufDistribution = []) {
-  const container = document.getElementById('uf-map');
-  if (!container) return;
-  container.innerHTML = '';
-
-  const [geojson, topo] = await Promise.all([
-    fetch('./data/br_uf.geojson?ts=' + Date.now(), { cache: 'no-store' }).then(r => r.json()),
-    Promise.resolve(ufDistribution)
-  ]);
-
-  const counts = new Map(topo.map(item => [item.uf, item.count]));
-  const maxValue = Math.max(...topo.map(item => item.count), 1);
-
-  const width = container.clientWidth || 900;
-  const height = container.clientHeight || 420;
-  const svg = d3.select(container).append('svg')
-    .attr('viewBox', `0 0 ${width} ${height}`)
-    .attr('preserveAspectRatio', 'xMidYMid meet');
-
-  const projection = d3.geoMercator().fitSize([width - 20, height - 20], geojson);
-  const path = d3.geoPath(projection);
-  const color = d3.scaleSequential().domain([0, maxValue]).interpolator(d3.interpolateTurbo);
-
-  svg.append('g')
-    .attr('transform', 'translate(10,10)')
-    .selectAll('path')
-    .data(geojson.features)
-    .join('path')
-    .attr('d', path)
-    .attr('fill', d => {
-      const uf = d.properties.uf_05;
-      const val = counts.get(uf) || 0;
-      return val > 0 ? color(val) : '#dbe3ee';
-    })
-    .attr('stroke', '#ffffff')
-    .attr('stroke-width', 1.2)
-    .append('title')
-    .text(d => `${d.properties.nome_uf} (${d.properties.uf_05}): ${counts.get(d.properties.uf_05) || 0}`);
-
-  svg.append('g')
-    .attr('transform', 'translate(10,10)')
-    .selectAll('text')
-    .data(geojson.features.filter(d => (counts.get(d.properties.uf_05) || 0) > 0))
-    .join('text')
-    .attr('transform', d => `translate(${path.centroid(d)})`)
-    .attr('text-anchor', 'middle')
-    .attr('font-size', 16)
-    .attr('font-weight', 800)
-    .attr('fill', '#ffffff')
-    .style('paint-order', 'stroke')
-    .style('stroke', 'rgba(31,42,68,0.30)')
-    .style('stroke-width', 4)
-    .text(d => counts.get(d.properties.uf_05));
+function setText(id, value) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = value ?? "--";
 }
 
-function renderSummary(data) {
-  setText('generated-at', fmtDateTime(data.generated_at));
-  setText('run-dir', data.source_run_dir || 'não disponível');
+function numero(value) {
+  return Number(value || 0).toLocaleString("pt-BR");
 }
 
-async function init() {
-  try {
-    const response = await fetch('./dashboard_data.json?ts=' + Date.now(), { cache: 'no-store' });
-    if (!response.ok) throw new Error('dashboard_data.json não encontrado');
-    const data = await response.json();
+function truncar(texto, limite) {
+  const t = String(texto || "");
+  if (t.length <= limite) return t;
+  return `${t.slice(0, limite - 3)}...`;
+}
 
-    renderSummary(data);
-    renderCards(data.cards || {});
-    renderLatestAlerts(data.latest_alerts || []);
-    renderTopEmitters(data.top_emitters || []);
-    renderCharts(data);
-    renderTable(data.latest_alerts || []);
-    await renderMap(data.uf_distribution || []);
-  } catch (error) {
-    console.error(error);
-    setHTML('app-error', '<div class="empty-state">Não foi possível carregar os dados do dashboard.</div>');
+function esc(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
+function escAttr(value) {
+  return esc(value);
+}
+
+function normalizarNivel(valor) {
+  const v = String(valor || "").trim().toLowerCase();
+
+  if (v === "baixo" || v === "minor") return "Baixo";
+  if (v === "médio" || v === "medio" || v === "moderate") return "Médio";
+  if (v === "alto" || v === "severe") return "Alto";
+  if (v === "severo") return "Severo";
+  if (v === "extremo" || v === "extreme") return "Extremo";
+  if (!v || v === "indefinido") return "Indefinido";
+
+  return valor;
+}
+
+function classeNivel(nivel) {
+  const n = String(nivel || "").toLowerCase();
+  if (n === "baixo") return "baixo";
+  if (n === "médio" || n === "medio") return "medio";
+  if (n === "alto") return "alto";
+  if (n === "severo") return "severo";
+  if (n === "extremo") return "extremo";
+  return "medio";
+}
+
+function formatarDataHora(iso) {
+  if (!iso) return "--/--/---- --:--:--";
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return String(iso);
+
+  return d.toLocaleString("pt-BR", {
+    timeZone: "America/Sao_Paulo",
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit"
+  });
+}
+
+function formatarDataHoraCurta(iso) {
+  if (!iso) return "-";
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return String(iso);
+
+  return d.toLocaleString("pt-BR", {
+    timeZone: "America/Sao_Paulo",
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit"
+  });
+}
+
+function obterHoraAlerta(alerta) {
+  const valor = alerta.data || alerta.onset || alerta.sent || alerta.inicio || alerta.timestamp;
+  if (!valor) return "--:--";
+
+  const d = new Date(valor);
+  if (Number.isNaN(d.getTime())) return "--:--";
+
+  return d.toLocaleTimeString("pt-BR", {
+    timeZone: "America/Sao_Paulo",
+    hour: "2-digit",
+    minute: "2-digit"
+  });
+}
+
+function obterDataAlerta(alerta) {
+  const valor = alerta.data || alerta.onset || alerta.sent || alerta.inicio || alerta.timestamp;
+  if (!valor) return "--/--/----";
+
+  const d = new Date(valor);
+  if (Number.isNaN(d.getTime())) return "--/--/----";
+
+  return d.toLocaleDateString("pt-BR", {
+    timeZone: "America/Sao_Paulo",
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric"
+  });
+}
+
+function montarLocal(alerta) {
+  const municipio = alerta.municipio || alerta.cidade || "";
+  const uf = alerta.uf || alerta.estado || extrairUF(alerta.areaDesc || alerta.local || "") || "";
+  const areaDesc = alerta.areaDesc || alerta.local || "";
+
+  if (municipio && uf) return `${municipio}/${uf}`.toUpperCase();
+  if (municipio) return municipio.toUpperCase();
+  if (uf) return uf.toUpperCase();
+  if (areaDesc) return truncar(areaDesc.toUpperCase(), 40);
+  return "LOCAL NÃO INFORMADO";
+}
+
+function extrairUF(texto) {
+  const t = String(texto || "");
+  const match = t.match(/\(([A-Z]{2})\)$/) || t.match(/\b([A-Z]{2})\b/);
+  return match ? match[1] : "";
+}
+
+function extrairMunicipio(texto) {
+  const t = String(texto || "").trim();
+  if (!t) return "";
+  const parts = t.split("/");
+  if (parts.length > 1) return parts[0].trim();
+  return t;
+}
+
+function normalizarColecaoParaMapa(origem) {
+  if (!origem) return {};
+
+  if (Array.isArray(origem)) {
+    const mapa = {};
+    origem.forEach((item) => {
+      const chave = item.label || item.nome || item.evento || item.nivel || item.uf || item.key || "Sem nome";
+      const valor = Number(item.valor ?? item.total ?? item.count ?? 0);
+      mapa[chave] = valor;
+    });
+    return mapa;
   }
+
+  if (typeof origem === "object") {
+    return Object.fromEntries(
+      Object.entries(origem).map(([k, v]) => [k, Number(v || 0)])
+    );
+  }
+
+  return {};
 }
 
-document.addEventListener('DOMContentLoaded', init);
+function contarUFs(origem) {
+  if (!origem) return 0;
+  if (Array.isArray(origem)) return origem.length;
+  if (typeof origem === "object") return Object.keys(origem).length;
+  return 0;
+}
+
+function destruirGraficoAnterior(canvasEl) {
+  const chart = Chart.getChart(canvasEl);
+  if (chart) chart.destroy();
+}
+
+document.addEventListener("DOMContentLoaded", carregarDashboard);
