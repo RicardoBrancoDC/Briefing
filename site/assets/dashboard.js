@@ -1,11 +1,23 @@
+const AUTO_REFRESH_MS = 300000; // 5 minutos
+let dashboardCarregando = false;
+let dashboardUltimaLeitura = null;
+
 async function carregarDashboard() {
+  if (dashboardCarregando) return;
+  dashboardCarregando = true;
+
   try {
-    const response = await fetch("dashboard_data.json", { cache: "no-store" });
+    const cacheBuster = `_ts=${Date.now()}`;
+    const response = await fetch(`dashboard_data.json?${cacheBuster}`, {
+      cache: "no-store"
+    });
+
     if (!response.ok) {
       throw new Error(`Falha ao carregar dashboard_data.json: ${response.status}`);
     }
 
     const data = await response.json();
+    dashboardUltimaLeitura = new Date();
 
     preencherCabecalho(data);
     preencherCards(data);
@@ -18,11 +30,26 @@ async function carregarDashboard() {
   } catch (error) {
     console.error(error);
     renderErroGeral(error);
+  } finally {
+    dashboardCarregando = false;
   }
 }
 
 function preencherCabecalho(data) {
-  setText("meta-atualizado", formatarDataHora(data.atualizado_em || data.gerado_em));
+  const atualizadoOrigem = formatarDataHora(data.atualizado_em || data.gerado_em);
+  const atualizadoLeitura = dashboardUltimaLeitura
+    ? dashboardUltimaLeitura.toLocaleString("pt-BR", {
+        timeZone: "America/Sao_Paulo",
+        day: "2-digit",
+        month: "2-digit",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit"
+      })
+    : "--/--/---- --:--:--";
+
+  setText("meta-atualizado", `${atualizadoOrigem} | leitura: ${atualizadoLeitura}`);
   setText("meta-base", data.base || "últimas 24h");
   setText("meta-fonte", data.fonte || "CAP processado pelo workflow atual");
   setText("meta-execucao", data.execucao || data.run_id || "--");
@@ -63,7 +90,13 @@ function renderUltimosAlertas(alertas) {
       "Sem descrição disponível.",
       150
     );
-    const nivel = normalizarNivel(alerta.nivel || alerta.nivel_calculado || alerta.severidade_label || alerta.severity_label || "Indefinido");
+    const nivel = normalizarNivel(
+      alerta.nivel ||
+      alerta.nivel_calculado ||
+      alerta.severidade_label ||
+      alerta.severity_label ||
+      "Indefinido"
+    );
 
     item.innerHTML = `
       <div class="alert-time">
@@ -201,7 +234,14 @@ function renderTabelaAlertas(alertas) {
 
     const emissor = alerta.emissor || alerta.senderName || alerta.sender || "-";
     const evento = alerta.evento || alerta.event || "-";
-    const severidade = normalizarNivel(alerta.nivel || alerta.nivel_calculado || alerta.severidade_label || alerta.severity_label || alerta.severity || "-");
+    const severidade = normalizarNivel(
+      alerta.nivel ||
+      alerta.nivel_calculado ||
+      alerta.severidade_label ||
+      alerta.severity_label ||
+      alerta.severity ||
+      "-"
+    );
     const uf = alerta.uf || alerta.estado || extrairUF(alerta.areaDesc || alerta.local || "") || "-";
     const municipio = alerta.municipio || alerta.cidade || extrairMunicipio(alerta.areaDesc || alerta.local || "") || "-";
 
@@ -225,9 +265,10 @@ function renderMapaUF(data) {
   const mapaImg = data.mapa_uf_png || data.mapa_png || data.imagem_mapa || null;
 
   if (mapaImg) {
+    const mapaComCacheBuster = `${mapaImg}${mapaImg.includes("?") ? "&" : "?"}_ts=${Date.now()}`;
     container.innerHTML = `
       <img
-        src="${escAttr(mapaImg)}"
+        src="${escAttr(mapaComCacheBuster)}"
         alt="Mapa de alertas por UF"
         style="max-width: 100%; width: 100%; height: auto; display: block; border-radius: 18px;"
       />
@@ -284,6 +325,7 @@ function renderChartSeveridade(severidadeData) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      animation: false,
       plugins: {
         legend: { display: false }
       },
@@ -330,6 +372,7 @@ function renderChartEventos(eventosData) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      animation: false,
       cutout: "58%",
       plugins: {
         legend: {
@@ -370,6 +413,7 @@ function renderChartVigencia(vigenciaData) {
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      animation: false,
       cutout: "58%",
       plugins: {
         legend: {
@@ -584,4 +628,10 @@ function destruirGraficoAnterior(canvasEl) {
   if (chart) chart.destroy();
 }
 
-document.addEventListener("DOMContentLoaded", carregarDashboard);
+document.addEventListener("DOMContentLoaded", () => {
+  carregarDashboard();
+
+  setInterval(() => {
+    carregarDashboard();
+  }, AUTO_REFRESH_MS);
+});
