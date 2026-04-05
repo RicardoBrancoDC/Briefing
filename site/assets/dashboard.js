@@ -21,10 +21,10 @@ async function carregarDashboard() {
 
     preencherCabecalho(data);
     preencherCards(data);
-    renderUltimosAlertas(data.ultimos_alertas || []);
-    renderTop5Autoridades(data.top5_autoridades || []);
+    renderUltimosAlertas(data.ultimos_alertas || data.latest_alerts || []);
+    renderTop5Autoridades(data.top5_autoridades || data.top_emitters || []);
     renderResumoOperacional(data);
-    renderTabelaAlertas(data.tabela_alertas || data.ultimos_alertas || []);
+    renderTabelaAlertas(data.tabela_alertas || data.ultimos_alertas || data.latest_alerts || []);
     renderMapaUF(data);
     renderGraficos(data);
   } catch (error) {
@@ -36,7 +36,12 @@ async function carregarDashboard() {
 }
 
 function preencherCabecalho(data) {
-  const atualizadoOrigem = formatarDataHora(data.atualizado_em || data.gerado_em);
+  const atualizadoOrigem = formatarDataHora(
+    data.atualizado_em ||
+    data.gerado_em ||
+    data.generated_at
+  );
+
   const atualizadoLeitura = dashboardUltimaLeitura
     ? dashboardUltimaLeitura.toLocaleString("pt-BR", {
         timeZone: "America/Sao_Paulo",
@@ -52,14 +57,38 @@ function preencherCabecalho(data) {
   setText("meta-atualizado", `${atualizadoOrigem} | leitura: ${atualizadoLeitura}`);
   setText("meta-base", data.base || "últimas 24h");
   setText("meta-fonte", data.fonte || "CAP processado pelo workflow atual");
-  setText("meta-execucao", data.execucao || data.run_id || "--");
+  setText("meta-execucao", data.execucao || data.run_id || data.source_run_dir || "--");
 }
 
 function preencherCards(data) {
-  setText("card-vigentes", numero(data.cards?.vigentes ?? data.resumo?.vigentes ?? 0));
-  setText("card-24h", numero(data.cards?.ultimas_24h ?? data.resumo?.ultimas_24h ?? 0));
-  setText("card-autoridades", numero(data.cards?.autoridades_ativas ?? data.resumo?.autoridades_ativas ?? 0));
-  setText("card-extremos", numero(data.cards?.extremos ?? data.resumo?.extremos ?? 0));
+  setText("card-vigentes", numero(
+    data.cards?.vigentes ??
+    data.resumo?.vigentes ??
+    0
+  ));
+
+  setText("card-24h", numero(
+    data.cards?.ultimas_24h ??
+    data.cards?.ultimas24h ??
+    data.resumo?.ultimas_24h ??
+    data.summary?.total_alerts ??
+    0
+  ));
+
+  setText("card-autoridades", numero(
+    data.cards?.autoridades_ativas ??
+    data.cards?.autoridadesAtivas ??
+    data.resumo?.autoridades_ativas ??
+    0
+  ));
+
+  setText("card-extremos", numero(
+    data.cards?.extremos ??
+    data.cards?.alertasExtremos ??
+    data.resumo?.extremos ??
+    data.summary?.by_nivel?.Extremo ??
+    0
+  ));
 }
 
 function renderUltimosAlertas(alertas) {
@@ -77,10 +106,10 @@ function renderUltimosAlertas(alertas) {
     const item = document.createElement("div");
     item.className = "alert-item";
 
-    const hora = obterHoraAlerta(alerta);
-    const dataAlerta = obterDataAlerta(alerta);
+    const hora = alerta.time || obterHoraAlerta(alerta);
+    const dataAlerta = alerta.date || obterDataAlerta(alerta);
     const emissor = alerta.emissor || alerta.senderName || alerta.sender || "Sem emissor";
-    const local = montarLocal(alerta);
+    const local = alerta.location || montarLocal(alerta);
     const evento = alerta.evento || alerta.event || "Sem evento";
     const descricao = truncar(
       alerta.descricao_curta ||
@@ -138,7 +167,13 @@ function renderTop5Autoridades(items) {
   const maxValor = Math.max(...items.map((item) => Number(item.valor ?? item.total ?? item.count ?? 0)), 1);
 
   items.slice(0, 5).forEach((item, index) => {
-    const nome = item.nome || item.autoridade || item.emissor || "Sem nome";
+    const nome =
+      item.nome ||
+      item.name ||
+      item.autoridade ||
+      item.emissor ||
+      "Sem nome";
+
     const valor = Number(item.valor ?? item.total ?? item.count ?? 0);
     const largura = Math.max((valor / maxValor) * 100, valor > 0 ? 8 : 0);
     const cor = cores[index % cores.length];
@@ -164,19 +199,26 @@ function renderResumoOperacional(data) {
   const container = document.getElementById("resumo-operacional");
   if (!container) return;
 
-  const vigentes = data.cards?.vigentes ?? data.resumo?.vigentes ?? 0;
-  const ultimas24h = data.cards?.ultimas_24h ?? data.resumo?.ultimas_24h ?? 0;
-  const autoridades = data.cards?.autoridades_ativas ?? data.resumo?.autoridades_ativas ?? 0;
-  const extremos = data.cards?.extremos ?? data.resumo?.extremos ?? 0;
+  const vigentes = data.cards?.vigentes ?? 0;
+  const ultimas24h = data.cards?.ultimas_24h ?? data.cards?.ultimas24h ?? data.summary?.total_alerts ?? 0;
+  const autoridades = data.cards?.autoridades_ativas ?? data.cards?.autoridadesAtivas ?? 0;
+  const extremos = data.cards?.extremos ?? data.cards?.alertasExtremos ?? data.summary?.by_nivel?.Extremo ?? 0;
 
-  const expirados = data.vigencia?.expirados ?? data.status_vigencia?.expirados ?? 0;
-  const futuros = data.vigencia?.futuros ?? data.status_vigencia?.futuros ?? 0;
-  const ufs = data.resumo?.ufs_ativas ?? data.ufs_ativas ?? contarUFs(data.alertas_por_uf || data.ufs || []);
+  const statusMap = normalizarColecaoParaMapa(data.vigencia || data.status_vigencia || data.status_distribution || {});
+  const expirados = statusMap.expirado ?? statusMap.Expirado ?? 0;
+  const futuros = statusMap.futuro ?? statusMap.Futuro ?? 0;
+
+  const ufs = contarUFs(data.alertas_por_uf || data.ufs || data.uf_distribution || []);
 
   container.innerHTML = `
     <div class="resumo-box">
       <div class="resumo-box-label">Alertas vigentes</div>
       <div class="resumo-box-value">${numero(vigentes)}</div>
+    </div>
+
+    <div class="resumo-box">
+      <div class="resumo-box-label">Alertas nas últimas 24h</div>
+      <div class="resumo-box-value">${numero(ultimas24h)}</div>
     </div>
 
     <div class="resumo-box">
@@ -224,13 +266,16 @@ function renderTabelaAlertas(alertas) {
   alertas.slice(0, 20).forEach((alerta) => {
     const tr = document.createElement("tr");
 
-    const dataHora = formatarDataHoraCurta(
-      alerta.data ||
-      alerta.onset ||
-      alerta.sent ||
-      alerta.inicio ||
-      alerta.timestamp
-    );
+    const dataHora =
+      alerta.date && alerta.time
+        ? `${alerta.date} ${alerta.time}`
+        : formatarDataHoraCurta(
+            alerta.data ||
+            alerta.onset ||
+            alerta.sent ||
+            alerta.inicio ||
+            alerta.timestamp
+          );
 
     const emissor = alerta.emissor || alerta.senderName || alerta.sender || "-";
     const evento = alerta.evento || alerta.event || "-";
@@ -242,8 +287,8 @@ function renderTabelaAlertas(alertas) {
       alerta.severity ||
       "-"
     );
-    const uf = alerta.uf || alerta.estado || extrairUF(alerta.areaDesc || alerta.local || "") || "-";
-    const municipio = alerta.municipio || alerta.cidade || extrairMunicipio(alerta.areaDesc || alerta.local || "") || "-";
+    const uf = alerta.uf || alerta.estado || extrairUF(alerta.areaDesc || alerta.local || alerta.location || "") || "-";
+    const municipio = alerta.municipio || alerta.cidade || extrairMunicipio(alerta.areaDesc || alerta.local || alerta.location || "") || "-";
 
     tr.innerHTML = `
       <td>${esc(dataHora)}</td>
@@ -276,7 +321,7 @@ function renderMapaUF(data) {
     return;
   }
 
-  const listaUF = data.alertas_por_uf || data.ufs || [];
+  const listaUF = data.alertas_por_uf || data.ufs || data.uf_distribution || [];
   if (Array.isArray(listaUF) && listaUF.length) {
     const resumo = listaUF
       .slice(0, 10)
@@ -295,22 +340,25 @@ function renderMapaUF(data) {
 }
 
 function renderGraficos(data) {
-  renderChartSeveridade(data.severidade || data.alertas_por_severidade || {});
-  renderChartEventos(data.eventos || data.alertas_por_evento || {});
-  renderChartVigencia(data.vigencia || data.status_vigencia || {});
+  renderChartSeveridade(data.severidade || data.alertas_por_severidade || data.level_distribution || {});
+  renderChartEventos(data.eventos || data.alertas_por_evento || data.event_distribution || {});
+  renderChartVigencia(data.vigencia || data.status_vigencia || data.status_distribution || {});
 }
 
 function renderChartSeveridade(severidadeData) {
-  const ctx = document.getElementById("chart-severidade");
+  const canvas = document.getElementById("chart-severidade");
+  if (!canvas) return;
+
+  const ctx = canvas.getContext("2d");
   if (!ctx) return;
 
   const ordem = ["Baixo", "Médio", "Alto", "Severo", "Extremo"];
   const valoresMap = normalizarColecaoParaMapa(severidadeData);
 
-  const labels = ordem.filter((label) => (valoresMap[label] ?? 0) > 0 || ordem.length > 0);
+  const labels = ordem.filter((label) => (valoresMap[label] ?? 0) > 0);
   const valores = labels.map((label) => valoresMap[label] ?? 0);
 
-  destruirGraficoAnterior(ctx);
+  destruirGraficoAnterior(canvas);
 
   new Chart(ctx, {
     type: "bar",
@@ -345,7 +393,10 @@ function renderChartSeveridade(severidadeData) {
 }
 
 function renderChartEventos(eventosData) {
-  const ctx = document.getElementById("chart-eventos");
+  const canvas = document.getElementById("chart-eventos");
+  if (!canvas) return;
+
+  const ctx = canvas.getContext("2d");
   if (!ctx) return;
 
   const mapa = normalizarColecaoParaMapa(eventosData);
@@ -356,7 +407,7 @@ function renderChartEventos(eventosData) {
   const labels = entries.map(([k]) => k);
   const valores = entries.map(([, v]) => v);
 
-  destruirGraficoAnterior(ctx);
+  destruirGraficoAnterior(canvas);
 
   new Chart(ctx, {
     type: "doughnut",
@@ -390,14 +441,18 @@ function renderChartEventos(eventosData) {
 }
 
 function renderChartVigencia(vigenciaData) {
-  const ctx = document.getElementById("chart-vigencia");
+  const canvas = document.getElementById("chart-vigencia");
+  if (!canvas) return;
+
+  const ctx = canvas.getContext("2d");
   if (!ctx) return;
 
-  const vigentes = Number(vigenciaData.vigentes ?? 0);
-  const expirados = Number(vigenciaData.expirados ?? 0);
-  const futuros = Number(vigenciaData.futuros ?? 0);
+  const mapa = normalizarColecaoParaMapa(vigenciaData);
+  const vigentes = Number(mapa.vigente ?? mapa.Vigente ?? mapa.vigentes ?? 0);
+  const expirados = Number(mapa.expirado ?? mapa.Expirado ?? mapa.expirados ?? 0);
+  const futuros = Number(mapa.futuro ?? mapa.Futuro ?? mapa.futuros ?? 0);
 
-  destruirGraficoAnterior(ctx);
+  destruirGraficoAnterior(canvas);
 
   new Chart(ctx, {
     type: "doughnut",
@@ -570,8 +625,8 @@ function obterDataAlerta(alerta) {
 
 function montarLocal(alerta) {
   const municipio = alerta.municipio || alerta.cidade || "";
-  const uf = alerta.uf || alerta.estado || extrairUF(alerta.areaDesc || alerta.local || "") || "";
-  const areaDesc = alerta.areaDesc || alerta.local || "";
+  const uf = alerta.uf || alerta.estado || extrairUF(alerta.areaDesc || alerta.local || alerta.location || "") || "";
+  const areaDesc = alerta.areaDesc || alerta.local || alerta.location || "";
 
   if (municipio && uf) return `${municipio}/${uf}`.toUpperCase();
   if (municipio) return municipio.toUpperCase();
@@ -600,7 +655,17 @@ function normalizarColecaoParaMapa(origem) {
   if (Array.isArray(origem)) {
     const mapa = {};
     origem.forEach((item) => {
-      const chave = item.label || item.nome || item.evento || item.nivel || item.uf || item.key || "Sem nome";
+      const chave =
+        item.label ||
+        item.nome ||
+        item.name ||
+        item.evento ||
+        item.nivel ||
+        item.uf ||
+        item.key ||
+        item.status ||
+        "Sem nome";
+
       const valor = Number(item.valor ?? item.total ?? item.count ?? 0);
       mapa[chave] = valor;
     });
@@ -624,6 +689,7 @@ function contarUFs(origem) {
 }
 
 function destruirGraficoAnterior(canvasEl) {
+  if (!canvasEl) return;
   const chart = Chart.getChart(canvasEl);
   if (chart) chart.destroy();
 }
