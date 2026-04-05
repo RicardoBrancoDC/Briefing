@@ -40,7 +40,7 @@ jobs:
 
       - name: Criar pastas necessárias
         run: |
-          mkdir -p .cache out site/imagens
+          mkdir -p .cache out site/imagens site/data site/assets
           [ -f .cache/state.json ] || echo "{}" > .cache/state.json
           [ -f .cache/historico_alertas.json ] || echo "[]" > .cache/historico_alertas.json
 
@@ -123,10 +123,21 @@ jobs:
               json.dump(dados, f, ensure_ascii=False, indent=2)
           PY
 
+      - name: Gerar dados do novo dashboard
+        env:
+          OUT_DIR: "out"
+          SITE_DIR: "site"
+          UF_GEOJSON_PATH: "resources/br_uf.geojson"
+          DASHBOARD_GEOJSON_TARGET: "site/data/br_uf.geojson"
+        run: |
+          python scripts/build_dashboard_data.py
+
       - name: Validar arquivos mínimos do site
         run: |
           test -f site/index.html
           test -f site/ultima_atualizacao.json
+          test -f site/dashboard.html
+          test -f site/dashboard_data.json
 
       - name: Mostrar estrutura final do site
         run: |
@@ -142,6 +153,7 @@ jobs:
             out/
             .cache/state.json
             .cache/historico_alertas.json
+            site/dashboard_data.json
           if-no-files-found: warn
           retention-days: 7
 
