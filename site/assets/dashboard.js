@@ -354,10 +354,6 @@ async function renderMapaUF(data) {
       if (uf) ufMap.set(uf, valor);
     });
 
-    console.log("UF distribution do dashboard:", listaUF);
-    console.log("Primeira feature do geojson:", geojson.features?.[0]);
-    console.log("Properties da primeira feature:", geojson.features?.[0]?.properties);
-
     const svg = montarSvgMapaBrasil(geojson, ufMap);
     container.innerHTML = svg;
   } catch (error) {
@@ -368,7 +364,7 @@ async function renderMapaUF(data) {
       .map((item) => {
         const uf = item.uf || item.nome || item.label || "--";
         const valor = item.valor ?? item.total ?? item.count ?? 0;
-        return `<strong>${esc(uf)}</strong>: ${numero(valor)}`;
+        return `<strong>${esc(uf)}</strong>: ${numero(valor)}</div>`;
       })
       .join(" &nbsp;&nbsp; ");
 
@@ -382,7 +378,6 @@ function montarSvgMapaBrasil(geojson, ufMap) {
   const padding = 20;
 
   const allPoints = [];
-
   for (const feature of geojson.features || []) {
     coletarPontosFeature(feature, allPoints);
   }
@@ -426,7 +421,7 @@ function montarSvgMapaBrasil(geojson, ufMap) {
   const labels = [];
 
   for (const feature of geojson.features || []) {
-    const uf = extrairSiglaUF(feature).toUpperCase();
+    const uf = extrairSiglaUF(feature);
     const valor = ufMap.get(uf) || 0;
     const fill = corMapa(valor, maxValor);
     const pathD = geometryToPath(feature.geometry, project);
@@ -448,7 +443,7 @@ function montarSvgMapaBrasil(geojson, ufMap) {
         stroke="#ffffff"
         stroke-width="1.2"
       >
-        <title>${esc(uf || "UF")} : ${numero(valor)} alerta(s)</title>
+        <title>${esc(uf || "UF")}: ${numero(valor)} alerta(s)</title>
       </path>
     `);
 
@@ -486,9 +481,37 @@ function montarSvgMapaBrasil(geojson, ufMap) {
         <rect x="0" y="0" width="${width}" height="${height}" fill="transparent"></rect>
         ${paths.join("\n")}
         ${labels.join("\n")}
+        ${montarLegendaMapa(width, height, maxValor)}
       </svg>
     </div>
   `;
+}
+
+function montarLegendaMapa(width, height, maxValor) {
+  const x = 28;
+  const y = height - 46;
+  const w = 42;
+  const h = 14;
+  const gap = 6;
+
+  const cores = ["#8ec5ff", "#4caf50", "#d2be45", "#f08c24", "#d9362c"];
+  const limites = [
+    "1+",
+    Math.max(1, Math.ceil(maxValor * 0.2)),
+    Math.max(1, Math.ceil(maxValor * 0.4)),
+    Math.max(1, Math.ceil(maxValor * 0.6)),
+    Math.max(1, Math.ceil(maxValor * 0.8))
+  ];
+
+  return cores.map((cor, i) => {
+    const lx = x + i * (w + gap);
+    return `
+      <rect x="${lx}" y="${y}" width="${w}" height="${h}" rx="4" ry="4" fill="${cor}"></rect>
+      <text x="${lx + w / 2}" y="${y + h + 14}" text-anchor="middle" font-size="11" font-weight="700" fill="#33415f">
+        ${limites[i]}
+      </text>
+    `;
+  }).join("\n");
 }
 
 function coletarPontosFeature(feature, bucket) {
@@ -568,6 +591,8 @@ function extrairSiglaUF(feature) {
   const p = feature?.properties || {};
 
   const candidatos = [
+    p.uf_05,
+    p.UF_05,
     p.sigla,
     p.SIGLA,
     p.uf,
