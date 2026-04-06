@@ -22,10 +22,16 @@ async function carregarDashboard() {
     preencherCabecalho(data);
     preencherCards(data);
     renderUltimosAlertas(data.ultimos_alertas || data.latest_alerts || []);
-    renderTop5Autoridades(data.top5_autoridades || data.top_emitters || []);
+    renderTopAutoridades(data.top5_autoridades || data.top_emitters || []);
     renderResumoOperacional(data);
-    renderTabelaAlertas(data.tabela_alertas || data.ultimos_alertas || data.latest_alerts || []);
-    renderMapaUF(data);
+    renderTabelaAlertas(
+      data.all_alerts ||
+      data.tabela_alertas ||
+      data.ultimos_alertas ||
+      data.latest_alerts ||
+      []
+    );
+    await renderMapaUF(data);
     renderGraficos(data);
   } catch (error) {
     console.error(error);
@@ -152,7 +158,7 @@ function renderUltimosAlertas(alertas) {
   });
 }
 
-function renderTop5Autoridades(items) {
+function renderTopAutoridades(items) {
   const container = document.getElementById("top5-autoridades");
   if (!container) return;
 
@@ -204,7 +210,13 @@ function renderResumoOperacional(data) {
   const autoridades = data.cards?.autoridades_ativas ?? data.cards?.autoridadesAtivas ?? 0;
   const extremos = data.cards?.extremos ?? data.cards?.alertasExtremos ?? data.summary?.by_nivel?.Extremo ?? 0;
 
-  const statusMap = normalizarColecaoParaMapa(data.vigencia || data.status_vigencia || data.status_distribution || {});
+  const statusMap = normalizarColecaoParaMapa(
+    data.vigencia ||
+    data.status_vigencia ||
+    data.status_distribution ||
+    {}
+  );
+
   const expirados = statusMap.expirado ?? statusMap.Expirado ?? 0;
   const futuros = statusMap.futuro ?? statusMap.Futuro ?? 0;
 
@@ -263,8 +275,8 @@ function renderTabelaAlertas(alertas) {
     return;
   }
 
-alertas.forEach((alerta) => {
-  const tr = document.createElement("tr");
+  alertas.forEach((alerta) => {
+    const tr = document.createElement("tr");
 
     const dataHora =
       alerta.date && alerta.time
@@ -303,7 +315,7 @@ alertas.forEach((alerta) => {
   });
 }
 
-function renderMapaUF(data) {
+async function renderMapaUF(data) {
   const container = document.getElementById("mapa-uf");
   if (!container) return;
 
@@ -322,7 +334,31 @@ function renderMapaUF(data) {
   }
 
   const listaUF = data.alertas_por_uf || data.ufs || data.uf_distribution || [];
-  if (Array.isArray(listaUF) && listaUF.length) {
+  if (!Array.isArray(listaUF) || !listaUF.length) {
+    container.innerHTML = `<div class="empty-state">Mapa por UF não disponível nesta execução.</div>`;
+    return;
+  }
+
+  try {
+    const geojsonResp = await fetch(`data/br_uf.geojson?_ts=${Date.now()}`, { cache: "no-store" });
+    if (!geojsonResp.ok) {
+      throw new Error(`Falha ao carregar GeoJSON: ${geojsonResp.status}`);
+    }
+
+    const geojson = await geojsonResp.json();
+    const ufMap = new Map();
+
+    listaUF.forEach((item) => {
+      const uf = String(item.uf || item.nome || item.label || "").trim().toUpperCase();
+      const valor = Number(item.valor ?? item.total ?? item.count ?? 0);
+      if (uf) ufMap.set(uf, valor);
+    });
+
+    const svg = montarSvgMapaBrasil(geojson, ufMap);
+    container.innerHTML = svg;
+  } catch (error) {
+    console.error("Erro ao renderizar mapa por UF:", error);
+
     const resumo = listaUF
       .slice(0, 10)
       .map((item) => {
@@ -333,10 +369,222 @@ function renderMapaUF(data) {
       .join(" &nbsp;&nbsp; ");
 
     container.innerHTML = `<div style="padding:24px; text-align:center;">${resumo}</div>`;
+  }
+}
+
+function montarSvgMapaBrasil(geojson, ufMap) {
+  const width = 980;
+  const height = 520;
+  const padding = 20;
+
+  const allPoints = [];
+
+  for (const feature of geojson.features || []) {
+    coletarPontosFeature(feature, allPoints);
+  }
+
+  if (!allPoints.length) {
+    return `<div class="empty-state">Não foi possível montar o mapa.</div>`;
+  }
+
+  let minX = Infinity;
+  let minY = Infinity;
+  let maxX = -Infinity;
+  let maxY = -Infinity;
+
+  allPoints.forEach(([lon, lat]) => {
+    if (lon < minX) minX = lon;
+    if (lon > maxX) maxX = lon;
+    if (lat < minY) minY = lat;
+    if (lat > maxY) maxY = lat;
+  });
+
+  const dataWidth = maxX - minX || 1;
+  const dataHeight = maxY - minY || 1;
+  const scale = Math.min(
+    (width - padding * 2) / dataWidth,
+    (height - padding * 2) / dataHeight
+  );
+
+  const offsetX = (width - dataWidth * scale) / 2;
+  const offsetY = (height - dataHeight * scale) / 2;
+
+  function project([lon, lat]) {
+    const x = offsetX + (lon - minX) * scale;
+    const y = height - (offsetY + (lat - minY) * scale);
+    return [x, y];
+  }
+
+  const valores = Array.from(ufMap.values());
+  const maxValor = Math.max(...valores, 0);
+
+  const paths = [];
+  const labels = [];
+
+  for (const feature of geojson.features || []) {
+    const uf = extrairSiglaUF(feature).toUpperCase();
+    const valor = ufMap.get(uf) || 0;
+    const fill = corMapa(valor, maxValor);
+    const pathD = geometryToPath(feature.geometry, project);
+
+    if (!pathD) continue;
+
+    const centroide = featureCentroid(feature.geometry);
+    let cx = null;
+    let cy = null;
+
+    if (centroide) {
+      [cx, cy] = project(centroide);
+    }
+
+    paths.push(`
+      <path
+        d="${pathD}"
+        fill="${fill}"
+        stroke="#ffffff"
+        stroke-width="1.2"
+      >
+        <title>${esc(uf)}: ${numero(valor)} alerta(s)</title>
+      </path>
+    `);
+
+    if (cx !== null && cy !== null && valor > 0) {
+      labels.push(`
+        <text
+          x="${cx}"
+          y="${cy}"
+          text-anchor="middle"
+          dominant-baseline="middle"
+          font-size="16"
+          font-weight="800"
+          fill="#1f2a44"
+        >
+          ${esc(uf)}
+        </text>
+        <text
+          x="${cx}"
+          y="${cy + 18}"
+          text-anchor="middle"
+          dominant-baseline="middle"
+          font-size="14"
+          font-weight="700"
+          fill="#1f2a44"
+        >
+          ${esc(String(valor))}
+        </text>
+      `);
+    }
+  }
+
+  return `
+    <div style="width:100%; overflow:hidden;">
+      <svg viewBox="0 0 ${width} ${height}" style="width:100%; height:auto; display:block;">
+        <rect x="0" y="0" width="${width}" height="${height}" fill="transparent"></rect>
+        ${paths.join("\n")}
+        ${labels.join("\n")}
+      </svg>
+    </div>
+  `;
+}
+
+function coletarPontosFeature(feature, bucket) {
+  if (!feature || !feature.geometry) return;
+  coletarPontosGeometry(feature.geometry, bucket);
+}
+
+function coletarPontosGeometry(geometry, bucket) {
+  if (!geometry) return;
+
+  if (geometry.type === "Polygon") {
+    geometry.coordinates.forEach((ring) => {
+      ring.forEach((point) => bucket.push(point));
+    });
     return;
   }
 
-  container.innerHTML = `<div class="empty-state">Mapa por UF não disponível nesta execução.</div>`;
+  if (geometry.type === "MultiPolygon") {
+    geometry.coordinates.forEach((polygon) => {
+      polygon.forEach((ring) => {
+        ring.forEach((point) => bucket.push(point));
+      });
+    });
+  }
+}
+
+function geometryToPath(geometry, project) {
+  if (!geometry) return "";
+
+  if (geometry.type === "Polygon") {
+    return polygonToPath(geometry.coordinates, project);
+  }
+
+  if (geometry.type === "MultiPolygon") {
+    return geometry.coordinates
+      .map((polygon) => polygonToPath(polygon, project))
+      .join(" ");
+  }
+
+  return "";
+}
+
+function polygonToPath(polygonCoords, project) {
+  return polygonCoords
+    .map((ring) => {
+      if (!ring.length) return "";
+      const [x0, y0] = project(ring[0]);
+      const rest = ring
+        .slice(1)
+        .map((pt) => {
+          const [x, y] = project(pt);
+          return `L ${x.toFixed(2)} ${y.toFixed(2)}`;
+        })
+        .join(" ");
+      return `M ${x0.toFixed(2)} ${y0.toFixed(2)} ${rest} Z`;
+    })
+    .join(" ");
+}
+
+function featureCentroid(geometry) {
+  const points = [];
+  coletarPontosGeometry(geometry, points);
+  if (!points.length) return null;
+
+  let sumX = 0;
+  let sumY = 0;
+
+  points.forEach(([x, y]) => {
+    sumX += x;
+    sumY += y;
+  });
+
+  return [sumX / points.length, sumY / points.length];
+}
+
+function extrairSiglaUF(feature) {
+  const props = feature?.properties || {};
+  return (
+    props.sigla ||
+    props.SIGLA ||
+    props.uf ||
+    props.UF ||
+    props.id ||
+    props.ID ||
+    props.nome ||
+    props.NOME ||
+    ""
+  );
+}
+
+function corMapa(valor, maxValor) {
+  if (!valor || maxValor <= 0) return "#dfe5ef";
+
+  const ratio = valor / maxValor;
+
+  if (ratio >= 0.8) return "#d9362c";
+  if (ratio >= 0.6) return "#f08c24";
+  if (ratio >= 0.4) return "#d2be45";
+  if (ratio >= 0.2) return "#4caf50";
+  return "#8ec5ff";
 }
 
 function renderGraficos(data) {
