@@ -166,7 +166,7 @@ function renderTop5Autoridades(items) {
   const cores = ["top5-blue", "top5-green", "top5-orange", "top5-red", "top5-purple"];
   const maxValor = Math.max(...items.map((item) => Number(item.valor ?? item.total ?? item.count ?? 0)), 1);
 
-  items.slice(0, 5).forEach((item, index) => {
+  items.slice(0, 10).forEach((item, index) => {
     const nome =
       item.nome ||
       item.name ||
