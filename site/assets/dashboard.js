@@ -539,19 +539,30 @@ function renderChartSeveridade(severidadeData) {
   if (!ctx) return;
 
   const ordem = ["Baixo", "Médio", "Alto", "Severo", "Extremo"];
-  const valoresMap = normalizarColecaoParaMapa(severidadeData);
-  const labels = ordem.filter((label) => (valoresMap[label] ?? 0) > 0);
-  const valores = labels.map((label) => valoresMap[label] ?? 0);
+
+  const mapa = normalizarColecaoParaMapa(severidadeData);
+
+  const valores = ordem.map((nivel) => Number(
+    mapa[nivel] ??
+    mapa[nivel.toLowerCase()] ??
+    0
+  ));
 
   destruirGraficoAnterior(canvas);
 
   new Chart(ctx, {
     type: "bar",
     data: {
-      labels,
+      labels: ordem,
       datasets: [{
         data: valores,
-        backgroundColor: ["#4caf50", "#d2be45", "#f08c24", "#db3d34", "#6a43d9"],
+        backgroundColor: [
+          "#4caf50",  // Baixo
+          "#d2be45",  // Médio
+          "#f08c24",  // Alto
+          "#db3d34",  // Severo
+          "#6a43d9"   // Extremo
+        ],
         borderRadius: 8
       }]
     },
@@ -559,16 +570,25 @@ function renderChartSeveridade(severidadeData) {
       responsive: true,
       maintainAspectRatio: false,
       animation: false,
-      plugins: { legend: { display: false } },
+      plugins: {
+        legend: { display: false }
+      },
       scales: {
         x: {
-          ticks: { color: "#33415f", font: { weight: "700" } },
+          ticks: {
+            color: "#33415f",
+            font: { weight: "700" }
+          },
           grid: { display: false }
         },
         y: {
           beginAtZero: true,
-          ticks: { color: "#667085" },
-          grid: { color: "rgba(102, 112, 133, 0.16)" }
+          ticks: {
+            color: "#667085"
+          },
+          grid: {
+            color: "rgba(102,112,133,0.16)"
+          }
         }
       }
     }
