@@ -46,8 +46,7 @@
 
         <section class="panel-card recent-panel">
           <div class="panel-head compact">
-            <h2>Últimos 5 Alertas</h2>
-            <p>Resumo mais recente</p>
+            <h2>Últimos Alertas</h2>
           </div>
           <div id="ultimos-alertas" class="recent-list"></div>
         </section>
@@ -57,15 +56,13 @@
         <section class="panel-card map-panel">
           <div class="panel-head">
             <h2>Alertas por UF</h2>
-            <p>Distribuição espacial por unidade federativa</p>
           </div>
           <div id="mapa-uf" class="map-holder"></div>
         </section>
 
         <section class="panel-card severity-panel">
           <div class="panel-head">
-            <h2>Alertas por Severidade</h2>
-            <p>Distribuição por nível calculado</p>
+            <h2>Alertas por Nível</h2>
           </div>
           <div class="chart-holder">
             <canvas id="chart-severidade"></canvas>
@@ -76,8 +73,7 @@
       <aside class="right-column">
         <section class="panel-card top-panel">
           <div class="panel-head compact">
-            <h2>Top 10 Autoridades Emissoras</h2>
-            <p>Ranking de emissão nas últimas 24h</p>
+            <h2>Top Autoridades Emissoras</h2>
           </div>
           <div id="top5-autoridades" class="top-list"></div>
         </section>
@@ -85,7 +81,6 @@
         <section class="panel-card event-panel">
           <div class="panel-head compact">
             <h2>Alertas por Tipo de Evento</h2>
-            <p>Distribuição consolidada por evento</p>
           </div>
           <div class="chart-holder donut-holder">
             <canvas id="chart-eventos"></canvas>
@@ -95,7 +90,6 @@
         <section class="panel-card status-panel">
           <div class="panel-head compact">
             <h2>Status de Vigência</h2>
-            <p>Vigentes, futuros e expirados</p>
           </div>
           <div class="chart-holder donut-holder small-donut">
             <canvas id="chart-vigencia"></canvas>
@@ -106,7 +100,7 @@
 
     <footer class="footer-bar">
       <div class="footer-left">
-        <span class="footer-item">Fonte: CAP processado pelo workflow atual</span>
+        <span class="footer-item">Fonte: IDAP - CISDA/CGMA/DPS/SEDEC</span>
         <span class="footer-item">Execução: <strong id="meta-execucao">--</strong></span>
       </div>
       <div class="footer-right">
