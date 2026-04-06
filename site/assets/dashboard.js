@@ -36,7 +36,7 @@ async function carregarDashboard() {
     await renderMapaUF(data);
     renderGraficos(data);
   } catch (error) {
-    console.error(error);
+    console.error("Erro geral do dashboard:", error);
     renderErroGeral(error);
   } finally {
     dashboardCarregando = false;
@@ -197,6 +197,61 @@ function renderTopAutoridades(items) {
     `;
 
     container.appendChild(div);
+  });
+}
+
+function renderTabelaAlertas(alertas) {
+  const tbody = document.getElementById("tabela-alertas-body");
+  if (!tbody) return;
+
+  tbody.innerHTML = "";
+
+  if (!alertas.length) {
+    tbody.innerHTML = `
+      <tr>
+        <td colspan="6" class="empty-state">Nenhum alerta disponível para a tabela.</td>
+      </tr>
+    `;
+    return;
+  }
+
+  alertas.forEach((alerta) => {
+    const tr = document.createElement("tr");
+
+    const dataHora =
+      alerta.date && alerta.time
+        ? `${alerta.date} ${alerta.time}`
+        : formatarDataHoraCurta(
+            alerta.data ||
+            alerta.onset ||
+            alerta.sent ||
+            alerta.inicio ||
+            alerta.timestamp
+          );
+
+    const emissor = alerta.emissor || alerta.senderName || alerta.sender || "-";
+    const evento = alerta.evento || alerta.event || "-";
+    const severidade = normalizarNivel(
+      alerta.nivel ||
+      alerta.nivel_calculado ||
+      alerta.severidade_label ||
+      alerta.severity_label ||
+      alerta.severity ||
+      "-"
+    );
+    const uf = alerta.uf || alerta.estado || extrairUF(alerta.areaDesc || alerta.local || alerta.location || "") || "-";
+    const municipio = alerta.municipio || alerta.cidade || extrairMunicipio(alerta.areaDesc || alerta.local || alerta.location || "") || "-";
+
+    tr.innerHTML = `
+      <td>${esc(dataHora)}</td>
+      <td title="${escAttr(emissor)}">${esc(emissor)}</td>
+      <td title="${escAttr(evento)}">${esc(evento)}</td>
+      <td>${esc(severidade)}</td>
+      <td>${esc(uf)}</td>
+      <td title="${escAttr(municipio)}">${esc(municipio)}</td>
+    `;
+
+    tbody.appendChild(tr);
   });
 }
 
