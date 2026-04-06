@@ -1,0 +1,51 @@
+name: Deploy Site Only
+
+on:
+  workflow_dispatch: {}
+  push:
+    paths:
+      - 'site/**'
+      - '.github/workflows/deploy_site_only.yml'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-site-only
+  cancel-in-progress: true
+
+jobs:
+  deploy-site:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Validar arquivos mínimos do site
+        run: |
+          test -f site/dashboard.html
+          test -f site/assets/dashboard.css
+          test -f site/assets/dashboard.js
+          test -f site/dashboard_data.json || echo "Aviso: dashboard_data.json não encontrado"
+          test -f site/data/br_uf.geojson || echo "Aviso: br_uf.geojson não encontrado"
+
+      - name: Mostrar estrutura do site
+        run: |
+          echo "Conteúdo da pasta site:"
+          find site -maxdepth 4 -type f | sort
+
+      - name: Upload do artifact do Pages
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./site
+
+      - name: Deploy no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
