@@ -347,25 +347,31 @@ function featureCentroid(geometry) {
 }
 
 function extrairSiglaUF(feature) {
-  const props = feature?.properties || {};
+  const p = feature?.properties || {};
+
   const candidatos = [
-    props.sigla,
-    props.SIGLA,
-    props.uf,
-    props.UF,
-    props.id,
-    props.ID,
-    props.sigla_uf,
-    props.SIGLA_UF,
-    props.estado,
-    props.ESTADO
+    p.sigla,
+    p.SIGLA,
+    p.uf,
+    p.UF,
+    p.id,
+    p.ID,
+    p.sigla_uf,
+    p.SIGLA_UF,
+    p.estado,
+    p.ESTADO,
+    p.cd_uf,
+    p.CD_UF
   ];
+
   for (const c of candidatos) {
-    if (c && String(c).length === 2) return String(c).toUpperCase();
+    if (c && String(c).trim().length === 2) {
+      return String(c).trim().toUpperCase();
+    }
   }
+
   return "";
 }
-
 function corMapa(valor, maxValor) {
   if (!valor || maxValor <= 0) return "#dfe5ef";
   const ratio = valor / maxValor;
