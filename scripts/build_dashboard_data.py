@@ -7,11 +7,14 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
+from zoneinfo import ZoneInfo
 
 DEFAULT_OUT_DIR = 'out'
 DEFAULT_SITE_DIR = 'site'
 DEFAULT_GEOJSON_SOURCE = 'resources/br_uf.geojson'
 DEFAULT_GEOJSON_TARGET = 'site/data/br_uf.geojson'
+
+TZ_BRASILIA = ZoneInfo("America/Sao_Paulo")
 
 NIVEL_ORDER = ['Baixo', 'Médio', 'Alto', 'Severo', 'Extremo', 'Indefinido']
 STATUS_ORDER = ['vigente', 'futuro', 'expirado', 'sem_validade']
@@ -29,7 +32,7 @@ def parse_iso(value: Optional[str]) -> Optional[datetime]:
         dt = datetime.fromisoformat(txt)
         if dt.tzinfo is None:
             dt = dt.replace(tzinfo=timezone.utc)
-        return dt.astimezone()
+        return dt.astimezone(TZ_BRASILIA)
     except Exception:
         return None
 
@@ -98,7 +101,7 @@ def build_dashboard_data(out_dir: Path, site_dir: Path) -> Dict[str, Any]:
         alerts = load_json(run_dir / 'alerts_24h.json', [])
         summary = load_json(run_dir / 'resumo.json', {})
 
-    now_dt = datetime.now().astimezone()
+    now_dt = datetime.now(TZ_BRASILIA)
 
     enriched: List[Dict[str, Any]] = []
     for alert in alerts:
@@ -128,7 +131,8 @@ def build_dashboard_data(out_dir: Path, site_dir: Path) -> Dict[str, Any]:
             'expires_dt': expires_dt,
         })
 
-    enriched.sort(key=lambda a: a['onset_dt'] or datetime.min.astimezone(), reverse=True)
+    default_dt = datetime.min.replace(tzinfo=TZ_BRASILIA)
+    enriched.sort(key=lambda a: a['onset_dt'] or default_dt, reverse=True)
 
     latest5 = []
     for item in enriched[:5]:
