@@ -114,10 +114,13 @@ def build_dashboard_data(out_dir: Path, site_dir: Path) -> Dict[str, Any]:
             'event_short': short_event(alert.get('event')),
             'nivel': alert.get('nivel') or 'Indefinido',
             'headline': (alert.get('headline') or '').strip(),
+            'description': (alert.get('description') or '').strip(),
+            'areaDesc': (alert.get('areaDesc') or '').strip(),
             'uf': alert.get('uf_hint') or '',
             'region': alert.get('region') or '',
             'location': derive_location(alert),
             'onset': alert.get('onset'),
+            'sent': alert.get('sent'),
             'expires': alert.get('expires'),
             'channel_list': alert.get('channel_list') or '',
             'status_vigencia': status,
@@ -139,7 +142,7 @@ def build_dashboard_data(out_dir: Path, site_dir: Path) -> Dict[str, Any]:
             'nivel': item['nivel'],
             'location': item['location'],
             'uf': item['uf'],
-            'headline': item['headline'],
+            'headline': item['headline'] or item['description'],
             'status': item['status_vigencia'],
         })
 
@@ -150,11 +153,15 @@ def build_dashboard_data(out_dir: Path, site_dir: Path) -> Dict[str, Any]:
             'short_name': short_emitter(name),
             'count': count,
         }
-        for name, count in counter_emitters.most_common(5)
+        for name, count in counter_emitters.most_common(10)
     ]
 
     counter_levels = Counter(item['nivel'] for item in enriched)
-    levels = [{'label': level, 'count': counter_levels.get(level, 0)} for level in NIVEL_ORDER if counter_levels.get(level, 0) > 0 or level != 'Indefinido']
+    levels = [
+        {'label': level, 'count': counter_levels.get(level, 0)}
+        for level in NIVEL_ORDER
+        if counter_levels.get(level, 0) > 0
+    ]
 
     counter_events = Counter(item['event_short'] for item in enriched)
     top_events = counter_events.most_common(6)
@@ -167,7 +174,28 @@ def build_dashboard_data(out_dir: Path, site_dir: Path) -> Dict[str, Any]:
     by_uf = [{'uf': uf, 'count': count} for uf, count in counter_uf.most_common()]
 
     counter_status = Counter(item['status_vigencia'] for item in enriched)
-    status_distribution = [{'label': label, 'count': counter_status.get(label, 0)} for label in STATUS_ORDER if counter_status.get(label, 0) > 0]
+    status_distribution = [
+        {'label': label, 'count': counter_status.get(label, 0)}
+        for label in STATUS_ORDER
+        if counter_status.get(label, 0) > 0
+    ]
+
+    all_alerts = []
+    for item in enriched:
+        onset_dt = item['onset_dt']
+        all_alerts.append({
+            'date': onset_dt.strftime('%d/%m/%Y') if onset_dt else '--/--/----',
+            'time': onset_dt.strftime('%H:%M') if onset_dt else '--:--',
+            'senderName': item['senderName'],
+            'event': item['event_short'],
+            'nivel': item['nivel'],
+            'uf': item['uf'],
+            'location': item['location'],
+            'headline': item['headline'] or item['description'],
+            'status': item['status_vigencia'],
+            'onset': item['onset'],
+            'expires': item['expires'],
+        })
 
     cards = {
         'vigentes': counter_status.get('vigente', 0),
@@ -188,6 +216,7 @@ def build_dashboard_data(out_dir: Path, site_dir: Path) -> Dict[str, Any]:
         'event_distribution': event_distribution,
         'uf_distribution': by_uf,
         'status_distribution': status_distribution,
+        'all_alerts': all_alerts,
         'summary': summary,
     }
 
@@ -207,7 +236,10 @@ def main() -> None:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
     if geojson_source.exists():
-        geojson_target.write_text(geojson_source.read_text(encoding='utf-8'), encoding='utf-8')
+        geojson_target.write_text(
+            geojson_source.read_text(encoding='utf-8'),
+            encoding='utf-8'
+        )
 
     print('[INFO] dashboard_data.json gerado com sucesso')
     print(f"[INFO] arquivo: {site_dir / 'dashboard_data.json'}")
