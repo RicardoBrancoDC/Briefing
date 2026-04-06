@@ -263,8 +263,8 @@ function renderTabelaAlertas(alertas) {
     return;
   }
 
-  alertas.slice(0, 20).forEach((alerta) => {
-    const tr = document.createElement("tr");
+alertas.forEach((alerta) => {
+  const tr = document.createElement("tr");
 
     const dataHora =
       alerta.date && alerta.time
