@@ -28,13 +28,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
       - name: Validar arquivos mínimos do site
         run: |
           test -f site/dashboard.html
           test -f site/assets/dashboard.css
           test -f site/assets/dashboard.js
-          test -f site/dashboard_data.json || echo "Aviso: dashboard_data.json não encontrado"
-          test -f site/data/br_uf.geojson || echo "Aviso: br_uf.geojson não encontrado"
+          test -f site/dashboard_data.json
+          test -f site/data/br_uf.geojson
 
       - name: Mostrar estrutura do site
         run: |
