@@ -1,6 +1,8 @@
-const AUTO_REFRESH_MS = 300000; // 5 minutos
+const AUTO_REFRESH_MS = 300000;
 let dashboardCarregando = false;
 let dashboardUltimaLeitura = null;
+let refreshSecondsRemaining = Math.floor(AUTO_REFRESH_MS / 1000);
+let refreshIntervalId = null;
 
 async function carregarDashboard() {
   if (dashboardCarregando) return;
@@ -18,12 +20,12 @@ async function carregarDashboard() {
 
     const data = await response.json();
     dashboardUltimaLeitura = new Date();
+    resetRefreshCountdown();
 
     preencherCabecalho(data);
     preencherCards(data);
     renderUltimosAlertas(data.ultimos_alertas || data.latest_alerts || []);
     renderTopAutoridades(data.top5_autoridades || data.top_emitters || []);
-    renderResumoOperacional(data);
     renderTabelaAlertas(
       data.all_alerts ||
       data.tabela_alertas ||
@@ -61,8 +63,6 @@ function preencherCabecalho(data) {
     : "--/--/---- --:--:--";
 
   setText("meta-atualizado", `${atualizadoOrigem} | leitura: ${atualizadoLeitura}`);
-  setText("meta-base", data.base || "últimas 24h");
-  setText("meta-fonte", data.fonte || "CAP processado pelo workflow atual");
   setText("meta-execucao", data.execucao || data.run_id || data.source_run_dir || "--");
 }
 
@@ -110,7 +110,7 @@ function renderUltimosAlertas(alertas) {
 
   alertas.slice(0, 5).forEach((alerta) => {
     const item = document.createElement("div");
-    item.className = "alert-item";
+    item.className = "recent-item";
 
     const hora = alerta.time || obterHoraAlerta(alerta);
     const dataAlerta = alerta.date || obterDataAlerta(alerta);
@@ -123,7 +123,7 @@ function renderUltimosAlertas(alertas) {
       alerta.description ||
       alerta.headline ||
       "Sem descrição disponível.",
-      150
+      120
     );
     const nivel = normalizarNivel(
       alerta.nivel ||
@@ -134,24 +134,22 @@ function renderUltimosAlertas(alertas) {
     );
 
     item.innerHTML = `
-      <div class="alert-time">
-        <div class="alert-time-hour">${esc(hora)}</div>
-        <div class="alert-time-date">${esc(dataAlerta)}</div>
+      <div class="recent-time">
+        <div class="recent-time-hour">${esc(hora)}</div>
+        <div class="recent-time-date">${esc(dataAlerta)}</div>
       </div>
 
-      <div class="alert-emissor">
-        <div class="alert-emissor-name" title="${escAttr(emissor)}">${esc(emissor)}</div>
-        <div class="alert-emissor-loc">${esc(local)}</div>
+      <div class="recent-emissor">
+        <div class="recent-emissor-name" title="${escAttr(emissor)}">${esc(emissor)}</div>
+        <div class="recent-emissor-loc">${esc(local)}</div>
       </div>
 
-      <div class="alert-desc">
-        <div class="alert-desc-evento">${esc(evento)}</div>
-        <div class="alert-desc-texto">${esc(descricao)}</div>
+      <div class="recent-content">
+        <div class="recent-evento">${esc(evento)}</div>
+        <div class="recent-desc">${esc(descricao)}</div>
       </div>
 
-      <div class="alert-tag-wrap">
-        <span class="alert-tag ${classeNivel(nivel)}">${esc(nivel)}</span>
-      </div>
+      <div class="recent-tag ${classeNivel(nivel)}">${esc(nivel)}</div>
     `;
 
     container.appendChild(item);
@@ -169,11 +167,12 @@ function renderTopAutoridades(items) {
     return;
   }
 
-  const cores = ["top5-blue", "top5-green", "top5-orange", "top5-red", "top5-purple"];
+  const cores = ["top-blue", "top-green", "top-orange", "top-red", "top-purple"];
   const maxValor = Math.max(...items.map((item) => Number(item.valor ?? item.total ?? item.count ?? 0)), 1);
 
   items.slice(0, 10).forEach((item, index) => {
     const nome =
+      item.short_name ||
       item.nome ||
       item.name ||
       item.autoridade ||
@@ -185,15 +184,15 @@ function renderTopAutoridades(items) {
     const cor = cores[index % cores.length];
 
     const div = document.createElement("div");
-    div.className = "top5-item";
+    div.className = "top-item";
 
     div.innerHTML = `
-      <div class="top5-item-header">
-        <div class="top5-item-name" title="${escAttr(nome)}">${esc(nome)}</div>
-        <div class="top5-item-value">${numero(valor)}</div>
+      <div class="top-item-head">
+        <div class="top-item-name" title="${escAttr(nome)}">${esc(nome)}</div>
+        <div class="top-item-value">${numero(valor)}</div>
       </div>
-      <div class="top5-bar-track">
-        <div class="top5-bar-fill ${cor}" style="width: ${largura}%;"></div>
+      <div class="top-track">
+        <div class="top-fill ${cor}" style="width: ${largura}%;"></div>
       </div>
     `;
 
@@ -201,137 +200,9 @@ function renderTopAutoridades(items) {
   });
 }
 
-function renderResumoOperacional(data) {
-  const container = document.getElementById("resumo-operacional");
-  if (!container) return;
-
-  const vigentes = data.cards?.vigentes ?? 0;
-  const ultimas24h = data.cards?.ultimas_24h ?? data.cards?.ultimas24h ?? data.summary?.total_alerts ?? 0;
-  const autoridades = data.cards?.autoridades_ativas ?? data.cards?.autoridadesAtivas ?? 0;
-  const extremos = data.cards?.extremos ?? data.cards?.alertasExtremos ?? data.summary?.by_nivel?.Extremo ?? 0;
-
-  const statusMap = normalizarColecaoParaMapa(
-    data.vigencia ||
-    data.status_vigencia ||
-    data.status_distribution ||
-    {}
-  );
-
-  const expirados = statusMap.expirado ?? statusMap.Expirado ?? 0;
-  const futuros = statusMap.futuro ?? statusMap.Futuro ?? 0;
-
-  const ufs = contarUFs(data.alertas_por_uf || data.ufs || data.uf_distribution || []);
-
-  container.innerHTML = `
-    <div class="resumo-box">
-      <div class="resumo-box-label">Alertas vigentes</div>
-      <div class="resumo-box-value">${numero(vigentes)}</div>
-    </div>
-
-    <div class="resumo-box">
-      <div class="resumo-box-label">Alertas nas últimas 24h</div>
-      <div class="resumo-box-value">${numero(ultimas24h)}</div>
-    </div>
-
-    <div class="resumo-box">
-      <div class="resumo-box-label">Alertas expirados</div>
-      <div class="resumo-box-value">${numero(expirados)}</div>
-    </div>
-
-    <div class="resumo-box">
-      <div class="resumo-box-label">Alertas futuros</div>
-      <div class="resumo-box-value">${numero(futuros)}</div>
-    </div>
-
-    <div class="resumo-box">
-      <div class="resumo-box-label">UFs com alertas</div>
-      <div class="resumo-box-value">${numero(ufs)}</div>
-    </div>
-
-    <div class="resumo-box">
-      <div class="resumo-box-label">Autoridades ativas</div>
-      <div class="resumo-box-value">${numero(autoridades)}</div>
-    </div>
-
-    <div class="resumo-box">
-      <div class="resumo-box-label">Alertas extremos</div>
-      <div class="resumo-box-value">${numero(extremos)}</div>
-    </div>
-  `;
-}
-
-function renderTabelaAlertas(alertas) {
-  const tbody = document.getElementById("tabela-alertas-body");
-  if (!tbody) return;
-
-  tbody.innerHTML = "";
-
-  if (!alertas.length) {
-    tbody.innerHTML = `
-      <tr>
-        <td colspan="6" class="empty-state">Nenhum alerta disponível para a tabela.</td>
-      </tr>
-    `;
-    return;
-  }
-
-  alertas.forEach((alerta) => {
-    const tr = document.createElement("tr");
-
-    const dataHora =
-      alerta.date && alerta.time
-        ? `${alerta.date} ${alerta.time}`
-        : formatarDataHoraCurta(
-            alerta.data ||
-            alerta.onset ||
-            alerta.sent ||
-            alerta.inicio ||
-            alerta.timestamp
-          );
-
-    const emissor = alerta.emissor || alerta.senderName || alerta.sender || "-";
-    const evento = alerta.evento || alerta.event || "-";
-    const severidade = normalizarNivel(
-      alerta.nivel ||
-      alerta.nivel_calculado ||
-      alerta.severidade_label ||
-      alerta.severity_label ||
-      alerta.severity ||
-      "-"
-    );
-    const uf = alerta.uf || alerta.estado || extrairUF(alerta.areaDesc || alerta.local || alerta.location || "") || "-";
-    const municipio = alerta.municipio || alerta.cidade || extrairMunicipio(alerta.areaDesc || alerta.local || alerta.location || "") || "-";
-
-    tr.innerHTML = `
-      <td>${esc(dataHora)}</td>
-      <td title="${escAttr(emissor)}">${esc(emissor)}</td>
-      <td title="${escAttr(evento)}">${esc(evento)}</td>
-      <td>${esc(severidade)}</td>
-      <td>${esc(uf)}</td>
-      <td title="${escAttr(municipio)}">${esc(municipio)}</td>
-    `;
-
-    tbody.appendChild(tr);
-  });
-}
-
 async function renderMapaUF(data) {
   const container = document.getElementById("mapa-uf");
   if (!container) return;
-
-  const mapaImg = data.mapa_uf_png || data.mapa_png || data.imagem_mapa || null;
-
-  if (mapaImg) {
-    const mapaComCacheBuster = `${mapaImg}${mapaImg.includes("?") ? "&" : "?"}_ts=${Date.now()}`;
-    container.innerHTML = `
-      <img
-        src="${escAttr(mapaComCacheBuster)}"
-        alt="Mapa de alertas por UF"
-        style="max-width: 100%; width: 100%; height: auto; display: block; border-radius: 18px;"
-      />
-    `;
-    return;
-  }
 
   const listaUF = data.alertas_por_uf || data.ufs || data.uf_distribution || [];
   if (!Array.isArray(listaUF) || !listaUF.length) {
@@ -355,27 +226,29 @@ async function renderMapaUF(data) {
     });
 
     const svg = montarSvgMapaBrasil(geojson, ufMap);
-    container.innerHTML = svg;
+    container.innerHTML = `
+      <div class="map-inner">
+        <div class="map-svg-wrap">${svg}</div>
+      </div>
+    `;
   } catch (error) {
     console.error("Erro ao renderizar mapa por UF:", error);
-
     const resumo = listaUF
-      .slice(0, 10)
       .map((item) => {
         const uf = item.uf || item.nome || item.label || "--";
         const valor = item.valor ?? item.total ?? item.count ?? 0;
-        return `<strong>${esc(uf)}</strong>: ${numero(valor)}</div>`;
+        return `<strong>${esc(uf)}</strong>: ${numero(valor)}`;
       })
       .join(" &nbsp;&nbsp; ");
 
-    container.innerHTML = `<div style="padding:24px; text-align:center;">${resumo}</div>`;
+    container.innerHTML = `<div class="empty-state">${resumo}</div>`;
   }
 }
 
 function montarSvgMapaBrasil(geojson, ufMap) {
-  const width = 980;
-  const height = 520;
-  const padding = 20;
+  const width = 1200;
+  const height = 760;
+  const padding = 6;
 
   const allPoints = [];
   for (const feature of geojson.features || []) {
@@ -400,13 +273,14 @@ function montarSvgMapaBrasil(geojson, ufMap) {
 
   const dataWidth = maxX - minX || 1;
   const dataHeight = maxY - minY || 1;
-  const scale = Math.min(
-    (width - padding * 2) / dataWidth,
-    (height - padding * 2) / dataHeight
-  );
+  const drawWidth = width - padding * 2;
+  const drawHeight = height - padding * 2;
+  const scale = Math.min(drawWidth / dataWidth, drawHeight / dataHeight) * 1.42;
 
-  const offsetX = (width - dataWidth * scale) / 2;
-  const offsetY = (height - dataHeight * scale) / 2;
+  const projectedWidth = dataWidth * scale;
+  const projectedHeight = dataHeight * scale;
+  const offsetX = (width - projectedWidth) / 2;
+  const offsetY = (height - projectedHeight) / 2;
 
   function project([lon, lat]) {
     const x = offsetX + (lon - minX) * scale;
@@ -441,7 +315,7 @@ function montarSvgMapaBrasil(geojson, ufMap) {
         d="${pathD}"
         fill="${fill}"
         stroke="#ffffff"
-        stroke-width="1.2"
+        stroke-width="1.4"
       >
         <title>${esc(uf || "UF")}: ${numero(valor)} alerta(s)</title>
       </path>
@@ -451,10 +325,10 @@ function montarSvgMapaBrasil(geojson, ufMap) {
       labels.push(`
         <text
           x="${cx}"
-          y="${cy}"
+          y="${cy - 4}"
           text-anchor="middle"
           dominant-baseline="middle"
-          font-size="16"
+          font-size="24"
           font-weight="800"
           fill="#1f2a44"
         >
@@ -462,10 +336,10 @@ function montarSvgMapaBrasil(geojson, ufMap) {
         </text>
         <text
           x="${cx}"
-          y="${cy + 18}"
+          y="${cy + 21}"
           text-anchor="middle"
           dominant-baseline="middle"
-          font-size="14"
+          font-size="20"
           font-weight="700"
           fill="#1f2a44"
         >
@@ -476,42 +350,12 @@ function montarSvgMapaBrasil(geojson, ufMap) {
   }
 
   return `
-    <div style="width:100%; overflow:hidden;">
-      <svg viewBox="0 0 ${width} ${height}" style="width:100%; height:auto; display:block;">
-        <rect x="0" y="0" width="${width}" height="${height}" fill="transparent"></rect>
-        ${paths.join("\n")}
-        ${labels.join("\n")}
-        ${montarLegendaMapa(width, height, maxValor)}
-      </svg>
-    </div>
+    <svg viewBox="0 0 ${width} ${height}" style="width:100%; height:100%; display:block;">
+      <rect x="0" y="0" width="${width}" height="${height}" fill="transparent"></rect>
+      ${paths.join("\n")}
+      ${labels.join("\n")}
+    </svg>
   `;
-}
-
-function montarLegendaMapa(width, height, maxValor) {
-  const x = 28;
-  const y = height - 46;
-  const w = 42;
-  const h = 14;
-  const gap = 6;
-
-  const cores = ["#8ec5ff", "#4caf50", "#d2be45", "#f08c24", "#d9362c"];
-  const limites = [
-    "1+",
-    Math.max(1, Math.ceil(maxValor * 0.2)),
-    Math.max(1, Math.ceil(maxValor * 0.4)),
-    Math.max(1, Math.ceil(maxValor * 0.6)),
-    Math.max(1, Math.ceil(maxValor * 0.8))
-  ];
-
-  return cores.map((cor, i) => {
-    const lx = x + i * (w + gap);
-    return `
-      <rect x="${lx}" y="${y}" width="${w}" height="${h}" rx="4" ry="4" fill="${cor}"></rect>
-      <text x="${lx + w / 2}" y="${y + h + 14}" text-anchor="middle" font-size="11" font-weight="700" fill="#33415f">
-        ${limites[i]}
-      </text>
-    `;
-  }).join("\n");
 }
 
 function coletarPontosFeature(feature, bucket) {
@@ -589,7 +433,6 @@ function featureCentroid(geometry) {
 
 function extrairSiglaUF(feature) {
   const p = feature?.properties || {};
-
   const candidatos = [
     p.uf_05,
     p.UF_05,
@@ -620,7 +463,6 @@ function corMapa(valor, maxValor) {
   if (!valor || maxValor <= 0) return "#dfe5ef";
 
   const ratio = valor / maxValor;
-
   if (ratio >= 0.8) return "#d9362c";
   if (ratio >= 0.6) return "#f08c24";
   if (ratio >= 0.4) return "#d2be45";
@@ -643,7 +485,6 @@ function renderChartSeveridade(severidadeData) {
 
   const ordem = ["Baixo", "Médio", "Alto", "Severo", "Extremo"];
   const valoresMap = normalizarColecaoParaMapa(severidadeData);
-
   const labels = ordem.filter((label) => (valoresMap[label] ?? 0) > 0);
   const valores = labels.map((label) => valoresMap[label] ?? 0);
 
@@ -663,9 +504,7 @@ function renderChartSeveridade(severidadeData) {
       responsive: true,
       maintainAspectRatio: false,
       animation: false,
-      plugins: {
-        legend: { display: false }
-      },
+      plugins: { legend: { display: false } },
       scales: {
         x: {
           ticks: { color: "#33415f", font: { weight: "700" } },
@@ -780,7 +619,6 @@ function renderErroGeral(error) {
   const ids = [
     "ultimos-alertas",
     "top5-autoridades",
-    "resumo-operacional",
     "mapa-uf"
   ];
 
@@ -790,15 +628,6 @@ function renderErroGeral(error) {
       el.innerHTML = `<div class="empty-state">Não foi possível carregar os dados do painel.</div>`;
     }
   });
-
-  const tbody = document.getElementById("tabela-alertas-body");
-  if (tbody) {
-    tbody.innerHTML = `
-      <tr>
-        <td colspan="6" class="empty-state">Não foi possível carregar os dados da tabela.</td>
-      </tr>
-    `;
-  }
 }
 
 function setText(id, value) {
@@ -868,21 +697,6 @@ function formatarDataHora(iso) {
   });
 }
 
-function formatarDataHoraCurta(iso) {
-  if (!iso) return "-";
-  const d = new Date(iso);
-  if (Number.isNaN(d.getTime())) return String(iso);
-
-  return d.toLocaleString("pt-BR", {
-    timeZone: "America/Sao_Paulo",
-    day: "2-digit",
-    month: "2-digit",
-    year: "numeric",
-    hour: "2-digit",
-    minute: "2-digit"
-  });
-}
-
 function obterHoraAlerta(alerta) {
   const valor = alerta.data || alerta.onset || alerta.sent || alerta.inicio || alerta.timestamp;
   if (!valor) return "--:--";
@@ -909,6 +723,21 @@ function obterDataAlerta(alerta) {
     day: "2-digit",
     month: "2-digit",
     year: "numeric"
+  });
+}
+
+function formatarDataHoraCurta(iso) {
+  if (!iso) return "-";
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return String(iso);
+
+  return d.toLocaleString("pt-BR", {
+    timeZone: "America/Sao_Paulo",
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit"
   });
 }
 
@@ -983,8 +812,34 @@ function destruirGraficoAnterior(canvasEl) {
   if (chart) chart.destroy();
 }
 
+function resetRefreshCountdown() {
+  refreshSecondsRemaining = Math.floor(AUTO_REFRESH_MS / 1000);
+  atualizarTextoCountdown();
+}
+
+function atualizarTextoCountdown() {
+  const el = document.getElementById("refresh-countdown");
+  if (!el) return;
+  const min = String(Math.floor(refreshSecondsRemaining / 60)).padStart(2, "0");
+  const sec = String(refreshSecondsRemaining % 60).padStart(2, "0");
+  el.textContent = `${min}:${sec}`;
+}
+
+function iniciarTimerRefresh() {
+  if (refreshIntervalId) clearInterval(refreshIntervalId);
+  resetRefreshCountdown();
+  refreshIntervalId = setInterval(() => {
+    refreshSecondsRemaining -= 1;
+    if (refreshSecondsRemaining < 0) {
+      refreshSecondsRemaining = Math.floor(AUTO_REFRESH_MS / 1000);
+    }
+    atualizarTextoCountdown();
+  }, 1000);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   carregarDashboard();
+  iniciarTimerRefresh();
 
   setInterval(() => {
     carregarDashboard();
