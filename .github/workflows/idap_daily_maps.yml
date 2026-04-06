@@ -167,8 +167,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .cache/state.json .cache/historico_alertas.json site/dashboard_data.json site/data/br_uf.geojson site/ultima_atualizacao.json site/imagens/*.png
 
-git add .cache/state.json .cache/historico_alertas.json site/dashboard_data.json site/data/br_uf.geojson site/ultima_atualizacao.json site/imagens/*.png
           if git diff --cached --quiet; then
             echo "Nenhuma alteração para commit."
             exit 0
