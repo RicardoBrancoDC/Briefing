@@ -7,170 +7,148 @@
   <link rel="stylesheet" href="assets/dashboard.css" />
 </head>
 <body>
-  <header class="topbar">
-    <div class="topbar-inner">
-      <div class="topbar-title-wrap">
-        <h1 class="topbar-title">PAINEL <span>DE ALERTAS IDAP</span></h1>
-      </div>
-
-      <div class="topbar-meta">
-        <div class="meta-item">
-          <span class="meta-label">Atualizado em:</span>
-          <span id="meta-atualizado">--/--/---- --:--:--</span>
-        </div>
-        <div class="meta-item">
-          <span class="meta-label">Base:</span>
-          <span id="meta-base">últimas 24h</span>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <main class="page">
-    <section class="summary-grid">
-      <article class="summary-card summary-card-green">
-        <div class="summary-card-content">
-          <div class="summary-card-label">Alertas Vigentes</div>
-          <div id="card-vigentes" class="summary-card-value">0</div>
-        </div>
-      </article>
-
-      <article class="summary-card summary-card-blue">
-        <div class="summary-card-content">
-          <div class="summary-card-label">Últimas 24h</div>
-          <div id="card-24h" class="summary-card-value">0</div>
-        </div>
-      </article>
-
-      <article class="summary-card summary-card-orange">
-        <div class="summary-card-content">
-          <div class="summary-card-label">Autoridades Ativas</div>
-          <div id="card-autoridades" class="summary-card-value">0</div>
-        </div>
-      </article>
-
-      <article class="summary-card summary-card-purple">
-        <div class="summary-card-content">
-          <div class="summary-card-label">Alertas Extremos</div>
-          <div id="card-extremos" class="summary-card-value">0</div>
-        </div>
-      </article>
-    </section>
-
-    <section class="content-grid grid-2">
-      <article class="panel-card panel-card-alertas">
-        <div class="panel-card-header">
-          <h2>Últimos 5 Alertas</h2>
-          <p>Lista resumida dos alertas mais recentes</p>
-        </div>
-
-        <div id="ultimos-alertas" class="alert-list">
-          <!-- preenchido via JS -->
-        </div>
-      </article>
-
-      <article class="panel-card panel-card-top5">
-        <div class="panel-card-header">
-          <h2>Top 10 Autoridades Emissoras</h2>
-          <p>Ranking de emissão nas últimas 24h</p>
-        </div>
-
-        <div id="top5-autoridades" class="top5-list">
-          <!-- preenchido via JS -->
-        </div>
-      </article>
-    </section>
-
-    <section class="content-grid grid-2">
-      <article class="panel-card">
-        <div class="panel-card-header">
-          <h2>Alertas por Severidade</h2>
-          <p>Distribuição por nível calculado</p>
-        </div>
-
-        <div class="chart-wrap">
-          <canvas id="chart-severidade"></canvas>
-        </div>
-      </article>
-
-      <article class="panel-card">
-        <div class="panel-card-header">
-          <h2>Alertas por Tipo de Evento</h2>
-          <p>Distribuição consolidada por evento</p>
-        </div>
-
-        <div class="chart-wrap">
-          <canvas id="chart-eventos"></canvas>
-        </div>
-      </article>
-    </section>
-
-    <section class="content-grid">
-      <article class="panel-card">
-        <div class="panel-card-header">
-          <h2>Alertas por UF</h2>
-          <p>Distribuição espacial por unidade federativa</p>
-        </div>
-
-        <div class="map-wrap">
-          <div id="mapa-uf" class="mapa-uf">
-            <!-- mapa ou imagem preenchido via JS -->
+  <main class="screen-wrap">
+    <section class="screen-grid">
+      <aside class="left-column">
+        <div class="brand-panel panel-card">
+          <div class="brand-logo-wrap">
+            <img src="assets/idap-logo.png" alt="IDAP" class="brand-logo" onerror="this.style.display='none'; document.getElementById('brand-fallback').style.display='flex';" />
+            <div id="brand-fallback" class="brand-fallback" style="display:none;">IDAP</div>
           </div>
         </div>
-      </article>
+
+        <div class="left-cards-stack">
+          <article class="summary-card summary-card-blue compact-card">
+            <div class="summary-card-content">
+              <div class="summary-card-label">Últimas 24h</div>
+              <div id="card-24h" class="summary-card-value">0</div>
+            </div>
+          </article>
+
+          <article class="summary-card summary-card-green compact-card">
+            <div class="summary-card-content">
+              <div class="summary-card-label">Alertas Vigentes</div>
+              <div id="card-vigentes" class="summary-card-value">0</div>
+            </div>
+          </article>
+
+          <article class="summary-card summary-card-orange compact-card">
+            <div class="summary-card-content">
+              <div class="summary-card-label">Autoridades Ativas</div>
+              <div id="card-autoridades" class="summary-card-value">0</div>
+            </div>
+          </article>
+
+          <article class="summary-card summary-card-purple compact-card">
+            <div class="summary-card-content">
+              <div class="summary-card-label">Alertas Extremos</div>
+              <div id="card-extremos" class="summary-card-value">0</div>
+            </div>
+          </article>
+        </div>
+
+        <article class="panel-card recent-panel">
+          <div class="panel-card-header slim-header">
+            <h2>Últimos 5 Alertas</h2>
+            <p>Lista resumida dos alertas mais recentes</p>
+          </div>
+          <div id="ultimos-alertas" class="alert-list compact-alert-list"></div>
+        </article>
+      </aside>
+
+      <section class="center-column">
+        <header class="top-meta-bar panel-card">
+          <div class="top-meta-title">PAINEL DE ALERTAS IDAP</div>
+          <div class="top-meta-items">
+            <span><strong>Atualizado em:</strong> <span id="meta-atualizado">--/--/---- --:--:--</span></span>
+            <span><strong>Base:</strong> <span id="meta-base">últimas 24h</span></span>
+            <span><strong>Fonte:</strong> <span id="meta-fonte">CAP processado pelo workflow atual</span></span>
+            <span><strong>Execução:</strong> <span id="meta-execucao">--</span></span>
+          </div>
+        </header>
+
+        <article class="panel-card map-panel">
+          <div class="panel-card-header slim-header">
+            <h2>Alertas por UF</h2>
+            <p>Distribuição espacial por unidade federativa</p>
+          </div>
+          <div class="map-wrap widescreen-map-wrap">
+            <div id="mapa-uf" class="mapa-uf"></div>
+          </div>
+        </article>
+
+        <article class="panel-card severity-panel">
+          <div class="panel-card-header slim-header">
+            <h2>Alertas por Severidade</h2>
+            <p>Distribuição por nível calculado</p>
+          </div>
+          <div class="chart-wrap widescreen-chart-wrap">
+            <canvas id="chart-severidade"></canvas>
+          </div>
+        </article>
+      </section>
+
+      <aside class="right-column">
+        <article class="panel-card ranking-panel">
+          <div class="panel-card-header slim-header">
+            <h2>Top 10 Autoridades Emissoras</h2>
+            <p>Ranking de emissão nas últimas 24h</p>
+          </div>
+          <div id="top5-autoridades" class="top5-list top10-list"></div>
+        </article>
+
+        <article class="panel-card event-panel">
+          <div class="panel-card-header slim-header">
+            <h2>Alertas por Tipo de Evento</h2>
+            <p>Distribuição consolidada por evento</p>
+          </div>
+          <div class="chart-wrap donut-wrap">
+            <canvas id="chart-eventos"></canvas>
+          </div>
+        </article>
+
+        <article class="panel-card status-panel">
+          <div class="panel-card-header slim-header">
+            <h2>Status de Vigência</h2>
+            <p>Resumo dos alertas vigentes, expirados e futuros</p>
+          </div>
+          <div class="chart-wrap donut-wrap small-donut-wrap">
+            <canvas id="chart-vigencia"></canvas>
+          </div>
+        </article>
+      </aside>
     </section>
 
-    <section class="content-grid grid-2">
-      <article class="panel-card">
-        <div class="panel-card-header">
-          <h2>Status de Vigência</h2>
-          <p>Resumo dos alertas vigentes, expirados e futuros</p>
-        </div>
-
-        <div class="chart-wrap">
-          <canvas id="chart-vigencia"></canvas>
-        </div>
-      </article>
-
-      <article class="panel-card">
-        <div class="panel-card-header">
-          <h2>Resumo Operacional</h2>
-          <p>Indicadores complementares da execução</p>
-        </div>
-
-        <div id="resumo-operacional" class="resumo-operacional">
-          <!-- preenchido via JS -->
-        </div>
-      </article>
-    </section>
-
-    <section class="content-grid">
-      <article class="panel-card">
-        <div class="panel-card-header">
-          <h2>Tabela de Alertas</h2>
-          <p>Relação resumida dos alertas processados</p>
-        </div>
-
-        <div class="table-wrap">
-          <table class="alerts-table">
-            <thead>
-              <tr>
-                <th>Data</th>
-                <th>Emissor</th>
-                <th>Evento</th>
-                <th>Severidade</th>
-                <th>UF</th>
-                <th>Município</th>
-              </tr>
-            </thead>
-            <tbody id="tabela-alertas-body">
-              <!-- preenchido via JS -->
-            </tbody>
-          </table>
-        </div>
-      </article>
-    </section>
+    <footer class="bottom-status-bar panel-card">
+      <div class="bottom-status-left">Fontes: CAP / Defesa Civil</div>
+      <div class="bottom-status-center">Execução: <span id="meta-execucao-footer">--</span></div>
+      <div class="bottom-status-right">ÚLTIMA ATUALIZAÇÃO: <span id="meta-atualizado-footer">--/--/---- --:--:--</span></div>
+    </footer>
   </main>
+
+  <section class="table-page">
+    <article class="panel-card table-panel">
+      <div class="panel-card-header">
+        <h2>Tabela de Alertas</h2>
+        <p>Relação resumida dos alertas processados</p>
+      </div>
+      <div class="table-wrap table-wrap-tall">
+        <table class="alerts-table">
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>Emissor</th>
+              <th>Evento</th>
+              <th>Severidade</th>
+              <th>UF</th>
+              <th>Município</th>
+            </tr>
+          </thead>
+          <tbody id="tabela-alertas-body"></tbody>
+        </table>
+      </div>
+    </article>
+  </section>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="assets/dashboard.js"></script>
