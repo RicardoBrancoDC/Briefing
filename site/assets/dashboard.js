@@ -620,22 +620,33 @@ function renderChartEventos(eventosData) {
         data: valores,
         backgroundColor: ["#f08c24", "#db3d34", "#6a43d9", "#2382ea", "#4caf50", "#c8ccd6"],
         borderColor: "#f3f4f6",
-        borderWidth: 3
+        borderWidth: 3,
+        radius: "78%"
       }]
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
       animation: false,
-      cutout: "58%",
+      cutout: "62%",
+      layout: {
+        padding: {
+          top: 4,
+          bottom: 8,
+          left: 6,
+          right: 6
+        }
+      },
       plugins: {
         legend: {
           position: "bottom",
+          align: "center",
           labels: {
             color: "#33415f",
-            padding: 16,
-            boxWidth: 14,
-            font: { size: 12 }
+            padding: 10,
+            boxWidth: 10,
+            boxHeight: 10,
+            font: { size: 10 }
           }
         }
       }
@@ -665,22 +676,33 @@ function renderChartVigencia(vigenciaData) {
         data: [vigentes, expirados, futuros],
         backgroundColor: ["#2382ea", "#c8ccd6", "#6a43d9"],
         borderColor: "#f3f4f6",
-        borderWidth: 3
+        borderWidth: 3,
+        radius: "78%"
       }]
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
       animation: false,
-      cutout: "58%",
+      cutout: "62%",
+      layout: {
+        padding: {
+          top: 4,
+          bottom: 8,
+          left: 6,
+          right: 6
+        }
+      },
       plugins: {
         legend: {
           position: "bottom",
+          align: "center",
           labels: {
             color: "#33415f",
-            padding: 16,
-            boxWidth: 14,
-            font: { size: 12 }
+            padding: 10,
+            boxWidth: 10,
+            boxHeight: 10,
+            font: { size: 10 }
           }
         }
       }
