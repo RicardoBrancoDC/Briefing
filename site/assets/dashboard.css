@@ -409,3 +409,69 @@ body {
 .right-column .chart-holder canvas {
   flex: 1;
 }
+
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.viewport {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: var(--bg-navy);
+}
+
+.dashboard-stage {
+  width: 1920px;
+  height: 1080px;
+  transform-origin: top left;
+  will-change: transform;
+}
+
+.app-shell {
+  width: 1920px;
+  height: 1080px;
+  min-height: 1080px;
+  aspect-ratio: auto;
+}
+
+.event-panel .chart-holder,
+.status-panel .chart-holder {
+  padding: 10px 12px 18px;
+}
+
+.event-panel .donut-holder {
+  height: 300px;
+}
+
+.status-panel .small-donut {
+  height: 250px;
+}
+
+@media (max-width: 1280px) {
+  html, body {
+    overflow: auto;
+  }
+
+  .viewport {
+    display: block;
+    overflow: auto;
+  }
+
+  .dashboard-stage {
+    width: 100%;
+    height: auto;
+    transform: none !important;
+  }
+
+  .app-shell {
+    width: 100%;
+    height: auto;
+    min-height: auto;
+  }
+}

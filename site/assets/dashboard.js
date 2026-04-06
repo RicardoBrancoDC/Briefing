@@ -605,7 +605,7 @@ function renderChartEventos(eventosData) {
   const mapa = normalizarColecaoParaMapa(eventosData);
   const entries = Object.entries(mapa)
     .sort((a, b) => b[1] - a[1])
-    .slice(0, 3); // só os 3 principais
+    .slice(0, 3);
 
   const labels = entries.map(([k]) => k);
   const valores = entries.map(([, v]) => v);
@@ -618,21 +618,21 @@ function renderChartEventos(eventosData) {
       labels,
       datasets: [{
         data: valores,
-        backgroundColor: ["#f08c24", "#db3d34", "#6a43d9", "#2382ea", "#4caf50"],
+        backgroundColor: ["#f08c24", "#db3d34", "#6a43d9"],
         borderColor: "#f3f4f6",
         borderWidth: 3,
-        radius: "74%"
+        radius: "68%"
       }]
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
       animation: false,
-      cutout: "62%",
+      cutout: "60%",
       layout: {
         padding: {
           top: 4,
-          bottom: 14,
+          bottom: 18,
           left: 6,
           right: 6
         }
@@ -644,8 +644,8 @@ function renderChartEventos(eventosData) {
           labels: {
             color: "#33415f",
             padding: 8,
-            boxWidth: 10,
-            boxHeight: 10,
+            boxWidth: 9,
+            boxHeight: 9,
             font: { size: 10 }
           }
         }
@@ -933,7 +933,27 @@ function iniciarTimerRefresh() {
   }, 1000);
 }
 
+
+function ajustarEscalaDashboard() {
+  const stage = document.querySelector(".dashboard-stage");
+  if (!stage) return;
+
+  if (window.innerWidth <= 1280) {
+    stage.style.transform = "none";
+    return;
+  }
+
+  const baseWidth = 1920;
+  const baseHeight = 1080;
+  const scaleX = window.innerWidth / baseWidth;
+  const scaleY = window.innerHeight / baseHeight;
+  const scale = Math.min(scaleX, scaleY);
+
+  stage.style.transform = `scale(${scale})`;
+}
+
 document.addEventListener("DOMContentLoaded", () => {
+  ajustarEscalaDashboard();
   carregarDashboard();
   iniciarTimerRefresh();
 
@@ -941,3 +961,5 @@ document.addEventListener("DOMContentLoaded", () => {
     carregarDashboard();
   }, AUTO_REFRESH_MS);
 });
+
+window.addEventListener("resize", ajustarEscalaDashboard);
