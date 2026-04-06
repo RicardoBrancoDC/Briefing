@@ -605,7 +605,7 @@ function renderChartEventos(eventosData) {
   const mapa = normalizarColecaoParaMapa(eventosData);
   const entries = Object.entries(mapa)
     .sort((a, b) => b[1] - a[1])
-    .slice(0, 6);
+    .slice(0, 5); // só os 5 principais
 
   const labels = entries.map(([k]) => k);
   const valores = entries.map(([, v]) => v);
@@ -618,10 +618,10 @@ function renderChartEventos(eventosData) {
       labels,
       datasets: [{
         data: valores,
-        backgroundColor: ["#f08c24", "#db3d34", "#6a43d9", "#2382ea", "#4caf50", "#c8ccd6"],
+        backgroundColor: ["#f08c24", "#db3d34", "#6a43d9", "#2382ea", "#4caf50"],
         borderColor: "#f3f4f6",
         borderWidth: 3,
-        radius: "78%"
+        radius: "74%"
       }]
     },
     options: {
@@ -632,7 +632,7 @@ function renderChartEventos(eventosData) {
       layout: {
         padding: {
           top: 4,
-          bottom: 8,
+          bottom: 14,
           left: 6,
           right: 6
         }
@@ -643,7 +643,7 @@ function renderChartEventos(eventosData) {
           align: "center",
           labels: {
             color: "#33415f",
-            padding: 10,
+            padding: 8,
             boxWidth: 10,
             boxHeight: 10,
             font: { size: 10 }
@@ -653,7 +653,6 @@ function renderChartEventos(eventosData) {
     }
   });
 }
-
 function renderChartVigencia(vigenciaData) {
   const canvas = document.getElementById("chart-vigencia");
   if (!canvas) return;
