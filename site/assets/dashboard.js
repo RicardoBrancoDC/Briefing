@@ -605,7 +605,7 @@ function renderChartEventos(eventosData) {
   const mapa = normalizarColecaoParaMapa(eventosData);
   const entries = Object.entries(mapa)
     .sort((a, b) => b[1] - a[1])
-    .slice(0, 5); // só os 5 principais
+    .slice(0, 3); // só os 3 principais
 
   const labels = entries.map(([k]) => k);
   const valores = entries.map(([, v]) => v);
