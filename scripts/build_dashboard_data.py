@@ -56,12 +56,45 @@ def short_event(value: Optional[str]) -> str:
     return txt.title()
 
 
-def short_emitter(value: Optional[str], max_len: int = 32) -> str:
-    txt = (value or 'Emissor não informado').strip()
-    txt = txt.replace('Defesa Civil Estadual de ', 'DC Estadual de ')
-    txt = txt.replace('Defesa Civil de ', 'DC de ')
-    return txt if len(txt) <= max_len else txt[: max_len - 1].rstrip() + '…'
+import re
 
+def short_emitter(value: Optional[str], max_len: int = 32) -> str:
+    txt = (value or "Emissor não informado").strip()
+
+    # Estadual
+    m_est = re.match(r"^Defesa Civil Estadual de\s+(.+)$", txt, flags=re.IGNORECASE)
+    if m_est:
+        nome = m_est.group(1).strip()
+        padronizado = f"DC {nome}"
+        return padronizado if len(padronizado) <= max_len else padronizado[: max_len - 1].rstrip() + "…"
+
+    m_est2 = re.match(r"^Defesa Civil Estadual do\s+(.+)$", txt, flags=re.IGNORECASE)
+    if m_est2:
+        nome = m_est2.group(1).strip()
+        padronizado = f"DC {nome}"
+        return padronizado if len(padronizado) <= max_len else padronizado[: max_len - 1].rstrip() + "…"
+
+    m_est3 = re.match(r"^Defesa Civil Estadual da\s+(.+)$", txt, flags=re.IGNORECASE)
+    if m_est3:
+        nome = m_est3.group(1).strip()
+        padronizado = f"DC {nome}"
+        return padronizado if len(padronizado) <= max_len else padronizado[: max_len - 1].rstrip() + "…"
+
+    # Municipal com UF já no nome
+    m_mun = re.match(r"^Defesa Civil de\s+(.+?\([A-Z]{2}\))$", txt, flags=re.IGNORECASE)
+    if m_mun:
+        nome = m_mun.group(1).strip()
+        padronizado = f"DC {nome}"
+        return padronizado if len(padronizado) <= max_len else padronizado[: max_len - 1].rstrip() + "…"
+
+    # Municipal sem UF explícita
+    m_mun2 = re.match(r"^Defesa Civil de\s+(.+)$", txt, flags=re.IGNORECASE)
+    if m_mun2:
+        nome = m_mun2.group(1).strip()
+        padronizado = f"DC {nome}"
+        return padronizado if len(padronizado) <= max_len else padronizado[: max_len - 1].rstrip() + "…"
+
+    return txt if len(txt) <= max_len else txt[: max_len - 1].rstrip() + "…"
 
 def derive_location(alert: Dict[str, Any]) -> str:
     area = (alert.get('areaDesc') or '').strip()
