@@ -122,7 +122,7 @@ function renderUltimosAlertas(alertas) {
       alerta.description ||
       alerta.headline ||
       "Sem descrição disponível.",
-      120
+      160
     );
     const nivel = normalizarNivel(
       alerta.nivel ||
