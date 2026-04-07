@@ -3,13 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IDAP | Painel Operacional 1920x1080</title>
+  <title>IDAP | Painel Operacional</title>
   <link rel="stylesheet" href="assets/dashboard.css" />
 </head>
 <body>
-  <div class="viewport">
-    <div class="dashboard-stage">
-      <div class="app-shell">
+  <div class="app-shell">
     <main class="dashboard-grid">
       <aside class="left-column">
         <section class="brand-card">
@@ -41,16 +39,16 @@
           </article>
 
           <article class="metric-card metric-purple">
-            <div class="metric-label">Alertas Extremos</div>
-            <div id="card-extremos" class="metric-value">0</div>
+            <div class="metric-label">Tipos de Evento</div>
+            <div id="card-tipos-evento" class="metric-value">0</div>
           </article>
         </section>
 
-        <section class="panel-card recent-panel">
-          <div class="panel-head compact">
-            <h2>Últimos Alertas</h2>
+        <section class="panel-card severity-panel severity-panel-compact">
+          <div class="panel-head severity-head compact">
+            <h2>Alertas por Nível</h2>
           </div>
-          <div id="ultimos-alertas" class="recent-list"></div>
+          <div id="severity-breakdown" class="severity-breakdown"></div>
         </section>
       </aside>
 
@@ -62,40 +60,30 @@
           <div id="mapa-uf" class="map-holder"></div>
         </section>
 
-        <section class="panel-card severity-panel">
-          <div class="panel-head">
-            <h2>Alertas por Nível</h2>
+        <section class="panel-card recent-panel recent-panel-wide">
+          <div class="panel-head compact">
+            <h2>Últimos Alertas</h2>
           </div>
-          <div class="chart-holder">
-            <canvas id="chart-severidade"></canvas>
-          </div>
-        </section>
-      </section>
+          <div id="ultimos-alertas" class="recent-list recent-list-wide"></div>
+        </section>      </section>
 
       <aside class="right-column">
         <section class="panel-card top-panel">
           <div class="panel-head compact">
-            <h2>Top Autoridades Emissoras</h2>
+            <h2>Emissores de Alerta</h2>
           </div>
           <div id="top5-autoridades" class="top-list"></div>
         </section>
 
+        
         <section class="panel-card event-panel">
           <div class="panel-head compact">
-            <h2>Alertas por Tipo de Evento</h2>
+            <div class="event-head">
+              <h2>Alertas por Tipo de Evento</h2>
+              
+            </div>
           </div>
-          <div class="chart-holder donut-holder">
-            <canvas id="chart-eventos"></canvas>
-          </div>
-        </section>
-
-        <section class="panel-card status-panel">
-          <div class="panel-head compact">
-            <h2>Status de Vigência</h2>
-          </div>
-          <div class="chart-holder donut-holder small-donut">
-            <canvas id="chart-vigencia"></canvas>
-          </div>
+          <div id="event-breakdown" class="event-breakdown"></div>
         </section>
       </aside>
     </main>
@@ -103,18 +91,14 @@
     <footer class="footer-bar">
       <div class="footer-left">
         <span class="footer-item">Fonte: IDAP - CISDA/CGMA/DPS/SEDEC</span>
-        <span class="footer-item">Execução: <strong id="meta-execucao">--</strong></span>
       </div>
       <div class="footer-right">
         <span class="footer-item">Atualizado em: <strong id="meta-atualizado">--/--/---- --:--:--</strong></span>
         <span class="footer-item">Próxima checagem em: <strong id="refresh-countdown">05:00</strong></span>
       </div>
     </footer>
-      </div>
-    </div>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="assets/dashboard.js"></script>
 </body>
 </html>
