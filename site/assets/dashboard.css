@@ -854,13 +854,15 @@ body {
 
 .recent-list-wide {
   padding: 14px;
-  gap: 12px;
+  gap: 5px;
 }
 
 .recent-list-wide .recent-item {
   grid-template-columns: 90px 1.05fr 2fr 84px;
   min-height: 108px;
   padding: 12px 14px;
+  position: relative;
+  top: -12px;
 }
 
 .recent-list-wide .recent-emissor {
