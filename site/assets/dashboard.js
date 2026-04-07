@@ -107,7 +107,7 @@ function renderUltimosAlertas(alertas) {
     return;
   }
 
-  alertas.slice(0, 5).forEach((alerta) => {
+  alertas.slice(0, 3).forEach((alerta) => {
     const item = document.createElement("div");
     item.className = "recent-item";
 
