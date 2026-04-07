@@ -62,7 +62,7 @@ function preencherCabecalho(data) {
       })
     : "--/--/---- --:--:--";
 
-  setText("meta-atualizado", `${atualizadoOrigem} | leitura: ${atualizadoLeitura}`);
+  setText("meta-atualizado", `${atualizadoLeitura}`);
   setText("meta-execucao", data.execucao || data.run_id || data.source_run_dir || "--");
 }
 
