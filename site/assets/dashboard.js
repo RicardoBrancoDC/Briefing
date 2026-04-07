@@ -1,7 +1,4 @@
 const AUTO_REFRESH_MS = 300000;
-const DASHBOARD_CACHE_KEY = "idap_dashboard_last_valid_data_v1";
-const DASHBOARD_CACHE_TIME_KEY = "idap_dashboard_last_valid_time_v1";
-
 let dashboardCarregando = false;
 let dashboardUltimaLeitura = null;
 let refreshSecondsRemaining = Math.floor(AUTO_REFRESH_MS / 1000);
@@ -22,92 +19,38 @@ async function carregarDashboard() {
     }
 
     const data = await response.json();
-
-    if (!dashboardDataValido(data)) {
-      throw new Error("dashboard_data.json recebido, mas inválido.");
-    }
-
     dashboardUltimaLeitura = new Date();
     resetRefreshCountdown();
 
-    salvarCacheDashboard(data);
-    await aplicarDashboardData(data, "remota");
+    preencherCabecalho(data);
+    preencherCards(data);
+    renderUltimosAlertas(data.ultimos_alertas || data.latest_alerts || []);
+    renderTopAutoridades(data.top5_autoridades || data.top_emitters || []);
+    renderTabelaAlertas(
+      data.all_alerts ||
+      data.tabela_alertas ||
+      data.ultimos_alertas ||
+      data.latest_alerts ||
+      []
+    );
+    await renderMapaUF(data);
+    renderGraficos(data);
   } catch (error) {
-    console.warn("Falha ao carregar base remota. Tentando usar cache local.", error);
-
-    const cache = carregarCacheDashboard();
-
-    if (dashboardDataValido(cache)) {
-      dashboardUltimaLeitura = new Date();
-      resetRefreshCountdown();
-      await aplicarDashboardData(cache, "cache");
-    } else {
-      console.error("Erro geral do dashboard:", error);
-      renderErroGeral(error);
-    }
+    console.error("Erro geral do dashboard:", error);
+    renderErroGeral(error);
   } finally {
     dashboardCarregando = false;
   }
 }
 
-async function aplicarDashboardData(data, origem = "remota") {
-  preencherCabecalho(data, origem);
-  preencherCards(data);
-  renderUltimosAlertas(data.ultimos_alertas || data.latest_alerts || []);
-  renderTopAutoridades(data.top5_autoridades || data.top_emitters || []);
-  renderTabelaAlertas(
-    data.all_alerts ||
-    data.tabela_alertas ||
-    data.ultimos_alertas ||
-    data.latest_alerts ||
-    []
-  );
-  await renderMapaUF(data);
-  renderGraficos(data);
-}
-
-function salvarCacheDashboard(data) {
-  try {
-    localStorage.setItem(DASHBOARD_CACHE_KEY, JSON.stringify(data));
-    localStorage.setItem(DASHBOARD_CACHE_TIME_KEY, new Date().toISOString());
-  } catch (err) {
-    console.warn("Não foi possível salvar cache local do dashboard.", err);
-  }
-}
-
-function carregarCacheDashboard() {
-  try {
-    const raw = localStorage.getItem(DASHBOARD_CACHE_KEY);
-    if (!raw) return null;
-    return JSON.parse(raw);
-  } catch (err) {
-    console.warn("Não foi possível ler cache local do dashboard.", err);
-    return null;
-  }
-}
-
-function carregarTempoCacheDashboard() {
-  try {
-    return localStorage.getItem(DASHBOARD_CACHE_TIME_KEY);
-  } catch (err) {
-    return null;
-  }
-}
-
-function dashboardDataValido(data) {
-  if (!data || typeof data !== "object") return false;
-  if (!data.cards || typeof data.cards !== "object") return false;
-  return true;
-}
-
-function preencherCabecalho(data, origem = "remota") {
+function preencherCabecalho(data) {
   const atualizadoOrigem = formatarDataHora(
     data.atualizado_em ||
     data.gerado_em ||
     data.generated_at
   );
 
-  let atualizadoLeitura = dashboardUltimaLeitura
+  const atualizadoLeitura = dashboardUltimaLeitura
     ? dashboardUltimaLeitura.toLocaleString("pt-BR", {
         timeZone: "America/Sao_Paulo",
         day: "2-digit",
@@ -118,12 +61,6 @@ function preencherCabecalho(data, origem = "remota") {
         second: "2-digit"
       })
     : "--/--/---- --:--:--";
-
-  if (origem === "cache") {
-    const cacheTime = carregarTempoCacheDashboard();
-    const cacheLabel = cacheTime ? formatarDataHora(cacheTime) : "cache local";
-    atualizadoLeitura = `${atualizadoLeitura} | usando cache local (${cacheLabel})`;
-  }
 
   setText("meta-atualizado", `${atualizadoOrigem} | leitura: ${atualizadoLeitura}`);
   setText("meta-execucao", data.execucao || data.run_id || data.source_run_dir || "--");
@@ -151,13 +88,12 @@ function preencherCards(data) {
     0
   ));
 
-  setText("card-extremos", numero(
-    data.cards?.extremos ??
-    data.cards?.alertasExtremos ??
-    data.resumo?.extremos ??
-    data.summary?.by_nivel?.Extremo ??
-    0
-  ));
+  setText("card-tipos-evento", numero(contarTiposEvento(
+    data.eventos ||
+    data.alertas_por_evento ||
+    data.event_distribution ||
+    {}
+  )));
 }
 
 function renderUltimosAlertas(alertas) {
@@ -393,12 +329,12 @@ function montarSvgMapaBrasil(geojson, ufMap) {
   const dataHeight = maxY - minY || 1;
   const drawWidth = width - padding * 2;
   const drawHeight = height - padding * 2;
-  const scale = Math.min(drawWidth / dataWidth, drawHeight / dataHeight) * 1.42;
+  const scale = Math.min(drawWidth / dataWidth, drawHeight / dataHeight) * 1.1;
 
   const projectedWidth = dataWidth * scale;
   const projectedHeight = dataHeight * scale;
   const offsetX = (width - projectedWidth) / 2;
-  const offsetY = (height - projectedHeight) / 2;
+  const offsetY = (height - projectedHeight) / 2 + 35;
 
   function project([lon, lat]) {
     const x = offsetX + (lon - minX) * scale;
@@ -591,188 +527,92 @@ function corMapa(valor, maxValor) {
 function renderGraficos(data) {
   renderChartSeveridade(data.severidade || data.alertas_por_severidade || data.level_distribution || {});
   renderChartEventos(data.eventos || data.alertas_por_evento || data.event_distribution || {});
-  renderChartVigencia(data.vigencia || data.status_vigencia || data.status_distribution || {});
 }
 
 function renderChartSeveridade(severidadeData) {
-  const canvas = document.getElementById("chart-severidade");
-  if (!canvas) return;
+  const container = document.getElementById("severity-breakdown");
+  if (!container) return;
 
-  const ctx = canvas.getContext("2d");
-  if (!ctx) return;
+  container.innerHTML = "";
 
   const ordem = ["Baixo", "Médio", "Alto", "Severo", "Extremo"];
-
   const mapa = normalizarColecaoParaMapa(severidadeData);
 
-  const valores = ordem.map((nivel) => Number(
-    mapa[nivel] ??
-    mapa[nivel.toLowerCase()] ??
-    0
-  ));
+  const itens = ordem.map((nivel) => ({
+    nome: nivel,
+    valor: Number(
+      mapa[nivel] ??
+      mapa[nivel.toLowerCase()] ??
+      0
+    )
+  }));
 
-  destruirGraficoAnterior(canvas);
+  const maxValor = Math.max(...itens.map((item) => item.valor), 1);
 
-  new Chart(ctx, {
-    type: "bar",
-    data: {
-      labels: ordem,
-      datasets: [{
-        data: valores,
-        backgroundColor: [
-          "#4caf50",
-          "#d2be45",
-          "#f08c24",
-          "#db3d34",
-          "#6a43d9"
-        ],
-        borderRadius: 8
-      }]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      animation: false,
-      plugins: {
-        legend: { display: false }
-      },
-      scales: {
-        x: {
-          ticks: {
-            color: "#33415f",
-            font: { weight: "700" }
-          },
-          grid: { display: false }
-        },
-        y: {
-          beginAtZero: true,
-          ticks: {
-            color: "#667085"
-          },
-          grid: {
-            color: "rgba(102,112,133,0.16)"
-          }
-        }
-      }
-    }
+  const classes = {
+    "Baixo": "sev-c1",
+    "Médio": "sev-c2",
+    "Alto": "sev-c3",
+    "Severo": "sev-c4",
+    "Extremo": "sev-c5"
+  };
+
+  itens.forEach((item) => {
+    const pct = Math.max((item.valor / maxValor) * 100, item.valor > 0 ? 2 : 0);
+    const classe = classes[item.nome] || "sev-c2";
+
+    const row = document.createElement("div");
+    row.className = "severity-row";
+    row.innerHTML = `
+      <div class="severity-row-head">
+        <div class="severity-row-name">${esc(item.nome)}</div>
+        <div class="severity-row-value">${numero(item.valor)}</div>
+      </div>
+      <div class="severity-track">
+        <div class="severity-fill ${classe}" style="width:${pct}%;"></div>
+      </div>
+    `;
+    container.appendChild(row);
   });
 }
 
 function renderChartEventos(eventosData) {
-  const canvas = document.getElementById("chart-eventos");
-  if (!canvas) return;
+  const container = document.getElementById("event-breakdown");
+  if (!container) return;
 
-  const ctx = canvas.getContext("2d");
-  if (!ctx) return;
+  container.innerHTML = "";
 
   const mapa = normalizarColecaoParaMapa(eventosData);
   const entries = Object.entries(mapa)
     .sort((a, b) => b[1] - a[1])
-    .slice(0, 3);
+    .slice(0, 5);
 
-  const labels = entries.map(([k]) => k);
-  const valores = entries.map(([, v]) => v);
+  if (!entries.length) {
+    container.innerHTML = `<div class="empty-state">Nenhum tipo de evento disponível.</div>`;
+    return;
+  }
 
-  destruirGraficoAnterior(canvas);
+  const classes = ["event-c1", "event-c2", "event-c3", "event-c4", "event-c5"];
+  const maxValor = Math.max(...entries.map(([, v]) => Number(v || 0)), 1);
 
-  new Chart(ctx, {
-    type: "doughnut",
-    data: {
-      labels,
-      datasets: [{
-        data: valores,
-        backgroundColor: ["#f08c24", "#db3d34", "#6a43d9"],
-        borderColor: "#f3f4f6",
-        borderWidth: 3,
-        radius: "72%"
-      }]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      animation: false,
-      cutout: "62%",
-      layout: {
-        padding: {
-          top: 6,
-          bottom: 18,
-          left: 8,
-          right: 8
-        }
-      },
-      plugins: {
-        legend: {
-          position: "bottom",
-          align: "center",
-          labels: {
-            color: "#33415f",
-            padding: 6,
-            boxWidth: 9,
-            boxHeight: 9,
-            font: { size: 9 }
-          }
-        }
-      }
-    }
+  entries.forEach(([nome, valor], index) => {
+    const classe = classes[index] || "event-c5";
+    const pct = Math.max((Number(valor || 0) / maxValor) * 100, valor > 0 ? 8 : 0);
+
+    const row = document.createElement("div");
+    row.className = "event-row";
+    row.innerHTML = `
+      <div class="event-row-head">
+        <div class="event-row-name" title="${escAttr(nome)}">${esc(nome)}</div>
+        <div class="event-row-value">${numero(valor)}</div>
+      </div>
+      <div class="event-track">
+        <div class="event-fill ${classe}" style="width:${pct}%;"></div>
+      </div>
+    `;
+    container.appendChild(row);
   });
 }
-
-function renderChartVigencia(vigenciaData) {
-  const canvas = document.getElementById("chart-vigencia");
-  if (!canvas) return;
-
-  const ctx = canvas.getContext("2d");
-  if (!ctx) return;
-
-  const mapa = normalizarColecaoParaMapa(vigenciaData);
-  const vigentes = Number(mapa.vigente ?? mapa.Vigente ?? mapa.vigentes ?? 0);
-  const expirados = Number(mapa.expirado ?? mapa.Expirado ?? mapa.expirados ?? 0);
-  const futuros = Number(mapa.futuro ?? mapa.Futuro ?? mapa.futuros ?? 0);
-
-  destruirGraficoAnterior(canvas);
-
-  new Chart(ctx, {
-    type: "doughnut",
-    data: {
-      labels: ["Vigentes", "Expirados", "Futuros"],
-      datasets: [{
-        data: [vigentes, expirados, futuros],
-        backgroundColor: ["#2382ea", "#c8ccd6", "#6a43d9"],
-        borderColor: "#f3f4f6",
-        borderWidth: 3,
-        radius: "78%"
-      }]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      animation: false,
-      cutout: "62%",
-      layout: {
-        padding: {
-          top: 4,
-          bottom: 8,
-          left: 6,
-          right: 6
-        }
-      },
-      plugins: {
-        legend: {
-          position: "bottom",
-          align: "center",
-          labels: {
-            color: "#33415f",
-            padding: 10,
-            boxWidth: 10,
-            boxHeight: 10,
-            font: { size: 10 }
-          }
-        }
-      }
-    }
-  });
-}
-
 function renderErroGeral(error) {
   console.error("Erro geral do dashboard:", error);
 
@@ -793,6 +633,11 @@ function renderErroGeral(error) {
 function setText(id, value) {
   const el = document.getElementById(id);
   if (el) el.textContent = value ?? "--";
+}
+
+function contarTiposEvento(origem) {
+  const mapa = normalizarColecaoParaMapa(origem);
+  return Object.entries(mapa).filter(([, valor]) => Number(valor || 0) > 0).length;
 }
 
 function numero(value) {
@@ -966,12 +811,6 @@ function contarUFs(origem) {
   return 0;
 }
 
-function destruirGraficoAnterior(canvasEl) {
-  if (!canvasEl) return;
-  const chart = Chart.getChart(canvasEl);
-  if (chart) chart.destroy();
-}
-
 function resetRefreshCountdown() {
   refreshSecondsRemaining = Math.floor(AUTO_REFRESH_MS / 1000);
   atualizarTextoCountdown();
@@ -997,34 +836,9 @@ function iniciarTimerRefresh() {
   }, 1000);
 }
 
-function ajustarEscalaDashboard() {
-  const shell = document.querySelector(".app-shell");
-  if (!shell) return;
-
-  const baseWidth = 1920;
-  const baseHeight = 1080;
-
-  const scaleX = window.innerWidth / baseWidth;
-  const scaleY = window.innerHeight / baseHeight;
-  const scale = Math.min(scaleX, scaleY, 1);
-
-  shell.style.transform = `scale(${scale})`;
-  shell.style.transformOrigin = "top center";
-
-  const scaledWidth = baseWidth * scale;
-  const marginTop = Math.max((window.innerHeight - baseHeight * scale) / 2, 0);
-
-  shell.style.marginTop = `${marginTop}px`;
-  document.body.style.justifyContent = "center";
-}
-
-window.addEventListener("resize", ajustarEscalaDashboard);
-window.addEventListener("load", ajustarEscalaDashboard);
-
 document.addEventListener("DOMContentLoaded", () => {
   carregarDashboard();
   iniciarTimerRefresh();
-  ajustarEscalaDashboard();
 
   setInterval(() => {
     carregarDashboard();
