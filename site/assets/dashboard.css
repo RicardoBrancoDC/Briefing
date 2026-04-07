@@ -191,34 +191,6 @@ body {
   color: var(--muted);
 }
 
-.territorial-ticker-head {
-  padding: 10px 16px 8px;
-  min-height: 52px;
-  display: flex;
-  align-items: center;
-}
-
-.territorial-ticker-text {
-  width: 100%;
-  font-size: 0.98rem;
-  font-weight: 800;
-  color: #283a62;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  transition: opacity 0.18s ease, transform 0.18s ease;
-}
-
-.territorial-ticker-text.ticker-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.territorial-ticker-text.ticker-hidden {
-  opacity: 0;
-  transform: translateY(-4px);
-}
-
 .recent-list {
   padding: 10px;
   display: grid;
@@ -921,4 +893,20 @@ body {
 .recent-list-wide .recent-tag {
   font-size: 0.78rem;
   padding: 8px 14px;
+}
+
+.recent-list-wide {
+  position: relative;
+  min-height: 210px;
+  transition: opacity 260ms ease, transform 260ms ease;
+}
+
+.recent-list-wide.recent-list-leave {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.recent-list-wide.recent-list-enter {
+  opacity: 1;
+  transform: translateY(0);
 }
