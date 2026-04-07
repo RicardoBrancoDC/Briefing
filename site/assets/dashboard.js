@@ -4,6 +4,12 @@ let dashboardUltimaLeitura = null;
 let refreshSecondsRemaining = Math.floor(AUTO_REFRESH_MS / 1000);
 let refreshIntervalId = null;
 
+const TICKER_MAX_LOCAIS = 5;
+const TICKER_ROTATE_MS = 6500;
+let tickerItems = [];
+let tickerIndex = 0;
+let tickerIntervalId = null;
+
 async function carregarDashboard() {
   if (dashboardCarregando) return;
   dashboardCarregando = true;
@@ -34,6 +40,13 @@ async function carregarDashboard() {
       []
     );
     await renderMapaUF(data);
+    renderTickerTerritorial(
+      data.all_alerts ||
+      data.tabela_alertas ||
+      data.ultimos_alertas ||
+      data.latest_alerts ||
+      []
+    );
     renderGraficos(data);
   } catch (error) {
     console.error("Erro geral do dashboard:", error);
@@ -522,6 +535,178 @@ function corMapa(valor, maxValor) {
   if (ratio >= 0.4) return "#d2be45";
   if (ratio >= 0.2) return "#4caf50";
   return "#8ec5ff";
+}
+
+function renderTickerTerritorial(alertas) {
+  const el = document.getElementById("territorial-ticker-text");
+  if (!el) return;
+
+  tickerItems = montarItensTicker(alertas);
+  tickerIndex = 0;
+
+  if (tickerIntervalId) {
+    clearInterval(tickerIntervalId);
+    tickerIntervalId = null;
+  }
+
+  if (!tickerItems.length) {
+    el.textContent = "Sem localidades com alertas recentes.";
+    return;
+  }
+
+  atualizarTickerTerritorial();
+
+  if (tickerItems.length > 1) {
+    tickerIntervalId = setInterval(() => {
+      tickerIndex = (tickerIndex + 1) % tickerItems.length;
+      atualizarTickerTerritorial();
+    }, TICKER_ROTATE_MS);
+  }
+}
+
+function atualizarTickerTerritorial() {
+  const el = document.getElementById("territorial-ticker-text");
+  if (!el || !tickerItems.length) return;
+
+  el.classList.remove("ticker-visible");
+  el.classList.add("ticker-hidden");
+
+  setTimeout(() => {
+    if (!tickerItems.length) return;
+    el.textContent = tickerItems[tickerIndex].texto;
+    el.classList.remove("ticker-hidden");
+    el.classList.add("ticker-visible");
+  }, 180);
+}
+
+function montarItensTicker(alertas) {
+  const porUf = new Map();
+
+  (alertas || []).forEach((alerta) => {
+    const uf = (
+      alerta.uf ||
+      alerta.estado ||
+      extrairUF(alerta.areaDesc || alerta.local || alerta.location || "")
+    || "").toUpperCase().trim();
+
+    if (!uf) return;
+
+    const local = obterLocalTicker(alerta, uf);
+    if (!local) return;
+
+    const nivel = normalizarNivel(
+      alerta.nivel ||
+      alerta.nivel_calculado ||
+      alerta.severidade_label ||
+      alerta.severity_label ||
+      alerta.severity ||
+      "Indefinido"
+    );
+
+    if (!porUf.has(uf)) {
+      porUf.set(uf, new Map());
+    }
+
+    const locaisUf = porUf.get(uf);
+    const chaveLocal = String(local || "").trim();
+    if (!chaveLocal) return;
+
+    const rank = rankNivel(nivel);
+    const atual = locaisUf.get(chaveLocal);
+
+    if (!atual || rank > atual.rank) {
+      locaisUf.set(chaveLocal, {
+        local: chaveLocal,
+        nivel,
+        rank
+      });
+    }
+  });
+
+  return Array.from(porUf.entries())
+    .map(([uf, mapaLocais]) => {
+      const locais = Array.from(mapaLocais.values())
+        .sort((a, b) => {
+          if (b.rank !== a.rank) return b.rank - a.rank;
+          return a.local.localeCompare(b.local, "pt-BR");
+        });
+
+      const visiveis = locais
+        .slice(0, TICKER_MAX_LOCAIS)
+        .map((item) => `${item.local} (${item.nivel})`);
+
+      const restantes = locais.length - visiveis.length;
+      const sufixo = restantes > 0 ? ` +${restantes}` : "";
+
+      return {
+        uf,
+        texto: `${uf}: ${visiveis.join(", ")}${sufixo}`,
+        total: locais.length,
+        maxRank: locais[0]?.rank || 0
+      };
+    })
+    .filter((item) => item.texto && item.total > 0)
+    .sort((a, b) => {
+      if (b.maxRank !== a.maxRank) return b.maxRank - a.maxRank;
+      if (b.total !== a.total) return b.total - a.total;
+      return a.uf.localeCompare(b.uf, "pt-BR");
+    });
+}
+
+function obterLocalTicker(alerta, uf) {
+  const candidato =
+    alerta.municipio ||
+    alerta.cidade ||
+    alerta.city ||
+    extrairLocalCurto(alerta.areaDesc || alerta.local || alerta.location || "") ||
+    "";
+
+  return limparLocalTicker(candidato, uf);
+}
+
+function extrairLocalCurto(texto) {
+  const t = String(texto || "").trim();
+  if (!t) return "";
+
+  const partes = t
+    .split(/[;,|]/)
+    .map((parte) => parte.trim())
+    .filter(Boolean);
+
+  if (!partes.length) return "";
+
+  return partes[0];
+}
+
+function limparLocalTicker(local, uf) {
+  let t = String(local || "").trim();
+  if (!t) return "";
+
+  t = t.replace(/\(([A-Z]{2})\)\s*$/i, "").trim();
+  t = t.replace(new RegExp(`/\s*${uf}$`, "i"), "").trim();
+  t = t.replace(new RegExp(`-\s*${uf}$`, "i"), "").trim();
+  t = t.replace(/\s{2,}/g, " ");
+
+  if (/^mapa$/i.test(t)) return "";
+  if (/^mapa do estado$/i.test(t)) return "";
+  if (/^mapa estadual$/i.test(t)) return "";
+  if (/^estado de [a-zà-ÿ\s]+$/i.test(t)) return "";
+  if (/^brasil$/i.test(t)) return "";
+  if (/^área sob alerta$/i.test(t)) return "";
+  if (/^sem local informado$/i.test(t)) return "";
+
+  if (!t) return "";
+  return truncar(t, 42);
+}
+
+function rankNivel(nivel) {
+  const n = normalizarNivel(nivel);
+  if (n === "Extremo") return 5;
+  if (n === "Severo") return 4;
+  if (n === "Alto") return 3;
+  if (n === "Médio") return 2;
+  if (n === "Baixo") return 1;
+  return 0;
 }
 
 function renderGraficos(data) {
