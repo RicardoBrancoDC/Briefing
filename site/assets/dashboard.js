@@ -107,7 +107,7 @@ function renderUltimosAlertas(alertas) {
     return;
   }
 
-  alertas.slice(0, 3).forEach((alerta) => {
+  alertas.slice(0, 2).forEach((alerta) => {
     const item = document.createElement("div");
     item.className = "recent-item";
 
@@ -527,6 +527,14 @@ function corMapa(valor, maxValor) {
 function renderGraficos(data) {
   renderChartSeveridade(data.severidade || data.alertas_por_severidade || data.level_distribution || {});
   renderChartEventos(data.eventos || data.alertas_por_evento || data.event_distribution || {});
+  renderChartHoras(
+    data.all_alerts ||
+    data.tabela_alertas ||
+    data.ultimos_alertas ||
+    data.latest_alerts ||
+    [],
+    data.atualizado_em || data.gerado_em || data.generated_at || null
+  );
 }
 
 function renderChartSeveridade(severidadeData) {
@@ -613,6 +621,121 @@ function renderChartEventos(eventosData) {
     container.appendChild(row);
   });
 }
+function renderChartHoras(alertas, referenciaIso) {
+  const container = document.getElementById("hourly-breakdown");
+  if (!container) return;
+
+  container.innerHTML = "";
+
+  const referencia = obterDataValida(referenciaIso) || obterMaiorDataAlertas(alertas) || new Date();
+  const buckets = montarBuckets24h(referencia);
+  const counts = new Map(buckets.map((b) => [b.key, 0]));
+
+  (alertas || []).forEach((alerta) => {
+    const d = obterDataAlertaCompleta(alerta);
+    if (!d) return;
+    const key = chaveHoraSaoPaulo(d);
+    if (counts.has(key)) {
+      counts.set(key, counts.get(key) + 1);
+    }
+  });
+
+  const itens = buckets.map((bucket) => ({
+    ...bucket,
+    valor: counts.get(bucket.key) || 0
+  }));
+
+  const maxValor = Math.max(...itens.map((item) => item.valor), 1);
+
+  const grid = `<div class="hourly-grid">${Array.from({ length: 4 }).map(() => '<div class="hourly-grid-line"></div>').join("")}</div>`;
+
+  const bars = itens.map((item) => {
+    const height = item.valor > 0 ? Math.max((item.valor / maxValor) * 100, 6) : 0;
+    return `
+      <div class="hourly-bar-col" title="${esc(item.tooltip)}: ${numero(item.valor)} alerta(s)">
+        <div class="hourly-bar-value">${item.valor > 0 ? esc(String(item.valor)) : ""}</div>
+        <div class="hourly-bar" style="height:${height}%; opacity:${item.valor > 0 ? 1 : 0.14};"></div>
+      </div>
+    `;
+  }).join("");
+
+  const labels = itens.map((item, index) => {
+    const classe = index % 2 === 0 ? "hourly-label" : "hourly-label muted";
+    return `<div class="${classe}">${esc(item.label)}</div>`;
+  }).join("");
+
+  container.innerHTML = `
+    <div class="hourly-chart">
+      ${grid}
+      <div class="hourly-bars">${bars}</div>
+      <div class="hourly-labels">${labels}</div>
+    </div>
+  `;
+}
+
+function obterDataAlertaCompleta(alerta) {
+  return obterDataValida(
+    alerta?.data ||
+    alerta?.onset ||
+    alerta?.sent ||
+    alerta?.inicio ||
+    alerta?.timestamp ||
+    alerta?.expires
+  );
+}
+
+function obterDataValida(valor) {
+  if (!valor) return null;
+  const d = new Date(valor);
+  if (Number.isNaN(d.getTime())) return null;
+  return d;
+}
+
+function obterMaiorDataAlertas(alertas) {
+  let maior = null;
+  (alertas || []).forEach((alerta) => {
+    const d = obterDataAlertaCompleta(alerta);
+    if (!d) return;
+    if (!maior || d > maior) maior = d;
+  });
+  return maior;
+}
+
+function montarBuckets24h(referencia) {
+  const itens = [];
+  for (let i = 23; i >= 0; i -= 1) {
+    const d = new Date(referencia.getTime() - i * 60 * 60 * 1000);
+    itens.push({
+      key: chaveHoraSaoPaulo(d),
+      label: d.toLocaleTimeString("pt-BR", {
+        timeZone: "America/Sao_Paulo",
+        hour: "2-digit",
+        hour12: false
+      }),
+      tooltip: d.toLocaleString("pt-BR", {
+        timeZone: "America/Sao_Paulo",
+        day: "2-digit",
+        month: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: false
+      })
+    });
+  }
+  return itens;
+}
+
+function chaveHoraSaoPaulo(date) {
+  return date.toLocaleString("sv-SE", {
+    timeZone: "America/Sao_Paulo",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    hour12: false
+  }).replace(" ", "T");
+}
+
 function renderErroGeral(error) {
   console.error("Erro geral do dashboard:", error);
 
