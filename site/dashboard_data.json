@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-04-07T10:43:39.103130-03:00",
-  "source_run_dir": "run_20260407_104305",
+  "generated_at": "2026-04-07T11:04:04.541015-03:00",
+  "source_run_dir": "run_20260407_110330",
   "cards": {
-    "vigentes": 42,
-    "ultimas24h": 183,
-    "autoridadesAtivas": 31,
+    "vigentes": 44,
+    "ultimas24h": 180,
+    "autoridadesAtivas": 32,
     "alertasExtremos": 2
   },
   "latest_alerts": [
+    {
+      "time": "11:00",
+      "date": "07/04/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva, vento e raios. Risco ALTO de alagamentos. Val. ate 14h00. Mantenha-se seguro",
+      "status": "vigente"
+    },
+    {
+      "time": "10:43",
+      "date": "07/04/2026",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "senderNameShort": "DC Mato Grosso",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "/MT",
+      "uf": "MT",
+      "headline": "Defesa Civil:MT. Previsao de Chuva ate 60mm/h, ventos de 60-100km/h. Riscos de queda de galhos de arvores, alagamentos, descargas eletricas. Ligue: 193/199.",
+      "status": "vigente"
+    },
     {
       "time": "10:37",
       "date": "07/04/2026",
@@ -43,30 +67,6 @@
       "uf": "RJ",
       "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
       "status": "vigente"
-    },
-    {
-      "time": "10:23",
-      "date": "07/04/2026",
-      "senderName": "Defesa Civil de Belém (PA)",
-      "senderNameShort": "DC Belém (PA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Belém/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:SUMDEC: REGIAO METROPOLITANA DE BELEM, Alertas de chuvas e raios ALTO para hoje 07ABR. Risco elevado de alagamentos e destelhamentos. Atencao!",
-      "status": "vigente"
-    },
-    {
-      "time": "10:15",
-      "date": "07/04/2026",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "senderNameShort": "DC Goiás",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "GOIÁS/GO",
-      "uf": "GO",
-      "headline": "Defesa Civil:Possibilidade de chuvas e ventos intensos nas proximas 14 horas, com risco de alagamento e raios. Evite riscos. Emergencia 193",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 42
+      "count": 39
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -88,7 +88,7 @@
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 13
+      "count": 14
     },
     {
       "name": "Defesa Civil Estadual de Pernambuco",
@@ -101,11 +101,6 @@
       "count": 7
     },
     {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
-      "count": 5
-    },
-    {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
       "count": 5
@@ -116,6 +111,11 @@
       "count": 4
     },
     {
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
+      "count": 3
+    },
+    {
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
       "count": 3
@@ -124,15 +124,15 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 87
+      "count": 86
     },
     {
       "label": "Alto",
-      "count": 76
+      "count": 75
     },
     {
       "label": "Severo",
-      "count": 18
+      "count": 17
     },
     {
       "label": "Extremo",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 159
+      "count": 155
     },
     {
       "label": "Granizo",
@@ -157,38 +157,38 @@
       "count": 3
     },
     {
+      "label": "Vendaval",
+      "count": 1
+    },
+    {
       "label": "Inundações",
       "count": 1
     }
   ],
   "uf_distribution": [
     {
-      "uf": "SC",
+      "uf": "SP",
       "count": 46
     },
     {
-      "uf": "SP",
-      "count": 46
+      "uf": "SC",
+      "count": 43
     },
     {
       "uf": "MG",
       "count": 26
     },
     {
+      "uf": "RS",
+      "count": 14
+    },
+    {
       "uf": "PE",
       "count": 14
     },
     {
-      "uf": "RS",
-      "count": 13
-    },
-    {
       "uf": "AM",
       "count": 9
-    },
-    {
-      "uf": "PA",
-      "count": 6
     },
     {
       "uf": "RJ",
@@ -197,6 +197,10 @@
     {
       "uf": "PR",
       "count": 5
+    },
+    {
+      "uf": "PA",
+      "count": 4
     },
     {
       "uf": "PB",
@@ -215,6 +219,10 @@
       "count": 2
     },
     {
+      "uf": "MT",
+      "count": 1
+    },
+    {
       "uf": "RO",
       "count": 1
     },
@@ -230,14 +238,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 42
+      "count": 44
     },
     {
       "label": "expirado",
-      "count": 141
+      "count": 136
     }
   ],
   "all_alerts": [
+    {
+      "date": "07/04/2026",
+      "time": "11:00",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva, vento e raios. Risco ALTO de alagamentos. Val. ate 14h00. Mantenha-se seguro",
+      "status": "vigente",
+      "onset": "2026-04-07T11:00:00-03:00",
+      "expires": "2026-04-07T14:00:00-03:00"
+    },
+    {
+      "date": "07/04/2026",
+      "time": "10:43",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MT",
+      "location": "/MT",
+      "headline": "Defesa Civil:MT. Previsao de Chuva ate 60mm/h, ventos de 60-100km/h. Riscos de queda de galhos de arvores, alagamentos, descargas eletricas. Ligue: 193/199.",
+      "status": "vigente",
+      "onset": "2026-04-07T10:43:37-03:00",
+      "expires": "2026-04-08T11:00:00-03:00"
+    },
     {
       "date": "07/04/2026",
       "time": "10:37",
@@ -2551,90 +2585,25 @@
       "status": "vigente",
       "onset": "2026-04-06T11:19:51-03:00",
       "expires": "2026-04-07T11:15:00-03:00"
-    },
-    {
-      "date": "06/04/2026",
-      "time": "11:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 06/04 10:58 - CHUVA PERSISTENTE de intensidade moderada com ALAGAMENTOS pontuais para áreas das regiões do Litoral Norte, Litoral Sul, Grande Florianópolis, Baixo e Médio Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-06T11:00:48-03:00",
-      "expires": "2026-04-06T14:00:00-03:00"
-    },
-    {
-      "date": "06/04/2026",
-      "time": "10:55",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (06ABR). Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
-      "status": "expirado",
-      "onset": "2026-04-06T10:55:31-03:00",
-      "expires": "2026-04-06T23:55:00-03:00"
-    },
-    {
-      "date": "06/04/2026",
-      "time": "10:54",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:Atencao Meteorologica SDC/SC 06/04 10:40-Chuva persistente e volumosa na sua regiao entre a segunda (06) e madrugada de terca (07). Emerg. 199/193",
-      "status": "expirado",
-      "onset": "2026-04-06T10:54:02-03:00",
-      "expires": "2026-04-07T07:00:00-03:00"
-    },
-    {
-      "date": "06/04/2026",
-      "time": "10:52",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:Aviso Especial SDC/SC 06/04 10:40 - Chuva persistente e volumosa ao longo de segunda (06) e madrugada de terca (07). Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-06T10:52:12-03:00",
-      "expires": "2026-04-07T07:00:00-03:00"
-    },
-    {
-      "date": "06/04/2026",
-      "time": "10:48",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:PARA: Alerta MODERADO de CHUVAS INTENSAS hoje (06ABR). Risco de ALAGAMENTOS e VENTANIAS. Atencao a novos alertas. Prepare-se!",
-      "status": "expirado",
-      "onset": "2026-04-06T10:48:05-03:00",
-      "expires": "2026-04-06T23:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 183,
+    "total_alerts": 180,
     "by_nivel": {
-      "Médio": 87,
-      "Alto": 76,
-      "Severo": 18,
+      "Médio": 86,
+      "Alto": 75,
+      "Severo": 17,
       "Extremo": 2
     },
     "by_channel_list": {
-      "Google": 183
+      "Google": 180
     },
     "by_region": {
       "SE": 78,
-      "S": 64,
+      "S": 62,
       "NE": 23,
-      "N": 16,
-      "CO": 2
+      "N": 14,
+      "CO": 3
     }
   }
 }
