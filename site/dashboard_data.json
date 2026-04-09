@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-04-09T00:32:18.249466-03:00",
-  "source_run_dir": "run_20260409_003032",
+  "generated_at": "2026-04-09T03:00:10.584961-03:00",
+  "source_run_dir": "run_20260409_025905",
   "cards": {
-    "vigentes": 18,
-    "ultimas24h": 141,
+    "vigentes": 13,
+    "ultimas24h": 134,
     "autoridadesAtivas": 27,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "00:45",
+      "date": "09/04/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:00h45 Chuva isolada na regiao de Cosmorama, Tanabi e Palestina. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
+      "status": "expirado"
+    },
+    {
+      "time": "00:35",
+      "date": "09/04/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:00h35 Chuva isolada na regiao de Nova Granada e Onda Verde. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
+      "status": "expirado"
+    },
     {
       "time": "00:00",
       "date": "09/04/2026",
@@ -30,7 +54,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:23h25 Chuva isolada na regiao de Neves Paulista e Balsamo. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "22:44",
@@ -42,31 +66,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:22h45 Chuva isolada na regiao de Jose Bonifacio e Ubarana. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente"
-    },
-    {
-      "time": "22:39",
-      "date": "08/04/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:22h40 Chuva isolada na regiao de Santo Antonio do Aracangua e Auriflama. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente"
-    },
-    {
-      "time": "22:00",
-      "date": "08/04/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Alto",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:Atencao Maritima SDC/SC 08/04 - Mar agitado e risco de ressaca entre a noite desta quarta (08) e a sexta-feira (10). Emergencia ligue 199/193.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 34
+      "count": 27
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 48
+      "count": 43
     },
     {
       "label": "Alto",
-      "count": 78
+      "count": 76
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 123
+      "count": 116
     },
     {
       "label": "Alagamentos",
@@ -172,7 +172,7 @@
     },
     {
       "uf": "SP",
-      "count": 34
+      "count": 27
     },
     {
       "uf": "AM",
@@ -222,14 +222,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 18
+      "count": 13
     },
     {
       "label": "expirado",
-      "count": 123
+      "count": 121
     }
   ],
   "all_alerts": [
+    {
+      "date": "09/04/2026",
+      "time": "00:45",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:00h45 Chuva isolada na regiao de Cosmorama, Tanabi e Palestina. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
+      "status": "expirado",
+      "onset": "2026-04-09T00:45:00-03:00",
+      "expires": "2026-04-09T02:45:00-03:00"
+    },
+    {
+      "date": "09/04/2026",
+      "time": "00:35",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:00h35 Chuva isolada na regiao de Nova Granada e Onda Verde. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
+      "status": "expirado",
+      "onset": "2026-04-09T00:35:00-03:00",
+      "expires": "2026-04-09T02:35:00-03:00"
+    },
     {
       "date": "09/04/2026",
       "time": "00:00",
@@ -252,7 +278,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:23h25 Chuva isolada na regiao de Neves Paulista e Balsamo. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-08T23:25:00-03:00",
       "expires": "2026-04-09T01:25:00-03:00"
     },
@@ -265,7 +291,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:22h45 Chuva isolada na regiao de Jose Bonifacio e Ubarana. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-08T22:44:43-03:00",
       "expires": "2026-04-09T00:45:00-03:00"
     },
@@ -278,7 +304,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:22h40 Chuva isolada na regiao de Santo Antonio do Aracangua e Auriflama. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-08T22:39:02-03:00",
       "expires": "2026-04-09T00:40:00-03:00"
     },
@@ -1526,7 +1552,7 @@
       "uf": "MT",
       "location": "MATO GROSSO/MT",
       "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-08T11:37:40-03:00",
       "expires": "2026-04-09T00:55:00-03:00"
     },
@@ -1552,7 +1578,7 @@
       "uf": "MT",
       "location": "MATO GROSSO/MT",
       "headline": "Defesa Civil:MT. Previsao de Chuva ate 60mm/h, ventos de 60-100km/h. Riscos de queda de galhos de arvores, alagamentos, descargas eletricas. Ligue: 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-08T11:19:14-03:00",
       "expires": "2026-04-09T00:55:00-03:00"
     },
@@ -1945,137 +1971,20 @@
       "status": "expirado",
       "onset": "2026-04-08T03:27:15-03:00",
       "expires": "2026-04-08T17:15:00-03:00"
-    },
-    {
-      "date": "08/04/2026",
-      "time": "02:05",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:2h04 Chuva na regiao de Paranapanema, Itaporanga e Itarare. Atinge cidades vizinhas. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-04-08T02:05:40-03:00",
-      "expires": "2026-04-08T05:10:00-03:00"
-    },
-    {
-      "date": "08/04/2026",
-      "time": "01:54",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:01h54 Chuva em Cafelandia, Bauru e Avai. Tem raios e vento. Atinge municipios vizinhos. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-04-08T01:54:28-03:00",
-      "expires": "2026-04-08T04:15:00-03:00"
-    },
-    {
-      "date": "08/04/2026",
-      "time": "01:43",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:01h42 Chuva em Santo Antonio da Aracangua e Valparaiso. Tem raios e vento. Atinge municipios vizinhos. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-04-08T01:43:32-03:00",
-      "expires": "2026-04-08T03:00:00-03:00"
-    },
-    {
-      "date": "08/04/2026",
-      "time": "01:30",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:01h28 Chuva em Santa Fe do sul e Ilha Solteira. Tem raios e vento. Atinge municipios vizinhos. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-04-08T01:30:15-03:00",
-      "expires": "2026-04-08T03:50:00-03:00"
-    },
-    {
-      "date": "08/04/2026",
-      "time": "01:25",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:01h24 Chuva em Dracena e Junqueiropoles. Tem raios e vento. Atinge municipios vizinhos. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-04-08T01:25:07-03:00",
-      "expires": "2026-04-08T03:35:00-03:00"
-    },
-    {
-      "date": "08/04/2026",
-      "time": "01:17",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:01h15  Chuva em Monte Guatinhegueta e Cruzeiro. Tem raios e vento. Atinge municipios vizinhos. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-04-08T01:17:01-03:00",
-      "expires": "2026-04-08T03:25:00-03:00"
-    },
-    {
-      "date": "08/04/2026",
-      "time": "01:07",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:01ho5 Chuva em Monte Aprazivel  Tem raios e vento. Atinge municipios vizinhos. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-04-08T01:07:47-03:00",
-      "expires": "2026-04-08T02:10:00-03:00"
-    },
-    {
-      "date": "08/04/2026",
-      "time": "00:59",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:00h59 Chuva em Marilia, Garca e Duartina. Tem raios e vento. Atinge municipios vizinhos. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-04-08T00:59:44-03:00",
-      "expires": "2026-04-08T03:05:00-03:00"
-    },
-    {
-      "date": "08/04/2026",
-      "time": "00:38",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:00h38 Chuva em Ipaussu e Bernardino de Campos. Deslocando-se para Avare. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-04-08T00:38:30-03:00",
-      "expires": "2026-04-08T02:15:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 141,
+    "total_alerts": 134,
     "by_nivel": {
-      "Alto": 78,
-      "Médio": 48,
+      "Alto": 76,
+      "Médio": 43,
       "Severo": 15
     },
     "by_channel_list": {
-      "Google": 141
+      "Google": 134
     },
     "by_region": {
-      "SE": 98,
+      "SE": 91,
       "N": 14,
       "CO": 13,
       "S": 11,
