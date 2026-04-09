@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-09T06:43:16.298368-03:00",
-  "source_run_dir": "run_20260409_064258",
+  "generated_at": "2026-04-09T08:18:36.807924-03:00",
+  "source_run_dir": "run_20260409_081822",
   "cards": {
     "vigentes": 12,
-    "ultimas24h": 131,
-    "autoridadesAtivas": 27,
+    "ultimas24h": 127,
+    "autoridadesAtivas": 26,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "08:07",
+      "date": "09/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Urucará/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "06:16",
       "date": "09/04/2026",
@@ -55,18 +67,6 @@
       "uf": "MA",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas para o seu municipio. Evite areas de risco. Em caso de emergencia, acione a Defesa Civil ou CBMMA. Fim: 09/04.",
       "status": "vigente"
-    },
-    {
-      "time": "23:25",
-      "date": "08/04/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:23h25 Chuva isolada na regiao de Neves Paulista e Balsamo. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 23
+      "count": 20
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 42
+      "count": 38
     },
     {
       "label": "Alto",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 113
+      "count": 110
     },
     {
       "label": "Alagamentos",
@@ -157,8 +157,8 @@
       "count": 2
     },
     {
-      "label": "Vendaval",
-      "count": 2
+      "label": "Enxurradas",
+      "count": 1
     },
     {
       "label": "Outros",
@@ -172,7 +172,7 @@
     },
     {
       "uf": "SP",
-      "count": 23
+      "count": 20
     },
     {
       "uf": "AM",
@@ -192,7 +192,7 @@
     },
     {
       "uf": "SC",
-      "count": 4
+      "count": 3
     },
     {
       "uf": "PI",
@@ -226,10 +226,23 @@
     },
     {
       "label": "expirado",
-      "count": 119
+      "count": 115
     }
   ],
   "all_alerts": [
+    {
+      "date": "09/04/2026",
+      "time": "08:07",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Urucará/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-09T08:07:28-03:00",
+      "expires": "2026-04-09T12:00:00-03:00"
+    },
     {
       "date": "09/04/2026",
       "time": "06:16",
@@ -1279,7 +1292,7 @@
       "uf": "MG",
       "location": "Belo Horizonte/MG",
       "headline": "Defesa Civil:Chuva (20 a 40 mm), raios e ventos de 50 km/h ate 8h de quinta-feira (9) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-08T14:03:23-03:00",
       "expires": "2026-04-09T08:00:00-03:00"
     },
@@ -1867,88 +1880,23 @@
       "status": "expirado",
       "onset": "2026-04-08T08:35:25-03:00",
       "expires": "2026-04-08T10:15:00-03:00"
-    },
-    {
-      "date": "08/04/2026",
-      "time": "07:57",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "Blumenau/SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Vento persistente com rajadas de vento de intensidade moderada hoje (08) em Blumenau. Fique atento! Ocorrencias, 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-08T07:57:07-03:00",
-      "expires": "2026-04-08T20:00:00-03:00"
-    },
-    {
-      "date": "08/04/2026",
-      "time": "07:52",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Redobre a atencao no deslocamento.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-08T07:52:18-03:00",
-      "expires": "2026-04-08T12:00:00-03:00"
-    },
-    {
-      "date": "08/04/2026",
-      "time": "07:41",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:07h40 Chuva isolada na regiao de Piquete e Guaratingueta. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-08T07:41:07-03:00",
-      "expires": "2026-04-08T09:40:00-03:00"
-    },
-    {
-      "date": "08/04/2026",
-      "time": "07:37",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:07h35 Chuva isolada na regiao de Sao Simao e Serra Azul. Tem vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-08T07:37:24-03:00",
-      "expires": "2026-04-08T09:35:00-03:00"
-    },
-    {
-      "date": "08/04/2026",
-      "time": "06:46",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:06h47 Chuva na zona norte de Sao Paulo, Sao Roque e Franco da Rocha. Tem raios. Atinge areas vizinhas. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-04-08T06:46:38-03:00",
-      "expires": "2026-04-08T08:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 131,
+    "total_alerts": 127,
     "by_nivel": {
       "Alto": 74,
-      "Médio": 42,
+      "Médio": 38,
       "Severo": 15
     },
     "by_channel_list": {
-      "Google": 131
+      "Google": 127
     },
     "by_region": {
-      "SE": 87,
+      "SE": 84,
       "N": 15,
       "CO": 13,
-      "S": 11,
+      "S": 10,
       "NE": 5
     }
   }
