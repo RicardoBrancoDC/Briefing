@@ -1,15 +1,39 @@
 {
-  "generated_at": "2026-04-10T10:52:31.322534-03:00",
-  "source_run_dir": "run_20260410_105214",
+  "generated_at": "2026-04-10T12:10:07.265818-03:00",
+  "source_run_dir": "run_20260410_120925",
   "cards": {
-    "vigentes": 19,
+    "vigentes": 23,
     "ultimas24h": 111,
-    "autoridadesAtivas": 26,
+    "autoridadesAtivas": 25,
     "alertasExtremos": 2
   },
   "latest_alerts": [
     {
-      "time": "10:50",
+      "time": "12:05",
+      "date": "10/04/2026",
+      "senderName": "Defesa Civil de Duque de Caxias (RJ)",
+      "senderNameShort": "DC Duque de Caxias (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Duque de Caxias/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Permanece as condicoes de CHUVAS MODERADAS para HOJE (10/04) em Duque de Caxias. Evite areas alagadas. Emergencia, 21 99463-7387.",
+      "status": "vigente"
+    },
+    {
+      "time": "12:03",
+      "date": "10/04/2026",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "senderNameShort": "DC Mato Grosso",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "MATO GROSSO/MT",
+      "uf": "MT",
+      "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
+      "status": "vigente"
+    },
+    {
+      "time": "11:59",
       "date": "10/04/2026",
       "senderName": "Defesa Civil Estadual de Minas Gerais",
       "senderNameShort": "DC Minas Gerais",
@@ -21,51 +45,27 @@
       "status": "vigente"
     },
     {
-      "time": "10:25",
+      "time": "11:52",
       "date": "10/04/2026",
-      "senderName": "Defesa Civil Mangaratiba (RJ)",
-      "senderNameShort": "Defesa Civil Mangaratiba (R…",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
       "event": "Chuvas Intensas",
       "nivel": "Médio",
-      "location": "Mangaratiba/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:11h50 - Chuva isolada na regiao do ABC paulista. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
       "status": "vigente"
     },
     {
-      "time": "10:18",
+      "time": "11:21",
       "date": "10/04/2026",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "senderNameShort": "DC Goiás",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
       "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "GOIÁS/GO",
-      "uf": "GO",
-      "headline": "Defesa Civil:Possibilidade de chuvas e ventos intensos nas proximas 14 horas, com risco de alagamento e raios. Evite riscos. Emergencia 193",
-      "status": "vigente"
-    },
-    {
-      "time": "10:05",
-      "date": "10/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "09:43",
-      "date": "10/04/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Linhares/ES, Aracruz/ES",
-      "uf": "ES",
-      "headline": "Defesa Civil:(ES)ALERTA de VENTO,RAIOS e CHUVA FORTE para o litoral de Linhares e Aracruz nas proximas 6h. Evite area de risco. Em caso de emergencia ligue 193",
+      "nivel": "Alto",
+      "location": "Arceburgo/MG, Monte Santo de Minas/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com chuva de moderada a forte intensidade e rajadas de vento. Proteja-se! Fonte: SIMGE/IGAM",
       "status": "vigente"
     }
   ],
@@ -78,17 +78,17 @@
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 22
-    },
-    {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 11
+      "count": 25
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 10
+      "count": 12
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 9
     },
     {
       "name": "Defesa Civil Estadual do Rio de Janeiro",
@@ -101,38 +101,38 @@
       "count": 4
     },
     {
-      "name": "Defesa Civil Estadual de Goiás",
-      "short_name": "DC Goiás",
-      "count": 4
-    },
-    {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
       "count": 3
     },
     {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
+      "name": "Defesa Civil de Duque de Caxias (RJ)",
+      "short_name": "DC Duque de Caxias (RJ)",
       "count": 2
     },
     {
-      "name": "Defesa Civil de Niterói (RJ)",
-      "short_name": "DC Niterói (RJ)",
+      "name": "Defesa Civil Estadual de Goiás",
+      "short_name": "DC Goiás",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
       "count": 2
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 57
+      "count": 60
     },
     {
       "label": "Alto",
-      "count": 47
+      "count": 45
     },
     {
       "label": "Severo",
-      "count": 5
+      "count": 4
     },
     {
       "label": "Extremo",
@@ -176,35 +176,35 @@
     },
     {
       "uf": "MG",
-      "count": 25
+      "count": 28
     },
     {
       "uf": "RJ",
       "count": 19
     },
     {
-      "uf": "AM",
-      "count": 14
-    },
-    {
       "uf": "SP",
-      "count": 10
+      "count": 12
     },
     {
-      "uf": "GO",
-      "count": 4
+      "uf": "AM",
+      "count": 12
     },
     {
       "uf": "PA",
       "count": 3
     },
     {
+      "uf": "GO",
+      "count": 2
+    },
+    {
       "uf": "PI",
       "count": 2
     },
     {
-      "uf": "BA",
-      "count": 2
+      "uf": "MT",
+      "count": 1
     },
     {
       "uf": "PE",
@@ -222,14 +222,105 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 19
+      "count": 23
     },
     {
       "label": "expirado",
-      "count": 92
+      "count": 88
     }
   ],
   "all_alerts": [
+    {
+      "date": "10/04/2026",
+      "time": "12:05",
+      "senderName": "Defesa Civil de Duque de Caxias (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Duque de Caxias/RJ",
+      "headline": "Defesa Civil:Permanece as condicoes de CHUVAS MODERADAS para HOJE (10/04) em Duque de Caxias. Evite areas alagadas. Emergencia, 21 99463-7387.",
+      "status": "vigente",
+      "onset": "2026-04-10T12:05:00-03:00",
+      "expires": "2026-04-11T07:00:00-03:00"
+    },
+    {
+      "date": "10/04/2026",
+      "time": "12:03",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "MT",
+      "location": "MATO GROSSO/MT",
+      "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
+      "status": "vigente",
+      "onset": "2026-04-10T12:03:24-03:00",
+      "expires": "2026-04-11T00:55:00-03:00"
+    },
+    {
+      "date": "10/04/2026",
+      "time": "11:59",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com chuva de moderada a forte intensidade e rajadas de vento. Proteja-se! Fonte: SIMGE/IGAM",
+      "status": "vigente",
+      "onset": "2026-04-10T11:59:35-03:00",
+      "expires": "2026-04-10T15:00:00-03:00"
+    },
+    {
+      "date": "10/04/2026",
+      "time": "11:52",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:11h50 - Chuva isolada na regiao do ABC paulista. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
+      "status": "vigente",
+      "onset": "2026-04-10T11:52:34-03:00",
+      "expires": "2026-04-10T13:45:00-03:00"
+    },
+    {
+      "date": "10/04/2026",
+      "time": "11:21",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "Arceburgo/MG, Monte Santo de Minas/MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com chuva de moderada a forte intensidade e rajadas de vento. Proteja-se! Fonte: SIMGE/IGAM",
+      "status": "vigente",
+      "onset": "2026-04-10T11:21:03-03:00",
+      "expires": "2026-04-10T13:30:00-03:00"
+    },
+    {
+      "date": "10/04/2026",
+      "time": "11:17",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "Defesa Civil Estadual de Minas Gerais",
+      "headline": "Defesa Civil:Alerta de Tempestade com chuva de moderada a forte intensidade e rajadas de vento. Proteja-se! Fonte: SIMGE/IGAM",
+      "status": "vigente",
+      "onset": "2026-04-10T11:17:33-03:00",
+      "expires": "2026-04-10T12:30:00-03:00"
+    },
+    {
+      "date": "10/04/2026",
+      "time": "11:11",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:11h10 - Chuva isolada na regiao de Itapecerica da Serra e Zona Sul da Capital. Tem vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
+      "status": "vigente",
+      "onset": "2026-04-10T11:11:43-03:00",
+      "expires": "2026-04-10T13:10:00-03:00"
+    },
     {
       "date": "10/04/2026",
       "time": "10:50",
@@ -577,7 +668,7 @@
       "uf": "RJ",
       "location": "Duque de Caxias/RJ",
       "headline": "Defesa Civil:ALERTA de PANCADAS DE CHUVAS ISOLADAS COM RAIOS, a partir da NOITE (09/04) em Duque de Caxias. Evite areas alagadas. Emergencia, 21 99463-7387.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-09T19:50:00-03:00",
       "expires": "2026-04-10T12:00:00-03:00"
     },
@@ -1581,115 +1672,24 @@
       "status": "expirado",
       "onset": "2026-04-09T12:22:21-03:00",
       "expires": "2026-04-09T19:00:00-03:00"
-    },
-    {
-      "date": "09/04/2026",
-      "time": "12:00",
-      "senderName": "Defesa Civil de Nova Friburgo (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Nova Friburgo/RJ",
-      "headline": "Defesa Civil:NF/Previsao de chuva moderada a forte a partir da tarde que pode vir com raios e rajadas de vento nas proximas 24h. Emergencia tel 199/193",
-      "status": "expirado",
-      "onset": "2026-04-09T12:00:00-03:00",
-      "expires": "2026-04-10T10:00:00-03:00"
-    },
-    {
-      "date": "09/04/2026",
-      "time": "11:54",
-      "senderName": "Defesa Civil Estadual da Bahia",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "BA",
-      "location": "Mucugê/BA, Boa Nova/BA",
-      "headline": "Defesa Civil:Atencao desconsiderar Alerta Anterior",
-      "status": "vigente",
-      "onset": "2026-04-09T11:54:51-03:00",
-      "expires": "2026-04-10T12:00:00-03:00"
-    },
-    {
-      "date": "09/04/2026",
-      "time": "11:49",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Urucará/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-09T11:49:42-03:00",
-      "expires": "2026-04-09T14:30:00-03:00"
-    },
-    {
-      "date": "09/04/2026",
-      "time": "11:45",
-      "senderName": "Defesa Civil Estadual da Bahia",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "BA",
-      "location": "BAHIA/BA",
-      "headline": "Defesa Civil:Chuvas fortes pode atingir seu municipio Em caso de emergencia, ligue 193",
-      "status": "vigente",
-      "onset": "2026-04-09T11:45:01-03:00",
-      "expires": "2026-04-10T12:00:00-03:00"
-    },
-    {
-      "date": "09/04/2026",
-      "time": "11:39",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "GO",
-      "location": "GOIÁS/GO",
-      "headline": "Defesa Civil:Possibilidade de chuvas fortes e ventos intensos nas proximas 14 horas, com risco de alagamento e raios.Evite riscos. Emergencia 193",
-      "status": "expirado",
-      "onset": "2026-04-09T11:39:00-03:00",
-      "expires": "2026-04-09T23:55:00-03:00"
-    },
-    {
-      "date": "09/04/2026",
-      "time": "11:34",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "GO",
-      "location": "/GO",
-      "headline": "Defesa Civil:Possibilidade de chuvas e ventos intensos nas proximas 14 horas, com risco de alagamento e raios. Evite riscos. Emergencia 193",
-      "status": "expirado",
-      "onset": "2026-04-09T11:34:18-03:00",
-      "expires": "2026-04-09T23:55:00-03:00"
-    },
-    {
-      "date": "09/04/2026",
-      "time": "11:18",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Careiro da Várzea/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa para Careiro da Varzea. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-09T11:18:53-03:00",
-      "expires": "2026-04-09T15:30:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 111,
     "by_nivel": {
-      "Médio": 57,
-      "Alto": 47,
-      "Severo": 5,
+      "Médio": 60,
+      "Alto": 45,
+      "Severo": 4,
       "Extremo": 2
     },
     "by_channel_list": {
       "Google": 111
     },
     "by_region": {
-      "SE": 83,
-      "N": 17,
-      "NE": 6,
-      "CO": 5
+      "SE": 88,
+      "N": 15,
+      "CO": 4,
+      "NE": 4
     }
   }
 }
