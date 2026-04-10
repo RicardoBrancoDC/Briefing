@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-10T06:41:07.391796-03:00",
-  "source_run_dir": "run_20260410_064044",
+  "generated_at": "2026-04-10T08:14:42.474259-03:00",
+  "source_run_dir": "run_20260410_081423",
   "cards": {
     "vigentes": 14,
     "ultimas24h": 108,
-    "autoridadesAtivas": 26,
+    "autoridadesAtivas": 27,
     "alertasExtremos": 2
   },
   "latest_alerts": [
+    {
+      "time": "06:49",
+      "date": "10/04/2026",
+      "senderName": "Defesa Civil Estadual de Pernambuco",
+      "senderNameShort": "DC Pernambuco",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Fernando de Noronha/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:PE: FERNANDO DE NORONHA. ALERTA - Possibilidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da DC",
+      "status": "vigente"
+    },
     {
       "time": "06:00",
       "date": "10/04/2026",
@@ -55,18 +67,6 @@
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e GRANIZO em Rio Novo do Sul e Iconha nas proximas 06 horas. Evite area de risco. Emergencia ligue 193",
       "status": "expirado"
-    },
-    {
-      "time": "00:13",
-      "date": "10/04/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "ESPÍRITO SANTO/ES",
-      "uf": "ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e GRANIZO na regiao Norte e Noroeste nas proximas 06 horas. Evite area de risco. Emergencia ligue 193.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -83,7 +83,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 52
+      "count": 53
     },
     {
       "label": "Alto",
-      "count": 49
+      "count": 48
     },
     {
       "label": "Severo",
@@ -184,7 +184,7 @@
     },
     {
       "uf": "AM",
-      "count": 15
+      "count": 14
     },
     {
       "uf": "SP",
@@ -211,6 +211,10 @@
       "count": 2
     },
     {
+      "uf": "PE",
+      "count": 1
+    },
+    {
       "uf": "MA",
       "count": 1
     },
@@ -230,6 +234,19 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "10/04/2026",
+      "time": "06:49",
+      "senderName": "Defesa Civil Estadual de Pernambuco",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PE",
+      "location": "Fernando de Noronha/PE",
+      "headline": "Defesa Civil:PE: FERNANDO DE NORONHA. ALERTA - Possibilidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da DC",
+      "status": "vigente",
+      "onset": "2026-04-10T06:49:00-03:00",
+      "expires": "2026-04-11T23:00:00-03:00"
+    },
     {
       "date": "10/04/2026",
       "time": "06:00",
@@ -1409,7 +1426,7 @@
       "uf": "MG",
       "location": "Belo Horizonte/MG",
       "headline": "Defesa Civil:Chuva (20 a 40 mm), raios e ventos de 50 km/h ate 8h de sexta-feira (10) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-09T12:50:32-03:00",
       "expires": "2026-04-10T08:00:00-03:00"
     },
@@ -1620,26 +1637,13 @@
       "status": "expirado",
       "onset": "2026-04-09T09:24:48-03:00",
       "expires": "2026-04-09T23:55:00-03:00"
-    },
-    {
-      "date": "09/04/2026",
-      "time": "08:07",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Urucará/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-09T08:07:28-03:00",
-      "expires": "2026-04-09T12:00:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 108,
     "by_nivel": {
-      "Médio": 52,
-      "Alto": 49,
+      "Médio": 53,
+      "Alto": 48,
       "Severo": 5,
       "Extremo": 2
     },
@@ -1648,9 +1652,9 @@
     },
     "by_region": {
       "SE": 78,
-      "N": 18,
-      "CO": 6,
-      "NE": 6
+      "N": 17,
+      "NE": 7,
+      "CO": 6
     }
   }
 }
