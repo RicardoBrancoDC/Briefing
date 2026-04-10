@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-04-10T00:46:30.505257-03:00",
-  "source_run_dir": "run_20260410_004408",
+  "generated_at": "2026-04-10T03:11:46.196527-03:00",
+  "source_run_dir": "run_20260410_031043",
   "cards": {
-    "vigentes": 24,
-    "ultimas24h": 106,
-    "autoridadesAtivas": 25,
+    "vigentes": 20,
+    "ultimas24h": 108,
+    "autoridadesAtivas": 26,
     "alertasExtremos": 2
   },
   "latest_alerts": [
+    {
+      "time": "02:56",
+      "date": "10/04/2026",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "senderNameShort": "DC Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "ESPÍRITO SANTO/ES",
+      "uf": "ES",
+      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e GRANIZO na regiao Sul nas proximas 03 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "00:50",
+      "date": "10/04/2026",
+      "senderName": "Defesa Civil de Niterói (RJ)",
+      "senderNameShort": "DC Niterói (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Niterói/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Niteroi: Previsao de pancadas de chuva moderada a forte para a proxima hora. Em caso de emergencia, ligue 199.",
+      "status": "expirado"
+    },
     {
       "time": "00:15",
       "date": "10/04/2026",
@@ -42,38 +66,14 @@
       "location": "ESPÍRITO SANTO/ES",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e GRANIZO na regiao Norte e Noroeste nas proximas 04 horas. Evite area de risco.  Emergencia ligue 193",
-      "status": "vigente"
-    },
-    {
-      "time": "22:27",
-      "date": "09/04/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Mantenópolis/ES",
-      "uf": "ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA FORTE em Mantenopolis. Risco de alagamento nas proximas 03 horas. Evite area de risco. Emergencia ligue 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "22:11",
-      "date": "09/04/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Jaguaré/ES, São Mateus/ES",
-      "uf": "ES",
-      "headline": "Defesa Civil:ALERTA de CHUVA, RAIOS, VENTO e GRANIZO em Jaguare e Sao Mateus nas proximas 04 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 27
+      "count": 28
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 50
+      "count": 52
     },
     {
       "label": "Alto",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 90
+      "count": 92
     },
     {
       "label": "Granizo",
@@ -172,19 +172,19 @@
   "uf_distribution": [
     {
       "uf": "ES",
-      "count": 27
+      "count": 28
     },
     {
       "uf": "MG",
       "count": 23
     },
     {
-      "uf": "AM",
+      "uf": "RJ",
       "count": 16
     },
     {
-      "uf": "RJ",
-      "count": 15
+      "uf": "AM",
+      "count": 16
     },
     {
       "uf": "SP",
@@ -222,14 +222,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 24
+      "count": 20
     },
     {
       "label": "expirado",
-      "count": 82
+      "count": 88
     }
   ],
   "all_alerts": [
+    {
+      "date": "10/04/2026",
+      "time": "02:56",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "ES",
+      "location": "ESPÍRITO SANTO/ES",
+      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e GRANIZO na regiao Sul nas proximas 03 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
+      "status": "vigente",
+      "onset": "2026-04-10T02:56:06-03:00",
+      "expires": "2026-04-10T06:00:00-03:00"
+    },
+    {
+      "date": "10/04/2026",
+      "time": "00:50",
+      "senderName": "Defesa Civil de Niterói (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Niterói/RJ",
+      "headline": "Defesa Civil:Niteroi: Previsao de pancadas de chuva moderada a forte para a proxima hora. Em caso de emergencia, ligue 199.",
+      "status": "expirado",
+      "onset": "2026-04-10T00:50:15-03:00",
+      "expires": "2026-04-10T03:00:00-03:00"
+    },
     {
       "date": "10/04/2026",
       "time": "00:15",
@@ -265,7 +291,7 @@
       "uf": "ES",
       "location": "ESPÍRITO SANTO/ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e GRANIZO na regiao Norte e Noroeste nas proximas 04 horas. Evite area de risco.  Emergencia ligue 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-09T23:15:26-03:00",
       "expires": "2026-04-10T03:00:00-03:00"
     },
@@ -278,7 +304,7 @@
       "uf": "ES",
       "location": "Mantenópolis/ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA FORTE em Mantenopolis. Risco de alagamento nas proximas 03 horas. Evite area de risco. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-09T22:27:12-03:00",
       "expires": "2026-04-10T01:00:00-03:00"
     },
@@ -291,7 +317,7 @@
       "uf": "ES",
       "location": "Jaguaré/ES, São Mateus/ES",
       "headline": "Defesa Civil:ALERTA de CHUVA, RAIOS, VENTO e GRANIZO em Jaguare e Sao Mateus nas proximas 04 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-09T22:11:38-03:00",
       "expires": "2026-04-10T01:00:00-03:00"
     },
@@ -1513,7 +1539,7 @@
       "uf": "MT",
       "location": "MATO GROSSO/MT",
       "headline": "Defesa Civil:MT. Previsao de Chuva ate 60mm/h, ventos de 60-100km/h. Riscos de queda de galhos de arvores, alagamentos, descargas eletricas. Ligue: 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-09T10:49:23-03:00",
       "expires": "2026-04-10T00:55:00-03:00"
     },
@@ -1526,7 +1552,7 @@
       "uf": "MT",
       "location": "MATO GROSSO/MT",
       "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-09T10:45:53-03:00",
       "expires": "2026-04-10T00:55:00-03:00"
     },
@@ -1610,18 +1636,18 @@
     }
   ],
   "summary": {
-    "total_alerts": 106,
+    "total_alerts": 108,
     "by_nivel": {
-      "Médio": 50,
+      "Médio": 52,
       "Alto": 49,
       "Severo": 5,
       "Extremo": 2
     },
     "by_channel_list": {
-      "Google": 106
+      "Google": 108
     },
     "by_region": {
-      "SE": 75,
+      "SE": 77,
       "N": 19,
       "CO": 6,
       "NE": 6
