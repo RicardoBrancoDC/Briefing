@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-11T06:04:12.540344-03:00",
-  "source_run_dir": "run_20260411_060340",
+  "generated_at": "2026-04-11T07:57:21.395377-03:00",
+  "source_run_dir": "run_20260411_075658",
   "cards": {
-    "vigentes": 9,
-    "ultimas24h": 94,
-    "autoridadesAtivas": 16,
+    "vigentes": 7,
+    "ultimas24h": 93,
+    "autoridadesAtivas": 15,
     "alertasExtremos": 0
   },
   "latest_alerts": [
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 38
+      "count": 37
     },
     {
       "label": "Alto",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 70
+      "count": 69
     },
     {
       "label": "Granizo",
@@ -197,20 +197,16 @@
     {
       "uf": "GO",
       "count": 1
-    },
-    {
-      "uf": "PE",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 9
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 85
+      "count": 86
     }
   ],
   "all_alerts": [
@@ -1224,7 +1220,7 @@
       "uf": "RJ",
       "location": "Duque de Caxias/RJ",
       "headline": "Defesa Civil:Permanece as condicoes de CHUVAS MODERADAS para HOJE (10/04) em Duque de Caxias. Evite areas alagadas. Emergencia, 21 99463-7387.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-10T12:05:00-03:00",
       "expires": "2026-04-11T07:00:00-03:00"
     },
@@ -1422,36 +1418,23 @@
       "status": "vigente",
       "onset": "2026-04-10T08:30:00-03:00",
       "expires": "2026-04-11T23:55:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "06:49",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Fernando de Noronha/PE",
-      "headline": "Defesa Civil:PE: FERNANDO DE NORONHA. ALERTA - Possibilidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da DC",
-      "status": "vigente",
-      "onset": "2026-04-10T06:49:00-03:00",
-      "expires": "2026-04-11T23:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 94,
+    "total_alerts": 93,
     "by_nivel": {
       "Alto": 48,
-      "Médio": 38,
+      "Médio": 37,
       "Severo": 8
     },
     "by_channel_list": {
-      "Google": 94
+      "Google": 93
     },
     "by_region": {
       "SE": 82,
       "N": 7,
       "CO": 2,
-      "NE": 2,
+      "NE": 1,
       "S": 1
     }
   }
