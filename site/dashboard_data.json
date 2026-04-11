@@ -1,15 +1,51 @@
 {
-  "generated_at": "2026-04-11T13:58:21.299693-03:00",
-  "source_run_dir": "run_20260411_135732",
+  "generated_at": "2026-04-11T16:07:55.199875-03:00",
+  "source_run_dir": "run_20260411_160700",
   "cards": {
-    "vigentes": 12,
-    "ultimas24h": 74,
+    "vigentes": 16,
+    "ultimas24h": 63,
     "autoridadesAtivas": 13,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "12:57",
+      "time": "15:58",
+      "date": "11/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Severo",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento.   Nao enfrente areas alagadas. Procure local seguro.  Em caso de emergencia ligue: 199/193.",
+      "status": "vigente"
+    },
+    {
+      "time": "15:57",
+      "date": "11/04/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Indianópolis/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios e rajadas de vento nas proximas 2 horas. Proteja-se!",
+      "status": "vigente"
+    },
+    {
+      "time": "15:34",
+      "date": "11/04/2026",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "senderNameShort": "DC Manaus (AM)",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil: Alerta de Alagamentos para Manaus. Siga as orientacoes da Defesa Civil Local. Evite transitar por vias alagadas.",
+      "status": "vigente"
+    },
+    {
+      "time": "15:06",
       "date": "11/04/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
@@ -21,51 +57,15 @@
       "status": "vigente"
     },
     {
-      "time": "12:05",
+      "time": "12:57",
       "date": "11/04/2026",
-      "senderName": "Defesa Civil de Niterói (RJ)",
-      "senderNameShort": "DC Niterói (RJ)",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Alto",
-      "location": "Niterói/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Niteroi: Aviso de Ressaca Estendido. Inicio: 10/04 sexta-feira 06h. Fim: 11/04 sabado 21h. Ondas com altura de 3,0 metros. Emergencia, 199",
-      "status": "vigente"
-    },
-    {
-      "time": "11:44",
-      "date": "11/04/2026",
-      "senderName": "Defesa Civil de Fortaleza (CE)",
-      "senderNameShort": "DC Fortaleza (CE)",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
       "event": "Chuvas Intensas",
       "nivel": "Alto",
-      "location": "Fortaleza/CE",
-      "uf": "CE",
-      "headline": "Defesa Civil:FORTALEZA: RISCO MEDIO para chuvas intensas.. Risco de  vias alagadas, are6as inundadas e deslizamento. Proteja-se de raios. Ate 17h",
-      "status": "vigente"
-    },
-    {
-      "time": "11:34",
-      "date": "11/04/2026",
-      "senderName": "Defesa Civil Estadual do Ceará",
-      "senderNameShort": "DC Ceará",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "CEARÁ/CE",
-      "uf": "CE",
-      "headline": "Defesa Civil:(CEARA)Possibilidade da chuva continuar ao longo do dia, evite areas alagadas. Fonte:FUNCEME. EMERGENCIA: 193/190",
-      "status": "vigente"
-    },
-    {
-      "time": "11:34",
-      "date": "11/04/2026",
-      "senderName": "Defesa Civil Estadual de Mato Grosso",
-      "senderNameShort": "DC Mato Grosso",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "MATO GROSSO/MT",
-      "uf": "MT",
-      "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Redobre a atencao no deslocamento. Siga a orientacao da defesa civil local e plano de contingencia municipal",
       "status": "vigente"
     }
   ],
@@ -73,12 +73,7 @@
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 43
-    },
-    {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 7
+      "count": 37
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -88,12 +83,17 @@
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Defesa Civil de Belo Horizonte (MG)",
       "short_name": "DC Belo Horizonte (MG)",
       "count": 3
+    },
+    {
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
+      "count": 2
     },
     {
       "name": "Defesa Civil de Niterói (RJ)",
@@ -106,6 +106,11 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 2
+    },
+    {
       "name": "Defesa Civil de Fortaleza (CE)",
       "short_name": "DC Fortaleza (CE)",
       "count": 1
@@ -114,21 +119,16 @@
       "name": "Defesa Civil Estadual do Ceará",
       "short_name": "DC Ceará",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 23
+      "count": 17
     },
     {
       "label": "Alto",
-      "count": 43
+      "count": 38
     },
     {
       "label": "Severo",
@@ -138,11 +138,15 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 49
+      "count": 36
     },
     {
       "label": "Granizo",
       "count": 21
+    },
+    {
+      "label": "Alagamentos",
+      "count": 2
     },
     {
       "label": "Marés De Tempestade (Ressacas)",
@@ -157,26 +161,22 @@
       "count": 1
     },
     {
-      "label": "Enxurradas",
+      "label": "Outros",
       "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "MG",
-      "count": 47
+      "count": 41
     },
     {
       "uf": "AM",
-      "count": 7
-    },
-    {
-      "uf": "SP",
-      "count": 7
+      "count": 8
     },
     {
       "uf": "ES",
-      "count": 5
+      "count": 4
     },
     {
       "uf": "RJ",
@@ -191,6 +191,10 @@
       "count": 2
     },
     {
+      "uf": "SP",
+      "count": 2
+    },
+    {
       "uf": "GO",
       "count": 1
     },
@@ -202,14 +206,66 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 12
+      "count": 16
     },
     {
       "label": "expirado",
-      "count": 62
+      "count": 47
     }
   ],
   "all_alerts": [
+    {
+      "date": "11/04/2026",
+      "time": "15:58",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Severo",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento.   Nao enfrente areas alagadas. Procure local seguro.  Em caso de emergencia ligue: 199/193.",
+      "status": "vigente",
+      "onset": "2026-04-11T15:58:31-03:00",
+      "expires": "2026-04-11T22:50:00-03:00"
+    },
+    {
+      "date": "11/04/2026",
+      "time": "15:57",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "Indianópolis/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios e rajadas de vento nas proximas 2 horas. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-04-11T15:57:46-03:00",
+      "expires": "2026-04-11T17:55:00-03:00"
+    },
+    {
+      "date": "11/04/2026",
+      "time": "15:34",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil: Alerta de Alagamentos para Manaus. Siga as orientacoes da Defesa Civil Local. Evite transitar por vias alagadas.",
+      "status": "vigente",
+      "onset": "2026-04-11T15:34:54-03:00",
+      "expires": "2026-04-11T21:00:00-03:00"
+    },
+    {
+      "date": "11/04/2026",
+      "time": "15:06",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Redobre a atencao no deslocamento. Siga a orientacao da defesa civil local e plano de contingencia municipal",
+      "status": "vigente",
+      "onset": "2026-04-11T15:06:20-03:00",
+      "expires": "2026-04-11T19:00:00-03:00"
+    },
     {
       "date": "11/04/2026",
       "time": "12:57",
@@ -976,216 +1032,21 @@
       "status": "expirado",
       "onset": "2026-04-10T16:10:18-03:00",
       "expires": "2026-04-10T17:45:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "15:39",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se! Fonte: SIMGE/IGAM",
-      "status": "expirado",
-      "onset": "2026-04-10T15:39:17-03:00",
-      "expires": "2026-04-10T19:00:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "15:37",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Francisco Dumont/MG, Várzea da Palma/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se! Fonte: SIMGE/IGAM",
-      "status": "expirado",
-      "onset": "2026-04-10T15:37:58-03:00",
-      "expires": "2026-04-10T19:00:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "15:29",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se! Fonte: SIMGE/IGAM",
-      "status": "expirado",
-      "onset": "2026-04-10T15:29:32-03:00",
-      "expires": "2026-04-10T19:00:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "15:23",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:15h20 Chuva isolada na regiao de Jau e Dois Corregos. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-10T15:23:46-03:00",
-      "expires": "2026-04-10T16:55:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "15:19",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-10T15:19:31-03:00",
-      "expires": "2026-04-10T18:30:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "15:09",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Afonso Cláudio/ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de VENTO, RAIOS e CHUVA FORTE em Afonso Claudio nas proximas 02 horas. Evite area de risco. Proteja-se. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-04-10T15:09:19-03:00",
-      "expires": "2026-04-10T17:00:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "14:45",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se! Fonte: SIMGE/IGAM",
-      "status": "expirado",
-      "onset": "2026-04-10T14:45:41-03:00",
-      "expires": "2026-04-10T18:30:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "14:42",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:Chuva forte se espalhando pela regiao de Lencois Paulista. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-10T14:42:33-03:00",
-      "expires": "2026-04-10T16:35:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "14:40",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-10T14:40:47-03:00",
-      "expires": "2026-04-10T17:00:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "14:37",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:14h35 Chuva isolada e moderada avancando por Bertioga e Sao Sebastiao. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-10T14:37:56-03:00",
-      "expires": "2026-04-10T16:35:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "14:36",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se! Fonte: SIMGE/IGAM",
-      "status": "expirado",
-      "onset": "2026-04-10T14:36:20-03:00",
-      "expires": "2026-04-10T18:00:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "14:20",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se! Fonte: SIMGE/IGAM",
-      "status": "expirado",
-      "onset": "2026-04-10T14:20:35-03:00",
-      "expires": "2026-04-10T18:00:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "14:12",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:14h10 Chuva isolada na regiao de Lencois Paulista e Agudos. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-10T14:12:26-03:00",
-      "expires": "2026-04-10T15:55:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "14:08",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:14h Chuva isolada na zona norte e leste de Sao Paulo, Guarulhos e ABC paulista. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-04-10T14:08:23-03:00",
-      "expires": "2026-04-10T16:00:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "14:08",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se! Fonte: SIMGE/IGAM",
-      "status": "expirado",
-      "onset": "2026-04-10T14:08:13-03:00",
-      "expires": "2026-04-10T17:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 74,
+    "total_alerts": 63,
     "by_nivel": {
-      "Alto": 43,
-      "Médio": 23,
+      "Alto": 38,
+      "Médio": 17,
       "Severo": 8
     },
     "by_channel_list": {
-      "Google": 74
+      "Google": 63
     },
     "by_region": {
-      "SE": 61,
-      "N": 7,
+      "SE": 49,
+      "N": 8,
       "CO": 3,
       "NE": 2,
       "S": 1
