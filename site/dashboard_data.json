@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-11T04:20:18.928330-03:00",
-  "source_run_dir": "run_20260411_041935",
+  "generated_at": "2026-04-11T06:04:12.540344-03:00",
+  "source_run_dir": "run_20260411_060340",
   "cards": {
-    "vigentes": 10,
-    "ultimas24h": 95,
+    "vigentes": 9,
+    "ultimas24h": 94,
     "autoridadesAtivas": 16,
     "alertasExtremos": 0
   },
@@ -18,7 +18,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 11/04 00:39 - CHUVA PERSISTENTE de intensidade moderada a forte com RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Araquari, Balneário Barra do Sul, Itapoá, Joinville e São Francisco do Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "23:28",
@@ -96,11 +96,6 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil de Niterói (RJ)",
-      "short_name": "DC Niterói (RJ)",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil Mangaratiba (RJ)",
       "short_name": "Defesa Civil Mangaratiba (RJ)",
       "count": 2
@@ -116,6 +111,11 @@
       "count": 1
     },
     {
+      "name": "Defesa Civil de Niterói (RJ)",
+      "short_name": "DC Niterói (RJ)",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil de Itutinga (MG)",
       "short_name": "DC Itutinga (MG)",
       "count": 1
@@ -128,7 +128,7 @@
     },
     {
       "label": "Alto",
-      "count": 49
+      "count": 48
     },
     {
       "label": "Severo",
@@ -145,15 +145,15 @@
       "count": 21
     },
     {
-      "label": "Marés De Tempestade (Ressacas)",
-      "count": 2
-    },
-    {
       "label": "Enxurradas",
       "count": 1
     },
     {
       "label": "Solo/Lama",
+      "count": 1
+    },
+    {
+      "label": "Marés De Tempestade (Ressacas)",
       "count": 1
     }
   ],
@@ -171,12 +171,12 @@
       "count": 7
     },
     {
-      "uf": "RJ",
+      "uf": "AM",
       "count": 5
     },
     {
-      "uf": "AM",
-      "count": 5
+      "uf": "RJ",
+      "count": 4
     },
     {
       "uf": "PA",
@@ -206,7 +206,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 10
+      "count": 9
     },
     {
       "label": "expirado",
@@ -223,7 +223,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 11/04 00:39 - CHUVA PERSISTENTE de intensidade moderada a forte com RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Araquari, Balneário Barra do Sul, Itapoá, Joinville e São Francisco do Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-11T00:43:01-03:00",
       "expires": "2026-04-11T04:40:00-03:00"
     },
@@ -1435,33 +1435,20 @@
       "status": "vigente",
       "onset": "2026-04-10T06:49:00-03:00",
       "expires": "2026-04-11T23:00:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "06:00",
-      "senderName": "Defesa Civil de Niterói (RJ)",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Niterói/RJ",
-      "headline": "Defesa Civil:Niteroi: Aviso de Ressaca. Inicio: 10/04 sexta-feira 06h. Fim: 10/04 sexta-feira 21h. Ondas com altura de 3,0 metros. Emergencia, 199",
-      "status": "expirado",
-      "onset": "2026-04-10T06:00:00-03:00",
-      "expires": "2026-04-10T21:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 95,
+    "total_alerts": 94,
     "by_nivel": {
-      "Alto": 49,
+      "Alto": 48,
       "Médio": 38,
       "Severo": 8
     },
     "by_channel_list": {
-      "Google": 95
+      "Google": 94
     },
     "by_region": {
-      "SE": 83,
+      "SE": 82,
       "N": 7,
       "CO": 2,
       "NE": 2,
