@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-11T02:42:38.002727-03:00",
-  "source_run_dir": "run_20260411_024125",
+  "generated_at": "2026-04-11T04:20:18.928330-03:00",
+  "source_run_dir": "run_20260411_041935",
   "cards": {
-    "vigentes": 13,
-    "ultimas24h": 96,
+    "vigentes": 10,
+    "ultimas24h": 95,
     "autoridadesAtivas": 16,
     "alertasExtremos": 0
   },
@@ -30,7 +30,7 @@
       "location": "São Mateus/ES",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de VENTO, RAIOS e CHUVA FORTE em Sao Mateus nas proximas 04 horas. Evite area de risco. Fique atento.Emergencia ligue 193",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "22:59",
@@ -83,7 +83,7 @@
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 8
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 39
+      "count": 38
     },
     {
       "label": "Alto",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 71
+      "count": 70
     },
     {
       "label": "Granizo",
@@ -168,7 +168,7 @@
     },
     {
       "uf": "ES",
-      "count": 8
+      "count": 7
     },
     {
       "uf": "RJ",
@@ -206,11 +206,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 13
+      "count": 10
     },
     {
       "label": "expirado",
-      "count": 83
+      "count": 85
     }
   ],
   "all_alerts": [
@@ -236,7 +236,7 @@
       "uf": "ES",
       "location": "São Mateus/ES",
       "headline": "Defesa Civil:(ES) ALERTA de VENTO, RAIOS e CHUVA FORTE em Sao Mateus nas proximas 04 horas. Evite area de risco. Fique atento.Emergencia ligue 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-10T23:28:08-03:00",
       "expires": "2026-04-11T03:00:00-03:00"
     },
@@ -314,7 +314,7 @@
       "uf": "ES",
       "location": "Conceição da Barra/ES",
       "headline": "Defesa Civil:(ES) ALERTA de VENTO, RAIOS e CHUVA FORTE em Conceicao da Barra nas proximas 06 horas. Evite area de risco.  Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-10T20:16:52-03:00",
       "expires": "2026-04-11T03:00:00-03:00"
     },
@@ -379,7 +379,7 @@
       "uf": "ES",
       "location": "ESPÍRITO SANTO/ES",
       "headline": "Defesa Civil:(ES)ALERTA de VENTO, RAIOS e CHUVA FORTE na regiao Centro-Oeste nas proximas 08 horas.Evite area de risco. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-10T19:10:35-03:00",
       "expires": "2026-04-11T03:00:00-03:00"
     },
@@ -1448,33 +1448,20 @@
       "status": "expirado",
       "onset": "2026-04-10T06:00:00-03:00",
       "expires": "2026-04-10T21:00:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "02:56",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "ESPÍRITO SANTO/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e GRANIZO na regiao Sul nas proximas 03 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-04-10T02:56:06-03:00",
-      "expires": "2026-04-10T06:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 96,
+    "total_alerts": 95,
     "by_nivel": {
       "Alto": 49,
-      "Médio": 39,
+      "Médio": 38,
       "Severo": 8
     },
     "by_channel_list": {
-      "Google": 96
+      "Google": 95
     },
     "by_region": {
-      "SE": 84,
+      "SE": 83,
       "N": 7,
       "CO": 2,
       "NE": 2,
