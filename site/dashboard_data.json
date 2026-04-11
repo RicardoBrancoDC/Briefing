@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-11T00:23:12.440987-03:00",
-  "source_run_dir": "run_20260411_002148",
+  "generated_at": "2026-04-11T02:42:38.002727-03:00",
+  "source_run_dir": "run_20260411_024125",
   "cards": {
     "vigentes": 13,
     "ultimas24h": 96,
-    "autoridadesAtivas": 15,
+    "autoridadesAtivas": 16,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "00:43",
+      "date": "11/04/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 11/04 00:39 - CHUVA PERSISTENTE de intensidade moderada a forte com RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Araquari, Balneário Barra do Sul, Itapoá, Joinville e São Francisco do Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "23:28",
       "date": "10/04/2026",
@@ -55,18 +67,6 @@
       "uf": "MG",
       "headline": "Defesa Civil:21h36 - Alerta de chuvas intensas com risco de enxurradas e alagamentos em Belo Horizonte nas proximas horas. Proteja-se!",
       "status": "expirado"
-    },
-    {
-      "time": "20:49",
-      "date": "10/04/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios e rajadas de vento nas proximas 2h. Proteja-se!",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -98,7 +98,7 @@
     {
       "name": "Defesa Civil de Niterói (RJ)",
       "short_name": "DC Niterói (RJ)",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Defesa Civil Mangaratiba (RJ)",
@@ -111,13 +111,13 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil de Itutinga (MG)",
-      "short_name": "DC Itutinga (MG)",
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
       "count": 1
     },
     {
-      "name": "Defesa Civil de Santana de Parnaíba (SP)",
-      "short_name": "DC Santana de Parnaíba (SP)",
+      "name": "Defesa Civil de Itutinga (MG)",
+      "short_name": "DC Itutinga (MG)",
       "count": 1
     }
   ],
@@ -172,7 +172,7 @@
     },
     {
       "uf": "RJ",
-      "count": 6
+      "count": 5
     },
     {
       "uf": "AM",
@@ -181,6 +181,10 @@
     {
       "uf": "PA",
       "count": 2
+    },
+    {
+      "uf": "SC",
+      "count": 1
     },
     {
       "uf": "PI",
@@ -210,6 +214,19 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "11/04/2026",
+      "time": "00:43",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 11/04 00:39 - CHUVA PERSISTENTE de intensidade moderada a forte com RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Araquari, Balneário Barra do Sul, Itapoá, Joinville e São Francisco do Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-04-11T00:43:01-03:00",
+      "expires": "2026-04-11T04:40:00-03:00"
+    },
     {
       "date": "10/04/2026",
       "time": "23:28",
@@ -1220,7 +1237,7 @@
       "uf": "MT",
       "location": "MATO GROSSO/MT",
       "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-10T12:03:24-03:00",
       "expires": "2026-04-11T00:55:00-03:00"
     },
@@ -1444,19 +1461,6 @@
       "status": "expirado",
       "onset": "2026-04-10T02:56:06-03:00",
       "expires": "2026-04-10T06:00:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "00:50",
-      "senderName": "Defesa Civil de Niterói (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Niterói/RJ",
-      "headline": "Defesa Civil:Niteroi: Previsao de pancadas de chuva moderada a forte para a proxima hora. Em caso de emergencia, ligue 199.",
-      "status": "expirado",
-      "onset": "2026-04-10T00:50:15-03:00",
-      "expires": "2026-04-10T03:00:00-03:00"
     }
   ],
   "summary": {
@@ -1470,10 +1474,11 @@
       "Google": 96
     },
     "by_region": {
-      "SE": 85,
+      "SE": 84,
       "N": 7,
       "CO": 2,
-      "NE": 2
+      "NE": 2,
+      "S": 1
     }
   }
 }
