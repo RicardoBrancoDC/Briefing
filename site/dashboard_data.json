@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-04-11T07:57:21.395377-03:00",
-  "source_run_dir": "run_20260411_075658",
+  "generated_at": "2026-04-11T10:33:17.446507-03:00",
+  "source_run_dir": "run_20260411_103259",
   "cards": {
-    "vigentes": 7,
-    "ultimas24h": 93,
-    "autoridadesAtivas": 15,
+    "vigentes": 6,
+    "ultimas24h": 88,
+    "autoridadesAtivas": 12,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "09:54",
+      "date": "11/04/2026",
+      "senderName": "Defesa Civil de Belo Horizonte (MG)",
+      "senderNameShort": "DC Belo Horizonte (MG)",
+      "event": "Friagem",
+      "nivel": "Médio",
+      "location": "Belo Horizonte/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de baixa temperatura em Belo Horizonte ate 10h de sexta-feira (17). Em torno de 13 graus nas primeiras horas do dia. Proteja-se!",
+      "status": "vigente"
+    },
+    {
+      "time": "08:56",
+      "date": "11/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Santo Antônio do Içá/AM, Nhamundá/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "08:31",
+      "date": "11/04/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Deslizamentos",
+      "nivel": "Médio",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:ALERTA DE RISCO GEOLOGICO: Risco Moderado de Deslizamentos. Atente-se a locais de encostas, quedas de muros e desabamentos.",
+      "status": "vigente"
+    },
     {
       "time": "00:43",
       "date": "11/04/2026",
@@ -31,42 +67,6 @@
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de VENTO, RAIOS e CHUVA FORTE em Sao Mateus nas proximas 04 horas. Evite area de risco. Fique atento.Emergencia ligue 193",
       "status": "expirado"
-    },
-    {
-      "time": "22:59",
-      "date": "10/04/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Capim Branco/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Chuva Forte  com ventos fortes e risco de Alagamentos.  Proteja-se! Em caso de emergencia ligue 193",
-      "status": "expirado"
-    },
-    {
-      "time": "21:57",
-      "date": "10/04/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios e rajadas de vento nas proximas 2h. Proteja-se!",
-      "status": "expirado"
-    },
-    {
-      "time": "21:47",
-      "date": "10/04/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:21h36 - Alerta de chuvas intensas com risco de enxurradas e alagamentos em Belo Horizonte nas proximas horas. Proteja-se!",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -83,7 +83,7 @@
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 7
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -93,17 +93,7 @@
     {
       "name": "Defesa Civil de Belo Horizonte (MG)",
       "short_name": "DC Belo Horizonte (MG)",
-      "count": 3
-    },
-    {
-      "name": "Defesa Civil Mangaratiba (RJ)",
-      "short_name": "Defesa Civil Mangaratiba (RJ)",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
-      "count": 2
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -119,16 +109,26 @@
       "name": "Defesa Civil de Itutinga (MG)",
       "short_name": "DC Itutinga (MG)",
       "count": 1
+    },
+    {
+      "name": "Defesa Civil de Santana de Parnaíba (SP)",
+      "short_name": "DC Santana de Parnaíba (SP)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual do Piauí",
+      "short_name": "DC Piauí",
+      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 37
+      "count": 34
     },
     {
       "label": "Alto",
-      "count": 48
+      "count": 46
     },
     {
       "label": "Severo",
@@ -138,11 +138,19 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 69
+      "count": 63
     },
     {
       "label": "Granizo",
       "count": 21
+    },
+    {
+      "label": "Friagem",
+      "count": 1
+    },
+    {
+      "label": "Deslizamentos",
+      "count": 1
     },
     {
       "label": "Enxurradas",
@@ -151,16 +159,12 @@
     {
       "label": "Solo/Lama",
       "count": 1
-    },
-    {
-      "label": "Marés De Tempestade (Ressacas)",
-      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "MG",
-      "count": 53
+      "count": 54
     },
     {
       "uf": "SP",
@@ -168,7 +172,7 @@
     },
     {
       "uf": "ES",
-      "count": 7
+      "count": 6
     },
     {
       "uf": "AM",
@@ -176,10 +180,6 @@
     },
     {
       "uf": "RJ",
-      "count": 4
-    },
-    {
-      "uf": "PA",
       "count": 2
     },
     {
@@ -193,23 +193,58 @@
     {
       "uf": "MT",
       "count": 1
-    },
-    {
-      "uf": "GO",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 6
     },
     {
       "label": "expirado",
-      "count": 86
+      "count": 82
     }
   ],
   "all_alerts": [
+    {
+      "date": "11/04/2026",
+      "time": "09:54",
+      "senderName": "Defesa Civil de Belo Horizonte (MG)",
+      "event": "Friagem",
+      "nivel": "Médio",
+      "uf": "MG",
+      "location": "Belo Horizonte/MG",
+      "headline": "Defesa Civil:Alerta de baixa temperatura em Belo Horizonte ate 10h de sexta-feira (17). Em torno de 13 graus nas primeiras horas do dia. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-04-11T09:54:36-03:00",
+      "expires": "2026-04-17T10:00:00-03:00"
+    },
+    {
+      "date": "11/04/2026",
+      "time": "08:56",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Santo Antônio do Içá/AM, Nhamundá/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-11T08:56:54-03:00",
+      "expires": "2026-04-11T12:45:00-03:00"
+    },
+    {
+      "date": "11/04/2026",
+      "time": "08:31",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Deslizamentos",
+      "nivel": "Médio",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:ALERTA DE RISCO GEOLOGICO: Risco Moderado de Deslizamentos. Atente-se a locais de encostas, quedas de muros e desabamentos.",
+      "status": "vigente",
+      "onset": "2026-04-11T08:31:00-03:00",
+      "expires": "2026-04-12T09:00:00-03:00"
+    },
     {
       "date": "11/04/2026",
       "time": "00:43",
@@ -1025,7 +1060,7 @@
       "uf": "MG",
       "location": "Belo Horizonte/MG",
       "headline": "Defesa Civil:Chuva (20 a 30 mm), raios e ventos de 50 km/h ate 8h de sabado (11) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-10T13:56:25-03:00",
       "expires": "2026-04-11T08:00:00-03:00"
     },
@@ -1314,126 +1349,22 @@
       "status": "expirado",
       "onset": "2026-04-10T10:50:15-03:00",
       "expires": "2026-04-10T12:50:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "10:25",
-      "senderName": "Defesa Civil Mangaratiba (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
-      "status": "vigente",
-      "onset": "2026-04-10T10:25:00-03:00",
-      "expires": "2026-04-11T10:55:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "10:18",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "GO",
-      "location": "GOIÁS/GO",
-      "headline": "Defesa Civil:Possibilidade de chuvas e ventos intensos nas proximas 14 horas, com risco de alagamento e raios. Evite riscos. Emergencia 193",
-      "status": "expirado",
-      "onset": "2026-04-10T10:18:19-03:00",
-      "expires": "2026-04-10T23:55:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "10:05",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-10T10:05:39-03:00",
-      "expires": "2026-04-10T15:00:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "09:43",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Linhares/ES, Aracruz/ES",
-      "headline": "Defesa Civil:(ES)ALERTA de VENTO,RAIOS e CHUVA FORTE para o litoral de Linhares e Aracruz nas proximas 6h. Evite area de risco. Em caso de emergencia ligue 193",
-      "status": "expirado",
-      "onset": "2026-04-10T09:43:54-03:00",
-      "expires": "2026-04-10T15:00:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "09:37",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:SUDOESTE PARAENSE: Alerta ALTO de CHUVAS INTENSAS hoje (10ABR). Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
-      "status": "expirado",
-      "onset": "2026-04-10T09:37:13-03:00",
-      "expires": "2026-04-10T23:55:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "09:34",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PA",
-      "location": "/PA",
-      "headline": "Defesa Civil:PARA: Alerta MODERADO de CHUVAS INTENSAS hoje (10ABR). Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
-      "status": "expirado",
-      "onset": "2026-04-10T09:34:32-03:00",
-      "expires": "2026-04-10T23:55:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "09:25",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:ALERTA DE RISCO GEOLOGICO: Risco Moderado de Deslizamentos. Atente-se a locais de encostas, quedas de muros e desabamentos.",
-      "status": "vigente",
-      "onset": "2026-04-10T09:25:02-03:00",
-      "expires": "2026-04-11T09:00:00-03:00"
-    },
-    {
-      "date": "10/04/2026",
-      "time": "08:30",
-      "senderName": "Defesa Civil Mangaratiba (RJ)",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "headline": "Defesa Civil:MANGARATIBA -RJ  Aviso de Ressaca. Inicio: 10/04 sexta-feira 06h. Fim: 11/04 sabado 21h. Ondas com altura de 3,0 metros. Emergencia 3030-2662",
-      "status": "vigente",
-      "onset": "2026-04-10T08:30:00-03:00",
-      "expires": "2026-04-11T23:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 93,
+    "total_alerts": 88,
     "by_nivel": {
-      "Alto": 48,
-      "Médio": 37,
+      "Alto": 46,
+      "Médio": 34,
       "Severo": 8
     },
     "by_channel_list": {
-      "Google": 93
+      "Google": 88
     },
     "by_region": {
-      "SE": 82,
-      "N": 7,
-      "CO": 2,
+      "SE": 80,
+      "N": 5,
+      "CO": 1,
       "NE": 1,
       "S": 1
     }
