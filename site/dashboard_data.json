@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-12T03:04:52.851607-03:00",
-  "source_run_dir": "run_20260412_030425",
+  "generated_at": "2026-04-12T04:46:58.896246-03:00",
+  "source_run_dir": "run_20260412_044633",
   "cards": {
-    "vigentes": 22,
-    "ultimas24h": 39,
+    "vigentes": 21,
+    "ultimas24h": 40,
     "autoridadesAtivas": 14,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "04:30",
+      "date": "12/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Severo",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro.  Em caso de emergencia ligue: 199/193.",
+      "status": "vigente"
+    },
     {
       "time": "02:01",
       "date": "12/04/2026",
@@ -54,26 +66,14 @@
       "location": "Careiro da Várzea/AM, Rio Preto da Eva/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Redobre a atencao no deslocamento.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "00:00",
-      "date": "12/04/2026",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "senderNameShort": "DC Maranhão",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "/MA",
-      "uf": "MA",
-      "headline": "Defesa Civil:Chuvas intensas para todo o MA. Evite areas de risco. Em caso de emergencia, ligue 199 ou 193. Fim da vigencia: 12/04 as 23h59.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 13
+      "count": 14
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -132,7 +132,7 @@
     },
     {
       "label": "Severo",
-      "count": 4
+      "count": 5
     }
   ],
   "event_distribution": [
@@ -141,12 +141,12 @@
       "count": 33
     },
     {
-      "label": "Alagamentos",
+      "label": "Solo/Lama",
       "count": 2
     },
     {
-      "label": "Solo/Lama",
-      "count": 1
+      "label": "Alagamentos",
+      "count": 2
     },
     {
       "label": "Marés De Tempestade (Ressacas)",
@@ -164,7 +164,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 16
+      "count": 17
     },
     {
       "uf": "MG",
@@ -206,14 +206,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 22
+      "count": 21
     },
     {
       "label": "expirado",
-      "count": 17
+      "count": 19
     }
   ],
   "all_alerts": [
+    {
+      "date": "12/04/2026",
+      "time": "04:30",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Severo",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro.  Em caso de emergencia ligue: 199/193.",
+      "status": "vigente",
+      "onset": "2026-04-12T04:30:36-03:00",
+      "expires": "2026-04-12T13:00:00-03:00"
+    },
     {
       "date": "12/04/2026",
       "time": "02:01",
@@ -262,7 +275,7 @@
       "uf": "AM",
       "location": "Careiro da Várzea/AM, Rio Preto da Eva/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Redobre a atencao no deslocamento.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-12T00:28:01-03:00",
       "expires": "2026-04-12T04:30:00-03:00"
     },
@@ -496,7 +509,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.   Afaste-se de encostas. Procure abrigo seguro.  Em caso de emergencia ligue: 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-11T16:15:36-03:00",
       "expires": "2026-04-12T04:10:00-03:00"
     },
@@ -723,17 +736,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 39,
+    "total_alerts": 40,
     "by_nivel": {
       "Médio": 18,
       "Alto": 17,
-      "Severo": 4
+      "Severo": 5
     },
     "by_channel_list": {
-      "Google": 39
+      "Google": 40
     },
     "by_region": {
-      "N": 16,
+      "N": 17,
       "NE": 8,
       "SE": 8,
       "S": 4,
