@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-12T12:01:00.608672-03:00",
-  "source_run_dir": "run_20260412_120011",
+  "generated_at": "2026-04-12T13:59:47.146410-03:00",
+  "source_run_dir": "run_20260412_135914",
   "cards": {
-    "vigentes": 29,
-    "ultimas24h": 55,
-    "autoridadesAtivas": 18,
+    "vigentes": 27,
+    "ultimas24h": 53,
+    "autoridadesAtivas": 17,
     "alertasExtremos": 0
   },
   "latest_alerts": [
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 19
+      "count": 18
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Alto",
-      "count": 26
+      "count": 24
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 46
+      "count": 45
     },
     {
       "label": "Solo/Lama",
@@ -151,16 +151,12 @@
     {
       "label": "Frentes Frias/Zonas De Convergência",
       "count": 1
-    },
-    {
-      "label": "Marés De Tempestade (Ressacas)",
-      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 22
+      "count": 21
     },
     {
       "uf": "SC",
@@ -205,16 +201,12 @@
     {
       "uf": "MA",
       "count": 1
-    },
-    {
-      "uf": "RJ",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 29
+      "count": 27
     },
     {
       "label": "expirado",
@@ -491,7 +483,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-12T07:22:20-03:00",
       "expires": "2026-04-12T12:30:00-03:00"
     },
@@ -556,7 +548,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro.  Em caso de emergencia ligue: 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-12T04:30:36-03:00",
       "expires": "2026-04-12T13:00:00-03:00"
     },
@@ -910,49 +902,23 @@
       "status": "expirado",
       "onset": "2026-04-11T15:06:20-03:00",
       "expires": "2026-04-11T19:00:00-03:00"
-    },
-    {
-      "date": "11/04/2026",
-      "time": "12:57",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Redobre a atencao no deslocamento. Siga a orientacao da defesa civil local e plano de contingencia municipal",
-      "status": "expirado",
-      "onset": "2026-04-11T12:57:40-03:00",
-      "expires": "2026-04-11T16:45:00-03:00"
-    },
-    {
-      "date": "11/04/2026",
-      "time": "12:05",
-      "senderName": "Defesa Civil de Niterói (RJ)",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Niterói/RJ",
-      "headline": "Defesa Civil:Niteroi: Aviso de Ressaca Estendido. Inicio: 10/04 sexta-feira 06h. Fim: 11/04 sabado 21h. Ondas com altura de 3,0 metros. Emergencia, 199",
-      "status": "expirado",
-      "onset": "2026-04-11T12:05:00-03:00",
-      "expires": "2026-04-11T21:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 55,
+    "total_alerts": 53,
     "by_nivel": {
-      "Alto": 26,
+      "Alto": 24,
       "Médio": 22,
       "Severo": 7
     },
     "by_channel_list": {
-      "Google": 55
+      "Google": 53
     },
     "by_region": {
-      "N": 22,
+      "N": 21,
       "S": 13,
       "NE": 9,
-      "SE": 7,
+      "SE": 6,
       "CO": 4
     }
   }
