@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-04-12T00:49:05.713190-03:00",
-  "source_run_dir": "run_20260412_004823",
+  "generated_at": "2026-04-12T03:04:52.851607-03:00",
+  "source_run_dir": "run_20260412_030425",
   "cards": {
     "vigentes": 22,
-    "ultimas24h": 37,
+    "ultimas24h": 39,
     "autoridadesAtivas": 14,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "02:01",
+      "date": "12/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Presidente Figueiredo/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Atencao para chuva intensa nas proximas horas.  Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "01:33",
+      "date": "12/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Iranduba/AM, Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa. Afaste-se de areas alagaveis. Emergencia ligue: 199/193. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "00:31",
       "date": "12/04/2026",
@@ -43,37 +67,13 @@
       "uf": "MA",
       "headline": "Defesa Civil:Chuvas intensas para todo o MA. Evite areas de risco. Em caso de emergencia, ligue 199 ou 193. Fim da vigencia: 12/04 as 23h59.",
       "status": "vigente"
-    },
-    {
-      "time": "21:26",
-      "date": "11/04/2026",
-      "senderName": "Defesa Civil de Ipojuca (PE)",
-      "senderNameShort": "DC Ipojuca (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Ipojuca/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:Alerta para chuvas moderada hoje 11/04, podendo se estender ate amanha 12/04. Duvidas:Tel.:0800-281-0620/0800-856-3737/99231-8607.Plantao 24h.",
-      "status": "vigente"
-    },
-    {
-      "time": "21:06",
-      "date": "11/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Caapiranga/AM, Anamã/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Redobre a atencao no deslocamento.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 11
+      "count": 13
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 17
+      "count": 18
     },
     {
       "label": "Alto",
@@ -132,13 +132,13 @@
     },
     {
       "label": "Severo",
-      "count": 3
+      "count": 4
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 31
+      "count": 33
     },
     {
       "label": "Alagamentos",
@@ -164,7 +164,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 14
+      "count": 16
     },
     {
       "uf": "MG",
@@ -210,10 +210,36 @@
     },
     {
       "label": "expirado",
-      "count": 15
+      "count": 17
     }
   ],
   "all_alerts": [
+    {
+      "date": "12/04/2026",
+      "time": "02:01",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Presidente Figueiredo/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Atencao para chuva intensa nas proximas horas.  Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-12T02:01:49-03:00",
+      "expires": "2026-04-12T05:00:00-03:00"
+    },
+    {
+      "date": "12/04/2026",
+      "time": "01:33",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "AM",
+      "location": "Iranduba/AM, Manaus/AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa. Afaste-se de areas alagaveis. Emergencia ligue: 199/193. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-12T01:33:14-03:00",
+      "expires": "2026-04-12T05:30:00-03:00"
+    },
     {
       "date": "12/04/2026",
       "time": "00:31",
@@ -275,7 +301,7 @@
       "uf": "AM",
       "location": "Caapiranga/AM, Anamã/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Redobre a atencao no deslocamento.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-11T21:06:47-03:00",
       "expires": "2026-04-12T01:00:00-03:00"
     },
@@ -327,7 +353,7 @@
       "uf": "AM",
       "location": "Santo Antônio do Içá/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Redobre a atencao no deslocamento.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-11T20:05:50-03:00",
       "expires": "2026-04-12T00:55:00-03:00"
     },
@@ -697,17 +723,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 37,
+    "total_alerts": 39,
     "by_nivel": {
+      "Médio": 18,
       "Alto": 17,
-      "Médio": 17,
-      "Severo": 3
+      "Severo": 4
     },
     "by_channel_list": {
-      "Google": 37
+      "Google": 39
     },
     "by_region": {
-      "N": 14,
+      "N": 16,
       "NE": 8,
       "SE": 8,
       "S": 4,
