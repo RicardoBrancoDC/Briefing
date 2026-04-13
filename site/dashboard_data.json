@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-13T07:08:02.414602-03:00",
-  "source_run_dir": "run_20260413_070739",
+  "generated_at": "2026-04-13T08:43:54.900915-03:00",
+  "source_run_dir": "run_20260413_084336",
   "cards": {
-    "vigentes": 16,
-    "ultimas24h": 54,
-    "autoridadesAtivas": 15,
+    "vigentes": 15,
+    "ultimas24h": 50,
+    "autoridadesAtivas": 14,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "07:21",
+      "date": "13/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:AALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "06:48",
       "date": "13/04/2026",
@@ -55,25 +67,13 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa para Manaus e regiao metropolitana. Siga as orientacoes da defesa civil local. Em caso de emergencia, ligue 199 ou 193.",
       "status": "vigente"
-    },
-    {
-      "time": "03:41",
-      "date": "13/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Nao enfrente ruas alagadas.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 14
+      "count": 13
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
@@ -88,7 +88,7 @@
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual de Pernambuco",
@@ -111,20 +111,20 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil Estadual de Goiás",
-      "short_name": "DC Goiás",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil de Ipojuca (PE)",
       "short_name": "DC Ipojuca (PE)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Olinda (PE)",
+      "short_name": "DC Olinda (PE)",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 22
+      "count": 18
     },
     {
       "label": "Alto",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 48
+      "count": 44
     },
     {
       "label": "Solo/Lama",
@@ -160,7 +160,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 16
+      "count": 15
     },
     {
       "uf": "PR",
@@ -171,11 +171,11 @@
       "count": 7
     },
     {
-      "uf": "SC",
-      "count": 6
+      "uf": "SP",
+      "count": 5
     },
     {
-      "uf": "SP",
+      "uf": "SC",
       "count": 5
     },
     {
@@ -187,29 +187,38 @@
       "count": 2
     },
     {
-      "uf": "GO",
-      "count": 2
-    },
-    {
       "uf": "PB",
       "count": 1
     },
     {
-      "uf": "ES",
+      "uf": "GO",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 16
+      "count": 15
     },
     {
       "label": "expirado",
-      "count": 38
+      "count": 35
     }
   ],
   "all_alerts": [
+    {
+      "date": "13/04/2026",
+      "time": "07:21",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:AALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-13T07:21:51-03:00",
+      "expires": "2026-04-13T11:10:00-03:00"
+    },
     {
       "date": "13/04/2026",
       "time": "06:48",
@@ -271,7 +280,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Nao enfrente ruas alagadas.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-13T03:41:34-03:00",
       "expires": "2026-04-13T07:10:00-03:00"
     },
@@ -492,7 +501,7 @@
       "uf": "PE",
       "location": "Ipojuca/PE",
       "headline": "Defesa Civil:Alerta para continuidade das chuvas hoje, podendo se estender ate amanha 13/04. Duvidas:Tel.:0800-281-0620/0800-856-3737/99231-8607.Plantao 24h.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-12T16:17:17-03:00",
       "expires": "2026-04-13T08:30:00-03:00"
     },
@@ -846,89 +855,24 @@
       "status": "expirado",
       "onset": "2026-04-12T08:45:32-03:00",
       "expires": "2026-04-12T10:45:00-03:00"
-    },
-    {
-      "date": "12/04/2026",
-      "time": "08:23",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Conceição da Barra/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA CONTINUA em Conceicao da Barra nas proximas 03 horas. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-04-12T08:23:16-03:00",
-      "expires": "2026-04-12T11:00:00-03:00"
-    },
-    {
-      "date": "12/04/2026",
-      "time": "07:57",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "GO",
-      "location": "GOIÁS/GO",
-      "headline": "Defesa Civil:Possibilidade de chuvas e ventos intensos nas proximas 24 horas, com risco de alagamento e raios. Evite riscos. Emergencia 193",
-      "status": "expirado",
-      "onset": "2026-04-12T07:57:31-03:00",
-      "expires": "2026-04-12T23:59:00-03:00"
-    },
-    {
-      "date": "12/04/2026",
-      "time": "07:26",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 12/04 07:23 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste e Oeste nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-12T07:26:11-03:00",
-      "expires": "2026-04-12T10:25:00-03:00"
-    },
-    {
-      "date": "12/04/2026",
-      "time": "07:22",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-12T07:22:20-03:00",
-      "expires": "2026-04-12T12:30:00-03:00"
-    },
-    {
-      "date": "12/04/2026",
-      "time": "07:09",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Caapiranga/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-12T07:09:20-03:00",
-      "expires": "2026-04-12T10:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 54,
+    "total_alerts": 50,
     "by_nivel": {
       "Alto": 28,
-      "Médio": 22,
+      "Médio": 18,
       "Severo": 4
     },
     "by_channel_list": {
-      "Google": 54
+      "Google": 50
     },
     "by_region": {
-      "S": 18,
-      "N": 16,
+      "S": 17,
+      "N": 15,
       "NE": 10,
-      "SE": 6,
-      "CO": 4
+      "SE": 5,
+      "CO": 3
     }
   }
 }
