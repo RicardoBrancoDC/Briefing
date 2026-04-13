@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-04-13T18:11:32.188686-03:00",
-  "source_run_dir": "run_20260413_181047",
+  "generated_at": "2026-04-13T20:05:54.079246-03:00",
+  "source_run_dir": "run_20260413_200520",
   "cards": {
-    "vigentes": 16,
+    "vigentes": 13,
     "ultimas24h": 37,
     "autoridadesAtivas": 12,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "20:04",
+      "date": "13/04/2026",
+      "senderName": "Defesa Civil de Belo Horizonte (MG)",
+      "senderNameShort": "DC Belo Horizonte (MG)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Belo Horizonte/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:19h50 - Chuva de intensidade moderada a forte na proxima  hora em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
+      "status": "vigente"
+    },
+    {
+      "time": "18:49",
+      "date": "13/04/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas 1h30. Proteja-se!",
+      "status": "vigente"
+    },
     {
       "time": "17:16",
       "date": "13/04/2026",
@@ -30,7 +54,7 @@
       "location": "Careiro/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:28",
@@ -42,30 +66,6 @@
       "location": "Belém/PA",
       "uf": "PA",
       "headline": "Defesa Civil:Alerta de ALAGAMENTOS por CHUVAS INTENSAS e MARE ALTA. Risco de INUNDACOES e BLOQUEIO DE VIAS. EVITE TRAFEGAR E MANTENHA-SE EM LOCAL SEGURO.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:43",
-      "date": "13/04/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:15h42 - Chuva isolada na regiao de Olimpia. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado"
-    },
-    {
-      "time": "15:40",
-      "date": "13/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Médio",
-      "location": "Coari/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento.  Evite areas inclinadas.   Siga as orientacoes da defesa civil local.",
       "status": "vigente"
     }
   ],
@@ -96,13 +96,13 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
+      "name": "Defesa Civil de Belo Horizonte (MG)",
+      "short_name": "DC Belo Horizonte (MG)",
       "count": 2
     },
     {
-      "name": "Defesa Civil de Belo Horizonte (MG)",
-      "short_name": "DC Belo Horizonte (MG)",
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
       "count": 1
     },
     {
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 17
+      "count": 18
     },
     {
       "label": "Alto",
@@ -132,7 +132,7 @@
     },
     {
       "label": "Severo",
-      "count": 3
+      "count": 2
     },
     {
       "label": "Extremo",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 31
+      "count": 32
     },
     {
       "label": "Alagamentos",
@@ -151,10 +151,6 @@
     {
       "label": "Solo/Lama",
       "count": 2
-    },
-    {
-      "label": "Granizo",
-      "count": 1
     }
   ],
   "uf_distribution": [
@@ -171,16 +167,12 @@
       "count": 4
     },
     {
-      "uf": "PI",
+      "uf": "MG",
       "count": 3
     },
     {
-      "uf": "PR",
-      "count": 2
-    },
-    {
-      "uf": "MG",
-      "count": 1
+      "uf": "PI",
+      "count": 3
     },
     {
       "uf": "MT",
@@ -202,14 +194,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 16
+      "count": 13
     },
     {
       "label": "expirado",
-      "count": 21
+      "count": 24
     }
   ],
   "all_alerts": [
+    {
+      "date": "13/04/2026",
+      "time": "20:04",
+      "senderName": "Defesa Civil de Belo Horizonte (MG)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "MG",
+      "location": "Belo Horizonte/MG",
+      "headline": "Defesa Civil:19h50 - Chuva de intensidade moderada a forte na proxima  hora em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
+      "status": "vigente",
+      "onset": "2026-04-13T20:04:50-03:00",
+      "expires": "2026-04-13T20:58:00-03:00"
+    },
+    {
+      "date": "13/04/2026",
+      "time": "18:49",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas 1h30. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-04-13T18:49:02-03:00",
+      "expires": "2026-04-13T20:15:00-03:00"
+    },
     {
       "date": "13/04/2026",
       "time": "17:16",
@@ -232,7 +250,7 @@
       "uf": "AM",
       "location": "Careiro/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-13T16:33:52-03:00",
       "expires": "2026-04-13T19:00:00-03:00"
     },
@@ -271,7 +289,7 @@
       "uf": "AM",
       "location": "Coari/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento.  Evite areas inclinadas.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-13T15:40:19-03:00",
       "expires": "2026-04-13T20:00:00-03:00"
     },
@@ -349,7 +367,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:Alerta de Alagamentos para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil Local. Evite transitar por vias alagadas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-13T13:11:43-03:00",
       "expires": "2026-04-13T19:00:00-03:00"
     },
@@ -362,7 +380,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:Defesa Civil ALERTA: Risco de deslizamento para Manaus (NIVEL MODERADO). Em caso de emergencia, ligue 199/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-13T12:42:54-03:00",
       "expires": "2026-04-13T19:00:00-03:00"
     },
@@ -375,7 +393,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-13T12:13:14-03:00",
       "expires": "2026-04-13T19:00:00-03:00"
     },
@@ -664,40 +682,14 @@
       "status": "expirado",
       "onset": "2026-04-12T21:49:24-03:00",
       "expires": "2026-04-13T02:40:00-03:00"
-    },
-    {
-      "date": "12/04/2026",
-      "time": "18:52",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Granizo",
-      "nivel": "Severo",
-      "uf": "PR",
-      "location": "Nova Olímpia/PR, Tapira/PR",
-      "headline": "Defesa Civil:DCPR-ALERTA: TEMPORAIS c/ INTENSAS RAJADAS DE VENTO, CHUVA INTENSA e GRANIZO na prox. 01h na sua regiao. Busque abrigo! Ocorrencias, 199/193.",
-      "status": "expirado",
-      "onset": "2026-04-12T18:52:26-03:00",
-      "expires": "2026-04-12T19:50:00-03:00"
-    },
-    {
-      "date": "12/04/2026",
-      "time": "18:21",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-12T18:21:32-03:00",
-      "expires": "2026-04-12T21:20:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 37,
     "by_nivel": {
-      "Médio": 17,
+      "Médio": 18,
       "Alto": 16,
-      "Severo": 3,
+      "Severo": 2,
       "Extremo": 1
     },
     "by_channel_list": {
@@ -705,10 +697,10 @@
     },
     "by_region": {
       "N": 21,
-      "SE": 7,
+      "SE": 9,
       "NE": 4,
-      "S": 3,
-      "CO": 2
+      "CO": 2,
+      "S": 1
     }
   }
 }
