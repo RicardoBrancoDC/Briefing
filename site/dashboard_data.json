@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-04-14T16:44:17.855472-03:00",
-  "source_run_dir": "run_20260414_164349",
+  "generated_at": "2026-04-14T18:11:07.719410-03:00",
+  "source_run_dir": "run_20260414_181029",
   "cards": {
-    "vigentes": 19,
-    "ultimas24h": 30,
+    "vigentes": 17,
+    "ultimas24h": 32,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "17:32",
+      "date": "14/04/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Alagamentos",
+      "nivel": "Severo",
+      "location": "Cachoeira do Piriá/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:Alerta de ALAGAMENTOS por CHUVAS INTENSAS. Risco: INUNDACOES e BLOQUEIO DE VIAS. EVITE TRAFEGAR, MANTENHA-SE EM LOCAL SEGURO ATE AS AGUAS BAIXAREM",
+      "status": "vigente"
+    },
+    {
+      "time": "17:08",
+      "date": "14/04/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Cachoeira do Piriá/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:CACHOEIRA DO PIRIA: Alerta ALTO de CHUVAS INTENSAS iminente. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
+      "status": "vigente"
+    },
+    {
+      "time": "16:54",
+      "date": "14/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "16:33",
       "date": "14/04/2026",
@@ -30,60 +66,19 @@
       "location": "PARÁ/PA",
       "uf": "PA",
       "headline": "Defesa Civil:REGIAO METROPOLITANA BELEM: Alerta ALTO de CHUVAS INTENSAS iminente. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se",
-      "status": "vigente"
-    },
-    {
-      "time": "15:18",
-      "date": "14/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Médio",
-      "location": "Boca do Acre/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Redobre atencao em areas inclinadas. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:01",
-      "date": "14/04/2026",
-      "senderName": "Defesa Civil de Belo Horizonte (MG)",
-      "senderNameShort": "DC Belo Horizonte (MG)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Belo Horizonte/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Chuva (ate 20 mm), ate 8h de quarta-feira (15) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente"
-    },
-    {
-      "time": "14:37",
-      "date": "14/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Novo Airão/AM, Boca do Acre/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 4
-    },
-    {
-      "name": "Defesa Civil de Belo Horizonte (MG)",
-      "short_name": "DC Belo Horizonte (MG)",
-      "count": 3
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
@@ -94,6 +89,11 @@
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
       "count": 3
+    },
+    {
+      "name": "Defesa Civil de Belo Horizonte (MG)",
+      "short_name": "DC Belo Horizonte (MG)",
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual de Mato Grosso",
@@ -124,21 +124,21 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 14
+      "count": 13
     },
     {
       "label": "Alto",
-      "count": 14
+      "count": 16
     },
     {
       "label": "Severo",
-      "count": 2
+      "count": 3
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 23
+      "count": 24
     },
     {
       "label": "Solo/Lama",
@@ -146,21 +146,21 @@
     },
     {
       "label": "Alagamentos",
-      "count": 2
+      "count": 3
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 15
+      "count": 16
     },
     {
       "uf": "PA",
-      "count": 5
+      "count": 7
     },
     {
       "uf": "MG",
-      "count": 4
+      "count": 3
     },
     {
       "uf": "PI",
@@ -182,14 +182,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 19
+      "count": 17
     },
     {
       "label": "expirado",
-      "count": 11
+      "count": 15
     }
   ],
   "all_alerts": [
+    {
+      "date": "14/04/2026",
+      "time": "17:32",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Alagamentos",
+      "nivel": "Severo",
+      "uf": "PA",
+      "location": "Cachoeira do Piriá/PA",
+      "headline": "Defesa Civil:Alerta de ALAGAMENTOS por CHUVAS INTENSAS. Risco: INUNDACOES e BLOQUEIO DE VIAS. EVITE TRAFEGAR, MANTENHA-SE EM LOCAL SEGURO ATE AS AGUAS BAIXAREM",
+      "status": "vigente",
+      "onset": "2026-04-14T17:32:00-03:00",
+      "expires": "2026-04-14T19:00:00-03:00"
+    },
+    {
+      "date": "14/04/2026",
+      "time": "17:08",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Cachoeira do Piriá/PA",
+      "headline": "Defesa Civil:CACHOEIRA DO PIRIA: Alerta ALTO de CHUVAS INTENSAS iminente. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
+      "status": "vigente",
+      "onset": "2026-04-14T17:08:37-03:00",
+      "expires": "2026-04-14T20:00:00-03:00"
+    },
+    {
+      "date": "14/04/2026",
+      "time": "16:54",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-14T16:54:33-03:00",
+      "expires": "2026-04-14T21:00:00-03:00"
+    },
     {
       "date": "14/04/2026",
       "time": "16:33",
@@ -212,7 +251,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:REGIAO METROPOLITANA BELEM: Alerta ALTO de CHUVAS INTENSAS iminente. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-14T15:53:41-03:00",
       "expires": "2026-04-14T17:00:00-03:00"
     },
@@ -251,7 +290,7 @@
       "uf": "AM",
       "location": "Novo Airão/AM, Boca do Acre/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-14T14:37:19-03:00",
       "expires": "2026-04-14T18:00:00-03:00"
     },
@@ -264,7 +303,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento. Nao enfrente areas alagadas. Procure local seguro. Em caso de emergencia ligue: 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-14T14:00:30-03:00",
       "expires": "2026-04-14T18:00:00-03:00"
     },
@@ -342,7 +381,7 @@
       "uf": "AM",
       "location": "Caapiranga/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite areas de encosta. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-14T12:03:15-03:00",
       "expires": "2026-04-14T18:00:00-03:00"
     },
@@ -355,7 +394,7 @@
       "uf": "AM",
       "location": "Manaquiri/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Procure local seguro. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-14T10:49:20-03:00",
       "expires": "2026-04-14T17:00:00-03:00"
     },
@@ -566,35 +605,22 @@
       "status": "expirado",
       "onset": "2026-04-13T18:49:02-03:00",
       "expires": "2026-04-13T20:15:00-03:00"
-    },
-    {
-      "date": "13/04/2026",
-      "time": "17:16",
-      "senderName": "Defesa Civil de Belo Horizonte (MG)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "Belo Horizonte/MG",
-      "headline": "Defesa Civil:Chuva (ate 20 mm), ate 8h de terca-feira (14) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "expirado",
-      "onset": "2026-04-13T17:16:07-03:00",
-      "expires": "2026-04-14T08:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 30,
+    "total_alerts": 32,
     "by_nivel": {
-      "Alto": 14,
-      "Médio": 14,
-      "Severo": 2
+      "Alto": 16,
+      "Médio": 13,
+      "Severo": 3
     },
     "by_channel_list": {
-      "Google": 30
+      "Google": 32
     },
     "by_region": {
-      "N": 20,
+      "N": 23,
       "NE": 5,
-      "SE": 4,
+      "SE": 3,
       "CO": 1
     }
   }
