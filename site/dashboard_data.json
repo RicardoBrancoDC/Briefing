@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-14T05:06:53.380387-03:00",
-  "source_run_dir": "run_20260414_050629",
+  "generated_at": "2026-04-14T06:52:19.633632-03:00",
+  "source_run_dir": "run_20260414_065201",
   "cards": {
     "vigentes": 5,
-    "ultimas24h": 30,
+    "ultimas24h": 28,
     "autoridadesAtivas": 12,
     "alertasExtremos": 1
   },
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 12
+      "count": 10
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -128,11 +128,11 @@
     },
     {
       "label": "Alto",
-      "count": 14
+      "count": 13
     },
     {
       "label": "Severo",
-      "count": 2
+      "count": 1
     },
     {
       "label": "Extremo",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 26
+      "count": 24
     },
     {
       "label": "Alagamentos",
@@ -156,7 +156,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 15
+      "count": 13
     },
     {
       "uf": "PA",
@@ -198,7 +198,7 @@
     },
     {
       "label": "expirado",
-      "count": 25
+      "count": 23
     }
   ],
   "all_alerts": [
@@ -565,47 +565,21 @@
       "status": "expirado",
       "onset": "2026-04-13T07:21:51-03:00",
       "expires": "2026-04-13T11:10:00-03:00"
-    },
-    {
-      "date": "13/04/2026",
-      "time": "06:48",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Manacapuru/AM, Manaquiri/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa, risco de alagamentos e enxurradas.  Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-13T06:48:23-03:00",
-      "expires": "2026-04-13T09:40:00-03:00"
-    },
-    {
-      "date": "13/04/2026",
-      "time": "05:39",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Nao enfrente ruas alagadas.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-13T05:39:36-03:00",
-      "expires": "2026-04-13T09:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 30,
+    "total_alerts": 28,
     "by_nivel": {
-      "Alto": 14,
+      "Alto": 13,
       "Médio": 13,
-      "Severo": 2,
-      "Extremo": 1
+      "Extremo": 1,
+      "Severo": 1
     },
     "by_channel_list": {
-      "Google": 30
+      "Google": 28
     },
     "by_region": {
-      "N": 19,
+      "N": 17,
       "NE": 5,
       "SE": 4,
       "CO": 2
