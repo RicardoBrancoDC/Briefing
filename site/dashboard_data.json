@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-14T00:45:46.239638-03:00",
-  "source_run_dir": "run_20260414_004517",
+  "generated_at": "2026-04-14T03:13:06.505224-03:00",
+  "source_run_dir": "run_20260414_031242",
   "cards": {
-    "vigentes": 8,
-    "ultimas24h": 36,
-    "autoridadesAtivas": 13,
+    "vigentes": 6,
+    "ultimas24h": 34,
+    "autoridadesAtivas": 12,
     "alertasExtremos": 1
   },
   "latest_alerts": [
@@ -76,11 +76,6 @@
       "count": 13
     },
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 4
-    },
-    {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
       "count": 4
@@ -88,6 +83,11 @@
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
+      "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
       "count": 3
     },
     {
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 17
+      "count": 16
     },
     {
       "label": "Alto",
-      "count": 16
+      "count": 15
     },
     {
       "label": "Severo",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 32
+      "count": 30
     },
     {
       "label": "Alagamentos",
@@ -163,11 +163,11 @@
       "count": 4
     },
     {
-      "uf": "SP",
-      "count": 4
+      "uf": "MG",
+      "count": 3
     },
     {
-      "uf": "MG",
+      "uf": "SP",
       "count": 3
     },
     {
@@ -189,16 +189,12 @@
     {
       "uf": "GO",
       "count": 1
-    },
-    {
-      "uf": "SC",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 8
+      "count": 6
     },
     {
       "label": "expirado",
@@ -371,7 +367,7 @@
       "uf": "PI",
       "location": "Parnaíba/PI",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas em Parnaiba/PI. Evitar transitar em areas de alagamentos e ou enxurradas. Em caso de emergencia ligue para 190 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-13T13:38:38-03:00",
       "expires": "2026-04-14T01:00:00-03:00"
     },
@@ -384,7 +380,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS. Evitar transitar em areas de alagamentos, pontos de enxurradas. Em caso de situacao de emergencia ligar para 190 ou 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-13T13:35:39-03:00",
       "expires": "2026-04-14T01:00:00-03:00"
     },
@@ -647,51 +643,24 @@
       "status": "expirado",
       "onset": "2026-04-13T03:22:04-03:00",
       "expires": "2026-04-13T05:20:00-03:00"
-    },
-    {
-      "date": "13/04/2026",
-      "time": "02:41",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 13/04 02:39 - CHUVA PERSISTENTE de intensidade forte isolada com ALAGAMENTOS nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-13T02:41:54-03:00",
-      "expires": "2026-04-13T05:45:00-03:00"
-    },
-    {
-      "date": "13/04/2026",
-      "time": "01:32",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:01h30 Chuva se espalhando na regiao de Caiua, Ribeirao do Indios e Narandiba. Tem raios e vento. Atinge cidades vizinhas. Abrigue-se.",
-      "status": "expirado",
-      "onset": "2026-04-13T01:32:46-03:00",
-      "expires": "2026-04-13T03:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 36,
+    "total_alerts": 34,
     "by_nivel": {
-      "Médio": 17,
-      "Alto": 16,
+      "Médio": 16,
+      "Alto": 15,
       "Severo": 2,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 36
+      "Google": 34
     },
     "by_region": {
       "N": 21,
-      "SE": 7,
+      "SE": 6,
       "NE": 5,
-      "CO": 2,
-      "S": 1
+      "CO": 2
     }
   }
 }
