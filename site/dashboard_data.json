@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-04-13T20:05:54.079246-03:00",
-  "source_run_dir": "run_20260413_200520",
+  "generated_at": "2026-04-14T00:45:46.239638-03:00",
+  "source_run_dir": "run_20260414_004517",
   "cards": {
-    "vigentes": 13,
-    "ultimas24h": 37,
-    "autoridadesAtivas": 12,
+    "vigentes": 8,
+    "ultimas24h": 36,
+    "autoridadesAtivas": 13,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "00:01",
+      "date": "14/04/2026",
+      "senderName": "Defesa Civil de Campina Grande (PB)",
+      "senderNameShort": "DC Campina Grande (PB)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Campina Grande/PB",
+      "uf": "PB",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Campina Grande/PB  Em caso de emergencia ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "23:42",
+      "date": "13/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "20:13",
+      "date": "13/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "expirado"
+    },
     {
       "time": "20:04",
       "date": "13/04/2026",
@@ -18,7 +54,7 @@
       "location": "Belo Horizonte/MG",
       "uf": "MG",
       "headline": "Defesa Civil:19h50 - Chuva de intensidade moderada a forte na proxima  hora em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "18:49",
@@ -30,43 +66,7 @@
       "location": "MINAS GERAIS/MG",
       "uf": "MG",
       "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas 1h30. Proteja-se!",
-      "status": "vigente"
-    },
-    {
-      "time": "17:16",
-      "date": "13/04/2026",
-      "senderName": "Defesa Civil de Belo Horizonte (MG)",
-      "senderNameShort": "DC Belo Horizonte (MG)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Belo Horizonte/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Chuva (ate 20 mm), ate 8h de terca-feira (14) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente"
-    },
-    {
-      "time": "16:33",
-      "date": "13/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Careiro/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
       "status": "expirado"
-    },
-    {
-      "time": "16:28",
-      "date": "13/04/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Alagamentos",
-      "nivel": "Severo",
-      "location": "Belém/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:Alerta de ALAGAMENTOS por CHUVAS INTENSAS e MARE ALTA. Risco de INUNDACOES e BLOQUEIO DE VIAS. EVITE TRAFEGAR E MANTENHA-SE EM LOCAL SEGURO.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 6
+      "count": 4
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
@@ -101,6 +101,11 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil de Campina Grande (PB)",
+      "short_name": "DC Campina Grande (PB)",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
       "count": 1
@@ -114,17 +119,12 @@
       "name": "Defesa Civil Estadual do Maranhão",
       "short_name": "DC Maranhão",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Goiás",
-      "short_name": "DC Goiás",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 18
+      "count": 17
     },
     {
       "label": "Alto",
@@ -146,7 +146,7 @@
     },
     {
       "label": "Alagamentos",
-      "count": 3
+      "count": 2
     },
     {
       "label": "Solo/Lama",
@@ -159,11 +159,11 @@
       "count": 17
     },
     {
-      "uf": "SP",
-      "count": 6
+      "uf": "PA",
+      "count": 4
     },
     {
-      "uf": "PA",
+      "uf": "SP",
       "count": 4
     },
     {
@@ -173,6 +173,10 @@
     {
       "uf": "PI",
       "count": 3
+    },
+    {
+      "uf": "PB",
+      "count": 1
     },
     {
       "uf": "MT",
@@ -194,14 +198,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 13
+      "count": 8
     },
     {
       "label": "expirado",
-      "count": 24
+      "count": 28
     }
   ],
   "all_alerts": [
+    {
+      "date": "14/04/2026",
+      "time": "00:01",
+      "senderName": "Defesa Civil de Campina Grande (PB)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PB",
+      "location": "Campina Grande/PB",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Campina Grande/PB  Em caso de emergencia ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-04-14T00:01:00-03:00",
+      "expires": "2026-04-14T23:55:00-03:00"
+    },
+    {
+      "date": "13/04/2026",
+      "time": "23:42",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-13T23:42:00-03:00",
+      "expires": "2026-04-14T04:30:00-03:00"
+    },
+    {
+      "date": "13/04/2026",
+      "time": "20:13",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-04-13T20:13:54-03:00",
+      "expires": "2026-04-13T21:30:00-03:00"
+    },
     {
       "date": "13/04/2026",
       "time": "20:04",
@@ -211,7 +254,7 @@
       "uf": "MG",
       "location": "Belo Horizonte/MG",
       "headline": "Defesa Civil:19h50 - Chuva de intensidade moderada a forte na proxima  hora em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-13T20:04:50-03:00",
       "expires": "2026-04-13T20:58:00-03:00"
     },
@@ -224,7 +267,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas 1h30. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-13T18:49:02-03:00",
       "expires": "2026-04-13T20:15:00-03:00"
     },
@@ -419,7 +462,7 @@
       "uf": "MT",
       "location": "MATO GROSSO/MT",
       "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-13T11:23:50-03:00",
       "expires": "2026-04-13T23:55:00-03:00"
     },
@@ -445,7 +488,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas. Evite transitar por areas de alagamentos, pontos de enxurradas/inundacoes. Em caso de emergencia ligue 190 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-13T10:50:44-03:00",
       "expires": "2026-04-13T23:00:00-03:00"
     },
@@ -458,7 +501,7 @@
       "uf": "MA",
       "location": "MARANHÃO/MA",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas para sua regiao. Evite areas de risco. Em emergencia, ligue 199 ou 193. Fim da vigencia: 13/04 as 23h59.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-13T10:49:25-03:00",
       "expires": "2026-04-13T23:55:00-03:00"
     },
@@ -471,7 +514,7 @@
       "uf": "GO",
       "location": "GOIÁS/GO",
       "headline": "Defesa Civil:Possibilidade de chuvas e ventos intensos nas proximas 14 horas, com risco de alagamento e raios. Evite riscos. Emergencia 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-13T10:30:24-03:00",
       "expires": "2026-04-13T23:55:00-03:00"
     },
@@ -484,7 +527,7 @@
       "uf": "PA",
       "location": "Belém/PA",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas para Belem/PA. Em caso de rajada de vento: ( Nao se abrigue debaixo de arvores, pois ha leve risco de queda e descargas",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-13T10:25:32-03:00",
       "expires": "2026-04-13T23:55:00-03:00"
     },
@@ -630,75 +673,23 @@
       "status": "expirado",
       "onset": "2026-04-13T01:32:46-03:00",
       "expires": "2026-04-13T03:30:00-03:00"
-    },
-    {
-      "date": "13/04/2026",
-      "time": "00:03",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:00h05 Chuva isolada na regiao de Presidente Epitacio e Mirante do Paranapanema. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local s",
-      "status": "expirado",
-      "onset": "2026-04-13T00:03:47-03:00",
-      "expires": "2026-04-13T02:00:00-03:00"
-    },
-    {
-      "date": "12/04/2026",
-      "time": "22:06",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:22h05 Chuva isolada na regiao de Rosana e Teodoro Sampaio. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-12T22:06:11-03:00",
-      "expires": "2026-04-13T00:05:00-03:00"
-    },
-    {
-      "date": "12/04/2026",
-      "time": "22:02",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "São Paulo de Olivença/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.  Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-12T22:02:26-03:00",
-      "expires": "2026-04-13T03:00:00-03:00"
-    },
-    {
-      "date": "12/04/2026",
-      "time": "21:49",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Nao enfrente ruas alagadas.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-12T21:49:24-03:00",
-      "expires": "2026-04-13T02:40:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 37,
+    "total_alerts": 36,
     "by_nivel": {
-      "Médio": 18,
+      "Médio": 17,
       "Alto": 16,
       "Severo": 2,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 37
+      "Google": 36
     },
     "by_region": {
       "N": 21,
-      "SE": 9,
-      "NE": 4,
+      "SE": 7,
+      "NE": 5,
       "CO": 2,
       "S": 1
     }
