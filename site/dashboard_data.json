@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-14T18:11:07.719410-03:00",
-  "source_run_dir": "run_20260414_181029",
+  "generated_at": "2026-04-14T20:07:21.480706-03:00",
+  "source_run_dir": "run_20260414_200650",
   "cards": {
-    "vigentes": 17,
-    "ultimas24h": 32,
-    "autoridadesAtivas": 10,
+    "vigentes": 12,
+    "ultimas24h": 31,
+    "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "18:39",
+      "date": "14/04/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Ipixuna do Pará/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:IPIXUNA DO PARA: Alerta ALTO de CHUVAS INTENSAS iminente. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
+      "status": "expirado"
+    },
     {
       "time": "17:32",
       "date": "14/04/2026",
@@ -18,7 +30,7 @@
       "location": "Cachoeira do Piriá/PA",
       "uf": "PA",
       "headline": "Defesa Civil:Alerta de ALAGAMENTOS por CHUVAS INTENSAS. Risco: INUNDACOES e BLOQUEIO DE VIAS. EVITE TRAFEGAR, MANTENHA-SE EM LOCAL SEGURO ATE AS AGUAS BAIXAREM",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:08",
@@ -30,7 +42,7 @@
       "location": "Cachoeira do Piriá/PA",
       "uf": "PA",
       "headline": "Defesa Civil:CACHOEIRA DO PIRIA: Alerta ALTO de CHUVAS INTENSAS iminente. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:54",
@@ -54,18 +66,6 @@
       "location": "Nova Esperança do Piriá/PA",
       "uf": "PA",
       "headline": "Defesa Civil:NOVA ESPERANCA DO PIRIA: Alerta ALTO de CHUVAS INTENSAS iminente. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se",
-      "status": "vigente"
-    },
-    {
-      "time": "15:53",
-      "date": "14/04/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARÁ/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:REGIAO METROPOLITANA BELEM: Alerta ALTO de CHUVAS INTENSAS iminente. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se",
       "status": "expirado"
     }
   ],
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
@@ -93,7 +93,7 @@
     {
       "name": "Defesa Civil de Belo Horizonte (MG)",
       "short_name": "DC Belo Horizonte (MG)",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual de Mato Grosso",
@@ -114,17 +114,12 @@
       "name": "Defesa Civil Estadual do Maranhão",
       "short_name": "DC Maranhão",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 13
+      "count": 12
     },
     {
       "label": "Alto",
@@ -138,7 +133,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 24
+      "count": 23
     },
     {
       "label": "Solo/Lama",
@@ -156,15 +151,15 @@
     },
     {
       "uf": "PA",
-      "count": 7
-    },
-    {
-      "uf": "MG",
-      "count": 3
+      "count": 8
     },
     {
       "uf": "PI",
       "count": 3
+    },
+    {
+      "uf": "MG",
+      "count": 1
     },
     {
       "uf": "MT",
@@ -182,14 +177,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 17
+      "count": 12
     },
     {
       "label": "expirado",
-      "count": 15
+      "count": 19
     }
   ],
   "all_alerts": [
+    {
+      "date": "14/04/2026",
+      "time": "18:39",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Ipixuna do Pará/PA",
+      "headline": "Defesa Civil:IPIXUNA DO PARA: Alerta ALTO de CHUVAS INTENSAS iminente. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
+      "status": "expirado",
+      "onset": "2026-04-14T18:39:05-03:00",
+      "expires": "2026-04-14T20:00:00-03:00"
+    },
     {
       "date": "14/04/2026",
       "time": "17:32",
@@ -199,7 +207,7 @@
       "uf": "PA",
       "location": "Cachoeira do Piriá/PA",
       "headline": "Defesa Civil:Alerta de ALAGAMENTOS por CHUVAS INTENSAS. Risco: INUNDACOES e BLOQUEIO DE VIAS. EVITE TRAFEGAR, MANTENHA-SE EM LOCAL SEGURO ATE AS AGUAS BAIXAREM",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-14T17:32:00-03:00",
       "expires": "2026-04-14T19:00:00-03:00"
     },
@@ -212,7 +220,7 @@
       "uf": "PA",
       "location": "Cachoeira do Piriá/PA",
       "headline": "Defesa Civil:CACHOEIRA DO PIRIA: Alerta ALTO de CHUVAS INTENSAS iminente. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-14T17:08:37-03:00",
       "expires": "2026-04-14T20:00:00-03:00"
     },
@@ -238,7 +246,7 @@
       "uf": "PA",
       "location": "Nova Esperança do Piriá/PA",
       "headline": "Defesa Civil:NOVA ESPERANCA DO PIRIA: Alerta ALTO de CHUVAS INTENSAS iminente. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-14T16:33:23-03:00",
       "expires": "2026-04-14T18:30:00-03:00"
     },
@@ -329,7 +337,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:Alerta de Alagamentos para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil Local. Evite transitar por vias alagadas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-14T13:20:03-03:00",
       "expires": "2026-04-14T19:00:00-03:00"
     },
@@ -342,7 +350,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de Chuva Intensa (NIVEL ALTO). Evite area de risco com historico de alagamento ou enxurrada. Em caso de emergencia ligue 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-14T12:35:48-03:00",
       "expires": "2026-04-14T19:00:00-03:00"
     },
@@ -579,49 +587,23 @@
       "status": "expirado",
       "onset": "2026-04-13T20:13:54-03:00",
       "expires": "2026-04-13T21:30:00-03:00"
-    },
-    {
-      "date": "13/04/2026",
-      "time": "20:04",
-      "senderName": "Defesa Civil de Belo Horizonte (MG)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "Belo Horizonte/MG",
-      "headline": "Defesa Civil:19h50 - Chuva de intensidade moderada a forte na proxima  hora em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "expirado",
-      "onset": "2026-04-13T20:04:50-03:00",
-      "expires": "2026-04-13T20:58:00-03:00"
-    },
-    {
-      "date": "13/04/2026",
-      "time": "18:49",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas 1h30. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-04-13T18:49:02-03:00",
-      "expires": "2026-04-13T20:15:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 32,
+    "total_alerts": 31,
     "by_nivel": {
       "Alto": 16,
-      "Médio": 13,
+      "Médio": 12,
       "Severo": 3
     },
     "by_channel_list": {
-      "Google": 32
+      "Google": 31
     },
     "by_region": {
-      "N": 23,
+      "N": 24,
       "NE": 5,
-      "SE": 3,
-      "CO": 1
+      "CO": 1,
+      "SE": 1
     }
   }
 }
