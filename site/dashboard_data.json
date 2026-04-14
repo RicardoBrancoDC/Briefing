@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-04-14T06:52:19.633632-03:00",
-  "source_run_dir": "run_20260414_065201",
+  "generated_at": "2026-04-14T08:31:59.840843-03:00",
+  "source_run_dir": "run_20260414_083142",
   "cards": {
-    "vigentes": 5,
-    "ultimas24h": 28,
+    "vigentes": 6,
+    "ultimas24h": 29,
     "autoridadesAtivas": 12,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "07:54",
+      "date": "14/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "07:42",
+      "date": "14/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "location": "Nhamundá/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento para o municipio de Nhamunda.  Evite areas inclinadas. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "00:01",
       "date": "14/04/2026",
@@ -43,37 +67,13 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
       "status": "expirado"
-    },
-    {
-      "time": "20:04",
-      "date": "13/04/2026",
-      "senderName": "Defesa Civil de Belo Horizonte (MG)",
-      "senderNameShort": "DC Belo Horizonte (MG)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Belo Horizonte/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:19h50 - Chuva de intensidade moderada a forte na proxima  hora em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "expirado"
-    },
-    {
-      "time": "18:49",
-      "date": "13/04/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas 1h30. Proteja-se!",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 13
+      "count": 14
     },
     {
       "label": "Alto",
@@ -145,18 +145,18 @@
       "count": 24
     },
     {
-      "label": "Alagamentos",
-      "count": 2
+      "label": "Solo/Lama",
+      "count": 3
     },
     {
-      "label": "Solo/Lama",
+      "label": "Alagamentos",
       "count": 2
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 13
+      "count": 14
     },
     {
       "uf": "PA",
@@ -194,7 +194,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 6
     },
     {
       "label": "expirado",
@@ -202,6 +202,32 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "14/04/2026",
+      "time": "07:54",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-14T07:54:29-03:00",
+      "expires": "2026-04-14T10:00:00-03:00"
+    },
+    {
+      "date": "14/04/2026",
+      "time": "07:42",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Nhamundá/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento para o municipio de Nhamunda.  Evite areas inclinadas. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-14T07:42:07-03:00",
+      "expires": "2026-04-14T13:00:00-03:00"
+    },
     {
       "date": "14/04/2026",
       "time": "00:01",
@@ -276,7 +302,7 @@
       "uf": "MG",
       "location": "Belo Horizonte/MG",
       "headline": "Defesa Civil:Chuva (ate 20 mm), ate 8h de terca-feira (14) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-13T17:16:07-03:00",
       "expires": "2026-04-14T08:00:00-03:00"
     },
@@ -552,34 +578,21 @@
       "status": "vigente",
       "onset": "2026-04-13T09:22:43-03:00",
       "expires": "2026-04-14T10:00:00-03:00"
-    },
-    {
-      "date": "13/04/2026",
-      "time": "07:21",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:AALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-13T07:21:51-03:00",
-      "expires": "2026-04-13T11:10:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 28,
+    "total_alerts": 29,
     "by_nivel": {
+      "Médio": 14,
       "Alto": 13,
-      "Médio": 13,
       "Extremo": 1,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 28
+      "Google": 29
     },
     "by_region": {
-      "N": 17,
+      "N": 18,
       "NE": 5,
       "SE": 4,
       "CO": 2
