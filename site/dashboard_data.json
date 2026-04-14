@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-14T03:13:06.505224-03:00",
-  "source_run_dir": "run_20260414_031242",
+  "generated_at": "2026-04-14T05:06:53.380387-03:00",
+  "source_run_dir": "run_20260414_050629",
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 34,
+    "vigentes": 5,
+    "ultimas24h": 30,
     "autoridadesAtivas": 12,
     "alertasExtremos": 1
   },
@@ -30,7 +30,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "20:13",
@@ -73,12 +73,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 13
-    },
-    {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 4
+      "count": 12
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -86,13 +81,13 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
+      "name": "Defesa Civil Estadual do Piauí",
+      "short_name": "DC Piauí",
       "count": 3
     },
     {
-      "name": "Defesa Civil Estadual do Piauí",
-      "short_name": "DC Piauí",
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
       "count": 3
     },
     {
@@ -111,6 +106,11 @@
       "count": 1
     },
     {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil Estadual de Mato Grosso",
       "short_name": "DC Mato Grosso",
       "count": 1
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 16
+      "count": 13
     },
     {
       "label": "Alto",
-      "count": 15
+      "count": 14
     },
     {
       "label": "Severo",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 30
+      "count": 26
     },
     {
       "label": "Alagamentos",
@@ -156,7 +156,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 17
+      "count": 15
     },
     {
       "uf": "PA",
@@ -167,15 +167,15 @@
       "count": 3
     },
     {
-      "uf": "SP",
-      "count": 3
-    },
-    {
       "uf": "PI",
       "count": 3
     },
     {
       "uf": "PB",
+      "count": 1
+    },
+    {
+      "uf": "SP",
       "count": 1
     },
     {
@@ -194,11 +194,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 5
     },
     {
       "label": "expirado",
-      "count": 28
+      "count": 25
     }
   ],
   "all_alerts": [
@@ -224,7 +224,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-13T23:42:00-03:00",
       "expires": "2026-04-14T04:30:00-03:00"
     },
@@ -591,75 +591,23 @@
       "status": "expirado",
       "onset": "2026-04-13T05:39:36-03:00",
       "expires": "2026-04-13T09:30:00-03:00"
-    },
-    {
-      "date": "13/04/2026",
-      "time": "05:05",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:05h05 Chuva se espalhando na regiao de Castilho e Itapura. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-13T05:05:14-03:00",
-      "expires": "2026-04-13T07:05:00-03:00"
-    },
-    {
-      "date": "13/04/2026",
-      "time": "04:41",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa para Manaus e regiao metropolitana. Siga as orientacoes da defesa civil local. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-13T04:41:14-03:00",
-      "expires": "2026-04-13T09:35:00-03:00"
-    },
-    {
-      "date": "13/04/2026",
-      "time": "03:41",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Nao enfrente ruas alagadas.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-13T03:41:34-03:00",
-      "expires": "2026-04-13T07:10:00-03:00"
-    },
-    {
-      "date": "13/04/2026",
-      "time": "03:22",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:03h20 Chuva se espalhando na regiao de Tupi Paulista, Dracena e Panorama. Tem raios e vento. Atinge cidades vizinhas. Abrigue-se.",
-      "status": "expirado",
-      "onset": "2026-04-13T03:22:04-03:00",
-      "expires": "2026-04-13T05:20:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 34,
+    "total_alerts": 30,
     "by_nivel": {
-      "Médio": 16,
-      "Alto": 15,
+      "Alto": 14,
+      "Médio": 13,
       "Severo": 2,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 34
+      "Google": 30
     },
     "by_region": {
-      "N": 21,
-      "SE": 6,
+      "N": 19,
       "NE": 5,
+      "SE": 4,
       "CO": 2
     }
   }
