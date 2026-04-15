@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-15T11:08:09.185503-03:00",
-  "source_run_dir": "run_20260415_110729",
+  "generated_at": "2026-04-15T12:40:54.060664-03:00",
+  "source_run_dir": "run_20260415_124006",
   "cards": {
-    "vigentes": 11,
-    "ultimas24h": 28,
+    "vigentes": 10,
+    "ultimas24h": 25,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "11:58",
+      "date": "15/04/2026",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "senderNameShort": "DC Mato Grosso",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Vila Rica/MT",
+      "uf": "MT",
+      "headline": "Defesa Civil:ESTADUAL: Chuva intensa em algumas regioes de cidade. Evite areas de risco. Abrigue-se em local seguro. Em emergencia ligue: 193",
+      "status": "expirado"
+    },
     {
       "time": "11:06",
       "date": "15/04/2026",
@@ -55,25 +67,13 @@
       "uf": "PA",
       "headline": "Defesa Civil:SUMDEC: REGIAO METROPOLITANA DE BELEM, Alertas de chuvas e raios INTENSOS para hoje 15ABR. Risco de alagamentos e destelhamentos. Atencao!",
       "status": "vigente"
-    },
-    {
-      "time": "10:21",
-      "date": "15/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 9
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -91,11 +91,6 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil de Belém (PA)",
       "short_name": "DC Belém (PA)",
       "count": 1
@@ -109,26 +104,31 @@
       "name": "Defesa Civil de Belo Horizonte (MG)",
       "short_name": "DC Belo Horizonte (MG)",
       "count": 1
+    },
+    {
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
+      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 12
+      "count": 10
     },
     {
       "label": "Alto",
-      "count": 14
+      "count": 12
     },
     {
       "label": "Severo",
-      "count": 2
+      "count": 3
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 20
+      "count": 18
     },
     {
       "label": "Alagamentos",
@@ -136,7 +136,7 @@
     },
     {
       "label": "Solo/Lama",
-      "count": 3
+      "count": 2
     },
     {
       "label": "Granizo",
@@ -146,7 +146,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 11
+      "count": 8
     },
     {
       "uf": "PA",
@@ -172,14 +172,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 11
+      "count": 10
     },
     {
       "label": "expirado",
-      "count": 17
+      "count": 15
     }
   ],
   "all_alerts": [
+    {
+      "date": "15/04/2026",
+      "time": "11:58",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "MT",
+      "location": "Vila Rica/MT",
+      "headline": "Defesa Civil:ESTADUAL: Chuva intensa em algumas regioes de cidade. Evite areas de risco. Abrigue-se em local seguro. Em emergencia ligue: 193",
+      "status": "expirado",
+      "onset": "2026-04-15T11:58:08-03:00",
+      "expires": "2026-04-15T12:00:00-03:00"
+    },
     {
       "date": "15/04/2026",
       "time": "11:06",
@@ -491,72 +504,20 @@
       "status": "expirado",
       "onset": "2026-04-14T13:20:03-03:00",
       "expires": "2026-04-14T19:00:00-03:00"
-    },
-    {
-      "date": "14/04/2026",
-      "time": "12:35",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de Chuva Intensa (NIVEL ALTO). Evite area de risco com historico de alagamento ou enxurrada. Em caso de emergencia ligue 193/199.",
-      "status": "expirado",
-      "onset": "2026-04-14T12:35:48-03:00",
-      "expires": "2026-04-14T19:00:00-03:00"
-    },
-    {
-      "date": "14/04/2026",
-      "time": "12:20",
-      "senderName": "Defesa Civil Estadual de Mato Grosso",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MT",
-      "location": "MATO GROSSO/MT",
-      "headline": "Defesa Civil:MT. Previsao de Chuva ate 60mm/h, ventos de 60-100km/h. Riscos de queda de galhos de arvores, alagamentos, descargas eletricas. Ligue: 193/199.",
-      "status": "vigente",
-      "onset": "2026-04-14T12:20:10-03:00",
-      "expires": "2026-04-15T23:55:00-03:00"
-    },
-    {
-      "date": "14/04/2026",
-      "time": "12:08",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-14T12:08:55-03:00",
-      "expires": "2026-04-14T16:30:00-03:00"
-    },
-    {
-      "date": "14/04/2026",
-      "time": "12:03",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Caapiranga/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite areas de encosta. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-14T12:03:15-03:00",
-      "expires": "2026-04-14T18:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 28,
+    "total_alerts": 25,
     "by_nivel": {
-      "Alto": 14,
-      "Médio": 12,
-      "Severo": 2
+      "Alto": 12,
+      "Médio": 10,
+      "Severo": 3
     },
     "by_channel_list": {
-      "Google": 28
+      "Google": 25
     },
     "by_region": {
-      "N": 19,
+      "N": 16,
       "CO": 5,
       "NE": 3,
       "SE": 1
