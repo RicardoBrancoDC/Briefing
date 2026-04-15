@@ -1,51 +1,39 @@
 {
-  "generated_at": "2026-04-15T18:09:46.329719-03:00",
-  "source_run_dir": "run_20260415_180904",
+  "generated_at": "2026-04-15T20:05:58.757247-03:00",
+  "source_run_dir": "run_20260415_200441",
   "cards": {
-    "vigentes": 19,
-    "ultimas24h": 26,
+    "vigentes": 17,
+    "ultimas24h": 30,
     "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "17:19",
+      "time": "19:00",
       "date": "15/04/2026",
       "senderName": "Defesa Civil Estadual do Pará",
       "senderNameShort": "DC Pará",
       "event": "Chuvas Intensas",
       "nivel": "Alto",
-      "location": "PARÁ/PA",
+      "location": "Ananindeua/PA",
       "uf": "PA",
-      "headline": "Defesa Civil:METROPOLITANA DE BELEM: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
+      "headline": "Defesa Civil:ANANINDEUA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
       "status": "vigente"
     },
     {
-      "time": "17:10",
+      "time": "18:46",
       "date": "15/04/2026",
       "senderName": "Defesa Civil Estadual do Pará",
       "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
+      "event": "Alagamentos",
       "nivel": "Alto",
-      "location": "São Domingos do Capim/PA",
+      "location": "São Miguel do Guamá/PA",
       "uf": "PA",
-      "headline": "Defesa Civil:SAO DOMINGOS DO CAPIM: Alerta ALTO de CHUVAS INTENSAS iminente. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
+      "headline": "Defesa Civil:SAO MIGUEL DO GUAMA: Alerta MODERADO de ALAGAMENTOS (15ABR). Risco de DESLIZAMENTOS e DESMORONAMENTO. Atencao a novos alertas. Evite trafegar!",
       "status": "vigente"
     },
     {
-      "time": "16:52",
-      "date": "15/04/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Castanhal/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:CASTANHAL: Alerta ALTO de CHUVAS INTENSAS iminente. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
-      "status": "vigente"
-    },
-    {
-      "time": "16:50",
+      "time": "18:38",
       "date": "15/04/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
@@ -53,41 +41,53 @@
       "nivel": "Alto",
       "location": "AMAZONAS/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO:  Chuva intensa nas proximas horas. Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento. Evite transitar por areas de risco. Siga a orientacao da defesa civil.",
       "status": "vigente"
     },
     {
-      "time": "16:35",
+      "time": "18:34",
       "date": "15/04/2026",
       "senderName": "Defesa Civil Estadual do Pará",
       "senderNameShort": "DC Pará",
       "event": "Chuvas Intensas",
       "nivel": "Alto",
-      "location": "PARÁ/PA",
+      "location": "Marituba/PA",
       "uf": "PA",
-      "headline": "Defesa Civil:NORDESTE PARAENSE: Alerta ALTO de CHUVAS INTENSAS iminente. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
+      "headline": "Defesa Civil:MARITUBA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
       "status": "vigente"
+    },
+    {
+      "time": "18:25",
+      "date": "15/04/2026",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "senderNameShort": "DC Mato Grosso",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Campo Verde/MT",
+      "uf": "MT",
+      "headline": "Defesa Civil:ESTADUAL: Chuvas intensas com pontos de alagamento e enxurradas. Evite areas de risco. Abrigue-se em local seguro.Emergencia ligue: 193.",
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 9
+      "count": 11
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 6
-    },
-    {
-      "name": "Defesa Civil Estadual do Piauí",
-      "short_name": "DC Piauí",
-      "count": 4
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual de Mato Grosso",
       "short_name": "DC Mato Grosso",
+      "count": 5
+    },
+    {
+      "name": "Defesa Civil Estadual do Piauí",
+      "short_name": "DC Piauí",
       "count": 4
     },
     {
@@ -113,17 +113,21 @@
     },
     {
       "label": "Alto",
-      "count": 13
+      "count": 16
     },
     {
       "label": "Severo",
-      "count": 1
+      "count": 2
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 23
+      "count": 26
+    },
+    {
+      "label": "Alagamentos",
+      "count": 2
     },
     {
       "label": "Solo/Lama",
@@ -132,27 +136,23 @@
     {
       "label": "Granizo",
       "count": 1
-    },
-    {
-      "label": "Alagamentos",
-      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "PA",
-      "count": 10
+      "count": 12
     },
     {
       "uf": "AM",
-      "count": 7
-    },
-    {
-      "uf": "PI",
-      "count": 4
+      "count": 8
     },
     {
       "uf": "MT",
+      "count": 5
+    },
+    {
+      "uf": "PI",
       "count": 4
     },
     {
@@ -163,14 +163,79 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 19
+      "count": 17
     },
     {
       "label": "expirado",
-      "count": 7
+      "count": 13
     }
   ],
   "all_alerts": [
+    {
+      "date": "15/04/2026",
+      "time": "19:00",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Ananindeua/PA",
+      "headline": "Defesa Civil:ANANINDEUA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
+      "status": "vigente",
+      "onset": "2026-04-15T19:00:14-03:00",
+      "expires": "2026-04-15T21:00:00-03:00"
+    },
+    {
+      "date": "15/04/2026",
+      "time": "18:46",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "São Miguel do Guamá/PA",
+      "headline": "Defesa Civil:SAO MIGUEL DO GUAMA: Alerta MODERADO de ALAGAMENTOS (15ABR). Risco de DESLIZAMENTOS e DESMORONAMENTO. Atencao a novos alertas. Evite trafegar!",
+      "status": "vigente",
+      "onset": "2026-04-15T18:46:40-03:00",
+      "expires": "2026-04-15T21:00:00-03:00"
+    },
+    {
+      "date": "15/04/2026",
+      "time": "18:38",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento. Evite transitar por areas de risco. Siga a orientacao da defesa civil.",
+      "status": "vigente",
+      "onset": "2026-04-15T18:38:21-03:00",
+      "expires": "2026-04-15T22:30:00-03:00"
+    },
+    {
+      "date": "15/04/2026",
+      "time": "18:34",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Marituba/PA",
+      "headline": "Defesa Civil:MARITUBA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
+      "status": "vigente",
+      "onset": "2026-04-15T18:34:23-03:00",
+      "expires": "2026-04-15T21:00:00-03:00"
+    },
+    {
+      "date": "15/04/2026",
+      "time": "18:25",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "MT",
+      "location": "Campo Verde/MT",
+      "headline": "Defesa Civil:ESTADUAL: Chuvas intensas com pontos de alagamento e enxurradas. Evite areas de risco. Abrigue-se em local seguro.Emergencia ligue: 193.",
+      "status": "expirado",
+      "onset": "2026-04-15T18:25:04-03:00",
+      "expires": "2026-04-15T18:25:00-03:00"
+    },
     {
       "date": "15/04/2026",
       "time": "17:19",
@@ -193,7 +258,7 @@
       "uf": "PA",
       "location": "São Domingos do Capim/PA",
       "headline": "Defesa Civil:SAO DOMINGOS DO CAPIM: Alerta ALTO de CHUVAS INTENSAS iminente. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-15T17:10:59-03:00",
       "expires": "2026-04-15T20:00:00-03:00"
     },
@@ -206,7 +271,7 @@
       "uf": "PA",
       "location": "Castanhal/PA",
       "headline": "Defesa Civil:CASTANHAL: Alerta ALTO de CHUVAS INTENSAS iminente. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-15T16:52:07-03:00",
       "expires": "2026-04-15T18:50:00-03:00"
     },
@@ -258,7 +323,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-15T14:46:03-03:00",
       "expires": "2026-04-15T19:00:00-03:00"
     },
@@ -271,7 +336,7 @@
       "uf": "PA",
       "location": "Santa Luzia do Pará/PA",
       "headline": "Defesa Civil:SANTA LUZIA DO PARA: Alerta ALTO de CHUVAS INTENSAS iminente. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-15T14:42:15-03:00",
       "expires": "2026-04-15T18:40:00-03:00"
     },
@@ -284,7 +349,7 @@
       "uf": "PA",
       "location": "Cachoeira do Piriá/PA",
       "headline": "Defesa Civil:CACHOEIRA DO PIRIA: Alerta ALTO de CHUVAS INTENSAS iminente. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-15T14:12:58-03:00",
       "expires": "2026-04-15T19:00:00-03:00"
     },
@@ -427,7 +492,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:MARAJO: Alerta ALTO de ALAGAMENTOS devido CHUVAS INTENSAS. Risco de DESLIZAMENTOS e INUNDACOES. Atencao a novos alertas. Prepare-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-15T10:01:24-03:00",
       "expires": "2026-04-15T18:55:00-03:00"
     },
@@ -495,34 +560,21 @@
       "status": "expirado",
       "onset": "2026-04-15T07:03:23-03:00",
       "expires": "2026-04-15T11:00:00-03:00"
-    },
-    {
-      "date": "14/04/2026",
-      "time": "18:39",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Ipixuna do Pará/PA",
-      "headline": "Defesa Civil:IPIXUNA DO PARA: Alerta ALTO de CHUVAS INTENSAS iminente. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
-      "status": "expirado",
-      "onset": "2026-04-14T18:39:05-03:00",
-      "expires": "2026-04-14T20:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 26,
+    "total_alerts": 30,
     "by_nivel": {
-      "Alto": 13,
+      "Alto": 16,
       "Médio": 12,
-      "Severo": 1
+      "Severo": 2
     },
     "by_channel_list": {
-      "Google": 26
+      "Google": 30
     },
     "by_region": {
-      "N": 17,
-      "CO": 5,
+      "N": 20,
+      "CO": 6,
       "NE": 4
     }
   }
