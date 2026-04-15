@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-14T20:07:21.480706-03:00",
-  "source_run_dir": "run_20260414_200650",
+  "generated_at": "2026-04-15T00:44:22.497854-03:00",
+  "source_run_dir": "run_20260415_004409",
   "cards": {
-    "vigentes": 12,
-    "ultimas24h": 31,
-    "autoridadesAtivas": 9,
+    "vigentes": 3,
+    "ultimas24h": 27,
+    "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
@@ -54,7 +54,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:33",
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 13
+      "count": 11
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -104,36 +104,26 @@
       "name": "Defesa Civil de Belém (PA)",
       "short_name": "DC Belém (PA)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Campina Grande (PB)",
-      "short_name": "DC Campina Grande (PB)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Maranhão",
-      "short_name": "DC Maranhão",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 12
+      "count": 11
     },
     {
       "label": "Alto",
-      "count": 16
+      "count": 14
     },
     {
       "label": "Severo",
-      "count": 3
+      "count": 2
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 23
+      "count": 19
     },
     {
       "label": "Solo/Lama",
@@ -147,7 +137,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 16
+      "count": 14
     },
     {
       "uf": "PA",
@@ -164,24 +154,16 @@
     {
       "uf": "MT",
       "count": 1
-    },
-    {
-      "uf": "PB",
-      "count": 1
-    },
-    {
-      "uf": "MA",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 12
+      "count": 3
     },
     {
       "label": "expirado",
-      "count": 19
+      "count": 24
     }
   ],
   "all_alerts": [
@@ -233,7 +215,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-14T16:54:33-03:00",
       "expires": "2026-04-14T21:00:00-03:00"
     },
@@ -272,7 +254,7 @@
       "uf": "AM",
       "location": "Boca do Acre/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Redobre atencao em areas inclinadas. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-14T15:18:45-03:00",
       "expires": "2026-04-14T21:00:00-03:00"
     },
@@ -324,7 +306,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas para PIAUI/PI. EVITE AREAS DE RISCO, nao atravesse areas alagadas, proteja-se. Em caso de emergencia, ligue 190 ou 193!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-14T13:31:07-03:00",
       "expires": "2026-04-14T23:55:00-03:00"
     },
@@ -415,7 +397,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas para PIAUI/PI. Evite transitar em areas risco e/ou locais de alagamentos. Em caso de emergencia ligue 190 ou 193!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-14T10:09:17-03:00",
       "expires": "2026-04-14T23:55:00-03:00"
     },
@@ -428,7 +410,7 @@
       "uf": "PI",
       "location": "Parnaíba/PI",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas para Parnaiba/PI. Siga as orientacoes da defesa civil. evite areas de risco. Em caso de emergencia ligue 190 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-14T09:59:44-03:00",
       "expires": "2026-04-14T23:55:00-03:00"
     },
@@ -441,7 +423,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (14ABR). Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-14T09:40:55-03:00",
       "expires": "2026-04-14T23:55:00-03:00"
     },
@@ -454,7 +436,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:PARA: Alerta MODERADO de CHUVAS INTENSAS hoje (14ABR). Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-14T09:38:20-03:00",
       "expires": "2026-04-14T23:55:00-03:00"
     },
@@ -535,73 +517,21 @@
       "status": "expirado",
       "onset": "2026-04-14T07:42:07-03:00",
       "expires": "2026-04-14T13:00:00-03:00"
-    },
-    {
-      "date": "14/04/2026",
-      "time": "00:01",
-      "senderName": "Defesa Civil de Campina Grande (PB)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PB",
-      "location": "Campina Grande/PB",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Campina Grande/PB  Em caso de emergencia ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-04-14T00:01:00-03:00",
-      "expires": "2026-04-14T23:55:00-03:00"
-    },
-    {
-      "date": "14/04/2026",
-      "time": "00:00",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "MA",
-      "location": "MARANHÃO-MA",
-      "headline": "Defesa Civil: Alerta de chuvas intensas para hoje 14/04. Evite areas de risco. Em caso de emergencia ligue 199 ou 193. Valido ate 23h59.",
-      "status": "vigente",
-      "onset": "2026-04-14T00:00:00-03:00",
-      "expires": "2026-04-14T23:55:00-03:00"
-    },
-    {
-      "date": "13/04/2026",
-      "time": "23:42",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-13T23:42:00-03:00",
-      "expires": "2026-04-14T04:30:00-03:00"
-    },
-    {
-      "date": "13/04/2026",
-      "time": "20:13",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-13T20:13:54-03:00",
-      "expires": "2026-04-13T21:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 31,
+    "total_alerts": 27,
     "by_nivel": {
-      "Alto": 16,
-      "Médio": 12,
-      "Severo": 3
+      "Alto": 14,
+      "Médio": 11,
+      "Severo": 2
     },
     "by_channel_list": {
-      "Google": 31
+      "Google": 27
     },
     "by_region": {
-      "N": 24,
-      "NE": 5,
+      "N": 22,
+      "NE": 3,
       "CO": 1,
       "SE": 1
     }
