@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-15T06:52:40.406250-03:00",
-  "source_run_dir": "run_20260415_065232",
+  "generated_at": "2026-04-15T08:18:55.954699-03:00",
+  "source_run_dir": "run_20260415_081846",
   "cards": {
     "vigentes": 3,
-    "ultimas24h": 27,
+    "ultimas24h": 26,
     "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "07:03",
+      "date": "15/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Parintins/AM, Nhamundá/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "18:39",
       "date": "14/04/2026",
@@ -55,25 +67,13 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
       "status": "expirado"
-    },
-    {
-      "time": "16:33",
-      "date": "14/04/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Nova Esperança do Piriá/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:NOVA ESPERANCA DO PIRIA: Alerta ALTO de CHUVAS INTENSAS iminente. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 11
+      "count": 10
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -113,7 +113,7 @@
     },
     {
       "label": "Alto",
-      "count": 14
+      "count": 13
     },
     {
       "label": "Severo",
@@ -127,7 +127,7 @@
     },
     {
       "label": "Solo/Lama",
-      "count": 5
+      "count": 4
     },
     {
       "label": "Alagamentos",
@@ -137,7 +137,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 14
+      "count": 13
     },
     {
       "uf": "PA",
@@ -163,10 +163,23 @@
     },
     {
       "label": "expirado",
-      "count": 24
+      "count": 23
     }
   ],
   "all_alerts": [
+    {
+      "date": "15/04/2026",
+      "time": "07:03",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Parintins/AM, Nhamundá/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-15T07:03:23-03:00",
+      "expires": "2026-04-15T11:00:00-03:00"
+    },
     {
       "date": "14/04/2026",
       "time": "18:39",
@@ -267,7 +280,7 @@
       "uf": "MG",
       "location": "Belo Horizonte/MG",
       "headline": "Defesa Civil:Chuva (ate 20 mm), ate 8h de quarta-feira (15) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-14T15:01:06-03:00",
       "expires": "2026-04-15T08:00:00-03:00"
     },
@@ -491,46 +504,20 @@
       "status": "vigente",
       "onset": "2026-04-14T09:15:09-03:00",
       "expires": "2026-04-15T23:55:00-03:00"
-    },
-    {
-      "date": "14/04/2026",
-      "time": "07:54",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-14T07:54:29-03:00",
-      "expires": "2026-04-14T10:00:00-03:00"
-    },
-    {
-      "date": "14/04/2026",
-      "time": "07:42",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Nhamundá/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento para o municipio de Nhamunda.  Evite areas inclinadas. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-14T07:42:07-03:00",
-      "expires": "2026-04-14T13:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 27,
+    "total_alerts": 26,
     "by_nivel": {
-      "Alto": 14,
+      "Alto": 13,
       "Médio": 11,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 27
+      "Google": 26
     },
     "by_region": {
-      "N": 22,
+      "N": 21,
       "NE": 3,
       "CO": 1,
       "SE": 1
