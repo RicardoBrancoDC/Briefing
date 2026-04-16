@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-16T03:15:29.678499-03:00",
-  "source_run_dir": "run_20260416_031508",
+  "generated_at": "2026-04-16T05:08:27.896405-03:00",
+  "source_run_dir": "run_20260416_050808",
   "cards": {
-    "vigentes": 5,
-    "ultimas24h": 31,
+    "vigentes": 6,
+    "ultimas24h": 32,
     "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "03:32",
+      "date": "16/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "02:06",
       "date": "16/04/2026",
@@ -55,18 +67,6 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento. Evite transitar por areas de risco. Siga a orientacao da defesa civil.",
       "status": "expirado"
-    },
-    {
-      "time": "18:34",
-      "date": "15/04/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Marituba/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:MARITUBA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Defesa Civil Estadual de Mato Grosso",
@@ -109,7 +109,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 13
+      "count": 14
     },
     {
       "label": "Alto",
@@ -123,7 +123,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 27
+      "count": 28
     },
     {
       "label": "Alagamentos",
@@ -145,7 +145,7 @@
     },
     {
       "uf": "AM",
-      "count": 9
+      "count": 10
     },
     {
       "uf": "MT",
@@ -163,7 +163,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 6
     },
     {
       "label": "expirado",
@@ -171,6 +171,19 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "16/04/2026",
+      "time": "03:32",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-16T03:32:14-03:00",
+      "expires": "2026-04-16T08:00:00-03:00"
+    },
     {
       "date": "16/04/2026",
       "time": "02:06",
@@ -576,17 +589,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 31,
+    "total_alerts": 32,
     "by_nivel": {
       "Alto": 16,
-      "Médio": 13,
+      "Médio": 14,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 31
+      "Google": 32
     },
     "by_region": {
-      "N": 21,
+      "N": 22,
       "CO": 6,
       "NE": 4
     }
