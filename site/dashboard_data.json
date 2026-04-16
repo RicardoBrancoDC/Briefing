@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-04-16T06:52:10.158571-03:00",
-  "source_run_dir": "run_20260416_065158",
+  "generated_at": "2026-04-16T08:33:09.984689-03:00",
+  "source_run_dir": "run_20260416_083257",
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 32,
-    "autoridadesAtivas": 7,
+    "vigentes": 7,
+    "ultimas24h": 34,
+    "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "08:05",
+      "date": "16/04/2026",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "senderNameShort": "DC Blumenau (SC)",
+      "event": "Chuvas Intensas",
+      "nivel": "Baixo",
+      "location": "Blumenau/SC",
+      "uf": "SC",
+      "headline": "Defesa Civil:ALERTABLU: Possibilidade de pancadas rapidas e isoladas de chuva c/ alguma trovoada entre tarde e noite em BNU. Fique atento! Ocorrencias 199/193.",
+      "status": "vigente"
+    },
+    {
+      "time": "07:47",
+      "date": "16/04/2026",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "senderNameShort": "DC Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil: ALERTA de CHUVA INTENSA para Manaus. Siga as orientacoes da defesa civil local. Em caso de emergencia, ligue 199/193",
+      "status": "vigente"
+    },
+    {
+      "time": "07:12",
+      "date": "16/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "03:32",
       "date": "16/04/2026",
@@ -18,7 +54,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "02:06",
@@ -30,42 +66,6 @@
       "location": "Boa Vista do Ramos/AM, Urucará/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "19:00",
-      "date": "15/04/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Ananindeua/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:ANANINDEUA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
-      "status": "expirado"
-    },
-    {
-      "time": "18:46",
-      "date": "15/04/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "location": "São Miguel do Guamá/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:SAO MIGUEL DO GUAMA: Alerta MODERADO de ALAGAMENTOS (15ABR). Risco de DESLIZAMENTOS e DESMORONAMENTO. Atencao a novos alertas. Evite trafegar!",
-      "status": "expirado"
-    },
-    {
-      "time": "18:38",
-      "date": "15/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento. Evite transitar por areas de risco. Siga a orientacao da defesa civil.",
       "status": "expirado"
     }
   ],
@@ -93,6 +93,11 @@
     {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil de Blumenau (SC)",
+      "short_name": "DC Blumenau (SC)",
       "count": 1
     },
     {
@@ -108,8 +113,12 @@
   ],
   "level_distribution": [
     {
+      "label": "Baixo",
+      "count": 1
+    },
+    {
       "label": "Médio",
-      "count": 14
+      "count": 15
     },
     {
       "label": "Alto",
@@ -123,7 +132,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 28
+      "count": 30
     },
     {
       "label": "Alagamentos",
@@ -145,7 +154,7 @@
     },
     {
       "uf": "AM",
-      "count": 10
+      "count": 11
     },
     {
       "uf": "MT",
@@ -156,6 +165,10 @@
       "count": 4
     },
     {
+      "uf": "SC",
+      "count": 1
+    },
+    {
       "uf": "GO",
       "count": 1
     }
@@ -163,14 +176,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 26
+      "count": 27
     }
   ],
   "all_alerts": [
+    {
+      "date": "16/04/2026",
+      "time": "08:05",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "event": "Chuvas Intensas",
+      "nivel": "Baixo",
+      "uf": "SC",
+      "location": "Blumenau/SC",
+      "headline": "Defesa Civil:ALERTABLU: Possibilidade de pancadas rapidas e isoladas de chuva c/ alguma trovoada entre tarde e noite em BNU. Fique atento! Ocorrencias 199/193.",
+      "status": "vigente",
+      "onset": "2026-04-16T08:05:26-03:00",
+      "expires": "2026-04-16T23:55:00-03:00"
+    },
+    {
+      "date": "16/04/2026",
+      "time": "07:47",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil: ALERTA de CHUVA INTENSA para Manaus. Siga as orientacoes da defesa civil local. Em caso de emergencia, ligue 199/193",
+      "status": "vigente",
+      "onset": "2026-04-16T07:47:53-03:00",
+      "expires": "2026-04-16T13:00:00-03:00"
+    },
+    {
+      "date": "16/04/2026",
+      "time": "07:12",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-16T07:12:20-03:00",
+      "expires": "2026-04-16T11:30:00-03:00"
+    },
     {
       "date": "16/04/2026",
       "time": "03:32",
@@ -180,7 +232,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-16T03:32:14-03:00",
       "expires": "2026-04-16T08:00:00-03:00"
     },
@@ -193,7 +245,7 @@
       "uf": "AM",
       "location": "Boa Vista do Ramos/AM, Urucará/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-16T02:06:24-03:00",
       "expires": "2026-04-16T07:00:00-03:00"
     },
@@ -573,35 +625,24 @@
       "status": "vigente",
       "onset": "2026-04-15T09:43:41-03:00",
       "expires": "2026-04-16T10:00:00-03:00"
-    },
-    {
-      "date": "15/04/2026",
-      "time": "07:03",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Parintins/AM, Nhamundá/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-15T07:03:23-03:00",
-      "expires": "2026-04-15T11:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 32,
+    "total_alerts": 34,
     "by_nivel": {
       "Alto": 16,
-      "Médio": 14,
-      "Severo": 2
+      "Médio": 15,
+      "Severo": 2,
+      "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 32
+      "Google": 34
     },
     "by_region": {
-      "N": 22,
+      "N": 23,
       "CO": 6,
-      "NE": 4
+      "NE": 4,
+      "S": 1
     }
   }
 }
