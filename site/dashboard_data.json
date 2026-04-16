@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-16T00:49:49.410800-03:00",
-  "source_run_dir": "run_20260416_004932",
+  "generated_at": "2026-04-16T03:15:29.678499-03:00",
+  "source_run_dir": "run_20260416_031508",
   "cards": {
-    "vigentes": 4,
-    "ultimas24h": 30,
+    "vigentes": 5,
+    "ultimas24h": 31,
     "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "02:06",
+      "date": "16/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Boa Vista do Ramos/AM, Urucará/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "19:00",
       "date": "15/04/2026",
@@ -55,18 +67,6 @@
       "uf": "PA",
       "headline": "Defesa Civil:MARITUBA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
       "status": "expirado"
-    },
-    {
-      "time": "18:25",
-      "date": "15/04/2026",
-      "senderName": "Defesa Civil Estadual de Mato Grosso",
-      "senderNameShort": "DC Mato Grosso",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Campo Verde/MT",
-      "uf": "MT",
-      "headline": "Defesa Civil:ESTADUAL: Chuvas intensas com pontos de alagamento e enxurradas. Evite areas de risco. Abrigue-se em local seguro.Emergencia ligue: 193.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 7
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual de Mato Grosso",
@@ -109,7 +109,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 12
+      "count": 13
     },
     {
       "label": "Alto",
@@ -123,7 +123,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 26
+      "count": 27
     },
     {
       "label": "Alagamentos",
@@ -145,7 +145,7 @@
     },
     {
       "uf": "AM",
-      "count": 8
+      "count": 9
     },
     {
       "uf": "MT",
@@ -163,7 +163,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 4
+      "count": 5
     },
     {
       "label": "expirado",
@@ -171,6 +171,19 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "16/04/2026",
+      "time": "02:06",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Boa Vista do Ramos/AM, Urucará/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-16T02:06:24-03:00",
+      "expires": "2026-04-16T07:00:00-03:00"
+    },
     {
       "date": "15/04/2026",
       "time": "19:00",
@@ -563,17 +576,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 30,
+    "total_alerts": 31,
     "by_nivel": {
       "Alto": 16,
-      "Médio": 12,
+      "Médio": 13,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 30
+      "Google": 31
     },
     "by_region": {
-      "N": 20,
+      "N": 21,
       "CO": 6,
       "NE": 4
     }
