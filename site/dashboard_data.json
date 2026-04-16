@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-16T11:17:50.491271-03:00",
-  "source_run_dir": "run_20260416_111723",
+  "generated_at": "2026-04-16T13:00:56.160044-03:00",
+  "source_run_dir": "run_20260416_130000",
   "cards": {
-    "vigentes": 8,
-    "ultimas24h": 29,
-    "autoridadesAtivas": 8,
-    "alertasExtremos": 0
+    "vigentes": 7,
+    "ultimas24h": 28,
+    "autoridadesAtivas": 9,
+    "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "12:12",
+      "date": "16/04/2026",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "senderNameShort": "DC Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Extremo",
+      "location": "MARANHÃO/MA",
+      "uf": "MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193. Valido ate dia 17/04/2026 as 23h59min.",
+      "status": "vigente"
+    },
     {
       "time": "10:39",
       "date": "16/04/2026",
@@ -55,18 +67,6 @@
       "uf": "RO",
       "headline": "Defesa Civil:Alerta de chuvas intensas, ventos fortes, alagamentos, quedas de arvores. Siga orientacoes Defesa Civil e Bombeiros. Ligue 199 ou 193",
       "status": "vigente"
-    },
-    {
-      "time": "09:50",
-      "date": "16/04/2026",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "senderNameShort": "DC Goiás",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "GOIÁS/GO",
-      "uf": "GO",
-      "headline": "Defesa Civil:Possibilidade de chuvas e ventos intensos nas proximas 24 horas, com risco de alagamento e raios. Evite riscos. Emergencia 193",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -78,12 +78,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 8
-    },
-    {
-      "name": "Defesa Civil Estadual de Mato Grosso",
-      "short_name": "DC Mato Grosso",
-      "count": 4
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
@@ -91,9 +86,19 @@
       "count": 3
     },
     {
+      "name": "Defesa Civil Estadual de Mato Grosso",
+      "short_name": "DC Mato Grosso",
+      "count": 3
+    },
+    {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual do Maranhão",
+      "short_name": "DC Maranhão",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual de Rondônia",
@@ -118,7 +123,7 @@
     },
     {
       "label": "Médio",
-      "count": 11
+      "count": 10
     },
     {
       "label": "Alto",
@@ -126,13 +131,17 @@
     },
     {
       "label": "Severo",
-      "count": 2
+      "count": 1
+    },
+    {
+      "label": "Extremo",
+      "count": 1
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 27
+      "count": 26
     },
     {
       "label": "Alagamentos",
@@ -142,19 +151,23 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 10
+      "count": 9
     },
     {
       "uf": "PA",
       "count": 9
     },
     {
-      "uf": "MT",
-      "count": 4
-    },
-    {
       "uf": "PI",
       "count": 3
+    },
+    {
+      "uf": "MT",
+      "count": 3
+    },
+    {
+      "uf": "MA",
+      "count": 1
     },
     {
       "uf": "RO",
@@ -172,7 +185,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 8
+      "count": 7
     },
     {
       "label": "expirado",
@@ -180,6 +193,19 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "16/04/2026",
+      "time": "12:12",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Extremo",
+      "uf": "MA",
+      "location": "MARANHÃO/MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193. Valido ate dia 17/04/2026 as 23h59min.",
+      "status": "vigente",
+      "onset": "2026-04-16T12:12:28-03:00",
+      "expires": "2026-04-17T23:55:00-03:00"
+    },
     {
       "date": "16/04/2026",
       "time": "10:39",
@@ -280,7 +306,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil: ALERTA de CHUVA INTENSA para Manaus. Siga as orientacoes da defesa civil local. Em caso de emergencia, ligue 199/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-16T07:47:53-03:00",
       "expires": "2026-04-16T13:00:00-03:00"
     },
@@ -293,7 +319,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-16T07:12:20-03:00",
       "expires": "2026-04-16T11:30:00-03:00"
     },
@@ -530,49 +556,24 @@
       "status": "expirado",
       "onset": "2026-04-15T13:07:06-03:00",
       "expires": "2026-04-15T23:55:00-03:00"
-    },
-    {
-      "date": "15/04/2026",
-      "time": "12:45",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-15T12:45:15-03:00",
-      "expires": "2026-04-15T16:35:00-03:00"
-    },
-    {
-      "date": "15/04/2026",
-      "time": "11:58",
-      "senderName": "Defesa Civil Estadual de Mato Grosso",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "MT",
-      "location": "Vila Rica/MT",
-      "headline": "Defesa Civil:ESTADUAL: Chuva intensa em algumas regioes de cidade. Evite areas de risco. Abrigue-se em local seguro. Em emergencia ligue: 193",
-      "status": "expirado",
-      "onset": "2026-04-15T11:58:08-03:00",
-      "expires": "2026-04-15T12:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 29,
+    "total_alerts": 28,
     "by_nivel": {
       "Alto": 15,
-      "Médio": 11,
-      "Severo": 2,
-      "Baixo": 1
+      "Médio": 10,
+      "Baixo": 1,
+      "Extremo": 1,
+      "Severo": 1
     },
     "by_channel_list": {
-      "Google": 29
+      "Google": 28
     },
     "by_region": {
-      "N": 20,
-      "CO": 5,
-      "NE": 3,
+      "N": 19,
+      "CO": 4,
+      "NE": 4,
       "S": 1
     }
   }
