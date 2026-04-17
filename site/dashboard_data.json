@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-17T06:50:49.864699-03:00",
-  "source_run_dir": "run_20260417_065034",
+  "generated_at": "2026-04-17T08:15:45.975397-03:00",
+  "source_run_dir": "run_20260417_081525",
   "cards": {
-    "vigentes": 7,
-    "ultimas24h": 29,
-    "autoridadesAtivas": 10,
+    "vigentes": 8,
+    "ultimas24h": 27,
+    "autoridadesAtivas": 9,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "07:35",
+      "date": "17/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "03:23",
       "date": "17/04/2026",
@@ -55,18 +67,6 @@
       "uf": "SC",
       "headline": "Defesa Civil:ATENCAO - 16/04 21:16 - TEMPORAL com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
       "status": "expirado"
-    },
-    {
-      "time": "20:06",
-      "date": "16/04/2026",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "senderNameShort": "DC Goiás",
-      "event": "Alagamentos",
-      "nivel": "Severo",
-      "location": "Goiânia/GO",
-      "uf": "GO",
-      "headline": "Defesa Civil:Alerta em Goiania de risco ALTO de alagamentos no V. dos Sonhos, Jd Guanabara II e regiao. EVITE riscos. NAO TRANSITE em area alagada. Emerg 193",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -91,11 +91,6 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil Estadual de Mato Grosso",
       "short_name": "DC Mato Grosso",
       "count": 2
@@ -103,6 +98,11 @@
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
       "count": 1
     },
     {
@@ -114,25 +114,16 @@
       "name": "Defesa Civil Estadual de Rondônia",
       "short_name": "DC Rondônia",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Blumenau (SC)",
-      "short_name": "DC Blumenau (SC)",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
-      "label": "Baixo",
-      "count": 1
-    },
-    {
       "label": "Médio",
-      "count": 13
+      "count": 11
     },
     {
       "label": "Alto",
-      "count": 10
+      "count": 11
     },
     {
       "label": "Severo",
@@ -146,7 +137,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 20
+      "count": 18
     },
     {
       "label": "Alagamentos",
@@ -160,7 +151,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 10
+      "count": 9
     },
     {
       "uf": "PI",
@@ -175,12 +166,12 @@
       "count": 3
     },
     {
-      "uf": "SC",
+      "uf": "MT",
       "count": 2
     },
     {
-      "uf": "MT",
-      "count": 2
+      "uf": "SC",
+      "count": 1
     },
     {
       "uf": "MA",
@@ -194,14 +185,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 8
     },
     {
       "label": "expirado",
-      "count": 22
+      "count": 19
     }
   ],
   "all_alerts": [
+    {
+      "date": "17/04/2026",
+      "time": "07:35",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-17T07:35:22-03:00",
+      "expires": "2026-04-17T10:20:00-03:00"
+    },
     {
       "date": "17/04/2026",
       "time": "03:23",
@@ -539,64 +543,24 @@
       "status": "expirado",
       "onset": "2026-04-16T09:43:18-03:00",
       "expires": "2026-04-16T11:00:00-03:00"
-    },
-    {
-      "date": "16/04/2026",
-      "time": "08:05",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "event": "Chuvas Intensas",
-      "nivel": "Baixo",
-      "uf": "SC",
-      "location": "Blumenau/SC",
-      "headline": "Defesa Civil:ALERTABLU: Possibilidade de pancadas rapidas e isoladas de chuva c/ alguma trovoada entre tarde e noite em BNU. Fique atento! Ocorrencias 199/193.",
-      "status": "expirado",
-      "onset": "2026-04-16T08:05:26-03:00",
-      "expires": "2026-04-16T23:55:00-03:00"
-    },
-    {
-      "date": "16/04/2026",
-      "time": "07:47",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil: ALERTA de CHUVA INTENSA para Manaus. Siga as orientacoes da defesa civil local. Em caso de emergencia, ligue 199/193",
-      "status": "expirado",
-      "onset": "2026-04-16T07:47:53-03:00",
-      "expires": "2026-04-16T13:00:00-03:00"
-    },
-    {
-      "date": "16/04/2026",
-      "time": "07:12",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-16T07:12:20-03:00",
-      "expires": "2026-04-16T11:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 29,
+    "total_alerts": 27,
     "by_nivel": {
-      "Médio": 13,
-      "Alto": 10,
+      "Alto": 11,
+      "Médio": 11,
       "Severo": 4,
-      "Baixo": 1,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 29
+      "Google": 27
     },
     "by_region": {
-      "N": 15,
+      "N": 14,
       "NE": 7,
       "CO": 5,
-      "S": 2
+      "S": 1
     }
   }
 }
