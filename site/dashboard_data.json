@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-17T03:15:55.863112-03:00",
-  "source_run_dir": "run_20260417_031534",
+  "generated_at": "2026-04-17T05:08:12.361921-03:00",
+  "source_run_dir": "run_20260417_050752",
   "cards": {
-    "vigentes": 7,
+    "vigentes": 8,
     "ultimas24h": 29,
     "autoridadesAtivas": 10,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "03:23",
+      "date": "17/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "22:54",
       "date": "16/04/2026",
@@ -54,18 +66,6 @@
       "location": "Goiânia/GO",
       "uf": "GO",
       "headline": "Defesa Civil:Alerta em Goiania de risco ALTO de alagamentos no V. dos Sonhos, Jd Guanabara II e regiao. EVITE riscos. NAO TRANSITE em area alagada. Emerg 193",
-      "status": "expirado"
-    },
-    {
-      "time": "20:04",
-      "date": "16/04/2026",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "senderNameShort": "DC Goiás",
-      "event": "Alagamentos",
-      "nivel": "Severo",
-      "location": "Goiânia/GO, Senador Canedo/GO",
-      "uf": "GO",
-      "headline": "Defesa Civil:Alerta em Goiania de risco ALTO de alagamentos no Vl Pedroso, Vl Concordia e regiao. EVITE riscos. NAO TRANSITE em area alagada. Emerg. 193",
       "status": "expirado"
     }
   ],
@@ -128,11 +128,11 @@
     },
     {
       "label": "Médio",
-      "count": 14
+      "count": 13
     },
     {
       "label": "Alto",
-      "count": 9
+      "count": 10
     },
     {
       "label": "Severo",
@@ -194,14 +194,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 8
     },
     {
       "label": "expirado",
-      "count": 22
+      "count": 21
     }
   ],
   "all_alerts": [
+    {
+      "date": "17/04/2026",
+      "time": "03:23",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-17T03:23:32-03:00",
+      "expires": "2026-04-17T06:00:00-03:00"
+    },
     {
       "date": "16/04/2026",
       "time": "22:54",
@@ -565,26 +578,13 @@
       "status": "expirado",
       "onset": "2026-04-16T07:12:20-03:00",
       "expires": "2026-04-16T11:30:00-03:00"
-    },
-    {
-      "date": "16/04/2026",
-      "time": "03:32",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-16T03:32:14-03:00",
-      "expires": "2026-04-16T08:00:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 29,
     "by_nivel": {
-      "Médio": 14,
-      "Alto": 9,
+      "Médio": 13,
+      "Alto": 10,
       "Severo": 4,
       "Baixo": 1,
       "Extremo": 1
