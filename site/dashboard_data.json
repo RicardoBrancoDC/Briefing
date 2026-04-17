@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-17T00:47:52.625034-03:00",
-  "source_run_dir": "run_20260417_004731",
+  "generated_at": "2026-04-17T03:15:55.863112-03:00",
+  "source_run_dir": "run_20260417_031534",
   "cards": {
-    "vigentes": 9,
-    "ultimas24h": 30,
+    "vigentes": 7,
+    "ultimas24h": 29,
     "autoridadesAtivas": 10,
     "alertasExtremos": 1
   },
@@ -30,7 +30,7 @@
       "location": "Eirunepé/AM, Envira/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "21:18",
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 9
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Médio",
-      "count": 15
+      "count": 14
     },
     {
       "label": "Alto",
@@ -146,7 +146,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 21
+      "count": 20
     },
     {
       "label": "Alagamentos",
@@ -160,7 +160,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 11
+      "count": 10
     },
     {
       "uf": "PI",
@@ -194,11 +194,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 9
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 21
+      "count": 22
     }
   ],
   "all_alerts": [
@@ -224,7 +224,7 @@
       "uf": "AM",
       "location": "Eirunepé/AM, Envira/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-16T21:46:43-03:00",
       "expires": "2026-04-17T01:35:00-03:00"
     },
@@ -276,7 +276,7 @@
       "uf": "AM",
       "location": "Boca do Acre/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.   Nao enfrente areas alagadas. Procure local seguro.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-16T19:45:17-03:00",
       "expires": "2026-04-17T02:00:00-03:00"
     },
@@ -578,35 +578,22 @@
       "status": "expirado",
       "onset": "2026-04-16T03:32:14-03:00",
       "expires": "2026-04-16T08:00:00-03:00"
-    },
-    {
-      "date": "16/04/2026",
-      "time": "02:06",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Boa Vista do Ramos/AM, Urucará/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-16T02:06:24-03:00",
-      "expires": "2026-04-16T07:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 30,
+    "total_alerts": 29,
     "by_nivel": {
-      "Médio": 15,
+      "Médio": 14,
       "Alto": 9,
       "Severo": 4,
       "Baixo": 1,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 30
+      "Google": 29
     },
     "by_region": {
-      "N": 16,
+      "N": 15,
       "NE": 7,
       "CO": 5,
       "S": 2
