@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-04-16T20:06:15.806850-03:00",
-  "source_run_dir": "run_20260416_200523",
+  "generated_at": "2026-04-17T00:47:52.625034-03:00",
+  "source_run_dir": "run_20260417_004731",
   "cards": {
-    "vigentes": 15,
-    "ultimas24h": 26,
-    "autoridadesAtivas": 9,
+    "vigentes": 9,
+    "ultimas24h": 30,
+    "autoridadesAtivas": 10,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "22:54",
+      "date": "16/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Severo",
+      "location": "Boca do Acre/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento para Boca do Acre. Redobre atencao em areas inclinadas. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "21:46",
+      "date": "16/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Eirunepé/AM, Envira/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "21:18",
+      "date": "16/04/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "Defesa Civil:ATENCAO - 16/04 21:16 - TEMPORAL com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "expirado"
+    },
+    {
+      "time": "20:06",
+      "date": "16/04/2026",
+      "senderName": "Defesa Civil Estadual de Goiás",
+      "senderNameShort": "DC Goiás",
+      "event": "Alagamentos",
+      "nivel": "Severo",
+      "location": "Goiânia/GO",
+      "uf": "GO",
+      "headline": "Defesa Civil:Alerta em Goiania de risco ALTO de alagamentos no V. dos Sonhos, Jd Guanabara II e regiao. EVITE riscos. NAO TRANSITE em area alagada. Emerg 193",
+      "status": "expirado"
+    },
     {
       "time": "20:04",
       "date": "16/04/2026",
@@ -18,54 +66,6 @@
       "location": "Goiânia/GO, Senador Canedo/GO",
       "uf": "GO",
       "headline": "Defesa Civil:Alerta em Goiania de risco ALTO de alagamentos no Vl Pedroso, Vl Concordia e regiao. EVITE riscos. NAO TRANSITE em area alagada. Emerg. 193",
-      "status": "vigente"
-    },
-    {
-      "time": "19:45",
-      "date": "16/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "location": "Boca do Acre/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.   Nao enfrente areas alagadas. Procure local seguro.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "18:49",
-      "date": "16/04/2026",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "senderNameShort": "DC Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PIAUÍ/PI",
-      "uf": "PI",
-      "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS no PIAUI. EVITE AREAS DE ALAGAMENTO E ENXURRADAS. Proteja-se, Fique em Local Seguro. Em emergencia, ligue 193/190.",
-      "status": "vigente"
-    },
-    {
-      "time": "18:43",
-      "date": "16/04/2026",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "senderNameShort": "DC Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Teresina/PI",
-      "uf": "PI",
-      "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS em Teresina/PI. EVITE AREAS DE ALAGAMENTOS E ENXURRADAS. Proteja-se! Fique em Local Seguro. Em emergencia, ligue 193/190",
-      "status": "vigente"
-    },
-    {
-      "time": "18:33",
-      "date": "16/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
       "status": "expirado"
     }
   ],
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 7
+      "count": 9
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
@@ -88,7 +88,7 @@
     {
       "name": "Defesa Civil Estadual de Goiás",
       "short_name": "DC Goiás",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
@@ -99,6 +99,11 @@
       "name": "Defesa Civil Estadual de Mato Grosso",
       "short_name": "DC Mato Grosso",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Maranhão",
@@ -127,11 +132,11 @@
     },
     {
       "label": "Alto",
-      "count": 7
+      "count": 9
     },
     {
       "label": "Severo",
-      "count": 2
+      "count": 4
     },
     {
       "label": "Extremo",
@@ -141,17 +146,21 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 19
+      "count": 21
     },
     {
       "label": "Alagamentos",
-      "count": 7
+      "count": 8
+    },
+    {
+      "label": "Solo/Lama",
+      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 9
+      "count": 11
     },
     {
       "uf": "PI",
@@ -163,6 +172,10 @@
     },
     {
       "uf": "GO",
+      "count": 3
+    },
+    {
+      "uf": "SC",
       "count": 2
     },
     {
@@ -176,23 +189,71 @@
     {
       "uf": "RO",
       "count": 1
-    },
-    {
-      "uf": "SC",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 15
+      "count": 9
     },
     {
       "label": "expirado",
-      "count": 11
+      "count": 21
     }
   ],
   "all_alerts": [
+    {
+      "date": "16/04/2026",
+      "time": "22:54",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Severo",
+      "uf": "AM",
+      "location": "Boca do Acre/AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento para Boca do Acre. Redobre atencao em areas inclinadas. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-16T22:54:23-03:00",
+      "expires": "2026-04-17T10:45:00-03:00"
+    },
+    {
+      "date": "16/04/2026",
+      "time": "21:46",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Eirunepé/AM, Envira/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-16T21:46:43-03:00",
+      "expires": "2026-04-17T01:35:00-03:00"
+    },
+    {
+      "date": "16/04/2026",
+      "time": "21:18",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 16/04 21:16 - TEMPORAL com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "expirado",
+      "onset": "2026-04-16T21:18:27-03:00",
+      "expires": "2026-04-16T23:15:00-03:00"
+    },
+    {
+      "date": "16/04/2026",
+      "time": "20:06",
+      "senderName": "Defesa Civil Estadual de Goiás",
+      "event": "Alagamentos",
+      "nivel": "Severo",
+      "uf": "GO",
+      "location": "Goiânia/GO",
+      "headline": "Defesa Civil:Alerta em Goiania de risco ALTO de alagamentos no V. dos Sonhos, Jd Guanabara II e regiao. EVITE riscos. NAO TRANSITE em area alagada. Emerg 193",
+      "status": "expirado",
+      "onset": "2026-04-16T20:06:24-03:00",
+      "expires": "2026-04-16T22:00:00-03:00"
+    },
     {
       "date": "16/04/2026",
       "time": "20:04",
@@ -202,7 +263,7 @@
       "uf": "GO",
       "location": "Goiânia/GO, Senador Canedo/GO",
       "headline": "Defesa Civil:Alerta em Goiania de risco ALTO de alagamentos no Vl Pedroso, Vl Concordia e regiao. EVITE riscos. NAO TRANSITE em area alagada. Emerg. 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-16T20:04:02-03:00",
       "expires": "2026-04-16T22:00:00-03:00"
     },
@@ -228,7 +289,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS no PIAUI. EVITE AREAS DE ALAGAMENTO E ENXURRADAS. Proteja-se, Fique em Local Seguro. Em emergencia, ligue 193/190.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-16T18:49:21-03:00",
       "expires": "2026-04-16T23:55:00-03:00"
     },
@@ -241,7 +302,7 @@
       "uf": "PI",
       "location": "Teresina/PI",
       "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS em Teresina/PI. EVITE AREAS DE ALAGAMENTOS E ENXURRADAS. Proteja-se! Fique em Local Seguro. Em emergencia, ligue 193/190",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-16T18:43:44-03:00",
       "expires": "2026-04-16T23:55:00-03:00"
     },
@@ -345,7 +406,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Alerta! CHUVAS INTENSAS no PIAUI/PI. EVITE AREAS DE ALAGAMENTO E ENXURRADAS. Proteja-se, Fique em Local Seguro. Em emergencia, ligue 193/190.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-16T14:16:53-03:00",
       "expires": "2026-04-16T23:55:00-03:00"
     },
@@ -358,7 +419,7 @@
       "uf": "PI",
       "location": "Parnaíba/PI",
       "headline": "Defesa Civil:Alerta! CHUVAS INTENSAS em Parnaiba/PI. EVITE AREAS DE RISCO DE ALAGAMENTO E ENXURRADAS, Proteja-se em Local Seguro. Em emergencia ligue 193/190.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-16T14:06:33-03:00",
       "expires": "2026-04-16T23:55:00-03:00"
     },
@@ -371,7 +432,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS no PIAUI/PI. EVITE AREAS DE RISCO DE ALAGAMENTO E ENXURRADAS. Fique em Local Seguro. Em emergencia, ligue 190 ou 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-16T13:41:16-03:00",
       "expires": "2026-04-16T23:55:00-03:00"
     },
@@ -397,7 +458,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS no PIAUI/PI. EVITE AREAS DE RISCO DE ALAGAMENTOS E ENXURRADAS, Fique em Local Seguro. Em emergencia, ligue 193 ou 190!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-16T10:39:25-03:00",
       "expires": "2026-04-16T23:55:00-03:00"
     },
@@ -475,7 +536,7 @@
       "uf": "SC",
       "location": "Blumenau/SC",
       "headline": "Defesa Civil:ALERTABLU: Possibilidade de pancadas rapidas e isoladas de chuva c/ alguma trovoada entre tarde e noite em BNU. Fique atento! Ocorrencias 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-16T08:05:26-03:00",
       "expires": "2026-04-16T23:55:00-03:00"
     },
@@ -533,22 +594,22 @@
     }
   ],
   "summary": {
-    "total_alerts": 26,
+    "total_alerts": 30,
     "by_nivel": {
       "Médio": 15,
-      "Alto": 7,
-      "Severo": 2,
+      "Alto": 9,
+      "Severo": 4,
       "Baixo": 1,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 26
+      "Google": 30
     },
     "by_region": {
-      "N": 14,
+      "N": 16,
       "NE": 7,
-      "CO": 4,
-      "S": 1
+      "CO": 5,
+      "S": 2
     }
   }
 }
