@@ -1,15 +1,27 @@
 {
-  "generated_at": "2026-04-17T18:06:12.903294-03:00",
-  "source_run_dir": "run_20260417_180548",
+  "generated_at": "2026-04-17T20:04:33.234708-03:00",
+  "source_run_dir": "run_20260417_200358",
   "cards": {
-    "vigentes": 34,
-    "ultimas24h": 64,
+    "vigentes": 27,
+    "ultimas24h": 70,
     "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "18:03",
+      "time": "19:59",
+      "date": "17/04/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 17/04 19:58 - TEMPORAL ISOLADO com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Benedito Novo, Corupá, Doutor Pedrinho, Jaraguá do Sul, Pomerode, Rio Negrinho, Rio dos Cedros, São Bento do Sul e Timbó nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "19:51",
       "date": "17/04/2026",
       "senderName": "Defesa Civil Estadual do Paraná",
       "senderNameShort": "DC Paraná",
@@ -21,31 +33,19 @@
       "status": "vigente"
     },
     {
-      "time": "17:22",
-      "date": "17/04/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
-      "status": "vigente"
-    },
-    {
-      "time": "17:16",
+      "time": "19:48",
       "date": "17/04/2026",
       "senderName": "Defesa Civil Estadual do Pará",
       "senderNameShort": "DC Pará",
       "event": "Chuvas Intensas",
       "nivel": "Alto",
-      "location": "PARÁ/PA",
+      "location": "Goianésia do Pará/PA",
       "uf": "PA",
-      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
+      "headline": "Defesa Civil:GOIANESIA DO PARA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
       "status": "vigente"
     },
     {
-      "time": "17:14",
+      "time": "19:44",
       "date": "17/04/2026",
       "senderName": "Defesa Civil Estadual do Paraná",
       "senderNameShort": "DC Paraná",
@@ -57,15 +57,15 @@
       "status": "vigente"
     },
     {
-      "time": "16:28",
+      "time": "19:39",
       "date": "17/04/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
       "event": "Chuvas Intensas",
       "nivel": "Alto",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "location": "Tomé-Açu/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:TOME ACU: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
       "status": "vigente"
     }
   ],
@@ -73,17 +73,22 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 20
+      "count": 19
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 15
+      "count": 17
     },
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 12
+      "count": 17
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 6
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
@@ -93,17 +98,12 @@
     {
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
-      "count": 4
-    },
-    {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual de Goiás",
       "short_name": "DC Goiás",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Defesa Civil de Niterói (RJ)",
@@ -123,21 +123,21 @@
     },
     {
       "label": "Médio",
-      "count": 22
+      "count": 23
     },
     {
       "label": "Alto",
-      "count": 32
+      "count": 38
     },
     {
       "label": "Severo",
-      "count": 9
+      "count": 8
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 44
+      "count": 52
     },
     {
       "label": "Solo/Lama",
@@ -145,7 +145,7 @@
     },
     {
       "label": "Alagamentos",
-      "count": 7
+      "count": 5
     },
     {
       "label": "Inundações",
@@ -167,27 +167,27 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 25
+      "count": 24
     },
     {
       "uf": "PR",
-      "count": 15
+      "count": 17
     },
     {
       "uf": "PA",
-      "count": 12
-    },
-    {
-      "uf": "PI",
-      "count": 4
+      "count": 17
     },
     {
       "uf": "SC",
-      "count": 4
+      "count": 7
+    },
+    {
+      "uf": "PI",
+      "count": 2
     },
     {
       "uf": "GO",
-      "count": 3
+      "count": 2
     },
     {
       "uf": "RJ",
@@ -197,14 +197,157 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 34
+      "count": 27
     },
     {
       "label": "expirado",
-      "count": 30
+      "count": 43
     }
   ],
   "all_alerts": [
+    {
+      "date": "17/04/2026",
+      "time": "19:59",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 17/04 19:58 - TEMPORAL ISOLADO com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Benedito Novo, Corupá, Doutor Pedrinho, Jaraguá do Sul, Pomerode, Rio Negrinho, Rio dos Cedros, São Bento do Sul e Timbó nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-04-17T19:59:27-03:00",
+      "expires": "2026-04-17T22:00:00-03:00"
+    },
+    {
+      "date": "17/04/2026",
+      "time": "19:51",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-04-17T19:51:42-03:00",
+      "expires": "2026-04-17T22:50:00-03:00"
+    },
+    {
+      "date": "17/04/2026",
+      "time": "19:48",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Goianésia do Pará/PA",
+      "headline": "Defesa Civil:GOIANESIA DO PARA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
+      "status": "vigente",
+      "onset": "2026-04-17T19:48:40-03:00",
+      "expires": "2026-04-17T21:00:00-03:00"
+    },
+    {
+      "date": "17/04/2026",
+      "time": "19:44",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-04-17T19:44:05-03:00",
+      "expires": "2026-04-17T22:40:00-03:00"
+    },
+    {
+      "date": "17/04/2026",
+      "time": "19:39",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Tomé-Açu/PA",
+      "headline": "Defesa Civil:TOME ACU: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
+      "status": "vigente",
+      "onset": "2026-04-17T19:39:16-03:00",
+      "expires": "2026-04-17T21:00:00-03:00"
+    },
+    {
+      "date": "17/04/2026",
+      "time": "19:09",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PA",
+      "location": "Goianésia do Pará/PA",
+      "headline": "Defesa Civil:GOIANESIA DO PARA: Alerta MODERADO  de CHUVAS INTENSAS nas proximas horas. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
+      "status": "vigente",
+      "onset": "2026-04-17T19:09:39-03:00",
+      "expires": "2026-04-17T21:00:00-03:00"
+    },
+    {
+      "date": "17/04/2026",
+      "time": "19:07",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Tailândia/PA",
+      "headline": "Defesa Civil:TAILANDIA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
+      "status": "vigente",
+      "onset": "2026-04-17T19:07:38-03:00",
+      "expires": "2026-04-17T21:00:00-03:00"
+    },
+    {
+      "date": "17/04/2026",
+      "time": "18:59",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PA",
+      "location": "Paragominas/PA",
+      "headline": "Defesa Civil:PARAGOMINAS: Alerta MODERADO de CHUVAS INTENSAS nas proximas horas. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
+      "status": "vigente",
+      "onset": "2026-04-17T18:59:23-03:00",
+      "expires": "2026-04-17T21:00:00-03:00"
+    },
+    {
+      "date": "17/04/2026",
+      "time": "18:23",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-17T18:23:48-03:00",
+      "expires": "2026-04-17T22:30:00-03:00"
+    },
+    {
+      "date": "17/04/2026",
+      "time": "18:09",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 17/04 18:08 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-04-17T18:09:47-03:00",
+      "expires": "2026-04-17T20:10:00-03:00"
+    },
+    {
+      "date": "17/04/2026",
+      "time": "18:05",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 17/04 18:04 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Campo Alegre, Garuva, Itapoá, Jaraguá do Sul, Joinville, Schroeder e São Francisco do Sul nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-04-17T18:05:55-03:00",
+      "expires": "2026-04-17T20:05:00-03:00"
+    },
     {
       "date": "17/04/2026",
       "time": "18:03",
@@ -240,7 +383,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T17:16:01-03:00",
       "expires": "2026-04-17T19:00:00-03:00"
     },
@@ -266,7 +409,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T16:28:42-03:00",
       "expires": "2026-04-17T19:25:00-03:00"
     },
@@ -279,7 +422,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas para PARA/PA. - Em caso de rajadas de vento: nao se abrigue debaixo de arvores, pois ha risco de queda e descargas eletr",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T16:08:50-03:00",
       "expires": "2026-04-17T19:05:00-03:00"
     },
@@ -305,7 +448,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T15:48:46-03:00",
       "expires": "2026-04-17T18:45:00-03:00"
     },
@@ -344,7 +487,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T15:24:21-03:00",
       "expires": "2026-04-17T18:25:00-03:00"
     },
@@ -409,7 +552,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T15:07:06-03:00",
       "expires": "2026-04-17T18:10:00-03:00"
     },
@@ -448,7 +591,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T14:27:48-03:00",
       "expires": "2026-04-17T19:30:00-03:00"
     },
@@ -461,7 +604,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T14:21:10-03:00",
       "expires": "2026-04-17T19:30:00-03:00"
     },
@@ -513,7 +656,7 @@
       "uf": "AM",
       "location": "Careiro da Várzea/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento.   Nao enfrente areas alagadas. Procure local seguro.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T14:01:59-03:00",
       "expires": "2026-04-17T19:00:00-03:00"
     },
@@ -552,7 +695,7 @@
       "uf": "AM",
       "location": "Alvarães/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T13:52:48-03:00",
       "expires": "2026-04-17T19:00:00-03:00"
     },
@@ -591,7 +734,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de deslizamento em Manaus (NIVEL ALTO). Em caso de emergencia, ligue 199/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T13:38:34-03:00",
       "expires": "2026-04-17T19:00:00-03:00"
     },
@@ -604,7 +747,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.   Afaste-se de encostas. Procure abrigo seguro.  Em caso de emergencia ligue: 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T13:37:24-03:00",
       "expires": "2026-04-17T19:00:00-03:00"
     },
@@ -630,7 +773,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:Alerta de Enxurradas para Manaus/AM. A previsao do tempo indica manutencao das instabilidades atmosfericas sobre Manaus, com possibilidade de panc",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T13:34:11-03:00",
       "expires": "2026-04-17T19:00:00-03:00"
     },
@@ -656,7 +799,7 @@
       "uf": "AM",
       "location": "Alvarães/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento.   Nao enfrente areas alagadas. Procure local seguro.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T13:30:49-03:00",
       "expires": "2026-04-17T19:00:00-03:00"
     },
@@ -682,7 +825,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento.   Nao enfrente areas alagadas. Procure local seguro.  Em caso de emergencia ligue: 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T13:24:15-03:00",
       "expires": "2026-04-17T19:00:00-03:00"
     },
@@ -695,7 +838,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:Alerta de Alagamentos para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil Local. Evite transitar por vias alagadas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T13:10:55-03:00",
       "expires": "2026-04-17T19:00:00-03:00"
     },
@@ -747,7 +890,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de Chuva Intensa (NIVEL ALTO). Evite area de risco com historico de alagamento ou enxurrada. Em caso de emergencia ligue 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T12:22:30-03:00",
       "expires": "2026-04-17T19:00:00-03:00"
     },
@@ -786,7 +929,7 @@
       "uf": "SC",
       "location": "Blumenau/SC",
       "headline": "Defesa Civil:ALERTABLU: Possibilidade de pancadas rapidas e isoladas de chuva c/ alguma trovoada nesta tarde (17/04) em Blumenau. Fique atento! Emerg 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T12:00:00-03:00",
       "expires": "2026-04-17T19:00:00-03:00"
     },
@@ -971,89 +1114,24 @@
       "status": "expirado",
       "onset": "2026-04-16T20:06:24-03:00",
       "expires": "2026-04-16T22:00:00-03:00"
-    },
-    {
-      "date": "16/04/2026",
-      "time": "20:04",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "event": "Alagamentos",
-      "nivel": "Severo",
-      "uf": "GO",
-      "location": "Goiânia/GO, Senador Canedo/GO",
-      "headline": "Defesa Civil:Alerta em Goiania de risco ALTO de alagamentos no Vl Pedroso, Vl Concordia e regiao. EVITE riscos. NAO TRANSITE em area alagada. Emerg. 193",
-      "status": "expirado",
-      "onset": "2026-04-16T20:04:02-03:00",
-      "expires": "2026-04-16T22:00:00-03:00"
-    },
-    {
-      "date": "16/04/2026",
-      "time": "19:45",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Boca do Acre/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.   Nao enfrente areas alagadas. Procure local seguro.  Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-16T19:45:17-03:00",
-      "expires": "2026-04-17T02:00:00-03:00"
-    },
-    {
-      "date": "16/04/2026",
-      "time": "18:49",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PI",
-      "location": "PIAUÍ/PI",
-      "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS no PIAUI. EVITE AREAS DE ALAGAMENTO E ENXURRADAS. Proteja-se, Fique em Local Seguro. Em emergencia, ligue 193/190.",
-      "status": "expirado",
-      "onset": "2026-04-16T18:49:21-03:00",
-      "expires": "2026-04-16T23:55:00-03:00"
-    },
-    {
-      "date": "16/04/2026",
-      "time": "18:43",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PI",
-      "location": "Teresina/PI",
-      "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS em Teresina/PI. EVITE AREAS DE ALAGAMENTOS E ENXURRADAS. Proteja-se! Fique em Local Seguro. Em emergencia, ligue 193/190",
-      "status": "expirado",
-      "onset": "2026-04-16T18:43:44-03:00",
-      "expires": "2026-04-16T23:55:00-03:00"
-    },
-    {
-      "date": "16/04/2026",
-      "time": "18:33",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-16T18:33:51-03:00",
-      "expires": "2026-04-16T20:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 64,
+    "total_alerts": 70,
     "by_nivel": {
-      "Alto": 32,
-      "Médio": 22,
-      "Severo": 9,
+      "Alto": 38,
+      "Médio": 23,
+      "Severo": 8,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 64
+      "Google": 70
     },
     "by_region": {
-      "N": 37,
-      "S": 19,
-      "NE": 4,
-      "CO": 3,
+      "N": 41,
+      "S": 24,
+      "CO": 2,
+      "NE": 2,
       "SE": 1
     }
   }
