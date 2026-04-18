@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-18T00:32:30.753163-03:00",
-  "source_run_dir": "run_20260418_003158",
+  "generated_at": "2026-04-18T02:52:50.556656-03:00",
+  "source_run_dir": "run_20260418_025223",
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 71,
-    "autoridadesAtivas": 10,
+    "vigentes": 7,
+    "ultimas24h": 72,
+    "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "02:49",
+      "date": "18/04/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:02h50 - Chuva isolada na regiao de Sete Barras. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
+      "status": "vigente"
+    },
     {
       "time": "22:18",
       "date": "17/04/2026",
@@ -55,18 +67,6 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
       "status": "vigente"
-    },
-    {
-      "time": "20:19",
-      "date": "17/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -106,6 +106,11 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
       "count": 1
@@ -113,11 +118,6 @@
     {
       "name": "Defesa Civil de Niterói (RJ)",
       "short_name": "DC Niterói (RJ)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Goiás",
-      "short_name": "DC Goiás",
       "count": 1
     }
   ],
@@ -128,7 +128,7 @@
     },
     {
       "label": "Médio",
-      "count": 25
+      "count": 26
     },
     {
       "label": "Alto",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 53
+      "count": 54
     },
     {
       "label": "Solo/Lama",
@@ -191,6 +191,10 @@
       "count": 2
     },
     {
+      "uf": "SP",
+      "count": 1
+    },
+    {
       "uf": "MG",
       "count": 1
     },
@@ -206,7 +210,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 7
     },
     {
       "label": "expirado",
@@ -214,6 +218,19 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "18/04/2026",
+      "time": "02:49",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:02h50 - Chuva isolada na regiao de Sete Barras. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
+      "status": "vigente",
+      "onset": "2026-04-18T02:49:13-03:00",
+      "expires": "2026-04-18T04:50:00-03:00"
+    },
     {
       "date": "17/04/2026",
       "time": "22:18",
@@ -1139,21 +1156,21 @@
     }
   ],
   "summary": {
-    "total_alerts": 71,
+    "total_alerts": 72,
     "by_nivel": {
       "Alto": 39,
-      "Médio": 25,
+      "Médio": 26,
       "Severo": 6,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 71
+      "Google": 72
     },
     "by_region": {
       "N": 42,
       "S": 24,
+      "SE": 3,
       "NE": 2,
-      "SE": 2,
       "CO": 1
     }
   }
