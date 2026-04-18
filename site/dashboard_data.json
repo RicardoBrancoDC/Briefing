@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-04-18T02:52:50.556656-03:00",
-  "source_run_dir": "run_20260418_025223",
+  "generated_at": "2026-04-18T04:37:18.617305-03:00",
+  "source_run_dir": "run_20260418_043652",
   "cards": {
-    "vigentes": 7,
-    "ultimas24h": 72,
+    "vigentes": 9,
+    "ultimas24h": 74,
     "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "03:44",
+      "date": "18/04/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:03h44 - Chuva isolada na regiao de Peruibe e Itanhaem. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
+      "status": "vigente"
+    },
+    {
+      "time": "02:59",
+      "date": "18/04/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:02h58 - Chuva isolada na regiao de Pedro Toledo. Deslocando-se para Itariri. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
+      "status": "vigente"
+    },
+    {
+      "time": "02:54",
+      "date": "18/04/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:02h54 - Chuva isolada na regiao de Santos, Bertioga e Sao Sebastiao. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
+      "status": "vigente"
+    },
     {
       "time": "02:49",
       "date": "18/04/2026",
@@ -31,49 +67,13 @@
       "uf": "MG",
       "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas horas. Proteja-se!",
       "status": "expirado"
-    },
-    {
-      "time": "22:15",
-      "date": "17/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "location": "Novo Aripuanã/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "20:32",
-      "date": "17/04/2026",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "senderNameShort": "DC Blumenau (SC)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Blumenau/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas isoladas de chuva c/ trovoadas nas prox. 02h no Norte de Blumenau. Fique atento! Emerg 199/193.",
-      "status": "expirado"
-    },
-    {
-      "time": "20:26",
-      "date": "17/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "location": "Canutama/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 20
+      "count": 19
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
@@ -96,6 +96,11 @@
       "count": 5
     },
     {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 4
+    },
+    {
       "name": "Defesa Civil de Blumenau (SC)",
       "short_name": "DC Blumenau (SC)",
       "count": 2
@@ -104,11 +109,6 @@
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
       "count": 2
-    },
-    {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 1
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -128,11 +128,11 @@
     },
     {
       "label": "Médio",
-      "count": 26
+      "count": 27
     },
     {
       "label": "Alto",
-      "count": 39
+      "count": 40
     },
     {
       "label": "Severo",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 54
+      "count": 56
     },
     {
       "label": "Solo/Lama",
@@ -172,7 +172,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 25
+      "count": 24
     },
     {
       "uf": "PR",
@@ -187,12 +187,12 @@
       "count": 7
     },
     {
-      "uf": "PI",
-      "count": 2
+      "uf": "SP",
+      "count": 4
     },
     {
-      "uf": "SP",
-      "count": 1
+      "uf": "PI",
+      "count": 2
     },
     {
       "uf": "MG",
@@ -210,7 +210,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 9
     },
     {
       "label": "expirado",
@@ -218,6 +218,45 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "18/04/2026",
+      "time": "03:44",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:03h44 - Chuva isolada na regiao de Peruibe e Itanhaem. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
+      "status": "vigente",
+      "onset": "2026-04-18T03:44:51-03:00",
+      "expires": "2026-04-18T06:00:00-03:00"
+    },
+    {
+      "date": "18/04/2026",
+      "time": "02:59",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:02h58 - Chuva isolada na regiao de Pedro Toledo. Deslocando-se para Itariri. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
+      "status": "vigente",
+      "onset": "2026-04-18T02:59:06-03:00",
+      "expires": "2026-04-18T05:00:00-03:00"
+    },
+    {
+      "date": "18/04/2026",
+      "time": "02:54",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:02h54 - Chuva isolada na regiao de Santos, Bertioga e Sao Sebastiao. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
+      "status": "vigente",
+      "onset": "2026-04-18T02:54:23-03:00",
+      "expires": "2026-04-18T05:00:00-03:00"
+    },
     {
       "date": "18/04/2026",
       "time": "02:49",
@@ -292,7 +331,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T20:19:23-03:00",
       "expires": "2026-04-18T03:00:00-03:00"
     },
@@ -1140,36 +1179,23 @@
       "status": "expirado",
       "onset": "2026-04-17T07:35:22-03:00",
       "expires": "2026-04-17T10:20:00-03:00"
-    },
-    {
-      "date": "17/04/2026",
-      "time": "03:23",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-17T03:23:32-03:00",
-      "expires": "2026-04-17T06:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 72,
+    "total_alerts": 74,
     "by_nivel": {
-      "Alto": 39,
-      "Médio": 26,
+      "Alto": 40,
+      "Médio": 27,
       "Severo": 6,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 72
+      "Google": 74
     },
     "by_region": {
-      "N": 42,
+      "N": 41,
       "S": 24,
-      "SE": 3,
+      "SE": 6,
       "NE": 2,
       "CO": 1
     }
