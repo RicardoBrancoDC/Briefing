@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-04-18T04:37:18.617305-03:00",
-  "source_run_dir": "run_20260418_043652",
+  "generated_at": "2026-04-18T06:08:05.528503-03:00",
+  "source_run_dir": "run_20260418_060733",
   "cards": {
-    "vigentes": 9,
-    "ultimas24h": 74,
+    "vigentes": 6,
+    "ultimas24h": 76,
     "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "06:05",
+      "date": "18/04/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:06h05 - Chuva em Santos, Cubatao e Praia Grande. Tem raios. Atinge cidade vizinhas. Mantenha-se em local seguro.",
+      "status": "vigente"
+    },
+    {
+      "time": "05:56",
+      "date": "18/04/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:05h56 - Chuva na Zona Sul de Sao Paulo. Tem raios. Atinge areas vizinhas. Mantenha-se em local seguro.",
+      "status": "vigente"
+    },
     {
       "time": "03:44",
       "date": "18/04/2026",
@@ -18,7 +42,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:03h44 - Chuva isolada na regiao de Peruibe e Itanhaem. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "02:59",
@@ -30,7 +54,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:02h58 - Chuva isolada na regiao de Pedro Toledo. Deslocando-se para Itariri. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "02:54",
@@ -42,30 +66,6 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:02h54 - Chuva isolada na regiao de Santos, Bertioga e Sao Sebastiao. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente"
-    },
-    {
-      "time": "02:49",
-      "date": "18/04/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:02h50 - Chuva isolada na regiao de Sete Barras. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente"
-    },
-    {
-      "time": "22:18",
-      "date": "17/04/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Chapada Gaúcha/MG, Formoso/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas horas. Proteja-se!",
       "status": "expirado"
     }
   ],
@@ -86,6 +86,11 @@
       "count": 17
     },
     {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 6
+    },
+    {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
       "count": 5
@@ -94,11 +99,6 @@
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
       "count": 5
-    },
-    {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 4
     },
     {
       "name": "Defesa Civil de Blumenau (SC)",
@@ -128,11 +128,11 @@
     },
     {
       "label": "Médio",
-      "count": 27
+      "count": 28
     },
     {
       "label": "Alto",
-      "count": 40
+      "count": 41
     },
     {
       "label": "Severo",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 56
+      "count": 58
     },
     {
       "label": "Solo/Lama",
@@ -188,7 +188,7 @@
     },
     {
       "uf": "SP",
-      "count": 4
+      "count": 6
     },
     {
       "uf": "PI",
@@ -210,14 +210,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 9
+      "count": 6
     },
     {
       "label": "expirado",
-      "count": 65
+      "count": 70
     }
   ],
   "all_alerts": [
+    {
+      "date": "18/04/2026",
+      "time": "06:05",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:06h05 - Chuva em Santos, Cubatao e Praia Grande. Tem raios. Atinge cidade vizinhas. Mantenha-se em local seguro.",
+      "status": "vigente",
+      "onset": "2026-04-18T06:05:26-03:00",
+      "expires": "2026-04-18T08:10:00-03:00"
+    },
+    {
+      "date": "18/04/2026",
+      "time": "05:56",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:05h56 - Chuva na Zona Sul de Sao Paulo. Tem raios. Atinge areas vizinhas. Mantenha-se em local seguro.",
+      "status": "vigente",
+      "onset": "2026-04-18T05:56:05-03:00",
+      "expires": "2026-04-18T07:55:00-03:00"
+    },
     {
       "date": "18/04/2026",
       "time": "03:44",
@@ -227,7 +253,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:03h44 - Chuva isolada na regiao de Peruibe e Itanhaem. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-18T03:44:51-03:00",
       "expires": "2026-04-18T06:00:00-03:00"
     },
@@ -240,7 +266,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:02h58 - Chuva isolada na regiao de Pedro Toledo. Deslocando-se para Itariri. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-18T02:59:06-03:00",
       "expires": "2026-04-18T05:00:00-03:00"
     },
@@ -253,7 +279,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:02h54 - Chuva isolada na regiao de Santos, Bertioga e Sao Sebastiao. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-18T02:54:23-03:00",
       "expires": "2026-04-18T05:00:00-03:00"
     },
@@ -266,7 +292,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:02h50 - Chuva isolada na regiao de Sete Barras. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-18T02:49:13-03:00",
       "expires": "2026-04-18T04:50:00-03:00"
     },
@@ -318,7 +344,7 @@
       "uf": "AM",
       "location": "Canutama/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T20:26:15-03:00",
       "expires": "2026-04-18T06:00:00-03:00"
     },
@@ -1182,20 +1208,20 @@
     }
   ],
   "summary": {
-    "total_alerts": 74,
+    "total_alerts": 76,
     "by_nivel": {
-      "Alto": 40,
-      "Médio": 27,
+      "Alto": 41,
+      "Médio": 28,
       "Severo": 6,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 74
+      "Google": 76
     },
     "by_region": {
       "N": 41,
       "S": 24,
-      "SE": 6,
+      "SE": 8,
       "NE": 2,
       "CO": 1
     }
