@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-04-18T06:08:05.528503-03:00",
-  "source_run_dir": "run_20260418_060733",
+  "generated_at": "2026-04-18T08:04:09.531279-03:00",
+  "source_run_dir": "run_20260418_080347",
   "cards": {
     "vigentes": 6,
-    "ultimas24h": 76,
+    "ultimas24h": 77,
     "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "08:02",
+      "date": "18/04/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:08h00 - Chuva forte e isolada na regiao de Mongagua e Itanhaem. Tem raios e ventos. Atinge cidades vizinhas. Mantenha-se em local seguro.",
+      "status": "vigente"
+    },
+    {
+      "time": "07:13",
+      "date": "18/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "06:05",
       "date": "18/04/2026",
@@ -30,7 +54,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:05h56 - Chuva na Zona Sul de Sao Paulo. Tem raios. Atinge areas vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "03:44",
@@ -42,30 +66,6 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:03h44 - Chuva isolada na regiao de Peruibe e Itanhaem. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado"
-    },
-    {
-      "time": "02:59",
-      "date": "18/04/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:02h58 - Chuva isolada na regiao de Pedro Toledo. Deslocando-se para Itariri. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado"
-    },
-    {
-      "time": "02:54",
-      "date": "18/04/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:02h54 - Chuva isolada na regiao de Santos, Bertioga e Sao Sebastiao. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
       "status": "expirado"
     }
   ],
@@ -88,7 +88,7 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Médio",
-      "count": 28
+      "count": 29
     },
     {
       "label": "Alto",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 58
+      "count": 59
     },
     {
       "label": "Solo/Lama",
@@ -183,12 +183,12 @@
       "count": 17
     },
     {
-      "uf": "SC",
+      "uf": "SP",
       "count": 7
     },
     {
-      "uf": "SP",
-      "count": 6
+      "uf": "SC",
+      "count": 7
     },
     {
       "uf": "PI",
@@ -214,10 +214,36 @@
     },
     {
       "label": "expirado",
-      "count": 70
+      "count": 71
     }
   ],
   "all_alerts": [
+    {
+      "date": "18/04/2026",
+      "time": "08:02",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:08h00 - Chuva forte e isolada na regiao de Mongagua e Itanhaem. Tem raios e ventos. Atinge cidades vizinhas. Mantenha-se em local seguro.",
+      "status": "vigente",
+      "onset": "2026-04-18T08:02:05-03:00",
+      "expires": "2026-04-18T10:00:00-03:00"
+    },
+    {
+      "date": "18/04/2026",
+      "time": "07:13",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-18T07:13:16-03:00",
+      "expires": "2026-04-18T10:00:00-03:00"
+    },
     {
       "date": "18/04/2026",
       "time": "06:05",
@@ -240,7 +266,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:05h56 - Chuva na Zona Sul de Sao Paulo. Tem raios. Atinge areas vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-18T05:56:05-03:00",
       "expires": "2026-04-18T07:55:00-03:00"
     },
@@ -318,7 +344,7 @@
       "uf": "AM",
       "location": "Novo Aripuanã/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-17T22:15:51-03:00",
       "expires": "2026-04-18T07:00:00-03:00"
     },
@@ -1192,36 +1218,23 @@
       "status": "expirado",
       "onset": "2026-04-17T08:27:07-03:00",
       "expires": "2026-04-17T13:00:00-03:00"
-    },
-    {
-      "date": "17/04/2026",
-      "time": "07:35",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-17T07:35:22-03:00",
-      "expires": "2026-04-17T10:20:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 76,
+    "total_alerts": 77,
     "by_nivel": {
       "Alto": 41,
-      "Médio": 28,
+      "Médio": 29,
       "Severo": 6,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 76
+      "Google": 77
     },
     "by_region": {
       "N": 41,
       "S": 24,
-      "SE": 8,
+      "SE": 9,
       "NE": 2,
       "CO": 1
     }
