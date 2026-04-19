@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-19T04:48:57.497214-03:00",
-  "source_run_dir": "run_20260419_044836",
+  "generated_at": "2026-04-19T06:09:13.135588-03:00",
+  "source_run_dir": "run_20260419_060855",
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 82,
+    "vigentes": 5,
+    "ultimas24h": 80,
     "autoridadesAtivas": 15,
     "alertasExtremos": 0
   },
@@ -18,7 +18,7 @@
       "location": "Niterói/RJ",
       "uf": "RJ",
       "headline": "Defesa Civil:Niteroi: Previsao de pancadas rapidas de chuva moderada para a proxima hora. Em caso de emergencia, ligue 199.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "22:00",
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 37
+      "count": 35
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 43
+      "count": 42
     },
     {
       "label": "Alto",
-      "count": 31
+      "count": 30
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 70
+      "count": 68
     },
     {
       "label": "Alagamentos",
@@ -156,7 +156,7 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 37
+      "count": 35
     },
     {
       "uf": "PA",
@@ -190,11 +190,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 5
     },
     {
       "label": "expirado",
-      "count": 76
+      "count": 75
     }
   ],
   "all_alerts": [
@@ -207,7 +207,7 @@
       "uf": "RJ",
       "location": "Niterói/RJ",
       "headline": "Defesa Civil:Niteroi: Previsao de pancadas rapidas de chuva moderada para a proxima hora. Em caso de emergencia, ligue 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-18T23:53:42-03:00",
       "expires": "2026-04-19T06:00:00-03:00"
     },
@@ -1237,46 +1237,20 @@
       "status": "expirado",
       "onset": "2026-04-18T07:13:16-03:00",
       "expires": "2026-04-18T10:00:00-03:00"
-    },
-    {
-      "date": "18/04/2026",
-      "time": "06:05",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:06h05 - Chuva em Santos, Cubatao e Praia Grande. Tem raios. Atinge cidade vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-18T06:05:26-03:00",
-      "expires": "2026-04-18T08:10:00-03:00"
-    },
-    {
-      "date": "18/04/2026",
-      "time": "05:56",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:05h56 - Chuva na Zona Sul de Sao Paulo. Tem raios. Atinge areas vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-18T05:56:05-03:00",
-      "expires": "2026-04-18T07:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 82,
+    "total_alerts": 80,
     "by_nivel": {
-      "Médio": 43,
-      "Alto": 31,
+      "Médio": 42,
+      "Alto": 30,
       "Severo": 8
     },
     "by_channel_list": {
-      "Google": 82
+      "Google": 80
     },
     "by_region": {
-      "SE": 48,
+      "SE": 46,
       "N": 30,
       "NE": 4
     }
