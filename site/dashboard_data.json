@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-04-19T06:09:13.135588-03:00",
-  "source_run_dir": "run_20260419_060855",
+  "generated_at": "2026-04-19T08:02:55.622616-03:00",
+  "source_run_dir": "run_20260419_080243",
   "cards": {
-    "vigentes": 5,
-    "ultimas24h": 80,
+    "vigentes": 6,
+    "ultimas24h": 81,
     "autoridadesAtivas": 15,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "08:01",
+      "date": "19/04/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios. Proteja-se! Fonte: Defesa Civil Estadual",
+      "status": "vigente"
+    },
+    {
+      "time": "07:40",
+      "date": "19/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "location": "Alvarães/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "07:28",
+      "date": "19/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Severo",
+      "location": "Apuí/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "23:53",
       "date": "18/04/2026",
@@ -30,42 +66,6 @@
       "location": "PIAUÍ/PI",
       "uf": "PI",
       "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS no PIAUI/PI. EVITE AREAS DE RISCO DE ALAGAMENTO E ENXURRADAS. Proteja-se. Em emergencia, ligue 193 ou 190.",
-      "status": "vigente"
-    },
-    {
-      "time": "21:53",
-      "date": "18/04/2026",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "senderNameShort": "DC Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Teresina/PI",
-      "uf": "PI",
-      "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS em Teresina/PI. EVITE AREAS DE RISCO DE ALAGAMENTO E ENXURRADA. Proteja-se. Em emergencia, ligue 193/190.",
-      "status": "vigente"
-    },
-    {
-      "time": "20:40",
-      "date": "18/04/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:20h40 Chuva forte e isolada na regiao de Piedade. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado"
-    },
-    {
-      "time": "19:52",
-      "date": "18/04/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:19h50 Chuva forte e isolada na regiao de Itu. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
       "status": "expirado"
     }
   ],
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 35
+      "count": 34
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -83,12 +83,12 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
@@ -124,21 +124,21 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 42
+      "count": 41
     },
     {
       "label": "Alto",
-      "count": 30
+      "count": 31
     },
     {
       "label": "Severo",
-      "count": 8
+      "count": 9
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 68
+      "count": 67
     },
     {
       "label": "Alagamentos",
@@ -146,7 +146,7 @@
     },
     {
       "label": "Solo/Lama",
-      "count": 3
+      "count": 5
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -156,7 +156,7 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 35
+      "count": 34
     },
     {
       "uf": "PA",
@@ -164,11 +164,11 @@
     },
     {
       "uf": "AM",
-      "count": 14
+      "count": 15
     },
     {
       "uf": "MG",
-      "count": 6
+      "count": 7
     },
     {
       "uf": "RJ",
@@ -190,7 +190,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 6
     },
     {
       "label": "expirado",
@@ -198,6 +198,45 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "19/04/2026",
+      "time": "08:01",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios. Proteja-se! Fonte: Defesa Civil Estadual",
+      "status": "vigente",
+      "onset": "2026-04-19T08:01:18-03:00",
+      "expires": "2026-04-19T11:00:00-03:00"
+    },
+    {
+      "date": "19/04/2026",
+      "time": "07:40",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Alvarães/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-19T07:40:35-03:00",
+      "expires": "2026-04-19T19:00:00-03:00"
+    },
+    {
+      "date": "19/04/2026",
+      "time": "07:28",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Severo",
+      "uf": "AM",
+      "location": "Apuí/AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-19T07:28:55-03:00",
+      "expires": "2026-04-19T21:00:00-03:00"
+    },
     {
       "date": "18/04/2026",
       "time": "23:53",
@@ -220,7 +259,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS no PIAUI/PI. EVITE AREAS DE RISCO DE ALAGAMENTO E ENXURRADAS. Proteja-se. Em emergencia, ligue 193 ou 190.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-18T22:00:51-03:00",
       "expires": "2026-04-19T06:50:00-03:00"
     },
@@ -233,7 +272,7 @@
       "uf": "PI",
       "location": "Teresina/PI",
       "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS em Teresina/PI. EVITE AREAS DE RISCO DE ALAGAMENTO E ENXURRADA. Proteja-se. Em emergencia, ligue 193/190.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-18T21:53:12-03:00",
       "expires": "2026-04-19T06:50:00-03:00"
     },
@@ -1211,47 +1250,21 @@
       "status": "expirado",
       "onset": "2026-04-18T08:04:51-03:00",
       "expires": "2026-04-18T10:00:00-03:00"
-    },
-    {
-      "date": "18/04/2026",
-      "time": "08:02",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:08h00 - Chuva forte e isolada na regiao de Mongagua e Itanhaem. Tem raios e ventos. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-18T08:02:05-03:00",
-      "expires": "2026-04-18T10:00:00-03:00"
-    },
-    {
-      "date": "18/04/2026",
-      "time": "07:13",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-18T07:13:16-03:00",
-      "expires": "2026-04-18T10:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 80,
+    "total_alerts": 81,
     "by_nivel": {
-      "Médio": 42,
-      "Alto": 30,
-      "Severo": 8
+      "Médio": 41,
+      "Alto": 31,
+      "Severo": 9
     },
     "by_channel_list": {
-      "Google": 80
+      "Google": 81
     },
     "by_region": {
       "SE": 46,
-      "N": 30,
+      "N": 31,
       "NE": 4
     }
   }
