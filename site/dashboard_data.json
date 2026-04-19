@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-19T00:52:44.327972-03:00",
-  "source_run_dir": "run_20260419_005208",
+  "generated_at": "2026-04-19T03:11:18.954764-03:00",
+  "source_run_dir": "run_20260419_031054",
   "cards": {
     "vigentes": 6,
-    "ultimas24h": 86,
+    "ultimas24h": 83,
     "autoridadesAtivas": 15,
     "alertasExtremos": 0
   },
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 41
+      "count": 38
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 45
+      "count": 44
     },
     {
       "label": "Alto",
-      "count": 33
+      "count": 31
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 74
+      "count": 71
     },
     {
       "label": "Alagamentos",
@@ -156,7 +156,7 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 41
+      "count": 38
     },
     {
       "uf": "PA",
@@ -194,7 +194,7 @@
     },
     {
       "label": "expirado",
-      "count": 80
+      "count": 77
     }
   ],
   "all_alerts": [
@@ -1276,59 +1276,20 @@
       "status": "expirado",
       "onset": "2026-04-18T03:44:51-03:00",
       "expires": "2026-04-18T06:00:00-03:00"
-    },
-    {
-      "date": "18/04/2026",
-      "time": "02:59",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:02h58 - Chuva isolada na regiao de Pedro Toledo. Deslocando-se para Itariri. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-18T02:59:06-03:00",
-      "expires": "2026-04-18T05:00:00-03:00"
-    },
-    {
-      "date": "18/04/2026",
-      "time": "02:54",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:02h54 - Chuva isolada na regiao de Santos, Bertioga e Sao Sebastiao. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-18T02:54:23-03:00",
-      "expires": "2026-04-18T05:00:00-03:00"
-    },
-    {
-      "date": "18/04/2026",
-      "time": "02:49",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:02h50 - Chuva isolada na regiao de Sete Barras. Tem raios. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-18T02:49:13-03:00",
-      "expires": "2026-04-18T04:50:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 86,
+    "total_alerts": 83,
     "by_nivel": {
-      "Médio": 45,
-      "Alto": 33,
+      "Médio": 44,
+      "Alto": 31,
       "Severo": 8
     },
     "by_channel_list": {
-      "Google": 86
+      "Google": 83
     },
     "by_region": {
-      "SE": 52,
+      "SE": 49,
       "N": 30,
       "NE": 4
     }
