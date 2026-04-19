@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-04-19T08:02:55.622616-03:00",
-  "source_run_dir": "run_20260419_080243",
+  "generated_at": "2026-04-19T10:36:34.042266-03:00",
+  "source_run_dir": "run_20260419_103618",
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 81,
+    "vigentes": 8,
+    "ultimas24h": 76,
     "autoridadesAtivas": 15,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "09:39",
+      "date": "19/04/2026",
+      "senderName": "Defesa Civil de Belém (PA)",
+      "senderNameShort": "DC Belém (PA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Belém/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:SUMDEC: REGIAO METROPOLITANA DE BELEM, Alertas de chuvas e raios INTENSOS para hoje 19ABR. Risco de alagamentos e destelhamentos. Atencao!",
+      "status": "vigente"
+    },
+    {
+      "time": "09:25",
+      "date": "19/04/2026",
+      "senderName": "Defesa Civil de Parauapebas (PA)",
+      "senderNameShort": "DC Parauapebas (PA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Parauapebas/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:¿Ha risco alto de chuvas Intensas nas proximas 24h. Fique em estado de ATENCAO e caso de Emergencia, ligue para Defesa Civil190. Abrigue-se!",
+      "status": "vigente"
+    },
+    {
+      "time": "08:28",
+      "date": "19/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "08:01",
       "date": "19/04/2026",
@@ -31,58 +67,22 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
       "status": "vigente"
-    },
-    {
-      "time": "07:28",
-      "date": "19/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "location": "Apuí/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "23:53",
-      "date": "18/04/2026",
-      "senderName": "Defesa Civil de Niterói (RJ)",
-      "senderNameShort": "DC Niterói (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Niterói/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Niteroi: Previsao de pancadas rapidas de chuva moderada para a proxima hora. Em caso de emergencia, ligue 199.",
-      "status": "expirado"
-    },
-    {
-      "time": "22:00",
-      "date": "18/04/2026",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "senderNameShort": "DC Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PIAUÍ/PI",
-      "uf": "PI",
-      "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS no PIAUI/PI. EVITE AREAS DE RISCO DE ALAGAMENTO E ENXURRADAS. Proteja-se. Em emergencia, ligue 193 ou 190.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 34
-    },
-    {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
-      "count": 14
+      "count": 30
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
+      "count": 12
+    },
+    {
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
       "count": 12
     },
     {
@@ -96,9 +96,19 @@
       "count": 3
     },
     {
+      "name": "Defesa Civil de Belém (PA)",
+      "short_name": "DC Belém (PA)",
+      "count": 2
+    },
+    {
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil de Parauapebas (PA)",
+      "short_name": "DC Parauapebas (PA)",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Niterói (RJ)",
@@ -109,26 +119,16 @@
       "name": "Defesa Civil de Areal (RJ)",
       "short_name": "DC Areal (RJ)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Mangaratiba (RJ)",
-      "short_name": "Defesa Civil Mangaratiba (RJ)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Maranhão",
-      "short_name": "DC Maranhão",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 41
+      "count": 35
     },
     {
       "label": "Alto",
-      "count": 31
+      "count": 32
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 67
+      "count": 63
     },
     {
       "label": "Alagamentos",
@@ -146,7 +146,7 @@
     },
     {
       "label": "Solo/Lama",
-      "count": 5
+      "count": 4
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -156,11 +156,11 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 34
+      "count": 30
     },
     {
       "uf": "PA",
-      "count": 16
+      "count": 15
     },
     {
       "uf": "AM",
@@ -190,14 +190,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 8
     },
     {
       "label": "expirado",
-      "count": 75
+      "count": 68
     }
   ],
   "all_alerts": [
+    {
+      "date": "19/04/2026",
+      "time": "09:39",
+      "senderName": "Defesa Civil de Belém (PA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Belém/PA",
+      "headline": "Defesa Civil:SUMDEC: REGIAO METROPOLITANA DE BELEM, Alertas de chuvas e raios INTENSOS para hoje 19ABR. Risco de alagamentos e destelhamentos. Atencao!",
+      "status": "vigente",
+      "onset": "2026-04-19T09:39:20-03:00",
+      "expires": "2026-04-19T23:55:00-03:00"
+    },
+    {
+      "date": "19/04/2026",
+      "time": "09:25",
+      "senderName": "Defesa Civil de Parauapebas (PA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Parauapebas/PA",
+      "headline": "Defesa Civil:¿Ha risco alto de chuvas Intensas nas proximas 24h. Fique em estado de ATENCAO e caso de Emergencia, ligue para Defesa Civil190. Abrigue-se!",
+      "status": "vigente",
+      "onset": "2026-04-19T09:25:05-03:00",
+      "expires": "2026-04-20T00:00:00-03:00"
+    },
+    {
+      "date": "19/04/2026",
+      "time": "08:28",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-19T08:28:27-03:00",
+      "expires": "2026-04-19T12:20:00-03:00"
+    },
     {
       "date": "19/04/2026",
       "time": "08:01",
@@ -714,7 +753,7 @@
       "uf": "RJ",
       "location": "Nova Friburgo/RJ",
       "headline": "Defesa Civil:NF/ Previsao de pancadas isoladas de chuva moderada ocasionalmente forte  que pode vir com raios a partir do periodo da tarde. Emergencia Tel 199",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-18T15:11:27-03:00",
       "expires": "2026-04-19T09:00:00-03:00"
     },
@@ -1146,125 +1185,21 @@
       "status": "expirado",
       "onset": "2026-04-18T11:37:59-03:00",
       "expires": "2026-04-18T14:00:00-03:00"
-    },
-    {
-      "date": "18/04/2026",
-      "time": "09:59",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (18ABR). Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
-      "status": "expirado",
-      "onset": "2026-04-18T09:59:54-03:00",
-      "expires": "2026-04-18T23:55:00-03:00"
-    },
-    {
-      "date": "18/04/2026",
-      "time": "09:54",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:PARA: Alerta MODERADO de CHUVAS INTENSAS hoje (18ABR). Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas. Prepare-se!",
-      "status": "expirado",
-      "onset": "2026-04-18T09:54:54-03:00",
-      "expires": "2026-04-18T23:55:00-03:00"
-    },
-    {
-      "date": "18/04/2026",
-      "time": "09:53",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Nhamundá/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Redobre atencao em areas inclinadas. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-18T09:53:48-03:00",
-      "expires": "2026-04-18T15:00:00-03:00"
-    },
-    {
-      "date": "18/04/2026",
-      "time": "08:28",
-      "senderName": "Defesa Civil de Parauapebas (PA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Parauapebas/PA",
-      "headline": "Defesa Civil:¿Ha risco muito alto de chuvas Intensas nas proximas 24h. Fique em estado de ATENCAO e caso de Emergencia, ligue para Defesa Civil190. Abrigue-se",
-      "status": "expirado",
-      "onset": "2026-04-18T08:28:11-03:00",
-      "expires": "2026-04-19T00:00:00-03:00"
-    },
-    {
-      "date": "18/04/2026",
-      "time": "08:26",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:08h25 - Chuva forte e persistente em Santos, Guaruja e Praia Grande. Tem raios e vento.  Atinge cidade vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-18T08:26:13-03:00",
-      "expires": "2026-04-18T10:25:00-03:00"
-    },
-    {
-      "date": "18/04/2026",
-      "time": "08:14",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:08h10 - Chuva isolada na regiao de Caraguatatuba. Tem ventos. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-18T08:14:40-03:00",
-      "expires": "2026-04-18T10:10:00-03:00"
-    },
-    {
-      "date": "18/04/2026",
-      "time": "08:07",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:08h05 - Chuva forte e isolada na regiao de Jundiai e Cabreuva. Tem raios e ventos. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-18T08:07:03-03:00",
-      "expires": "2026-04-18T10:15:00-03:00"
-    },
-    {
-      "date": "18/04/2026",
-      "time": "08:04",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:08h00 - Chuva forte na zona norte de Sao Paulo, Osasco e Barueri. Tem raios e ventos. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-18T08:04:51-03:00",
-      "expires": "2026-04-18T10:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 81,
+    "total_alerts": 76,
     "by_nivel": {
-      "Médio": 41,
-      "Alto": 31,
+      "Médio": 35,
+      "Alto": 32,
       "Severo": 9
     },
     "by_channel_list": {
-      "Google": 81
+      "Google": 76
     },
     "by_region": {
-      "SE": 46,
-      "N": 31,
+      "SE": 42,
+      "N": 30,
       "NE": 4
     }
   }
