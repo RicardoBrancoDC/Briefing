@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-04-20T12:48:45.477179-03:00",
-  "source_run_dir": "run_20260420_124814",
+  "generated_at": "2026-04-20T14:31:21.581355-03:00",
+  "source_run_dir": "run_20260420_143055",
   "cards": {
-    "vigentes": 16,
-    "ultimas24h": 58,
-    "autoridadesAtivas": 13,
+    "vigentes": 17,
+    "ultimas24h": 50,
+    "autoridadesAtivas": 12,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "14:29",
+      "date": "20/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Médio",
+      "location": "Manacapuru/AM, Manaquiri/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite encostas e acompanhe atualizacoes. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "14:06",
+      "date": "20/04/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios. Proteja-se!",
+      "status": "vigente"
+    },
+    {
+      "time": "13:09",
+      "date": "20/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "11:51",
       "date": "20/04/2026",
@@ -31,64 +67,23 @@
       "uf": "AM",
       "headline": "Defesa Civil:Defesa Civil ALERTA: Risco de deslizamento para Manaus (NIVEL ALTO). Em caso de emergencia, ligue 199/193.",
       "status": "vigente"
-    },
-    {
-      "time": "11:33",
-      "date": "20/04/2026",
-      "senderName": "Defesa Civil Estadual de Mato Grosso",
-      "senderNameShort": "DC Mato Grosso",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MATO GROSSO/MT",
-      "uf": "MT",
-      "headline": "Defesa Civil:MT. Previsao de Chuva ate 60mm/h, ventos de 60-100km/h. Riscos de queda de galhos de arvores, alagamentos, descargas eletricas. Ligue: 193/199.",
-      "status": "vigente"
-    },
-    {
-      "time": "11:30",
-      "date": "20/04/2026",
-      "senderName": "Defesa Civil Estadual de Mato Grosso",
-      "senderNameShort": "DC Mato Grosso",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "MATO GROSSO/MT",
-      "uf": "MT",
-      "headline": "Defesa Civil:MT. Previsao de Chuva ate 60mm/h, ventos de 60-100km/h. Riscos de queda de galhos de arvores, alagamentos, descargas eletricas. Ligue: 193/199.",
-      "status": "vigente"
-    },
-    {
-      "time": "10:52",
-      "date": "20/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Careiro da Várzea/AM, Manaquiri/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 20
+      "count": 15
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 8
+      "count": 10
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
       "count": 8
-    },
-    {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
-      "count": 5
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
@@ -119,52 +114,49 @@
       "name": "Defesa Civil de Belém (PA)",
       "short_name": "DC Belém (PA)",
       "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual do Maranhão",
+      "short_name": "DC Maranhão",
+      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 31
+      "count": 27
     },
     {
       "label": "Alto",
-      "count": 27
+      "count": 23
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 52
-    },
-    {
-      "label": "Alagamentos",
-      "count": 3
+      "count": 46
     },
     {
       "label": "Solo/Lama",
-      "count": 2
+      "count": 3
     },
     {
-      "label": "Deslizamentos",
+      "label": "Alagamentos",
       "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "ES",
-      "count": 20
+      "count": 15
     },
     {
       "uf": "AM",
-      "count": 12
+      "count": 14
     },
     {
       "uf": "MG",
       "count": 10
-    },
-    {
-      "uf": "PA",
-      "count": 6
     },
     {
       "uf": "PE",
@@ -179,6 +171,10 @@
       "count": 1
     },
     {
+      "uf": "PA",
+      "count": 1
+    },
+    {
       "uf": "MA",
       "count": 1
     },
@@ -190,14 +186,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 16
+      "count": 17
     },
     {
       "label": "expirado",
-      "count": 42
+      "count": 33
     }
   ],
   "all_alerts": [
+    {
+      "date": "20/04/2026",
+      "time": "14:29",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Manacapuru/AM, Manaquiri/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite encostas e acompanhe atualizacoes. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-20T14:29:19-03:00",
+      "expires": "2026-04-20T20:00:00-03:00"
+    },
+    {
+      "date": "20/04/2026",
+      "time": "14:06",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-04-20T14:06:34-03:00",
+      "expires": "2026-04-20T16:05:00-03:00"
+    },
+    {
+      "date": "20/04/2026",
+      "time": "13:09",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-20T13:09:46-03:00",
+      "expires": "2026-04-20T16:00:00-03:00"
+    },
     {
       "date": "20/04/2026",
       "time": "11:51",
@@ -259,7 +294,7 @@
       "uf": "AM",
       "location": "Careiro da Várzea/AM, Manaquiri/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-20T10:52:23-03:00",
       "expires": "2026-04-20T14:00:00-03:00"
     },
@@ -272,7 +307,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamentos. Siga orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-20T10:48:22-03:00",
       "expires": "2026-04-20T13:30:00-03:00"
     },
@@ -808,163 +843,20 @@
       "status": "expirado",
       "onset": "2026-04-19T14:36:11-03:00",
       "expires": "2026-04-19T17:30:00-03:00"
-    },
-    {
-      "date": "19/04/2026",
-      "time": "14:26",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Benevides/PA, Santa Izabel do Pará/PA",
-      "headline": "Defesa Civil:METROPOLITANA DE BELEM: Alerta ALTO de ALAGAMENTOS (19ABR). Risco de DESLIZAMENTOS e DESMORONAMENTO. Atencao a novos alertas. Evite trafegar!",
-      "status": "expirado",
-      "onset": "2026-04-19T14:26:09-03:00",
-      "expires": "2026-04-19T17:00:00-03:00"
-    },
-    {
-      "date": "19/04/2026",
-      "time": "14:18",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com possibilidade de raios. Proteja-se! Fonte: Defesa Civil Estadual",
-      "status": "expirado",
-      "onset": "2026-04-19T14:18:00-03:00",
-      "expires": "2026-04-19T17:00:00-03:00"
-    },
-    {
-      "date": "19/04/2026",
-      "time": "14:17",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Ananindeua/PA, Marituba/PA",
-      "headline": "Defesa Civil:METROPOLITANA DE BELEM: Alerta ALTO de ALAGAMENTOS (19ABR). Risco de DESLIZAMENTOS e DESMORONAMENTO. Atencao a novos alertas. Evite trafegar!",
-      "status": "expirado",
-      "onset": "2026-04-19T14:17:18-03:00",
-      "expires": "2026-04-19T17:00:00-03:00"
-    },
-    {
-      "date": "19/04/2026",
-      "time": "14:00",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Ibatiba/ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e GRANIZO em Ibatiba nas proximas 03 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-04-19T14:00:32-03:00",
-      "expires": "2026-04-19T17:00:00-03:00"
-    },
-    {
-      "date": "19/04/2026",
-      "time": "13:56",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:METROPOLITANA DE BELEM: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas.",
-      "status": "expirado",
-      "onset": "2026-04-19T13:56:32-03:00",
-      "expires": "2026-04-19T16:00:00-03:00"
-    },
-    {
-      "date": "19/04/2026",
-      "time": "13:44",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Ibiraçu/ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e GRANIZO em Ibiracu nas proximas 03 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-04-19T13:44:25-03:00",
-      "expires": "2026-04-19T17:00:00-03:00"
-    },
-    {
-      "date": "19/04/2026",
-      "time": "13:41",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Santa Maria de Jetibá/ES, Aracruz/ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e GRANIZO em Santa Maria de Jetiba e Aracruz nas proximas 03horas. Evite area de risco. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-04-19T13:41:59-03:00",
-      "expires": "2026-04-19T17:00:00-03:00"
-    },
-    {
-      "date": "19/04/2026",
-      "time": "13:05",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Fundão/ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA e RAIOS em Fundao nas proximas 03 horas. Evite area de risco.Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-04-19T13:05:23-03:00",
-      "expires": "2026-04-19T16:00:00-03:00"
-    },
-    {
-      "date": "19/04/2026",
-      "time": "13:03",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Santa Leopoldina/ES, Domingos Martins/ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA e RAIOS em Santa Leopoldina e Domingos Martins nas proximas 03 horas. Evite area de risco.Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-04-19T13:03:59-03:00",
-      "expires": "2026-04-19T16:00:00-03:00"
-    },
-    {
-      "date": "19/04/2026",
-      "time": "12:56",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:NORDESTE PARAENSE: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de ALAGAMENTOS e VENDAVAIS. Atencao a novos alertas.",
-      "status": "expirado",
-      "onset": "2026-04-19T12:56:44-03:00",
-      "expires": "2026-04-19T17:00:00-03:00"
-    },
-    {
-      "date": "19/04/2026",
-      "time": "12:49",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Deslizamentos",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Abaetetuba/PA",
-      "headline": "Defesa Civil:ABAETETUBA: Alto indice de chuvas acumuladas nas ultimas 72h, ATENCAO para risco de Deslizamentos em areas de encostas, fique atento! Ligue 190.",
-      "status": "expirado",
-      "onset": "2026-04-19T12:49:11-03:00",
-      "expires": "2026-04-19T18:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 58,
+    "total_alerts": 50,
     "by_nivel": {
-      "Médio": 31,
-      "Alto": 27
+      "Médio": 27,
+      "Alto": 23
     },
     "by_channel_list": {
-      "Google": 58
+      "Google": 50
     },
     "by_region": {
-      "SE": 31,
-      "N": 18,
+      "SE": 26,
+      "N": 15,
       "NE": 7,
       "CO": 2
     }
