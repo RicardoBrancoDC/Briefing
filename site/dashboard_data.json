@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-20T07:12:04.036153-03:00",
-  "source_run_dir": "run_20260420_071142",
+  "generated_at": "2026-04-20T08:45:06.319562-03:00",
+  "source_run_dir": "run_20260420_084447",
   "cards": {
-    "vigentes": 10,
-    "ultimas24h": 55,
+    "vigentes": 9,
+    "ultimas24h": 51,
     "autoridadesAtivas": 13,
     "alertasExtremos": 0
   },
@@ -78,12 +78,12 @@
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 9
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 8
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -128,25 +128,21 @@
     },
     {
       "label": "Alto",
-      "count": 27
-    },
-    {
-      "label": "Severo",
-      "count": 1
+      "count": 24
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 49
-    },
-    {
-      "label": "Solo/Lama",
-      "count": 3
+      "count": 47
     },
     {
       "label": "Alagamentos",
       "count": 2
+    },
+    {
+      "label": "Solo/Lama",
+      "count": 1
     },
     {
       "label": "Deslizamentos",
@@ -160,15 +156,15 @@
     },
     {
       "uf": "MG",
-      "count": 11
-    },
-    {
-      "uf": "AM",
-      "count": 9
+      "count": 10
     },
     {
       "uf": "PA",
       "count": 7
+    },
+    {
+      "uf": "AM",
+      "count": 6
     },
     {
       "uf": "PE",
@@ -190,11 +186,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 10
+      "count": 9
     },
     {
       "label": "expirado",
-      "count": 45
+      "count": 42
     }
   ],
   "all_alerts": [
@@ -558,7 +554,7 @@
       "uf": "MG",
       "location": "Belo Horizonte/MG",
       "headline": "Defesa Civil:Chuva (ate 20 mm) e ventos de 40 km/h ate 8h de segunda-feira (20) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-19T15:54:03-03:00",
       "expires": "2026-04-20T08:00:00-03:00"
     },
@@ -860,73 +856,20 @@
       "status": "expirado",
       "onset": "2026-04-19T09:25:05-03:00",
       "expires": "2026-04-20T00:00:00-03:00"
-    },
-    {
-      "date": "19/04/2026",
-      "time": "08:28",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-19T08:28:27-03:00",
-      "expires": "2026-04-19T12:20:00-03:00"
-    },
-    {
-      "date": "19/04/2026",
-      "time": "08:01",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios. Proteja-se! Fonte: Defesa Civil Estadual",
-      "status": "expirado",
-      "onset": "2026-04-19T08:01:18-03:00",
-      "expires": "2026-04-19T11:00:00-03:00"
-    },
-    {
-      "date": "19/04/2026",
-      "time": "07:40",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Alvarães/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-19T07:40:35-03:00",
-      "expires": "2026-04-19T19:00:00-03:00"
-    },
-    {
-      "date": "19/04/2026",
-      "time": "07:28",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Apuí/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-19T07:28:55-03:00",
-      "expires": "2026-04-19T21:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 55,
+    "total_alerts": 51,
     "by_nivel": {
-      "Alto": 27,
       "Médio": 27,
-      "Severo": 1
+      "Alto": 24
     },
     "by_channel_list": {
-      "Google": 55
+      "Google": 51
     },
     "by_region": {
-      "SE": 32,
-      "N": 16,
+      "SE": 31,
+      "N": 13,
       "NE": 6,
       "CO": 1
     }
