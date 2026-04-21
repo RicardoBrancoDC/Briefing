@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-21T00:48:39.737150-03:00",
-  "source_run_dir": "run_20260421_004800",
+  "generated_at": "2026-04-21T03:15:37.192331-03:00",
+  "source_run_dir": "run_20260421_031512",
   "cards": {
-    "vigentes": 13,
-    "ultimas24h": 42,
+    "vigentes": 11,
+    "ultimas24h": 43,
     "autoridadesAtivas": 14,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "01:50",
+      "date": "21/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "00:00",
       "date": "21/04/2026",
@@ -30,7 +42,7 @@
       "location": "Belém/PA",
       "uf": "PA",
       "headline": "Defesa Civil:Alerta de Alagamentos",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "20:25",
@@ -55,25 +67,13 @@
       "uf": "MG",
       "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas horas. Proteja-se!",
       "status": "expirado"
-    },
-    {
-      "time": "18:28",
-      "date": "20/04/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de chuvas intensas com risco de enxurradas e alagamentos em Belo Horizonte nas proximas horas. Abrigue-se!",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Alto",
-      "count": 13
+      "count": 14
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 36
+      "count": 37
     },
     {
       "label": "Solo/Lama",
@@ -156,7 +156,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 13
+      "count": 14
     },
     {
       "uf": "MG",
@@ -198,14 +198,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 13
+      "count": 11
     },
     {
       "label": "expirado",
-      "count": 29
+      "count": 32
     }
   ],
   "all_alerts": [
+    {
+      "date": "21/04/2026",
+      "time": "01:50",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-21T01:50:24-03:00",
+      "expires": "2026-04-21T05:40:00-03:00"
+    },
     {
       "date": "21/04/2026",
       "time": "00:00",
@@ -228,7 +241,7 @@
       "uf": "PA",
       "location": "Belém/PA",
       "headline": "Defesa Civil:Alerta de Alagamentos",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-20T22:10:00-03:00",
       "expires": "2026-04-21T03:00:00-03:00"
     },
@@ -644,7 +657,7 @@
       "uf": "MT",
       "location": "MATO GROSSO/MT",
       "headline": "Defesa Civil:MT. Previsao de Chuva ate 60mm/h, ventos de 60-100km/h. Riscos de queda de galhos de arvores, alagamentos, descargas eletricas. Ligue: 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-20T11:33:23-03:00",
       "expires": "2026-04-21T00:55:00-03:00"
     },
@@ -657,7 +670,7 @@
       "uf": "MT",
       "location": "MATO GROSSO/MT",
       "headline": "Defesa Civil:MT. Previsao de Chuva ate 60mm/h, ventos de 60-100km/h. Riscos de queda de galhos de arvores, alagamentos, descargas eletricas. Ligue: 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-20T11:30:09-03:00",
       "expires": "2026-04-21T00:55:00-03:00"
     },
@@ -754,17 +767,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 42,
+    "total_alerts": 43,
     "by_nivel": {
       "Médio": 27,
-      "Alto": 13,
+      "Alto": 14,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 42
+      "Google": 43
     },
     "by_region": {
-      "N": 15,
+      "N": 16,
       "NE": 14,
       "SE": 9,
       "CO": 2,
