@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-04-21T18:08:24.670565-03:00",
-  "source_run_dir": "run_20260421_180756",
+  "generated_at": "2026-04-21T20:01:42.764743-03:00",
+  "source_run_dir": "run_20260421_200113",
   "cards": {
-    "vigentes": 17,
-    "ultimas24h": 28,
-    "autoridadesAtivas": 14,
+    "vigentes": 15,
+    "ultimas24h": 27,
+    "autoridadesAtivas": 13,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "19:19",
+      "date": "21/04/2026",
+      "senderName": "Defesa Civil de Belo Horizonte (MG)",
+      "senderNameShort": "DC Belo Horizonte (MG)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Belo Horizonte/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:19h19 - Ocorrencia de chuva localizada, com intensidade moderada a forte, nesta hora. Proteja-se! Mais informacoes nas redes sociais defesacivilbh",
+      "status": "vigente"
+    },
+    {
+      "time": "18:13",
+      "date": "21/04/2026",
+      "senderName": "Defesa Civil de Aracaju (SE)",
+      "senderNameShort": "DC Aracaju (SE)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Aracaju/SE",
+      "uf": "SE",
+      "headline": "Defesa Civil:Alerda de CHUVAS INTENSA em Aracaju nas proximas 48hPossibilidade de alagamentos, inundacoes e deslizamentos de terraEmergencia ligue 199",
+      "status": "vigente"
+    },
     {
       "time": "17:09",
       "date": "21/04/2026",
@@ -30,7 +54,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:15",
@@ -43,30 +67,6 @@
       "uf": "GO",
       "headline": "Defesa Civil:Alerta em Goiania de risco ALTO de alagamentos no Setor Perim e regiao. EVITE riscos. NAO TRANSITE em area alagada. Emergencia 193",
       "status": "expirado"
-    },
-    {
-      "time": "15:48",
-      "date": "21/04/2026",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "senderNameShort": "DC Goiás",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Goiânia/GO",
-      "uf": "GO",
-      "headline": "Defesa Civil:Alerta em Goiania de risco ALTO de alagamentos na Cid Jardim, St Sudoeste, Vl Maua e regiao. EVITE riscos. NAO TRANSITE em area alagada. Emerg193",
-      "status": "expirado"
-    },
-    {
-      "time": "15:06",
-      "date": "21/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -91,14 +91,19 @@
       "count": 3
     },
     {
+      "name": "Defesa Civil de Belo Horizonte (MG)",
+      "short_name": "DC Belo Horizonte (MG)",
+      "count": 2
+    },
+    {
       "name": "Defesa Civil Estadual de Goiás",
       "short_name": "DC Goiás",
       "count": 2
     },
     {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 2
+      "name": "Defesa Civil de Aracaju (SE)",
+      "short_name": "DC Aracaju (SE)",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
@@ -114,31 +119,26 @@
       "name": "Defesa Civil de Belém (PA)",
       "short_name": "DC Belém (PA)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Sergipe",
-      "short_name": "DC Sergipe",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 13
+      "count": 12
     },
     {
       "label": "Alto",
-      "count": 11
+      "count": 12
     },
     {
       "label": "Severo",
-      "count": 4
+      "count": 3
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 24
+      "count": 23
     },
     {
       "label": "Alagamentos",
@@ -172,7 +172,11 @@
     },
     {
       "uf": "MG",
-      "count": 3
+      "count": 2
+    },
+    {
+      "uf": "SE",
+      "count": 2
     },
     {
       "uf": "GO",
@@ -183,29 +187,47 @@
       "count": 1
     },
     {
-      "uf": "SE",
-      "count": 1
-    },
-    {
       "uf": "CE",
-      "count": 1
-    },
-    {
-      "uf": "PE",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 17
+      "count": 15
     },
     {
       "label": "expirado",
-      "count": 11
+      "count": 12
     }
   ],
   "all_alerts": [
+    {
+      "date": "21/04/2026",
+      "time": "19:19",
+      "senderName": "Defesa Civil de Belo Horizonte (MG)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "Belo Horizonte/MG",
+      "headline": "Defesa Civil:19h19 - Ocorrencia de chuva localizada, com intensidade moderada a forte, nesta hora. Proteja-se! Mais informacoes nas redes sociais defesacivilbh",
+      "status": "vigente",
+      "onset": "2026-04-21T19:19:44-03:00",
+      "expires": "2026-04-21T20:20:00-03:00"
+    },
+    {
+      "date": "21/04/2026",
+      "time": "18:13",
+      "senderName": "Defesa Civil de Aracaju (SE)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SE",
+      "location": "Aracaju/SE",
+      "headline": "Defesa Civil:Alerda de CHUVAS INTENSA em Aracaju nas proximas 48hPossibilidade de alagamentos, inundacoes e deslizamentos de terraEmergencia ligue 199",
+      "status": "vigente",
+      "onset": "2026-04-21T18:13:55-03:00",
+      "expires": "2026-04-23T18:10:00-03:00"
+    },
     {
       "date": "21/04/2026",
       "time": "17:09",
@@ -228,7 +250,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-21T16:28:42-03:00",
       "expires": "2026-04-21T20:00:00-03:00"
     },
@@ -267,7 +289,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-21T15:06:35-03:00",
       "expires": "2026-04-21T18:30:00-03:00"
     },
@@ -280,7 +302,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-21T15:01:30-03:00",
       "expires": "2026-04-21T19:00:00-03:00"
     },
@@ -530,63 +552,24 @@
       "status": "expirado",
       "onset": "2026-04-20T20:25:00-03:00",
       "expires": "2026-04-21T10:00:00-03:00"
-    },
-    {
-      "date": "20/04/2026",
-      "time": "19:08",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas horas. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-04-20T19:08:27-03:00",
-      "expires": "2026-04-20T20:45:00-03:00"
-    },
-    {
-      "date": "20/04/2026",
-      "time": "18:28",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de chuvas intensas com risco de enxurradas e alagamentos em Belo Horizonte nas proximas horas. Abrigue-se!",
-      "status": "expirado",
-      "onset": "2026-04-20T18:28:23-03:00",
-      "expires": "2026-04-20T20:10:00-03:00"
-    },
-    {
-      "date": "20/04/2026",
-      "time": "18:26",
-      "senderName": "Defesa Civil de Caruaru (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Caruaru/PE",
-      "headline": "Defesa Civil:Caruaru - Possibilidade de pancadas de chuva MODERADA nas prox 24h para agreste podendo atingir Caruaru - Emergencia 199 e 193",
-      "status": "vigente",
-      "onset": "2026-04-20T18:26:02-03:00",
-      "expires": "2026-04-21T23:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 28,
+    "total_alerts": 27,
     "by_nivel": {
-      "Médio": 13,
-      "Alto": 11,
-      "Severo": 4
+      "Alto": 12,
+      "Médio": 12,
+      "Severo": 3
     },
     "by_channel_list": {
-      "Google": 28
+      "Google": 27
     },
     "by_region": {
       "N": 13,
       "NE": 7,
       "S": 3,
-      "SE": 3,
-      "CO": 2
+      "CO": 2,
+      "SE": 2
     }
   }
 }
