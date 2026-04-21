@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-04-21T12:45:56.631664-03:00",
-  "source_run_dir": "run_20260421_124534",
+  "generated_at": "2026-04-21T14:19:06.661164-03:00",
+  "source_run_dir": "run_20260421_141845",
   "cards": {
-    "vigentes": 15,
+    "vigentes": 17,
     "ultimas24h": 45,
     "autoridadesAtivas": 15,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "13:21",
+      "date": "21/04/2026",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "senderNameShort": "DC Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "/MA",
+      "uf": "MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para o MA. Evite areas de risco. Em caso de emergencia ligue 199 ou 193. Valido ate dia 22/04 as 23h59.",
+      "status": "vigente"
+    },
+    {
+      "time": "13:16",
+      "date": "21/04/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 21/04 13:14 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste e Oeste nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "12:41",
       "date": "21/04/2026",
@@ -43,30 +67,6 @@
       "uf": "PI",
       "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS no PIAUI. EVITE AREAS DE ALAGAMENTOS E ENXURRADAS. Proteja-se! Fique em Local Seguro. Em emergencia, ligue 193/190.",
       "status": "vigente"
-    },
-    {
-      "time": "12:13",
-      "date": "21/04/2026",
-      "senderName": "Defesa Civil de Belém (PA)",
-      "senderNameShort": "DC Belém (PA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Belém/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:SUMDEC: REGIAO METROPOLITANA DE BELEM, Alertas de chuvas e raios INTENSOS para hoje 21ABR. Risco de alagamentos e destelhamentos. Atencao!",
-      "status": "vigente"
-    },
-    {
-      "time": "12:12",
-      "date": "21/04/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARÁ/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (21ABR). Risco de ALAGAMENTOS E VENDAVAIS. Atencao a novos alertas. Emergencias, ligue 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -78,12 +78,12 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 8
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 7
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual de Pernambuco",
@@ -96,13 +96,18 @@
       "count": 4
     },
     {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 3
+    },
+    {
       "name": "Defesa Civil de Belo Horizonte (MG)",
       "short_name": "DC Belo Horizonte (MG)",
       "count": 3
     },
     {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
+      "name": "Defesa Civil Estadual do Maranhão",
+      "short_name": "DC Maranhão",
       "count": 2
     },
     {
@@ -113,11 +118,6 @@
     {
       "name": "Defesa Civil Estadual de Sergipe",
       "short_name": "DC Sergipe",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Parauapebas (PA)",
-      "short_name": "DC Parauapebas (PA)",
       "count": 1
     }
   ],
@@ -160,14 +160,14 @@
   "uf_distribution": [
     {
       "uf": "MG",
-      "count": 10
-    },
-    {
-      "uf": "AM",
       "count": 9
     },
     {
       "uf": "PI",
+      "count": 8
+    },
+    {
+      "uf": "AM",
       "count": 8
     },
     {
@@ -180,6 +180,10 @@
     },
     {
       "uf": "SC",
+      "count": 3
+    },
+    {
+      "uf": "MA",
       "count": 2
     },
     {
@@ -191,10 +195,6 @@
       "count": 1
     },
     {
-      "uf": "MA",
-      "count": 1
-    },
-    {
       "uf": "RS",
       "count": 1
     }
@@ -202,14 +202,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 15
+      "count": 17
     },
     {
       "label": "expirado",
-      "count": 30
+      "count": 28
     }
   ],
   "all_alerts": [
+    {
+      "date": "21/04/2026",
+      "time": "13:21",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MA",
+      "location": "/MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para o MA. Evite areas de risco. Em caso de emergencia ligue 199 ou 193. Valido ate dia 22/04 as 23h59.",
+      "status": "vigente",
+      "onset": "2026-04-21T13:21:32-03:00",
+      "expires": "2026-04-22T23:55:00-03:00"
+    },
+    {
+      "date": "21/04/2026",
+      "time": "13:16",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 21/04 13:14 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste e Oeste nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-04-21T13:16:36-03:00",
+      "expires": "2026-04-21T16:15:00-03:00"
+    },
     {
       "date": "21/04/2026",
       "time": "12:41",
@@ -768,32 +794,6 @@
       "status": "expirado",
       "onset": "2026-04-20T14:29:19-03:00",
       "expires": "2026-04-20T20:00:00-03:00"
-    },
-    {
-      "date": "20/04/2026",
-      "time": "14:06",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-04-20T14:06:34-03:00",
-      "expires": "2026-04-20T16:05:00-03:00"
-    },
-    {
-      "date": "20/04/2026",
-      "time": "13:09",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-20T13:09:46-03:00",
-      "expires": "2026-04-20T16:00:00-03:00"
     }
   ],
   "summary": {
@@ -807,10 +807,10 @@
       "Google": 45
     },
     "by_region": {
-      "NE": 17,
-      "N": 15,
-      "SE": 10,
-      "S": 3
+      "NE": 18,
+      "N": 14,
+      "SE": 9,
+      "S": 4
     }
   }
 }
