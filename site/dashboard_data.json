@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-21T16:40:46.348446-03:00",
-  "source_run_dir": "run_20260421_164020",
+  "generated_at": "2026-04-21T18:08:24.670565-03:00",
+  "source_run_dir": "run_20260421_180756",
   "cards": {
-    "vigentes": 18,
-    "ultimas24h": 39,
-    "autoridadesAtivas": 15,
+    "vigentes": 17,
+    "ultimas24h": 28,
+    "autoridadesAtivas": 14,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "17:09",
+      "date": "21/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "location": "Japurá/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "16:28",
       "date": "21/04/2026",
@@ -30,7 +42,7 @@
       "location": "Goiânia/GO",
       "uf": "GO",
       "headline": "Defesa Civil:Alerta em Goiania de risco ALTO de alagamentos no Setor Perim e regiao. EVITE riscos. NAO TRANSITE em area alagada. Emergencia 193",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "15:48",
@@ -55,35 +67,13 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
       "status": "vigente"
-    },
-    {
-      "time": "15:01",
-      "date": "21/04/2026",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "senderNameShort": "DC Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 7
-    },
-    {
-      "name": "Defesa Civil Estadual do Piauí",
-      "short_name": "DC Piauí",
-      "count": 5
-    },
-    {
-      "name": "Defesa Civil Estadual de Pernambuco",
-      "short_name": "DC Pernambuco",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -96,8 +86,8 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
+      "name": "Defesa Civil Estadual do Piauí",
+      "short_name": "DC Piauí",
       "count": 3
     },
     {
@@ -106,25 +96,35 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
       "count": 2
     },
     {
-      "name": "Defesa Civil de Belo Horizonte (MG)",
-      "short_name": "DC Belo Horizonte (MG)",
-      "count": 2
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Maranhão",
       "short_name": "DC Maranhão",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Belém (PA)",
+      "short_name": "DC Belém (PA)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual de Sergipe",
+      "short_name": "DC Sergipe",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 24
+      "count": 13
     },
     {
       "label": "Alto",
@@ -138,44 +138,40 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 35
+      "count": 24
     },
     {
       "label": "Alagamentos",
       "count": 2
     },
     {
-      "label": "Friagem",
+      "label": "Solo/Lama",
       "count": 1
     },
     {
-      "label": "Solo/Lama",
+      "label": "Friagem",
       "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 9
+      "count": 7
     },
     {
       "uf": "PA",
       "count": 6
     },
     {
-      "uf": "PE",
-      "count": 6
+      "uf": "SC",
+      "count": 3
     },
     {
       "uf": "PI",
-      "count": 5
+      "count": 3
     },
     {
       "uf": "MG",
-      "count": 5
-    },
-    {
-      "uf": "SC",
       "count": 3
     },
     {
@@ -193,19 +189,36 @@
     {
       "uf": "CE",
       "count": 1
+    },
+    {
+      "uf": "PE",
+      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 18
+      "count": 17
     },
     {
       "label": "expirado",
-      "count": 21
+      "count": 11
     }
   ],
   "all_alerts": [
+    {
+      "date": "21/04/2026",
+      "time": "17:09",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Japurá/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-21T17:09:10-03:00",
+      "expires": "2026-04-22T06:00:00-03:00"
+    },
     {
       "date": "21/04/2026",
       "time": "16:28",
@@ -228,7 +241,7 @@
       "uf": "GO",
       "location": "Goiânia/GO",
       "headline": "Defesa Civil:Alerta em Goiania de risco ALTO de alagamentos no Setor Perim e regiao. EVITE riscos. NAO TRANSITE em area alagada. Emergencia 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-21T16:15:59-03:00",
       "expires": "2026-04-21T17:10:00-03:00"
     },
@@ -423,7 +436,7 @@
       "uf": "PA",
       "location": "Belém/PA",
       "headline": "Defesa Civil:Alerta de CHUVA INTENSA COM MARE ALTA. EVITE AREAS DE RISCO. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-21T09:59:19-03:00",
       "expires": "2026-04-21T18:00:00-03:00"
     },
@@ -556,179 +569,23 @@
       "status": "vigente",
       "onset": "2026-04-20T18:26:02-03:00",
       "expires": "2026-04-21T23:00:00-03:00"
-    },
-    {
-      "date": "20/04/2026",
-      "time": "18:04",
-      "senderName": "Defesa Civil de Belo Horizonte (MG)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "Belo Horizonte/MG",
-      "headline": "Defesa Civil:18h03 - Chuva de intensidade moderada nas proximas 2 horas em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "expirado",
-      "onset": "2026-04-20T18:04:19-03:00",
-      "expires": "2026-04-20T20:05:00-03:00"
-    },
-    {
-      "date": "20/04/2026",
-      "time": "17:46",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-20T17:46:21-03:00",
-      "expires": "2026-04-20T21:30:00-03:00"
-    },
-    {
-      "date": "20/04/2026",
-      "time": "17:38",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Fernando de Noronha/PE",
-      "headline": "Defesa Civil:PE: NORONHA. ALERTA possibilidade de chuvas de MODERADA a FORTE nas prox 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se",
-      "status": "expirado",
-      "onset": "2026-04-20T17:38:00-03:00",
-      "expires": "2026-04-21T12:00:00-03:00"
-    },
-    {
-      "date": "20/04/2026",
-      "time": "17:33",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO-PE",
-      "headline": "Defesa Civil:PE: RMR. ALERTA possibilidade de pancadas de chuva MODERADA nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se",
-      "status": "expirado",
-      "onset": "2026-04-20T17:33:00-03:00",
-      "expires": "2026-04-21T12:00:00-03:00"
-    },
-    {
-      "date": "20/04/2026",
-      "time": "17:31",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas horas. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-04-20T17:31:14-03:00",
-      "expires": "2026-04-20T19:25:00-03:00"
-    },
-    {
-      "date": "20/04/2026",
-      "time": "17:30",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO-PE",
-      "headline": "Defesa Civil:PE: MATA NORTE. ALERTA possib. de pancadas de chuva MODERADA nas prox 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se",
-      "status": "expirado",
-      "onset": "2026-04-20T17:30:00-03:00",
-      "expires": "2026-04-21T12:00:00-03:00"
-    },
-    {
-      "date": "20/04/2026",
-      "time": "17:26",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO-PE",
-      "headline": "Defesa Civil:PE: MATA SUL. ALERTA possibilidade de pancadas de chuva MODERADA nas prox 24h. Fique atento as orientacoes da Defesa Civil.Proteja-se",
-      "status": "expirado",
-      "onset": "2026-04-20T17:26:00-03:00",
-      "expires": "2026-04-21T12:00:00-03:00"
-    },
-    {
-      "date": "20/04/2026",
-      "time": "17:19",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO-PE",
-      "headline": "Defesa Civil:PE: AGRESTE. ALERTA possibilidade de pancadas de chuva MODERADA nas prox 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se",
-      "status": "expirado",
-      "onset": "2026-04-20T17:19:00-03:00",
-      "expires": "2026-04-21T12:00:00-03:00"
-    },
-    {
-      "date": "20/04/2026",
-      "time": "17:03",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Boca do Acre/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite encostas e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-20T17:03:28-03:00",
-      "expires": "2026-04-20T23:00:00-03:00"
-    },
-    {
-      "date": "20/04/2026",
-      "time": "16:57",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PI",
-      "location": "Teresina/PI",
-      "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS em Teresina/PI. EVITE AREAS DE RISCO DE ALAGAMENTOS E ENXURRADAS! Fique em Local Seguro. Em emergencia, ligue 193 ou 190",
-      "status": "expirado",
-      "onset": "2026-04-20T16:57:21-03:00",
-      "expires": "2026-04-20T23:55:00-03:00"
-    },
-    {
-      "date": "20/04/2026",
-      "time": "16:53",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PI",
-      "location": "PIAUÍ/PI",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para PIAUI. EVITE AREAS DE ALAGAMENTOS E ENXURRADAS, Fique em Local Seguro. Em emergencia, ligue 193/190.",
-      "status": "expirado",
-      "onset": "2026-04-20T16:53:05-03:00",
-      "expires": "2026-04-20T23:55:00-03:00"
-    },
-    {
-      "date": "20/04/2026",
-      "time": "16:50",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de Chuva Intensa (NIVEL ALTO). Evite area de risco com historico de alagamento ou enxurrada. Em caso de emergencia ligue 193/199.",
-      "status": "expirado",
-      "onset": "2026-04-20T16:50:55-03:00",
-      "expires": "2026-04-20T21:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 39,
+    "total_alerts": 28,
     "by_nivel": {
-      "Médio": 24,
+      "Médio": 13,
       "Alto": 11,
       "Severo": 4
     },
     "by_channel_list": {
-      "Google": 39
+      "Google": 28
     },
     "by_region": {
-      "N": 15,
-      "NE": 14,
-      "SE": 5,
+      "N": 13,
+      "NE": 7,
       "S": 3,
+      "SE": 3,
       "CO": 2
     }
   }
