@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-04-22T18:12:40.821537-03:00",
-  "source_run_dir": "run_20260422_181150",
+  "generated_at": "2026-04-22T20:09:34.016637-03:00",
+  "source_run_dir": "run_20260422_200859",
   "cards": {
-    "vigentes": 30,
-    "ultimas24h": 45,
-    "autoridadesAtivas": 13,
+    "vigentes": 22,
+    "ultimas24h": 46,
+    "autoridadesAtivas": 11,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "19:59",
+      "date": "22/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Médio",
+      "location": "Nova Olinda do Norte/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Redobre atencao em areas inclinadas. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "19:51",
+      "date": "22/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "19:14",
+      "date": "22/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa. Chuva intensa com risco de alagamentos e enxurradas. Em caso de emergencia ligue: 199/193.",
+      "status": "vigente"
+    },
     {
       "time": "17:22",
       "date": "22/04/2026",
@@ -31,49 +67,13 @@
       "uf": "BA",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas para Pojuca/BA.Em caso de Emergencia ligue para (71) 9 9694 - 4312.",
       "status": "vigente"
-    },
-    {
-      "time": "16:46",
-      "date": "22/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Careiro da Várzea/AM, Careiro/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "16:33",
-      "date": "22/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "16:28",
-      "date": "22/04/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 23
+      "count": 26
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -132,7 +132,7 @@
     },
     {
       "label": "Severo",
-      "count": 11
+      "count": 12
     },
     {
       "label": "Extremo",
@@ -146,7 +146,7 @@
     },
     {
       "label": "Solo/Lama",
-      "count": 12
+      "count": 13
     },
     {
       "label": "Alagamentos",
@@ -164,7 +164,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 27
+      "count": 30
     },
     {
       "uf": "PA",
@@ -185,27 +185,58 @@
     {
       "uf": "RO",
       "count": 1
-    },
-    {
-      "uf": "MG",
-      "count": 1
-    },
-    {
-      "uf": "SE",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 30
+      "count": 22
     },
     {
       "label": "expirado",
-      "count": 15
+      "count": 24
     }
   ],
   "all_alerts": [
+    {
+      "date": "22/04/2026",
+      "time": "19:59",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Nova Olinda do Norte/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Redobre atencao em areas inclinadas. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-22T19:59:58-03:00",
+      "expires": "2026-04-23T03:00:00-03:00"
+    },
+    {
+      "date": "22/04/2026",
+      "time": "19:51",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-22T19:51:59-03:00",
+      "expires": "2026-04-22T23:00:00-03:00"
+    },
+    {
+      "date": "22/04/2026",
+      "time": "19:14",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa. Chuva intensa com risco de alagamentos e enxurradas. Em caso de emergencia ligue: 199/193.",
+      "status": "vigente",
+      "onset": "2026-04-22T19:14:25-03:00",
+      "expires": "2026-04-22T23:00:00-03:00"
+    },
     {
       "date": "22/04/2026",
       "time": "17:22",
@@ -267,7 +298,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T16:28:58-03:00",
       "expires": "2026-04-22T19:25:00-03:00"
     },
@@ -319,7 +350,7 @@
       "uf": "AM",
       "location": "Novo Aripuanã/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T12:58:29-03:00",
       "expires": "2026-04-22T19:00:00-03:00"
     },
@@ -371,7 +402,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Evite encostas e areas de risco. Saia de areas de encosta. Em caso de emergencia ligue: 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T12:29:13-03:00",
       "expires": "2026-04-22T19:00:00-03:00"
     },
@@ -384,7 +415,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T12:15:04-03:00",
       "expires": "2026-04-22T19:00:00-03:00"
     },
@@ -397,7 +428,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T12:11:49-03:00",
       "expires": "2026-04-22T19:00:00-03:00"
     },
@@ -410,7 +441,7 @@
       "uf": "AM",
       "location": "Manacapuru/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Evite ruas alagadas. Evite areas alagadas e fique em local seguro. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T12:00:22-03:00",
       "expires": "2026-04-22T19:00:00-03:00"
     },
@@ -423,7 +454,7 @@
       "uf": "AM",
       "location": "Careiro da Várzea/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Atencao para pontos de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T11:49:26-03:00",
       "expires": "2026-04-22T19:00:00-03:00"
     },
@@ -436,7 +467,7 @@
       "uf": "AM",
       "location": "Iranduba/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T11:27:15-03:00",
       "expires": "2026-04-22T19:00:00-03:00"
     },
@@ -449,7 +480,7 @@
       "uf": "AM",
       "location": "Manicoré/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T11:13:46-03:00",
       "expires": "2026-04-22T19:00:00-03:00"
     },
@@ -501,7 +532,7 @@
       "uf": "AM",
       "location": "Careiro/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.  Afaste-se de encostas. Procure abrigo seguro. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T10:20:26-03:00",
       "expires": "2026-04-22T19:00:00-03:00"
     },
@@ -764,51 +795,24 @@
       "status": "expirado",
       "onset": "2026-04-21T20:21:32-03:00",
       "expires": "2026-04-21T20:20:00-03:00"
-    },
-    {
-      "date": "21/04/2026",
-      "time": "19:19",
-      "senderName": "Defesa Civil de Belo Horizonte (MG)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Belo Horizonte/MG",
-      "headline": "Defesa Civil:19h19 - Ocorrencia de chuva localizada, com intensidade moderada a forte, nesta hora. Proteja-se! Mais informacoes nas redes sociais defesacivilbh",
-      "status": "expirado",
-      "onset": "2026-04-21T19:19:44-03:00",
-      "expires": "2026-04-21T20:20:00-03:00"
-    },
-    {
-      "date": "21/04/2026",
-      "time": "18:13",
-      "senderName": "Defesa Civil de Aracaju (SE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SE",
-      "location": "Aracaju/SE",
-      "headline": "Defesa Civil:Alerda de CHUVAS INTENSA em Aracaju nas proximas 48hPossibilidade de alagamentos, inundacoes e deslizamentos de terraEmergencia ligue 199",
-      "status": "vigente",
-      "onset": "2026-04-21T18:13:55-03:00",
-      "expires": "2026-04-23T18:10:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 45,
+    "total_alerts": 46,
     "by_nivel": {
       "Alto": 23,
-      "Severo": 11,
+      "Severo": 12,
       "Médio": 10,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 45
+      "Google": 46
     },
     "by_region": {
-      "N": 35,
-      "NE": 5,
+      "N": 38,
+      "NE": 4,
       "CO": 3,
-      "S": 1,
-      "SE": 1
+      "S": 1
     }
   }
 }
