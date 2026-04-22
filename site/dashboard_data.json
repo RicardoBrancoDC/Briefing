@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-21T20:01:42.764743-03:00",
-  "source_run_dir": "run_20260421_200113",
+  "generated_at": "2026-04-22T00:44:57.109965-03:00",
+  "source_run_dir": "run_20260422_004431",
   "cards": {
-    "vigentes": 15,
-    "ultimas24h": 27,
+    "vigentes": 6,
+    "ultimas24h": 25,
     "autoridadesAtivas": 13,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "20:21",
+      "date": "21/04/2026",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "senderNameShort": "DC Mato Grosso",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Jauru/MT",
+      "uf": "MT",
+      "headline": "Defesa Civil:ESTADUAL: Chuvas intensas com pontos de alagamento e enxurradas. Evite areas de risco. Abrigue-se em local seguro.Emergencia ligue: 193.",
+      "status": "expirado"
+    },
     {
       "time": "19:19",
       "date": "21/04/2026",
@@ -18,7 +30,7 @@
       "location": "Belo Horizonte/MG",
       "uf": "MG",
       "headline": "Defesa Civil:19h19 - Ocorrencia de chuva localizada, com intensidade moderada a forte, nesta hora. Proteja-se! Mais informacoes nas redes sociais defesacivilbh",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "18:13",
@@ -55,18 +67,6 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
       "status": "expirado"
-    },
-    {
-      "time": "16:15",
-      "date": "21/04/2026",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "senderNameShort": "DC Goiás",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Goiânia/GO",
-      "uf": "GO",
-      "headline": "Defesa Civil:Alerta em Goiania de risco ALTO de alagamentos no Setor Perim e regiao. EVITE riscos. NAO TRANSITE em area alagada. Emergencia 193",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -76,18 +76,13 @@
       "count": 6
     },
     {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
-      "count": 4
-    },
-    {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
+      "name": "Defesa Civil Estadual do Piauí",
+      "short_name": "DC Piauí",
       "count": 3
     },
     {
-      "name": "Defesa Civil Estadual do Piauí",
-      "short_name": "DC Piauí",
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
       "count": 3
     },
     {
@@ -99,6 +94,16 @@
       "name": "Defesa Civil Estadual de Goiás",
       "short_name": "DC Goiás",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual de Mato Grosso",
+      "short_name": "DC Mato Grosso",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Aracaju (SE)",
@@ -114,17 +119,12 @@
       "name": "Defesa Civil Estadual do Maranhão",
       "short_name": "DC Maranhão",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Belém (PA)",
-      "short_name": "DC Belém (PA)",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 12
+      "count": 10
     },
     {
       "label": "Alto",
@@ -138,14 +138,14 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 23
-    },
-    {
-      "label": "Alagamentos",
-      "count": 2
+      "count": 22
     },
     {
       "label": "Solo/Lama",
+      "count": 1
+    },
+    {
+      "label": "Alagamentos",
       "count": 1
     },
     {
@@ -160,11 +160,7 @@
     },
     {
       "uf": "PA",
-      "count": 6
-    },
-    {
-      "uf": "SC",
-      "count": 3
+      "count": 5
     },
     {
       "uf": "PI",
@@ -183,25 +179,42 @@
       "count": 2
     },
     {
-      "uf": "MA",
+      "uf": "SC",
+      "count": 2
+    },
+    {
+      "uf": "MT",
       "count": 1
     },
     {
-      "uf": "CE",
+      "uf": "MA",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 15
+      "count": 6
     },
     {
       "label": "expirado",
-      "count": 12
+      "count": 19
     }
   ],
   "all_alerts": [
+    {
+      "date": "21/04/2026",
+      "time": "20:21",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "MT",
+      "location": "Jauru/MT",
+      "headline": "Defesa Civil:ESTADUAL: Chuvas intensas com pontos de alagamento e enxurradas. Evite areas de risco. Abrigue-se em local seguro.Emergencia ligue: 193.",
+      "status": "expirado",
+      "onset": "2026-04-21T20:21:32-03:00",
+      "expires": "2026-04-21T20:20:00-03:00"
+    },
     {
       "date": "21/04/2026",
       "time": "19:19",
@@ -211,7 +224,7 @@
       "uf": "MG",
       "location": "Belo Horizonte/MG",
       "headline": "Defesa Civil:19h19 - Ocorrencia de chuva localizada, com intensidade moderada a forte, nesta hora. Proteja-se! Mais informacoes nas redes sociais defesacivilbh",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-21T19:19:44-03:00",
       "expires": "2026-04-21T20:20:00-03:00"
     },
@@ -341,7 +354,7 @@
       "uf": "PI",
       "location": "Teresina/PI",
       "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS em TERESINA/PI. EVITE AREAS DE ALAGAMENTOS E ENXURRADAS. Proteja-se! Fique em Local Seguro. Em emergencia, ligue 193/190",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-21T12:41:18-03:00",
       "expires": "2026-04-21T23:55:00-03:00"
     },
@@ -354,7 +367,7 @@
       "uf": "PI",
       "location": "Parnaíba/PI",
       "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS em Parnaiba/PI. EVITE AREAS DE ALAGAMENTOS E ENXURRADAS. Proteja-se! Fique em Local Seguro. Em emergencia, ligue 193/190",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-21T12:37:30-03:00",
       "expires": "2026-04-21T23:55:00-03:00"
     },
@@ -367,7 +380,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS no PIAUI. EVITE AREAS DE ALAGAMENTOS E ENXURRADAS. Proteja-se! Fique em Local Seguro. Em emergencia, ligue 193/190.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-21T12:22:24-03:00",
       "expires": "2026-04-21T23:55:00-03:00"
     },
@@ -380,7 +393,7 @@
       "uf": "PA",
       "location": "Belém/PA",
       "headline": "Defesa Civil:SUMDEC: REGIAO METROPOLITANA DE BELEM, Alertas de chuvas e raios INTENSOS para hoje 21ABR. Risco de alagamentos e destelhamentos. Atencao!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-21T12:13:10-03:00",
       "expires": "2026-04-21T23:55:00-03:00"
     },
@@ -406,7 +419,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:PARA: Alerta MODERADO de CHUVAS INTENSAS hoje (21ABR). Risco de ALAGAMENTOS E VENDAVAIS. Atencao a novos alertas. Emergencias, ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-21T12:09:28-03:00",
       "expires": "2026-04-21T23:55:00-03:00"
     },
@@ -432,7 +445,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Observação Meteorológica SDC/SC 21/04 09:00 - Chuva pontualmente intensa e temporais isolados na terça-feira (21), atingindo principalmente as regiões do Extremo Oeste e Oeste entre o final da manhã e a noite.\n\nUm sistema de baixa pressão que se desenvolve entre o norte da Argentina e o sul do Paraguai avança em direção ao Brasil. Com o deslocamento desse sistema, são esperadas chuvas pontualmente intensas e temporais isolados. \n\nEm caso de emergência, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-21T11:00:00-03:00",
       "expires": "2026-04-21T21:00:00-03:00"
     },
@@ -484,7 +497,7 @@
       "uf": "PA",
       "location": "Parauapebas/PA",
       "headline": "Defesa Civil:Ha risco alto de chuvas Intensas nas proximas horas. Fique em estado de ATENCAO e caso de Emergencia, ligue 190 para Defesa Civil.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-21T08:53:36-03:00",
       "expires": "2026-04-21T23:55:00-03:00"
     },
@@ -513,62 +526,23 @@
       "status": "expirado",
       "onset": "2026-04-21T01:50:24-03:00",
       "expires": "2026-04-21T05:40:00-03:00"
-    },
-    {
-      "date": "21/04/2026",
-      "time": "00:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Observação Meteorológica SDC/SC 20/04 09:20 - Temporais isolados na madrugada e noite de terça-feira (21)",
-      "status": "vigente",
-      "onset": "2026-04-21T00:00:00-03:00",
-      "expires": "2026-04-21T21:00:00-03:00"
-    },
-    {
-      "date": "20/04/2026",
-      "time": "22:10",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Alagamentos",
-      "nivel": "Severo",
-      "uf": "PA",
-      "location": "Belém/PA",
-      "headline": "Defesa Civil:Alerta de Alagamentos",
-      "status": "expirado",
-      "onset": "2026-04-20T22:10:00-03:00",
-      "expires": "2026-04-21T03:00:00-03:00"
-    },
-    {
-      "date": "20/04/2026",
-      "time": "20:25",
-      "senderName": "Defesa Civil Estadual do Ceará",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "CE",
-      "location": "CEARÁ-CE",
-      "headline": "Defesa Civil:(CEARA)Possibilidade de chuvas MODERADA ou FORTE. Evite deslocamento desnecessario. Fonte:FUNCEME. EMERGENCIA: 193/190.",
-      "status": "expirado",
-      "onset": "2026-04-20T20:25:00-03:00",
-      "expires": "2026-04-21T10:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 27,
+    "total_alerts": 25,
     "by_nivel": {
       "Alto": 12,
-      "Médio": 12,
+      "Médio": 10,
       "Severo": 3
     },
     "by_channel_list": {
-      "Google": 27
+      "Google": 25
     },
     "by_region": {
-      "N": 13,
-      "NE": 7,
-      "S": 3,
-      "CO": 2,
+      "N": 12,
+      "NE": 6,
+      "CO": 3,
+      "S": 2,
       "SE": 2
     }
   }
