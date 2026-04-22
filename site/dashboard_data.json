@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-22T06:55:39.507589-03:00",
-  "source_run_dir": "run_20260422_065459",
+  "generated_at": "2026-04-22T08:34:18.000952-03:00",
+  "source_run_dir": "run_20260422_083358",
   "cards": {
-    "vigentes": 10,
+    "vigentes": 7,
     "ultimas24h": 30,
     "autoridadesAtivas": 13,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "07:56",
+      "date": "22/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "location": "Manaquiri/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "06:35",
       "date": "22/04/2026",
@@ -30,7 +42,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "04:42",
@@ -42,7 +54,7 @@
       "location": "Manaus/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Em caso de emergencia ligue: 199/193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "02:11",
@@ -54,19 +66,7 @@
       "location": "Manaus/AM",
       "uf": "AM",
       "headline": "Defesa Civil: ALERTA de Chuva Intensa (NIVEL ALTO). Evite area de risco com historico de alagamento. Em caso de emergencia ligue 193/199",
-      "status": "vigente"
-    },
-    {
-      "time": "01:26",
-      "date": "22/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "location": "Alvarães/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -138,11 +138,11 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 26
+      "count": 25
     },
     {
       "label": "Solo/Lama",
-      "count": 2
+      "count": 3
     },
     {
       "label": "Alagamentos",
@@ -194,14 +194,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 10
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 20
+      "count": 23
     }
   ],
   "all_alerts": [
+    {
+      "date": "22/04/2026",
+      "time": "07:56",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Manaquiri/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-22T07:56:57-03:00",
+      "expires": "2026-04-22T15:00:00-03:00"
+    },
     {
       "date": "22/04/2026",
       "time": "06:35",
@@ -224,7 +237,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T06:08:58-03:00",
       "expires": "2026-04-22T08:00:00-03:00"
     },
@@ -237,7 +250,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Em caso de emergencia ligue: 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T04:42:47-03:00",
       "expires": "2026-04-22T07:00:00-03:00"
     },
@@ -250,7 +263,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil: ALERTA de Chuva Intensa (NIVEL ALTO). Evite area de risco com historico de alagamento. Em caso de emergencia ligue 193/199",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T02:11:38-03:00",
       "expires": "2026-04-22T08:00:00-03:00"
     },
@@ -263,7 +276,7 @@
       "uf": "AM",
       "location": "Alvarães/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T01:26:09-03:00",
       "expires": "2026-04-22T08:00:00-03:00"
     },
@@ -578,19 +591,6 @@
       "status": "expirado",
       "onset": "2026-04-21T08:53:36-03:00",
       "expires": "2026-04-21T23:55:00-03:00"
-    },
-    {
-      "date": "21/04/2026",
-      "time": "07:10",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-21T07:10:42-03:00",
-      "expires": "2026-04-21T11:00:00-03:00"
     }
   ],
   "summary": {
