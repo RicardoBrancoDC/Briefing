@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-22T03:13:33.315035-03:00",
-  "source_run_dir": "run_20260422_031309",
+  "generated_at": "2026-04-22T05:09:57.844619-03:00",
+  "source_run_dir": "run_20260422_050941",
   "cards": {
     "vigentes": 9,
-    "ultimas24h": 27,
+    "ultimas24h": 28,
     "autoridadesAtivas": 13,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "04:42",
+      "date": "22/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Em caso de emergencia ligue: 199/193.",
+      "status": "vigente"
+    },
     {
       "time": "02:11",
       "date": "22/04/2026",
@@ -42,7 +54,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "20:21",
@@ -55,25 +67,13 @@
       "uf": "MT",
       "headline": "Defesa Civil:ESTADUAL: Chuvas intensas com pontos de alagamento e enxurradas. Evite areas de risco. Abrigue-se em local seguro.Emergencia ligue: 193.",
       "status": "expirado"
-    },
-    {
-      "time": "19:19",
-      "date": "21/04/2026",
-      "senderName": "Defesa Civil de Belo Horizonte (MG)",
-      "senderNameShort": "DC Belo Horizonte (MG)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Belo Horizonte/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:19h19 - Ocorrencia de chuva localizada, com intensidade moderada a forte, nesta hora. Proteja-se! Mais informacoes nas redes sociais defesacivilbh",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 7
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
@@ -132,13 +132,13 @@
     },
     {
       "label": "Severo",
-      "count": 3
+      "count": 4
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 23
+      "count": 24
     },
     {
       "label": "Solo/Lama",
@@ -156,7 +156,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 9
+      "count": 10
     },
     {
       "uf": "PA",
@@ -198,10 +198,23 @@
     },
     {
       "label": "expirado",
-      "count": 18
+      "count": 19
     }
   ],
   "all_alerts": [
+    {
+      "date": "22/04/2026",
+      "time": "04:42",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Em caso de emergencia ligue: 199/193.",
+      "status": "vigente",
+      "onset": "2026-04-22T04:42:47-03:00",
+      "expires": "2026-04-22T07:00:00-03:00"
+    },
     {
       "date": "22/04/2026",
       "time": "02:11",
@@ -237,7 +250,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T01:16:55-03:00",
       "expires": "2026-04-22T05:00:00-03:00"
     },
@@ -555,17 +568,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 27,
+    "total_alerts": 28,
     "by_nivel": {
       "Alto": 14,
       "Médio": 10,
-      "Severo": 3
+      "Severo": 4
     },
     "by_channel_list": {
-      "Google": 27
+      "Google": 28
     },
     "by_region": {
-      "N": 14,
+      "N": 15,
       "NE": 6,
       "CO": 3,
       "S": 2,
