@@ -1,71 +1,71 @@
 {
-  "generated_at": "2026-04-22T11:12:48.213199-03:00",
-  "source_run_dir": "run_20260422_111212",
+  "generated_at": "2026-04-22T12:44:14.501799-03:00",
+  "source_run_dir": "run_20260422_124324",
   "cards": {
-    "vigentes": 20,
-    "ultimas24h": 40,
-    "autoridadesAtivas": 13,
+    "vigentes": 27,
+    "ultimas24h": 42,
+    "autoridadesAtivas": 12,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "11:07",
-      "date": "22/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Médio",
-      "location": "Novo Aripuanã/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Observe sinais em encostas.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "10:39",
-      "date": "22/04/2026",
-      "senderName": "Defesa Civil Estadual de Mato Grosso",
-      "senderNameShort": "DC Mato Grosso",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MATO GROSSO/MT",
-      "uf": "MT",
-      "headline": "Defesa Civil:MT. Previsao de Chuva ate 60mm/h, ventos de 60-100km/h. Riscos de queda de galhos de arvores, alagamentos, descargas eletricas. Ligue: 193/199.",
-      "status": "vigente"
-    },
-    {
-      "time": "10:36",
-      "date": "22/04/2026",
-      "senderName": "Defesa Civil Estadual de Mato Grosso",
-      "senderNameShort": "DC Mato Grosso",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "MATO GROSSO/MT",
-      "uf": "MT",
-      "headline": "Defesa Civil:MT. Previsao de Chuva ate 60mm/h, ventos de 60-100km/h. Riscos de queda de galhos de arvores, alagamentos, descargas eletricas. Ligue: 193/199.",
-      "status": "vigente"
-    },
-    {
-      "time": "10:20",
+      "time": "12:39",
       "date": "22/04/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
       "event": "Solo/Lama",
       "nivel": "Severo",
-      "location": "Careiro/AM",
+      "location": "Manacapuru/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.  Afaste-se de encostas. Procure abrigo seguro. Siga as orientacoes da defesa civil local.",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro. Siga as orientacoes da defesa civil local.",
       "status": "vigente"
     },
     {
-      "time": "10:12",
+      "time": "12:29",
       "date": "22/04/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Severo",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Evite encostas e areas de risco. Saia de areas de encosta. Em caso de emergencia ligue: 199/193.",
+      "status": "vigente"
+    },
+    {
+      "time": "12:15",
+      "date": "22/04/2026",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "senderNameShort": "DC Manaus (AM)",
       "event": "Alagamentos",
       "nivel": "Alto",
-      "location": "Marabá/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:Alerta ALTO de Alagamentos para hoje (22ABR) devido a mare alta. Evite contato com a agua de alagamentos.",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.",
+      "status": "vigente"
+    },
+    {
+      "time": "12:11",
+      "date": "22/04/2026",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "senderNameShort": "DC Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "12:00",
+      "date": "22/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "location": "Manacapuru/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Evite ruas alagadas. Evite areas alagadas e fique em local seguro. Siga as orientacoes da defesa civil local.",
       "status": "vigente"
     }
   ],
@@ -73,32 +73,22 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 14
+      "count": 20
+    },
+    {
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 7
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual de Mato Grosso",
       "short_name": "DC Mato Grosso",
       "count": 3
-    },
-    {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 3
-    },
-    {
-      "name": "Defesa Civil Estadual do Piauí",
-      "short_name": "DC Piauí",
-      "count": 3
-    },
-    {
-      "name": "Defesa Civil de Belém (PA)",
-      "short_name": "DC Belém (PA)",
-      "count": 2
     },
     {
       "name": "Defesa Civil Estadual de Goiás",
@@ -116,15 +106,25 @@
       "count": 1
     },
     {
+      "name": "Defesa Civil de Belém (PA)",
+      "short_name": "DC Belém (PA)",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil de Belo Horizonte (MG)",
       "short_name": "DC Belo Horizonte (MG)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Aracaju (SE)",
+      "short_name": "DC Aracaju (SE)",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 12
+      "count": 10
     },
     {
       "label": "Alto",
@@ -132,38 +132,34 @@
     },
     {
       "label": "Severo",
-      "count": 7
+      "count": 11
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 32
+      "count": 27
     },
     {
       "label": "Solo/Lama",
-      "count": 6
+      "count": 10
     },
     {
       "label": "Alagamentos",
-      "count": 2
+      "count": 5
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 17
+      "count": 25
     },
     {
       "uf": "PA",
-      "count": 9
+      "count": 6
     },
     {
       "uf": "MT",
-      "count": 3
-    },
-    {
-      "uf": "PI",
       "count": 3
     },
     {
@@ -198,14 +194,118 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 20
+      "count": 27
     },
     {
       "label": "expirado",
-      "count": 20
+      "count": 15
     }
   ],
   "all_alerts": [
+    {
+      "date": "22/04/2026",
+      "time": "12:39",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Severo",
+      "uf": "AM",
+      "location": "Manacapuru/AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-22T12:39:06-03:00",
+      "expires": "2026-04-22T23:00:00-03:00"
+    },
+    {
+      "date": "22/04/2026",
+      "time": "12:29",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Severo",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Evite encostas e areas de risco. Saia de areas de encosta. Em caso de emergencia ligue: 199/193.",
+      "status": "vigente",
+      "onset": "2026-04-22T12:29:13-03:00",
+      "expires": "2026-04-22T19:00:00-03:00"
+    },
+    {
+      "date": "22/04/2026",
+      "time": "12:15",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.",
+      "status": "vigente",
+      "onset": "2026-04-22T12:15:04-03:00",
+      "expires": "2026-04-22T19:00:00-03:00"
+    },
+    {
+      "date": "22/04/2026",
+      "time": "12:11",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-04-22T12:11:49-03:00",
+      "expires": "2026-04-22T19:00:00-03:00"
+    },
+    {
+      "date": "22/04/2026",
+      "time": "12:00",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Manacapuru/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Evite ruas alagadas. Evite areas alagadas e fique em local seguro. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-22T12:00:22-03:00",
+      "expires": "2026-04-22T19:00:00-03:00"
+    },
+    {
+      "date": "22/04/2026",
+      "time": "11:49",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Careiro da Várzea/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Atencao para pontos de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-22T11:49:26-03:00",
+      "expires": "2026-04-22T19:00:00-03:00"
+    },
+    {
+      "date": "22/04/2026",
+      "time": "11:27",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Severo",
+      "uf": "AM",
+      "location": "Iranduba/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-22T11:27:15-03:00",
+      "expires": "2026-04-22T19:00:00-03:00"
+    },
+    {
+      "date": "22/04/2026",
+      "time": "11:13",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Severo",
+      "uf": "AM",
+      "location": "Manicoré/AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-22T11:13:46-03:00",
+      "expires": "2026-04-22T19:00:00-03:00"
+    },
     {
       "date": "22/04/2026",
       "time": "11:07",
@@ -647,100 +747,22 @@
       "status": "expirado",
       "onset": "2026-04-21T13:16:36-03:00",
       "expires": "2026-04-21T16:15:00-03:00"
-    },
-    {
-      "date": "21/04/2026",
-      "time": "12:41",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PI",
-      "location": "Teresina/PI",
-      "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS em TERESINA/PI. EVITE AREAS DE ALAGAMENTOS E ENXURRADAS. Proteja-se! Fique em Local Seguro. Em emergencia, ligue 193/190",
-      "status": "expirado",
-      "onset": "2026-04-21T12:41:18-03:00",
-      "expires": "2026-04-21T23:55:00-03:00"
-    },
-    {
-      "date": "21/04/2026",
-      "time": "12:37",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PI",
-      "location": "Parnaíba/PI",
-      "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS em Parnaiba/PI. EVITE AREAS DE ALAGAMENTOS E ENXURRADAS. Proteja-se! Fique em Local Seguro. Em emergencia, ligue 193/190",
-      "status": "expirado",
-      "onset": "2026-04-21T12:37:30-03:00",
-      "expires": "2026-04-21T23:55:00-03:00"
-    },
-    {
-      "date": "21/04/2026",
-      "time": "12:22",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PI",
-      "location": "PIAUÍ/PI",
-      "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS no PIAUI. EVITE AREAS DE ALAGAMENTOS E ENXURRADAS. Proteja-se! Fique em Local Seguro. Em emergencia, ligue 193/190.",
-      "status": "expirado",
-      "onset": "2026-04-21T12:22:24-03:00",
-      "expires": "2026-04-21T23:55:00-03:00"
-    },
-    {
-      "date": "21/04/2026",
-      "time": "12:13",
-      "senderName": "Defesa Civil de Belém (PA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Belém/PA",
-      "headline": "Defesa Civil:SUMDEC: REGIAO METROPOLITANA DE BELEM, Alertas de chuvas e raios INTENSOS para hoje 21ABR. Risco de alagamentos e destelhamentos. Atencao!",
-      "status": "expirado",
-      "onset": "2026-04-21T12:13:10-03:00",
-      "expires": "2026-04-21T23:55:00-03:00"
-    },
-    {
-      "date": "21/04/2026",
-      "time": "12:12",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (21ABR). Risco de ALAGAMENTOS E VENDAVAIS. Atencao a novos alertas. Emergencias, ligue 193.",
-      "status": "vigente",
-      "onset": "2026-04-21T12:12:25-03:00",
-      "expires": "2026-04-22T23:55:00-03:00"
-    },
-    {
-      "date": "21/04/2026",
-      "time": "12:09",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:PARA: Alerta MODERADO de CHUVAS INTENSAS hoje (21ABR). Risco de ALAGAMENTOS E VENDAVAIS. Atencao a novos alertas. Emergencias, ligue 193.",
-      "status": "expirado",
-      "onset": "2026-04-21T12:09:28-03:00",
-      "expires": "2026-04-21T23:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 40,
+    "total_alerts": 42,
     "by_nivel": {
       "Alto": 21,
-      "Médio": 12,
-      "Severo": 7
+      "Severo": 11,
+      "Médio": 10
     },
     "by_channel_list": {
-      "Google": 40
+      "Google": 42
     },
     "by_region": {
-      "N": 27,
-      "NE": 6,
+      "N": 32,
       "CO": 5,
+      "NE": 3,
       "S": 1,
       "SE": 1
     }
