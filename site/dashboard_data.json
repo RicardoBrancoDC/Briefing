@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-23T00:49:47.233541-03:00",
-  "source_run_dir": "run_20260423_004927",
+  "generated_at": "2026-04-23T03:19:10.422111-03:00",
+  "source_run_dir": "run_20260423_031849",
   "cards": {
     "vigentes": 15,
-    "ultimas24h": 46,
+    "ultimas24h": 44,
     "autoridadesAtivas": 12,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "01:15",
+      "date": "23/04/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:01h15 Chuva isolada na regiao de Marilia e Garca. Tem vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
+      "status": "vigente"
+    },
     {
       "time": "00:30",
       "date": "23/04/2026",
@@ -30,7 +42,7 @@
       "location": "Nova Olinda do Norte/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Redobre atencao em areas inclinadas. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "19:51",
@@ -55,25 +67,13 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa. Chuva intensa com risco de alagamentos e enxurradas. Em caso de emergencia ligue: 199/193.",
       "status": "expirado"
-    },
-    {
-      "time": "17:22",
-      "date": "22/04/2026",
-      "senderName": "Defesa Civil de Parauapebas (PA)",
-      "senderNameShort": "DC Parauapebas (PA)",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "location": "Parauapebas/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:O Rio Parauapebas atingiu a cota de 9,50m. ALERTA LARANJA para Inundacao. Obtenha mais informacoes junto a Defesa Civil, ligue 190 ou 94992487555.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 26
+      "count": 24
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -83,7 +83,12 @@
     {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
-      "count": 4
+      "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 2
     },
     {
       "name": "Defesa Civil de Salvador (BA)",
@@ -94,11 +99,6 @@
       "name": "Defesa Civil Estadual de Mato Grosso",
       "short_name": "DC Mato Grosso",
       "count": 2
-    },
-    {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 1
     },
     {
       "name": "Defesa Civil de Parauapebas (PA)",
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 11
+      "count": 12
     },
     {
       "label": "Alto",
-      "count": 23
+      "count": 20
     },
     {
       "label": "Severo",
@@ -142,11 +142,11 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 26
+      "count": 25
     },
     {
       "label": "Solo/Lama",
-      "count": 13
+      "count": 12
     },
     {
       "label": "Alagamentos",
@@ -164,7 +164,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 30
+      "count": 27
     },
     {
       "uf": "PA",
@@ -175,12 +175,12 @@
       "count": 4
     },
     {
-      "uf": "MT",
+      "uf": "SP",
       "count": 2
     },
     {
-      "uf": "SP",
-      "count": 1
+      "uf": "MT",
+      "count": 2
     },
     {
       "uf": "PR",
@@ -198,10 +198,23 @@
     },
     {
       "label": "expirado",
-      "count": 31
+      "count": 29
     }
   ],
   "all_alerts": [
+    {
+      "date": "23/04/2026",
+      "time": "01:15",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:01h15 Chuva isolada na regiao de Marilia e Garca. Tem vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
+      "status": "vigente",
+      "onset": "2026-04-23T01:15:55-03:00",
+      "expires": "2026-04-24T03:15:00-03:00"
+    },
     {
       "date": "23/04/2026",
       "time": "00:30",
@@ -224,7 +237,7 @@
       "uf": "AM",
       "location": "Nova Olinda do Norte/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Redobre atencao em areas inclinadas. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T19:59:58-03:00",
       "expires": "2026-04-23T03:00:00-03:00"
     },
@@ -760,64 +773,25 @@
       "status": "expirado",
       "onset": "2026-04-22T04:42:47-03:00",
       "expires": "2026-04-22T07:00:00-03:00"
-    },
-    {
-      "date": "22/04/2026",
-      "time": "02:11",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil: ALERTA de Chuva Intensa (NIVEL ALTO). Evite area de risco com historico de alagamento. Em caso de emergencia ligue 193/199",
-      "status": "expirado",
-      "onset": "2026-04-22T02:11:38-03:00",
-      "expires": "2026-04-22T08:00:00-03:00"
-    },
-    {
-      "date": "22/04/2026",
-      "time": "01:26",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Alvarães/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-22T01:26:09-03:00",
-      "expires": "2026-04-22T08:00:00-03:00"
-    },
-    {
-      "date": "22/04/2026",
-      "time": "01:16",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-22T01:16:55-03:00",
-      "expires": "2026-04-22T05:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 46,
+    "total_alerts": 44,
     "by_nivel": {
-      "Alto": 23,
-      "Médio": 11,
+      "Alto": 20,
+      "Médio": 12,
       "Severo": 11,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 46
+      "Google": 44
     },
     "by_region": {
-      "N": 38,
+      "N": 35,
       "NE": 4,
       "CO": 2,
-      "S": 1,
-      "SE": 1
+      "SE": 2,
+      "S": 1
     }
   }
 }
