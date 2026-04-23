@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-04-23T06:59:30.063566-03:00",
-  "source_run_dir": "run_20260423_065917",
+  "generated_at": "2026-04-23T08:34:36.008866-03:00",
+  "source_run_dir": "run_20260423_083423",
   "cards": {
-    "vigentes": 15,
-    "ultimas24h": 41,
+    "vigentes": 17,
+    "ultimas24h": 42,
     "autoridadesAtivas": 12,
-    "alertasExtremos": 1
+    "alertasExtremos": 2
   },
   "latest_alerts": [
+    {
+      "time": "08:11",
+      "date": "23/04/2026",
+      "senderName": "Defesa Civil de Salvador (BA)",
+      "senderNameShort": "DC Salvador (BA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Extremo",
+      "location": "Salvador/BA",
+      "uf": "BA",
+      "headline": "Defesa Civil: Alerta de continuidade de chuvas moderadas a fortes, risco para alagamento e deslizamento de terra. Emergencia, disque 199. CODESAL.",
+      "status": "vigente"
+    },
+    {
+      "time": "07:07",
+      "date": "23/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "01:15",
       "date": "23/04/2026",
@@ -43,30 +67,6 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Redobre atencao em areas inclinadas. Siga as orientacoes da defesa civil local.",
       "status": "expirado"
-    },
-    {
-      "time": "19:51",
-      "date": "22/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "19:14",
-      "date": "22/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa. Chuva intensa com risco de alagamentos e enxurradas. Em caso de emergencia ligue: 199/193.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -81,6 +81,11 @@
       "count": 5
     },
     {
+      "name": "Defesa Civil de Salvador (BA)",
+      "short_name": "DC Salvador (BA)",
+      "count": 3
+    },
+    {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
       "count": 3
@@ -88,11 +93,6 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil de Salvador (BA)",
-      "short_name": "DC Salvador (BA)",
       "count": 2
     },
     {
@@ -136,17 +136,17 @@
     },
     {
       "label": "Extremo",
-      "count": 1
+      "count": 2
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 22
+      "count": 24
     },
     {
       "label": "Solo/Lama",
-      "count": 12
+      "count": 11
     },
     {
       "label": "Alagamentos",
@@ -172,7 +172,7 @@
     },
     {
       "uf": "BA",
-      "count": 4
+      "count": 5
     },
     {
       "uf": "SP",
@@ -194,14 +194,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 15
+      "count": 17
     },
     {
       "label": "expirado",
-      "count": 26
+      "count": 25
     }
   ],
   "all_alerts": [
+    {
+      "date": "23/04/2026",
+      "time": "08:11",
+      "senderName": "Defesa Civil de Salvador (BA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Extremo",
+      "uf": "BA",
+      "location": "Salvador/BA",
+      "headline": "Defesa Civil: Alerta de continuidade de chuvas moderadas a fortes, risco para alagamento e deslizamento de terra. Emergencia, disque 199. CODESAL.",
+      "status": "vigente",
+      "onset": "2026-04-23T08:11:51-03:00",
+      "expires": "2026-04-24T10:00:00-03:00"
+    },
+    {
+      "date": "23/04/2026",
+      "time": "07:07",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-23T07:07:57-03:00",
+      "expires": "2026-04-23T11:30:00-03:00"
+    },
     {
       "date": "23/04/2026",
       "time": "01:15",
@@ -721,35 +747,22 @@
       "status": "expirado",
       "onset": "2026-04-22T08:41:12-03:00",
       "expires": "2026-04-22T13:00:00-03:00"
-    },
-    {
-      "date": "22/04/2026",
-      "time": "07:56",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaquiri/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-22T07:56:57-03:00",
-      "expires": "2026-04-22T15:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 41,
+    "total_alerts": 42,
     "by_nivel": {
       "Alto": 18,
       "Médio": 12,
       "Severo": 10,
-      "Extremo": 1
+      "Extremo": 2
     },
     "by_channel_list": {
-      "Google": 41
+      "Google": 42
     },
     "by_region": {
       "N": 32,
-      "NE": 4,
+      "NE": 5,
       "CO": 2,
       "SE": 2,
       "S": 1
