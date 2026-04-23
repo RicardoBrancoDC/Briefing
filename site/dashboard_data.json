@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-22T20:09:34.016637-03:00",
-  "source_run_dir": "run_20260422_200859",
+  "generated_at": "2026-04-23T00:49:47.233541-03:00",
+  "source_run_dir": "run_20260423_004927",
   "cards": {
-    "vigentes": 22,
+    "vigentes": 15,
     "ultimas24h": 46,
-    "autoridadesAtivas": 11,
+    "autoridadesAtivas": 12,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "00:30",
+      "date": "23/04/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:00h30 Chuva isolada na regiao de Regente Feijo e Martinopolis. Tem vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
+      "status": "vigente"
+    },
     {
       "time": "19:59",
       "date": "22/04/2026",
@@ -30,7 +42,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "19:14",
@@ -42,7 +54,7 @@
       "location": "Manaus/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa. Chuva intensa com risco de alagamentos e enxurradas. Em caso de emergencia ligue: 199/193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:22",
@@ -54,18 +66,6 @@
       "location": "Parauapebas/PA",
       "uf": "PA",
       "headline": "Defesa Civil:O Rio Parauapebas atingiu a cota de 9,50m. ALERTA LARANJA para Inundacao. Obtenha mais informacoes junto a Defesa Civil, ligue 190 ou 94992487555.",
-      "status": "vigente"
-    },
-    {
-      "time": "16:46",
-      "date": "22/04/2026",
-      "senderName": "DEFESA CIVIL DE POJUCA (BA)",
-      "senderNameShort": "DC POJUCA (BA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Pojuca/BA",
-      "uf": "BA",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Pojuca/BA.Em caso de Emergencia ligue para (71) 9 9694 - 4312.",
       "status": "vigente"
     }
   ],
@@ -86,14 +86,19 @@
       "count": 4
     },
     {
-      "name": "Defesa Civil Estadual de Mato Grosso",
-      "short_name": "DC Mato Grosso",
-      "count": 3
-    },
-    {
       "name": "Defesa Civil de Salvador (BA)",
       "short_name": "DC Salvador (BA)",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual de Mato Grosso",
+      "short_name": "DC Mato Grosso",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Parauapebas (PA)",
@@ -114,17 +119,12 @@
       "name": "Defesa Civil Estadual da Bahia",
       "short_name": "DC Bahia",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Rondônia",
-      "short_name": "DC Rondônia",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 10
+      "count": 11
     },
     {
       "label": "Alto",
@@ -132,7 +132,7 @@
     },
     {
       "label": "Severo",
-      "count": 12
+      "count": 11
     },
     {
       "label": "Extremo",
@@ -176,7 +176,11 @@
     },
     {
       "uf": "MT",
-      "count": 3
+      "count": 2
+    },
+    {
+      "uf": "SP",
+      "count": 1
     },
     {
       "uf": "PR",
@@ -190,14 +194,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 22
+      "count": 15
     },
     {
       "label": "expirado",
-      "count": 24
+      "count": 31
     }
   ],
   "all_alerts": [
+    {
+      "date": "23/04/2026",
+      "time": "00:30",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:00h30 Chuva isolada na regiao de Regente Feijo e Martinopolis. Tem vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
+      "status": "vigente",
+      "onset": "2026-04-23T00:30:19-03:00",
+      "expires": "2026-04-24T00:30:00-03:00"
+    },
     {
       "date": "22/04/2026",
       "time": "19:59",
@@ -220,7 +237,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T19:51:59-03:00",
       "expires": "2026-04-22T23:00:00-03:00"
     },
@@ -233,7 +250,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa. Chuva intensa com risco de alagamentos e enxurradas. Em caso de emergencia ligue: 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T19:14:25-03:00",
       "expires": "2026-04-22T23:00:00-03:00"
     },
@@ -272,7 +289,7 @@
       "uf": "AM",
       "location": "Careiro da Várzea/AM, Careiro/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T16:46:10-03:00",
       "expires": "2026-04-22T20:30:00-03:00"
     },
@@ -285,7 +302,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T16:33:09-03:00",
       "expires": "2026-04-22T20:30:00-03:00"
     },
@@ -311,7 +328,7 @@
       "uf": "AM",
       "location": "Presidente Figueiredo/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T16:22:11-03:00",
       "expires": "2026-04-22T23:00:00-03:00"
     },
@@ -337,7 +354,7 @@
       "uf": "AM",
       "location": "Presidente Figueiredo/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite encostas e acompanhe atualizacoes. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T14:23:00-03:00",
       "expires": "2026-04-22T21:00:00-03:00"
     },
@@ -389,7 +406,7 @@
       "uf": "AM",
       "location": "Manacapuru/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T12:39:06-03:00",
       "expires": "2026-04-22T23:00:00-03:00"
     },
@@ -662,7 +679,7 @@
       "uf": "PA",
       "location": "Belém/PA",
       "headline": "Defesa Civil:SUMDEC: REGIAO METROPOLITANA DE BELEM, Alertas de chuvas e raios MODERADO para hoje 22ABR. Risco de alagamentos e destelhamentos. Atencao!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-22T09:38:17-03:00",
       "expires": "2026-04-22T23:55:00-03:00"
     },
@@ -782,27 +799,14 @@
       "status": "expirado",
       "onset": "2026-04-22T01:16:55-03:00",
       "expires": "2026-04-22T05:00:00-03:00"
-    },
-    {
-      "date": "21/04/2026",
-      "time": "20:21",
-      "senderName": "Defesa Civil Estadual de Mato Grosso",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "MT",
-      "location": "Jauru/MT",
-      "headline": "Defesa Civil:ESTADUAL: Chuvas intensas com pontos de alagamento e enxurradas. Evite areas de risco. Abrigue-se em local seguro.Emergencia ligue: 193.",
-      "status": "expirado",
-      "onset": "2026-04-21T20:21:32-03:00",
-      "expires": "2026-04-21T20:20:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 46,
     "by_nivel": {
       "Alto": 23,
-      "Severo": 12,
-      "Médio": 10,
+      "Médio": 11,
+      "Severo": 11,
       "Extremo": 1
     },
     "by_channel_list": {
@@ -811,8 +815,9 @@
     "by_region": {
       "N": 38,
       "NE": 4,
-      "CO": 3,
-      "S": 1
+      "CO": 2,
+      "S": 1,
+      "SE": 1
     }
   }
 }
