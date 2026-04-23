@@ -1,27 +1,51 @@
 {
-  "generated_at": "2026-04-23T11:15:01.097863-03:00",
-  "source_run_dir": "run_20260423_111446",
+  "generated_at": "2026-04-23T13:13:07.879377-03:00",
+  "source_run_dir": "run_20260423_131249",
   "cards": {
     "vigentes": 12,
-    "ultimas24h": 30,
-    "autoridadesAtivas": 10,
-    "alertasExtremos": 2
+    "ultimas24h": 26,
+    "autoridadesAtivas": 11,
+    "alertasExtremos": 1
   },
   "latest_alerts": [
     {
-      "time": "11:01",
+      "time": "12:27",
       "date": "23/04/2026",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "senderNameShort": "DC Maranhão",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS:Alerta LARANJA. Condicao de ALERTA p/ tempestade, vento, granizo. Risco ALTO de destelhamento. Val. ate 14h. Mantenha-se seguro. Emerg. 190/193",
+      "status": "vigente"
+    },
+    {
+      "time": "12:22",
+      "date": "23/04/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade, vento, granizo. Risco ALTO de destelhamento. Val. ate 14h. Mantenha-se seguro. Emerg.190/193",
+      "status": "vigente"
+    },
+    {
+      "time": "11:48",
+      "date": "23/04/2026",
+      "senderName": "Defesa Civil de João Pessoa (PB)",
+      "senderNameShort": "DC João Pessoa (PB)",
       "event": "Chuvas Intensas",
       "nivel": "Alto",
-      "location": "MARANHÃO-MA",
-      "uf": "MA",
-      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193. Valido ate dia 24/04/2026 as 10h.",
+      "location": "João Pessoa/PB",
+      "uf": "PB",
+      "headline": "Defesa Civil:Chuvas intensas e ventos fortes para Joao Pessoa. Risco de alagamentos (Inmet). Fique atento. Emergencia ligue 199 ou 98831-6885 (WhatsApp).",
       "status": "vigente"
     },
     {
-      "time": "10:50",
+      "time": "11:29",
       "date": "23/04/2026",
       "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
       "senderNameShort": "DC Rio Grande do Sul",
@@ -29,11 +53,11 @@
       "nivel": "Alto",
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade, vento, granizo. Risco ALTO de destelhamento. Val ate 13h. Mantenha-se seguro. Emerg. 190/193",
-      "status": "vigente"
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade, vento, granizo. Risco ALTO de  ate 13h. Mantenha-se seguro. Emerg. 190/193",
+      "status": "expirado"
     },
     {
-      "time": "10:00",
+      "time": "11:25",
       "date": "23/04/2026",
       "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
       "senderNameShort": "DC Rio Grande do Sul",
@@ -41,31 +65,7 @@
       "nivel": "Alto",
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade, vento, granizo. Risco ALTO de destelhamento. Val. ate 12h. Mantenha-se seguro. Emerg.190/193",
-      "status": "vigente"
-    },
-    {
-      "time": "09:18",
-      "date": "23/04/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARÁ/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (23ABR). Risco de ALAGAMENTOS E VENDAVAIS. Atencao a novos alertas. Emergencias, ligue 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "08:51",
-      "date": "23/04/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "location": "RIO GRANDE DO SUL/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade, vento, granizo. Risco ALTO de alagamentos e destelhamento. Val. ate 11h. Mantenha-se seguro",
+      "headline": "Defesa Civil:RS:Alerta LARANJA. Condicao de ALERTA p/ tempestade, vento, granizo. Risco ALTO de destelhamento. Val. ate 13h. Mantenha-se seguro. Emerg. 190/193",
       "status": "expirado"
     }
   ],
@@ -73,17 +73,17 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 15
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 3
+      "count": 7
     },
     {
       "name": "Defesa Civil de Salvador (BA)",
       "short_name": "DC Salvador (BA)",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -91,9 +91,14 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 2
+      "name": "Defesa Civil de João Pessoa (PB)",
+      "short_name": "DC João Pessoa (PB)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Dias D Avila (BA)",
+      "short_name": "DC Dias D Avila (BA)",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Maranhão",
@@ -114,69 +119,60 @@
       "name": "DEFESA CIVIL DE POJUCA (BA)",
       "short_name": "DC POJUCA (BA)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 7
-    },
-    {
-      "label": "Alto",
-      "count": 15
-    },
-    {
-      "label": "Severo",
       "count": 6
     },
     {
-      "label": "Extremo",
+      "label": "Alto",
+      "count": 17
+    },
+    {
+      "label": "Severo",
       "count": 2
+    },
+    {
+      "label": "Extremo",
+      "count": 1
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 15
-    },
-    {
-      "label": "Solo/Lama",
-      "count": 7
+      "count": 14
     },
     {
       "label": "Granizo",
+      "count": 7
+    },
+    {
+      "label": "Solo/Lama",
       "count": 3
     },
     {
       "label": "Alagamentos",
-      "count": 3
-    },
-    {
-      "label": "Inundações",
       "count": 1
     },
     {
-      "label": "Deslizamentos",
+      "label": "Inundações",
       "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 17
+      "count": 8
+    },
+    {
+      "uf": "RS",
+      "count": 7
     },
     {
       "uf": "BA",
       "count": 4
-    },
-    {
-      "uf": "RS",
-      "count": 3
     },
     {
       "uf": "PA",
@@ -185,6 +181,10 @@
     {
       "uf": "SP",
       "count": 2
+    },
+    {
+      "uf": "PB",
+      "count": 1
     },
     {
       "uf": "MA",
@@ -202,10 +202,88 @@
     },
     {
       "label": "expirado",
-      "count": 18
+      "count": 14
     }
   ],
   "all_alerts": [
+    {
+      "date": "23/04/2026",
+      "time": "12:27",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS:Alerta LARANJA. Condicao de ALERTA p/ tempestade, vento, granizo. Risco ALTO de destelhamento. Val. ate 14h. Mantenha-se seguro. Emerg. 190/193",
+      "status": "vigente",
+      "onset": "2026-04-23T12:27:14-03:00",
+      "expires": "2026-04-23T14:00:00-03:00"
+    },
+    {
+      "date": "23/04/2026",
+      "time": "12:22",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade, vento, granizo. Risco ALTO de destelhamento. Val. ate 14h. Mantenha-se seguro. Emerg.190/193",
+      "status": "vigente",
+      "onset": "2026-04-23T12:22:12-03:00",
+      "expires": "2026-04-23T14:00:00-03:00"
+    },
+    {
+      "date": "23/04/2026",
+      "time": "11:48",
+      "senderName": "Defesa Civil de João Pessoa (PB)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PB",
+      "location": "João Pessoa/PB",
+      "headline": "Defesa Civil:Chuvas intensas e ventos fortes para Joao Pessoa. Risco de alagamentos (Inmet). Fique atento. Emergencia ligue 199 ou 98831-6885 (WhatsApp).",
+      "status": "vigente",
+      "onset": "2026-04-23T11:48:26-03:00",
+      "expires": "2026-04-24T23:59:00-03:00"
+    },
+    {
+      "date": "23/04/2026",
+      "time": "11:29",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade, vento, granizo. Risco ALTO de  ate 13h. Mantenha-se seguro. Emerg. 190/193",
+      "status": "expirado",
+      "onset": "2026-04-23T11:29:23-03:00",
+      "expires": "2026-04-23T13:00:00-03:00"
+    },
+    {
+      "date": "23/04/2026",
+      "time": "11:25",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS:Alerta LARANJA. Condicao de ALERTA p/ tempestade, vento, granizo. Risco ALTO de destelhamento. Val. ate 13h. Mantenha-se seguro. Emerg. 190/193",
+      "status": "expirado",
+      "onset": "2026-04-23T11:25:54-03:00",
+      "expires": "2026-04-23T13:00:00-03:00"
+    },
+    {
+      "date": "23/04/2026",
+      "time": "11:16",
+      "senderName": "Defesa Civil de Dias D Avila (BA)",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "uf": "BA",
+      "location": "Dias d'Ávila/BA",
+      "headline": "Defesa Civil:Alerta para acumulo de chuva em Dias dAvila. Comunidade do Imbassay, Bota Fogo e Varginha, manter atencao para possibilidade de alagamento.",
+      "status": "vigente",
+      "onset": "2026-04-23T11:16:48-03:00",
+      "expires": "2026-04-24T11:00:00-03:00"
+    },
     {
       "date": "23/04/2026",
       "time": "11:01",
@@ -228,7 +306,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade, vento, granizo. Risco ALTO de destelhamento. Val ate 13h. Mantenha-se seguro. Emerg. 190/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-23T10:50:00-03:00",
       "expires": "2026-04-23T13:00:00-03:00"
     },
@@ -241,7 +319,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade, vento, granizo. Risco ALTO de destelhamento. Val. ate 12h. Mantenha-se seguro. Emerg.190/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-23T10:00:40-03:00",
       "expires": "2026-04-23T12:00:00-03:00"
     },
@@ -293,7 +371,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-23T07:07:57-03:00",
       "expires": "2026-04-23T11:30:00-03:00"
     },
@@ -465,153 +543,23 @@
       "status": "expirado",
       "onset": "2026-04-22T14:23:00-03:00",
       "expires": "2026-04-22T21:00:00-03:00"
-    },
-    {
-      "date": "22/04/2026",
-      "time": "12:58",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Novo Aripuanã/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-22T12:58:29-03:00",
-      "expires": "2026-04-22T19:00:00-03:00"
-    },
-    {
-      "date": "22/04/2026",
-      "time": "12:48",
-      "senderName": "Defesa Civil de Salvador (BA)",
-      "event": "Deslizamentos",
-      "nivel": "Extremo",
-      "uf": "BA",
-      "location": "Salvador/BA",
-      "headline": "Defesa Civil: Alerta de chuvas moderadas a fortes, com risco para alagamento e deslizamento de terra. Emergencia, disque 199. CODESAL",
-      "status": "vigente",
-      "onset": "2026-04-22T12:48:56-03:00",
-      "expires": "2026-04-25T12:00:00-03:00"
-    },
-    {
-      "date": "22/04/2026",
-      "time": "12:43",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Caapiranga/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa. Chuva intensa com risco de alagamentos e enxurradas. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-22T12:43:52-03:00",
-      "expires": "2026-04-22T18:00:00-03:00"
-    },
-    {
-      "date": "22/04/2026",
-      "time": "12:39",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Manacapuru/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-22T12:39:06-03:00",
-      "expires": "2026-04-22T23:00:00-03:00"
-    },
-    {
-      "date": "22/04/2026",
-      "time": "12:29",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Evite encostas e areas de risco. Saia de areas de encosta. Em caso de emergencia ligue: 199/193.",
-      "status": "expirado",
-      "onset": "2026-04-22T12:29:13-03:00",
-      "expires": "2026-04-22T19:00:00-03:00"
-    },
-    {
-      "date": "22/04/2026",
-      "time": "12:15",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.",
-      "status": "expirado",
-      "onset": "2026-04-22T12:15:04-03:00",
-      "expires": "2026-04-22T19:00:00-03:00"
-    },
-    {
-      "date": "22/04/2026",
-      "time": "12:11",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-22T12:11:49-03:00",
-      "expires": "2026-04-22T19:00:00-03:00"
-    },
-    {
-      "date": "22/04/2026",
-      "time": "12:00",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manacapuru/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Evite ruas alagadas. Evite areas alagadas e fique em local seguro. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-22T12:00:22-03:00",
-      "expires": "2026-04-22T19:00:00-03:00"
-    },
-    {
-      "date": "22/04/2026",
-      "time": "11:49",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Careiro da Várzea/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Atencao para pontos de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-22T11:49:26-03:00",
-      "expires": "2026-04-22T19:00:00-03:00"
-    },
-    {
-      "date": "22/04/2026",
-      "time": "11:27",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Iranduba/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-22T11:27:15-03:00",
-      "expires": "2026-04-22T19:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 30,
+    "total_alerts": 26,
     "by_nivel": {
-      "Alto": 15,
-      "Médio": 7,
-      "Severo": 6,
-      "Extremo": 2
+      "Alto": 17,
+      "Médio": 6,
+      "Severo": 2,
+      "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 30
+      "Google": 26
     },
     "by_region": {
-      "N": 19,
-      "NE": 5,
-      "S": 4,
+      "N": 10,
+      "S": 8,
+      "NE": 6,
       "SE": 2
     }
   }
