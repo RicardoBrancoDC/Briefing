@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-04-24T06:57:10.657535-03:00",
-  "source_run_dir": "run_20260424_065648",
+  "generated_at": "2026-04-24T08:33:10.890654-03:00",
+  "source_run_dir": "run_20260424_083252",
   "cards": {
-    "vigentes": 20,
-    "ultimas24h": 45,
-    "autoridadesAtivas": 17,
-    "alertasExtremos": 2
+    "vigentes": 18,
+    "ultimas24h": 43,
+    "autoridadesAtivas": 16,
+    "alertasExtremos": 1
   },
   "latest_alerts": [
     {
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 9
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual de Pernambuco",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Alto",
-      "count": 27
+      "count": 26
     },
     {
       "label": "Severo",
@@ -136,13 +136,13 @@
     },
     {
       "label": "Extremo",
-      "count": 2
+      "count": 1
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 28
+      "count": 26
     },
     {
       "label": "Granizo",
@@ -172,7 +172,7 @@
     },
     {
       "uf": "AM",
-      "count": 11
+      "count": 10
     },
     {
       "uf": "RS",
@@ -187,15 +187,15 @@
       "count": 4
     },
     {
-      "uf": "BA",
-      "count": 2
-    },
-    {
       "uf": "PR",
       "count": 1
     },
     {
       "uf": "PB",
+      "count": 1
+    },
+    {
+      "uf": "BA",
       "count": 1
     },
     {
@@ -206,7 +206,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 20
+      "count": 18
     },
     {
       "label": "expirado",
@@ -496,7 +496,7 @@
       "uf": "PE",
       "location": "Ipojuca/PE",
       "headline": "Defesa Civil:Alerta para chuvas moderada hoje 23/04, podendo se estender ate amanha 24/04. Duvidas:Tel.:0800-281-0620/0800-856-3737/99231-8607.Plantao 24h.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-23T15:03:04-03:00",
       "expires": "2026-04-24T08:00:00-03:00"
     },
@@ -772,48 +772,22 @@
       "status": "expirado",
       "onset": "2026-04-23T08:51:46-03:00",
       "expires": "2026-04-23T11:00:00-03:00"
-    },
-    {
-      "date": "23/04/2026",
-      "time": "08:11",
-      "senderName": "Defesa Civil de Salvador (BA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Extremo",
-      "uf": "BA",
-      "location": "Salvador/BA",
-      "headline": "Defesa Civil: Alerta de continuidade de chuvas moderadas a fortes, risco para alagamento e deslizamento de terra. Emergencia, disque 199. CODESAL.",
-      "status": "vigente",
-      "onset": "2026-04-23T08:11:51-03:00",
-      "expires": "2026-04-24T10:00:00-03:00"
-    },
-    {
-      "date": "23/04/2026",
-      "time": "07:07",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-23T07:07:57-03:00",
-      "expires": "2026-04-23T11:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 45,
+    "total_alerts": 43,
     "by_nivel": {
-      "Alto": 27,
+      "Alto": 26,
       "Médio": 13,
       "Severo": 3,
-      "Extremo": 2
+      "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 45
+      "Google": 43
     },
     "by_region": {
-      "NE": 21,
-      "N": 15,
+      "NE": 20,
+      "N": 14,
       "S": 9
     }
   }
