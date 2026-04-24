@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-24T12:40:53.629949-03:00",
-  "source_run_dir": "run_20260424_124021",
+  "generated_at": "2026-04-24T14:16:17.713201-03:00",
+  "source_run_dir": "run_20260424_141542",
   "cards": {
-    "vigentes": 26,
-    "ultimas24h": 45,
+    "vigentes": 18,
+    "ultimas24h": 40,
     "autoridadesAtivas": 16,
     "alertasExtremos": 2
   },
   "latest_alerts": [
+    {
+      "time": "14:10",
+      "date": "24/04/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Inundações",
+      "nivel": "Médio",
+      "location": "Belém/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:MOSQUEIRO: Alerta moderado de mare alta em 24/04 as 15:12 (3,14 m). Risco de inundacao em areas ribeirinhas e baixas. Fique atento e prepare-se.",
+      "status": "vigente"
+    },
     {
       "time": "12:08",
       "date": "24/04/2026",
@@ -55,18 +67,6 @@
       "uf": "MT",
       "headline": "Defesa Civil:MT. Previsao de Chuva ate 60mm/h, ventos de 60-100km/h. Riscos de queda de galhos de arvores, alagamentos, descargas eletricas. Ligue: 193/199.",
       "status": "vigente"
-    },
-    {
-      "time": "11:09",
-      "date": "24/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -76,29 +76,24 @@
       "count": 13
     },
     {
-      "name": "Defesa Civil Estadual de Pernambuco",
-      "short_name": "DC Pernambuco",
-      "count": 8
-    },
-    {
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
-      "count": 6
+      "count": 5
+    },
+    {
+      "name": "Defesa Civil Estadual de Pernambuco",
+      "short_name": "DC Pernambuco",
+      "count": 4
+    },
+    {
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
+      "count": 3
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
       "count": 3
-    },
-    {
-      "name": "Defesa Civil de Belém (PA)",
-      "short_name": "DC Belém (PA)",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
-      "count": 2
     },
     {
       "name": "Defesa Civil de Jaboatao dos Guararapes (PE)",
@@ -119,16 +114,21 @@
       "name": "Defesa Civil Estadual do Rio Grande do Norte",
       "short_name": "DC Rio Grande do Norte",
       "count": 1
+    },
+    {
+      "name": "Defesa Civil de Belém (PA)",
+      "short_name": "DC Belém (PA)",
+      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 17
+      "count": 14
     },
     {
       "label": "Alto",
-      "count": 22
+      "count": 20
     },
     {
       "label": "Severo",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 33
+      "count": 28
     },
     {
       "label": "Solo/Lama",
@@ -153,15 +153,15 @@
       "count": 4
     },
     {
+      "label": "Inundações",
+      "count": 1
+    },
+    {
       "label": "Incêndios Em Parques, Áreas De Proteção Ambiental E Áreas De Preservação Permanente Nacionais, Estaduais Ou Municipais",
       "count": 1
     },
     {
       "label": "Deslizamentos",
-      "count": 1
-    },
-    {
-      "label": "Infestações De Animais",
       "count": 1
     },
     {
@@ -176,14 +176,14 @@
     },
     {
       "uf": "PE",
-      "count": 13
-    },
-    {
-      "uf": "PI",
-      "count": 6
+      "count": 9
     },
     {
       "uf": "PA",
+      "count": 5
+    },
+    {
+      "uf": "PI",
       "count": 5
     },
     {
@@ -199,25 +199,38 @@
       "count": 1
     },
     {
-      "uf": "PR",
+      "uf": "MA",
       "count": 1
     },
     {
-      "uf": "RS",
+      "uf": "PR",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 26
+      "count": 18
     },
     {
       "label": "expirado",
-      "count": 19
+      "count": 22
     }
   ],
   "all_alerts": [
+    {
+      "date": "24/04/2026",
+      "time": "14:10",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Inundações",
+      "nivel": "Médio",
+      "uf": "PA",
+      "location": "Belém/PA",
+      "headline": "Defesa Civil:MOSQUEIRO: Alerta moderado de mare alta em 24/04 as 15:12 (3,14 m). Risco de inundacao em areas ribeirinhas e baixas. Fique atento e prepare-se.",
+      "status": "vigente",
+      "onset": "2026-04-24T14:10:00-03:00",
+      "expires": "2026-04-24T22:10:00-03:00"
+    },
     {
       "date": "24/04/2026",
       "time": "12:08",
@@ -337,6 +350,19 @@
     },
     {
       "date": "24/04/2026",
+      "time": "10:01",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MA",
+      "location": "MARANHÃO-MA",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas para MARANHAO/MA. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Em caso d",
+      "status": "vigente",
+      "onset": "2026-04-24T10:01:00-03:00",
+      "expires": "2026-04-24T23:55:00-03:00"
+    },
+    {
+      "date": "24/04/2026",
       "time": "09:48",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "event": "Chuvas Intensas",
@@ -357,7 +383,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-24T09:44:06-03:00",
       "expires": "2026-04-24T14:00:00-03:00"
     },
@@ -461,7 +487,7 @@
       "uf": "PE",
       "location": "PERNAMBUCO/PE",
       "headline": "Defesa Civil:PE: MATA SUL. ALERTA continuidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-23T21:46:38-03:00",
       "expires": "2026-04-24T13:00:00-03:00"
     },
@@ -474,7 +500,7 @@
       "uf": "PE",
       "location": "PERNAMBUCO/PE",
       "headline": "Defesa Civil:PE: MATA NORTE. ALERTA continuidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-23T21:40:18-03:00",
       "expires": "2026-04-24T13:00:00-03:00"
     },
@@ -487,7 +513,7 @@
       "uf": "PE",
       "location": "PERNAMBUCO/PE",
       "headline": "Defesa Civil:PE: RMR. ALERTA continuidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-23T21:33:44-03:00",
       "expires": "2026-04-24T13:00:00-03:00"
     },
@@ -500,7 +526,7 @@
       "uf": "PE",
       "location": "Fernando de Noronha/PE",
       "headline": "Defesa Civil:PE: FERNANDO DE NORONHA. ALERTA continuidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-23T21:31:42-03:00",
       "expires": "2026-04-24T13:00:00-03:00"
     },
@@ -539,7 +565,7 @@
       "uf": "PE",
       "location": "Olinda/PE",
       "headline": "Defesa Civil:Chuvas moderadas a forte ao longe desta quinta feira(23/04) e ao longo da sexta feira (24/04). Siga a orientacao da Defesa Civil 08000810060",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-23T19:38:21-03:00",
       "expires": "2026-04-24T13:00:00-03:00"
     },
@@ -711,115 +737,24 @@
       "status": "expirado",
       "onset": "2026-04-23T14:31:34-03:00",
       "expires": "2026-04-23T17:00:00-03:00"
-    },
-    {
-      "date": "23/04/2026",
-      "time": "14:04",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PI",
-      "location": "PIAUÍ/PI",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas. Evite trafegar em areas de alagamentos ou pontos de enxurradas/inundacoes. Em caso de emergencia ligue 190 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-23T14:04:15-03:00",
-      "expires": "2026-04-23T23:00:00-03:00"
-    },
-    {
-      "date": "23/04/2026",
-      "time": "14:02",
-      "senderName": "Defesa Civil de Belém (PA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Belém/PA",
-      "headline": "Defesa Civil:SUMDEC: REGIAO METROPOLITANA DE BELEM, Alertas de chuvas e raios INTENSOS para hoje 23ABR. Risco de alagamentos e destelhamentos. Atencao!",
-      "status": "expirado",
-      "onset": "2026-04-23T14:02:45-03:00",
-      "expires": "2026-04-23T23:55:00-03:00"
-    },
-    {
-      "date": "23/04/2026",
-      "time": "13:34",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: MATA SUL. ALERTA possibilidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se.",
-      "status": "vigente",
-      "onset": "2026-04-23T13:34:33-03:00",
-      "expires": "2026-04-24T13:00:00-03:00"
-    },
-    {
-      "date": "23/04/2026",
-      "time": "13:27",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: MATA NORTE. ALERTA possibilidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se.",
-      "status": "vigente",
-      "onset": "2026-04-23T13:27:17-03:00",
-      "expires": "2026-04-24T13:00:00-03:00"
-    },
-    {
-      "date": "23/04/2026",
-      "time": "13:23",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: RMR. ALERTA possibilidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se.",
-      "status": "vigente",
-      "onset": "2026-04-23T13:23:47-03:00",
-      "expires": "2026-04-24T13:00:00-03:00"
-    },
-    {
-      "date": "23/04/2026",
-      "time": "13:18",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Fernando de Noronha/PE",
-      "headline": "Defesa Civil:PE: FERNANDO DE NORONHA. ALERTA possibilidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se.",
-      "status": "vigente",
-      "onset": "2026-04-23T13:18:37-03:00",
-      "expires": "2026-04-24T13:00:00-03:00"
-    },
-    {
-      "date": "23/04/2026",
-      "time": "13:15",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade, vento, granizo. Risco ALTO de destelhamento. Val. ate 15h. Mantenha-se seguro. Emerg.190/193",
-      "status": "expirado",
-      "onset": "2026-04-23T13:15:54-03:00",
-      "expires": "2026-04-23T15:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 45,
+    "total_alerts": 40,
     "by_nivel": {
-      "Alto": 22,
-      "Médio": 17,
+      "Alto": 20,
+      "Médio": 14,
       "Severo": 4,
       "Extremo": 2
     },
     "by_channel_list": {
-      "Google": 45
+      "Google": 40
     },
     "by_region": {
       "N": 21,
-      "NE": 20,
-      "S": 2,
+      "NE": 16,
       "CO": 1,
+      "S": 1,
       "SE": 1
     }
   }
