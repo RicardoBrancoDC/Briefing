@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-24T18:09:49.238551-03:00",
-  "source_run_dir": "run_20260424_180909",
+  "generated_at": "2026-04-24T20:02:00.482353-03:00",
+  "source_run_dir": "run_20260424_200121",
   "cards": {
-    "vigentes": 23,
-    "ultimas24h": 39,
-    "autoridadesAtivas": 15,
+    "vigentes": 20,
+    "ultimas24h": 35,
+    "autoridadesAtivas": 13,
     "alertasExtremos": 1
   },
   "latest_alerts": [
@@ -30,7 +30,7 @@
       "location": "Rio Branco/AC",
       "uf": "AC",
       "headline": "Defesa Civil:Alerta de Alagamentos para Rio Branco/AC. Siga as orientacoes da defesa civil local e do plano de contingencia  caso de emergencia.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:26",
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 15
+      "count": 13
     },
     {
       "name": "Defesa Civil Estadual de Pernambuco",
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 12
+      "count": 10
     },
     {
       "label": "Alto",
@@ -132,7 +132,7 @@
     },
     {
       "label": "Severo",
-      "count": 4
+      "count": 2
     },
     {
       "label": "Extremo",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 24
+      "count": 22
     },
     {
       "label": "Inundações",
@@ -154,7 +154,7 @@
     },
     {
       "label": "Alagamentos",
-      "count": 3
+      "count": 2
     },
     {
       "label": "Incêndios Em Parques, Áreas De Proteção Ambiental E Áreas De Preservação Permanente Nacionais, Estaduais Ou Municipais",
@@ -163,20 +163,16 @@
     {
       "label": "Deslizamentos",
       "count": 1
-    },
-    {
-      "label": "Outros",
-      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 16
+      "count": 14
     },
     {
       "uf": "PE",
-      "count": 8
+      "count": 7
     },
     {
       "uf": "PA",
@@ -205,20 +201,16 @@
     {
       "uf": "MA",
       "count": 1
-    },
-    {
-      "uf": "PR",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 23
+      "count": 20
     },
     {
       "label": "expirado",
-      "count": 16
+      "count": 15
     }
   ],
   "all_alerts": [
@@ -244,7 +236,7 @@
       "uf": "AC",
       "location": "Rio Branco/AC",
       "headline": "Defesa Civil:Alerta de Alagamentos para Rio Branco/AC. Siga as orientacoes da defesa civil local e do plano de contingencia  caso de emergencia.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-24T17:37:03-03:00",
       "expires": "2026-04-24T18:30:00-03:00"
     },
@@ -322,7 +314,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-24T14:42:36-03:00",
       "expires": "2026-04-24T19:00:00-03:00"
     },
@@ -673,80 +665,27 @@
       "uf": "PE",
       "location": "Jaboatão dos Guararapes/PE",
       "headline": "ATENÇÃO, população de Jaboatão dos Guararapes, devido a previsão de continuidade de chuvas moderadas a fortes, redobrem os cuidados em áreas próximas aos rios e morros.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-23T20:02:52-03:00",
       "expires": "2026-04-24T19:50:00-03:00"
-    },
-    {
-      "date": "23/04/2026",
-      "time": "19:38",
-      "senderName": "Defesa Civil de Olinda (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Olinda/PE",
-      "headline": "Defesa Civil:Chuvas moderadas a forte ao longe desta quinta feira(23/04) e ao longo da sexta feira (24/04). Siga a orientacao da Defesa Civil 08000810060",
-      "status": "expirado",
-      "onset": "2026-04-23T19:38:21-03:00",
-      "expires": "2026-04-24T13:00:00-03:00"
-    },
-    {
-      "date": "23/04/2026",
-      "time": "18:41",
-      "senderName": "Defesa Civil de Bandeirantes (PR)",
-      "event": "Infestações De Animais",
-      "nivel": "Severo",
-      "uf": "PR",
-      "location": "Bandeirantes/PR",
-      "headline": "Defesa Civil:ALERTA ESCORPIAO /Mantenha quintais limpos/Evite acumulo de entulhos/Vede ralos/Em caso de picada, procure atendimento medico imediatamente.",
-      "status": "expirado",
-      "onset": "2026-04-23T18:41:35-03:00",
-      "expires": "2026-04-23T23:00:00-03:00"
-    },
-    {
-      "date": "23/04/2026",
-      "time": "18:20",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento.   Nao enfrente areas alagadas. Procure local seguro.  Em caso de emergencia ligue: 199/193.",
-      "status": "expirado",
-      "onset": "2026-04-23T18:20:39-03:00",
-      "expires": "2026-04-23T22:10:00-03:00"
-    },
-    {
-      "date": "23/04/2026",
-      "time": "18:12",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-23T18:12:12-03:00",
-      "expires": "2026-04-23T21:40:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 39,
+    "total_alerts": 35,
     "by_nivel": {
       "Alto": 22,
-      "Médio": 12,
-      "Severo": 4,
+      "Médio": 10,
+      "Severo": 2,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 39
+      "Google": 35
     },
     "by_region": {
-      "N": 22,
-      "NE": 13,
+      "N": 20,
+      "NE": 12,
       "SE": 2,
-      "CO": 1,
-      "S": 1
+      "CO": 1
     }
   }
 }
