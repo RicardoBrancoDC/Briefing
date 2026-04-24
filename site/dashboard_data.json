@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-04-24T00:54:29.118424-03:00",
-  "source_run_dir": "run_20260424_005356",
+  "generated_at": "2026-04-24T06:57:10.657535-03:00",
+  "source_run_dir": "run_20260424_065648",
   "cards": {
     "vigentes": 20,
-    "ultimas24h": 43,
-    "autoridadesAtivas": 18,
+    "ultimas24h": 45,
+    "autoridadesAtivas": 17,
     "alertasExtremos": 2
   },
   "latest_alerts": [
+    {
+      "time": "03:15",
+      "date": "24/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "01:17",
+      "date": "24/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "location": "Canutama/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "00:54",
+      "date": "24/04/2026",
+      "senderName": "Defesa Civil Estadual do Piauí",
+      "senderNameShort": "DC Piauí",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PIAUÍ/PI",
+      "uf": "PI",
+      "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS. Previsao de chuvas moderadas a forte ao longo da madrugada e inicio da manha. Em caso de emergencia ligue 190 ou 193.",
+      "status": "expirado"
+    },
     {
       "time": "23:49",
       "date": "23/04/2026",
@@ -18,7 +54,7 @@
       "location": "Canutama/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Evite areas baixas e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "22:16",
@@ -31,45 +67,14 @@
       "uf": "PE",
       "headline": "Defesa Civil:Alerta de Deslizamentos em areas de risco em Manassu,Socorro,Santana,Dois Carneiros,Zumbi,Floriano e Curado em Jaboatao dos Guararapes/PE",
       "status": "vigente"
-    },
-    {
-      "time": "21:46",
-      "date": "23/04/2026",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "senderNameShort": "DC Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PERNAMBUCO/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:PE: MATA SUL. ALERTA continuidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se.",
-      "status": "vigente"
-    },
-    {
-      "time": "21:40",
-      "date": "23/04/2026",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "senderNameShort": "DC Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PERNAMBUCO/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:PE: MATA NORTE. ALERTA continuidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se.",
-      "status": "vigente"
-    },
-    {
-      "time": "21:33",
-      "date": "23/04/2026",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "senderNameShort": "DC Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PERNAMBUCO/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:PE: RMR. ALERTA continuidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 9
+    },
     {
       "name": "Defesa Civil Estadual de Pernambuco",
       "short_name": "DC Pernambuco",
@@ -81,14 +86,9 @@
       "count": 8
     },
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 7
-    },
-    {
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Defesa Civil de Jaboatao dos Guararapes (PE)",
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 14
+      "count": 13
     },
     {
       "label": "Alto",
-      "count": 24
+      "count": 27
     },
     {
       "label": "Severo",
@@ -153,6 +153,10 @@
       "count": 5
     },
     {
+      "label": "Solo/Lama",
+      "count": 2
+    },
+    {
       "label": "Deslizamentos",
       "count": 1
     },
@@ -168,19 +172,19 @@
     },
     {
       "uf": "AM",
-      "count": 9
+      "count": 11
     },
     {
       "uf": "RS",
       "count": 8
     },
     {
-      "uf": "PA",
+      "uf": "PI",
       "count": 4
     },
     {
-      "uf": "PI",
-      "count": 3
+      "uf": "PA",
+      "count": 4
     },
     {
       "uf": "BA",
@@ -197,10 +201,6 @@
     {
       "uf": "MA",
       "count": 1
-    },
-    {
-      "uf": "SP",
-      "count": 1
     }
   ],
   "status_distribution": [
@@ -210,10 +210,49 @@
     },
     {
       "label": "expirado",
-      "count": 23
+      "count": 25
     }
   ],
   "all_alerts": [
+    {
+      "date": "24/04/2026",
+      "time": "03:15",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-24T03:15:53-03:00",
+      "expires": "2026-04-24T09:00:00-03:00"
+    },
+    {
+      "date": "24/04/2026",
+      "time": "01:17",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Canutama/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-24T01:17:52-03:00",
+      "expires": "2026-04-25T08:00:00-03:00"
+    },
+    {
+      "date": "24/04/2026",
+      "time": "00:54",
+      "senderName": "Defesa Civil Estadual do Piauí",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PI",
+      "location": "PIAUÍ/PI",
+      "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS. Previsao de chuvas moderadas a forte ao longo da madrugada e inicio da manha. Em caso de emergencia ligue 190 ou 193.",
+      "status": "expirado",
+      "onset": "2026-04-24T00:54:02-03:00",
+      "expires": "2026-04-24T06:00:00-03:00"
+    },
     {
       "date": "23/04/2026",
       "time": "23:49",
@@ -223,7 +262,7 @@
       "uf": "AM",
       "location": "Canutama/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Evite areas baixas e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-23T23:49:56-03:00",
       "expires": "2026-04-24T04:00:00-03:00"
     },
@@ -759,37 +798,23 @@
       "status": "expirado",
       "onset": "2026-04-23T07:07:57-03:00",
       "expires": "2026-04-23T11:30:00-03:00"
-    },
-    {
-      "date": "23/04/2026",
-      "time": "01:15",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:01h15 Chuva isolada na regiao de Marilia e Garca. Tem vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente",
-      "onset": "2026-04-23T01:15:55-03:00",
-      "expires": "2026-04-24T03:15:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 43,
+    "total_alerts": 45,
     "by_nivel": {
-      "Alto": 24,
-      "Médio": 14,
+      "Alto": 27,
+      "Médio": 13,
       "Severo": 3,
       "Extremo": 2
     },
     "by_channel_list": {
-      "Google": 43
+      "Google": 45
     },
     "by_region": {
-      "NE": 20,
-      "N": 13,
-      "S": 9,
-      "SE": 1
+      "NE": 21,
+      "N": 15,
+      "S": 9
     }
   }
 }
