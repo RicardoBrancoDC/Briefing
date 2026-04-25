@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-04-25T10:41:06.158559-03:00",
-  "source_run_dir": "run_20260425_104049",
+  "generated_at": "2026-04-25T12:04:13.079134-03:00",
+  "source_run_dir": "run_20260425_120350",
   "cards": {
-    "vigentes": 13,
-    "ultimas24h": 29,
-    "autoridadesAtivas": 15,
-    "alertasExtremos": 1
+    "vigentes": 14,
+    "ultimas24h": 26,
+    "autoridadesAtivas": 14,
+    "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "11:52",
+      "date": "25/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "location": "Codajás/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Redobre atencao em areas inclinadas.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "10:48",
+      "date": "25/04/2026",
+      "senderName": "Defesa Civil de Belém (PA)",
+      "senderNameShort": "DC Belém (PA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Belém/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:SUMDEC: REGIAO METROPOLITANA DE BELEM, Alertas de chuvas e raios MODERADO para hoje 25ABR. Risco de alagamentos e destelhamentos. Atencao!",
+      "status": "vigente"
+    },
+    {
+      "time": "10:46",
+      "date": "25/04/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PARÁ/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:ALERTA ALTO para chuvas intensas (25ABR). Acompanhe atualizacoes da Defesa Civil.",
+      "status": "vigente"
+    },
     {
       "time": "10:31",
       "date": "25/04/2026",
@@ -31,42 +67,6 @@
       "uf": "RJ",
       "headline": "Defesa Civil:Niteroi: Aviso de baixa umidade relativa do ar. Inicio: 25/04 sabado 09h. Fim: 27/04 segunda-feira 20h. Em caso de emergencia, ligue 199.",
       "status": "vigente"
-    },
-    {
-      "time": "08:42",
-      "date": "25/04/2026",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "senderNameShort": "DC Maranhão",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MARANHÃO/MA",
-      "uf": "MA",
-      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193. Valido ate dia 25/04/2026 as 23h59min.",
-      "status": "vigente"
-    },
-    {
-      "time": "08:41",
-      "date": "25/04/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARÁ/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:ALERTA ALTO para chuvas intensas (25ABR). Acompanhe atualizacoes da Defesa Civil.",
-      "status": "vigente"
-    },
-    {
-      "time": "08:40",
-      "date": "25/04/2026",
-      "senderName": "Defesa Civil de Teresópolis (RJ)",
-      "senderNameShort": "DC Teresópolis (RJ)",
-      "event": "Incêndios Em Parques, Áreas De Proteção Ambiental E Áreas De Preservação Permanente Nacionais, Estaduais Ou Municipais",
-      "nivel": "Severo",
-      "location": "Teresópolis/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Risco muito alto de incendios florestais, Provocar incendio e crime. Em caso de emergencia ligue 193 ou 0800 202 1066. Defesa Civil de Teresopolis",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -76,24 +76,29 @@
       "count": 6
     },
     {
-      "name": "Defesa Civil Estadual do Piauí",
-      "short_name": "DC Piauí",
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
       "count": 5
     },
     {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
-      "count": 4
-    },
-    {
-      "name": "Defesa Civil Estadual de Mato Grosso",
-      "short_name": "DC Mato Grosso",
-      "count": 2
+      "name": "Defesa Civil Estadual do Piauí",
+      "short_name": "DC Piauí",
+      "count": 3
     },
     {
       "name": "Defesa Civil de Niterói (RJ)",
       "short_name": "DC Niterói (RJ)",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil de Belém (PA)",
+      "short_name": "DC Belém (PA)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual de Mato Grosso",
+      "short_name": "DC Mato Grosso",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Maranhão",
@@ -114,47 +119,42 @@
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Ceará",
-      "short_name": "DC Ceará",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 14
+      "count": 10
     },
     {
       "label": "Alto",
-      "count": 12
+      "count": 14
     },
     {
       "label": "Severo",
       "count": 2
-    },
-    {
-      "label": "Extremo",
-      "count": 1
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 19
+      "count": 16
     },
     {
       "label": "Inundações",
       "count": 4
     },
     {
-      "label": "Incêndios Em Parques, Áreas De Proteção Ambiental E Áreas De Preservação Permanente Nacionais, Estaduais Ou Municipais",
-      "count": 3
-    },
-    {
       "label": "Baixa Umidade Do Ar",
       "count": 2
+    },
+    {
+      "label": "Incêndios Em Parques, Áreas De Proteção Ambiental E Áreas De Preservação Permanente Nacionais, Estaduais Ou Municipais",
+      "count": 2
+    },
+    {
+      "label": "Solo/Lama",
+      "count": 1
     },
     {
       "label": "Alagamentos",
@@ -167,20 +167,20 @@
       "count": 7
     },
     {
-      "uf": "RJ",
-      "count": 5
-    },
-    {
-      "uf": "PI",
-      "count": 5
-    },
-    {
       "uf": "PA",
+      "count": 6
+    },
+    {
+      "uf": "RJ",
       "count": 4
     },
     {
+      "uf": "PI",
+      "count": 3
+    },
+    {
       "uf": "MT",
-      "count": 2
+      "count": 1
     },
     {
       "uf": "MA",
@@ -201,23 +201,58 @@
     {
       "uf": "AC",
       "count": 1
-    },
-    {
-      "uf": "RN",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 13
+      "count": 14
     },
     {
       "label": "expirado",
-      "count": 16
+      "count": 12
     }
   ],
   "all_alerts": [
+    {
+      "date": "25/04/2026",
+      "time": "11:52",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Codajás/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Redobre atencao em areas inclinadas.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-25T11:52:11-03:00",
+      "expires": "2026-04-25T18:00:00-03:00"
+    },
+    {
+      "date": "25/04/2026",
+      "time": "10:48",
+      "senderName": "Defesa Civil de Belém (PA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Belém/PA",
+      "headline": "Defesa Civil:SUMDEC: REGIAO METROPOLITANA DE BELEM, Alertas de chuvas e raios MODERADO para hoje 25ABR. Risco de alagamentos e destelhamentos. Atencao!",
+      "status": "vigente",
+      "onset": "2026-04-25T10:48:15-03:00",
+      "expires": "2026-04-25T23:55:00-03:00"
+    },
+    {
+      "date": "25/04/2026",
+      "time": "10:46",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "PARÁ/PA",
+      "headline": "Defesa Civil:ALERTA ALTO para chuvas intensas (25ABR). Acompanhe atualizacoes da Defesa Civil.",
+      "status": "vigente",
+      "onset": "2026-04-25T10:46:32-03:00",
+      "expires": "2026-04-25T23:55:00-03:00"
+    },
     {
       "date": "25/04/2026",
       "time": "10:31",
@@ -516,102 +551,23 @@
       "status": "expirado",
       "onset": "2026-04-24T12:08:33-03:00",
       "expires": "2026-04-24T16:00:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "11:42",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PI",
-      "location": "PIAUÍ/PI",
-      "headline": "ALERTA PARA CHUVAS INTENSAS!",
-      "status": "expirado",
-      "onset": "2026-04-24T11:42:08-03:00",
-      "expires": "2026-04-24T23:55:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "11:35",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PI",
-      "location": "Parnaíba/PI",
-      "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS em Parnaiba/PI. EVITE AREAS DE RISCO DE ALAGAMENTOS E ENXURRADAS. Fique em Local Seguro. Em emergencia, ligue 193 ou 190",
-      "status": "expirado",
-      "onset": "2026-04-24T11:35:22-03:00",
-      "expires": "2026-04-24T23:55:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "11:28",
-      "senderName": "Defesa Civil Estadual de Mato Grosso",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MT",
-      "location": "MATO GROSSO/MT",
-      "headline": "Defesa Civil:MT. Previsao de Chuva ate 60mm/h, ventos de 60-100km/h. Riscos de queda de galhos de arvores, alagamentos, descargas eletricas. Ligue: 193/199.",
-      "status": "vigente",
-      "onset": "2026-04-24T11:28:15-03:00",
-      "expires": "2026-04-25T11:00:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "11:09",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-24T11:09:16-03:00",
-      "expires": "2026-04-24T15:00:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "10:48",
-      "senderName": "Defesa Civil de Nova Friburgo (RJ)",
-      "event": "Incêndios Em Parques, Áreas De Proteção Ambiental E Áreas De Preservação Permanente Nacionais, Estaduais Ou Municipais",
-      "nivel": "Extremo",
-      "uf": "RJ",
-      "location": "Nova Friburgo/RJ",
-      "headline": "Defesa Civil:NF/ Risco muito alto de incendio florestal na nossa regiao. Emergencia 193",
-      "status": "vigente",
-      "onset": "2026-04-24T10:48:24-03:00",
-      "expires": "2026-04-27T10:00:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "10:44",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Norte",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RN",
-      "location": "RIO GRANDE DO NORTE/RN",
-      "headline": "Defesa Civil:Continuidade de chuvas nas proximas horas, risco de alagamentos e deslizamentos pontuais. Evite areas de risco/siga as orientacoes. Emergencia 193",
-      "status": "expirado",
-      "onset": "2026-04-24T10:44:17-03:00",
-      "expires": "2026-04-24T23:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 29,
+    "total_alerts": 26,
     "by_nivel": {
-      "Médio": 14,
-      "Alto": 12,
-      "Severo": 2,
-      "Extremo": 1
+      "Alto": 14,
+      "Médio": 10,
+      "Severo": 2
     },
     "by_channel_list": {
-      "Google": 29
+      "Google": 26
     },
     "by_region": {
-      "N": 12,
-      "NE": 9,
-      "SE": 5,
-      "CO": 2,
+      "N": 14,
+      "NE": 6,
+      "SE": 4,
+      "CO": 1,
       "S": 1
     }
   }
