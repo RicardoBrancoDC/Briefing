@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-04-25T16:13:38.538660-03:00",
-  "source_run_dir": "run_20260425_161313",
+  "generated_at": "2026-04-25T17:59:38.823367-03:00",
+  "source_run_dir": "run_20260425_175912",
   "cards": {
-    "vigentes": 23,
-    "ultimas24h": 33,
-    "autoridadesAtivas": 16,
+    "vigentes": 21,
+    "ultimas24h": 29,
+    "autoridadesAtivas": 15,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "17:32",
+      "date": "25/04/2026",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "senderNameShort": "DC Manaus (AM)",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.¿",
+      "status": "vigente"
+    },
+    {
+      "time": "16:41",
+      "date": "25/04/2026",
+      "senderName": "Defesa Civil Estadual de Pernambuco",
+      "senderNameShort": "DC Pernambuco",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Fernando de Noronha/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Fernando de Noronha/PE. Siga as orientacoes da defesa civil local e do plano de contingencia municipal",
+      "status": "vigente"
+    },
     {
       "time": "15:07",
       "date": "25/04/2026",
@@ -43,37 +67,13 @@
       "uf": "RJ",
       "headline": "Defesa Civil:Umidade do ar pode ficar abaixo de 30 na tarde de hoje (25/04). Nao faca exercicios fisicos ao ar livre a tarde e hidrate-se.",
       "status": "vigente"
-    },
-    {
-      "time": "14:35",
-      "date": "25/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Caapiranga/AM, Manicoré/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "14:25",
-      "date": "25/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "location": "Nhamundá/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 9
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
@@ -81,9 +81,9 @@
       "count": 5
     },
     {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
-      "count": 3
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual do Rio de Janeiro",
@@ -101,23 +101,23 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual de Pernambuco",
+      "short_name": "DC Pernambuco",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil de Itaguaí (RJ)",
       "short_name": "DC Itaguaí (RJ)",
       "count": 1
     },
     {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 1
-    },
-    {
       "name": "Defesa Civil de Belém (PA)",
       "short_name": "DC Belém (PA)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Mato Grosso",
-      "short_name": "DC Mato Grosso",
       "count": 1
     }
   ],
@@ -128,17 +128,17 @@
     },
     {
       "label": "Alto",
-      "count": 19
+      "count": 16
     },
     {
       "label": "Severo",
-      "count": 2
+      "count": 1
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 21
+      "count": 19
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -146,10 +146,6 @@
     },
     {
       "label": "Alagamentos",
-      "count": 2
-    },
-    {
-      "label": "Inundações",
       "count": 2
     },
     {
@@ -164,7 +160,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 10
+      "count": 8
     },
     {
       "uf": "RJ",
@@ -176,11 +172,15 @@
     },
     {
       "uf": "PA",
-      "count": 4
+      "count": 3
     },
     {
       "uf": "CE",
       "count": 2
+    },
+    {
+      "uf": "PE",
+      "count": 1
     },
     {
       "uf": "MT",
@@ -193,27 +193,45 @@
     {
       "uf": "SC",
       "count": 1
-    },
-    {
-      "uf": "PE",
-      "count": 1
-    },
-    {
-      "uf": "AC",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 23
+      "count": 21
     },
     {
       "label": "expirado",
-      "count": 10
+      "count": 8
     }
   ],
   "all_alerts": [
+    {
+      "date": "25/04/2026",
+      "time": "17:32",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.¿",
+      "status": "vigente",
+      "onset": "2026-04-25T17:32:47-03:00",
+      "expires": "2026-04-25T21:00:00-03:00"
+    },
+    {
+      "date": "25/04/2026",
+      "time": "16:41",
+      "senderName": "Defesa Civil Estadual de Pernambuco",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PE",
+      "location": "Fernando de Noronha/PE",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Fernando de Noronha/PE. Siga as orientacoes da defesa civil local e do plano de contingencia municipal",
+      "status": "vigente",
+      "onset": "2026-04-25T16:41:00-03:00",
+      "expires": "2026-04-26T16:35:00-03:00"
+    },
     {
       "date": "25/04/2026",
       "time": "15:07",
@@ -288,7 +306,7 @@
       "uf": "AM",
       "location": "Novo Airão/AM, Manaquiri/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-25T13:56:38-03:00",
       "expires": "2026-04-25T17:00:00-03:00"
     },
@@ -564,98 +582,20 @@
       "status": "expirado",
       "onset": "2026-04-24T20:17:00-03:00",
       "expires": "2026-04-24T23:55:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "17:50",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Fernando de Noronha/PE",
-      "headline": "Defesa Civil:PE: FERNANDO DE NORONHA. ALERTA cont. de chuva MODERADA a FORTE nas prox. 24h. Fique atento as orientacoes da Defesa Civil.Proteja-se",
-      "status": "vigente",
-      "onset": "2026-04-24T17:50:00-03:00",
-      "expires": "2026-04-25T18:00:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "17:37",
-      "senderName": "Defesa Civil Estadual do Acre",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "AC",
-      "location": "Rio Branco/AC",
-      "headline": "Defesa Civil:Alerta de Alagamentos para Rio Branco/AC. Siga as orientacoes da defesa civil local e do plano de contingencia  caso de emergencia.",
-      "status": "expirado",
-      "onset": "2026-04-24T17:37:03-03:00",
-      "expires": "2026-04-24T18:30:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "17:26",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para AMAZONAS/AM. Se houver vendaval, granizo ou descargas eletricas, fique atento as recomendacoes para estes tipos de",
-      "status": "expirado",
-      "onset": "2026-04-24T17:26:27-03:00",
-      "expires": "2026-04-24T21:00:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "16:53",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "São Paulo de Olivença/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao gradual. Fique atento e acompanhe atualizacoes. Procure local seguro. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
-      "onset": "2026-04-24T16:53:17-03:00",
-      "expires": "2026-04-30T16:30:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "16:46",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Borba/AM, Nova Olinda do Norte/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao gradual. Fique atento e acompanhe atualizacoes. Procure local seguro. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
-      "onset": "2026-04-24T16:46:40-03:00",
-      "expires": "2026-04-30T16:30:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "16:44",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS. EVITE AREAS DE RISCO. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "expirado",
-      "onset": "2026-04-24T16:44:00-03:00",
-      "expires": "2026-04-24T23:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 33,
+    "total_alerts": 29,
     "by_nivel": {
-      "Alto": 19,
+      "Alto": 16,
       "Médio": 12,
-      "Severo": 2
+      "Severo": 1
     },
     "by_channel_list": {
-      "Google": 33
+      "Google": 29
     },
     "by_region": {
-      "N": 15,
+      "N": 11,
       "NE": 9,
       "SE": 7,
       "CO": 1,
