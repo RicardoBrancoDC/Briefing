@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-25T00:35:12.530872-03:00",
-  "source_run_dir": "run_20260425_003434",
+  "generated_at": "2026-04-25T03:01:01.998330-03:00",
+  "source_run_dir": "run_20260425_030036",
   "cards": {
-    "vigentes": 13,
-    "ultimas24h": 33,
+    "vigentes": 11,
+    "ultimas24h": 31,
     "autoridadesAtivas": 14,
     "alertasExtremos": 1
   },
@@ -30,7 +30,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "21:00",
@@ -73,12 +73,12 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Alto",
-      "count": 18
+      "count": 16
     },
     {
       "label": "Severo",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 22
+      "count": 21
     },
     {
       "label": "Inundações",
@@ -150,7 +150,7 @@
     },
     {
       "label": "Solo/Lama",
-      "count": 4
+      "count": 3
     },
     {
       "label": "Incêndios Em Parques, Áreas De Proteção Ambiental E Áreas De Preservação Permanente Nacionais, Estaduais Ou Municipais",
@@ -164,11 +164,11 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 13
+      "count": 12
     },
     {
       "uf": "PI",
-      "count": 6
+      "count": 5
     },
     {
       "uf": "PA",
@@ -210,7 +210,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 13
+      "count": 11
     },
     {
       "label": "expirado",
@@ -240,7 +240,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-24T21:36:28-03:00",
       "expires": "2026-04-25T01:00:00-03:00"
     },
@@ -620,48 +620,22 @@
       "status": "expirado",
       "onset": "2026-04-24T03:15:53-03:00",
       "expires": "2026-04-24T09:00:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "01:17",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Canutama/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
-      "onset": "2026-04-24T01:17:52-03:00",
-      "expires": "2026-04-25T08:00:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "00:54",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PI",
-      "location": "PIAUÍ/PI",
-      "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS. Previsao de chuvas moderadas a forte ao longo da madrugada e inicio da manha. Em caso de emergencia ligue 190 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-24T00:54:02-03:00",
-      "expires": "2026-04-24T06:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 33,
+    "total_alerts": 31,
     "by_nivel": {
-      "Alto": 18,
+      "Alto": 16,
       "Médio": 12,
       "Severo": 2,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 33
+      "Google": 31
     },
     "by_region": {
-      "N": 19,
-      "NE": 10,
+      "N": 18,
+      "NE": 9,
       "SE": 2,
       "CO": 1,
       "S": 1
