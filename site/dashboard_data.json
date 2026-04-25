@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-25T03:01:01.998330-03:00",
-  "source_run_dir": "run_20260425_030036",
+  "generated_at": "2026-04-25T04:48:36.653978-03:00",
+  "source_run_dir": "run_20260425_044801",
   "cards": {
     "vigentes": 11,
-    "ultimas24h": 31,
+    "ultimas24h": 30,
     "autoridadesAtivas": 14,
     "alertasExtremos": 1
   },
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 11
+      "count": 10
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Alto",
-      "count": 16
+      "count": 15
     },
     {
       "label": "Severo",
@@ -149,11 +149,11 @@
       "count": 4
     },
     {
-      "label": "Solo/Lama",
-      "count": 3
+      "label": "Incêndios Em Parques, Áreas De Proteção Ambiental E Áreas De Preservação Permanente Nacionais, Estaduais Ou Municipais",
+      "count": 2
     },
     {
-      "label": "Incêndios Em Parques, Áreas De Proteção Ambiental E Áreas De Preservação Permanente Nacionais, Estaduais Ou Municipais",
+      "label": "Solo/Lama",
       "count": 2
     },
     {
@@ -164,7 +164,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 12
+      "count": 11
     },
     {
       "uf": "PI",
@@ -214,7 +214,7 @@
     },
     {
       "label": "expirado",
-      "count": 20
+      "count": 19
     }
   ],
   "all_alerts": [
@@ -607,34 +607,21 @@
       "status": "vigente",
       "onset": "2026-04-24T09:21:08-03:00",
       "expires": "2026-04-25T10:00:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "03:15",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-24T03:15:53-03:00",
-      "expires": "2026-04-24T09:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 31,
+    "total_alerts": 30,
     "by_nivel": {
-      "Alto": 16,
+      "Alto": 15,
       "Médio": 12,
       "Severo": 2,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 31
+      "Google": 30
     },
     "by_region": {
-      "N": 18,
+      "N": 17,
       "NE": 9,
       "SE": 2,
       "CO": 1,
