@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-25T06:13:46.028387-03:00",
-  "source_run_dir": "run_20260425_061328",
+  "generated_at": "2026-04-25T08:07:38.532174-03:00",
+  "source_run_dir": "run_20260425_080721",
   "cards": {
-    "vigentes": 9,
-    "ultimas24h": 30,
-    "autoridadesAtivas": 14,
+    "vigentes": 10,
+    "ultimas24h": 31,
+    "autoridadesAtivas": 15,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "07:59",
+      "date": "25/04/2026",
+      "senderName": "Defesa Civil de Mesquita (RJ)",
+      "senderNameShort": "DC Mesquita (RJ)",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "location": "Mesquita/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Mesquita (25/04 08h): aviso meteorologico de baixa umidade relativa do ar, entre 09h de 25/04 e 21:00h de 27/04. Emergencia: 4042-1772 ou 199",
+      "status": "vigente"
+    },
     {
       "time": "22:17",
       "date": "24/04/2026",
@@ -55,18 +67,6 @@
       "uf": "PI",
       "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS no PIAUI/PI. EVITE AREAS DE RISCO DE ALAGAMENTO E ENXURRADAS. Em caso de emergencia, ligue 193 ou 190.",
       "status": "expirado"
-    },
-    {
-      "time": "20:17",
-      "date": "24/04/2026",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "senderNameShort": "DC Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Teresina/PI, José de Freitas/PI",
-      "uf": "PI",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas. Evitar trafegar em areas de alagamentos e pontos de enxurradas. Em caso de emergencia ligue 190 ou 193. PROTEJA-SE!",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -84,6 +84,11 @@
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
       "count": 4
+    },
+    {
+      "name": "Defesa Civil de Mesquita (RJ)",
+      "short_name": "DC Mesquita (RJ)",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -114,11 +119,6 @@
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Mato Grosso",
-      "short_name": "DC Mato Grosso",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -128,7 +128,7 @@
     },
     {
       "label": "Alto",
-      "count": 15
+      "count": 16
     },
     {
       "label": "Severo",
@@ -157,6 +157,10 @@
       "count": 2
     },
     {
+      "label": "Baixa Umidade Do Ar",
+      "count": 1
+    },
+    {
       "label": "Alagamentos",
       "count": 1
     }
@@ -176,7 +180,7 @@
     },
     {
       "uf": "RJ",
-      "count": 2
+      "count": 3
     },
     {
       "uf": "SC",
@@ -210,7 +214,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 9
+      "count": 10
     },
     {
       "label": "expirado",
@@ -218,6 +222,19 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "25/04/2026",
+      "time": "07:59",
+      "senderName": "Defesa Civil de Mesquita (RJ)",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Mesquita/RJ",
+      "headline": "Defesa Civil:Mesquita (25/04 08h): aviso meteorologico de baixa umidade relativa do ar, entre 09h de 25/04 e 21:00h de 27/04. Emergencia: 4042-1772 ou 199",
+      "status": "vigente",
+      "onset": "2026-04-25T07:59:55-03:00",
+      "expires": "2026-04-27T21:00:00-03:00"
+    },
     {
       "date": "24/04/2026",
       "time": "22:17",
@@ -610,20 +627,20 @@
     }
   ],
   "summary": {
-    "total_alerts": 30,
+    "total_alerts": 31,
     "by_nivel": {
-      "Alto": 15,
+      "Alto": 16,
       "Médio": 12,
       "Severo": 2,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 30
+      "Google": 31
     },
     "by_region": {
       "N": 17,
       "NE": 9,
-      "SE": 2,
+      "SE": 3,
       "CO": 1,
       "S": 1
     }
