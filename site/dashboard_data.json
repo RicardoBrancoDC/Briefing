@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-04-26T18:00:03.687741-03:00",
-  "source_run_dir": "run_20260426_175928",
+  "generated_at": "2026-04-26T20:01:55.653161-03:00",
+  "source_run_dir": "run_20260426_200108",
   "cards": {
-    "vigentes": 18,
-    "ultimas24h": 41,
+    "vigentes": 14,
+    "ultimas24h": 43,
     "autoridadesAtivas": 15,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "19:21",
+      "date": "26/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "18:37",
+      "date": "26/04/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "17:52",
       "date": "26/04/2026",
@@ -30,7 +54,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:17h35 - Chuva e isolada na regiao de Cananeia e Barra do Turvo. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:39",
@@ -42,31 +66,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:17h35 - Chuva e isolada na regiao de Apiai e Iporanga. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente"
-    },
-    {
-      "time": "17:04",
-      "date": "26/04/2026",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "senderNameShort": "DC Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Fernando de Noronha/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Fernando de Noronha/PE. Siga as orientacoes da defesa civil local e do plano de contingencia municipal",
-      "status": "vigente"
-    },
-    {
-      "time": "16:31",
-      "date": "26/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -78,12 +78,12 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -124,17 +124,17 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 19
+      "count": 20
     },
     {
       "label": "Alto",
-      "count": 22
+      "count": 23
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 37
+      "count": 39
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -152,11 +152,11 @@
     },
     {
       "uf": "AM",
-      "count": 8
+      "count": 9
     },
     {
       "uf": "PR",
-      "count": 4
+      "count": 5
     },
     {
       "uf": "RJ",
@@ -194,14 +194,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 18
+      "count": 14
     },
     {
       "label": "expirado",
-      "count": 23
+      "count": 29
     }
   ],
   "all_alerts": [
+    {
+      "date": "26/04/2026",
+      "time": "19:21",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-26T19:21:58-03:00",
+      "expires": "2026-04-26T23:30:00-03:00"
+    },
+    {
+      "date": "26/04/2026",
+      "time": "18:37",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-04-26T18:37:32-03:00",
+      "expires": "2026-04-26T21:35:00-03:00"
+    },
     {
       "date": "26/04/2026",
       "time": "17:52",
@@ -224,7 +250,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:17h35 - Chuva e isolada na regiao de Cananeia e Barra do Turvo. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-26T17:41:12-03:00",
       "expires": "2026-04-26T19:40:00-03:00"
     },
@@ -237,7 +263,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:17h35 - Chuva e isolada na regiao de Apiai e Iporanga. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-26T17:39:33-03:00",
       "expires": "2026-04-26T19:40:00-03:00"
     },
@@ -263,7 +289,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-26T16:31:58-03:00",
       "expires": "2026-04-26T19:30:00-03:00"
     },
@@ -276,7 +302,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 26/04 16:08 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS na sua regiao nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-26T16:10:04-03:00",
       "expires": "2026-04-26T18:10:00-03:00"
     },
@@ -341,7 +367,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-26T15:04:20-03:00",
       "expires": "2026-04-26T18:05:00-03:00"
     },
@@ -419,7 +445,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil: ALERTA de chuva intensa para Manaus e regiao metropolitana. Siga as orientacoes da defesa civil local. Em caso de emergencia, ligue",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-26T13:56:12-03:00",
       "expires": "2026-04-26T20:00:00-03:00"
     },
@@ -737,17 +763,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 41,
+    "total_alerts": 43,
     "by_nivel": {
-      "Alto": 22,
-      "Médio": 19
+      "Alto": 23,
+      "Médio": 20
     },
     "by_channel_list": {
-      "Google": 41
+      "Google": 43
     },
     "by_region": {
-      "S": 21,
-      "N": 10,
+      "S": 22,
+      "N": 11,
       "SE": 5,
       "NE": 3,
       "CO": 2
