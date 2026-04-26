@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-04-26T10:43:22.722631-03:00",
-  "source_run_dir": "run_20260426_104256",
+  "generated_at": "2026-04-26T12:05:06.226865-03:00",
+  "source_run_dir": "run_20260426_120435",
   "cards": {
     "vigentes": 14,
     "ultimas24h": 37,
-    "autoridadesAtivas": 14,
+    "autoridadesAtivas": 15,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "12:00",
+      "date": "26/04/2026",
+      "senderName": "Defesa Civil de Nova Iguaçu (RJ)",
+      "senderNameShort": "DC Nova Iguaçu (RJ)",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "location": "Nova Iguaçu/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil: Nova Iguacu: Baixa umidade do ar nas tardes de hoje (26) e segunda-feira(27/04). Hidrate-se e evite exposicao ao Sol.Emergencia: 199",
+      "status": "vigente"
+    },
+    {
+      "time": "11:04",
+      "date": "26/04/2026",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "senderNameShort": "DC Mato Grosso",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MATO GROSSO/MT",
+      "uf": "MT",
+      "headline": "Defesa Civil:MT. Previsao de Chuva ate 60mm/h, ventos de 60-100km/h. Riscos de queda de galhos de arvores, alagamentos, descargas eletricas. Ligue: 193/199.",
+      "status": "vigente"
+    },
+    {
+      "time": "10:58",
+      "date": "26/04/2026",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "senderNameShort": "DC Mato Grosso",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "MATO GROSSO/MT",
+      "uf": "MT",
+      "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
+      "status": "vigente"
+    },
     {
       "time": "10:14",
       "date": "26/04/2026",
@@ -31,42 +67,6 @@
       "uf": "PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
       "status": "vigente"
-    },
-    {
-      "time": "09:49",
-      "date": "26/04/2026",
-      "senderName": "Defesa Civil de Niterói (RJ)",
-      "senderNameShort": "DC Niterói (RJ)",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "location": "Niterói/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Niteroi: Alerta de baixa umidade relativa do ar para este domingo (26/04). Consuma bastante agua e evite exposicao ao sol. Emergencia, 199.",
-      "status": "vigente"
-    },
-    {
-      "time": "09:25",
-      "date": "26/04/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARÁ/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:ALERTA ALTO para chuvas intensas (26ABR). Acompanhe atualizacoes da Defesa Civil.",
-      "status": "vigente"
-    },
-    {
-      "time": "09:21",
-      "date": "26/04/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:ATENCAO - 26/04 09:20 - CHUVA PERSISTENTE de intensidade forte isolada com RAIOS e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -78,17 +78,17 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 7
-    },
-    {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
-      "count": 3
+      "count": 6
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
       "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual de Mato Grosso",
+      "short_name": "DC Mato Grosso",
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
@@ -98,6 +98,11 @@
     {
       "name": "Defesa Civil de Niterói (RJ)",
       "short_name": "DC Niterói (RJ)",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
       "count": 2
     },
     {
@@ -111,24 +116,19 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil de Blumenau (SC)",
-      "short_name": "DC Blumenau (SC)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Maranhão",
-      "short_name": "DC Maranhão",
+      "name": "Defesa Civil de Nova Iguaçu (RJ)",
+      "short_name": "DC Nova Iguaçu (RJ)",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 16
+      "count": 17
     },
     {
       "label": "Alto",
-      "count": 21
+      "count": 20
     }
   ],
   "event_distribution": [
@@ -138,15 +138,11 @@
     },
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 5
+      "count": 6
     },
     {
       "label": "Alagamentos",
       "count": 2
-    },
-    {
-      "label": "Solo/Lama",
-      "count": 1
     }
   ],
   "uf_distribution": [
@@ -156,18 +152,22 @@
     },
     {
       "uf": "AM",
-      "count": 10
+      "count": 9
     },
     {
       "uf": "RJ",
-      "count": 5
+      "count": 6
     },
     {
-      "uf": "PA",
-      "count": 4
+      "uf": "MT",
+      "count": 2
     },
     {
       "uf": "PR",
+      "count": 2
+    },
+    {
+      "uf": "PA",
       "count": 2
     },
     {
@@ -198,6 +198,45 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "26/04/2026",
+      "time": "12:00",
+      "senderName": "Defesa Civil de Nova Iguaçu (RJ)",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Nova Iguaçu/RJ",
+      "headline": "Defesa Civil: Nova Iguacu: Baixa umidade do ar nas tardes de hoje (26) e segunda-feira(27/04). Hidrate-se e evite exposicao ao Sol.Emergencia: 199",
+      "status": "vigente",
+      "onset": "2026-04-26T12:00:00-03:00",
+      "expires": "2026-04-27T18:00:00-03:00"
+    },
+    {
+      "date": "26/04/2026",
+      "time": "11:04",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MT",
+      "location": "MATO GROSSO/MT",
+      "headline": "Defesa Civil:MT. Previsao de Chuva ate 60mm/h, ventos de 60-100km/h. Riscos de queda de galhos de arvores, alagamentos, descargas eletricas. Ligue: 193/199.",
+      "status": "vigente",
+      "onset": "2026-04-26T11:04:35-03:00",
+      "expires": "2026-04-27T00:55:00-03:00"
+    },
+    {
+      "date": "26/04/2026",
+      "time": "10:58",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "MT",
+      "location": "MATO GROSSO/MT",
+      "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
+      "status": "vigente",
+      "onset": "2026-04-26T10:58:24-03:00",
+      "expires": "2026-04-27T00:55:00-03:00"
+    },
     {
       "date": "26/04/2026",
       "time": "10:14",
@@ -259,7 +298,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 26/04 09:20 - CHUVA PERSISTENTE de intensidade forte isolada com RAIOS e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-26T09:21:22-03:00",
       "expires": "2026-04-26T11:20:00-03:00"
     },
@@ -285,7 +324,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 26/04 08:48 - CHUVA PERSISTENTE de intensidade moderada a forte com RAIOS e ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Sul, Litoral Sul, Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-26T08:50:35-03:00",
       "expires": "2026-04-26T11:45:00-03:00"
     },
@@ -337,7 +376,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 26/04 07:48 - CHUVA PERSISTENTE de intensidade moderada a forte com RAIOS e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste, Meio-Oeste, Planalto Sul e Litoral Sul nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-26T07:51:10-03:00",
       "expires": "2026-04-26T10:50:00-03:00"
     },
@@ -639,61 +678,23 @@
       "status": "vigente",
       "onset": "2026-04-25T12:23:57-03:00",
       "expires": "2026-05-02T18:00:00-03:00"
-    },
-    {
-      "date": "25/04/2026",
-      "time": "11:52",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Codajás/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Redobre atencao em areas inclinadas.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-25T11:52:11-03:00",
-      "expires": "2026-04-25T18:00:00-03:00"
-    },
-    {
-      "date": "25/04/2026",
-      "time": "10:48",
-      "senderName": "Defesa Civil de Belém (PA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Belém/PA",
-      "headline": "Defesa Civil:SUMDEC: REGIAO METROPOLITANA DE BELEM, Alertas de chuvas e raios MODERADO para hoje 25ABR. Risco de alagamentos e destelhamentos. Atencao!",
-      "status": "expirado",
-      "onset": "2026-04-25T10:48:15-03:00",
-      "expires": "2026-04-25T23:55:00-03:00"
-    },
-    {
-      "date": "25/04/2026",
-      "time": "10:46",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:ALERTA ALTO para chuvas intensas (25ABR). Acompanhe atualizacoes da Defesa Civil.",
-      "status": "expirado",
-      "onset": "2026-04-25T10:46:32-03:00",
-      "expires": "2026-04-25T23:55:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 37,
     "by_nivel": {
-      "Alto": 21,
-      "Médio": 16
+      "Alto": 20,
+      "Médio": 17
     },
     "by_channel_list": {
       "Google": 37
     },
     "by_region": {
-      "N": 14,
       "S": 13,
+      "N": 11,
+      "SE": 6,
       "NE": 5,
-      "SE": 5
+      "CO": 2
     }
   }
 }
