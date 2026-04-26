@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-26T00:58:44.347850-03:00",
-  "source_run_dir": "run_20260426_005824",
+  "generated_at": "2026-04-26T03:20:54.591659-03:00",
+  "source_run_dir": "run_20260426_032040",
   "cards": {
     "vigentes": 7,
-    "ultimas24h": 25,
+    "ultimas24h": 26,
     "autoridadesAtivas": 15,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "01:00",
+      "date": "26/04/2026",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "senderNameShort": "DC Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MARANHÃO-MA",
+      "uf": "MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193. Valido ate dia 26/04 as 23h59min.",
+      "status": "vigente"
+    },
     {
       "time": "00:00",
       "date": "26/04/2026",
@@ -30,7 +42,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 25/04 23:06 - TEMPORAIS ISOLADOS com RAIOS e ALAGAMENTOS pontuais para áreas das regiões do Extremo Oeste e Oeste nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:32",
@@ -55,18 +67,6 @@
       "uf": "PE",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas para Fernando de Noronha/PE. Siga as orientacoes da defesa civil local e do plano de contingencia municipal",
       "status": "vigente"
-    },
-    {
-      "time": "15:07",
-      "date": "25/04/2026",
-      "senderName": "Defesa Civil de Itaguaí (RJ)",
-      "senderNameShort": "DC Itaguaí (RJ)",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "location": "Itaguaí/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:ITAGUAI Umidade do ar pode ficar abaixo de 30 na tarde de hoje (25/04). Nao faca exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -74,6 +74,11 @@
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
       "count": 5
+    },
+    {
+      "name": "Defesa Civil Estadual do Maranhão",
+      "short_name": "DC Maranhão",
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -114,11 +119,6 @@
       "name": "Defesa Civil de Itaguaí (RJ)",
       "short_name": "DC Itaguaí (RJ)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Ceará",
-      "short_name": "DC Ceará",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -128,7 +128,7 @@
     },
     {
       "label": "Alto",
-      "count": 14
+      "count": 15
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 15
+      "count": 16
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -171,6 +171,10 @@
       "count": 3
     },
     {
+      "uf": "MA",
+      "count": 2
+    },
+    {
       "uf": "SC",
       "count": 2
     },
@@ -189,10 +193,6 @@
     {
       "uf": "MT",
       "count": 1
-    },
-    {
-      "uf": "MA",
-      "count": 1
     }
   ],
   "status_distribution": [
@@ -202,10 +202,23 @@
     },
     {
       "label": "expirado",
-      "count": 18
+      "count": 19
     }
   ],
   "all_alerts": [
+    {
+      "date": "26/04/2026",
+      "time": "01:00",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MA",
+      "location": "MARANHÃO-MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193. Valido ate dia 26/04 as 23h59min.",
+      "status": "vigente",
+      "onset": "2026-04-26T01:00:00-03:00",
+      "expires": "2026-04-26T23:55:00-03:00"
+    },
     {
       "date": "26/04/2026",
       "time": "00:00",
@@ -228,7 +241,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 25/04 23:06 - TEMPORAIS ISOLADOS com RAIOS e ALAGAMENTOS pontuais para áreas das regiões do Extremo Oeste e Oeste nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-25T23:08:17-03:00",
       "expires": "2026-04-26T01:05:00-03:00"
     },
@@ -533,19 +546,19 @@
     }
   ],
   "summary": {
-    "total_alerts": 25,
+    "total_alerts": 26,
     "by_nivel": {
-      "Alto": 14,
+      "Alto": 15,
       "Médio": 10,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 25
+      "Google": 26
     },
     "by_region": {
       "N": 10,
       "SE": 7,
-      "NE": 5,
+      "NE": 6,
       "S": 2,
       "CO": 1
     }
