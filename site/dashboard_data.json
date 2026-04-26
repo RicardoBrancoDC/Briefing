@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-04-25T19:58:57.484367-03:00",
-  "source_run_dir": "run_20260425_195829",
+  "generated_at": "2026-04-26T00:58:44.347850-03:00",
+  "source_run_dir": "run_20260426_005824",
   "cards": {
-    "vigentes": 13,
-    "ultimas24h": 29,
+    "vigentes": 7,
+    "ultimas24h": 25,
     "autoridadesAtivas": 15,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "00:00",
+      "date": "26/04/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "Observação Meteorológica SDC/SC 25/04 09:00 -Chuva pontualmente intensa e temporais isolados no domingo (26). Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "23:08",
+      "date": "25/04/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 25/04 23:06 - TEMPORAIS ISOLADOS com RAIOS e ALAGAMENTOS pontuais para áreas das regiões do Extremo Oeste e Oeste nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "17:32",
       "date": "25/04/2026",
@@ -18,7 +42,7 @@
       "location": "Manaus/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.¿",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:41",
@@ -43,42 +67,18 @@
       "uf": "RJ",
       "headline": "Defesa Civil:ITAGUAI Umidade do ar pode ficar abaixo de 30 na tarde de hoje (25/04). Nao faca exercicios fisicos ao ar livre a tarde e hidrate-se.",
       "status": "expirado"
-    },
-    {
-      "time": "14:51",
-      "date": "25/04/2026",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "senderNameShort": "DC Rio de Janeiro",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "location": "Nilópolis/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Umidade do ar pode ficar abaixo de 30 na tarde de hoje (25/04). Nao faca exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "status": "expirado"
-    },
-    {
-      "time": "14:48",
-      "date": "25/04/2026",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "senderNameShort": "DC Rio de Janeiro",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "location": "RIO DE JANEIRO/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Umidade do ar pode ficar abaixo de 30 na tarde de hoje (25/04). Nao faca exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 6
+      "count": 5
     },
     {
-      "name": "Defesa Civil Estadual do Piauí",
-      "short_name": "DC Piauí",
-      "count": 5
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 2
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
@@ -91,8 +91,8 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil Estadual do Ceará",
-      "short_name": "DC Ceará",
+      "name": "Defesa Civil Estadual do Piauí",
+      "short_name": "DC Piauí",
       "count": 2
     },
     {
@@ -116,19 +116,19 @@
       "count": 1
     },
     {
-      "name": "Defesa Civil de Belém (PA)",
-      "short_name": "DC Belém (PA)",
+      "name": "Defesa Civil Estadual do Ceará",
+      "short_name": "DC Ceará",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 12
+      "count": 10
     },
     {
       "label": "Alto",
-      "count": 16
+      "count": 14
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 19
+      "count": 15
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -160,26 +160,30 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 8
+      "count": 7
     },
     {
       "uf": "RJ",
       "count": 7
     },
     {
-      "uf": "PI",
-      "count": 5
-    },
-    {
       "uf": "PA",
       "count": 3
     },
     {
-      "uf": "CE",
+      "uf": "SC",
+      "count": 2
+    },
+    {
+      "uf": "PI",
       "count": 2
     },
     {
       "uf": "PE",
+      "count": 1
+    },
+    {
+      "uf": "CE",
       "count": 1
     },
     {
@@ -189,23 +193,45 @@
     {
       "uf": "MA",
       "count": 1
-    },
-    {
-      "uf": "SC",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 13
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 16
+      "count": 18
     }
   ],
   "all_alerts": [
+    {
+      "date": "26/04/2026",
+      "time": "00:00",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Observação Meteorológica SDC/SC 25/04 09:00 -Chuva pontualmente intensa e temporais isolados no domingo (26). Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-04-26T00:00:00-03:00",
+      "expires": "2026-04-26T23:55:00-03:00"
+    },
+    {
+      "date": "25/04/2026",
+      "time": "23:08",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 25/04 23:06 - TEMPORAIS ISOLADOS com RAIOS e ALAGAMENTOS pontuais para áreas das regiões do Extremo Oeste e Oeste nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-04-25T23:08:17-03:00",
+      "expires": "2026-04-26T01:05:00-03:00"
+    },
     {
       "date": "25/04/2026",
       "time": "17:32",
@@ -215,7 +241,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.¿",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-25T17:32:47-03:00",
       "expires": "2026-04-25T21:00:00-03:00"
     },
@@ -345,7 +371,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas. Evitar transitar em areas de enxurradas e pontos de alagamento. Em caso de emergencia ligue 190 ou  193. PROTEJA-SE",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-25T12:52:46-03:00",
       "expires": "2026-04-25T23:55:00-03:00"
     },
@@ -371,7 +397,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas. Evitar trafegar areas de alagamentos e pontos de enxurradas. Em caso de emergencia ligue 190 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-25T12:46:52-03:00",
       "expires": "2026-04-25T23:55:00-03:00"
     },
@@ -410,7 +436,7 @@
       "uf": "PA",
       "location": "Belém/PA",
       "headline": "Defesa Civil:SUMDEC: REGIAO METROPOLITANA DE BELEM, Alertas de chuvas e raios MODERADO para hoje 25ABR. Risco de alagamentos e destelhamentos. Atencao!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-25T10:48:15-03:00",
       "expires": "2026-04-25T23:55:00-03:00"
     },
@@ -423,7 +449,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:ALERTA ALTO para chuvas intensas (25ABR). Acompanhe atualizacoes da Defesa Civil.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-25T10:46:32-03:00",
       "expires": "2026-04-25T23:55:00-03:00"
     },
@@ -436,7 +462,7 @@
       "uf": "MT",
       "location": "MATO GROSSO/MT",
       "headline": "Defesa Civil:Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-25T10:31:25-03:00",
       "expires": "2026-04-26T00:55:00-03:00"
     },
@@ -462,7 +488,7 @@
       "uf": "MA",
       "location": "MARANHÃO/MA",
       "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193. Valido ate dia 25/04/2026 as 23h59min.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-25T08:42:40-03:00",
       "expires": "2026-04-25T23:55:00-03:00"
     },
@@ -475,7 +501,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:ALERTA ALTO para chuvas intensas (25ABR). Acompanhe atualizacoes da Defesa Civil.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-25T08:41:51-03:00",
       "expires": "2026-04-25T23:55:00-03:00"
     },
@@ -504,102 +530,24 @@
       "status": "vigente",
       "onset": "2026-04-25T07:59:55-03:00",
       "expires": "2026-04-27T21:00:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "22:17",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 24/04 22:15 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Caibi, Iporã do Oeste, Itapiranga, Mondaí, Palmitos, Riqueza e São João do Oeste nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-24T22:17:30-03:00",
-      "expires": "2026-04-25T00:15:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "21:36",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-24T21:36:28-03:00",
-      "expires": "2026-04-25T01:00:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "21:00",
-      "senderName": "Defesa Civil Estadual do Ceará",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "CE",
-      "location": "CEARÁ-CE",
-      "headline": "Defesa Civil:(CEARA) Possibilidade de chuvas MODERADA ou FORTE. Evite areas alagadas, locomocao desnecessaria. Fonte:FUNCEME. EMERGENCIA: 193/190",
-      "status": "expirado",
-      "onset": "2026-04-24T21:00:00-03:00",
-      "expires": "2026-04-25T09:00:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "20:22",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PI",
-      "location": "PIAUÍ/PI",
-      "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS no PIAUI/PI. EVITE AREAS DE RISCO DE ALAGAMENTO E ENXURRADAS. Em caso de emergencia, ligue 193 ou 190.",
-      "status": "expirado",
-      "onset": "2026-04-24T20:22:33-03:00",
-      "expires": "2026-04-25T06:00:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "20:17",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PI",
-      "location": "Teresina/PI, José de Freitas/PI",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas. Evitar trafegar em areas de alagamentos e pontos de enxurradas. Em caso de emergencia ligue 190 ou 193. PROTEJA-SE!",
-      "status": "expirado",
-      "onset": "2026-04-24T20:17:08-03:00",
-      "expires": "2026-04-25T05:00:00-03:00"
-    },
-    {
-      "date": "24/04/2026",
-      "time": "20:17",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PI",
-      "location": "Teresina/PI",
-      "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS em Teresina/PI. EVITE AREAS DE RISCO DE ALAGAMENTO E ENXURRADA. Proteja-se em Local Seguro. Em emergencia, ligue 193/190",
-      "status": "expirado",
-      "onset": "2026-04-24T20:17:00-03:00",
-      "expires": "2026-04-24T23:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 29,
+    "total_alerts": 25,
     "by_nivel": {
-      "Alto": 16,
-      "Médio": 12,
+      "Alto": 14,
+      "Médio": 10,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 29
+      "Google": 25
     },
     "by_region": {
-      "N": 11,
-      "NE": 9,
+      "N": 10,
       "SE": 7,
-      "CO": 1,
-      "S": 1
+      "NE": 5,
+      "S": 2,
+      "CO": 1
     }
   }
 }
