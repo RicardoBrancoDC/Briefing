@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-04-27T07:28:38.553656-03:00",
-  "source_run_dir": "run_20260427_072818",
+  "generated_at": "2026-04-27T08:41:57.865163-03:00",
+  "source_run_dir": "run_20260427_084137",
   "cards": {
     "vigentes": 9,
-    "ultimas24h": 44,
-    "autoridadesAtivas": 15,
+    "ultimas24h": 43,
+    "autoridadesAtivas": 16,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "07:36",
+      "date": "27/04/2026",
+      "senderName": "Defesa Civil de Petrópolis (RJ)",
+      "senderNameShort": "DC Petrópolis (RJ)",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "location": "Petrópolis/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Previsao de ventos moderados a ocasionalmente fortes a partir da manha em Petropolis. Emergencia 199. 27/04 07:36h",
+      "status": "vigente"
+    },
+    {
+      "time": "07:30",
+      "date": "27/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Apuí/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "07:06",
       "date": "27/04/2026",
@@ -42,38 +66,14 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:06h00 - Chuva se espalhando na regiao de Itabera e Itarare. Tem vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente"
-    },
-    {
-      "time": "05:34",
-      "date": "27/04/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:05h32 - Chuva se espalhando na regiao de Nantes e Taruma. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente"
-    },
-    {
-      "time": "04:28",
-      "date": "27/04/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:04h25 - Chuva isolada na regiao do Mirante do Paranapanema. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
       "status": "expirado"
     }
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 10
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -81,8 +81,8 @@
       "count": 8
     },
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
       "count": 8
     },
     {
@@ -101,6 +101,11 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil de Petrópolis (RJ)",
+      "short_name": "DC Petrópolis (RJ)",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil Estadual do Maranhão",
       "short_name": "DC Maranhão",
       "count": 1
@@ -114,31 +119,30 @@
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Rio de Janeiro",
-      "short_name": "DC Rio de Janeiro",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 22
+      "count": 23
     },
     {
       "label": "Alto",
-      "count": 22
+      "count": 20
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 38
+      "count": 36
     },
     {
       "label": "Baixa Umidade Do Ar",
       "count": 3
+    },
+    {
+      "label": "Vendaval",
+      "count": 2
     },
     {
       "label": "Alagamentos",
@@ -147,19 +151,15 @@
     {
       "label": "Solo/Lama",
       "count": 1
-    },
-    {
-      "label": "Vendaval",
-      "count": 1
     }
   ],
   "uf_distribution": [
     {
-      "uf": "SC",
-      "count": 11
+      "uf": "AM",
+      "count": 9
     },
     {
-      "uf": "AM",
+      "uf": "SC",
       "count": 9
     },
     {
@@ -172,7 +172,7 @@
     },
     {
       "uf": "RJ",
-      "count": 3
+      "count": 4
     },
     {
       "uf": "MT",
@@ -206,10 +206,36 @@
     },
     {
       "label": "expirado",
-      "count": 35
+      "count": 34
     }
   ],
   "all_alerts": [
+    {
+      "date": "27/04/2026",
+      "time": "07:36",
+      "senderName": "Defesa Civil de Petrópolis (RJ)",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Petrópolis/RJ",
+      "headline": "Defesa Civil:Previsao de ventos moderados a ocasionalmente fortes a partir da manha em Petropolis. Emergencia 199. 27/04 07:36h",
+      "status": "vigente",
+      "onset": "2026-04-27T07:36:30-03:00",
+      "expires": "2026-04-28T10:00:00-03:00"
+    },
+    {
+      "date": "27/04/2026",
+      "time": "07:30",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Apuí/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-27T07:30:50-03:00",
+      "expires": "2026-04-27T11:30:00-03:00"
+    },
     {
       "date": "27/04/2026",
       "time": "07:06",
@@ -245,7 +271,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:06h00 - Chuva se espalhando na regiao de Itabera e Itarare. Tem vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-27T05:59:18-03:00",
       "expires": "2026-04-27T08:00:00-03:00"
     },
@@ -258,7 +284,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:05h32 - Chuva se espalhando na regiao de Nantes e Taruma. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-27T05:34:59-03:00",
       "expires": "2026-04-27T07:30:00-03:00"
     },
@@ -742,60 +768,21 @@
       "status": "expirado",
       "onset": "2026-04-26T08:44:07-03:00",
       "expires": "2026-04-26T23:59:00-03:00"
-    },
-    {
-      "date": "26/04/2026",
-      "time": "08:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 26/04 07:59 - CHUVA PERSISTENTE de intensidade forte isolada com RAIOS e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-26T08:00:12-03:00",
-      "expires": "2026-04-26T09:55:00-03:00"
-    },
-    {
-      "date": "26/04/2026",
-      "time": "07:56",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-26T07:56:07-03:00",
-      "expires": "2026-04-26T09:00:00-03:00"
-    },
-    {
-      "date": "26/04/2026",
-      "time": "07:51",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 26/04 07:48 - CHUVA PERSISTENTE de intensidade moderada a forte com RAIOS e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste, Meio-Oeste, Planalto Sul e Litoral Sul nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-26T07:51:10-03:00",
-      "expires": "2026-04-26T10:50:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 44,
+    "total_alerts": 43,
     "by_nivel": {
-      "Alto": 22,
-      "Médio": 22
+      "Médio": 23,
+      "Alto": 20
     },
     "by_channel_list": {
-      "Google": 44
+      "Google": 43
     },
     "by_region": {
-      "S": 17,
+      "S": 15,
+      "SE": 12,
       "N": 11,
-      "SE": 11,
       "NE": 3,
       "CO": 2
     }
