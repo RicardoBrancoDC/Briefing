@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-04-28T01:10:10.840642-03:00",
-  "source_run_dir": "run_20260428_010928",
+  "generated_at": "2026-04-28T03:47:17.620100-03:00",
+  "source_run_dir": "run_20260428_034643",
   "cards": {
-    "vigentes": 17,
-    "ultimas24h": 68,
+    "vigentes": 12,
+    "ultimas24h": 67,
     "autoridadesAtivas": 17,
     "alertasExtremos": 0
   },
@@ -30,7 +30,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:23h23 - Chuva isolada em Santa Isabel. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "23:02",
@@ -42,7 +42,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:23h03 - Chuva na regiao de Santa Branca e Salesopolis. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "22:21",
@@ -54,7 +54,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite transitar por areas de risco. Siga as orientacoes da defesa civil local",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "22:20",
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 18
+      "count": 17
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 42
+      "count": 41
     },
     {
       "label": "Alto",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 55
+      "count": 54
     },
     {
       "label": "Alagamentos",
@@ -168,7 +168,7 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 18
+      "count": 17
     },
     {
       "uf": "AM",
@@ -214,11 +214,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 17
+      "count": 12
     },
     {
       "label": "expirado",
-      "count": 51
+      "count": 55
     }
   ],
   "all_alerts": [
@@ -244,7 +244,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:23h23 - Chuva isolada em Santa Isabel. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-27T23:22:49-03:00",
       "expires": "2026-04-28T01:30:00-03:00"
     },
@@ -257,7 +257,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:23h03 - Chuva na regiao de Santa Branca e Salesopolis. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-27T23:02:57-03:00",
       "expires": "2026-04-28T01:15:00-03:00"
     },
@@ -270,7 +270,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite transitar por areas de risco. Siga as orientacoes da defesa civil local",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-27T22:21:57-03:00",
       "expires": "2026-04-28T02:30:00-03:00"
     },
@@ -374,7 +374,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-27T19:35:39-03:00",
       "expires": "2026-04-28T01:30:00-03:00"
     },
@@ -465,7 +465,7 @@
       "uf": "PA",
       "location": "Belém/PA",
       "headline": "Defesa Civil:Alerta de Alagamentos para Belem/PA. ¿ Evite areas sujeitas a inundacao;¿ Atencao em vias sujeitas a mare;¿ Evite deslocamentos desnecessarios;",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-27T17:55:00-03:00",
       "expires": "2026-04-28T03:30:00-03:00"
     },
@@ -1092,34 +1092,21 @@
       "status": "expirado",
       "onset": "2026-04-27T04:28:39-03:00",
       "expires": "2026-04-27T06:25:00-03:00"
-    },
-    {
-      "date": "27/04/2026",
-      "time": "02:14",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:02h15 - Chuva isolada na regiao de Rosana. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-27T02:14:13-03:00",
-      "expires": "2026-04-27T04:15:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 68,
+    "total_alerts": 67,
     "by_nivel": {
-      "Médio": 42,
+      "Médio": 41,
       "Alto": 22,
       "Severo": 4
     },
     "by_channel_list": {
-      "Google": 68
+      "Google": 67
     },
     "by_region": {
       "N": 28,
-      "SE": 26,
+      "SE": 25,
       "NE": 8,
       "S": 4,
       "CO": 2
