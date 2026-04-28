@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-04-28T14:22:18.502031-03:00",
-  "source_run_dir": "run_20260428_142159",
+  "generated_at": "2026-04-28T14:58:22.167872-03:00",
+  "source_run_dir": "run_20260428_145759",
   "cards": {
-    "vigentes": 13,
-    "ultimas24h": 51,
+    "vigentes": 15,
+    "ultimas24h": 47,
     "autoridadesAtivas": 12,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "14:55",
+      "date": "28/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "14:36",
+      "date": "28/04/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
+      "status": "vigente"
+    },
     {
       "time": "14:18",
       "date": "28/04/2026",
@@ -43,57 +67,28 @@
       "uf": "PI",
       "headline": "Defesa Civil:Alerta! CHUVAS INTENSAS em Parnaiba/PI. EVITE AREAS DE RISCO DE ALAGAMENTOS E ENXURRADA. Proteja-se em Local Seguro. Em emergencia, ligue 193/190.",
       "status": "vigente"
-    },
-    {
-      "time": "14:09",
-      "date": "28/04/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:14h09 Chuva isolada na regiao de Suzano. Tem raios. Atinge cidades vizinhas. Busque abrigo.",
-      "status": "vigente"
-    },
-    {
-      "time": "13:58",
-      "date": "28/04/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:13:55 - Chuva isolada na regiao de Sao Jose dos Campos. Tem vento e raios. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
-    {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 16
-    },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
       "count": 13
     },
     {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
-      "count": 5
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 13
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 4
+      "count": 5
     },
     {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 3
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
@@ -106,8 +101,8 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
       "count": 2
     },
     {
@@ -119,16 +114,21 @@
       "name": "Defesa Civil Estadual de Sergipe",
       "short_name": "DC Sergipe",
       "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 30
+      "count": 24
     },
     {
       "label": "Alto",
-      "count": 17
+      "count": 19
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 44
+      "count": 40
     },
     {
       "label": "Alagamentos",
@@ -155,20 +155,20 @@
   ],
   "uf_distribution": [
     {
-      "uf": "SP",
-      "count": 16
+      "uf": "AM",
+      "count": 15
     },
     {
-      "uf": "AM",
-      "count": 16
+      "uf": "SP",
+      "count": 13
+    },
+    {
+      "uf": "MG",
+      "count": 5
     },
     {
       "uf": "PA",
       "count": 5
-    },
-    {
-      "uf": "MG",
-      "count": 4
     },
     {
       "uf": "PI",
@@ -176,10 +176,6 @@
     },
     {
       "uf": "MT",
-      "count": 2
-    },
-    {
-      "uf": "PR",
       "count": 2
     },
     {
@@ -195,6 +191,10 @@
       "count": 1
     },
     {
+      "uf": "PR",
+      "count": 1
+    },
+    {
       "uf": "PE",
       "count": 1
     }
@@ -202,14 +202,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 13
+      "count": 15
     },
     {
       "label": "expirado",
-      "count": 38
+      "count": 32
     }
   ],
   "all_alerts": [
+    {
+      "date": "28/04/2026",
+      "time": "14:55",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-28T14:55:54-03:00",
+      "expires": "2026-04-28T19:00:00-03:00"
+    },
+    {
+      "date": "28/04/2026",
+      "time": "14:36",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-04-28T14:36:08-03:00",
+      "expires": "2026-04-28T16:35:00-03:00"
+    },
     {
       "date": "28/04/2026",
       "time": "14:18",
@@ -794,102 +820,24 @@
       "status": "expirado",
       "onset": "2026-04-27T15:00:30-03:00",
       "expires": "2026-04-27T16:55:00-03:00"
-    },
-    {
-      "date": "27/04/2026",
-      "time": "14:57",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:14h55 - Chuva na regiao de Guaruja e Bertioga. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-27T14:57:14-03:00",
-      "expires": "2026-04-27T16:50:00-03:00"
-    },
-    {
-      "date": "27/04/2026",
-      "time": "14:48",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR AVISO DE TEMPO: Tempestades irregulares e chuva forte em curto espaco de tempo na seg 27/04. Evite areas de risco. Ocorrencias, 199/193.",
-      "status": "expirado",
-      "onset": "2026-04-27T14:48:44-03:00",
-      "expires": "2026-04-27T23:50:00-03:00"
-    },
-    {
-      "date": "27/04/2026",
-      "time": "14:48",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:14h46 - Chuva na regiao de Sao Jose do Rio Preto e Araraquara. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-27T14:48:43-03:00",
-      "expires": "2026-04-27T16:40:00-03:00"
-    },
-    {
-      "date": "27/04/2026",
-      "time": "14:47",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-27T14:47:10-03:00",
-      "expires": "2026-04-27T19:00:00-03:00"
-    },
-    {
-      "date": "27/04/2026",
-      "time": "14:41",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-27T14:41:07-03:00",
-      "expires": "2026-04-27T17:30:00-03:00"
-    },
-    {
-      "date": "27/04/2026",
-      "time": "14:22",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:14h21 - Chuva se espalhando na regiao de Buritama. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-27T14:22:08-03:00",
-      "expires": "2026-04-27T16:15:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 51,
+    "total_alerts": 47,
     "by_nivel": {
-      "Médio": 30,
-      "Alto": 17,
+      "Médio": 24,
+      "Alto": 19,
       "Severo": 4
     },
     "by_channel_list": {
-      "Google": 51
+      "Google": 47
     },
     "by_region": {
-      "N": 21,
-      "SE": 21,
+      "N": 20,
+      "SE": 19,
       "NE": 4,
-      "S": 3,
-      "CO": 2
+      "CO": 2,
+      "S": 2
     }
   }
 }
