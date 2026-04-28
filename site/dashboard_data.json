@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-04-28T18:33:04.963475-03:00",
-  "source_run_dir": "run_20260428_183232",
+  "generated_at": "2026-04-28T20:13:27.687248-03:00",
+  "source_run_dir": "run_20260428_201302",
   "cards": {
-    "vigentes": 32,
-    "ultimas24h": 70,
-    "autoridadesAtivas": 14,
+    "vigentes": 18,
+    "ultimas24h": 72,
+    "autoridadesAtivas": 13,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "18:29",
+      "time": "20:01",
       "date": "28/04/2026",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "senderNameShort": "DC São Paulo",
@@ -17,11 +17,11 @@
       "nivel": "Médio",
       "location": "SÃO PAULO/SP",
       "uf": "SP",
-      "headline": "Defesa Civil:18h28 Chuva isolada na regiao de Mairipora, Nazare Paulista e Bom Jesus dos Perdoes. Tem raios. Atinge cidades vizinhas. Busque abrigo.",
+      "headline": "Defesa Civil:20h00 Chuva persiste na regiao de Sao Luiz do Paraitinga. Tem raios. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
       "status": "vigente"
     },
     {
-      "time": "18:25",
+      "time": "18:53",
       "date": "28/04/2026",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "senderNameShort": "DC São Paulo",
@@ -29,11 +29,11 @@
       "nivel": "Médio",
       "location": "SÃO PAULO/SP",
       "uf": "SP",
-      "headline": "Defesa Civil:18h25 Chuva isolada na regiao de Espirito Santo do Pinhal e Santo Antonio do Jardim. Tem raios. Atinge cidades vizinhas. Busque abrigo.",
+      "headline": "Defesa Civil:18h53 Chuva persiste na regiao de Cunha. Tem raios. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
       "status": "vigente"
     },
     {
-      "time": "18:23",
+      "time": "18:51",
       "date": "28/04/2026",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "senderNameShort": "DC São Paulo",
@@ -41,31 +41,31 @@
       "nivel": "Médio",
       "location": "SÃO PAULO/SP",
       "uf": "SP",
-      "headline": "Defesa Civil:18h23 Chuva isolada na regiao de Jambeiro. Tem raios. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
+      "headline": "Defesa Civil:18h51 Chuva isolada na regiao de Campo Limpo Paulista, Francisco Morato e Caieiras. Tem raios. Atinge cidades vizinhas. Busque abrigo.",
       "status": "vigente"
     },
     {
-      "time": "18:07",
+      "time": "18:37",
       "date": "28/04/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
       "event": "Chuvas Intensas",
       "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:18h07 Chuva isolada na regiao de Cabreuva e Jundiai. Tem raios. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas horas. Proteja-se!",
       "status": "vigente"
     },
     {
-      "time": "18:06",
+      "time": "18:36",
       "date": "28/04/2026",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "senderNameShort": "DC São Paulo",
       "event": "Chuvas Intensas",
-      "nivel": "Médio",
+      "nivel": "Alto",
       "location": "SÃO PAULO/SP",
       "uf": "SP",
-      "headline": "Defesa Civil:18h06 Chuva isolada na regiao de Atibaia. Tem raios. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
+      "headline": "Defesa Civil:18h36 Chuva forte isolada na regiao de Rafard e Capivari. Tem raios e ventos. Atinge cidades vizinhas. Busque abrigo.",
       "status": "vigente"
     }
   ],
@@ -73,17 +73,17 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 43
-    },
-    {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 10
+      "count": 47
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 5
+      "count": 7
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 52
+      "count": 56
     },
     {
       "label": "Alto",
@@ -132,35 +132,35 @@
     },
     {
       "label": "Severo",
-      "count": 4
+      "count": 2
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 66
-    },
-    {
-      "label": "Alagamentos",
-      "count": 3
+      "count": 70
     },
     {
       "label": "Solo/Lama",
+      "count": 1
+    },
+    {
+      "label": "Alagamentos",
       "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 43
-    },
-    {
-      "uf": "AM",
-      "count": 11
+      "count": 47
     },
     {
       "uf": "MG",
-      "count": 5
+      "count": 7
+    },
+    {
+      "uf": "AM",
+      "count": 7
     },
     {
       "uf": "SC",
@@ -194,14 +194,92 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 32
+      "count": 18
     },
     {
       "label": "expirado",
-      "count": 38
+      "count": 54
     }
   ],
   "all_alerts": [
+    {
+      "date": "28/04/2026",
+      "time": "20:01",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:20h00 Chuva persiste na regiao de Sao Luiz do Paraitinga. Tem raios. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-04-28T20:01:25-03:00",
+      "expires": "2026-04-28T22:00:00-03:00"
+    },
+    {
+      "date": "28/04/2026",
+      "time": "18:53",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:18h53 Chuva persiste na regiao de Cunha. Tem raios. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-04-28T18:53:53-03:00",
+      "expires": "2026-04-28T20:55:00-03:00"
+    },
+    {
+      "date": "28/04/2026",
+      "time": "18:51",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:18h51 Chuva isolada na regiao de Campo Limpo Paulista, Francisco Morato e Caieiras. Tem raios. Atinge cidades vizinhas. Busque abrigo.",
+      "status": "vigente",
+      "onset": "2026-04-28T18:51:37-03:00",
+      "expires": "2026-04-28T20:50:00-03:00"
+    },
+    {
+      "date": "28/04/2026",
+      "time": "18:37",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas horas. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-04-28T18:37:02-03:00",
+      "expires": "2026-04-28T20:35:00-03:00"
+    },
+    {
+      "date": "28/04/2026",
+      "time": "18:36",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:18h36 Chuva forte isolada na regiao de Rafard e Capivari. Tem raios e ventos. Atinge cidades vizinhas. Busque abrigo.",
+      "status": "vigente",
+      "onset": "2026-04-28T18:36:40-03:00",
+      "expires": "2026-04-28T20:35:00-03:00"
+    },
+    {
+      "date": "28/04/2026",
+      "time": "18:33",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte nas proximas horas. Proteja-se!",
+      "status": "expirado",
+      "onset": "2026-04-28T18:33:30-03:00",
+      "expires": "2026-04-28T20:00:00-03:00"
+    },
     {
       "date": "28/04/2026",
       "time": "18:29",
@@ -250,7 +328,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:18h07 Chuva isolada na regiao de Cabreuva e Jundiai. Tem raios. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T18:07:59-03:00",
       "expires": "2026-04-28T20:05:00-03:00"
     },
@@ -263,7 +341,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:18h06 Chuva isolada na regiao de Atibaia. Tem raios. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T18:06:29-03:00",
       "expires": "2026-04-28T20:05:00-03:00"
     },
@@ -276,7 +354,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:17h43 Chuva isolada na regiao de Indaiatuba, Itupeva e Vinhedo. Tem raios. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T17:43:23-03:00",
       "expires": "2026-04-28T19:40:00-03:00"
     },
@@ -289,7 +367,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte nas proximas horas. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T17:42:10-03:00",
       "expires": "2026-04-28T19:05:00-03:00"
     },
@@ -302,7 +380,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:17h37 Chuva isolada na regiao de Jarinu. Tem raios. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T17:37:39-03:00",
       "expires": "2026-04-28T19:40:00-03:00"
     },
@@ -315,7 +393,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:17h20 Chuva isolada na regiao de Cunha. Tem raios. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T17:19:58-03:00",
       "expires": "2026-04-28T19:20:00-03:00"
     },
@@ -328,7 +406,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:17h18 Chuva forte isolada na regiao de Mogi das Cruzes. Tem raios. Atinge cidades vizinhas. Busque abrigo.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T17:18:42-03:00",
       "expires": "2026-04-28T19:20:00-03:00"
     },
@@ -354,7 +432,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:17h13 Chuva forte isolada na regiao de Rio das Pedras. Tem raios. Atinge cidades vizinhas. Busque abrigo.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T17:14:07-03:00",
       "expires": "2026-04-28T19:10:00-03:00"
     },
@@ -367,7 +445,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:17h11 Chuva isolada na regiao de Itatiba. Tem raios. Atinge cidades vizinhas. Busque abrigo.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T17:11:20-03:00",
       "expires": "2026-04-28T19:10:00-03:00"
     },
@@ -380,7 +458,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:17h01 Chuva isolada na regiao de Piracicaba. Tem raios. Atinge cidades vizinhas. Busque abrigo.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T17:01:49-03:00",
       "expires": "2026-04-28T19:00:00-03:00"
     },
@@ -393,7 +471,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:16h59 Chuva isolada na regiao de Itaquaquecetuba e Aruja. Tem raios. Atinge cidades vizinhas. Busque abrigo.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T16:59:44-03:00",
       "expires": "2026-04-28T18:55:00-03:00"
     },
@@ -406,7 +484,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:Chuva forte isolada na regiao de Elias Fausto, Capivari e Hortolandia. Tem raios, ventos e granizo. Atinge cidades vizinhas. Abrigue-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T16:56:22-03:00",
       "expires": "2026-04-28T18:55:00-03:00"
     },
@@ -419,7 +497,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:16h51 Chuva isolada na regiao de Elias Fausto, Monte Mor, Hortolandia e Sumare. Tem raios. Atinge cidades vizinhas. Tome cuidado!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T16:51:52-03:00",
       "expires": "2026-04-28T18:50:00-03:00"
     },
@@ -445,7 +523,7 @@
       "uf": "PA",
       "location": "Parauapebas/PA",
       "headline": "Defesa Civil:¿Ha risco moderado de chuvas Intensas nas proximas 24h. Fique em estado de ATENCAO e caso de Emergencia, ligue para Defesa Civil190",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T16:39:44-03:00",
       "expires": "2026-04-28T18:55:00-03:00"
     },
@@ -458,7 +536,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:16h38 Chuva isolada na regiao de Casa Branca. Tem raios. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T16:38:42-03:00",
       "expires": "2026-04-28T18:35:00-03:00"
     },
@@ -484,7 +562,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:16h36 Chuva avancando pela regiao de Campinas. Tem raios. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T16:36:59-03:00",
       "expires": "2026-04-28T18:35:00-03:00"
     },
@@ -497,7 +575,7 @@
       "uf": "PR",
       "location": "Guamiranga/PR, Prudentópolis/PR",
       "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T16:35:50-03:00",
       "expires": "2026-04-28T19:35:00-03:00"
     },
@@ -744,7 +822,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T14:55:54-03:00",
       "expires": "2026-04-28T19:00:00-03:00"
     },
@@ -822,7 +900,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13:55 - Chuva isolada na regiao de Sao Jose dos Campos. Tem vento e raios. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T13:58:02-03:00",
       "expires": "2026-04-28T19:00:00-03:00"
     },
@@ -1059,73 +1137,21 @@
       "status": "expirado",
       "onset": "2026-04-27T20:14:03-03:00",
       "expires": "2026-04-28T00:30:00-03:00"
-    },
-    {
-      "date": "27/04/2026",
-      "time": "19:35",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-04-27T19:35:39-03:00",
-      "expires": "2026-04-28T01:30:00-03:00"
-    },
-    {
-      "date": "27/04/2026",
-      "time": "19:14",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento.   Nao enfrente areas alagadas. Procure local seguro.  Em caso de emergencia ligue: 199/193.",
-      "status": "expirado",
-      "onset": "2026-04-27T19:14:32-03:00",
-      "expires": "2026-04-28T01:00:00-03:00"
-    },
-    {
-      "date": "27/04/2026",
-      "time": "18:38",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:Alerta de Alagamentos para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil Local. Evite transitar por vias alagadas.",
-      "status": "expirado",
-      "onset": "2026-04-27T18:38:49-03:00",
-      "expires": "2026-04-27T21:00:00-03:00"
-    },
-    {
-      "date": "27/04/2026",
-      "time": "18:37",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa.   Proteja-se e acompanhe as atualizacoes  Em caso de emergencia ligue: 199/193.",
-      "status": "expirado",
-      "onset": "2026-04-27T18:37:13-03:00",
-      "expires": "2026-04-27T22:20:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 70,
+    "total_alerts": 72,
     "by_nivel": {
-      "Médio": 52,
+      "Médio": 56,
       "Alto": 14,
-      "Severo": 4
+      "Severo": 2
     },
     "by_channel_list": {
-      "Google": 70
+      "Google": 72
     },
     "by_region": {
-      "SE": 49,
-      "N": 13,
+      "SE": 55,
+      "N": 9,
       "NE": 4,
       "S": 3,
       "CO": 1
