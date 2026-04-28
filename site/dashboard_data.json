@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-28T03:47:17.620100-03:00",
-  "source_run_dir": "run_20260428_034643",
+  "generated_at": "2026-04-28T07:27:24.797816-03:00",
+  "source_run_dir": "run_20260428_072700",
   "cards": {
-    "vigentes": 12,
-    "ultimas24h": 67,
-    "autoridadesAtivas": 17,
+    "vigentes": 11,
+    "ultimas24h": 63,
+    "autoridadesAtivas": 18,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "06:57",
+      "date": "28/04/2026",
+      "senderName": "Defesa Civil Mangaratiba (RJ)",
+      "senderNameShort": "Defesa Civil Mangaratiba (R…",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Mangaratiba/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
+      "status": "vigente"
+    },
     {
       "time": "00:07",
       "date": "28/04/2026",
@@ -18,7 +30,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "23:22",
@@ -55,30 +67,18 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite transitar por areas de risco. Siga as orientacoes da defesa civil local",
       "status": "expirado"
-    },
-    {
-      "time": "22:20",
-      "date": "27/04/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:22h19 - Chuva na regiao de Biritiba Mirim e Guararema. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 17
-    },
-    {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
       "count": 13
+    },
+    {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 12
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -116,15 +116,15 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil Estadual de Sergipe",
-      "short_name": "DC Sergipe",
+      "name": "Defesa Civil Mangaratiba (RJ)",
+      "short_name": "Defesa Civil Mangaratiba (RJ)",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 41
+      "count": 37
     },
     {
       "label": "Alto",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 54
+      "count": 50
     },
     {
       "label": "Alagamentos",
@@ -167,12 +167,12 @@
   ],
   "uf_distribution": [
     {
-      "uf": "SP",
-      "count": 17
-    },
-    {
       "uf": "AM",
       "count": 16
+    },
+    {
+      "uf": "SP",
+      "count": 12
     },
     {
       "uf": "PA",
@@ -188,7 +188,7 @@
     },
     {
       "uf": "RJ",
-      "count": 3
+      "count": 4
     },
     {
       "uf": "MT",
@@ -214,14 +214,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 12
+      "count": 11
     },
     {
       "label": "expirado",
-      "count": 55
+      "count": 52
     }
   ],
   "all_alerts": [
+    {
+      "date": "28/04/2026",
+      "time": "06:57",
+      "senderName": "Defesa Civil Mangaratiba (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Mangaratiba/RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
+      "status": "vigente",
+      "onset": "2026-04-28T06:57:43-03:00",
+      "expires": "2026-04-28T23:55:00-03:00"
+    },
     {
       "date": "28/04/2026",
       "time": "00:07",
@@ -231,7 +244,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T00:07:04-03:00",
       "expires": "2026-04-28T04:30:00-03:00"
     },
@@ -582,7 +595,7 @@
       "uf": "PE",
       "location": "Ipojuca/PE",
       "headline": "Defesa Civil:Alerta de chuva moderada a forte nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Tel.:0800-281-0620/99231-8607 (WhatsApp)Plantao 24",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-27T16:30:59-03:00",
       "expires": "2026-04-28T06:30:00-03:00"
     },
@@ -1027,86 +1040,21 @@
       "status": "expirado",
       "onset": "2026-04-27T07:30:50-03:00",
       "expires": "2026-04-27T11:30:00-03:00"
-    },
-    {
-      "date": "27/04/2026",
-      "time": "07:06",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:07h06 - Chuva se espalhando na regiao de Santa Cruz do Rio Pardo. Tem vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-27T07:06:42-03:00",
-      "expires": "2026-04-27T09:05:00-03:00"
-    },
-    {
-      "date": "27/04/2026",
-      "time": "07:03",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:07h02 - Chuva se espalhando na regiao de Porangaba e Pereiras. Tem vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-27T07:03:32-03:00",
-      "expires": "2026-04-27T09:00:00-03:00"
-    },
-    {
-      "date": "27/04/2026",
-      "time": "05:59",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:06h00 - Chuva se espalhando na regiao de Itabera e Itarare. Tem vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-27T05:59:18-03:00",
-      "expires": "2026-04-27T08:00:00-03:00"
-    },
-    {
-      "date": "27/04/2026",
-      "time": "05:34",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:05h32 - Chuva se espalhando na regiao de Nantes e Taruma. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-27T05:34:59-03:00",
-      "expires": "2026-04-27T07:30:00-03:00"
-    },
-    {
-      "date": "27/04/2026",
-      "time": "04:28",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:04h25 - Chuva isolada na regiao do Mirante do Paranapanema. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-27T04:28:39-03:00",
-      "expires": "2026-04-27T06:25:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 67,
+    "total_alerts": 63,
     "by_nivel": {
-      "Médio": 41,
+      "Médio": 37,
       "Alto": 22,
       "Severo": 4
     },
     "by_channel_list": {
-      "Google": 67
+      "Google": 63
     },
     "by_region": {
       "N": 28,
-      "SE": 25,
+      "SE": 21,
       "NE": 8,
       "S": 4,
       "CO": 2
