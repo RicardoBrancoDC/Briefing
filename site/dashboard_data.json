@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-04-29T01:06:14.171020-03:00",
-  "source_run_dir": "run_20260429_010540",
+  "generated_at": "2026-04-29T03:40:41.311830-03:00",
+  "source_run_dir": "run_20260429_034001",
   "cards": {
-    "vigentes": 9,
-    "ultimas24h": 68,
+    "vigentes": 11,
+    "ultimas24h": 72,
     "autoridadesAtivas": 13,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "02:40",
+      "date": "29/04/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 29/04 02:36 - CHUVA PERSISTENTE de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Norte, Médio e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "02:03",
+      "date": "29/04/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "01:09",
+      "date": "29/04/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "01:06",
+      "date": "29/04/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:01h05 Chuva isolada na regiao de Sao Bento do Sapucai. Tem vento. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
+      "status": "expirado"
+    },
     {
       "time": "00:56",
       "date": "29/04/2026",
@@ -19,61 +67,13 @@
       "uf": "SP",
       "headline": "Defesa Civil:00h55 Chuva isolada na regiao de Sao Jose do Barreiro. Tem vento. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
       "status": "vigente"
-    },
-    {
-      "time": "22:29",
-      "date": "28/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "22:10",
-      "date": "28/04/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:22h10 Chuva persiste na regiao de Cunha e Guaratingueta. Tem raios. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado"
-    },
-    {
-      "time": "22:00",
-      "date": "28/04/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "location": "Florianópolis/SC, Itajaí/SC",
-      "uf": "SC",
-      "headline": "Observação Marítima SDC/SC 28/04 13:00 - Alagamentos costeiros entre a noite de terça (28) e tarde de quarta-feira (29). Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "21:52",
-      "date": "28/04/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 28/04 21:51 - CHUVA de intensidade moderada a forte com ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Sul e Alto Vale do Itajaí nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 42
+      "count": 43
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -83,12 +83,17 @@
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
       "count": 4
+    },
+    {
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
+      "count": 3
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
@@ -106,11 +111,6 @@
       "count": 1
     },
     {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
-      "count": 1
-    },
-    {
       "name": "Defesa Civil de Blumenau (SC)",
       "short_name": "DC Blumenau (SC)",
       "count": 1
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 59
+      "count": 61
     },
     {
       "label": "Alto",
-      "count": 8
+      "count": 10
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 66
+      "count": 70
     },
     {
       "label": "Alagamentos",
@@ -152,19 +152,23 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 42
+      "count": 43
+    },
+    {
+      "uf": "SC",
+      "count": 7
     },
     {
       "uf": "MG",
       "count": 7
     },
     {
-      "uf": "SC",
-      "count": 6
-    },
-    {
       "uf": "AM",
       "count": 4
+    },
+    {
+      "uf": "PR",
+      "count": 3
     },
     {
       "uf": "PE",
@@ -179,10 +183,6 @@
       "count": 2
     },
     {
-      "uf": "PR",
-      "count": 1
-    },
-    {
       "uf": "MT",
       "count": 1
     },
@@ -194,14 +194,66 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 9
+      "count": 11
     },
     {
       "label": "expirado",
-      "count": 59
+      "count": 61
     }
   ],
   "all_alerts": [
+    {
+      "date": "29/04/2026",
+      "time": "02:40",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 29/04 02:36 - CHUVA PERSISTENTE de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Norte, Médio e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-04-29T02:40:26-03:00",
+      "expires": "2026-04-29T06:35:00-03:00"
+    },
+    {
+      "date": "29/04/2026",
+      "time": "02:03",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-04-29T02:03:31-03:00",
+      "expires": "2026-04-29T06:00:00-03:00"
+    },
+    {
+      "date": "29/04/2026",
+      "time": "01:09",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-04-29T01:09:37-03:00",
+      "expires": "2026-04-29T04:10:00-03:00"
+    },
+    {
+      "date": "29/04/2026",
+      "time": "01:06",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:01h05 Chuva isolada na regiao de Sao Bento do Sapucai. Tem vento. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
+      "status": "expirado",
+      "onset": "2026-04-29T01:06:05-03:00",
+      "expires": "2026-04-29T03:05:00-03:00"
+    },
     {
       "date": "29/04/2026",
       "time": "00:56",
@@ -224,7 +276,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-28T22:29:06-03:00",
       "expires": "2026-04-29T02:15:00-03:00"
     },
@@ -1088,18 +1140,18 @@
     }
   ],
   "summary": {
-    "total_alerts": 68,
+    "total_alerts": 72,
     "by_nivel": {
-      "Médio": 59,
-      "Alto": 8,
+      "Médio": 61,
+      "Alto": 10,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 68
+      "Google": 72
     },
     "by_region": {
-      "SE": 50,
-      "S": 7,
+      "SE": 51,
+      "S": 10,
       "N": 6,
       "NE": 4,
       "CO": 1
