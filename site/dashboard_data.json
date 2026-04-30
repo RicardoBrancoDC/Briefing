@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-04-30T03:44:17.893251-03:00",
-  "source_run_dir": "run_20260430_034356",
+  "generated_at": "2026-04-30T07:21:06.274234-03:00",
+  "source_run_dir": "run_20260430_072053",
   "cards": {
-    "vigentes": 3,
-    "ultimas24h": 137,
-    "autoridadesAtivas": 10,
+    "vigentes": 2,
+    "ultimas24h": 133,
+    "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
@@ -88,7 +88,7 @@
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 9
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
@@ -114,17 +114,12 @@
       "name": "Defesa Civil Estadual de Mato Grosso",
       "short_name": "DC Mato Grosso",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Blumenau (SC)",
-      "short_name": "DC Blumenau (SC)",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 83
+      "count": 79
     },
     {
       "label": "Alto",
@@ -138,7 +133,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 124
+      "count": 120
     },
     {
       "label": "Vendaval",
@@ -168,7 +163,7 @@
     },
     {
       "uf": "SC",
-      "count": 10
+      "count": 6
     },
     {
       "uf": "RJ",
@@ -186,11 +181,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 3
+      "count": 2
     },
     {
       "label": "expirado",
-      "count": 134
+      "count": 131
     }
   ],
   "all_alerts": [
@@ -463,7 +458,7 @@
       "uf": "RJ",
       "location": "Itaguaí/RJ",
       "headline": "Defesa Civil:ITAGUAI-Nucleos de chuva atuam no municipio ocasionando chuvaFraca/Moderada nas proximas horas. Em caso de Emergencia ligue: 199",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-29T20:16:42-03:00",
       "expires": "2026-04-30T06:10:00-03:00"
     },
@@ -1922,73 +1917,21 @@
       "status": "expirado",
       "onset": "2026-04-29T07:25:36-03:00",
       "expires": "2026-04-29T10:20:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "06:58",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 29/04 06:56 - CHUVA PERSISTENTE de intensidade moderada com RAIOS e ALAGAMENTOS pontuais para áreas das regiões do Meio-Oeste, Planalto Norte e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-29T06:58:52-03:00",
-      "expires": "2026-04-29T10:55:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "06:18",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 29/04 06:16 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Araquari, Balneário Barra do Sul, Campo Alegre, Garuva, Guaramirim, Itapoá, Joinville, Schroeder e São Francisco do Sul nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-29T06:18:06-03:00",
-      "expires": "2026-04-29T09:15:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "04:52",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 29/04 04:49 - CHUVA PERSISTENTE de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Norte, Litoral Norte, Planalto Sul, Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-29T04:52:16-03:00",
-      "expires": "2026-04-29T08:50:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "04:31",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "Blumenau/SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas de chuva c/ trovoadas nas prox. 03h em BNU. Nao se descarta risco de chuva intensa. Fique atento! Emerg 199/193.",
-      "status": "expirado",
-      "onset": "2026-04-29T04:31:26-03:00",
-      "expires": "2026-04-29T08:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 137,
+    "total_alerts": 133,
     "by_nivel": {
-      "Médio": 83,
+      "Médio": 79,
       "Alto": 46,
       "Severo": 8
     },
     "by_channel_list": {
-      "Google": 137
+      "Google": 133
     },
     "by_region": {
       "SE": 66,
-      "S": 54,
+      "S": 50,
       "N": 14,
       "NE": 2,
       "CO": 1
