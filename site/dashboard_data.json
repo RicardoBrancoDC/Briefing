@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-04-30T18:17:40.788629-03:00",
-  "source_run_dir": "run_20260430_181709",
+  "generated_at": "2026-04-30T20:13:27.722424-03:00",
+  "source_run_dir": "run_20260430_201249",
   "cards": {
     "vigentes": 19,
-    "ultimas24h": 53,
+    "ultimas24h": 46,
     "autoridadesAtivas": 16,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "19:42",
+      "date": "30/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Apuí/AM, Boca do Acre/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "18:54",
+      "date": "30/04/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "17:25",
       "date": "30/04/2026",
@@ -43,47 +67,23 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
       "status": "vigente"
-    },
-    {
-      "time": "17:08",
-      "date": "30/04/2026",
-      "senderName": "Defesa Civil de Ipojuca (PE)",
-      "senderNameShort": "DC Ipojuca (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Ipojuca/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:Alerta para chuvas de moderada a forte nas proximas 24h. Ao menor sinal de perigo acione a defesa .:0800-281-0620/99231-8607.Plantao 24h.",
-      "status": "vigente"
-    },
-    {
-      "time": "17:05",
-      "date": "30/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "location": "São Paulo de Olivença/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:CHEIA EM SAO PAULO DE OLIVENCA. Proteja sua familia e animais. Garanta agua, comida e remedio. Va para lugar seguro. Siga orientacao Defesa Civil.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 21
+      "count": 15
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 8
+      "count": 10
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 7
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual de Pernambuco",
@@ -124,21 +124,17 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 27
+      "count": 22
     },
     {
       "label": "Alto",
-      "count": 25
-    },
-    {
-      "label": "Severo",
-      "count": 1
+      "count": 24
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 51
+      "count": 44
     },
     {
       "label": "Inundações",
@@ -148,11 +144,11 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 21
+      "count": 15
     },
     {
       "uf": "AM",
-      "count": 9
+      "count": 11
     },
     {
       "uf": "PE",
@@ -160,7 +156,7 @@
     },
     {
       "uf": "PR",
-      "count": 7
+      "count": 4
     },
     {
       "uf": "RJ",
@@ -190,10 +186,36 @@
     },
     {
       "label": "expirado",
-      "count": 34
+      "count": 27
     }
   ],
   "all_alerts": [
+    {
+      "date": "30/04/2026",
+      "time": "19:42",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Apuí/AM, Boca do Acre/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-30T19:42:52-03:00",
+      "expires": "2026-04-30T23:30:00-03:00"
+    },
+    {
+      "date": "30/04/2026",
+      "time": "18:54",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-04-30T18:54:40-03:00",
+      "expires": "2026-04-30T21:30:00-03:00"
+    },
     {
       "date": "30/04/2026",
       "time": "17:25",
@@ -333,7 +355,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-30T16:10:24-03:00",
       "expires": "2026-04-30T19:30:00-03:00"
     },
@@ -346,7 +368,7 @@
       "uf": "AM",
       "location": "Rio Preto da Eva/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-30T15:59:39-03:00",
       "expires": "2026-04-30T18:30:00-03:00"
     },
@@ -765,140 +787,22 @@
       "status": "expirado",
       "onset": "2026-04-29T20:16:42-03:00",
       "expires": "2026-04-30T06:10:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "20:03",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-29T20:03:23-03:00",
-      "expires": "2026-04-29T23:05:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "19:03",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:19h02 Chuva isolada na regiao de Natividade da Serra e Sao Luiz do Paraitinga. Tem ventos. Atinge cidades vizinhas. Busque abrigo.",
-      "status": "expirado",
-      "onset": "2026-04-29T19:03:15-03:00",
-      "expires": "2026-04-29T21:05:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "18:56",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:18h56 Chuva forte isolada na regiao de Itatiba e Morungaba. Tem raios. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-04-29T18:56:37-03:00",
-      "expires": "2026-04-29T20:55:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "18:55",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:18h54 Chuva avancando pela regiao de Barra do Turvo. Tem raios e ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-04-29T18:55:00-03:00",
-      "expires": "2026-04-29T20:55:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "18:40",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-29T18:40:39-03:00",
-      "expires": "2026-04-29T21:40:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "18:39",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:18h38 Chuva forte isolada na regiao de Redencao da Serra. Tem raios. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-04-29T18:39:01-03:00",
-      "expires": "2026-04-29T20:40:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "18:37",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:18h37 Chuva forte isolada na regiao de Campinas e Valinhos. Tem raios. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-04-29T18:37:26-03:00",
-      "expires": "2026-04-29T20:35:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "18:36",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-29T18:36:50-03:00",
-      "expires": "2026-04-29T21:35:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "18:17",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:Chuva forte na regiao de Sumare, Americana, Nova Odessa e Paulinia. Tem raios, ventos e chance de granizo. Atinge cidades vizinhas. Abrigue-se!",
-      "status": "expirado",
-      "onset": "2026-04-29T18:17:46-03:00",
-      "expires": "2026-04-29T20:15:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 53,
+    "total_alerts": 46,
     "by_nivel": {
-      "Médio": 27,
-      "Alto": 25,
-      "Severo": 1
+      "Alto": 24,
+      "Médio": 22
     },
     "by_channel_list": {
-      "Google": 53
+      "Google": 46
     },
     "by_region": {
-      "SE": 24,
-      "N": 11,
+      "SE": 18,
+      "N": 13,
       "NE": 11,
-      "S": 7
+      "S": 4
     }
   }
 }
