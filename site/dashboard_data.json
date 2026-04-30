@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-04-30T01:07:30.884552-03:00",
-  "source_run_dir": "run_20260430_010709",
+  "generated_at": "2026-04-30T03:44:17.893251-03:00",
+  "source_run_dir": "run_20260430_034356",
   "cards": {
-    "vigentes": 12,
-    "ultimas24h": 139,
+    "vigentes": 3,
+    "ultimas24h": 137,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "01:10",
+      "date": "30/04/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:01h09 Chuva em Bastos, Biritiba Mirim, Sao Sebastiao e Ilhabela. Tem raios e ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
+      "status": "expirado"
+    },
     {
       "time": "00:34",
       "date": "30/04/2026",
@@ -18,7 +30,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:00h34 Chuva persistente em Bastos, Assis e Marilia. Tem raios e ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "00:30",
@@ -30,7 +42,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:00h30 Chuva na regiao de Castilho. Tem raios e ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "23:33",
@@ -42,7 +54,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:23h33 Chuva na regiao de Presidente Prudente e Martinopolis. Tem raios e ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "23:29",
@@ -54,31 +66,19 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:23h30 Chuva na regiao de Duartina. Tem raios e ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "vigente"
-    },
-    {
-      "time": "23:25",
-      "date": "29/04/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:23h24 Chuva persistente em Barra do Turvo, Apiai e Cananeia. Tem raios e ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 63
+      "count": 64
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 46
+      "count": 44
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -88,7 +88,7 @@
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Alto",
-      "count": 48
+      "count": 46
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 126
+      "count": 124
     },
     {
       "label": "Vendaval",
@@ -156,11 +156,11 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 63
+      "count": 64
     },
     {
       "uf": "PR",
-      "count": 46
+      "count": 44
     },
     {
       "uf": "AM",
@@ -168,7 +168,7 @@
     },
     {
       "uf": "SC",
-      "count": 11
+      "count": 10
     },
     {
       "uf": "RJ",
@@ -186,14 +186,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 12
+      "count": 3
     },
     {
       "label": "expirado",
-      "count": 127
+      "count": 134
     }
   ],
   "all_alerts": [
+    {
+      "date": "30/04/2026",
+      "time": "01:10",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:01h09 Chuva em Bastos, Biritiba Mirim, Sao Sebastiao e Ilhabela. Tem raios e ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
+      "status": "expirado",
+      "onset": "2026-04-30T01:10:12-03:00",
+      "expires": "2026-04-30T03:30:00-03:00"
+    },
     {
       "date": "30/04/2026",
       "time": "00:34",
@@ -203,7 +216,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:00h34 Chuva persistente em Bastos, Assis e Marilia. Tem raios e ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-30T00:34:15-03:00",
       "expires": "2026-04-30T03:00:00-03:00"
     },
@@ -216,7 +229,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:00h30 Chuva na regiao de Castilho. Tem raios e ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-30T00:30:05-03:00",
       "expires": "2026-04-30T02:30:00-03:00"
     },
@@ -229,7 +242,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:23h33 Chuva na regiao de Presidente Prudente e Martinopolis. Tem raios e ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-29T23:33:26-03:00",
       "expires": "2026-04-30T01:55:00-03:00"
     },
@@ -242,7 +255,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:23h30 Chuva na regiao de Duartina. Tem raios e ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-29T23:29:42-03:00",
       "expires": "2026-04-30T01:45:00-03:00"
     },
@@ -255,7 +268,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:23h24 Chuva persistente em Barra do Turvo, Apiai e Cananeia. Tem raios e ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-29T23:25:30-03:00",
       "expires": "2026-04-30T02:05:00-03:00"
     },
@@ -268,7 +281,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:23h15 Chuva na regiao de Santa Cruz do Rio Pardo. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-29T23:15:23-03:00",
       "expires": "2026-04-30T01:35:00-03:00"
     },
@@ -281,7 +294,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:23h08 Chuva na regiao de Presidente Epitacio. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-29T23:09:30-03:00",
       "expires": "2026-04-30T01:15:00-03:00"
     },
@@ -307,7 +320,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-29T22:20:42-03:00",
       "expires": "2026-04-30T01:20:00-03:00"
     },
@@ -333,7 +346,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-29T22:12:35-03:00",
       "expires": "2026-04-30T01:10:00-03:00"
     },
@@ -1961,60 +1974,21 @@
       "status": "expirado",
       "onset": "2026-04-29T04:31:26-03:00",
       "expires": "2026-04-29T08:00:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "02:40",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 29/04 02:36 - CHUVA PERSISTENTE de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Norte, Médio e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-29T02:40:26-03:00",
-      "expires": "2026-04-29T06:35:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "02:03",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-29T02:03:31-03:00",
-      "expires": "2026-04-29T06:00:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "01:09",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-29T01:09:37-03:00",
-      "expires": "2026-04-29T04:10:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 139,
+    "total_alerts": 137,
     "by_nivel": {
       "Médio": 83,
-      "Alto": 48,
+      "Alto": 46,
       "Severo": 8
     },
     "by_channel_list": {
-      "Google": 139
+      "Google": 137
     },
     "by_region": {
-      "SE": 65,
-      "S": 57,
+      "SE": 66,
+      "S": 54,
       "N": 14,
       "NE": 2,
       "CO": 1
