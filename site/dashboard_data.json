@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-04-30T20:13:27.722424-03:00",
-  "source_run_dir": "run_20260430_201249",
+  "generated_at": "2026-05-01T01:32:43.763003-03:00",
+  "source_run_dir": "run_20260501_013209",
   "cards": {
-    "vigentes": 19,
-    "ultimas24h": 46,
-    "autoridadesAtivas": 16,
+    "vigentes": 13,
+    "ultimas24h": 27,
+    "autoridadesAtivas": 14,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "21:27",
+      "date": "30/04/2026",
+      "senderName": "Defesa Civil Estadual do Ceará",
+      "senderNameShort": "DC Ceará",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "CEARÁ-CE",
+      "uf": "CE",
+      "headline": "Defesa Civil:(CEARA) Possibilidade de chuva MODERADA, evite areas alagadas, possibilidade de rajada de ventos e raios. Fonte: FUNCEME. EMERGENCIA: 193/190.",
+      "status": "vigente"
+    },
+    {
+      "time": "21:22",
+      "date": "30/04/2026",
+      "senderName": "Defesa Civil de Niterói (RJ)",
+      "senderNameShort": "DC Niterói (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Niterói/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Niteroi: Previsao de pancadas chuva moderada/forte isoladas para as proximas horas. Em caso de emergencia, ligue 199.",
+      "status": "expirado"
+    },
     {
       "time": "19:42",
       "date": "30/04/2026",
@@ -18,7 +42,7 @@
       "location": "Apuí/AM, Boca do Acre/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "18:54",
@@ -30,7 +54,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:25",
@@ -43,47 +67,13 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA: CHEIA DO RIO MADEIRA. Proteja sua familia e animais. Garanta agua, comida e remedios. Va para lugar seguro. Siga orientacao Defesa Civil.",
       "status": "vigente"
-    },
-    {
-      "time": "17:21",
-      "date": "30/04/2026",
-      "senderName": "Defesa Civil de Recife (PE)",
-      "senderNameShort": "DC Recife (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Recife/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:ALERTA DE CHUVAS COM INTENSIDADE MODERADA PONTUALMENTE FORTE ate as 23:00hs de 01/05/2026. Busque abrigo e evite areas alagadas.",
-      "status": "vigente"
-    },
-    {
-      "time": "17:14",
-      "date": "30/04/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Parintins/AM, Nhamundá/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 15
-    },
-    {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
       "count": 10
-    },
-    {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
-      "count": 4
     },
     {
       "name": "Defesa Civil Estadual de Pernambuco",
@@ -99,6 +89,16 @@
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual do Ceará",
+      "short_name": "DC Ceará",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Niterói (RJ)",
+      "short_name": "DC Niterói (RJ)",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Recife (PE)",
@@ -124,17 +124,17 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 22
+      "count": 16
     },
     {
       "label": "Alto",
-      "count": 24
+      "count": 11
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 44
+      "count": 25
     },
     {
       "label": "Inundações",
@@ -142,10 +142,6 @@
     }
   ],
   "uf_distribution": [
-    {
-      "uf": "SP",
-      "count": 15
-    },
     {
       "uf": "AM",
       "count": 11
@@ -155,12 +151,8 @@
       "count": 7
     },
     {
-      "uf": "PR",
-      "count": 4
-    },
-    {
       "uf": "RJ",
-      "count": 3
+      "count": 2
     },
     {
       "uf": "PA",
@@ -169,6 +161,10 @@
     {
       "uf": "PI",
       "count": 2
+    },
+    {
+      "uf": "CE",
+      "count": 1
     },
     {
       "uf": "PB",
@@ -182,14 +178,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 19
+      "count": 13
     },
     {
       "label": "expirado",
-      "count": 27
+      "count": 14
     }
   ],
   "all_alerts": [
+    {
+      "date": "30/04/2026",
+      "time": "21:27",
+      "senderName": "Defesa Civil Estadual do Ceará",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "CE",
+      "location": "CEARÁ-CE",
+      "headline": "Defesa Civil:(CEARA) Possibilidade de chuva MODERADA, evite areas alagadas, possibilidade de rajada de ventos e raios. Fonte: FUNCEME. EMERGENCIA: 193/190.",
+      "status": "vigente",
+      "onset": "2026-04-30T21:27:00-03:00",
+      "expires": "2026-05-01T10:10:00-03:00"
+    },
+    {
+      "date": "30/04/2026",
+      "time": "21:22",
+      "senderName": "Defesa Civil de Niterói (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Niterói/RJ",
+      "headline": "Defesa Civil:Niteroi: Previsao de pancadas chuva moderada/forte isoladas para as proximas horas. Em caso de emergencia, ligue 199.",
+      "status": "expirado",
+      "onset": "2026-04-30T21:22:35-03:00",
+      "expires": "2026-04-30T23:55:00-03:00"
+    },
     {
       "date": "30/04/2026",
       "time": "19:42",
@@ -199,7 +221,7 @@
       "uf": "AM",
       "location": "Apuí/AM, Boca do Acre/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-30T19:42:52-03:00",
       "expires": "2026-04-30T23:30:00-03:00"
     },
@@ -212,7 +234,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-30T18:54:40-03:00",
       "expires": "2026-04-30T21:30:00-03:00"
     },
@@ -251,7 +273,7 @@
       "uf": "AM",
       "location": "Parintins/AM, Nhamundá/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-30T17:14:15-03:00",
       "expires": "2026-04-30T20:30:00-03:00"
     },
@@ -381,7 +403,7 @@
       "uf": "PA",
       "location": "Parauapebas/PA",
       "headline": "Defesa Civil:Ha ocorrencia de chuvas intensas, estamos em estado de ALERTA, risco de corte energia, alagamentos, enxurradas e inundacoes. Emergencia ligue 190.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-30T15:18:42-03:00",
       "expires": "2026-04-30T23:55:00-03:00"
     },
@@ -472,7 +494,7 @@
       "uf": "PA",
       "location": "Belém/PA",
       "headline": "Defesa Civil:SUMDEC: Alerta de chuvas intensas e raios (nivel intenso) valido para hoje (30/ABR), com possibilidade de pancadas mais fortes nas proximas horas!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-30T14:01:20-03:00",
       "expires": "2026-04-30T23:55:00-03:00"
     },
@@ -498,7 +520,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS no PIAUI. Proteja-se! EVITE LOCAIS DE ALAGAMENTOS E ENXURRADAS. Em caso de emergencia, LIGUE 193 ou 190.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-30T13:37:08-03:00",
       "expires": "2026-04-30T23:55:00-03:00"
     },
@@ -511,298 +533,24 @@
       "uf": "PI",
       "location": "Parnaíba/PI",
       "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS em Parnaiba/PI. Proteja-se! EVITE LOCAIS DE ALAGAMENTOS E ENXURRADAS. Em caso de emergencia, LIGUE 193 ou 190.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-04-30T13:33:13-03:00",
       "expires": "2026-04-30T23:55:00-03:00"
-    },
-    {
-      "date": "30/04/2026",
-      "time": "01:10",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:01h09 Chuva em Bastos, Biritiba Mirim, Sao Sebastiao e Ilhabela. Tem raios e ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-04-30T01:10:12-03:00",
-      "expires": "2026-04-30T03:30:00-03:00"
-    },
-    {
-      "date": "30/04/2026",
-      "time": "00:34",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:00h34 Chuva persistente em Bastos, Assis e Marilia. Tem raios e ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-04-30T00:34:15-03:00",
-      "expires": "2026-04-30T03:00:00-03:00"
-    },
-    {
-      "date": "30/04/2026",
-      "time": "00:30",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:00h30 Chuva na regiao de Castilho. Tem raios e ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-04-30T00:30:05-03:00",
-      "expires": "2026-04-30T02:30:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "23:33",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:23h33 Chuva na regiao de Presidente Prudente e Martinopolis. Tem raios e ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-04-29T23:33:26-03:00",
-      "expires": "2026-04-30T01:55:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "23:29",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:23h30 Chuva na regiao de Duartina. Tem raios e ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-04-29T23:29:42-03:00",
-      "expires": "2026-04-30T01:45:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "23:25",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:23h24 Chuva persistente em Barra do Turvo, Apiai e Cananeia. Tem raios e ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-04-29T23:25:30-03:00",
-      "expires": "2026-04-30T02:05:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "23:15",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:23h15 Chuva na regiao de Santa Cruz do Rio Pardo. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-29T23:15:23-03:00",
-      "expires": "2026-04-30T01:35:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "23:09",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:23h08 Chuva na regiao de Presidente Epitacio. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-29T23:09:30-03:00",
-      "expires": "2026-04-30T01:15:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "23:04",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:23h04 Chuva em Paranapanema, Buri e Capao Bonito. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-29T23:04:43-03:00",
-      "expires": "2026-04-30T01:05:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "22:20",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-29T22:20:42-03:00",
-      "expires": "2026-04-30T01:20:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "22:15",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:22h15 Chuva aproximando-se da regiao entre Maracai e Ourinhos. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-29T22:15:51-03:00",
-      "expires": "2026-04-30T00:25:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "22:12",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-29T22:12:35-03:00",
-      "expires": "2026-04-30T01:10:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "21:59",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:21h57 Chuva forte na regiao de Estrela do Norte e Nantes. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-29T21:59:09-03:00",
-      "expires": "2026-04-29T23:55:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "21:51",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:21h50 Chuva forte na regiao de Piraju. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-04-29T21:51:35-03:00",
-      "expires": "2026-04-29T23:55:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "21:40",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-29T21:40:51-03:00",
-      "expires": "2026-04-30T00:40:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "21:39",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:21h39 Chuva em Teodoro Sampaio. Aproximando-se de Mirante do Paranapanema . Tem vento e Raios. Atinge cidades vizinhas. Busque abrigo.",
-      "status": "expirado",
-      "onset": "2026-04-29T21:39:36-03:00",
-      "expires": "2026-04-29T23:45:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "20:57",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:20h57 Chuva na regiao de Itaporanga. Tem raios e vento. Atinge cidades vizinhas. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-04-29T20:57:19-03:00",
-      "expires": "2026-04-29T22:55:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "20:34",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-04-29T20:34:38-03:00",
-      "expires": "2026-04-29T23:30:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "20:23",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:20h24 Chuva persistente em Barra do Turvo, Apiai e Cananeia. Tem raios e ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-04-29T20:23:56-03:00",
-      "expires": "2026-04-29T22:35:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "20:18",
-      "senderName": "Defesa Civil de Angra dos Reis (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Angra dos Reis/RJ",
-      "headline": "Defesa Civil:ANGRA ALERTA: Alto volume de chuva registrado no municipio. Nao ha necessidade de deixar sua residencia. Atento a novos avisos. Tel 199/33654588",
-      "status": "expirado",
-      "onset": "2026-04-29T20:18:09-03:00",
-      "expires": "2026-04-30T08:00:00-03:00"
-    },
-    {
-      "date": "29/04/2026",
-      "time": "20:16",
-      "senderName": "Defesa Civil de Itaguaí (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Itaguaí/RJ",
-      "headline": "Defesa Civil:ITAGUAI-Nucleos de chuva atuam no municipio ocasionando chuvaFraca/Moderada nas proximas horas. Em caso de Emergencia ligue: 199",
-      "status": "expirado",
-      "onset": "2026-04-29T20:16:42-03:00",
-      "expires": "2026-04-30T06:10:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 46,
+    "total_alerts": 27,
     "by_nivel": {
-      "Alto": 24,
-      "Médio": 22
+      "Médio": 16,
+      "Alto": 11
     },
     "by_channel_list": {
-      "Google": 46
+      "Google": 27
     },
     "by_region": {
-      "SE": 18,
       "N": 13,
-      "NE": 11,
-      "S": 4
+      "NE": 12,
+      "SE": 2
     }
   }
 }
