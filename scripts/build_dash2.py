@@ -18,8 +18,11 @@ nome curto do emissor, evento curto, localização e agregações.
 import json
 import os
 import re
+import random
 import shutil
+import time
 import unicodedata
+from urllib.parse import urljoin
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -32,6 +35,17 @@ DEFAULT_SITE_DIR = "site"
 DEFAULT_WINDOW_HOURS = 24
 DEFAULT_GEOJSON_SOURCE = "resources/br_uf.geojson"
 DEFAULT_GEOJSON_TARGET = "site/data/br_uf.geojson"
+
+# Bandeiras municipais, opcional e incremental.
+# Se o site externo bloquear ou falhar, o dashboard continua funcionando.
+DEFAULT_FLAG_DOWNLOAD_ENABLED = "1"
+DEFAULT_FLAG_BASE_URL = "https://www.mbi.com.br"
+DEFAULT_FLAG_MAX_DOWNLOADS = 5
+DEFAULT_FLAG_MIN_SLEEP = 8
+DEFAULT_FLAG_MAX_SLEEP = 15
+DEFAULT_FLAG_DIR = "site/assets/flags/municipios"
+DEFAULT_FLAG_FAILURES_PATH = ".cache/flag_failures.json"
+DEFAULT_FLAG_FAILURE_RETRY_HOURS = 168
 
 TZ_BRASILIA = ZoneInfo("America/Sao_Paulo")
 
@@ -59,6 +73,36 @@ STATE_NAME_TO_UF = {
     "RIO GRANDE DO SUL": "RS", "RONDONIA": "RO", "RONDÔNIA": "RO",
     "RORAIMA": "RR", "SANTA CATARINA": "SC", "SAO PAULO": "SP",
     "SÃO PAULO": "SP", "SERGIPE": "SE", "TOCANTINS": "TO",
+}
+
+
+ESTADOS_MBI = {
+    "AC": "acre",
+    "AL": "alagoas",
+    "AP": "amapa",
+    "AM": "amazonas",
+    "BA": "bahia",
+    "CE": "ceara",
+    "ES": "espirito-santo",
+    "GO": "goias",
+    "MA": "maranhao",
+    "MT": "mato-grosso",
+    "MS": "mato-grosso-do-sul",
+    "MG": "minas-gerais",
+    "PA": "para",
+    "PB": "paraiba",
+    "PR": "parana",
+    "PE": "pernambuco",
+    "PI": "piaui",
+    "RJ": "rio-de-janeiro",
+    "RN": "rio-grande-do-norte",
+    "RS": "rio-grande-do-sul",
+    "RO": "rondonia",
+    "RR": "roraima",
+    "SC": "santa-catarina",
+    "SP": "sao-paulo",
+    "SE": "sergipe",
+    "TO": "tocantins",
 }
 
 
@@ -326,6 +370,300 @@ def make_latest_item(item: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 
+
+def slugify(value: Optional[str]) -> str:
+    txt = (value or "").strip().lower()
+    if not txt:
+        return ""
+
+    txt = unicodedata.normalize("NFD", txt)
+    txt = "".join(c for c in txt if unicodedata.category(c) != "Mn")
+    txt = re.sub(r"[^a-z0-9]+", "-", txt)
+    return re.sub(r"-+", "-", txt).strip("-")
+
+
+def extract_municipio_from_sender(sender_name: Optional[str]) -> Optional[tuple[str, str]]:
+    sender = (sender_name or "").strip()
+    if not sender:
+        return None
+
+    if re.search(r"Defesa\s+Civil\s+Estadual", sender, flags=re.IGNORECASE):
+        return None
+
+    patterns = [
+        r"Defesa\s+Civil\s+Municipal\s+de\s+(.+?)\s*\(([A-Z]{2})\)",
+        r"Defesa\s+Civil\s+do\s+Munic[ií]pio\s+de\s+(.+?)\s*\(([A-Z]{2})\)",
+        r"Defesa\s+Civil\s+de\s+(.+?)\s*\(([A-Z]{2})\)",
+        r"COMPDEC\s+de\s+(.+?)\s*\(([A-Z]{2})\)",
+    ]
+
+    for pat in patterns:
+        m = re.search(pat, sender, flags=re.IGNORECASE)
+        if m:
+            city = re.sub(r"\s+", " ", m.group(1)).strip()
+            uf = m.group(2).upper()
+            if city and uf in UF_TO_REGION:
+                return city, uf
+
+    return None
+
+
+def extract_municipio_from_location(location: Optional[str], uf_hint: Optional[str] = None) -> Optional[tuple[str, str]]:
+    loc = (location or "").strip()
+    if not loc:
+        return None
+
+    first = loc.split(",")[0].strip()
+
+    patterns = [
+        r"^(.+?)\s*/\s*([A-Z]{2})$",
+        r"^(.+?)\s*-\s*([A-Z]{2})$",
+        r"^(.+?)\s*\(([A-Z]{2})\)$",
+    ]
+
+    for pat in patterns:
+        m = re.search(pat, first, flags=re.IGNORECASE)
+        if m:
+            city = re.sub(r"\s+", " ", m.group(1)).strip()
+            uf = m.group(2).upper()
+            if city and uf in UF_TO_REGION:
+                return city, uf
+
+    uf = (uf_hint or "").strip().upper()
+    if uf in UF_TO_REGION and first and len(first) <= 60:
+        state_name = STATE_NAME_TO_UF.get(normalize_text(first))
+        if state_name == uf:
+            return None
+        return first, uf
+
+    return None
+
+
+def municipios_para_bandeiras(alerts: List[Dict[str, Any]]) -> list[tuple[str, str]]:
+    found: set[tuple[str, str]] = set()
+
+    for alert in alerts:
+        sender_pair = extract_municipio_from_sender(alert.get("senderName"))
+        if sender_pair:
+            found.add(sender_pair)
+            continue
+
+        loc_pair = extract_municipio_from_location(
+            alert.get("location") or alert.get("areaDesc"),
+            alert.get("uf") or alert.get("uf_hint"),
+        )
+        if loc_pair:
+            found.add(loc_pair)
+
+    return sorted(found, key=lambda x: (x[1], slugify(x[0])))
+
+
+def flag_failure_key(city: str, uf: str) -> str:
+    return f"{uf.upper()}::{slugify(city)}"
+
+
+def recently_failed(failures: Dict[str, Any], key: str, now_dt: datetime, retry_hours: int) -> bool:
+    raw = failures.get(key)
+    if not raw:
+        return False
+
+    dt = parse_iso(raw)
+    if not dt:
+        return False
+
+    elapsed = (now_dt - dt).total_seconds() / 3600
+    return elapsed < retry_hours
+
+
+def request_get(session: Any, url: str, timeout: int = 45) -> Optional[Any]:
+    try:
+        response = session.get(url, timeout=timeout)
+
+        if response.status_code == 404:
+            return None
+
+        if response.status_code in (403, 429):
+            print(f"[WARN] Site de bandeiras limitou acesso ({response.status_code}). Parando tentativa nesta execução.")
+            return "BLOCKED"
+
+        response.raise_for_status()
+        return response
+
+    except Exception as exc:
+        print(f"[WARN] Falha ao acessar {url}: {exc}")
+        return None
+
+
+def extrair_links_municipios(html: str, base_url: str) -> list[tuple[str, str]]:
+    try:
+        from bs4 import BeautifulSoup
+    except Exception:
+        print("[WARN] beautifulsoup4 não instalado. Pulando atualização de bandeiras.")
+        return []
+
+    soup = BeautifulSoup(html, "html.parser")
+    links: list[tuple[str, str]] = []
+
+    for a in soup.find_all("a", href=True):
+        name = a.get_text(" ", strip=True)
+        href = a.get("href") or ""
+
+        if not name or "municipio-" not in href:
+            continue
+
+        links.append((name, urljoin(base_url, href)))
+
+    return links
+
+
+def extrair_url_bandeira(html: str, base_url: str) -> Optional[str]:
+    try:
+        from bs4 import BeautifulSoup
+    except Exception:
+        return None
+
+    soup = BeautifulSoup(html, "html.parser")
+
+    for img in soup.find_all("img"):
+        src = img.get("src") or ""
+        if "bandeira" in src.lower():
+            return urljoin(base_url, src)
+
+    return None
+
+
+def atualizar_bandeiras_municipais(alerts: List[Dict[str, Any]], site_dir: Path, now_dt: datetime) -> None:
+    enabled = os.getenv("FLAG_DOWNLOAD_ENABLED", DEFAULT_FLAG_DOWNLOAD_ENABLED).strip().lower()
+    if enabled not in {"1", "true", "yes", "sim"}:
+        print("[INFO] Download incremental de bandeiras desativado.")
+        return
+
+    try:
+        import requests
+    except Exception:
+        print("[WARN] requests não instalado. Pulando atualização de bandeiras.")
+        return
+
+    base_url = os.getenv("FLAG_BASE_URL", DEFAULT_FLAG_BASE_URL).rstrip("/")
+    max_downloads = int(os.getenv("FLAG_MAX_DOWNLOADS", str(DEFAULT_FLAG_MAX_DOWNLOADS)))
+    min_sleep = float(os.getenv("FLAG_MIN_SLEEP", str(DEFAULT_FLAG_MIN_SLEEP)))
+    max_sleep = float(os.getenv("FLAG_MAX_SLEEP", str(DEFAULT_FLAG_MAX_SLEEP)))
+    retry_hours = int(os.getenv("FLAG_FAILURE_RETRY_HOURS", str(DEFAULT_FLAG_FAILURE_RETRY_HOURS)))
+
+    flag_dir = Path(os.getenv("FLAG_DIR", str(site_dir / "assets" / "flags" / "municipios")))
+    failures_path = Path(os.getenv("FLAG_FAILURES_PATH", DEFAULT_FLAG_FAILURES_PATH))
+
+    failures = load_json(failures_path, {})
+    if not isinstance(failures, dict):
+        failures = {}
+
+    municipios = municipios_para_bandeiras(alerts)
+    if not municipios:
+        print("[INFO] Nenhum município identificado para atualização de bandeiras.")
+        return
+
+    print(f"[INFO] Municípios candidatos a bandeira: {len(municipios)}")
+
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent": "Mozilla/5.0 (compatible; IDAP-Dashboard/1.0; +https://www.gov.br/mdr)",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+        "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
+    })
+
+    estados_cache: dict[str, list[tuple[str, str]]] = {}
+    downloads = 0
+
+    for city, uf in municipios:
+        if downloads >= max_downloads:
+            break
+
+        uf = uf.upper()
+        if uf not in ESTADOS_MBI:
+            continue
+
+        city_slug = slugify(city)
+        if not city_slug:
+            continue
+
+        target = flag_dir / uf.lower() / f"{city_slug}.jpg"
+        if target.exists():
+            continue
+
+        key = flag_failure_key(city, uf)
+        if recently_failed(failures, key, now_dt, retry_hours):
+            continue
+
+        try:
+            if uf not in estados_cache:
+                state_slug = ESTADOS_MBI[uf]
+                state_url = f"{base_url}/mbi/biblioteca/simbolopedia/municipios-estado-{state_slug}-br/"
+
+                print(f"[INFO] Carregando lista de municípios {uf}: {state_url}")
+                resp = request_get(session, state_url)
+                if resp == "BLOCKED":
+                    break
+                if not resp:
+                    failures[key] = now_dt.isoformat()
+                    continue
+
+                estados_cache[uf] = extrair_links_municipios(resp.text, base_url)
+                time.sleep(random.uniform(min_sleep, max_sleep))
+
+            links = estados_cache.get(uf, [])
+            city_url = None
+
+            for name, url in links:
+                if slugify(name) == city_slug:
+                    city_url = url
+                    break
+
+            if not city_url:
+                print(f"[WARN] Página municipal não encontrada: {city}/{uf}")
+                failures[key] = now_dt.isoformat()
+                continue
+
+            print(f"[INFO] Baixando bandeira municipal: {city}/{uf}")
+            resp_city = request_get(session, city_url)
+            if resp_city == "BLOCKED":
+                break
+            if not resp_city:
+                failures[key] = now_dt.isoformat()
+                continue
+
+            flag_url = extrair_url_bandeira(resp_city.text, base_url)
+            if not flag_url:
+                print(f"[WARN] URL da bandeira não encontrada: {city}/{uf}")
+                failures[key] = now_dt.isoformat()
+                continue
+
+            time.sleep(random.uniform(min_sleep, max_sleep))
+
+            resp_img = request_get(session, flag_url)
+            if resp_img == "BLOCKED":
+                break
+            if not resp_img:
+                failures[key] = now_dt.isoformat()
+                continue
+
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(resp_img.content)
+            downloads += 1
+
+            print(f"[INFO] Bandeira salva: {target}")
+
+            failures.pop(key, None)
+            time.sleep(random.uniform(min_sleep, max_sleep))
+
+        except Exception as exc:
+            print(f"[WARN] Falha ao baixar bandeira de {city}/{uf}: {exc}")
+            failures[key] = now_dt.isoformat()
+
+    save_json(failures_path, failures)
+    print(f"[INFO] Bandeiras baixadas nesta execução: {downloads}")
+
+
+
 def build_dash2(history_path: Path, site_dir: Path, window_hours: int) -> Dict[str, Any]:
     now_dt = datetime.now(TZ_BRASILIA)
 
@@ -492,6 +830,17 @@ def main() -> None:
     data = build_dash2(history_path, site_dir, window_hours)
     out_path = site_dir / "dashboard_data2.json"
     save_json(out_path, data)
+
+    # Atualização incremental e opcional das bandeiras municipais.
+    # Se falhar, não quebra a geração do dashboard.
+    try:
+        atualizar_bandeiras_municipais(
+            data.get("all_alerts", []),
+            site_dir,
+            parse_iso(data.get("generated_at")) or datetime.now(TZ_BRASILIA),
+        )
+    except Exception as exc:
+        print(f"[WARN] Atualização de bandeiras ignorada: {exc}")
 
     if geojson_source.exists():
         geojson_target.parent.mkdir(parents=True, exist_ok=True)
