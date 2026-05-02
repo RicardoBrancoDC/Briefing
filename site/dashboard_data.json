@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-05-02T10:51:45.822748-03:00",
-  "source_run_dir": "run_20260502_105117",
+  "generated_at": "2026-05-02T12:08:05.875226-03:00",
+  "source_run_dir": "run_20260502_120736",
   "cards": {
-    "vigentes": 45,
-    "ultimas24h": 111,
+    "vigentes": 37,
+    "ultimas24h": 105,
     "autoridadesAtivas": 16,
     "alertasExtremos": 6
   },
   "latest_alerts": [
+    {
+      "time": "12:00",
+      "date": "02/05/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "location": "Itajaí/SC, Florianópolis/SC",
+      "uf": "SC",
+      "headline": "Atualização: Observação Marítima SDC/SC 02/05 08:30 - Alagamentos costeiros no sábado (02) e no domingo (03). Ocorrências ligue 193 ou 199.",
+      "status": "vigente"
+    },
+    {
+      "time": "11:51",
+      "date": "02/05/2026",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "senderNameShort": "DC Rio de Janeiro",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "location": "Saquarema/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje/amanha (02/05 - 03/05). Emergencia, ligue 193 ou (22)992115580.",
+      "status": "vigente"
+    },
+    {
+      "time": "11:49",
+      "date": "02/05/2026",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "senderNameShort": "DC Rio de Janeiro",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "location": "RIO DE JANEIRO/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje/amanha (02/05 - 03/05). Emergencia, ligue 193 ou 199.",
+      "status": "vigente"
+    },
     {
       "time": "09:48",
       "date": "02/05/2026",
@@ -31,59 +67,23 @@
       "uf": "SC",
       "headline": "Observação Meteorológica SDC/SC 02/05 08:50 - Temporais isolados e chuva pontualmente intensa no sábado (02). Ocorrências ligue 193 ou 199.",
       "status": "vigente"
-    },
-    {
-      "time": "09:29",
-      "date": "02/05/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Tempestade De Raios",
-      "nivel": "Alto",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "09:11",
-      "date": "02/05/2026",
-      "senderName": "Defesa Civil Mangaratiba (RJ)",
-      "senderNameShort": "Defesa Civil Mangaratiba (R…",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Mangaratiba/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva e rajadas de vento moderadas para as proximas 24horas. Em caso de Emergencia ligue: (21) 3030-2662/199/193.",
-      "status": "vigente"
-    },
-    {
-      "time": "08:38",
-      "date": "02/05/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 28
+      "count": 27
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 22
+      "count": 23
     },
     {
       "name": "Defesa Civil Estadual de Pernambuco",
       "short_name": "DC Pernambuco",
-      "count": 21
+      "count": 15
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -106,8 +106,8 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
+      "name": "Defesa Civil Estadual do Rio de Janeiro",
+      "short_name": "DC Rio de Janeiro",
       "count": 2
     },
     {
@@ -124,15 +124,15 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 32
+      "count": 33
     },
     {
       "label": "Alto",
-      "count": 54
+      "count": 53
     },
     {
       "label": "Severo",
-      "count": 19
+      "count": 13
     },
     {
       "label": "Extremo",
@@ -142,53 +142,57 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 55
+      "count": 52
     },
     {
       "label": "Deslizamentos",
-      "count": 22
+      "count": 17
     },
     {
       "label": "Granizo",
-      "count": 17
+      "count": 16
     },
     {
       "label": "Inundações",
       "count": 8
     },
     {
+      "label": "Alagamentos",
+      "count": 4
+    },
+    {
       "label": "Solo/Lama",
       "count": 4
     },
     {
-      "label": "Alagamentos",
-      "count": 3
-    },
-    {
       "label": "Outros",
-      "count": 2
+      "count": 4
     }
   ],
   "uf_distribution": [
     {
       "uf": "RS",
-      "count": 28
+      "count": 27
     },
     {
       "uf": "SC",
-      "count": 25
+      "count": 26
     },
     {
       "uf": "PE",
-      "count": 25
+      "count": 18
     },
     {
       "uf": "AM",
-      "count": 15
+      "count": 14
     },
     {
       "uf": "PA",
       "count": 10
+    },
+    {
+      "uf": "RJ",
+      "count": 3
     },
     {
       "uf": "PR",
@@ -197,10 +201,6 @@
     {
       "uf": "PI",
       "count": 2
-    },
-    {
-      "uf": "RJ",
-      "count": 1
     },
     {
       "uf": "MA",
@@ -214,14 +214,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 45
+      "count": 37
     },
     {
       "label": "expirado",
-      "count": 66
+      "count": 68
     }
   ],
   "all_alerts": [
+    {
+      "date": "02/05/2026",
+      "time": "12:00",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "Itajaí/SC, Florianópolis/SC",
+      "headline": "Atualização: Observação Marítima SDC/SC 02/05 08:30 - Alagamentos costeiros no sábado (02) e no domingo (03). Ocorrências ligue 193 ou 199.",
+      "status": "vigente",
+      "onset": "2026-05-02T12:00:00-03:00",
+      "expires": "2026-05-03T17:00:00-03:00"
+    },
+    {
+      "date": "02/05/2026",
+      "time": "11:51",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Saquarema/RJ",
+      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje/amanha (02/05 - 03/05). Emergencia, ligue 193 ou (22)992115580.",
+      "status": "vigente",
+      "onset": "2026-05-02T11:51:38-03:00",
+      "expires": "2026-05-03T09:00:00-03:00"
+    },
+    {
+      "date": "02/05/2026",
+      "time": "11:49",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "RIO DE JANEIRO/RJ",
+      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje/amanha (02/05 - 03/05). Emergencia, ligue 193 ou 199.",
+      "status": "vigente",
+      "onset": "2026-05-02T11:49:28-03:00",
+      "expires": "2026-05-03T09:00:00-03:00"
+    },
     {
       "date": "02/05/2026",
       "time": "09:48",
@@ -283,7 +322,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T08:38:09-03:00",
       "expires": "2026-05-02T11:35:00-03:00"
     },
@@ -309,7 +348,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 02/05 07:36 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 4 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T07:40:23-03:00",
       "expires": "2026-05-02T11:35:00-03:00"
     },
@@ -322,7 +361,7 @@
       "uf": "AM",
       "location": "Envira/AM, Eirunepé/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T07:25:56-03:00",
       "expires": "2026-05-02T11:00:00-03:00"
     },
@@ -374,7 +413,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 02/05 06:31 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Oeste, Meio-Oeste, Planalto Norte e Alto Vale do Itajaí nas próximas 5 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T06:33:10-03:00",
       "expires": "2026-05-02T11:30:00-03:00"
     },
@@ -1547,141 +1586,24 @@
       "status": "vigente",
       "onset": "2026-05-01T12:10:59-03:00",
       "expires": "2026-05-02T16:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "12:02",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Deslizamentos",
-      "nivel": "Severo",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: ALERTA de DESLIZAMENTOS em ABREU E LIMA. Moradores de areas de risco preparar para sair do local. BUSQUE ABRIGO. Emergencia ligue 193 ou 199.",
-      "status": "vigente",
-      "onset": "2026-05-01T12:02:23-03:00",
-      "expires": "2026-05-02T16:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "12:00",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193",
-      "status": "expirado",
-      "onset": "2026-05-01T12:00:13-03:00",
-      "expires": "2026-05-01T20:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "11:59",
-      "senderName": "Defesa Civil de Recife (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PE",
-      "location": "Recife/PE",
-      "headline": "Defesa Civil:ALERTA de DESLIZAMENTO em RECIFE. MORADORES DE AREA DE RISCO SAIR PARA LOCAL SEGURO. BUSQUE ABRIGO. DEFESA CIVIL 08000813400.",
-      "status": "vigente",
-      "onset": "2026-05-01T11:59:38-03:00",
-      "expires": "2026-05-02T11:35:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "11:54",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Deslizamentos",
-      "nivel": "Severo",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: ALERTA de DESLIZAMENTO em OLINDA. Moradores de areas de risco preparar para sair do local. BUSQUE ABRIGO. Emergencia ligue 193 ou 199.",
-      "status": "vigente",
-      "onset": "2026-05-01T11:54:06-03:00",
-      "expires": "2026-05-02T16:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "11:48",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Deslizamentos",
-      "nivel": "Severo",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: ALERTA de DESLIZAMENTO em PAULISTA. Moradores de areas de risco preparar para sair do local. BUSQUE ABRIGO. Emergencia ligue 193 ou 199.",
-      "status": "vigente",
-      "onset": "2026-05-01T11:48:59-03:00",
-      "expires": "2026-05-02T16:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "11:38",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: ALERTA de INUNDACAO em RECIFE. Moradores de areas de risco preparar para sair do local. BUSQUE ABRIGO. Emergencia ligue 193 ou 199.",
-      "status": "vigente",
-      "onset": "2026-05-01T11:38:10-03:00",
-      "expires": "2026-05-02T16:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "11:31",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA . Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de alagamentos. Val. ate 14h. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-05-01T11:31:41-03:00",
-      "expires": "2026-05-01T14:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "11:27",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Deslizamentos",
-      "nivel": "Severo",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: ALERTA de DESLIZAMENTO em RECIFE. Moradores de areas de risco preparar para sair do local. BUSQUE ABRIGO. Emergencia ligue 193 ou 199.",
-      "status": "vigente",
-      "onset": "2026-05-01T11:27:00-03:00",
-      "expires": "2026-05-02T16:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "10:52",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Deslizamentos",
-      "nivel": "Severo",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: ALERTA de DESLIZAMENTO em JABOATAO DOS GUARAPES. Moradores de areas de risco preparar para sair do local. Emergencia ligue 193 ou 199.",
-      "status": "vigente",
-      "onset": "2026-05-01T10:52:21-03:00",
-      "expires": "2026-05-02T16:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 111,
+    "total_alerts": 105,
     "by_nivel": {
-      "Alto": 54,
-      "Médio": 32,
-      "Severo": 19,
+      "Alto": 53,
+      "Médio": 33,
+      "Severo": 13,
       "Extremo": 6
     },
     "by_channel_list": {
-      "Google": 111
+      "Google": 105
     },
     "by_region": {
       "S": 56,
-      "NE": 29,
-      "N": 25,
-      "SE": 1
+      "N": 24,
+      "NE": 22,
+      "SE": 3
     }
   }
 }
