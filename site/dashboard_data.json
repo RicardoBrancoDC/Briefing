@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-02T18:02:54.123649-03:00",
-  "source_run_dir": "run_20260502_180238",
+  "generated_at": "2026-05-02T19:54:05.049436-03:00",
+  "source_run_dir": "run_20260502_195350",
   "cards": {
-    "vigentes": 34,
-    "ultimas24h": 84,
+    "vigentes": 33,
+    "ultimas24h": 78,
     "autoridadesAtivas": 16,
     "alertasExtremos": 2
   },
   "latest_alerts": [
+    {
+      "time": "19:43",
+      "date": "02/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Autazes/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "18:50",
+      "date": "02/05/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Marés De Tempestade (Ressacas)",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "Observação Marítima SDC/SC 30/04 16h30 ¿ Mar agitado e Ressaca entre a noite de sábado (02) e a segunda-feira (04). Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "18:00",
       "date": "02/05/2026",
@@ -43,52 +67,28 @@
       "uf": "SC",
       "headline": "Defesa Civil:Atualizacao: Atencao SDC 02/05 09h20 Mar agitado e ventos intensos entre a noite de sabado (02) e a segunda-feira (04).  Ocorrencias ligue 199/193",
       "status": "vigente"
-    },
-    {
-      "time": "18:00",
-      "date": "02/05/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Friagem",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Observação Meteorológica SDC/SC 02/05 12:30 - Declínio acentuado de temperatura entre a noite de sábado (02) e a manhã de domingo (03). Ocorrências ligue 193 ou 199.",
-      "status": "vigente"
-    },
-    {
-      "time": "17:43",
-      "date": "02/05/2026",
-      "senderName": "Defesa Civil de Parauapebas (PA)",
-      "senderNameShort": "DC Parauapebas (PA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Parauapebas/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:Ha risco moderado de chuvas Intensas nas proximas 24h. Fique em estado de ATENCAO e caso de Emergencia, ligue para Defesa Civil190",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 27
+      "count": 28
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 18
+      "count": 14
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 11
+      "count": 9
     },
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Defesa Civil de Parauapebas (PA)",
@@ -124,15 +124,15 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 41
+      "count": 43
     },
     {
       "label": "Alto",
-      "count": 34
+      "count": 29
     },
     {
       "label": "Severo",
-      "count": 7
+      "count": 4
     },
     {
       "label": "Extremo",
@@ -142,49 +142,49 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 45
+      "count": 46
     },
     {
       "label": "Deslizamentos",
       "count": 9
     },
     {
-      "label": "Granizo",
-      "count": 8
-    },
-    {
-      "label": "Alagamentos",
-      "count": 5
-    },
-    {
       "label": "Vendaval",
       "count": 5
     },
     {
-      "label": "Solo/Lama",
+      "label": "Marés De Tempestade (Ressacas)",
+      "count": 4
+    },
+    {
+      "label": "Alagamentos",
+      "count": 4
+    },
+    {
+      "label": "Granizo",
       "count": 4
     },
     {
       "label": "Outros",
-      "count": 8
+      "count": 6
     }
   ],
   "uf_distribution": [
     {
       "uf": "SC",
-      "count": 30
+      "count": 31
     },
     {
       "uf": "RS",
-      "count": 18
+      "count": 14
     },
     {
       "uf": "AM",
-      "count": 13
+      "count": 11
     },
     {
       "uf": "PA",
-      "count": 9
+      "count": 8
     },
     {
       "uf": "RJ",
@@ -206,14 +206,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 34
+      "count": 33
     },
     {
       "label": "expirado",
-      "count": 50
+      "count": 45
     }
   ],
   "all_alerts": [
+    {
+      "date": "02/05/2026",
+      "time": "19:43",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Autazes/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-02T19:43:05-03:00",
+      "expires": "2026-05-02T20:30:00-03:00"
+    },
+    {
+      "date": "02/05/2026",
+      "time": "18:50",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Marés De Tempestade (Ressacas)",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Observação Marítima SDC/SC 30/04 16h30 ¿ Mar agitado e Ressaca entre a noite de sábado (02) e a segunda-feira (04). Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-02T18:50:00-03:00",
+      "expires": "2026-05-04T09:00:00-03:00"
+    },
     {
       "date": "02/05/2026",
       "time": "18:00",
@@ -288,7 +314,7 @@
       "uf": "AM",
       "location": "Tapauá/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T17:33:46-03:00",
       "expires": "2026-05-02T18:30:00-03:00"
     },
@@ -327,7 +353,7 @@
       "uf": "PA",
       "location": "Itupiranga/PA",
       "headline": "Defesa Civil:ITUPIRANGA:Alerta ALTO de Alagamentos para hoje (02MAI)  devido acumulado de chuvas. Evite contato com a agua de alagamentos.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T17:05:17-03:00",
       "expires": "2026-05-02T19:00:00-03:00"
     },
@@ -379,7 +405,7 @@
       "uf": "PA",
       "location": "Marabá/PA",
       "headline": "Defesa Civil:Alerta MODERADO de Alagamentos para hoje (02MAI) devido acumulado de chuva. Evite contato com a agua de alagamentos.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T16:46:11-03:00",
       "expires": "2026-05-02T18:45:00-03:00"
     },
@@ -1201,126 +1227,22 @@
       "status": "expirado",
       "onset": "2026-05-01T20:03:25-03:00",
       "expires": "2026-05-02T07:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "19:41",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.   Afaste-se de encostas. Procure abrigo seguro.  Em caso de emergencia ligue: 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-01T19:41:26-03:00",
-      "expires": "2026-05-02T07:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "19:35",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.   Afaste-se de encostas. Procure abrigo seguro.  Em caso de emergencia ligue: 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-01T19:35:22-03:00",
-      "expires": "2026-05-02T07:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "19:31",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.   Afaste-se de encostas. Procure abrigo seguro.  Em caso de emergencia ligue: 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-01T19:31:17-03:00",
-      "expires": "2026-05-02T07:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "19:30",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 22h. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-05-01T19:30:03-03:00",
-      "expires": "2026-05-01T22:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "19:10",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 21h. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-05-01T19:10:00-03:00",
-      "expires": "2026-05-01T21:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "18:53",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 22h. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-05-01T18:53:14-03:00",
-      "expires": "2026-05-01T22:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "18:43",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Tomé-Açu/PA",
-      "headline": "Defesa Civil:TOME -ACU:Alerta ALTO de Alagamentos hoje por acumulado de chuva. Evite trafego em areas baixas, evite contato com a agua de alagamentos.",
-      "status": "expirado",
-      "onset": "2026-05-01T18:43:55-03:00",
-      "expires": "2026-05-01T20:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "18:30",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 21h. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-05-01T18:30:00-03:00",
-      "expires": "2026-05-01T21:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 84,
+    "total_alerts": 78,
     "by_nivel": {
-      "Médio": 41,
-      "Alto": 34,
-      "Severo": 7,
+      "Médio": 43,
+      "Alto": 29,
+      "Severo": 4,
       "Extremo": 2
     },
     "by_channel_list": {
-      "Google": 84
+      "Google": 78
     },
     "by_region": {
-      "S": 51,
-      "N": 22,
+      "S": 48,
+      "N": 19,
       "SE": 9,
       "NE": 2
     }
