@@ -39,7 +39,7 @@ NIVEL_ORDER = ["Baixo", "Médio", "Alto", "Severo", "Extremo", "Indefinido"]
 STATUS_ORDER = ["vigente", "futuro", "expirado", "sem_validade"]
 
 UF_TO_REGION = {
-    "AC": "N", "AP": "N", "AM": "N", "PA": "N", "RO": "N", "RR": "RR", "TO": "N",
+    "AC": "N", "AP": "N", "AM": "N", "PA": "N", "RO": "N", "RR": "N", "TO": "N",
     "AL": "NE", "BA": "NE", "CE": "NE", "MA": "NE", "PB": "NE", "PE": "NE",
     "PI": "NE", "RN": "NE", "SE": "NE",
     "DF": "CO", "GO": "CO", "MT": "CO", "MS": "CO",
