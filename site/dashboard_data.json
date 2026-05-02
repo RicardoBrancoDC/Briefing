@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-02T19:54:05.049436-03:00",
-  "source_run_dir": "run_20260502_195350",
+  "generated_at": "2026-05-02T20:05:32.713208-03:00",
+  "source_run_dir": "run_20260502_200518",
   "cards": {
-    "vigentes": 33,
+    "vigentes": 32,
     "ultimas24h": 78,
     "autoridadesAtivas": 16,
     "alertasExtremos": 2
   },
   "latest_alerts": [
+    {
+      "time": "20:04",
+      "date": "02/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "location": "Moju/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:MOJU: Alerta ALTO de ALAGAMENTOS para hoje (02MAI) devido acumulado de chuva. Evite contato com a agua de alagamentos.",
+      "status": "vigente"
+    },
     {
       "time": "19:43",
       "date": "02/05/2026",
@@ -55,18 +67,6 @@
       "uf": "SC",
       "headline": "Observação Marítima SDC/SC 01/05 10h30 - Mar agitado e ventos intensos entre a noite de sábado (02) e a segunda-feira (04). Ocorrências ligue 199 ou 193.",
       "status": "vigente"
-    },
-    {
-      "time": "18:00",
-      "date": "02/05/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Alto",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:Atualizacao: Atencao SDC 02/05 09h20 Mar agitado e ventos intensos entre a noite de sabado (02) e a segunda-feira (04).  Ocorrencias ligue 199/193",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -83,12 +83,12 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 9
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Defesa Civil de Parauapebas (PA)",
@@ -128,11 +128,11 @@
     },
     {
       "label": "Alto",
-      "count": 29
+      "count": 30
     },
     {
       "label": "Severo",
-      "count": 4
+      "count": 3
     },
     {
       "label": "Extremo",
@@ -149,6 +149,10 @@
       "count": 9
     },
     {
+      "label": "Alagamentos",
+      "count": 5
+    },
+    {
       "label": "Vendaval",
       "count": 5
     },
@@ -157,16 +161,12 @@
       "count": 4
     },
     {
-      "label": "Alagamentos",
-      "count": 4
-    },
-    {
       "label": "Granizo",
       "count": 4
     },
     {
       "label": "Outros",
-      "count": 6
+      "count": 5
     }
   ],
   "uf_distribution": [
@@ -180,11 +180,11 @@
     },
     {
       "uf": "AM",
-      "count": 11
+      "count": 10
     },
     {
       "uf": "PA",
-      "count": 8
+      "count": 9
     },
     {
       "uf": "RJ",
@@ -206,14 +206,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 33
+      "count": 32
     },
     {
       "label": "expirado",
-      "count": 45
+      "count": 46
     }
   ],
   "all_alerts": [
+    {
+      "date": "02/05/2026",
+      "time": "20:04",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Moju/PA",
+      "headline": "Defesa Civil:MOJU: Alerta ALTO de ALAGAMENTOS para hoje (02MAI) devido acumulado de chuva. Evite contato com a agua de alagamentos.",
+      "status": "vigente",
+      "onset": "2026-05-02T20:04:04-03:00",
+      "expires": "2026-05-02T22:00:00-03:00"
+    },
     {
       "date": "02/05/2026",
       "time": "19:43",
@@ -444,7 +457,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil: ALERTA de chuva intensa para Manaus e regiao metropolitana. Siga as orientacoes da defesa civil local. Emergencia: 199 ou 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T14:48:42-03:00",
       "expires": "2026-05-02T20:00:00-03:00"
     },
@@ -756,7 +769,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR AVISO DE TEMPO: Tempestades irregulares e chuva forte no sab 02/05. Mantenha-se atento e evite areas de risco. Ocorrencias, 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T06:19:32-03:00",
       "expires": "2026-05-02T20:00:00-03:00"
     },
@@ -1214,27 +1227,14 @@
       "status": "expirado",
       "onset": "2026-05-01T20:10:00-03:00",
       "expires": "2026-05-01T23:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "20:03",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.   Afaste-se de encostas. Procure abrigo seguro.  Em caso de emergencia ligue: 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-01T20:03:25-03:00",
-      "expires": "2026-05-02T07:00:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 78,
     "by_nivel": {
       "Médio": 43,
-      "Alto": 29,
-      "Severo": 4,
+      "Alto": 30,
+      "Severo": 3,
       "Extremo": 2
     },
     "by_channel_list": {
