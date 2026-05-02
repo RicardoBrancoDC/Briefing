@@ -553,6 +553,9 @@ def atualizar_bandeiras_municipais(alerts: List[Dict[str, Any]], site_dir: Path,
     flag_dir = Path(os.getenv("FLAG_DIR", str(site_dir / "assets" / "flags" / "municipios")))
     failures_path = Path(os.getenv("FLAG_FAILURES_PATH", DEFAULT_FLAG_FAILURES_PATH))
 
+    # Garante que a estrutura base exista sempre, mesmo que nenhuma bandeira seja baixada.
+    flag_dir.mkdir(parents=True, exist_ok=True)
+
     failures = load_json(failures_path, {})
     if not isinstance(failures, dict):
         failures = {}
