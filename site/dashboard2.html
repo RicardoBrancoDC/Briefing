@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IDAP | Monitoramento Nacional de Alertas</title>
+  <link rel="stylesheet" href="assets/dashboard2.css" />
+</head>
+<body>
+  <div class="wall">
+    <header class="topbar">
+      <section class="logo-panel panel">
+        <img src="assets/idap-logo.png" alt="IDAP" class="idap-logo" />
+      </section>
+
+      <section class="title-panel panel">
+        <h1>MONITORAMENTO DE ALERTAS</h1>
+      </section>
+
+      <section class="clock-panel panel">
+        <div class="date-row">
+          <span class="calendar-icon">▣</span>
+          <strong id="top-date">--/--/----&nbsp;&nbsp;--:--:--</strong>
+        </div>
+        <div class="auto-row"><span class="dot"></span> Atualização automática a cada 60 segundos</div>
+      </section>
+    </header>
+
+    <main class="main-grid">
+      <aside class="left-stack">
+        <section class="panel summary-panel">
+          <h2>RESUMO GERAL</h2>
+          <div class="summary-cards">
+            <article class="kpi blue"><span>ÚLTIMAS 24h</span><strong id="kpi-24h">0</strong></article>
+            <article class="kpi green"><span>VIGENTES</span><strong id="kpi-vigentes">0</strong></article>
+            <article class="kpi orange"><span>SEVEROS / EXTREMOS</span><strong id="kpi-graves">0</strong></article>
+            <article class="kpi purple"><span>MUNICÍPIOS COM<br>ALERTAS</span><strong id="kpi-municipios">0</strong><small id="kpi-municipios-sub">áreas distintas</small></article>
+            <article class="kpi cyan"><span>ESTADOS COM<br>ALERTA HOJE</span><strong id="kpi-estados">0</strong></article>
+            <article class="kpi navy"><span>ÚLTIMO ALERTA<br>EMITIDO HÁ</span><strong id="kpi-ultimo">--</strong><small id="kpi-ultimo-hora">--:--</small></article>
+          </div>
+        </section>
+
+        <section class="panel level-panel">
+          <h2>DISTRIBUIÇÃO POR NÍVEL</h2>
+          <div class="donut-row">
+            <div id="donut-level" class="donut"><div><strong id="donut-level-total">0</strong><span>Total</span></div></div>
+            <div id="level-legend" class="legend-list"></div>
+          </div>
+        </section>
+
+        <section class="panel category-panel">
+          <h2>DISTRIBUIÇÃO POR CATEGORIA CAP </h2>
+          <div id="category-list" class="bar-list compact-bars"></div>
+        </section>
+
+        <section class="panel avg-panel">
+          <h2>TEMPO MÉDIO DE DURAÇÃO<br>DOS ALERTAS</h2>
+          <div class="avg-content"><span class="clock-big">◷</span><strong id="avg-duration">--</strong></div>
+          <small>Média entre emissão e expiração</small>
+        </section>
+      </aside>
+
+      <section class="center-stack">
+        <section class="panel map-panel2">
+          <h2>DISTRIBUIÇÃO TERRITORIAL DOS ALERTAS <span>(VIGENTES)</span></h2>
+<div class="map-wrapper">
+  <div id="map-holder2" class="map-holder2"></div>
+  <div class="map-legend"></div>
+</div>        </section>
+
+        <section class="panel hourly-panel2">
+          <h2>ALERTAS NAS ÚLTIMAS 24 HORAS </span></h2>
+          <div id="hourly-chart2" class="hourly-chart2"></div>
+        </section>
+
+        <section class="middle-cards">
+          <section class="panel active-level-card">
+            <h2>ALERTAS POR NÍVEL</h2>
+            <div id="active-level-list" class="mini-list"></div>
+            <div class="total-row"><span>Total</span><strong id="active-total">0</strong></div>
+          </section>
+
+          <section class="panel state-card">
+            <h2>ALERTAS POR ESTADO</span></h2>
+            <div id="state-list" class="mini-list"></div>
+          </section>
+
+          <section class="panel duration-card">
+            <h2>ALERTAS POR REGIÕES</h2>
+            <div class="donut-row small">
+              <div id="donut-duration" class="donut small-donut"><div><strong id="donut-duration-total">0</strong><span>Total</span></div></div>
+              <div id="duration-legend" class="legend-list tiny"></div>
+            </div>
+          </section>
+        </section>
+      </section>
+
+      <aside class="right-stack">
+        <section class="panel emitters-panel">
+          <h2>RANKING DE EMISSORES</h2>
+          <div id="emitters-list" class="ranking-list"></div>
+        </section>
+
+        <section class="panel events-panel2">
+          <h2>CATEGORIAS </span></h2>
+          <div id="events-list2" class="events-list2"></div>
+        </section>
+
+        <section class="panel since-card">
+          <h2>TEMPO DESDE A EMISSÃO</span></h2>
+          <div id="since-list" class="since-list"></div>
+        </section>
+      </aside>
+    </main>
+
+    <section class="panel table-panel">
+      <h2>ÚLTIMOS ALERTAS PUBLICADOS</h2>
+      <div class="alerts-table">
+        <div class="tr th">
+          <span>HORA</span><span>EMISSOR</span><span>EVENTO</span><span>ÁREA AFETADA</span><span>NÍVEL</span><span>CATEGORIA</span><span>EXPIRA EM</span><span>STATUS</span>
+        </div>
+        <div id="alerts-table-body"></div>
+      </div>
+    </section>
+
+    <footer class="footbar">
+      <span>Fonte: IDAP - CISDA/CGMA/DPS/SEDEC</span>
+      <span>Dados dos alertas CAP coletados em tempo real</span>
+      <span>Próxima atualização em: <strong id="refresh-countdown2">01:00</strong></span>
+    </footer>
+  </div>
+
+  <script src="assets/dashboard2.js"></script>
+</body>
+</html>
