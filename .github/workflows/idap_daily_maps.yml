@@ -44,23 +44,6 @@ jobs:
           [ -f .cache/state.json ] || echo "{}" > .cache/state.json
           [ -f .cache/historico_alertas.json ] || echo "[]" > .cache/historico_alertas.json
 
-      - name: Verificar variáveis do Telegram
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: |
-          if [ -z "$TELEGRAM_BOT_TOKEN" ]; then
-            echo "TELEGRAM_BOT_TOKEN está vazio"
-          else
-            echo "TELEGRAM_BOT_TOKEN ok"
-          fi
-
-          if [ -z "$TELEGRAM_CHAT_ID" ]; then
-            echo "TELEGRAM_CHAT_ID está vazio"
-          else
-            echo "TELEGRAM_CHAT_ID ok"
-          fi
-
       - name: Run daily maps
         env:
           TZ: "America/Sao_Paulo"
@@ -72,58 +55,33 @@ jobs:
           HISTORY_PATH: ".cache/historico_alertas.json"
           WINDOW_HOURS: "24"
           RETENTION_HOURS: "72"
-          MAX_ITEMS: ""
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           python scripts/idap_daily_maps.py
-
-          echo "----- OUT TREE -----"
-          find out -maxdepth 3 -type f -print || true
-
-          echo "----- CACHE TREE -----"
-          find .cache -maxdepth 2 -type f -print || true
 
       - name: Localizar pasta mais recente de saída
         id: localizar_saida
         run: |
           ULTIMA_PASTA=$(ls -dt out/run_* 2>/dev/null | head -n 1)
-
-          echo "Última pasta encontrada: $ULTIMA_PASTA"
-
-          if [ -z "$ULTIMA_PASTA" ]; then
-            echo "Nenhuma pasta out/run_* encontrada."
-            exit 1
-          fi
-
           echo "pasta_saida=$ULTIMA_PASTA" >> $GITHUB_OUTPUT
 
       - name: Copiar imagens geradas para o site
         run: |
           PASTA="${{ steps.localizar_saida.outputs.pasta_saida }}"
-
-          echo "Copiando PNGs de: $PASTA"
           cp -f "$PASTA"/*.png site/imagens/ || true
-
-          echo ""
-          echo "Arquivos copiados para site/imagens:"
-          ls -la site/imagens/
 
       - name: Gerar arquivo de última atualização
         run: |
           python - << 'PY'
           import json
           from datetime import datetime, timezone
-
-          dados = {
-              "gerado_em": datetime.now(timezone.utc).isoformat()
-          }
-
-          with open("site/ultima_atualizacao.json", "w", encoding="utf-8") as f:
-              json.dump(dados, f, ensure_ascii=False, indent=2)
+          with open("site/ultima_atualizacao.json","w",encoding="utf-8") as f:
+              json.dump({"gerado_em": datetime.now(timezone.utc).isoformat()}, f)
           PY
 
-      - name: Gerar dados do novo dashboard
+      # =========================
+      # DASHBOARD ORIGINAL (NÃO MEXE)
+      # =========================
+      - name: Gerar dados do dashboard original
         env:
           OUT_DIR: "out"
           SITE_DIR: "site"
@@ -132,17 +90,25 @@ jobs:
         run: |
           python scripts/build_dashboard_data.py
 
+      # =========================
+      # NOVO DASHBOARD (ADICIONADO)
+      # =========================
+      - name: Gerar dados do dashboard2
+        env:
+          HISTORY_PATH: ".cache/historico_alertas.json"
+          SITE_DIR: "site"
+          WINDOW_HOURS: "24"
+          UF_GEOJSON_PATH: "resources/br_uf.geojson"
+          DASHBOARD_GEOJSON_TARGET: "site/data/br_uf.geojson"
+        run: |
+          python scripts/build_dash2.py
+
       - name: Validar arquivos mínimos do site
         run: |
           test -f site/index.html
-          test -f site/ultima_atualizacao.json
           test -f site/dashboard.html
           test -f site/dashboard_data.json
-
-      - name: Mostrar estrutura final do site
-        run: |
-          echo "Conteúdo final da pasta site:"
-          find site -maxdepth 3 -type f | sort
+          test -f site/dashboard_data2.json
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
@@ -154,7 +120,7 @@ jobs:
             .cache/state.json
             .cache/historico_alertas.json
             site/dashboard_data.json
-          if-no-files-found: warn
+            site/dashboard_data2.json
           retention-days: 7
 
       - name: Upload do artifact do Pages
@@ -167,24 +133,20 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .cache/state.json .cache/historico_alertas.json site/dashboard_data.json site/data/br_uf.geojson site/ultima_atualizacao.json site/imagens/*.png
+          git add .cache/state.json .cache/historico_alertas.json site/dashboard_data.json site/dashboard_data2.json site/data/br_uf.geojson site/ultima_atualizacao.json site/imagens/*.png
 
           if git diff --cached --quiet; then
-            echo "Nenhuma alteração para commit."
+            echo "Sem alterações"
             exit 0
           fi
 
-          git commit -m "Atualiza histórico IDAP [skip ci]"
+          git commit -m "Atualiza dashboards IDAP [skip ci]"
           git push
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Deploy no GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
