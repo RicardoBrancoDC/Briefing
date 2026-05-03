@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-03T18:06:06.599131-03:00",
-  "source_run_dir": "run_20260503_180530",
+  "generated_at": "2026-05-03T20:07:00.079023-03:00",
+  "source_run_dir": "run_20260503_200638",
   "cards": {
-    "vigentes": 27,
-    "ultimas24h": 53,
+    "vigentes": 25,
+    "ultimas24h": 50,
     "autoridadesAtivas": 21,
     "alertasExtremos": 0
   },
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 18
+      "count": 17
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
@@ -83,12 +83,12 @@
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Defesa Civil de Niterói (RJ)",
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 28
+      "count": 26
     },
     {
       "label": "Alto",
-      "count": 20
+      "count": 19
     },
     {
       "label": "Severo",
@@ -138,11 +138,11 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 33
+      "count": 32
     },
     {
       "label": "Alagamentos",
-      "count": 8
+      "count": 7
     },
     {
       "label": "Solo/Lama",
@@ -150,7 +150,7 @@
     },
     {
       "label": "Marés De Tempestade (Ressacas)",
-      "count": 4
+      "count": 3
     },
     {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
@@ -168,7 +168,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 23
+      "count": 22
     },
     {
       "uf": "RJ",
@@ -176,11 +176,11 @@
     },
     {
       "uf": "PA",
-      "count": 7
+      "count": 6
     },
     {
       "uf": "SC",
-      "count": 5
+      "count": 4
     },
     {
       "uf": "ES",
@@ -206,11 +206,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 27
+      "count": 25
     },
     {
       "label": "expirado",
-      "count": 26
+      "count": 25
     }
   ],
   "all_alerts": [
@@ -340,7 +340,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-03T13:56:31-03:00",
       "expires": "2026-05-03T18:30:00-03:00"
     },
@@ -863,61 +863,22 @@
       "status": "expirado",
       "onset": "2026-05-02T20:08:32-03:00",
       "expires": "2026-05-02T23:00:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "20:04",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Moju/PA",
-      "headline": "Defesa Civil:MOJU: Alerta ALTO de ALAGAMENTOS para hoje (02MAI) devido acumulado de chuva. Evite contato com a agua de alagamentos.",
-      "status": "expirado",
-      "onset": "2026-05-02T20:04:04-03:00",
-      "expires": "2026-05-02T22:00:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "19:43",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Autazes/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-02T19:43:05-03:00",
-      "expires": "2026-05-02T20:30:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "18:50",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Observação Marítima SDC/SC 30/04 16h30 ¿ Mar agitado e Ressaca entre a noite de sábado (02) e a segunda-feira (04). Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-05-02T18:50:00-03:00",
-      "expires": "2026-05-04T09:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 53,
+    "total_alerts": 50,
     "by_nivel": {
-      "Médio": 28,
-      "Alto": 20,
+      "Médio": 26,
+      "Alto": 19,
       "Severo": 5
     },
     "by_channel_list": {
-      "Google": 53
+      "Google": 50
     },
     "by_region": {
-      "N": 30,
+      "N": 28,
       "SE": 15,
-      "S": 6,
+      "S": 5,
       "NE": 2
     }
   }
