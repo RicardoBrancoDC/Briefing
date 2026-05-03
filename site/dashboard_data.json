@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-05-03T16:30:44.992050-03:00",
-  "source_run_dir": "run_20260503_163015",
+  "generated_at": "2026-05-03T17:14:33.683113-03:00",
+  "source_run_dir": "run_20260503_171406",
   "cards": {
     "vigentes": 32,
-    "ultimas24h": 62,
+    "ultimas24h": 57,
     "autoridadesAtivas": 21,
-    "alertasExtremos": 2
+    "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "17:08",
+      "date": "03/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "17:04",
+      "date": "03/05/2026",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "senderNameShort": "DC Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA de Chuva Intensa (NIVEL ALTO). Evite area de risco com historico de alagamento ou enxurrada. Em caso de emergencia ligue 193/199.",
+      "status": "vigente"
+    },
+    {
+      "time": "16:46",
+      "date": "03/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "location": "Maraã/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "15:51",
       "date": "03/05/2026",
@@ -30,50 +66,14 @@
       "location": "Itajaí/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 03/05 15:00 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Itajaí. Pico previsto às 15:45 h. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:01",
-      "date": "03/05/2026",
-      "senderName": "Defesa Civil de Parauapebas (PA)",
-      "senderNameShort": "DC Parauapebas (PA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Parauapebas/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:Ha ocorrencia de chuvas intensas, estamos em estado de ALERTA, risco de corte energia, alagamentos, enxurradas e inundacoes. Emergencia ligue 190.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:00",
-      "date": "03/05/2026",
-      "senderName": "Defesa Civil de Campo dos Goytacazes (RJ)",
-      "senderNameShort": "DC Campo dos Goytacazes (RJ)",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Médio",
-      "location": "Campos dos Goytacazes/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Alerta de Ressaca entre a tarde de domingo (03) e a noite de terca (05). Atencao ao trafegar na faixa litoranea ja atingida pela erosao costeira.",
-      "status": "vigente"
-    },
-    {
-      "time": "13:56",
-      "date": "03/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 16
+      "count": 18
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -81,24 +81,19 @@
       "count": 9
     },
     {
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
+      "count": 5
+    },
+    {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 9
+      "count": 5
     },
     {
       "name": "Defesa Civil de Parauapebas (PA)",
       "short_name": "DC Parauapebas (PA)",
-      "count": 4
-    },
-    {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 4
-    },
-    {
-      "name": "Defesa Civil Estadual do Piauí",
-      "short_name": "DC Piauí",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Defesa Civil de Niterói (RJ)",
@@ -119,12 +114,17 @@
       "name": "Defesa Civil de Campo dos Goytacazes (RJ)",
       "short_name": "DC Campo dos Goytacazes (RJ)",
       "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual do Rio Grande do Sul",
+      "short_name": "DC Rio Grande do Sul",
+      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 31
+      "count": 30
     },
     {
       "label": "Alto",
@@ -132,21 +132,17 @@
     },
     {
       "label": "Severo",
-      "count": 8
-    },
-    {
-      "label": "Extremo",
-      "count": 2
+      "count": 6
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 38
+      "count": 34
     },
     {
       "label": "Alagamentos",
-      "count": 10
+      "count": 8
     },
     {
       "label": "Marés De Tempestade (Ressacas)",
@@ -154,14 +150,14 @@
     },
     {
       "label": "Solo/Lama",
-      "count": 3
-    },
-    {
-      "label": "Inundações",
-      "count": 2
+      "count": 5
     },
     {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
+      "count": 1
+    },
+    {
+      "label": "Inundações",
       "count": 1
     },
     {
@@ -172,11 +168,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 20
-    },
-    {
-      "uf": "PA",
-      "count": 14
+      "count": 23
     },
     {
       "uf": "RJ",
@@ -187,8 +179,8 @@
       "count": 9
     },
     {
-      "uf": "PI",
-      "count": 3
+      "uf": "PA",
+      "count": 8
     },
     {
       "uf": "ES",
@@ -203,6 +195,10 @@
       "count": 1
     },
     {
+      "uf": "PI",
+      "count": 1
+    },
+    {
       "uf": "CE",
       "count": 1
     }
@@ -214,10 +210,49 @@
     },
     {
       "label": "expirado",
-      "count": 30
+      "count": 25
     }
   ],
   "all_alerts": [
+    {
+      "date": "03/05/2026",
+      "time": "17:08",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-03T17:08:36-03:00",
+      "expires": "2026-05-04T03:00:00-03:00"
+    },
+    {
+      "date": "03/05/2026",
+      "time": "17:04",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA de Chuva Intensa (NIVEL ALTO). Evite area de risco com historico de alagamento ou enxurrada. Em caso de emergencia ligue 193/199.",
+      "status": "vigente",
+      "onset": "2026-05-03T17:04:02-03:00",
+      "expires": "2026-05-03T21:00:00-03:00"
+    },
+    {
+      "date": "03/05/2026",
+      "time": "16:46",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Maraã/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-03T16:46:31-03:00",
+      "expires": "2026-05-04T11:00:00-03:00"
+    },
     {
       "date": "03/05/2026",
       "time": "15:51",
@@ -240,7 +275,7 @@
       "uf": "SC",
       "location": "Itajaí/SC",
       "headline": "OBSERVAÇÃO - 03/05 15:00 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Itajaí. Pico previsto às 15:45 h. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-03T15:04:19-03:00",
       "expires": "2026-05-03T17:00:00-03:00"
     },
@@ -292,7 +327,7 @@
       "uf": "SC",
       "location": "Florianópolis/SC",
       "headline": "OBSERVAÇÃO - 03/05 13:14 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Florianópolis. Pico previsto às 14:45 h. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-03T13:18:31-03:00",
       "expires": "2026-05-03T17:00:00-03:00"
     },
@@ -919,128 +954,23 @@
       "status": "expirado",
       "onset": "2026-05-02T17:33:46-03:00",
       "expires": "2026-05-02T18:30:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "17:11",
-      "senderName": "Defesa Civil de Parauapebas (PA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "PA",
-      "location": "Parauapebas/PA",
-      "headline": "Defesa Civil:¿Ha risco muito alto de chuvas Intensas nas proximas 24h. Fique em estado de ATENCAO e caso de Emergencia, ligue para Defesa Civil190",
-      "status": "vigente",
-      "onset": "2026-05-02T17:11:26-03:00",
-      "expires": "2026-05-03T23:55:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "17:07",
-      "senderName": "Defesa Civil de Parauapebas (PA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PA",
-      "location": "Parauapebas/PA",
-      "headline": "Defesa Civil:¿Ha risco moderado de chuvas Intensas nas proximas 24h. Fique em estado de ATENCAO e caso de Emergencia, ligue para Defesa Civil190",
-      "status": "expirado",
-      "onset": "2026-05-02T17:07:03-03:00",
-      "expires": "2026-05-02T20:40:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "17:05",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Itupiranga/PA",
-      "headline": "Defesa Civil:ITUPIRANGA:Alerta ALTO de Alagamentos para hoje (02MAI)  devido acumulado de chuvas. Evite contato com a agua de alagamentos.",
-      "status": "expirado",
-      "onset": "2026-05-02T17:05:17-03:00",
-      "expires": "2026-05-02T19:00:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "16:59",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Inundações",
-      "nivel": "Médio",
-      "uf": "PA",
-      "location": "Marabá/PA",
-      "headline": "Defesa Civil:MARABA: Alerta  MODERADO de INUNDACAO hoje (02MAI), risco de alagamentos nas areas baixas. projeta moveis em locais seguros, Emergencias 193",
-      "status": "expirado",
-      "onset": "2026-05-02T16:59:05-03:00",
-      "expires": "2026-05-02T18:00:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "16:54",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Extremo",
-      "uf": "PI",
-      "location": "Parnaíba/PI",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas em Parnaiba/PI. Evitar trafegar em areas de inundacoes e pontos de alagamentos nas vias. Em emergencia, ligue 190 ou 193",
-      "status": "expirado",
-      "onset": "2026-05-02T16:54:15-03:00",
-      "expires": "2026-05-02T23:55:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "16:51",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Extremo",
-      "uf": "PI",
-      "location": "PIAUÍ/PI",
-      "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS. Evitar trafegar em areas de alagamentos e pontos de inundacoes. Em caso de emergencia ligue 190 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-02T16:51:39-03:00",
-      "expires": "2026-05-03T05:00:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "16:46",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Marabá/PA",
-      "headline": "Defesa Civil:Alerta MODERADO de Alagamentos para hoje (02MAI) devido acumulado de chuva. Evite contato com a agua de alagamentos.",
-      "status": "expirado",
-      "onset": "2026-05-02T16:46:11-03:00",
-      "expires": "2026-05-02T18:45:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "16:31",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "PA",
-      "location": "Tucuruí/PA",
-      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "expirado",
-      "onset": "2026-05-02T16:31:31-03:00",
-      "expires": "2026-05-02T18:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 62,
+    "total_alerts": 57,
     "by_nivel": {
-      "Médio": 31,
+      "Médio": 30,
       "Alto": 21,
-      "Severo": 8,
-      "Extremo": 2
+      "Severo": 6
     },
     "by_channel_list": {
-      "Google": 62
+      "Google": 57
     },
     "by_region": {
-      "N": 34,
+      "N": 31,
       "SE": 14,
       "S": 10,
-      "NE": 4
+      "NE": 2
     }
   }
 }
