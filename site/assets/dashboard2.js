@@ -26,7 +26,7 @@ async function loadDashboard(){
     if(!res.ok) throw new Error('Nenhum arquivo de dados encontrado');
 
     const data = await res.json();
-    countdown = 60;
+    countdown = 300;
     renderAll(data);
   }catch(e){
     console.error(e);
