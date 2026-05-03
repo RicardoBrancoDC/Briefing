@@ -1,4 +1,4 @@
-const AUTO_REFRESH_MS = 60000;
+const AUTO_REFRESH_MS = 300000;
 const LEVEL_COLORS = {"Extremo":"#8457e6","Severo":"#ef3f34","Alto":"#ff861a","Médio":"#2f8cff","Baixo":"#52b34d","Indefinido":"#aebccc"};
 const UF_NOME = {AC:"Acre",AL:"Alagoas",AP:"Amapá",AM:"Amazonas",BA:"Bahia",CE:"Ceará",DF:"Distrito Federal",ES:"Espírito Santo",GO:"Goiás",MA:"Maranhão",MT:"Mato Grosso",MS:"Mato Grosso do Sul",MG:"Minas Gerais",PA:"Pará",PB:"Paraíba",PR:"Paraná",PE:"Pernambuco",PI:"Piauí",RJ:"Rio de Janeiro",RN:"Rio Grande do Norte",RS:"Rio Grande do Sul",RO:"Rondônia",RR:"Roraima",SC:"Santa Catarina",SP:"São Paulo",SE:"Sergipe",TO:"Tocantins"};
 const ESTADO_TO_UF = Object.fromEntries(Object.entries(UF_NOME).map(([uf,n])=>[slug(n),uf]));
@@ -13,7 +13,7 @@ let tableTimer = null;
 let lastTopAlertKey = null;
 
 document.addEventListener('DOMContentLoaded',()=>{loadDashboard(); timer=setInterval(tick,1000); setInterval(loadDashboard,AUTO_REFRESH_MS)});
-function tick(){countdown=Math.max(0,countdown-1); const m=String(Math.floor(countdown/60)).padStart(2,'0'),s=String(countdown%60).padStart(2,'0'); setText('refresh-countdown2',`${m}:${s}`); if(countdown===0) countdown=60;}
+function tick(){countdown=Math.max(0,countdown-1); const m=String(Math.floor(countdown/60)).padStart(2,'0'),s=String(countdown%60).padStart(2,'0'); setText('refresh-countdown2',`${m}:${s}`); if(countdown===0) countdown=300;}
 async function loadDashboard(){
   try{
     let res = await fetch(`dashboard_data2.json?_=${Date.now()}`,{cache:'no-store'});
