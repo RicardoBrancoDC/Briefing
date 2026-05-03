@@ -1,51 +1,39 @@
 {
-  "generated_at": "2026-05-03T08:09:54.412848-03:00",
-  "source_run_dir": "run_20260503_080931",
+  "generated_at": "2026-05-03T10:51:38.765118-03:00",
+  "source_run_dir": "run_20260503_105120",
   "cards": {
-    "vigentes": 28,
-    "ultimas24h": 56,
-    "autoridadesAtivas": 20,
+    "vigentes": 30,
+    "ultimas24h": 60,
+    "autoridadesAtivas": 22,
     "alertasExtremos": 2
   },
   "latest_alerts": [
     {
-      "time": "08:05",
+      "time": "10:45",
       "date": "03/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Nova Olinda do Norte/AM, Autazes/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "07:55",
-      "date": "03/05/2026",
-      "senderName": "Defesa Civil de Petrópolis (RJ)",
-      "senderNameShort": "DC Petrópolis (RJ)",
+      "senderName": "Defesa Civil de Itaguaí (RJ)",
+      "senderNameShort": "DC Itaguaí (RJ)",
       "event": "Chuvas Intensas",
       "nivel": "Médio",
-      "location": "Petrópolis/RJ",
+      "location": "Itaguaí/RJ",
       "uf": "RJ",
-      "headline": "Defesa Civil:Previsao de pancadas de chuva moderada a ocasionalmente forte podendo vir com raios e rajadas de vento em Petropolis. Emergencia 199. 03/05 07:55h",
+      "headline": "Defesa Civil:ITAGUAI -Nucleos isolados de chuva moderada atuam sobre o municipio. Em caso de emergencia ligue:199/193",
       "status": "vigente"
     },
     {
-      "time": "07:55",
+      "time": "10:38",
       "date": "03/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Severo",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "senderNameShort": "DC Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
       "location": "Manaus/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento, Zonas Sul e Centro-sul. Nao enfrente areas alagadas. Procure local seguro. Em caso de emergencia ligue: 199/193.",
+      "headline": "Defesa Civil:ALERTA de Chuva Intensa (NIVEL ALTO). Evite area de risco com historico de alagamento ou enxurrada. Em caso de emergencia ligue 193/199.",
       "status": "vigente"
     },
     {
-      "time": "07:25",
+      "time": "10:30",
       "date": "03/05/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
@@ -57,15 +45,27 @@
       "status": "vigente"
     },
     {
-      "time": "06:52",
+      "time": "10:15",
       "date": "03/05/2026",
-      "senderName": "Defesa Civil de Mesquita (RJ)",
-      "senderNameShort": "DC Mesquita (RJ)",
+      "senderName": "Defesa Civil de Belém (PA)",
+      "senderNameShort": "DC Belém (PA)",
       "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Mesquita/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Mesquita(03/05 06:50): previsao de chuva moderada/forte, com rajadas de vento, nas proximas horas. Emergencia: 4042-1772 ou 199",
+      "nivel": "Médio",
+      "location": "Belém/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:SUMDEC: Alerta MODERADO para chuvas intensas e incidencia de raios neste 03MAI, com risco de alagamentos e destelhamentos. Recomenda-se atencao!",
+      "status": "vigente"
+    },
+    {
+      "time": "10:10",
+      "date": "03/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Médio",
+      "location": "Nhamundá/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Observe sinais em encostas. Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
       "status": "vigente"
     }
   ],
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 10
+      "count": 12
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -83,12 +83,12 @@
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 8
+      "count": 7
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
-      "count": 3
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Alto",
-      "count": 17
+      "count": 21
     },
     {
       "label": "Severo",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 36
+      "count": 39
     },
     {
       "label": "Alagamentos",
@@ -157,34 +157,34 @@
       "count": 4
     },
     {
-      "label": "Friagem",
+      "label": "Solo/Lama",
       "count": 1
     },
     {
-      "label": "Inundações",
+      "label": "Rocha/Detrito",
       "count": 1
     },
     {
       "label": "Outros",
-      "count": 2
+      "count": 3
     }
   ],
   "uf_distribution": [
     {
       "uf": "RJ",
-      "count": 15
+      "count": 17
     },
     {
       "uf": "AM",
-      "count": 13
+      "count": 17
     },
     {
       "uf": "PA",
-      "count": 12
+      "count": 13
     },
     {
       "uf": "SC",
-      "count": 8
+      "count": 7
     },
     {
       "uf": "PI",
@@ -195,10 +195,6 @@
       "count": 2
     },
     {
-      "uf": "PR",
-      "count": 2
-    },
-    {
       "uf": "CE",
       "count": 1
     }
@@ -206,14 +202,131 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 28
+      "count": 30
     },
     {
       "label": "expirado",
-      "count": 28
+      "count": 30
     }
   ],
   "all_alerts": [
+    {
+      "date": "03/05/2026",
+      "time": "10:45",
+      "senderName": "Defesa Civil de Itaguaí (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Itaguaí/RJ",
+      "headline": "Defesa Civil:ITAGUAI -Nucleos isolados de chuva moderada atuam sobre o municipio. Em caso de emergencia ligue:199/193",
+      "status": "vigente",
+      "onset": "2026-05-03T10:45:24-03:00",
+      "expires": "2026-05-04T07:00:00-03:00"
+    },
+    {
+      "date": "03/05/2026",
+      "time": "10:38",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA de Chuva Intensa (NIVEL ALTO). Evite area de risco com historico de alagamento ou enxurrada. Em caso de emergencia ligue 193/199.",
+      "status": "vigente",
+      "onset": "2026-05-03T10:38:30-03:00",
+      "expires": "2026-05-03T16:00:00-03:00"
+    },
+    {
+      "date": "03/05/2026",
+      "time": "10:30",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-03T10:30:49-03:00",
+      "expires": "2026-05-03T16:30:00-03:00"
+    },
+    {
+      "date": "03/05/2026",
+      "time": "10:15",
+      "senderName": "Defesa Civil de Belém (PA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PA",
+      "location": "Belém/PA",
+      "headline": "Defesa Civil:SUMDEC: Alerta MODERADO para chuvas intensas e incidencia de raios neste 03MAI, com risco de alagamentos e destelhamentos. Recomenda-se atencao!",
+      "status": "vigente",
+      "onset": "2026-05-03T10:15:50-03:00",
+      "expires": "2026-05-03T23:55:00-03:00"
+    },
+    {
+      "date": "03/05/2026",
+      "time": "10:10",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Nhamundá/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Observe sinais em encostas. Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-03T10:10:23-03:00",
+      "expires": "2026-05-03T18:00:00-03:00"
+    },
+    {
+      "date": "03/05/2026",
+      "time": "10:00",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "PARÁ/PA",
+      "headline": "Defesa Civil:ALERTA ALTO para chuvas intensas (03MAI). Acompanhe atualizacoes da Defesa Civil. Em emergencia (193).",
+      "status": "vigente",
+      "onset": "2026-05-03T10:00:21-03:00",
+      "expires": "2026-05-04T23:59:00-03:00"
+    },
+    {
+      "date": "03/05/2026",
+      "time": "09:54",
+      "senderName": "Defesa Civil de Magé (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Magé/RJ",
+      "headline": "Defesa Civil:Chuvas Intensas para Mage/RJ previsao de chuva com raios e rajadas de vento,  evite areas de risco,  tel 193, Zap 21 98644-5425/99332-5170.",
+      "status": "vigente",
+      "onset": "2026-05-03T09:54:58-03:00",
+      "expires": "2026-05-04T08:00:00-03:00"
+    },
+    {
+      "date": "03/05/2026",
+      "time": "08:47",
+      "senderName": "Defesa Civil Mangaratiba (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Mangaratiba/RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva moderada a forte para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
+      "status": "vigente",
+      "onset": "2026-05-03T08:47:08-03:00",
+      "expires": "2026-05-04T10:00:00-03:00"
+    },
+    {
+      "date": "03/05/2026",
+      "time": "08:34",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "event": "Rocha/Detrito",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:Defesa Civil ALERTA: Risco de deslizamento para Manaus (NIVEL ALTO). Em caso de emergencia, ligue 199/193",
+      "status": "vigente",
+      "onset": "2026-05-03T08:34:05-03:00",
+      "expires": "2026-05-03T16:00:00-03:00"
+    },
     {
       "date": "03/05/2026",
       "time": "08:05",
@@ -262,7 +375,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-03T07:25:41-03:00",
       "expires": "2026-05-03T10:20:00-03:00"
     },
@@ -483,7 +596,7 @@
       "uf": "CE",
       "location": "CEARÁ/CE",
       "headline": "Defesa Civil:(CEARA) Possibilidade de chuva MODERADA, com raios e rajadas de vento, evite areas alagadas Fonte: FUNCEME. EMERGENCIA: 193/190.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T20:26:45-03:00",
       "expires": "2026-05-03T09:00:00-03:00"
     },
@@ -587,7 +700,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Observação Meteorológica SDC/SC 02/05 12:30 - Declínio acentuado de temperatura entre a noite de sábado (02) e a manhã de domingo (03). Ocorrências ligue 193 ou 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T18:00:00-03:00",
       "expires": "2026-05-03T09:00:00-03:00"
     },
@@ -769,7 +882,7 @@
       "uf": "RJ",
       "location": "Nova Friburgo/RJ",
       "headline": "Defesa Civil:NF/Rajadas de vento moderado a forte hoje/amanha (02/05 - 03/05). Emergencia, ligue 193 ou 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T13:01:51-03:00",
       "expires": "2026-05-03T09:00:00-03:00"
     },
@@ -860,7 +973,7 @@
       "uf": "RJ",
       "location": "Saquarema/RJ",
       "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje/amanha (02/05 - 03/05). Emergencia, ligue 193 ou (22)992115580.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T11:51:38-03:00",
       "expires": "2026-05-03T09:00:00-03:00"
     },
@@ -873,91 +986,26 @@
       "uf": "RJ",
       "location": "RIO DE JANEIRO/RJ",
       "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje/amanha (02/05 - 03/05). Emergencia, ligue 193 ou 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T11:49:28-03:00",
       "expires": "2026-05-03T09:00:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "09:48",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:PARA: Alerta MODERADO de chuvas e ventos intensos para hoje (02MAI). Risco de alagamentos. Atencao a novos alertas. Emergencia, ligue 193.",
-      "status": "expirado",
-      "onset": "2026-05-02T09:48:02-03:00",
-      "expires": "2026-05-02T23:55:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "09:37",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Observação Meteorológica SDC/SC 02/05 08:50 - Temporais isolados e chuva pontualmente intensa no sábado (02). Ocorrências ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-05-02T09:37:03-03:00",
-      "expires": "2026-05-02T18:00:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "09:29",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Tempestade De Raios",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-02T09:29:19-03:00",
-      "expires": "2026-05-02T12:25:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "09:11",
-      "senderName": "Defesa Civil Mangaratiba (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva e rajadas de vento moderadas para as proximas 24horas. Em caso de Emergencia ligue: (21) 3030-2662/199/193.",
-      "status": "vigente",
-      "onset": "2026-05-02T09:11:58-03:00",
-      "expires": "2026-05-04T10:00:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "08:38",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-02T08:38:09-03:00",
-      "expires": "2026-05-02T11:35:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 56,
+    "total_alerts": 60,
     "by_nivel": {
       "Médio": 31,
-      "Alto": 17,
+      "Alto": 21,
       "Severo": 6,
       "Extremo": 2
     },
     "by_channel_list": {
-      "Google": 56
+      "Google": 60
     },
     "by_region": {
-      "N": 25,
-      "SE": 17,
-      "S": 10,
+      "N": 30,
+      "SE": 19,
+      "S": 7,
       "NE": 4
     }
   }
