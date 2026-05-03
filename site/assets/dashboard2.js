@@ -2,11 +2,11 @@ const AUTO_REFRESH_MS = 60000;
 const LEVEL_COLORS = {"Extremo":"#8457e6","Severo":"#ef3f34","Alto":"#ff861a","Médio":"#2f8cff","Baixo":"#52b34d","Indefinido":"#aebccc"};
 const UF_NOME = {AC:"Acre",AL:"Alagoas",AP:"Amapá",AM:"Amazonas",BA:"Bahia",CE:"Ceará",DF:"Distrito Federal",ES:"Espírito Santo",GO:"Goiás",MA:"Maranhão",MT:"Mato Grosso",MS:"Mato Grosso do Sul",MG:"Minas Gerais",PA:"Pará",PB:"Paraíba",PR:"Paraná",PE:"Pernambuco",PI:"Piauí",RJ:"Rio de Janeiro",RN:"Rio Grande do Norte",RS:"Rio Grande do Sul",RO:"Rondônia",RR:"Roraima",SC:"Santa Catarina",SP:"São Paulo",SE:"Sergipe",TO:"Tocantins"};
 const ESTADO_TO_UF = Object.fromEntries(Object.entries(UF_NOME).map(([uf,n])=>[slug(n),uf]));
-let countdown=60, timer=null;
+let countdown=300, timer=null;
 
 // Rotação automática da tabela de últimos alertas
 const TABLE_PAGE_SIZE = 6;
-const TABLE_ROTATE_MS = 15000;
+const TABLE_ROTATE_MS = 10000;
 let tableAlerts = [];
 let tablePage = 0;
 let tableTimer = null;
