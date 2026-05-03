@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-05-03T12:27:19.100442-03:00",
-  "source_run_dir": "run_20260503_122658",
+  "generated_at": "2026-05-03T14:11:20.054880-03:00",
+  "source_run_dir": "run_20260503_141056",
   "cards": {
-    "vigentes": 33,
-    "ultimas24h": 62,
-    "autoridadesAtivas": 22,
+    "vigentes": 32,
+    "ultimas24h": 61,
+    "autoridadesAtivas": 19,
     "alertasExtremos": 2
   },
   "latest_alerts": [
+    {
+      "time": "13:56",
+      "date": "03/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "13:18",
+      "date": "03/05/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "location": "Florianópolis/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 03/05 13:14 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Florianópolis. Pico previsto às 14:45 h. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "13:15",
+      "date": "03/05/2026",
+      "senderName": "Defesa Civil de Niterói (RJ)",
+      "senderNameShort": "DC Niterói (RJ)",
+      "event": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
+      "nivel": "Médio",
+      "location": "Niterói/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Niteroi: Mudanca do Risco de Fogo em Vegetacao para BAIXO as 13h00min deste domingo (03/05). Em caso de emergencia, ligue 199.",
+      "status": "vigente"
+    },
+    {
+      "time": "12:27",
+      "date": "03/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Médio",
+      "location": "Iranduba/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "12:00",
       "date": "03/05/2026",
@@ -19,61 +67,13 @@
       "uf": "SC",
       "headline": "Defesa Civil:Atualizacao: Atencao Maritima SDC/SC 03/05 09h50 - Mar agitado e ventos intensos entre o domingo (03) e a segunda (04). Ocorrencias ligue 199/193.",
       "status": "vigente"
-    },
-    {
-      "time": "12:00",
-      "date": "03/05/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "location": "Florianópolis/SC, Itajaí/SC",
-      "uf": "SC",
-      "headline": "Atualização: Observação Marítima SDC/SC 03/05 10:00 - Alagamentos costeiros no domingo (03). Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "11:49",
-      "date": "03/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Médio",
-      "location": "Careiro da Várzea/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "11:38",
-      "date": "03/05/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "location": "Alegrete/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Ibirapuita. Risco MUITO ALTO em Alegrete. Val. por 24h. Evite areas inundaveis. Emerg 190/193.",
-      "status": "vigente"
-    },
-    {
-      "time": "11:33",
-      "date": "03/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Severo",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento.   Nao enfrente areas alagadas. Procure local seguro.  Em caso de emergencia ligue: 199/193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 15
+      "count": 17
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -101,6 +101,11 @@
       "count": 3
     },
     {
+      "name": "Defesa Civil de Niterói (RJ)",
+      "short_name": "DC Niterói (RJ)",
+      "count": 2
+    },
+    {
       "name": "Defesa Civil de Mesquita (RJ)",
       "short_name": "DC Mesquita (RJ)",
       "count": 2
@@ -108,11 +113,6 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil de Angra dos Reis (RJ)",
-      "short_name": "DC Angra dos Reis (RJ)",
       "count": 2
     },
     {
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 32
+      "count": 31
     },
     {
       "label": "Alto",
@@ -153,16 +153,16 @@
       "count": 5
     },
     {
-      "label": "Vendaval",
-      "count": 3
-    },
-    {
       "label": "Solo/Lama",
-      "count": 2
+      "count": 3
     },
     {
       "label": "Inundações",
       "count": 2
+    },
+    {
+      "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
+      "count": 1
     },
     {
       "label": "Outros",
@@ -172,15 +172,15 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 20
-    },
-    {
-      "uf": "RJ",
-      "count": 14
+      "count": 22
     },
     {
       "uf": "PA",
       "count": 13
+    },
+    {
+      "uf": "RJ",
+      "count": 11
     },
     {
       "uf": "SC",
@@ -206,7 +206,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 33
+      "count": 32
     },
     {
       "label": "expirado",
@@ -214,6 +214,58 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "03/05/2026",
+      "time": "13:56",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-03T13:56:31-03:00",
+      "expires": "2026-05-03T18:30:00-03:00"
+    },
+    {
+      "date": "03/05/2026",
+      "time": "13:18",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "Florianópolis/SC",
+      "headline": "OBSERVAÇÃO - 03/05 13:14 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Florianópolis. Pico previsto às 14:45 h. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-03T13:18:31-03:00",
+      "expires": "2026-05-03T17:00:00-03:00"
+    },
+    {
+      "date": "03/05/2026",
+      "time": "13:15",
+      "senderName": "Defesa Civil de Niterói (RJ)",
+      "event": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Niterói/RJ",
+      "headline": "Defesa Civil:Niteroi: Mudanca do Risco de Fogo em Vegetacao para BAIXO as 13h00min deste domingo (03/05). Em caso de emergencia, ligue 199.",
+      "status": "vigente",
+      "onset": "2026-05-03T13:15:26-03:00",
+      "expires": "2026-05-03T23:55:00-03:00"
+    },
+    {
+      "date": "03/05/2026",
+      "time": "12:27",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Iranduba/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-03T12:27:57-03:00",
+      "expires": "2026-05-04T00:00:00-03:00"
+    },
     {
       "date": "03/05/2026",
       "time": "12:00",
@@ -444,7 +496,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento, Zonas Sul e Centro-sul. Nao enfrente areas alagadas. Procure local seguro. Em caso de emergencia ligue: 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-03T07:55:05-03:00",
       "expires": "2026-05-03T12:45:00-03:00"
     },
@@ -954,87 +1006,22 @@
       "status": "expirado",
       "onset": "2026-05-02T14:29:44-03:00",
       "expires": "2026-05-02T16:55:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "13:01",
-      "senderName": "Defesa Civil de Nova Friburgo (RJ)",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Nova Friburgo/RJ",
-      "headline": "Defesa Civil:NF/Rajadas de vento moderado a forte hoje/amanha (02/05 - 03/05). Emergencia, ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-05-02T13:01:51-03:00",
-      "expires": "2026-05-03T09:00:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "13:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "Florianópolis/SC, Itajaí/SC",
-      "headline": "Observação Marítima SDC/SC 01/05 11:00 - Alagamentos costeiros no sábado (02) e no domingo (03). Ocorrências 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-05-02T13:00:00-03:00",
-      "expires": "2026-05-03T17:00:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "12:55",
-      "senderName": "Defesa Civil de Angra dos Reis (RJ)",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Angra dos Reis/RJ",
-      "headline": "Defesa Civil:(ANGRA DOS REIS) - Estamos sob AVISO meteorologico de VENTO MODERADO. Fique atento aos proximos avisos. Duvidas ligue: 199/ (24)3365-4588.",
-      "status": "vigente",
-      "onset": "2026-05-02T12:55:29-03:00",
-      "expires": "2026-05-03T19:00:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "12:49",
-      "senderName": "Defesa Civil de Angra dos Reis (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Angra dos Reis/RJ",
-      "headline": "Defesa Civil:(ANGRA DOS REIS) AVISO: Possibilidade de CHUVA MODERADA/FORTE. Nao ha necessidade de deixar sua casa. Atento aos prox avisos. Tel: 199/33654588.",
-      "status": "vigente",
-      "onset": "2026-05-02T12:49:11-03:00",
-      "expires": "2026-05-03T19:00:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "12:48",
-      "senderName": "Defesa Civil de Areal (RJ)",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Areal/RJ",
-      "headline": "Defesa Civil:Previsao de rajadas de vento moderado a forte a partir da tarde de hoje e amanha (02/05 - 03/05) em Areal. Emergencia, ligue 199 ou (24)999630827.",
-      "status": "vigente",
-      "onset": "2026-05-02T12:48:46-03:00",
-      "expires": "2026-05-03T23:35:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 62,
+    "total_alerts": 61,
     "by_nivel": {
-      "Médio": 32,
+      "Médio": 31,
       "Alto": 20,
       "Severo": 8,
       "Extremo": 2
     },
     "by_channel_list": {
-      "Google": 62
+      "Google": 61
     },
     "by_region": {
-      "N": 33,
-      "SE": 16,
+      "N": 35,
+      "SE": 13,
       "S": 9,
       "NE": 4
     }
