@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-02T21:23:34.205518-03:00",
-  "source_run_dir": "run_20260502_212316",
+  "generated_at": "2026-05-03T01:14:17.811569-03:00",
+  "source_run_dir": "run_20260503_011404",
   "cards": {
-    "vigentes": 36,
-    "ultimas24h": 81,
+    "vigentes": 28,
+    "ultimas24h": 72,
     "autoridadesAtivas": 18,
     "alertasExtremos": 2
   },
   "latest_alerts": [
+    {
+      "time": "22:32",
+      "date": "02/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "21:10",
       "date": "02/05/2026",
@@ -18,7 +30,7 @@
       "location": "PARÁ/PA",
       "uf": "PA",
       "headline": "Defesa Civil:METROPOLITANA BELEM:Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais. evite areas alagadas e dirija com atencao",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "21:04",
@@ -42,7 +54,7 @@
       "location": "Belém/PA",
       "uf": "PA",
       "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "20:55",
@@ -55,30 +67,13 @@
       "uf": "RJ",
       "headline": "Defesa Civil:Mesquita: aviso meteorologico de acumulados elevados de precipitacao, entre 03h e 23:59h de 03/05. Emergencia: 4042-1772 ou 199",
       "status": "vigente"
-    },
-    {
-      "time": "20:51",
-      "date": "02/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 28
-    },
-    {
-      "name": "Defesa Civil Estadual do Rio Grande do Sul",
-      "short_name": "DC Rio Grande do Sul",
-      "count": 12
+      "count": 25
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -88,6 +83,11 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
+      "count": 7
+    },
+    {
+      "name": "Defesa Civil Estadual do Rio Grande do Sul",
+      "short_name": "DC Rio Grande do Sul",
       "count": 7
     },
     {
@@ -111,24 +111,24 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
+      "name": "Defesa Civil de Angra dos Reis (RJ)",
+      "short_name": "DC Angra dos Reis (RJ)",
       "count": 2
     },
     {
-      "name": "Defesa Civil de Angra dos Reis (RJ)",
-      "short_name": "DC Angra dos Reis (RJ)",
+      "name": "Defesa Civil Estadual do Rio de Janeiro",
+      "short_name": "DC Rio de Janeiro",
       "count": 2
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 45
+      "count": 39
     },
     {
       "label": "Alto",
-      "count": 29
+      "count": 26
     },
     {
       "label": "Severo",
@@ -142,11 +142,11 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 51
+      "count": 45
     },
     {
       "label": "Deslizamentos",
-      "count": 9
+      "count": 8
     },
     {
       "label": "Alagamentos",
@@ -161,25 +161,21 @@
       "count": 4
     },
     {
-      "label": "Granizo",
-      "count": 2
+      "label": "Friagem",
+      "count": 1
     },
     {
       "label": "Outros",
-      "count": 5
+      "count": 4
     }
   ],
   "uf_distribution": [
     {
       "uf": "SC",
-      "count": 31
+      "count": 28
     },
     {
       "uf": "PA",
-      "count": 12
-    },
-    {
-      "uf": "RS",
       "count": 12
     },
     {
@@ -188,7 +184,11 @@
     },
     {
       "uf": "AM",
-      "count": 9
+      "count": 8
+    },
+    {
+      "uf": "RS",
+      "count": 7
     },
     {
       "uf": "PI",
@@ -210,14 +210,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 36
+      "count": 28
     },
     {
       "label": "expirado",
-      "count": 45
+      "count": 44
     }
   ],
   "all_alerts": [
+    {
+      "date": "02/05/2026",
+      "time": "22:32",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-02T22:32:48-03:00",
+      "expires": "2026-05-03T01:45:00-03:00"
+    },
     {
       "date": "02/05/2026",
       "time": "21:10",
@@ -227,7 +240,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:METROPOLITANA BELEM:Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais. evite areas alagadas e dirija com atencao",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T21:10:43-03:00",
       "expires": "2026-05-03T01:00:00-03:00"
     },
@@ -253,7 +266,7 @@
       "uf": "PA",
       "location": "Belém/PA",
       "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T21:00:58-03:00",
       "expires": "2026-05-02T22:00:00-03:00"
     },
@@ -279,7 +292,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T20:51:05-03:00",
       "expires": "2026-05-02T23:45:00-03:00"
     },
@@ -305,7 +318,7 @@
       "uf": "PA",
       "location": "Igarapé-Miri/PA",
       "headline": "Defesa Civil:IGARAPE-MIRI: risco ALTO de Alagamentos para hoje (02MAI) devido acumulado de chuva. Evite contato com a agua de alagamentos.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T20:08:32-03:00",
       "expires": "2026-05-02T23:00:00-03:00"
     },
@@ -318,7 +331,7 @@
       "uf": "PA",
       "location": "Moju/PA",
       "headline": "Defesa Civil:MOJU: Alerta ALTO de ALAGAMENTOS para hoje (02MAI) devido acumulado de chuva. Evite contato com a agua de alagamentos.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T20:04:04-03:00",
       "expires": "2026-05-02T22:00:00-03:00"
     },
@@ -409,7 +422,7 @@
       "uf": "PA",
       "location": "Parauapebas/PA",
       "headline": "Defesa Civil:Ha risco moderado de chuvas Intensas nas proximas 24h. Fique em estado de ATENCAO e caso de Emergencia, ligue para Defesa Civil190",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T17:43:12-03:00",
       "expires": "2026-05-02T23:40:00-03:00"
     },
@@ -487,7 +500,7 @@
       "uf": "PI",
       "location": "Parnaíba/PI",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas em Parnaiba/PI. Evitar trafegar em areas de inundacoes e pontos de alagamentos nas vias. Em emergencia, ligue 190 ou 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T16:54:15-03:00",
       "expires": "2026-05-02T23:55:00-03:00"
     },
@@ -695,7 +708,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:PARA: Alerta MODERADO de chuvas e ventos intensos para hoje (02MAI). Risco de alagamentos. Atencao a novos alertas. Emergencia, ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T09:48:02-03:00",
       "expires": "2026-05-02T23:55:00-03:00"
     },
@@ -1140,152 +1153,22 @@
       "status": "vigente",
       "onset": "2026-05-02T01:26:52-03:00",
       "expires": "2026-05-03T01:20:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "00:25",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 02/05 00:24 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Planalto Sul e Litoral Sul nas próximas 6 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-02T00:25:30-03:00",
-      "expires": "2026-05-02T06:25:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "00:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Observação Meteorológica SDC/SC 30/04 11:00 - Temporais isolados e chuva pontualmente intensa no decorrer do sábado (02). Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-02T00:00:00-03:00",
-      "expires": "2026-05-02T21:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "23:09",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-01T23:09:10-03:00",
-      "expires": "2026-05-02T03:30:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "23:04",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de alagamentos/destelhamento. Val ate 05h. Mantenha-se seguro",
-      "status": "expirado",
-      "onset": "2026-05-01T23:04:18-03:00",
-      "expires": "2026-05-02T05:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "22:58",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva e raios. Risco ALTO de alagamentos. Val. ate 02h. Mantenha-se seguro. Emerg. 190/193",
-      "status": "expirado",
-      "onset": "2026-05-01T22:58:23-03:00",
-      "expires": "2026-05-02T02:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "22:10",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Médio",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 01h. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-05-01T22:10:00-03:00",
-      "expires": "2026-05-02T01:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "21:52",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva e raios. Risco ALTO de alagamentos. Val. ate 01h. Mantenha-se seguro. Emerg. 190/193",
-      "status": "expirado",
-      "onset": "2026-05-01T21:52:48-03:00",
-      "expires": "2026-05-02T01:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "21:46",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.¿¿",
-      "status": "expirado",
-      "onset": "2026-05-01T21:46:03-03:00",
-      "expires": "2026-05-02T06:00:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "21:43",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Deslizamentos",
-      "nivel": "Médio",
-      "uf": "RS",
-      "location": "Porto Alegre/RS",
-      "headline": "Defesa Civil:Alerta AMARELO: Risco MODERADO para deslizamentos pontuais em Porto Alegre. Evite areas de risco. Val por 24h. Emerg 190/193",
-      "status": "vigente",
-      "onset": "2026-05-01T21:43:35-03:00",
-      "expires": "2026-05-02T21:35:00-03:00"
-    },
-    {
-      "date": "01/05/2026",
-      "time": "21:23",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 01/05 21:20 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Planalto Sul e Litoral Sul nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-01T21:23:46-03:00",
-      "expires": "2026-05-02T00:20:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 81,
+    "total_alerts": 72,
     "by_nivel": {
-      "Médio": 45,
-      "Alto": 29,
+      "Médio": 39,
+      "Alto": 26,
       "Severo": 5,
       "Extremo": 2
     },
     "by_channel_list": {
-      "Google": 81
+      "Google": 72
     },
     "by_region": {
-      "S": 46,
-      "N": 21,
+      "S": 38,
+      "N": 20,
       "SE": 10,
       "NE": 4
     }
