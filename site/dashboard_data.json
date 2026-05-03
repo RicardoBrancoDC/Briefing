@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-03T17:14:33.683113-03:00",
-  "source_run_dir": "run_20260503_171406",
+  "generated_at": "2026-05-03T18:06:06.599131-03:00",
+  "source_run_dir": "run_20260503_180530",
   "cards": {
-    "vigentes": 32,
-    "ultimas24h": 57,
+    "vigentes": 27,
+    "ultimas24h": 53,
     "autoridadesAtivas": 21,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "18:00",
+      "date": "03/05/2026",
+      "senderName": "Defesa Civil de Niterói (RJ)",
+      "senderNameShort": "DC Niterói (RJ)",
+      "event": "Marés De Tempestade (Ressacas)",
+      "nivel": "Médio",
+      "location": "Niterói/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Niteroi: Aviso de Ressaca. Inicio: 03/05/26 domingo 18h. Fim: 05/05/26 terca-feira 15h. Ondas com altura de 2,5/3 metros. Emergencia, 199.",
+      "status": "vigente"
+    },
+    {
+      "time": "17:28",
+      "date": "03/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "17:08",
       "date": "03/05/2026",
@@ -43,30 +67,6 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
       "status": "vigente"
-    },
-    {
-      "time": "15:51",
-      "date": "03/05/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Alfredo Chaves/ES",
-      "uf": "ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA MODERADA e VENTO em Alfredo Chaves nas proximas 05 horas. Evite area de risco. Fique atento as orientacoes da Defesa Civil.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:04",
-      "date": "03/05/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "location": "Itajaí/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 03/05 15:00 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Itajaí. Pico previsto às 15:45 h. Ocorrências ligue 199 ou 193.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -76,13 +76,13 @@
       "count": 18
     },
     {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 9
-    },
-    {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
+      "count": 5
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
       "count": 5
     },
     {
@@ -91,14 +91,9 @@
       "count": 5
     },
     {
-      "name": "Defesa Civil de Parauapebas (PA)",
-      "short_name": "DC Parauapebas (PA)",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil de Niterói (RJ)",
       "short_name": "DC Niterói (RJ)",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Defesa Civil de Mesquita (RJ)",
@@ -108,6 +103,11 @@
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Parauapebas (PA)",
+      "short_name": "DC Parauapebas (PA)",
       "count": 1
     },
     {
@@ -124,33 +124,33 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 30
+      "count": 28
     },
     {
       "label": "Alto",
-      "count": 21
+      "count": 20
     },
     {
       "label": "Severo",
-      "count": 6
+      "count": 5
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 34
+      "count": 33
     },
     {
       "label": "Alagamentos",
       "count": 8
     },
     {
-      "label": "Marés De Tempestade (Ressacas)",
-      "count": 6
-    },
-    {
       "label": "Solo/Lama",
       "count": 5
+    },
+    {
+      "label": "Marés De Tempestade (Ressacas)",
+      "count": 4
     },
     {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
@@ -162,7 +162,7 @@
     },
     {
       "label": "Outros",
-      "count": 2
+      "count": 1
     }
   ],
   "uf_distribution": [
@@ -172,15 +172,15 @@
     },
     {
       "uf": "RJ",
-      "count": 12
-    },
-    {
-      "uf": "SC",
-      "count": 9
+      "count": 13
     },
     {
       "uf": "PA",
-      "count": 8
+      "count": 7
+    },
+    {
+      "uf": "SC",
+      "count": 5
     },
     {
       "uf": "ES",
@@ -206,14 +206,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 32
+      "count": 27
     },
     {
       "label": "expirado",
-      "count": 25
+      "count": 26
     }
   ],
   "all_alerts": [
+    {
+      "date": "03/05/2026",
+      "time": "18:00",
+      "senderName": "Defesa Civil de Niterói (RJ)",
+      "event": "Marés De Tempestade (Ressacas)",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Niterói/RJ",
+      "headline": "Defesa Civil:Niteroi: Aviso de Ressaca. Inicio: 03/05/26 domingo 18h. Fim: 05/05/26 terca-feira 15h. Ondas com altura de 2,5/3 metros. Emergencia, 199.",
+      "status": "vigente",
+      "onset": "2026-05-03T18:00:00-03:00",
+      "expires": "2026-05-05T15:00:00-03:00"
+    },
+    {
+      "date": "03/05/2026",
+      "time": "17:28",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-03T17:28:01-03:00",
+      "expires": "2026-05-04T00:30:00-03:00"
+    },
     {
       "date": "03/05/2026",
       "time": "17:08",
@@ -431,7 +457,7 @@
       "uf": "AM",
       "location": "Careiro da Várzea/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-03T11:07:36-03:00",
       "expires": "2026-05-03T18:00:00-03:00"
     },
@@ -496,7 +522,7 @@
       "uf": "AM",
       "location": "Nhamundá/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Observe sinais em encostas. Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-03T10:10:23-03:00",
       "expires": "2026-05-03T18:00:00-03:00"
     },
@@ -652,7 +678,7 @@
       "uf": "RJ",
       "location": "Niterói/RJ",
       "headline": "Defesa Civil:(03/05 06:25) Niteroi: Previsao de chuva moderada a forte isolada para as proximas horas. Em caso de emergencia, ligue 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-03T06:29:07-03:00",
       "expires": "2026-05-03T18:00:00-03:00"
     },
@@ -665,7 +691,7 @@
       "uf": "RJ",
       "location": "Nova Iguaçu/RJ",
       "headline": "Defesa Civil:Nova Iguacu:ESTAGIO DE VIGILANCIA. Raj. de vento ao longo do domingo(03). Chuva moderada a forte,  a partir da manha.Emergencia:199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-03T06:00:00-03:00",
       "expires": "2026-05-03T18:00:00-03:00"
     },
@@ -876,100 +902,22 @@
       "status": "vigente",
       "onset": "2026-05-02T18:50:00-03:00",
       "expires": "2026-05-04T09:00:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "18:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:Atencao Maritima SDC/SC 01/05 10h30 - Mar agitado e ventos intensos entre a noite de sabado (02) e a segunda-feira (04). Ocorrencias ligue 199/193",
-      "status": "vigente",
-      "onset": "2026-05-02T18:00:00-03:00",
-      "expires": "2026-05-04T23:55:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "18:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Observação Marítima SDC/SC 01/05 10h30 - Mar agitado e ventos intensos entre a noite de sábado (02) e a segunda-feira (04). Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-05-02T18:00:00-03:00",
-      "expires": "2026-05-04T23:55:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "18:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:Atualizacao: Atencao SDC 02/05 09h20 Mar agitado e ventos intensos entre a noite de sabado (02) e a segunda-feira (04).  Ocorrencias ligue 199/193",
-      "status": "vigente",
-      "onset": "2026-05-02T18:00:00-03:00",
-      "expires": "2026-05-04T23:55:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "18:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Friagem",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Observação Meteorológica SDC/SC 02/05 12:30 - Declínio acentuado de temperatura entre a noite de sábado (02) e a manhã de domingo (03). Ocorrências ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-05-02T18:00:00-03:00",
-      "expires": "2026-05-03T09:00:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "17:43",
-      "senderName": "Defesa Civil de Parauapebas (PA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "PA",
-      "location": "Parauapebas/PA",
-      "headline": "Defesa Civil:Ha risco moderado de chuvas Intensas nas proximas 24h. Fique em estado de ATENCAO e caso de Emergencia, ligue para Defesa Civil190",
-      "status": "expirado",
-      "onset": "2026-05-02T17:43:12-03:00",
-      "expires": "2026-05-02T23:40:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "17:33",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Tapauá/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-02T17:33:46-03:00",
-      "expires": "2026-05-02T18:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 57,
+    "total_alerts": 53,
     "by_nivel": {
-      "Médio": 30,
-      "Alto": 21,
-      "Severo": 6
+      "Médio": 28,
+      "Alto": 20,
+      "Severo": 5
     },
     "by_channel_list": {
-      "Google": 57
+      "Google": 53
     },
     "by_region": {
-      "N": 31,
-      "SE": 14,
-      "S": 10,
+      "N": 30,
+      "SE": 15,
+      "S": 6,
       "NE": 2
     }
   }
