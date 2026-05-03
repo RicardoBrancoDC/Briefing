@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-03T01:14:17.811569-03:00",
-  "source_run_dir": "run_20260503_011404",
+  "generated_at": "2026-05-03T03:43:43.148334-03:00",
+  "source_run_dir": "run_20260503_034330",
   "cards": {
-    "vigentes": 28,
-    "ultimas24h": 72,
-    "autoridadesAtivas": 18,
+    "vigentes": 21,
+    "ultimas24h": 59,
+    "autoridadesAtivas": 17,
     "alertasExtremos": 2
   },
   "latest_alerts": [
+    {
+      "time": "02:38",
+      "date": "03/05/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:02h38 Chuva em Bertioga, Sao Sebastiao e Ilhabela. Tem ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
+      "status": "vigente"
+    },
     {
       "time": "22:32",
       "date": "02/05/2026",
@@ -18,7 +30,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "21:10",
@@ -55,25 +67,13 @@
       "uf": "PA",
       "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
       "status": "expirado"
-    },
-    {
-      "time": "20:55",
-      "date": "02/05/2026",
-      "senderName": "Defesa Civil de Mesquita (RJ)",
-      "senderNameShort": "DC Mesquita (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Mesquita/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Mesquita: aviso meteorologico de acumulados elevados de precipitacao, entre 03h e 23:59h de 03/05. Emergencia: 4042-1772 ou 199",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 25
+      "count": 20
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -83,12 +83,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 7
-    },
-    {
-      "name": "Defesa Civil Estadual do Rio Grande do Sul",
-      "short_name": "DC Rio Grande do Sul",
-      "count": 7
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
@@ -106,9 +101,9 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil de Blumenau (SC)",
-      "short_name": "DC Blumenau (SC)",
-      "count": 3
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 2
     },
     {
       "name": "Defesa Civil de Angra dos Reis (RJ)",
@@ -119,16 +114,21 @@
       "name": "Defesa Civil Estadual do Rio de Janeiro",
       "short_name": "DC Rio de Janeiro",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil de Blumenau (SC)",
+      "short_name": "DC Blumenau (SC)",
+      "count": 2
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 39
+      "count": 30
     },
     {
       "label": "Alto",
-      "count": 26
+      "count": 22
     },
     {
       "label": "Severo",
@@ -142,11 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 45
-    },
-    {
-      "label": "Deslizamentos",
-      "count": 8
+      "count": 40
     },
     {
       "label": "Alagamentos",
@@ -165,14 +161,18 @@
       "count": 1
     },
     {
+      "label": "Inundações",
+      "count": 1
+    },
+    {
       "label": "Outros",
-      "count": 4
+      "count": 3
     }
   ],
   "uf_distribution": [
     {
       "uf": "SC",
-      "count": 28
+      "count": 22
     },
     {
       "uf": "PA",
@@ -184,10 +184,6 @@
     },
     {
       "uf": "AM",
-      "count": 8
-    },
-    {
-      "uf": "RS",
       "count": 7
     },
     {
@@ -199,25 +195,38 @@
       "count": 3
     },
     {
-      "uf": "CE",
-      "count": 1
+      "uf": "SP",
+      "count": 2
     },
     {
-      "uf": "SP",
+      "uf": "CE",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 28
+      "count": 21
     },
     {
       "label": "expirado",
-      "count": 44
+      "count": 38
     }
   ],
   "all_alerts": [
+    {
+      "date": "03/05/2026",
+      "time": "02:38",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:02h38 Chuva em Bertioga, Sao Sebastiao e Ilhabela. Tem ventos. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-05-03T02:38:39-03:00",
+      "expires": "2026-05-03T04:50:00-03:00"
+    },
     {
       "date": "02/05/2026",
       "time": "22:32",
@@ -227,7 +236,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-02T22:32:48-03:00",
       "expires": "2026-05-03T01:45:00-03:00"
     },
@@ -971,205 +980,23 @@
       "status": "expirado",
       "onset": "2026-05-02T03:59:44-03:00",
       "expires": "2026-05-02T08:00:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "03:43",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Deslizamentos",
-      "nivel": "Médio",
-      "uf": "RS",
-      "location": "Fontoura Xavier/RS",
-      "headline": "Defesa Civil:Alerta AMARELO : Risco MODERADO  p/ deslizamentos pontuais em FONTOURA XAVIER. Evite areas de risco. Val por 24h. Emerg 190/193.",
-      "status": "vigente",
-      "onset": "2026-05-02T03:43:29-03:00",
-      "expires": "2026-05-03T03:45:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "03:39",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Deslizamentos",
-      "nivel": "Médio",
-      "uf": "RS",
-      "location": "Parobé/RS",
-      "headline": "Defesa Civil:Alerta AMARELO: Risco MODERADO  p/ deslizamentos pontuais em PAROBE. Evite areas de risco. Val por 24h. Emerg 190/193.",
-      "status": "vigente",
-      "onset": "2026-05-02T03:39:36-03:00",
-      "expires": "2026-05-03T03:40:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "03:33",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Deslizamentos",
-      "nivel": "Médio",
-      "uf": "RS",
-      "location": "Três Coroas/RS",
-      "headline": "Defesa Civil:Alerta AMARELO : Risco MODERADO  p/ deslizamentos pontuais em TRES COROAS. Evite areas de risco. Val por 24h. Emerg 190/193.",
-      "status": "vigente",
-      "onset": "2026-05-02T03:33:54-03:00",
-      "expires": "2026-05-03T03:30:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "03:29",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Deslizamentos",
-      "nivel": "Médio",
-      "uf": "RS",
-      "location": "Igrejinha/RS",
-      "headline": "Defesa Civil:Alerta AMARELO : Risco MODERADO  p/ deslizamentos pontuais em IGREJINHA. Evite areas de risco. Val por 24h. Emerg 190/193.",
-      "status": "vigente",
-      "onset": "2026-05-02T03:29:44-03:00",
-      "expires": "2026-05-03T03:30:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "03:24",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Deslizamentos",
-      "nivel": "Médio",
-      "uf": "RS",
-      "location": "Muçum/RS",
-      "headline": "Defesa Civil:Alerta AMARELO : Risco MODERADO  p/ deslizamentos pontuais em MUCUM. Evite areas de risco. Val por 24h. Emerg 190/193",
-      "status": "vigente",
-      "onset": "2026-05-02T03:24:33-03:00",
-      "expires": "2026-05-03T03:25:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "03:22",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 02/05 03:21 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-02T03:22:49-03:00",
-      "expires": "2026-05-02T05:25:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "03:18",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 02/05 03:17 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-02T03:18:44-03:00",
-      "expires": "2026-05-02T05:20:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "03:14",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Boca do Acre/AM, Pauini/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-02T03:14:18-03:00",
-      "expires": "2026-05-02T07:30:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "03:00",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "event": "Frentes Frias/Zonas De Convergência",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "Blumenau/SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas isoladas de chuva c/ trovoadas a partir do final da madrugada (02/05) em BNU. Fique atento! Emerg 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-02T03:00:00-03:00",
-      "expires": "2026-05-02T15:00:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "02:50",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 02/05 02:48 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-02T02:50:01-03:00",
-      "expires": "2026-05-02T04:50:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "02:44",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 02/05 02:43 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Abdon Batista, Anita Garibaldi, Bocaina do Sul, Campo Belo do Sul, Campos Novos, Capão Alto, Celso Ramos, Cerro Negro, Correia Pinto, Lages, Painel, Palmeira, Ponte Alta, Rio Rufino, São José do Cerrito, Urupema e Vargem nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-02T02:44:41-03:00",
-      "expires": "2026-05-02T06:45:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "02:03",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 02/05 02:00 - CHUVA PERSISTENTE de intensidade forte com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS nas proximas 2h. Emerg. ligue 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-02T02:03:36-03:00",
-      "expires": "2026-05-02T04:05:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "01:29",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Deslizamentos",
-      "nivel": "Médio",
-      "uf": "RS",
-      "location": "Caxias do Sul/RS",
-      "headline": "Defesa Civil:Alerta AMARELO : Risco MODERADO  p/ deslizamentos pontuais em CAXIAS DO SUL. Evite areas de risco. Val por 24h. Emerg 190/193.",
-      "status": "vigente",
-      "onset": "2026-05-02T01:29:13-03:00",
-      "expires": "2026-05-03T01:30:00-03:00"
-    },
-    {
-      "date": "02/05/2026",
-      "time": "01:26",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Deslizamentos",
-      "nivel": "Médio",
-      "uf": "RS",
-      "location": "Nova Hartz/RS",
-      "headline": "Defesa Civil:Alerta AMARELO : Risco MODERADO  p/ deslizamentos pontuais em NOVA HARTZ. Evite areas de risco. Val por 24h. Emerg 190/193.",
-      "status": "vigente",
-      "onset": "2026-05-02T01:26:52-03:00",
-      "expires": "2026-05-03T01:20:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 72,
+    "total_alerts": 59,
     "by_nivel": {
-      "Médio": 39,
-      "Alto": 26,
+      "Médio": 30,
+      "Alto": 22,
       "Severo": 5,
       "Extremo": 2
     },
     "by_channel_list": {
-      "Google": 72
+      "Google": 59
     },
     "by_region": {
-      "S": 38,
-      "N": 20,
-      "SE": 10,
+      "S": 25,
+      "N": 19,
+      "SE": 11,
       "NE": 4
     }
   }
