@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-05-04T14:54:18.388304-03:00",
-  "source_run_dir": "run_20260504_145406",
+  "generated_at": "2026-05-04T16:58:00.471934-03:00",
+  "source_run_dir": "run_20260504_165747",
   "cards": {
-    "vigentes": 18,
-    "ultimas24h": 45,
-    "autoridadesAtivas": 14,
+    "vigentes": 14,
+    "ultimas24h": 43,
+    "autoridadesAtivas": 13,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "16:51",
+      "date": "04/05/2026",
+      "senderName": "Defesa Civil Estadual do Piauí",
+      "senderNameShort": "DC Piauí",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PIAUÍ/PI",
+      "uf": "PI",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas. Evitar trafegar em pontos de alagamentos e de enxurradas. Em caso de emergencia ligue 190 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "16:29",
+      "date": "04/05/2026",
+      "senderName": "Defesa Civil de Belém (PA)",
+      "senderNameShort": "DC Belém (PA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Belém/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:SEOPDEC: Alerta MODERADO de chuvas e raios para hoje (04MAI). Risco de alagamentos, rajadas de vento e destelhamentos. Evite areas alagadas!",
+      "status": "vigente"
+    },
+    {
+      "time": "15:12",
+      "date": "04/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Coari/AM, Tapauá/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "14:52",
       "date": "04/05/2026",
@@ -18,7 +54,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 04/05 14:50 - TEMPORAL ISOLADO com RAIOS, RAJADAS DE VENTO e GRANIZO para os municípios de Brunópolis, Campos Novos, Fraiburgo, Frei Rogério, Ibiam, Monte Carlo, Pinheiro Preto, Tangará, Vargem e Videira na próxima hora. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "14:24",
@@ -30,43 +66,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 04/05 14:22 - TEMPORAL ISOLADO com RAIOS, RAJADAS DE VENTO e GRANIZO para os municípios de Campos Novos, Erval Velho, Herval d'Oeste, Ibiam, Ibicaré, Joaçaba, Lacerdópolis, Luzerna, Tangará e Água Doce nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "14:08",
-      "date": "04/05/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 04/05 14:06 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e GRANIZO para os municípios de Bom Jardim da Serra, Capão Alto, Lages, Lauro Müller, Morro Grande, Nova Veneza, Painel, Siderópolis, São Joaquim e Timbé do Sul nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "13:28",
-      "date": "04/05/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 04/05 13:26 - TEMPORAL ISOLADO com RAIOS, RAJADAS DE VENTO e GRANIZO para os municípios de Campo Belo do Sul, Capão Alto, Cerro Negro e Lages nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "13:00",
-      "date": "04/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "location": "Apuí/AM, Caapiranga/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 7
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
@@ -89,6 +89,16 @@
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
       "count": 4
+    },
+    {
+      "name": "Defesa Civil Estadual do Piauí",
+      "short_name": "DC Piauí",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Belém (PA)",
+      "short_name": "DC Belém (PA)",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
@@ -109,16 +119,6 @@
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Blumenau (SC)",
-      "short_name": "DC Blumenau (SC)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Belo Horizonte (MG)",
-      "short_name": "DC Belo Horizonte (MG)",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -128,7 +128,7 @@
     },
     {
       "label": "Médio",
-      "count": 28
+      "count": 26
     },
     {
       "label": "Alto",
@@ -142,18 +142,14 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 31
+      "count": 32
     },
     {
       "label": "Solo/Lama",
-      "count": 7
+      "count": 6
     },
     {
       "label": "Alagamentos",
-      "count": 3
-    },
-    {
-      "label": "Marés De Tempestade (Ressacas)",
       "count": 2
     },
     {
@@ -162,6 +158,10 @@
     },
     {
       "label": "Deslizamentos",
+      "count": 1
+    },
+    {
+      "label": "Marés De Tempestade (Ressacas)",
       "count": 1
     }
   ],
@@ -172,7 +172,7 @@
     },
     {
       "uf": "SC",
-      "count": 8
+      "count": 7
     },
     {
       "uf": "PR",
@@ -183,8 +183,8 @@
       "count": 2
     },
     {
-      "uf": "RJ",
-      "count": 2
+      "uf": "PI",
+      "count": 1
     },
     {
       "uf": "RS",
@@ -203,21 +203,60 @@
       "count": 1
     },
     {
-      "uf": "ES",
+      "uf": "RJ",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 18
+      "count": 14
     },
     {
       "label": "expirado",
-      "count": 27
+      "count": 29
     }
   ],
   "all_alerts": [
+    {
+      "date": "04/05/2026",
+      "time": "16:51",
+      "senderName": "Defesa Civil Estadual do Piauí",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PI",
+      "location": "PIAUÍ/PI",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas. Evitar trafegar em pontos de alagamentos e de enxurradas. Em caso de emergencia ligue 190 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-04T16:51:34-03:00",
+      "expires": "2026-05-04T23:55:00-03:00"
+    },
+    {
+      "date": "04/05/2026",
+      "time": "16:29",
+      "senderName": "Defesa Civil de Belém (PA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PA",
+      "location": "Belém/PA",
+      "headline": "Defesa Civil:SEOPDEC: Alerta MODERADO de chuvas e raios para hoje (04MAI). Risco de alagamentos, rajadas de vento e destelhamentos. Evite areas alagadas!",
+      "status": "vigente",
+      "onset": "2026-05-04T16:29:05-03:00",
+      "expires": "2026-05-04T23:55:00-03:00"
+    },
+    {
+      "date": "04/05/2026",
+      "time": "15:12",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Coari/AM, Tapauá/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-04T15:12:15-03:00",
+      "expires": "2026-05-04T18:30:00-03:00"
+    },
     {
       "date": "04/05/2026",
       "time": "14:52",
@@ -227,7 +266,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 04/05 14:50 - TEMPORAL ISOLADO com RAIOS, RAJADAS DE VENTO e GRANIZO para os municípios de Brunópolis, Campos Novos, Fraiburgo, Frei Rogério, Ibiam, Monte Carlo, Pinheiro Preto, Tangará, Vargem e Videira na próxima hora. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-04T14:52:05-03:00",
       "expires": "2026-05-04T15:50:00-03:00"
     },
@@ -240,7 +279,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 04/05 14:22 - TEMPORAL ISOLADO com RAIOS, RAJADAS DE VENTO e GRANIZO para os municípios de Campos Novos, Erval Velho, Herval d'Oeste, Ibiam, Ibicaré, Joaçaba, Lacerdópolis, Luzerna, Tangará e Água Doce nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-04T14:24:13-03:00",
       "expires": "2026-05-04T16:30:00-03:00"
     },
@@ -253,7 +292,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 04/05 14:06 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e GRANIZO para os municípios de Bom Jardim da Serra, Capão Alto, Lages, Lauro Müller, Morro Grande, Nova Veneza, Painel, Siderópolis, São Joaquim e Timbé do Sul nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-04T14:08:39-03:00",
       "expires": "2026-05-04T16:10:00-03:00"
     },
@@ -266,7 +305,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 04/05 13:26 - TEMPORAL ISOLADO com RAIOS, RAJADAS DE VENTO e GRANIZO para os municípios de Campo Belo do Sul, Capão Alto, Cerro Negro e Lages nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-04T13:28:57-03:00",
       "expires": "2026-05-04T15:30:00-03:00"
     },
@@ -383,7 +422,7 @@
       "uf": "AM",
       "location": "Nhamundá/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-04T09:27:20-03:00",
       "expires": "2026-05-04T15:00:00-03:00"
     },
@@ -422,7 +461,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.  Evite encostas e areas de risco. Fique em local seguro.  Em caso de emergencia ligue: 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-04T08:33:23-03:00",
       "expires": "2026-05-04T16:00:00-03:00"
     },
@@ -737,90 +776,25 @@
       "status": "expirado",
       "onset": "2026-05-03T17:04:02-03:00",
       "expires": "2026-05-03T21:00:00-03:00"
-    },
-    {
-      "date": "03/05/2026",
-      "time": "16:46",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Maraã/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-03T16:46:31-03:00",
-      "expires": "2026-05-04T11:00:00-03:00"
-    },
-    {
-      "date": "03/05/2026",
-      "time": "15:51",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Alfredo Chaves/ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA MODERADA e VENTO em Alfredo Chaves nas proximas 05 horas. Evite area de risco. Fique atento as orientacoes da Defesa Civil.",
-      "status": "expirado",
-      "onset": "2026-05-03T15:51:43-03:00",
-      "expires": "2026-05-03T21:00:00-03:00"
-    },
-    {
-      "date": "03/05/2026",
-      "time": "15:04",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "Itajaí/SC",
-      "headline": "OBSERVAÇÃO - 03/05 15:00 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Itajaí. Pico previsto às 15:45 h. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-03T15:04:19-03:00",
-      "expires": "2026-05-03T17:00:00-03:00"
-    },
-    {
-      "date": "03/05/2026",
-      "time": "15:01",
-      "senderName": "Defesa Civil de Parauapebas (PA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Parauapebas/PA",
-      "headline": "Defesa Civil:Ha ocorrencia de chuvas intensas, estamos em estado de ALERTA, risco de corte energia, alagamentos, enxurradas e inundacoes. Emergencia ligue 190.",
-      "status": "expirado",
-      "onset": "2026-05-03T15:01:55-03:00",
-      "expires": "2026-05-03T23:55:00-03:00"
-    },
-    {
-      "date": "03/05/2026",
-      "time": "15:00",
-      "senderName": "Defesa Civil de Campo dos Goytacazes (RJ)",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Campos dos Goytacazes/RJ",
-      "headline": "Defesa Civil:Alerta de Ressaca entre a tarde de domingo (03) e a noite de terca (05). Atencao ao trafegar na faixa litoranea ja atingida pela erosao costeira.",
-      "status": "vigente",
-      "onset": "2026-05-03T15:00:00-03:00",
-      "expires": "2026-05-05T23:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 45,
+    "total_alerts": 43,
     "by_nivel": {
-      "Médio": 28,
+      "Médio": 26,
       "Alto": 13,
       "Severo": 3,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 45
+      "Google": 43
     },
     "by_region": {
       "N": 25,
-      "S": 14,
-      "SE": 4,
-      "CO": 1,
-      "NE": 1
+      "S": 13,
+      "NE": 2,
+      "SE": 2,
+      "CO": 1
     }
   }
 }
