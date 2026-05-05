@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-05T03:30:49.819927-03:00",
-  "source_run_dir": "run_20260505_033037",
+  "generated_at": "2026-05-05T07:14:04.052250-03:00",
+  "source_run_dir": "run_20260505_071353",
   "cards": {
-    "vigentes": 11,
-    "ultimas24h": 46,
-    "autoridadesAtivas": 18,
+    "vigentes": 13,
+    "ultimas24h": 45,
+    "autoridadesAtivas": 19,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "06:55",
+      "date": "05/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "06:27",
+      "date": "05/05/2026",
+      "senderName": "Defesa Civil de Ipojuca (PE)",
+      "senderNameShort": "DC Ipojuca (PE)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Ipojuca/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:ALERTA de continuacao das chuvas fortes moradores em areas de risco devem ficar atentos.Duvidas:0800-281-0620/99231-8607.Plantao 24h",
+      "status": "vigente"
+    },
     {
       "time": "22:29",
       "date": "04/05/2026",
@@ -43,41 +67,17 @@
       "uf": "SC",
       "headline": "Defesa Civil:ATENCAO - 04/05 19:47 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS na sua regiao na proxima hora. Ocorrencias ligue 199 ou 193.",
       "status": "expirado"
-    },
-    {
-      "time": "19:24",
-      "date": "04/05/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 04/05 19:21 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado"
-    },
-    {
-      "time": "19:23",
-      "date": "04/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 12
-    },
-    {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
+      "count": 13
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
       "count": 12
     },
     {
@@ -88,12 +88,12 @@
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 3
+      "count": 2
     },
     {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 3
+      "name": "Defesa Civil de Ipojuca (PE)",
+      "short_name": "DC Ipojuca (PE)",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Jaqueira (PE)",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Médio",
-      "count": 33
+      "count": 32
     },
     {
       "label": "Alto",
@@ -149,11 +149,11 @@
       "count": 5
     },
     {
-      "label": "Alagamentos",
-      "count": 2
+      "label": "Inundações",
+      "count": 1
     },
     {
-      "label": "Inundações",
+      "label": "Alagamentos",
       "count": 1
     },
     {
@@ -164,7 +164,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 15
+      "count": 14
     },
     {
       "uf": "SC",
@@ -172,11 +172,7 @@
     },
     {
       "uf": "PE",
-      "count": 6
-    },
-    {
-      "uf": "PR",
-      "count": 3
+      "count": 7
     },
     {
       "uf": "PB",
@@ -184,6 +180,10 @@
     },
     {
       "uf": "PA",
+      "count": 2
+    },
+    {
+      "uf": "PR",
       "count": 2
     },
     {
@@ -210,14 +210,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 11
+      "count": 13
     },
     {
       "label": "expirado",
-      "count": 35
+      "count": 32
     }
   ],
   "all_alerts": [
+    {
+      "date": "05/05/2026",
+      "time": "06:55",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-05T06:55:38-03:00",
+      "expires": "2026-05-05T11:00:00-03:00"
+    },
+    {
+      "date": "05/05/2026",
+      "time": "06:27",
+      "senderName": "Defesa Civil de Ipojuca (PE)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PE",
+      "location": "Ipojuca/PE",
+      "headline": "Defesa Civil:ALERTA de continuacao das chuvas fortes moradores em areas de risco devem ficar atentos.Duvidas:0800-281-0620/99231-8607.Plantao 24h",
+      "status": "vigente",
+      "onset": "2026-05-05T06:27:03-03:00",
+      "expires": "2026-05-06T08:00:00-03:00"
+    },
     {
       "date": "04/05/2026",
       "time": "22:29",
@@ -776,62 +802,23 @@
       "status": "expirado",
       "onset": "2026-05-04T07:20:58-03:00",
       "expires": "2026-05-05T00:00:00-03:00"
-    },
-    {
-      "date": "04/05/2026",
-      "time": "06:56",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL MODERADO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.¿",
-      "status": "expirado",
-      "onset": "2026-05-04T06:56:52-03:00",
-      "expires": "2026-05-04T13:00:00-03:00"
-    },
-    {
-      "date": "04/05/2026",
-      "time": "06:20",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-04T06:20:29-03:00",
-      "expires": "2026-05-04T13:00:00-03:00"
-    },
-    {
-      "date": "04/05/2026",
-      "time": "05:04",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
-      "status": "expirado",
-      "onset": "2026-05-04T05:04:56-03:00",
-      "expires": "2026-05-04T08:05:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 46,
+    "total_alerts": 45,
     "by_nivel": {
-      "Médio": 33,
+      "Médio": 32,
       "Alto": 9,
       "Severo": 3,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 46
+      "Google": 45
     },
     "by_region": {
-      "N": 17,
-      "S": 17,
-      "NE": 9,
+      "N": 16,
+      "S": 16,
+      "NE": 10,
       "SE": 2,
       "CO": 1
     }
