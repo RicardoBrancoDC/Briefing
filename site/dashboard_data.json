@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-05T00:53:25.761576-03:00",
-  "source_run_dir": "run_20260505_005307",
+  "generated_at": "2026-05-05T03:30:49.819927-03:00",
+  "source_run_dir": "run_20260505_033037",
   "cards": {
-    "vigentes": 12,
-    "ultimas24h": 49,
+    "vigentes": 11,
+    "ultimas24h": 46,
     "autoridadesAtivas": 18,
     "alertasExtremos": 0
   },
@@ -18,7 +18,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 04/05 22:27 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Araranguá, Balneário Arroio do Silva, Balneário Gaivota, Bom Jardim da Serra, Criciúma, Ermo, Forquilhinha, Jacinto Machado, Lauro Müller, Maracajá, Meleiro, Morro Grande, Nova Veneza, Passo de Torres, Praia Grande, Santa Rosa do Sul, Siderópolis, Sombrio, São Joaquim, São João do Sul, Timbé do Sul, Treviso e Turvo nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "21:14",
@@ -71,13 +71,13 @@
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 15
-    },
-    {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
+      "count": 12
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
       "count": 12
     },
     {
@@ -128,11 +128,11 @@
     },
     {
       "label": "Médio",
-      "count": 34
+      "count": 33
     },
     {
       "label": "Alto",
-      "count": 11
+      "count": 9
     },
     {
       "label": "Severo",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 40
+      "count": 37
     },
     {
       "label": "Solo/Lama",
@@ -164,7 +164,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 18
+      "count": 15
     },
     {
       "uf": "SC",
@@ -210,11 +210,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 12
+      "count": 11
     },
     {
       "label": "expirado",
-      "count": 37
+      "count": 35
     }
   ],
   "all_alerts": [
@@ -227,7 +227,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 04/05 22:27 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Araranguá, Balneário Arroio do Silva, Balneário Gaivota, Bom Jardim da Serra, Criciúma, Ermo, Forquilhinha, Jacinto Machado, Lauro Müller, Maracajá, Meleiro, Morro Grande, Nova Veneza, Passo de Torres, Praia Grande, Santa Rosa do Sul, Siderópolis, Sombrio, São Joaquim, São João do Sul, Timbé do Sul, Treviso e Turvo nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-04T22:29:25-03:00",
       "expires": "2026-05-05T01:25:00-03:00"
     },
@@ -815,60 +815,21 @@
       "status": "expirado",
       "onset": "2026-05-04T05:04:56-03:00",
       "expires": "2026-05-04T08:05:00-03:00"
-    },
-    {
-      "date": "04/05/2026",
-      "time": "03:13",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Itacoatiara/AM, Urucurituba/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-04T03:13:33-03:00",
-      "expires": "2026-05-04T07:00:00-03:00"
-    },
-    {
-      "date": "04/05/2026",
-      "time": "02:20",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-04T02:20:22-03:00",
-      "expires": "2026-05-04T06:00:00-03:00"
-    },
-    {
-      "date": "04/05/2026",
-      "time": "00:58",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "São Sebastião do Uatumã/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-04T00:58:06-03:00",
-      "expires": "2026-05-04T03:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 49,
+    "total_alerts": 46,
     "by_nivel": {
-      "Médio": 34,
-      "Alto": 11,
+      "Médio": 33,
+      "Alto": 9,
       "Severo": 3,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 49
+      "Google": 46
     },
     "by_region": {
-      "N": 20,
+      "N": 17,
       "S": 17,
       "NE": 9,
       "SE": 2,
