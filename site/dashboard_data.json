@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-05-05T18:17:17.045931-03:00",
-  "source_run_dir": "run_20260505_181654",
+  "generated_at": "2026-05-05T20:14:21.535557-03:00",
+  "source_run_dir": "run_20260505_201401",
   "cards": {
-    "vigentes": 18,
-    "ultimas24h": 37,
-    "autoridadesAtivas": 13,
+    "vigentes": 16,
+    "ultimas24h": 35,
+    "autoridadesAtivas": 12,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "20:00",
+      "date": "05/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "location": "Careiro da Várzea/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "19:52",
+      "date": "05/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Acompanhe os alertas oficiais. Siga as orientacoes da defesa civil local e plano de contingencia municipal.",
+      "status": "vigente"
+    },
+    {
+      "time": "18:29",
+      "date": "05/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Alagamentos",
+      "nivel": "Severo",
+      "location": "Tomé-Açu/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:TOME ACU: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de Alagamentos e vendavais. evite areas alagadas e dirija com atencao.",
+      "status": "vigente"
+    },
     {
       "time": "18:14",
       "date": "05/05/2026",
@@ -30,60 +66,19 @@
       "location": "PARÁ/PA",
       "uf": "PA",
       "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. evite areas alagadas e navegue com atencao.",
-      "status": "vigente"
-    },
-    {
-      "time": "17:36",
-      "date": "05/05/2026",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "senderNameShort": "DC Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "17:31",
-      "date": "05/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Acompanhe os alertas oficiais. Siga as orientacoes da defesa civil local e plano de contingencia municipal.",
-      "status": "vigente"
-    },
-    {
-      "time": "17:12",
-      "date": "05/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Alagamentos",
-      "nivel": "Severo",
-      "location": "Cachoeira do Piriá/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:ALERTA de ALAGAMENTOS. Evite areas baixas e encostas de morro ou barranco, busque abrigo seguro.Fique atento e siga as orientacoes da Defesa Civil",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 7
-    },
-    {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 5
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -98,6 +93,11 @@
     {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
       "count": 2
     },
     {
@@ -128,29 +128,29 @@
     },
     {
       "label": "Médio",
-      "count": 17
+      "count": 13
     },
     {
       "label": "Alto",
-      "count": 14
+      "count": 15
     },
     {
       "label": "Severo",
-      "count": 5
+      "count": 6
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 29
+      "count": 25
+    },
+    {
+      "label": "Alagamentos",
+      "count": 4
     },
     {
       "label": "Deslizamentos",
       "count": 3
-    },
-    {
-      "label": "Alagamentos",
-      "count": 2
     },
     {
       "label": "Solo/Lama",
@@ -164,23 +164,23 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 12
+      "count": 13
     },
     {
       "uf": "PA",
-      "count": 8
+      "count": 9
     },
     {
       "uf": "PE",
-      "count": 6
-    },
-    {
-      "uf": "SC",
       "count": 5
     },
     {
       "uf": "SP",
       "count": 3
+    },
+    {
+      "uf": "SC",
+      "count": 2
     },
     {
       "uf": "MG",
@@ -198,7 +198,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 18
+      "count": 16
     },
     {
       "label": "expirado",
@@ -206,6 +206,45 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "05/05/2026",
+      "time": "20:00",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Careiro da Várzea/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-05T20:00:29-03:00",
+      "expires": "2026-05-06T00:50:00-03:00"
+    },
+    {
+      "date": "05/05/2026",
+      "time": "19:52",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Acompanhe os alertas oficiais. Siga as orientacoes da defesa civil local e plano de contingencia municipal.",
+      "status": "vigente",
+      "onset": "2026-05-05T19:52:13-03:00",
+      "expires": "2026-05-05T23:45:00-03:00"
+    },
+    {
+      "date": "05/05/2026",
+      "time": "18:29",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Alagamentos",
+      "nivel": "Severo",
+      "uf": "PA",
+      "location": "Tomé-Açu/PA",
+      "headline": "Defesa Civil:TOME ACU: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de Alagamentos e vendavais. evite areas alagadas e dirija com atencao.",
+      "status": "vigente",
+      "onset": "2026-05-05T18:29:04-03:00",
+      "expires": "2026-05-05T21:00:00-03:00"
+    },
     {
       "date": "05/05/2026",
       "time": "18:14",
@@ -228,7 +267,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. evite areas alagadas e navegue com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-05T17:46:51-03:00",
       "expires": "2026-05-05T19:40:00-03:00"
     },
@@ -280,7 +319,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:16h52 -  Chuva isolada na regiao de Taubate e Cacapava. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-05T16:53:15-03:00",
       "expires": "2026-05-05T18:50:00-03:00"
     },
@@ -332,7 +371,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Acompanhe os alertas oficiais. Siga as orientacoes da defesa civil local e plano de contingencia municipal.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-05T15:26:08-03:00",
       "expires": "2026-05-05T19:10:00-03:00"
     },
@@ -462,7 +501,7 @@
       "uf": "AM",
       "location": "Fonte Boa/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.   Afaste-se de encostas. Procure abrigo seguro.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-05T10:03:35-03:00",
       "expires": "2026-05-05T20:00:00-03:00"
     },
@@ -621,89 +660,24 @@
       "status": "expirado",
       "onset": "2026-05-04T21:14:45-03:00",
       "expires": "2026-05-05T00:10:00-03:00"
-    },
-    {
-      "date": "04/05/2026",
-      "time": "19:49",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 04/05 19:47 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS na sua regiao na proxima hora. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-04T19:49:19-03:00",
-      "expires": "2026-05-04T20:50:00-03:00"
-    },
-    {
-      "date": "04/05/2026",
-      "time": "19:24",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 04/05 19:21 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-04T19:24:44-03:00",
-      "expires": "2026-05-04T22:20:00-03:00"
-    },
-    {
-      "date": "04/05/2026",
-      "time": "19:23",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-04T19:23:32-03:00",
-      "expires": "2026-05-04T22:30:00-03:00"
-    },
-    {
-      "date": "04/05/2026",
-      "time": "19:15",
-      "senderName": "Defesa Civil de Jaqueira (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Jaqueira/PE",
-      "headline": "Defesa Civil:defesa civil jaqueira alerta de chuvas intensas para as proximas 24 horas. emergencia (81)99103-3184 ou 193. DEFESA CIVIL SOMOS TODOS NOS",
-      "status": "vigente",
-      "onset": "2026-05-04T19:15:15-03:00",
-      "expires": "2026-05-05T23:55:00-03:00"
-    },
-    {
-      "date": "04/05/2026",
-      "time": "19:08",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 04/05 19:06 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Bocaina do Sul, Bom Jardim da Serra, Bom Retiro, Capão Alto, Correia Pinto, Lages, Otacílio Costa, Painel, Palmeira, Rio Rufino, São Joaquim, São José do Cerrito, Urubici e Urupema nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-04T19:08:24-03:00",
-      "expires": "2026-05-04T21:10:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 37,
+    "total_alerts": 35,
     "by_nivel": {
-      "Médio": 17,
-      "Alto": 14,
-      "Severo": 5,
+      "Alto": 15,
+      "Médio": 13,
+      "Severo": 6,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 37
+      "Google": 35
     },
     "by_region": {
-      "N": 20,
-      "NE": 8,
-      "S": 5,
-      "SE": 4
+      "N": 22,
+      "NE": 7,
+      "SE": 4,
+      "S": 2
     }
   }
 }
