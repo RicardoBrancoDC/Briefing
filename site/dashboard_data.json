@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-04T20:12:43.484125-03:00",
-  "source_run_dir": "run_20260504_201225",
+  "generated_at": "2026-05-05T00:53:25.761576-03:00",
+  "source_run_dir": "run_20260505_005307",
   "cards": {
-    "vigentes": 21,
-    "ultimas24h": 53,
+    "vigentes": 12,
+    "ultimas24h": 49,
     "autoridadesAtivas": 18,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "22:29",
+      "date": "04/05/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 04/05 22:27 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Araranguá, Balneário Arroio do Silva, Balneário Gaivota, Bom Jardim da Serra, Criciúma, Ermo, Forquilhinha, Jacinto Machado, Lauro Müller, Maracajá, Meleiro, Morro Grande, Nova Veneza, Passo de Torres, Praia Grande, Santa Rosa do Sul, Siderópolis, Sombrio, São Joaquim, São João do Sul, Timbé do Sul, Treviso e Turvo nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "21:14",
+      "date": "04/05/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 04/05 21:12 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões da Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
+      "status": "expirado"
+    },
     {
       "time": "19:49",
       "date": "04/05/2026",
@@ -18,7 +42,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "Defesa Civil:ATENCAO - 04/05 19:47 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS na sua regiao na proxima hora. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "19:24",
@@ -30,7 +54,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 04/05 19:21 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "19:23",
@@ -42,52 +66,28 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "19:15",
-      "date": "04/05/2026",
-      "senderName": "Defesa Civil de Jaqueira (PE)",
-      "senderNameShort": "DC Jaqueira (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Jaqueira/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:defesa civil jaqueira alerta de chuvas intensas para as proximas 24 horas. emergencia (81)99103-3184 ou 193. DEFESA CIVIL SOMOS TODOS NOS",
-      "status": "vigente"
-    },
-    {
-      "time": "19:08",
-      "date": "04/05/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 04/05 19:06 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Bocaina do Sul, Bom Jardim da Serra, Bom Retiro, Capão Alto, Correia Pinto, Lages, Otacílio Costa, Painel, Palmeira, Rio Rufino, São Joaquim, São José do Cerrito, Urubici e Urupema nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 19
+      "count": 15
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 10
-    },
-    {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
-      "count": 5
+      "count": 12
     },
     {
       "name": "Defesa Civil Estadual de Pernambuco",
       "short_name": "DC Pernambuco",
+      "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
       "count": 3
     },
     {
@@ -128,11 +128,11 @@
     },
     {
       "label": "Médio",
-      "count": 36
+      "count": 34
     },
     {
       "label": "Alto",
-      "count": 13
+      "count": 11
     },
     {
       "label": "Severo",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 44
+      "count": 40
     },
     {
       "label": "Solo/Lama",
@@ -164,11 +164,11 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 22
+      "count": 18
     },
     {
       "uf": "SC",
-      "count": 11
+      "count": 13
     },
     {
       "uf": "PE",
@@ -176,7 +176,7 @@
     },
     {
       "uf": "PR",
-      "count": 5
+      "count": 3
     },
     {
       "uf": "PB",
@@ -210,14 +210,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 21
+      "count": 12
     },
     {
       "label": "expirado",
-      "count": 32
+      "count": 37
     }
   ],
   "all_alerts": [
+    {
+      "date": "04/05/2026",
+      "time": "22:29",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 04/05 22:27 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Araranguá, Balneário Arroio do Silva, Balneário Gaivota, Bom Jardim da Serra, Criciúma, Ermo, Forquilhinha, Jacinto Machado, Lauro Müller, Maracajá, Meleiro, Morro Grande, Nova Veneza, Passo de Torres, Praia Grande, Santa Rosa do Sul, Siderópolis, Sombrio, São Joaquim, São João do Sul, Timbé do Sul, Treviso e Turvo nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-04T22:29:25-03:00",
+      "expires": "2026-05-05T01:25:00-03:00"
+    },
+    {
+      "date": "04/05/2026",
+      "time": "21:14",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 04/05 21:12 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões da Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
+      "status": "expirado",
+      "onset": "2026-05-04T21:14:45-03:00",
+      "expires": "2026-05-05T00:10:00-03:00"
+    },
     {
       "date": "04/05/2026",
       "time": "19:49",
@@ -227,7 +253,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 04/05 19:47 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS na sua regiao na proxima hora. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-04T19:49:19-03:00",
       "expires": "2026-05-04T20:50:00-03:00"
     },
@@ -240,7 +266,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 04/05 19:21 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-04T19:24:44-03:00",
       "expires": "2026-05-04T22:20:00-03:00"
     },
@@ -253,7 +279,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-04T19:23:32-03:00",
       "expires": "2026-05-04T22:30:00-03:00"
     },
@@ -279,7 +305,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 04/05 19:06 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Bocaina do Sul, Bom Jardim da Serra, Bom Retiro, Capão Alto, Correia Pinto, Lages, Otacílio Costa, Painel, Palmeira, Rio Rufino, São Joaquim, São José do Cerrito, Urubici e Urupema nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-04T19:08:24-03:00",
       "expires": "2026-05-04T21:10:00-03:00"
     },
@@ -292,7 +318,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-04T17:41:10-03:00",
       "expires": "2026-05-04T20:45:00-03:00"
     },
@@ -409,7 +435,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas. Evitar trafegar em pontos de alagamentos e de enxurradas. Em caso de emergencia ligue 190 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-04T16:51:34-03:00",
       "expires": "2026-05-04T23:55:00-03:00"
     },
@@ -422,7 +448,7 @@
       "uf": "PA",
       "location": "Belém/PA",
       "headline": "Defesa Civil:SEOPDEC: Alerta MODERADO de chuvas e raios para hoje (04MAI). Risco de alagamentos, rajadas de vento e destelhamentos. Evite areas alagadas!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-04T16:29:05-03:00",
       "expires": "2026-05-04T23:55:00-03:00"
     },
@@ -591,7 +617,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:ALERTA ALTO para chuvas intensas (04MAI). Acompanhe atualizacoes da Defesa Civil. Em emergencia (193).",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-04T09:36:38-03:00",
       "expires": "2026-05-04T23:55:00-03:00"
     },
@@ -669,7 +695,7 @@
       "uf": "SC",
       "location": "Blumenau/SC",
       "headline": "Defesa Civil:ALERTABLU-ATENCAO: Chuva fraca a moderada c/ trovoadas a partir do final da manha de hoje (04) em Blumenau. Fique atento! Emerg 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-04T08:08:41-03:00",
       "expires": "2026-05-04T23:55:00-03:00"
     },
@@ -747,7 +773,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA para risco de deslizamento em Manaus (NIVEL MODERADO). Em caso de emergencia, ligue 199/193.¿",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-04T07:20:58-03:00",
       "expires": "2026-05-05T00:00:00-03:00"
     },
@@ -828,99 +854,21 @@
       "status": "expirado",
       "onset": "2026-05-04T00:58:06-03:00",
       "expires": "2026-05-04T03:30:00-03:00"
-    },
-    {
-      "date": "04/05/2026",
-      "time": "00:50",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-04T00:50:43-03:00",
-      "expires": "2026-05-04T03:30:00-03:00"
-    },
-    {
-      "date": "03/05/2026",
-      "time": "23:42",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Nhamundá/AM, Urucurituba/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-03T23:42:41-03:00",
-      "expires": "2026-05-04T03:00:00-03:00"
-    },
-    {
-      "date": "03/05/2026",
-      "time": "22:32",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
-      "status": "expirado",
-      "onset": "2026-05-03T22:32:32-03:00",
-      "expires": "2026-05-04T01:30:00-03:00"
-    },
-    {
-      "date": "03/05/2026",
-      "time": "21:16",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
-      "status": "expirado",
-      "onset": "2026-05-03T21:16:35-03:00",
-      "expires": "2026-05-04T00:15:00-03:00"
-    },
-    {
-      "date": "03/05/2026",
-      "time": "20:46",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Boa Vista do Ramos/AM, Maués/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-03T20:46:59-03:00",
-      "expires": "2026-05-03T23:45:00-03:00"
-    },
-    {
-      "date": "03/05/2026",
-      "time": "20:23",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Carauari/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-03T20:23:33-03:00",
-      "expires": "2026-05-03T23:20:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 53,
+    "total_alerts": 49,
     "by_nivel": {
-      "Médio": 36,
-      "Alto": 13,
+      "Médio": 34,
+      "Alto": 11,
       "Severo": 3,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 53
+      "Google": 49
     },
     "by_region": {
-      "N": 24,
+      "N": 20,
       "S": 17,
       "NE": 9,
       "SE": 2,
