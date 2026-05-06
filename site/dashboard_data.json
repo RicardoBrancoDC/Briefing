@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-05-06T18:35:45.511689-03:00",
-  "source_run_dir": "run_20260506_183515",
+  "generated_at": "2026-05-06T20:09:22.656722-03:00",
+  "source_run_dir": "run_20260506_200858",
   "cards": {
-    "vigentes": 12,
-    "ultimas24h": 33,
+    "vigentes": 11,
+    "ultimas24h": 34,
     "autoridadesAtivas": 9,
     "alertasExtremos": 4
   },
   "latest_alerts": [
+    {
+      "time": "19:53",
+      "date": "06/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "19:23",
+      "date": "06/05/2026",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "senderNameShort": "DC Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "ESPÍRITO SANTO/ES",
+      "uf": "ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO INTENSO na regiao Noroeste nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "18:47",
+      "date": "06/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Jutaí/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "18:27",
       "date": "06/05/2026",
@@ -31,42 +67,6 @@
       "uf": "PA",
       "headline": "Defesa Civil:Alerta de ALAGAMENTOS por CHUVAS INTENSAS. Risco de INUNDACOES e BLOQUEIO DE VIAS. EVITE TRAFEGAR E MANTENHA-SE EM LOCAL SEGURO ATE AS AGUAS BAIXA",
       "status": "expirado"
-    },
-    {
-      "time": "16:19",
-      "date": "06/05/2026",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "senderNameShort": "DC Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "16:16",
-      "date": "06/05/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Irupi/ES, Iúna/ES",
-      "uf": "ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO INTENSA na regiao sul nas proximas 3 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:55",
-      "date": "06/05/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "ESPÍRITO SANTO/ES",
-      "uf": "ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO INTENSA Na regiao Sul e Serrana nas proximas 4 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -76,14 +76,14 @@
       "count": 12
     },
     {
-      "name": "Defesa Civil Estadual do Rio Grande do Sul",
-      "short_name": "DC Rio Grande do Sul",
+      "name": "Defesa Civil Estadual do Espírito Santo",
+      "short_name": "DC Espírito Santo",
       "count": 6
     },
     {
-      "name": "Defesa Civil Estadual do Espírito Santo",
-      "short_name": "DC Espírito Santo",
-      "count": 5
+      "name": "Defesa Civil Estadual do Rio Grande do Sul",
+      "short_name": "DC Rio Grande do Sul",
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -119,11 +119,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 17
+      "count": 20
     },
     {
       "label": "Alto",
-      "count": 8
+      "count": 6
     },
     {
       "label": "Severo",
@@ -137,15 +137,15 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 27
-    },
-    {
-      "label": "Alagamentos",
-      "count": 2
+      "count": 29
     },
     {
       "label": "Granizo",
       "count": 2
+    },
+    {
+      "label": "Alagamentos",
+      "count": 1
     },
     {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
@@ -162,12 +162,12 @@
       "count": 14
     },
     {
-      "uf": "RS",
+      "uf": "ES",
       "count": 6
     },
     {
-      "uf": "ES",
-      "count": 5
+      "uf": "RS",
+      "count": 6
     },
     {
       "uf": "PA",
@@ -193,14 +193,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 12
+      "count": 11
     },
     {
       "label": "expirado",
-      "count": 21
+      "count": 23
     }
   ],
   "all_alerts": [
+    {
+      "date": "06/05/2026",
+      "time": "19:53",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-06T19:53:49-03:00",
+      "expires": "2026-05-06T21:50:00-03:00"
+    },
+    {
+      "date": "06/05/2026",
+      "time": "19:23",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "ES",
+      "location": "ESPÍRITO SANTO/ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO INTENSO na regiao Noroeste nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
+      "status": "vigente",
+      "onset": "2026-05-06T19:23:37-03:00",
+      "expires": "2026-05-06T22:30:00-03:00"
+    },
+    {
+      "date": "06/05/2026",
+      "time": "18:47",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Jutaí/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-06T18:47:38-03:00",
+      "expires": "2026-05-06T20:30:00-03:00"
+    },
     {
       "date": "06/05/2026",
       "time": "18:27",
@@ -236,7 +275,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-06T16:19:11-03:00",
       "expires": "2026-05-06T19:00:00-03:00"
     },
@@ -249,7 +288,7 @@
       "uf": "ES",
       "location": "Irupi/ES, Iúna/ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO INTENSA na regiao sul nas proximas 3 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-06T16:16:00-03:00",
       "expires": "2026-05-06T19:00:00-03:00"
     },
@@ -262,7 +301,7 @@
       "uf": "ES",
       "location": "ESPÍRITO SANTO/ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO INTENSA Na regiao Sul e Serrana nas proximas 4 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-06T15:55:52-03:00",
       "expires": "2026-05-06T20:00:00-03:00"
     },
@@ -275,7 +314,7 @@
       "uf": "ES",
       "location": "Afonso Cláudio/ES, Ecoporanga/ES",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas para Afonso Claudio/ES, Ecoporanga/ES. Fique atento. Em casos de emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-06T15:36:03-03:00",
       "expires": "2026-05-06T19:00:00-03:00"
     },
@@ -603,48 +642,22 @@
       "status": "expirado",
       "onset": "2026-05-05T20:48:09-03:00",
       "expires": "2026-05-06T00:45:00-03:00"
-    },
-    {
-      "date": "05/05/2026",
-      "time": "20:00",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Careiro da Várzea/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-05T20:00:29-03:00",
-      "expires": "2026-05-06T00:50:00-03:00"
-    },
-    {
-      "date": "05/05/2026",
-      "time": "19:52",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Acompanhe os alertas oficiais. Siga as orientacoes da defesa civil local e plano de contingencia municipal.",
-      "status": "expirado",
-      "onset": "2026-05-05T19:52:13-03:00",
-      "expires": "2026-05-05T23:45:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 33,
+    "total_alerts": 34,
     "by_nivel": {
-      "Médio": 17,
-      "Alto": 8,
+      "Médio": 20,
+      "Alto": 6,
       "Extremo": 4,
       "Severo": 4
     },
     "by_channel_list": {
-      "Google": 33
+      "Google": 34
     },
     "by_region": {
       "N": 17,
-      "SE": 7,
+      "SE": 8,
       "S": 6,
       "NE": 3
     }
