@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-06T01:09:17.595250-03:00",
-  "source_run_dir": "run_20260506_010859",
+  "generated_at": "2026-05-06T03:47:55.888732-03:00",
+  "source_run_dir": "run_20260506_034739",
   "cards": {
-    "vigentes": 3,
-    "ultimas24h": 37,
+    "vigentes": 4,
+    "ultimas24h": 38,
     "autoridadesAtivas": 12,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "02:13",
+      "date": "06/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Rio Preto da Eva/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "23:05",
       "date": "05/05/2026",
@@ -55,25 +67,13 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Acompanhe os alertas oficiais. Siga as orientacoes da defesa civil local e plano de contingencia municipal.",
       "status": "expirado"
-    },
-    {
-      "time": "20:00",
-      "date": "05/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "location": "Careiro da Várzea/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 13
+      "count": 14
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Médio",
-      "count": 12
+      "count": 13
     },
     {
       "label": "Alto",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 24
+      "count": 25
     },
     {
       "label": "Alagamentos",
@@ -168,7 +168,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 15
+      "count": 16
     },
     {
       "uf": "PA",
@@ -202,7 +202,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 3
+      "count": 4
     },
     {
       "label": "expirado",
@@ -210,6 +210,19 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "06/05/2026",
+      "time": "02:13",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Rio Preto da Eva/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-06T02:13:47-03:00",
+      "expires": "2026-05-06T04:30:00-03:00"
+    },
     {
       "date": "05/05/2026",
       "time": "23:05",
@@ -693,18 +706,18 @@
     }
   ],
   "summary": {
-    "total_alerts": 37,
+    "total_alerts": 38,
     "by_nivel": {
       "Alto": 18,
-      "Médio": 12,
+      "Médio": 13,
       "Severo": 6,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 37
+      "Google": 38
     },
     "by_region": {
-      "N": 24,
+      "N": 25,
       "NE": 7,
       "SE": 4,
       "S": 2
