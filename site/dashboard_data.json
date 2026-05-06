@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-06T03:47:55.888732-03:00",
-  "source_run_dir": "run_20260506_034739",
+  "generated_at": "2026-05-06T07:29:13.768205-03:00",
+  "source_run_dir": "run_20260506_072900",
   "cards": {
-    "vigentes": 4,
+    "vigentes": 2,
     "ultimas24h": 38,
-    "autoridadesAtivas": 12,
+    "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "06:39",
+      "date": "06/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "06:38",
+      "date": "06/05/2026",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "senderNameShort": "DC Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.¿",
+      "status": "vigente"
+    },
     {
       "time": "02:13",
       "date": "06/05/2026",
@@ -18,7 +42,7 @@
       "location": "Rio Preto da Eva/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "23:05",
@@ -30,7 +54,7 @@
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 05h00. Mantenha-se seguro.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "22:10",
@@ -42,30 +66,6 @@
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 00h10. Mantenha-se seguro.",
-      "status": "expirado"
-    },
-    {
-      "time": "21:32",
-      "date": "05/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Médio",
-      "location": "Coari/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite encostas e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "20:48",
-      "date": "05/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Manaquiri/AM, Nhamundá/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Acompanhe os alertas oficiais. Siga as orientacoes da defesa civil local e plano de contingencia municipal.",
       "status": "expirado"
     }
   ],
@@ -81,6 +81,11 @@
       "count": 8
     },
     {
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
+      "count": 3
+    },
+    {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
       "count": 3
@@ -93,11 +98,6 @@
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
       "count": 2
     },
     {
@@ -168,7 +168,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 16
+      "count": 17
     },
     {
       "uf": "PA",
@@ -176,7 +176,7 @@
     },
     {
       "uf": "PE",
-      "count": 5
+      "count": 4
     },
     {
       "uf": "SP",
@@ -202,14 +202,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 4
+      "count": 2
     },
     {
       "label": "expirado",
-      "count": 34
+      "count": 36
     }
   ],
   "all_alerts": [
+    {
+      "date": "06/05/2026",
+      "time": "06:39",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-06T06:39:35-03:00",
+      "expires": "2026-05-06T10:00:00-03:00"
+    },
+    {
+      "date": "06/05/2026",
+      "time": "06:38",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.¿",
+      "status": "vigente",
+      "onset": "2026-05-06T06:38:46-03:00",
+      "expires": "2026-05-06T14:00:00-03:00"
+    },
     {
       "date": "06/05/2026",
       "time": "02:13",
@@ -219,7 +245,7 @@
       "uf": "AM",
       "location": "Rio Preto da Eva/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-06T02:13:47-03:00",
       "expires": "2026-05-06T04:30:00-03:00"
     },
@@ -232,7 +258,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 05h00. Mantenha-se seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-05T23:05:00-03:00",
       "expires": "2026-05-06T05:00:00-03:00"
     },
@@ -258,7 +284,7 @@
       "uf": "AM",
       "location": "Coari/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite encostas e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-05T21:32:53-03:00",
       "expires": "2026-05-06T07:00:00-03:00"
     },
@@ -677,32 +703,6 @@
       "status": "expirado",
       "onset": "2026-05-05T07:32:44-03:00",
       "expires": "2026-05-05T12:00:00-03:00"
-    },
-    {
-      "date": "05/05/2026",
-      "time": "06:55",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-05T06:55:38-03:00",
-      "expires": "2026-05-05T11:00:00-03:00"
-    },
-    {
-      "date": "05/05/2026",
-      "time": "06:27",
-      "senderName": "Defesa Civil de Ipojuca (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Ipojuca/PE",
-      "headline": "Defesa Civil:ALERTA de continuacao das chuvas fortes moradores em areas de risco devem ficar atentos.Duvidas:0800-281-0620/99231-8607.Plantao 24h",
-      "status": "vigente",
-      "onset": "2026-05-05T06:27:03-03:00",
-      "expires": "2026-05-06T08:00:00-03:00"
     }
   ],
   "summary": {
@@ -717,8 +717,8 @@
       "Google": 38
     },
     "by_region": {
-      "N": 25,
-      "NE": 7,
+      "N": 26,
+      "NE": 6,
       "SE": 4,
       "S": 2
     }
