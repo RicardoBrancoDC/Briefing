@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-06T17:03:29.797639-03:00",
-  "source_run_dir": "run_20260506_170317",
+  "generated_at": "2026-05-06T17:46:21.665911-03:00",
+  "source_run_dir": "run_20260506_174558",
   "cards": {
     "vigentes": 13,
-    "ultimas24h": 38,
+    "ultimas24h": 35,
     "autoridadesAtivas": 9,
     "alertasExtremos": 4
   },
@@ -73,12 +73,12 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 7
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
@@ -93,7 +93,7 @@
     {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
@@ -123,11 +123,11 @@
     },
     {
       "label": "Alto",
-      "count": 12
+      "count": 10
     },
     {
       "label": "Severo",
-      "count": 6
+      "count": 5
     },
     {
       "label": "Extremo",
@@ -137,11 +137,11 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 29
+      "count": 27
     },
     {
       "label": "Alagamentos",
-      "count": 5
+      "count": 4
     },
     {
       "label": "Granizo",
@@ -159,11 +159,11 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 15
+      "count": 13
     },
     {
       "uf": "PA",
-      "count": 7
+      "count": 6
     },
     {
       "uf": "RS",
@@ -197,7 +197,7 @@
     },
     {
       "label": "expirado",
-      "count": 25
+      "count": 22
     }
   ],
   "all_alerts": [
@@ -655,60 +655,21 @@
       "status": "expirado",
       "onset": "2026-05-05T17:46:51-03:00",
       "expires": "2026-05-05T19:40:00-03:00"
-    },
-    {
-      "date": "05/05/2026",
-      "time": "17:36",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-05T17:36:13-03:00",
-      "expires": "2026-05-05T21:00:00-03:00"
-    },
-    {
-      "date": "05/05/2026",
-      "time": "17:31",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Acompanhe os alertas oficiais. Siga as orientacoes da defesa civil local e plano de contingencia municipal.",
-      "status": "expirado",
-      "onset": "2026-05-05T17:31:12-03:00",
-      "expires": "2026-05-05T21:20:00-03:00"
-    },
-    {
-      "date": "05/05/2026",
-      "time": "17:12",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Alagamentos",
-      "nivel": "Severo",
-      "uf": "PA",
-      "location": "Cachoeira do Piriá/PA",
-      "headline": "Defesa Civil:ALERTA de ALAGAMENTOS. Evite areas baixas e encostas de morro ou barranco, busque abrigo seguro.Fique atento e siga as orientacoes da Defesa Civil",
-      "status": "expirado",
-      "onset": "2026-05-05T17:12:21-03:00",
-      "expires": "2026-05-05T21:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 38,
+    "total_alerts": 35,
     "by_nivel": {
       "Médio": 16,
-      "Alto": 12,
-      "Severo": 6,
+      "Alto": 10,
+      "Severo": 5,
       "Extremo": 4
     },
     "by_channel_list": {
-      "Google": 38
+      "Google": 35
     },
     "by_region": {
-      "N": 22,
+      "N": 19,
       "SE": 7,
       "S": 6,
       "NE": 3
