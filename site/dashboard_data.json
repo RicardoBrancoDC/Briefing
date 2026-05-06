@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-06T17:46:21.665911-03:00",
-  "source_run_dir": "run_20260506_174558",
+  "generated_at": "2026-05-06T18:35:45.511689-03:00",
+  "source_run_dir": "run_20260506_183515",
   "cards": {
-    "vigentes": 13,
-    "ultimas24h": 35,
+    "vigentes": 12,
+    "ultimas24h": 33,
     "autoridadesAtivas": 9,
     "alertasExtremos": 4
   },
   "latest_alerts": [
+    {
+      "time": "18:27",
+      "date": "06/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Manicoré/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "16:20",
       "date": "06/05/2026",
@@ -18,7 +30,7 @@
       "location": "São Miguel do Guamá/PA",
       "uf": "PA",
       "headline": "Defesa Civil:Alerta de ALAGAMENTOS por CHUVAS INTENSAS. Risco de INUNDACOES e BLOQUEIO DE VIAS. EVITE TRAFEGAR E MANTENHA-SE EM LOCAL SEGURO ATE AS AGUAS BAIXA",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:19",
@@ -55,30 +67,13 @@
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO INTENSA Na regiao Sul e Serrana nas proximas 4 horas. Fique atento. Emergencia ligue 193.",
       "status": "vigente"
-    },
-    {
-      "time": "15:36",
-      "date": "06/05/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Afonso Cláudio/ES, Ecoporanga/ES",
-      "uf": "ES",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Afonso Claudio/ES, Ecoporanga/ES. Fique atento. Em casos de emergencia ligue 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 11
-    },
-    {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
-      "count": 6
+      "count": 12
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
@@ -89,6 +84,11 @@
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
       "count": 5
+    },
+    {
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
+      "count": 3
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
@@ -119,15 +119,15 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 16
+      "count": 17
     },
     {
       "label": "Alto",
-      "count": 10
+      "count": 8
     },
     {
       "label": "Severo",
-      "count": 5
+      "count": 4
     },
     {
       "label": "Extremo",
@@ -141,7 +141,7 @@
     },
     {
       "label": "Alagamentos",
-      "count": 4
+      "count": 2
     },
     {
       "label": "Granizo",
@@ -159,11 +159,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 13
-    },
-    {
-      "uf": "PA",
-      "count": 6
+      "count": 14
     },
     {
       "uf": "RS",
@@ -172,6 +168,10 @@
     {
       "uf": "ES",
       "count": 5
+    },
+    {
+      "uf": "PA",
+      "count": 3
     },
     {
       "uf": "PI",
@@ -193,14 +193,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 13
+      "count": 12
     },
     {
       "label": "expirado",
-      "count": 22
+      "count": 21
     }
   ],
   "all_alerts": [
+    {
+      "date": "06/05/2026",
+      "time": "18:27",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Manicoré/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-06T18:27:33-03:00",
+      "expires": "2026-05-06T20:25:00-03:00"
+    },
     {
       "date": "06/05/2026",
       "time": "16:20",
@@ -210,7 +223,7 @@
       "uf": "PA",
       "location": "São Miguel do Guamá/PA",
       "headline": "Defesa Civil:Alerta de ALAGAMENTOS por CHUVAS INTENSAS. Risco de INUNDACOES e BLOQUEIO DE VIAS. EVITE TRAFEGAR E MANTENHA-SE EM LOCAL SEGURO ATE AS AGUAS BAIXA",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-06T16:20:18-03:00",
       "expires": "2026-05-06T18:00:00-03:00"
     },
@@ -275,7 +288,7 @@
       "uf": "ES",
       "location": "Laranja da Terra/ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO INTENSA em Laranja da Terra nas proximas 3 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-06T15:25:44-03:00",
       "expires": "2026-05-06T18:00:00-03:00"
     },
@@ -616,60 +629,21 @@
       "status": "expirado",
       "onset": "2026-05-05T19:52:13-03:00",
       "expires": "2026-05-05T23:45:00-03:00"
-    },
-    {
-      "date": "05/05/2026",
-      "time": "18:29",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Alagamentos",
-      "nivel": "Severo",
-      "uf": "PA",
-      "location": "Tomé-Açu/PA",
-      "headline": "Defesa Civil:TOME ACU: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de Alagamentos e vendavais. evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-05T18:29:04-03:00",
-      "expires": "2026-05-05T21:00:00-03:00"
-    },
-    {
-      "date": "05/05/2026",
-      "time": "18:14",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Tomé-Açu/PA",
-      "headline": "Defesa Civil:TOME ACU: Alerta ALTO de Alagamentos nas proximas horas por acumulado de chuva. Evite contato com a agua de alagamentos.",
-      "status": "expirado",
-      "onset": "2026-05-05T18:14:27-03:00",
-      "expires": "2026-05-05T21:00:00-03:00"
-    },
-    {
-      "date": "05/05/2026",
-      "time": "17:46",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. evite areas alagadas e navegue com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-05T17:46:51-03:00",
-      "expires": "2026-05-05T19:40:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 35,
+    "total_alerts": 33,
     "by_nivel": {
-      "Médio": 16,
-      "Alto": 10,
-      "Severo": 5,
-      "Extremo": 4
+      "Médio": 17,
+      "Alto": 8,
+      "Extremo": 4,
+      "Severo": 4
     },
     "by_channel_list": {
-      "Google": 35
+      "Google": 33
     },
     "by_region": {
-      "N": 19,
+      "N": 17,
       "SE": 7,
       "S": 6,
       "NE": 3
