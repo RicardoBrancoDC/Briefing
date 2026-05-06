@@ -40,9 +40,26 @@ jobs:
 
       - name: Criar pastas necessárias
         run: |
-          mkdir -p .cache out site/imagens site/data site/assets
+          mkdir -p .cache out site/imagens site/data site/assets site/assets/flags/municipios site/assets/flags/estados
           [ -f .cache/state.json ] || echo "{}" > .cache/state.json
           [ -f .cache/historico_alertas.json ] || echo "[]" > .cache/historico_alertas.json
+
+      - name: Verificar variáveis do Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ -z "$TELEGRAM_BOT_TOKEN" ]; then
+            echo "TELEGRAM_BOT_TOKEN está vazio"
+          else
+            echo "TELEGRAM_BOT_TOKEN ok"
+          fi
+
+          if [ -z "$TELEGRAM_CHAT_ID" ]; then
+            echo "TELEGRAM_CHAT_ID está vazio"
+          else
+            echo "TELEGRAM_CHAT_ID ok"
+          fi
 
       - name: Run daily maps
         env:
@@ -55,6 +72,9 @@ jobs:
           HISTORY_PATH: ".cache/historico_alertas.json"
           WINDOW_HOURS: "24"
           RETENTION_HOURS: "72"
+          MAX_ITEMS: ""
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           python scripts/idap_daily_maps.py
 
@@ -78,9 +98,6 @@ jobs:
               json.dump({"gerado_em": datetime.now(timezone.utc).isoformat()}, f)
           PY
 
-      # =========================
-      # DASHBOARD ORIGINAL (NÃO MEXE)
-      # =========================
       - name: Gerar dados do dashboard original
         env:
           OUT_DIR: "out"
@@ -90,9 +107,6 @@ jobs:
         run: |
           python scripts/build_dashboard_data.py
 
-      # =========================
-      # NOVO DASHBOARD (ADICIONADO)
-      # =========================
       - name: Gerar dados do dashboard2
         env:
           HISTORY_PATH: ".cache/historico_alertas.json"
@@ -100,6 +114,7 @@ jobs:
           WINDOW_HOURS: "24"
           UF_GEOJSON_PATH: "resources/br_uf.geojson"
           DASHBOARD_GEOJSON_TARGET: "site/data/br_uf.geojson"
+          FLAG_DOWNLOAD_ENABLED: "0"
         run: |
           python scripts/build_dash2.py
 
