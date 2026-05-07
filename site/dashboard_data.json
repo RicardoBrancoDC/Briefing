@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-05-07T04:20:50.843292-03:00",
-  "source_run_dir": "run_20260507_042033",
+  "generated_at": "2026-05-07T07:36:27.973475-03:00",
+  "source_run_dir": "run_20260507_073613",
   "cards": {
-    "vigentes": 4,
-    "ultimas24h": 31,
+    "vigentes": 8,
+    "ultimas24h": 33,
     "autoridadesAtivas": 10,
     "alertasExtremos": 4
   },
   "latest_alerts": [
+    {
+      "time": "07:34",
+      "date": "07/05/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva, vento e granizo. Risco ALTO de destelhamento. Val. ate 10h. Evite areas de risco. Emerg. 190/193",
+      "status": "vigente"
+    },
+    {
+      "time": "07:04",
+      "date": "07/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "07:01",
+      "date": "07/05/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 10h. Evite areas de risco.",
+      "status": "vigente"
+    },
+    {
+      "time": "05:56",
+      "date": "07/05/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:Alerta LARANJA. Condicao de ALERTA p/ chuva, vento e granizo. Risco ALTO de destelhamento. Val. ate 08h. Evite areas de risco. Emerg. 190/193.",
+      "status": "vigente"
+    },
     {
       "time": "20:57",
       "date": "06/05/2026",
@@ -19,54 +67,6 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
       "status": "expirado"
-    },
-    {
-      "time": "20:30",
-      "date": "06/05/2026",
-      "senderName": "Defesa Civil de Salvador (BA)",
-      "senderNameShort": "DC Salvador (BA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Salvador/BA",
-      "uf": "BA",
-      "headline": "Defesa Civil:Alerta de chuvas intensas, com raios e rajadas de ventos. Risco de alagamentos e deslizamento de terra. Emergencia, disque 199. CODESAL",
-      "status": "vigente"
-    },
-    {
-      "time": "19:53",
-      "date": "06/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "19:23",
-      "date": "06/05/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "ESPÍRITO SANTO/ES",
-      "uf": "ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO INTENSO na regiao Noroeste nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "expirado"
-    },
-    {
-      "time": "18:47",
-      "date": "06/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Jutaí/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -76,24 +76,19 @@
       "count": 10
     },
     {
+      "name": "Defesa Civil Estadual do Rio Grande do Sul",
+      "short_name": "DC Rio Grande do Sul",
+      "count": 7
+    },
+    {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
       "count": 6
     },
     {
-      "name": "Defesa Civil Estadual do Rio Grande do Sul",
-      "short_name": "DC Rio Grande do Sul",
-      "count": 4
-    },
-    {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
       "count": 3
-    },
-    {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 2
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
@@ -103,6 +98,11 @@
     {
       "name": "Defesa Civil de Salvador (BA)",
       "short_name": "DC Salvador (BA)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
       "count": 1
     },
     {
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 18
+      "count": 17
     },
     {
       "label": "Alto",
-      "count": 5
+      "count": 8
     },
     {
       "label": "Severo",
@@ -142,7 +142,15 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 29
+      "count": 28
+    },
+    {
+      "label": "Vendaval",
+      "count": 2
+    },
+    {
+      "label": "Granizo",
+      "count": 1
     },
     {
       "label": "Alagamentos",
@@ -156,15 +164,15 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 12
+      "count": 11
+    },
+    {
+      "uf": "RS",
+      "count": 7
     },
     {
       "uf": "ES",
       "count": 6
-    },
-    {
-      "uf": "RS",
-      "count": 4
     },
     {
       "uf": "PA",
@@ -194,14 +202,66 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 4
+      "count": 8
     },
     {
       "label": "expirado",
-      "count": 27
+      "count": 25
     }
   ],
   "all_alerts": [
+    {
+      "date": "07/05/2026",
+      "time": "07:34",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva, vento e granizo. Risco ALTO de destelhamento. Val. ate 10h. Evite areas de risco. Emerg. 190/193",
+      "status": "vigente",
+      "onset": "2026-05-07T07:34:45-03:00",
+      "expires": "2026-05-07T10:00:00-03:00"
+    },
+    {
+      "date": "07/05/2026",
+      "time": "07:04",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-07T07:04:45-03:00",
+      "expires": "2026-05-07T10:50:00-03:00"
+    },
+    {
+      "date": "07/05/2026",
+      "time": "07:01",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 10h. Evite areas de risco.",
+      "status": "vigente",
+      "onset": "2026-05-07T07:01:29-03:00",
+      "expires": "2026-05-07T10:00:00-03:00"
+    },
+    {
+      "date": "07/05/2026",
+      "time": "05:56",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:Alerta LARANJA. Condicao de ALERTA p/ chuva, vento e granizo. Risco ALTO de destelhamento. Val. ate 08h. Evite areas de risco. Emerg. 190/193.",
+      "status": "vigente",
+      "onset": "2026-05-07T05:56:44-03:00",
+      "expires": "2026-05-07T08:00:00-03:00"
+    },
     {
       "date": "06/05/2026",
       "time": "20:57",
@@ -578,50 +638,24 @@
       "status": "expirado",
       "onset": "2026-05-06T07:59:34-03:00",
       "expires": "2026-05-06T12:00:00-03:00"
-    },
-    {
-      "date": "06/05/2026",
-      "time": "06:39",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-06T06:39:35-03:00",
-      "expires": "2026-05-06T10:00:00-03:00"
-    },
-    {
-      "date": "06/05/2026",
-      "time": "06:38",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.¿",
-      "status": "expirado",
-      "onset": "2026-05-06T06:38:46-03:00",
-      "expires": "2026-05-06T14:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 31,
+    "total_alerts": 33,
     "by_nivel": {
-      "Médio": 18,
-      "Alto": 5,
+      "Médio": 17,
+      "Alto": 8,
       "Extremo": 4,
       "Severo": 4
     },
     "by_channel_list": {
-      "Google": 31
+      "Google": 33
     },
     "by_region": {
-      "N": 15,
+      "N": 14,
       "SE": 8,
-      "NE": 4,
-      "S": 4
+      "S": 7,
+      "NE": 4
     }
   }
 }
