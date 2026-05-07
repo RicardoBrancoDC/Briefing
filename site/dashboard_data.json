@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-07T18:17:33.324748-03:00",
-  "source_run_dir": "run_20260507_181701",
+  "generated_at": "2026-05-07T20:14:15.118041-03:00",
+  "source_run_dir": "run_20260507_201345",
   "cards": {
-    "vigentes": 22,
-    "ultimas24h": 47,
-    "autoridadesAtivas": 12,
+    "vigentes": 16,
+    "ultimas24h": 45,
+    "autoridadesAtivas": 13,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "19:33",
+      "date": "07/05/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Estiagem",
+      "nivel": "Severo",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "DEFESA CIVIL PR: Emergência hídrica. Risco de interrupção de abastecimento de água nas proximidades do CEASA. Evite desperdício. Fique alerta.",
+      "status": "vigente"
+    },
+    {
+      "time": "18:57",
+      "date": "07/05/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento. Risco ALTO de destelhamento. Val. ate 22h. Mantenha-se seguro. Emerg. 190/193",
+      "status": "vigente"
+    },
     {
       "time": "17:07",
       "date": "07/05/2026",
@@ -18,7 +42,7 @@
       "location": "Beruri/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:54",
@@ -30,7 +54,7 @@
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento. Risco ALTO de destelhamento. Val. ate 20h. Mantenha-se seguro. Emerg. 190/193",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:54",
@@ -43,42 +67,18 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
       "status": "vigente"
-    },
-    {
-      "time": "16:51",
-      "date": "07/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "location": "São Paulo de Olivença/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao.  Prepare-se e evite areas baixas.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "16:48",
-      "date": "07/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "location": "Borba/AM, Nova Olinda do Norte/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao.  Prepare-se e evite areas baixas.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
+      "name": "Defesa Civil Estadual do Rio Grande do Sul",
+      "short_name": "DC Rio Grande do Sul",
       "count": 15
     },
     {
-      "name": "Defesa Civil Estadual do Rio Grande do Sul",
-      "short_name": "DC Rio Grande do Sul",
-      "count": 14
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 12
     },
     {
       "name": "Defesa Civil Estadual de Pernambuco",
@@ -91,11 +91,6 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil Estadual do Espírito Santo",
-      "short_name": "DC Espírito Santo",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
       "count": 2
@@ -106,6 +101,16 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual do Espírito Santo",
+      "short_name": "DC Espírito Santo",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil de Niterói (RJ)",
       "short_name": "DC Niterói (RJ)",
       "count": 1
@@ -114,35 +119,30 @@
       "name": "Defesa Civil de Recife (PE)",
       "short_name": "DC Recife (PE)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Blumenau (SC)",
-      "short_name": "DC Blumenau (SC)",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 21
+      "count": 17
     },
     {
       "label": "Alto",
-      "count": 24
+      "count": 25
     },
     {
       "label": "Severo",
-      "count": 2
+      "count": 3
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 25
+      "count": 21
     },
     {
       "label": "Vendaval",
-      "count": 14
+      "count": 15
     },
     {
       "label": "Solo/Lama",
@@ -157,21 +157,21 @@
       "count": 2
     },
     {
-      "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
+      "label": "Estiagem",
       "count": 1
     },
     {
       "label": "Outros",
-      "count": 1
+      "count": 2
     }
   ],
   "uf_distribution": [
     {
-      "uf": "AM",
-      "count": 17
+      "uf": "RS",
+      "count": 15
     },
     {
-      "uf": "RS",
+      "uf": "AM",
       "count": 14
     },
     {
@@ -187,8 +187,12 @@
       "count": 3
     },
     {
+      "uf": "PR",
+      "count": 1
+    },
+    {
       "uf": "ES",
-      "count": 2
+      "count": 1
     },
     {
       "uf": "RJ",
@@ -202,14 +206,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 22
+      "count": 16
     },
     {
       "label": "expirado",
-      "count": 25
+      "count": 29
     }
   ],
   "all_alerts": [
+    {
+      "date": "07/05/2026",
+      "time": "19:33",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Estiagem",
+      "nivel": "Severo",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "DEFESA CIVIL PR: Emergência hídrica. Risco de interrupção de abastecimento de água nas proximidades do CEASA. Evite desperdício. Fique alerta.",
+      "status": "vigente",
+      "onset": "2026-05-07T19:33:50-03:00",
+      "expires": "2026-05-08T01:30:00-03:00"
+    },
+    {
+      "date": "07/05/2026",
+      "time": "18:57",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento. Risco ALTO de destelhamento. Val. ate 22h. Mantenha-se seguro. Emerg. 190/193",
+      "status": "vigente",
+      "onset": "2026-05-07T18:57:35-03:00",
+      "expires": "2026-05-07T22:00:00-03:00"
+    },
     {
       "date": "07/05/2026",
       "time": "17:07",
@@ -219,7 +249,7 @@
       "uf": "AM",
       "location": "Beruri/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-07T17:07:16-03:00",
       "expires": "2026-05-07T20:00:00-03:00"
     },
@@ -232,7 +262,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento. Risco ALTO de destelhamento. Val. ate 20h. Mantenha-se seguro. Emerg. 190/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-07T16:54:40-03:00",
       "expires": "2026-05-07T20:00:00-03:00"
     },
@@ -284,7 +314,7 @@
       "uf": "ES",
       "location": "Castelo/ES, Cachoeiro de Itapemirim/ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS e VENTO na regiao de Castelo e Cachoeiro de Itapemirim nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-07T16:39:18-03:00",
       "expires": "2026-05-07T19:00:00-03:00"
     },
@@ -323,7 +353,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 19h. Mantenha-se seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-07T15:31:34-03:00",
       "expires": "2026-05-07T19:00:00-03:00"
     },
@@ -375,7 +405,7 @@
       "uf": "PA",
       "location": "Medicilândia/PA",
       "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS. EVITE AREAS DE RISCO. Fique atento e siga as orientacoes da Defesa Civil. Emergencia 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-07T14:23:04-03:00",
       "expires": "2026-05-07T19:00:00-03:00"
     },
@@ -414,7 +444,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-07T13:43:12-03:00",
       "expires": "2026-05-07T19:00:00-03:00"
     },
@@ -479,7 +509,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 07/05 13:12 - RAJADAS DE VENTO de quadrante norte/noroeste, com intensidade MODERADA (45 a 65 km/h), para as regiões do Extremo Oeste, Oeste, Meio-Oeste e Planalto Sul nas próximas 6 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-07T13:14:10-03:00",
       "expires": "2026-05-07T19:10:00-03:00"
     },
@@ -596,7 +626,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Observação Meteorológica SDC/SC 06/05 09:00 -Rajadas de vento de noroeste/norte nesta quinta (07). Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-07T12:00:00-03:00",
       "expires": "2026-05-07T20:00:00-03:00"
     },
@@ -768,75 +798,23 @@
       "status": "vigente",
       "onset": "2026-05-06T20:30:40-03:00",
       "expires": "2026-05-07T20:25:00-03:00"
-    },
-    {
-      "date": "06/05/2026",
-      "time": "19:53",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-06T19:53:49-03:00",
-      "expires": "2026-05-06T21:50:00-03:00"
-    },
-    {
-      "date": "06/05/2026",
-      "time": "19:23",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "ESPÍRITO SANTO/ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO INTENSO na regiao Noroeste nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-05-06T19:23:37-03:00",
-      "expires": "2026-05-06T22:30:00-03:00"
-    },
-    {
-      "date": "06/05/2026",
-      "time": "18:47",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Jutaí/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-06T18:47:38-03:00",
-      "expires": "2026-05-06T20:30:00-03:00"
-    },
-    {
-      "date": "06/05/2026",
-      "time": "18:27",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manicoré/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-06T18:27:33-03:00",
-      "expires": "2026-05-06T20:25:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 47,
+    "total_alerts": 45,
     "by_nivel": {
-      "Alto": 24,
-      "Médio": 21,
-      "Severo": 2
+      "Alto": 25,
+      "Médio": 17,
+      "Severo": 3
     },
     "by_channel_list": {
-      "Google": 47
+      "Google": 45
     },
     "by_region": {
-      "N": 21,
-      "S": 17,
+      "S": 19,
+      "N": 18,
       "NE": 6,
-      "SE": 3
+      "SE": 2
     }
   }
 }
