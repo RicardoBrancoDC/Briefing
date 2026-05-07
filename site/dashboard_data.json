@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-06T20:09:22.656722-03:00",
-  "source_run_dir": "run_20260506_200858",
+  "generated_at": "2026-05-07T01:08:51.541647-03:00",
+  "source_run_dir": "run_20260507_010825",
   "cards": {
-    "vigentes": 11,
-    "ultimas24h": 34,
-    "autoridadesAtivas": 9,
+    "vigentes": 4,
+    "ultimas24h": 32,
+    "autoridadesAtivas": 10,
     "alertasExtremos": 4
   },
   "latest_alerts": [
+    {
+      "time": "20:57",
+      "date": "06/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Canutama/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "expirado"
+    },
+    {
+      "time": "20:30",
+      "date": "06/05/2026",
+      "senderName": "Defesa Civil de Salvador (BA)",
+      "senderNameShort": "DC Salvador (BA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Salvador/BA",
+      "uf": "BA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas, com raios e rajadas de ventos. Risco de alagamentos e deslizamento de terra. Emergencia, disque 199. CODESAL",
+      "status": "vigente"
+    },
     {
       "time": "19:53",
       "date": "06/05/2026",
@@ -18,7 +42,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "19:23",
@@ -30,7 +54,7 @@
       "location": "ESPÍRITO SANTO/ES",
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO INTENSO na regiao Noroeste nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "18:47",
@@ -42,30 +66,6 @@
       "location": "Jutaí/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "18:27",
-      "date": "06/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Manicoré/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "16:20",
-      "date": "06/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Alagamentos",
-      "nivel": "Severo",
-      "location": "São Miguel do Guamá/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:Alerta de ALAGAMENTOS por CHUVAS INTENSAS. Risco de INUNDACOES e BLOQUEIO DE VIAS. EVITE TRAFEGAR E MANTENHA-SE EM LOCAL SEGURO ATE AS AGUAS BAIXA",
       "status": "expirado"
     }
   ],
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
@@ -83,7 +83,7 @@
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 6
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -99,6 +99,11 @@
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil de Salvador (BA)",
+      "short_name": "DC Salvador (BA)",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -119,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 20
+      "count": 19
     },
     {
       "label": "Alto",
-      "count": 6
+      "count": 5
     },
     {
       "label": "Severo",
@@ -137,11 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 29
-    },
-    {
-      "label": "Granizo",
-      "count": 2
+      "count": 30
     },
     {
       "label": "Alagamentos",
@@ -150,16 +151,12 @@
     {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
       "count": 1
-    },
-    {
-      "label": "Solo/Lama",
-      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 14
+      "count": 13
     },
     {
       "uf": "ES",
@@ -167,7 +164,7 @@
     },
     {
       "uf": "RS",
-      "count": 6
+      "count": 4
     },
     {
       "uf": "PA",
@@ -176,6 +173,10 @@
     {
       "uf": "PI",
       "count": 2
+    },
+    {
+      "uf": "BA",
+      "count": 1
     },
     {
       "uf": "MG",
@@ -193,14 +194,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 11
+      "count": 4
     },
     {
       "label": "expirado",
-      "count": 23
+      "count": 28
     }
   ],
   "all_alerts": [
+    {
+      "date": "06/05/2026",
+      "time": "20:57",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Canutama/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-05-06T20:57:27-03:00",
+      "expires": "2026-05-07T00:45:00-03:00"
+    },
+    {
+      "date": "06/05/2026",
+      "time": "20:30",
+      "senderName": "Defesa Civil de Salvador (BA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "BA",
+      "location": "Salvador/BA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas, com raios e rajadas de ventos. Risco de alagamentos e deslizamento de terra. Emergencia, disque 199. CODESAL",
+      "status": "vigente",
+      "onset": "2026-05-06T20:30:40-03:00",
+      "expires": "2026-05-07T20:25:00-03:00"
+    },
     {
       "date": "06/05/2026",
       "time": "19:53",
@@ -210,7 +237,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-06T19:53:49-03:00",
       "expires": "2026-05-06T21:50:00-03:00"
     },
@@ -223,7 +250,7 @@
       "uf": "ES",
       "location": "ESPÍRITO SANTO/ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO INTENSO na regiao Noroeste nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-06T19:23:37-03:00",
       "expires": "2026-05-06T22:30:00-03:00"
     },
@@ -236,7 +263,7 @@
       "uf": "AM",
       "location": "Jutaí/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-06T18:47:38-03:00",
       "expires": "2026-05-06T20:30:00-03:00"
     },
@@ -249,7 +276,7 @@
       "uf": "AM",
       "location": "Manicoré/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-06T18:27:33-03:00",
       "expires": "2026-05-06T20:25:00-03:00"
     },
@@ -392,7 +419,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS no PIAUI. EVITE AREAS DE RISCO DE ALAGAMENTOS E ENXURRADAS, Proteja-se em Local Seguro. Em  emergencia, ligue 193/190.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-06T13:12:14-03:00",
       "expires": "2026-05-06T23:55:00-03:00"
     },
@@ -405,7 +432,7 @@
       "uf": "PI",
       "location": "Parnaíba/PI",
       "headline": "Defesa Civil:Alerta CHUVAS INTENSAS em Parnaiba/PI. EVITE AREAS DE RISCO DE ALAGAMENTOS E ENXURRADAS, Proteja-se em Local Seguro. Em  emergencia, ligue 193/190",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-06T13:07:58-03:00",
       "expires": "2026-05-06T23:55:00-03:00"
     },
@@ -483,7 +510,7 @@
       "uf": "MA",
       "location": "MA",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas. Evite areas de risco. Em caso de emergencia, ligue 199 ou 193. Valido ate 06/05 as 23:59.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-06T10:05:00-03:00",
       "expires": "2026-05-06T23:55:00-03:00"
     },
@@ -496,7 +523,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:Alerta ALTO de chuvas e ventos intensos para hoje (06MAI). Risco de alagamentos. Abrigue-se. Emergencias, ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-06T09:27:12-03:00",
       "expires": "2026-05-06T23:59:00-03:00"
     },
@@ -590,76 +617,24 @@
       "status": "expirado",
       "onset": "2026-05-06T02:13:47-03:00",
       "expires": "2026-05-06T04:30:00-03:00"
-    },
-    {
-      "date": "05/05/2026",
-      "time": "23:05",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 05h00. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-05-05T23:05:00-03:00",
-      "expires": "2026-05-06T05:00:00-03:00"
-    },
-    {
-      "date": "05/05/2026",
-      "time": "22:10",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 00h10. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-05-05T22:10:00-03:00",
-      "expires": "2026-05-06T00:10:00-03:00"
-    },
-    {
-      "date": "05/05/2026",
-      "time": "21:32",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Coari/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite encostas e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-05T21:32:53-03:00",
-      "expires": "2026-05-06T07:00:00-03:00"
-    },
-    {
-      "date": "05/05/2026",
-      "time": "20:48",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaquiri/AM, Nhamundá/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Acompanhe os alertas oficiais. Siga as orientacoes da defesa civil local e plano de contingencia municipal.",
-      "status": "expirado",
-      "onset": "2026-05-05T20:48:09-03:00",
-      "expires": "2026-05-06T00:45:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 34,
+    "total_alerts": 32,
     "by_nivel": {
-      "Médio": 20,
-      "Alto": 6,
+      "Médio": 19,
+      "Alto": 5,
       "Extremo": 4,
       "Severo": 4
     },
     "by_channel_list": {
-      "Google": 34
+      "Google": 32
     },
     "by_region": {
-      "N": 17,
+      "N": 16,
       "SE": 8,
-      "S": 6,
-      "NE": 3
+      "NE": 4,
+      "S": 4
     }
   }
 }
