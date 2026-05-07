@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-07T16:57:30.141071-03:00",
-  "source_run_dir": "run_20260507_165703",
+  "generated_at": "2026-05-07T18:17:33.324748-03:00",
+  "source_run_dir": "run_20260507_181701",
   "cards": {
-    "vigentes": 29,
-    "ultimas24h": 46,
+    "vigentes": 22,
+    "ultimas24h": 47,
     "autoridadesAtivas": 12,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "17:07",
+      "date": "07/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Beruri/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "16:54",
       "date": "07/05/2026",
@@ -55,29 +67,17 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao.  Prepare-se e evite areas baixas.   Siga as orientacoes da defesa civil local.",
       "status": "vigente"
-    },
-    {
-      "time": "16:39",
-      "date": "07/05/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Castelo/ES, Cachoeiro de Itapemirim/ES",
-      "uf": "ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS e VENTO na regiao de Castelo e Cachoeiro de Itapemirim nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual do Rio Grande do Sul",
-      "short_name": "DC Rio Grande do Sul",
-      "count": 14
-    },
-    {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
+      "count": 15
+    },
+    {
+      "name": "Defesa Civil Estadual do Rio Grande do Sul",
+      "short_name": "DC Rio Grande do Sul",
       "count": 14
     },
     {
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 20
+      "count": 21
     },
     {
       "label": "Alto",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 24
+      "count": 25
     },
     {
       "label": "Vendaval",
@@ -168,7 +168,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 16
+      "count": 17
     },
     {
       "uf": "RS",
@@ -202,14 +202,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 29
+      "count": 22
     },
     {
       "label": "expirado",
-      "count": 17
+      "count": 25
     }
   ],
   "all_alerts": [
+    {
+      "date": "07/05/2026",
+      "time": "17:07",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Beruri/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-07T17:07:16-03:00",
+      "expires": "2026-05-07T20:00:00-03:00"
+    },
     {
       "date": "07/05/2026",
       "time": "16:54",
@@ -336,7 +349,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 18h. Mantenha-se seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-07T14:43:28-03:00",
       "expires": "2026-05-07T18:00:00-03:00"
     },
@@ -349,7 +362,7 @@
       "uf": "AM",
       "location": "Careiro/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-07T14:35:02-03:00",
       "expires": "2026-05-07T17:00:00-03:00"
     },
@@ -375,7 +388,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 17h. Mantenha-se seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-07T14:00:07-03:00",
       "expires": "2026-05-07T17:00:00-03:00"
     },
@@ -388,7 +401,7 @@
       "uf": "PA",
       "location": "Uruará/PA",
       "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil. Emergencia 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-07T13:48:37-03:00",
       "expires": "2026-05-07T18:00:00-03:00"
     },
@@ -414,7 +427,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-07T13:40:46-03:00",
       "expires": "2026-05-07T17:00:00-03:00"
     },
@@ -427,7 +440,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 17h. Mantenha-se seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-07T13:40:00-03:00",
       "expires": "2026-05-07T17:00:00-03:00"
     },
@@ -440,7 +453,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 17h. Mantenha-se seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-07T13:35:00-03:00",
       "expires": "2026-05-07T17:00:00-03:00"
     },
@@ -453,7 +466,7 @@
       "uf": "RS",
       "location": "Chuí/RS, Santa Vitória do Palmar/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva e vento. Risco ALTO de alagamentos. Val. ate 17h. Mantenha-se seguro. Emerg. 190/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-07T13:32:03-03:00",
       "expires": "2026-05-07T17:00:00-03:00"
     },
@@ -810,17 +823,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 46,
+    "total_alerts": 47,
     "by_nivel": {
       "Alto": 24,
-      "Médio": 20,
+      "Médio": 21,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 46
+      "Google": 47
     },
     "by_region": {
-      "N": 20,
+      "N": 21,
       "S": 17,
       "NE": 6,
       "SE": 3
