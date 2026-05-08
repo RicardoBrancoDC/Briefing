@@ -1,15 +1,39 @@
 {
-  "generated_at": "2026-05-08T18:18:41.018690-03:00",
-  "source_run_dir": "run_20260508_181804",
+  "generated_at": "2026-05-08T20:13:28.561807-03:00",
+  "source_run_dir": "run_20260508_201253",
   "cards": {
-    "vigentes": 40,
-    "ultimas24h": 94,
-    "autoridadesAtivas": 26,
+    "vigentes": 34,
+    "ultimas24h": 96,
+    "autoridadesAtivas": 27,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "18:10",
+      "time": "19:00",
+      "date": "08/05/2026",
+      "senderName": "Defesa Civil de Cabedelo (PB)",
+      "senderNameShort": "DC Cabedelo (PB)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Cabedelo/PB",
+      "uf": "PB",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Cabedelo/PB",
+      "status": "vigente"
+    },
+    {
+      "time": "18:29",
+      "date": "08/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Belém/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:DEFESA CIVIL DE BELEM: RISCO de ALAGAMENTOS. Evite areas baixas e entornos de canais, busque locais seguros se necessario",
+      "status": "expirado"
+    },
+    {
+      "time": "18:19",
       "date": "08/05/2026",
       "senderName": "Defesa Civil Estadual do Paraná",
       "senderNameShort": "DC Paraná",
@@ -21,51 +45,27 @@
       "status": "vigente"
     },
     {
-      "time": "18:00",
+      "time": "18:19",
       "date": "08/05/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Friagem",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
       "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Observação Meteorológica SDC/SC 08/05 11:00 ¿ Declínio acentuado e frio intenso de temperatura e frio intenso entre sexta-feira (08) e sábado (09). Em caso de emergência, ligue 199 ou 193.",
+      "location": "Defesa Civil Estadual do Amazonas",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
       "status": "vigente"
     },
     {
-      "time": "17:55",
+      "time": "18:10",
       "date": "08/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
       "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Moju/PA, Igarapé-Miri/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "vigente"
-    },
-    {
-      "time": "17:46",
-      "date": "08/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:17h45 - Chuva se espalhando pela regiao de Presidente Epatacio e Presidente Venceslau. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado!",
-      "status": "vigente"
-    },
-    {
-      "time": "17:39",
-      "date": "08/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:17h35 - Chuva se espalhando pela regiao de Apai e Ribeirao Branco. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "nivel": "Alto",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
       "status": "vigente"
     }
   ],
@@ -83,21 +83,21 @@
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 9
-    },
-    {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 4
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
+      "count": 5
+    },
+    {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
       "count": 4
     },
     {
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 33
+      "count": 35
     },
     {
       "label": "Alto",
@@ -138,11 +138,11 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 71
+      "count": 75
     },
     {
       "label": "Vendaval",
-      "count": 16
+      "count": 15
     },
     {
       "label": "Alagamentos",
@@ -159,10 +159,6 @@
     {
       "label": "Solo/Lama",
       "count": 1
-    },
-    {
-      "label": "Outros",
-      "count": 1
     }
   ],
   "uf_distribution": [
@@ -176,19 +172,19 @@
     },
     {
       "uf": "PA",
-      "count": 11
-    },
-    {
-      "uf": "RS",
-      "count": 9
+      "count": 12
     },
     {
       "uf": "RJ",
       "count": 8
     },
     {
+      "uf": "RS",
+      "count": 8
+    },
+    {
       "uf": "AM",
-      "count": 6
+      "count": 7
     },
     {
       "uf": "PE",
@@ -200,7 +196,7 @@
     },
     {
       "uf": "PB",
-      "count": 2
+      "count": 3
     },
     {
       "uf": "PI",
@@ -222,14 +218,66 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 40
+      "count": 34
     },
     {
       "label": "expirado",
-      "count": 54
+      "count": 62
     }
   ],
   "all_alerts": [
+    {
+      "date": "08/05/2026",
+      "time": "19:00",
+      "senderName": "Defesa Civil de Cabedelo (PB)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PB",
+      "location": "Cabedelo/PB",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Cabedelo/PB",
+      "status": "vigente",
+      "onset": "2026-05-08T19:00:00-03:00",
+      "expires": "2026-05-09T19:00:00-03:00"
+    },
+    {
+      "date": "08/05/2026",
+      "time": "18:29",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "PA",
+      "location": "Belém/PA",
+      "headline": "Defesa Civil:DEFESA CIVIL DE BELEM: RISCO de ALAGAMENTOS. Evite areas baixas e entornos de canais, busque locais seguros se necessario",
+      "status": "expirado",
+      "onset": "2026-05-08T18:29:36-03:00",
+      "expires": "2026-05-08T20:00:00-03:00"
+    },
+    {
+      "date": "08/05/2026",
+      "time": "18:19",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-08T18:19:53-03:00",
+      "expires": "2026-05-08T21:20:00-03:00"
+    },
+    {
+      "date": "08/05/2026",
+      "time": "18:19",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Defesa Civil Estadual do Amazonas",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-08T18:19:23-03:00",
+      "expires": "2026-05-08T21:00:00-03:00"
+    },
     {
       "date": "08/05/2026",
       "time": "18:10",
@@ -278,7 +326,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:17h45 - Chuva se espalhando pela regiao de Presidente Epatacio e Presidente Venceslau. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-08T17:46:13-03:00",
       "expires": "2026-05-08T19:45:00-03:00"
     },
@@ -291,7 +339,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:17h35 - Chuva se espalhando pela regiao de Apai e Ribeirao Branco. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-08T17:39:18-03:00",
       "expires": "2026-05-08T19:40:00-03:00"
     },
@@ -304,7 +352,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:17h30 - Chuva se espalhando pela regiao de Cajati e Barra do Turvo. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-08T17:33:59-03:00",
       "expires": "2026-05-08T19:30:00-03:00"
     },
@@ -317,7 +365,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-08T16:24:02-03:00",
       "expires": "2026-05-08T19:20:00-03:00"
     },
@@ -343,7 +391,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-08T16:11:02-03:00",
       "expires": "2026-05-08T19:10:00-03:00"
     },
@@ -369,7 +417,7 @@
       "uf": "AM",
       "location": "Parintins/AM, Manicoré/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-08T15:44:41-03:00",
       "expires": "2026-05-08T18:30:00-03:00"
     },
@@ -382,7 +430,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL MODERADO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-08T15:38:35-03:00",
       "expires": "2026-05-08T19:00:00-03:00"
     },
@@ -408,7 +456,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-08T15:24:53-03:00",
       "expires": "2026-05-08T18:20:00-03:00"
     },
@@ -551,7 +599,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-08T13:58:15-03:00",
       "expires": "2026-05-08T19:00:00-03:00"
     },
@@ -1425,49 +1473,23 @@
       "status": "expirado",
       "onset": "2026-05-07T20:32:44-03:00",
       "expires": "2026-05-07T23:00:00-03:00"
-    },
-    {
-      "date": "07/05/2026",
-      "time": "19:33",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Estiagem",
-      "nivel": "Severo",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "DEFESA CIVIL PR: Emergência hídrica. Risco de interrupção de abastecimento de água nas proximidades do CEASA. Evite desperdício. Fique alerta.",
-      "status": "expirado",
-      "onset": "2026-05-07T19:33:50-03:00",
-      "expires": "2026-05-08T01:30:00-03:00"
-    },
-    {
-      "date": "07/05/2026",
-      "time": "18:57",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento. Risco ALTO de destelhamento. Val. ate 22h. Mantenha-se seguro. Emerg. 190/193",
-      "status": "expirado",
-      "onset": "2026-05-07T18:57:35-03:00",
-      "expires": "2026-05-07T22:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 94,
+    "total_alerts": 96,
     "by_nivel": {
       "Alto": 54,
-      "Médio": 33,
+      "Médio": 35,
       "Severo": 7
     },
     "by_channel_list": {
-      "Google": 94
+      "Google": 96
     },
     "by_region": {
-      "S": 53,
-      "N": 17,
+      "S": 52,
+      "N": 19,
+      "NE": 12,
       "SE": 12,
-      "NE": 11,
       "CO": 1
     }
   }
