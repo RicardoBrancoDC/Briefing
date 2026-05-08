@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-05-08T08:15:31.120081-03:00",
-  "source_run_dir": "run_20260508_081508",
+  "generated_at": "2026-05-08T08:48:05.792615-03:00",
+  "source_run_dir": "run_20260508_084744",
   "cards": {
     "vigentes": 21,
-    "ultimas24h": 79,
-    "autoridadesAtivas": 13,
+    "ultimas24h": 82,
+    "autoridadesAtivas": 16,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "08:41",
+      "date": "08/05/2026",
+      "senderName": "Defesa Civil de Ipojuca (PE)",
+      "senderNameShort": "DC Ipojuca (PE)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Ipojuca/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:Alerta para chuvas de moderada a forte nesta sexta 08/05 podendo se estender ate a manha de sabado.Duvidas:0800-281-0620/99231-8607.Plantao 24h",
+      "status": "vigente"
+    },
+    {
+      "time": "08:17",
+      "date": "08/05/2026",
+      "senderName": "Defesa Civil de Olinda (PE)",
+      "senderNameShort": "DC Olinda (PE)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Olinda/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:Chuvas moderadas a forte ao longe desta sexta-feira(08/05). Siga a orientacao da Defesa Civil. Em caso de emergencia ligue 08000810060. Previna-se",
+      "status": "vigente"
+    },
+    {
+      "time": "08:16",
+      "date": "08/05/2026",
+      "senderName": "Defesa Civil Mangaratiba (RJ)",
+      "senderNameShort": "Defesa Civil Mangaratiba (R…",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "location": "Mangaratiba/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ - POSSIBILIDADE DE RAJADAS DE VENTO MODERADAS A FORTES PARA AS PROXIMAS 24 HORAS! EM CASO DE EMERGENCIA LIGUE: (21) 3030-2662/199.",
+      "status": "vigente"
+    },
     {
       "time": "06:49",
       "date": "08/05/2026",
@@ -30,42 +66,6 @@
       "location": "PERNAMBUCO-PE",
       "uf": "PE",
       "headline": "Defesa Civil:PE: RMR - ALERTA de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se",
-      "status": "vigente"
-    },
-    {
-      "time": "06:45",
-      "date": "08/05/2026",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "senderNameShort": "DC Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Fernando de Noronha/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:PE: Fernando de Noronha - ALERTA de chuva MODERADA a FORTE nas prox. 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se",
-      "status": "vigente"
-    },
-    {
-      "time": "06:41",
-      "date": "08/05/2026",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "senderNameShort": "DC Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PERNAMBUCO-PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:PE: Zona da Mata - ALERTA de chuva MODERADA a FORTE) nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se",
-      "status": "vigente"
-    },
-    {
-      "time": "06:31",
-      "date": "08/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:08h30 - Chuva se espalhando pela regiao de Rosana e Teodoro Sampaio. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
       "status": "vigente"
     }
   ],
@@ -111,24 +111,24 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
+      "name": "Defesa Civil de Ipojuca (PE)",
+      "short_name": "DC Ipojuca (PE)",
       "count": 1
     },
     {
-      "name": "Defesa Civil Estadual do Espírito Santo",
-      "short_name": "DC Espírito Santo",
+      "name": "Defesa Civil de Olinda (PE)",
+      "short_name": "DC Olinda (PE)",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 32
+      "count": 34
     },
     {
       "label": "Alto",
-      "count": 43
+      "count": 44
     },
     {
       "label": "Severo",
@@ -138,11 +138,11 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 49
+      "count": 51
     },
     {
       "label": "Vendaval",
-      "count": 22
+      "count": 23
     },
     {
       "label": "Solo/Lama",
@@ -184,11 +184,15 @@
     },
     {
       "uf": "PE",
-      "count": 8
+      "count": 10
     },
     {
       "uf": "PA",
       "count": 5
+    },
+    {
+      "uf": "RJ",
+      "count": 2
     },
     {
       "uf": "SP",
@@ -196,10 +200,6 @@
     },
     {
       "uf": "ES",
-      "count": 1
-    },
-    {
-      "uf": "RJ",
       "count": 1
     }
   ],
@@ -210,10 +210,49 @@
     },
     {
       "label": "expirado",
-      "count": 58
+      "count": 61
     }
   ],
   "all_alerts": [
+    {
+      "date": "08/05/2026",
+      "time": "08:41",
+      "senderName": "Defesa Civil de Ipojuca (PE)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PE",
+      "location": "Ipojuca/PE",
+      "headline": "Defesa Civil:Alerta para chuvas de moderada a forte nesta sexta 08/05 podendo se estender ate a manha de sabado.Duvidas:0800-281-0620/99231-8607.Plantao 24h",
+      "status": "vigente",
+      "onset": "2026-05-08T08:41:03-03:00",
+      "expires": "2026-05-09T08:00:00-03:00"
+    },
+    {
+      "date": "08/05/2026",
+      "time": "08:17",
+      "senderName": "Defesa Civil de Olinda (PE)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PE",
+      "location": "Olinda/PE",
+      "headline": "Defesa Civil:Chuvas moderadas a forte ao longe desta sexta-feira(08/05). Siga a orientacao da Defesa Civil. Em caso de emergencia ligue 08000810060. Previna-se",
+      "status": "vigente",
+      "onset": "2026-05-08T08:17:00-03:00",
+      "expires": "2026-05-08T23:00:00-03:00"
+    },
+    {
+      "date": "08/05/2026",
+      "time": "08:16",
+      "senderName": "Defesa Civil Mangaratiba (RJ)",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Mangaratiba/RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ - POSSIBILIDADE DE RAJADAS DE VENTO MODERADAS A FORTES PARA AS PROXIMAS 24 HORAS! EM CASO DE EMERGENCIA LIGUE: (21) 3030-2662/199.",
+      "status": "vigente",
+      "onset": "2026-05-08T08:16:32-03:00",
+      "expires": "2026-05-09T08:00:00-03:00"
+    },
     {
       "date": "08/05/2026",
       "time": "06:49",
@@ -275,7 +314,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:08h30 - Chuva se espalhando pela regiao de Rosana e Teodoro Sampaio. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-08T06:31:50-03:00",
       "expires": "2026-05-08T08:30:00-03:00"
     },
@@ -327,7 +366,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 08/05 05:27 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Planalto Norte, Litoral Norte, Grande Florianópolis, Médio e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-08T05:31:13-03:00",
       "expires": "2026-05-08T08:30:00-03:00"
     },
@@ -340,7 +379,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-08T05:25:36-03:00",
       "expires": "2026-05-08T08:25:00-03:00"
     },
@@ -1243,20 +1282,20 @@
     }
   ],
   "summary": {
-    "total_alerts": 79,
+    "total_alerts": 82,
     "by_nivel": {
-      "Alto": 43,
-      "Médio": 32,
+      "Alto": 44,
+      "Médio": 34,
       "Severo": 4
     },
     "by_channel_list": {
-      "Google": 79
+      "Google": 82
     },
     "by_region": {
       "S": 50,
       "N": 18,
-      "NE": 8,
-      "SE": 3
+      "NE": 10,
+      "SE": 4
     }
   }
 }
