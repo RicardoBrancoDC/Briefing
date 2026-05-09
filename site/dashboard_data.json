@@ -1,15 +1,39 @@
 {
-  "generated_at": "2026-05-09T16:36:54.834612-03:00",
-  "source_run_dir": "run_20260509_163630",
+  "generated_at": "2026-05-09T18:05:46.593042-03:00",
+  "source_run_dir": "run_20260509_180520",
   "cards": {
-    "vigentes": 32,
-    "ultimas24h": 65,
+    "vigentes": 26,
+    "ultimas24h": 69,
     "autoridadesAtivas": 18,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "16:31",
+      "time": "18:00",
+      "date": "09/05/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Friagem",
+      "nivel": "Alto",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "Defesa Civil:Atencao Meteorologica SDC/SC 08/05 11:00 - Frio intenso entre o sabado (09) e a terca-feira (12). Em caso de emergencia, ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "17:50",
+      "date": "09/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Barcarena/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:BARCARENA: Alerta MODERADO de CHUVAS INTENSAS para as proximas horas. Risco de  Alagamentos e vendavais. evite areas alagadas e dirija com atencao",
+      "status": "vigente"
+    },
+    {
+      "time": "17:39",
       "date": "09/05/2026",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "senderNameShort": "DC São Paulo",
@@ -17,55 +41,31 @@
       "nivel": "Médio",
       "location": "SÃO PAULO/SP",
       "uf": "SP",
-      "headline": "Defesa Civil:16h29 - Chuva forte em Salto de Pirapora e Piedade. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "headline": "Defesa Civil:17h38 - Chuva forte em Aracatuba e Tupa. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
       "status": "vigente"
     },
     {
-      "time": "16:26",
+      "time": "17:08",
       "date": "09/05/2026",
-      "senderName": "Defesa Civil Estadual de Alagoas",
-      "senderNameShort": "DC Alagoas",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
       "event": "Chuvas Intensas",
       "nivel": "Médio",
-      "location": "ALAGOAS/AL",
-      "uf": "AL",
-      "headline": "Defesa Civil:Alerta de Chuvas! Risco de alagamentos, cheias em pequenos rios e riachos e deslizamento de terra. Procure um local seguro. Para emergencias 193.",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
       "status": "vigente"
     },
     {
-      "time": "16:10",
+      "time": "17:06",
       "date": "09/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
       "event": "Chuvas Intensas",
       "nivel": "Alto",
-      "location": "Ipixuna do Pará/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:IPIXUNA DO PARA: Alerta ALTO de CHUVAS INTENSAS para as proximas horas. Risco de  Alagamentos e vendavais. evite areas alagadas e dirija com atenc",
-      "status": "vigente"
-    },
-    {
-      "time": "16:08",
-      "date": "09/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARÁ/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:METROPOLITANA BELEM:Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais. evite areas alagadas e dirija com atencao",
-      "status": "vigente"
-    },
-    {
-      "time": "15:58",
-      "date": "09/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Paragominas/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:PARAGOMINAS: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. evite areas alagadas e dirija com atencao.",
+      "location": "Paranavaí/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:Risco de Alagamentos em Paranavai e mun. vizinhos. Monitore. Em caso de perigo, deixe o local imediatamente. Ligue 199/193.",
       "status": "vigente"
     }
   ],
@@ -73,27 +73,37 @@
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 15
+      "count": 17
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 13
-    },
-    {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 11
+      "count": 14
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 8
+      "count": 9
+    },
+    {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 9
     },
     {
       "name": "Defesa Civil Estadual de Pernambuco",
       "short_name": "DC Pernambuco",
       "count": 4
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual de Mato Grosso",
+      "short_name": "DC Mato Grosso",
+      "count": 2
     },
     {
       "name": "Defesa Civil de Niterói (RJ)",
@@ -109,36 +119,26 @@
       "name": "Defesa Civil de Maceió (AL)",
       "short_name": "DC Maceió (AL)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Petrópolis (RJ)",
-      "short_name": "DC Petrópolis (RJ)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Mato Grosso",
-      "short_name": "DC Mato Grosso",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 32
-    },
-    {
-      "label": "Alto",
       "count": 31
     },
     {
+      "label": "Alto",
+      "count": 34
+    },
+    {
       "label": "Severo",
-      "count": 2
+      "count": 4
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 56
+      "count": 60
     },
     {
       "label": "Vendaval",
@@ -149,15 +149,15 @@
       "count": 2
     },
     {
+      "label": "Friagem",
+      "count": 1
+    },
+    {
       "label": "Marés De Tempestade (Ressacas)",
       "count": 1
     },
     {
       "label": "Deslizamentos",
-      "count": 1
-    },
-    {
-      "label": "Baixa Umidade Do Ar",
       "count": 1
     },
     {
@@ -168,19 +168,19 @@
   "uf_distribution": [
     {
       "uf": "PA",
-      "count": 16
+      "count": 18
     },
     {
       "uf": "PR",
-      "count": 13
-    },
-    {
-      "uf": "SP",
-      "count": 11
+      "count": 14
     },
     {
       "uf": "SC",
-      "count": 10
+      "count": 11
+    },
+    {
+      "uf": "SP",
+      "count": 9
     },
     {
       "uf": "RJ",
@@ -191,12 +191,16 @@
       "count": 4
     },
     {
-      "uf": "AL",
+      "uf": "AM",
       "count": 2
     },
     {
       "uf": "MT",
-      "count": 1
+      "count": 2
+    },
+    {
+      "uf": "AL",
+      "count": 2
     },
     {
       "uf": "GO",
@@ -209,23 +213,136 @@
     {
       "uf": "PB",
       "count": 1
-    },
-    {
-      "uf": "AM",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 32
+      "count": 26
     },
     {
       "label": "expirado",
-      "count": 33
+      "count": 43
     }
   ],
   "all_alerts": [
+    {
+      "date": "09/05/2026",
+      "time": "18:00",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Friagem",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:Atencao Meteorologica SDC/SC 08/05 11:00 - Frio intenso entre o sabado (09) e a terca-feira (12). Em caso de emergencia, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-09T18:00:00-03:00",
+      "expires": "2026-05-12T12:00:00-03:00"
+    },
+    {
+      "date": "09/05/2026",
+      "time": "17:50",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Barcarena/PA",
+      "headline": "Defesa Civil:BARCARENA: Alerta MODERADO de CHUVAS INTENSAS para as proximas horas. Risco de  Alagamentos e vendavais. evite areas alagadas e dirija com atencao",
+      "status": "vigente",
+      "onset": "2026-05-09T17:50:55-03:00",
+      "expires": "2026-05-09T20:00:00-03:00"
+    },
+    {
+      "date": "09/05/2026",
+      "time": "17:39",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:17h38 - Chuva forte em Aracatuba e Tupa. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-05-09T17:39:15-03:00",
+      "expires": "2026-05-09T19:35:00-03:00"
+    },
+    {
+      "date": "09/05/2026",
+      "time": "17:08",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-09T17:08:30-03:00",
+      "expires": "2026-05-09T21:00:00-03:00"
+    },
+    {
+      "date": "09/05/2026",
+      "time": "17:06",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "Paranavaí/PR",
+      "headline": "Defesa Civil:Risco de Alagamentos em Paranavai e mun. vizinhos. Monitore. Em caso de perigo, deixe o local imediatamente. Ligue 199/193.",
+      "status": "vigente",
+      "onset": "2026-05-09T17:06:33-03:00",
+      "expires": "2026-05-09T23:05:00-03:00"
+    },
+    {
+      "date": "09/05/2026",
+      "time": "16:56",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "MT",
+      "location": "Cáceres/MT",
+      "headline": "Defesa Civil:ESTADUAL: Chuvas intensas com pontos de alagamento e enxurradas. Evite areas de risco. Abrigue-se em local seguro.Emergencia ligue: 193.",
+      "status": "expirado",
+      "onset": "2026-05-09T16:56:58-03:00",
+      "expires": "2026-05-09T16:55:00-03:00"
+    },
+    {
+      "date": "09/05/2026",
+      "time": "16:49",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 09/05 16:42 - CHUVA PERSISTENTE de intensidade moderada com ALAGAMENTOS pontuais para as regiões do Planalto Norte, Litoral Norte, Planalto Sul, Litoral Sul, Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 5 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-09T16:49:43-03:00",
+      "expires": "2026-05-09T21:50:00-03:00"
+    },
+    {
+      "date": "09/05/2026",
+      "time": "16:41",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "PA",
+      "location": "Ananindeua/PA, Belém/PA",
+      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
+      "status": "expirado",
+      "onset": "2026-05-09T16:41:00-03:00",
+      "expires": "2026-05-09T18:00:00-03:00"
+    },
+    {
+      "date": "09/05/2026",
+      "time": "16:36",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "PA",
+      "location": "Benevides/PA, Marituba/PA",
+      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
+      "status": "vigente",
+      "onset": "2026-05-09T16:36:41-03:00",
+      "expires": "2026-05-09T19:00:00-03:00"
+    },
     {
       "date": "09/05/2026",
       "time": "16:31",
@@ -287,7 +404,7 @@
       "uf": "PA",
       "location": "Paragominas/PA",
       "headline": "Defesa Civil:PARAGOMINAS: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. evite areas alagadas e dirija com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-09T15:58:06-03:00",
       "expires": "2026-05-09T18:00:00-03:00"
     },
@@ -313,7 +430,7 @@
       "uf": "PA",
       "location": "São Domingos do Capim/PA",
       "headline": "Defesa Civil:S. DOMINGOS DO CAPIM:Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais.Evite areas alagadas e dirija com atencao",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-09T15:42:05-03:00",
       "expires": "2026-05-09T17:00:00-03:00"
     },
@@ -352,7 +469,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h18 - Chuva se espalhando pela regiao de Avare e Paranapanema. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-09T15:19:34-03:00",
       "expires": "2026-05-09T17:10:00-03:00"
     },
@@ -365,7 +482,7 @@
       "uf": "PA",
       "location": "Irituia/PA",
       "headline": "Defesa Civil:IRITUIA: Alerta ALTO de CHUVAS INTENSAS para as proximas horas. Risco de  Alagamentos e vendavais. evite areas alagadas e dirija com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-09T15:10:40-03:00",
       "expires": "2026-05-09T17:00:00-03:00"
     },
@@ -378,7 +495,7 @@
       "uf": "PA",
       "location": "Vigia/PA",
       "headline": "Defesa Civil:VIGIA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. evite areas alagadas e dirija com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-09T14:58:15-03:00",
       "expires": "2026-05-09T17:00:00-03:00"
     },
@@ -391,7 +508,7 @@
       "uf": "PA",
       "location": "São Miguel do Guamá/PA",
       "headline": "Defesa Civil:SAO MIGUEL DO GUAMA:Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais. evite areas alagadas e dirija com atencao",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-09T14:54:00-03:00",
       "expires": "2026-05-09T17:00:00-03:00"
     },
@@ -404,7 +521,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h43 - Chuva forte em Tupa e Pompeia. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-09T14:44:45-03:00",
       "expires": "2026-05-09T16:40:00-03:00"
     },
@@ -430,7 +547,7 @@
       "uf": "PA",
       "location": "Nova Esperança do Piriá/PA",
       "headline": "Defesa Civil:NOVA ESPER. DO PIRIA:Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais.evite areas alagadas e dirija com atencao",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-09T14:27:07-03:00",
       "expires": "2026-05-09T17:00:00-03:00"
     },
@@ -443,7 +560,7 @@
       "uf": "PA",
       "location": "Capitão Poço/PA",
       "headline": "Defesa Civil:CAPITAO POCO: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. evite areas alagadas e dirija com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-09T14:16:55-03:00",
       "expires": "2026-05-09T17:00:00-03:00"
     },
@@ -456,7 +573,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:NORDESTE PARAENSE: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. evite areas alagadas e dirija com atencao",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-09T14:11:27-03:00",
       "expires": "2026-05-09T17:00:00-03:00"
     },
@@ -469,7 +586,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h56 - Chuva persistente entre a regiao de Ourinhos e Apiai. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-09T13:57:34-03:00",
       "expires": "2026-05-09T16:50:00-03:00"
     },
@@ -573,7 +690,7 @@
       "uf": "RJ",
       "location": "Niterói/RJ",
       "headline": "Defesa Civil:Niteroi: Alerta de baixa umidade relativa do ar para este sabado (09/05). Consuma bastante agua e evite exposicao ao sol. Emergencia, 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-09T10:29:12-03:00",
       "expires": "2026-05-09T18:00:00-03:00"
     },
@@ -1005,89 +1122,24 @@
       "status": "expirado",
       "onset": "2026-05-08T18:10:56-03:00",
       "expires": "2026-05-08T21:10:00-03:00"
-    },
-    {
-      "date": "08/05/2026",
-      "time": "18:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Friagem",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Observação Meteorológica SDC/SC 08/05 11:00 ¿ Declínio acentuado e frio intenso de temperatura e frio intenso entre sexta-feira (08) e sábado (09). Em caso de emergência, ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-05-08T18:00:00-03:00",
-      "expires": "2026-05-09T18:00:00-03:00"
-    },
-    {
-      "date": "08/05/2026",
-      "time": "17:55",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "PA",
-      "location": "Moju/PA, Igarapé-Miri/PA",
-      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "expirado",
-      "onset": "2026-05-08T17:55:50-03:00",
-      "expires": "2026-05-08T22:00:00-03:00"
-    },
-    {
-      "date": "08/05/2026",
-      "time": "17:46",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:17h45 - Chuva se espalhando pela regiao de Presidente Epatacio e Presidente Venceslau. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado!",
-      "status": "expirado",
-      "onset": "2026-05-08T17:46:13-03:00",
-      "expires": "2026-05-08T19:45:00-03:00"
-    },
-    {
-      "date": "08/05/2026",
-      "time": "17:39",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:17h35 - Chuva se espalhando pela regiao de Apai e Ribeirao Branco. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-08T17:39:18-03:00",
-      "expires": "2026-05-08T19:40:00-03:00"
-    },
-    {
-      "date": "08/05/2026",
-      "time": "17:33",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:17h30 - Chuva se espalhando pela regiao de Cajati e Barra do Turvo. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-08T17:33:59-03:00",
-      "expires": "2026-05-08T19:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 65,
+    "total_alerts": 69,
     "by_nivel": {
-      "Médio": 32,
-      "Alto": 31,
-      "Severo": 2
+      "Alto": 34,
+      "Médio": 31,
+      "Severo": 4
     },
     "by_channel_list": {
-      "Google": 65
+      "Google": 69
     },
     "by_region": {
-      "S": 23,
-      "N": 17,
-      "SE": 15,
+      "S": 25,
+      "N": 20,
+      "SE": 13,
       "NE": 8,
-      "CO": 2
+      "CO": 3
     }
   }
 }
