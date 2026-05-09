@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-09T00:59:49.410901-03:00",
-  "source_run_dir": "run_20260509_005927",
+  "generated_at": "2026-05-09T03:29:52.835222-03:00",
+  "source_run_dir": "run_20260509_032935",
   "cards": {
-    "vigentes": 28,
-    "ultimas24h": 86,
+    "vigentes": 27,
+    "ultimas24h": 81,
     "autoridadesAtivas": 26,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "02:55",
+      "date": "09/05/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:02h55 - Chuva persistente na regiao de Paraguacu Paulista. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente"
+    },
+    {
+      "time": "02:51",
+      "date": "09/05/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:02h50  Chuva aproximando-se de Teodoro Sampaio e Euclides da Cunha. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente"
+    },
     {
       "time": "00:00",
       "date": "09/05/2026",
@@ -43,42 +67,18 @@
       "uf": "RJ",
       "headline": "Defesa Civil: Nova Iguacu: ESTAGIO Vigilancia. Rajadas de vento moderado/forte entre  a madrugada e inicio da tarde de sabado(09). Emergencia:199.",
       "status": "vigente"
-    },
-    {
-      "time": "23:52",
-      "date": "08/05/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:ATENCAO - 08/05 23:48 - CHUVA PERSISTENTE de intensidade pontualmente forte com ALAGAMENTOS e RAJADAS nas proximas 3 horas. Ocorrencias 199/193",
-      "status": "vigente"
-    },
-    {
-      "time": "23:47",
-      "date": "08/05/2026",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "senderNameShort": "DC Blumenau (SC)",
-      "event": "Frentes Frias/Zonas De Convergência",
-      "nivel": "Médio",
-      "location": "Blumenau/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Chuva persistente fraca/moderada nas prox. 02h em Blumenau. Fique atento! Emerg 199/193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 19
+      "count": 17
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 16
+      "count": 11
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -86,13 +86,13 @@
       "count": 10
     },
     {
-      "name": "Defesa Civil Estadual de Pernambuco",
-      "short_name": "DC Pernambuco",
-      "count": 5
-    },
-    {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
+      "count": 7
+    },
+    {
+      "name": "Defesa Civil Estadual de Pernambuco",
+      "short_name": "DC Pernambuco",
       "count": 5
     },
     {
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 35
+      "count": 36
     },
     {
       "label": "Alto",
-      "count": 45
+      "count": 39
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 71
+      "count": 66
     },
     {
       "label": "Vendaval",
@@ -167,12 +167,12 @@
   ],
   "uf_distribution": [
     {
-      "uf": "SC",
-      "count": 21
+      "uf": "PR",
+      "count": 17
     },
     {
-      "uf": "PR",
-      "count": 19
+      "uf": "SC",
+      "count": 16
     },
     {
       "uf": "PA",
@@ -187,12 +187,12 @@
       "count": 8
     },
     {
-      "uf": "AM",
-      "count": 6
+      "uf": "SP",
+      "count": 7
     },
     {
-      "uf": "SP",
-      "count": 5
+      "uf": "AM",
+      "count": 6
     },
     {
       "uf": "PB",
@@ -218,14 +218,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 28
+      "count": 27
     },
     {
       "label": "expirado",
-      "count": 58
+      "count": 54
     }
   ],
   "all_alerts": [
+    {
+      "date": "09/05/2026",
+      "time": "02:55",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:02h55 - Chuva persistente na regiao de Paraguacu Paulista. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-05-09T02:55:55-03:00",
+      "expires": "2026-05-09T04:55:00-03:00"
+    },
+    {
+      "date": "09/05/2026",
+      "time": "02:51",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:02h50  Chuva aproximando-se de Teodoro Sampaio e Euclides da Cunha. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-05-09T02:51:46-03:00",
+      "expires": "2026-05-09T04:10:00-03:00"
+    },
     {
       "date": "09/05/2026",
       "time": "00:00",
@@ -274,7 +300,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 08/05 23:48 - CHUVA PERSISTENTE de intensidade pontualmente forte com ALAGAMENTOS e RAJADAS nas proximas 3 horas. Ocorrencias 199/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-08T23:52:24-03:00",
       "expires": "2026-05-09T02:50:00-03:00"
     },
@@ -287,7 +313,7 @@
       "uf": "SC",
       "location": "Blumenau/SC",
       "headline": "Defesa Civil:ALERTABLU-ATENCAO: Chuva persistente fraca/moderada nas prox. 02h em Blumenau. Fique atento! Emerg 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-08T23:47:58-03:00",
       "expires": "2026-05-09T01:45:00-03:00"
     },
@@ -339,7 +365,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 08/05 22:16 - CHUVA PERSISTENTE de intensidade moderada a forte com RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Planalto Norte, Litoral Norte, Baixo, Médio e Alto Vale do Itajaí nas próximas 5 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-08T22:20:25-03:00",
       "expires": "2026-05-09T03:20:00-03:00"
     },
@@ -1252,114 +1278,23 @@
       "status": "expirado",
       "onset": "2026-05-08T04:04:22-03:00",
       "expires": "2026-05-08T07:05:00-03:00"
-    },
-    {
-      "date": "08/05/2026",
-      "time": "02:37",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-08T02:37:41-03:00",
-      "expires": "2026-05-08T05:35:00-03:00"
-    },
-    {
-      "date": "08/05/2026",
-      "time": "02:27",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 08/05 02:25 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS na sua regiao nas proximas 3 horas. Ocorrencias ligue 199/193",
-      "status": "expirado",
-      "onset": "2026-05-08T02:27:35-03:00",
-      "expires": "2026-05-08T05:25:00-03:00"
-    },
-    {
-      "date": "08/05/2026",
-      "time": "02:23",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 08/05 02:21 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS na sua regiao nas proximas 3 horas. Ocorrencias ligue 199/193",
-      "status": "expirado",
-      "onset": "2026-05-08T02:23:19-03:00",
-      "expires": "2026-05-08T05:20:00-03:00"
-    },
-    {
-      "date": "08/05/2026",
-      "time": "02:09",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 08/05 02:07 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Meio-Oeste, Planalto Norte, Planalto Sul e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-08T02:09:49-03:00",
-      "expires": "2026-05-08T06:05:00-03:00"
-    },
-    {
-      "date": "08/05/2026",
-      "time": "01:47",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 08/05 01:45 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS na sua regiao nas proximas 3 horas. Ocorrencias ligue 199/193",
-      "status": "expirado",
-      "onset": "2026-05-08T01:47:31-03:00",
-      "expires": "2026-05-08T04:45:00-03:00"
-    },
-    {
-      "date": "08/05/2026",
-      "time": "01:42",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-08T01:42:08-03:00",
-      "expires": "2026-05-08T04:40:00-03:00"
-    },
-    {
-      "date": "08/05/2026",
-      "time": "01:32",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 08/05 01:30 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS na sua regiao nas proximas 3 horas. Ocorrencias ligue 199/193",
-      "status": "expirado",
-      "onset": "2026-05-08T01:32:33-03:00",
-      "expires": "2026-05-08T04:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 86,
+    "total_alerts": 81,
     "by_nivel": {
-      "Alto": 45,
-      "Médio": 35,
+      "Alto": 39,
+      "Médio": 36,
       "Severo": 6
     },
     "by_channel_list": {
-      "Google": 86
+      "Google": 81
     },
     "by_region": {
-      "S": 40,
+      "S": 33,
       "N": 17,
+      "SE": 16,
       "NE": 14,
-      "SE": 14,
       "CO": 1
     }
   }
