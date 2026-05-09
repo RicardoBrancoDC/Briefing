@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-09T06:45:49.924587-03:00",
-  "source_run_dir": "run_20260509_064534",
+  "generated_at": "2026-05-09T08:14:04.223010-03:00",
+  "source_run_dir": "run_20260509_081349",
   "cards": {
-    "vigentes": 26,
+    "vigentes": 25,
     "ultimas24h": 72,
     "autoridadesAtivas": 26,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "08:00",
+      "date": "09/05/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "07:36",
+      "date": "09/05/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "05:55",
       "date": "09/05/2026",
@@ -43,37 +67,13 @@
       "uf": "SP",
       "headline": "Defesa Civil:02h55 - Chuva persistente na regiao de Paraguacu Paulista. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
       "status": "expirado"
-    },
-    {
-      "time": "02:51",
-      "date": "09/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:02h50  Chuva aproximando-se de Teodoro Sampaio e Euclides da Cunha. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado"
-    },
-    {
-      "time": "00:00",
-      "date": "09/05/2026",
-      "senderName": "Defesa Civil de Ascurra (SC)",
-      "senderNameShort": "DC Ascurra (SC)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Ascurra/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:DEFESA CIVIL ASCURRA:  Alerta de CHUVAS INTENSAS  entre Sabado (09) e Domingo (10) . Risco de alagamentos, enxurradas, raios e ventos fortes.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -96,11 +96,6 @@
       "count": 4
     },
     {
-      "name": "Defesa Civil Estadual de Pernambuco",
-      "short_name": "DC Pernambuco",
-      "count": 3
-    },
-    {
       "name": "Defesa Civil de Ascurra (SC)",
       "short_name": "DC Ascurra (SC)",
       "count": 2
@@ -116,6 +111,11 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil Estadual de Pernambuco",
+      "short_name": "DC Pernambuco",
+      "count": 2
+    },
+    {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
       "count": 2
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 31
+      "count": 29
     },
     {
       "label": "Alto",
-      "count": 35
+      "count": 37
     },
     {
       "label": "Severo",
@@ -168,7 +168,7 @@
   "uf_distribution": [
     {
       "uf": "PR",
-      "count": 15
+      "count": 16
     },
     {
       "uf": "SC",
@@ -187,12 +187,12 @@
       "count": 6
     },
     {
-      "uf": "PE",
+      "uf": "AM",
       "count": 6
     },
     {
-      "uf": "AM",
-      "count": 6
+      "uf": "PE",
+      "count": 5
     },
     {
       "uf": "PB",
@@ -218,14 +218,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 26
+      "count": 25
     },
     {
       "label": "expirado",
-      "count": 46
+      "count": 47
     }
   ],
   "all_alerts": [
+    {
+      "date": "09/05/2026",
+      "time": "08:00",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-09T08:00:44-03:00",
+      "expires": "2026-05-09T11:00:00-03:00"
+    },
+    {
+      "date": "09/05/2026",
+      "time": "07:36",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-09T07:36:38-03:00",
+      "expires": "2026-05-09T10:35:00-03:00"
+    },
     {
       "date": "09/05/2026",
       "time": "05:55",
@@ -1106,7 +1132,7 @@
       "uf": "PE",
       "location": "Ipojuca/PE",
       "headline": "Defesa Civil:Alerta para chuvas de moderada a forte nesta sexta 08/05 podendo se estender ate a manha de sabado.Duvidas:0800-281-0620/99231-8607.Plantao 24h",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-08T08:41:03-03:00",
       "expires": "2026-05-09T08:00:00-03:00"
     },
@@ -1132,52 +1158,26 @@
       "uf": "RJ",
       "location": "Mangaratiba/RJ",
       "headline": "Defesa Civil:MANGARATIBA/RJ - POSSIBILIDADE DE RAJADAS DE VENTO MODERADAS A FORTES PARA AS PROXIMAS 24 HORAS! EM CASO DE EMERGENCIA LIGUE: (21) 3030-2662/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-08T08:16:32-03:00",
       "expires": "2026-05-09T08:00:00-03:00"
-    },
-    {
-      "date": "08/05/2026",
-      "time": "06:49",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-05-08T06:49:42-03:00",
-      "expires": "2026-05-11T09:45:00-03:00"
-    },
-    {
-      "date": "08/05/2026",
-      "time": "06:49",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO-PE",
-      "headline": "Defesa Civil:PE: RMR - ALERTA de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se",
-      "status": "expirado",
-      "onset": "2026-05-08T06:49:00-03:00",
-      "expires": "2026-05-08T23:00:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 72,
     "by_nivel": {
-      "Alto": 35,
-      "Médio": 31,
+      "Alto": 37,
+      "Médio": 29,
       "Severo": 6
     },
     "by_channel_list": {
       "Google": 72
     },
     "by_region": {
-      "S": 27,
+      "S": 28,
       "N": 17,
       "SE": 15,
-      "NE": 12,
+      "NE": 11,
       "CO": 1
     }
   }
