@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-10T05:23:40.892099-03:00",
-  "source_run_dir": "run_20260510_052325",
+  "generated_at": "2026-05-10T08:16:07.425590-03:00",
+  "source_run_dir": "run_20260510_081553",
   "cards": {
-    "vigentes": 14,
-    "ultimas24h": 75,
+    "vigentes": 16,
+    "ultimas24h": 72,
     "autoridadesAtivas": 14,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "05:56",
+      "date": "10/05/2026",
+      "senderName": "Defesa Civil Estadual de Alagoas",
+      "senderNameShort": "DC Alagoas",
+      "event": "Inundações",
+      "nivel": "Severo",
+      "location": "Porto Calvo/AL",
+      "uf": "AL",
+      "headline": "Defesa Civil: ALERTA DE TRANSBORDAMENTO DO RIO MANGUAGA EM PORTO CALVO. SAIA DE SUA CASA e procure um local seguro. Emergencia  193.",
+      "status": "vigente"
+    },
+    {
+      "time": "05:51",
+      "date": "10/05/2026",
+      "senderName": "Defesa Civil Estadual de Alagoas",
+      "senderNameShort": "DC Alagoas",
+      "event": "Inundações",
+      "nivel": "Severo",
+      "location": "Flexeiras/AL",
+      "uf": "AL",
+      "headline": "Defesa Civil: ALERTA DE TRANSBORDAMENTO DO RIO JITITUBA EM FLEXEIRAS. SAIA DE SUA CASA e procure um para local seguro. Emergencia  193.",
+      "status": "vigente"
+    },
     {
       "time": "01:36",
       "date": "10/05/2026",
@@ -43,30 +67,6 @@
       "uf": "PE",
       "headline": "Defesa Civil:PE: ALERTA de inundacao em TAMANDARE. Moradores de areas de risco preparar para sair do local. Emergencia ligue 193 ou 199.",
       "status": "vigente"
-    },
-    {
-      "time": "00:14",
-      "date": "10/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:00h14 Chuva na regiao de Salto de Pirapora e Arocaiaba da Serra. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado"
-    },
-    {
-      "time": "00:09",
-      "date": "10/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:00h08 Chuva na regiao de Piedade. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -83,22 +83,22 @@
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 14
+      "count": 10
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 8
+      "count": 7
+    },
+    {
+      "name": "Defesa Civil Estadual de Alagoas",
+      "short_name": "DC Alagoas",
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual de Pernambuco",
       "short_name": "DC Pernambuco",
       "count": 5
-    },
-    {
-      "name": "Defesa Civil Estadual de Alagoas",
-      "short_name": "DC Alagoas",
-      "count": 3
     },
     {
       "name": "Defesa Civil Estadual de Mato Grosso",
@@ -124,25 +124,29 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 36
+      "count": 34
     },
     {
       "label": "Alto",
-      "count": 33
+      "count": 30
     },
     {
       "label": "Severo",
-      "count": 6
+      "count": 8
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 59
+      "count": 55
     },
     {
       "label": "Alagamentos",
-      "count": 5
+      "count": 4
+    },
+    {
+      "label": "Inundações",
+      "count": 3
     },
     {
       "label": "Deslizamentos",
@@ -151,10 +155,6 @@
     {
       "label": "Marés De Tempestade (Ressacas)",
       "count": 3
-    },
-    {
-      "label": "Inundações",
-      "count": 1
     },
     {
       "label": "Frentes Frias/Zonas De Convergência",
@@ -176,19 +176,19 @@
     },
     {
       "uf": "PR",
-      "count": 14
+      "count": 10
     },
     {
       "uf": "SC",
-      "count": 9
+      "count": 8
+    },
+    {
+      "uf": "AL",
+      "count": 6
     },
     {
       "uf": "PE",
       "count": 5
-    },
-    {
-      "uf": "AL",
-      "count": 4
     },
     {
       "uf": "RJ",
@@ -210,14 +210,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 14
+      "count": 16
     },
     {
       "label": "expirado",
-      "count": 61
+      "count": 56
     }
   ],
   "all_alerts": [
+    {
+      "date": "10/05/2026",
+      "time": "05:56",
+      "senderName": "Defesa Civil Estadual de Alagoas",
+      "event": "Inundações",
+      "nivel": "Severo",
+      "uf": "AL",
+      "location": "Porto Calvo/AL",
+      "headline": "Defesa Civil: ALERTA DE TRANSBORDAMENTO DO RIO MANGUAGA EM PORTO CALVO. SAIA DE SUA CASA e procure um local seguro. Emergencia  193.",
+      "status": "vigente",
+      "onset": "2026-05-10T05:56:30-03:00",
+      "expires": "2026-05-10T23:59:00-03:00"
+    },
+    {
+      "date": "10/05/2026",
+      "time": "05:51",
+      "senderName": "Defesa Civil Estadual de Alagoas",
+      "event": "Inundações",
+      "nivel": "Severo",
+      "uf": "AL",
+      "location": "Flexeiras/AL",
+      "headline": "Defesa Civil: ALERTA DE TRANSBORDAMENTO DO RIO JITITUBA EM FLEXEIRAS. SAIA DE SUA CASA e procure um para local seguro. Emergencia  193.",
+      "status": "vigente",
+      "onset": "2026-05-10T05:51:31-03:00",
+      "expires": "2026-05-10T23:59:00-03:00"
+    },
     {
       "date": "10/05/2026",
       "time": "01:36",
@@ -1127,88 +1153,23 @@
       "status": "expirado",
       "onset": "2026-05-09T08:22:15-03:00",
       "expires": "2026-05-09T11:20:00-03:00"
-    },
-    {
-      "date": "09/05/2026",
-      "time": "08:15",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "Cândido de Abreu/PR, Telêmaco Borba/PR",
-      "headline": "Defesa Civil:Alerta de Alagamentos. Monitore. Em caso de perigo, deixe o local imediatamente. Ligue 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-09T08:15:27-03:00",
-      "expires": "2026-05-09T14:00:00-03:00"
-    },
-    {
-      "date": "09/05/2026",
-      "time": "08:00",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-09T08:00:44-03:00",
-      "expires": "2026-05-09T11:00:00-03:00"
-    },
-    {
-      "date": "09/05/2026",
-      "time": "07:36",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-09T07:36:38-03:00",
-      "expires": "2026-05-09T10:35:00-03:00"
-    },
-    {
-      "date": "09/05/2026",
-      "time": "05:55",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR AVISO DE TEMPO: Tempestades irregulares e chuva forte a partir da madrugada de sab 09/05. Mantenha-se atento. Ocorrencias, 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-09T05:55:10-03:00",
-      "expires": "2026-05-09T23:00:00-03:00"
-    },
-    {
-      "date": "09/05/2026",
-      "time": "05:46",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 09/05 05:43 - CHUVA PERSISTENTE de intensidade moderada com RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Meio-Oeste, Planalto Norte, Litoral Norte, Médio e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-09T05:46:07-03:00",
-      "expires": "2026-05-09T09:45:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 75,
+    "total_alerts": 72,
     "by_nivel": {
-      "Médio": 36,
-      "Alto": 33,
-      "Severo": 6
+      "Médio": 34,
+      "Alto": 30,
+      "Severo": 8
     },
     "by_channel_list": {
-      "Google": 75
+      "Google": 72
     },
     "by_region": {
-      "S": 23,
       "N": 20,
       "SE": 20,
-      "NE": 9,
+      "S": 18,
+      "NE": 11,
       "CO": 3
     }
   }
