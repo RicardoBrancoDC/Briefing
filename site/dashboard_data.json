@@ -1,15 +1,51 @@
 {
-  "generated_at": "2026-05-10T18:09:00.483300-03:00",
-  "source_run_dir": "run_20260510_180830",
+  "generated_at": "2026-05-10T20:12:29.920500-03:00",
+  "source_run_dir": "run_20260510_201145",
   "cards": {
-    "vigentes": 23,
-    "ultimas24h": 48,
+    "vigentes": 25,
+    "ultimas24h": 45,
     "autoridadesAtivas": 18,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "17:57",
+      "time": "19:34",
+      "date": "10/05/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:19h30 Chuva moderada e isolada na regiao de Cunha e Bananal. Tem ventos. Tenha cuidado nas proximas horas.",
+      "status": "vigente"
+    },
+    {
+      "time": "19:31",
+      "date": "10/05/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:19h30 Chuva persistente na regiao de Ubatuba. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente"
+    },
+    {
+      "time": "19:29",
+      "date": "10/05/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:19h30 Chuva persistente a regiao de Bertioga e Sao Sebastiao. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente"
+    },
+    {
+      "time": "18:22",
       "date": "10/05/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
@@ -21,51 +57,15 @@
       "status": "vigente"
     },
     {
-      "time": "16:42",
+      "time": "17:57",
       "date": "10/05/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
       "event": "Chuvas Intensas",
       "nivel": "Médio",
-      "location": "Guajará/AM, Lábrea/AM",
+      "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "16:22",
-      "date": "10/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:16h20 Chuva moderada e isolada na regiao de Braganca Paulista. Tem ventos. Tenha cuidado nas proximas horas.",
-      "status": "expirado"
-    },
-    {
-      "time": "15:31",
-      "date": "10/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Alagamentos",
-      "nivel": "Severo",
-      "location": "PARÁ/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:ALERTA para ALAGAMENTOS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil. Emergencia, ligue 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:31",
-      "date": "10/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:15h30 Chuva moderada e isolada na regiao de Mongagua e Itanhaem. Tem ventos. Tenha cuidado nas proximas horas.",
       "status": "expirado"
     }
   ],
@@ -73,12 +73,12 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 15
+      "count": 14
     },
     {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
-      "count": 5
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -91,8 +91,8 @@
       "count": 4
     },
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
       "count": 3
     },
     {
@@ -106,11 +106,6 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil de Rio Bonito (RJ)",
       "short_name": "DC Rio Bonito (RJ)",
       "count": 1
@@ -118,6 +113,11 @@
     {
       "name": "Defesa Civil de Nova Iguaçu (RJ)",
       "short_name": "DC Nova Iguaçu (RJ)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Angra dos Reis (RJ)",
+      "short_name": "DC Angra dos Reis (RJ)",
       "count": 1
     }
   ],
@@ -128,7 +128,7 @@
     },
     {
       "label": "Alto",
-      "count": 15
+      "count": 12
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 28
+      "count": 26
     },
     {
       "label": "Vendaval",
@@ -146,7 +146,7 @@
     },
     {
       "label": "Alagamentos",
-      "count": 4
+      "count": 3
     },
     {
       "label": "Inundações",
@@ -168,35 +168,31 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 15
+      "count": 14
     },
     {
       "uf": "RJ",
       "count": 8
     },
     {
-      "uf": "PA",
+      "uf": "SC",
       "count": 5
     },
     {
-      "uf": "SC",
-      "count": 5
+      "uf": "AM",
+      "count": 4
     },
     {
       "uf": "AL",
       "count": 4
     },
     {
-      "uf": "AM",
+      "uf": "PA",
       "count": 3
     },
     {
       "uf": "PE",
       "count": 3
-    },
-    {
-      "uf": "PR",
-      "count": 2
     },
     {
       "uf": "MT",
@@ -209,19 +205,75 @@
     {
       "uf": "MA",
       "count": 1
+    },
+    {
+      "uf": "PR",
+      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 23
+      "count": 25
     },
     {
       "label": "expirado",
-      "count": 25
+      "count": 20
     }
   ],
   "all_alerts": [
+    {
+      "date": "10/05/2026",
+      "time": "19:34",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:19h30 Chuva moderada e isolada na regiao de Cunha e Bananal. Tem ventos. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-05-10T19:34:05-03:00",
+      "expires": "2026-05-10T21:00:00-03:00"
+    },
+    {
+      "date": "10/05/2026",
+      "time": "19:31",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:19h30 Chuva persistente na regiao de Ubatuba. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-05-10T19:31:47-03:00",
+      "expires": "2026-05-10T21:00:00-03:00"
+    },
+    {
+      "date": "10/05/2026",
+      "time": "19:29",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:19h30 Chuva persistente a regiao de Bertioga e Sao Sebastiao. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-05-10T19:29:29-03:00",
+      "expires": "2026-05-10T21:00:00-03:00"
+    },
+    {
+      "date": "10/05/2026",
+      "time": "18:22",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-10T18:22:38-03:00",
+      "expires": "2026-05-10T20:30:00-03:00"
+    },
     {
       "date": "10/05/2026",
       "time": "17:57",
@@ -231,7 +283,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-10T17:57:11-03:00",
       "expires": "2026-05-10T20:00:00-03:00"
     },
@@ -244,7 +296,7 @@
       "uf": "AM",
       "location": "Guajará/AM, Lábrea/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-10T16:42:42-03:00",
       "expires": "2026-05-10T19:00:00-03:00"
     },
@@ -754,114 +806,23 @@
       "status": "expirado",
       "onset": "2026-05-09T20:21:03-03:00",
       "expires": "2026-05-09T22:30:00-03:00"
-    },
-    {
-      "date": "09/05/2026",
-      "time": "20:05",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:20h05 - Chuva isolada em Sao Sebastiao. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-09T20:05:00-03:00",
-      "expires": "2026-05-09T22:10:00-03:00"
-    },
-    {
-      "date": "09/05/2026",
-      "time": "19:58",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:19h58 - Chuva isolada em Guararapes. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-09T19:58:38-03:00",
-      "expires": "2026-05-09T21:55:00-03:00"
-    },
-    {
-      "date": "09/05/2026",
-      "time": "19:28",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "Maringá/PR, Florestópolis/PR",
-      "headline": "Defesa Civil:Risco de Alagamentos. Monitore. Em caso de perigo, deixe o local imediatamente. Ligue 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-09T19:28:31-03:00",
-      "expires": "2026-05-09T23:25:00-03:00"
-    },
-    {
-      "date": "09/05/2026",
-      "time": "19:14",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:19h13 - Chuva persistente na regiao de Ourinhos. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-09T19:14:21-03:00",
-      "expires": "2026-05-09T21:10:00-03:00"
-    },
-    {
-      "date": "09/05/2026",
-      "time": "18:58",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Mocajuba/PA",
-      "headline": "Defesa Civil:MOCAJUA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-09T18:58:49-03:00",
-      "expires": "2026-05-09T21:00:00-03:00"
-    },
-    {
-      "date": "09/05/2026",
-      "time": "18:57",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Cametá/PA",
-      "headline": "Defesa Civil:CAMETA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-09T18:57:35-03:00",
-      "expires": "2026-05-09T21:00:00-03:00"
-    },
-    {
-      "date": "09/05/2026",
-      "time": "18:16",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:18h14 - Chuva se espalhando pela regiao de Marilia e Assis. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-09T18:16:16-03:00",
-      "expires": "2026-05-09T20:10:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 48,
+    "total_alerts": 45,
     "by_nivel": {
       "Médio": 26,
-      "Alto": 15,
+      "Alto": 12,
       "Severo": 7
     },
     "by_channel_list": {
-      "Google": 48
+      "Google": 45
     },
     "by_region": {
-      "SE": 23,
+      "SE": 22,
       "NE": 9,
-      "N": 8,
-      "S": 7,
+      "N": 7,
+      "S": 6,
       "CO": 1
     }
   }
