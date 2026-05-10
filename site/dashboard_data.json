@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-10T01:19:08.757097-03:00",
-  "source_run_dir": "run_20260510_011848",
+  "generated_at": "2026-05-10T05:23:40.892099-03:00",
+  "source_run_dir": "run_20260510_052325",
   "cards": {
-    "vigentes": 16,
-    "ultimas24h": 76,
+    "vigentes": 14,
+    "ultimas24h": 75,
     "autoridadesAtivas": 14,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "01:36",
+      "date": "10/05/2026",
+      "senderName": "Defesa Civil Estadual de Pernambuco",
+      "senderNameShort": "DC Pernambuco",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PERNAMBUCO/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:PE: MATA SUL. ALERTA de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193 ou 199.",
+      "status": "vigente"
+    },
     {
       "time": "01:09",
       "date": "10/05/2026",
@@ -42,7 +54,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:00h14 Chuva na regiao de Salto de Pirapora e Arocaiaba da Serra. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "00:09",
@@ -54,31 +66,19 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:00h08 Chuva na regiao de Piedade. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente"
-    },
-    {
-      "time": "00:00",
-      "date": "10/05/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Alto",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:Atencao Maritima SDC/SC 08/05 - Mar agitado e ressaca entre domingo (10) e a segunda-feira (11). Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 19
-    },
-    {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
       "count": 18
+    },
+    {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 17
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
@@ -93,7 +93,7 @@
     {
       "name": "Defesa Civil Estadual de Pernambuco",
       "short_name": "DC Pernambuco",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual de Alagoas",
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 38
+      "count": 36
     },
     {
       "label": "Alto",
-      "count": 32
+      "count": 33
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 60
+      "count": 59
     },
     {
       "label": "Alagamentos",
@@ -167,12 +167,12 @@
   ],
   "uf_distribution": [
     {
-      "uf": "SP",
+      "uf": "PA",
       "count": 19
     },
     {
-      "uf": "PA",
-      "count": 19
+      "uf": "SP",
+      "count": 17
     },
     {
       "uf": "PR",
@@ -184,7 +184,7 @@
     },
     {
       "uf": "PE",
-      "count": 4
+      "count": 5
     },
     {
       "uf": "AL",
@@ -210,14 +210,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 16
+      "count": 14
     },
     {
       "label": "expirado",
-      "count": 60
+      "count": 61
     }
   ],
   "all_alerts": [
+    {
+      "date": "10/05/2026",
+      "time": "01:36",
+      "senderName": "Defesa Civil Estadual de Pernambuco",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PE",
+      "location": "PERNAMBUCO/PE",
+      "headline": "Defesa Civil:PE: MATA SUL. ALERTA de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193 ou 199.",
+      "status": "vigente",
+      "onset": "2026-05-10T01:36:41-03:00",
+      "expires": "2026-05-10T10:00:00-03:00"
+    },
     {
       "date": "10/05/2026",
       "time": "01:09",
@@ -253,7 +266,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:00h14 Chuva na regiao de Salto de Pirapora e Arocaiaba da Serra. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-10T00:14:06-03:00",
       "expires": "2026-05-10T02:15:00-03:00"
     },
@@ -266,7 +279,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:00h08 Chuva na regiao de Piedade. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-10T00:09:01-03:00",
       "expires": "2026-05-10T02:10:00-03:00"
     },
@@ -409,7 +422,7 @@
       "uf": "PR",
       "location": "Apucarana/PR",
       "headline": "Defesa Civil:Risco de Alagamentos em Apucarana e mun. vizinhos.Monitore. Em caso de perigo, deixe o local imediatamente. Ligue 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-09T20:34:37-03:00",
       "expires": "2026-05-10T02:30:00-03:00"
     },
@@ -1179,49 +1192,23 @@
       "status": "expirado",
       "onset": "2026-05-09T05:46:07-03:00",
       "expires": "2026-05-09T09:45:00-03:00"
-    },
-    {
-      "date": "09/05/2026",
-      "time": "02:55",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:02h55 - Chuva persistente na regiao de Paraguacu Paulista. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-09T02:55:55-03:00",
-      "expires": "2026-05-09T04:55:00-03:00"
-    },
-    {
-      "date": "09/05/2026",
-      "time": "02:51",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:02h50  Chuva aproximando-se de Teodoro Sampaio e Euclides da Cunha. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-09T02:51:46-03:00",
-      "expires": "2026-05-09T04:10:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 76,
+    "total_alerts": 75,
     "by_nivel": {
-      "Médio": 38,
-      "Alto": 32,
+      "Médio": 36,
+      "Alto": 33,
       "Severo": 6
     },
     "by_channel_list": {
-      "Google": 76
+      "Google": 75
     },
     "by_region": {
       "S": 23,
-      "SE": 22,
       "N": 20,
-      "NE": 8,
+      "SE": 20,
+      "NE": 9,
       "CO": 3
     }
   }
