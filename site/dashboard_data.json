@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-05-11T17:06:18.699966-03:00",
-  "source_run_dir": "run_20260511_170600",
+  "generated_at": "2026-05-11T18:44:18.280009-03:00",
+  "source_run_dir": "run_20260511_184352",
   "cards": {
-    "vigentes": 14,
-    "ultimas24h": 27,
-    "autoridadesAtivas": 10,
+    "vigentes": 12,
+    "ultimas24h": 28,
+    "autoridadesAtivas": 12,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "18:38",
+      "date": "11/05/2026",
+      "senderName": "Defesa Civil de Ipojuca (PE)",
+      "senderNameShort": "DC Ipojuca (PE)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Ipojuca/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:ALERTA de chuvas com intensidade moderada a fortes, moradores em areas de risco devem ficar atentos.Duvidas:0800-281-0620/99231-8607.Plantao 24h",
+      "status": "vigente"
+    },
+    {
+      "time": "18:32",
+      "date": "11/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Beruri/AM, Codajás/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "18:00",
+      "date": "11/05/2026",
+      "senderName": "Defesa Civil de Cabedelo (PB)",
+      "senderNameShort": "DC Cabedelo (PB)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Cabedelo/PB",
+      "uf": "PB",
+      "headline": "Defesa Civil:A Defesa Civil alerta para a possibilidade de chuvas moderadas a intensas em cabedelo nas proximas horas,  em caso de emergencia disque 199.",
+      "status": "vigente"
+    },
     {
       "time": "17:03",
       "date": "11/05/2026",
@@ -31,49 +67,13 @@
       "uf": "PA",
       "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.Emergencia, ligue 193.",
       "status": "vigente"
-    },
-    {
-      "time": "16:19",
-      "date": "11/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Alagamentos",
-      "nivel": "Severo",
-      "location": "PARÁ/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.Emergencia, ligue 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:41",
-      "date": "11/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Careiro/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "14:32",
-      "date": "11/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Manacapuru/AM, Manaquiri/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -89,6 +89,16 @@
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil de Ipojuca (PE)",
+      "short_name": "DC Ipojuca (PE)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Cabedelo (PB)",
+      "short_name": "DC Cabedelo (PB)",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
@@ -109,16 +119,6 @@
       "name": "Defesa Civil de Niterói (RJ)",
       "short_name": "DC Niterói (RJ)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Belo Horizonte (MG)",
-      "short_name": "DC Belo Horizonte (MG)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -128,11 +128,11 @@
     },
     {
       "label": "Médio",
-      "count": 11
+      "count": 10
     },
     {
       "label": "Alto",
-      "count": 11
+      "count": 13
     },
     {
       "label": "Severo",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 16
+      "count": 17
     },
     {
       "label": "Alagamentos",
@@ -168,7 +168,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 14
+      "count": 13
     },
     {
       "uf": "PA",
@@ -179,15 +179,19 @@
       "count": 3
     },
     {
+      "uf": "PB",
+      "count": 2
+    },
+    {
       "uf": "RJ",
       "count": 2
     },
     {
-      "uf": "PI",
+      "uf": "PE",
       "count": 1
     },
     {
-      "uf": "PB",
+      "uf": "PI",
       "count": 1
     },
     {
@@ -202,14 +206,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 14
+      "count": 12
     },
     {
       "label": "expirado",
-      "count": 13
+      "count": 16
     }
   ],
   "all_alerts": [
+    {
+      "date": "11/05/2026",
+      "time": "18:38",
+      "senderName": "Defesa Civil de Ipojuca (PE)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PE",
+      "location": "Ipojuca/PE",
+      "headline": "Defesa Civil:ALERTA de chuvas com intensidade moderada a fortes, moradores em areas de risco devem ficar atentos.Duvidas:0800-281-0620/99231-8607.Plantao 24h",
+      "status": "vigente",
+      "onset": "2026-05-11T18:38:04-03:00",
+      "expires": "2026-05-12T08:00:00-03:00"
+    },
+    {
+      "date": "11/05/2026",
+      "time": "18:32",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Beruri/AM, Codajás/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-11T18:32:45-03:00",
+      "expires": "2026-05-11T21:30:00-03:00"
+    },
+    {
+      "date": "11/05/2026",
+      "time": "18:00",
+      "senderName": "Defesa Civil de Cabedelo (PB)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PB",
+      "location": "Cabedelo/PB",
+      "headline": "Defesa Civil:A Defesa Civil alerta para a possibilidade de chuvas moderadas a intensas em cabedelo nas proximas horas,  em caso de emergencia disque 199.",
+      "status": "vigente",
+      "onset": "2026-05-11T18:00:00-03:00",
+      "expires": "2026-05-12T23:59:00-03:00"
+    },
     {
       "date": "11/05/2026",
       "time": "17:03",
@@ -245,7 +288,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.Emergencia, ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-11T16:19:14-03:00",
       "expires": "2026-05-11T18:00:00-03:00"
     },
@@ -258,7 +301,7 @@
       "uf": "AM",
       "location": "Careiro/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-11T15:41:10-03:00",
       "expires": "2026-05-11T18:30:00-03:00"
     },
@@ -271,7 +314,7 @@
       "uf": "AM",
       "location": "Manacapuru/AM, Manaquiri/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-11T14:32:48-03:00",
       "expires": "2026-05-11T17:30:00-03:00"
     },
@@ -375,7 +418,7 @@
       "uf": "RJ",
       "location": "Niterói/RJ",
       "headline": "Defesa Civil:Niteroi: Mudanca do Risco de Fogo em Vegetacao para BAIXO as 11h15min desta segunda-feira (11/05). Em caso de emergencia, ligue 199",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-11T11:29:49-03:00",
       "expires": "2026-05-11T18:00:00-03:00"
     },
@@ -427,7 +470,7 @@
       "uf": "AM",
       "location": "Japurá/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-11T08:19:47-03:00",
       "expires": "2026-05-11T18:00:00-03:00"
     },
@@ -534,49 +577,23 @@
       "status": "expirado",
       "onset": "2026-05-10T19:29:29-03:00",
       "expires": "2026-05-10T21:00:00-03:00"
-    },
-    {
-      "date": "10/05/2026",
-      "time": "18:22",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-10T18:22:38-03:00",
-      "expires": "2026-05-10T20:30:00-03:00"
-    },
-    {
-      "date": "10/05/2026",
-      "time": "17:57",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-10T17:57:11-03:00",
-      "expires": "2026-05-10T20:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 27,
+    "total_alerts": 28,
     "by_nivel": {
-      "Alto": 11,
-      "Médio": 11,
+      "Alto": 13,
+      "Médio": 10,
       "Severo": 4,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 27
+      "Google": 28
     },
     "by_region": {
-      "N": 18,
+      "N": 17,
       "SE": 6,
-      "NE": 2,
+      "NE": 4,
       "S": 1
     }
   }
