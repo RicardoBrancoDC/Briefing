@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-05-11T15:44:01.852093-03:00",
-  "source_run_dir": "run_20260511_154338",
+  "generated_at": "2026-05-11T17:06:18.699966-03:00",
+  "source_run_dir": "run_20260511_170600",
   "cards": {
-    "vigentes": 13,
-    "ultimas24h": 26,
+    "vigentes": 14,
+    "ultimas24h": 27,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "17:03",
+      "date": "11/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Alagamentos",
+      "nivel": "Severo",
+      "location": "São Domingos do Capim/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:ALERTA para ALAGAMENTOS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil. Emergencia, ligue 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "16:38",
+      "date": "11/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Cachoeira do Arari/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.Emergencia, ligue 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "16:19",
+      "date": "11/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Alagamentos",
+      "nivel": "Severo",
+      "location": "PARÁ/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.Emergencia, ligue 193.",
+      "status": "vigente"
+    },
     {
       "time": "15:41",
       "date": "11/05/2026",
@@ -31,54 +67,23 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
       "status": "vigente"
-    },
-    {
-      "time": "14:09",
-      "date": "11/05/2026",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "senderNameShort": "DC Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PIAUÍ/PI",
-      "uf": "PI",
-      "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS. Evitar transitar por areas com riscos de alagamentos e enxurradas. Em caso de emergencia ligue 190 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "13:45",
-      "date": "11/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Severo",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento. Nao enfrente areas alagadas. Procure local seguro.  Em caso de emergencia ligue: 199/193.",
-      "status": "vigente"
-    },
-    {
-      "time": "13:28",
-      "date": "11/05/2026",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "senderNameShort": "DC Manaus (AM)",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 13
+      "count": 12
+    },
+    {
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
@@ -111,11 +116,6 @@
       "count": 1
     },
     {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
-      "count": 1
-    },
-    {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
       "count": 1
@@ -128,7 +128,7 @@
     },
     {
       "label": "Médio",
-      "count": 13
+      "count": 11
     },
     {
       "label": "Alto",
@@ -136,17 +136,17 @@
     },
     {
       "label": "Severo",
-      "count": 1
+      "count": 4
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 17
+      "count": 16
     },
     {
       "label": "Alagamentos",
-      "count": 4
+      "count": 6
     },
     {
       "label": "Solo/Lama",
@@ -168,11 +168,15 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 15
+      "count": 14
+    },
+    {
+      "uf": "PA",
+      "count": 4
     },
     {
       "uf": "SP",
-      "count": 4
+      "count": 3
     },
     {
       "uf": "RJ",
@@ -191,10 +195,6 @@
       "count": 1
     },
     {
-      "uf": "PA",
-      "count": 1
-    },
-    {
       "uf": "SC",
       "count": 1
     }
@@ -202,7 +202,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 13
+      "count": 14
     },
     {
       "label": "expirado",
@@ -210,6 +210,45 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "11/05/2026",
+      "time": "17:03",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Alagamentos",
+      "nivel": "Severo",
+      "uf": "PA",
+      "location": "São Domingos do Capim/PA",
+      "headline": "Defesa Civil:ALERTA para ALAGAMENTOS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil. Emergencia, ligue 193.",
+      "status": "vigente",
+      "onset": "2026-05-11T17:03:51-03:00",
+      "expires": "2026-05-11T19:00:00-03:00"
+    },
+    {
+      "date": "11/05/2026",
+      "time": "16:38",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "PA",
+      "location": "Cachoeira do Arari/PA",
+      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.Emergencia, ligue 193.",
+      "status": "vigente",
+      "onset": "2026-05-11T16:38:39-03:00",
+      "expires": "2026-05-11T19:00:00-03:00"
+    },
+    {
+      "date": "11/05/2026",
+      "time": "16:19",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Alagamentos",
+      "nivel": "Severo",
+      "uf": "PA",
+      "location": "PARÁ/PA",
+      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.Emergencia, ligue 193.",
+      "status": "vigente",
+      "onset": "2026-05-11T16:19:14-03:00",
+      "expires": "2026-05-11T18:00:00-03:00"
+    },
     {
       "date": "11/05/2026",
       "time": "15:41",
@@ -258,7 +297,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento. Nao enfrente areas alagadas. Procure local seguro.  Em caso de emergencia ligue: 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-11T13:45:05-03:00",
       "expires": "2026-05-11T17:00:00-03:00"
     },
@@ -297,7 +336,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-11T12:25:10-03:00",
       "expires": "2026-05-11T16:00:00-03:00"
     },
@@ -521,48 +560,22 @@
       "status": "expirado",
       "onset": "2026-05-10T17:57:11-03:00",
       "expires": "2026-05-10T20:00:00-03:00"
-    },
-    {
-      "date": "10/05/2026",
-      "time": "16:42",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Guajará/AM, Lábrea/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-10T16:42:42-03:00",
-      "expires": "2026-05-10T19:00:00-03:00"
-    },
-    {
-      "date": "10/05/2026",
-      "time": "16:22",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:16h20 Chuva moderada e isolada na regiao de Braganca Paulista. Tem ventos. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-10T16:22:07-03:00",
-      "expires": "2026-05-10T17:25:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 26,
+    "total_alerts": 27,
     "by_nivel": {
-      "Médio": 13,
       "Alto": 11,
-      "Baixo": 1,
-      "Severo": 1
+      "Médio": 11,
+      "Severo": 4,
+      "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 26
+      "Google": 27
     },
     "by_region": {
-      "N": 16,
-      "SE": 7,
+      "N": 18,
+      "SE": 6,
       "NE": 2,
       "S": 1
     }
