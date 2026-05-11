@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-11T01:39:46.667504-03:00",
-  "source_run_dir": "run_20260511_013924",
+  "generated_at": "2026-05-11T07:01:53.161305-03:00",
+  "source_run_dir": "run_20260511_070134",
   "cards": {
-    "vigentes": 9,
-    "ultimas24h": 30,
-    "autoridadesAtivas": 15,
+    "vigentes": 5,
+    "ultimas24h": 29,
+    "autoridadesAtivas": 14,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "02:54",
+      "date": "11/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "expirado"
+    },
     {
       "time": "20:34",
       "date": "10/05/2026",
@@ -18,7 +30,7 @@
       "location": "Florianópolis/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 10/05 20:28 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Florianópolis. Pico previsto às 00:00 h. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "20:28",
@@ -55,18 +67,6 @@
       "uf": "SP",
       "headline": "Defesa Civil:19h30 Chuva persistente na regiao de Ubatuba. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
       "status": "expirado"
-    },
-    {
-      "time": "19:29",
-      "date": "10/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:19h30 Chuva persistente a regiao de Bertioga e Sao Sebastiao. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -93,11 +93,6 @@
     {
       "name": "Defesa Civil Estadual do Rio de Janeiro",
       "short_name": "DC Rio de Janeiro",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil Estadual de Alagoas",
-      "short_name": "DC Alagoas",
       "count": 2
     },
     {
@@ -119,12 +114,17 @@
       "name": "Defesa Civil de Niterói (RJ)",
       "short_name": "DC Niterói (RJ)",
       "count": 1
+    },
+    {
+      "name": "Defesa Civil de Duque de Caxias (RJ)",
+      "short_name": "DC Duque de Caxias (RJ)",
+      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 17
+      "count": 18
     },
     {
       "label": "Alto",
@@ -132,13 +132,13 @@
     },
     {
       "label": "Severo",
-      "count": 4
+      "count": 2
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 18
+      "count": 19
     },
     {
       "label": "Vendaval",
@@ -146,10 +146,6 @@
     },
     {
       "label": "Alagamentos",
-      "count": 2
-    },
-    {
-      "label": "Inundações",
       "count": 2
     },
     {
@@ -172,7 +168,7 @@
     },
     {
       "uf": "AM",
-      "count": 5
+      "count": 6
     },
     {
       "uf": "PA",
@@ -180,10 +176,6 @@
     },
     {
       "uf": "SC",
-      "count": 2
-    },
-    {
-      "uf": "AL",
       "count": 2
     },
     {
@@ -202,14 +194,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 9
+      "count": 5
     },
     {
       "label": "expirado",
-      "count": 21
+      "count": 24
     }
   ],
   "all_alerts": [
+    {
+      "date": "11/05/2026",
+      "time": "02:54",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-05-11T02:54:33-03:00",
+      "expires": "2026-05-11T06:45:00-03:00"
+    },
     {
       "date": "10/05/2026",
       "time": "20:34",
@@ -219,7 +224,7 @@
       "uf": "SC",
       "location": "Florianópolis/SC",
       "headline": "OBSERVAÇÃO - 10/05 20:28 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Florianópolis. Pico previsto às 00:00 h. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-10T20:34:09-03:00",
       "expires": "2026-05-11T05:30:00-03:00"
     },
@@ -388,7 +393,7 @@
       "uf": "RJ",
       "location": "Saquarema/RJ",
       "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje/amanha (10/05 - 11/05). Emergencia, ligue 193 ou 22 992115580.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-10T13:36:29-03:00",
       "expires": "2026-05-11T06:00:00-03:00"
     },
@@ -401,7 +406,7 @@
       "uf": "RJ",
       "location": "RIO DE JANEIRO/RJ",
       "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje/amanha (10/05 - 11/05). Emergencia, ligue 193 ou 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-10T13:31:46-03:00",
       "expires": "2026-05-11T06:00:00-03:00"
     },
@@ -414,7 +419,7 @@
       "uf": "RJ",
       "location": "Rio Bonito/RJ",
       "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje/amanha (10/05 - 11/05). Emergencia, ligue 193 ou 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-10T13:29:45-03:00",
       "expires": "2026-05-11T06:00:00-03:00"
     },
@@ -573,48 +578,22 @@
       "status": "expirado",
       "onset": "2026-05-10T09:28:00-03:00",
       "expires": "2026-05-10T12:00:00-03:00"
-    },
-    {
-      "date": "10/05/2026",
-      "time": "05:56",
-      "senderName": "Defesa Civil Estadual de Alagoas",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "AL",
-      "location": "Porto Calvo/AL",
-      "headline": "Defesa Civil: ALERTA DE TRANSBORDAMENTO DO RIO MANGUAGA EM PORTO CALVO. SAIA DE SUA CASA e procure um local seguro. Emergencia  193.",
-      "status": "expirado",
-      "onset": "2026-05-10T05:56:30-03:00",
-      "expires": "2026-05-10T23:59:00-03:00"
-    },
-    {
-      "date": "10/05/2026",
-      "time": "05:51",
-      "senderName": "Defesa Civil Estadual de Alagoas",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "AL",
-      "location": "Flexeiras/AL",
-      "headline": "Defesa Civil: ALERTA DE TRANSBORDAMENTO DO RIO JITITUBA EM FLEXEIRAS. SAIA DE SUA CASA e procure um para local seguro. Emergencia  193.",
-      "status": "expirado",
-      "onset": "2026-05-10T05:51:31-03:00",
-      "expires": "2026-05-10T23:59:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 30,
+    "total_alerts": 29,
     "by_nivel": {
-      "Médio": 17,
+      "Médio": 18,
       "Alto": 9,
-      "Severo": 4
+      "Severo": 2
     },
     "by_channel_list": {
-      "Google": 30
+      "Google": 29
     },
     "by_region": {
       "SE": 15,
-      "N": 8,
-      "NE": 4,
+      "N": 9,
+      "NE": 2,
       "S": 2,
       "CO": 1
     }
