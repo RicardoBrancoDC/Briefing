@@ -1,19 +1,19 @@
-const AUTO_REFRESH_MS = 300000;
+const AUTO_REFRESH_MS = 60000;
 const LEVEL_COLORS = {"Extremo":"#8457e6","Severo":"#ef3f34","Alto":"#ff861a","Médio":"#2f8cff","Baixo":"#52b34d","Indefinido":"#aebccc"};
 const UF_NOME = {AC:"Acre",AL:"Alagoas",AP:"Amapá",AM:"Amazonas",BA:"Bahia",CE:"Ceará",DF:"Distrito Federal",ES:"Espírito Santo",GO:"Goiás",MA:"Maranhão",MT:"Mato Grosso",MS:"Mato Grosso do Sul",MG:"Minas Gerais",PA:"Pará",PB:"Paraíba",PR:"Paraná",PE:"Pernambuco",PI:"Piauí",RJ:"Rio de Janeiro",RN:"Rio Grande do Norte",RS:"Rio Grande do Sul",RO:"Rondônia",RR:"Roraima",SC:"Santa Catarina",SP:"São Paulo",SE:"Sergipe",TO:"Tocantins"};
 const ESTADO_TO_UF = Object.fromEntries(Object.entries(UF_NOME).map(([uf,n])=>[slug(n),uf]));
-let countdown=300, timer=null;
+let countdown=60, timer=null;
 
 // Rotação automática da tabela de últimos alertas
 const TABLE_PAGE_SIZE = 6;
-const TABLE_ROTATE_MS = 10000;
+const TABLE_ROTATE_MS = 15000;
 let tableAlerts = [];
 let tablePage = 0;
 let tableTimer = null;
 let lastTopAlertKey = null;
 
 document.addEventListener('DOMContentLoaded',()=>{loadDashboard(); timer=setInterval(tick,1000); setInterval(loadDashboard,AUTO_REFRESH_MS)});
-function tick(){countdown=Math.max(0,countdown-1); const m=String(Math.floor(countdown/60)).padStart(2,'0'),s=String(countdown%60).padStart(2,'0'); setText('refresh-countdown2',`${m}:${s}`); if(countdown===0) countdown=300;}
+function tick(){countdown=Math.max(0,countdown-1); const m=String(Math.floor(countdown/60)).padStart(2,'0'),s=String(countdown%60).padStart(2,'0'); setText('refresh-countdown2',`${m}:${s}`); if(countdown===0) countdown=60;}
 async function loadDashboard(){
   try{
     let res = await fetch(`dashboard_data2.json?_=${Date.now()}`,{cache:'no-store'});
@@ -26,7 +26,7 @@ async function loadDashboard(){
     if(!res.ok) throw new Error('Nenhum arquivo de dados encontrado');
 
     const data = await res.json();
-    countdown = 300;
+    countdown = 60;
     renderAll(data);
   }catch(e){
     console.error(e);
@@ -203,19 +203,25 @@ function renderTablePage(highlightFirst=false){
   const body = byId('alerts-table-body');
   if(!body) return;
 
-  const start = tablePage * TABLE_PAGE_SIZE;
-  let page = tableAlerts.slice(start, start + TABLE_PAGE_SIZE);
+const start = tablePage * TABLE_PAGE_SIZE;
+let page = tableAlerts.slice(start, start + TABLE_PAGE_SIZE);
 
-  if(!page.length){
-    tablePage = 0;
-    page = tableAlerts.slice(0, TABLE_PAGE_SIZE);
-  }
+if(!page.length){
+  tablePage = 0;
+  page = tableAlerts.slice(0, TABLE_PAGE_SIZE);
+}
+
+if(page.length < TABLE_PAGE_SIZE && tableAlerts.length > TABLE_PAGE_SIZE){
+  const faltam = TABLE_PAGE_SIZE - page.length;
+  page = page.concat(tableAlerts.slice(0, faltam));
+}
 
   const rows = page.map((a,i)=>{
     const flag=flagMarkup(a.senderName,a.uf,a.location||a.areaDesc);
-    const status=isVigente(a)?'Vigente':'Expirado';
-    const extraClass = highlightFirst && i===0 ? ' alert-new' : '';
-
+const vigente = isVigente(a);
+const status = vigente ? 'Vigente' : 'Expirado';
+const statusClass = vigente ? 'status-dot' : 'status-dot off';
+const extraClass = highlightFirst && i===0 ? ' alert-new' : '';
     return `<div class="tr table-body-row${extraClass}">
       <span>
         <div class="time-main">${esc(a.time||formatTime(a.sent))}</div>
@@ -231,9 +237,9 @@ function renderTablePage(highlightFirst=false){
       <span>${esc(title(a.event))}</span>
       <span class="truncate">${esc(a.location||a.areaDesc||a.uf||'')}</span>
       <span><b class="nivel-badge nivel-${a.nivel}">${esc(a.nivel)}</b></span>
-      <span class="cat-cell"><span>🌧️</span>${esc(categoryLabel(a.category))}</span>
+      <span class="cat-cell"><span>${categoryIcon(a.category)}</span>${esc(categoryLabel(a.category))}</span>
       <span><strong>${formatTime(a.expires)}</strong><br><small>${formatDate(a.expires)}</small></span>
-      <span><i class="status-dot"></i>${status}</span>
+      <span><i class="${statusClass}"></i>${status}</span>
     </div>`;
   }).join('');
 
@@ -454,7 +460,8 @@ function normalizeNivel(n){n=String(n||'').toLowerCase(); if(n.includes('extremo
 function levelFromCap(a){const s=String(a.severity||'').toLowerCase(),u=String(a.urgency||'').toLowerCase(); if(s==='extreme') return u==='immediate'?'Extremo':'Severo'; if(s==='severe') return 'Alto'; if(s==='moderate') return 'Médio'; if(s==='minor') return 'Baixo'; return 'Indefinido'}
 function moreSevere(a,b){const rank={Baixo:1,Médio:2,Alto:3,Severo:4,Extremo:5,Indefinido:0,Sem:0}; return (rank[b]||0)>(rank[a]||0)?b:a}
 function inferCategory(event){const e=slug(event||''); if(/chuva|vendaval|tempest|granizo|frente|onda|estiagem|seca|umidade/.test(e))return'Met'; if(/desliz|lama|solo|inund|alag|enxurr|eros|rocha/.test(e))return'Geo'; if(/incendio/.test(e))return'Fire'; if(/doenc|saude/.test(e))return'Health'; return 'Safety'}
-function categoryLabel(c){c=String(c||'').trim(); const m={Met:'Met',Geo:'Geo',Fire:'Fire',Health:'Health',Safety:'Safety',Transport:'Transport'}; return m[c]||c||'Sem categoria'}
+function categoryLabel(c){c=String(c||'').trim(); const m={Met:'Met',Env:'Env',Geo:'Geo',Fire:'Fire',Health:'Health',Safety:'Safety',Transport:'Transport'}; return m[c]||c||'Sem categoria'}
+function categoryIcon(c){const key=String(c||'').trim().toLowerCase(); if(key==='met')return'🌧️'; if(key==='env')return'🌊'; if(key==='geo')return'⛰️'; if(key==='fire')return'🔥'; if(key==='health')return'🏥'; if(key==='safety')return'⚠️'; if(key==='transport')return'🚧'; return'◆'}
 function durationHours(a){const s=new Date(a.sent||0), e=new Date(a.expires||0); if(isNaN(s)||isNaN(e)) return 0; return (e-s)/3600000}
 function isVigente(a){
   const st = String(a.status || a.status_vigencia || '').toLowerCase();

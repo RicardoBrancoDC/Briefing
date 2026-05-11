@@ -24,7 +24,7 @@ html,body{
   width:100%;
   min-height:100%;
   font-family:Arial,Helvetica,sans-serif;
-  background:#e9edf3;
+  background:#06182a;
   color:var(--text);
 }
 
@@ -38,7 +38,7 @@ body{
 
 /* Canvas fiel ao mockup original, proporção 2:3 */
 .wall{
-  width:min(100vw - 16px,1024px);
+  width:min(100vw - 16px,1400px);
   aspect-ratio:2/3;
   background:radial-gradient(circle at 50% 20%,#0d3458 0,#071d33 38%,#06182a 100%);
   padding:8px;
@@ -667,7 +667,15 @@ body{
 
 .tr{
   display:grid;
-  grid-template-columns:82px 210px 160px 1fr 90px 105px 90px 92px;
+  grid-template-columns:
+    90px
+    minmax(230px,1.15fr)
+    minmax(170px,.9fr)
+    minmax(230px,1.25fr)
+    115px
+    130px
+    115px
+    125px;
   align-items:center;
 }
 
@@ -767,7 +775,8 @@ body{
 }
 
 .status-dot.off{
-  background:#9aa9b6;
+  background:#ef3f34;
+  box-shadow:0 0 8px rgba(239,63,52,.55);
 }
 
 .more-btn{
