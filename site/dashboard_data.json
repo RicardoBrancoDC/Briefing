@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-05-11T07:01:53.161305-03:00",
-  "source_run_dir": "run_20260511_070134",
+  "generated_at": "2026-05-11T08:26:16.026376-03:00",
+  "source_run_dir": "run_20260511_082550",
   "cards": {
-    "vigentes": 5,
-    "ultimas24h": 29,
+    "vigentes": 8,
+    "ultimas24h": 32,
     "autoridadesAtivas": 14,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "08:19",
+      "date": "11/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Médio",
+      "location": "Japurá/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "07:29",
+      "date": "11/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "location": "Japurá/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "07:10",
+      "date": "11/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "02:54",
       "date": "11/05/2026",
@@ -31,54 +67,18 @@
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 10/05 20:28 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Florianópolis. Pico previsto às 00:00 h. Ocorrências ligue 199 ou 193.",
       "status": "expirado"
-    },
-    {
-      "time": "20:28",
-      "date": "10/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "19:34",
-      "date": "10/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:19h30 Chuva moderada e isolada na regiao de Cunha e Bananal. Tem ventos. Tenha cuidado nas proximas horas.",
-      "status": "expirado"
-    },
-    {
-      "time": "19:31",
-      "date": "10/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:19h30 Chuva persistente na regiao de Ubatuba. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 9
+    },
+    {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
       "count": 7
-    },
-    {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 6
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 18
+      "count": 19
     },
     {
       "label": "Alto",
-      "count": 9
+      "count": 11
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 19
+      "count": 20
     },
     {
       "label": "Vendaval",
@@ -146,7 +146,11 @@
     },
     {
       "label": "Alagamentos",
-      "count": 2
+      "count": 3
+    },
+    {
+      "label": "Solo/Lama",
+      "count": 1
     },
     {
       "label": "Geadas",
@@ -159,16 +163,16 @@
   ],
   "uf_distribution": [
     {
+      "uf": "AM",
+      "count": 9
+    },
+    {
       "uf": "RJ",
       "count": 8
     },
     {
       "uf": "SP",
       "count": 7
-    },
-    {
-      "uf": "AM",
-      "count": 6
     },
     {
       "uf": "PA",
@@ -194,7 +198,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 8
     },
     {
       "label": "expirado",
@@ -202,6 +206,45 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "11/05/2026",
+      "time": "08:19",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Japurá/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-11T08:19:47-03:00",
+      "expires": "2026-05-11T18:00:00-03:00"
+    },
+    {
+      "date": "11/05/2026",
+      "time": "07:29",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Japurá/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-11T07:29:04-03:00",
+      "expires": "2026-05-11T11:20:00-03:00"
+    },
+    {
+      "date": "11/05/2026",
+      "time": "07:10",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-11T07:10:33-03:00",
+      "expires": "2026-05-11T11:00:00-03:00"
+    },
     {
       "date": "11/05/2026",
       "time": "02:54",
@@ -581,18 +624,18 @@
     }
   ],
   "summary": {
-    "total_alerts": 29,
+    "total_alerts": 32,
     "by_nivel": {
-      "Médio": 18,
-      "Alto": 9,
+      "Médio": 19,
+      "Alto": 11,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 29
+      "Google": 32
     },
     "by_region": {
       "SE": 15,
-      "N": 9,
+      "N": 12,
       "NE": 2,
       "S": 2,
       "CO": 1
