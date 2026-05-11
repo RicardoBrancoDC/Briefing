@@ -544,22 +544,37 @@ body{
   font-size:28px;
 }
 
-.donut-row.small{
-  grid-template-columns:102px 1fr;
-  gap:8px;
-  padding:18px 10px 0;
+.duration-card .donut-row.small{
+  height:calc(100% - 83px);
+  display:grid;
+  grid-template-columns:1fr 150px;
+  align-items:center;
+  gap:12px;
+  padding:0 18px;
+}
+
+.duration-card .small-donut{
+  justify-self:center;
+}
+
+.duration-card #duration-legend{
+  justify-self:end;
+  align-self:center;
+  width:150px;
+  margin-left:auto;
+  transform:translateX(28px);
 }
 
 .small-donut{
-  width:102px;
-  height:102px;
+  width:112px;
+  height:112px;
   min-width:102px;
   min-height:102px;
 }
 
 .small-donut>div{
-  width:56px;
-  height:56px;
+  width:46px;
+  height:46px;
 }
 
 .tiny .legend-item{
