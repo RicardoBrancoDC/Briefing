@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-12T04:19:05.398610-03:00",
-  "source_run_dir": "run_20260512_041850",
+  "generated_at": "2026-05-12T07:43:52.806029-03:00",
+  "source_run_dir": "run_20260512_074340",
   "cards": {
-    "vigentes": 14,
-    "ultimas24h": 34,
+    "vigentes": 15,
+    "ultimas24h": 33,
     "autoridadesAtivas": 17,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "06:58",
+      "date": "12/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Parintins/AM, Barreirinha/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "03:36",
       "date": "12/05/2026",
@@ -55,25 +67,13 @@
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 11/05 21:04 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para os municípios de Balneário Rincão, Florianópolis e Imbituba. Pico previsto às 00:00 h. Ocorrências ligue 199 ou 193.",
       "status": "expirado"
-    },
-    {
-      "time": "21:00",
-      "date": "11/05/2026",
-      "senderName": "Defesa Civil de Campo dos Goytacazes (RJ)",
-      "senderNameShort": "DC Campo dos Goytacazes (RJ)",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Alto",
-      "location": "Campos dos Goytacazes/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Alerta de Ressaca entre a noite de segunda (11) e a noite de terca (12). Atencao ao trafegar na faixa litoranea ja atingida pela erosao costeira.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Defesa Civil Estadual de Pernambuco",
@@ -132,7 +132,7 @@
     },
     {
       "label": "Alto",
-      "count": 15
+      "count": 14
     },
     {
       "label": "Severo",
@@ -146,7 +146,7 @@
     },
     {
       "label": "Alagamentos",
-      "count": 6
+      "count": 5
     },
     {
       "label": "Marés De Tempestade (Ressacas)",
@@ -168,7 +168,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 13
+      "count": 12
     },
     {
       "uf": "PE",
@@ -206,14 +206,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 14
+      "count": 15
     },
     {
       "label": "expirado",
-      "count": 20
+      "count": 18
     }
   ],
   "all_alerts": [
+    {
+      "date": "12/05/2026",
+      "time": "06:58",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Parintins/AM, Barreirinha/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-12T06:58:05-03:00",
+      "expires": "2026-05-12T08:00:00-03:00"
+    },
     {
       "date": "12/05/2026",
       "time": "03:36",
@@ -629,47 +642,21 @@
       "status": "expirado",
       "onset": "2026-05-11T08:19:47-03:00",
       "expires": "2026-05-11T18:00:00-03:00"
-    },
-    {
-      "date": "11/05/2026",
-      "time": "07:29",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Japurá/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-11T07:29:04-03:00",
-      "expires": "2026-05-11T11:20:00-03:00"
-    },
-    {
-      "date": "11/05/2026",
-      "time": "07:10",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-11T07:10:33-03:00",
-      "expires": "2026-05-11T11:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 34,
+    "total_alerts": 33,
     "by_nivel": {
-      "Alto": 15,
+      "Alto": 14,
       "Médio": 14,
       "Severo": 4,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 34
+      "Google": 33
     },
     "by_region": {
-      "N": 17,
+      "N": 16,
       "NE": 11,
       "SE": 5,
       "S": 1
