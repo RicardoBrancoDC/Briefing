@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-05-11T20:14:24.261677-03:00",
-  "source_run_dir": "run_20260511_201405",
+  "generated_at": "2026-05-12T01:09:15.862584-03:00",
+  "source_run_dir": "run_20260512_010858",
   "cards": {
-    "vigentes": 16,
-    "ultimas24h": 32,
-    "autoridadesAtivas": 15,
+    "vigentes": 14,
+    "ultimas24h": 33,
+    "autoridadesAtivas": 16,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "21:30",
+      "date": "11/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Boa Vista do Ramos/AM, Autazes/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "expirado"
+    },
+    {
+      "time": "21:06",
+      "date": "11/05/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 11/05 21:04 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para os municípios de Balneário Rincão, Florianópolis e Imbituba. Pico previsto às 00:00 h. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "21:00",
+      "date": "11/05/2026",
+      "senderName": "Defesa Civil de Campo dos Goytacazes (RJ)",
+      "senderNameShort": "DC Campo dos Goytacazes (RJ)",
+      "event": "Marés De Tempestade (Ressacas)",
+      "nivel": "Alto",
+      "location": "Campos dos Goytacazes/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Alerta de Ressaca entre a noite de segunda (11) e a noite de terca (12). Atencao ao trafegar na faixa litoranea ja atingida pela erosao costeira.",
+      "status": "vigente"
+    },
     {
       "time": "20:06",
       "date": "11/05/2026",
@@ -30,42 +66,6 @@
       "location": "PERNAMBUCO/PE",
       "uf": "PE",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas para PERNAMBUCO/PE. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Em caso de emergenci",
-      "status": "vigente"
-    },
-    {
-      "time": "19:12",
-      "date": "11/05/2026",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "senderNameShort": "DC Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PERNAMBUCO/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para PERNAMBUCO/PE. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Em caso de emergenci",
-      "status": "vigente"
-    },
-    {
-      "time": "19:08",
-      "date": "11/05/2026",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "senderNameShort": "DC Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PERNAMBUCO/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para PERNAMBUCO/PE. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Em caso de emergenci",
-      "status": "vigente"
-    },
-    {
-      "time": "19:05",
-      "date": "11/05/2026",
-      "senderName": "Defesa Civil de Recife (PE)",
-      "senderNameShort": "DC Recife (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Recife/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:ALERTA DE CHUVA COM INTENSIDADE MODERADA E PONTUALMENTE FORTE para as proximas 24h. Busque abrigo e evite areas alagadas.",
       "status": "vigente"
     }
   ],
@@ -91,6 +91,16 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Campo dos Goytacazes (RJ)",
+      "short_name": "DC Campo dos Goytacazes (RJ)",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil de Sairé (PE)",
       "short_name": "DC Sairé (PE)",
       "count": 1
@@ -109,16 +119,6 @@
       "name": "Defesa Civil de Ipojuca (PE)",
       "short_name": "DC Ipojuca (PE)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Cabedelo (PB)",
-      "short_name": "DC Cabedelo (PB)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Piauí",
-      "short_name": "DC Piauí",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -128,11 +128,11 @@
     },
     {
       "label": "Médio",
-      "count": 14
+      "count": 13
     },
     {
       "label": "Alto",
-      "count": 13
+      "count": 15
     },
     {
       "label": "Severo",
@@ -149,12 +149,12 @@
       "count": 6
     },
     {
-      "label": "Solo/Lama",
+      "label": "Marés De Tempestade (Ressacas)",
       "count": 2
     },
     {
-      "label": "Marés De Tempestade (Ressacas)",
-      "count": 1
+      "label": "Solo/Lama",
+      "count": 2
     },
     {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
@@ -179,12 +179,16 @@
       "count": 4
     },
     {
+      "uf": "RJ",
+      "count": 3
+    },
+    {
       "uf": "PB",
       "count": 2
     },
     {
-      "uf": "RJ",
-      "count": 2
+      "uf": "SC",
+      "count": 1
     },
     {
       "uf": "PI",
@@ -193,23 +197,58 @@
     {
       "uf": "MG",
       "count": 1
-    },
-    {
-      "uf": "SC",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 16
+      "count": 14
     },
     {
       "label": "expirado",
-      "count": 16
+      "count": 19
     }
   ],
   "all_alerts": [
+    {
+      "date": "11/05/2026",
+      "time": "21:30",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Boa Vista do Ramos/AM, Autazes/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-05-11T21:30:00-03:00",
+      "expires": "2026-05-11T23:00:00-03:00"
+    },
+    {
+      "date": "11/05/2026",
+      "time": "21:06",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 11/05 21:04 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para os municípios de Balneário Rincão, Florianópolis e Imbituba. Pico previsto às 00:00 h. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-11T21:06:55-03:00",
+      "expires": "2026-05-12T02:05:00-03:00"
+    },
+    {
+      "date": "11/05/2026",
+      "time": "21:00",
+      "senderName": "Defesa Civil de Campo dos Goytacazes (RJ)",
+      "event": "Marés De Tempestade (Ressacas)",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Campos dos Goytacazes/RJ",
+      "headline": "Defesa Civil:Alerta de Ressaca entre a noite de segunda (11) e a noite de terca (12). Atencao ao trafegar na faixa litoranea ja atingida pela erosao costeira.",
+      "status": "vigente",
+      "onset": "2026-05-11T21:00:00-03:00",
+      "expires": "2026-05-12T23:00:00-03:00"
+    },
     {
       "date": "11/05/2026",
       "time": "20:06",
@@ -323,7 +362,7 @@
       "uf": "AM",
       "location": "Beruri/AM, Codajás/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-11T18:32:45-03:00",
       "expires": "2026-05-11T21:30:00-03:00"
     },
@@ -414,7 +453,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS. Evitar transitar por areas com riscos de alagamentos e enxurradas. Em caso de emergencia ligue 190 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-11T14:09:50-03:00",
       "expires": "2026-05-11T23:55:00-03:00"
     },
@@ -531,7 +570,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (11MAI). Risco de  Alagamentos e vendavais. evite areas alagadas e dirija com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-11T10:14:45-03:00",
       "expires": "2026-05-11T23:59:00-03:00"
     },
@@ -544,7 +583,7 @@
       "uf": "AM",
       "location": "Maraã/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-11T10:06:20-03:00",
       "expires": "2026-05-11T22:00:00-03:00"
     },
@@ -599,49 +638,23 @@
       "status": "expirado",
       "onset": "2026-05-11T02:54:33-03:00",
       "expires": "2026-05-11T06:45:00-03:00"
-    },
-    {
-      "date": "10/05/2026",
-      "time": "20:34",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "Florianópolis/SC",
-      "headline": "OBSERVAÇÃO - 10/05 20:28 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Florianópolis. Pico previsto às 00:00 h. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-10T20:34:09-03:00",
-      "expires": "2026-05-11T05:30:00-03:00"
-    },
-    {
-      "date": "10/05/2026",
-      "time": "20:28",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-10T20:28:06-03:00",
-      "expires": "2026-05-11T00:20:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 32,
+    "total_alerts": 33,
     "by_nivel": {
-      "Médio": 14,
-      "Alto": 13,
+      "Alto": 15,
+      "Médio": 13,
       "Severo": 4,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 32
+      "Google": 33
     },
     "by_region": {
       "N": 17,
       "NE": 11,
-      "SE": 3,
+      "SE": 4,
       "S": 1
     }
   }
