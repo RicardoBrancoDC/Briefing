@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-12T01:09:15.862584-03:00",
-  "source_run_dir": "run_20260512_010858",
+  "generated_at": "2026-05-12T04:19:05.398610-03:00",
+  "source_run_dir": "run_20260512_041850",
   "cards": {
     "vigentes": 14,
-    "ultimas24h": 33,
-    "autoridadesAtivas": 16,
+    "ultimas24h": 34,
+    "autoridadesAtivas": 17,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "03:36",
+      "date": "12/05/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:03h35 Chuva fraca e isolada na regiao de Araraquara e Matao. Tem ventos. Tenha cuidado nas proximas horas.",
+      "status": "expirado"
+    },
+    {
+      "time": "01:32",
+      "date": "12/05/2026",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "senderNameShort": "DC Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.¿",
+      "status": "vigente"
+    },
     {
       "time": "21:30",
       "date": "11/05/2026",
@@ -30,7 +54,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 11/05 21:04 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para os municípios de Balneário Rincão, Florianópolis e Imbituba. Pico previsto às 00:00 h. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "21:00",
@@ -43,37 +67,13 @@
       "uf": "RJ",
       "headline": "Defesa Civil:Alerta de Ressaca entre a noite de segunda (11) e a noite de terca (12). Atencao ao trafegar na faixa litoranea ja atingida pela erosao costeira.",
       "status": "vigente"
-    },
-    {
-      "time": "20:06",
-      "date": "11/05/2026",
-      "senderName": "Defesa Civil de Sairé (PE)",
-      "senderNameShort": "DC Sairé (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Sairé/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Saire/PE.Comunicacao para 81991113448- Paulo Possibilidade de danos nas estradas vicinais.",
-      "status": "vigente"
-    },
-    {
-      "time": "19:25",
-      "date": "11/05/2026",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "senderNameShort": "DC Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PERNAMBUCO/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para PERNAMBUCO/PE. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Em caso de emergenci",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 11
+      "count": 10
     },
     {
       "name": "Defesa Civil Estadual de Pernambuco",
@@ -88,7 +88,12 @@
     {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
-      "count": 2
+      "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -114,11 +119,6 @@
       "name": "Defesa Civil de Bezerros (PE)",
       "short_name": "DC Bezerros (PE)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Ipojuca (PE)",
-      "short_name": "DC Ipojuca (PE)",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -128,7 +128,7 @@
     },
     {
       "label": "Médio",
-      "count": 13
+      "count": 14
     },
     {
       "label": "Alto",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 21
+      "count": 22
     },
     {
       "label": "Alagamentos",
@@ -187,6 +187,10 @@
       "count": 2
     },
     {
+      "uf": "SP",
+      "count": 1
+    },
+    {
       "uf": "SC",
       "count": 1
     },
@@ -206,10 +210,36 @@
     },
     {
       "label": "expirado",
-      "count": 19
+      "count": 20
     }
   ],
   "all_alerts": [
+    {
+      "date": "12/05/2026",
+      "time": "03:36",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:03h35 Chuva fraca e isolada na regiao de Araraquara e Matao. Tem ventos. Tenha cuidado nas proximas horas.",
+      "status": "expirado",
+      "onset": "2026-05-12T03:36:08-03:00",
+      "expires": "2026-05-12T03:35:00-03:00"
+    },
+    {
+      "date": "12/05/2026",
+      "time": "01:32",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.¿",
+      "status": "vigente",
+      "onset": "2026-05-12T01:32:28-03:00",
+      "expires": "2026-05-12T08:00:00-03:00"
+    },
     {
       "date": "11/05/2026",
       "time": "21:30",
@@ -232,7 +262,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 11/05 21:04 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para os municípios de Balneário Rincão, Florianópolis e Imbituba. Pico previsto às 00:00 h. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-11T21:06:55-03:00",
       "expires": "2026-05-12T02:05:00-03:00"
     },
@@ -625,36 +655,23 @@
       "status": "expirado",
       "onset": "2026-05-11T07:10:33-03:00",
       "expires": "2026-05-11T11:00:00-03:00"
-    },
-    {
-      "date": "11/05/2026",
-      "time": "02:54",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-11T02:54:33-03:00",
-      "expires": "2026-05-11T06:45:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 33,
+    "total_alerts": 34,
     "by_nivel": {
       "Alto": 15,
-      "Médio": 13,
+      "Médio": 14,
       "Severo": 4,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 33
+      "Google": 34
     },
     "by_region": {
       "N": 17,
       "NE": 11,
-      "SE": 4,
+      "SE": 5,
       "S": 1
     }
   }
