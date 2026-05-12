@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-12T18:44:03.411619-03:00",
-  "source_run_dir": "run_20260512_184328",
+  "generated_at": "2026-05-12T20:20:40.100120-03:00",
+  "source_run_dir": "run_20260512_202013",
   "cards": {
-    "vigentes": 22,
-    "ultimas24h": 47,
-    "autoridadesAtivas": 15,
+    "vigentes": 18,
+    "ultimas24h": 42,
+    "autoridadesAtivas": 14,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "19:02",
+      "date": "12/05/2026",
+      "senderName": "Defesa Civil de Belo Horizonte (MG)",
+      "senderNameShort": "DC Belo Horizonte (MG)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Belo Horizonte/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:18h55 - Possibilidade de chuva moderada nas proximas 2 horas. Recomenda-se atencao. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
+      "status": "expirado"
+    },
+    {
+      "time": "18:56",
+      "date": "12/05/2026",
+      "senderName": "Defesa Civil de Sairé (PE)",
+      "senderNameShort": "DC Sairé (PE)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Sairé/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:Alerta de continuidade de Chuvas Intensas para Saire/PEPossibilidade de danos nas estradas vicinais do municipio.",
+      "status": "vigente"
+    },
     {
       "time": "18:21",
       "date": "12/05/2026",
@@ -43,30 +67,6 @@
       "uf": "SC",
       "headline": "Observação Meteorológica SDC/SC 12/05 09:30 - Frio intenso na madrugada de quarta-feira (13). Ocorrências ligue 199 ou 193.",
       "status": "vigente"
-    },
-    {
-      "time": "17:47",
-      "date": "12/05/2026",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "senderNameShort": "DC Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PERNAMBUCO/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:PE: ZONA DA MATA - ALERTA. Continuidade chuva  intensidade MODERADA a FORTE, nas prox 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se",
-      "status": "vigente"
-    },
-    {
-      "time": "17:42",
-      "date": "12/05/2026",
-      "senderName": "Defesa Civil de Barueri (SP)",
-      "senderNameShort": "DC Barueri (SP)",
-      "event": "Friagem",
-      "nivel": "Médio",
-      "location": "Barueri/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:17:19 Possibilidade de frio intenso em Barueri/SP entre 13/05 e 14/05. Agasalhe-se bem e proteja pessoas vulneraveis. Emergencia: 199 ou 4199-1419",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -74,11 +74,6 @@
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
       "count": 16
-    },
-    {
-      "name": "Defesa Civil Estadual de Pernambuco",
-      "short_name": "DC Pernambuco",
-      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -91,9 +86,19 @@
       "count": 4
     },
     {
+      "name": "Defesa Civil Estadual de Pernambuco",
+      "short_name": "DC Pernambuco",
+      "count": 3
+    },
+    {
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
       "count": 3
+    },
+    {
+      "name": "Defesa Civil de Belo Horizonte (MG)",
+      "short_name": "DC Belo Horizonte (MG)",
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -101,9 +106,9 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil de Recife (PE)",
-      "short_name": "DC Recife (PE)",
-      "count": 2
+      "name": "Defesa Civil de Sairé (PE)",
+      "short_name": "DC Sairé (PE)",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Barueri (SP)",
@@ -111,13 +116,8 @@
       "count": 1
     },
     {
-      "name": "Defesa Civil de Belo Horizonte (MG)",
-      "short_name": "DC Belo Horizonte (MG)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Ipojuca (PE)",
-      "short_name": "DC Ipojuca (PE)",
+      "name": "Defesa Civil de Recife (PE)",
+      "short_name": "DC Recife (PE)",
       "count": 1
     }
   ],
@@ -128,7 +128,7 @@
     },
     {
       "label": "Médio",
-      "count": 22
+      "count": 17
     },
     {
       "label": "Alto",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 27
+      "count": 22
     },
     {
       "label": "Solo/Lama",
@@ -176,7 +176,7 @@
     },
     {
       "uf": "PE",
-      "count": 12
+      "count": 6
     },
     {
       "uf": "PA",
@@ -187,16 +187,16 @@
       "count": 3
     },
     {
+      "uf": "MG",
+      "count": 2
+    },
+    {
       "uf": "SC",
       "count": 2
     },
     {
       "uf": "SP",
       "count": 2
-    },
-    {
-      "uf": "MG",
-      "count": 1
     },
     {
       "uf": "MA",
@@ -210,14 +210,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 22
+      "count": 18
     },
     {
       "label": "expirado",
-      "count": 25
+      "count": 24
     }
   ],
   "all_alerts": [
+    {
+      "date": "12/05/2026",
+      "time": "19:02",
+      "senderName": "Defesa Civil de Belo Horizonte (MG)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "MG",
+      "location": "Belo Horizonte/MG",
+      "headline": "Defesa Civil:18h55 - Possibilidade de chuva moderada nas proximas 2 horas. Recomenda-se atencao. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
+      "status": "expirado",
+      "onset": "2026-05-12T19:02:00-03:00",
+      "expires": "2026-05-12T19:10:00-03:00"
+    },
+    {
+      "date": "12/05/2026",
+      "time": "18:56",
+      "senderName": "Defesa Civil de Sairé (PE)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PE",
+      "location": "Sairé/PE",
+      "headline": "Defesa Civil:Alerta de continuidade de Chuvas Intensas para Saire/PEPossibilidade de danos nas estradas vicinais do municipio.",
+      "status": "vigente",
+      "onset": "2026-05-12T18:56:45-03:00",
+      "expires": "2026-05-13T18:45:00-03:00"
+    },
     {
       "date": "12/05/2026",
       "time": "18:21",
@@ -383,7 +409,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Saia de areas de encosta. Em caso de emergencia ligue: 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T15:04:05-03:00",
       "expires": "2026-05-12T20:00:00-03:00"
     },
@@ -409,7 +435,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA para  risco de deslizamento em Manaus (NIVEL ALTO). Em caso de emergencia, ligue 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T14:51:10-03:00",
       "expires": "2026-05-12T20:00:00-03:00"
     },
@@ -435,7 +461,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T14:15:39-03:00",
       "expires": "2026-05-12T19:00:00-03:00"
     },
@@ -737,114 +763,23 @@
       "status": "vigente",
       "onset": "2026-05-11T21:00:00-03:00",
       "expires": "2026-05-12T23:00:00-03:00"
-    },
-    {
-      "date": "11/05/2026",
-      "time": "20:06",
-      "senderName": "Defesa Civil de Sairé (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Sairé/PE",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Saire/PE.Comunicacao para 81991113448- Paulo Possibilidade de danos nas estradas vicinais.",
-      "status": "vigente",
-      "onset": "2026-05-11T20:06:00-03:00",
-      "expires": "2026-05-12T23:55:00-03:00"
-    },
-    {
-      "date": "11/05/2026",
-      "time": "19:25",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para PERNAMBUCO/PE. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Em caso de emergenci",
-      "status": "expirado",
-      "onset": "2026-05-11T19:25:18-03:00",
-      "expires": "2026-05-12T17:00:00-03:00"
-    },
-    {
-      "date": "11/05/2026",
-      "time": "19:12",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para PERNAMBUCO/PE. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Em caso de emergenci",
-      "status": "expirado",
-      "onset": "2026-05-11T19:12:43-03:00",
-      "expires": "2026-05-12T17:00:00-03:00"
-    },
-    {
-      "date": "11/05/2026",
-      "time": "19:08",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para PERNAMBUCO/PE. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Em caso de emergenci",
-      "status": "expirado",
-      "onset": "2026-05-11T19:08:40-03:00",
-      "expires": "2026-05-12T17:00:00-03:00"
-    },
-    {
-      "date": "11/05/2026",
-      "time": "19:05",
-      "senderName": "Defesa Civil de Recife (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Recife/PE",
-      "headline": "Defesa Civil:ALERTA DE CHUVA COM INTENSIDADE MODERADA E PONTUALMENTE FORTE para as proximas 24h. Busque abrigo e evite areas alagadas.",
-      "status": "expirado",
-      "onset": "2026-05-11T19:05:19-03:00",
-      "expires": "2026-05-12T17:00:00-03:00"
-    },
-    {
-      "date": "11/05/2026",
-      "time": "19:01",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO-PE",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para PERNAMBUCO/PE. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Em caso",
-      "status": "expirado",
-      "onset": "2026-05-11T19:01:00-03:00",
-      "expires": "2026-05-12T17:00:00-03:00"
-    },
-    {
-      "date": "11/05/2026",
-      "time": "19:00",
-      "senderName": "Defesa Civil de Bezerros (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Bezerros/PE",
-      "headline": "Defesa Civil: AGRESTE. ALERTA possibilidade de chuva MODERADA. Em caso de emergencia chame pelo whastapp 81998360332. Proteja-se. Fonte: APAC.",
-      "status": "vigente",
-      "onset": "2026-05-11T19:00:00-03:00",
-      "expires": "2026-05-13T23:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 47,
+    "total_alerts": 42,
     "by_nivel": {
-      "Médio": 22,
       "Alto": 18,
+      "Médio": 17,
       "Severo": 6,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 47
+      "Google": 42
     },
     "by_region": {
       "N": 25,
-      "NE": 16,
-      "SE": 4,
+      "NE": 10,
+      "SE": 5,
       "S": 2
     }
   }
