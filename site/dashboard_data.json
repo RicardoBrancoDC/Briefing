@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-13T08:45:29.761126-03:00",
-  "source_run_dir": "run_20260513_084507",
+  "generated_at": "2026-05-13T12:16:27.838218-03:00",
+  "source_run_dir": "run_20260513_121613",
   "cards": {
-    "vigentes": 11,
-    "ultimas24h": 40,
-    "autoridadesAtivas": 16,
+    "vigentes": 6,
+    "ultimas24h": 28,
+    "autoridadesAtivas": 17,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "09:38",
+      "date": "13/05/2026",
+      "senderName": "Defesa Civil de Belém (PA)",
+      "senderNameShort": "DC Belém (PA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Belém/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:SEOPDEC: ALERTA de chuvas intensas e descargas eletricas para hoje, 13MAI, em Belem. Ha risco de alagamentos, ventanias e destelhamentos. ATENCAO.",
+      "status": "vigente"
+    },
     {
       "time": "08:32",
       "date": "13/05/2026",
@@ -21,6 +33,18 @@
       "status": "vigente"
     },
     {
+      "time": "00:00",
+      "date": "13/05/2026",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "senderNameShort": "DC Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MARANHÃO-MA",
+      "uf": "MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
       "time": "21:48",
       "date": "12/05/2026",
       "senderName": "Defesa Civil de Cabedelo (PB)",
@@ -30,7 +54,7 @@
       "location": "Cabedelo/PB",
       "uf": "PB",
       "headline": "Defesa Civil:Alerta de Chuvas e ventos fortes em Cabedelo. Risco de alagamentos e queda de arvores. Evite areas alagadas e abrigue-se. Emergencia: 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "20:36",
@@ -42,30 +66,6 @@
       "location": "Mangaratiba/RJ",
       "uf": "RJ",
       "headline": "Defesa Civil:MANGARATIBA/RJ - Aviso de Ressaca. Inicio:11/05 (segunda-feira) as 06h. Fim:13/05 (quarta-feira) as 09h.Ondas de 3,0 metros.Emergencia:3030-2662.",
-      "status": "vigente"
-    },
-    {
-      "time": "20:34",
-      "date": "12/05/2026",
-      "senderName": "Defesa Civil de Jaboatao dos Guararapes (PE)",
-      "senderNameShort": "DC Jaboatao dos Guararapes…",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Jaboatão dos Guararapes/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:Alerta de continuidade de chuvas, moderadas a fortes para Jaboatao dos Guararapes. Em caso de emergencias ligue para a defesa civil  0800 281 2099",
-      "status": "vigente"
-    },
-    {
-      "time": "19:02",
-      "date": "12/05/2026",
-      "senderName": "Defesa Civil de Belo Horizonte (MG)",
-      "senderNameShort": "DC Belo Horizonte (MG)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Belo Horizonte/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:18h55 - Possibilidade de chuva moderada nas proximas 2 horas. Recomenda-se atencao. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
       "status": "expirado"
     }
   ],
@@ -73,11 +73,6 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 14
-    },
-    {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
       "count": 5
     },
     {
@@ -91,14 +86,24 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 3
-    },
-    {
       "name": "Defesa Civil de Belo Horizonte (MG)",
       "short_name": "DC Belo Horizonte (MG)",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil de Belém (PA)",
+      "short_name": "DC Belém (PA)",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Jaqueira (PE)",
@@ -106,18 +111,13 @@
       "count": 1
     },
     {
+      "name": "Defesa Civil Estadual do Maranhão",
+      "short_name": "DC Maranhão",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil de Cabedelo (PB)",
       "short_name": "DC Cabedelo (PB)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Mangaratiba (RJ)",
-      "short_name": "Defesa Civil Mangaratiba (RJ)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Jaboatao dos Guararapes (PE)",
-      "short_name": "DC Jaboatao dos Guararapes (PE)",
       "count": 1
     }
   ],
@@ -128,29 +128,29 @@
     },
     {
       "label": "Médio",
-      "count": 16
+      "count": 13
     },
     {
       "label": "Alto",
-      "count": 17
+      "count": 11
     },
     {
       "label": "Severo",
-      "count": 6
+      "count": 3
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 21
+      "count": 17
     },
     {
       "label": "Solo/Lama",
-      "count": 8
+      "count": 4
     },
     {
       "label": "Alagamentos",
-      "count": 6
+      "count": 3
     },
     {
       "label": "Friagem",
@@ -163,24 +163,20 @@
     {
       "label": "Frentes Frias/Zonas De Convergência",
       "count": 1
-    },
-    {
-      "label": "Outros",
-      "count": 1
     }
   ],
   "uf_distribution": [
-    {
-      "uf": "AM",
-      "count": 17
-    },
     {
       "uf": "PE",
       "count": 8
     },
     {
+      "uf": "AM",
+      "count": 7
+    },
+    {
       "uf": "PA",
-      "count": 5
+      "count": 3
     },
     {
       "uf": "PI",
@@ -189,6 +185,10 @@
     {
       "uf": "MG",
       "count": 2
+    },
+    {
+      "uf": "MA",
+      "count": 1
     },
     {
       "uf": "PB",
@@ -205,23 +205,32 @@
     {
       "uf": "SP",
       "count": 1
-    },
-    {
-      "uf": "MA",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 11
+      "count": 6
     },
     {
       "label": "expirado",
-      "count": 29
+      "count": 22
     }
   ],
   "all_alerts": [
+    {
+      "date": "13/05/2026",
+      "time": "09:38",
+      "senderName": "Defesa Civil de Belém (PA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Belém/PA",
+      "headline": "Defesa Civil:SEOPDEC: ALERTA de chuvas intensas e descargas eletricas para hoje, 13MAI, em Belem. Ha risco de alagamentos, ventanias e destelhamentos. ATENCAO.",
+      "status": "vigente",
+      "onset": "2026-05-13T09:38:14-03:00",
+      "expires": "2026-05-13T23:55:00-03:00"
+    },
     {
       "date": "13/05/2026",
       "time": "08:32",
@@ -236,6 +245,19 @@
       "expires": "2026-05-13T13:00:00-03:00"
     },
     {
+      "date": "13/05/2026",
+      "time": "00:00",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MA",
+      "location": "MARANHÃO-MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-13T00:00:00-03:00",
+      "expires": "2026-05-13T23:55:00-03:00"
+    },
+    {
       "date": "12/05/2026",
       "time": "21:48",
       "senderName": "Defesa Civil de Cabedelo (PB)",
@@ -244,7 +266,7 @@
       "uf": "PB",
       "location": "Cabedelo/PB",
       "headline": "Defesa Civil:Alerta de Chuvas e ventos fortes em Cabedelo. Risco de alagamentos e queda de arvores. Evite areas alagadas e abrigue-se. Emergencia: 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T21:48:45-03:00",
       "expires": "2026-05-13T09:00:00-03:00"
     },
@@ -257,7 +279,7 @@
       "uf": "RJ",
       "location": "Mangaratiba/RJ",
       "headline": "Defesa Civil:MANGARATIBA/RJ - Aviso de Ressaca. Inicio:11/05 (segunda-feira) as 06h. Fim:13/05 (quarta-feira) as 09h.Ondas de 3,0 metros.Emergencia:3030-2662.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T20:36:23-03:00",
       "expires": "2026-05-13T09:00:00-03:00"
     },
@@ -322,7 +344,7 @@
       "uf": "PE",
       "location": "PERNAMBUCO/PE",
       "headline": "Defesa Civil:PE: AGRESTE. ALERTA. Continuidade pancadas de chuva com intensidade MODERADA nas prox 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T18:00:34-03:00",
       "expires": "2026-05-13T12:00:00-03:00"
     },
@@ -335,7 +357,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Observação Meteorológica SDC/SC 12/05 09:30 - Frio intenso na madrugada de quarta-feira (13). Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T18:00:00-03:00",
       "expires": "2026-05-13T12:00:00-03:00"
     },
@@ -348,7 +370,7 @@
       "uf": "PE",
       "location": "PERNAMBUCO/PE",
       "headline": "Defesa Civil:PE: ZONA DA MATA - ALERTA. Continuidade chuva  intensidade MODERADA a FORTE, nas prox 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T17:47:35-03:00",
       "expires": "2026-05-13T12:00:00-03:00"
     },
@@ -374,7 +396,7 @@
       "uf": "PE",
       "location": "Recife/PE",
       "headline": "Defesa Civil:ALERTA DE PANCADAS DE CHUVA COM INTENSIDADE MODERADA (PONTUALMENTE FORTE) ate as 12:00 do dia 13/05/2026. Busque abrigo e evite areas alagadas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T17:28:31-03:00",
       "expires": "2026-05-13T12:00:00-03:00"
     },
@@ -387,7 +409,7 @@
       "uf": "PE",
       "location": "PERNAMBUCO/PE",
       "headline": "Defesa Civil:PE: RMR - ALERTA. Continuidade de chuva  intensidade MODERADA a FORTE, nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T17:27:00-03:00",
       "expires": "2026-05-13T12:00:00-03:00"
     },
@@ -559,204 +581,22 @@
       "status": "expirado",
       "onset": "2026-05-12T12:24:05-03:00",
       "expires": "2026-05-12T15:00:00-03:00"
-    },
-    {
-      "date": "12/05/2026",
-      "time": "12:14",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa. Chuva intensa com risco de alagamentos e enxurradas. Em caso de emergencia ligue: 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-12T12:14:24-03:00",
-      "expires": "2026-05-12T16:00:00-03:00"
-    },
-    {
-      "date": "12/05/2026",
-      "time": "12:01",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MA",
-      "location": "MARANHÃO-MA",
-      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-12T12:01:00-03:00",
-      "expires": "2026-05-12T23:55:00-03:00"
-    },
-    {
-      "date": "12/05/2026",
-      "time": "11:03",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Maués/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento. Evite areas alagadas e fique em local seguro. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-12T11:03:00-03:00",
-      "expires": "2026-05-12T14:00:00-03:00"
-    },
-    {
-      "date": "12/05/2026",
-      "time": "10:59",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-12T10:59:23-03:00",
-      "expires": "2026-05-12T15:00:00-03:00"
-    },
-    {
-      "date": "12/05/2026",
-      "time": "10:43",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Maués/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-12T10:43:51-03:00",
-      "expires": "2026-05-12T15:00:00-03:00"
-    },
-    {
-      "date": "12/05/2026",
-      "time": "10:28",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Deslizamentos",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Almeirim/PA",
-      "headline": "Defesa Civil:Alerta  ALTO de possibilidade de deslizamentos e desabamentos para hoje (12MAI). Fique em local seguro!",
-      "status": "expirado",
-      "onset": "2026-05-12T10:28:07-03:00",
-      "expires": "2026-05-12T15:00:00-03:00"
-    },
-    {
-      "date": "12/05/2026",
-      "time": "10:25",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-12T10:25:18-03:00",
-      "expires": "2026-05-12T14:30:00-03:00"
-    },
-    {
-      "date": "12/05/2026",
-      "time": "10:11",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (12MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-12T10:11:32-03:00",
-      "expires": "2026-05-12T23:55:00-03:00"
-    },
-    {
-      "date": "12/05/2026",
-      "time": "09:58",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-12T09:58:16-03:00",
-      "expires": "2026-05-12T13:30:00-03:00"
-    },
-    {
-      "date": "12/05/2026",
-      "time": "09:58",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Alagamentos",
-      "nivel": "Severo",
-      "uf": "PA",
-      "location": "Almeirim/PA",
-      "headline": "Defesa Civil:ALERTA para ALAGAMENTOS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil. Emergencia, ligue 193.",
-      "status": "expirado",
-      "onset": "2026-05-12T09:58:00-03:00",
-      "expires": "2026-05-12T15:00:00-03:00"
-    },
-    {
-      "date": "12/05/2026",
-      "time": "09:51",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Nhamundá/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.  Afaste-se de encostas. Procure abrigo seguro. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-12T09:51:01-03:00",
-      "expires": "2026-05-12T18:00:00-03:00"
-    },
-    {
-      "date": "12/05/2026",
-      "time": "09:33",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Nhamundá/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Atencao para pontos de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-12T09:33:44-03:00",
-      "expires": "2026-05-12T14:00:00-03:00"
-    },
-    {
-      "date": "12/05/2026",
-      "time": "09:00",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Parintins/AM, Barreirinha/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-12T09:00:00-03:00",
-      "expires": "2026-05-12T16:00:00-03:00"
-    },
-    {
-      "date": "12/05/2026",
-      "time": "08:47",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Nhamundá/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-12T08:47:02-03:00",
-      "expires": "2026-05-12T11:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 40,
+    "total_alerts": 28,
     "by_nivel": {
-      "Alto": 17,
-      "Médio": 16,
-      "Severo": 6,
+      "Médio": 13,
+      "Alto": 11,
+      "Severo": 3,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 40
+      "Google": 28
     },
     "by_region": {
-      "N": 22,
       "NE": 13,
+      "N": 10,
       "SE": 4,
       "S": 1
     }
