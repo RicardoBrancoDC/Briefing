@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-13T07:45:29.292273-03:00",
-  "source_run_dir": "run_20260513_074517",
+  "generated_at": "2026-05-13T08:45:29.761126-03:00",
+  "source_run_dir": "run_20260513_084507",
   "cards": {
-    "vigentes": 12,
-    "ultimas24h": 39,
-    "autoridadesAtivas": 15,
+    "vigentes": 11,
+    "ultimas24h": 40,
+    "autoridadesAtivas": 16,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "08:32",
+      "date": "13/05/2026",
+      "senderName": "Defesa Civil de Jaqueira (PE)",
+      "senderNameShort": "DC Jaqueira (PE)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Jaqueira/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:Alerta defesa civil Jaqueira/PE continuidade de pancadas de chuva com intensiade MODERADA (pontualmente FORTE), prox:24h(81)99303-3184 ou 193",
+      "status": "vigente"
+    },
     {
       "time": "21:48",
       "date": "12/05/2026",
@@ -55,18 +67,6 @@
       "uf": "MG",
       "headline": "Defesa Civil:18h55 - Possibilidade de chuva moderada nas proximas 2 horas. Recomenda-se atencao. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
       "status": "expirado"
-    },
-    {
-      "time": "18:56",
-      "date": "12/05/2026",
-      "senderName": "Defesa Civil de Sairé (PE)",
-      "senderNameShort": "DC Sairé (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Sairé/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:Alerta de continuidade de Chuvas Intensas para Saire/PEPossibilidade de danos nas estradas vicinais do municipio.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -101,6 +101,11 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil de Jaqueira (PE)",
+      "short_name": "DC Jaqueira (PE)",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil de Cabedelo (PB)",
       "short_name": "DC Cabedelo (PB)",
       "count": 1
@@ -114,11 +119,6 @@
       "name": "Defesa Civil de Jaboatao dos Guararapes (PE)",
       "short_name": "DC Jaboatao dos Guararapes (PE)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Sairé (PE)",
-      "short_name": "DC Sairé (PE)",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -128,7 +128,7 @@
     },
     {
       "label": "Médio",
-      "count": 15
+      "count": 16
     },
     {
       "label": "Alto",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 20
+      "count": 21
     },
     {
       "label": "Solo/Lama",
@@ -176,7 +176,7 @@
     },
     {
       "uf": "PE",
-      "count": 7
+      "count": 8
     },
     {
       "uf": "PA",
@@ -214,14 +214,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 12
+      "count": 11
     },
     {
       "label": "expirado",
-      "count": 27
+      "count": 29
     }
   ],
   "all_alerts": [
+    {
+      "date": "13/05/2026",
+      "time": "08:32",
+      "senderName": "Defesa Civil de Jaqueira (PE)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PE",
+      "location": "Jaqueira/PE",
+      "headline": "Defesa Civil:Alerta defesa civil Jaqueira/PE continuidade de pancadas de chuva com intensiade MODERADA (pontualmente FORTE), prox:24h(81)99303-3184 ou 193",
+      "status": "vigente",
+      "onset": "2026-05-13T08:32:47-03:00",
+      "expires": "2026-05-13T13:00:00-03:00"
+    },
     {
       "date": "12/05/2026",
       "time": "21:48",
@@ -400,7 +413,7 @@
       "uf": "MG",
       "location": "Belo Horizonte/MG",
       "headline": "Defesa Civil:Chuva (ate 20 mm), raios e ventos de 40 km/h ate 8h de quarta-feira (13) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T15:56:05-03:00",
       "expires": "2026-05-13T08:00:00-03:00"
     },
@@ -530,7 +543,7 @@
       "uf": "PE",
       "location": "Ipojuca/PE",
       "headline": "Defesa Civil:ALERTA de continuacao das chuvas fortes moradores em areas de risco devem ficar atentos.Duvidas:0800-281-0620/99231-8607.Plantao 24h",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T13:27:38-03:00",
       "expires": "2026-05-13T08:00:00-03:00"
     },
@@ -731,19 +744,19 @@
     }
   ],
   "summary": {
-    "total_alerts": 39,
+    "total_alerts": 40,
     "by_nivel": {
       "Alto": 17,
-      "Médio": 15,
+      "Médio": 16,
       "Severo": 6,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 39
+      "Google": 40
     },
     "by_region": {
       "N": 22,
-      "NE": 12,
+      "NE": 13,
       "SE": 4,
       "S": 1
     }
