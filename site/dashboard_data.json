@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-05-12T20:20:40.100120-03:00",
-  "source_run_dir": "run_20260512_202013",
+  "generated_at": "2026-05-13T01:15:54.845586-03:00",
+  "source_run_dir": "run_20260513_011532",
   "cards": {
-    "vigentes": 18,
+    "vigentes": 12,
     "ultimas24h": 42,
-    "autoridadesAtivas": 14,
+    "autoridadesAtivas": 16,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "21:48",
+      "date": "12/05/2026",
+      "senderName": "Defesa Civil de Cabedelo (PB)",
+      "senderNameShort": "DC Cabedelo (PB)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Cabedelo/PB",
+      "uf": "PB",
+      "headline": "Defesa Civil:Alerta de Chuvas e ventos fortes em Cabedelo. Risco de alagamentos e queda de arvores. Evite areas alagadas e abrigue-se. Emergencia: 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "20:36",
+      "date": "12/05/2026",
+      "senderName": "Defesa Civil Mangaratiba (RJ)",
+      "senderNameShort": "Defesa Civil Mangaratiba (R…",
+      "event": "Marés De Tempestade (Ressacas)",
+      "nivel": "Alto",
+      "location": "Mangaratiba/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ - Aviso de Ressaca. Inicio:11/05 (segunda-feira) as 06h. Fim:13/05 (quarta-feira) as 09h.Ondas de 3,0 metros.Emergencia:3030-2662.",
+      "status": "vigente"
+    },
+    {
+      "time": "20:34",
+      "date": "12/05/2026",
+      "senderName": "Defesa Civil de Jaboatao dos Guararapes (PE)",
+      "senderNameShort": "DC Jaboatao dos Guararapes…",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Jaboatão dos Guararapes/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:Alerta de continuidade de chuvas, moderadas a fortes para Jaboatao dos Guararapes. Em caso de emergencias ligue para a defesa civil  0800 281 2099",
+      "status": "vigente"
+    },
     {
       "time": "19:02",
       "date": "12/05/2026",
@@ -31,49 +67,13 @@
       "uf": "PE",
       "headline": "Defesa Civil:Alerta de continuidade de Chuvas Intensas para Saire/PEPossibilidade de danos nas estradas vicinais do municipio.",
       "status": "vigente"
-    },
-    {
-      "time": "18:21",
-      "date": "12/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Terra Santa/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (12MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente"
-    },
-    {
-      "time": "18:00",
-      "date": "12/05/2026",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "senderNameShort": "DC Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PERNAMBUCO/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:PE: AGRESTE. ALERTA. Continuidade pancadas de chuva com intensidade MODERADA nas prox 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se",
-      "status": "vigente"
-    },
-    {
-      "time": "18:00",
-      "date": "12/05/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Friagem",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Observação Meteorológica SDC/SC 12/05 09:30 - Frio intenso na madrugada de quarta-feira (13). Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 16
+      "count": 15
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -101,23 +101,23 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 2
+      "name": "Defesa Civil de Cabedelo (PB)",
+      "short_name": "DC Cabedelo (PB)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Mangaratiba (RJ)",
+      "short_name": "Defesa Civil Mangaratiba (RJ)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Jaboatao dos Guararapes (PE)",
+      "short_name": "DC Jaboatao dos Guararapes (PE)",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Sairé (PE)",
       "short_name": "DC Sairé (PE)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Barueri (SP)",
-      "short_name": "DC Barueri (SP)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Recife (PE)",
-      "short_name": "DC Recife (PE)",
       "count": 1
     }
   ],
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 22
+      "count": 23
     },
     {
       "label": "Solo/Lama",
@@ -150,18 +150,18 @@
     },
     {
       "label": "Alagamentos",
-      "count": 7
+      "count": 6
     },
     {
       "label": "Friagem",
       "count": 2
     },
     {
-      "label": "Frentes Frias/Zonas De Convergência",
+      "label": "Marés De Tempestade (Ressacas)",
       "count": 1
     },
     {
-      "label": "Deslizamentos",
+      "label": "Frentes Frias/Zonas De Convergência",
       "count": 1
     },
     {
@@ -172,11 +172,11 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 20
+      "count": 19
     },
     {
       "uf": "PE",
-      "count": 6
+      "count": 7
     },
     {
       "uf": "PA",
@@ -191,33 +191,76 @@
       "count": 2
     },
     {
-      "uf": "SC",
-      "count": 2
-    },
-    {
       "uf": "SP",
       "count": 2
     },
     {
-      "uf": "MA",
+      "uf": "PB",
       "count": 1
     },
     {
       "uf": "RJ",
+      "count": 1
+    },
+    {
+      "uf": "SC",
+      "count": 1
+    },
+    {
+      "uf": "MA",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 18
+      "count": 12
     },
     {
       "label": "expirado",
-      "count": 24
+      "count": 30
     }
   ],
   "all_alerts": [
+    {
+      "date": "12/05/2026",
+      "time": "21:48",
+      "senderName": "Defesa Civil de Cabedelo (PB)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PB",
+      "location": "Cabedelo/PB",
+      "headline": "Defesa Civil:Alerta de Chuvas e ventos fortes em Cabedelo. Risco de alagamentos e queda de arvores. Evite areas alagadas e abrigue-se. Emergencia: 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-12T21:48:45-03:00",
+      "expires": "2026-05-13T09:00:00-03:00"
+    },
+    {
+      "date": "12/05/2026",
+      "time": "20:36",
+      "senderName": "Defesa Civil Mangaratiba (RJ)",
+      "event": "Marés De Tempestade (Ressacas)",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Mangaratiba/RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ - Aviso de Ressaca. Inicio:11/05 (segunda-feira) as 06h. Fim:13/05 (quarta-feira) as 09h.Ondas de 3,0 metros.Emergencia:3030-2662.",
+      "status": "vigente",
+      "onset": "2026-05-12T20:36:23-03:00",
+      "expires": "2026-05-13T09:00:00-03:00"
+    },
+    {
+      "date": "12/05/2026",
+      "time": "20:34",
+      "senderName": "Defesa Civil de Jaboatao dos Guararapes (PE)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PE",
+      "location": "Jaboatão dos Guararapes/PE",
+      "headline": "Defesa Civil:Alerta de continuidade de chuvas, moderadas a fortes para Jaboatao dos Guararapes. Em caso de emergencias ligue para a defesa civil  0800 281 2099",
+      "status": "vigente",
+      "onset": "2026-05-12T20:34:00-03:00",
+      "expires": "2026-05-13T20:30:00-03:00"
+    },
     {
       "date": "12/05/2026",
       "time": "19:02",
@@ -253,7 +296,7 @@
       "uf": "PA",
       "location": "Terra Santa/PA",
       "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (12MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T18:21:27-03:00",
       "expires": "2026-05-12T23:55:00-03:00"
     },
@@ -344,7 +387,7 @@
       "uf": "AM",
       "location": "Itacoatiara/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T17:04:42-03:00",
       "expires": "2026-05-12T22:00:00-03:00"
     },
@@ -370,7 +413,7 @@
       "uf": "AM",
       "location": "Manaquiri/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Redobre atencao em areas inclinadas. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T15:24:04-03:00",
       "expires": "2026-05-12T21:00:00-03:00"
     },
@@ -383,7 +426,7 @@
       "uf": "PI",
       "location": "Parnaíba/PI",
       "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS em Parnaiba/PI. EVITE LOCAIS DE ALAGAMENTOS OU ENXURRADAS, Proteja-se. Em caso de emergencia, LIGUE 193 ou 190.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T15:08:55-03:00",
       "expires": "2026-05-12T23:55:00-03:00"
     },
@@ -396,7 +439,7 @@
       "uf": "PI",
       "location": "Teresina/PI",
       "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS, nesta noite, em Teresina/PI. EVITE AREAS DE ALAGAMENTOS OU ENXURRADAS. Em caso de emergencia, LIGUE 193 ou 190.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T15:04:26-03:00",
       "expires": "2026-05-12T23:55:00-03:00"
     },
@@ -422,7 +465,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas no PIAUI. EVITE AREAS DE ALAGAMENTOS OU DE ENXURRADAS, PROTEJA-SE EM LOCAL SEGURO. Em emergencia, ligue 193 ou 190.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T14:55:46-03:00",
       "expires": "2026-05-12T23:55:00-03:00"
     },
@@ -526,7 +569,7 @@
       "uf": "MA",
       "location": "MARANHÃO-MA",
       "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T12:01:00-03:00",
       "expires": "2026-05-12T23:55:00-03:00"
     },
@@ -604,7 +647,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (12MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T10:11:32-03:00",
       "expires": "2026-05-12T23:55:00-03:00"
     },
@@ -724,45 +767,6 @@
       "status": "expirado",
       "onset": "2026-05-12T01:32:28-03:00",
       "expires": "2026-05-12T08:00:00-03:00"
-    },
-    {
-      "date": "11/05/2026",
-      "time": "21:30",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Boa Vista do Ramos/AM, Autazes/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-11T21:30:00-03:00",
-      "expires": "2026-05-11T23:00:00-03:00"
-    },
-    {
-      "date": "11/05/2026",
-      "time": "21:06",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 11/05 21:04 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para os municípios de Balneário Rincão, Florianópolis e Imbituba. Pico previsto às 00:00 h. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-11T21:06:55-03:00",
-      "expires": "2026-05-12T02:05:00-03:00"
-    },
-    {
-      "date": "11/05/2026",
-      "time": "21:00",
-      "senderName": "Defesa Civil de Campo dos Goytacazes (RJ)",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Campos dos Goytacazes/RJ",
-      "headline": "Defesa Civil:Alerta de Ressaca entre a noite de segunda (11) e a noite de terca (12). Atencao ao trafegar na faixa litoranea ja atingida pela erosao costeira.",
-      "status": "vigente",
-      "onset": "2026-05-11T21:00:00-03:00",
-      "expires": "2026-05-12T23:00:00-03:00"
     }
   ],
   "summary": {
@@ -777,10 +781,10 @@
       "Google": 42
     },
     "by_region": {
-      "N": 25,
-      "NE": 10,
+      "N": 24,
+      "NE": 12,
       "SE": 5,
-      "S": 2
+      "S": 1
     }
   }
 }
