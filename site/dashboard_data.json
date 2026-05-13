@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-13T18:48:06.211416-03:00",
-  "source_run_dir": "run_20260513_184747",
+  "generated_at": "2026-05-13T20:33:49.005284-03:00",
+  "source_run_dir": "run_20260513_203327",
   "cards": {
-    "vigentes": 13,
-    "ultimas24h": 25,
-    "autoridadesAtivas": 13,
+    "vigentes": 7,
+    "ultimas24h": 23,
+    "autoridadesAtivas": 12,
     "alertasExtremos": 0
   },
   "latest_alerts": [
@@ -54,7 +54,7 @@
       "location": "PARÁ/PA",
       "uf": "PA",
       "headline": "Defesa Civil:METROPOLITANA BELEM:Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de Alagamentos e vendavais. Evite areas alagadas e dirija com atencao",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:32",
@@ -66,7 +66,7 @@
       "location": "Marabá/PA",
       "uf": "PA",
       "headline": "Defesa Civil:MARABA:Alerta ALTO de ALAGAMENTOS nas proximas horas por chuvas intensas. Evite contato com a agua de alagamentos.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -81,11 +81,6 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil de Belo Horizonte (MG)",
-      "short_name": "DC Belo Horizonte (MG)",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil Estadual de Pernambuco",
       "short_name": "DC Pernambuco",
       "count": 1
@@ -93,6 +88,11 @@
     {
       "name": "Defesa Civil de Parauapebas (PA)",
       "short_name": "DC Parauapebas (PA)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Belo Horizonte (MG)",
+      "short_name": "DC Belo Horizonte (MG)",
       "count": 1
     },
     {
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 10
+      "count": 8
     },
     {
       "label": "Alto",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 21
+      "count": 19
     },
     {
       "label": "Alagamentos",
@@ -160,11 +160,11 @@
     },
     {
       "uf": "MG",
-      "count": 5
+      "count": 4
     },
     {
       "uf": "PE",
-      "count": 4
+      "count": 3
     },
     {
       "uf": "PI",
@@ -186,11 +186,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 13
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 12
+      "count": 16
     }
   ],
   "all_alerts": [
@@ -242,7 +242,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:METROPOLITANA BELEM:Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de Alagamentos e vendavais. Evite areas alagadas e dirija com atencao",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-13T16:57:33-03:00",
       "expires": "2026-05-13T19:00:00-03:00"
     },
@@ -255,7 +255,7 @@
       "uf": "PA",
       "location": "Marabá/PA",
       "headline": "Defesa Civil:MARABA:Alerta ALTO de ALAGAMENTOS nas proximas horas por chuvas intensas. Evite contato com a agua de alagamentos.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-13T16:32:54-03:00",
       "expires": "2026-05-13T19:05:00-03:00"
     },
@@ -268,7 +268,7 @@
       "uf": "PA",
       "location": "Eldorado dos Carajás/PA",
       "headline": "Defesa Civil:ELDORADO CARAJAS:Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-13T16:30:36-03:00",
       "expires": "2026-05-13T19:00:00-03:00"
     },
@@ -281,7 +281,7 @@
       "uf": "PA",
       "location": "Curionópolis/PA",
       "headline": "Defesa Civil:CURIONOPOLIS: Alerta ALTO de CHUVAS INTENSAS hoje (01MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-13T16:28:21-03:00",
       "expires": "2026-05-13T19:00:00-03:00"
     },
@@ -294,7 +294,7 @@
       "uf": "PA",
       "location": "Tailândia/PA",
       "headline": "Defesa Civil:TAILANDIA Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-13T16:26:41-03:00",
       "expires": "2026-05-13T19:00:00-03:00"
     },
@@ -489,51 +489,25 @@
       "uf": "PE",
       "location": "Jaboatão dos Guararapes/PE",
       "headline": "Defesa Civil:Alerta de continuidade de chuvas, moderadas a fortes para Jaboatao dos Guararapes. Em caso de emergencias ligue para a defesa civil  0800 281 2099",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-12T20:34:00-03:00",
       "expires": "2026-05-13T20:30:00-03:00"
-    },
-    {
-      "date": "12/05/2026",
-      "time": "19:02",
-      "senderName": "Defesa Civil de Belo Horizonte (MG)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "Belo Horizonte/MG",
-      "headline": "Defesa Civil:18h55 - Possibilidade de chuva moderada nas proximas 2 horas. Recomenda-se atencao. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "expirado",
-      "onset": "2026-05-12T19:02:00-03:00",
-      "expires": "2026-05-12T19:10:00-03:00"
-    },
-    {
-      "date": "12/05/2026",
-      "time": "18:56",
-      "senderName": "Defesa Civil de Sairé (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Sairé/PE",
-      "headline": "Defesa Civil:Alerta de continuidade de Chuvas Intensas para Saire/PEPossibilidade de danos nas estradas vicinais do municipio.",
-      "status": "expirado",
-      "onset": "2026-05-12T18:56:45-03:00",
-      "expires": "2026-05-13T18:45:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 25,
+    "total_alerts": 23,
     "by_nivel": {
       "Alto": 14,
-      "Médio": 10,
+      "Médio": 8,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 25
+      "Google": 23
     },
     "by_region": {
       "N": 12,
-      "NE": 7,
-      "SE": 6
+      "NE": 6,
+      "SE": 5
     }
   }
 }
