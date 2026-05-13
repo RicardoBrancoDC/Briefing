@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-13T01:15:54.845586-03:00",
-  "source_run_dir": "run_20260513_011532",
+  "generated_at": "2026-05-13T04:32:12.999433-03:00",
+  "source_run_dir": "run_20260513_043155",
   "cards": {
     "vigentes": 12,
-    "ultimas24h": 42,
-    "autoridadesAtivas": 16,
+    "ultimas24h": 40,
+    "autoridadesAtivas": 15,
     "alertasExtremos": 0
   },
   "latest_alerts": [
@@ -81,11 +81,6 @@
       "count": 5
     },
     {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 4
-    },
-    {
       "name": "Defesa Civil Estadual de Pernambuco",
       "short_name": "DC Pernambuco",
       "count": 3
@@ -93,6 +88,11 @@
     {
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
+      "count": 3
+    },
+    {
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
       "count": 3
     },
     {
@@ -128,7 +128,7 @@
     },
     {
       "label": "Médio",
-      "count": 17
+      "count": 15
     },
     {
       "label": "Alto",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 23
+      "count": 21
     },
     {
       "label": "Solo/Lama",
@@ -172,7 +172,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 19
+      "count": 18
     },
     {
       "uf": "PE",
@@ -191,10 +191,6 @@
       "count": 2
     },
     {
-      "uf": "SP",
-      "count": 2
-    },
-    {
       "uf": "PB",
       "count": 1
     },
@@ -204,6 +200,10 @@
     },
     {
       "uf": "SC",
+      "count": 1
+    },
+    {
+      "uf": "SP",
       "count": 1
     },
     {
@@ -218,7 +218,7 @@
     },
     {
       "label": "expirado",
-      "count": 30
+      "count": 28
     }
   ],
   "all_alerts": [
@@ -741,49 +741,23 @@
       "status": "expirado",
       "onset": "2026-05-12T06:58:05-03:00",
       "expires": "2026-05-12T08:00:00-03:00"
-    },
-    {
-      "date": "12/05/2026",
-      "time": "03:36",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:03h35 Chuva fraca e isolada na regiao de Araraquara e Matao. Tem ventos. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-12T03:36:08-03:00",
-      "expires": "2026-05-12T03:35:00-03:00"
-    },
-    {
-      "date": "12/05/2026",
-      "time": "01:32",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.¿",
-      "status": "expirado",
-      "onset": "2026-05-12T01:32:28-03:00",
-      "expires": "2026-05-12T08:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 42,
+    "total_alerts": 40,
     "by_nivel": {
       "Alto": 18,
-      "Médio": 17,
+      "Médio": 15,
       "Severo": 6,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 42
+      "Google": 40
     },
     "by_region": {
-      "N": 24,
+      "N": 23,
       "NE": 12,
-      "SE": 5,
+      "SE": 4,
       "S": 1
     }
   }
