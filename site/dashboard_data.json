@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-14T15:12:09.196312-03:00",
-  "source_run_dir": "run_20260514_151152",
+  "generated_at": "2026-05-14T17:04:20.824737-03:00",
+  "source_run_dir": "run_20260514_170407",
   "cards": {
-    "vigentes": 5,
-    "ultimas24h": 26,
+    "vigentes": 6,
+    "ultimas24h": 22,
     "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "16:02",
+      "date": "14/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PARÁ/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
+      "status": "vigente"
+    },
     {
       "time": "11:48",
       "date": "14/05/2026",
@@ -55,25 +67,13 @@
       "uf": "PB",
       "headline": "Defesa Civil:Alerta de Chuvas e ventos fortes em Cabedelo. Risco de alagamentos. Evite areas alagadas e abrigue-se. Emergencia: 199 ou 193.",
       "status": "vigente"
-    },
-    {
-      "time": "09:23",
-      "date": "14/05/2026",
-      "senderName": "Defesa Civil de Belém (PA)",
-      "senderNameShort": "DC Belém (PA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Belém/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:SEOPDEC: Alertas de chuvas e raios INTENSOS para hoje 14MAI. Risco de alagamentos e destelhamentos. Atencao a novos alertas.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 9
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -132,7 +132,7 @@
     },
     {
       "label": "Alto",
-      "count": 12
+      "count": 8
     },
     {
       "label": "Severo",
@@ -142,11 +142,11 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 22
+      "count": 19
     },
     {
       "label": "Alagamentos",
-      "count": 3
+      "count": 2
     },
     {
       "label": "Frentes Frias/Zonas De Convergência",
@@ -156,7 +156,7 @@
   "uf_distribution": [
     {
       "uf": "PA",
-      "count": 11
+      "count": 7
     },
     {
       "uf": "AM",
@@ -186,14 +186,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 6
     },
     {
       "label": "expirado",
-      "count": 21
+      "count": 16
     }
   ],
   "all_alerts": [
+    {
+      "date": "14/05/2026",
+      "time": "16:02",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "PARÁ/PA",
+      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
+      "status": "vigente",
+      "onset": "2026-05-14T16:02:28-03:00",
+      "expires": "2026-05-14T18:20:00-03:00"
+    },
     {
       "date": "14/05/2026",
       "time": "11:48",
@@ -466,86 +479,21 @@
       "status": "expirado",
       "onset": "2026-05-13T17:04:27-03:00",
       "expires": "2026-05-13T23:55:00-03:00"
-    },
-    {
-      "date": "13/05/2026",
-      "time": "16:57",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:METROPOLITANA BELEM:Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de Alagamentos e vendavais. Evite areas alagadas e dirija com atencao",
-      "status": "expirado",
-      "onset": "2026-05-13T16:57:33-03:00",
-      "expires": "2026-05-13T19:00:00-03:00"
-    },
-    {
-      "date": "13/05/2026",
-      "time": "16:32",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Marabá/PA",
-      "headline": "Defesa Civil:MARABA:Alerta ALTO de ALAGAMENTOS nas proximas horas por chuvas intensas. Evite contato com a agua de alagamentos.",
-      "status": "expirado",
-      "onset": "2026-05-13T16:32:54-03:00",
-      "expires": "2026-05-13T19:05:00-03:00"
-    },
-    {
-      "date": "13/05/2026",
-      "time": "16:30",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Eldorado dos Carajás/PA",
-      "headline": "Defesa Civil:ELDORADO CARAJAS:Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-13T16:30:36-03:00",
-      "expires": "2026-05-13T19:00:00-03:00"
-    },
-    {
-      "date": "13/05/2026",
-      "time": "16:28",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Curionópolis/PA",
-      "headline": "Defesa Civil:CURIONOPOLIS: Alerta ALTO de CHUVAS INTENSAS hoje (01MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-13T16:28:21-03:00",
-      "expires": "2026-05-13T19:00:00-03:00"
-    },
-    {
-      "date": "13/05/2026",
-      "time": "16:26",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Tailândia/PA",
-      "headline": "Defesa Civil:TAILANDIA Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-13T16:26:41-03:00",
-      "expires": "2026-05-13T19:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 26,
+    "total_alerts": 22,
     "by_nivel": {
-      "Alto": 12,
       "Médio": 10,
+      "Alto": 8,
       "Severo": 3,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 26
+      "Google": 22
     },
     "by_region": {
-      "N": 16,
+      "N": 12,
       "SE": 7,
       "NE": 3
     }
