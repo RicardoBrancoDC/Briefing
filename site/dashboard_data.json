@@ -1,15 +1,51 @@
 {
-  "generated_at": "2026-05-14T17:04:20.824737-03:00",
-  "source_run_dir": "run_20260514_170407",
+  "generated_at": "2026-05-14T18:41:44.880793-03:00",
+  "source_run_dir": "run_20260514_184130",
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 22,
-    "autoridadesAtivas": 11,
+    "vigentes": 11,
+    "ultimas24h": 25,
+    "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "16:02",
+      "time": "18:35",
+      "date": "14/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Jacundá/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
+      "status": "vigente"
+    },
+    {
+      "time": "18:30",
+      "date": "14/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Acará/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
+      "status": "vigente"
+    },
+    {
+      "time": "18:12",
+      "date": "14/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Goianésia do Pará/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:GOIANESIA DO PARA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais.Evite areas alagadas e dirija com atencao.",
+      "status": "vigente"
+    },
+    {
+      "time": "17:36",
       "date": "14/05/2026",
       "senderName": "Defesa Civil Estadual do Pará",
       "senderNameShort": "DC Pará",
@@ -21,51 +57,15 @@
       "status": "vigente"
     },
     {
-      "time": "11:48",
-      "date": "14/05/2026",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "senderNameShort": "DC Maranhão",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MARANHÃO-MA",
-      "uf": "MA",
-      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "10:09",
+      "time": "17:33",
       "date": "14/05/2026",
       "senderName": "Defesa Civil Estadual do Pará",
       "senderNameShort": "DC Pará",
       "event": "Chuvas Intensas",
       "nivel": "Alto",
-      "location": "PARÁ/PA",
+      "location": "São Félix do Xingu/PA, Tucumã/PA",
       "uf": "PA",
-      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (14MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente"
-    },
-    {
-      "time": "09:36",
-      "date": "14/05/2026",
-      "senderName": "Defesa Civil de Belo Horizonte (MG)",
-      "senderNameShort": "DC Belo Horizonte (MG)",
-      "event": "Frentes Frias/Zonas De Convergência",
-      "nivel": "Baixo",
-      "location": "Belo Horizonte/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Chuva (ate 20 mm), ventos de 40 km/h ate 8h de sexta-feira (15) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente"
-    },
-    {
-      "time": "09:27",
-      "date": "14/05/2026",
-      "senderName": "Defesa Civil de Cabedelo (PB)",
-      "senderNameShort": "DC Cabedelo (PB)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Cabedelo/PB",
-      "uf": "PB",
-      "headline": "Defesa Civil:Alerta de Chuvas e ventos fortes em Cabedelo. Risco de alagamentos. Evite areas alagadas e abrigue-se. Emergencia: 199 ou 193.",
+      "headline": "Defesa Civil:SUDESTE PARAENSE: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
       "status": "vigente"
     }
   ],
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 5
+      "count": 10
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -114,11 +114,6 @@
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Pernambuco",
-      "short_name": "DC Pernambuco",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -128,21 +123,21 @@
     },
     {
       "label": "Médio",
-      "count": 10
+      "count": 9
     },
     {
       "label": "Alto",
-      "count": 8
+      "count": 11
     },
     {
       "label": "Severo",
-      "count": 3
+      "count": 4
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 19
+      "count": 22
     },
     {
       "label": "Alagamentos",
@@ -156,7 +151,7 @@
   "uf_distribution": [
     {
       "uf": "PA",
-      "count": 7
+      "count": 11
     },
     {
       "uf": "AM",
@@ -177,23 +172,97 @@
     {
       "uf": "PB",
       "count": 1
-    },
-    {
-      "uf": "PE",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 11
     },
     {
       "label": "expirado",
-      "count": 16
+      "count": 14
     }
   ],
   "all_alerts": [
+    {
+      "date": "14/05/2026",
+      "time": "18:35",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "PA",
+      "location": "Jacundá/PA",
+      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
+      "status": "vigente",
+      "onset": "2026-05-14T18:35:00-03:00",
+      "expires": "2026-05-14T21:00:00-03:00"
+    },
+    {
+      "date": "14/05/2026",
+      "time": "18:30",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "PA",
+      "location": "Acará/PA",
+      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
+      "status": "vigente",
+      "onset": "2026-05-14T18:30:10-03:00",
+      "expires": "2026-05-14T21:00:00-03:00"
+    },
+    {
+      "date": "14/05/2026",
+      "time": "18:12",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Goianésia do Pará/PA",
+      "headline": "Defesa Civil:GOIANESIA DO PARA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais.Evite areas alagadas e dirija com atencao.",
+      "status": "vigente",
+      "onset": "2026-05-14T18:12:18-03:00",
+      "expires": "2026-05-14T20:00:00-03:00"
+    },
+    {
+      "date": "14/05/2026",
+      "time": "17:36",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "PARÁ/PA",
+      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
+      "status": "vigente",
+      "onset": "2026-05-14T17:36:12-03:00",
+      "expires": "2026-05-14T20:00:00-03:00"
+    },
+    {
+      "date": "14/05/2026",
+      "time": "17:33",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "São Félix do Xingu/PA, Tucumã/PA",
+      "headline": "Defesa Civil:SUDESTE PARAENSE: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
+      "status": "vigente",
+      "onset": "2026-05-14T17:33:15-03:00",
+      "expires": "2026-05-14T19:00:00-03:00"
+    },
+    {
+      "date": "14/05/2026",
+      "time": "17:15",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "São Miguel do Guamá/PA",
+      "headline": "Defesa Civil:SAO MIGUEL: Alerta ALTO de CHUVAS INTENSAS para as proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
+      "status": "vigente",
+      "onset": "2026-05-14T17:15:24-03:00",
+      "expires": "2026-05-14T20:00:00-03:00"
+    },
     {
       "date": "14/05/2026",
       "time": "16:02",
@@ -203,7 +272,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-14T16:02:28-03:00",
       "expires": "2026-05-14T18:20:00-03:00"
     },
@@ -440,62 +509,23 @@
       "status": "expirado",
       "onset": "2026-05-13T20:41:59-03:00",
       "expires": "2026-05-13T22:40:00-03:00"
-    },
-    {
-      "date": "13/05/2026",
-      "time": "18:17",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "PA",
-      "location": "São Miguel do Guamá/PA",
-      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "expirado",
-      "onset": "2026-05-13T18:17:45-03:00",
-      "expires": "2026-05-13T21:00:00-03:00"
-    },
-    {
-      "date": "13/05/2026",
-      "time": "17:09",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Fernando de Noronha/PE",
-      "headline": "Defesa Civil:PE: FERNANDO DE NORONHA. ALERTA possibilidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se.",
-      "status": "expirado",
-      "onset": "2026-05-13T17:09:10-03:00",
-      "expires": "2026-05-14T12:00:00-03:00"
-    },
-    {
-      "date": "13/05/2026",
-      "time": "17:04",
-      "senderName": "Defesa Civil de Parauapebas (PA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Parauapebas/PA",
-      "headline": "Defesa Civil:Ha ocorrencia de chuvas intensas, estamos em estado de ALERTA, risco de corte energia, alagamentos, enxurradas e inundacoes. Emergencia ligue 190.",
-      "status": "expirado",
-      "onset": "2026-05-13T17:04:27-03:00",
-      "expires": "2026-05-13T23:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 22,
+    "total_alerts": 25,
     "by_nivel": {
-      "Médio": 10,
-      "Alto": 8,
-      "Severo": 3,
+      "Alto": 11,
+      "Médio": 9,
+      "Severo": 4,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 22
+      "Google": 25
     },
     "by_region": {
-      "N": 12,
+      "N": 16,
       "SE": 7,
-      "NE": 3
+      "NE": 2
     }
   }
 }
