@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-14T04:25:54.118385-03:00",
-  "source_run_dir": "run_20260514_042542",
+  "generated_at": "2026-05-14T07:36:37.317803-03:00",
+  "source_run_dir": "run_20260514_073625",
   "cards": {
-    "vigentes": 10,
-    "ultimas24h": 31,
+    "vigentes": 7,
+    "ultimas24h": 32,
     "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "07:27",
+      "date": "14/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Beruri/AM, Autazes/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "03:59",
       "date": "14/05/2026",
@@ -18,7 +30,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:04h00 Chuva se espalhando pela regiao de Barra Bonita e Sao Miguel. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "03:55",
@@ -30,7 +42,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:03h55 Chuva se espalhando na regiao de Bariri. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "02:48",
@@ -42,7 +54,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:02h48 Chuva fraca e isolada na regiao de Bauru. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "02:32",
@@ -54,19 +66,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:02h30 Chuva fraca e isolada na regiao de Jahu. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente"
-    },
-    {
-      "time": "01:43",
-      "date": "14/05/2026",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "senderNameShort": "DC Manaus (AM)",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL MODERADO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -86,13 +86,13 @@
       "count": 4
     },
     {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
+      "count": 3
+    },
+    {
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
       "count": 2
     },
     {
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 15
+      "count": 16
     },
     {
       "label": "Alto",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 26
+      "count": 27
     },
     {
       "label": "Alagamentos",
@@ -159,11 +159,11 @@
       "count": 6
     },
     {
-      "uf": "SP",
-      "count": 4
+      "uf": "AM",
+      "count": 5
     },
     {
-      "uf": "AM",
+      "uf": "SP",
       "count": 4
     },
     {
@@ -178,14 +178,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 10
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 21
+      "count": 25
     }
   ],
   "all_alerts": [
+    {
+      "date": "14/05/2026",
+      "time": "07:27",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Beruri/AM, Autazes/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-14T07:27:45-03:00",
+      "expires": "2026-05-14T10:30:00-03:00"
+    },
     {
       "date": "14/05/2026",
       "time": "03:59",
@@ -195,7 +208,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:04h00 Chuva se espalhando pela regiao de Barra Bonita e Sao Miguel. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-14T03:59:06-03:00",
       "expires": "2026-05-14T06:00:00-03:00"
     },
@@ -208,7 +221,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:03h55 Chuva se espalhando na regiao de Bariri. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-14T03:55:14-03:00",
       "expires": "2026-05-14T05:55:00-03:00"
     },
@@ -221,7 +234,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:02h48 Chuva fraca e isolada na regiao de Bauru. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-14T02:48:04-03:00",
       "expires": "2026-05-14T04:45:00-03:00"
     },
@@ -234,7 +247,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:02h30 Chuva fraca e isolada na regiao de Jahu. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-14T02:32:46-03:00",
       "expires": "2026-05-14T04:30:00-03:00"
     },
@@ -591,17 +604,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 31,
+    "total_alerts": 32,
     "by_nivel": {
-      "Médio": 15,
+      "Médio": 16,
       "Alto": 13,
       "Severo": 3
     },
     "by_channel_list": {
-      "Google": 31
+      "Google": 32
     },
     "by_region": {
-      "N": 18,
+      "N": 19,
       "SE": 10,
       "NE": 3
     }
