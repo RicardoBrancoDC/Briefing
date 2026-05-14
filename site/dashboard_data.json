@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-14T11:45:33.549497-03:00",
-  "source_run_dir": "run_20260514_114521",
+  "generated_at": "2026-05-14T15:12:09.196312-03:00",
+  "source_run_dir": "run_20260514_151152",
   "cards": {
     "vigentes": 5,
-    "ultimas24h": 34,
+    "ultimas24h": 26,
     "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "11:48",
+      "date": "14/05/2026",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "senderNameShort": "DC Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MARANHÃO-MA",
+      "uf": "MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "10:09",
       "date": "14/05/2026",
@@ -55,25 +67,13 @@
       "uf": "PA",
       "headline": "Defesa Civil:SEOPDEC: Alertas de chuvas e raios INTENSOS para hoje 14MAI. Risco de alagamentos e destelhamentos. Atencao a novos alertas.",
       "status": "vigente"
-    },
-    {
-      "time": "07:27",
-      "date": "14/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Beruri/AM, Autazes/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 13
+      "count": 9
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -81,24 +81,24 @@
       "count": 4
     },
     {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 4
-    },
-    {
-      "name": "Defesa Civil de Belo Horizonte (MG)",
-      "short_name": "DC Belo Horizonte (MG)",
-      "count": 3
-    },
-    {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
       "count": 3
     },
     {
+      "name": "Defesa Civil de Belo Horizonte (MG)",
+      "short_name": "DC Belo Horizonte (MG)",
+      "count": 2
+    },
+    {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual do Maranhão",
+      "short_name": "DC Maranhão",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Cabedelo (PB)",
@@ -111,13 +111,13 @@
       "count": 1
     },
     {
-      "name": "Defesa Civil Estadual de Pernambuco",
-      "short_name": "DC Pernambuco",
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
       "count": 1
     },
     {
-      "name": "Defesa Civil de Parauapebas (PA)",
-      "short_name": "DC Parauapebas (PA)",
+      "name": "Defesa Civil Estadual de Pernambuco",
+      "short_name": "DC Pernambuco",
       "count": 1
     }
   ],
@@ -128,11 +128,11 @@
     },
     {
       "label": "Médio",
-      "count": 15
+      "count": 10
     },
     {
       "label": "Alto",
-      "count": 15
+      "count": 12
     },
     {
       "label": "Severo",
@@ -142,25 +142,21 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 28
+      "count": 22
     },
     {
       "label": "Alagamentos",
-      "count": 4
+      "count": 3
     },
     {
       "label": "Frentes Frias/Zonas De Convergência",
-      "count": 2
+      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "PA",
-      "count": 15
-    },
-    {
-      "uf": "MG",
-      "count": 7
+      "count": 11
     },
     {
       "uf": "AM",
@@ -171,15 +167,19 @@
       "count": 4
     },
     {
+      "uf": "MG",
+      "count": 3
+    },
+    {
+      "uf": "MA",
+      "count": 1
+    },
+    {
       "uf": "PB",
       "count": 1
     },
     {
       "uf": "PE",
-      "count": 1
-    },
-    {
-      "uf": "PI",
       "count": 1
     }
   ],
@@ -190,10 +190,23 @@
     },
     {
       "label": "expirado",
-      "count": 29
+      "count": 21
     }
   ],
   "all_alerts": [
+    {
+      "date": "14/05/2026",
+      "time": "11:48",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MA",
+      "location": "MARANHÃO-MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-14T11:48:00-03:00",
+      "expires": "2026-05-14T23:55:00-03:00"
+    },
     {
       "date": "14/05/2026",
       "time": "10:09",
@@ -437,7 +450,7 @@
       "uf": "PE",
       "location": "Fernando de Noronha/PE",
       "headline": "Defesa Civil:PE: FERNANDO DE NORONHA. ALERTA possibilidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-13T17:09:10-03:00",
       "expires": "2026-05-14T12:00:00-03:00"
     },
@@ -518,139 +531,22 @@
       "status": "expirado",
       "onset": "2026-05-13T16:26:41-03:00",
       "expires": "2026-05-13T19:00:00-03:00"
-    },
-    {
-      "date": "13/05/2026",
-      "time": "15:05",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:NORDESTE PARAENSE: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao",
-      "status": "expirado",
-      "onset": "2026-05-13T15:05:26-03:00",
-      "expires": "2026-05-13T18:00:00-03:00"
-    },
-    {
-      "date": "13/05/2026",
-      "time": "14:50",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Anapu/PA",
-      "headline": "Defesa Civil:ANAPU:Alerta ALTO de ALAGAMENTOS nas proximas horas. Evite contato com a agua de alagamentos e atencao em encostas de morro, serras ou barrancos",
-      "status": "expirado",
-      "onset": "2026-05-13T14:50:13-03:00",
-      "expires": "2026-05-13T17:20:00-03:00"
-    },
-    {
-      "date": "13/05/2026",
-      "time": "14:46",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-13T14:46:10-03:00",
-      "expires": "2026-05-13T17:35:00-03:00"
-    },
-    {
-      "date": "13/05/2026",
-      "time": "14:28",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Marabá/PA",
-      "headline": "Defesa Civil:MARABA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-13T14:28:37-03:00",
-      "expires": "2026-05-13T17:00:00-03:00"
-    },
-    {
-      "date": "13/05/2026",
-      "time": "14:05",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de chuva de intensidade moderada a forte com rajadas de vento. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-05-13T14:05:00-03:00",
-      "expires": "2026-05-13T16:00:00-03:00"
-    },
-    {
-      "date": "13/05/2026",
-      "time": "13:31",
-      "senderName": "Defesa Civil de Belo Horizonte (MG)",
-      "event": "Frentes Frias/Zonas De Convergência",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "Belo Horizonte/MG",
-      "headline": "Defesa Civil:Chuva (ate 20 mm) e ventos de 40 km/h ate 8h de quinta-feira (14) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "expirado",
-      "onset": "2026-05-13T13:31:49-03:00",
-      "expires": "2026-05-14T08:00:00-03:00"
-    },
-    {
-      "date": "13/05/2026",
-      "time": "13:21",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de chuva de intensidade moderada a forte com rajadas de vento. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-05-13T13:21:34-03:00",
-      "expires": "2026-05-13T15:20:00-03:00"
-    },
-    {
-      "date": "13/05/2026",
-      "time": "13:19",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de chuva de intensidade moderada a forte com rajadas de vento. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-05-13T13:19:37-03:00",
-      "expires": "2026-05-13T15:15:00-03:00"
-    },
-    {
-      "date": "13/05/2026",
-      "time": "12:27",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PI",
-      "location": "PIAUÍ/PI",
-      "headline": "Defesa Civil:Alerta de CHUVAS INTENSAS no PIAUI. EVITE LOCAIS DE ALAGAMENTOS E ENXURRADAS, Proteja-se em Local Seguro. Em emergencia, ligue 193 ou 190.",
-      "status": "expirado",
-      "onset": "2026-05-13T12:27:00-03:00",
-      "expires": "2026-05-13T23:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 34,
+    "total_alerts": 26,
     "by_nivel": {
-      "Alto": 15,
-      "Médio": 15,
+      "Alto": 12,
+      "Médio": 10,
       "Severo": 3,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 34
+      "Google": 26
     },
     "by_region": {
-      "N": 20,
-      "SE": 11,
+      "N": 16,
+      "SE": 7,
       "NE": 3
     }
   }
