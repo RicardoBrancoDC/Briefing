@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-05-14T07:36:37.317803-03:00",
-  "source_run_dir": "run_20260514_073625",
+  "generated_at": "2026-05-14T11:45:33.549497-03:00",
+  "source_run_dir": "run_20260514_114521",
   "cards": {
-    "vigentes": 7,
-    "ultimas24h": 32,
+    "vigentes": 5,
+    "ultimas24h": 34,
     "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "10:09",
+      "date": "14/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PARÁ/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (14MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
+      "status": "vigente"
+    },
+    {
+      "time": "09:36",
+      "date": "14/05/2026",
+      "senderName": "Defesa Civil de Belo Horizonte (MG)",
+      "senderNameShort": "DC Belo Horizonte (MG)",
+      "event": "Frentes Frias/Zonas De Convergência",
+      "nivel": "Baixo",
+      "location": "Belo Horizonte/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Chuva (ate 20 mm), ventos de 40 km/h ate 8h de sexta-feira (15) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
+      "status": "vigente"
+    },
+    {
+      "time": "09:27",
+      "date": "14/05/2026",
+      "senderName": "Defesa Civil de Cabedelo (PB)",
+      "senderNameShort": "DC Cabedelo (PB)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Cabedelo/PB",
+      "uf": "PB",
+      "headline": "Defesa Civil:Alerta de Chuvas e ventos fortes em Cabedelo. Risco de alagamentos. Evite areas alagadas e abrigue-se. Emergencia: 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "09:23",
+      "date": "14/05/2026",
+      "senderName": "Defesa Civil de Belém (PA)",
+      "senderNameShort": "DC Belém (PA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Belém/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:SEOPDEC: Alertas de chuvas e raios INTENSOS para hoje 14MAI. Risco de alagamentos e destelhamentos. Atencao a novos alertas.",
+      "status": "vigente"
+    },
     {
       "time": "07:27",
       "date": "14/05/2026",
@@ -18,54 +66,6 @@
       "location": "Beruri/AM, Autazes/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "03:59",
-      "date": "14/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:04h00 Chuva se espalhando pela regiao de Barra Bonita e Sao Miguel. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado"
-    },
-    {
-      "time": "03:55",
-      "date": "14/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:03h55 Chuva se espalhando na regiao de Bariri. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado"
-    },
-    {
-      "time": "02:48",
-      "date": "14/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:02h48 Chuva fraca e isolada na regiao de Bauru. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado"
-    },
-    {
-      "time": "02:32",
-      "date": "14/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:02h30 Chuva fraca e isolada na regiao de Jahu. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
       "status": "expirado"
     }
   ],
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -86,6 +86,11 @@
       "count": 4
     },
     {
+      "name": "Defesa Civil de Belo Horizonte (MG)",
+      "short_name": "DC Belo Horizonte (MG)",
+      "count": 3
+    },
+    {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
       "count": 3
@@ -96,9 +101,14 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil de Belo Horizonte (MG)",
-      "short_name": "DC Belo Horizonte (MG)",
-      "count": 2
+      "name": "Defesa Civil de Cabedelo (PB)",
+      "short_name": "DC Cabedelo (PB)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Belém (PA)",
+      "short_name": "DC Belém (PA)",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual de Pernambuco",
@@ -109,26 +119,20 @@
       "name": "Defesa Civil de Parauapebas (PA)",
       "short_name": "DC Parauapebas (PA)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Piauí",
-      "short_name": "DC Piauí",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Belém (PA)",
-      "short_name": "DC Belém (PA)",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
+      "label": "Baixo",
+      "count": 1
+    },
+    {
       "label": "Médio",
-      "count": 16
+      "count": 15
     },
     {
       "label": "Alto",
-      "count": 13
+      "count": 15
     },
     {
       "label": "Severo",
@@ -138,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 27
+      "count": 28
     },
     {
       "label": "Alagamentos",
@@ -146,17 +150,17 @@
     },
     {
       "label": "Frentes Frias/Zonas De Convergência",
-      "count": 1
+      "count": 2
     }
   ],
   "uf_distribution": [
     {
       "uf": "PA",
-      "count": 14
+      "count": 15
     },
     {
       "uf": "MG",
-      "count": 6
+      "count": 7
     },
     {
       "uf": "AM",
@@ -167,8 +171,12 @@
       "count": 4
     },
     {
+      "uf": "PB",
+      "count": 1
+    },
+    {
       "uf": "PE",
-      "count": 2
+      "count": 1
     },
     {
       "uf": "PI",
@@ -178,14 +186,66 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 5
     },
     {
       "label": "expirado",
-      "count": 25
+      "count": 29
     }
   ],
   "all_alerts": [
+    {
+      "date": "14/05/2026",
+      "time": "10:09",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "PARÁ/PA",
+      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (14MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
+      "status": "vigente",
+      "onset": "2026-05-14T10:09:28-03:00",
+      "expires": "2026-05-14T23:55:00-03:00"
+    },
+    {
+      "date": "14/05/2026",
+      "time": "09:36",
+      "senderName": "Defesa Civil de Belo Horizonte (MG)",
+      "event": "Frentes Frias/Zonas De Convergência",
+      "nivel": "Baixo",
+      "uf": "MG",
+      "location": "Belo Horizonte/MG",
+      "headline": "Defesa Civil:Chuva (ate 20 mm), ventos de 40 km/h ate 8h de sexta-feira (15) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
+      "status": "vigente",
+      "onset": "2026-05-14T09:36:27-03:00",
+      "expires": "2026-05-15T08:00:00-03:00"
+    },
+    {
+      "date": "14/05/2026",
+      "time": "09:27",
+      "senderName": "Defesa Civil de Cabedelo (PB)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PB",
+      "location": "Cabedelo/PB",
+      "headline": "Defesa Civil:Alerta de Chuvas e ventos fortes em Cabedelo. Risco de alagamentos. Evite areas alagadas e abrigue-se. Emergencia: 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-14T09:27:57-03:00",
+      "expires": "2026-05-14T23:55:00-03:00"
+    },
+    {
+      "date": "14/05/2026",
+      "time": "09:23",
+      "senderName": "Defesa Civil de Belém (PA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Belém/PA",
+      "headline": "Defesa Civil:SEOPDEC: Alertas de chuvas e raios INTENSOS para hoje 14MAI. Risco de alagamentos e destelhamentos. Atencao a novos alertas.",
+      "status": "vigente",
+      "onset": "2026-05-14T09:23:24-03:00",
+      "expires": "2026-05-14T23:55:00-03:00"
+    },
     {
       "date": "14/05/2026",
       "time": "07:27",
@@ -195,7 +255,7 @@
       "uf": "AM",
       "location": "Beruri/AM, Autazes/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-14T07:27:45-03:00",
       "expires": "2026-05-14T10:30:00-03:00"
     },
@@ -260,7 +320,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL MODERADO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-14T01:43:24-03:00",
       "expires": "2026-05-14T08:00:00-03:00"
     },
@@ -273,7 +333,7 @@
       "uf": "PA",
       "location": "Belém/PA",
       "headline": "Defesa Civil:ALERTA de ALAGAMENTO. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil. Emergencia, 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-14T00:47:19-03:00",
       "expires": "2026-05-14T10:00:00-03:00"
     },
@@ -312,7 +372,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.¿",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-13T23:44:26-03:00",
       "expires": "2026-05-14T08:00:00-03:00"
     },
@@ -325,7 +385,7 @@
       "uf": "PA",
       "location": "Irituia/PA",
       "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite  areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil. Emergencia, ligue 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-13T20:58:18-03:00",
       "expires": "2026-05-14T10:00:00-03:00"
     },
@@ -533,7 +593,7 @@
       "uf": "MG",
       "location": "Belo Horizonte/MG",
       "headline": "Defesa Civil:Chuva (ate 20 mm) e ventos de 40 km/h ate 8h de quinta-feira (14) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-13T13:31:49-03:00",
       "expires": "2026-05-14T08:00:00-03:00"
     },
@@ -575,47 +635,22 @@
       "status": "expirado",
       "onset": "2026-05-13T12:27:00-03:00",
       "expires": "2026-05-13T23:55:00-03:00"
-    },
-    {
-      "date": "13/05/2026",
-      "time": "09:38",
-      "senderName": "Defesa Civil de Belém (PA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Belém/PA",
-      "headline": "Defesa Civil:SEOPDEC: ALERTA de chuvas intensas e descargas eletricas para hoje, 13MAI, em Belem. Ha risco de alagamentos, ventanias e destelhamentos. ATENCAO.",
-      "status": "expirado",
-      "onset": "2026-05-13T09:38:14-03:00",
-      "expires": "2026-05-13T23:55:00-03:00"
-    },
-    {
-      "date": "13/05/2026",
-      "time": "08:32",
-      "senderName": "Defesa Civil de Jaqueira (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Jaqueira/PE",
-      "headline": "Defesa Civil:Alerta defesa civil Jaqueira/PE continuidade de pancadas de chuva com intensiade MODERADA (pontualmente FORTE), prox:24h(81)99303-3184 ou 193",
-      "status": "expirado",
-      "onset": "2026-05-13T08:32:47-03:00",
-      "expires": "2026-05-13T13:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 32,
+    "total_alerts": 34,
     "by_nivel": {
-      "Médio": 16,
-      "Alto": 13,
-      "Severo": 3
+      "Alto": 15,
+      "Médio": 15,
+      "Severo": 3,
+      "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 32
+      "Google": 34
     },
     "by_region": {
-      "N": 19,
-      "SE": 10,
+      "N": 20,
+      "SE": 11,
       "NE": 3
     }
   }
