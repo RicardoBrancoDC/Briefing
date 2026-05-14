@@ -1,18 +1,133 @@
 {
-  "generated_at": "2026-05-14T01:15:27.979361-03:00",
+  "generated_at": "2026-05-14T04:25:54.182617-03:00",
   "source": ".cache/historico_alertas.json",
   "window_hours": 24,
   "cards": {
-    "vigentes": 7,
-    "ultimas24h": 26,
-    "autoridadesAtivas": 10,
+    "vigentes": 10,
+    "ultimas24h": 31,
+    "autoridadesAtivas": 11,
     "alertasExtremos": 0,
     "alertasSeveros": 3,
     "alertasSeverosExtremos": 3,
-    "estadosComAlerta": 5,
-    "municipiosOuAreasComAlerta": 18
+    "estadosComAlerta": 6,
+    "municipiosOuAreasComAlerta": 19
   },
   "latest_alerts": [
+    {
+      "time": "03:59",
+      "date": "14/05/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:04h00 Chuva se espalhando pela regiao de Barra Bonita e Sao Miguel. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "identifier": "183087/2026",
+      "entry_id": "183087/2026",
+      "sent": "2026-05-14T03:59:06-03:00",
+      "onset": "2026-05-14T03:59:06-03:00",
+      "expires": "2026-05-14T06:00:00-03:00",
+      "category": "Met",
+      "severity": "Moderate",
+      "urgency": "Immediate",
+      "certainty": "Observed",
+      "responseType": "Execute",
+      "channel_list": "Google"
+    },
+    {
+      "time": "03:55",
+      "date": "14/05/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:03h55 Chuva se espalhando na regiao de Bariri. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "identifier": "183086/2026",
+      "entry_id": "183086/2026",
+      "sent": "2026-05-14T03:55:14-03:00",
+      "onset": "2026-05-14T03:55:14-03:00",
+      "expires": "2026-05-14T05:55:00-03:00",
+      "category": "Met",
+      "severity": "Moderate",
+      "urgency": "Immediate",
+      "certainty": "Observed",
+      "responseType": "Execute",
+      "channel_list": "Google"
+    },
+    {
+      "time": "02:48",
+      "date": "14/05/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:02h48 Chuva fraca e isolada na regiao de Bauru. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "identifier": "183085/2026",
+      "entry_id": "183085/2026",
+      "sent": "2026-05-14T02:48:04-03:00",
+      "onset": "2026-05-14T02:48:04-03:00",
+      "expires": "2026-05-14T04:45:00-03:00",
+      "category": "Met",
+      "severity": "Moderate",
+      "urgency": "Immediate",
+      "certainty": "Observed",
+      "responseType": "Execute",
+      "channel_list": "Google"
+    },
+    {
+      "time": "02:32",
+      "date": "14/05/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:02h30 Chuva fraca e isolada na regiao de Jahu. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "identifier": "183084/2026",
+      "entry_id": "183084/2026",
+      "sent": "2026-05-14T02:32:46-03:00",
+      "onset": "2026-05-14T02:32:46-03:00",
+      "expires": "2026-05-14T04:30:00-03:00",
+      "category": "Met",
+      "severity": "Moderate",
+      "urgency": "Immediate",
+      "certainty": "Observed",
+      "responseType": "Execute",
+      "channel_list": "Google"
+    },
+    {
+      "time": "01:43",
+      "date": "14/05/2026",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "senderNameShort": "DC Manaus (AM)",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL MODERADO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.",
+      "status": "vigente",
+      "identifier": "183083/2026",
+      "entry_id": "183083/2026",
+      "sent": "2026-05-14T01:43:24-03:00",
+      "onset": "2026-05-14T01:43:24-03:00",
+      "expires": "2026-05-14T08:00:00-03:00",
+      "category": "Met",
+      "severity": "Moderate",
+      "urgency": "Expected",
+      "certainty": "Likely",
+      "responseType": "Execute",
+      "channel_list": "Google"
+    },
     {
       "time": "00:47",
       "date": "14/05/2026",
@@ -46,7 +161,7 @@
       "location": "Careiro/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "183081/2026",
       "entry_id": "183081/2026",
       "sent": "2026-05-14T00:10:22-03:00",
@@ -69,7 +184,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "183080/2026",
       "entry_id": "183080/2026",
       "sent": "2026-05-14T00:01:01-03:00",
@@ -127,121 +242,6 @@
       "certainty": "Observed",
       "responseType": "Execute",
       "channel_list": "Google"
-    },
-    {
-      "time": "20:45",
-      "date": "13/05/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de pancadas de chuva com rajadas de ventos ocasionais. Proteja-se! Fonte: Defesa Civil Estadual",
-      "status": "expirado",
-      "identifier": "183077/2026",
-      "entry_id": "183077/2026",
-      "sent": "2026-05-13T20:45:34-03:00",
-      "onset": "2026-05-13T20:45:34-03:00",
-      "expires": "2026-05-13T23:50:00-03:00",
-      "category": "Met",
-      "severity": "Severe",
-      "urgency": "Expected",
-      "certainty": "Likely",
-      "responseType": "Execute",
-      "channel_list": "Google"
-    },
-    {
-      "time": "20:41",
-      "date": "13/05/2026",
-      "senderName": "Defesa Civil de Belo Horizonte (MG)",
-      "senderNameShort": "DC Belo Horizonte (MG)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Belo Horizonte/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:20h41 - Possibilidade de chuva moderada a forte nas proximas 2 horas. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "expirado",
-      "identifier": "183076/2026",
-      "entry_id": "183076/2026",
-      "sent": "2026-05-13T20:41:59-03:00",
-      "onset": "2026-05-13T20:41:59-03:00",
-      "expires": "2026-05-13T22:40:00-03:00",
-      "category": "Met",
-      "severity": "Severe",
-      "urgency": "Expected",
-      "certainty": "Likely",
-      "responseType": "Execute",
-      "channel_list": "Google"
-    },
-    {
-      "time": "18:17",
-      "date": "13/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "São Miguel do Guamá/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "expirado",
-      "identifier": "183075/2026",
-      "entry_id": "183075/2026",
-      "sent": "2026-05-13T18:17:45-03:00",
-      "onset": "2026-05-13T18:17:45-03:00",
-      "expires": "2026-05-13T21:00:00-03:00",
-      "category": "Met",
-      "severity": "Extreme",
-      "urgency": "Expected",
-      "certainty": "Observed",
-      "responseType": "Execute",
-      "channel_list": "Google"
-    },
-    {
-      "time": "17:09",
-      "date": "13/05/2026",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "senderNameShort": "DC Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Fernando de Noronha/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:PE: FERNANDO DE NORONHA. ALERTA possibilidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Proteja-se.",
-      "status": "vigente",
-      "identifier": "183074/2026",
-      "entry_id": "183074/2026",
-      "sent": "2026-05-13T17:09:10-03:00",
-      "onset": "2026-05-13T17:09:10-03:00",
-      "expires": "2026-05-14T12:00:00-03:00",
-      "category": "Met",
-      "severity": "Moderate",
-      "urgency": "Expected",
-      "certainty": "Possible",
-      "responseType": "Execute",
-      "channel_list": "Google"
-    },
-    {
-      "time": "17:04",
-      "date": "13/05/2026",
-      "senderName": "Defesa Civil de Parauapebas (PA)",
-      "senderNameShort": "DC Parauapebas (PA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Parauapebas/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:Ha ocorrencia de chuvas intensas, estamos em estado de ALERTA, risco de corte energia, alagamentos, enxurradas e inundacoes. Emergencia ligue 190.",
-      "status": "expirado",
-      "identifier": "183073/2026",
-      "entry_id": "183073/2026",
-      "sent": "2026-05-13T17:04:27-03:00",
-      "onset": "2026-05-13T17:04:27-03:00",
-      "expires": "2026-05-13T23:55:00-03:00",
-      "category": "Met",
-      "severity": "Severe",
-      "urgency": "Immediate",
-      "certainty": "Likely",
-      "responseType": "Execute",
-      "channel_list": "Google"
     }
   ],
   "top_emitters": [
@@ -251,9 +251,19 @@
       "count": 12
     },
     {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 4
+    },
+    {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
       "count": 4
+    },
+    {
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -264,11 +274,6 @@
       "name": "Defesa Civil de Belo Horizonte (MG)",
       "short_name": "DC Belo Horizonte (MG)",
       "count": 2
-    },
-    {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 1
     },
     {
       "name": "Defesa Civil Estadual de Pernambuco",
@@ -289,17 +294,12 @@
       "name": "Defesa Civil de Belém (PA)",
       "short_name": "DC Belém (PA)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Jaqueira (PE)",
-      "short_name": "DC Jaqueira (PE)",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 10
+      "count": 15
     },
     {
       "label": "Alto",
@@ -313,11 +313,11 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 22
+      "count": 26
     },
     {
       "label": "Alagamentos",
-      "count": 3
+      "count": 4
     },
     {
       "label": "Frentes Frias/Zonas De Convergência",
@@ -334,8 +334,12 @@
       "count": 6
     },
     {
+      "uf": "SP",
+      "count": 4
+    },
+    {
       "uf": "AM",
-      "count": 3
+      "count": 4
     },
     {
       "uf": "PE",
@@ -349,17 +353,17 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 10
     },
     {
       "label": "expirado",
-      "count": 19
+      "count": 21
     }
   ],
   "category_distribution": [
     {
       "label": "Met",
-      "count": 26
+      "count": 31
     }
   ],
   "duration_distribution": [
@@ -368,47 +372,282 @@
       "count": 14
     },
     {
+      "label": "Até 2h",
+      "count": 8
+    },
+    {
       "label": "6h a 12h",
-      "count": 4
+      "count": 5
     },
     {
       "label": "12h a 24h",
-      "count": 4
-    },
-    {
-      "label": "Até 2h",
       "count": 4
     }
   ],
   "time_since_distribution": [
     {
       "label": "6h a 12h",
-      "count": 16
+      "count": 11
+    },
+    {
+      "label": "Mais de 12h",
+      "count": 11
+    },
+    {
+      "label": "3h a 6h",
+      "count": 4
     },
     {
       "label": "1h a 3h",
       "count": 3
     },
     {
-      "label": "3h a 6h",
-      "count": 3
-    },
-    {
-      "label": "Mais de 12h",
-      "count": 3
-    },
-    {
       "label": "Até 1h",
-      "count": 1
+      "count": 2
     }
   ],
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 26
+      "count": 31
     }
   ],
   "all_alerts": [
+    {
+      "identifier": "183087/2026",
+      "entry_id": "183087/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "sent": "2026-05-14T03:59:06-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Immediate",
+      "severity": "Moderate",
+      "certainty": "Observed",
+      "onset": "2026-05-14T03:59:06-03:00",
+      "expires": "2026-05-14T06:00:00-03:00",
+      "nivel": "Médio",
+      "headline": "Defesa Civil:04h00 Chuva se espalhando pela regiao de Barra Bonita e Sao Miguel. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "description": "04h00 Chuva se espalhando pela região de Barra Bonita e São Miguel. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas próximas horas.",
+      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "SÃO PAULO/SP",
+      "polygon_raw": "-22.454,-48.589 -22.495,-48.655 -22.569,-48.713 -22.716,-48.776 -22.857,-48.611 -22.825,-48.474 -22.726,-48.345 -22.604,-48.279 -22.462,-48.32 -22.368,-48.446 -22.454,-48.589",
+      "polygon_points": 11,
+      "has_geocode": false,
+      "uf_hint": "SP",
+      "region": "SE",
+      "geometry_wkt": "POLYGON ((-48.589 -22.454, -48.655 -22.495, -48.713 -22.569, -48.776 -22.716, -48.611 -22.857, -48.474 -22.825, -48.345 -22.726, -48.279 -22.604, -48.32 -22.462, -48.446 -22.368, -48.589 -22.454))",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "14/05/2026",
+      "time": "03:59",
+      "sent_br": "2026-05-14T03:59:06-03:00",
+      "onset_br": "2026-05-14T03:59:06-03:00",
+      "expires_br": "2026-05-14T06:00:00-03:00",
+      "duration_minutes": 120,
+      "duration_hours": 2.0,
+      "duration_bucket": "Até 2h",
+      "time_since_minutes": 26,
+      "time_since_hours": 0.43,
+      "time_since_bucket": "Até 1h",
+      "is_active": true
+    },
+    {
+      "identifier": "183086/2026",
+      "entry_id": "183086/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "sent": "2026-05-14T03:55:14-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Immediate",
+      "severity": "Moderate",
+      "certainty": "Observed",
+      "onset": "2026-05-14T03:55:14-03:00",
+      "expires": "2026-05-14T05:55:00-03:00",
+      "nivel": "Médio",
+      "headline": "Defesa Civil:03h55 Chuva se espalhando na regiao de Bariri. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "description": "03h55 Chuva se espalhando na região de Bariri. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas próximas horas.",
+      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "SÃO PAULO/SP",
+      "polygon_raw": "-21.902,-48.968 -21.808,-48.938 -21.76,-48.847 -21.747,-48.743 -21.816,-48.622 -22.022,-48.411 -22.132,-48.482 -22.183,-48.619 -22.188,-48.762 -22.083,-48.856 -21.979,-48.88 -21.902,-48.968",
+      "polygon_points": 12,
+      "has_geocode": false,
+      "uf_hint": "SP",
+      "region": "SE",
+      "geometry_wkt": "POLYGON ((-48.968 -21.902, -48.938 -21.808, -48.847 -21.76, -48.743 -21.747, -48.622 -21.816, -48.411 -22.022, -48.482 -22.132, -48.619 -22.183, -48.762 -22.188, -48.856 -22.083, -48.88 -21.979, -48.968 -21.902))",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "14/05/2026",
+      "time": "03:55",
+      "sent_br": "2026-05-14T03:55:14-03:00",
+      "onset_br": "2026-05-14T03:55:14-03:00",
+      "expires_br": "2026-05-14T05:55:00-03:00",
+      "duration_minutes": 119,
+      "duration_hours": 1.98,
+      "duration_bucket": "Até 2h",
+      "time_since_minutes": 30,
+      "time_since_hours": 0.5,
+      "time_since_bucket": "Até 1h",
+      "is_active": true
+    },
+    {
+      "identifier": "183085/2026",
+      "entry_id": "183085/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "sent": "2026-05-14T02:48:04-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Immediate",
+      "severity": "Moderate",
+      "certainty": "Observed",
+      "onset": "2026-05-14T02:48:04-03:00",
+      "expires": "2026-05-14T04:45:00-03:00",
+      "nivel": "Médio",
+      "headline": "Defesa Civil:02h48 Chuva fraca e isolada na regiao de Bauru. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "description": "02h48 Chuva fraca e isolada na região de Bauru. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas próximas horas.",
+      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "SÃO PAULO/SP",
+      "polygon_raw": "-22.261,-49.281 -22.434,-49.232 -22.5,-49.185 -22.531,-48.979 -22.439,-48.79 -22.32,-48.738 -22.167,-48.815 -22.096,-48.902 -22.045,-49.001 -22.037,-49.144 -22.093,-49.235 -22.261,-49.281",
+      "polygon_points": 12,
+      "has_geocode": false,
+      "uf_hint": "SP",
+      "region": "SE",
+      "geometry_wkt": "POLYGON ((-49.281 -22.261, -49.232 -22.434, -49.185 -22.5, -48.979 -22.531, -48.79 -22.439, -48.738 -22.32, -48.815 -22.167, -48.902 -22.096, -49.001 -22.045, -49.144 -22.037, -49.235 -22.093, -49.281 -22.261))",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "14/05/2026",
+      "time": "02:48",
+      "sent_br": "2026-05-14T02:48:04-03:00",
+      "onset_br": "2026-05-14T02:48:04-03:00",
+      "expires_br": "2026-05-14T04:45:00-03:00",
+      "duration_minutes": 116,
+      "duration_hours": 1.93,
+      "duration_bucket": "Até 2h",
+      "time_since_minutes": 97,
+      "time_since_hours": 1.62,
+      "time_since_bucket": "1h a 3h",
+      "is_active": true
+    },
+    {
+      "identifier": "183084/2026",
+      "entry_id": "183084/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "sent": "2026-05-14T02:32:46-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Immediate",
+      "severity": "Moderate",
+      "certainty": "Observed",
+      "onset": "2026-05-14T02:32:46-03:00",
+      "expires": "2026-05-14T04:30:00-03:00",
+      "nivel": "Médio",
+      "headline": "Defesa Civil:02h30 Chuva fraca e isolada na regiao de Jahu. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "description": "02h30 Chuva fraca e isolada na região de Jahu. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas próximas horas.",
+      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "SÃO PAULO/SP",
+      "polygon_raw": "-22.086,-48.718 -22.06,-48.595 -22.127,-48.449 -22.31,-48.293 -22.411,-48.353 -22.508,-48.46 -22.513,-48.606 -22.457,-48.776 -22.345,-48.801 -22.241,-48.718 -22.086,-48.718",
+      "polygon_points": 11,
+      "has_geocode": false,
+      "uf_hint": "SP",
+      "region": "SE",
+      "geometry_wkt": "POLYGON ((-48.718 -22.086, -48.595 -22.06, -48.449 -22.127, -48.293 -22.31, -48.353 -22.411, -48.46 -22.508, -48.606 -22.513, -48.776 -22.457, -48.801 -22.345, -48.718 -22.241, -48.718 -22.086))",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "14/05/2026",
+      "time": "02:32",
+      "sent_br": "2026-05-14T02:32:46-03:00",
+      "onset_br": "2026-05-14T02:32:46-03:00",
+      "expires_br": "2026-05-14T04:30:00-03:00",
+      "duration_minutes": 117,
+      "duration_hours": 1.95,
+      "duration_bucket": "Até 2h",
+      "time_since_minutes": 113,
+      "time_since_hours": 1.88,
+      "time_since_bucket": "1h a 3h",
+      "is_active": true
+    },
+    {
+      "identifier": "183083/2026",
+      "entry_id": "183083/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "sent": "2026-05-14T01:43:24-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "ALAGAMENTOS",
+      "responseType": "Execute",
+      "urgency": "Expected",
+      "severity": "Moderate",
+      "certainty": "Likely",
+      "onset": "2026-05-14T01:43:24-03:00",
+      "expires": "2026-05-14T08:00:00-03:00",
+      "nivel": "Médio",
+      "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL MODERADO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.",
+      "description": "Há alta possibilidade de ocorrência de alagamentos em decorrência da superação da capacidade de escoamento dos sistemas de drenagem urbana, resultando no acúmulo de água em ruas, calçadas e demais infraestruturas urbanas. O acumulado de chuva registrado no pluviômetro da Cidade de Deus, da rede CEMADEN, indica um volume aproximado de 11mm na última hora.",
+      "instruction": "Siga as orientações da Defesa Civil conforme estabelecido no Plano de Contingência Municipal. Em caso de emergência, acione a Defesa Civil pelo telefone 199 ou o Corpo de Bombeiros pelo 193. Evite o contato com a água de alagamentos, pois ela pode estar contaminada e representar risco à saúde.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "Manaus/AM",
+      "polygon_raw": "-1.997,-60.241 -1.989,-60.257 -1.986,-60.267 -1.981,-60.273 -1.974,-60.277 -1.973,-60.278 -1.962,-60.291 -1.957,-60.297 -1.949,-60.296 -1.941,-60.293 -1.935,-60.286 -1.924,-60.281 -1.952,-60.339 -1.954,-60.35 -1.954,-60.357 -1.963,-60.366 -1.968,-60.374 -1.971,-60.384 -1.976,-60.39 -1.98,-60.396 -1.985,-60.405 -1.988,-60.412 -1.996,-60.416 -1.997,-60.424 -2.0,-60.436 -2.004,-60.444 -2.008,-60.451 -2.01,-60.462 -2.013,-60.469 -2.016,-60.48 -2.017,-60.489 -2.017,-60.503 -2.013,-60.51 -2.01,-60.519 -2.009,-60.527 -2.005,-60.534 -2.002,-60.542 -2.005,-60.559 -2.002,-60.566 -1.999,-60.573 -1.998,-60.581 -1.998,-60.598 -2.008,-60.607 -2.032,-60.614 -2.038,-60.619 -2.046,-60.622 -2.051,-60.628 -2.055,-60.634 -2.056,-60.642 -2.062,-60.644 -2.064,-60.644 -2.066,-60.652 -2.073,-60.653 -2.076,-60.66 -2.074,-60.668 -2.089,-60.675 -2.097,-60.672 -2.108,-60.682 -2.117,-60.673 -2.123,-60.668 -2.13,-60.663 -2.136,-60.668 -2.142,-60.675 -2.15,-60.678 -2.154,-60.684 -2.159,-60.691 -2.165,-60.696 -2.173,-60.7 -2.17,-60.707 -2.173,-60.714 -2.179,-60.721 -2.176,-60.729 -2.182,-60.734 -2.189,-60.738 -2.197,-60.734 -2.201,-60.727 -2.208,-60.727 -2.215,-60.722 -2.22,-60.716 -2.221,-60.708 -2.22,-60.7 -2.236,-60.697 -2.242,-60.692 -2.25,-60.698 -2.259,-60.699 -2.265,-60.705 -2.267,-60.713 -2.274,-60.718 -2.279,-60.711 -2.283,-60.704 -2.292,-60.705 -2.299,-60.701 -2.307,-60.699 -2.313,-60.703 -2.32,-60.711 -2.327,-60.71 -2.335,-60.706 -2.339,-60.698 -2.346,-60.695 -2.351,-60.7 -2.356,-60.717 -2.363,-60.712 -2.37,-60.708 -2.374,-60.717 -2.37,-60.725 -2.368,-60.733 -2.376,-60.733 -2.385,-60.735 -2.387,-60.745 -2.395,-60.761 -2.399,-60.768 -2.407,-60.767 -2.408,-60.76 -2.414,-60.753 -2.422,-60.75 -2.43,-60.743 -2.44,-60.743 -2.447,-60.749 -2.45,-60.757 -2.453,-60.773 -2.46,-60.781 -2.469,-60.785 -2.476,-60.789 -2.484,-60.791 -2.492,-60.792 -2.5,-60.794 -2.508,-60.796 -2.524,-60.796 -2.539,-60.802 -2.543,-60.802 -2.545,-60.801 -2.772,-60.764 -2.821,-60.756 -2.836,-60.737 -2.842,-60.731 -2.847,-60.725 -2.852,-60.717 -2.861,-60.705 -2.869,-60.703 -2.879,-60.701 -2.887,-60.693 -2.902,-60.68 -2.907,-60.672 -2.914,-60.664 -2.921,-60.659 -2.935,-60.652 -2.941,-60.641 -2.945,-60.634 -2.953,-60.627 -2.965,-60.62 -2.97,-60.613 -2.976,-60.606 -2.982,-60.6 -2.991,-60.594 -3.009,-60.59 -3.017,-60.587 -3.024,-60.582 -3.029,-60.575 -3.033,-60.568 -3.034,-60.56 -3.035,-60.552 -3.035,-60.544 -3.04,-60.538 -3.045,-60.531 -3.048,-60.524 -3.051,-60.517 -3.056,-60.511 -3.062,-60.505 -3.072,-60.5 -3.073,-60.5 -3.074,-60.514 -3.081,-60.519 -3.087,-60.512 -3.092,-60.505 -3.093,-60.492 -3.093,-60.492 -3.092,-60.485 -3.092,-60.477 -3.09,-60.469 -3.084,-60.463 -3.079,-60.457 -3.079,-60.457 -3.076,-60.457 -3.072,-60.456 -3.067,-60.456 -3.064,-60.455 -3.065,-60.454 -3.069,-60.454 -3.073,-60.454 -3.076,-60.454 -3.078,-60.454 -3.077,-60.454 -3.083,-60.448 -3.09,-60.445 -3.093,-60.438 -3.095,-60.43 -3.095,-60.422 -3.095,-60.414 -3.094,-60.406 -3.094,-60.398 -3.096,-60.39 -3.098,-60.382 -3.095,-60.375 -3.093,-60.366 -3.095,-60.358 -3.096,-60.35 -3.098,-60.342 -3.098,-60.341 -3.098,-60.34 -3.099,-60.336 -3.1,-60.328 -3.098,-60.323 -3.094,-60.315 -3.087,-60.311 -3.079,-60.312 -3.079,-60.304 -3.084,-60.294 -3.098,-60.29 -3.094,-60.283 -3.09,-60.275 -3.087,-60.27 -3.086,-60.269 -3.086,-60.269 -3.082,-60.262 -3.079,-60.246 -3.08,-60.241 -3.081,-60.238 -3.082,-60.23 -3.085,-60.224 -3.085,-60.223 -3.088,-60.215 -3.092,-60.21 -3.092,-60.209 -3.095,-60.202 -3.099,-60.195 -3.104,-60.189 -3.111,-60.185 -3.116,-60.178 -3.123,-60.175 -3.123,-60.175 -3.127,-60.168 -3.128,-60.16 -3.13,-60.144 -3.137,-60.14 -3.138,-60.133 -3.142,-60.125 -3.147,-60.119 -3.148,-60.116 -3.15,-60.112 -3.15,-60.101 -3.15,-60.1 -3.149,-60.097 -3.149,-60.097 -3.142,-60.095 -3.136,-60.093 -3.13,-60.09 -3.127,-60.085 -3.13,-60.083 -3.135,-60.078 -3.141,-60.076 -3.147,-60.072 -3.151,-60.071 -3.157,-60.072 -3.159,-60.074 -3.162,-60.07 -3.161,-60.068 -3.165,-60.061 -3.167,-60.054 -3.164,-60.047 -3.159,-60.04 -3.164,-60.035 -3.168,-60.028 -3.174,-60.023 -3.177,-60.015 -3.181,-60.008 -3.185,-60.002 -3.189,-59.992 -3.196,-59.986 -3.198,-59.991 -3.199,-59.993 -3.198,-59.995 -3.197,-59.996 -3.197,-59.998 -3.198,-60.0 -3.198,-60.001 -3.198,-60.002 -3.199,-60.003 -3.2,-60.003 -3.201,-60.001 -3.202,-60.001 -3.203,-60.0 -3.203,-60.0 -3.202,-59.999 -3.202,-59.999 -3.21,-59.991 -3.212,-60.0 -3.219,-59.996 -3.222,-59.994 -3.219,-59.99 -3.217,-59.986 -3.215,-59.979 -3.213,-59.97 -3.208,-59.963 -3.199,-59.96 -3.202,-59.953 -3.193,-59.949 -3.184,-59.948 -3.179,-59.945 -3.174,-59.943 -3.17,-59.935 -3.161,-59.933 -3.155,-59.924 -3.154,-59.924 -3.152,-59.917 -3.145,-59.912 -3.137,-59.906 -3.126,-59.897 -3.123,-59.894 -3.115,-59.884 -3.109,-59.876 -3.108,-59.874 -3.103,-59.868 -3.098,-59.859 -3.09,-59.844 -3.086,-59.836 -3.082,-59.829 -3.078,-59.819 -3.075,-59.812 -3.074,-59.809 -3.072,-59.803 -3.07,-59.797 -3.067,-59.786 -3.064,-59.769 -3.062,-59.746 -3.061,-59.733 -3.061,-59.717 -3.061,-59.715 -3.06,-59.7 -3.065,-59.683 -3.072,-59.663 -3.077,-59.649 -3.077,-59.649 -3.078,-59.646 -3.085,-59.626 -3.096,-59.6 -3.105,-59.583 -3.112,-59.567 -3.113,-59.566 -3.115,-59.561 -3.12,-59.549 -3.121,-59.545 -3.124,-59.529 -3.125,-59.521 -3.126,-59.516 -3.127,-59.506 -3.127,-59.496 -3.127,-59.492 -3.128,-59.479 -3.132,-59.469 -3.137,-59.46 -3.14,-59.449 -3.146,-59.438 -3.155,-59.412 -3.159,-59.402 -3.16,-59.401 -3.163,-59.39 -3.163,-59.39 -3.16,-59.379 -3.155,-59.371 -3.153,-59.358 -3.145,-59.351 -3.147,-59.342 -3.147,-59.332 -3.149,-59.319 -3.149,-59.31 -3.153,-59.278 -3.153,-59.264 -3.158,-59.249 -3.162,-59.241 -3.175,-59.221 -3.179,-59.206 -3.177,-59.194 -3.177,-59.182 -3.178,-59.168 -3.172,-59.163 -3.17,-59.161 -3.168,-59.16 -3.168,-59.159 -3.165,-59.173 -3.158,-59.187 -3.157,-59.193 -3.156,-59.195 -3.153,-59.202 -3.145,-59.217 -3.138,-59.239 -3.135,-59.246 -3.129,-59.262 -3.127,-59.273 -3.127,-59.277 -3.129,-59.288 -3.132,-59.296 -3.131,-59.304 -3.121,-59.313 -3.114,-59.323 -3.111,-59.333 -3.106,-59.341 -3.102,-59.344 -3.098,-59.347 -3.096,-59.349 -3.09,-59.354 -3.079,-59.365 -3.075,-59.369 -3.071,-59.373 -3.064,-59.385 -3.058,-59.397 -3.054,-59.405 -3.052,-59.413 -3.05,-59.422 -3.048,-59.431 -3.042,-59.438 -3.037,-59.443 -3.029,-59.455 -3.022,-59.461 -3.015,-59.468 -3.009,-59.473 -3.0,-59.48 -2.993,-59.485 -2.988,-59.5 -2.987,-59.5 -2.98,-59.5 -2.971,-59.5 -2.966,-59.506 -2.965,-59.507 -2.961,-59.513 -2.96,-59.521 -2.953,-59.525 -2.951,-59.532 -2.954,-59.539 -2.956,-59.547 -2.957,-59.555 -2.958,-59.563 -2.959,-59.571 -2.96,-59.579 -2.959,-59.587 -2.958,-59.596 -2.96,-59.604 -2.96,-59.612 -2.964,-59.62 -2.963,-59.629 -2.961,-59.637 -2.957,-59.643 -2.951,-59.647 -2.946,-59.654 -2.944,-59.662 -2.939,-59.706 -2.939,-59.706 -2.931,-59.708 -2.925,-59.714 -2.919,-59.721 -2.911,-59.724 -2.898,-59.728 -2.893,-59.723 -2.881,-59.715 -2.874,-59.72 -2.867,-59.726 -2.862,-59.732 -2.857,-59.738 -2.85,-59.738 -2.843,-59.742 -2.834,-59.75 -2.826,-59.752 -2.822,-59.759 -2.823,-59.767 -2.827,-59.774 -2.83,-59.782 -2.826,-59.789 -2.821,-59.796 -2.817,-59.803 -2.817,-59.811 -2.81,-59.815 -2.803,-59.819 -2.795,-59.816 -2.788,-59.815 -2.781,-59.819 -2.775,-59.825 -2.77,-59.832 -2.762,-59.833 -2.75,-59.832 -2.742,-59.83 -2.736,-59.833 -2.735,-59.833 -2.732,-59.841 -2.726,-59.847 -2.724,-59.855 -2.721,-59.862 -2.721,-59.87 -2.715,-59.876 -2.708,-59.874 -2.7,-59.872 -2.691,-59.873 -2.683,-59.873 -2.678,-59.881 -2.672,-59.887 -2.665,-59.891 -2.659,-59.896 -2.657,-59.904 -2.65,-59.906 -2.641,-59.907 -2.633,-59.911 -2.624,-59.912 -2.616,-59.914 -2.61,-59.92 -2.615,-59.927 -2.619,-59.934 -2.622,-59.942 -2.615,-59.946 -2.606,-59.95 -2.599,-59.946 -2.592,-59.948 -2.585,-59.943 -2.578,-59.941 -2.572,-59.946 -2.57,-59.954 -2.57,-59.962 -2.564,-59.966 -2.563,-59.974 -2.559,-59.982 -2.561,-59.989 -2.564,-59.993 -2.566,-59.996 -2.556,-59.998 -2.549,-59.999 -2.543,-60.005 -2.539,-60.012 -2.547,-60.017 -2.549,-60.024 -2.549,-60.033 -2.549,-60.033 -2.542,-60.036 -2.539,-60.036 -2.532,-60.036 -2.523,-60.037 -2.516,-60.037 -2.508,-60.036 -2.5,-60.035 -2.471,-60.029 -2.448,-60.024 -2.423,-60.029 -2.392,-60.036 -2.373,-60.04 -2.363,-60.041 -2.361,-60.041 -2.354,-60.043 -2.352,-60.043 -2.341,-60.044 -2.328,-60.046 -2.326,-60.046 -2.264,-60.039 -2.252,-60.033 -2.249,-60.031 -2.242,-60.027 -2.143,-59.999 -2.134,-59.997 -2.12,-60.0 -2.114,-60.005 -2.11,-60.012 -2.101,-60.014 -2.101,-60.016 -2.098,-60.024 -2.097,-60.033 -2.098,-60.041 -2.102,-60.05 -2.095,-60.056 -2.087,-60.06 -2.087,-60.069 -2.08,-60.074 -2.076,-60.083 -2.068,-60.088 -2.059,-60.091 -2.062,-60.098 -2.061,-60.106 -2.055,-60.111 -2.051,-60.119 -2.048,-60.127 -2.043,-60.133 -2.04,-60.14 -2.042,-60.148 -2.033,-60.153 -2.027,-60.159 -2.027,-60.167 -2.023,-60.174 -2.019,-60.182 -2.012,-60.189 -2.004,-60.204 -2.0,-60.218 -2.003,-60.232 -1.997,-60.241",
+      "polygon_points": 585,
+      "has_geocode": true,
+      "uf_hint": "AM",
+      "region": "N",
+      "geometry_wkt": "POLYGON ((-60.454 -3.077, -60.454 -3.076, -60.454 -3.073, -60.454 -3.069, -60.454 -3.065, -60.455 -3.064, -60.456 -3.067, -60.456 -3.072, -60.457 -3.076, -60.457 -3.079, -60.463 -3.084, -60.469 -3.09, -60.477 -3.092, -60.485 -3.092, -60.492 -3.093, -60.505 -3.092, -60.512 -3.087, -60.519 -3.081, -60.514 -3.074, -60.5 -3.073, -60.5 -3.072, -60.505 -3.062, -60.511 -3.056, -60.517 -3.051, -60.524 -3.048, -60.531 -3.045, -60.538 -3.04, -60.544 -3.035, -60.552 -3.035, -60.56 -3.034, -60.568 -3.033, -60.575 -3.029, -60.582 -3.024, -60.587 -3.017, -60.59 -3.009, -60.594 -2.991, -60.6 -2.982, -60.606 -2.976, -60.613 -2.97, -60.62 -2.965, -60.627 -2.953, -60.634 -2.945, -60.641 -2.941, -60.652 -2.935, -60.659 -2.921, -60.664 -2.914, -60.672 -2.907, -60.68 -2.902, -60.693 -2.887, -60.701 -2.879, -60.703 -2.869, -60.705 -2.861, -60.717 -2.852, -60.725 -2.847, -60.731 -2.842, -60.737 -2.836, -60.756 -2.821, -60.764 -2.772, -60.801 -2.545, -60.802 -2.543, -60.802 -2.539, -60.796 -2.524, -60.796 -2.508, -60.794 -2.5, -60.792 -2.492, -60.791 -2.484, -60.789 -2.476, -60.785 -2.469, -60.781 -2.46, -60.773 -2.453, -60.757 -2.45, -60.749 -2.447, -60.743 -2.44, -60.743 -2.43, -60.75 -2.422, -60.753 -2.414, -60.76 -2.408, -60.767 -2.407, -60.768 -2.399, -60.761 -2.395, -60.745 -2.387, -60.735 -2.385, -60.733 -2.376, -60.733 -2.368, -60.725 -2.37, -60.717 -2.374, -60.708 -2.37, -60.712 -2.363, -60.717 -2.356, -60.7 -2.351, -60.695 -2.346, -60.698 -2.339, -60.706 -2.335, -60.71 -2.327, -60.711 -2.32, -60.703 -2.313, -60.699 -2.307, -60.701 -2.299, -60.705 -2.292, -60.704 -2.283, -60.711 -2.279, -60.718 -2.274, -60.713 -2.267, -60.705 -2.265, -60.699 -2.259, -60.698 -2.25, -60.692 -2.242, -60.697 -2.236, -60.7 -2.22, -60.708 -2.221, -60.716 -2.22, -60.722 -2.215, -60.727 -2.208, -60.727 -2.201, -60.734 -2.197, -60.738 -2.189, -60.734 -2.182, -60.729 -2.176, -60.721 -2.179, -60.714 -2.173, -60.707 -2.17, -60.7 -2.173, -60.696 -2.165, -60.691 -2.159, -60.684 -2.154, -60.678 -2.15, -60.675 -2.142, -60.668 -2.136, -60.663 -2.13, -60.668 -2.123, -60.673 -2.117, -60.682 -2.108, -60.672 -2.097, -60.675 -2.089, -60.668 -2.074, -60.66 -2.076, -60.653 -2.073, -60.652 -2.066, -60.644 -2.064, -60.644 -2.062, -60.642 -2.056, -60.634 -2.055, -60.628 -2.051, -60.622 -2.046, -60.619 -2.038, -60.614 -2.032, -60.607 -2.008, -60.598 -1.998, -60.581 -1.998, -60.573 -1.999, -60.566 -2.002, -60.559 -2.005, -60.542 -2.002, -60.534 -2.005, -60.527 -2.009, -60.519 -2.01, -60.51 -2.013, -60.503 -2.017, -60.489 -2.017, -60.48 -2.016, -60.469 -2.013, -60.462 -2.01, -60.451 -2.008, -60.444 -2.004, -60.436 -2, -60.424 -1.997, -60.416 -1.996, -60.412 -1.988, -60.405 -1.985, -60.396 -1.98, -60.39 -1.976, -60.384 -1.971, -60.374 -1.968, -60.366 -1.963, -60.357 -1.954, -60.35 -1.954, -60.339 -1.952, -60.281 -1.924, -60.286 -1.935, -60.293 -1.941, -60.296 -1.949, -60.297 -1.957, -60.291 -1.962, -60.278 -1.973, -60.277 -1.974, -60.273 -1.981, -60.267 -1.986, -60.257 -1.989, -60.241 -1.997, -60.232 -2.003, -60.218 -2, -60.204 -2.004, -60.189 -2.012, -60.182 -2.019, -60.174 -2.023, -60.167 -2.027, -60.159 -2.027, -60.153 -2.033, -60.148 -2.042, -60.14 -2.04, -60.133 -2.043, -60.127 -2.048, -60.119 -2.051, -60.111 -2.055, -60.106 -2.061, -60.098 -2.062, -60.091 -2.059, -60.088 -2.068, -60.083 -2.076, -60.074 -2.08, -60.069 -2.087, -60.06 -2.087, -60.056 -2.095, -60.05 -2.102, -60.041 -2.098, -60.033 -2.097, -60.024 -2.098, -60.016 -2.101, -60.014 -2.101, -60.012 -2.11, -60.005 -2.114, -60 -2.12, -59.997 -2.134, -59.999 -2.143, -60.027 -2.242, -60.031 -2.249, -60.033 -2.252, -60.039 -2.264, -60.046 -2.326, -60.046 -2.328, -60.044 -2.341, -60.043 -2.352, -60.043 -2.354, -60.041 -2.361, -60.041 -2.363, -60.04 -2.373, -60.036 -2.392, -60.029 -2.423, -60.024 -2.448, -60.029 -2.471, -60.035 -2.5, -60.036 -2.508, -60.037 -2.516, -60.037 -2.523, -60.036 -2.532, -60.036 -2.539, -60.036 -2.542, -60.033 -2.549, -60.024 -2.549, -60.017 -2.547, -60.012 -2.539, -60.005 -2.543, -59.999 -2.549, -59.998 -2.556, -59.996 -2.566, -59.993 -2.564, -59.989 -2.561, -59.982 -2.559, -59.974 -2.563, -59.966 -2.564, -59.962 -2.57, -59.954 -2.57, -59.946 -2.572, -59.941 -2.578, -59.943 -2.585, -59.948 -2.592, -59.946 -2.599, -59.95 -2.606, -59.946 -2.615, -59.942 -2.622, -59.934 -2.619, -59.927 -2.615, -59.92 -2.61, -59.914 -2.616, -59.912 -2.624, -59.911 -2.633, -59.907 -2.641, -59.906 -2.65, -59.904 -2.657, -59.896 -2.659, -59.891 -2.665, -59.887 -2.672, -59.881 -2.678, -59.873 -2.683, -59.873 -2.691, -59.872 -2.7, -59.874 -2.708, -59.876 -2.715, -59.87 -2.721, -59.862 -2.721, -59.855 -2.724, -59.847 -2.726, -59.841 -2.732, -59.833 -2.735, -59.833 -2.736, -59.83 -2.742, -59.832 -2.75, -59.833 -2.762, -59.832 -2.77, -59.825 -2.775, -59.819 -2.781, -59.815 -2.788, -59.816 -2.795, -59.819 -2.803, -59.815 -2.81, -59.811 -2.817, -59.803 -2.817, -59.796 -2.821, -59.789 -2.826, -59.782 -2.83, -59.774 -2.827, -59.767 -2.823, -59.759 -2.822, -59.752 -2.826, -59.75 -2.834, -59.742 -2.843, -59.738 -2.85, -59.738 -2.857, -59.732 -2.862, -59.726 -2.867, -59.72 -2.874, -59.715 -2.881, -59.723 -2.893, -59.728 -2.898, -59.724 -2.911, -59.721 -2.919, -59.714 -2.925, -59.708 -2.931, -59.706 -2.939, -59.662 -2.944, -59.654 -2.946, -59.647 -2.951, -59.643 -2.957, -59.637 -2.961, -59.629 -2.963, -59.62 -2.964, -59.612 -2.96, -59.604 -2.96, -59.596 -2.958, -59.587 -2.959, -59.579 -2.96, -59.571 -2.959, -59.563 -2.958, -59.555 -2.957, -59.547 -2.956, -59.539 -2.954, -59.532 -2.951, -59.525 -2.953, -59.521 -2.96, -59.513 -2.961, -59.507 -2.965, -59.506 -2.966, -59.5 -2.971, -59.5 -2.98, -59.5 -2.987, -59.5 -2.988, -59.485 -2.993, -59.48 -3, -59.473 -3.009, -59.468 -3.015, -59.461 -3.022, -59.455 -3.029, -59.443 -3.037, -59.438 -3.042, -59.431 -3.048, -59.422 -3.05, -59.413 -3.052, -59.405 -3.054, -59.397 -3.058, -59.385 -3.064, -59.373 -3.071, -59.369 -3.075, -59.365 -3.079, -59.354 -3.09, -59.349 -3.096, -59.347 -3.098, -59.344 -3.102, -59.341 -3.106, -59.333 -3.111, -59.323 -3.114, -59.313 -3.121, -59.304 -3.131, -59.296 -3.132, -59.288 -3.129, -59.277 -3.127, -59.273 -3.127, -59.262 -3.129, -59.246 -3.135, -59.239 -3.138, -59.217 -3.145, -59.202 -3.153, -59.195 -3.156, -59.193 -3.157, -59.187 -3.158, -59.173 -3.165, -59.159 -3.168, -59.16 -3.168, -59.161 -3.17, -59.163 -3.172, -59.168 -3.178, -59.182 -3.177, -59.194 -3.177, -59.206 -3.179, -59.221 -3.175, -59.241 -3.162, -59.249 -3.158, -59.264 -3.153, -59.278 -3.153, -59.31 -3.149, -59.319 -3.149, -59.332 -3.147, -59.342 -3.147, -59.351 -3.145, -59.358 -3.153, -59.371 -3.155, -59.379 -3.16, -59.39 -3.163, -59.401 -3.16, -59.402 -3.159, -59.412 -3.155, -59.438 -3.146, -59.449 -3.14, -59.46 -3.137, -59.469 -3.132, -59.479 -3.128, -59.492 -3.127, -59.496 -3.127, -59.506 -3.127, -59.516 -3.126, -59.521 -3.125, -59.529 -3.124, -59.545 -3.121, -59.549 -3.12, -59.561 -3.115, -59.566 -3.113, -59.567 -3.112, -59.583 -3.105, -59.6 -3.096, -59.626 -3.085, -59.646 -3.078, -59.649 -3.077, -59.663 -3.072, -59.683 -3.065, -59.7 -3.06, -59.715 -3.061, -59.717 -3.061, -59.733 -3.061, -59.746 -3.062, -59.769 -3.064, -59.786 -3.067, -59.797 -3.07, -59.803 -3.072, -59.809 -3.074, -59.812 -3.075, -59.819 -3.078, -59.829 -3.082, -59.836 -3.086, -59.844 -3.09, -59.859 -3.098, -59.868 -3.103, -59.874 -3.108, -59.876 -3.109, -59.884 -3.115, -59.894 -3.123, -59.897 -3.126, -59.906 -3.137, -59.912 -3.145, -59.917 -3.152, -59.924 -3.154, -59.924 -3.155, -59.933 -3.161, -59.935 -3.17, -59.943 -3.174, -59.945 -3.179, -59.948 -3.184, -59.949 -3.193, -59.953 -3.202, -59.96 -3.199, -59.963 -3.208, -59.97 -3.213, -59.979 -3.215, -59.986 -3.217, -59.99 -3.219, -59.994 -3.222, -59.996 -3.219, -60 -3.212, -59.991 -3.21, -59.999 -3.202, -60 -3.203, -60.001 -3.202, -60.001 -3.201, -60.003 -3.2, -60.003 -3.199, -60.002 -3.198, -60.001 -3.198, -60 -3.198, -59.998 -3.197, -59.996 -3.197, -59.995 -3.198, -59.993 -3.199, -59.991 -3.198, -59.986 -3.196, -59.992 -3.189, -60.002 -3.185, -60.008 -3.181, -60.015 -3.177, -60.023 -3.174, -60.028 -3.168, -60.035 -3.164, -60.04 -3.159, -60.047 -3.164, -60.054 -3.167, -60.061 -3.165, -60.068 -3.161, -60.07 -3.162, -60.074 -3.159, -60.072 -3.157, -60.071 -3.151, -60.072 -3.147, -60.076 -3.141, -60.078 -3.135, -60.083 -3.13, -60.085 -3.127, -60.09 -3.13, -60.093 -3.136, -60.095 -3.142, -60.097 -3.149, -60.1 -3.15, -60.101 -3.15, -60.112 -3.15, -60.116 -3.148, -60.119 -3.147, -60.125 -3.142, -60.133 -3.138, -60.14 -3.137, -60.144 -3.13, -60.16 -3.128, -60.168 -3.127, -60.175 -3.123, -60.178 -3.116, -60.185 -3.111, -60.189 -3.104, -60.195 -3.099, -60.202 -3.095, -60.209 -3.092, -60.21 -3.092, -60.215 -3.088, -60.223 -3.085, -60.224 -3.085, -60.23 -3.082, -60.238 -3.081, -60.241 -3.08, -60.246 -3.079, -60.262 -3.082, -60.269 -3.086, -60.27 -3.087, -60.275 -3.09, -60.283 -3.094, -60.29 -3.098, -60.294 -3.084, -60.304 -3.079, -60.312 -3.079, -60.311 -3.087, -60.315 -3.094, -60.323 -3.098, -60.328 -3.1, -60.336 -3.099, -60.34 -3.098, -60.341 -3.098, -60.342 -3.098, -60.35 -3.096, -60.358 -3.095, -60.366 -3.093, -60.375 -3.095, -60.382 -3.098, -60.39 -3.096, -60.398 -3.094, -60.406 -3.094, -60.414 -3.095, -60.422 -3.095, -60.43 -3.095, -60.438 -3.093, -60.445 -3.09, -60.448 -3.083, -60.454 -3.077))",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "event_short": "Alagamentos",
+      "status_vigencia": "vigente",
+      "date": "14/05/2026",
+      "time": "01:43",
+      "sent_br": "2026-05-14T01:43:24-03:00",
+      "onset_br": "2026-05-14T01:43:24-03:00",
+      "expires_br": "2026-05-14T08:00:00-03:00",
+      "duration_minutes": 376,
+      "duration_hours": 6.27,
+      "duration_bucket": "6h a 12h",
+      "time_since_minutes": 162,
+      "time_since_hours": 2.7,
+      "time_since_bucket": "1h a 3h",
+      "is_active": true
+    },
     {
       "identifier": "183082/2026",
       "entry_id": "183082/2026",
@@ -451,9 +690,9 @@
       "duration_minutes": 552,
       "duration_hours": 9.2,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 28,
-      "time_since_hours": 0.47,
-      "time_since_bucket": "Até 1h",
+      "time_since_minutes": 218,
+      "time_since_hours": 3.63,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -462,7 +701,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "sent": "2026-05-14T00:10:22-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -489,7 +728,7 @@
       "uf": "AM",
       "location": "Careiro/AM",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "14/05/2026",
       "time": "00:10",
       "sent_br": "2026-05-14T00:10:22-03:00",
@@ -498,10 +737,10 @@
       "duration_minutes": 169,
       "duration_hours": 2.82,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 65,
-      "time_since_hours": 1.08,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true
+      "time_since_minutes": 255,
+      "time_since_hours": 4.25,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false
     },
     {
       "identifier": "183080/2026",
@@ -509,7 +748,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "sent": "2026-05-14T00:01:01-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -536,7 +775,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "14/05/2026",
       "time": "00:01",
       "sent_br": "2026-05-14T00:01:01-03:00",
@@ -545,10 +784,10 @@
       "duration_minutes": 178,
       "duration_hours": 2.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 74,
-      "time_since_hours": 1.23,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true
+      "time_since_minutes": 264,
+      "time_since_hours": 4.4,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false
     },
     {
       "identifier": "183079/2026",
@@ -592,9 +831,9 @@
       "duration_minutes": 495,
       "duration_hours": 8.25,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 91,
-      "time_since_hours": 1.52,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 281,
+      "time_since_hours": 4.68,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -639,9 +878,9 @@
       "duration_minutes": 781,
       "duration_hours": 13.02,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 257,
-      "time_since_hours": 4.28,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 447,
+      "time_since_hours": 7.45,
+      "time_since_bucket": "6h a 12h",
       "is_active": true
     },
     {
@@ -686,9 +925,9 @@
       "duration_minutes": 184,
       "duration_hours": 3.07,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 269,
-      "time_since_hours": 4.48,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 460,
+      "time_since_hours": 7.67,
+      "time_since_bucket": "6h a 12h",
       "is_active": false
     },
     {
@@ -733,9 +972,9 @@
       "duration_minutes": 118,
       "duration_hours": 1.97,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 273,
-      "time_since_hours": 4.55,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 463,
+      "time_since_hours": 7.72,
+      "time_since_bucket": "6h a 12h",
       "is_active": false
     },
     {
@@ -780,8 +1019,8 @@
       "duration_minutes": 162,
       "duration_hours": 2.7,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 417,
-      "time_since_hours": 6.95,
+      "time_since_minutes": 608,
+      "time_since_hours": 10.13,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -827,8 +1066,8 @@
       "duration_minutes": 1130,
       "duration_hours": 18.83,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 486,
-      "time_since_hours": 8.1,
+      "time_since_minutes": 676,
+      "time_since_hours": 11.27,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -874,8 +1113,8 @@
       "duration_minutes": 410,
       "duration_hours": 6.83,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 491,
-      "time_since_hours": 8.18,
+      "time_since_minutes": 681,
+      "time_since_hours": 11.35,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -921,8 +1160,8 @@
       "duration_minutes": 122,
       "duration_hours": 2.03,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 497,
-      "time_since_hours": 8.28,
+      "time_since_minutes": 688,
+      "time_since_hours": 11.47,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -968,8 +1207,8 @@
       "duration_minutes": 152,
       "duration_hours": 2.53,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 522,
-      "time_since_hours": 8.7,
+      "time_since_minutes": 713,
+      "time_since_hours": 11.88,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -1015,8 +1254,8 @@
       "duration_minutes": 149,
       "duration_hours": 2.48,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 524,
-      "time_since_hours": 8.73,
+      "time_since_minutes": 715,
+      "time_since_hours": 11.92,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -1062,8 +1301,8 @@
       "duration_minutes": 151,
       "duration_hours": 2.52,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 527,
-      "time_since_hours": 8.78,
+      "time_since_minutes": 717,
+      "time_since_hours": 11.95,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -1109,8 +1348,8 @@
       "duration_minutes": 153,
       "duration_hours": 2.55,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 528,
-      "time_since_hours": 8.8,
+      "time_since_minutes": 719,
+      "time_since_hours": 11.98,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -1156,9 +1395,9 @@
       "duration_minutes": 174,
       "duration_hours": 2.9,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 610,
-      "time_since_hours": 10.17,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 800,
+      "time_since_hours": 13.33,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -1203,9 +1442,9 @@
       "duration_minutes": 149,
       "duration_hours": 2.48,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 625,
-      "time_since_hours": 10.42,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 815,
+      "time_since_hours": 13.58,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -1250,9 +1489,9 @@
       "duration_minutes": 168,
       "duration_hours": 2.8,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 629,
-      "time_since_hours": 10.48,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 819,
+      "time_since_hours": 13.65,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -1297,9 +1536,9 @@
       "duration_minutes": 151,
       "duration_hours": 2.52,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 646,
-      "time_since_hours": 10.77,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 837,
+      "time_since_hours": 13.95,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -1344,9 +1583,9 @@
       "duration_minutes": 115,
       "duration_hours": 1.92,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 670,
-      "time_since_hours": 11.17,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 860,
+      "time_since_hours": 14.33,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -1391,9 +1630,9 @@
       "duration_minutes": 1108,
       "duration_hours": 18.47,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 703,
-      "time_since_hours": 11.72,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 894,
+      "time_since_hours": 14.9,
+      "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
     {
@@ -1438,9 +1677,9 @@
       "duration_minutes": 118,
       "duration_hours": 1.97,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 713,
-      "time_since_hours": 11.88,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 904,
+      "time_since_hours": 15.07,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -1485,9 +1724,9 @@
       "duration_minutes": 115,
       "duration_hours": 1.92,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 715,
-      "time_since_hours": 11.92,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 906,
+      "time_since_hours": 15.1,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -1532,8 +1771,8 @@
       "duration_minutes": 688,
       "duration_hours": 11.47,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 768,
-      "time_since_hours": 12.8,
+      "time_since_minutes": 958,
+      "time_since_hours": 15.97,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1579,8 +1818,8 @@
       "duration_minutes": 856,
       "duration_hours": 14.27,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 937,
-      "time_since_hours": 15.62,
+      "time_since_minutes": 1127,
+      "time_since_hours": 18.78,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1626,8 +1865,8 @@
       "duration_minutes": 267,
       "duration_hours": 4.45,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1002,
-      "time_since_hours": 16.7,
+      "time_since_minutes": 1193,
+      "time_since_hours": 19.88,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     }
