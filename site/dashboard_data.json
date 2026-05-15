@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-15T08:22:29.345968-03:00",
-  "source_run_dir": "run_20260515_082206",
+  "generated_at": "2026-05-15T09:15:35.537914-03:00",
+  "source_run_dir": "run_20260515_091507",
   "cards": {
-    "vigentes": 7,
-    "ultimas24h": 44,
+    "vigentes": 8,
+    "ultimas24h": 45,
     "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "08:24",
+      "date": "15/05/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
+      "status": "vigente"
+    },
     {
       "time": "07:48",
       "date": "15/05/2026",
@@ -55,18 +67,6 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Redobre atencao em areas inclinadas. Procure local seguro.   Siga as orientacoes da defesa civil local.",
       "status": "vigente"
-    },
-    {
-      "time": "06:52",
-      "date": "15/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -88,7 +88,7 @@
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -123,7 +123,7 @@
     },
     {
       "label": "Médio",
-      "count": 20
+      "count": 21
     },
     {
       "label": "Alto",
@@ -137,7 +137,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 39
+      "count": 40
     },
     {
       "label": "Alagamentos",
@@ -167,7 +167,7 @@
     },
     {
       "uf": "PR",
-      "count": 4
+      "count": 5
     },
     {
       "uf": "MG",
@@ -185,7 +185,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 8
     },
     {
       "label": "expirado",
@@ -193,6 +193,19 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "15/05/2026",
+      "time": "08:24",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
+      "status": "vigente",
+      "onset": "2026-05-15T08:24:08-03:00",
+      "expires": "2026-05-15T11:20:00-03:00"
+    },
     {
       "date": "15/05/2026",
       "time": "07:48",
@@ -767,20 +780,20 @@
     }
   ],
   "summary": {
-    "total_alerts": 44,
+    "total_alerts": 45,
     "by_nivel": {
-      "Médio": 20,
+      "Médio": 21,
       "Alto": 18,
       "Severo": 5,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 44
+      "Google": 45
     },
     "by_region": {
       "N": 28,
       "SE": 10,
-      "S": 4,
+      "S": 5,
       "NE": 2
     }
   }
