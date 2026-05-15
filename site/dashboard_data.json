@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-15T18:31:14.288178-03:00",
-  "source_run_dir": "run_20260515_183028",
+  "generated_at": "2026-05-15T20:15:02.019564-03:00",
+  "source_run_dir": "run_20260515_201424",
   "cards": {
-    "vigentes": 15,
-    "ultimas24h": 69,
+    "vigentes": 14,
+    "ultimas24h": 62,
     "autoridadesAtivas": 14,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "19:29",
+      "date": "15/05/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
+      "status": "vigente"
+    },
+    {
+      "time": "18:52",
+      "date": "15/05/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
+      "status": "vigente"
+    },
     {
       "time": "18:00",
       "date": "15/05/2026",
@@ -43,37 +67,13 @@
       "uf": "AM",
       "headline": "Defesa Civil:Alerta de Inundacoes gradual para Japura/AM. Siga as orientacoes da defesa civil local e do plano de contingencia municipal.",
       "status": "vigente"
-    },
-    {
-      "time": "16:00",
-      "date": "15/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "location": "Beruri/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:Alerta de Inundacao gradual para Beruri. Siga as orientacoes da defesa civil local e do plano de contingencia municipal.",
-      "status": "vigente"
-    },
-    {
-      "time": "16:00",
-      "date": "15/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "location": "Manacapuru/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:Alerta de Inundacao gradual para Manacapuru. Siga as orientacoes da defesa civil local e do plano de contingencia municipal.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 31
+      "count": 30
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -81,14 +81,9 @@
       "count": 9
     },
     {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
-      "count": 8
-    },
-    {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -119,6 +114,11 @@
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
       "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 1
     }
   ],
   "level_distribution": [
@@ -128,17 +128,17 @@
     },
     {
       "label": "Alto",
-      "count": 27
+      "count": 23
     },
     {
       "label": "Severo",
-      "count": 10
+      "count": 7
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 51
+      "count": 44
     },
     {
       "label": "Solo/Lama",
@@ -160,19 +160,15 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 33
+      "count": 32
     },
     {
       "uf": "SP",
       "count": 10
     },
     {
-      "uf": "PA",
-      "count": 8
-    },
-    {
       "uf": "PR",
-      "count": 6
+      "count": 7
     },
     {
       "uf": "MG",
@@ -201,19 +197,49 @@
     {
       "uf": "MT",
       "count": 1
+    },
+    {
+      "uf": "PA",
+      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 15
+      "count": 14
     },
     {
       "label": "expirado",
-      "count": 54
+      "count": 48
     }
   ],
   "all_alerts": [
+    {
+      "date": "15/05/2026",
+      "time": "19:29",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-05-15T19:29:41-03:00",
+      "expires": "2026-05-15T21:25:00-03:00"
+    },
+    {
+      "date": "15/05/2026",
+      "time": "18:52",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
+      "status": "vigente",
+      "onset": "2026-05-15T18:52:25-03:00",
+      "expires": "2026-05-15T21:50:00-03:00"
+    },
     {
       "date": "15/05/2026",
       "time": "18:00",
@@ -301,7 +327,7 @@
       "uf": "AM",
       "location": "Novo Airão/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T15:49:00-03:00",
       "expires": "2026-05-15T19:40:00-03:00"
     },
@@ -366,7 +392,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento, Zonas Oeste e Centro-Oeste.  Evite encostas e areas de risco. Em caso de emergencia ligue: 199 e 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T14:41:51-03:00",
       "expires": "2026-05-15T19:00:00-03:00"
     },
@@ -574,7 +600,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:Alerta de Alagamentos para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil Local. Evite transitar por vias alagadas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T11:32:01-03:00",
       "expires": "2026-05-15T19:00:00-03:00"
     },
@@ -993,139 +1019,22 @@
       "status": "expirado",
       "onset": "2026-05-14T21:10:55-03:00",
       "expires": "2026-05-14T23:00:00-03:00"
-    },
-    {
-      "date": "14/05/2026",
-      "time": "19:43",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manicoré/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-14T19:43:43-03:00",
-      "expires": "2026-05-14T22:00:00-03:00"
-    },
-    {
-      "date": "14/05/2026",
-      "time": "19:13",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Igarapé-Miri/PA",
-      "headline": "Defesa Civil:IGARAPE-MIRI: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-14T19:13:39-03:00",
-      "expires": "2026-05-14T22:00:00-03:00"
-    },
-    {
-      "date": "14/05/2026",
-      "time": "19:12",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Moju/PA",
-      "headline": "Defesa Civil:MOJU: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-14T19:12:11-03:00",
-      "expires": "2026-05-14T22:00:00-03:00"
-    },
-    {
-      "date": "14/05/2026",
-      "time": "19:02",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Breu Branco/PA",
-      "headline": "Defesa Civil:BREU BRANCO: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-14T19:02:44-03:00",
-      "expires": "2026-05-14T22:00:00-03:00"
-    },
-    {
-      "date": "14/05/2026",
-      "time": "19:01",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de pancadas de chuva com rajadas de vento ocasionais. Proteja-se",
-      "status": "expirado",
-      "onset": "2026-05-14T19:01:40-03:00",
-      "expires": "2026-05-14T21:00:00-03:00"
-    },
-    {
-      "date": "14/05/2026",
-      "time": "18:48",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "PA",
-      "location": "Goianésia do Pará/PA",
-      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "expirado",
-      "onset": "2026-05-14T18:48:41-03:00",
-      "expires": "2026-05-14T20:00:00-03:00"
-    },
-    {
-      "date": "14/05/2026",
-      "time": "18:44",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Tucuruí/PA",
-      "headline": "Defesa Civil:TUCURUI: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-14T18:44:37-03:00",
-      "expires": "2026-05-14T21:00:00-03:00"
-    },
-    {
-      "date": "14/05/2026",
-      "time": "18:41",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "PA",
-      "location": "Acará/PA",
-      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "expirado",
-      "onset": "2026-05-14T18:41:17-03:00",
-      "expires": "2026-05-14T22:00:00-03:00"
-    },
-    {
-      "date": "14/05/2026",
-      "time": "18:35",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "PA",
-      "location": "Jacundá/PA",
-      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "expirado",
-      "onset": "2026-05-14T18:35:00-03:00",
-      "expires": "2026-05-14T21:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 69,
+    "total_alerts": 62,
     "by_nivel": {
       "Médio": 32,
-      "Alto": 27,
-      "Severo": 10
+      "Alto": 23,
+      "Severo": 7
     },
     "by_channel_list": {
-      "Google": 69
+      "Google": 62
     },
     "by_region": {
-      "N": 41,
+      "N": 33,
       "SE": 16,
-      "S": 7,
+      "S": 8,
       "NE": 4,
       "CO": 1
     }
