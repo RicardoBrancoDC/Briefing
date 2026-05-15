@@ -1,63 +1,39 @@
 {
-  "generated_at": "2026-05-15T06:25:54.409818-03:00",
-  "source_run_dir": "run_20260515_062535",
+  "generated_at": "2026-05-15T08:22:29.345968-03:00",
+  "source_run_dir": "run_20260515_082206",
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 39,
+    "vigentes": 7,
+    "ultimas24h": 44,
     "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "06:19",
-      "date": "15/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:06h20 Chuva se espalhando pela regiao de Rancharia e Joao Ramalho. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente"
-    },
-    {
-      "time": "05:05",
-      "date": "15/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Itariri/SP, Peruíbe/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:05h05 Chuva se espalhando pela regiao de Peruibe. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente"
-    },
-    {
-      "time": "04:46",
-      "date": "15/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:04h45 Chuva se espalhando pela regiao de Teodoro Sampaio. Tem raios e ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente"
-    },
-    {
-      "time": "03:22",
+      "time": "07:48",
       "date": "15/05/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
       "event": "Chuvas Intensas",
       "nivel": "Médio",
-      "location": "Humaitá/AM",
+      "location": "AMAZONAS/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
       "status": "vigente"
     },
     {
-      "time": "03:16",
+      "time": "07:33",
+      "date": "15/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "07:10",
       "date": "15/05/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
@@ -65,7 +41,31 @@
       "nivel": "Alto",
       "location": "Novo Airão/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento. Evite areas baixas e acompanhe atualizacoes. Evite areas alagadas e fique em local seguro.",
+      "status": "vigente"
+    },
+    {
+      "time": "06:58",
+      "date": "15/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "location": "Novo Airão/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Redobre atencao em areas inclinadas. Procure local seguro.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "06:52",
+      "date": "15/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
       "status": "vigente"
     }
   ],
@@ -76,14 +76,14 @@
       "count": 15
     },
     {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 12
+    },
+    {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
       "count": 8
-    },
-    {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
@@ -123,11 +123,11 @@
     },
     {
       "label": "Médio",
-      "count": 19
+      "count": 20
     },
     {
       "label": "Alto",
-      "count": 14
+      "count": 18
     },
     {
       "label": "Severo",
@@ -137,11 +137,15 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 37
+      "count": 39
     },
     {
       "label": "Alagamentos",
-      "count": 1
+      "count": 2
+    },
+    {
+      "label": "Solo/Lama",
+      "count": 2
     },
     {
       "label": "Frentes Frias/Zonas De Convergência",
@@ -154,12 +158,12 @@
       "count": 16
     },
     {
-      "uf": "SP",
-      "count": 8
+      "uf": "AM",
+      "count": 12
     },
     {
-      "uf": "AM",
-      "count": 7
+      "uf": "SP",
+      "count": 8
     },
     {
       "uf": "PR",
@@ -181,14 +185,92 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 33
+      "count": 37
     }
   ],
   "all_alerts": [
+    {
+      "date": "15/05/2026",
+      "time": "07:48",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-15T07:48:34-03:00",
+      "expires": "2026-05-15T11:40:00-03:00"
+    },
+    {
+      "date": "15/05/2026",
+      "time": "07:33",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-15T07:33:19-03:00",
+      "expires": "2026-05-15T11:20:00-03:00"
+    },
+    {
+      "date": "15/05/2026",
+      "time": "07:10",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Novo Airão/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento. Evite areas baixas e acompanhe atualizacoes. Evite areas alagadas e fique em local seguro.",
+      "status": "vigente",
+      "onset": "2026-05-15T07:10:16-03:00",
+      "expires": "2026-05-15T13:00:00-03:00"
+    },
+    {
+      "date": "15/05/2026",
+      "time": "06:58",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Novo Airão/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Redobre atencao em areas inclinadas. Procure local seguro.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-15T06:58:01-03:00",
+      "expires": "2026-05-15T18:30:00-03:00"
+    },
+    {
+      "date": "15/05/2026",
+      "time": "06:52",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-15T06:52:07-03:00",
+      "expires": "2026-05-15T10:40:00-03:00"
+    },
+    {
+      "date": "15/05/2026",
+      "time": "06:43",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Novo Airão/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Redobre o cuidado ao dirigir. Evite transitar por areas de risco.  Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-15T06:43:30-03:00",
+      "expires": "2026-05-15T18:30:00-03:00"
+    },
     {
       "date": "15/05/2026",
       "time": "06:19",
@@ -198,7 +280,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:06h20 Chuva se espalhando pela regiao de Rancharia e Joao Ramalho. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T06:19:52-03:00",
       "expires": "2026-05-15T08:20:00-03:00"
     },
@@ -211,7 +293,7 @@
       "uf": "SP",
       "location": "Itariri/SP, Peruíbe/SP",
       "headline": "Defesa Civil:05h05 Chuva se espalhando pela regiao de Peruibe. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T05:05:23-03:00",
       "expires": "2026-05-15T07:05:00-03:00"
     },
@@ -224,7 +306,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:04h45 Chuva se espalhando pela regiao de Teodoro Sampaio. Tem raios e ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T04:46:18-03:00",
       "expires": "2026-05-15T06:45:00-03:00"
     },
@@ -237,7 +319,7 @@
       "uf": "AM",
       "location": "Humaitá/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T03:22:10-03:00",
       "expires": "2026-05-15T07:15:00-03:00"
     },
@@ -653,7 +735,7 @@
       "uf": "MG",
       "location": "Belo Horizonte/MG",
       "headline": "Defesa Civil:Chuva (ate 20 mm), ventos de 40 km/h ate 8h de sexta-feira (15) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-14T09:36:27-03:00",
       "expires": "2026-05-15T08:00:00-03:00"
     },
@@ -682,34 +764,21 @@
       "status": "expirado",
       "onset": "2026-05-14T09:23:24-03:00",
       "expires": "2026-05-14T23:55:00-03:00"
-    },
-    {
-      "date": "14/05/2026",
-      "time": "07:27",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Beruri/AM, Autazes/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-14T07:27:45-03:00",
-      "expires": "2026-05-14T10:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 39,
+    "total_alerts": 44,
     "by_nivel": {
-      "Médio": 19,
-      "Alto": 14,
+      "Médio": 20,
+      "Alto": 18,
       "Severo": 5,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 39
+      "Google": 44
     },
     "by_region": {
-      "N": 23,
+      "N": 28,
       "SE": 10,
       "S": 4,
       "NE": 2
