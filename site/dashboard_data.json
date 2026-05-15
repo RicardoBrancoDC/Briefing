@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-15T16:57:36.788229-03:00",
-  "source_run_dir": "run_20260515_165640",
+  "generated_at": "2026-05-15T18:31:14.288178-03:00",
+  "source_run_dir": "run_20260515_183028",
   "cards": {
-    "vigentes": 25,
-    "ultimas24h": 73,
-    "autoridadesAtivas": 13,
+    "vigentes": 15,
+    "ultimas24h": 69,
+    "autoridadesAtivas": 14,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "18:00",
+      "date": "15/05/2026",
+      "senderName": "Defesa Civil de Cabedelo (PB)",
+      "senderNameShort": "DC Cabedelo (PB)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Cabedelo/PB",
+      "uf": "PB",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas e ventos fortes, com risco de alagamentos em Cabedelo. Evite areas alagadas e abrigue-se. Emergencia: 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "16:30",
       "date": "15/05/2026",
@@ -55,18 +67,6 @@
       "uf": "AM",
       "headline": "Defesa Civil:Alerta de Inundacao gradual para Manacapuru. Siga as orientacoes da defesa civil local e do plano de contingencia municipal.",
       "status": "vigente"
-    },
-    {
-      "time": "16:00",
-      "date": "15/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "location": "São Paulo de Olivença/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:Alerta de Inundacao gradual para Sao Paulo de Olivenca/AM. Siga as orientacoes da defesa civil local e do plano de contingencia municipal.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -76,14 +76,14 @@
       "count": 31
     },
     {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
-      "count": 13
-    },
-    {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
       "count": 9
+    },
+    {
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
@@ -101,6 +101,11 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil de Cabedelo (PB)",
+      "short_name": "DC Cabedelo (PB)",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil de João Pessoa (PB)",
       "short_name": "DC João Pessoa (PB)",
       "count": 1
@@ -114,11 +119,6 @@
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -128,17 +128,17 @@
     },
     {
       "label": "Alto",
-      "count": 30
+      "count": 27
     },
     {
       "label": "Severo",
-      "count": 11
+      "count": 10
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 55
+      "count": 51
     },
     {
       "label": "Solo/Lama",
@@ -163,12 +163,12 @@
       "count": 33
     },
     {
-      "uf": "PA",
-      "count": 13
-    },
-    {
       "uf": "SP",
       "count": 10
+    },
+    {
+      "uf": "PA",
+      "count": 8
     },
     {
       "uf": "PR",
@@ -180,7 +180,7 @@
     },
     {
       "uf": "PB",
-      "count": 1
+      "count": 2
     },
     {
       "uf": "MA",
@@ -206,14 +206,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 25
+      "count": 15
     },
     {
       "label": "expirado",
-      "count": 48
+      "count": 54
     }
   ],
   "all_alerts": [
+    {
+      "date": "15/05/2026",
+      "time": "18:00",
+      "senderName": "Defesa Civil de Cabedelo (PB)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PB",
+      "location": "Cabedelo/PB",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas e ventos fortes, com risco de alagamentos em Cabedelo. Evite areas alagadas e abrigue-se. Emergencia: 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-15T18:00:00-03:00",
+      "expires": "2026-05-16T12:00:00-03:00"
+    },
     {
       "date": "15/05/2026",
       "time": "16:30",
@@ -301,7 +314,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T15:25:54-03:00",
       "expires": "2026-05-15T18:25:00-03:00"
     },
@@ -314,7 +327,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T15:16:12-03:00",
       "expires": "2026-05-15T17:10:00-03:00"
     },
@@ -340,7 +353,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T15:00:14-03:00",
       "expires": "2026-05-15T18:30:00-03:00"
     },
@@ -418,7 +431,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 15/05 13:29 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Meio-Oeste, Planalto Norte, Litoral Norte, Baixo, Médio e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T13:31:19-03:00",
       "expires": "2026-05-15T17:30:00-03:00"
     },
@@ -483,7 +496,7 @@
       "uf": "AM",
       "location": "Maraã/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento.   Nao enfrente areas alagadas. Procure local seguro.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T12:15:01-03:00",
       "expires": "2026-05-15T17:00:00-03:00"
     },
@@ -496,7 +509,7 @@
       "uf": "AM",
       "location": "Uarini/AM, Maraã/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T12:09:43-03:00",
       "expires": "2026-05-15T18:00:00-03:00"
     },
@@ -509,7 +522,7 @@
       "uf": "AM",
       "location": "Fonte Boa/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T12:02:49-03:00",
       "expires": "2026-05-15T18:00:00-03:00"
     },
@@ -535,7 +548,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Zonas, Norte; Leste e Centro-Sul. Evite encostas e areas de risco.   Em caso de emergencia ligue: 199 e 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T11:49:34-03:00",
       "expires": "2026-05-15T17:00:00-03:00"
     },
@@ -574,7 +587,7 @@
       "uf": "AM",
       "location": "Fonte Boa/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento.   Nao enfrente areas alagadas. Procure local seguro.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T11:24:02-03:00",
       "expires": "2026-05-15T17:00:00-03:00"
     },
@@ -717,7 +730,7 @@
       "uf": "AM",
       "location": "Novo Airão/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Redobre atencao em areas inclinadas. Procure local seguro.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T06:58:01-03:00",
       "expires": "2026-05-15T18:30:00-03:00"
     },
@@ -743,7 +756,7 @@
       "uf": "AM",
       "location": "Novo Airão/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Redobre o cuidado ao dirigir. Evite transitar por areas de risco.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T06:43:30-03:00",
       "expires": "2026-05-15T18:30:00-03:00"
     },
@@ -1097,88 +1110,23 @@
       "status": "expirado",
       "onset": "2026-05-14T18:35:00-03:00",
       "expires": "2026-05-14T21:00:00-03:00"
-    },
-    {
-      "date": "14/05/2026",
-      "time": "18:30",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "PA",
-      "location": "Acará/PA",
-      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "expirado",
-      "onset": "2026-05-14T18:30:10-03:00",
-      "expires": "2026-05-14T21:00:00-03:00"
-    },
-    {
-      "date": "14/05/2026",
-      "time": "18:12",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Goianésia do Pará/PA",
-      "headline": "Defesa Civil:GOIANESIA DO PARA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais.Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-14T18:12:18-03:00",
-      "expires": "2026-05-14T20:00:00-03:00"
-    },
-    {
-      "date": "14/05/2026",
-      "time": "17:36",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-14T17:36:12-03:00",
-      "expires": "2026-05-14T20:00:00-03:00"
-    },
-    {
-      "date": "14/05/2026",
-      "time": "17:33",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "São Félix do Xingu/PA, Tucumã/PA",
-      "headline": "Defesa Civil:SUDESTE PARAENSE: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-14T17:33:15-03:00",
-      "expires": "2026-05-14T19:00:00-03:00"
-    },
-    {
-      "date": "14/05/2026",
-      "time": "17:15",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "São Miguel do Guamá/PA",
-      "headline": "Defesa Civil:SAO MIGUEL: Alerta ALTO de CHUVAS INTENSAS para as proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-14T17:15:24-03:00",
-      "expires": "2026-05-14T20:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 73,
+    "total_alerts": 69,
     "by_nivel": {
       "Médio": 32,
-      "Alto": 30,
-      "Severo": 11
+      "Alto": 27,
+      "Severo": 10
     },
     "by_channel_list": {
-      "Google": 73
+      "Google": 69
     },
     "by_region": {
-      "N": 46,
+      "N": 41,
       "SE": 16,
       "S": 7,
-      "NE": 3,
+      "NE": 4,
       "CO": 1
     }
   }
