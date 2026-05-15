@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-05-15T10:55:46.332763-03:00",
-  "source_run_dir": "run_20260515_105504",
+  "generated_at": "2026-05-15T11:40:49.938633-03:00",
+  "source_run_dir": "run_20260515_114022",
   "cards": {
     "vigentes": 13,
-    "ultimas24h": 47,
+    "ultimas24h": 50,
     "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "11:39",
+      "date": "15/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Severo",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento para Manaus. Nao enfrente areas alagadas. Procure local seguro.  Em caso de emergencia ligue: 199 e 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "11:32",
+      "date": "15/05/2026",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "senderNameShort": "DC Manaus (AM)",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:Alerta de Alagamentos para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil Local. Evite transitar por vias alagadas.",
+      "status": "vigente"
+    },
+    {
+      "time": "11:24",
+      "date": "15/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "location": "Fonte Boa/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento.   Nao enfrente areas alagadas. Procure local seguro.  Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "10:47",
       "date": "15/05/2026",
@@ -31,49 +67,13 @@
       "uf": "MT",
       "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
       "status": "vigente"
-    },
-    {
-      "time": "10:42",
-      "date": "15/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Rio Preto da Eva/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "10:05",
-      "date": "15/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Careiro da Várzea/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa Careiro da Varzea. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "09:53",
-      "date": "15/05/2026",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "senderNameShort": "DC Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.¿",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 15
+      "count": 17
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -91,13 +91,13 @@
       "count": 5
     },
     {
-      "name": "Defesa Civil Estadual de Mato Grosso",
-      "short_name": "DC Mato Grosso",
-      "count": 1
-    },
-    {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual de Mato Grosso",
+      "short_name": "DC Mato Grosso",
       "count": 1
     },
     {
@@ -119,15 +119,15 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 23
+      "count": 24
     },
     {
       "label": "Alto",
-      "count": 17
+      "count": 18
     },
     {
       "label": "Severo",
-      "count": 7
+      "count": 8
     }
   ],
   "event_distribution": [
@@ -137,7 +137,7 @@
     },
     {
       "label": "Alagamentos",
-      "count": 2
+      "count": 5
     },
     {
       "label": "Solo/Lama",
@@ -151,7 +151,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 16
+      "count": 19
     },
     {
       "uf": "PA",
@@ -185,10 +185,49 @@
     },
     {
       "label": "expirado",
-      "count": 34
+      "count": 37
     }
   ],
   "all_alerts": [
+    {
+      "date": "15/05/2026",
+      "time": "11:39",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Severo",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento para Manaus. Nao enfrente areas alagadas. Procure local seguro.  Em caso de emergencia ligue: 199 e 193.",
+      "status": "vigente",
+      "onset": "2026-05-15T11:39:29-03:00",
+      "expires": "2026-05-15T16:00:00-03:00"
+    },
+    {
+      "date": "15/05/2026",
+      "time": "11:32",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:Alerta de Alagamentos para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil Local. Evite transitar por vias alagadas.",
+      "status": "vigente",
+      "onset": "2026-05-15T11:32:01-03:00",
+      "expires": "2026-05-15T19:00:00-03:00"
+    },
+    {
+      "date": "15/05/2026",
+      "time": "11:24",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Fonte Boa/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento.   Nao enfrente areas alagadas. Procure local seguro.  Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-15T11:24:02-03:00",
+      "expires": "2026-05-15T17:00:00-03:00"
+    },
     {
       "date": "15/05/2026",
       "time": "10:47",
@@ -276,7 +315,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T08:24:08-03:00",
       "expires": "2026-05-15T11:20:00-03:00"
     },
@@ -289,7 +328,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T07:48:34-03:00",
       "expires": "2026-05-15T11:40:00-03:00"
     },
@@ -302,7 +341,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T07:33:19-03:00",
       "expires": "2026-05-15T11:20:00-03:00"
     },
@@ -802,17 +841,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 47,
+    "total_alerts": 50,
     "by_nivel": {
-      "Médio": 23,
-      "Alto": 17,
-      "Severo": 7
+      "Médio": 24,
+      "Alto": 18,
+      "Severo": 8
     },
     "by_channel_list": {
-      "Google": 47
+      "Google": 50
     },
     "by_region": {
-      "N": 30,
+      "N": 33,
       "SE": 10,
       "S": 5,
       "CO": 1,
