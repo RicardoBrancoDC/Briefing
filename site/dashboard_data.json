@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-16T03:37:59.808857-03:00",
-  "source_run_dir": "run_20260516_033745",
+  "generated_at": "2026-05-16T06:52:57.595612-03:00",
+  "source_run_dir": "run_20260516_065240",
   "cards": {
-    "vigentes": 10,
-    "ultimas24h": 48,
-    "autoridadesAtivas": 13,
+    "vigentes": 11,
+    "ultimas24h": 44,
+    "autoridadesAtivas": 14,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "06:43",
+      "date": "16/05/2026",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "senderNameShort": "DC Blumenau (SC)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Blumenau/SC",
+      "uf": "SC",
+      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Chuva fraca a moderada isolada c/ algumas trovoadas durante a noite de hoje (16) em Blumenau. Fique atento! Emerg 199/193.",
+      "status": "vigente"
+    },
     {
       "time": "23:24",
       "date": "15/05/2026",
@@ -55,35 +67,18 @@
       "uf": "PB",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas e ventos fortes, com risco de alagamentos em Cabedelo. Evite areas alagadas e abrigue-se. Emergencia: 199 ou 193.",
       "status": "vigente"
-    },
-    {
-      "time": "16:30",
-      "date": "15/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "location": "Borba/AM, Nova Olinda do Norte/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:Alerta de Inundacoes gradual para Borba e Nova Olinda do Norte. Siga as orientacoes da defesa civil local e do plano de contingencia municipal.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 26
+      "count": 24
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
       "count": 5
-    },
-    {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 4
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
@@ -94,6 +89,11 @@
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil de Blumenau (SC)",
+      "short_name": "DC Blumenau (SC)",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Cabedelo (PB)",
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 20
+      "count": 17
     },
     {
       "label": "Alto",
-      "count": 22
+      "count": 21
     },
     {
       "label": "Severo",
@@ -138,14 +138,14 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 31
-    },
-    {
-      "label": "Solo/Lama",
-      "count": 6
+      "count": 28
     },
     {
       "label": "Inundações",
+      "count": 5
+    },
+    {
+      "label": "Solo/Lama",
       "count": 5
     },
     {
@@ -160,14 +160,10 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 28
+      "count": 26
     },
     {
       "uf": "MG",
-      "count": 5
-    },
-    {
-      "uf": "SP",
       "count": 5
     },
     {
@@ -175,7 +171,15 @@
       "count": 3
     },
     {
+      "uf": "SC",
+      "count": 2
+    },
+    {
       "uf": "PB",
+      "count": 2
+    },
+    {
+      "uf": "SP",
       "count": 2
     },
     {
@@ -184,10 +188,6 @@
     },
     {
       "uf": "PI",
-      "count": 1
-    },
-    {
-      "uf": "SC",
       "count": 1
     },
     {
@@ -202,14 +202,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 10
+      "count": 11
     },
     {
       "label": "expirado",
-      "count": 38
+      "count": 33
     }
   ],
   "all_alerts": [
+    {
+      "date": "16/05/2026",
+      "time": "06:43",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "Blumenau/SC",
+      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Chuva fraca a moderada isolada c/ algumas trovoadas durante a noite de hoje (16) em Blumenau. Fique atento! Emerg 199/193.",
+      "status": "vigente",
+      "onset": "2026-05-16T06:43:21-03:00",
+      "expires": "2026-05-17T00:00:00-03:00"
+    },
     {
       "date": "15/05/2026",
       "time": "23:24",
@@ -768,88 +781,23 @@
       "status": "expirado",
       "onset": "2026-05-15T06:58:01-03:00",
       "expires": "2026-05-15T18:30:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "06:52",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-15T06:52:07-03:00",
-      "expires": "2026-05-15T10:40:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "06:43",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Novo Airão/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Redobre o cuidado ao dirigir. Evite transitar por areas de risco.  Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-15T06:43:30-03:00",
-      "expires": "2026-05-15T18:30:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "06:19",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:06h20 Chuva se espalhando pela regiao de Rancharia e Joao Ramalho. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-15T06:19:52-03:00",
-      "expires": "2026-05-15T08:20:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "05:05",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "Itariri/SP, Peruíbe/SP",
-      "headline": "Defesa Civil:05h05 Chuva se espalhando pela regiao de Peruibe. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-15T05:05:23-03:00",
-      "expires": "2026-05-15T07:05:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "04:46",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:04h45 Chuva se espalhando pela regiao de Teodoro Sampaio. Tem raios e ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-15T04:46:18-03:00",
-      "expires": "2026-05-15T06:45:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 48,
+    "total_alerts": 44,
     "by_nivel": {
-      "Alto": 22,
-      "Médio": 20,
+      "Alto": 21,
+      "Médio": 17,
       "Severo": 6
     },
     "by_channel_list": {
-      "Google": 48
+      "Google": 44
     },
     "by_region": {
-      "N": 28,
-      "SE": 11,
+      "N": 26,
+      "SE": 8,
+      "S": 5,
       "NE": 4,
-      "S": 4,
       "CO": 1
     }
   }
