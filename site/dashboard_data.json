@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-16T01:06:27.559569-03:00",
-  "source_run_dir": "run_20260516_010556",
+  "generated_at": "2026-05-16T03:37:59.808857-03:00",
+  "source_run_dir": "run_20260516_033745",
   "cards": {
-    "vigentes": 11,
-    "ultimas24h": 55,
+    "vigentes": 10,
+    "ultimas24h": 48,
     "autoridadesAtivas": 13,
     "alertasExtremos": 0
   },
@@ -18,7 +18,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "19:29",
@@ -73,12 +73,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 29
-    },
-    {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 6
+      "count": 26
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -86,9 +81,14 @@
       "count": 5
     },
     {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 4
+    },
+    {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 5
+      "count": 3
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 26
+      "count": 20
     },
     {
       "label": "Alto",
-      "count": 23
+      "count": 22
     },
     {
       "label": "Severo",
@@ -138,18 +138,18 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 37
+      "count": 31
     },
     {
       "label": "Solo/Lama",
       "count": 6
     },
     {
-      "label": "Alagamentos",
-      "count": 6
+      "label": "Inundações",
+      "count": 5
     },
     {
-      "label": "Inundações",
+      "label": "Alagamentos",
       "count": 5
     },
     {
@@ -160,19 +160,19 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 31
-    },
-    {
-      "uf": "SP",
-      "count": 7
+      "count": 28
     },
     {
       "uf": "MG",
       "count": 5
     },
     {
-      "uf": "PR",
+      "uf": "SP",
       "count": 5
+    },
+    {
+      "uf": "PR",
+      "count": 3
     },
     {
       "uf": "PB",
@@ -202,11 +202,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 11
+      "count": 10
     },
     {
       "label": "expirado",
-      "count": 44
+      "count": 38
     }
   ],
   "all_alerts": [
@@ -219,7 +219,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T23:24:09-03:00",
       "expires": "2026-05-16T01:30:00-03:00"
     },
@@ -833,114 +833,23 @@
       "status": "expirado",
       "onset": "2026-05-15T04:46:18-03:00",
       "expires": "2026-05-15T06:45:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "03:22",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Humaitá/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-15T03:22:10-03:00",
-      "expires": "2026-05-15T07:15:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "03:16",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Novo Airão/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-15T03:16:54-03:00",
-      "expires": "2026-05-15T13:00:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "03:10",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:03h05 Chuva se espalhando pela regiao de Queiroz e Getulina. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-15T03:10:15-03:00",
-      "expires": "2026-05-15T05:05:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "02:30",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-15T02:30:02-03:00",
-      "expires": "2026-05-15T06:25:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "02:26",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:02h25 Chuva se espalhando pela regiao Eldorado. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-15T02:26:16-03:00",
-      "expires": "2026-05-15T04:25:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "02:24",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
-      "status": "expirado",
-      "onset": "2026-05-15T02:24:49-03:00",
-      "expires": "2026-05-15T05:25:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "01:20",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
-      "status": "expirado",
-      "onset": "2026-05-15T01:20:41-03:00",
-      "expires": "2026-05-15T04:20:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 55,
+    "total_alerts": 48,
     "by_nivel": {
-      "Médio": 26,
-      "Alto": 23,
+      "Alto": 22,
+      "Médio": 20,
       "Severo": 6
     },
     "by_channel_list": {
-      "Google": 55
+      "Google": 48
     },
     "by_region": {
-      "N": 31,
-      "SE": 13,
-      "S": 6,
+      "N": 28,
+      "SE": 11,
       "NE": 4,
+      "S": 4,
       "CO": 1
     }
   }
