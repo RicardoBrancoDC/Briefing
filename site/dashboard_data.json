@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-16T06:52:57.595612-03:00",
-  "source_run_dir": "run_20260516_065240",
+  "generated_at": "2026-05-16T08:20:02.026762-03:00",
+  "source_run_dir": "run_20260516_081948",
   "cards": {
-    "vigentes": 11,
-    "ultimas24h": 44,
+    "vigentes": 12,
+    "ultimas24h": 42,
     "autoridadesAtivas": 14,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "07:40",
+      "date": "16/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Boa Vista do Ramos/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "07:10",
+      "date": "16/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "06:43",
       "date": "16/05/2026",
@@ -43,37 +67,13 @@
       "uf": "MG",
       "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
       "status": "expirado"
-    },
-    {
-      "time": "18:52",
-      "date": "15/05/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
-      "status": "expirado"
-    },
-    {
-      "time": "18:00",
-      "date": "15/05/2026",
-      "senderName": "Defesa Civil de Cabedelo (PB)",
-      "senderNameShort": "DC Cabedelo (PB)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Cabedelo/PB",
-      "uf": "PB",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas e ventos fortes, com risco de alagamentos em Cabedelo. Evite areas alagadas e abrigue-se. Emergencia: 199 ou 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 24
+      "count": 22
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 17
+      "count": 18
     },
     {
       "label": "Alto",
-      "count": 21
+      "count": 18
     },
     {
       "label": "Severo",
@@ -146,11 +146,11 @@
     },
     {
       "label": "Solo/Lama",
-      "count": 5
+      "count": 4
     },
     {
       "label": "Alagamentos",
-      "count": 5
+      "count": 4
     },
     {
       "label": "Frentes Frias/Zonas De Convergência",
@@ -160,7 +160,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 26
+      "count": 24
     },
     {
       "uf": "MG",
@@ -202,14 +202,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 11
+      "count": 12
     },
     {
       "label": "expirado",
-      "count": 33
+      "count": 30
     }
   ],
   "all_alerts": [
+    {
+      "date": "16/05/2026",
+      "time": "07:40",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Boa Vista do Ramos/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-16T07:40:37-03:00",
+      "expires": "2026-05-16T09:35:00-03:00"
+    },
+    {
+      "date": "16/05/2026",
+      "time": "07:10",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-16T07:10:05-03:00",
+      "expires": "2026-05-16T09:00:00-03:00"
+    },
     {
       "date": "16/05/2026",
       "time": "06:43",
@@ -518,7 +544,7 @@
       "uf": "RJ",
       "location": "Mangaratiba/RJ",
       "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-15T13:01:44-03:00",
       "expires": "2026-05-16T08:00:00-03:00"
     },
@@ -729,72 +755,20 @@
       "status": "expirado",
       "onset": "2026-05-15T08:24:08-03:00",
       "expires": "2026-05-15T11:20:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "07:48",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-15T07:48:34-03:00",
-      "expires": "2026-05-15T11:40:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "07:33",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-15T07:33:19-03:00",
-      "expires": "2026-05-15T11:20:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "07:10",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Novo Airão/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento. Evite areas baixas e acompanhe atualizacoes. Evite areas alagadas e fique em local seguro.",
-      "status": "expirado",
-      "onset": "2026-05-15T07:10:16-03:00",
-      "expires": "2026-05-15T13:00:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "06:58",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Novo Airão/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Redobre atencao em areas inclinadas. Procure local seguro.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-15T06:58:01-03:00",
-      "expires": "2026-05-15T18:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 44,
+    "total_alerts": 42,
     "by_nivel": {
-      "Alto": 21,
-      "Médio": 17,
+      "Alto": 18,
+      "Médio": 18,
       "Severo": 6
     },
     "by_channel_list": {
-      "Google": 44
+      "Google": 42
     },
     "by_region": {
-      "N": 26,
+      "N": 24,
       "SE": 8,
       "S": 5,
       "NE": 4,
