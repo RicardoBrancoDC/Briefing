@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-16T16:36:15.904263-03:00",
-  "source_run_dir": "run_20260516_163552",
+  "generated_at": "2026-05-16T18:07:18.958107-03:00",
+  "source_run_dir": "run_20260516_180659",
   "cards": {
-    "vigentes": 14,
-    "ultimas24h": 21,
-    "autoridadesAtivas": 12,
+    "vigentes": 13,
+    "ultimas24h": 22,
+    "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "17:15",
+      "date": "16/05/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:17h10 Chuva se espalhando pela regiao de Taciba, Nantes e Martinopolis. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado na proxima hora.",
+      "status": "vigente"
+    },
+    {
+      "time": "17:14",
+      "date": "16/05/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "16:24",
       "date": "16/05/2026",
@@ -43,37 +67,13 @@
       "uf": "PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
       "status": "vigente"
-    },
-    {
-      "time": "15:14",
-      "date": "16/05/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:13",
-      "date": "16/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Castanhal/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS evite areas de risco. Fique atento e siga as orientacoes da Defesa Civil. Eergencia, ligue 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -83,7 +83,7 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 12
+      "count": 13
     },
     {
       "label": "Alto",
@@ -138,36 +138,36 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 21
+      "count": 22
     }
   ],
   "uf_distribution": [
+    {
+      "uf": "PR",
+      "count": 5
+    },
     {
       "uf": "AM",
       "count": 5
     },
     {
-      "uf": "PR",
-      "count": 4
+      "uf": "SP",
+      "count": 3
     },
     {
       "uf": "MG",
       "count": 3
     },
     {
-      "uf": "SP",
-      "count": 2
-    },
-    {
       "uf": "PA",
       "count": 2
     },
     {
-      "uf": "PB",
-      "count": 2
+      "uf": "RJ",
+      "count": 1
     },
     {
-      "uf": "RJ",
+      "uf": "PB",
       "count": 1
     },
     {
@@ -182,14 +182,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 14
+      "count": 13
     },
     {
       "label": "expirado",
-      "count": 7
+      "count": 9
     }
   ],
   "all_alerts": [
+    {
+      "date": "16/05/2026",
+      "time": "17:15",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:17h10 Chuva se espalhando pela regiao de Taciba, Nantes e Martinopolis. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado na proxima hora.",
+      "status": "vigente",
+      "onset": "2026-05-16T17:15:08-03:00",
+      "expires": "2026-05-16T19:00:00-03:00"
+    },
+    {
+      "date": "16/05/2026",
+      "time": "17:14",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-16T17:14:40-03:00",
+      "expires": "2026-05-16T20:10:00-03:00"
+    },
     {
       "date": "16/05/2026",
       "time": "16:24",
@@ -264,7 +290,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h10 Chuva isolada na regiao de Teodoro Sampaio e Mirante do Paranapanema. Tem  raios e vento. Atinge cidades vizinhas. Cuidado na proxima hora.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-16T15:12:09-03:00",
       "expires": "2026-05-16T17:10:00-03:00"
     },
@@ -290,7 +316,7 @@
       "uf": "AM",
       "location": "Careiro da Várzea/AM, Iranduba/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-16T14:59:59-03:00",
       "expires": "2026-05-16T18:00:00-03:00"
     },
@@ -303,7 +329,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil: ALERTA de Chuva Intensa. Evite locais com risco de alagamento e enxurrada. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-16T14:55:51-03:00",
       "expires": "2026-05-16T18:00:00-03:00"
     },
@@ -449,37 +475,24 @@
       "status": "expirado",
       "onset": "2026-05-15T18:52:25-03:00",
       "expires": "2026-05-15T21:50:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "18:00",
-      "senderName": "Defesa Civil de Cabedelo (PB)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PB",
-      "location": "Cabedelo/PB",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas e ventos fortes, com risco de alagamentos em Cabedelo. Evite areas alagadas e abrigue-se. Emergencia: 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-15T18:00:00-03:00",
-      "expires": "2026-05-16T12:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 21,
+    "total_alerts": 22,
     "by_nivel": {
-      "Médio": 12,
+      "Médio": 13,
       "Alto": 8,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 21
+      "Google": 22
     },
     "by_region": {
       "N": 7,
-      "SE": 6,
-      "S": 5,
-      "NE": 2,
-      "CO": 1
+      "SE": 7,
+      "S": 6,
+      "CO": 1,
+      "NE": 1
     }
   }
 }
