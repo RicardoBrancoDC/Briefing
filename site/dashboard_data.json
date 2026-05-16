@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-16T08:20:02.026762-03:00",
-  "source_run_dir": "run_20260516_081948",
+  "generated_at": "2026-05-16T11:02:18.131501-03:00",
+  "source_run_dir": "run_20260516_110157",
   "cards": {
-    "vigentes": 12,
-    "ultimas24h": 42,
-    "autoridadesAtivas": 14,
+    "vigentes": 9,
+    "ultimas24h": 36,
+    "autoridadesAtivas": 13,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "09:21",
+      "date": "16/05/2026",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "senderNameShort": "DC Mato Grosso",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "MATO GROSSO/MT",
+      "uf": "MT",
+      "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
+      "status": "vigente"
+    },
     {
       "time": "07:40",
       "date": "16/05/2026",
@@ -18,7 +30,7 @@
       "location": "Boa Vista do Ramos/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "07:10",
@@ -30,7 +42,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "06:43",
@@ -55,25 +67,13 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
       "status": "expirado"
-    },
-    {
-      "time": "19:29",
-      "date": "15/05/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 22
+      "count": 19
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -83,12 +83,12 @@
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 3
+      "count": 2
     },
     {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 2
+      "name": "Defesa Civil Estadual de Mato Grosso",
+      "short_name": "DC Mato Grosso",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Blumenau (SC)",
@@ -124,21 +124,21 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 18
+      "count": 16
     },
     {
       "label": "Alto",
-      "count": 18
+      "count": 16
     },
     {
       "label": "Severo",
-      "count": 6
+      "count": 4
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 28
+      "count": 23
     },
     {
       "label": "Inundações",
@@ -151,27 +151,23 @@
     {
       "label": "Alagamentos",
       "count": 4
-    },
-    {
-      "label": "Frentes Frias/Zonas De Convergência",
-      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 24
+      "count": 20
     },
     {
       "uf": "MG",
       "count": 5
     },
     {
-      "uf": "PR",
-      "count": 3
+      "uf": "SC",
+      "count": 2
     },
     {
-      "uf": "SC",
+      "uf": "PR",
       "count": 2
     },
     {
@@ -179,8 +175,8 @@
       "count": 2
     },
     {
-      "uf": "SP",
-      "count": 2
+      "uf": "MT",
+      "count": 1
     },
     {
       "uf": "MA",
@@ -191,25 +187,38 @@
       "count": 1
     },
     {
-      "uf": "RJ",
+      "uf": "SP",
       "count": 1
     },
     {
-      "uf": "MT",
+      "uf": "RJ",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 12
+      "count": 9
     },
     {
       "label": "expirado",
-      "count": 30
+      "count": 27
     }
   ],
   "all_alerts": [
+    {
+      "date": "16/05/2026",
+      "time": "09:21",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "MT",
+      "location": "MATO GROSSO/MT",
+      "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
+      "status": "vigente",
+      "onset": "2026-05-16T09:21:37-03:00",
+      "expires": "2026-05-18T00:55:00-03:00"
+    },
     {
       "date": "16/05/2026",
       "time": "07:40",
@@ -219,7 +228,7 @@
       "uf": "AM",
       "location": "Boa Vista do Ramos/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-16T07:40:37-03:00",
       "expires": "2026-05-16T09:35:00-03:00"
     },
@@ -232,7 +241,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-16T07:10:05-03:00",
       "expires": "2026-05-16T09:00:00-03:00"
     },
@@ -664,114 +673,23 @@
       "status": "expirado",
       "onset": "2026-05-15T11:24:02-03:00",
       "expires": "2026-05-15T17:00:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "10:47",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa para Manaus. Chuva intensa pode causar alagamentos pontuais.   Em caso de emergencia ligue: 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-15T10:47:49-03:00",
-      "expires": "2026-05-15T14:00:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "10:46",
-      "senderName": "Defesa Civil Estadual de Mato Grosso",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MT",
-      "location": "MATO GROSSO/MT",
-      "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
-      "status": "vigente",
-      "onset": "2026-05-15T10:46:25-03:00",
-      "expires": "2026-05-16T10:00:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "10:42",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Rio Preto da Eva/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-15T10:42:21-03:00",
-      "expires": "2026-05-15T13:30:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "10:05",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Careiro da Várzea/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa Careiro da Varzea. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-15T10:05:42-03:00",
-      "expires": "2026-05-15T13:00:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "09:53",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.¿",
-      "status": "expirado",
-      "onset": "2026-05-15T09:53:46-03:00",
-      "expires": "2026-05-15T13:00:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "09:18",
-      "senderName": "Defesa civil de Itápolis (SP)",
-      "event": "Frentes Frias/Zonas De Convergência",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "Itápolis/SP",
-      "headline": "Defesa Civil:09:20:  Previsao- Frente Fria se aproximando com Chuvas nas proximas horas em Itapolis.  Recomendacao a populacao:  vestir roupas quentes.",
-      "status": "vigente",
-      "onset": "2026-05-15T09:18:22-03:00",
-      "expires": "2026-05-17T23:59:00-03:00"
-    },
-    {
-      "date": "15/05/2026",
-      "time": "08:24",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
-      "status": "expirado",
-      "onset": "2026-05-15T08:24:08-03:00",
-      "expires": "2026-05-15T11:20:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 42,
+    "total_alerts": 36,
     "by_nivel": {
-      "Alto": 18,
-      "Médio": 18,
-      "Severo": 6
+      "Alto": 16,
+      "Médio": 16,
+      "Severo": 4
     },
     "by_channel_list": {
-      "Google": 42
+      "Google": 36
     },
     "by_region": {
-      "N": 24,
-      "SE": 8,
-      "S": 5,
+      "N": 20,
+      "SE": 7,
       "NE": 4,
+      "S": 4,
       "CO": 1
     }
   }
