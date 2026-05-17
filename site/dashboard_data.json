@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-05-17T08:34:56.725125-03:00",
-  "source_run_dir": "run_20260517_083443",
+  "generated_at": "2026-05-17T11:00:30.082499-03:00",
+  "source_run_dir": "run_20260517_110014",
   "cards": {
-    "vigentes": 14,
-    "ultimas24h": 68,
-    "autoridadesAtivas": 12,
+    "vigentes": 11,
+    "ultimas24h": 71,
+    "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "10:54",
+      "date": "17/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Inundações",
+      "nivel": "Alto",
+      "location": "Ourém/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:OUREM: Alerta ALTO de possibilidade de INUNDACAO para hoje (17MAI). Mantenha atencao na cota do rio e siga as orientacoes da defesa civil.",
+      "status": "vigente"
+    },
+    {
+      "time": "10:52",
+      "date": "17/05/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Inajá/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:Risco de Alagamentos em  Inaja e mun. vizinhos. Monitore. Em caso de perigo, deixe o local imediatamente. Ligue 199/193.",
+      "status": "vigente"
+    },
+    {
+      "time": "10:41",
+      "date": "17/05/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:10h40 - Chuva forte entre Garca e Bauru. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
+      "status": "vigente"
+    },
+    {
+      "time": "09:33",
+      "date": "17/05/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:09h33 - Chuva forte entre Tupa e Marilia. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
+      "status": "vigente"
+    },
     {
       "time": "07:58",
       "date": "17/05/2026",
@@ -18,67 +66,24 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:07h56 - Chuva entre Sao Jose dos Campos e Jacarei. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente"
-    },
-    {
-      "time": "07:57",
-      "date": "17/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Coari/AM, Tapauá/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "07:54",
-      "date": "17/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:07h53 - Chuva entre Assis e Ourinhos. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente"
-    },
-    {
-      "time": "07:03",
-      "date": "17/05/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "06:58",
-      "date": "17/05/2026",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "senderNameShort": "DC Blumenau (SC)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Blumenau/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas isoladas de chuva c/ trovoadas a partir do final da manha. Nao se descarta chuva intensa. Fique atento! Emerg 199/193",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 36
+      "count": 38
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 18
+      "count": 19
+    },
+    {
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
+      "count": 3
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -88,11 +93,6 @@
     {
       "name": "Defesa Civil Mangaratiba (RJ)",
       "short_name": "Defesa Civil Mangaratiba (RJ)",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
       "count": 2
     },
     {
@@ -128,11 +128,11 @@
     },
     {
       "label": "Médio",
-      "count": 23
+      "count": 24
     },
     {
       "label": "Alto",
-      "count": 40
+      "count": 42
     },
     {
       "label": "Severo",
@@ -142,7 +142,11 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 67
+      "count": 69
+    },
+    {
+      "label": "Inundações",
+      "count": 1
     },
     {
       "label": "Solo/Lama",
@@ -152,22 +156,22 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 36
+      "count": 38
     },
     {
       "uf": "PR",
-      "count": 18
+      "count": 19
     },
     {
       "uf": "AM",
       "count": 4
     },
     {
-      "uf": "RJ",
-      "count": 2
+      "uf": "PA",
+      "count": 3
     },
     {
-      "uf": "PA",
+      "uf": "RJ",
       "count": 2
     },
     {
@@ -185,23 +189,71 @@
     {
       "uf": "PB",
       "count": 1
-    },
-    {
-      "uf": "MT",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 14
+      "count": 11
     },
     {
       "label": "expirado",
-      "count": 54
+      "count": 60
     }
   ],
   "all_alerts": [
+    {
+      "date": "17/05/2026",
+      "time": "10:54",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Inundações",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Ourém/PA",
+      "headline": "Defesa Civil:OUREM: Alerta ALTO de possibilidade de INUNDACAO para hoje (17MAI). Mantenha atencao na cota do rio e siga as orientacoes da defesa civil.",
+      "status": "vigente",
+      "onset": "2026-05-17T10:54:53-03:00",
+      "expires": "2026-05-18T10:00:00-03:00"
+    },
+    {
+      "date": "17/05/2026",
+      "time": "10:52",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "Inajá/PR",
+      "headline": "Defesa Civil:Risco de Alagamentos em  Inaja e mun. vizinhos. Monitore. Em caso de perigo, deixe o local imediatamente. Ligue 199/193.",
+      "status": "vigente",
+      "onset": "2026-05-17T10:52:09-03:00",
+      "expires": "2026-05-17T13:50:00-03:00"
+    },
+    {
+      "date": "17/05/2026",
+      "time": "10:41",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:10h40 - Chuva forte entre Garca e Bauru. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-05-17T10:41:19-03:00",
+      "expires": "2026-05-17T12:30:00-03:00"
+    },
+    {
+      "date": "17/05/2026",
+      "time": "09:33",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:09h33 - Chuva forte entre Tupa e Marilia. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-05-17T09:33:59-03:00",
+      "expires": "2026-05-17T11:25:00-03:00"
+    },
     {
       "date": "17/05/2026",
       "time": "07:58",
@@ -211,7 +263,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:07h56 - Chuva entre Sao Jose dos Campos e Jacarei. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-17T07:58:28-03:00",
       "expires": "2026-05-17T09:55:00-03:00"
     },
@@ -237,7 +289,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:07h53 - Chuva entre Assis e Ourinhos. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-17T07:54:35-03:00",
       "expires": "2026-05-17T09:45:00-03:00"
     },
@@ -250,7 +302,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-17T07:03:02-03:00",
       "expires": "2026-05-17T10:00:00-03:00"
     },
@@ -289,7 +341,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:6h35 Chuva em Mirante do Paranapanema. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-17T06:35:37-03:00",
       "expires": "2026-05-17T08:50:00-03:00"
     },
@@ -302,7 +354,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-17T06:20:07-03:00",
       "expires": "2026-05-17T09:20:00-03:00"
     },
@@ -1056,7 +1108,7 @@
       "uf": "PB",
       "location": "João Pessoa/PB",
       "headline": "Defesa Civil:Chuvas, risco de alagamentos, transbordamento de rios e deslizamentos ate as 10h do domingo (17). Emergencia: 199 ou 98831-6885 (WhatsApp).",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-16T12:13:02-03:00",
       "expires": "2026-05-17T10:00:00-03:00"
     },
@@ -1072,38 +1124,24 @@
       "status": "expirado",
       "onset": "2026-05-16T12:07:29-03:00",
       "expires": "2026-05-16T23:59:00-03:00"
-    },
-    {
-      "date": "16/05/2026",
-      "time": "09:21",
-      "senderName": "Defesa Civil Estadual de Mato Grosso",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MT",
-      "location": "MATO GROSSO/MT",
-      "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
-      "status": "vigente",
-      "onset": "2026-05-16T09:21:37-03:00",
-      "expires": "2026-05-18T00:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 68,
+    "total_alerts": 71,
     "by_nivel": {
-      "Alto": 40,
-      "Médio": 23,
+      "Alto": 42,
+      "Médio": 24,
       "Severo": 4,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 68
+      "Google": 71
     },
     "by_region": {
-      "SE": 40,
-      "S": 19,
-      "N": 6,
-      "NE": 2,
-      "CO": 1
+      "SE": 42,
+      "S": 20,
+      "N": 7,
+      "NE": 2
     }
   }
 }
