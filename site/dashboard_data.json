@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-05-18T01:45:56.916134-03:00",
-  "source_run_dir": "run_20260518_014504",
+  "generated_at": "2026-05-18T07:43:51.752164-03:00",
+  "source_run_dir": "run_20260518_074330",
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 69,
+    "vigentes": 7,
+    "ultimas24h": 54,
     "autoridadesAtivas": 12,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "07:13",
+      "date": "18/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Médio",
+      "location": "Maraã/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite encostas e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "06:00",
+      "date": "18/05/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Marés De Tempestade (Ressacas)",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "Observação Marítima SDC/SC 17/05 09:50 - Mar agitado entre segunda (18) e terça-feira (19). Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "03:00",
+      "date": "18/05/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "Aviso: Observação Meteorológica SDC/SC 17/05 19:20 - Vento sul com intensidade moderada e rajadas fortes na costa catarinense nesta segunda-feira (18). Risco moderado para ocorrências associadas a queda de galhos e árvores, danos na rede elétrica e destelhamentos. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "22:11",
       "date": "17/05/2026",
@@ -18,7 +54,7 @@
       "location": "Rio de Janeiro/RJ",
       "uf": "RJ",
       "headline": "Defesa Civil:Alerta de chuva moderada isolada com raios para a cidade do Rio nas proximas horas - 17/05 - Evite areas alagadas. Emergencia, ligue 199, 193",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "22:03",
@@ -31,59 +67,23 @@
       "uf": "SC",
       "headline": "Defesa Civil:ALERTABLU-ATENCAO: Chuva persistente de intensidade fraca a moderada nas proximas 03h em Blumenau. Fique atento! Emerg 199/193.",
       "status": "expirado"
-    },
-    {
-      "time": "21:24",
-      "date": "17/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:21h24 - Chuva forte na regiao de Bastos, Tupa e Pompeia. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado"
-    },
-    {
-      "time": "21:10",
-      "date": "17/05/2026",
-      "senderName": "Defesa Civil de Itaguaí (RJ)",
-      "senderNameShort": "DC Itaguaí (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Itaguaí/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Itaguai - Possibilidade de pancadas isoladas de chuva moderada nas proximas 24 horas no Municipio em caso de Emergencia ligue: 199/193.",
-      "status": "vigente"
-    },
-    {
-      "time": "21:04",
-      "date": "17/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:21h05 - Chuva forte na regiao de Pacaembu e Florida Paulista. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 31
+      "count": 18
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 9
     },
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
       "count": 8
-    },
-    {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -96,14 +96,9 @@
       "count": 5
     },
     {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
-      "count": 4
-    },
-    {
       "name": "Defesa Civil de Blumenau (SC)",
       "short_name": "DC Blumenau (SC)",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Defesa Civil do Rio de Janeiro (RJ)",
@@ -119,22 +114,39 @@
       "name": "Defesa Civil Mangaratiba (RJ)",
       "short_name": "Defesa Civil Mangaratiba (RJ)",
       "count": 1
+    },
+    {
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
+      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 38
+      "count": 36
     },
     {
       "label": "Alto",
-      "count": 31
+      "count": 18
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 66
+      "count": 49
+    },
+    {
+      "label": "Solo/Lama",
+      "count": 1
+    },
+    {
+      "label": "Marés De Tempestade (Ressacas)",
+      "count": 1
+    },
+    {
+      "label": "Vendaval",
+      "count": 1
     },
     {
       "label": "Friagem",
@@ -143,20 +155,16 @@
     {
       "label": "Inundações",
       "count": 1
-    },
-    {
-      "label": "Solo/Lama",
-      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 32
+      "count": 19
     },
     {
       "uf": "SC",
-      "count": 10
+      "count": 11
     },
     {
       "uf": "PA",
@@ -171,25 +179,64 @@
       "count": 5
     },
     {
-      "uf": "PR",
-      "count": 4
-    },
-    {
       "uf": "RJ",
       "count": 3
+    },
+    {
+      "uf": "PR",
+      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 63
+      "count": 47
     }
   ],
   "all_alerts": [
+    {
+      "date": "18/05/2026",
+      "time": "07:13",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Maraã/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite encostas e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-18T07:13:06-03:00",
+      "expires": "2026-05-18T13:00:00-03:00"
+    },
+    {
+      "date": "18/05/2026",
+      "time": "06:00",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Marés De Tempestade (Ressacas)",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Observação Marítima SDC/SC 17/05 09:50 - Mar agitado entre segunda (18) e terça-feira (19). Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-18T06:00:00-03:00",
+      "expires": "2026-05-19T18:00:00-03:00"
+    },
+    {
+      "date": "18/05/2026",
+      "time": "03:00",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Aviso: Observação Meteorológica SDC/SC 17/05 19:20 - Vento sul com intensidade moderada e rajadas fortes na costa catarinense nesta segunda-feira (18). Risco moderado para ocorrências associadas a queda de galhos e árvores, danos na rede elétrica e destelhamentos. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-18T03:00:00-03:00",
+      "expires": "2026-05-19T00:00:00-03:00"
+    },
     {
       "date": "17/05/2026",
       "time": "22:11",
@@ -199,7 +246,7 @@
       "uf": "RJ",
       "location": "Rio de Janeiro/RJ",
       "headline": "Defesa Civil:Alerta de chuva moderada isolada com raios para a cidade do Rio nas proximas horas - 17/05 - Evite areas alagadas. Emergencia, ligue 199, 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-17T22:11:53-03:00",
       "expires": "2026-05-18T07:00:00-03:00"
     },
@@ -745,7 +792,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Observação Meteorológica SDC/SC 16/05 10:40 - Temporais isolados entre a tarde do domingo (17) e a madrugada de segunda-feira (18). Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-17T12:00:00-03:00",
       "expires": "2026-05-18T07:00:00-03:00"
     },
@@ -852,255 +899,21 @@
       "status": "expirado",
       "onset": "2026-05-17T07:54:35-03:00",
       "expires": "2026-05-17T09:45:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "07:03",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-17T07:03:02-03:00",
-      "expires": "2026-05-17T10:00:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "06:58",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "Blumenau/SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas isoladas de chuva c/ trovoadas a partir do final da manha. Nao se descarta chuva intensa. Fique atento! Emerg 199/193",
-      "status": "expirado",
-      "onset": "2026-05-17T06:58:21-03:00",
-      "expires": "2026-05-17T23:55:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "06:35",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "Loanda/PR",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Loanda/PR. Siga as orientacoes da defesa civil local e do plano de contingencia Ligue 193.",
-      "status": "expirado",
-      "onset": "2026-05-17T06:35:42-03:00",
-      "expires": "2026-05-17T12:30:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "06:35",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:6h35 Chuva em Mirante do Paranapanema. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-17T06:35:37-03:00",
-      "expires": "2026-05-17T08:50:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "06:20",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-17T06:20:07-03:00",
-      "expires": "2026-05-17T09:20:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "06:04",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:6h03  Chuva em Rancharia e Quata. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-17T06:04:33-03:00",
-      "expires": "2026-05-17T08:10:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "06:01",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:6h00 - Chuva em Narandiba. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-17T06:01:24-03:00",
-      "expires": "2026-05-17T08:05:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "05:43",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:5h42 Chuva em Sao Lourenco da Serra, Sao Paulo e Guarulhos. Tem raios. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-17T05:43:43-03:00",
-      "expires": "2026-05-17T07:50:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "05:13",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:5h12 Chuva em Rosana e Euclides da Cunha. Aproximando-se de Teodoro Sampaio. Tem raios. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-17T05:13:31-03:00",
-      "expires": "2026-05-17T07:30:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "04:50",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:04h49 Chuva em Mairinque, Juquitiba e Sao Lourenco da Serra. Tem raios. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-17T04:50:57-03:00",
-      "expires": "2026-05-17T07:15:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "04:41",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:04h40 Chuva em Sorocaba, Aluminio e Sao Miguel Arcanjo. Tem raios. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-17T04:41:30-03:00",
-      "expires": "2026-05-17T07:00:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "04:37",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:04h36 Chuva em Presidente Bernardes. Aproximando-se de Presidente Prudente. Tem raios. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-17T04:37:27-03:00",
-      "expires": "2026-05-17T07:00:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "03:49",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Anamã/AM, Uarini/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-17T03:49:59-03:00",
-      "expires": "2026-05-17T15:00:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "03:12",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:3h11 Chuva na regiao de Teodoro Sampaio e Presidente Epitacio. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-17T03:12:35-03:00",
-      "expires": "2026-05-17T05:10:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "02:58",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:2h59 Chuva na regiao de Pirapozinho, Maracai e Taciba. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-17T02:58:38-03:00",
-      "expires": "2026-05-17T05:05:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "02:50",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:2h50 Chuva na regiao de Dracena. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-17T02:50:49-03:00",
-      "expires": "2026-05-17T05:00:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "02:45",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:2h43 Chuva em Pmpeia e Echapora. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-17T02:45:33-03:00",
-      "expires": "2026-05-17T04:50:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "01:46",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:1h43 Chuva em Quata, Rancharia e Osvaldo Cruz. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-17T01:46:07-03:00",
-      "expires": "2026-05-17T04:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 69,
+    "total_alerts": 54,
     "by_nivel": {
-      "Médio": 38,
-      "Alto": 31
+      "Médio": 36,
+      "Alto": 18
     },
     "by_channel_list": {
-      "Google": 69
+      "Google": 54
     },
     "by_region": {
-      "SE": 40,
+      "SE": 27,
       "N": 15,
-      "S": 14
+      "S": 12
     }
   }
 }
