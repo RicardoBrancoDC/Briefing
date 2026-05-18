@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-18T18:41:14.617728-03:00",
-  "source_run_dir": "run_20260518_184048",
+  "generated_at": "2026-05-18T20:32:28.447332-03:00",
+  "source_run_dir": "run_20260518_203208",
   "cards": {
-    "vigentes": 14,
-    "ultimas24h": 39,
+    "vigentes": 12,
+    "ultimas24h": 34,
     "autoridadesAtivas": 14,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "19:35",
+      "date": "18/05/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas.",
+      "status": "vigente"
+    },
+    {
+      "time": "19:25",
+      "date": "18/05/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas",
+      "status": "vigente"
+    },
     {
       "time": "15:35",
       "date": "18/05/2026",
@@ -43,52 +67,28 @@
       "uf": "MG",
       "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
       "status": "expirado"
-    },
-    {
-      "time": "14:47",
-      "date": "18/05/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "location": "Florianópolis/SC, Itajaí/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 18/05 14:45 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para os municípios de Florianópolis e Itajaí. Pico previsto às 15:30h. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "14:47",
-      "date": "18/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.Evite encostas e areas de risco. Fique em local seguro, ligue 199/193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 8
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 6
+      "count": 5
     },
     {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
       "count": 5
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
@@ -101,16 +101,6 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil Mangaratiba (RJ)",
-      "short_name": "Defesa Civil Mangaratiba (RJ)",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil de Blumenau (SC)",
-      "short_name": "DC Blumenau (SC)",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil de Belo Horizonte (MG)",
       "short_name": "DC Belo Horizonte (MG)",
       "count": 1
@@ -119,12 +109,22 @@
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
       "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual de Goiás",
+      "short_name": "DC Goiás",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Mangaratiba (RJ)",
+      "short_name": "Defesa Civil Mangaratiba (RJ)",
+      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 27
+      "count": 22
     },
     {
       "label": "Alto",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 29
+      "count": 24
     },
     {
       "label": "Alagamentos",
@@ -167,27 +167,27 @@
   ],
   "uf_distribution": [
     {
-      "uf": "AM",
-      "count": 9
+      "uf": "MG",
+      "count": 8
     },
     {
-      "uf": "SP",
+      "uf": "AM",
       "count": 8
     },
     {
       "uf": "SC",
-      "count": 7
+      "count": 5
     },
     {
-      "uf": "MG",
-      "count": 6
-    },
-    {
-      "uf": "RJ",
-      "count": 4
+      "uf": "SP",
+      "count": 5
     },
     {
       "uf": "PA",
+      "count": 3
+    },
+    {
+      "uf": "RJ",
       "count": 3
     },
     {
@@ -202,14 +202,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 14
+      "count": 12
     },
     {
       "label": "expirado",
-      "count": 25
+      "count": 22
     }
   ],
   "all_alerts": [
+    {
+      "date": "18/05/2026",
+      "time": "19:35",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas.",
+      "status": "vigente",
+      "onset": "2026-05-18T19:35:38-03:00",
+      "expires": "2026-05-18T21:30:00-03:00"
+    },
+    {
+      "date": "18/05/2026",
+      "time": "19:25",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas",
+      "status": "vigente",
+      "onset": "2026-05-18T19:25:00-03:00",
+      "expires": "2026-05-18T21:00:00-03:00"
+    },
     {
       "date": "18/05/2026",
       "time": "15:35",
@@ -258,7 +284,7 @@
       "uf": "SC",
       "location": "Florianópolis/SC, Itajaí/SC",
       "headline": "OBSERVAÇÃO - 18/05 14:45 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para os municípios de Florianópolis e Itajaí. Pico previsto às 15:30h. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-18T14:47:39-03:00",
       "expires": "2026-05-18T18:45:00-03:00"
     },
@@ -297,7 +323,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA para  risco de deslizamento em Manaus (NIVEL ALTO). Em caso de emergencia, ligue 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-18T14:09:57-03:00",
       "expires": "2026-05-18T20:00:00-03:00"
     },
@@ -388,7 +414,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS para as proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-18T13:01:05-03:00",
       "expires": "2026-05-18T19:00:00-03:00"
     },
@@ -401,7 +427,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-18T13:00:43-03:00",
       "expires": "2026-05-18T19:00:00-03:00"
     },
@@ -625,113 +651,22 @@
       "status": "vigente",
       "onset": "2026-05-17T21:00:00-03:00",
       "expires": "2026-05-18T23:55:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "20:07",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:20h05 - Chuva forte na regiao de Sao Jose do Barreiro e Arapei. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-17T20:07:02-03:00",
-      "expires": "2026-05-17T22:05:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "19:47",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:19h46- Chuva forte na regiao de Cunha e Silveiras. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-17T19:47:22-03:00",
-      "expires": "2026-05-17T21:45:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "19:31",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Nao enfrente ruas alagadas. Siga as orientacoes da defesa civil local E plano de contingencia municipal.",
-      "status": "expirado",
-      "onset": "2026-05-17T19:31:53-03:00",
-      "expires": "2026-05-17T23:00:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "19:10",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "Blumenau/SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Chuva fraca/moderada nas prox. 03h em Blumenau. Fique atento! Emerg 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-17T19:10:28-03:00",
-      "expires": "2026-05-17T22:15:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "19:08",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 17/05 19:05 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Planalto Norte, Litoral Norte, Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-17T19:08:20-03:00",
-      "expires": "2026-05-17T23:05:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "19:04",
-      "senderName": "Defesa Civil Mangaratiba (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva com intensidade moderada para as proximas 24horas. Em caso de Emergencia ligue:(21) 3030-2662/199/193.",
-      "status": "expirado",
-      "onset": "2026-05-17T19:04:54-03:00",
-      "expires": "2026-05-18T10:00:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "18:48",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:18h47- Chuva forte na regiao de Ilhabela e Sao Sebastiao. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-17T18:48:42-03:00",
-      "expires": "2026-05-17T20:40:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 39,
+    "total_alerts": 34,
     "by_nivel": {
-      "Médio": 27,
+      "Médio": 22,
       "Alto": 11,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 39
+      "Google": 34
     },
     "by_region": {
-      "SE": 18,
-      "N": 12,
-      "S": 7,
+      "SE": 16,
+      "N": 11,
+      "S": 5,
       "CO": 1,
       "NE": 1
     }
