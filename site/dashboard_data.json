@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-18T07:43:51.752164-03:00",
-  "source_run_dir": "run_20260518_074330",
+  "generated_at": "2026-05-18T08:25:42.601866-03:00",
+  "source_run_dir": "run_20260518_082528",
   "cards": {
     "vigentes": 7,
-    "ultimas24h": 54,
+    "ultimas24h": 51,
     "autoridadesAtivas": 12,
     "alertasExtremos": 0
   },
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 18
+      "count": 16
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -88,7 +88,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 36
+      "count": 33
     },
     {
       "label": "Alto",
@@ -134,7 +134,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 49
+      "count": 46
     },
     {
       "label": "Solo/Lama",
@@ -160,7 +160,7 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 19
+      "count": 17
     },
     {
       "uf": "SC",
@@ -172,7 +172,7 @@
     },
     {
       "uf": "AM",
-      "count": 7
+      "count": 6
     },
     {
       "uf": "MG",
@@ -194,7 +194,7 @@
     },
     {
       "label": "expirado",
-      "count": 47
+      "count": 44
     }
   ],
   "all_alerts": [
@@ -860,59 +860,20 @@
       "status": "expirado",
       "onset": "2026-05-17T09:33:59-03:00",
       "expires": "2026-05-17T11:25:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "07:58",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:07h56 - Chuva entre Sao Jose dos Campos e Jacarei. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-17T07:58:28-03:00",
-      "expires": "2026-05-17T09:55:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "07:57",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Coari/AM, Tapauá/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-17T07:57:36-03:00",
-      "expires": "2026-05-17T12:00:00-03:00"
-    },
-    {
-      "date": "17/05/2026",
-      "time": "07:54",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:07h53 - Chuva entre Assis e Ourinhos. Tem raios e ventos. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-17T07:54:35-03:00",
-      "expires": "2026-05-17T09:45:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 54,
+    "total_alerts": 51,
     "by_nivel": {
-      "Médio": 36,
+      "Médio": 33,
       "Alto": 18
     },
     "by_channel_list": {
-      "Google": 54
+      "Google": 51
     },
     "by_region": {
-      "SE": 27,
-      "N": 15,
+      "SE": 25,
+      "N": 14,
       "S": 12
     }
   }
