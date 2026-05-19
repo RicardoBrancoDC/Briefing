@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-05-19T10:34:00.119806-03:00",
-  "source_run_dir": "run_20260519_103334",
+  "generated_at": "2026-05-19T13:34:01.936955-03:00",
+  "source_run_dir": "run_20260519_133337",
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 36,
+    "vigentes": 7,
+    "ultimas24h": 31,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "13:13",
+      "date": "19/05/2026",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "senderNameShort": "DC Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "12:03",
+      "date": "19/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Inundações",
+      "nivel": "Alto",
+      "location": "Oriximiná/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:ORIXIMINA: Alerta  ALTO de possibilidade de ocorrencia de INUNDACAO para hoje em areas de ocupacao urbana e ribeirinha no municipio. Proteja-se!",
+      "status": "vigente"
+    },
+    {
+      "time": "10:36",
+      "date": "19/05/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Marés De Tempestade (Ressacas)",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "Aviso: Atualização: Observação Marítima SDC/SC 19/05 09:30 - Mar agitado até sexta-feira (22), com ondas de direção sudoeste/sul entre 2,0 e 3,0m, com picos de 3,5m em alto mar.  Risco moderado para ocorrências relacionadas à agitação marítima, em atividades de pesca, navegação e esportes náuticos. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "09:56",
       "date": "19/05/2026",
@@ -18,7 +54,7 @@
       "location": "Amaturá/AM, São Paulo de Olivença/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "09:26",
@@ -31,69 +67,38 @@
       "uf": "PA",
       "headline": "Defesa Civil:SEOPDEC: Alertas de chuvas e raios MODERADO para hoje 19MAI. Risco de alagamentos e destelhamentos. Atencao a novos alertas!",
       "status": "vigente"
-    },
-    {
-      "time": "09:21",
-      "date": "19/05/2026",
-      "senderName": "Defesa Civil Estadual de Mato Grosso",
-      "senderNameShort": "DC Mato Grosso",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "MATO GROSSO/MT",
-      "uf": "MT",
-      "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
-      "status": "vigente"
-    },
-    {
-      "time": "09:17",
-      "date": "19/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "location": "Santo Antônio do Içá/AM, Tonantins/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "08:29",
-      "date": "19/05/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Deslizamentos",
-      "nivel": "Médio",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:ALERTA DE RISCO GEOLOGICO: Risco Moderado de Deslizamentos. Atente-se a locais de encostas, quedas de muros e desabamentos. Proteja-se!",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 9
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 7
+      "count": 5
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
-      "count": 3
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Defesa Civil de Belém (PA)",
@@ -111,11 +116,6 @@
       "count": 1
     },
     {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 1
-    },
-    {
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
       "count": 1
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 14
+      "count": 12
     },
     {
       "label": "Alto",
-      "count": 21
+      "count": 18
     },
     {
       "label": "Severo",
@@ -138,48 +138,52 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 29
+      "count": 24
     },
     {
       "label": "Solo/Lama",
       "count": 3
     },
     {
-      "label": "Alagamentos",
-      "count": 2
+      "label": "Inundações",
+      "count": 1
+    },
+    {
+      "label": "Marés De Tempestade (Ressacas)",
+      "count": 1
     },
     {
       "label": "Deslizamentos",
       "count": 1
     },
     {
-      "label": "Inundações",
+      "label": "Alagamentos",
       "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 12
+      "count": 10
     },
     {
       "uf": "MG",
-      "count": 11
+      "count": 10
     },
     {
       "uf": "SP",
-      "count": 7
+      "count": 5
     },
     {
       "uf": "PA",
-      "count": 3
-    },
-    {
-      "uf": "MT",
-      "count": 1
+      "count": 2
     },
     {
       "uf": "SC",
+      "count": 2
+    },
+    {
+      "uf": "MT",
       "count": 1
     },
     {
@@ -190,14 +194,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 30
+      "count": 24
     }
   ],
   "all_alerts": [
+    {
+      "date": "19/05/2026",
+      "time": "13:13",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-19T13:13:13-03:00",
+      "expires": "2026-05-19T19:00:00-03:00"
+    },
+    {
+      "date": "19/05/2026",
+      "time": "12:03",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Inundações",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Oriximiná/PA",
+      "headline": "Defesa Civil:ORIXIMINA: Alerta  ALTO de possibilidade de ocorrencia de INUNDACAO para hoje em areas de ocupacao urbana e ribeirinha no municipio. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-05-19T12:03:26-03:00",
+      "expires": "2026-05-22T11:00:00-03:00"
+    },
+    {
+      "date": "19/05/2026",
+      "time": "10:36",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Marés De Tempestade (Ressacas)",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Aviso: Atualização: Observação Marítima SDC/SC 19/05 09:30 - Mar agitado até sexta-feira (22), com ondas de direção sudoeste/sul entre 2,0 e 3,0m, com picos de 3,5m em alto mar.  Risco moderado para ocorrências relacionadas à agitação marítima, em atividades de pesca, navegação e esportes náuticos. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-19T10:36:32-03:00",
+      "expires": "2026-05-22T21:00:00-03:00"
+    },
     {
       "date": "19/05/2026",
       "time": "09:56",
@@ -207,7 +250,7 @@
       "uf": "AM",
       "location": "Amaturá/AM, São Paulo de Olivença/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-19T09:56:53-03:00",
       "expires": "2026-05-19T13:00:00-03:00"
     },
@@ -272,7 +315,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Redobre a atencao no deslocamento.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-19T06:55:18-03:00",
       "expires": "2026-05-19T10:45:00-03:00"
     },
@@ -561,128 +604,24 @@
       "status": "expirado",
       "onset": "2026-05-18T13:42:44-03:00",
       "expires": "2026-05-18T15:45:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "13:27",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:13h25 Chuva isolada na regiao de Piracicaba , Tiete e Capivari. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-18T13:27:56-03:00",
-      "expires": "2026-05-18T15:00:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "13:26",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manacapuru/AM, Iranduba/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Atencao para chuva intensa nas proximas horas.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-18T13:26:51-03:00",
-      "expires": "2026-05-18T15:00:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "13:01",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS para as proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas.",
-      "status": "expirado",
-      "onset": "2026-05-18T13:01:05-03:00",
-      "expires": "2026-05-18T19:00:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "13:00",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.",
-      "status": "expirado",
-      "onset": "2026-05-18T13:00:43-03:00",
-      "expires": "2026-05-18T19:00:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "12:48",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-05-18T12:48:53-03:00",
-      "expires": "2026-05-18T14:50:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "12:27",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "mapa",
-      "headline": "Defesa Civil:12h25 Chuva isolada na regiao de Sao Manuel e Botucatu. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-18T12:27:34-03:00",
-      "expires": "2026-05-18T14:30:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "12:20",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Belém/PA, Santo Antônio do Tauá/PA",
-      "headline": "Defesa Civil:BELEM: Alerta alto de mare em 18MAI as 12h21 (3,48m). Risco de inundacao em areas ribeirinhas e baixas. Fique atento e prepare-se.",
-      "status": "expirado",
-      "onset": "2026-05-18T12:20:00-03:00",
-      "expires": "2026-05-18T14:20:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "10:57",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-18T10:57:58-03:00",
-      "expires": "2026-05-18T16:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 36,
+    "total_alerts": 31,
     "by_nivel": {
-      "Alto": 21,
-      "Médio": 14,
+      "Alto": 18,
+      "Médio": 12,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 36
+      "Google": 31
     },
     "by_region": {
-      "SE": 18,
-      "N": 15,
+      "SE": 15,
+      "N": 12,
+      "S": 2,
       "CO": 1,
-      "NE": 1,
-      "S": 1
+      "NE": 1
     }
   }
 }
