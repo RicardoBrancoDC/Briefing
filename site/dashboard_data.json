@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-19T01:36:31.039202-03:00",
-  "source_run_dir": "run_20260519_013605",
+  "generated_at": "2026-05-19T07:10:34.672090-03:00",
+  "source_run_dir": "run_20260519_071007",
   "cards": {
-    "vigentes": 4,
+    "vigentes": 2,
     "ultimas24h": 36,
     "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "06:55",
+      "date": "19/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Redobre a atencao no deslocamento.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "03:19",
+      "date": "19/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Tapauá/AM, Itamarati/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Atencao para chuva intensa nas proximas horas.    Siga as orientacoes da defesa civil local.",
+      "status": "expirado"
+    },
     {
       "time": "23:51",
       "date": "18/05/2026",
@@ -18,7 +42,7 @@
       "location": "Juruá/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Atencao para chuva intensa nas proximas horas.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "23:09",
@@ -30,7 +54,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:23h10 Chuva persistente em Sao Sebastiao. Atinge municipios vizinhos. Nao enfrente alagamentos. Cuidado nas proximas horas.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "21:51",
@@ -43,52 +67,23 @@
       "uf": "SP",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Em caso de emergencia, ligue 199 ou 193",
       "status": "expirado"
-    },
-    {
-      "time": "21:21",
-      "date": "18/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:21h20 Chuva isolada na regiao de Balbinos e Uru. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado"
-    },
-    {
-      "time": "21:16",
-      "date": "18/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:21h16 Chuva isolada na regiao de Itaju e Bariri. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 9
+    },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
       "count": 9
     },
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 7
-    },
-    {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
       "count": 7
-    },
-    {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 3
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
@@ -103,6 +98,11 @@
     {
       "name": "Defesa Civil de Belo Horizonte (MG)",
       "short_name": "DC Belo Horizonte (MG)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
       "count": 1
     },
     {
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 17
+      "count": 15
     },
     {
       "label": "Alto",
-      "count": 18
+      "count": 20
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 27
+      "count": 29
     },
     {
       "label": "Alagamentos",
@@ -151,20 +151,12 @@
     {
       "label": "Inundações",
       "count": 1
-    },
-    {
-      "label": "Marés De Tempestade (Ressacas)",
-      "count": 1
-    },
-    {
-      "label": "Vendaval",
-      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 10
+      "count": 12
     },
     {
       "uf": "MG",
@@ -175,12 +167,12 @@
       "count": 7
     },
     {
-      "uf": "SC",
+      "uf": "PA",
       "count": 3
     },
     {
-      "uf": "PA",
-      "count": 3
+      "uf": "SC",
+      "count": 1
     },
     {
       "uf": "PI",
@@ -198,14 +190,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 4
+      "count": 2
     },
     {
       "label": "expirado",
-      "count": 32
+      "count": 34
     }
   ],
   "all_alerts": [
+    {
+      "date": "19/05/2026",
+      "time": "06:55",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Redobre a atencao no deslocamento.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-19T06:55:18-03:00",
+      "expires": "2026-05-19T10:45:00-03:00"
+    },
+    {
+      "date": "19/05/2026",
+      "time": "03:19",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Tapauá/AM, Itamarati/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Atencao para chuva intensa nas proximas horas.    Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-05-19T03:19:13-03:00",
+      "expires": "2026-05-19T07:10:00-03:00"
+    },
     {
       "date": "18/05/2026",
       "time": "23:51",
@@ -215,7 +233,7 @@
       "uf": "AM",
       "location": "Juruá/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Atencao para chuva intensa nas proximas horas.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-18T23:51:00-03:00",
       "expires": "2026-05-19T03:45:00-03:00"
     },
@@ -228,7 +246,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:23h10 Chuva persistente em Sao Sebastiao. Atinge municipios vizinhos. Nao enfrente alagamentos. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-18T23:09:52-03:00",
       "expires": "2026-05-19T01:50:00-03:00"
     },
@@ -647,39 +665,13 @@
       "status": "expirado",
       "onset": "2026-05-18T07:13:06-03:00",
       "expires": "2026-05-18T13:00:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "06:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Observação Marítima SDC/SC 17/05 09:50 - Mar agitado entre segunda (18) e terça-feira (19). Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-05-18T06:00:00-03:00",
-      "expires": "2026-05-19T18:00:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "03:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Aviso: Observação Meteorológica SDC/SC 17/05 19:20 - Vento sul com intensidade moderada e rajadas fortes na costa catarinense nesta segunda-feira (18). Risco moderado para ocorrências associadas a queda de galhos e árvores, danos na rede elétrica e destelhamentos. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-18T03:00:00-03:00",
-      "expires": "2026-05-19T00:00:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 36,
     "by_nivel": {
-      "Alto": 18,
-      "Médio": 17,
+      "Alto": 20,
+      "Médio": 15,
       "Severo": 1
     },
     "by_channel_list": {
@@ -687,10 +679,10 @@
     },
     "by_region": {
       "SE": 18,
-      "N": 13,
-      "S": 3,
+      "N": 15,
       "CO": 1,
-      "NE": 1
+      "NE": 1,
+      "S": 1
     }
   }
 }
