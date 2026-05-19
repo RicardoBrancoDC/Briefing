@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-19T09:31:59.132917-03:00",
-  "source_run_dir": "run_20260519_093142",
+  "generated_at": "2026-05-19T10:34:00.119806-03:00",
+  "source_run_dir": "run_20260519_103334",
   "cards": {
-    "vigentes": 5,
-    "ultimas24h": 39,
-    "autoridadesAtivas": 12,
+    "vigentes": 6,
+    "ultimas24h": 36,
+    "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "09:56",
+      "date": "19/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Amaturá/AM, São Paulo de Olivença/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "09:26",
       "date": "19/05/2026",
@@ -55,18 +67,6 @@
       "uf": "MG",
       "headline": "Defesa Civil:ALERTA DE RISCO GEOLOGICO: Risco Moderado de Deslizamentos. Atente-se a locais de encostas, quedas de muros e desabamentos. Proteja-se!",
       "status": "vigente"
-    },
-    {
-      "time": "06:55",
-      "date": "19/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Redobre a atencao no deslocamento.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -91,14 +91,14 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil de Belém (PA)",
-      "short_name": "DC Belém (PA)",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil de Belém (PA)",
+      "short_name": "DC Belém (PA)",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual de Mato Grosso",
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 17
+      "count": 14
     },
     {
       "label": "Alto",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 31
+      "count": 29
     },
     {
       "label": "Solo/Lama",
@@ -146,7 +146,7 @@
     },
     {
       "label": "Alagamentos",
-      "count": 3
+      "count": 2
     },
     {
       "label": "Deslizamentos",
@@ -172,7 +172,7 @@
     },
     {
       "uf": "PA",
-      "count": 4
+      "count": 3
     },
     {
       "uf": "MT",
@@ -185,27 +185,32 @@
     {
       "uf": "PI",
       "count": 1
-    },
-    {
-      "uf": "GO",
-      "count": 1
-    },
-    {
-      "uf": "RJ",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 6
     },
     {
       "label": "expirado",
-      "count": 34
+      "count": 30
     }
   ],
   "all_alerts": [
+    {
+      "date": "19/05/2026",
+      "time": "09:56",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Amaturá/AM, São Paulo de Olivença/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-19T09:56:53-03:00",
+      "expires": "2026-05-19T13:00:00-03:00"
+    },
     {
       "date": "19/05/2026",
       "time": "09:26",
@@ -660,74 +665,22 @@
       "status": "expirado",
       "onset": "2026-05-18T10:57:58-03:00",
       "expires": "2026-05-18T16:00:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "10:26",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Presidente Figueiredo/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro. Nao enfrente areas alagadas. Procure local seguro.",
-      "status": "expirado",
-      "onset": "2026-05-18T10:26:26-03:00",
-      "expires": "2026-05-18T15:00:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "10:10",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "GO",
-      "location": "GOIÁS/GO",
-      "headline": "Defesa Civil:Possibilidade de chuvas e ventos intensos nas proximas 24 horas, com baixo risco de alagamento e raios. Emergencia 193",
-      "status": "expirado",
-      "onset": "2026-05-18T10:10:53-03:00",
-      "expires": "2026-05-18T23:59:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "09:49",
-      "senderName": "Defesa Civil Mangaratiba (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24horas. Em caso de Emergencia ligue:(21) 3030-2662/199/193.",
-      "status": "expirado",
-      "onset": "2026-05-18T09:49:25-03:00",
-      "expires": "2026-05-18T23:55:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "09:37",
-      "senderName": "Defesa Civil de Belém (PA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PA",
-      "location": "Belém/PA",
-      "headline": "Defesa Civil:SEOPDEC: Alertas de chuvas e raios MODERADO para hoje 18MAI. Risco de alagamentos e destelhamentos. Atencao a novos alertas.",
-      "status": "expirado",
-      "onset": "2026-05-18T09:37:34-03:00",
-      "expires": "2026-05-18T23:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 39,
+    "total_alerts": 36,
     "by_nivel": {
       "Alto": 21,
-      "Médio": 17,
+      "Médio": 14,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 39
+      "Google": 36
     },
     "by_region": {
-      "SE": 19,
-      "N": 16,
-      "CO": 2,
+      "SE": 18,
+      "N": 15,
+      "CO": 1,
       "NE": 1,
       "S": 1
     }
