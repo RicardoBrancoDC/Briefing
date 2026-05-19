@@ -1,39 +1,27 @@
 {
-  "generated_at": "2026-05-19T17:07:10.615479-03:00",
-  "source_run_dir": "run_20260519_170630",
+  "generated_at": "2026-05-19T18:49:28.329301-03:00",
+  "source_run_dir": "run_20260519_184847",
   "cards": {
-    "vigentes": 24,
-    "ultimas24h": 42,
-    "autoridadesAtivas": 9,
+    "vigentes": 27,
+    "ultimas24h": 57,
+    "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "17:00",
+      "time": "18:45",
       "date": "19/05/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Friagem",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Aviso: Atualização: Observação Meteorológica SDC/SC 19/05 09:10 - Frio intenso entre esta terça (19) e a sexta-feira (22) com risco moderado para ocorrências relacionadas a desconforto térmico, hipotermia e agravamento de doenças respiratórias e cardiovasculares. Ocorrências ligue 199 ou 193.",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas 2h. Proteja-se!",
       "status": "vigente"
     },
     {
-      "time": "17:00",
-      "date": "19/05/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Friagem",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Aviso: Atualização: Observação Meteorológica SDC/SC 19/05 09:10 - Frio intenso entre esta terça (19) e a sexta-feira (22), com risco moderado para ocorrências relacionadas a desconforto térmico, hipotermia e agravamento de doenças respiratórias e cardiovasculares. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "16:55",
+      "time": "18:41",
       "date": "19/05/2026",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "senderNameShort": "DC São Paulo",
@@ -41,11 +29,23 @@
       "nivel": "Médio",
       "location": "SÃO PAULO/SP",
       "uf": "SP",
-      "headline": "Defesa Civil:16h55 Chuva isolada na regiao de Cruzeiro e Areias. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "headline": "Defesa Civil:18h40 Chuva isolada na regiao de Presidente Prudente. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
       "status": "vigente"
     },
     {
-      "time": "16:44",
+      "time": "18:13",
+      "date": "19/05/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "location": "Rio Acima/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de risco de chuvas fortes, com granizo, nas proximas tres horas. Proteja-se!",
+      "status": "vigente"
+    },
+    {
+      "time": "18:11",
       "date": "19/05/2026",
       "senderName": "Defesa Civil Estadual de Minas Gerais",
       "senderNameShort": "DC Minas Gerais",
@@ -53,19 +53,19 @@
       "nivel": "Alto",
       "location": "MINAS GERAIS/MG",
       "uf": "MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva moderada a forte  com duracao de 02:00h. Proteja-se!",
+      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, rajadas de vento e chuva forte com duracao de 02:00h. Proteja-se!",
       "status": "vigente"
     },
     {
-      "time": "16:41",
+      "time": "18:05",
       "date": "19/05/2026",
       "senderName": "Defesa Civil Estadual de Minas Gerais",
       "senderNameShort": "DC Minas Gerais",
       "event": "Granizo",
-      "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
+      "nivel": "Severo",
+      "location": "Ribeirão das Neves/MG",
       "uf": "MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
+      "headline": "Defesa Civil:Alerta de risco de chuva com granizo em Ribeirao das Neves nas proximas horas. Proteja-se!",
       "status": "vigente"
     }
   ],
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 19
+      "count": 32
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -81,14 +81,19 @@
       "count": 8
     },
     {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 6
+    },
+    {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
       "count": 5
     },
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 5
+      "name": "Defesa Civil de Belo Horizonte (MG)",
+      "short_name": "DC Belo Horizonte (MG)",
+      "count": 1
     },
     {
       "name": "Defesa Civil Mangaratiba (RJ)",
@@ -119,21 +124,25 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 15
+      "count": 16
     },
     {
       "label": "Alto",
-      "count": 27
+      "count": 36
+    },
+    {
+      "label": "Severo",
+      "count": 5
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 27
+      "count": 31
     },
     {
       "label": "Granizo",
-      "count": 6
+      "count": 16
     },
     {
       "label": "Friagem",
@@ -148,29 +157,29 @@
       "count": 2
     },
     {
-      "label": "Inundações",
+      "label": "Frentes Frias/Zonas De Convergência",
       "count": 1
     },
     {
       "label": "Outros",
-      "count": 2
+      "count": 3
     }
   ],
   "uf_distribution": [
     {
       "uf": "MG",
-      "count": 19
+      "count": 33
     },
     {
       "uf": "AM",
       "count": 9
     },
     {
-      "uf": "SC",
-      "count": 5
+      "uf": "SP",
+      "count": 6
     },
     {
-      "uf": "SP",
+      "uf": "SC",
       "count": 5
     },
     {
@@ -189,14 +198,209 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 24
+      "count": 27
     },
     {
       "label": "expirado",
-      "count": 18
+      "count": 30
     }
   ],
   "all_alerts": [
+    {
+      "date": "19/05/2026",
+      "time": "18:45",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas 2h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-05-19T18:45:00-03:00",
+      "expires": "2026-05-19T20:42:00-03:00"
+    },
+    {
+      "date": "19/05/2026",
+      "time": "18:41",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:18h40 Chuva isolada na regiao de Presidente Prudente. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-05-19T18:41:25-03:00",
+      "expires": "2026-05-19T20:30:00-03:00"
+    },
+    {
+      "date": "19/05/2026",
+      "time": "18:13",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "uf": "MG",
+      "location": "Rio Acima/MG",
+      "headline": "Defesa Civil:Alerta de risco de chuvas fortes, com granizo, nas proximas tres horas. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-05-19T18:13:47-03:00",
+      "expires": "2026-05-19T21:12:00-03:00"
+    },
+    {
+      "date": "19/05/2026",
+      "time": "18:11",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, rajadas de vento e chuva forte com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-05-19T18:11:29-03:00",
+      "expires": "2026-05-19T20:10:00-03:00"
+    },
+    {
+      "date": "19/05/2026",
+      "time": "18:05",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "uf": "MG",
+      "location": "Ribeirão das Neves/MG",
+      "headline": "Defesa Civil:Alerta de risco de chuva com granizo em Ribeirao das Neves nas proximas horas. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-05-19T18:05:07-03:00",
+      "expires": "2026-05-19T20:03:00-03:00"
+    },
+    {
+      "date": "19/05/2026",
+      "time": "18:02",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "uf": "MG",
+      "location": "Contagem/MG",
+      "headline": "Defesa Civil:Alerta de risco de chuva com granizo em Contagem nas proximas horas. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-05-19T18:02:14-03:00",
+      "expires": "2026-05-19T19:58:00-03:00"
+    },
+    {
+      "date": "19/05/2026",
+      "time": "17:47",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, rajadas de vento e chuva forte com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-05-19T17:47:45-03:00",
+      "expires": "2026-05-19T19:44:00-03:00"
+    },
+    {
+      "date": "19/05/2026",
+      "time": "17:41",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "uf": "MG",
+      "location": "Nova Lima/MG",
+      "headline": "Defesa Civil:Alerta de risco de chuva com granizo em Nova Lima nas proximas horas. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-05-19T17:41:38-03:00",
+      "expires": "2026-05-19T19:38:00-03:00"
+    },
+    {
+      "date": "19/05/2026",
+      "time": "17:34",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:17h31 - Possibilidade de granizo, em Belo Horizonte na proxima hora. Proteja-se. Mais informacoes redes sociais: defesacivilbh",
+      "status": "expirado",
+      "onset": "2026-05-19T17:34:43-03:00",
+      "expires": "2026-05-19T18:31:00-03:00"
+    },
+    {
+      "date": "19/05/2026",
+      "time": "17:30",
+      "senderName": "Defesa Civil de Belo Horizonte (MG)",
+      "event": "Frentes Frias/Zonas De Convergência",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "Belo Horizonte/MG",
+      "headline": "Defesa Civil:Chuva (ate 20 mm), raios e ventos de 45 km/h ate 8h de quarta-feira (20) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
+      "status": "vigente",
+      "onset": "2026-05-19T17:30:08-03:00",
+      "expires": "2026-05-20T08:00:00-03:00"
+    },
+    {
+      "date": "19/05/2026",
+      "time": "17:29",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento, chuva moderada a forte e possibilidade de granizo com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-05-19T17:29:55-03:00",
+      "expires": "2026-05-19T19:28:00-03:00"
+    },
+    {
+      "date": "19/05/2026",
+      "time": "17:25",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento,  chuva moderada a forte e possibilidade de granizo com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-05-19T17:25:32-03:00",
+      "expires": "2026-05-19T19:24:00-03:00"
+    },
+    {
+      "date": "19/05/2026",
+      "time": "17:22",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-05-19T17:22:23-03:00",
+      "expires": "2026-05-19T19:18:00-03:00"
+    },
+    {
+      "date": "19/05/2026",
+      "time": "17:16",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-05-19T17:16:31-03:00",
+      "expires": "2026-05-19T19:14:00-03:00"
+    },
+    {
+      "date": "19/05/2026",
+      "time": "17:13",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento, chuva moderada a forte e possibilidade de granizo com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-05-19T17:13:03-03:00",
+      "expires": "2026-05-19T19:11:00-03:00"
+    },
     {
       "date": "19/05/2026",
       "time": "17:00",
@@ -245,7 +449,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva moderada a forte  com duracao de 02:00h. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-19T16:44:29-03:00",
       "expires": "2026-05-19T18:42:00-03:00"
     },
@@ -258,7 +462,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-19T16:41:17-03:00",
       "expires": "2026-05-19T18:39:00-03:00"
     },
@@ -271,7 +475,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-19T16:37:04-03:00",
       "expires": "2026-05-19T18:34:00-03:00"
     },
@@ -297,7 +501,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento, chuva moderada a forte e possibilidade de granizo com duracao de 02:00h. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-19T16:20:27-03:00",
       "expires": "2026-05-19T18:18:00-03:00"
     },
@@ -310,7 +514,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento, chuva moderada a forte e possibilidade de granizo com duracao de 02:00h. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-19T16:08:39-03:00",
       "expires": "2026-05-19T18:06:00-03:00"
     },
@@ -323,7 +527,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento, chuva moderada a forte e possibilidade de granizo com duracao de 02:00h. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-19T16:06:04-03:00",
       "expires": "2026-05-19T18:03:00-03:00"
     },
@@ -362,7 +566,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-19T15:27:00-03:00",
       "expires": "2026-05-19T17:11:00-03:00"
     },
@@ -375,7 +579,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-19T15:19:55-03:00",
       "expires": "2026-05-19T17:17:00-03:00"
     },
@@ -388,7 +592,7 @@
       "uf": "AM",
       "location": "Japurá/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-19T15:18:28-03:00",
       "expires": "2026-05-19T18:00:00-03:00"
     },
@@ -401,7 +605,7 @@
       "uf": "MG",
       "location": "mapa",
       "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte . Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-19T15:15:00-03:00",
       "expires": "2026-05-19T17:13:00-03:00"
     },
@@ -414,7 +618,7 @@
       "uf": "AM",
       "location": "Anamã/AM, Caapiranga/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-19T15:12:55-03:00",
       "expires": "2026-05-19T18:00:00-03:00"
     },
@@ -745,16 +949,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 42,
+    "total_alerts": 57,
     "by_nivel": {
-      "Alto": 27,
-      "Médio": 15
+      "Alto": 36,
+      "Médio": 16,
+      "Severo": 5
     },
     "by_channel_list": {
-      "Google": 42
+      "Google": 57
     },
     "by_region": {
-      "SE": 25,
+      "SE": 40,
       "N": 11,
       "S": 5,
       "CO": 1
