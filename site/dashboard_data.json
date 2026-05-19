@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-19T13:34:01.936955-03:00",
-  "source_run_dir": "run_20260519_133337",
+  "generated_at": "2026-05-19T14:18:32.441483-03:00",
+  "source_run_dir": "run_20260519_141800",
   "cards": {
-    "vigentes": 7,
-    "ultimas24h": 31,
-    "autoridadesAtivas": 10,
+    "vigentes": 9,
+    "ultimas24h": 27,
+    "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "14:05",
+      "date": "19/05/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte . Proteja-se!",
+      "status": "vigente"
+    },
+    {
+      "time": "14:01",
+      "date": "19/05/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte . Proteja-se!",
+      "status": "vigente"
+    },
     {
       "time": "13:13",
       "date": "19/05/2026",
@@ -43,37 +67,13 @@
       "uf": "SC",
       "headline": "Aviso: Atualização: Observação Marítima SDC/SC 19/05 09:30 - Mar agitado até sexta-feira (22), com ondas de direção sudoeste/sul entre 2,0 e 3,0m, com picos de 3,5m em alto mar.  Risco moderado para ocorrências relacionadas à agitação marítima, em atividades de pesca, navegação e esportes náuticos. Ocorrências ligue 199 ou 193.",
       "status": "vigente"
-    },
-    {
-      "time": "09:56",
-      "date": "19/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Amaturá/AM, São Paulo de Olivença/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "09:26",
-      "date": "19/05/2026",
-      "senderName": "Defesa Civil de Belém (PA)",
-      "senderNameShort": "DC Belém (PA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Belém/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:SEOPDEC: Alertas de chuvas e raios MODERADO para hoje 19MAI. Risco de alagamentos e destelhamentos. Atencao a novos alertas!",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 9
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -83,17 +83,17 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 5
-    },
-    {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 2
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -114,21 +114,16 @@
       "name": "Defesa Civil de Belo Horizonte (MG)",
       "short_name": "DC Belo Horizonte (MG)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Piauí",
-      "short_name": "DC Piauí",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 12
+      "count": 10
     },
     {
       "label": "Alto",
-      "count": 18
+      "count": 16
     },
     {
       "label": "Severo",
@@ -138,11 +133,11 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 24
+      "count": 21
     },
     {
       "label": "Solo/Lama",
-      "count": 3
+      "count": 2
     },
     {
       "label": "Inundações",
@@ -163,16 +158,16 @@
   ],
   "uf_distribution": [
     {
-      "uf": "AM",
-      "count": 10
+      "uf": "MG",
+      "count": 9
     },
     {
-      "uf": "MG",
-      "count": 10
+      "uf": "AM",
+      "count": 9
     },
     {
       "uf": "SP",
-      "count": 5
+      "count": 4
     },
     {
       "uf": "PA",
@@ -185,23 +180,45 @@
     {
       "uf": "MT",
       "count": 1
-    },
-    {
-      "uf": "PI",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 9
     },
     {
       "label": "expirado",
-      "count": 24
+      "count": 18
     }
   ],
   "all_alerts": [
+    {
+      "date": "19/05/2026",
+      "time": "14:05",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte . Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-05-19T14:05:08-03:00",
+      "expires": "2026-05-19T16:05:00-03:00"
+    },
+    {
+      "date": "19/05/2026",
+      "time": "14:01",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte . Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-05-19T14:01:52-03:00",
+      "expires": "2026-05-19T15:55:00-03:00"
+    },
     {
       "date": "19/05/2026",
       "time": "13:13",
@@ -526,102 +543,23 @@
       "status": "expirado",
       "onset": "2026-05-18T14:47:14-03:00",
       "expires": "2026-05-18T21:00:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "14:15",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-05-18T14:15:05-03:00",
-      "expires": "2026-05-18T16:15:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "14:09",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA para  risco de deslizamento em Manaus (NIVEL ALTO). Em caso de emergencia, ligue 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-18T14:09:57-03:00",
-      "expires": "2026-05-18T20:00:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "14:00",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-05-18T14:00:34-03:00",
-      "expires": "2026-05-18T16:00:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "13:56",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:13h55 Chuva em Monte Mor. Deslocando-se para Campinas. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-18T13:56:53-03:00",
-      "expires": "2026-05-18T15:00:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "13:52",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PI",
-      "location": "PIAUÍ/PI",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas. Evitar trafegar em areas de alagamentos e pontos de enxurradas. Em caso de emergencia, ligue 190 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-18T13:52:41-03:00",
-      "expires": "2026-05-18T23:55:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "13:42",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-05-18T13:42:44-03:00",
-      "expires": "2026-05-18T15:45:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 31,
+    "total_alerts": 27,
     "by_nivel": {
-      "Alto": 18,
-      "Médio": 12,
+      "Alto": 16,
+      "Médio": 10,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 31
+      "Google": 27
     },
     "by_region": {
-      "SE": 15,
-      "N": 12,
+      "SE": 13,
+      "N": 11,
       "S": 2,
-      "CO": 1,
-      "NE": 1
+      "CO": 1
     }
   }
 }
