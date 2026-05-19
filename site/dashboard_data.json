@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-19T07:10:34.672090-03:00",
-  "source_run_dir": "run_20260519_071007",
+  "generated_at": "2026-05-19T08:15:59.079300-03:00",
+  "source_run_dir": "run_20260519_081538",
   "cards": {
-    "vigentes": 2,
-    "ultimas24h": 36,
+    "vigentes": 1,
+    "ultimas24h": 35,
     "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
@@ -71,14 +71,14 @@
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 9
-    },
-    {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
       "count": 9
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 15
+      "count": 14
     },
     {
       "label": "Alto",
@@ -146,7 +146,7 @@
     },
     {
       "label": "Solo/Lama",
-      "count": 3
+      "count": 2
     },
     {
       "label": "Inundações",
@@ -156,7 +156,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 12
+      "count": 11
     },
     {
       "uf": "MG",
@@ -190,7 +190,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 2
+      "count": 1
     },
     {
       "label": "expirado",
@@ -363,7 +363,7 @@
       "uf": "MG",
       "location": "Belo Horizonte/MG",
       "headline": "Defesa Civil:Chuva (20 a 30 mm), raios e ventos de 50 km/h ate 8h de terca-feira (19) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-18T15:35:45-03:00",
       "expires": "2026-05-19T08:00:00-03:00"
     },
@@ -652,34 +652,21 @@
       "status": "expirado",
       "onset": "2026-05-18T09:37:34-03:00",
       "expires": "2026-05-18T23:55:00-03:00"
-    },
-    {
-      "date": "18/05/2026",
-      "time": "07:13",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Maraã/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite encostas e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-18T07:13:06-03:00",
-      "expires": "2026-05-18T13:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 36,
+    "total_alerts": 35,
     "by_nivel": {
       "Alto": 20,
-      "Médio": 15,
+      "Médio": 14,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 36
+      "Google": 35
     },
     "by_region": {
       "SE": 18,
-      "N": 15,
+      "N": 14,
       "CO": 1,
       "NE": 1,
       "S": 1
