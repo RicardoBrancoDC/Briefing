@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-21T18:52:33.920357-03:00",
-  "source_run_dir": "run_20260521_185209",
+  "generated_at": "2026-05-21T20:19:43.036541-03:00",
+  "source_run_dir": "run_20260521_201924",
   "cards": {
-    "vigentes": 15,
-    "ultimas24h": 38,
-    "autoridadesAtivas": 10,
+    "vigentes": 7,
+    "ultimas24h": 31,
+    "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
@@ -30,7 +30,7 @@
       "location": "Óbidos/PA",
       "uf": "PA",
       "headline": "Defesa Civil:OBIDOS: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:25",
@@ -42,7 +42,7 @@
       "location": "Curuá/PA",
       "uf": "PA",
       "headline": "Defesa Civil:CURUA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:48",
@@ -66,14 +66,14 @@
       "location": "Marapanim/PA",
       "uf": "PA",
       "headline": "Defesa Civil:MARAPANIM: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 13
+      "count": 10
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -81,14 +81,14 @@
       "count": 7
     },
     {
-      "name": "Defesa Civil Estadual de Pernambuco",
-      "short_name": "DC Pernambuco",
-      "count": 5
-    },
-    {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
-      "count": 4
+      "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual de Pernambuco",
+      "short_name": "DC Pernambuco",
+      "count": 3
     },
     {
       "name": "Defesa Civil Mangaratiba (RJ)",
@@ -114,11 +114,6 @@
       "name": "Defesa Civil de Angra dos Reis (RJ)",
       "short_name": "DC Angra dos Reis (RJ)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -128,39 +123,39 @@
     },
     {
       "label": "Alto",
-      "count": 12
+      "count": 9
     },
     {
       "label": "Severo",
-      "count": 17
+      "count": 13
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 23
-    },
-    {
-      "label": "Enxurradas",
-      "count": 5
-    },
-    {
-      "label": "Solo/Lama",
-      "count": 4
+      "count": 19
     },
     {
       "label": "Alagamentos",
       "count": 3
     },
     {
+      "label": "Solo/Lama",
+      "count": 3
+    },
+    {
       "label": "Marés De Tempestade (Ressacas)",
+      "count": 3
+    },
+    {
+      "label": "Enxurradas",
       "count": 3
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 17
+      "count": 13
     },
     {
       "uf": "PA",
@@ -172,7 +167,7 @@
     },
     {
       "uf": "PE",
-      "count": 5
+      "count": 3
     },
     {
       "uf": "SP",
@@ -181,20 +176,16 @@
     {
       "uf": "SC",
       "count": 1
-    },
-    {
-      "uf": "MG",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 15
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 23
+      "count": 24
     }
   ],
   "all_alerts": [
@@ -220,7 +211,7 @@
       "uf": "PA",
       "location": "Óbidos/PA",
       "headline": "Defesa Civil:OBIDOS: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-21T17:28:37-03:00",
       "expires": "2026-05-21T19:25:00-03:00"
     },
@@ -233,7 +224,7 @@
       "uf": "PA",
       "location": "Curuá/PA",
       "headline": "Defesa Civil:CURUA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-21T17:25:35-03:00",
       "expires": "2026-05-21T19:20:00-03:00"
     },
@@ -259,7 +250,7 @@
       "uf": "PA",
       "location": "Marapanim/PA",
       "headline": "Defesa Civil:MARAPANIM: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-21T14:29:46-03:00",
       "expires": "2026-05-21T20:00:00-03:00"
     },
@@ -272,7 +263,7 @@
       "uf": "PA",
       "location": "São Caetano de Odivelas/PA",
       "headline": "Defesa Civil:SAO CAETANO DE ODIVELAS: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro.Fique atento e siga as orientacoes da Defesa Civil",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-21T14:01:15-03:00",
       "expires": "2026-05-21T20:00:00-03:00"
     },
@@ -285,7 +276,7 @@
       "uf": "PA",
       "location": "Curuçá/PA",
       "headline": "Defesa Civil:CURUCA: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa CiviL",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-21T13:58:32-03:00",
       "expires": "2026-05-21T20:00:00-03:00"
     },
@@ -298,7 +289,7 @@
       "uf": "AM",
       "location": "Careiro da Várzea/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-21T13:58:29-03:00",
       "expires": "2026-05-21T20:00:00-03:00"
     },
@@ -311,7 +302,7 @@
       "uf": "PA",
       "location": "mapa",
       "headline": "Defesa Civil:MARAPANIM: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-21T13:55:57-03:00",
       "expires": "2026-05-21T19:45:00-03:00"
     },
@@ -337,7 +328,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-21T13:19:17-03:00",
       "expires": "2026-05-21T19:00:00-03:00"
     },
@@ -600,113 +591,22 @@
       "status": "expirado",
       "onset": "2026-05-20T21:03:01-03:00",
       "expires": "2026-05-21T03:00:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "20:05",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Manacapuru/AM, Manaquiri/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa. Chuva intensa com risco de alagamentos e enxurradas. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-20T20:05:38-03:00",
-      "expires": "2026-05-21T01:00:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "20:00",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-20T20:00:31-03:00",
-      "expires": "2026-05-21T00:55:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "19:58",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Autazes/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-20T19:58:02-03:00",
-      "expires": "2026-05-21T04:00:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "19:39",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de pancadas de chuva com raios. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-05-20T19:39:34-03:00",
-      "expires": "2026-05-20T21:55:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "19:12",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Enxurradas",
-      "nivel": "Severo",
-      "uf": "PE",
-      "location": "Pombos/PE",
-      "headline": "Defesa Civil:PE: POMBOS As 08h de 21/05: Sitios  OLHO DAGUA, HARAS MONTEIRO, MOCOS, AREIA GRANDE, BOTO e AREAS RIBEIRINHAS DO CENTRO. Busquem lugar seguro.",
-      "status": "expirado",
-      "onset": "2026-05-20T19:12:14-03:00",
-      "expires": "2026-05-21T08:00:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "19:02",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Enxurradas",
-      "nivel": "Severo",
-      "uf": "PE",
-      "location": "Pombos/PE",
-      "headline": "Defesa Civil:PE: POMBOS.  As 08h de 21/05: Sitios CRECRE, CONDADO, TAPACURA, PILHOES, TRAIRA,  ITAPECIRICA e AREAS RIBEIRINHAS DO CENTRO, busquem lugar seguro.",
-      "status": "expirado",
-      "onset": "2026-05-20T19:02:47-03:00",
-      "expires": "2026-05-21T08:00:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "18:52",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Barcelos/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-20T18:52:31-03:00",
-      "expires": "2026-05-20T23:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 38,
+    "total_alerts": 31,
     "by_nivel": {
-      "Severo": 17,
-      "Alto": 12,
+      "Severo": 13,
+      "Alto": 9,
       "Médio": 9
     },
     "by_channel_list": {
-      "Google": 38
+      "Google": 31
     },
     "by_region": {
-      "N": 24,
-      "SE": 8,
-      "NE": 5,
+      "N": 20,
+      "SE": 7,
+      "NE": 3,
       "S": 1
     }
   }
