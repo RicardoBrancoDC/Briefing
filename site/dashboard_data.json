@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-05-21T01:49:11.301053-03:00",
-  "source_run_dir": "run_20260521_014740",
+  "generated_at": "2026-05-21T07:05:53.880250-03:00",
+  "source_run_dir": "run_20260521_070539",
   "cards": {
-    "vigentes": 21,
-    "ultimas24h": 114,
-    "autoridadesAtivas": 30,
+    "vigentes": 20,
+    "ultimas24h": 105,
+    "autoridadesAtivas": 29,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "06:25",
+      "date": "21/05/2026",
+      "senderName": "Defesa Civil Estadual de Pernambuco",
+      "senderNameShort": "DC Pernambuco",
+      "event": "Enxurradas",
+      "nivel": "Severo",
+      "location": "Pombos/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:PE: POMBOS As 08h de 21/05: Sitios OLHO DAGUA, HARAS MONTEIRO, MOCOS, AREIA GRANDE, BOTO e AREAS RIBEIRINHAS DO CENTRO. Busquem lugar seguro.",
+      "status": "vigente"
+    },
+    {
+      "time": "06:18",
+      "date": "21/05/2026",
+      "senderName": "Defesa Civil Estadual de Pernambuco",
+      "senderNameShort": "DC Pernambuco",
+      "event": "Enxurradas",
+      "nivel": "Severo",
+      "location": "Pombos/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:PE: POMBOS As 08h de 21/05: Sitios CRECRE, CONDADO, TAPACURA,  PILHOES, TRAIRA,  ITAPECIRICA e AREAS RIBEIRINHAS DO CENTRO, busquem lugar seguro.",
+      "status": "vigente"
+    },
+    {
+      "time": "06:12",
+      "date": "21/05/2026",
+      "senderName": "Defesa Civil Estadual de Pernambuco",
+      "senderNameShort": "DC Pernambuco",
+      "event": "Enxurradas",
+      "nivel": "Severo",
+      "location": "Pombos/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:PE:ALERTA POMBOS: acude Russinhas sera aberto 08h de 21/05. Risco de INUNDACAO. Moradores RIBEIRINHOS rios MOCOS e SALGADO, buscar lugar seguro.",
+      "status": "vigente"
+    },
     {
       "time": "21:23",
       "date": "20/05/2026",
@@ -18,7 +54,7 @@
       "location": "Manaus/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA: Risco de alagamento para Manaus. Siga as orientacoes da Defesa Civil local. Emergencia ligue 193/199.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "21:03",
@@ -30,43 +66,7 @@
       "location": "Careiro/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa. Chuva intensa com risco de alagamentos e enxurradas. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "20:05",
-      "date": "20/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Manacapuru/AM, Manaquiri/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa. Chuva intensa com risco de alagamentos e enxurradas. Siga as orientacoes da defesa civil local.",
       "status": "expirado"
-    },
-    {
-      "time": "20:00",
-      "date": "20/05/2026",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "senderNameShort": "DC Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "expirado"
-    },
-    {
-      "time": "19:58",
-      "date": "20/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "location": "Autazes/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -78,22 +78,12 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 21
+      "count": 18
     },
     {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
+      "name": "Defesa Civil Estadual de Pernambuco",
+      "short_name": "DC Pernambuco",
       "count": 7
-    },
-    {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 7
-    },
-    {
-      "name": "Defesa Civil Estadual do Espírito Santo",
-      "short_name": "DC Espírito Santo",
-      "count": 5
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -106,9 +96,19 @@
       "count": 5
     },
     {
-      "name": "Defesa Civil Estadual de Pernambuco",
-      "short_name": "DC Pernambuco",
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
       "count": 4
+    },
+    {
+      "name": "Defesa Civil Estadual do Espírito Santo",
+      "short_name": "DC Espírito Santo",
+      "count": 4
+    },
+    {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 3
     },
     {
       "name": "Defesa Civil de Petrópolis (RJ)",
@@ -124,15 +124,15 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 37
+      "count": 29
     },
     {
       "label": "Alto",
-      "count": 61
+      "count": 59
     },
     {
       "label": "Severo",
-      "count": 15
+      "count": 16
     },
     {
       "label": "Extremo",
@@ -142,23 +142,23 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 82
+      "count": 74
     },
     {
-      "label": "Alagamentos",
+      "label": "Enxurradas",
       "count": 7
     },
     {
       "label": "Solo/Lama",
-      "count": 7
+      "count": 6
+    },
+    {
+      "label": "Alagamentos",
+      "count": 5
     },
     {
       "label": "Vendaval",
       "count": 5
-    },
-    {
-      "label": "Enxurradas",
-      "count": 4
     },
     {
       "label": "Inundações",
@@ -166,7 +166,7 @@
     },
     {
       "label": "Outros",
-      "count": 5
+      "count": 4
     }
   ],
   "uf_distribution": [
@@ -176,26 +176,26 @@
     },
     {
       "uf": "AM",
-      "count": 28
+      "count": 22
     },
     {
       "uf": "RJ",
-      "count": 23
+      "count": 22
     },
     {
-      "uf": "SP",
-      "count": 8
-    },
-    {
-      "uf": "ES",
-      "count": 5
+      "uf": "PE",
+      "count": 7
     },
     {
       "uf": "PA",
       "count": 5
     },
     {
-      "uf": "PE",
+      "uf": "ES",
+      "count": 4
+    },
+    {
+      "uf": "SP",
       "count": 4
     },
     {
@@ -214,14 +214,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 21
+      "count": 20
     },
     {
       "label": "expirado",
-      "count": 93
+      "count": 85
     }
   ],
   "all_alerts": [
+    {
+      "date": "21/05/2026",
+      "time": "06:25",
+      "senderName": "Defesa Civil Estadual de Pernambuco",
+      "event": "Enxurradas",
+      "nivel": "Severo",
+      "uf": "PE",
+      "location": "Pombos/PE",
+      "headline": "Defesa Civil:PE: POMBOS As 08h de 21/05: Sitios OLHO DAGUA, HARAS MONTEIRO, MOCOS, AREIA GRANDE, BOTO e AREAS RIBEIRINHAS DO CENTRO. Busquem lugar seguro.",
+      "status": "vigente",
+      "onset": "2026-05-21T06:25:54-03:00",
+      "expires": "2026-05-21T08:00:00-03:00"
+    },
+    {
+      "date": "21/05/2026",
+      "time": "06:18",
+      "senderName": "Defesa Civil Estadual de Pernambuco",
+      "event": "Enxurradas",
+      "nivel": "Severo",
+      "uf": "PE",
+      "location": "Pombos/PE",
+      "headline": "Defesa Civil:PE: POMBOS As 08h de 21/05: Sitios CRECRE, CONDADO, TAPACURA,  PILHOES, TRAIRA,  ITAPECIRICA e AREAS RIBEIRINHAS DO CENTRO, busquem lugar seguro.",
+      "status": "vigente",
+      "onset": "2026-05-21T06:18:57-03:00",
+      "expires": "2026-05-21T08:00:00-03:00"
+    },
+    {
+      "date": "21/05/2026",
+      "time": "06:12",
+      "senderName": "Defesa Civil Estadual de Pernambuco",
+      "event": "Enxurradas",
+      "nivel": "Severo",
+      "uf": "PE",
+      "location": "Pombos/PE",
+      "headline": "Defesa Civil:PE:ALERTA POMBOS: acude Russinhas sera aberto 08h de 21/05. Risco de INUNDACAO. Moradores RIBEIRINHOS rios MOCOS e SALGADO, buscar lugar seguro.",
+      "status": "vigente",
+      "onset": "2026-05-21T06:12:47-03:00",
+      "expires": "2026-05-21T08:00:00-03:00"
+    },
     {
       "date": "20/05/2026",
       "time": "21:23",
@@ -231,7 +270,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA: Risco de alagamento para Manaus. Siga as orientacoes da Defesa Civil local. Emergencia ligue 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-20T21:23:44-03:00",
       "expires": "2026-05-21T03:00:00-03:00"
     },
@@ -244,7 +283,7 @@
       "uf": "AM",
       "location": "Careiro/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa. Chuva intensa com risco de alagamentos e enxurradas. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-20T21:03:01-03:00",
       "expires": "2026-05-21T03:00:00-03:00"
     },
@@ -283,7 +322,7 @@
       "uf": "AM",
       "location": "Autazes/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-20T19:58:02-03:00",
       "expires": "2026-05-21T04:00:00-03:00"
     },
@@ -1297,7 +1336,7 @@
       "uf": "RJ",
       "location": "Maricá/RJ",
       "headline": "Defesa Civil:Mudanca para estagio meteorologico de OBSERVACAO em Marica/RJ as 08h45 do dia 20/05/26. Emergencia: 199 ou 966282699 (fone/whatsapp)",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-20T08:51:54-03:00",
       "expires": "2026-05-21T07:00:00-03:00"
     },
@@ -1547,179 +1586,23 @@
       "status": "expirado",
       "onset": "2026-05-20T07:06:43-03:00",
       "expires": "2026-05-20T23:55:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "06:59",
-      "senderName": "Defesa Civil do Rio de Janeiro (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Rio de Janeiro/RJ",
-      "headline": "Defesa Civil:tempo instavel na cidade RJ, previsao de chuva moderada a forte nas proximas horas - 20/05 - Emergencia, ligue 199, 193",
-      "status": "expirado",
-      "onset": "2026-05-20T06:59:41-03:00",
-      "expires": "2026-05-20T23:55:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "06:55",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento para a Zona Norte.  Evite encostas e areas de risco.   Em caso de emergencia ligue: 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-20T06:55:26-03:00",
-      "expires": "2026-05-20T12:00:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "06:43",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento. Zonas Norte e Sul. Nao enfrente areas alagadas. Procure local seguro.  Em caso de emergencia ligue: 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-20T06:43:40-03:00",
-      "expires": "2026-05-20T08:30:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "06:14",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Deslizamentos",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "O município de Manaus possui áreas suscetíveis a movimentos de massa, especialmente deslizamentos de terra induzidos. Considerando a chuva observada, os acumulados registrados e a previsão de continuidade das precipitações, há possibilidade de ocorrência de deslizamentos pontuais nas áreas de risco mapeadas. Nas últimas horas, foram registradas chuvas de intensidade moderada/forte em Manaus. O pluviômetro Cidade de Deus registrou 40 mm nas última hora",
-      "status": "expirado",
-      "onset": "2026-05-20T06:14:08-03:00",
-      "expires": "2026-05-21T00:00:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "05:56",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.¿",
-      "status": "expirado",
-      "onset": "2026-05-20T05:56:38-03:00",
-      "expires": "2026-05-20T09:00:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "05:42",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:05h41 Chuva se espalhando pela regiao de Cruzeiro e Silveiras. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-20T05:42:26-03:00",
-      "expires": "2026-05-20T07:40:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "05:14",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:05h15 Chuva se espalhando pela regiao de Parapua. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-20T05:14:41-03:00",
-      "expires": "2026-05-20T07:15:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "04:46",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193",
-      "status": "expirado",
-      "onset": "2026-05-20T04:46:34-03:00",
-      "expires": "2026-05-20T09:00:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "04:38",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:04h35 Chuva se espalhando pela regiao de Presidente Alves. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-20T04:38:02-03:00",
-      "expires": "2026-05-20T06:35:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "04:32",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:04h30 Chuva se espalhando pela regiao de Pirassununga e Casa Branca. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-20T04:32:23-03:00",
-      "expires": "2026-05-20T06:30:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "04:03",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Careiro da Várzea/AM, Manaus/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Em caso de emergencia ligue: 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-20T04:03:28-03:00",
-      "expires": "2026-05-20T05:00:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "02:16",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "ESPÍRITO SANTO/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS e VENTO na regiao Sul nas proximas 04 horas. Fique Atento, Proteja-se. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-05-20T02:16:44-03:00",
-      "expires": "2026-05-20T06:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 114,
+    "total_alerts": 105,
     "by_nivel": {
-      "Alto": 61,
-      "Médio": 37,
-      "Severo": 15,
+      "Alto": 59,
+      "Médio": 29,
+      "Severo": 16,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 114
+      "Google": 105
     },
     "by_region": {
-      "SE": 73,
-      "N": 33,
-      "NE": 5,
+      "SE": 67,
+      "N": 27,
+      "NE": 8,
       "S": 2,
       "CO": 1
     }
