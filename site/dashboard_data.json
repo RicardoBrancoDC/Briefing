@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-05-21T17:13:47.198011-03:00",
-  "source_run_dir": "run_20260521_171329",
+  "generated_at": "2026-05-21T18:52:33.920357-03:00",
+  "source_run_dir": "run_20260521_185209",
   "cards": {
-    "vigentes": 14,
-    "ultimas24h": 45,
+    "vigentes": 15,
+    "ultimas24h": 38,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "18:32",
+      "date": "21/05/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "location": "Florianópolis/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 21/05 18:28 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Florianópolis. Pico previsto às 22:15 h. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "17:28",
+      "date": "21/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Óbidos/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:OBIDOS: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
+      "status": "vigente"
+    },
+    {
+      "time": "17:25",
+      "date": "21/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Curuá/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:CURUA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
+      "status": "vigente"
+    },
     {
       "time": "16:48",
       "date": "21/05/2026",
@@ -31,63 +67,22 @@
       "uf": "PA",
       "headline": "Defesa Civil:MARAPANIM: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil",
       "status": "vigente"
-    },
-    {
-      "time": "14:01",
-      "date": "21/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "São Caetano de Odivelas/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:SAO CAETANO DE ODIVELAS: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro.Fique atento e siga as orientacoes da Defesa Civil",
-      "status": "vigente"
-    },
-    {
-      "time": "13:58",
-      "date": "21/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Curuçá/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:CURUCA: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa CiviL",
-      "status": "vigente"
-    },
-    {
-      "time": "13:58",
-      "date": "21/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "location": "Careiro da Várzea/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 16
-    },
-    {
-      "name": "Defesa Civil Estadual de Pernambuco",
-      "short_name": "DC Pernambuco",
-      "count": 7
+      "count": 13
     },
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 5
+      "count": 7
     },
     {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
+      "name": "Defesa Civil Estadual de Pernambuco",
+      "short_name": "DC Pernambuco",
       "count": 5
     },
     {
@@ -111,28 +106,33 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil de Angra dos Reis (RJ)",
       "short_name": "DC Angra dos Reis (RJ)",
       "count": 1
     },
     {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 8
+      "count": 9
     },
     {
       "label": "Alto",
-      "count": 17
+      "count": 12
     },
     {
       "label": "Severo",
-      "count": 20
+      "count": 17
     }
   ],
   "event_distribution": [
@@ -142,14 +142,10 @@
     },
     {
       "label": "Enxurradas",
-      "count": 7
-    },
-    {
-      "label": "Solo/Lama",
       "count": 5
     },
     {
-      "label": "Marés De Tempestade (Ressacas)",
+      "label": "Solo/Lama",
       "count": 4
     },
     {
@@ -157,29 +153,25 @@
       "count": 3
     },
     {
-      "label": "Vendaval",
+      "label": "Marés De Tempestade (Ressacas)",
       "count": 3
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 20
-    },
-    {
-      "uf": "PE",
-      "count": 7
+      "count": 17
     },
     {
       "uf": "PA",
-      "count": 5
+      "count": 7
     },
     {
       "uf": "RJ",
       "count": 5
     },
     {
-      "uf": "MG",
+      "uf": "PE",
       "count": 5
     },
     {
@@ -189,19 +181,62 @@
     {
       "uf": "SC",
       "count": 1
+    },
+    {
+      "uf": "MG",
+      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 14
+      "count": 15
     },
     {
       "label": "expirado",
-      "count": 31
+      "count": 23
     }
   ],
   "all_alerts": [
+    {
+      "date": "21/05/2026",
+      "time": "18:32",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "Florianópolis/SC",
+      "headline": "OBSERVAÇÃO - 21/05 18:28 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Florianópolis. Pico previsto às 22:15 h. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-21T18:32:16-03:00",
+      "expires": "2026-05-21T23:55:00-03:00"
+    },
+    {
+      "date": "21/05/2026",
+      "time": "17:28",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Óbidos/PA",
+      "headline": "Defesa Civil:OBIDOS: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
+      "status": "vigente",
+      "onset": "2026-05-21T17:28:37-03:00",
+      "expires": "2026-05-21T19:25:00-03:00"
+    },
+    {
+      "date": "21/05/2026",
+      "time": "17:25",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Curuá/PA",
+      "headline": "Defesa Civil:CURUA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
+      "status": "vigente",
+      "onset": "2026-05-21T17:25:35-03:00",
+      "expires": "2026-05-21T19:20:00-03:00"
+    },
     {
       "date": "21/05/2026",
       "time": "16:48",
@@ -354,7 +389,7 @@
       "uf": "AM",
       "location": "Manaquiri/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite encostas e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-21T12:30:49-03:00",
       "expires": "2026-05-21T18:00:00-03:00"
     },
@@ -656,152 +691,22 @@
       "status": "expirado",
       "onset": "2026-05-20T18:52:31-03:00",
       "expires": "2026-05-20T23:00:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "18:47",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Autazes/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento. Evite areas alagadas e fique em local seguro. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-20T18:47:21-03:00",
-      "expires": "2026-05-20T22:00:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "18:45",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Enxurradas",
-      "nivel": "Severo",
-      "uf": "PE",
-      "location": "Pombos/PE",
-      "headline": "Defesa Civil:PE:ALERTA POMBOS: acude Russinhas sera aberto 08h de 21/05. Risco de INUNDACAO. Moradores RIBEIRINHOS rios MOCOS e SALGADO, buscar lugar seguro.",
-      "status": "expirado",
-      "onset": "2026-05-20T18:45:50-03:00",
-      "expires": "2026-05-21T08:00:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "18:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:Aviso:  Atencao Maritima SDC/SC 20/05 09:30 ¿ Mar agitado e ressaca ate sexta-feira (22). Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-05-20T18:00:00-03:00",
-      "expires": "2026-05-22T12:00:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "17:49",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-05-20T17:49:46-03:00",
-      "expires": "2026-05-20T19:45:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "17:40",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Enxurradas",
-      "nivel": "Severo",
-      "uf": "PE",
-      "location": "Gravatá/PE",
-      "headline": "Defesa Civil:PE: ALERTA em Gravata: acude Russinhas sera aberto as 08h de 21/05. Risco de enxurrada/inundacao. Ribeirinhos busquem local seguro.",
-      "status": "expirado",
-      "onset": "2026-05-20T17:40:59-03:00",
-      "expires": "2026-05-21T08:00:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "17:37",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-05-20T17:37:20-03:00",
-      "expires": "2026-05-20T19:30:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "17:36",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-05-20T17:36:04-03:00",
-      "expires": "2026-05-20T19:30:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "17:34",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-05-20T17:34:27-03:00",
-      "expires": "2026-05-20T19:55:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "17:28",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "São Gabriel da Cachoeira/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-20T17:28:31-03:00",
-      "expires": "2026-05-20T23:00:00-03:00"
-    },
-    {
-      "date": "20/05/2026",
-      "time": "17:21",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-20T17:21:02-03:00",
-      "expires": "2026-05-20T20:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 45,
+    "total_alerts": 38,
     "by_nivel": {
-      "Severo": 20,
-      "Alto": 17,
-      "Médio": 8
+      "Severo": 17,
+      "Alto": 12,
+      "Médio": 9
     },
     "by_channel_list": {
-      "Google": 45
+      "Google": 38
     },
     "by_region": {
-      "N": 25,
-      "SE": 12,
-      "NE": 7,
+      "N": 24,
+      "SE": 8,
+      "NE": 5,
       "S": 1
     }
   }
