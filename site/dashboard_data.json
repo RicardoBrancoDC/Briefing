@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-22T08:46:23.083889-03:00",
-  "source_run_dir": "run_20260522_084609",
+  "generated_at": "2026-05-22T09:36:46.131632-03:00",
+  "source_run_dir": "run_20260522_093630",
   "cards": {
-    "vigentes": 9,
-    "ultimas24h": 36,
-    "autoridadesAtivas": 11,
+    "vigentes": 10,
+    "ultimas24h": 37,
+    "autoridadesAtivas": 13,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "09:30",
+      "date": "22/05/2026",
+      "senderName": "Defesa Civil de Vitória da Conquista (BA)",
+      "senderNameShort": "DC Vitória da Conquista (BA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Baixo",
+      "location": "Vitória da Conquista/BA",
+      "uf": "BA",
+      "headline": "Defesa Civil: Alerta de Chuvas para Vitoria da Conquista/BA",
+      "status": "vigente"
+    },
+    {
+      "time": "09:00",
+      "date": "22/05/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:DCPR AVISO DE TEMPO: Tempestades irregulares e chuva persistente ao longo desta segunda, 22/05. Mantenha-se atento. Ocorrencias, 199/193.",
+      "status": "vigente"
+    },
     {
       "time": "08:14",
       "date": "22/05/2026",
@@ -43,37 +67,13 @@
       "uf": "SC",
       "headline": "Observação Meteorológica SDC/SC 21/05 17:30 - Chuva pontualmente intensa e temporais isolados entre sexta (22) e segunda-feira (25). Ocorrências ligue 199 ou 193.",
       "status": "vigente"
-    },
-    {
-      "time": "06:27",
-      "date": "22/05/2026",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "senderNameShort": "DC Blumenau (SC)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Blumenau/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO:Chuva persistente fraca a moderada c/ trovoadas entre tarde e noite de hoje em Blumenau. Fique atento! Emerg 199/193.",
-      "status": "vigente"
-    },
-    {
-      "time": "06:07",
-      "date": "22/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Maués/AM, Rio Preto da Eva/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 13
+      "count": 12
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -101,6 +101,16 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil de Vitória da Conquista (BA)",
+      "short_name": "DC Vitória da Conquista (BA)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil de Blumenau (SC)",
       "short_name": "DC Blumenau (SC)",
       "count": 1
@@ -109,22 +119,12 @@
       "name": "Defesa Civil Estadual da Bahia",
       "short_name": "DC Bahia",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Espírito Santo",
-      "short_name": "DC Espírito Santo",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Maricá (RJ)",
-      "short_name": "DC Maricá (RJ)",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Baixo",
-      "count": 1
+      "count": 2
     },
     {
       "label": "Médio",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 27
+      "count": 28
     },
     {
       "label": "Solo/Lama",
@@ -160,7 +160,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 17
+      "count": 16
     },
     {
       "uf": "PA",
@@ -176,6 +176,10 @@
     },
     {
       "uf": "BA",
+      "count": 2
+    },
+    {
+      "uf": "PR",
       "count": 1
     },
     {
@@ -190,7 +194,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 9
+      "count": 10
     },
     {
       "label": "expirado",
@@ -198,6 +202,32 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "22/05/2026",
+      "time": "09:30",
+      "senderName": "Defesa Civil de Vitória da Conquista (BA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Baixo",
+      "uf": "BA",
+      "location": "Vitória da Conquista/BA",
+      "headline": "Defesa Civil: Alerta de Chuvas para Vitoria da Conquista/BA",
+      "status": "vigente",
+      "onset": "2026-05-22T09:30:00-03:00",
+      "expires": "2026-05-22T23:55:00-03:00"
+    },
+    {
+      "date": "22/05/2026",
+      "time": "09:00",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:DCPR AVISO DE TEMPO: Tempestades irregulares e chuva persistente ao longo desta segunda, 22/05. Mantenha-se atento. Ocorrencias, 199/193.",
+      "status": "vigente",
+      "onset": "2026-05-22T09:00:18-03:00",
+      "expires": "2026-05-23T03:00:00-03:00"
+    },
     {
       "date": "22/05/2026",
       "time": "08:14",
@@ -259,7 +289,7 @@
       "uf": "AM",
       "location": "Maués/AM, Rio Preto da Eva/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-22T06:07:27-03:00",
       "expires": "2026-05-22T09:30:00-03:00"
     },
@@ -652,37 +682,24 @@
       "status": "vigente",
       "onset": "2026-05-21T09:44:54-03:00",
       "expires": "2026-05-23T09:00:00-03:00"
-    },
-    {
-      "date": "21/05/2026",
-      "time": "09:33",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-21T09:33:40-03:00",
-      "expires": "2026-05-21T13:15:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 36,
+    "total_alerts": 37,
     "by_nivel": {
       "Médio": 14,
       "Alto": 12,
       "Severo": 9,
-      "Baixo": 1
+      "Baixo": 2
     },
     "by_channel_list": {
-      "Google": 36
+      "Google": 37
     },
     "by_region": {
-      "N": 24,
+      "N": 23,
       "SE": 8,
-      "S": 3,
-      "NE": 1
+      "S": 4,
+      "NE": 2
     }
   }
 }
