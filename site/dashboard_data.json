@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-22T06:51:58.973974-03:00",
-  "source_run_dir": "run_20260522_065142",
+  "generated_at": "2026-05-22T08:46:23.083889-03:00",
+  "source_run_dir": "run_20260522_084609",
   "cards": {
-    "vigentes": 11,
-    "ultimas24h": 37,
-    "autoridadesAtivas": 12,
+    "vigentes": 9,
+    "ultimas24h": 36,
+    "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "08:14",
+      "date": "22/05/2026",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "senderNameShort": "DC Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA de Chuva Intensa (NIVEL ALTO). Evite area de risco com historico de alagamento ou enxurrada. Em caso de emergencia ligue 193/199.",
+      "status": "vigente"
+    },
+    {
+      "time": "07:31",
+      "date": "22/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Careiro da Várzea/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "06:30",
       "date": "22/05/2026",
@@ -43,30 +67,6 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
       "status": "vigente"
-    },
-    {
-      "time": "00:00",
-      "date": "22/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Médio",
-      "location": "Parintins/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite encostas e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "00:00",
-      "date": "22/05/2026",
-      "senderName": "Defesa Civil Estadual da Bahia",
-      "senderNameShort": "DC Bahia",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "BAHIA/BA",
-      "uf": "BA",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para BAHIA/BA. Siga as orientacoes da defesa civil local . Em caso de emergencia, ligue 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -83,7 +83,7 @@
     {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Defesa Civil de Niterói (RJ)",
@@ -101,11 +101,6 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil de Blumenau (SC)",
       "short_name": "DC Blumenau (SC)",
       "count": 1
@@ -119,6 +114,11 @@
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
       "count": 1
+    },
+    {
+      "name": "Defesa Civil de Maricá (RJ)",
+      "short_name": "DC Maricá (RJ)",
+      "count": 1
     }
   ],
   "level_distribution": [
@@ -128,11 +128,11 @@
     },
     {
       "label": "Médio",
-      "count": 16
+      "count": 14
     },
     {
       "label": "Alto",
-      "count": 11
+      "count": 12
     },
     {
       "label": "Severo",
@@ -149,34 +149,30 @@
       "count": 5
     },
     {
-      "label": "Marés De Tempestade (Ressacas)",
-      "count": 3
+      "label": "Alagamentos",
+      "count": 2
     },
     {
-      "label": "Alagamentos",
+      "label": "Marés De Tempestade (Ressacas)",
       "count": 2
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 16
-    },
-    {
-      "uf": "RJ",
-      "count": 7
+      "count": 17
     },
     {
       "uf": "PA",
       "count": 7
     },
     {
-      "uf": "SC",
-      "count": 3
+      "uf": "RJ",
+      "count": 6
     },
     {
-      "uf": "SP",
-      "count": 2
+      "uf": "SC",
+      "count": 3
     },
     {
       "uf": "BA",
@@ -185,19 +181,49 @@
     {
       "uf": "ES",
       "count": 1
+    },
+    {
+      "uf": "SP",
+      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 11
+      "count": 9
     },
     {
       "label": "expirado",
-      "count": 26
+      "count": 27
     }
   ],
   "all_alerts": [
+    {
+      "date": "22/05/2026",
+      "time": "08:14",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA de Chuva Intensa (NIVEL ALTO). Evite area de risco com historico de alagamento ou enxurrada. Em caso de emergencia ligue 193/199.",
+      "status": "vigente",
+      "onset": "2026-05-22T08:14:04-03:00",
+      "expires": "2026-05-22T15:00:00-03:00"
+    },
+    {
+      "date": "22/05/2026",
+      "time": "07:31",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Careiro da Várzea/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-22T07:31:50-03:00",
+      "expires": "2026-05-22T10:30:00-03:00"
+    },
     {
       "date": "22/05/2026",
       "time": "06:30",
@@ -246,7 +272,7 @@
       "uf": "AM",
       "location": "Parintins/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite encostas e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-22T00:00:16-03:00",
       "expires": "2026-05-22T07:00:00-03:00"
     },
@@ -272,7 +298,7 @@
       "uf": "AM",
       "location": "Nhamundá/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-21T23:52:02-03:00",
       "expires": "2026-05-22T08:00:00-03:00"
     },
@@ -285,7 +311,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.¿",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-21T23:33:55-03:00",
       "expires": "2026-05-22T08:00:00-03:00"
     },
@@ -639,61 +665,22 @@
       "status": "expirado",
       "onset": "2026-05-21T09:33:40-03:00",
       "expires": "2026-05-21T13:15:00-03:00"
-    },
-    {
-      "date": "21/05/2026",
-      "time": "08:36",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-21T08:36:21-03:00",
-      "expires": "2026-05-21T12:15:00-03:00"
-    },
-    {
-      "date": "21/05/2026",
-      "time": "08:27",
-      "senderName": "Defesa Civil de Angra dos Reis (RJ)",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Angra dos Reis/RJ",
-      "headline": "Defesa Civil:(ANGRA DOS REIS) - AVISO DE RESSACA para as proximas horas. Nao navegue em condicoes de perigo. Verifique a seguranca da embarcacao. Ligue: 199.",
-      "status": "vigente",
-      "onset": "2026-05-21T08:27:10-03:00",
-      "expires": "2026-05-22T10:00:00-03:00"
-    },
-    {
-      "date": "21/05/2026",
-      "time": "07:26",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:07h25 Chuva persistente em Santos e Sao Sebastiao. Atinge cidades vizinhas. Cuidado nas proximas areas.",
-      "status": "expirado",
-      "onset": "2026-05-21T07:26:24-03:00",
-      "expires": "2026-05-21T09:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 37,
+    "total_alerts": 36,
     "by_nivel": {
-      "Médio": 16,
-      "Alto": 11,
+      "Médio": 14,
+      "Alto": 12,
       "Severo": 9,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 37
+      "Google": 36
     },
     "by_region": {
-      "N": 23,
-      "SE": 10,
+      "N": 24,
+      "SE": 8,
       "S": 3,
       "NE": 1
     }
