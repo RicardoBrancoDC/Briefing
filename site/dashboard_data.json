@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-22T17:14:05.875993-03:00",
-  "source_run_dir": "run_20260522_171343",
+  "generated_at": "2026-05-22T18:38:49.156194-03:00",
+  "source_run_dir": "run_20260522_183830",
   "cards": {
-    "vigentes": 17,
-    "ultimas24h": 34,
+    "vigentes": 16,
+    "ultimas24h": 32,
     "autoridadesAtivas": 14,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "18:04",
+      "date": "22/05/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 22/05 18:01 - CHUVA PERSISTENTE de intensidade moderada a forte com ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Norte, Litoral Norte, Planalto Sul, Litoral Sul, Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 5 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "16:53",
       "date": "22/05/2026",
@@ -30,7 +42,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 22/05 15:21 - CHUVA PERSISTENTE de intensidade moderada a forte com ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Norte, Planalto Sul e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "15:15",
@@ -52,18 +64,6 @@
       "event": "Inundações",
       "nivel": "Alto",
       "location": "Manacapuru/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao gradual. Evite areas baixas. Prepare-se e evite areas baixas.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:05",
-      "date": "22/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "location": "São Paulo de Olivença/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao gradual. Evite areas baixas. Prepare-se e evite areas baixas.   Siga as orientacoes da defesa civil local.",
       "status": "vigente"
@@ -91,11 +91,6 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
-      "count": 3
-    },
-    {
       "name": "Defesa Civil de Angra dos Reis (RJ)",
       "short_name": "DC Angra dos Reis (RJ)",
       "count": 1
@@ -108,6 +103,11 @@
     {
       "name": "Defesa Civil Estadual de Goiás",
       "short_name": "DC Goiás",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
       "count": 1
     },
     {
@@ -132,24 +132,24 @@
     },
     {
       "label": "Alto",
-      "count": 16
+      "count": 14
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 22
+      "count": 21
     },
     {
       "label": "Inundações",
       "count": 5
     },
     {
-      "label": "Alagamentos",
-      "count": 3
+      "label": "Marés De Tempestade (Ressacas)",
+      "count": 2
     },
     {
-      "label": "Marés De Tempestade (Ressacas)",
+      "label": "Alagamentos",
       "count": 2
     },
     {
@@ -167,16 +167,12 @@
       "count": 5
     },
     {
-      "uf": "RJ",
-      "count": 4
-    },
-    {
       "uf": "SC",
       "count": 4
     },
     {
-      "uf": "PA",
-      "count": 3
+      "uf": "RJ",
+      "count": 4
     },
     {
       "uf": "BA",
@@ -187,6 +183,10 @@
       "count": 1
     },
     {
+      "uf": "PA",
+      "count": 1
+    },
+    {
       "uf": "ES",
       "count": 1
     }
@@ -194,14 +194,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 17
+      "count": 16
     },
     {
       "label": "expirado",
-      "count": 17
+      "count": 16
     }
   ],
   "all_alerts": [
+    {
+      "date": "22/05/2026",
+      "time": "18:04",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 22/05 18:01 - CHUVA PERSISTENTE de intensidade moderada a forte com ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Norte, Litoral Norte, Planalto Sul, Litoral Sul, Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 5 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-22T18:04:26-03:00",
+      "expires": "2026-05-23T23:00:00-03:00"
+    },
     {
       "date": "22/05/2026",
       "time": "16:53",
@@ -224,7 +237,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 22/05 15:21 - CHUVA PERSISTENTE de intensidade moderada a forte com ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Norte, Planalto Sul e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-22T15:23:00-03:00",
       "expires": "2026-05-22T18:20:00-03:00"
     },
@@ -328,7 +341,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva persistente e risco p/ alagamentos nas prox. 3h na regiao. Fique atento e evite areas de risco. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-22T14:22:35-03:00",
       "expires": "2026-05-22T17:20:00-03:00"
     },
@@ -604,59 +617,20 @@
       "status": "expirado",
       "onset": "2026-05-21T20:38:43-03:00",
       "expires": "2026-05-22T01:00:00-03:00"
-    },
-    {
-      "date": "21/05/2026",
-      "time": "18:32",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "Florianópolis/SC",
-      "headline": "OBSERVAÇÃO - 21/05 18:28 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Florianópolis. Pico previsto às 22:15 h. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-21T18:32:16-03:00",
-      "expires": "2026-05-21T23:55:00-03:00"
-    },
-    {
-      "date": "21/05/2026",
-      "time": "17:28",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Óbidos/PA",
-      "headline": "Defesa Civil:OBIDOS: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-21T17:28:37-03:00",
-      "expires": "2026-05-21T19:25:00-03:00"
-    },
-    {
-      "date": "21/05/2026",
-      "time": "17:25",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Curuá/PA",
-      "headline": "Defesa Civil:CURUA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-21T17:25:35-03:00",
-      "expires": "2026-05-21T19:20:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 34,
+    "total_alerts": 32,
     "by_nivel": {
-      "Alto": 16,
       "Médio": 16,
+      "Alto": 14,
       "Baixo": 2
     },
     "by_channel_list": {
-      "Google": 34
+      "Google": 32
     },
     "by_region": {
-      "N": 17,
+      "N": 15,
       "S": 9,
       "SE": 5,
       "NE": 2,
