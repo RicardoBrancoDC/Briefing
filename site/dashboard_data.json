@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-22T18:38:49.156194-03:00",
-  "source_run_dir": "run_20260522_183830",
+  "generated_at": "2026-05-22T20:34:40.636417-03:00",
+  "source_run_dir": "run_20260522_203418",
   "cards": {
-    "vigentes": 16,
-    "ultimas24h": 32,
+    "vigentes": 17,
+    "ultimas24h": 33,
     "autoridadesAtivas": 14,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "18:56",
+      "date": "22/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PARÁ/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:METROPOLITANA BELEM:Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais.Evite areas alagadas e dirija com atencao",
+      "status": "vigente"
+    },
     {
       "time": "18:04",
       "date": "22/05/2026",
@@ -55,18 +67,6 @@
       "uf": "PR",
       "headline": "Defesa Civil:Risco de Alagamentos em Cruz Machado e mun. vizinhos. Monitore. Em caso de perigo, deixe o local imediatamente. Ligue 199/193.",
       "status": "vigente"
-    },
-    {
-      "time": "15:13",
-      "date": "22/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "location": "Manacapuru/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao gradual. Evite areas baixas. Prepare-se e evite areas baixas.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -91,6 +91,11 @@
       "count": 3
     },
     {
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
+      "count": 2
+    },
+    {
       "name": "Defesa Civil de Angra dos Reis (RJ)",
       "short_name": "DC Angra dos Reis (RJ)",
       "count": 1
@@ -103,11 +108,6 @@
     {
       "name": "Defesa Civil Estadual de Goiás",
       "short_name": "DC Goiás",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
       "count": 1
     },
     {
@@ -132,13 +132,13 @@
     },
     {
       "label": "Alto",
-      "count": 14
+      "count": 15
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 21
+      "count": 22
     },
     {
       "label": "Inundações",
@@ -175,15 +175,15 @@
       "count": 4
     },
     {
+      "uf": "PA",
+      "count": 2
+    },
+    {
       "uf": "BA",
       "count": 2
     },
     {
       "uf": "GO",
-      "count": 1
-    },
-    {
-      "uf": "PA",
       "count": 1
     },
     {
@@ -194,7 +194,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 16
+      "count": 17
     },
     {
       "label": "expirado",
@@ -202,6 +202,19 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "22/05/2026",
+      "time": "18:56",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "PARÁ/PA",
+      "headline": "Defesa Civil:METROPOLITANA BELEM:Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais.Evite areas alagadas e dirija com atencao",
+      "status": "vigente",
+      "onset": "2026-05-22T18:56:06-03:00",
+      "expires": "2026-05-22T21:00:00-03:00"
+    },
     {
       "date": "22/05/2026",
       "time": "18:04",
@@ -620,17 +633,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 32,
+    "total_alerts": 33,
     "by_nivel": {
       "Médio": 16,
-      "Alto": 14,
+      "Alto": 15,
       "Baixo": 2
     },
     "by_channel_list": {
-      "Google": 32
+      "Google": 33
     },
     "by_region": {
-      "N": 15,
+      "N": 16,
       "S": 9,
       "SE": 5,
       "NE": 2,
