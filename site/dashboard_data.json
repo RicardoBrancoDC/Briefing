@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-05-24T08:44:47.796639-03:00",
-  "source_run_dir": "run_20260524_084436",
+  "generated_at": "2026-05-24T11:03:42.071973-03:00",
+  "source_run_dir": "run_20260524_110330",
   "cards": {
-    "vigentes": 4,
-    "ultimas24h": 45,
+    "vigentes": 5,
+    "ultimas24h": 43,
     "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "09:53",
+      "date": "24/05/2026",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "senderNameShort": "DC Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MARANHÃO/MA",
+      "uf": "MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "09:38",
+      "date": "24/05/2026",
+      "senderName": "Defesa Civil Estadual de Goiás",
+      "senderNameShort": "DC Goiás",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "mapa",
+      "uf": "GO",
+      "headline": "Defesa Civil:Previsao de Chuvas de ate 50mm/dia, ventos de ate 60km/h nas proximas 24h. Risco baixo de queda de galhos, alagamentos e raios. Emergencia 193",
+      "status": "vigente"
+    },
+    {
+      "time": "08:49",
+      "date": "24/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PARÁ/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (24MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
+      "status": "vigente"
+    },
+    {
+      "time": "08:49",
+      "date": "24/05/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:DCPR AVISO DE TEMPO: Tempestades irregulares e chuva pontualmente forte na regiao hoje. Mantenha-se vigilante. Ocorrencias, ligue 199/193.",
+      "status": "vigente"
+    },
     {
       "time": "07:45",
       "date": "24/05/2026",
@@ -19,66 +67,18 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
       "status": "vigente"
-    },
-    {
-      "time": "06:14",
-      "date": "24/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Careiro da Várzea/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "03:44",
-      "date": "24/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Rio Preto da Eva/AM, Autazes/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "23:37",
-      "date": "23/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:23h35 Chuva se espalhando pela regiao de Corumbatai, Leme e Araras. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado"
-    },
-    {
-      "time": "21:50",
-      "date": "23/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:21h50 Chuva se espalhando pela regiao de Maracatuba e Sao Manuel. Tem vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 24
+      "count": 21
     },
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -91,13 +91,8 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil Estadual da Bahia",
-      "short_name": "DC Bahia",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Mangaratiba (RJ)",
-      "short_name": "Defesa Civil Mangaratiba (RJ)",
+      "name": "Defesa Civil Estadual do Maranhão",
+      "short_name": "DC Maranhão",
       "count": 1
     },
     {
@@ -106,24 +101,29 @@
       "count": 1
     },
     {
-      "name": "Defesa Civil Estadual do Maranhão",
-      "short_name": "DC Maranhão",
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
       "count": 1
     },
     {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
+      "name": "Defesa Civil Estadual da Bahia",
+      "short_name": "DC Bahia",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Mangaratiba (RJ)",
+      "short_name": "Defesa Civil Mangaratiba (RJ)",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 33
+      "count": 30
     },
     {
       "label": "Alto",
-      "count": 11
+      "count": 12
     },
     {
       "label": "Severo",
@@ -133,7 +133,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 44
+      "count": 42
     },
     {
       "label": "Alagamentos",
@@ -143,15 +143,27 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 24
+      "count": 21
+    },
+    {
+      "uf": "PA",
+      "count": 9
     },
     {
       "uf": "AM",
       "count": 8
     },
     {
-      "uf": "PA",
-      "count": 8
+      "uf": "MA",
+      "count": 1
+    },
+    {
+      "uf": "GO",
+      "count": 1
+    },
+    {
+      "uf": "PR",
+      "count": 1
     },
     {
       "uf": "BA",
@@ -160,31 +172,71 @@
     {
       "uf": "RJ",
       "count": 1
-    },
-    {
-      "uf": "GO",
-      "count": 1
-    },
-    {
-      "uf": "MA",
-      "count": 1
-    },
-    {
-      "uf": "SC",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 4
+      "count": 5
     },
     {
       "label": "expirado",
-      "count": 41
+      "count": 38
     }
   ],
   "all_alerts": [
+    {
+      "date": "24/05/2026",
+      "time": "09:53",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MA",
+      "location": "MARANHÃO/MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-24T09:53:12-03:00",
+      "expires": "2026-05-24T23:55:00-03:00"
+    },
+    {
+      "date": "24/05/2026",
+      "time": "09:38",
+      "senderName": "Defesa Civil Estadual de Goiás",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "GO",
+      "location": "mapa",
+      "headline": "Defesa Civil:Previsao de Chuvas de ate 50mm/dia, ventos de ate 60km/h nas proximas 24h. Risco baixo de queda de galhos, alagamentos e raios. Emergencia 193",
+      "status": "vigente",
+      "onset": "2026-05-24T09:38:00-03:00",
+      "expires": "2026-05-24T23:59:00-03:00"
+    },
+    {
+      "date": "24/05/2026",
+      "time": "08:49",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "PARÁ/PA",
+      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (24MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
+      "status": "vigente",
+      "onset": "2026-05-24T08:49:25-03:00",
+      "expires": "2026-05-24T23:59:00-03:00"
+    },
+    {
+      "date": "24/05/2026",
+      "time": "08:49",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:DCPR AVISO DE TEMPO: Tempestades irregulares e chuva pontualmente forte na regiao hoje. Mantenha-se vigilante. Ocorrencias, ligue 199/193.",
+      "status": "vigente",
+      "onset": "2026-05-24T08:49:23-03:00",
+      "expires": "2026-05-24T22:00:00-03:00"
+    },
     {
       "date": "24/05/2026",
       "time": "07:45",
@@ -662,7 +714,7 @@
       "uf": "RJ",
       "location": "Mangaratiba/RJ",
       "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-23T11:36:31-03:00",
       "expires": "2026-05-24T10:00:00-03:00"
     },
@@ -691,99 +743,21 @@
       "status": "expirado",
       "onset": "2026-05-23T11:07:08-03:00",
       "expires": "2026-05-23T13:05:00-03:00"
-    },
-    {
-      "date": "23/05/2026",
-      "time": "10:35",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:10h30 Chuva persistente na regiao da Baixada Santista e Mongagua. Tem  vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-23T10:35:02-03:00",
-      "expires": "2026-05-23T12:30:00-03:00"
-    },
-    {
-      "date": "23/05/2026",
-      "time": "10:33",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "GO",
-      "location": "GOIÁS/GO",
-      "headline": "Defesa Civil:Possibilidade de chuvas e ventos intensos nas proximas 24 horas, com baixo risco de alagamento e raios. Emergencia 193",
-      "status": "expirado",
-      "onset": "2026-05-23T10:33:02-03:00",
-      "expires": "2026-05-23T23:59:00-03:00"
-    },
-    {
-      "date": "23/05/2026",
-      "time": "10:24",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MA",
-      "location": "MARANHÃO-MA",
-      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193",
-      "status": "vigente",
-      "onset": "2026-05-23T10:24:00-03:00",
-      "expires": "2026-05-24T23:55:00-03:00"
-    },
-    {
-      "date": "23/05/2026",
-      "time": "10:14",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:10h10 Chuva forte na regiao de Lencois Paulista, Sao Manuel e Jau. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-23T10:14:27-03:00",
-      "expires": "2026-05-23T12:00:00-03:00"
-    },
-    {
-      "date": "23/05/2026",
-      "time": "10:05",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Observação Meteorológica SDC/SC 23/05 10:00 - Chuva pontualmente intensa e temporais isolados entre sábado (23) e segunda-feira (25). \n\nA formação de uma área de baixa pressão favorece a ocorrência de chuva, que em alguns momentos se torna mais intensa, resultando em risco MODERADO para ocorrências associadas a alagamentos pontuais.\n\nEm caso de emergência, ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-05-23T10:05:16-03:00",
-      "expires": "2026-05-25T12:00:00-03:00"
-    },
-    {
-      "date": "23/05/2026",
-      "time": "09:17",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:09h15 Chuva persistente na regiao de Sao Sebastiao e Bertioga. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-23T09:17:47-03:00",
-      "expires": "2026-05-23T11:15:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 45,
+    "total_alerts": 43,
     "by_nivel": {
-      "Médio": 33,
-      "Alto": 11,
+      "Médio": 30,
+      "Alto": 12,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 45
+      "Google": 43
     },
     "by_region": {
-      "SE": 25,
-      "N": 16,
+      "SE": 22,
+      "N": 17,
       "NE": 2,
       "CO": 1,
       "S": 1
