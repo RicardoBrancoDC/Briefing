@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-24T11:03:42.071973-03:00",
-  "source_run_dir": "run_20260524_110330",
+  "generated_at": "2026-05-24T12:37:19.473449-03:00",
+  "source_run_dir": "run_20260524_123709",
   "cards": {
-    "vigentes": 5,
-    "ultimas24h": 43,
-    "autoridadesAtivas": 9,
+    "vigentes": 6,
+    "ultimas24h": 37,
+    "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "12:36",
+      "date": "24/05/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
+      "status": "vigente"
+    },
     {
       "time": "09:53",
       "date": "24/05/2026",
@@ -55,35 +67,28 @@
       "uf": "PR",
       "headline": "Defesa Civil:DCPR AVISO DE TEMPO: Tempestades irregulares e chuva pontualmente forte na regiao hoje. Mantenha-se vigilante. Ocorrencias, ligue 199/193.",
       "status": "vigente"
-    },
-    {
-      "time": "07:45",
-      "date": "24/05/2026",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "senderNameShort": "DC Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 21
+      "count": 16
     },
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 9
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
       "count": 6
+    },
+    {
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
+      "count": 2
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
@@ -101,29 +106,19 @@
       "count": 1
     },
     {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
-      "count": 1
-    },
-    {
       "name": "Defesa Civil Estadual da Bahia",
       "short_name": "DC Bahia",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Mangaratiba (RJ)",
-      "short_name": "Defesa Civil Mangaratiba (RJ)",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 30
+      "count": 25
     },
     {
       "label": "Alto",
-      "count": 12
+      "count": 11
     },
     {
       "label": "Severo",
@@ -133,7 +128,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 42
+      "count": 36
     },
     {
       "label": "Alagamentos",
@@ -143,15 +138,19 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 21
+      "count": 16
     },
     {
       "uf": "PA",
-      "count": 9
+      "count": 8
     },
     {
       "uf": "AM",
       "count": 8
+    },
+    {
+      "uf": "PR",
+      "count": 2
     },
     {
       "uf": "MA",
@@ -162,29 +161,34 @@
       "count": 1
     },
     {
-      "uf": "PR",
-      "count": 1
-    },
-    {
       "uf": "BA",
-      "count": 1
-    },
-    {
-      "uf": "RJ",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 6
     },
     {
       "label": "expirado",
-      "count": 38
+      "count": 31
     }
   ],
   "all_alerts": [
+    {
+      "date": "24/05/2026",
+      "time": "12:36",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
+      "status": "vigente",
+      "onset": "2026-05-24T12:36:23-03:00",
+      "expires": "2026-05-24T15:35:00-03:00"
+    },
     {
       "date": "24/05/2026",
       "time": "09:53",
@@ -652,115 +656,24 @@
       "status": "expirado",
       "onset": "2026-05-23T13:44:18-03:00",
       "expires": "2026-05-23T15:45:00-03:00"
-    },
-    {
-      "date": "23/05/2026",
-      "time": "12:23",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:12h20 Chuva isolada na Grande Sao Paulo. Tem vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-23T12:23:41-03:00",
-      "expires": "2026-05-23T14:25:00-03:00"
-    },
-    {
-      "date": "23/05/2026",
-      "time": "12:17",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:12h15 Chuva isolada na regiao de Garca, Duartina e Pirajui. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-23T12:17:14-03:00",
-      "expires": "2026-05-23T14:20:00-03:00"
-    },
-    {
-      "date": "23/05/2026",
-      "time": "12:15",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:ALERTA ALTO para chuvas intensas (23MAI). Acompanhe atualizacoes da Defesa Civil. Em emergencia (193).",
-      "status": "expirado",
-      "onset": "2026-05-23T12:15:54-03:00",
-      "expires": "2026-05-23T23:55:00-03:00"
-    },
-    {
-      "date": "23/05/2026",
-      "time": "12:15",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:12h10 Chuva isolada na regiao de Paranapanema, Buri e Angatuba. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-23T12:15:04-03:00",
-      "expires": "2026-05-23T14:15:00-03:00"
-    },
-    {
-      "date": "23/05/2026",
-      "time": "11:36",
-      "senderName": "Defesa Civil Mangaratiba (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
-      "status": "expirado",
-      "onset": "2026-05-23T11:36:31-03:00",
-      "expires": "2026-05-24T10:00:00-03:00"
-    },
-    {
-      "date": "23/05/2026",
-      "time": "11:26",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:11h25 Chuva persistente na regiao de Sao Sebastiao e Ilhabela. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-23T11:26:30-03:00",
-      "expires": "2026-05-23T13:30:00-03:00"
-    },
-    {
-      "date": "23/05/2026",
-      "time": "11:07",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:11h00 Chuva isolada na regiao da Marilia e Tupa. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-23T11:07:08-03:00",
-      "expires": "2026-05-23T13:05:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 43,
+    "total_alerts": 37,
     "by_nivel": {
-      "Médio": 30,
-      "Alto": 12,
+      "Médio": 25,
+      "Alto": 11,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 43
+      "Google": 37
     },
     "by_region": {
-      "SE": 22,
-      "N": 17,
+      "N": 16,
+      "SE": 16,
       "NE": 2,
-      "CO": 1,
-      "S": 1
+      "S": 2,
+      "CO": 1
     }
   }
 }
