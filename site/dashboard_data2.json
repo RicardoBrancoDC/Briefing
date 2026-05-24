@@ -1,18 +1,41 @@
 {
-  "generated_at": "2026-05-24T12:37:19.537132-03:00",
+  "generated_at": "2026-05-24T14:19:04.943340-03:00",
   "source": ".cache/historico_alertas.json",
   "window_hours": 24,
   "cards": {
     "vigentes": 6,
-    "ultimas24h": 37,
-    "autoridadesAtivas": 8,
+    "ultimas24h": 36,
+    "autoridadesAtivas": 9,
     "alertasExtremos": 0,
     "alertasSeveros": 1,
     "alertasSeverosExtremos": 1,
-    "estadosComAlerta": 7,
-    "municipiosOuAreasComAlerta": 18
+    "estadosComAlerta": 8,
+    "municipiosOuAreasComAlerta": 19
   },
   "latest_alerts": [
+    {
+      "time": "13:33",
+      "date": "24/05/2026",
+      "senderName": "Defesa Civil Mangaratiba (RJ)",
+      "senderNameShort": "Defesa Civil Mangaratiba (R…",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Mangaratiba/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
+      "status": "vigente",
+      "identifier": "183638/2026",
+      "entry_id": "183638/2026",
+      "sent": "2026-05-24T13:33:29-03:00",
+      "onset": "2026-05-24T13:33:29-03:00",
+      "expires": "2026-05-25T10:00:00-03:00",
+      "category": "Met",
+      "severity": "Moderate",
+      "urgency": "Expected",
+      "certainty": "Possible",
+      "responseType": "Execute",
+      "channel_list": "Google"
+    },
     {
       "time": "12:36",
       "date": "24/05/2026",
@@ -138,7 +161,7 @@
       "location": "Manaus/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "183632/2026",
       "entry_id": "183632/2026",
       "sent": "2026-05-24T07:45:31-03:00",
@@ -219,36 +242,13 @@
       "certainty": "Observed",
       "responseType": "Execute",
       "channel_list": "Google"
-    },
-    {
-      "time": "21:50",
-      "date": "23/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:21h50 Chuva se espalhando pela regiao de Maracatuba e Sao Manuel. Tem vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "identifier": "183628/2026",
-      "entry_id": "183628/2026",
-      "sent": "2026-05-23T21:50:48-03:00",
-      "onset": "2026-05-23T21:50:48-03:00",
-      "expires": "2026-05-23T23:50:00-03:00",
-      "category": "Met",
-      "severity": "Moderate",
-      "urgency": "Immediate",
-      "certainty": "Observed",
-      "responseType": "Execute",
-      "channel_list": "Google"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 16
+      "count": 14
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -271,6 +271,11 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil Mangaratiba (RJ)",
+      "short_name": "Defesa Civil Mangaratiba (RJ)",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil Estadual do Maranhão",
       "short_name": "DC Maranhão",
       "count": 1
@@ -289,7 +294,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 25
+      "count": 24
     },
     {
       "label": "Alto",
@@ -303,7 +308,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 36
+      "count": 35
     },
     {
       "label": "Alagamentos",
@@ -313,7 +318,7 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 16
+      "count": 14
     },
     {
       "uf": "PA",
@@ -326,6 +331,10 @@
     {
       "uf": "PR",
       "count": 2
+    },
+    {
+      "uf": "RJ",
+      "count": 1
     },
     {
       "uf": "MA",
@@ -347,27 +356,27 @@
     },
     {
       "label": "expirado",
-      "count": 31
+      "count": 30
     }
   ],
   "category_distribution": [
     {
       "label": "Met",
-      "count": 37
+      "count": 36
     }
   ],
   "duration_distribution": [
     {
       "label": "Até 2h",
-      "count": 19
+      "count": 18
     },
     {
       "label": "2h a 6h",
-      "count": 13
+      "count": 12
     },
     {
       "label": "12h a 24h",
-      "count": 4
+      "count": 5
     },
     {
       "label": "6h a 12h",
@@ -377,32 +386,79 @@
   "time_since_distribution": [
     {
       "label": "Mais de 12h",
-      "count": 29
+      "count": 27
     },
     {
       "label": "3h a 6h",
-      "count": 3
-    },
-    {
-      "label": "1h a 3h",
-      "count": 2
+      "count": 4
     },
     {
       "label": "6h a 12h",
-      "count": 2
+      "count": 3
     },
     {
       "label": "Até 1h",
+      "count": 1
+    },
+    {
+      "label": "1h a 3h",
       "count": 1
     }
   ],
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 37
+      "count": 36
     }
   ],
   "all_alerts": [
+    {
+      "identifier": "183638/2026",
+      "entry_id": "183638/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Mangaratiba (RJ)",
+      "sent": "2026-05-24T13:33:29-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Expected",
+      "severity": "Moderate",
+      "certainty": "Possible",
+      "onset": "2026-05-24T13:33:29-03:00",
+      "expires": "2026-05-25T10:00:00-03:00",
+      "nivel": "Médio",
+      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
+      "description": "Chuva fraca/moderada.",
+      "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há leve risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda).\nEvite usar aparelhos eletrônicos ligados à tomada.\nObtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "Mangaratiba/RJ",
+      "polygon_raw": "-23.043,-44.136 -23.043,-44.136 -23.042,-44.136 -23.04,-44.136 -23.04,-44.137 -23.041,-44.138 -23.041,-44.138 -23.042,-44.139 -23.043,-44.139 -23.043,-44.139 -23.043,-44.138 -23.043,-44.138 -23.043,-44.137 -23.044,-44.137 -23.043,-44.136 -23.043,-44.136",
+      "polygon_points": 16,
+      "has_geocode": true,
+      "uf_hint": "RJ",
+      "region": "SE",
+      "geometry_wkt": "POLYGON ((-44.136 -23.043, -44.136 -23.043, -44.136 -23.042, -44.136 -23.04, -44.137 -23.04, -44.138 -23.041, -44.138 -23.041, -44.139 -23.042, -44.139 -23.043, -44.139 -23.043, -44.138 -23.043, -44.138 -23.043, -44.137 -23.043, -44.137 -23.044, -44.136 -23.043, -44.136 -23.043))",
+      "uf": "RJ",
+      "location": "Mangaratiba/RJ",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "24/05/2026",
+      "time": "13:33",
+      "sent_br": "2026-05-24T13:33:29-03:00",
+      "onset_br": "2026-05-24T13:33:29-03:00",
+      "expires_br": "2026-05-25T10:00:00-03:00",
+      "duration_minutes": 1226,
+      "duration_hours": 20.43,
+      "duration_bucket": "12h a 24h",
+      "time_since_minutes": 45,
+      "time_since_hours": 0.75,
+      "time_since_bucket": "Até 1h",
+      "is_active": true
+    },
     {
       "identifier": "183637/2026",
       "entry_id": "183637/2026",
@@ -445,9 +501,9 @@
       "duration_minutes": 178,
       "duration_hours": 2.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 0,
-      "time_since_hours": 0.0,
-      "time_since_bucket": "Até 1h",
+      "time_since_minutes": 102,
+      "time_since_hours": 1.7,
+      "time_since_bucket": "1h a 3h",
       "is_active": true
     },
     {
@@ -492,9 +548,9 @@
       "duration_minutes": 841,
       "duration_hours": 14.02,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 164,
-      "time_since_hours": 2.73,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 265,
+      "time_since_hours": 4.42,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -539,9 +595,9 @@
       "duration_minutes": 861,
       "duration_hours": 14.35,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 179,
-      "time_since_hours": 2.98,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 281,
+      "time_since_hours": 4.68,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -586,8 +642,8 @@
       "duration_minutes": 909,
       "duration_hours": 15.15,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 227,
-      "time_since_hours": 3.78,
+      "time_since_minutes": 329,
+      "time_since_hours": 5.48,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -633,8 +689,8 @@
       "duration_minutes": 790,
       "duration_hours": 13.17,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 227,
-      "time_since_hours": 3.78,
+      "time_since_minutes": 329,
+      "time_since_hours": 5.48,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -644,7 +700,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil de Manaus (AM)",
       "sent": "2026-05-24T07:45:31-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -671,7 +727,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "24/05/2026",
       "time": "07:45",
       "sent_br": "2026-05-24T07:45:31-03:00",
@@ -680,10 +736,10 @@
       "duration_minutes": 314,
       "duration_hours": 5.23,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 291,
-      "time_since_hours": 4.85,
-      "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "time_since_minutes": 393,
+      "time_since_hours": 6.55,
+      "time_since_bucket": "6h a 12h",
+      "is_active": false
     },
     {
       "identifier": "183631/2026",
@@ -727,8 +783,8 @@
       "duration_minutes": 135,
       "duration_hours": 2.25,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 382,
-      "time_since_hours": 6.37,
+      "time_since_minutes": 484,
+      "time_since_hours": 8.07,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -774,8 +830,8 @@
       "duration_minutes": 105,
       "duration_hours": 1.75,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 532,
-      "time_since_hours": 8.87,
+      "time_since_minutes": 634,
+      "time_since_hours": 10.57,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -821,8 +877,8 @@
       "duration_minutes": 117,
       "duration_hours": 1.95,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 780,
-      "time_since_hours": 13.0,
+      "time_since_minutes": 881,
+      "time_since_hours": 14.68,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -868,8 +924,8 @@
       "duration_minutes": 119,
       "duration_hours": 1.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 886,
-      "time_since_hours": 14.77,
+      "time_since_minutes": 988,
+      "time_since_hours": 16.47,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -915,8 +971,8 @@
       "duration_minutes": 119,
       "duration_hours": 1.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 931,
-      "time_since_hours": 15.52,
+      "time_since_minutes": 1033,
+      "time_since_hours": 17.22,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -962,8 +1018,8 @@
       "duration_minutes": 119,
       "duration_hours": 1.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 986,
-      "time_since_hours": 16.43,
+      "time_since_minutes": 1088,
+      "time_since_hours": 18.13,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1009,8 +1065,8 @@
       "duration_minutes": 196,
       "duration_hours": 3.27,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1014,
-      "time_since_hours": 16.9,
+      "time_since_minutes": 1115,
+      "time_since_hours": 18.58,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1056,8 +1112,8 @@
       "duration_minutes": 152,
       "duration_hours": 2.53,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1029,
-      "time_since_hours": 17.15,
+      "time_since_minutes": 1131,
+      "time_since_hours": 18.85,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1103,8 +1159,8 @@
       "duration_minutes": 140,
       "duration_hours": 2.33,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1077,
-      "time_since_hours": 17.95,
+      "time_since_minutes": 1179,
+      "time_since_hours": 19.65,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1150,8 +1206,8 @@
       "duration_minutes": 94,
       "duration_hours": 1.57,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1091,
-      "time_since_hours": 18.18,
+      "time_since_minutes": 1193,
+      "time_since_hours": 19.88,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1197,8 +1253,8 @@
       "duration_minutes": 77,
       "duration_hours": 1.28,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1094,
-      "time_since_hours": 18.23,
+      "time_since_minutes": 1196,
+      "time_since_hours": 19.93,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1244,8 +1300,8 @@
       "duration_minutes": 71,
       "duration_hours": 1.18,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1099,
-      "time_since_hours": 18.32,
+      "time_since_minutes": 1201,
+      "time_since_hours": 20.02,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1291,8 +1347,8 @@
       "duration_minutes": 134,
       "duration_hours": 2.23,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1101,
-      "time_since_hours": 18.35,
+      "time_since_minutes": 1203,
+      "time_since_hours": 20.05,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1338,8 +1394,8 @@
       "duration_minutes": 194,
       "duration_hours": 3.23,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1132,
-      "time_since_hours": 18.87,
+      "time_since_minutes": 1233,
+      "time_since_hours": 20.55,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1385,8 +1441,8 @@
       "duration_minutes": 61,
       "duration_hours": 1.02,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1143,
-      "time_since_hours": 19.05,
+      "time_since_minutes": 1245,
+      "time_since_hours": 20.75,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1432,8 +1488,8 @@
       "duration_minutes": 115,
       "duration_hours": 1.92,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1152,
-      "time_since_hours": 19.2,
+      "time_since_minutes": 1254,
+      "time_since_hours": 20.9,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1479,8 +1535,8 @@
       "duration_minutes": 97,
       "duration_hours": 1.62,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1154,
-      "time_since_hours": 19.23,
+      "time_since_minutes": 1256,
+      "time_since_hours": 20.93,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1526,8 +1582,8 @@
       "duration_minutes": 112,
       "duration_hours": 1.87,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1169,
-      "time_since_hours": 19.48,
+      "time_since_minutes": 1271,
+      "time_since_hours": 21.18,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1573,8 +1629,8 @@
       "duration_minutes": 58,
       "duration_hours": 0.97,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1171,
-      "time_since_hours": 19.52,
+      "time_since_minutes": 1272,
+      "time_since_hours": 21.2,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1620,8 +1676,8 @@
       "duration_minutes": 125,
       "duration_hours": 2.08,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1198,
-      "time_since_hours": 19.97,
+      "time_since_minutes": 1299,
+      "time_since_hours": 21.65,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1667,8 +1723,8 @@
       "duration_minutes": 61,
       "duration_hours": 1.02,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1198,
-      "time_since_hours": 19.97,
+      "time_since_minutes": 1300,
+      "time_since_hours": 21.67,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1714,8 +1770,8 @@
       "duration_minutes": 95,
       "duration_hours": 1.58,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1212,
-      "time_since_hours": 20.2,
+      "time_since_minutes": 1314,
+      "time_since_hours": 21.9,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1761,8 +1817,8 @@
       "duration_minutes": 97,
       "duration_hours": 1.62,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1215,
-      "time_since_hours": 20.25,
+      "time_since_minutes": 1316,
+      "time_since_hours": 21.93,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1808,8 +1864,8 @@
       "duration_minutes": 466,
       "duration_hours": 7.77,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 1229,
-      "time_since_hours": 20.48,
+      "time_since_minutes": 1330,
+      "time_since_hours": 22.17,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1855,8 +1911,8 @@
       "duration_minutes": 118,
       "duration_hours": 1.97,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1235,
-      "time_since_hours": 20.58,
+      "time_since_minutes": 1337,
+      "time_since_hours": 22.28,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1902,8 +1958,8 @@
       "duration_minutes": 152,
       "duration_hours": 2.53,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1270,
-      "time_since_hours": 21.17,
+      "time_since_minutes": 1371,
+      "time_since_hours": 22.85,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1949,8 +2005,8 @@
       "duration_minutes": 119,
       "duration_hours": 1.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1271,
-      "time_since_hours": 21.18,
+      "time_since_minutes": 1373,
+      "time_since_hours": 22.88,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1996,8 +2052,8 @@
       "duration_minutes": 122,
       "duration_hours": 2.03,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1275,
-      "time_since_hours": 21.25,
+      "time_since_minutes": 1376,
+      "time_since_hours": 22.93,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -2043,102 +2099,8 @@
       "duration_minutes": 184,
       "duration_hours": 3.07,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1331,
-      "time_since_hours": 22.18,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false
-    },
-    {
-      "identifier": "183602/2026",
-      "entry_id": "183602/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "sent": "2026-05-23T13:48:39-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "CHUVAS INTENSAS",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Moderate",
-      "certainty": "Observed",
-      "onset": "2026-05-23T13:48:39-03:00",
-      "expires": "2026-05-23T15:55:00-03:00",
-      "nivel": "Médio",
-      "headline": "Defesa Civil:13h45 Chuva se espalhando pela regiao de Bauru. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "description": "13h45 Chuva se espalhando pela região de Bauru. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas próximas horas.",
-      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "SÃO PAULO/SP",
-      "polygon_raw": "-22.128,-49.182 -22.185,-49.302 -22.328,-49.34 -22.499,-49.305 -22.563,-49.213 -22.544,-48.921 -22.471,-48.753 -22.366,-48.701 -22.134,-48.873 -22.112,-49.065 -22.128,-49.182",
-      "polygon_points": 11,
-      "has_geocode": false,
-      "uf_hint": "SP",
-      "region": "SE",
-      "geometry_wkt": "POLYGON ((-49.182 -22.128, -49.302 -22.185, -49.34 -22.328, -49.305 -22.499, -49.213 -22.563, -48.921 -22.544, -48.753 -22.471, -48.701 -22.366, -48.873 -22.134, -49.065 -22.112, -49.182 -22.128))",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "event_short": "Chuvas Intensas",
-      "status_vigencia": "expirado",
-      "date": "23/05/2026",
-      "time": "13:48",
-      "sent_br": "2026-05-23T13:48:39-03:00",
-      "onset_br": "2026-05-23T13:48:39-03:00",
-      "expires_br": "2026-05-23T15:55:00-03:00",
-      "duration_minutes": 126,
-      "duration_hours": 2.1,
-      "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1368,
-      "time_since_hours": 22.8,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false
-    },
-    {
-      "identifier": "183601/2026",
-      "entry_id": "183601/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "sent": "2026-05-23T13:44:18-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "CHUVAS INTENSAS",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Moderate",
-      "certainty": "Observed",
-      "onset": "2026-05-23T13:44:18-03:00",
-      "expires": "2026-05-23T15:45:00-03:00",
-      "nivel": "Médio",
-      "headline": "Defesa Civil:13h40 Chuva isolada na regiao de Capela do Alto e Sorocaba. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "description": "13h40 Chuva isolada na região de Capela do Alto e Sorocaba. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas próximas horas.",
-      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "SÃO PAULO/SP",
-      "polygon_raw": "-23.325,-47.621 -23.322,-47.803 -23.354,-47.882 -23.502,-47.909 -23.631,-47.899 -23.722,-47.851 -23.754,-47.559 -23.732,-47.46 -23.64,-47.384 -23.549,-47.346 -23.436,-47.346 -23.313,-47.48 -23.325,-47.621",
-      "polygon_points": 13,
-      "has_geocode": false,
-      "uf_hint": "SP",
-      "region": "SE",
-      "geometry_wkt": "POLYGON ((-47.621 -23.325, -47.803 -23.322, -47.882 -23.354, -47.909 -23.502, -47.899 -23.631, -47.851 -23.722, -47.559 -23.754, -47.46 -23.732, -47.384 -23.64, -47.346 -23.549, -47.346 -23.436, -47.48 -23.313, -47.621 -23.325))",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "event_short": "Chuvas Intensas",
-      "status_vigencia": "expirado",
-      "date": "23/05/2026",
-      "time": "13:44",
-      "sent_br": "2026-05-23T13:44:18-03:00",
-      "onset_br": "2026-05-23T13:44:18-03:00",
-      "expires_br": "2026-05-23T15:45:00-03:00",
-      "duration_minutes": 120,
-      "duration_hours": 2.0,
-      "duration_bucket": "Até 2h",
-      "time_since_minutes": 1373,
-      "time_since_hours": 22.88,
+      "time_since_minutes": 1433,
+      "time_since_hours": 23.88,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     }
