@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-24T20:17:51.922243-03:00",
-  "source_run_dir": "run_20260524_201740",
+  "generated_at": "2026-05-25T01:55:10.930500-03:00",
+  "source_run_dir": "run_20260525_015458",
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 22,
+    "vigentes": 1,
+    "ultimas24h": 20,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "21:04",
+      "date": "24/05/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:21h04 Chuva em Ubatuba, Cunha e Sao Luiz do Paraitinga. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "expirado"
+    },
     {
       "time": "19:28",
       "date": "24/05/2026",
@@ -18,7 +30,7 @@
       "location": "PARÁ/PA",
       "uf": "PA",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas. - Proteja documentos e objetos essenciais.- Utilize rotas seguras para eventual deslocamento.- Acompanhe atualizacoes",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "18:59",
@@ -55,25 +67,13 @@
       "uf": "SP",
       "headline": "Defesa Civil:17h10 Chuva forte na regiao de Caraguatatuba. Tem raios e vento. Tenha cuidado nas proximas horas.",
       "status": "expirado"
-    },
-    {
-      "time": "16:50",
-      "date": "24/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:16h45 Chuva se espalhando pela regiao de Cananeia e Barra do Turvo. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 8
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
@@ -114,11 +114,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 19
+      "count": 16
     },
     {
       "label": "Alto",
-      "count": 2
+      "count": 3
     },
     {
       "label": "Severo",
@@ -128,13 +128,13 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 22
+      "count": 20
     }
   ],
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 8
+      "count": 6
     },
     {
       "uf": "PR",
@@ -164,14 +164,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 1
     },
     {
       "label": "expirado",
-      "count": 16
+      "count": 19
     }
   ],
   "all_alerts": [
+    {
+      "date": "24/05/2026",
+      "time": "21:04",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:21h04 Chuva em Ubatuba, Cunha e Sao Luiz do Paraitinga. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "expirado",
+      "onset": "2026-05-24T21:04:51-03:00",
+      "expires": "2026-05-24T23:05:00-03:00"
+    },
     {
       "date": "24/05/2026",
       "time": "19:28",
@@ -181,7 +194,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas. - Proteja documentos e objetos essenciais.- Utilize rotas seguras para eventual deslocamento.- Acompanhe atualizacoes",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-24T19:28:19-03:00",
       "expires": "2026-05-24T22:00:00-03:00"
     },
@@ -337,7 +350,7 @@
       "uf": "MA",
       "location": "MARANHÃO/MA",
       "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-24T09:53:12-03:00",
       "expires": "2026-05-24T23:55:00-03:00"
     },
@@ -350,7 +363,7 @@
       "uf": "GO",
       "location": "mapa",
       "headline": "Defesa Civil:Previsao de Chuvas de ate 50mm/dia, ventos de ate 60km/h nas proximas 24h. Risco baixo de queda de galhos, alagamentos e raios. Emergencia 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-24T09:38:00-03:00",
       "expires": "2026-05-24T23:59:00-03:00"
     },
@@ -363,7 +376,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (24MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-24T08:49:25-03:00",
       "expires": "2026-05-24T23:59:00-03:00"
     },
@@ -376,7 +389,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR AVISO DE TEMPO: Tempestades irregulares e chuva pontualmente forte na regiao hoje. Mantenha-se vigilante. Ocorrencias, ligue 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-24T08:49:23-03:00",
       "expires": "2026-05-24T22:00:00-03:00"
     },
@@ -418,59 +431,20 @@
       "status": "expirado",
       "onset": "2026-05-24T03:44:47-03:00",
       "expires": "2026-05-24T05:30:00-03:00"
-    },
-    {
-      "date": "23/05/2026",
-      "time": "23:37",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:23h35 Chuva se espalhando pela regiao de Corumbatai, Leme e Araras. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-23T23:37:15-03:00",
-      "expires": "2026-05-24T01:35:00-03:00"
-    },
-    {
-      "date": "23/05/2026",
-      "time": "21:50",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:21h50 Chuva se espalhando pela regiao de Maracatuba e Sao Manuel. Tem vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-23T21:50:48-03:00",
-      "expires": "2026-05-23T23:50:00-03:00"
-    },
-    {
-      "date": "23/05/2026",
-      "time": "21:05",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:21h05 Chuva se espalhando pela regiao de Brotas e Torrinha. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-23T21:05:36-03:00",
-      "expires": "2026-05-23T23:05:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 22,
+    "total_alerts": 20,
     "by_nivel": {
-      "Médio": 19,
-      "Alto": 2,
+      "Médio": 16,
+      "Alto": 3,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 22
+      "Google": 20
     },
     "by_region": {
-      "SE": 9,
+      "SE": 7,
       "N": 6,
       "S": 5,
       "CO": 1,
