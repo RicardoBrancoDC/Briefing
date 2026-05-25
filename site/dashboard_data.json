@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-25T07:52:09.270428-03:00",
-  "source_run_dir": "run_20260525_075159",
+  "generated_at": "2026-05-25T08:46:33.402077-03:00",
+  "source_run_dir": "run_20260525_084624",
   "cards": {
-    "vigentes": 3,
-    "ultimas24h": 21,
+    "vigentes": 5,
+    "ultimas24h": 23,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "08:37",
+      "date": "25/05/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "08:27",
+      "date": "25/05/2026",
+      "senderName": "Defesa Civil Estadual de Goiás",
+      "senderNameShort": "DC Goiás",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "GOIÁS/GO",
+      "uf": "GO",
+      "headline": "Defesa Civil:Possibilidade de chuvas e ventos intensos nas proximas 24 horas, com baixo risco de alagamento e raios. Emergencia 193",
+      "status": "vigente"
+    },
     {
       "time": "07:43",
       "date": "25/05/2026",
@@ -43,42 +67,23 @@
       "uf": "PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
       "status": "expirado"
-    },
-    {
-      "time": "02:42",
-      "date": "25/05/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 25/05 02:37 - CHUVA PERSISTENTE de intensidade moderada a forte com RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado"
-    },
-    {
-      "time": "21:04",
-      "date": "24/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:21h04 Chuva em Ubatuba, Cunha e Sao Luiz do Paraitinga. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
       "count": 6
+    },
+    {
+      "name": "Defesa Civil Estadual de Goiás",
+      "short_name": "DC Goiás",
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -104,21 +109,16 @@
       "name": "Defesa Civil Estadual do Maranhão",
       "short_name": "DC Maranhão",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Goiás",
-      "short_name": "DC Goiás",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 14
+      "count": 15
     },
     {
       "label": "Alto",
-      "count": 6
+      "count": 7
     },
     {
       "label": "Severo",
@@ -128,17 +128,21 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 21
+      "count": 23
     }
   ],
   "uf_distribution": [
     {
       "uf": "PR",
-      "count": 8
+      "count": 9
     },
     {
       "uf": "SP",
       "count": 6
+    },
+    {
+      "uf": "GO",
+      "count": 2
     },
     {
       "uf": "PA",
@@ -159,16 +163,12 @@
     {
       "uf": "MA",
       "count": 1
-    },
-    {
-      "uf": "GO",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 3
+      "count": 5
     },
     {
       "label": "expirado",
@@ -176,6 +176,32 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "25/05/2026",
+      "time": "08:37",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-25T08:37:21-03:00",
+      "expires": "2026-05-25T11:35:00-03:00"
+    },
+    {
+      "date": "25/05/2026",
+      "time": "08:27",
+      "senderName": "Defesa Civil Estadual de Goiás",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "GO",
+      "location": "GOIÁS/GO",
+      "headline": "Defesa Civil:Possibilidade de chuvas e ventos intensos nas proximas 24 horas, com baixo risco de alagamento e raios. Emergencia 193",
+      "status": "vigente",
+      "onset": "2026-05-25T08:27:59-03:00",
+      "expires": "2026-05-25T23:59:00-03:00"
+    },
     {
       "date": "25/05/2026",
       "time": "07:43",
@@ -451,20 +477,20 @@
     }
   ],
   "summary": {
-    "total_alerts": 21,
+    "total_alerts": 23,
     "by_nivel": {
-      "Médio": 14,
-      "Alto": 6,
+      "Médio": 15,
+      "Alto": 7,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 21
+      "Google": 23
     },
     "by_region": {
-      "S": 9,
+      "S": 10,
       "SE": 7,
       "N": 3,
-      "CO": 1,
+      "CO": 2,
       "NE": 1
     }
   }
