@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-26T15:10:18.254334-03:00",
-  "source_run_dir": "run_20260526_150959",
+  "generated_at": "2026-05-26T15:39:08.499988-03:00",
+  "source_run_dir": "run_20260526_153848",
   "cards": {
-    "vigentes": 11,
-    "ultimas24h": 104,
-    "autoridadesAtivas": 13,
+    "vigentes": 13,
+    "ultimas24h": 103,
+    "autoridadesAtivas": 12,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "15:27",
+      "date": "26/05/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
+      "status": "vigente"
+    },
+    {
+      "time": "15:15",
+      "date": "26/05/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
+      "status": "vigente"
+    },
     {
       "time": "14:49",
       "date": "26/05/2026",
@@ -43,30 +67,6 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
       "status": "expirado"
-    },
-    {
-      "time": "10:47",
-      "date": "26/05/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado"
-    },
-    {
-      "time": "10:43",
-      "date": "26/05/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 28
+      "count": 29
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
@@ -88,7 +88,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 9
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Alto",
-      "count": 57
+      "count": 56
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 89
+      "count": 88
     },
     {
       "label": "Granizo",
@@ -164,7 +164,7 @@
     },
     {
       "uf": "PR",
-      "count": 28
+      "count": 29
     },
     {
       "uf": "RS",
@@ -172,7 +172,7 @@
     },
     {
       "uf": "AM",
-      "count": 10
+      "count": 9
     },
     {
       "uf": "PE",
@@ -189,23 +189,45 @@
     {
       "uf": "MA",
       "count": 1
-    },
-    {
-      "uf": "SP",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 11
+      "count": 13
     },
     {
       "label": "expirado",
-      "count": 93
+      "count": 90
     }
   ],
   "all_alerts": [
+    {
+      "date": "26/05/2026",
+      "time": "15:27",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
+      "status": "vigente",
+      "onset": "2026-05-26T15:27:36-03:00",
+      "expires": "2026-05-26T18:25:00-03:00"
+    },
+    {
+      "date": "26/05/2026",
+      "time": "15:15",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
+      "status": "vigente",
+      "onset": "2026-05-26T15:15:37-03:00",
+      "expires": "2026-05-26T18:15:00-03:00"
+    },
     {
       "date": "26/05/2026",
       "time": "14:49",
@@ -1518,62 +1540,23 @@
       "status": "expirado",
       "onset": "2026-05-25T15:51:09-03:00",
       "expires": "2026-05-25T18:45:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "15:29",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:15h28 Chuva isolada na regiao de Ourinhos. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-25T15:29:55-03:00",
-      "expires": "2026-05-25T17:25:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "15:26",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-25T15:26:39-03:00",
-      "expires": "2026-05-25T18:25:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "15:12",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-25T15:12:19-03:00",
-      "expires": "2026-05-25T19:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 104,
+    "total_alerts": 103,
     "by_nivel": {
-      "Alto": 57,
+      "Alto": 56,
       "Médio": 32,
       "Severo": 15
     },
     "by_channel_list": {
-      "Google": 104
+      "Google": 103
     },
     "by_region": {
-      "S": 81,
-      "N": 14,
+      "S": 82,
+      "N": 13,
       "NE": 6,
-      "SE": 3
+      "SE": 2
     }
   }
 }
