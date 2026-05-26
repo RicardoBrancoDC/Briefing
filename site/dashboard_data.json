@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-26T11:38:28.110747-03:00",
-  "source_run_dir": "run_20260526_113807",
+  "generated_at": "2026-05-26T13:12:40.058536-03:00",
+  "source_run_dir": "run_20260526_131218",
   "cards": {
-    "vigentes": 20,
-    "ultimas24h": 108,
+    "vigentes": 17,
+    "ultimas24h": 106,
     "autoridadesAtivas": 13,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "12:47",
+      "date": "26/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Novo Airão/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "10:47",
       "date": "26/05/2026",
@@ -55,18 +67,6 @@
       "uf": "PR",
       "headline": "Defesa Civil:DCPR AVISO DE TEMPO: Tempestades irregulares e chuva pontualmente forte na tarde/noite desta ter, 26/05. Mantenha-se atento. Ocorrencias, 199/193.",
       "status": "vigente"
-    },
-    {
-      "time": "10:33",
-      "date": "26/05/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "ATENÇÃO - 26/05 10:32 - TEMPORAL com RAIOS, RAJADAS DE VENTO e GRANIZO para os municípios de Itaiópolis, Mafra e Rio Negrinho na próxima hora. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 30
+      "count": 27
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
@@ -88,7 +88,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 38
+      "count": 36
     },
     {
       "label": "Alto",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 92
+      "count": 90
     },
     {
       "label": "Granizo",
@@ -164,14 +164,14 @@
     },
     {
       "uf": "PR",
-      "count": 30
-    },
-    {
-      "uf": "RS",
-      "count": 11
+      "count": 27
     },
     {
       "uf": "AM",
+      "count": 12
+    },
+    {
+      "uf": "RS",
       "count": 11
     },
     {
@@ -198,14 +198,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 20
+      "count": 17
     },
     {
       "label": "expirado",
-      "count": 88
+      "count": 89
     }
   ],
   "all_alerts": [
+    {
+      "date": "26/05/2026",
+      "time": "12:47",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Novo Airão/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-26T12:47:57-03:00",
+      "expires": "2026-05-26T14:00:00-03:00"
+    },
     {
       "date": "26/05/2026",
       "time": "10:47",
@@ -267,7 +280,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "ATENÇÃO - 26/05 10:32 - TEMPORAL com RAIOS, RAJADAS DE VENTO e GRANIZO para os municípios de Itaiópolis, Mafra e Rio Negrinho na próxima hora. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-26T10:33:51-03:00",
       "expires": "2026-05-26T11:45:00-03:00"
     },
@@ -384,7 +397,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-26T09:03:33-03:00",
       "expires": "2026-05-26T12:30:00-03:00"
     },
@@ -410,7 +423,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-26T08:46:51-03:00",
       "expires": "2026-05-26T12:00:00-03:00"
     },
@@ -1359,7 +1372,7 @@
       "uf": "SC",
       "location": "Blumenau/SC",
       "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas isoladas de chuva com trovoadas a partir do final da noite de hoje e na madrugada (26). Fique atento! Emerg 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-25T16:53:52-03:00",
       "expires": "2026-05-26T12:00:00-03:00"
     },
@@ -1570,60 +1583,21 @@
       "status": "expirado",
       "onset": "2026-05-25T13:26:27-03:00",
       "expires": "2026-05-25T23:55:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "12:48",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "Ribeirão Claro/PR",
-      "headline": "Defesa Civil:OBSERVACAO - Tempestades irregulares e condicao para chuva localmente forte na regiao de Ribeirao Claro. Monitore as condicoes em seu municipio e",
-      "status": "expirado",
-      "onset": "2026-05-25T12:48:31-03:00",
-      "expires": "2026-05-25T15:45:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "12:04",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR AVISO DE TEMPO: Tempestades irregulares e chuva pontualmente forte ao longo desta seg, 25/05. Mantenha-se atento. Ocorrencias, 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-25T12:04:59-03:00",
-      "expires": "2026-05-26T09:00:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "12:03",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR AVISO DE TEMPO: Tempestades potencialmente intensas nesta seg 25/05 e madrugada de 26/05. Evite areas de risco. Ocorrencias, ligue 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-25T12:03:26-03:00",
-      "expires": "2026-05-26T09:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 108,
+    "total_alerts": 106,
     "by_nivel": {
       "Alto": 55,
-      "Médio": 38,
+      "Médio": 36,
       "Severo": 15
     },
     "by_channel_list": {
-      "Google": 108
+      "Google": 106
     },
     "by_region": {
-      "S": 83,
-      "N": 15,
+      "S": 80,
+      "N": 16,
       "NE": 5,
       "SE": 5
     }
