@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-26T13:12:40.058536-03:00",
-  "source_run_dir": "run_20260526_131218",
+  "generated_at": "2026-05-26T15:10:18.254334-03:00",
+  "source_run_dir": "run_20260526_150959",
   "cards": {
-    "vigentes": 17,
-    "ultimas24h": 106,
+    "vigentes": 11,
+    "ultimas24h": 104,
     "autoridadesAtivas": 13,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "14:49",
+      "date": "26/05/2026",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "senderNameShort": "DC Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MARANHÃO/MA",
+      "uf": "MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "13:36",
+      "date": "26/05/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "12:47",
       "date": "26/05/2026",
@@ -18,7 +42,7 @@
       "location": "Novo Airão/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "10:47",
@@ -30,7 +54,7 @@
       "location": "PARANÁ/PR",
       "uf": "PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "10:43",
@@ -42,31 +66,7 @@
       "location": "PARANÁ/PR",
       "uf": "PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "10:41",
-      "date": "26/05/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 26/05 10:39 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para os municípios de Araquari, Balneário Barra do Sul, Barra Velha, Campo Alegre, Corupá, Garuva, Guaramirim, Itapoá, Jaraguá do Sul, Joinville, Luiz Alves, Massaranduba, Schroeder, São Bento do Sul, São Francisco do Sul e São João do Itaperiú nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "10:37",
-      "date": "26/05/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:DCPR AVISO DE TEMPO: Tempestades irregulares e chuva pontualmente forte na tarde/noite desta ter, 26/05. Mantenha-se atento. Ocorrencias, 199/193.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 27
+      "count": 28
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
@@ -88,7 +88,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -101,34 +101,34 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
       "count": 2
     },
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 2
+      "name": "Defesa Civil Estadual do Maranhão",
+      "short_name": "DC Maranhão",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Ipojuca (PE)",
       "short_name": "DC Ipojuca (PE)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 36
+      "count": 32
     },
     {
       "label": "Alto",
-      "count": 55
+      "count": 57
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 90
+      "count": 89
     },
     {
       "label": "Granizo",
@@ -146,7 +146,7 @@
     },
     {
       "label": "Alagamentos",
-      "count": 3
+      "count": 2
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -164,15 +164,15 @@
     },
     {
       "uf": "PR",
-      "count": 27
-    },
-    {
-      "uf": "AM",
-      "count": 12
+      "count": 28
     },
     {
       "uf": "RS",
       "count": 11
+    },
+    {
+      "uf": "AM",
+      "count": 10
     },
     {
       "uf": "PE",
@@ -187,25 +187,51 @@
       "count": 2
     },
     {
-      "uf": "SP",
-      "count": 2
+      "uf": "MA",
+      "count": 1
     },
     {
-      "uf": "RJ",
+      "uf": "SP",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 17
+      "count": 11
     },
     {
       "label": "expirado",
-      "count": 89
+      "count": 93
     }
   ],
   "all_alerts": [
+    {
+      "date": "26/05/2026",
+      "time": "14:49",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MA",
+      "location": "MARANHÃO/MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-26T14:49:49-03:00",
+      "expires": "2026-05-26T23:55:00-03:00"
+    },
+    {
+      "date": "26/05/2026",
+      "time": "13:36",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-26T13:36:40-03:00",
+      "expires": "2026-05-26T16:35:00-03:00"
+    },
     {
       "date": "26/05/2026",
       "time": "12:47",
@@ -215,7 +241,7 @@
       "uf": "AM",
       "location": "Novo Airão/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-26T12:47:57-03:00",
       "expires": "2026-05-26T14:00:00-03:00"
     },
@@ -228,7 +254,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-26T10:47:12-03:00",
       "expires": "2026-05-26T13:45:00-03:00"
     },
@@ -241,7 +267,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-26T10:43:02-03:00",
       "expires": "2026-05-26T13:40:00-03:00"
     },
@@ -254,7 +280,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 26/05 10:39 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para os municípios de Araquari, Balneário Barra do Sul, Barra Velha, Campo Alegre, Corupá, Garuva, Guaramirim, Itapoá, Jaraguá do Sul, Joinville, Luiz Alves, Massaranduba, Schroeder, São Bento do Sul, São Francisco do Sul e São João do Itaperiú nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-26T10:41:43-03:00",
       "expires": "2026-05-26T14:40:00-03:00"
     },
@@ -306,7 +332,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 26/05 10:05 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Planalto Sul, Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-26T10:06:51-03:00",
       "expires": "2026-05-26T14:10:00-03:00"
     },
@@ -332,7 +358,7 @@
       "uf": "PR",
       "location": "Antônio Olinto/PR, São Mateus do Sul/PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-26T09:56:00-03:00",
       "expires": "2026-05-26T13:30:00-03:00"
     },
@@ -358,7 +384,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 26/05 09:16 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Norte, Litoral Norte, Médio e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-26T09:19:28-03:00",
       "expires": "2026-05-26T13:20:00-03:00"
     },
@@ -449,7 +475,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-26T08:29:34-03:00",
       "expires": "2026-05-26T15:00:00-03:00"
     },
@@ -1531,75 +1557,23 @@
       "status": "expirado",
       "onset": "2026-05-25T15:12:19-03:00",
       "expires": "2026-05-25T19:00:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "14:03",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-25T14:03:14-03:00",
-      "expires": "2026-05-25T19:00:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "13:57",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:13h56 Chuva isolada na regiao de Araraquara e Sao Carlos. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-25T13:57:47-03:00",
-      "expires": "2026-05-25T15:50:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "13:54",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-25T13:54:15-03:00",
-      "expires": "2026-05-25T16:40:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "13:26",
-      "senderName": "Defesa Civil Mangaratiba (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
-      "status": "expirado",
-      "onset": "2026-05-25T13:26:27-03:00",
-      "expires": "2026-05-25T23:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 106,
+    "total_alerts": 104,
     "by_nivel": {
-      "Alto": 55,
-      "Médio": 36,
+      "Alto": 57,
+      "Médio": 32,
       "Severo": 15
     },
     "by_channel_list": {
-      "Google": 106
+      "Google": 104
     },
     "by_region": {
-      "S": 80,
-      "N": 16,
-      "NE": 5,
-      "SE": 5
+      "S": 81,
+      "N": 14,
+      "NE": 6,
+      "SE": 3
     }
   }
 }
