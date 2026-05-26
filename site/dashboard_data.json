@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-05-26T18:59:57.148194-03:00",
-  "source_run_dir": "run_20260526_185936",
+  "generated_at": "2026-05-26T20:35:48.879406-03:00",
+  "source_run_dir": "run_20260526_203531",
   "cards": {
-    "vigentes": 10,
-    "ultimas24h": 78,
+    "vigentes": 7,
+    "ultimas24h": 69,
     "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "20:02",
+      "date": "26/05/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:20h02 Chuva isolada na regiao de Juquia e Miracatu. Tem raios. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente"
+    },
+    {
+      "time": "20:00",
+      "date": "26/05/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:20h00 Chuva isolada na regiao de Piedade e Ibiuna. Tem raios e ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente"
+    },
+    {
+      "time": "19:26",
+      "date": "26/05/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:19h20 Chuva se espalhando pela regiao de Itariri e Peruibe. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "expirado"
+    },
     {
       "time": "18:21",
       "date": "26/05/2026",
@@ -18,7 +54,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:18h20 Chuva se espalhando pela regiao de Pilar do Sul e Piedade. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:45",
@@ -31,73 +67,37 @@
       "uf": "SP",
       "headline": "Defesa Civil:17h40 Chuva se espalhando pela regiao de Sarapui e Capela do Alto. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
       "status": "expirado"
-    },
-    {
-      "time": "16:51",
-      "date": "26/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "São Caetano de Odivelas/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:Sao Caetano de Odivelas: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas.",
-      "status": "vigente"
-    },
-    {
-      "time": "16:36",
-      "date": "26/05/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "16:16",
-      "date": "26/05/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 31
-    },
-    {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 27
+      "count": 26
     },
     {
-      "name": "Defesa Civil Estadual do Rio Grande do Sul",
-      "short_name": "DC Rio Grande do Sul",
-      "count": 7
-    },
-    {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 5
-    },
-    {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
-      "count": 3
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 25
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
+      "count": 5
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 4
+    },
+    {
+      "name": "Defesa Civil Estadual do Rio Grande do Sul",
+      "short_name": "DC Rio Grande do Sul",
+      "count": 4
+    },
+    {
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
       "count": 2
     },
     {
@@ -119,58 +119,54 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 23
+      "count": 25
     },
     {
       "label": "Alto",
-      "count": 42
+      "count": 34
     },
     {
       "label": "Severo",
-      "count": 13
+      "count": 10
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 69
+      "count": 64
     },
     {
       "label": "Granizo",
-      "count": 7
+      "count": 4
     },
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 1
-    },
-    {
-      "label": "Alagamentos",
       "count": 1
     }
   ],
   "uf_distribution": [
     {
-      "uf": "SC",
-      "count": 31
-    },
-    {
       "uf": "PR",
-      "count": 27
+      "count": 26
     },
     {
-      "uf": "RS",
-      "count": 7
-    },
-    {
-      "uf": "AM",
-      "count": 6
-    },
-    {
-      "uf": "PA",
-      "count": 3
+      "uf": "SC",
+      "count": 25
     },
     {
       "uf": "SP",
+      "count": 5
+    },
+    {
+      "uf": "AM",
+      "count": 5
+    },
+    {
+      "uf": "RS",
+      "count": 4
+    },
+    {
+      "uf": "PA",
       "count": 2
     },
     {
@@ -185,14 +181,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 10
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 68
+      "count": 62
     }
   ],
   "all_alerts": [
+    {
+      "date": "26/05/2026",
+      "time": "20:02",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:20h02 Chuva isolada na regiao de Juquia e Miracatu. Tem raios. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-05-26T20:02:19-03:00",
+      "expires": "2026-05-26T22:05:00-03:00"
+    },
+    {
+      "date": "26/05/2026",
+      "time": "20:00",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:20h00 Chuva isolada na regiao de Piedade e Ibiuna. Tem raios e ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-05-26T20:00:43-03:00",
+      "expires": "2026-05-26T21:00:00-03:00"
+    },
+    {
+      "date": "26/05/2026",
+      "time": "19:26",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:19h20 Chuva se espalhando pela regiao de Itariri e Peruibe. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "expirado",
+      "onset": "2026-05-26T19:26:29-03:00",
+      "expires": "2026-05-26T20:30:00-03:00"
+    },
     {
       "date": "26/05/2026",
       "time": "18:21",
@@ -202,7 +237,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:18h20 Chuva se espalhando pela regiao de Pilar do Sul e Piedade. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-26T18:21:34-03:00",
       "expires": "2026-05-26T19:30:00-03:00"
     },
@@ -228,7 +263,7 @@
       "uf": "PA",
       "location": "São Caetano de Odivelas/PA",
       "headline": "Defesa Civil:Sao Caetano de Odivelas: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-26T16:51:49-03:00",
       "expires": "2026-05-26T20:00:00-03:00"
     },
@@ -241,7 +276,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-26T16:36:53-03:00",
       "expires": "2026-05-26T19:35:00-03:00"
     },
@@ -254,7 +289,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-26T16:16:56-03:00",
       "expires": "2026-05-26T19:15:00-03:00"
     },
@@ -267,7 +302,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-26T16:05:10-03:00",
       "expires": "2026-05-26T19:00:00-03:00"
     },
@@ -1050,179 +1085,23 @@
       "status": "expirado",
       "onset": "2026-05-25T20:37:33-03:00",
       "expires": "2026-05-25T21:35:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "20:21",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 25/05 20:16 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e risco de ENXURRADAS,  nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-25T20:21:45-03:00",
-      "expires": "2026-05-25T22:20:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "20:14",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:SDC: ALERTA de tempestade com chuva intensa, vendaval e granizo na proxima hora. BUSQUE ABRIGO e nao atravesse areas alagadas. Emerg 199/193",
-      "status": "expirado",
-      "onset": "2026-05-25T20:14:51-03:00",
-      "expires": "2026-05-25T21:15:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "20:03",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "PA",
-      "location": "Belém/PA",
-      "headline": "Defesa Civil:DEFESA CIVIL BELEM: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "expirado",
-      "onset": "2026-05-25T20:03:13-03:00",
-      "expires": "2026-05-25T23:55:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "19:57",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo. Risco ALTO de destelhamento. Val. ate 22h. Mantenha-se seguro. Emerg. 190/193",
-      "status": "expirado",
-      "onset": "2026-05-25T19:57:45-03:00",
-      "expires": "2026-05-25T22:00:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "19:46",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 25/05 19:45 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS, nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-25T19:46:55-03:00",
-      "expires": "2026-05-25T21:45:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "19:43",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 25/05 19:39 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS, nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-25T19:43:11-03:00",
-      "expires": "2026-05-25T21:40:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "19:41",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-25T19:41:37-03:00",
-      "expires": "2026-05-25T22:40:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "19:37",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:SDC: ALERTA de tempestade com chuva intensa, vendaval e granizo na proxima hora. BUSQUE ABRIGO e nao atravesse areas alagadas. Emerg 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-25T19:37:30-03:00",
-      "expires": "2026-05-25T20:35:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "19:36",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Codajás/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-25T19:36:00-03:00",
-      "expires": "2026-05-26T00:35:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "19:15",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo. Risco ALTO de destelhamento. Val. ate 21h. Mantenha-se seguro. Emerg. 190/193",
-      "status": "expirado",
-      "onset": "2026-05-25T19:15:00-03:00",
-      "expires": "2026-05-25T21:00:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "19:12",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 25/05 19:09 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-25T19:12:17-03:00",
-      "expires": "2026-05-25T23:10:00-03:00"
-    },
-    {
-      "date": "25/05/2026",
-      "time": "19:05",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo. Risco ALTO de destelhamento. Val. ate 21h. Mantenha-se seguro. Emerg. 190/193",
-      "status": "expirado",
-      "onset": "2026-05-25T19:05:00-03:00",
-      "expires": "2026-05-25T21:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 78,
+    "total_alerts": 69,
     "by_nivel": {
-      "Alto": 42,
-      "Médio": 23,
-      "Severo": 13
+      "Alto": 34,
+      "Médio": 25,
+      "Severo": 10
     },
     "by_channel_list": {
-      "Google": 78
+      "Google": 69
     },
     "by_region": {
-      "S": 65,
-      "N": 9,
-      "NE": 2,
-      "SE": 2
+      "S": 55,
+      "N": 7,
+      "SE": 5,
+      "NE": 2
     }
   }
 }
