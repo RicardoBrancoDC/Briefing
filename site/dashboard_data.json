@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-27T01:51:59.087047-03:00",
-  "source_run_dir": "run_20260527_015140",
+  "generated_at": "2026-05-27T07:33:02.650956-03:00",
+  "source_run_dir": "run_20260527_073243",
   "cards": {
-    "vigentes": 4,
-    "ultimas24h": 55,
+    "vigentes": 3,
+    "ultimas24h": 44,
     "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "06:08",
+      "date": "27/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "location": "Uarini/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "05:51",
+      "date": "27/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Alvarães/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "00:13",
       "date": "27/05/2026",
@@ -18,7 +42,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "00:00",
@@ -30,7 +54,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "22:34",
@@ -43,46 +67,22 @@
       "uf": "SP",
       "headline": "Defesa Civil:22h34 Chuva isolada na regiao de Embu Guacu e no extremo sul da Capital. Tem raios. Atinge cidades vizinhas. Busque abrigo.",
       "status": "expirado"
-    },
-    {
-      "time": "21:44",
-      "date": "26/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:21h43 Chuva isolada na regiao de Juquitiba e Sao Lourenco da Serra. Tem raios. Atinge cidades vizinhas. Busque abrigo.",
-      "status": "expirado"
-    },
-    {
-      "time": "21:17",
-      "date": "26/05/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:21h17 Chuva persiste na regiao de Peruibe e Itariri. Tem raios. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 19
-    },
-    {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 13
+      "count": 12
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
+      "count": 9
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
       "count": 9
     },
     {
@@ -119,25 +119,25 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 27
+      "count": 23
     },
     {
       "label": "Alto",
-      "count": 24
-    },
-    {
-      "label": "Severo",
-      "count": 4
+      "count": 21
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 52
+      "count": 40
     },
     {
       "label": "Granizo",
       "count": 2
+    },
+    {
+      "label": "Solo/Lama",
+      "count": 1
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -147,14 +147,14 @@
   "uf_distribution": [
     {
       "uf": "PR",
-      "count": 19
-    },
-    {
-      "uf": "SC",
-      "count": 13
+      "count": 12
     },
     {
       "uf": "SP",
+      "count": 9
+    },
+    {
+      "uf": "SC",
       "count": 9
     },
     {
@@ -181,14 +181,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 4
+      "count": 3
     },
     {
       "label": "expirado",
-      "count": 51
+      "count": 41
     }
   ],
   "all_alerts": [
+    {
+      "date": "27/05/2026",
+      "time": "06:08",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Uarini/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-27T06:08:00-03:00",
+      "expires": "2026-05-27T17:55:00-03:00"
+    },
+    {
+      "date": "27/05/2026",
+      "time": "05:51",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Alvarães/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-27T05:51:18-03:00",
+      "expires": "2026-05-27T09:40:00-03:00"
+    },
     {
       "date": "27/05/2026",
       "time": "00:13",
@@ -198,7 +224,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-27T00:13:02-03:00",
       "expires": "2026-05-27T04:10:00-03:00"
     },
@@ -211,7 +237,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-27T00:00:42-03:00",
       "expires": "2026-05-27T03:30:00-03:00"
     },
@@ -734,189 +760,19 @@
       "status": "expirado",
       "onset": "2026-05-26T07:57:29-03:00",
       "expires": "2026-05-26T10:55:00-03:00"
-    },
-    {
-      "date": "26/05/2026",
-      "time": "07:13",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Careiro da Várzea/AM, Iranduba/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-26T07:13:29-03:00",
-      "expires": "2026-05-26T11:30:00-03:00"
-    },
-    {
-      "date": "26/05/2026",
-      "time": "07:12",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-26T07:12:16-03:00",
-      "expires": "2026-05-26T08:10:00-03:00"
-    },
-    {
-      "date": "26/05/2026",
-      "time": "06:28",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 26/05 06:25 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para os municípios de Abelardo Luz, Bom Jesus, Coronel Martins, Entre Rios, Faxinal dos Guedes, Formosa do Sul, Galvão, Ipuaçu, Irati, Jupiá, Novo Horizonte, Ouro Verde, Quilombo, Santiago do Sul, São Bernardino, São Domingos, São Lourenço do Oeste, Vargeão e Xanxerê nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-26T06:28:37-03:00",
-      "expires": "2026-05-26T09:30:00-03:00"
-    },
-    {
-      "date": "26/05/2026",
-      "time": "06:03",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-26T06:03:28-03:00",
-      "expires": "2026-05-26T09:00:00-03:00"
-    },
-    {
-      "date": "26/05/2026",
-      "time": "05:50",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ALERTA: TEMPORAIS c INTENSAS RAJADAS DE VENTO, CHUVA INTENSA e GRANIZO na prox. 1h na sua regiao. Busque abrigo. Ocorrencias, 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-26T05:50:00-03:00",
-      "expires": "2026-05-26T06:50:00-03:00"
-    },
-    {
-      "date": "26/05/2026",
-      "time": "05:47",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 26/05 05:43 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Oeste e Meio-Oeste nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-26T05:47:02-03:00",
-      "expires": "2026-05-26T09:50:00-03:00"
-    },
-    {
-      "date": "26/05/2026",
-      "time": "05:34",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Rio Preto da Eva/AM, Autazes/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-26T05:34:08-03:00",
-      "expires": "2026-05-26T09:00:00-03:00"
-    },
-    {
-      "date": "26/05/2026",
-      "time": "05:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 26/05 04:57 - TEMPORAIS ISOLADOS com RAIOS, GRANIZO e ALAGAMENTOS pontuais para os municípios de Bela Vista do Toldo, Calmon, Canoinhas, Corupá, Doutor Pedrinho, Irineópolis, Itaiópolis, José Boiteux, Lebon Régis, Mafra, Major Vieira, Matos Costa, Monte Castelo, Papanduva, Porto União, Rio Negrinho, Rio do Campo, Rio dos Cedros, Salete, Santa Cecília, Santa Terezinha, São Bento do Sul, Timbó Grande, Três Barras e Vitor Meireles nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-26T05:00:38-03:00",
-      "expires": "2026-05-26T09:00:00-03:00"
-    },
-    {
-      "date": "26/05/2026",
-      "time": "04:35",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligu",
-      "status": "expirado",
-      "onset": "2026-05-26T04:35:17-03:00",
-      "expires": "2026-05-26T07:30:00-03:00"
-    },
-    {
-      "date": "26/05/2026",
-      "time": "04:32",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ALERTA: TEMPORAIS c INTENSAS RAJADAS DE VENTO, CHUVA INTENSA e GRANIZO na prox. 1h na sua regiao. Busque abrigo. Ocorrencias, 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-26T04:32:19-03:00",
-      "expires": "2026-05-26T05:30:00-03:00"
-    },
-    {
-      "date": "26/05/2026",
-      "time": "03:15",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ALERTA: TEMPORAIS c INTENSAS RAJADAS DE VENTO, CHUVA INTENSA e GRANIZO na prox. 1h na sua regiao. Busque abrigo. Ocorrencias, 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-26T03:15:40-03:00",
-      "expires": "2026-05-26T04:15:00-03:00"
-    },
-    {
-      "date": "26/05/2026",
-      "time": "03:03",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 26/05 02:59 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-05-26T03:03:29-03:00",
-      "expires": "2026-05-27T06:00:00-03:00"
-    },
-    {
-      "date": "26/05/2026",
-      "time": "02:32",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR ALERTA: TEMPORAIS c INTENSAS RAJADAS DE VENTO, CHUVA INTENSA e GRANIZO na prox. 1h na sua regiao. Busque abrigo. Ocorrencias, 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-26T02:32:34-03:00",
-      "expires": "2026-05-26T03:25:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 55,
+    "total_alerts": 44,
     "by_nivel": {
-      "Médio": 27,
-      "Alto": 24,
-      "Severo": 4
+      "Médio": 23,
+      "Alto": 21
     },
     "by_channel_list": {
-      "Google": 55
+      "Google": 44
     },
     "by_region": {
-      "S": 34,
+      "S": 23,
       "N": 10,
       "SE": 9,
       "NE": 2
