@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-27T15:36:48.666839-03:00",
+  "generated_at": "2026-05-27T19:14:09.041385-03:00",
   "source": ".cache/historico_alertas.json",
   "window_hours": 24,
   "cards": {
-    "vigentes": 10,
-    "ultimas24h": 29,
-    "autoridadesAtivas": 7,
+    "vigentes": 3,
+    "ultimas24h": 23,
+    "autoridadesAtivas": 6,
     "alertasExtremos": 0,
     "alertasSeveros": 1,
     "alertasSeverosExtremos": 1,
-    "estadosComAlerta": 6,
-    "municipiosOuAreasComAlerta": 14
+    "estadosComAlerta": 5,
+    "municipiosOuAreasComAlerta": 12
   },
   "latest_alerts": [
     {
@@ -23,7 +23,7 @@
       "location": "PARÁ/PA",
       "uf": "PA",
       "headline": "Defesa Civil:OUTEIRO, MOSQUEIRO E ICOARACI: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "183805/2026",
       "entry_id": "183805/2026",
       "sent": "2026-05-27T15:31:11-03:00",
@@ -69,7 +69,7 @@
       "location": "PARÁ/PA",
       "uf": "PA",
       "headline": "Defesa Civil:METROPOLITANA BELEM: Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais.Evite areas alagadas e dirija com atencao",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "183803/2026",
       "entry_id": "183803/2026",
       "sent": "2026-05-27T14:49:45-03:00",
@@ -92,7 +92,7 @@
       "location": "Santa Izabel do Pará/PA",
       "uf": "PA",
       "headline": "Defesa Civil:SANTA IZABEL DO PARA:Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais.Evite areas alagadas e dirija com atencao",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "183801/2026",
       "entry_id": "183801/2026",
       "sent": "2026-05-27T14:21:17-03:00",
@@ -115,7 +115,7 @@
       "location": "Santo Antônio do Tauá/PA, Santa Izabel do Pará/PA",
       "uf": "PA",
       "headline": "Defesa Civil:SANTO ANTONIO TAUA:Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "183800/2026",
       "entry_id": "183800/2026",
       "sent": "2026-05-27T14:19:30-03:00",
@@ -138,7 +138,7 @@
       "location": "Castanhal/PA",
       "uf": "PA",
       "headline": "Defesa Civil:CASTANHAL: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "183799/2026",
       "entry_id": "183799/2026",
       "sent": "2026-05-27T14:11:17-03:00",
@@ -161,7 +161,7 @@
       "location": "mapa",
       "uf": "PA",
       "headline": "Defesa Civil:CASTANHAL: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "183798/2026",
       "entry_id": "183798/2026",
       "sent": "2026-05-27T14:07:03-03:00",
@@ -248,22 +248,17 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 10
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 7
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
       "count": 6
-    },
-    {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
-      "count": 3
     },
     {
       "name": "Defesa Civil de Nova Iguaçu (RJ)",
@@ -284,11 +279,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 15
+      "count": 12
     },
     {
       "label": "Alto",
-      "count": 13
+      "count": 10
     },
     {
       "label": "Severo",
@@ -298,7 +293,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 27
+      "count": 21
     },
     {
       "label": "Vendaval",
@@ -312,19 +307,15 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 10
+      "count": 8
     },
     {
       "uf": "PA",
-      "count": 7
+      "count": 6
     },
     {
       "uf": "AM",
       "count": 6
-    },
-    {
-      "uf": "PR",
-      "count": 3
     },
     {
       "uf": "RJ",
@@ -338,17 +329,17 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 10
+      "count": 3
     },
     {
       "label": "expirado",
-      "count": 19
+      "count": 20
     }
   ],
   "category_distribution": [
     {
       "label": "Met",
-      "count": 28
+      "count": 22
     },
     {
       "label": "Geo",
@@ -358,11 +349,11 @@
   "duration_distribution": [
     {
       "label": "2h a 6h",
-      "count": 16
+      "count": 12
     },
     {
       "label": "Até 2h",
-      "count": 9
+      "count": 7
     },
     {
       "label": "6h a 12h",
@@ -376,29 +367,21 @@
   "time_since_distribution": [
     {
       "label": "Mais de 12h",
-      "count": 17
-    },
-    {
-      "label": "1h a 3h",
-      "count": 6
-    },
-    {
-      "label": "Até 1h",
-      "count": 3
-    },
-    {
-      "label": "6h a 12h",
-      "count": 2
+      "count": 13
     },
     {
       "label": "3h a 6h",
-      "count": 1
+      "count": 7
+    },
+    {
+      "label": "6h a 12h",
+      "count": 3
     }
   ],
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 29
+      "count": 23
     }
   ],
   "all_alerts": [
@@ -408,7 +391,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Pará",
       "sent": "2026-05-27T15:31:11-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -435,7 +418,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "27/05/2026",
       "time": "15:31",
       "sent_br": "2026-05-27T15:31:11-03:00",
@@ -444,10 +427,10 @@
       "duration_minutes": 148,
       "duration_hours": 2.47,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 5,
-      "time_since_hours": 0.08,
-      "time_since_bucket": "Até 1h",
-      "is_active": true
+      "time_since_minutes": 222,
+      "time_since_hours": 3.7,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false
     },
     {
       "identifier": "183804/2026",
@@ -491,9 +474,9 @@
       "duration_minutes": 537,
       "duration_hours": 8.95,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 39,
-      "time_since_hours": 0.65,
-      "time_since_bucket": "Até 1h",
+      "time_since_minutes": 256,
+      "time_since_hours": 4.27,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -502,7 +485,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Pará",
       "sent": "2026-05-27T14:49:45-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -529,7 +512,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "27/05/2026",
       "time": "14:49",
       "sent_br": "2026-05-27T14:49:45-03:00",
@@ -538,10 +521,10 @@
       "duration_minutes": 190,
       "duration_hours": 3.17,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 47,
-      "time_since_hours": 0.78,
-      "time_since_bucket": "Até 1h",
-      "is_active": true
+      "time_since_minutes": 264,
+      "time_since_hours": 4.4,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false
     },
     {
       "identifier": "183801/2026",
@@ -549,7 +532,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Pará",
       "sent": "2026-05-27T14:21:17-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -576,7 +559,7 @@
       "uf": "PA",
       "location": "Santa Izabel do Pará/PA",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "27/05/2026",
       "time": "14:21",
       "sent_br": "2026-05-27T14:21:17-03:00",
@@ -585,10 +568,10 @@
       "duration_minutes": 158,
       "duration_hours": 2.63,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 75,
-      "time_since_hours": 1.25,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true
+      "time_since_minutes": 292,
+      "time_since_hours": 4.87,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false
     },
     {
       "identifier": "183800/2026",
@@ -596,7 +579,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Pará",
       "sent": "2026-05-27T14:19:30-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -623,7 +606,7 @@
       "uf": "PA",
       "location": "Santo Antônio do Tauá/PA, Santa Izabel do Pará/PA",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "27/05/2026",
       "time": "14:19",
       "sent_br": "2026-05-27T14:19:30-03:00",
@@ -632,10 +615,10 @@
       "duration_minutes": 160,
       "duration_hours": 2.67,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 77,
-      "time_since_hours": 1.28,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true
+      "time_since_minutes": 294,
+      "time_since_hours": 4.9,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false
     },
     {
       "identifier": "183799/2026",
@@ -643,7 +626,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Pará",
       "sent": "2026-05-27T14:11:17-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -670,7 +653,7 @@
       "uf": "PA",
       "location": "Castanhal/PA",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "27/05/2026",
       "time": "14:11",
       "sent_br": "2026-05-27T14:11:17-03:00",
@@ -679,10 +662,10 @@
       "duration_minutes": 168,
       "duration_hours": 2.8,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 85,
-      "time_since_hours": 1.42,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true
+      "time_since_minutes": 302,
+      "time_since_hours": 5.03,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false
     },
     {
       "identifier": "183798/2026",
@@ -690,7 +673,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Pará",
       "sent": "2026-05-27T14:07:03-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -717,7 +700,7 @@
       "uf": "PA",
       "location": "mapa",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "27/05/2026",
       "time": "14:07",
       "sent_br": "2026-05-27T14:07:03-03:00",
@@ -726,10 +709,10 @@
       "duration_minutes": 172,
       "duration_hours": 2.87,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 89,
-      "time_since_hours": 1.48,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true
+      "time_since_minutes": 307,
+      "time_since_hours": 5.12,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false
     },
     {
       "identifier": "183797/2026",
@@ -773,9 +756,9 @@
       "duration_minutes": 1141,
       "duration_hours": 19.02,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 158,
-      "time_since_hours": 2.63,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 375,
+      "time_since_hours": 6.25,
+      "time_since_bucket": "6h a 12h",
       "is_active": true
     },
     {
@@ -820,9 +803,9 @@
       "duration_minutes": 114,
       "duration_hours": 1.9,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 166,
-      "time_since_hours": 2.77,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 383,
+      "time_since_hours": 6.38,
+      "time_since_bucket": "6h a 12h",
       "is_active": false
     },
     {
@@ -867,9 +850,9 @@
       "duration_minutes": 704,
       "duration_hours": 11.73,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 205,
-      "time_since_hours": 3.42,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 423,
+      "time_since_hours": 7.05,
+      "time_since_bucket": "6h a 12h",
       "is_active": true
     },
     {
@@ -878,7 +861,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "sent": "2026-05-27T06:08:00-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Geo",
       "event": "CORRIDAS DE MASSA - SOLO/LAMA",
@@ -905,7 +888,7 @@
       "uf": "AM",
       "location": "Uarini/AM",
       "event_short": "Solo/Lama",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "27/05/2026",
       "time": "06:08",
       "sent_br": "2026-05-27T06:08:00-03:00",
@@ -914,10 +897,10 @@
       "duration_minutes": 707,
       "duration_hours": 11.78,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 568,
-      "time_since_hours": 9.47,
-      "time_since_bucket": "6h a 12h",
-      "is_active": true
+      "time_since_minutes": 786,
+      "time_since_hours": 13.1,
+      "time_since_bucket": "Mais de 12h",
+      "is_active": false
     },
     {
       "identifier": "183793/2026",
@@ -961,9 +944,9 @@
       "duration_minutes": 228,
       "duration_hours": 3.8,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 585,
-      "time_since_hours": 9.75,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 802,
+      "time_since_hours": 13.37,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -1008,8 +991,8 @@
       "duration_minutes": 236,
       "duration_hours": 3.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 923,
-      "time_since_hours": 15.38,
+      "time_since_minutes": 1141,
+      "time_since_hours": 19.02,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1055,8 +1038,8 @@
       "duration_minutes": 209,
       "duration_hours": 3.48,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 936,
-      "time_since_hours": 15.6,
+      "time_since_minutes": 1153,
+      "time_since_hours": 19.22,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1102,8 +1085,8 @@
       "duration_minutes": 60,
       "duration_hours": 1.0,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1022,
-      "time_since_hours": 17.03,
+      "time_since_minutes": 1239,
+      "time_since_hours": 20.65,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1149,8 +1132,8 @@
       "duration_minutes": 120,
       "duration_hours": 2.0,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1072,
-      "time_since_hours": 17.87,
+      "time_since_minutes": 1289,
+      "time_since_hours": 21.48,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1196,8 +1179,8 @@
       "duration_minutes": 117,
       "duration_hours": 1.95,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1099,
-      "time_since_hours": 18.32,
+      "time_since_minutes": 1316,
+      "time_since_hours": 21.93,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1243,8 +1226,8 @@
       "duration_minutes": 259,
       "duration_hours": 4.32,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1106,
-      "time_since_hours": 18.43,
+      "time_since_minutes": 1324,
+      "time_since_hours": 22.07,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1290,8 +1273,8 @@
       "duration_minutes": 117,
       "duration_hours": 1.95,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1129,
-      "time_since_hours": 18.82,
+      "time_since_minutes": 1346,
+      "time_since_hours": 22.43,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1337,8 +1320,8 @@
       "duration_minutes": 226,
       "duration_hours": 3.77,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1138,
-      "time_since_hours": 18.97,
+      "time_since_minutes": 1355,
+      "time_since_hours": 22.58,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1384,8 +1367,8 @@
       "duration_minutes": 122,
       "duration_hours": 2.03,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1174,
-      "time_since_hours": 19.57,
+      "time_since_minutes": 1391,
+      "time_since_hours": 23.18,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1431,8 +1414,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1176,
-      "time_since_hours": 19.6,
+      "time_since_minutes": 1393,
+      "time_since_hours": 23.22,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1478,290 +1461,8 @@
       "duration_minutes": 63,
       "duration_hours": 1.05,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1210,
-      "time_since_hours": 20.17,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false
-    },
-    {
-      "identifier": "183781/2026",
-      "entry_id": "183781/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "sent": "2026-05-26T18:21:34-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "CHUVAS INTENSAS",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Moderate",
-      "certainty": "Observed",
-      "onset": "2026-05-26T18:21:34-03:00",
-      "expires": "2026-05-26T19:30:00-03:00",
-      "nivel": "Médio",
-      "headline": "Defesa Civil:18h20 Chuva se espalhando pela regiao de Pilar do Sul e Piedade. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "description": "18h20 Chuva se espalhando pela região de Pilar do Sul e Piedade. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas próximas horas.",
-      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "SÃO PAULO/SP",
-      "polygon_raw": "-23.614,-47.396 -23.576,-47.468 -23.551,-47.612 -23.586,-47.701 -23.702,-47.804 -23.884,-47.842 -23.925,-47.804 -23.972,-47.519 -23.9,-47.355 -23.757,-47.269 -23.632,-47.286 -23.614,-47.396",
-      "polygon_points": 12,
-      "has_geocode": false,
-      "uf_hint": "SP",
-      "region": "SE",
-      "geometry_wkt": "POLYGON ((-47.396 -23.614, -47.468 -23.576, -47.612 -23.551, -47.701 -23.586, -47.804 -23.702, -47.842 -23.884, -47.804 -23.925, -47.519 -23.972, -47.355 -23.9, -47.269 -23.757, -47.286 -23.632, -47.396 -23.614))",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "event_short": "Chuvas Intensas",
-      "status_vigencia": "expirado",
-      "date": "26/05/2026",
-      "time": "18:21",
-      "sent_br": "2026-05-26T18:21:34-03:00",
-      "onset_br": "2026-05-26T18:21:34-03:00",
-      "expires_br": "2026-05-26T19:30:00-03:00",
-      "duration_minutes": 68,
-      "duration_hours": 1.13,
-      "duration_bucket": "Até 2h",
-      "time_since_minutes": 1275,
-      "time_since_hours": 21.25,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false
-    },
-    {
-      "identifier": "183780/2026",
-      "entry_id": "183780/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "sent": "2026-05-26T17:45:15-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "CHUVAS INTENSAS",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Moderate",
-      "certainty": "Observed",
-      "onset": "2026-05-26T17:45:15-03:00",
-      "expires": "2026-05-26T18:45:00-03:00",
-      "nivel": "Médio",
-      "headline": "Defesa Civil:17h40 Chuva se espalhando pela regiao de Sarapui e Capela do Alto. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "description": "17h40 Chuva se espalhando pela região de Sarapuí e Capela do Alto. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas próximas horas.",
-      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "SÃO PAULO/SP",
-      "polygon_raw": "-23.365,-47.725 -23.39,-47.832 -23.482,-47.945 -23.642,-48.014 -23.79,-47.966 -23.868,-47.911 -23.865,-47.77 -23.821,-47.605 -23.669,-47.568 -23.489,-47.554 -23.376,-47.653 -23.365,-47.725",
-      "polygon_points": 12,
-      "has_geocode": false,
-      "uf_hint": "SP",
-      "region": "SE",
-      "geometry_wkt": "POLYGON ((-47.725 -23.365, -47.832 -23.39, -47.945 -23.482, -48.014 -23.642, -47.966 -23.79, -47.911 -23.868, -47.77 -23.865, -47.605 -23.821, -47.568 -23.669, -47.554 -23.489, -47.653 -23.376, -47.725 -23.365))",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "event_short": "Chuvas Intensas",
-      "status_vigencia": "expirado",
-      "date": "26/05/2026",
-      "time": "17:45",
-      "sent_br": "2026-05-26T17:45:15-03:00",
-      "onset_br": "2026-05-26T17:45:15-03:00",
-      "expires_br": "2026-05-26T18:45:00-03:00",
-      "duration_minutes": 59,
-      "duration_hours": 0.98,
-      "duration_bucket": "Até 2h",
-      "time_since_minutes": 1311,
-      "time_since_hours": 21.85,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false
-    },
-    {
-      "identifier": "183779/2026",
-      "entry_id": "183779/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "sent": "2026-05-26T16:51:49-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "CHUVAS INTENSAS",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Severe",
-      "certainty": "Likely",
-      "onset": "2026-05-26T16:51:49-03:00",
-      "expires": "2026-05-26T20:00:00-03:00",
-      "nivel": "Alto",
-      "headline": "Defesa Civil:Sao Caetano de Odivelas: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas.",
-      "description": "São Caetano de Odivelas: Alerta ALTO de CHUVAS INTENSAS nas próximas horas. Risco de  Alagamentos e vendavais. Evite áreas alagadas e dirija com atenção.",
-      "instruction": "- Em caso de rajadas de vento: não se abrigue debaixo de árvores, pois há risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda\n- Se possível, desligue aparelhos elétricos e quadro geral de energia.\n- Acompanhe novos alertas e obtenha mais informações junto à Defesa Civil e ao Corpo de Bombeiros (telefone 193).",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "São Caetano de Odivelas/PA",
-      "polygon_raw": "-0.701,-47.998 -0.697,-47.999 -0.693,-47.999 -0.69,-47.996 -0.685,-47.996 -0.681,-47.996 -0.672,-47.997 -0.664,-48.0 -0.655,-48.024 -0.644,-48.057 -0.614,-48.142 -0.603,-48.173 -0.581,-48.236 -0.586,-48.234 -0.589,-48.234 -0.594,-48.234 -0.598,-48.236 -0.601,-48.237 -0.604,-48.238 -0.61,-48.24 -0.614,-48.243 -0.621,-48.246 -0.631,-48.252 -0.635,-48.254 -0.64,-48.256 -0.647,-48.257 -0.651,-48.258 -0.656,-48.257 -0.66,-48.258 -0.666,-48.258 -0.67,-48.259 -0.673,-48.26 -0.678,-48.264 -0.682,-48.266 -0.688,-48.27 -0.697,-48.279 -0.7,-48.283 -0.701,-48.286 -0.704,-48.289 -0.708,-48.292 -0.713,-48.293 -0.713,-48.288 -0.712,-48.284 -0.711,-48.279 -0.711,-48.276 -0.712,-48.268 -0.711,-48.265 -0.71,-48.262 -0.707,-48.258 -0.704,-48.252 -0.702,-48.249 -0.702,-48.245 -0.702,-48.241 -0.704,-48.236 -0.706,-48.232 -0.709,-48.227 -0.713,-48.222 -0.715,-48.22 -0.717,-48.216 -0.72,-48.214 -0.723,-48.209 -0.725,-48.207 -0.73,-48.202 -0.733,-48.199 -0.735,-48.194 -0.738,-48.183 -0.74,-48.179 -0.741,-48.174 -0.743,-48.168 -0.744,-48.164 -0.745,-48.161 -0.746,-48.154 -0.748,-48.149 -0.749,-48.149 -0.754,-48.141 -0.757,-48.138 -0.757,-48.135 -0.757,-48.132 -0.759,-48.126 -0.763,-48.123 -0.766,-48.122 -0.768,-48.121 -0.769,-48.121 -0.77,-48.118 -0.766,-48.115 -0.762,-48.114 -0.759,-48.112 -0.756,-48.11 -0.758,-48.107 -0.761,-48.104 -0.764,-48.101 -0.766,-48.098 -0.767,-48.093 -0.767,-48.088 -0.769,-48.087 -0.771,-48.086 -0.774,-48.084 -0.775,-48.081 -0.776,-48.079 -0.776,-48.077 -0.775,-48.076 -0.775,-48.074 -0.776,-48.074 -0.777,-48.073 -0.779,-48.072 -0.78,-48.071 -0.781,-48.07 -0.781,-48.069 -0.783,-48.069 -0.784,-48.068 -0.785,-48.068 -0.786,-48.068 -0.787,-48.069 -0.787,-48.068 -0.788,-48.068 -0.788,-48.067 -0.788,-48.066 -0.788,-48.065 -0.788,-48.064 -0.789,-48.063 -0.791,-48.062 -0.793,-48.062 -0.795,-48.061 -0.797,-48.061 -0.799,-48.06 -0.811,-48.061 -0.906,-48.068 -0.917,-48.068 -0.94,-48.069 -0.948,-48.069 -1.064,-48.072 -1.051,-48.005 -1.038,-47.943 -1.033,-47.941 -1.0,-47.929 -0.984,-47.923 -0.973,-47.919 -0.947,-47.982 -0.947,-47.982 -0.946,-47.983 -0.945,-47.984 -0.945,-47.985 -0.945,-47.986 -0.945,-47.987 -0.944,-47.988 -0.941,-47.989 -0.938,-47.989 -0.937,-47.989 -0.935,-47.989 -0.933,-47.99 -0.932,-47.99 -0.932,-47.993 -0.933,-47.995 -0.932,-47.998 -0.931,-47.999 -0.931,-47.999 -0.929,-47.999 -0.928,-47.998 -0.927,-47.997 -0.927,-47.995 -0.926,-47.995 -0.925,-47.996 -0.925,-47.997 -0.925,-47.998 -0.925,-47.999 -0.925,-48.001 -0.925,-48.001 -0.924,-48.003 -0.923,-48.003 -0.923,-48.002 -0.922,-48.001 -0.922,-48.0 -0.92,-48.0 -0.919,-47.999 -0.918,-47.999 -0.918,-47.999 -0.917,-48.0 -0.917,-48.002 -0.916,-48.003 -0.912,-48.003 -0.911,-48.002 -0.91,-48.002 -0.909,-48.002 -0.908,-48.003 -0.907,-48.004 -0.906,-48.004 -0.903,-48.002 -0.901,-48.0 -0.901,-48.0 -0.901,-47.999 -0.902,-47.998 -0.903,-47.997 -0.902,-47.996 -0.902,-47.995 -0.901,-47.995 -0.9,-47.995 -0.9,-47.996 -0.899,-47.997 -0.898,-47.998 -0.897,-48.0 -0.897,-48.001 -0.898,-48.002 -0.897,-48.003 -0.896,-48.004 -0.895,-48.004 -0.894,-48.005 -0.894,-48.004 -0.892,-48.004 -0.891,-48.004 -0.891,-48.003 -0.89,-48.003 -0.889,-48.003 -0.886,-48.003 -0.884,-48.001 -0.883,-48.001 -0.881,-48.002 -0.88,-48.002 -0.878,-48.003 -0.878,-48.003 -0.876,-48.004 -0.875,-48.005 -0.873,-48.008 -0.872,-48.007 -0.871,-48.007 -0.87,-48.006 -0.87,-48.007 -0.869,-48.008 -0.868,-48.011 -0.867,-48.012 -0.867,-48.014 -0.867,-48.015 -0.87,-48.016 -0.871,-48.015 -0.872,-48.014 -0.873,-48.014 -0.874,-48.015 -0.874,-48.017 -0.873,-48.018 -0.87,-48.019 -0.867,-48.02 -0.866,-48.02 -0.865,-48.017 -0.863,-48.016 -0.861,-48.019 -0.859,-48.019 -0.858,-48.019 -0.857,-48.019 -0.856,-48.018 -0.854,-48.016 -0.854,-48.014 -0.856,-48.013 -0.857,-48.012 -0.856,-48.011 -0.855,-48.01 -0.853,-48.009 -0.851,-48.01 -0.85,-48.011 -0.849,-48.013 -0.849,-48.016 -0.848,-48.019 -0.848,-48.022 -0.847,-48.023 -0.847,-48.023 -0.844,-48.018 -0.843,-48.016 -0.843,-48.014 -0.842,-48.013 -0.84,-48.013 -0.838,-48.013 -0.837,-48.015 -0.834,-48.016 -0.831,-48.019 -0.829,-48.021 -0.828,-48.019 -0.828,-48.017 -0.829,-48.013 -0.83,-48.011 -0.828,-48.009 -0.826,-48.008 -0.824,-48.005 -0.822,-48.004 -0.821,-48.004 -0.82,-48.008 -0.82,-48.01 -0.82,-48.012 -0.818,-48.013 -0.816,-48.013 -0.814,-48.011 -0.813,-48.012 -0.812,-48.013 -0.81,-48.017 -0.812,-48.02 -0.814,-48.022 -0.815,-48.024 -0.815,-48.026 -0.814,-48.027 -0.813,-48.027 -0.81,-48.026 -0.802,-48.024 -0.8,-48.022 -0.797,-48.025 -0.799,-48.028 -0.798,-48.03 -0.797,-48.031 -0.794,-48.031 -0.789,-48.029 -0.779,-48.021 -0.779,-48.019 -0.78,-48.017 -0.785,-48.014 -0.786,-48.012 -0.784,-48.009 -0.782,-48.007 -0.776,-48.005 -0.77,-48.003 -0.767,-48.003 -0.766,-48.003 -0.764,-48.002 -0.764,-48.0 -0.768,-48.0 -0.769,-47.998 -0.769,-47.997 -0.769,-47.994 -0.769,-47.993 -0.768,-47.992 -0.767,-47.992 -0.766,-47.992 -0.765,-47.99 -0.766,-47.989 -0.765,-47.988 -0.764,-47.987 -0.762,-47.985 -0.761,-47.984 -0.76,-47.983 -0.76,-47.982 -0.761,-47.979 -0.762,-47.977 -0.765,-47.974 -0.766,-47.974 -0.767,-47.974 -0.77,-47.974 -0.772,-47.976 -0.773,-47.976 -0.775,-47.975 -0.775,-47.974 -0.776,-47.972 -0.777,-47.971 -0.778,-47.969 -0.778,-47.968 -0.776,-47.967 -0.775,-47.966 -0.774,-47.965 -0.775,-47.964 -0.778,-47.962 -0.779,-47.96 -0.777,-47.956 -0.776,-47.955 -0.776,-47.951 -0.772,-47.954 -0.766,-47.956 -0.755,-47.957 -0.751,-47.958 -0.749,-47.958 -0.744,-47.957 -0.738,-47.957 -0.731,-47.958 -0.716,-47.96 -0.71,-47.96 -0.704,-47.96 -0.698,-47.961 -0.692,-47.966 -0.689,-47.969 -0.687,-47.974 -0.686,-47.976 -0.692,-47.977 -0.692,-47.981 -0.689,-47.983 -0.694,-47.985 -0.699,-47.986 -0.702,-47.987 -0.705,-47.986 -0.706,-47.989 -0.706,-47.99 -0.702,-47.994 -0.704,-47.996 -0.701,-47.998",
-      "polygon_points": 386,
-      "has_geocode": true,
-      "uf_hint": "PA",
-      "region": "N",
-      "geometry_wkt": "POLYGON ((-47.998 -0.701, -47.999 -0.697, -47.999 -0.693, -47.996 -0.69, -47.996 -0.685, -47.996 -0.681, -47.997 -0.672, -48 -0.664, -48.024 -0.655, -48.057 -0.644, -48.142 -0.614, -48.173 -0.603, -48.236 -0.581, -48.234 -0.586, -48.234 -0.589, -48.234 -0.594, -48.236 -0.598, -48.237 -0.601, -48.238 -0.604, -48.24 -0.61, -48.243 -0.614, -48.246 -0.621, -48.252 -0.631, -48.254 -0.635, -48.256 -0.64, -48.257 -0.647, -48.258 -0.651, -48.257 -0.656, -48.258 -0.66, -48.258 -0.666, -48.259 -0.67, -48.26 -0.673, -48.264 -0.678, -48.266 -0.682, -48.27 -0.688, -48.279 -0.697, -48.283 -0.7, -48.286 -0.701, -48.289 -0.704, -48.292 -0.708, -48.293 -0.713, -48.288 -0.713, -48.284 -0.712, -48.279 -0.711, -48.276 -0.711, -48.268 -0.712, -48.265 -0.711, -48.262 -0.71, -48.258 -0.707, -48.252 -0.704, -48.249 -0.702, -48.245 -0.702, -48.241 -0.702, -48.236 -0.704, -48.232 -0.706, -48.227 -0.709, -48.222 -0.713, -48.22 -0.715, -48.216 -0.717, -48.214 -0.72, -48.209 -0.723, -48.207 -0.725, -48.202 -0.73, -48.199 -0.733, -48.194 -0.735, -48.183 -0.738, -48.179 -0.74, -48.174 -0.741, -48.168 -0.743, -48.164 -0.744, -48.161 -0.745, -48.154 -0.746, -48.149 -0.748, -48.149 -0.749, -48.141 -0.754, -48.138 -0.757, -48.135 -0.757, -48.132 -0.757, -48.126 -0.759, -48.123 -0.763, -48.122 -0.766, -48.121 -0.768, -48.121 -0.769, -48.118 -0.77, -48.115 -0.766, -48.114 -0.762, -48.112 -0.759, -48.11 -0.756, -48.107 -0.758, -48.104 -0.761, -48.101 -0.764, -48.098 -0.766, -48.093 -0.767, -48.088 -0.767, -48.087 -0.769, -48.086 -0.771, -48.084 -0.774, -48.081 -0.775, -48.079 -0.776, -48.077 -0.776, -48.076 -0.775, -48.074 -0.775, -48.074 -0.776, -48.073 -0.777, -48.072 -0.779, -48.071 -0.78, -48.07 -0.781, -48.069 -0.781, -48.069 -0.783, -48.068 -0.784, -48.068 -0.785, -48.068 -0.786, -48.069 -0.787, -48.068 -0.787, -48.068 -0.788, -48.067 -0.788, -48.066 -0.788, -48.065 -0.788, -48.064 -0.788, -48.063 -0.789, -48.062 -0.791, -48.062 -0.793, -48.061 -0.795, -48.061 -0.797, -48.06 -0.799, -48.061 -0.811, -48.068 -0.906, -48.068 -0.917, -48.069 -0.94, -48.069 -0.948, -48.072 -1.064, -48.005 -1.051, -47.943 -1.038, -47.941 -1.033, -47.929 -1, -47.923 -0.984, -47.919 -0.973, -47.982 -0.947, -47.982 -0.947, -47.983 -0.946, -47.984 -0.945, -47.985 -0.945, -47.986 -0.945, -47.987 -0.945, -47.988 -0.944, -47.989 -0.941, -47.989 -0.938, -47.989 -0.937, -47.989 -0.935, -47.99 -0.933, -47.99 -0.932, -47.993 -0.932, -47.995 -0.933, -47.998 -0.932, -47.999 -0.931, -47.999 -0.931, -47.999 -0.929, -47.998 -0.928, -47.997 -0.927, -47.995 -0.927, -47.995 -0.926, -47.996 -0.925, -47.997 -0.925, -47.998 -0.925, -47.999 -0.925, -48.001 -0.925, -48.001 -0.925, -48.003 -0.924, -48.003 -0.923, -48.002 -0.923, -48.001 -0.922, -48 -0.922, -48 -0.92, -47.999 -0.919, -47.999 -0.918, -47.999 -0.918, -48 -0.917, -48.002 -0.917, -48.003 -0.916, -48.003 -0.912, -48.002 -0.911, -48.002 -0.91, -48.002 -0.909, -48.003 -0.908, -48.004 -0.907, -48.004 -0.906, -48.002 -0.903, -48 -0.901, -48 -0.901, -47.999 -0.901, -47.998 -0.902, -47.997 -0.903, -47.996 -0.902, -47.995 -0.902, -47.995 -0.901, -47.995 -0.9, -47.996 -0.9, -47.997 -0.899, -47.998 -0.898, -48 -0.897, -48.001 -0.897, -48.002 -0.898, -48.003 -0.897, -48.004 -0.896, -48.004 -0.895, -48.005 -0.894, -48.004 -0.894, -48.004 -0.892, -48.004 -0.891, -48.003 -0.891, -48.003 -0.89, -48.003 -0.889, -48.003 -0.886, -48.001 -0.884, -48.001 -0.883, -48.002 -0.881, -48.002 -0.88, -48.003 -0.878, -48.003 -0.878, -48.004 -0.876, -48.005 -0.875, -48.008 -0.873, -48.007 -0.872, -48.007 -0.871, -48.006 -0.87, -48.007 -0.87, -48.008 -0.869, -48.011 -0.868, -48.012 -0.867, -48.014 -0.867, -48.015 -0.867, -48.016 -0.87, -48.015 -0.871, -48.014 -0.872, -48.014 -0.873, -48.015 -0.874, -48.017 -0.874, -48.018 -0.873, -48.019 -0.87, -48.02 -0.867, -48.02 -0.866, -48.017 -0.865, -48.016 -0.863, -48.019 -0.861, -48.019 -0.859, -48.019 -0.858, -48.019 -0.857, -48.018 -0.856, -48.016 -0.854, -48.014 -0.854, -48.013 -0.856, -48.012 -0.857, -48.011 -0.856, -48.01 -0.855, -48.009 -0.853, -48.01 -0.851, -48.011 -0.85, -48.013 -0.849, -48.016 -0.849, -48.019 -0.848, -48.022 -0.848, -48.023 -0.847, -48.023 -0.847, -48.018 -0.844, -48.016 -0.843, -48.014 -0.843, -48.013 -0.842, -48.013 -0.84, -48.013 -0.838, -48.015 -0.837, -48.016 -0.834, -48.019 -0.831, -48.021 -0.829, -48.019 -0.828, -48.017 -0.828, -48.013 -0.829, -48.011 -0.83, -48.009 -0.828, -48.008 -0.826, -48.005 -0.824, -48.004 -0.822, -48.004 -0.821, -48.008 -0.82, -48.01 -0.82, -48.012 -0.82, -48.013 -0.818, -48.013 -0.816, -48.011 -0.814, -48.012 -0.813, -48.013 -0.812, -48.017 -0.81, -48.02 -0.812, -48.022 -0.814, -48.024 -0.815, -48.026 -0.815, -48.027 -0.814, -48.027 -0.813, -48.026 -0.81, -48.024 -0.802, -48.022 -0.8, -48.025 -0.797, -48.028 -0.799, -48.03 -0.798, -48.031 -0.797, -48.031 -0.794, -48.029 -0.789, -48.021 -0.779, -48.019 -0.779, -48.017 -0.78, -48.014 -0.785, -48.012 -0.786, -48.009 -0.784, -48.007 -0.782, -48.005 -0.776, -48.003 -0.77, -48.003 -0.767, -48.003 -0.766, -48.002 -0.764, -48 -0.764, -48 -0.768, -47.998 -0.769, -47.997 -0.769, -47.994 -0.769, -47.993 -0.769, -47.992 -0.768, -47.992 -0.767, -47.992 -0.766, -47.99 -0.765, -47.989 -0.766, -47.988 -0.765, -47.987 -0.764, -47.985 -0.762, -47.984 -0.761, -47.983 -0.76, -47.982 -0.76, -47.979 -0.761, -47.977 -0.762, -47.974 -0.765, -47.974 -0.766, -47.974 -0.767, -47.974 -0.77, -47.976 -0.772, -47.976 -0.773, -47.975 -0.775, -47.974 -0.775, -47.972 -0.776, -47.971 -0.777, -47.969 -0.778, -47.968 -0.778, -47.967 -0.776, -47.966 -0.775, -47.965 -0.774, -47.964 -0.775, -47.962 -0.778, -47.96 -0.779, -47.956 -0.777, -47.955 -0.776, -47.951 -0.776, -47.954 -0.772, -47.956 -0.766, -47.957 -0.755, -47.958 -0.751, -47.958 -0.749, -47.957 -0.744, -47.957 -0.738, -47.958 -0.731, -47.96 -0.716, -47.96 -0.71, -47.96 -0.704, -47.961 -0.698, -47.966 -0.692, -47.969 -0.689, -47.974 -0.687, -47.976 -0.686, -47.977 -0.692, -47.981 -0.692, -47.983 -0.689, -47.985 -0.694, -47.986 -0.699, -47.987 -0.702, -47.986 -0.705, -47.989 -0.706, -47.99 -0.706, -47.994 -0.702, -47.996 -0.704, -47.998 -0.701))",
-      "uf": "PA",
-      "location": "São Caetano de Odivelas/PA",
-      "event_short": "Chuvas Intensas",
-      "status_vigencia": "expirado",
-      "date": "26/05/2026",
-      "time": "16:51",
-      "sent_br": "2026-05-26T16:51:49-03:00",
-      "onset_br": "2026-05-26T16:51:49-03:00",
-      "expires_br": "2026-05-26T20:00:00-03:00",
-      "duration_minutes": 188,
-      "duration_hours": 3.13,
-      "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1364,
-      "time_since_hours": 22.73,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false
-    },
-    {
-      "identifier": "183778/2026",
-      "entry_id": "183778/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "sent": "2026-05-26T16:36:53-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Severe",
-      "certainty": "Likely",
-      "onset": "2026-05-26T16:36:53-03:00",
-      "expires": "2026-05-26T19:35:00-03:00",
-      "nivel": "Alto",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "description": "Tempestade potencialmente intensas com chuva forte e condição para rajadas de vento na região de Assaí, Siqueira Campos, Ibaiti e municípios vizinhos. Evite áreas de risco e busque abrigo!\nEmergências 199 ou 193.",
-      "instruction": "Confira o aviso meteorológico vigente no site da Defesa Civil. -\n- https://www.defesacivil.pr.gov.br/ -\n- Entenda o significado das cores do alerta:\n- http://www.defesacivil.pr.gov.br/Pagina/Significado-das-cores-dos-alertas -",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "PARANÁ/PR",
-      "polygon_raw": "-23.899,-50.407 -23.899,-50.393 -23.851,-50.279 -23.891,-50.189 -23.988,-50.151 -23.939,-50.037 -23.864,-50.038 -23.792,-50.076 -23.719,-50.146 -23.688,-50.28 -23.724,-50.416 -23.806,-50.482 -23.899,-50.407",
-      "polygon_points": 13,
-      "has_geocode": false,
-      "uf_hint": "PR",
-      "region": "S",
-      "geometry_wkt": "POLYGON ((-50.407 -23.899, -50.393 -23.899, -50.279 -23.851, -50.189 -23.891, -50.151 -23.988, -50.037 -23.939, -50.038 -23.864, -50.076 -23.792, -50.146 -23.719, -50.28 -23.688, -50.416 -23.724, -50.482 -23.806, -50.407 -23.899))",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "event_short": "Chuvas Intensas",
-      "status_vigencia": "expirado",
-      "date": "26/05/2026",
-      "time": "16:36",
-      "sent_br": "2026-05-26T16:36:53-03:00",
-      "onset_br": "2026-05-26T16:36:53-03:00",
-      "expires_br": "2026-05-26T19:35:00-03:00",
-      "duration_minutes": 178,
-      "duration_hours": 2.97,
-      "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1379,
-      "time_since_hours": 22.98,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false
-    },
-    {
-      "identifier": "183777/2026",
-      "entry_id": "183777/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "sent": "2026-05-26T16:16:56-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Severe",
-      "certainty": "Likely",
-      "onset": "2026-05-26T16:16:56-03:00",
-      "expires": "2026-05-26T19:15:00-03:00",
-      "nivel": "Alto",
-      "headline": "Defesa Civil:DCPR ATENCAO: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "description": "Tempestade com chuva pontualmente forte e condição para rajadas de vento na região de Curiúva, Figueira e municípios vizinhos. Evite áreas de risco e busque abrigo! Emergências 199 ou 193.",
-      "instruction": "Confira o aviso meteorológico vigente no site da Defesa Civil. -\n- https://www.defesacivil.pr.gov.br/ -\n- Entenda o significado das cores do alerta:\n- http://www.defesacivil.pr.gov.br/Pagina/Significado-das-cores-dos-alertas -",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "PARANÁ/PR",
-      "polygon_raw": "-23.962,-50.506 -23.847,-50.269 -23.891,-50.189 -23.983,-50.149 -24.062,-50.149 -24.111,-50.208 -24.033,-50.517 -23.994,-50.506 -23.962,-50.506",
-      "polygon_points": 9,
-      "has_geocode": false,
-      "uf_hint": "PR",
-      "region": "S",
-      "geometry_wkt": "POLYGON ((-50.506 -23.962, -50.269 -23.847, -50.189 -23.891, -50.149 -23.983, -50.149 -24.062, -50.208 -24.111, -50.517 -24.033, -50.506 -23.994, -50.506 -23.962))",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "event_short": "Chuvas Intensas",
-      "status_vigencia": "expirado",
-      "date": "26/05/2026",
-      "time": "16:16",
-      "sent_br": "2026-05-26T16:16:56-03:00",
-      "onset_br": "2026-05-26T16:16:56-03:00",
-      "expires_br": "2026-05-26T19:15:00-03:00",
-      "duration_minutes": 178,
-      "duration_hours": 2.97,
-      "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1399,
-      "time_since_hours": 23.32,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false
-    },
-    {
-      "identifier": "183776/2026",
-      "entry_id": "183776/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "sent": "2026-05-26T16:05:10-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Moderate",
-      "certainty": "Likely",
-      "onset": "2026-05-26T16:05:10-03:00",
-      "expires": "2026-05-26T19:00:00-03:00",
-      "nivel": "Médio",
-      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
-      "description": "Tempestades irregulares e condição para chuva localmente forte na região de Siqueira Campos, Tomazina e municípios vizinhos. Monitore as condições em seu município e mantenha-se atento!\nOcorrências 199/193.",
-      "instruction": "Confira o aviso meteorológico vigente no site da Defesa Civil. -\n- https://www.defesacivil.pr.gov.br/ -\n- Entenda o significado das cores do alerta:\n- http://www.defesacivil.pr.gov.br/Pagina/Significado-das-cores-dos-alertas -",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "PARANÁ/PR",
-      "polygon_raw": "-23.706,-50.012 -23.659,-49.877 -23.656,-49.845 -23.67,-49.804 -23.694,-49.781 -23.721,-49.77 -23.757,-49.769 -23.779,-49.776 -23.801,-49.804 -23.8,-49.981 -23.781,-49.974 -23.753,-49.972 -23.72,-49.987 -23.706,-50.012",
-      "polygon_points": 14,
-      "has_geocode": false,
-      "uf_hint": "PR",
-      "region": "S",
-      "geometry_wkt": "POLYGON ((-50.012 -23.706, -49.877 -23.659, -49.845 -23.656, -49.804 -23.67, -49.781 -23.694, -49.77 -23.721, -49.769 -23.757, -49.776 -23.779, -49.804 -23.801, -49.981 -23.8, -49.974 -23.781, -49.972 -23.753, -49.987 -23.72, -50.012 -23.706))",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "event_short": "Chuvas Intensas",
-      "status_vigencia": "expirado",
-      "date": "26/05/2026",
-      "time": "16:05",
-      "sent_br": "2026-05-26T16:05:10-03:00",
-      "onset_br": "2026-05-26T16:05:10-03:00",
-      "expires_br": "2026-05-26T19:00:00-03:00",
-      "duration_minutes": 174,
-      "duration_hours": 2.9,
-      "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1411,
-      "time_since_hours": 23.52,
+      "time_since_minutes": 1427,
+      "time_since_hours": 23.78,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     }
