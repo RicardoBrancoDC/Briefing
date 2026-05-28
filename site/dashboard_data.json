@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-28T07:35:33.985907-03:00",
-  "source_run_dir": "run_20260528_073513",
+  "generated_at": "2026-05-28T13:35:38.458946-03:00",
+  "source_run_dir": "run_20260528_133526",
   "cards": {
-    "vigentes": 1,
-    "ultimas24h": 10,
-    "autoridadesAtivas": 5,
+    "vigentes": 2,
+    "ultimas24h": 9,
+    "autoridadesAtivas": 3,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "09:49",
+      "date": "28/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PARÁ/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (28MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
+      "status": "vigente"
+    },
+    {
+      "time": "09:32",
+      "date": "28/05/2026",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "senderNameShort": "DC Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "MARANHÃO-MA",
+      "uf": "MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "15:31",
       "date": "27/05/2026",
@@ -43,67 +67,33 @@
       "uf": "PA",
       "headline": "Defesa Civil:METROPOLITANA BELEM: Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais.Evite areas alagadas e dirija com atencao",
       "status": "expirado"
-    },
-    {
-      "time": "14:21",
-      "date": "27/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Santa Izabel do Pará/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:SANTA IZABEL DO PARA:Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais.Evite areas alagadas e dirija com atencao",
-      "status": "expirado"
-    },
-    {
-      "time": "14:19",
-      "date": "27/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Defesa Civil Estadual do Pará",
-      "uf": "PA",
-      "headline": "Defesa Civil:SANTO ANTONIO TAUA:Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 6
-    },
-    {
-      "name": "Defesa Civil de Nova Iguaçu (RJ)",
-      "short_name": "DC Nova Iguaçu (RJ)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Mangaratiba (RJ)",
-      "short_name": "Defesa Civil Mangaratiba (RJ)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 1
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Maranhão",
       "short_name": "DC Maranhão",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Nova Iguaçu (RJ)",
+      "short_name": "DC Nova Iguaçu (RJ)",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 3
+      "count": 1
     },
     {
       "label": "Alto",
-      "count": 6
+      "count": 7
     },
     {
       "label": "Severo",
@@ -113,7 +103,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 9
+      "count": 8
     },
     {
       "label": "Vendaval",
@@ -123,32 +113,54 @@
   "uf_distribution": [
     {
       "uf": "PA",
-      "count": 6
-    },
-    {
-      "uf": "RJ",
-      "count": 2
-    },
-    {
-      "uf": "SP",
-      "count": 1
+      "count": 7
     },
     {
       "uf": "MA",
+      "count": 1
+    },
+    {
+      "uf": "RJ",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 1
+      "count": 2
     },
     {
       "label": "expirado",
-      "count": 9
+      "count": 7
     }
   ],
   "all_alerts": [
+    {
+      "date": "28/05/2026",
+      "time": "09:49",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "PARÁ/PA",
+      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (28MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
+      "status": "vigente",
+      "onset": "2026-05-28T09:49:56-03:00",
+      "expires": "2026-05-28T23:59:00-03:00"
+    },
+    {
+      "date": "28/05/2026",
+      "time": "09:32",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "MA",
+      "location": "MARANHÃO-MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-28T09:32:00-03:00",
+      "expires": "2026-05-28T23:55:00-03:00"
+    },
     {
       "date": "27/05/2026",
       "time": "15:31",
@@ -239,61 +251,22 @@
       "status": "expirado",
       "onset": "2026-05-27T14:07:03-03:00",
       "expires": "2026-05-27T17:00:00-03:00"
-    },
-    {
-      "date": "27/05/2026",
-      "time": "12:58",
-      "senderName": "Defesa Civil Mangaratiba (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
-      "status": "vigente",
-      "onset": "2026-05-27T12:58:48-03:00",
-      "expires": "2026-05-28T08:00:00-03:00"
-    },
-    {
-      "date": "27/05/2026",
-      "time": "12:50",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:12h48 Chuva isolada na regiao de Sao Sebastiao e Ilhabela. Tem vento. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-05-27T12:50:12-03:00",
-      "expires": "2026-05-27T14:45:00-03:00"
-    },
-    {
-      "date": "27/05/2026",
-      "time": "12:11",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MA",
-      "location": "MARANHÃO-MA",
-      "headline": "Defesa Civil:Evite sair durante chuvas fortes e rajadas de vento  Nao atravesse areas alagadas, ruas com correnteza ou pontes submersas , emergencia  ligue 193",
-      "status": "expirado",
-      "onset": "2026-05-27T12:11:00-03:00",
-      "expires": "2026-05-27T23:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 10,
+    "total_alerts": 9,
     "by_nivel": {
-      "Alto": 6,
-      "Médio": 3,
+      "Alto": 7,
+      "Médio": 1,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 10
+      "Google": 9
     },
     "by_region": {
-      "N": 6,
-      "SE": 3,
-      "NE": 1
+      "N": 7,
+      "NE": 1,
+      "SE": 1
     }
   }
 }
