@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-28T13:35:38.458946-03:00",
-  "source_run_dir": "run_20260528_133526",
+  "generated_at": "2026-05-28T17:39:09.703020-03:00",
+  "source_run_dir": "run_20260528_173857",
   "cards": {
-    "vigentes": 2,
-    "ultimas24h": 9,
+    "vigentes": 3,
+    "ultimas24h": 4,
     "autoridadesAtivas": 3,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "17:19",
+      "date": "28/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "13:55",
+      "date": "28/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Defesa Civil Estadual do Pará",
+      "uf": "PA",
+      "headline": "Defesa Civil:Sao Miguel e Santa Maria: Alerta ALTO de CHUVAS INTENSAS para as proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas.",
+      "status": "expirado"
+    },
     {
       "time": "09:49",
       "date": "28/05/2026",
@@ -31,110 +55,92 @@
       "uf": "MA",
       "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
       "status": "vigente"
-    },
-    {
-      "time": "15:31",
-      "date": "27/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "PARÁ/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:OUTEIRO, MOSQUEIRO E ICOARACI: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro.",
-      "status": "expirado"
-    },
-    {
-      "time": "14:57",
-      "date": "27/05/2026",
-      "senderName": "Defesa Civil de Nova Iguaçu (RJ)",
-      "senderNameShort": "DC Nova Iguaçu (RJ)",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "location": "Nova Iguaçu/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil: Nova Iguacu: ESTAGIO OBSERVACAO. Rajadas de vento moderado/forte entre a tarde  e noite de hoje (27) na cidade. Emergencia:199.",
-      "status": "expirado"
-    },
-    {
-      "time": "14:49",
-      "date": "27/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARÁ/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:METROPOLITANA BELEM: Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais.Evite areas alagadas e dirija com atencao",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 7
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Maranhão",
       "short_name": "DC Maranhão",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Nova Iguaçu (RJ)",
-      "short_name": "DC Nova Iguaçu (RJ)",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 1
+      "count": 2
     },
     {
       "label": "Alto",
-      "count": 7
-    },
-    {
-      "label": "Severo",
-      "count": 1
+      "count": 2
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 8
-    },
-    {
-      "label": "Vendaval",
-      "count": 1
+      "count": 4
     }
   ],
   "uf_distribution": [
     {
       "uf": "PA",
-      "count": 7
+      "count": 2
     },
     {
-      "uf": "MA",
+      "uf": "AM",
       "count": 1
     },
     {
-      "uf": "RJ",
+      "uf": "MA",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 2
+      "count": 3
     },
     {
       "label": "expirado",
-      "count": 7
+      "count": 1
     }
   ],
   "all_alerts": [
+    {
+      "date": "28/05/2026",
+      "time": "17:19",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-28T17:19:28-03:00",
+      "expires": "2026-05-28T21:00:00-03:00"
+    },
+    {
+      "date": "28/05/2026",
+      "time": "13:55",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Defesa Civil Estadual do Pará",
+      "headline": "Defesa Civil:Sao Miguel e Santa Maria: Alerta ALTO de CHUVAS INTENSAS para as proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas.",
+      "status": "expirado",
+      "onset": "2026-05-28T13:55:34-03:00",
+      "expires": "2026-05-28T16:00:00-03:00"
+    },
     {
       "date": "28/05/2026",
       "time": "09:49",
@@ -160,113 +166,20 @@
       "status": "vigente",
       "onset": "2026-05-28T09:32:00-03:00",
       "expires": "2026-05-28T23:55:00-03:00"
-    },
-    {
-      "date": "27/05/2026",
-      "time": "15:31",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:OUTEIRO, MOSQUEIRO E ICOARACI: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro.",
-      "status": "expirado",
-      "onset": "2026-05-27T15:31:11-03:00",
-      "expires": "2026-05-27T18:00:00-03:00"
-    },
-    {
-      "date": "27/05/2026",
-      "time": "14:57",
-      "senderName": "Defesa Civil de Nova Iguaçu (RJ)",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Nova Iguaçu/RJ",
-      "headline": "Defesa Civil: Nova Iguacu: ESTAGIO OBSERVACAO. Rajadas de vento moderado/forte entre a tarde  e noite de hoje (27) na cidade. Emergencia:199.",
-      "status": "expirado",
-      "onset": "2026-05-27T14:57:33-03:00",
-      "expires": "2026-05-27T23:55:00-03:00"
-    },
-    {
-      "date": "27/05/2026",
-      "time": "14:49",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:METROPOLITANA BELEM: Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais.Evite areas alagadas e dirija com atencao",
-      "status": "expirado",
-      "onset": "2026-05-27T14:49:45-03:00",
-      "expires": "2026-05-27T18:00:00-03:00"
-    },
-    {
-      "date": "27/05/2026",
-      "time": "14:21",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Santa Izabel do Pará/PA",
-      "headline": "Defesa Civil:SANTA IZABEL DO PARA:Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais.Evite areas alagadas e dirija com atencao",
-      "status": "expirado",
-      "onset": "2026-05-27T14:21:17-03:00",
-      "expires": "2026-05-27T17:00:00-03:00"
-    },
-    {
-      "date": "27/05/2026",
-      "time": "14:19",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Defesa Civil Estadual do Pará",
-      "headline": "Defesa Civil:SANTO ANTONIO TAUA:Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao",
-      "status": "expirado",
-      "onset": "2026-05-27T14:19:30-03:00",
-      "expires": "2026-05-27T17:00:00-03:00"
-    },
-    {
-      "date": "27/05/2026",
-      "time": "14:11",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Castanhal/PA",
-      "headline": "Defesa Civil:CASTANHAL: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-27T14:11:17-03:00",
-      "expires": "2026-05-27T17:00:00-03:00"
-    },
-    {
-      "date": "27/05/2026",
-      "time": "14:07",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "mapa",
-      "headline": "Defesa Civil:CASTANHAL: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-27T14:07:03-03:00",
-      "expires": "2026-05-27T17:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 9,
+    "total_alerts": 4,
     "by_nivel": {
-      "Alto": 7,
-      "Médio": 1,
-      "Severo": 1
+      "Alto": 2,
+      "Médio": 2
     },
     "by_channel_list": {
-      "Google": 9
+      "Google": 4
     },
     "by_region": {
-      "N": 7,
-      "NE": 1,
-      "SE": 1
+      "N": 3,
+      "NE": 1
     }
   }
 }
