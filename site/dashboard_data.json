@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-28T17:39:09.703020-03:00",
-  "source_run_dir": "run_20260528_173857",
+  "generated_at": "2026-05-28T20:45:30.602017-03:00",
+  "source_run_dir": "run_20260528_204517",
   "cards": {
-    "vigentes": 3,
-    "ultimas24h": 4,
+    "vigentes": 4,
+    "ultimas24h": 5,
     "autoridadesAtivas": 3,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "18:13",
+      "date": "28/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Belém/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:DEFESA CIVIL BELEM: ALERTA de CHUVA INTENSA. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil",
+      "status": "vigente"
+    },
     {
       "time": "17:19",
       "date": "28/05/2026",
@@ -61,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -82,18 +94,22 @@
     {
       "label": "Alto",
       "count": 2
+    },
+    {
+      "label": "Severo",
+      "count": 1
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 4
+      "count": 5
     }
   ],
   "uf_distribution": [
     {
       "uf": "PA",
-      "count": 2
+      "count": 3
     },
     {
       "uf": "AM",
@@ -107,7 +123,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 3
+      "count": 4
     },
     {
       "label": "expirado",
@@ -115,6 +131,19 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "28/05/2026",
+      "time": "18:13",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "PA",
+      "location": "Belém/PA",
+      "headline": "Defesa Civil:DEFESA CIVIL BELEM: ALERTA de CHUVA INTENSA. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil",
+      "status": "vigente",
+      "onset": "2026-05-28T18:13:52-03:00",
+      "expires": "2026-05-28T21:00:00-03:00"
+    },
     {
       "date": "28/05/2026",
       "time": "17:19",
@@ -169,16 +198,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 4,
+    "total_alerts": 5,
     "by_nivel": {
       "Alto": 2,
-      "Médio": 2
+      "Médio": 2,
+      "Severo": 1
     },
     "by_channel_list": {
-      "Google": 4
+      "Google": 5
     },
     "by_region": {
-      "N": 3,
+      "N": 4,
       "NE": 1
     }
   }
