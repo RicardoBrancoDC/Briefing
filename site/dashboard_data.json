@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-28T01:43:38.338602-03:00",
-  "source_run_dir": "run_20260528_014324",
+  "generated_at": "2026-05-28T07:35:33.985907-03:00",
+  "source_run_dir": "run_20260528_073513",
   "cards": {
     "vigentes": 1,
-    "ultimas24h": 12,
-    "autoridadesAtivas": 6,
+    "ultimas24h": 10,
+    "autoridadesAtivas": 5,
     "alertasExtremos": 0
   },
   "latest_alerts": [
@@ -76,11 +76,6 @@
       "count": 6
     },
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil de Nova Iguaçu (RJ)",
       "short_name": "DC Nova Iguaçu (RJ)",
       "count": 1
@@ -108,7 +103,7 @@
     },
     {
       "label": "Alto",
-      "count": 8
+      "count": 6
     },
     {
       "label": "Severo",
@@ -118,14 +113,10 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 10
+      "count": 9
     },
     {
       "label": "Vendaval",
-      "count": 1
-    },
-    {
-      "label": "Solo/Lama",
       "count": 1
     }
   ],
@@ -136,10 +127,6 @@
     },
     {
       "uf": "RJ",
-      "count": 2
-    },
-    {
-      "uf": "AM",
       "count": 2
     },
     {
@@ -158,7 +145,7 @@
     },
     {
       "label": "expirado",
-      "count": 11
+      "count": 9
     }
   ],
   "all_alerts": [
@@ -291,46 +278,20 @@
       "status": "expirado",
       "onset": "2026-05-27T12:11:00-03:00",
       "expires": "2026-05-27T23:55:00-03:00"
-    },
-    {
-      "date": "27/05/2026",
-      "time": "06:08",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Uarini/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-27T06:08:00-03:00",
-      "expires": "2026-05-27T17:55:00-03:00"
-    },
-    {
-      "date": "27/05/2026",
-      "time": "05:51",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Alvarães/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-27T05:51:18-03:00",
-      "expires": "2026-05-27T09:40:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 12,
+    "total_alerts": 10,
     "by_nivel": {
-      "Alto": 8,
+      "Alto": 6,
       "Médio": 3,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 12
+      "Google": 10
     },
     "by_region": {
-      "N": 8,
+      "N": 6,
       "SE": 3,
       "NE": 1
     }
