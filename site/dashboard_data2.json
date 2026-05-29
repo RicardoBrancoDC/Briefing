@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-05-28T20:45:30.663528-03:00",
+  "generated_at": "2026-05-29T01:46:18.334837-03:00",
   "source": ".cache/historico_alertas.json",
   "window_hours": 24,
   "cards": {
-    "vigentes": 4,
+    "vigentes": 0,
     "ultimas24h": 5,
     "autoridadesAtivas": 3,
     "alertasExtremos": 0,
@@ -23,7 +23,7 @@
       "location": "Belém/PA",
       "uf": "PA",
       "headline": "Defesa Civil:DEFESA CIVIL BELEM: ALERTA de CHUVA INTENSA. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "183811/2026",
       "entry_id": "183811/2026",
       "sent": "2026-05-28T18:13:52-03:00",
@@ -46,7 +46,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "183810/2026",
       "entry_id": "183810/2026",
       "sent": "2026-05-28T17:19:28-03:00",
@@ -92,7 +92,7 @@
       "location": "PARÁ/PA",
       "uf": "PA",
       "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (28MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "183807/2026",
       "entry_id": "183807/2026",
       "sent": "2026-05-28T09:49:56-03:00",
@@ -115,7 +115,7 @@
       "location": "MARANHÃO-MA",
       "uf": "MA",
       "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "183806/2026",
       "entry_id": "183806/2026",
       "sent": "2026-05-28T09:51:34-03:00",
@@ -182,12 +182,8 @@
   ],
   "status_distribution": [
     {
-      "label": "vigente",
-      "count": 4
-    },
-    {
       "label": "expirado",
-      "count": 1
+      "count": 5
     }
   ],
   "category_distribution": [
@@ -212,12 +208,8 @@
       "count": 3
     },
     {
-      "label": "1h a 3h",
-      "count": 1
-    },
-    {
-      "label": "3h a 6h",
-      "count": 1
+      "label": "Mais de 12h",
+      "count": 2
     }
   ],
   "channel_distribution": [
@@ -233,7 +225,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Pará",
       "sent": "2026-05-28T18:13:52-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -260,7 +252,7 @@
       "uf": "PA",
       "location": "Belém/PA",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "28/05/2026",
       "time": "18:13",
       "sent_br": "2026-05-28T18:13:52-03:00",
@@ -269,10 +261,10 @@
       "duration_minutes": 166,
       "duration_hours": 2.77,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 151,
-      "time_since_hours": 2.52,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true
+      "time_since_minutes": 452,
+      "time_since_hours": 7.53,
+      "time_since_bucket": "6h a 12h",
+      "is_active": false
     },
     {
       "identifier": "183810/2026",
@@ -280,7 +272,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "sent": "2026-05-28T17:19:28-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -307,7 +299,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "28/05/2026",
       "time": "17:19",
       "sent_br": "2026-05-28T17:19:28-03:00",
@@ -316,10 +308,10 @@
       "duration_minutes": 220,
       "duration_hours": 3.67,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 206,
-      "time_since_hours": 3.43,
-      "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "time_since_minutes": 506,
+      "time_since_hours": 8.43,
+      "time_since_bucket": "6h a 12h",
+      "is_active": false
     },
     {
       "identifier": "183809/2026",
@@ -363,8 +355,8 @@
       "duration_minutes": 124,
       "duration_hours": 2.07,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 409,
-      "time_since_hours": 6.82,
+      "time_since_minutes": 710,
+      "time_since_hours": 11.83,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -374,7 +366,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Pará",
       "sent": "2026-05-28T09:49:56-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -401,7 +393,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "28/05/2026",
       "time": "09:49",
       "sent_br": "2026-05-28T09:49:56-03:00",
@@ -410,10 +402,10 @@
       "duration_minutes": 849,
       "duration_hours": 14.15,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 655,
-      "time_since_hours": 10.92,
-      "time_since_bucket": "6h a 12h",
-      "is_active": true
+      "time_since_minutes": 956,
+      "time_since_hours": 15.93,
+      "time_since_bucket": "Mais de 12h",
+      "is_active": false
     },
     {
       "identifier": "183806/2026",
@@ -421,7 +413,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Maranhão",
       "sent": "2026-05-28T09:51:34-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -448,7 +440,7 @@
       "uf": "MA",
       "location": "MARANHÃO-MA",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "28/05/2026",
       "time": "09:32",
       "sent_br": "2026-05-28T09:51:34-03:00",
@@ -457,10 +449,10 @@
       "duration_minutes": 863,
       "duration_hours": 14.38,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 673,
-      "time_since_hours": 11.22,
-      "time_since_bucket": "6h a 12h",
-      "is_active": true
+      "time_since_minutes": 974,
+      "time_since_hours": 16.23,
+      "time_since_bucket": "Mais de 12h",
+      "is_active": false
     }
   ]
 }

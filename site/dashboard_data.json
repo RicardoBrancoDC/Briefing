@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-28T20:45:30.602017-03:00",
-  "source_run_dir": "run_20260528_204517",
+  "generated_at": "2026-05-29T01:46:18.277227-03:00",
+  "source_run_dir": "run_20260529_014607",
   "cards": {
-    "vigentes": 4,
+    "vigentes": 0,
     "ultimas24h": 5,
     "autoridadesAtivas": 3,
     "alertasExtremos": 0
@@ -18,7 +18,7 @@
       "location": "Belém/PA",
       "uf": "PA",
       "headline": "Defesa Civil:DEFESA CIVIL BELEM: ALERTA de CHUVA INTENSA. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:19",
@@ -30,7 +30,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "13:55",
@@ -54,7 +54,7 @@
       "location": "PARÁ/PA",
       "uf": "PA",
       "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (28MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "09:32",
@@ -66,7 +66,7 @@
       "location": "MARANHÃO-MA",
       "uf": "MA",
       "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -122,12 +122,8 @@
   ],
   "status_distribution": [
     {
-      "label": "vigente",
-      "count": 4
-    },
-    {
       "label": "expirado",
-      "count": 1
+      "count": 5
     }
   ],
   "all_alerts": [
@@ -140,7 +136,7 @@
       "uf": "PA",
       "location": "Belém/PA",
       "headline": "Defesa Civil:DEFESA CIVIL BELEM: ALERTA de CHUVA INTENSA. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-28T18:13:52-03:00",
       "expires": "2026-05-28T21:00:00-03:00"
     },
@@ -153,7 +149,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-28T17:19:28-03:00",
       "expires": "2026-05-28T21:00:00-03:00"
     },
@@ -179,7 +175,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (28MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-28T09:49:56-03:00",
       "expires": "2026-05-28T23:59:00-03:00"
     },
@@ -192,7 +188,7 @@
       "uf": "MA",
       "location": "MARANHÃO-MA",
       "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-28T09:32:00-03:00",
       "expires": "2026-05-28T23:55:00-03:00"
     }
