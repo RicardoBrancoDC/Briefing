@@ -1,55 +1,94 @@
 {
-  "generated_at": "2026-05-29T10:39:10.564211-03:00",
-  "source_run_dir": "run_20260529_103903",
+  "generated_at": "2026-05-29T14:45:37.343686-03:00",
+  "source_run_dir": "run_20260529_144525",
   "cards": {
-    "vigentes": 0,
-    "ultimas24h": 3,
-    "autoridadesAtivas": 2,
+    "vigentes": 6,
+    "ultimas24h": 8,
+    "autoridadesAtivas": 5,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "18:13",
-      "date": "28/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Belém/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:DEFESA CIVIL BELEM: ALERTA de CHUVA INTENSA. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil",
-      "status": "expirado"
-    },
-    {
-      "time": "17:19",
-      "date": "28/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "13:55",
-      "date": "28/05/2026",
+      "time": "14:06",
+      "date": "29/05/2026",
       "senderName": "Defesa Civil Estadual do Pará",
       "senderNameShort": "DC Pará",
       "event": "Chuvas Intensas",
       "nivel": "Alto",
-      "location": "Defesa Civil Estadual do Pará",
+      "location": "PARÁ/PA",
       "uf": "PA",
-      "headline": "Defesa Civil:Sao Miguel e Santa Maria: Alerta ALTO de CHUVAS INTENSAS para as proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas.",
-      "status": "expirado"
+      "headline": "Defesa Civil:Alerta ALTO de chuvas e ventos intensos para hoje (29MAIO). Risco de alagamentos. Abrigue-se. Emergencias, ligue 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "13:53",
+      "date": "29/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Oriximiná/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:PARA:Alerta MODERADO de chuvas e ventos intensos para hoje (29MAI). Risco de alagamentos. Atencao a novos alertas. Emergencia, ligue 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "13:31",
+      "date": "29/05/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 29/05 13:26 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "13:00",
+      "date": "29/05/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Granizo",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "Observação Meteorológica SDC/SC 28/05 09:50 - Temporais isolados com rajadas de vento e granizo na sexta-feira (29). Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "10:50",
+      "date": "29/05/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:DCPR AVISO DE TEMPO: Tempestades irregulares e chuva pontualmente forte na tarde/noite desta sex, 29/05. Mantenha-se atento. Ocorrencias, 199/193.",
+      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
+      "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual do Maranhão",
+      "short_name": "DC Maranhão",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -60,11 +99,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 1
+      "count": 5
     },
     {
       "label": "Alto",
-      "count": 1
+      "count": 2
     },
     {
       "label": "Severo",
@@ -74,13 +113,29 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 3
+      "count": 7
+    },
+    {
+      "label": "Granizo",
+      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "PA",
+      "count": 3
+    },
+    {
+      "uf": "SC",
       "count": 2
+    },
+    {
+      "uf": "PR",
+      "count": 1
+    },
+    {
+      "uf": "MA",
+      "count": 1
     },
     {
       "uf": "AM",
@@ -89,11 +144,93 @@
   ],
   "status_distribution": [
     {
+      "label": "vigente",
+      "count": 6
+    },
+    {
       "label": "expirado",
-      "count": 3
+      "count": 2
     }
   ],
   "all_alerts": [
+    {
+      "date": "29/05/2026",
+      "time": "14:06",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "PARÁ/PA",
+      "headline": "Defesa Civil:Alerta ALTO de chuvas e ventos intensos para hoje (29MAIO). Risco de alagamentos. Abrigue-se. Emergencias, ligue 193.",
+      "status": "vigente",
+      "onset": "2026-05-29T14:06:55-03:00",
+      "expires": "2026-05-30T08:00:00-03:00"
+    },
+    {
+      "date": "29/05/2026",
+      "time": "13:53",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PA",
+      "location": "Oriximiná/PA",
+      "headline": "Defesa Civil:PARA:Alerta MODERADO de chuvas e ventos intensos para hoje (29MAI). Risco de alagamentos. Atencao a novos alertas. Emergencia, ligue 193.",
+      "status": "vigente",
+      "onset": "2026-05-29T13:53:51-03:00",
+      "expires": "2026-05-29T18:00:00-03:00"
+    },
+    {
+      "date": "29/05/2026",
+      "time": "13:31",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 29/05 13:26 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-29T13:31:06-03:00",
+      "expires": "2026-05-29T17:30:00-03:00"
+    },
+    {
+      "date": "29/05/2026",
+      "time": "13:00",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Granizo",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Observação Meteorológica SDC/SC 28/05 09:50 - Temporais isolados com rajadas de vento e granizo na sexta-feira (29). Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-29T13:00:00-03:00",
+      "expires": "2026-05-29T23:55:00-03:00"
+    },
+    {
+      "date": "29/05/2026",
+      "time": "10:50",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:DCPR AVISO DE TEMPO: Tempestades irregulares e chuva pontualmente forte na tarde/noite desta sex, 29/05. Mantenha-se atento. Ocorrencias, 199/193.",
+      "status": "vigente",
+      "onset": "2026-05-29T10:50:01-03:00",
+      "expires": "2026-05-30T04:00:00-03:00"
+    },
+    {
+      "date": "29/05/2026",
+      "time": "10:20",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MA",
+      "location": "MARANHÃO-MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-29T10:20:00-03:00",
+      "expires": "2026-05-30T10:00:00-03:00"
+    },
     {
       "date": "28/05/2026",
       "time": "18:13",
@@ -119,33 +256,22 @@
       "status": "expirado",
       "onset": "2026-05-28T17:19:28-03:00",
       "expires": "2026-05-28T21:00:00-03:00"
-    },
-    {
-      "date": "28/05/2026",
-      "time": "13:55",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Defesa Civil Estadual do Pará",
-      "headline": "Defesa Civil:Sao Miguel e Santa Maria: Alerta ALTO de CHUVAS INTENSAS para as proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas.",
-      "status": "expirado",
-      "onset": "2026-05-28T13:55:34-03:00",
-      "expires": "2026-05-28T16:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 3,
+    "total_alerts": 8,
     "by_nivel": {
-      "Alto": 1,
-      "Médio": 1,
+      "Médio": 5,
+      "Alto": 2,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 3
+      "Google": 8
     },
     "by_region": {
-      "N": 3
+      "N": 4,
+      "S": 3,
+      "NE": 1
     }
   }
 }
