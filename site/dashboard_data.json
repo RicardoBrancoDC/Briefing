@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-29T07:15:42.214985-03:00",
-  "source_run_dir": "run_20260529_071536",
+  "generated_at": "2026-05-29T10:39:10.564211-03:00",
+  "source_run_dir": "run_20260529_103903",
   "cards": {
     "vigentes": 0,
-    "ultimas24h": 5,
-    "autoridadesAtivas": 3,
+    "ultimas24h": 3,
+    "autoridadesAtivas": 2,
     "alertasExtremos": 0
   },
   "latest_alerts": [
@@ -43,57 +43,28 @@
       "uf": "PA",
       "headline": "Defesa Civil:Sao Miguel e Santa Maria: Alerta ALTO de CHUVAS INTENSAS para as proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas.",
       "status": "expirado"
-    },
-    {
-      "time": "09:49",
-      "date": "28/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARÁ/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (28MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado"
-    },
-    {
-      "time": "09:32",
-      "date": "28/05/2026",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "senderNameShort": "DC Maranhão",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "MARANHÃO-MA",
-      "uf": "MA",
-      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Maranhão",
-      "short_name": "DC Maranhão",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 2
+      "count": 1
     },
     {
       "label": "Alto",
-      "count": 2
+      "count": 1
     },
     {
       "label": "Severo",
@@ -103,27 +74,23 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 5
+      "count": 3
     }
   ],
   "uf_distribution": [
     {
       "uf": "PA",
-      "count": 3
+      "count": 2
     },
     {
       "uf": "AM",
-      "count": 1
-    },
-    {
-      "uf": "MA",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "expirado",
-      "count": 5
+      "count": 3
     }
   ],
   "all_alerts": [
@@ -165,47 +132,20 @@
       "status": "expirado",
       "onset": "2026-05-28T13:55:34-03:00",
       "expires": "2026-05-28T16:00:00-03:00"
-    },
-    {
-      "date": "28/05/2026",
-      "time": "09:49",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (28MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-05-28T09:49:56-03:00",
-      "expires": "2026-05-28T23:59:00-03:00"
-    },
-    {
-      "date": "28/05/2026",
-      "time": "09:32",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MA",
-      "location": "MARANHÃO-MA",
-      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-05-28T09:32:00-03:00",
-      "expires": "2026-05-28T23:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 5,
+    "total_alerts": 3,
     "by_nivel": {
-      "Alto": 2,
-      "Médio": 2,
+      "Alto": 1,
+      "Médio": 1,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 5
+      "Google": 3
     },
     "by_region": {
-      "N": 4,
-      "NE": 1
+      "N": 3
     }
   }
 }

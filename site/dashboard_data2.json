@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-29T07:15:42.276668-03:00",
+  "generated_at": "2026-05-29T10:39:10.624381-03:00",
   "source": ".cache/historico_alertas.json",
   "window_hours": 24,
   "cards": {
     "vigentes": 0,
-    "ultimas24h": 5,
-    "autoridadesAtivas": 3,
+    "ultimas24h": 3,
+    "autoridadesAtivas": 2,
     "alertasExtremos": 0,
     "alertasSeveros": 1,
     "alertasSeverosExtremos": 1,
-    "estadosComAlerta": 3,
-    "municipiosOuAreasComAlerta": 5
+    "estadosComAlerta": 2,
+    "municipiosOuAreasComAlerta": 3
   },
   "latest_alerts": [
     {
@@ -81,79 +81,28 @@
       "certainty": "Likely",
       "responseType": "Execute",
       "channel_list": "Google"
-    },
-    {
-      "time": "09:49",
-      "date": "28/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARÁ/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (28MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "identifier": "183807/2026",
-      "entry_id": "183807/2026",
-      "sent": "2026-05-28T09:49:56-03:00",
-      "onset": "2026-05-28T09:49:56-03:00",
-      "expires": "2026-05-28T23:59:00-03:00",
-      "category": "Met",
-      "severity": "Severe",
-      "urgency": "Expected",
-      "certainty": "Likely",
-      "responseType": "Execute",
-      "channel_list": "Google"
-    },
-    {
-      "time": "09:32",
-      "date": "28/05/2026",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "senderNameShort": "DC Maranhão",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "MARANHÃO-MA",
-      "uf": "MA",
-      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
-      "status": "expirado",
-      "identifier": "183806/2026",
-      "entry_id": "183806/2026",
-      "sent": "2026-05-28T09:51:34-03:00",
-      "onset": "2026-05-28T09:32:00-03:00",
-      "expires": "2026-05-28T23:55:00-03:00",
-      "category": "Met",
-      "severity": "Moderate",
-      "urgency": "Expected",
-      "certainty": "Likely",
-      "responseType": "Execute",
-      "channel_list": "Google"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Maranhão",
-      "short_name": "DC Maranhão",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 2
+      "count": 1
     },
     {
       "label": "Alto",
-      "count": 2
+      "count": 1
     },
     {
       "label": "Severo",
@@ -163,55 +112,47 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 5
+      "count": 3
     }
   ],
   "uf_distribution": [
     {
       "uf": "PA",
-      "count": 3
+      "count": 2
     },
     {
       "uf": "AM",
-      "count": 1
-    },
-    {
-      "uf": "MA",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "expirado",
-      "count": 5
+      "count": 3
     }
   ],
   "category_distribution": [
     {
       "label": "Met",
-      "count": 5
+      "count": 3
     }
   ],
   "duration_distribution": [
     {
       "label": "2h a 6h",
       "count": 3
-    },
-    {
-      "label": "12h a 24h",
-      "count": 2
     }
   ],
   "time_since_distribution": [
     {
       "label": "Mais de 12h",
-      "count": 5
+      "count": 3
     }
   ],
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 5
+      "count": 3
     }
   ],
   "all_alerts": [
@@ -257,8 +198,8 @@
       "duration_minutes": 166,
       "duration_hours": 2.77,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 781,
-      "time_since_hours": 13.02,
+      "time_since_minutes": 985,
+      "time_since_hours": 16.42,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -304,8 +245,8 @@
       "duration_minutes": 220,
       "duration_hours": 3.67,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 836,
-      "time_since_hours": 13.93,
+      "time_since_minutes": 1039,
+      "time_since_hours": 17.32,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -351,102 +292,8 @@
       "duration_minutes": 124,
       "duration_hours": 2.07,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1040,
-      "time_since_hours": 17.33,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false
-    },
-    {
-      "identifier": "183807/2026",
-      "entry_id": "183807/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "sent": "2026-05-28T09:49:56-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "CHUVAS INTENSAS",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Severe",
-      "certainty": "Likely",
-      "onset": "2026-05-28T09:49:56-03:00",
-      "expires": "2026-05-28T23:59:00-03:00",
-      "nivel": "Alto",
-      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (28MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "description": "PARÁ: Alerta ALTO de CHUVAS INTENSAS hoje (28MAI). Risco de  Alagamentos e vendavais. Evite áreas alagadas e dirija com atenção.",
-      "instruction": "- Em caso de rajadas de vento: não se abrigue debaixo de árvores, pois há risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda\n- Se possível, desligue aparelhos elétricos e quadro geral de energia.\n- Acompanhe novos alertas e obtenha mais informações junto à Defesa Civil e ao Corpo de Bombeiros (telefone 193).",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "PARÁ/PA",
-      "polygon_raw": "2.383,-54.854 2.427,-55.074 2.372,-55.502 2.405,-55.704 2.405,-55.704 2.403,-55.707 2.402,-55.717 2.406,-55.727 2.406,-55.734 2.409,-55.737 2.408,-55.742 2.41,-55.747 2.413,-55.749 2.449,-55.964 2.295,-55.986 2.097,-55.854 1.823,-55.799 1.757,-56.063 1.856,-56.524 1.834,-56.865 1.889,-57.227 1.68,-57.425 1.658,-57.777 1.45,-57.919 1.439,-58.282 1.197,-58.48 1.191,-58.767 1.186,-58.769 1.186,-58.773 1.185,-58.776 1.187,-58.778 1.19,-58.779 1.188,-58.786 1.19,-58.791 1.187,-58.794 1.184,-58.793 1.181,-58.797 1.176,-58.8 1.176,-58.803 1.178,-58.804 1.181,-58.806 1.179,-58.809 1.176,-58.811 1.171,-58.821 1.171,-58.825 1.183,-58.824 1.187,-58.826 1.187,-58.831 1.185,-58.836 1.181,-58.846 1.181,-58.849 1.184,-58.85 1.183,-58.854 1.186,-58.856 1.189,-58.854 1.188,-58.895 0.934,-58.895 0.904,-58.895 0.898,-58.895 0.898,-58.895 0.886,-58.895 0.763,-58.895 0.741,-58.895 0.68,-58.895 0.648,-58.895 0.631,-58.895 0.613,-58.895 0.592,-58.895 0.263,-58.895 0.063,-58.895 0.439,-57.37 0.977,-55.931 1.669,-55.151 2.383,-54.854",
-      "polygon_points": 74,
-      "has_geocode": false,
-      "uf_hint": "PA",
-      "region": "N",
-      "geometry_wkt": "POLYGON ((-54.854 2.383, -55.074 2.427, -55.502 2.372, -55.704 2.405, -55.704 2.405, -55.707 2.403, -55.717 2.402, -55.727 2.406, -55.734 2.406, -55.737 2.409, -55.742 2.408, -55.747 2.41, -55.749 2.413, -55.964 2.449, -55.986 2.295, -55.854 2.097, -55.799 1.823, -56.063 1.757, -56.524 1.856, -56.865 1.834, -57.227 1.889, -57.425 1.68, -57.777 1.658, -57.919 1.45, -58.282 1.439, -58.48 1.197, -58.767 1.191, -58.769 1.186, -58.773 1.186, -58.776 1.185, -58.778 1.187, -58.779 1.19, -58.786 1.188, -58.791 1.19, -58.794 1.187, -58.793 1.184, -58.797 1.181, -58.8 1.176, -58.803 1.176, -58.804 1.178, -58.806 1.181, -58.809 1.179, -58.811 1.176, -58.821 1.171, -58.825 1.171, -58.824 1.183, -58.826 1.187, -58.831 1.187, -58.836 1.185, -58.846 1.181, -58.849 1.181, -58.85 1.184, -58.854 1.183, -58.856 1.186, -58.854 1.189, -58.895 1.188, -58.895 0.934, -58.895 0.904, -58.895 0.898, -58.895 0.898, -58.895 0.886, -58.895 0.763, -58.895 0.741, -58.895 0.68, -58.895 0.648, -58.895 0.631, -58.895 0.613, -58.895 0.592, -58.895 0.263, -58.895 0.063, -57.37 0.439, -55.931 0.977, -55.151 1.669, -54.854 2.383))",
-      "uf": "PA",
-      "location": "PARÁ/PA",
-      "event_short": "Chuvas Intensas",
-      "status_vigencia": "expirado",
-      "date": "28/05/2026",
-      "time": "09:49",
-      "sent_br": "2026-05-28T09:49:56-03:00",
-      "onset_br": "2026-05-28T09:49:56-03:00",
-      "expires_br": "2026-05-28T23:59:00-03:00",
-      "duration_minutes": 849,
-      "duration_hours": 14.15,
-      "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1285,
-      "time_since_hours": 21.42,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false
-    },
-    {
-      "identifier": "183806/2026",
-      "entry_id": "183806/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "sent": "2026-05-28T09:51:34-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "CHUVAS INTENSAS",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Moderate",
-      "certainty": "Likely",
-      "onset": "2026-05-28T09:32:00-03:00",
-      "expires": "2026-05-28T23:55:00-03:00",
-      "nivel": "Médio",
-      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
-      "description": "Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h). Baixo risco de corte de energia elétrica, queda de galhos de árvores, alagamentos e de descargas elétricas.",
-      "instruction": "Evite sair durante chuvas fortes e rajadas de vento / Não atravesse áreas alagadas, ruas com correnteza ou pontes submersas / Procure abrigo em local seguro, longe de árvores, postes e estruturas frágeis / Fique atento a sinais de risco, como rachaduras no solo, inclinação de árvores ou muros e aumento rápido do nível da água / Em caso de risco de deslizamento, saia imediatamente e busque um local seguro / Desligue aparelhos elétricos em caso de temporal / Em caso de emergência ligue 199 ou 193.",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "MARANHÃO-MA",
-      "polygon_raw": "-2.132,-44.448 -2.131,-44.448 -2.131,-44.449 -2.13,-44.449 -2.129,-44.45 -2.129,-44.45 -2.129,-44.45 -2.129,-44.451 -2.131,-44.451 -2.132,-44.452 -2.132,-44.452 -2.132,-44.452 -2.131,-44.452 -2.13,-44.453 -2.13,-44.453 -2.13,-44.454 -2.13,-44.455 -2.131,-44.456 -2.132,-44.458 -2.132,-44.458 -2.133,-44.458 -2.134,-44.458 -2.134,-44.457 -2.134,-44.456 -2.134,-44.455 -2.133,-44.453 -2.134,-44.451 -2.132,-44.448",
-      "polygon_points": 28,
-      "has_geocode": true,
-      "uf_hint": "MA",
-      "region": "NE",
-      "geometry_wkt": "POLYGON ((-44.448 -2.132, -44.448 -2.131, -44.449 -2.131, -44.449 -2.13, -44.45 -2.129, -44.45 -2.129, -44.45 -2.129, -44.451 -2.129, -44.451 -2.131, -44.452 -2.132, -44.452 -2.132, -44.452 -2.132, -44.452 -2.131, -44.453 -2.13, -44.453 -2.13, -44.454 -2.13, -44.455 -2.13, -44.456 -2.131, -44.458 -2.132, -44.458 -2.132, -44.458 -2.133, -44.458 -2.134, -44.457 -2.134, -44.456 -2.134, -44.455 -2.134, -44.453 -2.133, -44.451 -2.134, -44.448 -2.132))",
-      "uf": "MA",
-      "location": "MARANHÃO-MA",
-      "event_short": "Chuvas Intensas",
-      "status_vigencia": "expirado",
-      "date": "28/05/2026",
-      "time": "09:32",
-      "sent_br": "2026-05-28T09:51:34-03:00",
-      "onset_br": "2026-05-28T09:32:00-03:00",
-      "expires_br": "2026-05-28T23:55:00-03:00",
-      "duration_minutes": 863,
-      "duration_hours": 14.38,
-      "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1303,
-      "time_since_hours": 21.72,
+      "time_since_minutes": 1243,
+      "time_since_hours": 20.72,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     }
