@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-30T05:42:26.224188-03:00",
-  "source_run_dir": "run_20260530_054211",
+  "generated_at": "2026-05-30T08:46:50.983760-03:00",
+  "source_run_dir": "run_20260530_084639",
   "cards": {
-    "vigentes": 8,
-    "ultimas24h": 31,
+    "vigentes": 9,
+    "ultimas24h": 33,
     "autoridadesAtivas": 6,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "08:43",
+      "date": "30/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "06:57",
+      "date": "30/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Novo Airão/AM, Itacoatiara/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "00:24",
       "date": "30/05/2026",
@@ -43,30 +67,6 @@
       "uf": "PA",
       "headline": "Defesa Civil:DEFESA CIVIL MOJU: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
       "status": "expirado"
-    },
-    {
-      "time": "19:22",
-      "date": "29/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "18:27",
-      "date": "29/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Marituba/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:DEFESA CIVIL MARITUBA:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 9
+      "count": 11
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
@@ -108,7 +108,7 @@
     },
     {
       "label": "Alto",
-      "count": 16
+      "count": 18
     },
     {
       "label": "Severo",
@@ -118,7 +118,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 24
+      "count": 26
     },
     {
       "label": "Inundações",
@@ -140,7 +140,7 @@
     },
     {
       "uf": "AM",
-      "count": 9
+      "count": 11
     },
     {
       "uf": "PR",
@@ -158,14 +158,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 8
+      "count": 9
     },
     {
       "label": "expirado",
-      "count": 23
+      "count": 24
     }
   ],
   "all_alerts": [
+    {
+      "date": "30/05/2026",
+      "time": "08:43",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-30T08:43:46-03:00",
+      "expires": "2026-05-30T10:00:00-03:00"
+    },
+    {
+      "date": "30/05/2026",
+      "time": "06:57",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Novo Airão/AM, Itacoatiara/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-30T06:57:57-03:00",
+      "expires": "2026-05-30T10:30:00-03:00"
+    },
     {
       "date": "30/05/2026",
       "time": "00:24",
@@ -500,7 +526,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:Alerta ALTO de chuvas e ventos intensos para hoje (29MAIO). Risco de alagamentos. Abrigue-se. Emergencias, ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-29T14:06:55-03:00",
       "expires": "2026-05-30T08:00:00-03:00"
     },
@@ -571,17 +597,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 31,
+    "total_alerts": 33,
     "by_nivel": {
-      "Alto": 16,
+      "Alto": 18,
       "Médio": 11,
       "Severo": 4
     },
     "by_channel_list": {
-      "Google": 31
+      "Google": 33
     },
     "by_region": {
-      "N": 22,
+      "N": 24,
       "S": 8,
       "NE": 1
     }
