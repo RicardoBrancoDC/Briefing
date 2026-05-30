@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-05-29T20:44:31.717890-03:00",
-  "source_run_dir": "run_20260529_204403",
+  "generated_at": "2026-05-30T01:20:20.175874-03:00",
+  "source_run_dir": "run_20260530_011958",
   "cards": {
-    "vigentes": 15,
-    "ultimas24h": 29,
-    "autoridadesAtivas": 5,
+    "vigentes": 10,
+    "ultimas24h": 31,
+    "autoridadesAtivas": 6,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "00:24",
+      "date": "30/05/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
+      "status": "vigente"
+    },
+    {
+      "time": "00:00",
+      "date": "30/05/2026",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "senderNameShort": "DC Blumenau (SC)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Blumenau/SC",
+      "uf": "SC",
+      "headline": "Defesa Civil:ALERTABLU-ATENCAO:Chuva fraca a moderada isolada entre madrugada e manha do sabado (30/05) em Blumenau. Fique atento! Emerg 199/193.",
+      "status": "vigente"
+    },
     {
       "time": "19:26",
       "date": "29/05/2026",
@@ -18,7 +42,7 @@
       "location": "Moju/PA",
       "uf": "PA",
       "headline": "Defesa Civil:DEFESA CIVIL MOJU: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "19:22",
@@ -30,7 +54,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "18:27",
@@ -42,31 +66,7 @@
       "location": "Marituba/PA",
       "uf": "PA",
       "headline": "Defesa Civil:DEFESA CIVIL MARITUBA:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "vigente"
-    },
-    {
-      "time": "18:21",
-      "date": "29/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Ananindeua/PA, Belém/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:METROPOLITANA BELEM:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "vigente"
-    },
-    {
-      "time": "18:05",
-      "date": "29/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "location": "Tabatinga/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Evite areas baixas e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -83,12 +83,17 @@
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil de Blumenau (SC)",
+      "short_name": "DC Blumenau (SC)",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Maranhão",
@@ -99,7 +104,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 9
+      "count": 11
     },
     {
       "label": "Alto",
@@ -113,7 +118,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 22
+      "count": 24
     },
     {
       "label": "Inundações",
@@ -139,11 +144,11 @@
     },
     {
       "uf": "PR",
-      "count": 4
+      "count": 5
     },
     {
       "uf": "SC",
-      "count": 2
+      "count": 3
     },
     {
       "uf": "MA",
@@ -153,14 +158,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 15
+      "count": 10
     },
     {
       "label": "expirado",
-      "count": 14
+      "count": 21
     }
   ],
   "all_alerts": [
+    {
+      "date": "30/05/2026",
+      "time": "00:24",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
+      "status": "vigente",
+      "onset": "2026-05-30T00:24:10-03:00",
+      "expires": "2026-05-30T03:20:00-03:00"
+    },
+    {
+      "date": "30/05/2026",
+      "time": "00:00",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "Blumenau/SC",
+      "headline": "Defesa Civil:ALERTABLU-ATENCAO:Chuva fraca a moderada isolada entre madrugada e manha do sabado (30/05) em Blumenau. Fique atento! Emerg 199/193.",
+      "status": "vigente",
+      "onset": "2026-05-30T00:00:00-03:00",
+      "expires": "2026-05-30T12:00:00-03:00"
+    },
     {
       "date": "29/05/2026",
       "time": "19:26",
@@ -170,7 +201,7 @@
       "uf": "PA",
       "location": "Moju/PA",
       "headline": "Defesa Civil:DEFESA CIVIL MOJU: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-29T19:26:45-03:00",
       "expires": "2026-05-29T21:20:00-03:00"
     },
@@ -183,7 +214,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-29T19:22:28-03:00",
       "expires": "2026-05-29T23:10:00-03:00"
     },
@@ -196,7 +227,7 @@
       "uf": "PA",
       "location": "Marituba/PA",
       "headline": "Defesa Civil:DEFESA CIVIL MARITUBA:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-29T18:27:05-03:00",
       "expires": "2026-05-29T21:00:00-03:00"
     },
@@ -209,7 +240,7 @@
       "uf": "PA",
       "location": "Ananindeua/PA, Belém/PA",
       "headline": "Defesa Civil:METROPOLITANA BELEM:ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-29T18:21:11-03:00",
       "expires": "2026-05-29T21:05:00-03:00"
     },
@@ -222,7 +253,7 @@
       "uf": "AM",
       "location": "Tabatinga/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Evite areas baixas e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-29T18:05:02-03:00",
       "expires": "2026-05-29T21:30:00-03:00"
     },
@@ -261,7 +292,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-29T17:44:56-03:00",
       "expires": "2026-05-29T20:45:00-03:00"
     },
@@ -508,7 +539,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Observação Meteorológica SDC/SC 28/05 09:50 - Temporais isolados com rajadas de vento e granizo na sexta-feira (29). Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-29T13:00:00-03:00",
       "expires": "2026-05-29T23:55:00-03:00"
     },
@@ -540,18 +571,18 @@
     }
   ],
   "summary": {
-    "total_alerts": 29,
+    "total_alerts": 31,
     "by_nivel": {
       "Alto": 16,
-      "Médio": 9,
+      "Médio": 11,
       "Severo": 4
     },
     "by_channel_list": {
-      "Google": 29
+      "Google": 31
     },
     "by_region": {
       "N": 22,
-      "S": 6,
+      "S": 8,
       "NE": 1
     }
   }
