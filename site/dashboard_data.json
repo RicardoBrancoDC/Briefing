@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-05-30T08:46:50.983760-03:00",
-  "source_run_dir": "run_20260530_084639",
+  "generated_at": "2026-05-30T11:07:47.448876-03:00",
+  "source_run_dir": "run_20260530_110734",
   "cards": {
-    "vigentes": 9,
-    "ultimas24h": 33,
-    "autoridadesAtivas": 6,
+    "vigentes": 7,
+    "ultimas24h": 32,
+    "autoridadesAtivas": 5,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "10:30",
+      "date": "30/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Faro/PA, Oriximiná/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (30MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
+      "status": "vigente"
+    },
     {
       "time": "08:43",
       "date": "30/05/2026",
@@ -18,7 +30,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "06:57",
@@ -30,7 +42,7 @@
       "location": "Novo Airão/AM, Itacoatiara/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "00:24",
@@ -55,25 +67,13 @@
       "uf": "SC",
       "headline": "Defesa Civil:ALERTABLU-ATENCAO:Chuva fraca a moderada isolada entre madrugada e manha do sabado (30/05) em Blumenau. Fique atento! Emerg 199/193.",
       "status": "vigente"
-    },
-    {
-      "time": "19:26",
-      "date": "29/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Moju/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:DEFESA CIVIL MOJU: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 13
+      "count": 14
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -83,7 +83,7 @@
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -94,17 +94,12 @@
       "name": "Defesa Civil de Blumenau (SC)",
       "short_name": "DC Blumenau (SC)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Maranhão",
-      "short_name": "DC Maranhão",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 11
+      "count": 10
     },
     {
       "label": "Alto",
@@ -118,7 +113,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 26
+      "count": 25
     },
     {
       "label": "Inundações",
@@ -136,7 +131,7 @@
   "uf_distribution": [
     {
       "uf": "PA",
-      "count": 13
+      "count": 14
     },
     {
       "uf": "AM",
@@ -144,28 +139,37 @@
     },
     {
       "uf": "PR",
-      "count": 5
+      "count": 4
     },
     {
       "uf": "SC",
       "count": 3
-    },
-    {
-      "uf": "MA",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 9
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 24
+      "count": 25
     }
   ],
   "all_alerts": [
+    {
+      "date": "30/05/2026",
+      "time": "10:30",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Faro/PA, Oriximiná/PA",
+      "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (30MAI). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
+      "status": "vigente",
+      "onset": "2026-05-30T10:30:52-03:00",
+      "expires": "2026-05-31T10:00:00-03:00"
+    },
     {
       "date": "30/05/2026",
       "time": "08:43",
@@ -175,7 +179,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-30T08:43:46-03:00",
       "expires": "2026-05-30T10:00:00-03:00"
     },
@@ -188,7 +192,7 @@
       "uf": "AM",
       "location": "Novo Airão/AM, Itacoatiara/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-30T06:57:57-03:00",
       "expires": "2026-05-30T10:30:00-03:00"
     },
@@ -568,48 +572,21 @@
       "status": "expirado",
       "onset": "2026-05-29T13:00:00-03:00",
       "expires": "2026-05-29T23:55:00-03:00"
-    },
-    {
-      "date": "29/05/2026",
-      "time": "10:50",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR AVISO DE TEMPO: Tempestades irregulares e chuva pontualmente forte na tarde/noite desta sex, 29/05. Mantenha-se atento. Ocorrencias, 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-29T10:50:01-03:00",
-      "expires": "2026-05-30T04:00:00-03:00"
-    },
-    {
-      "date": "29/05/2026",
-      "time": "10:20",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MA",
-      "location": "MARANHÃO-MA",
-      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-05-29T10:20:00-03:00",
-      "expires": "2026-05-30T10:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 33,
+    "total_alerts": 32,
     "by_nivel": {
       "Alto": 18,
-      "Médio": 11,
+      "Médio": 10,
       "Severo": 4
     },
     "by_channel_list": {
-      "Google": 33
+      "Google": 32
     },
     "by_region": {
-      "N": 24,
-      "S": 8,
-      "NE": 1
+      "N": 25,
+      "S": 7
     }
   }
 }
