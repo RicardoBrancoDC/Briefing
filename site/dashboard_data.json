@@ -1,75 +1,80 @@
 {
-  "generated_at": "2026-05-30T20:17:44.967440-03:00",
-  "source_run_dir": "run_20260530_201716",
+  "generated_at": "2026-05-31T01:55:45.681575-03:00",
+  "source_run_dir": "run_20260531_015456",
   "cards": {
     "vigentes": 6,
-    "ultimas24h": 25,
-    "autoridadesAtivas": 6,
+    "ultimas24h": 29,
+    "autoridadesAtivas": 5,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "19:12",
+      "time": "23:22",
       "date": "30/05/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Ritápolis/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de pancadas de chuva com raios nas proximas 2h. Proteja-se!",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Severo",
+      "location": "Parintins/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento.   Nao enfrente areas alagadas. Procure local seguro.  Siga as orientacoes da defesa civil local.",
       "status": "vigente"
     },
     {
-      "time": "18:52",
-      "date": "30/05/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Passa Tempo/MG, Resende Costa/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de pancadas de chuva com raios nas proximas 2h. Proteja-se!",
-      "status": "vigente"
-    },
-    {
-      "time": "18:51",
+      "time": "22:50",
       "date": "30/05/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
       "event": "Chuvas Intensas",
-      "nivel": "Médio",
+      "nivel": "Alto",
       "location": "AMAZONAS/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
       "status": "vigente"
     },
     {
-      "time": "18:38",
+      "time": "22:20",
       "date": "30/05/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
       "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Tonantins/AM, Santo Antônio do Içá/AM",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "expirado"
+    },
+    {
+      "time": "22:17",
+      "date": "30/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
       "status": "vigente"
     },
     {
-      "time": "17:56",
+      "time": "21:33",
       "date": "30/05/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "senderNameShort": "DC Manaus (AM)",
       "event": "Chuvas Intensas",
       "nivel": "Alto",
-      "location": "Oliveira/MG, São Tiago/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de pancadas de chuva com raios nas proximas 2h.  Proteja-se!",
-      "status": "expirado"
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA de Chuva Intensa. Evite locais com risco de alagamento e enxurrada. Em caso de emergencia, ligue 199 ou 193.",
+      "status": "vigente"
     }
   ],
   "top_emitters": [
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 12
+    },
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
@@ -81,47 +86,45 @@
       "count": 7
     },
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 7
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Maranhão",
       "short_name": "DC Maranhão",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Blumenau (SC)",
-      "short_name": "DC Blumenau (SC)",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 7
+      "count": 5
     },
     {
       "label": "Alto",
-      "count": 13
+      "count": 18
     },
     {
       "label": "Severo",
-      "count": 5
+      "count": 6
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 25
+      "count": 28
+    },
+    {
+      "label": "Alagamentos",
+      "count": 1
     }
   ],
   "uf_distribution": [
+    {
+      "uf": "AM",
+      "count": 13
+    },
     {
       "uf": "PA",
       "count": 8
@@ -131,19 +134,7 @@
       "count": 7
     },
     {
-      "uf": "AM",
-      "count": 7
-    },
-    {
       "uf": "MA",
-      "count": 1
-    },
-    {
-      "uf": "PR",
-      "count": 1
-    },
-    {
-      "uf": "SC",
       "count": 1
     }
   ],
@@ -154,10 +145,88 @@
     },
     {
       "label": "expirado",
-      "count": 19
+      "count": 23
     }
   ],
   "all_alerts": [
+    {
+      "date": "30/05/2026",
+      "time": "23:22",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Severo",
+      "uf": "AM",
+      "location": "Parintins/AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento.   Nao enfrente areas alagadas. Procure local seguro.  Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-30T23:22:59-03:00",
+      "expires": "2026-05-31T05:00:00-03:00"
+    },
+    {
+      "date": "30/05/2026",
+      "time": "22:50",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-30T22:50:22-03:00",
+      "expires": "2026-05-31T02:45:00-03:00"
+    },
+    {
+      "date": "30/05/2026",
+      "time": "22:20",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-05-30T22:20:38-03:00",
+      "expires": "2026-05-31T00:45:00-03:00"
+    },
+    {
+      "date": "30/05/2026",
+      "time": "22:17",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-30T22:17:29-03:00",
+      "expires": "2026-05-31T02:10:00-03:00"
+    },
+    {
+      "date": "30/05/2026",
+      "time": "21:33",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA de Chuva Intensa. Evite locais com risco de alagamento e enxurrada. Em caso de emergencia, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-05-30T21:33:25-03:00",
+      "expires": "2026-05-31T04:55:00-03:00"
+    },
+    {
+      "date": "30/05/2026",
+      "time": "20:44",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-05-30T20:44:37-03:00",
+      "expires": "2026-05-31T00:25:00-03:00"
+    },
     {
       "date": "30/05/2026",
       "time": "19:12",
@@ -167,7 +236,7 @@
       "uf": "MG",
       "location": "Ritápolis/MG",
       "headline": "Defesa Civil:Alerta de pancadas de chuva com raios nas proximas 2h. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-30T19:12:29-03:00",
       "expires": "2026-05-30T21:10:00-03:00"
     },
@@ -180,7 +249,7 @@
       "uf": "MG",
       "location": "Passa Tempo/MG, Resende Costa/MG",
       "headline": "Defesa Civil:Alerta de pancadas de chuva com raios nas proximas 2h. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-30T18:52:42-03:00",
       "expires": "2026-05-30T20:50:00-03:00"
     },
@@ -193,7 +262,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-30T18:51:43-03:00",
       "expires": "2026-05-30T21:30:00-03:00"
     },
@@ -206,7 +275,7 @@
       "uf": "AM",
       "location": "Tonantins/AM, Santo Antônio do Içá/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-30T18:38:31-03:00",
       "expires": "2026-05-30T21:00:00-03:00"
     },
@@ -456,48 +525,21 @@
       "status": "expirado",
       "onset": "2026-05-30T06:57:57-03:00",
       "expires": "2026-05-30T10:30:00-03:00"
-    },
-    {
-      "date": "30/05/2026",
-      "time": "00:24",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:DCPR OBSERVACAO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193",
-      "status": "expirado",
-      "onset": "2026-05-30T00:24:10-03:00",
-      "expires": "2026-05-30T03:20:00-03:00"
-    },
-    {
-      "date": "30/05/2026",
-      "time": "00:00",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "Blumenau/SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO:Chuva fraca a moderada isolada entre madrugada e manha do sabado (30/05) em Blumenau. Fique atento! Emerg 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-30T00:00:00-03:00",
-      "expires": "2026-05-30T12:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 25,
+    "total_alerts": 29,
     "by_nivel": {
-      "Alto": 13,
-      "Médio": 7,
-      "Severo": 5
+      "Alto": 18,
+      "Severo": 6,
+      "Médio": 5
     },
     "by_channel_list": {
-      "Google": 25
+      "Google": 29
     },
     "by_region": {
-      "N": 15,
+      "N": 21,
       "SE": 7,
-      "S": 2,
       "NE": 1
     }
   }
