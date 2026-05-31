@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-05-31T11:14:00.211373-03:00",
-  "source_run_dir": "run_20260531_111338",
+  "generated_at": "2026-05-31T12:43:04.765277-03:00",
+  "source_run_dir": "run_20260531_124232",
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 39,
+    "vigentes": 8,
+    "ultimas24h": 42,
     "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "12:17",
+      "date": "31/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "12:06",
+      "date": "31/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Severo",
+      "location": "Itacoatiara/AM, Maués/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.   Afaste-se de encostas. Procure abrigo seguro.  Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "12:01",
+      "date": "31/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Severo",
+      "location": "Manacapuru/AM, Manaquiri/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.   Afaste-se de encostas. Procure abrigo seguro.  Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "10:45",
       "date": "31/05/2026",
@@ -31,49 +67,13 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.   Afaste-se de encostas. Procure abrigo seguro.  Siga as orientacoes da defesa civil local.",
       "status": "vigente"
-    },
-    {
-      "time": "10:18",
-      "date": "31/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "location": "Beruri/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.   Afaste-se de encostas. Procure abrigo seguro.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "09:51",
-      "date": "31/05/2026",
-      "senderName": "Defesa Civil Estadual da Bahia",
-      "senderNameShort": "DC Bahia",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "BAHIA/BA",
-      "uf": "BA",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para BAHIA/BA. Siga as orientacoes da defesa civil . Em caso de emergencia, ligue 193",
-      "status": "vigente"
-    },
-    {
-      "time": "09:33",
-      "date": "31/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Borba/AM, Careiro/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 20
+      "count": 23
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -117,27 +117,27 @@
     },
     {
       "label": "Severo",
-      "count": 13
+      "count": 16
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 34
+      "count": 35
+    },
+    {
+      "label": "Solo/Lama",
+      "count": 4
     },
     {
       "label": "Alagamentos",
       "count": 3
-    },
-    {
-      "label": "Solo/Lama",
-      "count": 2
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 22
+      "count": 25
     },
     {
       "uf": "MG",
@@ -159,14 +159,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 8
     },
     {
       "label": "expirado",
-      "count": 33
+      "count": 34
     }
   ],
   "all_alerts": [
+    {
+      "date": "31/05/2026",
+      "time": "12:17",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-31T12:17:43-03:00",
+      "expires": "2026-05-31T14:15:00-03:00"
+    },
+    {
+      "date": "31/05/2026",
+      "time": "12:06",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Severo",
+      "uf": "AM",
+      "location": "Itacoatiara/AM, Maués/AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.   Afaste-se de encostas. Procure abrigo seguro.  Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-31T12:06:43-03:00",
+      "expires": "2026-05-31T17:00:00-03:00"
+    },
+    {
+      "date": "31/05/2026",
+      "time": "12:01",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Severo",
+      "uf": "AM",
+      "location": "Manacapuru/AM, Manaquiri/AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.   Afaste-se de encostas. Procure abrigo seguro.  Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-31T12:01:19-03:00",
+      "expires": "2026-05-31T17:00:00-03:00"
+    },
     {
       "date": "31/05/2026",
       "time": "10:45",
@@ -254,7 +293,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-31T08:06:04-03:00",
       "expires": "2026-05-31T11:40:00-03:00"
     },
@@ -676,17 +715,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 39,
+    "total_alerts": 42,
     "by_nivel": {
       "Alto": 20,
-      "Severo": 13,
+      "Severo": 16,
       "Médio": 6
     },
     "by_channel_list": {
-      "Google": 39
+      "Google": 42
     },
     "by_region": {
-      "N": 29,
+      "N": 32,
       "SE": 7,
       "NE": 3
     }
