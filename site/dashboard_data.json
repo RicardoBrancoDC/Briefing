@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-05-31T16:43:36.629574-03:00",
-  "source_run_dir": "run_20260531_164313",
+  "generated_at": "2026-05-31T18:17:55.298551-03:00",
+  "source_run_dir": "run_20260531_181729",
   "cards": {
-    "vigentes": 7,
-    "ultimas24h": 35,
+    "vigentes": 8,
+    "ultimas24h": 33,
     "autoridadesAtivas": 6,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "17:43",
+      "date": "31/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Coari/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "17:15",
+      "date": "31/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Santa Luzia do Pará/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:SANTA LUZIA DO PARA:Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais.Evite areas alagadas e dirija com atencao",
+      "status": "vigente"
+    },
+    {
+      "time": "17:12",
+      "date": "31/05/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Garrafão do Norte/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:GARRAFAO DO NORTE: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao",
+      "status": "vigente"
+    },
+    {
+      "time": "17:11",
+      "date": "31/05/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Manicoré/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "16:40",
       "date": "31/05/2026",
@@ -19,54 +67,6 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
       "status": "vigente"
-    },
-    {
-      "time": "13:46",
-      "date": "31/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento para Manaus. Afaste-se de encostas. Procure abrigo seguro. Em caso de emergencia ligue 199 e 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "12:49",
-      "date": "31/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Severo",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento para area urbana de Manaus. Evite areas alagadas e fique em local seguro. Em caso de emergencia ligue 199 e 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "12:17",
-      "date": "31/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "12:06",
-      "date": "31/05/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "location": "Itacoatiara/AM, Maués/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.   Afaste-se de encostas. Procure abrigo seguro.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -76,13 +76,18 @@
       "count": 25
     },
     {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 5
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
+      "count": 2
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
       "count": 2
     },
     {
@@ -94,17 +99,12 @@
       "name": "Defesa Civil Estadual da Bahia",
       "short_name": "DC Bahia",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 6
+      "count": 5
     },
     {
       "label": "Alto",
@@ -112,13 +112,13 @@
     },
     {
       "label": "Severo",
-      "count": 14
+      "count": 13
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 26
+      "count": 24
     },
     {
       "label": "Solo/Lama",
@@ -135,29 +135,81 @@
       "count": 27
     },
     {
-      "uf": "MG",
-      "count": 5
+      "uf": "PA",
+      "count": 2
     },
     {
       "uf": "BA",
       "count": 2
     },
     {
-      "uf": "PA",
-      "count": 1
+      "uf": "MG",
+      "count": 2
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 8
     },
     {
       "label": "expirado",
-      "count": 28
+      "count": 25
     }
   ],
   "all_alerts": [
+    {
+      "date": "31/05/2026",
+      "time": "17:43",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Coari/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-31T17:43:34-03:00",
+      "expires": "2026-05-31T19:00:00-03:00"
+    },
+    {
+      "date": "31/05/2026",
+      "time": "17:15",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Santa Luzia do Pará/PA",
+      "headline": "Defesa Civil:SANTA LUZIA DO PARA:Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais.Evite areas alagadas e dirija com atencao",
+      "status": "vigente",
+      "onset": "2026-05-31T17:15:38-03:00",
+      "expires": "2026-05-31T20:00:00-03:00"
+    },
+    {
+      "date": "31/05/2026",
+      "time": "17:12",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "Garrafão do Norte/PA",
+      "headline": "Defesa Civil:GARRAFAO DO NORTE: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao",
+      "status": "vigente",
+      "onset": "2026-05-31T17:12:07-03:00",
+      "expires": "2026-05-31T19:00:00-03:00"
+    },
+    {
+      "date": "31/05/2026",
+      "time": "17:11",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Manicoré/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-05-31T17:11:56-03:00",
+      "expires": "2026-05-31T18:35:00-03:00"
+    },
     {
       "date": "31/05/2026",
       "time": "16:40",
@@ -193,7 +245,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento para area urbana de Manaus. Evite areas alagadas e fique em local seguro. Em caso de emergencia ligue 199 e 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-31T12:49:28-03:00",
       "expires": "2026-05-31T18:00:00-03:00"
     },
@@ -219,7 +271,7 @@
       "uf": "AM",
       "location": "Itacoatiara/AM, Maués/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.   Afaste-se de encostas. Procure abrigo seguro.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-31T12:06:43-03:00",
       "expires": "2026-05-31T17:00:00-03:00"
     },
@@ -232,7 +284,7 @@
       "uf": "AM",
       "location": "Manacapuru/AM, Manaquiri/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.   Afaste-se de encostas. Procure abrigo seguro.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-31T12:01:19-03:00",
       "expires": "2026-05-31T17:00:00-03:00"
     },
@@ -534,100 +586,22 @@
       "status": "expirado",
       "onset": "2026-05-30T18:38:31-03:00",
       "expires": "2026-05-30T21:00:00-03:00"
-    },
-    {
-      "date": "30/05/2026",
-      "time": "17:56",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Oliveira/MG, São Tiago/MG",
-      "headline": "Defesa Civil:Alerta de pancadas de chuva com raios nas proximas 2h.  Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-05-30T17:56:56-03:00",
-      "expires": "2026-05-30T19:55:00-03:00"
-    },
-    {
-      "date": "30/05/2026",
-      "time": "17:43",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de pancadas de chuva com raios nas proximas 2h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-05-30T17:43:39-03:00",
-      "expires": "2026-05-30T19:30:00-03:00"
-    },
-    {
-      "date": "30/05/2026",
-      "time": "17:38",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-30T17:38:50-03:00",
-      "expires": "2026-05-30T20:00:00-03:00"
-    },
-    {
-      "date": "30/05/2026",
-      "time": "17:26",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Fonte Boa/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-30T17:26:23-03:00",
-      "expires": "2026-05-30T20:00:00-03:00"
-    },
-    {
-      "date": "30/05/2026",
-      "time": "17:00",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "PA",
-      "location": "Vigia/PA",
-      "headline": "Defesa Civil:VIGIA: ALERTA de CHUVAS INTENSAS. EVITE AREAS DE RISCO. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "expirado",
-      "onset": "2026-05-30T17:00:31-03:00",
-      "expires": "2026-05-30T20:00:00-03:00"
-    },
-    {
-      "date": "30/05/2026",
-      "time": "16:45",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de pancadas de chuva com raios nas proximas 2h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-05-30T16:45:51-03:00",
-      "expires": "2026-05-30T18:40:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 35,
+    "total_alerts": 33,
     "by_nivel": {
       "Alto": 15,
-      "Severo": 14,
-      "Médio": 6
+      "Severo": 13,
+      "Médio": 5
     },
     "by_channel_list": {
-      "Google": 35
+      "Google": 33
     },
     "by_region": {
-      "N": 28,
-      "SE": 5,
-      "NE": 2
+      "N": 29,
+      "NE": 2,
+      "SE": 2
     }
   }
 }
