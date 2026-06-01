@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-06-01T02:19:47.526600-03:00",
-  "source_run_dir": "run_20260601_021928",
+  "generated_at": "2026-06-01T09:11:33.458365-03:00",
+  "source_run_dir": "run_20260601_091120",
   "cards": {
-    "vigentes": 3,
-    "ultimas24h": 24,
-    "autoridadesAtivas": 5,
+    "vigentes": 4,
+    "ultimas24h": 19,
+    "autoridadesAtivas": 6,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "08:48",
+      "date": "01/06/2026",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "senderNameShort": "DC Maranhão",
+      "event": "Enxurradas",
+      "nivel": "Médio",
+      "location": "Chapadinha/MA",
+      "uf": "MA",
+      "headline": "Defesa Civil:Alerta de Enxurradas para Chapadinha/MA. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. LIGUE 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "06:20",
+      "date": "01/06/2026",
+      "senderName": "Defesa Civil de Salvador (BA)",
+      "senderNameShort": "DC Salvador (BA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Salvador/BA",
+      "uf": "BA",
+      "headline": "Defesa Civil:Alerta de continuidade de chuvas moderadas a fortes, com risco para alagamento e deslizamento de terra. Emergencia, disque 199. CODESAL",
+      "status": "vigente"
+    },
     {
       "time": "23:24",
       "date": "31/05/2026",
@@ -18,7 +42,7 @@
       "location": "Jutaí/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "21:34",
@@ -43,42 +67,28 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
       "status": "expirado"
-    },
-    {
-      "time": "17:15",
-      "date": "31/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Santa Luzia do Pará/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:SANTA LUZIA DO PARA:Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais.Evite areas alagadas e dirija com atencao",
-      "status": "expirado"
-    },
-    {
-      "time": "17:12",
-      "date": "31/05/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Garrafão do Norte/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:GARRAFAO DO NORTE: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 19
+      "count": 13
     },
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual do Maranhão",
+      "short_name": "DC Maranhão",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Salvador (BA)",
+      "short_name": "DC Salvador (BA)",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Valença (BA)",
@@ -89,11 +99,6 @@
       "name": "Defesa Civil Estadual da Bahia",
       "short_name": "DC Bahia",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -103,17 +108,17 @@
     },
     {
       "label": "Alto",
-      "count": 8
+      "count": 7
     },
     {
       "label": "Severo",
-      "count": 12
+      "count": 8
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 15
+      "count": 11
     },
     {
       "label": "Solo/Lama",
@@ -121,34 +126,68 @@
     },
     {
       "label": "Alagamentos",
-      "count": 4
+      "count": 2
+    },
+    {
+      "label": "Enxurradas",
+      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 20
+      "count": 13
+    },
+    {
+      "uf": "BA",
+      "count": 3
     },
     {
       "uf": "PA",
       "count": 2
     },
     {
-      "uf": "BA",
-      "count": 2
+      "uf": "MA",
+      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 3
+      "count": 4
     },
     {
       "label": "expirado",
-      "count": 21
+      "count": 15
     }
   ],
   "all_alerts": [
+    {
+      "date": "01/06/2026",
+      "time": "08:48",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "event": "Enxurradas",
+      "nivel": "Médio",
+      "uf": "MA",
+      "location": "Chapadinha/MA",
+      "headline": "Defesa Civil:Alerta de Enxurradas para Chapadinha/MA. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. LIGUE 193.",
+      "status": "vigente",
+      "onset": "2026-06-01T08:48:40-03:00",
+      "expires": "2026-06-01T23:55:00-03:00"
+    },
+    {
+      "date": "01/06/2026",
+      "time": "06:20",
+      "senderName": "Defesa Civil de Salvador (BA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "BA",
+      "location": "Salvador/BA",
+      "headline": "Defesa Civil:Alerta de continuidade de chuvas moderadas a fortes, com risco para alagamento e deslizamento de terra. Emergencia, disque 199. CODESAL",
+      "status": "vigente",
+      "onset": "2026-06-01T06:20:38-03:00",
+      "expires": "2026-06-02T18:35:00-03:00"
+    },
     {
       "date": "31/05/2026",
       "time": "23:24",
@@ -158,7 +197,7 @@
       "uf": "AM",
       "location": "Jutaí/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-05-31T23:24:14-03:00",
       "expires": "2026-06-01T07:30:00-03:00"
     },
@@ -369,112 +408,21 @@
       "status": "expirado",
       "onset": "2026-05-31T09:33:53-03:00",
       "expires": "2026-05-31T10:50:00-03:00"
-    },
-    {
-      "date": "31/05/2026",
-      "time": "09:07",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Maués/AM, Itacoatiara/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-31T09:07:24-03:00",
-      "expires": "2026-05-31T10:50:00-03:00"
-    },
-    {
-      "date": "31/05/2026",
-      "time": "08:06",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-31T08:06:04-03:00",
-      "expires": "2026-05-31T11:40:00-03:00"
-    },
-    {
-      "date": "31/05/2026",
-      "time": "07:58",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa. Evite areas com historico de alagamento.    Em caso de emergencia ligue: 199/193.",
-      "status": "expirado",
-      "onset": "2026-05-31T07:58:37-03:00",
-      "expires": "2026-05-31T11:00:00-03:00"
-    },
-    {
-      "date": "31/05/2026",
-      "time": "07:51",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA: Risco de alagamento para Manaus. Siga as orientacoes da Defesa Civil local. Emergencia ligue 193/199.",
-      "status": "expirado",
-      "onset": "2026-05-31T07:51:45-03:00",
-      "expires": "2026-05-31T13:00:00-03:00"
-    },
-    {
-      "date": "31/05/2026",
-      "time": "07:26",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa.  Evite transitar por areas de risco. Chuva intensa com risco de alagamentos e enxurradas.",
-      "status": "expirado",
-      "onset": "2026-05-31T07:26:38-03:00",
-      "expires": "2026-05-31T11:00:00-03:00"
-    },
-    {
-      "date": "31/05/2026",
-      "time": "07:17",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Manacapuru/AM, Manaquiri/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa.  Evite transitar por areas de risco. Chuva intensa com risco de alagamentos e enxurradas.  Siga as orientacoes",
-      "status": "expirado",
-      "onset": "2026-05-31T07:17:58-03:00",
-      "expires": "2026-05-31T11:00:00-03:00"
-    },
-    {
-      "date": "31/05/2026",
-      "time": "04:04",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Nhamundá/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-05-31T04:04:27-03:00",
-      "expires": "2026-05-31T07:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 24,
+    "total_alerts": 19,
     "by_nivel": {
-      "Severo": 12,
-      "Alto": 8,
+      "Severo": 8,
+      "Alto": 7,
       "Médio": 4
     },
     "by_channel_list": {
-      "Google": 24
+      "Google": 19
     },
     "by_region": {
-      "N": 22,
-      "NE": 2
+      "N": 15,
+      "NE": 4
     }
   }
 }
