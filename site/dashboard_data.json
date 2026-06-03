@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-06-03T08:24:23.857967-03:00",
-  "source_run_dir": "run_20260603_082412",
+  "generated_at": "2026-06-03T14:21:15.488016-03:00",
+  "source_run_dir": "run_20260603_142102",
   "cards": {
-    "vigentes": 11,
-    "ultimas24h": 26,
-    "autoridadesAtivas": 17,
+    "vigentes": 7,
+    "ultimas24h": 15,
+    "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "11:25",
+      "date": "03/06/2026",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "senderNameShort": "DC Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MARANHÃO-MA",
+      "uf": "MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "10:27",
+      "date": "03/06/2026",
+      "senderName": "Defesa Civil de Niterói (RJ)",
+      "senderNameShort": "DC Niterói (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Baixo",
+      "location": "Niterói/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Niteroi: Retorno para Estagio de VIGILANCIA na cidade de Niteroi as 10h15min desta quarta-feira (03/06). Em caso de emergencia, ligue 199.",
+      "status": "vigente"
+    },
+    {
+      "time": "10:22",
+      "date": "03/06/2026",
+      "senderName": "Defesa Civil de Salvador (BA)",
+      "senderNameShort": "DC Salvador (BA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Salvador/BA",
+      "uf": "BA",
+      "headline": "Defesa Civil:Mudanca p/ NIVEL ATENCAO devido ao acumulado de chuva acima de 80mm em 72h e previsao chuva forte. Emergencia, disque 199. CODESAL",
+      "status": "vigente"
+    },
     {
       "time": "07:47",
       "date": "03/06/2026",
@@ -30,64 +66,33 @@
       "location": "Maricá/RJ",
       "uf": "RJ",
       "headline": "Defesa Civil:Marica/RJ: Retorno para estagio meteorologico de OBSERVACAO as 07h00 desta quarta-feira (03/06). Emergencia: 199, (21) 96628-2699 (Whatsapp).",
-      "status": "vigente"
-    },
-    {
-      "time": "23:33",
-      "date": "02/06/2026",
-      "senderName": "Defesa Civil de Salvador (BA)",
-      "senderNameShort": "DC Salvador (BA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Salvador/BA",
-      "uf": "BA",
-      "headline": "Defesa Civil:Alerta para chuvas moderadas a fortes nas proximas horas, com risco para alagamentos e deslizamentos de terra. Emergencia, disque 199.",
-      "status": "vigente"
-    },
-    {
-      "time": "22:24",
-      "date": "02/06/2026",
-      "senderName": "Defesa Civil de Niterói (RJ)",
-      "senderNameShort": "DC Niterói (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Niterói/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Niteroi: Previsao de chuva moderada a forte isolada nas proximas horas. Em caso de emergencia, ligue 199.",
-      "status": "expirado"
-    },
-    {
-      "time": "19:11",
-      "date": "02/06/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "São Roque do Canaã/ES",
-      "uf": "ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS, VENTO e GRANIZO em Sao Roque do Canaa nas proximas 2 horas. Fique atento. Emergencia ligue 193.",
       "status": "expirado"
     }
   ],
   "top_emitters": [
     {
+      "name": "Defesa Civil Estadual do Maranhão",
+      "short_name": "DC Maranhão",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil de Niterói (RJ)",
+      "short_name": "DC Niterói (RJ)",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil de Salvador (BA)",
+      "short_name": "DC Salvador (BA)",
+      "count": 2
+    },
+    {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 5
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 3
-    },
-    {
-      "name": "Defesa Civil Estadual de Pernambuco",
-      "short_name": "DC Pernambuco",
-      "count": 3
-    },
-    {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
       "count": 2
     },
     {
@@ -101,16 +106,6 @@
       "count": 1
     },
     {
-      "name": "Defesa Civil de Salvador (BA)",
-      "short_name": "DC Salvador (BA)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Niterói (RJ)",
-      "short_name": "DC Niterói (RJ)",
-      "count": 1
-    },
-    {
       "name": "Defesa Civil de Ipojuca (PE)",
       "short_name": "DC Ipojuca (PE)",
       "count": 1
@@ -119,26 +114,31 @@
       "name": "Defesa Civil de Belo Horizonte (MG)",
       "short_name": "DC Belo Horizonte (MG)",
       "count": 1
+    },
+    {
+      "name": "Defesa Civil de Cabedelo (PB)",
+      "short_name": "DC Cabedelo (PB)",
+      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Baixo",
-      "count": 1
+      "count": 2
     },
     {
       "label": "Médio",
-      "count": 15
+      "count": 7
     },
     {
       "label": "Alto",
-      "count": 10
+      "count": 6
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 25
+      "count": 14
     },
     {
       "label": "Friagem",
@@ -147,49 +147,88 @@
   ],
   "uf_distribution": [
     {
-      "uf": "PE",
-      "count": 6
-    },
-    {
-      "uf": "ES",
-      "count": 5
-    },
-    {
       "uf": "RJ",
-      "count": 4
-    },
-    {
-      "uf": "PB",
       "count": 3
-    },
-    {
-      "uf": "MG",
-      "count": 3
-    },
-    {
-      "uf": "AM",
-      "count": 3
-    },
-    {
-      "uf": "BA",
-      "count": 1
     },
     {
       "uf": "MA",
+      "count": 2
+    },
+    {
+      "uf": "BA",
+      "count": 2
+    },
+    {
+      "uf": "PB",
+      "count": 2
+    },
+    {
+      "uf": "ES",
+      "count": 2
+    },
+    {
+      "uf": "AM",
+      "count": 2
+    },
+    {
+      "uf": "PE",
+      "count": 1
+    },
+    {
+      "uf": "MG",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 11
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 15
+      "count": 8
     }
   ],
   "all_alerts": [
+    {
+      "date": "03/06/2026",
+      "time": "11:25",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MA",
+      "location": "MARANHÃO-MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-06-03T11:25:00-03:00",
+      "expires": "2026-06-04T23:55:00-03:00"
+    },
+    {
+      "date": "03/06/2026",
+      "time": "10:27",
+      "senderName": "Defesa Civil de Niterói (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Baixo",
+      "uf": "RJ",
+      "location": "Niterói/RJ",
+      "headline": "Defesa Civil:Niteroi: Retorno para Estagio de VIGILANCIA na cidade de Niteroi as 10h15min desta quarta-feira (03/06). Em caso de emergencia, ligue 199.",
+      "status": "vigente",
+      "onset": "2026-06-03T10:27:00-03:00",
+      "expires": "2026-06-04T00:00:00-03:00"
+    },
+    {
+      "date": "03/06/2026",
+      "time": "10:22",
+      "senderName": "Defesa Civil de Salvador (BA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "BA",
+      "location": "Salvador/BA",
+      "headline": "Defesa Civil:Mudanca p/ NIVEL ATENCAO devido ao acumulado de chuva acima de 80mm em 72h e previsao chuva forte. Emergencia, disque 199. CODESAL",
+      "status": "vigente",
+      "onset": "2026-06-03T10:22:56-03:00",
+      "expires": "2026-06-04T08:00:00-03:00"
+    },
     {
       "date": "03/06/2026",
       "time": "07:47",
@@ -212,7 +251,7 @@
       "uf": "RJ",
       "location": "Maricá/RJ",
       "headline": "Defesa Civil:Marica/RJ: Retorno para estagio meteorologico de OBSERVACAO as 07h00 desta quarta-feira (03/06). Emergencia: 199, (21) 96628-2699 (Whatsapp).",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-03T07:06:56-03:00",
       "expires": "2026-06-03T12:00:00-03:00"
     },
@@ -345,204 +384,22 @@
       "status": "expirado",
       "onset": "2026-06-02T14:21:33-03:00",
       "expires": "2026-06-02T23:55:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "13:55",
-      "senderName": "Defesa Civil de Olinda (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Olinda/PE",
-      "headline": "Defesa Civil:Chuvas moderadas a forte na noite desta terca feira(02/06) e ao longo do dia da quarta feira(03/06). Siga a orientacao da Defesa Civil 08000810060",
-      "status": "vigente",
-      "onset": "2026-06-02T13:55:16-03:00",
-      "expires": "2026-06-03T23:55:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "13:11",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte nas proximas horas. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-02T13:11:56-03:00",
-      "expires": "2026-06-02T13:10:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "11:43",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-02T11:43:46-03:00",
-      "expires": "2026-06-02T15:25:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "11:24",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: MATA SUL. ALERTA de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193 ou 199.",
-      "status": "vigente",
-      "onset": "2026-06-02T11:24:57-03:00",
-      "expires": "2026-06-03T20:00:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "11:19",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: MATA NORTE. ALERTA de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia 193 ou 199.",
-      "status": "vigente",
-      "onset": "2026-06-02T11:19:41-03:00",
-      "expires": "2026-06-03T20:00:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "11:12",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: RMR. ALERTA possibilidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-06-02T11:12:40-03:00",
-      "expires": "2026-06-02T20:00:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "11:08",
-      "senderName": "Defesa Civil de Recife (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Recife/PE",
-      "headline": "Defesa Civil:ALERTA DE CHUVA COM INTENSIDADE MODERADA A FORTE ate  as 20:00h de 03/06/2026. Busque abrigo e evite areas alagadas.",
-      "status": "vigente",
-      "onset": "2026-06-02T11:08:39-03:00",
-      "expires": "2026-06-03T20:00:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "10:52",
-      "senderName": "Defesa Civil de João Pessoa (PB)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PB",
-      "location": "João Pessoa/PB",
-      "headline": "Defesa Civil:Chuvas, ventos intensos e risco de alagamentos ate as 23h59 da quarta-feira (3). Emergencia: 199 ou 98831-6885 (WhastApp).",
-      "status": "vigente",
-      "onset": "2026-06-02T10:52:47-03:00",
-      "expires": "2026-06-03T23:59:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "10:26",
-      "senderName": "Defesa Civil do Rio de Janeiro (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Rio de Janeiro/RJ",
-      "headline": "Defesa Civil:o tempo permanece instavel na cidade do Rio com chuva fraca a moderada nas proximas horas - 02/06 - Em caso de Emergencia, ligue 199, 193",
-      "status": "expirado",
-      "onset": "2026-06-02T10:26:35-03:00",
-      "expires": "2026-06-02T23:55:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "10:19",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Alfredo Chaves/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS e VENTO em Alfredo Chaves nas proximas 03 horas. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-06-02T10:19:34-03:00",
-      "expires": "2026-06-02T13:00:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "09:13",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "ESPÍRITO SANTO/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS e VENTO nas regioes SUL e LITORAL SUL nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-06-02T09:13:32-03:00",
-      "expires": "2026-06-02T12:00:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "08:58",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de chuva moderada a forte com rajadas de vento nas proximas horas. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-02T08:58:11-03:00",
-      "expires": "2026-06-02T11:00:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "08:55",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "ESPÍRITO SANTO/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS e VENTO em SUL, SERRANA nas proximas 02 horas. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-06-02T08:55:29-03:00",
-      "expires": "2026-06-02T11:00:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "08:48",
-      "senderName": "Defesa Civil Mangaratiba (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
-      "status": "vigente",
-      "onset": "2026-06-02T08:48:47-03:00",
-      "expires": "2026-06-03T23:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 26,
+    "total_alerts": 15,
     "by_nivel": {
-      "Médio": 15,
-      "Alto": 10,
-      "Baixo": 1
+      "Médio": 7,
+      "Alto": 6,
+      "Baixo": 2
     },
     "by_channel_list": {
-      "Google": 26
+      "Google": 15
     },
     "by_region": {
-      "SE": 12,
-      "NE": 11,
-      "N": 3
+      "NE": 7,
+      "SE": 6,
+      "N": 2
     }
   }
 }
