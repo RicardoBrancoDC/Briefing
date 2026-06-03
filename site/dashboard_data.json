@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-06-02T18:26:24.342657-03:00",
-  "source_run_dir": "run_20260602_182548",
+  "generated_at": "2026-06-02T21:04:27.354657-03:00",
+  "source_run_dir": "run_20260602_210359",
   "cards": {
-    "vigentes": 16,
-    "ultimas24h": 53,
+    "vigentes": 15,
+    "ultimas24h": 45,
     "autoridadesAtivas": 20,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "19:11",
+      "date": "02/06/2026",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "senderNameShort": "DC Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "São Roque do Canaã/ES",
+      "uf": "ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS, VENTO e GRANIZO em Sao Roque do Canaa nas proximas 2 horas. Fique atento. Emergencia ligue 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "19:07",
+      "date": "02/06/2026",
+      "senderName": "Defesa Civil de Ipojuca (PE)",
+      "senderNameShort": "DC Ipojuca (PE)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Ipojuca/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:ALERTA para chuvas de moderada a forte, moradores em areas de risco devem ficar  em alerta.Duvidas:0800-281-0620/ 99231-2026 .",
+      "status": "vigente"
+    },
     {
       "time": "17:28",
       "date": "02/06/2026",
@@ -42,48 +66,24 @@
       "location": "Santa Maria de Jetibá/ES",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e GRANIZO PONTUAL em Santa Maria de Jetiba nas proximas 04 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:50",
-      "date": "02/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:00",
-      "date": "02/06/2026",
-      "senderName": "Defesa Civil de Cabedelo (PB)",
-      "senderNameShort": "DC Cabedelo (PB)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Cabedelo/PB",
-      "uf": "PB",
-      "headline": "Defesa Civil: Alerta de Chuvas intensas em Cabedelo. Risco de alagamentos. Evite areas alagadas e abrigue-se. Emergencia: 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 14
-    },
-    {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 7
+      "count": 10
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
       "count": 6
+    },
+    {
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
+      "count": 4
     },
     {
       "name": "Defesa Civil de Belo Horizonte (MG)",
@@ -111,9 +111,9 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil de Nova Iguaçu (RJ)",
-      "short_name": "DC Nova Iguaçu (RJ)",
-      "count": 2
+      "name": "Defesa Civil de Ipojuca (PE)",
+      "short_name": "DC Ipojuca (PE)",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Cabedelo (PB)",
@@ -124,17 +124,17 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 29
+      "count": 24
     },
     {
       "label": "Alto",
-      "count": 24
+      "count": 21
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 49
+      "count": 41
     },
     {
       "label": "Friagem",
@@ -155,16 +155,16 @@
   ],
   "uf_distribution": [
     {
-      "uf": "ES",
-      "count": 14
+      "uf": "RJ",
+      "count": 12
     },
     {
-      "uf": "RJ",
-      "count": 13
+      "uf": "ES",
+      "count": 10
     },
     {
       "uf": "MG",
-      "count": 10
+      "count": 7
     },
     {
       "uf": "AM",
@@ -172,7 +172,7 @@
     },
     {
       "uf": "PE",
-      "count": 5
+      "count": 6
     },
     {
       "uf": "PB",
@@ -181,23 +181,45 @@
     {
       "uf": "MA",
       "count": 1
-    },
-    {
-      "uf": "SP",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 16
+      "count": 15
     },
     {
       "label": "expirado",
-      "count": 37
+      "count": 30
     }
   ],
   "all_alerts": [
+    {
+      "date": "02/06/2026",
+      "time": "19:11",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "ES",
+      "location": "São Roque do Canaã/ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS, VENTO e GRANIZO em Sao Roque do Canaa nas proximas 2 horas. Fique atento. Emergencia ligue 193.",
+      "status": "vigente",
+      "onset": "2026-06-02T19:11:58-03:00",
+      "expires": "2026-06-02T21:05:00-03:00"
+    },
+    {
+      "date": "02/06/2026",
+      "time": "19:07",
+      "senderName": "Defesa Civil de Ipojuca (PE)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PE",
+      "location": "Ipojuca/PE",
+      "headline": "Defesa Civil:ALERTA para chuvas de moderada a forte, moradores em areas de risco devem ficar  em alerta.Duvidas:0800-281-0620/ 99231-2026 .",
+      "status": "vigente",
+      "onset": "2026-06-02T19:07:09-03:00",
+      "expires": "2026-06-03T08:00:00-03:00"
+    },
     {
       "date": "02/06/2026",
       "time": "17:28",
@@ -233,7 +255,7 @@
       "uf": "ES",
       "location": "Santa Maria de Jetibá/ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e GRANIZO PONTUAL em Santa Maria de Jetiba nas proximas 04 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-02T15:56:46-03:00",
       "expires": "2026-06-02T20:00:00-03:00"
     },
@@ -246,7 +268,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-02T15:50:01-03:00",
       "expires": "2026-06-02T19:40:00-03:00"
     },
@@ -350,7 +372,7 @@
       "uf": "PE",
       "location": "PERNAMBUCO/PE",
       "headline": "Defesa Civil:PE: RMR. ALERTA possibilidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia 193 ou 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-02T11:12:40-03:00",
       "expires": "2026-06-02T20:00:00-03:00"
     },
@@ -756,150 +778,20 @@
       "status": "expirado",
       "onset": "2026-06-01T21:04:29-03:00",
       "expires": "2026-06-02T01:00:00-03:00"
-    },
-    {
-      "date": "01/06/2026",
-      "time": "21:00",
-      "senderName": "Defesa Civil de Nova Iguaçu (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Nova Iguaçu/RJ",
-      "headline": "Defesa Civil: Nova Iguacu: Chuva fraca/moderada sao esperadas na noite de hoje(01) e durante a madrugada do dia 02/06.Emergencia:199",
-      "status": "expirado",
-      "onset": "2026-06-01T21:00:00-03:00",
-      "expires": "2026-06-02T09:00:00-03:00"
-    },
-    {
-      "date": "01/06/2026",
-      "time": "20:48",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas 2h. Proteja-se! Fique em local seguro!",
-      "status": "expirado",
-      "onset": "2026-06-01T20:48:46-03:00",
-      "expires": "2026-06-01T22:46:00-03:00"
-    },
-    {
-      "date": "01/06/2026",
-      "time": "20:41",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas 2h. Proteja-se! Fique em local seguro!",
-      "status": "expirado",
-      "onset": "2026-06-01T20:41:11-03:00",
-      "expires": "2026-06-01T22:39:00-03:00"
-    },
-    {
-      "date": "01/06/2026",
-      "time": "20:32",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:20h30 Chuva forte na regiao de Cunha e Sertao da Onca. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-06-01T20:32:14-03:00",
-      "expires": "2026-06-01T23:10:00-03:00"
-    },
-    {
-      "date": "01/06/2026",
-      "time": "19:59",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Alfredo Chaves/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e GRANIZO PONTUAL em Alfredo Chaves nas proximas 04 horas.Proteja-se.Emergencia ligue 193",
-      "status": "expirado",
-      "onset": "2026-06-01T19:59:49-03:00",
-      "expires": "2026-06-01T23:55:00-03:00"
-    },
-    {
-      "date": "01/06/2026",
-      "time": "19:55",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Defesa Civil Estadual do Espírito Santo",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e GRANIZO PONTUAL em Venda Nova e Domingos Martins nas proximas 04 hrs.Proteja-se.Emergencia ligue 193",
-      "status": "expirado",
-      "onset": "2026-06-01T19:55:20-03:00",
-      "expires": "2026-06-01T23:50:00-03:00"
-    },
-    {
-      "date": "01/06/2026",
-      "time": "19:33",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Vargem Alta/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e GRANIZO PONTUAL em Vargem Alta nas proximas 04 horas.Proteja-se.Emergencia ligue 193",
-      "status": "expirado",
-      "onset": "2026-06-01T19:33:55-03:00",
-      "expires": "2026-06-01T23:00:00-03:00"
-    },
-    {
-      "date": "01/06/2026",
-      "time": "19:07",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Conceição do Castelo/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e GRANIZO PONTUAL em Conceicao do Castelo nas proximas 04 horas.Proteja-se.Emergencia ligue 193",
-      "status": "expirado",
-      "onset": "2026-06-01T19:07:31-03:00",
-      "expires": "2026-06-01T23:00:00-03:00"
-    },
-    {
-      "date": "01/06/2026",
-      "time": "18:59",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Castelo/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e GRANIZO PONTUAL em Castelo nas proximas 04 horas.Proteja-se.Emergencia ligue 193",
-      "status": "expirado",
-      "onset": "2026-06-01T18:59:37-03:00",
-      "expires": "2026-06-01T23:00:00-03:00"
-    },
-    {
-      "date": "01/06/2026",
-      "time": "18:39",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestades com raios nas proximas 2h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-01T18:39:34-03:00",
-      "expires": "2026-06-01T20:38:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 53,
+    "total_alerts": 45,
     "by_nivel": {
-      "Médio": 29,
-      "Alto": 24
+      "Médio": 24,
+      "Alto": 21
     },
     "by_channel_list": {
-      "Google": 53
+      "Google": 45
     },
     "by_region": {
-      "SE": 38,
-      "NE": 8,
+      "SE": 29,
+      "NE": 9,
       "N": 7
     }
   }
