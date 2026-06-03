@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-06-03T02:21:07.007965-03:00",
-  "source_run_dir": "run_20260603_022040",
+  "generated_at": "2026-06-03T08:24:23.857967-03:00",
+  "source_run_dir": "run_20260603_082412",
   "cards": {
-    "vigentes": 13,
-    "ultimas24h": 34,
-    "autoridadesAtivas": 18,
+    "vigentes": 11,
+    "ultimas24h": 26,
+    "autoridadesAtivas": 17,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "07:47",
+      "date": "03/06/2026",
+      "senderName": "Defesa Civil de Campina Grande (PB)",
+      "senderNameShort": "DC Campina Grande (PB)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Campina Grande/PB",
+      "uf": "PB",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Campina Grande/PB Em caso de Emergencia ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "07:06",
+      "date": "03/06/2026",
+      "senderName": "Defesa Civil de Maricá (RJ)",
+      "senderNameShort": "DC Maricá (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Baixo",
+      "location": "Maricá/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Marica/RJ: Retorno para estagio meteorologico de OBSERVACAO as 07h00 desta quarta-feira (03/06). Emergencia: 199, (21) 96628-2699 (Whatsapp).",
+      "status": "vigente"
+    },
     {
       "time": "23:33",
       "date": "02/06/2026",
@@ -30,7 +54,7 @@
       "location": "Niterói/RJ",
       "uf": "RJ",
       "headline": "Defesa Civil:Niteroi: Previsao de chuva moderada a forte isolada nas proximas horas. Em caso de emergencia, ligue 199.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "19:11",
@@ -43,46 +67,17 @@
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS, VENTO e GRANIZO em Sao Roque do Canaa nas proximas 2 horas. Fique atento. Emergencia ligue 193.",
       "status": "expirado"
-    },
-    {
-      "time": "19:07",
-      "date": "02/06/2026",
-      "senderName": "Defesa Civil de Ipojuca (PE)",
-      "senderNameShort": "DC Ipojuca (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Ipojuca/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:ALERTA para chuvas de moderada a forte, moradores em areas de risco devem ficar  em alerta.Duvidas:0800-281-0620/ 99231-2026 .",
-      "status": "vigente"
-    },
-    {
-      "time": "17:28",
-      "date": "02/06/2026",
-      "senderName": "Defesa Civil de Belo Horizonte (MG)",
-      "senderNameShort": "DC Belo Horizonte (MG)",
-      "event": "Friagem",
-      "nivel": "Alto",
-      "location": "Belo Horizonte/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de baixa temperatura em Belo Horizonte ate 10h de quarta-feira (10). Abaixo de 12 graus nas primeiras horas do dia. Proteja-se!",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 8
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 4
-    },
-    {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
       "count": 3
     },
     {
@@ -91,18 +86,28 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil de Niterói (RJ)",
-      "short_name": "DC Niterói (RJ)",
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
       "count": 2
     },
     {
-      "name": "Defesa Civil de Belo Horizonte (MG)",
-      "short_name": "DC Belo Horizonte (MG)",
-      "count": 2
+      "name": "Defesa Civil de Campina Grande (PB)",
+      "short_name": "DC Campina Grande (PB)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Maricá (RJ)",
+      "short_name": "DC Maricá (RJ)",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Salvador (BA)",
       "short_name": "DC Salvador (BA)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Niterói (RJ)",
+      "short_name": "DC Niterói (RJ)",
       "count": 1
     },
     {
@@ -111,64 +116,59 @@
       "count": 1
     },
     {
-      "name": "Defesa Civil de Cabedelo (PB)",
-      "short_name": "DC Cabedelo (PB)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Maranhão",
-      "short_name": "DC Maranhão",
+      "name": "Defesa Civil de Belo Horizonte (MG)",
+      "short_name": "DC Belo Horizonte (MG)",
       "count": 1
     }
   ],
   "level_distribution": [
     {
+      "label": "Baixo",
+      "count": 1
+    },
+    {
       "label": "Médio",
-      "count": 18
+      "count": 15
     },
     {
       "label": "Alto",
-      "count": 16
+      "count": 10
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 32
+      "count": 25
     },
     {
       "label": "Friagem",
-      "count": 1
-    },
-    {
-      "label": "Frentes Frias/Zonas De Convergência",
       "count": 1
     }
   ],
   "uf_distribution": [
     {
-      "uf": "ES",
-      "count": 8
-    },
-    {
-      "uf": "RJ",
-      "count": 6
-    },
-    {
       "uf": "PE",
       "count": 6
     },
     {
-      "uf": "MG",
+      "uf": "ES",
       "count": 5
     },
     {
-      "uf": "AM",
-      "count": 5
+      "uf": "RJ",
+      "count": 4
     },
     {
       "uf": "PB",
-      "count": 2
+      "count": 3
+    },
+    {
+      "uf": "MG",
+      "count": 3
+    },
+    {
+      "uf": "AM",
+      "count": 3
     },
     {
       "uf": "BA",
@@ -182,14 +182,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 13
+      "count": 11
     },
     {
       "label": "expirado",
-      "count": 21
+      "count": 15
     }
   ],
   "all_alerts": [
+    {
+      "date": "03/06/2026",
+      "time": "07:47",
+      "senderName": "Defesa Civil de Campina Grande (PB)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PB",
+      "location": "Campina Grande/PB",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Campina Grande/PB Em caso de Emergencia ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-06-03T07:47:05-03:00",
+      "expires": "2026-06-04T23:59:00-03:00"
+    },
+    {
+      "date": "03/06/2026",
+      "time": "07:06",
+      "senderName": "Defesa Civil de Maricá (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Baixo",
+      "uf": "RJ",
+      "location": "Maricá/RJ",
+      "headline": "Defesa Civil:Marica/RJ: Retorno para estagio meteorologico de OBSERVACAO as 07h00 desta quarta-feira (03/06). Emergencia: 199, (21) 96628-2699 (Whatsapp).",
+      "status": "vigente",
+      "onset": "2026-06-03T07:06:56-03:00",
+      "expires": "2026-06-03T12:00:00-03:00"
+    },
     {
       "date": "02/06/2026",
       "time": "23:33",
@@ -212,7 +238,7 @@
       "uf": "RJ",
       "location": "Niterói/RJ",
       "headline": "Defesa Civil:Niteroi: Previsao de chuva moderada a forte isolada nas proximas horas. Em caso de emergencia, ligue 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-02T22:24:45-03:00",
       "expires": "2026-06-03T06:00:00-03:00"
     },
@@ -238,7 +264,7 @@
       "uf": "PE",
       "location": "Ipojuca/PE",
       "headline": "Defesa Civil:ALERTA para chuvas de moderada a forte, moradores em areas de risco devem ficar  em alerta.Duvidas:0800-281-0620/ 99231-2026 .",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-02T19:07:09-03:00",
       "expires": "2026-06-03T08:00:00-03:00"
     },
@@ -501,151 +527,22 @@
       "status": "vigente",
       "onset": "2026-06-02T08:48:47-03:00",
       "expires": "2026-06-03T23:55:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "08:18",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "ESPÍRITO SANTO/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS e VENTO em Presidente Kennedy, Atilio Vivacqua, Cachoeiro de Itapemirim nas proximas 02 horas. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-06-02T08:18:25-03:00",
-      "expires": "2026-06-02T10:00:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "08:11",
-      "senderName": "Defesa Civil de Belo Horizonte (MG)",
-      "event": "Frentes Frias/Zonas De Convergência",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "Belo Horizonte/MG",
-      "headline": "Defesa Civil:Chuva (ate 20 mm) e ventos de 40 km/h ate 8h de quarta-feira (3) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente",
-      "onset": "2026-06-02T08:11:00-03:00",
-      "expires": "2026-06-03T08:00:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "08:04",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-02T08:04:19-03:00",
-      "expires": "2026-06-02T15:00:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "07:54",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte nas proximas horas. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-02T07:54:12-03:00",
-      "expires": "2026-06-02T09:50:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "07:36",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "ESPÍRITO SANTO/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e GRANIZO PONTUAL na regiao Sul nas proximas 03 horas. Proteja-se. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-06-02T07:36:00-03:00",
-      "expires": "2026-06-02T10:00:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "07:28",
-      "senderName": "Defesa Civil de Niterói (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Niterói/RJ",
-      "headline": "Defesa Civil:Niteroi: Previsao de chuva fraca a moderada nas proximas horas. Em caso de emergencia, ligue 199.",
-      "status": "expirado",
-      "onset": "2026-06-02T07:28:31-03:00",
-      "expires": "2026-06-02T12:00:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "07:00",
-      "senderName": "Defesa Civil de Maricá (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Maricá/RJ",
-      "headline": "Defesa Civil:Mudanca para estagio meteorologico de ATENCAO em Marica/RJ as 07h00 do dia 02/06/26. Emergencia: 199 ou 966282699 (fone/whatsapp)",
-      "status": "expirado",
-      "onset": "2026-06-02T07:00:07-03:00",
-      "expires": "2026-06-02T14:00:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "06:54",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "ESPÍRITO SANTO/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e GRANIZO PONTUAL na regiao Sul nas proximas 03 horas.Proteja-se.Emergencia ligue 193",
-      "status": "expirado",
-      "onset": "2026-06-02T06:54:59-03:00",
-      "expires": "2026-06-02T09:00:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "05:56",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Rio Preto da Eva/AM, Careiro da Várzea/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-02T05:56:36-03:00",
-      "expires": "2026-06-02T09:00:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "02:24",
-      "senderName": "Defesa Civil de Teresópolis (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Teresópolis/RJ",
-      "headline": "Defesa Civil:Probabilidade de chuva moderada a forte podendo haver raios para as proximas horas. Em caso de emergencia ligue 0800 202 1066. Defesa Civil",
-      "status": "vigente",
-      "onset": "2026-06-02T02:24:37-03:00",
-      "expires": "2026-06-03T09:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 34,
+    "total_alerts": 26,
     "by_nivel": {
-      "Médio": 18,
-      "Alto": 16
+      "Médio": 15,
+      "Alto": 10,
+      "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 34
+      "Google": 26
     },
     "by_region": {
-      "SE": 19,
-      "NE": 10,
-      "N": 5
+      "SE": 12,
+      "NE": 11,
+      "N": 3
     }
   }
 }
