@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-06-03T14:21:15.488016-03:00",
-  "source_run_dir": "run_20260603_142102",
+  "generated_at": "2026-06-03T18:32:05.075739-03:00",
+  "source_run_dir": "run_20260603_183149",
   "cards": {
-    "vigentes": 7,
-    "ultimas24h": 15,
-    "autoridadesAtivas": 10,
+    "vigentes": 8,
+    "ultimas24h": 12,
+    "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "15:25",
+      "date": "03/06/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "Pradópolis/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:15h25 Umidade do ar abaixo de 30 em Pradopolis. Hidrate-se. Evite exercicios fisicos ao ar livre.",
+      "status": "vigente"
+    },
+    {
+      "time": "15:24",
+      "date": "03/06/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "Ariranha/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:15h22 Umidade do ar abaixo de 30 em Ariranha. Hidrate-se. Evite exercicios fisicos ao ar livre.",
+      "status": "vigente"
+    },
+    {
+      "time": "14:50",
+      "date": "03/06/2026",
+      "senderName": "Defesa Civil de João Pessoa (PB)",
+      "senderNameShort": "DC João Pessoa (PB)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "João Pessoa/PB",
+      "uf": "PB",
+      "headline": "Defesa Civil:Chuvas, risco de alagamentos, transbordamento de rios e deslizamentos ate as 23h59 da quinta-feira (4). Emergencia: 199 ou 98831-6885 (WhatsApp).",
+      "status": "vigente"
+    },
     {
       "time": "11:25",
       "date": "03/06/2026",
@@ -31,48 +67,12 @@
       "uf": "RJ",
       "headline": "Defesa Civil:Niteroi: Retorno para Estagio de VIGILANCIA na cidade de Niteroi as 10h15min desta quarta-feira (03/06). Em caso de emergencia, ligue 199.",
       "status": "vigente"
-    },
-    {
-      "time": "10:22",
-      "date": "03/06/2026",
-      "senderName": "Defesa Civil de Salvador (BA)",
-      "senderNameShort": "DC Salvador (BA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Salvador/BA",
-      "uf": "BA",
-      "headline": "Defesa Civil:Mudanca p/ NIVEL ATENCAO devido ao acumulado de chuva acima de 80mm em 72h e previsao chuva forte. Emergencia, disque 199. CODESAL",
-      "status": "vigente"
-    },
-    {
-      "time": "07:47",
-      "date": "03/06/2026",
-      "senderName": "Defesa Civil de Campina Grande (PB)",
-      "senderNameShort": "DC Campina Grande (PB)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Campina Grande/PB",
-      "uf": "PB",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Campina Grande/PB Em caso de Emergencia ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "07:06",
-      "date": "03/06/2026",
-      "senderName": "Defesa Civil de Maricá (RJ)",
-      "senderNameShort": "DC Maricá (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Baixo",
-      "location": "Maricá/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Marica/RJ: Retorno para estagio meteorologico de OBSERVACAO as 07h00 desta quarta-feira (03/06). Emergencia: 199, (21) 96628-2699 (Whatsapp).",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual do Maranhão",
-      "short_name": "DC Maranhão",
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
       "count": 2
     },
     {
@@ -86,14 +86,14 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil Estadual do Espírito Santo",
-      "short_name": "DC Espírito Santo",
-      "count": 2
+      "name": "Defesa Civil de João Pessoa (PB)",
+      "short_name": "DC João Pessoa (PB)",
+      "count": 1
     },
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 2
+      "name": "Defesa Civil Estadual do Maranhão",
+      "short_name": "DC Maranhão",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Campina Grande (PB)",
@@ -106,18 +106,13 @@
       "count": 1
     },
     {
+      "name": "Defesa Civil Estadual do Espírito Santo",
+      "short_name": "DC Espírito Santo",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil de Ipojuca (PE)",
       "short_name": "DC Ipojuca (PE)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Belo Horizonte (MG)",
-      "short_name": "DC Belo Horizonte (MG)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Cabedelo (PB)",
-      "short_name": "DC Cabedelo (PB)",
       "count": 1
     }
   ],
@@ -128,21 +123,21 @@
     },
     {
       "label": "Médio",
-      "count": 7
+      "count": 5
     },
     {
       "label": "Alto",
-      "count": 6
+      "count": 5
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 14
+      "count": 10
     },
     {
-      "label": "Friagem",
-      "count": 1
+      "label": "Baixa Umidade Do Ar",
+      "count": 2
     }
   ],
   "uf_distribution": [
@@ -151,11 +146,7 @@
       "count": 3
     },
     {
-      "uf": "MA",
-      "count": 2
-    },
-    {
-      "uf": "BA",
+      "uf": "SP",
       "count": 2
     },
     {
@@ -163,33 +154,72 @@
       "count": 2
     },
     {
-      "uf": "ES",
+      "uf": "BA",
       "count": 2
     },
     {
-      "uf": "AM",
-      "count": 2
-    },
-    {
-      "uf": "PE",
+      "uf": "MA",
       "count": 1
     },
     {
-      "uf": "MG",
+      "uf": "ES",
+      "count": 1
+    },
+    {
+      "uf": "PE",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 8
     },
     {
       "label": "expirado",
-      "count": 8
+      "count": 4
     }
   ],
   "all_alerts": [
+    {
+      "date": "03/06/2026",
+      "time": "15:25",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "Pradópolis/SP",
+      "headline": "Defesa Civil:15h25 Umidade do ar abaixo de 30 em Pradopolis. Hidrate-se. Evite exercicios fisicos ao ar livre.",
+      "status": "vigente",
+      "onset": "2026-06-03T15:25:52-03:00",
+      "expires": "2026-06-03T19:30:00-03:00"
+    },
+    {
+      "date": "03/06/2026",
+      "time": "15:24",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "Ariranha/SP",
+      "headline": "Defesa Civil:15h22 Umidade do ar abaixo de 30 em Ariranha. Hidrate-se. Evite exercicios fisicos ao ar livre.",
+      "status": "vigente",
+      "onset": "2026-06-03T15:24:09-03:00",
+      "expires": "2026-06-03T19:30:00-03:00"
+    },
+    {
+      "date": "03/06/2026",
+      "time": "14:50",
+      "senderName": "Defesa Civil de João Pessoa (PB)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PB",
+      "location": "João Pessoa/PB",
+      "headline": "Defesa Civil:Chuvas, risco de alagamentos, transbordamento de rios e deslizamentos ate as 23h59 da quinta-feira (4). Emergencia: 199 ou 98831-6885 (WhatsApp).",
+      "status": "vigente",
+      "onset": "2026-06-03T14:50:30-03:00",
+      "expires": "2026-06-04T23:59:00-03:00"
+    },
     {
       "date": "03/06/2026",
       "time": "11:25",
@@ -306,100 +336,21 @@
       "status": "expirado",
       "onset": "2026-06-02T19:07:09-03:00",
       "expires": "2026-06-03T08:00:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "17:28",
-      "senderName": "Defesa Civil de Belo Horizonte (MG)",
-      "event": "Friagem",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Belo Horizonte/MG",
-      "headline": "Defesa Civil:Alerta de baixa temperatura em Belo Horizonte ate 10h de quarta-feira (10). Abaixo de 12 graus nas primeiras horas do dia. Proteja-se!",
-      "status": "vigente",
-      "onset": "2026-06-02T17:28:49-03:00",
-      "expires": "2026-06-10T10:00:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "17:22",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-02T17:22:32-03:00",
-      "expires": "2026-06-02T21:15:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "15:56",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Santa Maria de Jetibá/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e GRANIZO PONTUAL em Santa Maria de Jetiba nas proximas 04 horas. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-06-02T15:56:46-03:00",
-      "expires": "2026-06-02T20:00:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "15:50",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-02T15:50:01-03:00",
-      "expires": "2026-06-02T19:40:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "15:00",
-      "senderName": "Defesa Civil de Cabedelo (PB)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PB",
-      "location": "Cabedelo/PB",
-      "headline": "Defesa Civil: Alerta de Chuvas intensas em Cabedelo. Risco de alagamentos. Evite areas alagadas e abrigue-se. Emergencia: 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-06-02T15:00:00-03:00",
-      "expires": "2026-06-03T23:55:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "14:21",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MA",
-      "location": "MARANHÃO/MA",
-      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-02T14:21:33-03:00",
-      "expires": "2026-06-02T23:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 15,
+    "total_alerts": 12,
     "by_nivel": {
-      "Médio": 7,
-      "Alto": 6,
+      "Alto": 5,
+      "Médio": 5,
       "Baixo": 2
     },
     "by_channel_list": {
-      "Google": 15
+      "Google": 12
     },
     "by_region": {
-      "NE": 7,
-      "SE": 6,
-      "N": 2
+      "NE": 6,
+      "SE": 6
     }
   }
 }
