@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-06-04T14:27:35.643259-03:00",
-  "source_run_dir": "run_20260604_142721",
+  "generated_at": "2026-06-04T17:27:20.808361-03:00",
+  "source_run_dir": "run_20260604_172701",
   "cards": {
-    "vigentes": 13,
-    "ultimas24h": 24,
-    "autoridadesAtivas": 8,
+    "vigentes": 12,
+    "ultimas24h": 22,
+    "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "15:28",
+      "date": "04/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "13:40",
       "date": "04/06/2026",
@@ -42,7 +54,7 @@
       "location": "Niterói/RJ",
       "uf": "RJ",
       "headline": "Defesa Civil:Niteroi - Nucleos de chuva atuam na cidade. Previsao de chuva fraca a moderada para as proximas horas. Em caso de emergencia ligue 199.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "11:02",
@@ -55,30 +67,13 @@
       "uf": "RJ",
       "headline": "Defesa Civil:Retorno para estagio meteorologico de NORMALIDADE em Marica/RJ as 11h00 do dia 04/06/26. Emergencia: 199 ou 966282699 (fone/whatsapp)",
       "status": "vigente"
-    },
-    {
-      "time": "10:32",
-      "date": "04/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 14
-    },
-    {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 3
+      "count": 15
     },
     {
       "name": "Defesa Civil Mangaratiba (RJ)",
@@ -106,8 +101,8 @@
       "count": 1
     },
     {
-      "name": "Defesa Civil de João Pessoa (PB)",
-      "short_name": "DC João Pessoa (PB)",
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
       "count": 1
     }
   ],
@@ -118,7 +113,7 @@
     },
     {
       "label": "Médio",
-      "count": 12
+      "count": 10
     },
     {
       "label": "Alto",
@@ -135,10 +130,6 @@
       "count": 7
     },
     {
-      "label": "Baixa Umidade Do Ar",
-      "count": 2
-    },
-    {
       "label": "Alagamentos",
       "count": 1
     }
@@ -146,7 +137,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 15
+      "count": 16
     },
     {
       "uf": "RJ",
@@ -154,24 +145,33 @@
     },
     {
       "uf": "SP",
-      "count": 3
-    },
-    {
-      "uf": "PB",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 13
+      "count": 12
     },
     {
       "label": "expirado",
-      "count": 11
+      "count": 10
     }
   ],
   "all_alerts": [
+    {
+      "date": "04/06/2026",
+      "time": "15:28",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-04T15:28:17-03:00",
+      "expires": "2026-06-04T18:00:00-03:00"
+    },
     {
       "date": "04/06/2026",
       "time": "13:40",
@@ -207,7 +207,7 @@
       "uf": "RJ",
       "location": "Niterói/RJ",
       "headline": "Defesa Civil:Niteroi - Nucleos de chuva atuam na cidade. Previsao de chuva fraca a moderada para as proximas horas. Em caso de emergencia ligue 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-04T11:57:21-03:00",
       "expires": "2026-06-04T16:00:00-03:00"
     },
@@ -444,61 +444,21 @@
       "status": "expirado",
       "onset": "2026-06-03T19:09:03-03:00",
       "expires": "2026-06-03T21:05:00-03:00"
-    },
-    {
-      "date": "03/06/2026",
-      "time": "15:25",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "Pradópolis/SP",
-      "headline": "Defesa Civil:15h25 Umidade do ar abaixo de 30 em Pradopolis. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-06-03T15:25:52-03:00",
-      "expires": "2026-06-03T19:30:00-03:00"
-    },
-    {
-      "date": "03/06/2026",
-      "time": "15:24",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "Ariranha/SP",
-      "headline": "Defesa Civil:15h22 Umidade do ar abaixo de 30 em Ariranha. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-06-03T15:24:09-03:00",
-      "expires": "2026-06-03T19:30:00-03:00"
-    },
-    {
-      "date": "03/06/2026",
-      "time": "14:50",
-      "senderName": "Defesa Civil de João Pessoa (PB)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PB",
-      "location": "João Pessoa/PB",
-      "headline": "Defesa Civil:Chuvas, risco de alagamentos, transbordamento de rios e deslizamentos ate as 23h59 da quinta-feira (4). Emergencia: 199 ou 98831-6885 (WhatsApp).",
-      "status": "vigente",
-      "onset": "2026-06-03T14:50:30-03:00",
-      "expires": "2026-06-04T23:59:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 24,
+    "total_alerts": 22,
     "by_nivel": {
-      "Médio": 12,
       "Alto": 10,
+      "Médio": 10,
       "Baixo": 2
     },
     "by_channel_list": {
-      "Google": 24
+      "Google": 22
     },
     "by_region": {
-      "N": 15,
-      "SE": 8,
-      "NE": 1
+      "N": 16,
+      "SE": 6
     }
   }
 }
