@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-06-04T02:12:13.714303-03:00",
-  "source_run_dir": "run_20260604_021154",
+  "generated_at": "2026-06-04T07:13:50.794082-03:00",
+  "source_run_dir": "run_20260604_071330",
   "cards": {
-    "vigentes": 14,
+    "vigentes": 12,
     "ultimas24h": 22,
-    "autoridadesAtivas": 9,
+    "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "05:00",
+      "date": "04/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Barcelos/AM, Nhamundá/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "00:24",
       "date": "04/06/2026",
@@ -18,7 +30,7 @@
       "location": "Manaus/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Em caso de emergencia ligue: 199/193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "00:18",
@@ -30,7 +42,7 @@
       "location": "Manaus/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Em caso de emergencia ligue: 199/193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "23:25",
@@ -42,7 +54,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "22:36",
@@ -55,25 +67,13 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao gradual.  Prepare-se e evite areas baixas.   Siga as orientacoes da defesa civil local.",
       "status": "vigente"
-    },
-    {
-      "time": "22:34",
-      "date": "03/06/2026",
-      "senderName": "Defesa Civil Mangaratiba (RJ)",
-      "senderNameShort": "Defesa Civil Mangaratiba (R…",
-      "event": "Chuvas Intensas",
-      "nivel": "Baixo",
-      "location": "Mangaratiba/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -109,21 +109,16 @@
       "name": "Defesa Civil de Campina Grande (PB)",
       "short_name": "DC Campina Grande (PB)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Maricá (RJ)",
-      "short_name": "DC Maricá (RJ)",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Baixo",
-      "count": 3
+      "count": 2
     },
     {
       "label": "Médio",
-      "count": 8
+      "count": 9
     },
     {
       "label": "Alto",
@@ -151,15 +146,15 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 12
-    },
-    {
-      "uf": "RJ",
-      "count": 3
+      "count": 13
     },
     {
       "uf": "SP",
       "count": 3
+    },
+    {
+      "uf": "RJ",
+      "count": 2
     },
     {
       "uf": "PB",
@@ -177,14 +172,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 14
+      "count": 12
     },
     {
       "label": "expirado",
-      "count": 8
+      "count": 10
     }
   ],
   "all_alerts": [
+    {
+      "date": "04/06/2026",
+      "time": "05:00",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Barcelos/AM, Nhamundá/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-04T05:00:57-03:00",
+      "expires": "2026-06-04T08:55:00-03:00"
+    },
     {
       "date": "04/06/2026",
       "time": "00:24",
@@ -194,7 +202,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Em caso de emergencia ligue: 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-04T00:24:12-03:00",
       "expires": "2026-06-04T04:15:00-03:00"
     },
@@ -207,7 +215,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Em caso de emergencia ligue: 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-04T00:18:15-03:00",
       "expires": "2026-06-04T04:15:00-03:00"
     },
@@ -220,7 +228,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-03T23:25:49-03:00",
       "expires": "2026-06-04T03:20:00-03:00"
     },
@@ -457,34 +465,21 @@
       "status": "vigente",
       "onset": "2026-06-03T07:47:05-03:00",
       "expires": "2026-06-04T23:59:00-03:00"
-    },
-    {
-      "date": "03/06/2026",
-      "time": "07:06",
-      "senderName": "Defesa Civil de Maricá (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Baixo",
-      "uf": "RJ",
-      "location": "Maricá/RJ",
-      "headline": "Defesa Civil:Marica/RJ: Retorno para estagio meteorologico de OBSERVACAO as 07h00 desta quarta-feira (03/06). Emergencia: 199, (21) 96628-2699 (Whatsapp).",
-      "status": "expirado",
-      "onset": "2026-06-03T07:06:56-03:00",
-      "expires": "2026-06-03T12:00:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 22,
     "by_nivel": {
       "Alto": 11,
-      "Médio": 8,
-      "Baixo": 3
+      "Médio": 9,
+      "Baixo": 2
     },
     "by_channel_list": {
       "Google": 22
     },
     "by_region": {
-      "N": 12,
-      "SE": 6,
+      "N": 13,
+      "SE": 5,
       "NE": 4
     }
   }
