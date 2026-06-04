@@ -1,39 +1,51 @@
 {
-  "generated_at": "2026-06-03T21:04:41.291746-03:00",
-  "source_run_dir": "run_20260603_210420",
+  "generated_at": "2026-06-04T02:12:13.714303-03:00",
+  "source_run_dir": "run_20260604_021154",
   "cards": {
-    "vigentes": 13,
-    "ultimas24h": 18,
-    "autoridadesAtivas": 8,
+    "vigentes": 14,
+    "ultimas24h": 22,
+    "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "20:03",
-      "date": "03/06/2026",
+      "time": "00:24",
+      "date": "04/06/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
-      "event": "Inundações",
+      "event": "Alagamentos",
       "nivel": "Alto",
-      "location": "Beruri/AM",
+      "location": "Manaus/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao gradual.  Prepare-se e evite areas baixas.   Siga as orientacoes da defesa civil local.",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Em caso de emergencia ligue: 199/193.",
       "status": "vigente"
     },
     {
-      "time": "20:00",
-      "date": "03/06/2026",
+      "time": "00:18",
+      "date": "04/06/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "location": "Borba/AM, Nova Olinda do Norte/AM",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Manaus/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao gradual.  Prepare-se e evite areas baixas.   Siga as orientacoes da defesa civil local.",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Em caso de emergencia ligue: 199/193.",
       "status": "vigente"
     },
     {
-      "time": "19:58",
+      "time": "23:25",
+      "date": "03/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "22:36",
       "date": "03/06/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
@@ -45,35 +57,23 @@
       "status": "vigente"
     },
     {
-      "time": "19:53",
+      "time": "22:34",
       "date": "03/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao gradual.  Prepare-se e evite areas baixas.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "19:51",
-      "date": "03/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "location": "São Paulo de Olivença/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao gradual.  Prepare-se e evite areas baixas.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "senderName": "Defesa Civil Mangaratiba (RJ)",
+      "senderNameShort": "Defesa Civil Mangaratiba (R…",
+      "event": "Chuvas Intensas",
+      "nivel": "Baixo",
+      "location": "Mangaratiba/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 7
+      "count": 12
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -81,14 +81,9 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil de Niterói (RJ)",
-      "short_name": "DC Niterói (RJ)",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil de Salvador (BA)",
-      "short_name": "DC Salvador (BA)",
-      "count": 2
+      "name": "Defesa Civil Mangaratiba (RJ)",
+      "short_name": "Defesa Civil Mangaratiba (RJ)",
+      "count": 1
     },
     {
       "name": "Defesa Civil de João Pessoa (PB)",
@@ -98,6 +93,16 @@
     {
       "name": "Defesa Civil Estadual do Maranhão",
       "short_name": "DC Maranhão",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Niterói (RJ)",
+      "short_name": "DC Niterói (RJ)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Salvador (BA)",
+      "short_name": "DC Salvador (BA)",
       "count": 1
     },
     {
@@ -114,11 +119,11 @@
   "level_distribution": [
     {
       "label": "Baixo",
-      "count": 2
+      "count": 3
     },
     {
       "label": "Médio",
-      "count": 5
+      "count": 8
     },
     {
       "label": "Alto",
@@ -128,28 +133,32 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 10
+      "count": 12
     },
     {
       "label": "Inundações",
-      "count": 6
+      "count": 7
     },
     {
       "label": "Baixa Umidade Do Ar",
       "count": 2
+    },
+    {
+      "label": "Alagamentos",
+      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 7
-    },
-    {
-      "uf": "SP",
-      "count": 3
+      "count": 12
     },
     {
       "uf": "RJ",
+      "count": 3
+    },
+    {
+      "uf": "SP",
       "count": 3
     },
     {
@@ -157,25 +166,103 @@
       "count": 2
     },
     {
-      "uf": "BA",
-      "count": 2
+      "uf": "MA",
+      "count": 1
     },
     {
-      "uf": "MA",
+      "uf": "BA",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 13
+      "count": 14
     },
     {
       "label": "expirado",
-      "count": 5
+      "count": 8
     }
   ],
   "all_alerts": [
+    {
+      "date": "04/06/2026",
+      "time": "00:24",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Em caso de emergencia ligue: 199/193.",
+      "status": "vigente",
+      "onset": "2026-06-04T00:24:12-03:00",
+      "expires": "2026-06-04T04:15:00-03:00"
+    },
+    {
+      "date": "04/06/2026",
+      "time": "00:18",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Em caso de emergencia ligue: 199/193.",
+      "status": "vigente",
+      "onset": "2026-06-04T00:18:15-03:00",
+      "expires": "2026-06-04T04:15:00-03:00"
+    },
+    {
+      "date": "03/06/2026",
+      "time": "23:25",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-03T23:25:49-03:00",
+      "expires": "2026-06-04T03:20:00-03:00"
+    },
+    {
+      "date": "03/06/2026",
+      "time": "22:36",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Inundações",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao gradual.  Prepare-se e evite areas baixas.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-03T22:36:49-03:00",
+      "expires": "2026-06-11T16:30:00-03:00"
+    },
+    {
+      "date": "03/06/2026",
+      "time": "22:34",
+      "senderName": "Defesa Civil Mangaratiba (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Baixo",
+      "uf": "RJ",
+      "location": "Mangaratiba/RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
+      "status": "expirado",
+      "onset": "2026-06-03T22:34:23-03:00",
+      "expires": "2026-06-03T23:55:00-03:00"
+    },
+    {
+      "date": "03/06/2026",
+      "time": "21:13",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-06-03T21:13:56-03:00",
+      "expires": "2026-06-04T00:05:00-03:00"
+    },
     {
       "date": "03/06/2026",
       "time": "20:03",
@@ -276,7 +363,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:19h07 Chuva isolada na regiao de Bertioga e Caraguatatuba. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-03T19:09:03-03:00",
       "expires": "2026-06-03T21:05:00-03:00"
     },
@@ -341,7 +428,7 @@
       "uf": "RJ",
       "location": "Niterói/RJ",
       "headline": "Defesa Civil:Niteroi: Retorno para Estagio de VIGILANCIA na cidade de Niteroi as 10h15min desta quarta-feira (03/06). Em caso de emergencia, ligue 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-03T10:27:00-03:00",
       "expires": "2026-06-04T00:00:00-03:00"
     },
@@ -383,48 +470,22 @@
       "status": "expirado",
       "onset": "2026-06-03T07:06:56-03:00",
       "expires": "2026-06-03T12:00:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "23:33",
-      "senderName": "Defesa Civil de Salvador (BA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "BA",
-      "location": "Salvador/BA",
-      "headline": "Defesa Civil:Alerta para chuvas moderadas a fortes nas proximas horas, com risco para alagamentos e deslizamentos de terra. Emergencia, disque 199.",
-      "status": "vigente",
-      "onset": "2026-06-02T23:33:37-03:00",
-      "expires": "2026-06-05T23:30:00-03:00"
-    },
-    {
-      "date": "02/06/2026",
-      "time": "22:24",
-      "senderName": "Defesa Civil de Niterói (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Niterói/RJ",
-      "headline": "Defesa Civil:Niteroi: Previsao de chuva moderada a forte isolada nas proximas horas. Em caso de emergencia, ligue 199.",
-      "status": "expirado",
-      "onset": "2026-06-02T22:24:45-03:00",
-      "expires": "2026-06-03T06:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 18,
+    "total_alerts": 22,
     "by_nivel": {
       "Alto": 11,
-      "Médio": 5,
-      "Baixo": 2
+      "Médio": 8,
+      "Baixo": 3
     },
     "by_channel_list": {
-      "Google": 18
+      "Google": 22
     },
     "by_region": {
-      "N": 7,
+      "N": 12,
       "SE": 6,
-      "NE": 5
+      "NE": 4
     }
   }
 }
