@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-06-04T07:13:50.794082-03:00",
-  "source_run_dir": "run_20260604_071330",
+  "generated_at": "2026-06-04T10:33:31.306216-03:00",
+  "source_run_dir": "run_20260604_103314",
   "cards": {
-    "vigentes": 12,
-    "ultimas24h": 22,
-    "autoridadesAtivas": 8,
+    "vigentes": 11,
+    "ultimas24h": 21,
+    "autoridadesAtivas": 5,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "10:32",
+      "date": "04/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "10:19",
+      "date": "04/06/2026",
+      "senderName": "Defesa Civil Mangaratiba (RJ)",
+      "senderNameShort": "Defesa Civil Mangaratiba (R…",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Mangaratiba/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
+      "status": "vigente"
+    },
     {
       "time": "05:00",
       "date": "04/06/2026",
@@ -18,7 +42,7 @@
       "location": "Barcelos/AM, Nhamundá/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "00:24",
@@ -43,37 +67,13 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Em caso de emergencia ligue: 199/193.",
       "status": "expirado"
-    },
-    {
-      "time": "23:25",
-      "date": "03/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "22:36",
-      "date": "03/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao gradual.  Prepare-se e evite areas baixas.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 13
+      "count": 14
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -83,7 +83,7 @@
     {
       "name": "Defesa Civil Mangaratiba (RJ)",
       "short_name": "Defesa Civil Mangaratiba (RJ)",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Defesa Civil de João Pessoa (PB)",
@@ -94,27 +94,12 @@
       "name": "Defesa Civil Estadual do Maranhão",
       "short_name": "DC Maranhão",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Niterói (RJ)",
-      "short_name": "DC Niterói (RJ)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Salvador (BA)",
-      "short_name": "DC Salvador (BA)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Campina Grande (PB)",
-      "short_name": "DC Campina Grande (PB)",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Baixo",
-      "count": 2
+      "count": 1
     },
     {
       "label": "Médio",
@@ -128,7 +113,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 12
+      "count": 11
     },
     {
       "label": "Inundações",
@@ -146,7 +131,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 13
+      "count": 14
     },
     {
       "uf": "SP",
@@ -158,21 +143,17 @@
     },
     {
       "uf": "PB",
-      "count": 2
-    },
-    {
-      "uf": "MA",
       "count": 1
     },
     {
-      "uf": "BA",
+      "uf": "MA",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 12
+      "count": 11
     },
     {
       "label": "expirado",
@@ -182,6 +163,32 @@
   "all_alerts": [
     {
       "date": "04/06/2026",
+      "time": "10:32",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-04T10:32:37-03:00",
+      "expires": "2026-06-04T14:00:00-03:00"
+    },
+    {
+      "date": "04/06/2026",
+      "time": "10:19",
+      "senderName": "Defesa Civil Mangaratiba (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Mangaratiba/RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
+      "status": "vigente",
+      "onset": "2026-06-04T10:19:14-03:00",
+      "expires": "2026-06-05T08:00:00-03:00"
+    },
+    {
+      "date": "04/06/2026",
       "time": "05:00",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "event": "Chuvas Intensas",
@@ -189,7 +196,7 @@
       "uf": "AM",
       "location": "Barcelos/AM, Nhamundá/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-04T05:00:57-03:00",
       "expires": "2026-06-04T08:55:00-03:00"
     },
@@ -426,61 +433,22 @@
       "status": "vigente",
       "onset": "2026-06-03T11:25:00-03:00",
       "expires": "2026-06-04T23:55:00-03:00"
-    },
-    {
-      "date": "03/06/2026",
-      "time": "10:27",
-      "senderName": "Defesa Civil de Niterói (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Baixo",
-      "uf": "RJ",
-      "location": "Niterói/RJ",
-      "headline": "Defesa Civil:Niteroi: Retorno para Estagio de VIGILANCIA na cidade de Niteroi as 10h15min desta quarta-feira (03/06). Em caso de emergencia, ligue 199.",
-      "status": "expirado",
-      "onset": "2026-06-03T10:27:00-03:00",
-      "expires": "2026-06-04T00:00:00-03:00"
-    },
-    {
-      "date": "03/06/2026",
-      "time": "10:22",
-      "senderName": "Defesa Civil de Salvador (BA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "BA",
-      "location": "Salvador/BA",
-      "headline": "Defesa Civil:Mudanca p/ NIVEL ATENCAO devido ao acumulado de chuva acima de 80mm em 72h e previsao chuva forte. Emergencia, disque 199. CODESAL",
-      "status": "vigente",
-      "onset": "2026-06-03T10:22:56-03:00",
-      "expires": "2026-06-04T08:00:00-03:00"
-    },
-    {
-      "date": "03/06/2026",
-      "time": "07:47",
-      "senderName": "Defesa Civil de Campina Grande (PB)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PB",
-      "location": "Campina Grande/PB",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Campina Grande/PB Em caso de Emergencia ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-06-03T07:47:05-03:00",
-      "expires": "2026-06-04T23:59:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 22,
+    "total_alerts": 21,
     "by_nivel": {
       "Alto": 11,
       "Médio": 9,
-      "Baixo": 2
+      "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 22
+      "Google": 21
     },
     "by_region": {
-      "N": 13,
+      "N": 14,
       "SE": 5,
-      "NE": 4
+      "NE": 2
     }
   }
 }
