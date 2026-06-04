@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-06-04T17:27:20.808361-03:00",
-  "source_run_dir": "run_20260604_172701",
+  "generated_at": "2026-06-04T20:40:31.838888-03:00",
+  "source_run_dir": "run_20260604_204010",
   "cards": {
-    "vigentes": 12,
-    "ultimas24h": 22,
-    "autoridadesAtivas": 7,
+    "vigentes": 7,
+    "ultimas24h": 18,
+    "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "20:04",
+      "date": "04/06/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "PARÁ/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:DEFESA CIVIL BELEM: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
+      "status": "vigente"
+    },
+    {
+      "time": "19:00",
+      "date": "04/06/2026",
+      "senderName": "Defesa Civil de Dias D Avila (BA)",
+      "senderNameShort": "DC Dias D Avila (BA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Dias d'Ávila/BA",
+      "uf": "BA",
+      "headline": "Defesa Civil:Alerta de Chuvas forte a moderada com fortes ventos para Dias dAvila. Risco de alagamento e queda de arvores.  Manter atencao redobrada.",
+      "status": "vigente"
+    },
+    {
+      "time": "17:49",
+      "date": "04/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "expirado"
+    },
+    {
+      "time": "17:42",
+      "date": "04/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "location": "Japurá/AM, Tonantins/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "15:28",
       "date": "04/06/2026",
@@ -18,67 +66,29 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "13:40",
-      "date": "04/06/2026",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "senderNameShort": "DC Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "12:44",
-      "date": "04/06/2026",
-      "senderName": "Defesa Civil de Itaboraí (RJ)",
-      "senderNameShort": "DC Itaboraí (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Itaboraí/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Itaborai/RJ previsao chuva moderada de forma isolada nas proximas horas, em emergencias ligue 199",
-      "status": "vigente"
-    },
-    {
-      "time": "11:57",
-      "date": "04/06/2026",
-      "senderName": "Defesa Civil de Niterói (RJ)",
-      "senderNameShort": "DC Niterói (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Niterói/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Niteroi - Nucleos de chuva atuam na cidade. Previsao de chuva fraca a moderada para as proximas horas. Em caso de emergencia ligue 199.",
       "status": "expirado"
-    },
-    {
-      "time": "11:02",
-      "date": "04/06/2026",
-      "senderName": "Defesa Civil de Maricá (RJ)",
-      "senderNameShort": "DC Maricá (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Baixo",
-      "location": "Maricá/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Retorno para estagio meteorologico de NORMALIDADE em Marica/RJ as 11h00 do dia 04/06/26. Emergencia: 199 ou 966282699 (fone/whatsapp)",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 15
+      "count": 10
     },
     {
       "name": "Defesa Civil Mangaratiba (RJ)",
       "short_name": "Defesa Civil Mangaratiba (RJ)",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Dias D Avila (BA)",
+      "short_name": "DC Dias D Avila (BA)",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
@@ -99,11 +109,6 @@
       "name": "Defesa Civil de Maricá (RJ)",
       "short_name": "DC Maricá (RJ)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -113,52 +118,116 @@
     },
     {
       "label": "Médio",
-      "count": 10
+      "count": 9
     },
     {
       "label": "Alto",
-      "count": 10
+      "count": 6
+    },
+    {
+      "label": "Severo",
+      "count": 1
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 14
+      "count": 15
     },
     {
-      "label": "Inundações",
-      "count": 7
+      "label": "Solo/Lama",
+      "count": 1
     },
     {
       "label": "Alagamentos",
+      "count": 1
+    },
+    {
+      "label": "Inundações",
       "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 16
+      "count": 11
     },
     {
       "uf": "RJ",
       "count": 5
     },
     {
-      "uf": "SP",
+      "uf": "PA",
+      "count": 1
+    },
+    {
+      "uf": "BA",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 12
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 10
+      "count": 11
     }
   ],
   "all_alerts": [
+    {
+      "date": "04/06/2026",
+      "time": "20:04",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "PA",
+      "location": "PARÁ/PA",
+      "headline": "Defesa Civil:DEFESA CIVIL BELEM: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
+      "status": "vigente",
+      "onset": "2026-06-04T20:04:06-03:00",
+      "expires": "2026-06-04T22:00:00-03:00"
+    },
+    {
+      "date": "04/06/2026",
+      "time": "19:00",
+      "senderName": "Defesa Civil de Dias D Avila (BA)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "BA",
+      "location": "Dias d'Ávila/BA",
+      "headline": "Defesa Civil:Alerta de Chuvas forte a moderada com fortes ventos para Dias dAvila. Risco de alagamento e queda de arvores.  Manter atencao redobrada.",
+      "status": "vigente",
+      "onset": "2026-06-04T19:00:00-03:00",
+      "expires": "2026-06-08T00:00:00-03:00"
+    },
+    {
+      "date": "04/06/2026",
+      "time": "17:49",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-06-04T17:49:07-03:00",
+      "expires": "2026-06-04T20:00:00-03:00"
+    },
+    {
+      "date": "04/06/2026",
+      "time": "17:42",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Japurá/AM, Tonantins/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-04T17:42:46-03:00",
+      "expires": "2026-06-05T02:00:00-03:00"
+    },
     {
       "date": "04/06/2026",
       "time": "15:28",
@@ -168,7 +237,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-04T15:28:17-03:00",
       "expires": "2026-06-04T18:00:00-03:00"
     },
@@ -181,7 +250,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-04T13:40:49-03:00",
       "expires": "2026-06-04T19:00:00-03:00"
     },
@@ -340,125 +409,23 @@
       "status": "expirado",
       "onset": "2026-06-03T21:13:56-03:00",
       "expires": "2026-06-04T00:05:00-03:00"
-    },
-    {
-      "date": "03/06/2026",
-      "time": "20:03",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Beruri/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao gradual.  Prepare-se e evite areas baixas.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
-      "onset": "2026-06-03T20:03:05-03:00",
-      "expires": "2026-06-11T16:30:00-03:00"
-    },
-    {
-      "date": "03/06/2026",
-      "time": "20:00",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Borba/AM, Nova Olinda do Norte/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao gradual.  Prepare-se e evite areas baixas.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
-      "onset": "2026-06-03T20:00:25-03:00",
-      "expires": "2026-06-11T16:30:00-03:00"
-    },
-    {
-      "date": "03/06/2026",
-      "time": "19:58",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao gradual.  Prepare-se e evite areas baixas.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
-      "onset": "2026-06-03T19:58:25-03:00",
-      "expires": "2026-06-11T16:30:00-03:00"
-    },
-    {
-      "date": "03/06/2026",
-      "time": "19:53",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao gradual.  Prepare-se e evite areas baixas.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
-      "onset": "2026-06-03T19:53:33-03:00",
-      "expires": "2026-06-11T16:30:00-03:00"
-    },
-    {
-      "date": "03/06/2026",
-      "time": "19:51",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "São Paulo de Olivença/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao gradual.  Prepare-se e evite areas baixas.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
-      "onset": "2026-06-03T19:51:16-03:00",
-      "expires": "2026-06-11T16:30:00-03:00"
-    },
-    {
-      "date": "03/06/2026",
-      "time": "19:48",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao.  Prepare-se e evite areas baixas.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
-      "onset": "2026-06-03T19:48:52-03:00",
-      "expires": "2026-06-11T16:30:00-03:00"
-    },
-    {
-      "date": "03/06/2026",
-      "time": "19:45",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Maués/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-03T19:45:39-03:00",
-      "expires": "2026-06-03T21:00:00-03:00"
-    },
-    {
-      "date": "03/06/2026",
-      "time": "19:09",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:19h07 Chuva isolada na regiao de Bertioga e Caraguatatuba. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-06-03T19:09:03-03:00",
-      "expires": "2026-06-03T21:05:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 22,
+    "total_alerts": 18,
     "by_nivel": {
-      "Alto": 10,
-      "Médio": 10,
-      "Baixo": 2
+      "Médio": 9,
+      "Alto": 6,
+      "Baixo": 2,
+      "Severo": 1
     },
     "by_channel_list": {
-      "Google": 22
+      "Google": 18
     },
     "by_region": {
-      "N": 16,
-      "SE": 6
+      "N": 12,
+      "SE": 5,
+      "NE": 1
     }
   }
 }
