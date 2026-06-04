@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-06-04T10:33:31.306216-03:00",
-  "source_run_dir": "run_20260604_103314",
+  "generated_at": "2026-06-04T14:27:35.643259-03:00",
+  "source_run_dir": "run_20260604_142721",
   "cards": {
-    "vigentes": 11,
-    "ultimas24h": 21,
-    "autoridadesAtivas": 5,
+    "vigentes": 13,
+    "ultimas24h": 24,
+    "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "13:40",
+      "date": "04/06/2026",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "senderNameShort": "DC Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "12:44",
+      "date": "04/06/2026",
+      "senderName": "Defesa Civil de Itaboraí (RJ)",
+      "senderNameShort": "DC Itaboraí (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Itaboraí/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Itaborai/RJ previsao chuva moderada de forma isolada nas proximas horas, em emergencias ligue 199",
+      "status": "vigente"
+    },
+    {
+      "time": "11:57",
+      "date": "04/06/2026",
+      "senderName": "Defesa Civil de Niterói (RJ)",
+      "senderNameShort": "DC Niterói (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Niterói/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Niteroi - Nucleos de chuva atuam na cidade. Previsao de chuva fraca a moderada para as proximas horas. Em caso de emergencia ligue 199.",
+      "status": "vigente"
+    },
+    {
+      "time": "11:02",
+      "date": "04/06/2026",
+      "senderName": "Defesa Civil de Maricá (RJ)",
+      "senderNameShort": "DC Maricá (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Baixo",
+      "location": "Maricá/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Retorno para estagio meteorologico de NORMALIDADE em Marica/RJ as 11h00 do dia 04/06/26. Emergencia: 199 ou 966282699 (fone/whatsapp)",
+      "status": "vigente"
+    },
     {
       "time": "10:32",
       "date": "04/06/2026",
@@ -18,54 +66,6 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "10:19",
-      "date": "04/06/2026",
-      "senderName": "Defesa Civil Mangaratiba (RJ)",
-      "senderNameShort": "Defesa Civil Mangaratiba (R…",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Mangaratiba/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
-      "status": "vigente"
-    },
-    {
-      "time": "05:00",
-      "date": "04/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Barcelos/AM, Nhamundá/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "00:24",
-      "date": "04/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Em caso de emergencia ligue: 199/193.",
-      "status": "expirado"
-    },
-    {
-      "time": "00:18",
-      "date": "04/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Em caso de emergencia ligue: 199/193.",
       "status": "expirado"
     }
   ],
@@ -86,34 +86,49 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil de João Pessoa (PB)",
-      "short_name": "DC João Pessoa (PB)",
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
       "count": 1
     },
     {
-      "name": "Defesa Civil Estadual do Maranhão",
-      "short_name": "DC Maranhão",
+      "name": "Defesa Civil de Itaboraí (RJ)",
+      "short_name": "DC Itaboraí (RJ)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Niterói (RJ)",
+      "short_name": "DC Niterói (RJ)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Maricá (RJ)",
+      "short_name": "DC Maricá (RJ)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de João Pessoa (PB)",
+      "short_name": "DC João Pessoa (PB)",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Baixo",
-      "count": 1
+      "count": 2
     },
     {
       "label": "Médio",
-      "count": 9
+      "count": 12
     },
     {
       "label": "Alto",
-      "count": 11
+      "count": 10
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 11
+      "count": 14
     },
     {
       "label": "Inundações",
@@ -131,36 +146,84 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 14
+      "count": 15
+    },
+    {
+      "uf": "RJ",
+      "count": 5
     },
     {
       "uf": "SP",
       "count": 3
     },
     {
-      "uf": "RJ",
-      "count": 2
-    },
-    {
       "uf": "PB",
-      "count": 1
-    },
-    {
-      "uf": "MA",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 11
+      "count": 13
     },
     {
       "label": "expirado",
-      "count": 10
+      "count": 11
     }
   ],
   "all_alerts": [
+    {
+      "date": "04/06/2026",
+      "time": "13:40",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-06-04T13:40:49-03:00",
+      "expires": "2026-06-04T19:00:00-03:00"
+    },
+    {
+      "date": "04/06/2026",
+      "time": "12:44",
+      "senderName": "Defesa Civil de Itaboraí (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Itaboraí/RJ",
+      "headline": "Defesa Civil:Itaborai/RJ previsao chuva moderada de forma isolada nas proximas horas, em emergencias ligue 199",
+      "status": "vigente",
+      "onset": "2026-06-04T12:44:32-03:00",
+      "expires": "2026-06-05T12:00:00-03:00"
+    },
+    {
+      "date": "04/06/2026",
+      "time": "11:57",
+      "senderName": "Defesa Civil de Niterói (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Niterói/RJ",
+      "headline": "Defesa Civil:Niteroi - Nucleos de chuva atuam na cidade. Previsao de chuva fraca a moderada para as proximas horas. Em caso de emergencia ligue 199.",
+      "status": "vigente",
+      "onset": "2026-06-04T11:57:21-03:00",
+      "expires": "2026-06-04T16:00:00-03:00"
+    },
+    {
+      "date": "04/06/2026",
+      "time": "11:02",
+      "senderName": "Defesa Civil de Maricá (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Baixo",
+      "uf": "RJ",
+      "location": "Maricá/RJ",
+      "headline": "Defesa Civil:Retorno para estagio meteorologico de NORMALIDADE em Marica/RJ as 11h00 do dia 04/06/26. Emergencia: 199 ou 966282699 (fone/whatsapp)",
+      "status": "vigente",
+      "onset": "2026-06-04T11:02:02-03:00",
+      "expires": "2026-06-04T23:55:00-03:00"
+    },
     {
       "date": "04/06/2026",
       "time": "10:32",
@@ -170,7 +233,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-04T10:32:37-03:00",
       "expires": "2026-06-04T14:00:00-03:00"
     },
@@ -420,35 +483,22 @@
       "status": "vigente",
       "onset": "2026-06-03T14:50:30-03:00",
       "expires": "2026-06-04T23:59:00-03:00"
-    },
-    {
-      "date": "03/06/2026",
-      "time": "11:25",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MA",
-      "location": "MARANHÃO-MA",
-      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-06-03T11:25:00-03:00",
-      "expires": "2026-06-04T23:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 21,
+    "total_alerts": 24,
     "by_nivel": {
-      "Alto": 11,
-      "Médio": 9,
-      "Baixo": 1
+      "Médio": 12,
+      "Alto": 10,
+      "Baixo": 2
     },
     "by_channel_list": {
-      "Google": 21
+      "Google": 24
     },
     "by_region": {
-      "N": 14,
-      "SE": 5,
-      "NE": 2
+      "N": 15,
+      "SE": 8,
+      "NE": 1
     }
   }
 }
