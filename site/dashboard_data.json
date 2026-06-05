@@ -1,75 +1,80 @@
 {
-  "generated_at": "2026-06-05T17:17:15.432032-03:00",
-  "source_run_dir": "run_20260605_171658",
+  "generated_at": "2026-06-05T18:50:37.370020-03:00",
+  "source_run_dir": "run_20260605_185003",
   "cards": {
-    "vigentes": 8,
-    "ultimas24h": 16,
-    "autoridadesAtivas": 9,
+    "vigentes": 19,
+    "ultimas24h": 26,
+    "autoridadesAtivas": 10,
     "alertasExtremos": 1
   },
   "latest_alerts": [
     {
-      "time": "17:07",
-      "date": "05/06/2026",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "senderNameShort": "DC Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199",
-      "status": "vigente"
-    },
-    {
-      "time": "16:10",
+      "time": "18:32",
       "date": "05/06/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
       "event": "Chuvas Intensas",
-      "nivel": "Médio",
+      "nivel": "Alto",
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
       "status": "vigente"
     },
     {
-      "time": "14:42",
+      "time": "18:28",
       "date": "05/06/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
+      "event": "Alagamentos",
       "nivel": "Médio",
-      "location": "Rio Preto da Eva/AM, Autazes/AM",
+      "location": "São Gabriel da Cachoeira/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Fique atento e evite areas baixas.    Siga as orientacoes da defesa civil local.",
       "status": "vigente"
     },
     {
-      "time": "13:03",
+      "time": "18:15",
       "date": "05/06/2026",
-      "senderName": "Defesa Civil de Niterói (RJ)",
-      "senderNameShort": "DC Niterói (RJ)",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
       "event": "Friagem",
-      "nivel": "Médio",
-      "location": "Niterói/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Niteroi: Aviso de baixas temperaturas. Inicio: 06/06 00h. Fim: 08/06 09h. Agaselhe-se bem. Em caso de emergencia, ligue 199.",
+      "nivel": "Severo",
+      "location": "Moeda/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Onda de frio prevista para sabado (6), com temperatura minima inferior a 10 graus, nas primeiras horas da manha. Protejam-se!",
       "status": "vigente"
     },
     {
-      "time": "11:51",
+      "time": "18:02",
       "date": "05/06/2026",
-      "senderName": "Defesa Civil de Itaboraí (RJ)",
-      "senderNameShort": "DC Itaboraí (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Itaboraí/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Itaborai/RJ previsao de chuva moderada para as proximas horas, em emergencias ligue 199",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Friagem",
+      "nivel": "Severo",
+      "location": "Nova Lima/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Onda de frio prevista para sabado (6), com temperatura minima inferior a 10 graus, nas primeiras horas da manha. Protejam-se!",
+      "status": "vigente"
+    },
+    {
+      "time": "17:54",
+      "date": "05/06/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Friagem",
+      "nivel": "Severo",
+      "location": "Rio Acima/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Onda de frio prevista para sabado (6), com temperatura minima inferior a 10 graus, nas primeiras horas da manha. Protejam-se!",
       "status": "vigente"
     }
   ],
   "top_emitters": [
+    {
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
+      "count": 10
+    },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
@@ -119,15 +124,15 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 7
+      "count": 8
     },
     {
       "label": "Alto",
-      "count": 7
+      "count": 6
     },
     {
       "label": "Severo",
-      "count": 1
+      "count": 11
     },
     {
       "label": "Extremo",
@@ -141,18 +146,22 @@
     },
     {
       "label": "Friagem",
-      "count": 2
+      "count": 12
+    },
+    {
+      "label": "Alagamentos",
+      "count": 1
     },
     {
       "label": "Deslizamentos",
       "count": 1
-    },
-    {
-      "label": "Solo/Lama",
-      "count": 1
     }
   ],
   "uf_distribution": [
+    {
+      "uf": "MG",
+      "count": 10
+    },
     {
       "uf": "AM",
       "count": 9
@@ -181,14 +190,170 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 8
+      "count": 19
     },
     {
       "label": "expirado",
-      "count": 8
+      "count": 7
     }
   ],
   "all_alerts": [
+    {
+      "date": "05/06/2026",
+      "time": "18:32",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-05T18:32:14-03:00",
+      "expires": "2026-06-05T21:30:00-03:00"
+    },
+    {
+      "date": "05/06/2026",
+      "time": "18:28",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "São Gabriel da Cachoeira/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Fique atento e evite areas baixas.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-05T18:28:35-03:00",
+      "expires": "2026-06-05T21:00:00-03:00"
+    },
+    {
+      "date": "05/06/2026",
+      "time": "18:15",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Friagem",
+      "nivel": "Severo",
+      "uf": "MG",
+      "location": "Moeda/MG",
+      "headline": "Defesa Civil:Onda de frio prevista para sabado (6), com temperatura minima inferior a 10 graus, nas primeiras horas da manha. Protejam-se!",
+      "status": "vigente",
+      "onset": "2026-06-05T18:15:11-03:00",
+      "expires": "2026-06-06T18:10:00-03:00"
+    },
+    {
+      "date": "05/06/2026",
+      "time": "18:02",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Friagem",
+      "nivel": "Severo",
+      "uf": "MG",
+      "location": "Nova Lima/MG",
+      "headline": "Defesa Civil:Onda de frio prevista para sabado (6), com temperatura minima inferior a 10 graus, nas primeiras horas da manha. Protejam-se!",
+      "status": "vigente",
+      "onset": "2026-06-05T18:02:36-03:00",
+      "expires": "2026-06-06T18:00:00-03:00"
+    },
+    {
+      "date": "05/06/2026",
+      "time": "17:54",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Friagem",
+      "nivel": "Severo",
+      "uf": "MG",
+      "location": "Rio Acima/MG",
+      "headline": "Defesa Civil:Onda de frio prevista para sabado (6), com temperatura minima inferior a 10 graus, nas primeiras horas da manha. Protejam-se!",
+      "status": "vigente",
+      "onset": "2026-06-05T17:54:28-03:00",
+      "expires": "2026-06-06T17:50:00-03:00"
+    },
+    {
+      "date": "05/06/2026",
+      "time": "17:49",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Friagem",
+      "nivel": "Severo",
+      "uf": "MG",
+      "location": "Pouso Alto/MG, São Gotardo/MG",
+      "headline": "Defesa Civil:Onda de frio prevista para sabado (6), com temperatura minima inferior a 10 graus, nas primeiras horas da manha. Protejam- se!",
+      "status": "vigente",
+      "onset": "2026-06-05T17:49:23-03:00",
+      "expires": "2026-06-06T17:45:00-03:00"
+    },
+    {
+      "date": "05/06/2026",
+      "time": "17:41",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Friagem",
+      "nivel": "Severo",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Onda de frio prevista para sabado (6), com temperatura minima inferior a 10 graus, nas primeiras horas da manha. Proteja- se !",
+      "status": "vigente",
+      "onset": "2026-06-05T17:41:34-03:00",
+      "expires": "2026-06-06T17:35:00-03:00"
+    },
+    {
+      "date": "05/06/2026",
+      "time": "17:37",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Friagem",
+      "nivel": "Severo",
+      "uf": "MG",
+      "location": "Ibituruna/MG",
+      "headline": "Defesa Civil:Onda de frio prevista para sabado (6), com temperatura minima inferior a 10 graus, nas primeiras horas da manha. Proteja- se !",
+      "status": "vigente",
+      "onset": "2026-06-05T17:37:58-03:00",
+      "expires": "2026-06-06T17:35:00-03:00"
+    },
+    {
+      "date": "05/06/2026",
+      "time": "17:36",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Friagem",
+      "nivel": "Severo",
+      "uf": "MG",
+      "location": "Guiricema/MG",
+      "headline": "Defesa Civil:Onda de frio prevista para sabado (6), com temperatura minima inferior a 10 graus, nas primeiras horas da manha. Proteja- se !",
+      "status": "vigente",
+      "onset": "2026-06-05T17:36:17-03:00",
+      "expires": "2026-06-06T17:30:00-03:00"
+    },
+    {
+      "date": "05/06/2026",
+      "time": "17:34",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Friagem",
+      "nivel": "Severo",
+      "uf": "MG",
+      "location": "Carmo de Minas/MG",
+      "headline": "Defesa Civil:Onda de frio prevista para sabado (6), com temperatura minima inferior a 10 graus, nas primeiras horas da manha. Proteja- se !",
+      "status": "vigente",
+      "onset": "2026-06-05T17:34:22-03:00",
+      "expires": "2026-06-06T17:30:00-03:00"
+    },
+    {
+      "date": "05/06/2026",
+      "time": "17:27",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Friagem",
+      "nivel": "Severo",
+      "uf": "MG",
+      "location": "Capim Branco/MG",
+      "headline": "Defesa Civil:17h - Onda de frio prevista para sabado (6), com temperatura minima inferior a 10 graus, nas primeiras horas da manha. Protejam -se!",
+      "status": "vigente",
+      "onset": "2026-06-05T17:27:35-03:00",
+      "expires": "2026-06-06T17:25:00-03:00"
+    },
+    {
+      "date": "05/06/2026",
+      "time": "17:20",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Friagem",
+      "nivel": "Severo",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:17h - Onda de frio prevista para sabado (6), com temperatura minima inferior a 10 graus, nas primeiras horas da manha. Protejam-se!",
+      "status": "vigente",
+      "onset": "2026-06-05T17:20:08-03:00",
+      "expires": "2026-06-06T17:00:00-03:00"
+    },
     {
       "date": "05/06/2026",
       "time": "17:07",
@@ -224,7 +389,7 @@
       "uf": "AM",
       "location": "Rio Preto da Eva/AM, Autazes/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-05T14:42:27-03:00",
       "expires": "2026-06-05T17:30:00-03:00"
     },
@@ -370,49 +535,23 @@
       "status": "vigente",
       "onset": "2026-06-04T19:00:00-03:00",
       "expires": "2026-06-08T00:00:00-03:00"
-    },
-    {
-      "date": "04/06/2026",
-      "time": "17:49",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-04T17:49:07-03:00",
-      "expires": "2026-06-04T20:00:00-03:00"
-    },
-    {
-      "date": "04/06/2026",
-      "time": "17:42",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Japurá/AM, Tonantins/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-04T17:42:46-03:00",
-      "expires": "2026-06-05T02:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 16,
+    "total_alerts": 26,
     "by_nivel": {
-      "Alto": 7,
-      "Médio": 7,
-      "Extremo": 1,
-      "Severo": 1
+      "Severo": 11,
+      "Médio": 8,
+      "Alto": 6,
+      "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 16
+      "Google": 26
     },
     "by_region": {
+      "SE": 12,
       "N": 10,
       "NE": 3,
-      "SE": 2,
       "CO": 1
     }
   }
