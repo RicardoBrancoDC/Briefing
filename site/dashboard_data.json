@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-06-05T12:29:48.090748-03:00",
-  "source_run_dir": "run_20260605_122934",
+  "generated_at": "2026-06-05T15:14:45.846294-03:00",
+  "source_run_dir": "run_20260605_151430",
   "cards": {
-    "vigentes": 4,
+    "vigentes": 6,
     "ultimas24h": 15,
     "autoridadesAtivas": 8,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "14:42",
+      "date": "05/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Rio Preto da Eva/AM, Autazes/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "13:03",
+      "date": "05/06/2026",
+      "senderName": "Defesa Civil de Niterói (RJ)",
+      "senderNameShort": "DC Niterói (RJ)",
+      "event": "Friagem",
+      "nivel": "Médio",
+      "location": "Niterói/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Niteroi: Aviso de baixas temperaturas. Inicio: 06/06 00h. Fim: 08/06 09h. Agaselhe-se bem. Em caso de emergencia, ligue 199.",
+      "status": "vigente"
+    },
     {
       "time": "11:51",
       "date": "05/06/2026",
@@ -43,42 +67,23 @@
       "uf": "BA",
       "headline": "Defesa Civil:Atencao! O risco de deslizamento continua. Fiquem atentos. Emergencia, disque 199. CODESAL",
       "status": "vigente"
-    },
-    {
-      "time": "01:54",
-      "date": "05/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Caapiranga/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "00:03",
-      "date": "05/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Manaquiri/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 7
+      "count": 8
+    },
+    {
+      "name": "Defesa Civil de Niterói (RJ)",
+      "short_name": "DC Niterói (RJ)",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Itaboraí (RJ)",
       "short_name": "DC Itaboraí (RJ)",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Maranhão",
@@ -104,11 +109,6 @@
       "name": "Defesa Civil de Dias D Avila (BA)",
       "short_name": "DC Dias D Avila (BA)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -132,14 +132,14 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 12
-    },
-    {
-      "label": "Deslizamentos",
-      "count": 1
+      "count": 11
     },
     {
       "label": "Friagem",
+      "count": 2
+    },
+    {
+      "label": "Deslizamentos",
       "count": 1
     },
     {
@@ -176,14 +176,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 4
+      "count": 6
     },
     {
       "label": "expirado",
-      "count": 11
+      "count": 9
     }
   ],
   "all_alerts": [
+    {
+      "date": "05/06/2026",
+      "time": "14:42",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Rio Preto da Eva/AM, Autazes/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-05T14:42:27-03:00",
+      "expires": "2026-06-05T17:30:00-03:00"
+    },
+    {
+      "date": "05/06/2026",
+      "time": "13:03",
+      "senderName": "Defesa Civil de Niterói (RJ)",
+      "event": "Friagem",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Niterói/RJ",
+      "headline": "Defesa Civil:Niteroi: Aviso de baixas temperaturas. Inicio: 06/06 00h. Fim: 08/06 09h. Agaselhe-se bem. Em caso de emergencia, ligue 199.",
+      "status": "vigente",
+      "onset": "2026-06-05T13:03:15-03:00",
+      "expires": "2026-06-08T09:00:00-03:00"
+    },
     {
       "date": "05/06/2026",
       "time": "11:51",
@@ -352,32 +378,6 @@
       "status": "expirado",
       "onset": "2026-06-04T15:28:17-03:00",
       "expires": "2026-06-04T18:00:00-03:00"
-    },
-    {
-      "date": "04/06/2026",
-      "time": "13:40",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-04T13:40:49-03:00",
-      "expires": "2026-06-04T19:00:00-03:00"
-    },
-    {
-      "date": "04/06/2026",
-      "time": "12:44",
-      "senderName": "Defesa Civil de Itaboraí (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Itaboraí/RJ",
-      "headline": "Defesa Civil:Itaborai/RJ previsao chuva moderada de forma isolada nas proximas horas, em emergencias ligue 199",
-      "status": "expirado",
-      "onset": "2026-06-04T12:44:32-03:00",
-      "expires": "2026-06-05T12:00:00-03:00"
     }
   ],
   "summary": {
