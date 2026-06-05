@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-06-05T07:18:34.243000-03:00",
-  "source_run_dir": "run_20260605_071821",
+  "generated_at": "2026-06-05T12:29:48.090748-03:00",
+  "source_run_dir": "run_20260605_122934",
   "cards": {
     "vigentes": 4,
-    "ultimas24h": 16,
-    "autoridadesAtivas": 9,
-    "alertasExtremos": 0
+    "ultimas24h": 15,
+    "autoridadesAtivas": 8,
+    "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "11:51",
+      "date": "05/06/2026",
+      "senderName": "Defesa Civil de Itaboraí (RJ)",
+      "senderNameShort": "DC Itaboraí (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Itaboraí/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Itaborai/RJ previsao de chuva moderada para as proximas horas, em emergencias ligue 199",
+      "status": "vigente"
+    },
+    {
+      "time": "10:39",
+      "date": "05/06/2026",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "senderNameShort": "DC Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "MARANHÃO/MA",
+      "uf": "MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193. Valido ate dia 07/06/2026 as 23h59min.",
+      "status": "vigente"
+    },
+    {
+      "time": "10:10",
+      "date": "05/06/2026",
+      "senderName": "Defesa Civil de Salvador (BA)",
+      "senderNameShort": "DC Salvador (BA)",
+      "event": "Deslizamentos",
+      "nivel": "Extremo",
+      "location": "Salvador/BA",
+      "uf": "BA",
+      "headline": "Defesa Civil:Atencao! O risco de deslizamento continua. Fiquem atentos. Emergencia, disque 199. CODESAL",
+      "status": "vigente"
+    },
     {
       "time": "01:54",
       "date": "05/06/2026",
@@ -31,49 +67,28 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
       "status": "expirado"
-    },
-    {
-      "time": "22:34",
-      "date": "04/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Nova Olinda do Norte/AM, Autazes/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "22:19",
-      "date": "04/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "São Paulo de Olivença/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "21:58",
-      "date": "04/06/2026",
-      "senderName": "Defesa Civil do Distrito Federal",
-      "senderNameShort": "Defesa Civil do Distrito Fe…",
-      "event": "Friagem",
-      "nivel": "Alto",
-      "location": "Brasília/DF",
-      "uf": "DF",
-      "headline": "Defesa Civil:ALERTA DE DECLINIO DE TEMPERATURA NO DF. Se mantenha agasalhado e evite ficar exposto nos horarios mais frios, em caso de risco ligue 199 ou 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 8
+      "count": 7
+    },
+    {
+      "name": "Defesa Civil de Itaboraí (RJ)",
+      "short_name": "DC Itaboraí (RJ)",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual do Maranhão",
+      "short_name": "DC Maranhão",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Salvador (BA)",
+      "short_name": "DC Salvador (BA)",
+      "count": 1
     },
     {
       "name": "Defesa Civil do Distrito Federal",
@@ -94,50 +109,34 @@
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Itaboraí (RJ)",
-      "short_name": "DC Itaboraí (RJ)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Niterói (RJ)",
-      "short_name": "DC Niterói (RJ)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Maricá (RJ)",
-      "short_name": "DC Maricá (RJ)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Mangaratiba (RJ)",
-      "short_name": "Defesa Civil Mangaratiba (RJ)",
-      "count": 1
     }
   ],
   "level_distribution": [
-    {
-      "label": "Baixo",
-      "count": 1
-    },
     {
       "label": "Médio",
       "count": 6
     },
     {
       "label": "Alto",
-      "count": 8
+      "count": 7
     },
     {
       "label": "Severo",
+      "count": 1
+    },
+    {
+      "label": "Extremo",
       "count": 1
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 14
+      "count": 12
+    },
+    {
+      "label": "Deslizamentos",
+      "count": 1
     },
     {
       "label": "Friagem",
@@ -151,11 +150,19 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 9
+      "count": 8
     },
     {
       "uf": "RJ",
-      "count": 4
+      "count": 2
+    },
+    {
+      "uf": "BA",
+      "count": 2
+    },
+    {
+      "uf": "MA",
+      "count": 1
     },
     {
       "uf": "DF",
@@ -163,10 +170,6 @@
     },
     {
       "uf": "PA",
-      "count": 1
-    },
-    {
-      "uf": "BA",
       "count": 1
     }
   ],
@@ -177,10 +180,49 @@
     },
     {
       "label": "expirado",
-      "count": 12
+      "count": 11
     }
   ],
   "all_alerts": [
+    {
+      "date": "05/06/2026",
+      "time": "11:51",
+      "senderName": "Defesa Civil de Itaboraí (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Itaboraí/RJ",
+      "headline": "Defesa Civil:Itaborai/RJ previsao de chuva moderada para as proximas horas, em emergencias ligue 199",
+      "status": "vigente",
+      "onset": "2026-06-05T11:51:53-03:00",
+      "expires": "2026-06-06T12:00:00-03:00"
+    },
+    {
+      "date": "05/06/2026",
+      "time": "10:39",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "MA",
+      "location": "MARANHÃO/MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193. Valido ate dia 07/06/2026 as 23h59min.",
+      "status": "vigente",
+      "onset": "2026-06-05T10:39:25-03:00",
+      "expires": "2026-06-07T23:55:00-03:00"
+    },
+    {
+      "date": "05/06/2026",
+      "time": "10:10",
+      "senderName": "Defesa Civil de Salvador (BA)",
+      "event": "Deslizamentos",
+      "nivel": "Extremo",
+      "uf": "BA",
+      "location": "Salvador/BA",
+      "headline": "Defesa Civil:Atencao! O risco de deslizamento continua. Fiquem atentos. Emergencia, disque 199. CODESAL",
+      "status": "vigente",
+      "onset": "2026-06-05T10:10:00-03:00",
+      "expires": "2026-06-06T10:00:00-03:00"
+    },
     {
       "date": "05/06/2026",
       "time": "01:54",
@@ -242,7 +284,7 @@
       "uf": "DF",
       "location": "Brasília/DF",
       "headline": "Defesa Civil:ALERTA DE DECLINIO DE TEMPERATURA NO DF. Se mantenha agasalhado e evite ficar exposto nos horarios mais frios, em caso de risco ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-04T21:58:04-03:00",
       "expires": "2026-06-05T10:00:00-03:00"
     },
@@ -333,79 +375,27 @@
       "uf": "RJ",
       "location": "Itaboraí/RJ",
       "headline": "Defesa Civil:Itaborai/RJ previsao chuva moderada de forma isolada nas proximas horas, em emergencias ligue 199",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-04T12:44:32-03:00",
       "expires": "2026-06-05T12:00:00-03:00"
-    },
-    {
-      "date": "04/06/2026",
-      "time": "11:57",
-      "senderName": "Defesa Civil de Niterói (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Niterói/RJ",
-      "headline": "Defesa Civil:Niteroi - Nucleos de chuva atuam na cidade. Previsao de chuva fraca a moderada para as proximas horas. Em caso de emergencia ligue 199.",
-      "status": "expirado",
-      "onset": "2026-06-04T11:57:21-03:00",
-      "expires": "2026-06-04T16:00:00-03:00"
-    },
-    {
-      "date": "04/06/2026",
-      "time": "11:02",
-      "senderName": "Defesa Civil de Maricá (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Baixo",
-      "uf": "RJ",
-      "location": "Maricá/RJ",
-      "headline": "Defesa Civil:Retorno para estagio meteorologico de NORMALIDADE em Marica/RJ as 11h00 do dia 04/06/26. Emergencia: 199 ou 966282699 (fone/whatsapp)",
-      "status": "expirado",
-      "onset": "2026-06-04T11:02:02-03:00",
-      "expires": "2026-06-04T23:55:00-03:00"
-    },
-    {
-      "date": "04/06/2026",
-      "time": "10:32",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-04T10:32:37-03:00",
-      "expires": "2026-06-04T14:00:00-03:00"
-    },
-    {
-      "date": "04/06/2026",
-      "time": "10:19",
-      "senderName": "Defesa Civil Mangaratiba (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
-      "status": "vigente",
-      "onset": "2026-06-04T10:19:14-03:00",
-      "expires": "2026-06-05T08:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 16,
+    "total_alerts": 15,
     "by_nivel": {
-      "Alto": 8,
+      "Alto": 7,
       "Médio": 6,
-      "Baixo": 1,
+      "Extremo": 1,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 16
+      "Google": 15
     },
     "by_region": {
-      "N": 10,
-      "SE": 4,
-      "CO": 1,
-      "NE": 1
+      "N": 9,
+      "NE": 3,
+      "SE": 2,
+      "CO": 1
     }
   }
 }
