@@ -1,71 +1,71 @@
 {
-  "generated_at": "2026-06-05T20:40:47.403160-03:00",
-  "source_run_dir": "run_20260605_204023",
+  "generated_at": "2026-06-06T01:31:33.517963-03:00",
+  "source_run_dir": "run_20260606_013102",
   "cards": {
-    "vigentes": 18,
-    "ultimas24h": 25,
+    "vigentes": 21,
+    "ultimas24h": 27,
     "autoridadesAtivas": 9,
     "alertasExtremos": 1
   },
   "latest_alerts": [
     {
-      "time": "19:42",
-      "date": "05/06/2026",
-      "senderName": "Defesa Civil de Igarapé (MG)",
-      "senderNameShort": "DC Igarapé (MG)",
+      "time": "00:30",
+      "date": "06/06/2026",
+      "senderName": "Defesa Civil de Cidade Ocidental (GO)",
+      "senderNameShort": "DC Cidade Ocidental (GO)",
       "event": "Friagem",
-      "nivel": "Alto",
-      "location": "Igarapé/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Igarape. Onda de frio prevista para sabado (6), com temperatura minima inferior a 10°C, nas primeiras horas da manha. Protejam - se .",
+      "nivel": "Médio",
+      "location": "Cidade Ocidental/GO",
+      "uf": "GO",
+      "headline": "Defesa Civil:Alerta de Onda de Frio - Friagem para Cidade Ocidental/GO  ALERTA DE QUEDA DE TEMPERATURA  Mantenha-se agasalhado, em caso de risco l",
       "status": "vigente"
     },
     {
-      "time": "18:32",
+      "time": "23:50",
       "date": "05/06/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
+      "event": "Solo/Lama",
       "nivel": "Alto",
       "location": "AMAZONAS/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
       "status": "vigente"
     },
     {
-      "time": "18:28",
+      "time": "23:36",
+      "date": "05/06/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Friagem",
+      "nivel": "Severo",
+      "location": "Brasilândia de Minas/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Onda de frio intenso previsto para toda noite de sexta e inicio do sabado em Brasilandia de Minas. Protejam-se!",
+      "status": "vigente"
+    },
+    {
+      "time": "23:23",
       "date": "05/06/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
       "event": "Alagamentos",
-      "nivel": "Médio",
-      "location": "São Gabriel da Cachoeira/AM",
+      "nivel": "Alto",
+      "location": "Codajás/AM, Coari/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Fique atento e evite areas baixas.    Siga as orientacoes da defesa civil local.",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
       "status": "vigente"
     },
     {
-      "time": "18:15",
+      "time": "22:25",
       "date": "05/06/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Friagem",
-      "nivel": "Severo",
-      "location": "Moeda/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Onda de frio prevista para sabado (6), com temperatura minima inferior a 10 graus, nas primeiras horas da manha. Protejam-se!",
-      "status": "vigente"
-    },
-    {
-      "time": "18:02",
-      "date": "05/06/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Friagem",
-      "nivel": "Severo",
-      "location": "Nova Lima/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Onda de frio prevista para sabado (6), com temperatura minima inferior a 10 graus, nas primeiras horas da manha. Protejam-se!",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "location": "Beruri/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
       "status": "vigente"
     }
   ],
@@ -73,12 +73,17 @@
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 8
+      "count": 9
+    },
+    {
+      "name": "Defesa Civil de Cidade Ocidental (GO)",
+      "short_name": "DC Cidade Ocidental (GO)",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Igarapé (MG)",
@@ -109,11 +114,6 @@
       "name": "Defesa Civil de Salvador (BA)",
       "short_name": "DC Salvador (BA)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil do Distrito Federal",
-      "short_name": "Defesa Civil do Distrito Federal",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -123,11 +123,11 @@
     },
     {
       "label": "Alto",
-      "count": 7
+      "count": 8
     },
     {
       "label": "Severo",
-      "count": 10
+      "count": 11
     },
     {
       "label": "Extremo",
@@ -137,15 +137,19 @@
   "event_distribution": [
     {
       "label": "Friagem",
-      "count": 13
+      "count": 14
     },
     {
       "label": "Chuvas Intensas",
-      "count": 10
+      "count": 7
     },
     {
       "label": "Alagamentos",
-      "count": 1
+      "count": 3
+    },
+    {
+      "label": "Solo/Lama",
+      "count": 2
     },
     {
       "label": "Deslizamentos",
@@ -155,15 +159,19 @@
   "uf_distribution": [
     {
       "uf": "MG",
-      "count": 11
+      "count": 12
     },
     {
       "uf": "AM",
-      "count": 9
+      "count": 10
     },
     {
       "uf": "RJ",
       "count": 2
+    },
+    {
+      "uf": "GO",
+      "count": 1
     },
     {
       "uf": "MA",
@@ -172,23 +180,97 @@
     {
       "uf": "BA",
       "count": 1
-    },
-    {
-      "uf": "DF",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 18
+      "count": 21
     },
     {
       "label": "expirado",
-      "count": 7
+      "count": 6
     }
   ],
   "all_alerts": [
+    {
+      "date": "06/06/2026",
+      "time": "00:30",
+      "senderName": "Defesa Civil de Cidade Ocidental (GO)",
+      "event": "Friagem",
+      "nivel": "Médio",
+      "uf": "GO",
+      "location": "Cidade Ocidental/GO",
+      "headline": "Defesa Civil:Alerta de Onda de Frio - Friagem para Cidade Ocidental/GO  ALERTA DE QUEDA DE TEMPERATURA  Mantenha-se agasalhado, em caso de risco l",
+      "status": "vigente",
+      "onset": "2026-06-06T00:30:00-03:00",
+      "expires": "2026-06-06T07:30:00-03:00"
+    },
+    {
+      "date": "05/06/2026",
+      "time": "23:50",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-05T23:50:43-03:00",
+      "expires": "2026-06-06T09:00:00-03:00"
+    },
+    {
+      "date": "05/06/2026",
+      "time": "23:36",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Friagem",
+      "nivel": "Severo",
+      "uf": "MG",
+      "location": "Brasilândia de Minas/MG",
+      "headline": "Defesa Civil:Onda de frio intenso previsto para toda noite de sexta e inicio do sabado em Brasilandia de Minas. Protejam-se!",
+      "status": "vigente",
+      "onset": "2026-06-05T23:36:15-03:00",
+      "expires": "2026-06-06T12:00:00-03:00"
+    },
+    {
+      "date": "05/06/2026",
+      "time": "23:23",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Codajás/AM, Coari/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-05T23:23:31-03:00",
+      "expires": "2026-06-06T06:00:00-03:00"
+    },
+    {
+      "date": "05/06/2026",
+      "time": "22:25",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Beruri/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-05T22:25:45-03:00",
+      "expires": "2026-06-06T05:00:00-03:00"
+    },
+    {
+      "date": "05/06/2026",
+      "time": "21:14",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Defesa Civil Estadual do Amazonas",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-05T21:14:37-03:00",
+      "expires": "2026-06-06T06:00:00-03:00"
+    },
     {
       "date": "05/06/2026",
       "time": "19:42",
@@ -211,7 +293,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-05T18:32:14-03:00",
       "expires": "2026-06-05T21:30:00-03:00"
     },
@@ -224,7 +306,7 @@
       "uf": "AM",
       "location": "São Gabriel da Cachoeira/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Fique atento e evite areas baixas.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-05T18:28:35-03:00",
       "expires": "2026-06-05T21:00:00-03:00"
     },
@@ -367,7 +449,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-05T17:07:00-03:00",
       "expires": "2026-06-06T00:00:00-03:00"
     },
@@ -461,74 +543,22 @@
       "status": "expirado",
       "onset": "2026-06-05T01:54:13-03:00",
       "expires": "2026-06-05T03:30:00-03:00"
-    },
-    {
-      "date": "05/06/2026",
-      "time": "00:03",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaquiri/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-05T00:03:21-03:00",
-      "expires": "2026-06-05T01:30:00-03:00"
-    },
-    {
-      "date": "04/06/2026",
-      "time": "22:34",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Nova Olinda do Norte/AM, Autazes/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-04T22:34:13-03:00",
-      "expires": "2026-06-05T00:00:00-03:00"
-    },
-    {
-      "date": "04/06/2026",
-      "time": "22:19",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "São Paulo de Olivença/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-04T22:19:39-03:00",
-      "expires": "2026-06-05T00:15:00-03:00"
-    },
-    {
-      "date": "04/06/2026",
-      "time": "21:58",
-      "senderName": "Defesa Civil do Distrito Federal",
-      "event": "Friagem",
-      "nivel": "Alto",
-      "uf": "DF",
-      "location": "Brasília/DF",
-      "headline": "Defesa Civil:ALERTA DE DECLINIO DE TEMPERATURA NO DF. Se mantenha agasalhado e evite ficar exposto nos horarios mais frios, em caso de risco ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-04T21:58:04-03:00",
-      "expires": "2026-06-05T10:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 25,
+    "total_alerts": 27,
     "by_nivel": {
-      "Severo": 10,
-      "Alto": 7,
+      "Severo": 11,
+      "Alto": 8,
       "Médio": 7,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 25
+      "Google": 27
     },
     "by_region": {
-      "SE": 13,
-      "N": 9,
+      "SE": 14,
+      "N": 10,
       "NE": 2,
       "CO": 1
     }
