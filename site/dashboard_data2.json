@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-06T05:48:24.964381-03:00",
+  "generated_at": "2026-06-06T08:47:27.801965-03:00",
   "source": ".cache/historico_alertas.json",
   "window_hours": 24,
   "cards": {
-    "vigentes": 21,
+    "vigentes": 17,
     "ultimas24h": 27,
     "autoridadesAtivas": 9,
     "alertasExtremos": 1,
@@ -23,7 +23,7 @@
       "location": "Manicoré/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "184040/2026",
       "entry_id": "184040/2026",
       "sent": "2026-06-06T03:39:10-03:00",
@@ -46,7 +46,7 @@
       "location": "Cidade Ocidental/GO",
       "uf": "GO",
       "headline": "Defesa Civil:Alerta de Onda de Frio - Friagem para Cidade Ocidental/GO  ALERTA DE QUEDA DE TEMPERATURA  Mantenha-se agasalhado, em caso de risco l",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "184039/2026",
       "entry_id": "184039/2026",
       "sent": "2026-06-06T00:38:43-03:00",
@@ -115,7 +115,7 @@
       "location": "Codajás/AM, Coari/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "184036/2026",
       "entry_id": "184036/2026",
       "sent": "2026-06-05T23:23:31-03:00",
@@ -161,7 +161,7 @@
       "location": "São Gabriel da Cachoeira/AM, Nova Olinda do Norte/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "184034/2026",
       "entry_id": "184034/2026",
       "sent": "2026-06-05T21:14:37-03:00",
@@ -360,11 +360,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 21
+      "count": 17
     },
     {
       "label": "expirado",
-      "count": 6
+      "count": 10
     }
   ],
   "category_distribution": [
@@ -398,18 +398,14 @@
   "time_since_distribution": [
     {
       "label": "Mais de 12h",
-      "count": 13
+      "count": 20
     },
     {
       "label": "6h a 12h",
-      "count": 11
+      "count": 6
     },
     {
       "label": "3h a 6h",
-      "count": 2
-    },
-    {
-      "label": "1h a 3h",
       "count": 1
     }
   ],
@@ -426,7 +422,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "sent": "2026-06-06T03:39:10-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -453,7 +449,7 @@
       "uf": "AM",
       "location": "Manicoré/AM",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "06/06/2026",
       "time": "03:39",
       "sent_br": "2026-06-06T03:39:10-03:00",
@@ -462,10 +458,10 @@
       "duration_minutes": 290,
       "duration_hours": 4.83,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 129,
-      "time_since_hours": 2.15,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true
+      "time_since_minutes": 308,
+      "time_since_hours": 5.13,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false
     },
     {
       "identifier": "184039/2026",
@@ -473,7 +469,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil de Cidade Ocidental (GO)",
       "sent": "2026-06-06T00:38:43-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "ONDA DE FRIO - FRIAGEM",
@@ -500,7 +496,7 @@
       "uf": "GO",
       "location": "Cidade Ocidental/GO",
       "event_short": "Friagem",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "06/06/2026",
       "time": "00:30",
       "sent_br": "2026-06-06T00:38:43-03:00",
@@ -509,10 +505,10 @@
       "duration_minutes": 420,
       "duration_hours": 7.0,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 318,
-      "time_since_hours": 5.3,
-      "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "time_since_minutes": 497,
+      "time_since_hours": 8.28,
+      "time_since_bucket": "6h a 12h",
+      "is_active": false
     },
     {
       "identifier": "184038/2026",
@@ -556,9 +552,9 @@
       "duration_minutes": 549,
       "duration_hours": 9.15,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 357,
-      "time_since_hours": 5.95,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 536,
+      "time_since_hours": 8.93,
+      "time_since_bucket": "6h a 12h",
       "is_active": true
     },
     {
@@ -603,8 +599,8 @@
       "duration_minutes": 743,
       "duration_hours": 12.38,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 372,
-      "time_since_hours": 6.2,
+      "time_since_minutes": 551,
+      "time_since_hours": 9.18,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -614,7 +610,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "sent": "2026-06-05T23:23:31-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "ALAGAMENTOS",
@@ -641,7 +637,7 @@
       "uf": "AM",
       "location": "Codajás/AM, Coari/AM",
       "event_short": "Alagamentos",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "05/06/2026",
       "time": "23:23",
       "sent_br": "2026-06-05T23:23:31-03:00",
@@ -650,10 +646,10 @@
       "duration_minutes": 396,
       "duration_hours": 6.6,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 384,
-      "time_since_hours": 6.4,
+      "time_since_minutes": 563,
+      "time_since_hours": 9.38,
       "time_since_bucket": "6h a 12h",
-      "is_active": true
+      "is_active": false
     },
     {
       "identifier": "184035/2026",
@@ -697,8 +693,8 @@
       "duration_minutes": 394,
       "duration_hours": 6.57,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 442,
-      "time_since_hours": 7.37,
+      "time_since_minutes": 621,
+      "time_since_hours": 10.35,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -708,7 +704,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "sent": "2026-06-05T21:14:37-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Geo",
       "event": "CORRIDAS DE MASSA - SOLO/LAMA",
@@ -735,7 +731,7 @@
       "uf": "AM",
       "location": "São Gabriel da Cachoeira/AM, Nova Olinda do Norte/AM",
       "event_short": "Solo/Lama",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "05/06/2026",
       "time": "21:14",
       "sent_br": "2026-06-05T21:14:37-03:00",
@@ -744,10 +740,10 @@
       "duration_minutes": 525,
       "duration_hours": 8.75,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 513,
-      "time_since_hours": 8.55,
+      "time_since_minutes": 692,
+      "time_since_hours": 11.53,
       "time_since_bucket": "6h a 12h",
-      "is_active": true
+      "is_active": false
     },
     {
       "identifier": "184033/2026",
@@ -791,9 +787,9 @@
       "duration_minutes": 1037,
       "duration_hours": 17.28,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 605,
-      "time_since_hours": 10.08,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 784,
+      "time_since_hours": 13.07,
+      "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
     {
@@ -838,9 +834,9 @@
       "duration_minutes": 177,
       "duration_hours": 2.95,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 676,
-      "time_since_hours": 11.27,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 855,
+      "time_since_hours": 14.25,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -885,9 +881,9 @@
       "duration_minutes": 151,
       "duration_hours": 2.52,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 679,
-      "time_since_hours": 11.32,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 858,
+      "time_since_hours": 14.3,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -932,9 +928,9 @@
       "duration_minutes": 1434,
       "duration_hours": 23.9,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 693,
-      "time_since_hours": 11.55,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 872,
+      "time_since_hours": 14.53,
+      "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
     {
@@ -979,9 +975,9 @@
       "duration_minutes": 1437,
       "duration_hours": 23.95,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 705,
-      "time_since_hours": 11.75,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 884,
+      "time_since_hours": 14.73,
+      "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
     {
@@ -1026,9 +1022,9 @@
       "duration_minutes": 1435,
       "duration_hours": 23.92,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 713,
-      "time_since_hours": 11.88,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 892,
+      "time_since_hours": 14.87,
+      "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
     {
@@ -1073,9 +1069,9 @@
       "duration_minutes": 1435,
       "duration_hours": 23.92,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 719,
-      "time_since_hours": 11.98,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 898,
+      "time_since_hours": 14.97,
+      "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
     {
@@ -1120,8 +1116,8 @@
       "duration_minutes": 1433,
       "duration_hours": 23.88,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 726,
-      "time_since_hours": 12.1,
+      "time_since_minutes": 905,
+      "time_since_hours": 15.08,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1167,8 +1163,8 @@
       "duration_minutes": 1437,
       "duration_hours": 23.95,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 730,
-      "time_since_hours": 12.17,
+      "time_since_minutes": 909,
+      "time_since_hours": 15.15,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1214,8 +1210,8 @@
       "duration_minutes": 1433,
       "duration_hours": 23.88,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 732,
-      "time_since_hours": 12.2,
+      "time_since_minutes": 911,
+      "time_since_hours": 15.18,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1261,8 +1257,8 @@
       "duration_minutes": 1435,
       "duration_hours": 23.92,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 734,
-      "time_since_hours": 12.23,
+      "time_since_minutes": 913,
+      "time_since_hours": 15.22,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1308,8 +1304,8 @@
       "duration_minutes": 1437,
       "duration_hours": 23.95,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 740,
-      "time_since_hours": 12.33,
+      "time_since_minutes": 919,
+      "time_since_hours": 15.32,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1355,8 +1351,8 @@
       "duration_minutes": 1419,
       "duration_hours": 23.65,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 748,
-      "time_since_hours": 12.47,
+      "time_since_minutes": 927,
+      "time_since_hours": 15.45,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1402,8 +1398,8 @@
       "duration_minutes": 413,
       "duration_hours": 6.88,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 761,
-      "time_since_hours": 12.68,
+      "time_since_minutes": 940,
+      "time_since_hours": 15.67,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1449,8 +1445,8 @@
       "duration_minutes": 169,
       "duration_hours": 2.82,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 817,
-      "time_since_hours": 13.62,
+      "time_since_minutes": 996,
+      "time_since_hours": 16.6,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1496,8 +1492,8 @@
       "duration_minutes": 167,
       "duration_hours": 2.78,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 905,
-      "time_since_hours": 15.08,
+      "time_since_minutes": 1085,
+      "time_since_hours": 18.08,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1543,8 +1539,8 @@
       "duration_minutes": 4076,
       "duration_hours": 67.93,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 1005,
-      "time_since_hours": 16.75,
+      "time_since_minutes": 1184,
+      "time_since_hours": 19.73,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1590,8 +1586,8 @@
       "duration_minutes": 1448,
       "duration_hours": 24.13,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 1076,
-      "time_since_hours": 17.93,
+      "time_since_minutes": 1255,
+      "time_since_hours": 20.92,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1637,8 +1633,8 @@
       "duration_minutes": 3675,
       "duration_hours": 61.25,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 1148,
-      "time_since_hours": 19.13,
+      "time_since_minutes": 1328,
+      "time_since_hours": 22.13,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1684,8 +1680,8 @@
       "duration_minutes": 1430,
       "duration_hours": 23.83,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1178,
-      "time_since_hours": 19.63,
+      "time_since_minutes": 1357,
+      "time_since_hours": 22.62,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     }
