@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-06-06T08:47:27.677963-03:00",
-  "source_run_dir": "run_20260606_084709",
+  "generated_at": "2026-06-06T11:11:52.696982-03:00",
+  "source_run_dir": "run_20260606_111125",
   "cards": {
-    "vigentes": 17,
+    "vigentes": 16,
     "ultimas24h": 27,
-    "autoridadesAtivas": 9,
-    "alertasExtremos": 1
+    "autoridadesAtivas": 7,
+    "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "10:30",
+      "date": "06/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "09:19",
+      "date": "06/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "03:39",
       "date": "06/06/2026",
@@ -42,43 +66,19 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "23:36",
-      "date": "05/06/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Friagem",
-      "nivel": "Severo",
-      "location": "Brasilândia de Minas/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Onda de frio intenso previsto para toda noite de sexta e inicio do sabado em Brasilandia de Minas. Protejam-se!",
-      "status": "vigente"
-    },
-    {
-      "time": "23:23",
-      "date": "05/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "location": "Codajás/AM, Coari/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
       "status": "expirado"
     }
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
       "count": 11
     },
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 9
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
+      "count": 11
     },
     {
       "name": "Defesa Civil de Cidade Ocidental (GO)",
@@ -104,34 +104,20 @@
       "name": "Defesa Civil de Itaboraí (RJ)",
       "short_name": "DC Itaboraí (RJ)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Maranhão",
-      "short_name": "DC Maranhão",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Salvador (BA)",
-      "short_name": "DC Salvador (BA)",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 7
+      "count": 6
     },
     {
       "label": "Alto",
-      "count": 8
+      "count": 10
     },
     {
       "label": "Severo",
       "count": 11
-    },
-    {
-      "label": "Extremo",
-      "count": 1
     }
   ],
   "event_distribution": [
@@ -141,7 +127,7 @@
     },
     {
       "label": "Chuvas Intensas",
-      "count": 7
+      "count": 8
     },
     {
       "label": "Alagamentos",
@@ -150,20 +136,16 @@
     {
       "label": "Solo/Lama",
       "count": 2
-    },
-    {
-      "label": "Deslizamentos",
-      "count": 1
     }
   ],
   "uf_distribution": [
     {
-      "uf": "MG",
+      "uf": "AM",
       "count": 12
     },
     {
-      "uf": "AM",
-      "count": 10
+      "uf": "MG",
+      "count": 12
     },
     {
       "uf": "RJ",
@@ -172,27 +154,45 @@
     {
       "uf": "GO",
       "count": 1
-    },
-    {
-      "uf": "MA",
-      "count": 1
-    },
-    {
-      "uf": "BA",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 17
+      "count": 16
     },
     {
       "label": "expirado",
-      "count": 10
+      "count": 11
     }
   ],
   "all_alerts": [
+    {
+      "date": "06/06/2026",
+      "time": "10:30",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-06T10:30:34-03:00",
+      "expires": "2026-06-06T14:15:00-03:00"
+    },
+    {
+      "date": "06/06/2026",
+      "time": "09:19",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-06T09:19:42-03:00",
+      "expires": "2026-06-06T13:00:00-03:00"
+    },
     {
       "date": "06/06/2026",
       "time": "03:39",
@@ -228,7 +228,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-05T23:50:43-03:00",
       "expires": "2026-06-06T09:00:00-03:00"
     },
@@ -517,49 +517,21 @@
       "status": "vigente",
       "onset": "2026-06-05T11:51:53-03:00",
       "expires": "2026-06-06T12:00:00-03:00"
-    },
-    {
-      "date": "05/06/2026",
-      "time": "10:39",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MA",
-      "location": "MARANHÃO/MA",
-      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193. Valido ate dia 07/06/2026 as 23h59min.",
-      "status": "vigente",
-      "onset": "2026-06-05T10:39:25-03:00",
-      "expires": "2026-06-07T23:55:00-03:00"
-    },
-    {
-      "date": "05/06/2026",
-      "time": "10:10",
-      "senderName": "Defesa Civil de Salvador (BA)",
-      "event": "Deslizamentos",
-      "nivel": "Extremo",
-      "uf": "BA",
-      "location": "Salvador/BA",
-      "headline": "Defesa Civil:Atencao! O risco de deslizamento continua. Fiquem atentos. Emergencia, disque 199. CODESAL",
-      "status": "vigente",
-      "onset": "2026-06-05T10:10:00-03:00",
-      "expires": "2026-06-06T10:00:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 27,
     "by_nivel": {
       "Severo": 11,
-      "Alto": 8,
-      "Médio": 7,
-      "Extremo": 1
+      "Alto": 10,
+      "Médio": 6
     },
     "by_channel_list": {
       "Google": 27
     },
     "by_region": {
       "SE": 14,
-      "N": 10,
-      "NE": 2,
+      "N": 12,
       "CO": 1
     }
   }
