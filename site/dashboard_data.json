@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-06-06T11:11:52.696982-03:00",
-  "source_run_dir": "run_20260606_111125",
+  "generated_at": "2026-06-06T12:43:19.403834-03:00",
+  "source_run_dir": "run_20260606_124254",
   "cards": {
-    "vigentes": 16,
+    "vigentes": 15,
     "ultimas24h": 27,
-    "autoridadesAtivas": 7,
+    "autoridadesAtivas": 6,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "12:02",
+      "date": "06/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas.  Chuva intensa pode causar alagamentos pontuais.  Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "10:30",
       "date": "06/06/2026",
@@ -55,25 +67,13 @@
       "uf": "GO",
       "headline": "Defesa Civil:Alerta de Onda de Frio - Friagem para Cidade Ocidental/GO  ALERTA DE QUEDA DE TEMPERATURA  Mantenha-se agasalhado, em caso de risco l",
       "status": "expirado"
-    },
-    {
-      "time": "23:50",
-      "date": "05/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -99,21 +99,16 @@
       "name": "Defesa Civil de Niterói (RJ)",
       "short_name": "DC Niterói (RJ)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Itaboraí (RJ)",
-      "short_name": "DC Itaboraí (RJ)",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 6
+      "count": 5
     },
     {
       "label": "Alto",
-      "count": 10
+      "count": 11
     },
     {
       "label": "Severo",
@@ -141,32 +136,45 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 12
+      "count": 13
     },
     {
       "uf": "MG",
       "count": 12
     },
     {
-      "uf": "RJ",
-      "count": 2
+      "uf": "GO",
+      "count": 1
     },
     {
-      "uf": "GO",
+      "uf": "RJ",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 16
+      "count": 15
     },
     {
       "label": "expirado",
-      "count": 11
+      "count": 12
     }
   ],
   "all_alerts": [
+    {
+      "date": "06/06/2026",
+      "time": "12:02",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas.  Chuva intensa pode causar alagamentos pontuais.  Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-06T12:02:29-03:00",
+      "expires": "2026-06-06T15:55:00-03:00"
+    },
     {
       "date": "06/06/2026",
       "time": "10:30",
@@ -241,7 +249,7 @@
       "uf": "MG",
       "location": "Brasilândia de Minas/MG",
       "headline": "Defesa Civil:Onda de frio intenso previsto para toda noite de sexta e inicio do sabado em Brasilandia de Minas. Protejam-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-05T23:36:15-03:00",
       "expires": "2026-06-06T12:00:00-03:00"
     },
@@ -504,34 +512,21 @@
       "status": "vigente",
       "onset": "2026-06-05T13:03:15-03:00",
       "expires": "2026-06-08T09:00:00-03:00"
-    },
-    {
-      "date": "05/06/2026",
-      "time": "11:51",
-      "senderName": "Defesa Civil de Itaboraí (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Itaboraí/RJ",
-      "headline": "Defesa Civil:Itaborai/RJ previsao de chuva moderada para as proximas horas, em emergencias ligue 199",
-      "status": "vigente",
-      "onset": "2026-06-05T11:51:53-03:00",
-      "expires": "2026-06-06T12:00:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 27,
     "by_nivel": {
+      "Alto": 11,
       "Severo": 11,
-      "Alto": 10,
-      "Médio": 6
+      "Médio": 5
     },
     "by_channel_list": {
       "Google": 27
     },
     "by_region": {
-      "SE": 14,
-      "N": 12,
+      "N": 13,
+      "SE": 13,
       "CO": 1
     }
   }
