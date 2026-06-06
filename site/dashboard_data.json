@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-06T01:31:33.517963-03:00",
-  "source_run_dir": "run_20260606_013102",
+  "generated_at": "2026-06-06T05:48:24.901264-03:00",
+  "source_run_dir": "run_20260606_054807",
   "cards": {
     "vigentes": 21,
     "ultimas24h": 27,
@@ -8,6 +8,18 @@
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "03:39",
+      "date": "06/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Manicoré/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "00:30",
       "date": "06/06/2026",
@@ -52,18 +64,6 @@
       "event": "Alagamentos",
       "nivel": "Alto",
       "location": "Codajás/AM, Coari/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "22:25",
-      "date": "05/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "location": "Beruri/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
       "status": "vigente"
@@ -195,6 +195,19 @@
   "all_alerts": [
     {
       "date": "06/06/2026",
+      "time": "03:39",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Manicoré/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-06T03:39:10-03:00",
+      "expires": "2026-06-06T08:30:00-03:00"
+    },
+    {
+      "date": "06/06/2026",
       "time": "00:30",
       "senderName": "Defesa Civil de Cidade Ocidental (GO)",
       "event": "Friagem",
@@ -254,7 +267,7 @@
       "uf": "AM",
       "location": "Beruri/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento.  Evite areas alagadas e fique em local seguro.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-05T22:25:45-03:00",
       "expires": "2026-06-06T05:00:00-03:00"
     },
@@ -530,19 +543,6 @@
       "status": "vigente",
       "onset": "2026-06-05T10:10:00-03:00",
       "expires": "2026-06-06T10:00:00-03:00"
-    },
-    {
-      "date": "05/06/2026",
-      "time": "01:54",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Caapiranga/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-05T01:54:13-03:00",
-      "expires": "2026-06-05T03:30:00-03:00"
     }
   ],
   "summary": {
