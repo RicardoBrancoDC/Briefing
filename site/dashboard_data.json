@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-06-07T18:39:01.174528-03:00",
-  "source_run_dir": "run_20260607_183842",
+  "generated_at": "2026-06-07T20:32:36.488937-03:00",
+  "source_run_dir": "run_20260607_203216",
   "cards": {
-    "vigentes": 13,
-    "ultimas24h": 34,
+    "vigentes": 6,
+    "ultimas24h": 29,
     "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "19:09",
+      "date": "07/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Manacapuru/AM, Manaquiri/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "17:37",
       "date": "07/06/2026",
@@ -30,7 +42,7 @@
       "location": "Manicoré/AM, Tapauá/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:10",
@@ -42,7 +54,7 @@
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
       "headline": "Defesa Civil:Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 19h10. Mantenha-se seg. Emerg. 190/193",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:30",
@@ -54,19 +66,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 07/06 16:27 - CHUVA PERSISTENTE de intensidade moderada com ALAGAMENTOS pontuais para áreas das regiões do Litoral Sul e Grande Florianópolis nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "16:27",
-      "date": "07/06/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "Taubaté/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:16h27 Umidade do ar abaixo de 30 em Taubate. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -78,16 +78,16 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 9
-    },
-    {
-      "name": "Defesa Civil Estadual de Pernambuco",
-      "short_name": "DC Pernambuco",
-      "count": 5
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual de Pernambuco",
+      "short_name": "DC Pernambuco",
       "count": 2
     },
     {
@@ -119,21 +119,21 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 22
+      "count": 20
     },
     {
       "label": "Alto",
-      "count": 12
+      "count": 9
     }
   ],
   "event_distribution": [
     {
-      "label": "Chuvas Intensas",
-      "count": 17
-    },
-    {
       "label": "Baixa Umidade Do Ar",
       "count": 13
+    },
+    {
+      "label": "Chuvas Intensas",
+      "count": 12
     },
     {
       "label": "Alagamentos",
@@ -151,11 +151,11 @@
     },
     {
       "uf": "AM",
-      "count": 10
+      "count": 8
     },
     {
       "uf": "PE",
-      "count": 7
+      "count": 4
     },
     {
       "uf": "RS",
@@ -173,14 +173,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 13
+      "count": 6
     },
     {
       "label": "expirado",
-      "count": 21
+      "count": 23
     }
   ],
   "all_alerts": [
+    {
+      "date": "07/06/2026",
+      "time": "19:09",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Manacapuru/AM, Manaquiri/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-07T19:09:36-03:00",
+      "expires": "2026-06-07T20:35:00-03:00"
+    },
     {
       "date": "07/06/2026",
       "time": "17:37",
@@ -203,7 +216,7 @@
       "uf": "AM",
       "location": "Manicoré/AM, Tapauá/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-07T17:37:48-03:00",
       "expires": "2026-06-07T20:00:00-03:00"
     },
@@ -216,7 +229,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 19h10. Mantenha-se seg. Emerg. 190/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-07T17:10:45-03:00",
       "expires": "2026-06-07T19:10:00-03:00"
     },
@@ -229,7 +242,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 07/06 16:27 - CHUVA PERSISTENTE de intensidade moderada com ALAGAMENTOS pontuais para áreas das regiões do Litoral Sul e Grande Florianópolis nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-07T16:30:41-03:00",
       "expires": "2026-06-07T19:25:00-03:00"
     },
@@ -242,7 +255,7 @@
       "uf": "SP",
       "location": "Taubaté/SP",
       "headline": "Defesa Civil:16h27 Umidade do ar abaixo de 30 em Taubate. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-07T16:27:43-03:00",
       "expires": "2026-06-07T19:25:00-03:00"
     },
@@ -255,7 +268,7 @@
       "uf": "SP",
       "location": "São Simão/SP",
       "headline": "Defesa Civil:16h21 Umidade do ar abaixo de 30 em Sao Simao. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-07T16:26:09-03:00",
       "expires": "2026-06-07T19:25:00-03:00"
     },
@@ -268,7 +281,7 @@
       "uf": "SP",
       "location": "São Paulo/SP",
       "headline": "Defesa Civil:16h24 Umidade do ar abaixo de 30 em Sao Paulo. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-07T16:24:53-03:00",
       "expires": "2026-06-07T19:20:00-03:00"
     },
@@ -281,7 +294,7 @@
       "uf": "SP",
       "location": "Bebedouro/SP",
       "headline": "Defesa Civil:16h21 Umidade do ar abaixo de 30 em Bebedouro. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-07T16:22:06-03:00",
       "expires": "2026-06-07T19:20:00-03:00"
     },
@@ -294,7 +307,7 @@
       "uf": "SP",
       "location": "José Bonifácio/SP",
       "headline": "Defesa Civil:16h19 Umidade do ar abaixo de 30 em Jose Bonifacio. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-07T16:20:02-03:00",
       "expires": "2026-06-07T19:15:00-03:00"
     },
@@ -544,99 +557,21 @@
       "status": "expirado",
       "onset": "2026-06-06T20:46:34-03:00",
       "expires": "2026-06-07T17:00:00-03:00"
-    },
-    {
-      "date": "06/06/2026",
-      "time": "20:21",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: MATA SUL. ALERTA continuidade de chuva MODERADA nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-06-06T20:21:05-03:00",
-      "expires": "2026-06-07T17:00:00-03:00"
-    },
-    {
-      "date": "06/06/2026",
-      "time": "20:18",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-06T20:18:24-03:00",
-      "expires": "2026-06-06T23:35:00-03:00"
-    },
-    {
-      "date": "06/06/2026",
-      "time": "20:17",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: MATA NORTE. ALERTA continuidade de chuva MODERADA nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-06-06T20:17:59-03:00",
-      "expires": "2026-06-07T17:00:00-03:00"
-    },
-    {
-      "date": "06/06/2026",
-      "time": "20:14",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: RMR. ALERTA continuidade de chuva MODERADA nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-06-06T20:14:49-03:00",
-      "expires": "2026-06-07T17:00:00-03:00"
-    },
-    {
-      "date": "06/06/2026",
-      "time": "19:48",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuvas intensas pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-06T19:48:19-03:00",
-      "expires": "2026-06-06T23:45:00-03:00"
-    },
-    {
-      "date": "06/06/2026",
-      "time": "18:53",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-06T18:53:44-03:00",
-      "expires": "2026-06-06T22:40:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 34,
+    "total_alerts": 29,
     "by_nivel": {
-      "Médio": 22,
-      "Alto": 12
+      "Médio": 20,
+      "Alto": 9
     },
     "by_channel_list": {
-      "Google": 34
+      "Google": 29
     },
     "by_region": {
       "SE": 13,
-      "N": 10,
-      "NE": 8,
+      "N": 8,
+      "NE": 5,
       "S": 3
     }
   }
