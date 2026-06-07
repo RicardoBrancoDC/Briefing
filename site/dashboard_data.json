@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-07T09:03:38.958820-03:00",
-  "source_run_dir": "run_20260607_090328",
+  "generated_at": "2026-06-07T11:23:08.687545-03:00",
+  "source_run_dir": "run_20260607_112250",
   "cards": {
     "vigentes": 19,
-    "ultimas24h": 47,
+    "ultimas24h": 45,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
@@ -71,14 +71,14 @@
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 13
-    },
-    {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
       "count": 12
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 11
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -118,7 +118,7 @@
     },
     {
       "label": "Alto",
-      "count": 24
+      "count": 22
     },
     {
       "label": "Severo",
@@ -128,7 +128,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 29
+      "count": 27
     },
     {
       "label": "Friagem",
@@ -146,7 +146,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 14
+      "count": 12
     },
     {
       "uf": "MG",
@@ -172,7 +172,7 @@
     },
     {
       "label": "expirado",
-      "count": 28
+      "count": 26
     }
   ],
   "all_alerts": [
@@ -760,46 +760,20 @@
       "status": "expirado",
       "onset": "2026-06-06T12:02:29-03:00",
       "expires": "2026-06-06T15:55:00-03:00"
-    },
-    {
-      "date": "06/06/2026",
-      "time": "10:30",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-06T10:30:34-03:00",
-      "expires": "2026-06-06T14:15:00-03:00"
-    },
-    {
-      "date": "06/06/2026",
-      "time": "09:19",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-06T09:19:42-03:00",
-      "expires": "2026-06-06T13:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 47,
+    "total_alerts": 45,
     "by_nivel": {
-      "Alto": 24,
+      "Alto": 22,
       "Severo": 13,
       "Médio": 10
     },
     "by_channel_list": {
-      "Google": 47
+      "Google": 45
     },
     "by_region": {
-      "N": 24,
+      "N": 22,
       "SE": 16,
       "NE": 7
     }
