@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-06-07T20:32:36.488937-03:00",
-  "source_run_dir": "run_20260607_203216",
+  "generated_at": "2026-06-08T02:04:22.871047-03:00",
+  "source_run_dir": "run_20260608_020401",
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 29,
-    "autoridadesAtivas": 9,
+    "vigentes": 3,
+    "ultimas24h": 27,
+    "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "23:33",
+      "date": "07/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Barcelos/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "22:18",
+      "date": "07/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "19:09",
       "date": "07/06/2026",
@@ -18,7 +42,7 @@
       "location": "Manacapuru/AM, Manaquiri/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:37",
@@ -30,7 +54,7 @@
       "location": "Manaus/AM",
       "uf": "AM",
       "headline": "Defesa Civil: Alerta de Alagamentos para Manaus. Siga as orientacoes da Defesa Civil Local. Evite transitar por vias alagadas.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:37",
@@ -42,30 +66,6 @@
       "location": "Manicoré/AM, Tapauá/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "17:10",
-      "date": "07/06/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "location": "RIO GRANDE DO SUL/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 19h10. Mantenha-se seg. Emerg. 190/193",
-      "status": "expirado"
-    },
-    {
-      "time": "16:30",
-      "date": "07/06/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 07/06 16:27 - CHUVA PERSISTENTE de intensidade moderada com ALAGAMENTOS pontuais para áreas das regiões do Litoral Sul e Grande Florianópolis nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
       "status": "expirado"
     }
   ],
@@ -104,22 +104,12 @@
       "name": "Defesa Civil Estadual do Maranhão",
       "short_name": "DC Maranhão",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Jaboatao dos Guararapes (PE)",
-      "short_name": "DC Jaboatao dos Guararapes (PE)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Recife (PE)",
-      "short_name": "DC Recife (PE)",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 20
+      "count": 18
     },
     {
       "label": "Alto",
@@ -133,15 +123,15 @@
     },
     {
       "label": "Chuvas Intensas",
-      "count": 12
-    },
-    {
-      "label": "Alagamentos",
-      "count": 2
+      "count": 11
     },
     {
       "label": "Granizo",
       "count": 2
+    },
+    {
+      "label": "Alagamentos",
+      "count": 1
     }
   ],
   "uf_distribution": [
@@ -154,11 +144,11 @@
       "count": 8
     },
     {
-      "uf": "PE",
-      "count": 4
+      "uf": "RS",
+      "count": 2
     },
     {
-      "uf": "RS",
+      "uf": "PE",
       "count": 2
     },
     {
@@ -173,14 +163,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 3
     },
     {
       "label": "expirado",
-      "count": 23
+      "count": 24
     }
   ],
   "all_alerts": [
+    {
+      "date": "07/06/2026",
+      "time": "23:33",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Barcelos/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-07T23:33:20-03:00",
+      "expires": "2026-06-08T03:30:00-03:00"
+    },
+    {
+      "date": "07/06/2026",
+      "time": "22:18",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-07T22:18:03-03:00",
+      "expires": "2026-06-08T02:10:00-03:00"
+    },
     {
       "date": "07/06/2026",
       "time": "19:09",
@@ -190,7 +206,7 @@
       "uf": "AM",
       "location": "Manacapuru/AM, Manaquiri/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-07T19:09:36-03:00",
       "expires": "2026-06-07T20:35:00-03:00"
     },
@@ -203,7 +219,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil: Alerta de Alagamentos para Manaus. Siga as orientacoes da Defesa Civil Local. Evite transitar por vias alagadas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-07T17:37:49-03:00",
       "expires": "2026-06-07T21:00:00-03:00"
     },
@@ -489,7 +505,7 @@
       "uf": "PE",
       "location": "PERNAMBUCO/PE",
       "headline": "Defesa Civil:PE: ZONA DA MATA. ALERTA de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193 ou 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-07T03:32:23-03:00",
       "expires": "2026-06-07T22:00:00-03:00"
     },
@@ -502,76 +518,24 @@
       "uf": "PE",
       "location": "PERNAMBUCO/PE",
       "headline": "Defesa Civil:PE: RMR. ALERTA continuidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193 ou 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-07T03:03:40-03:00",
       "expires": "2026-06-07T22:00:00-03:00"
-    },
-    {
-      "date": "07/06/2026",
-      "time": "00:21",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-07T00:21:48-03:00",
-      "expires": "2026-06-07T03:30:00-03:00"
-    },
-    {
-      "date": "07/06/2026",
-      "time": "00:18",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "São Paulo de Olivença/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Evite areas baixas e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-07T00:18:47-03:00",
-      "expires": "2026-06-07T03:00:00-03:00"
-    },
-    {
-      "date": "06/06/2026",
-      "time": "22:31",
-      "senderName": "Defesa Civil de Jaboatao dos Guararapes (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Jaboatão dos Guararapes/PE",
-      "headline": "Defesa Civil:Alerta continuidade de Chuvas Moderadas para Jaboatao dos Guararapes/PE. Em casos de Emergencia, ligue:  08002812099",
-      "status": "vigente",
-      "onset": "2026-06-06T22:31:44-03:00",
-      "expires": "2026-06-07T22:15:00-03:00"
-    },
-    {
-      "date": "06/06/2026",
-      "time": "20:46",
-      "senderName": "Defesa Civil de Recife (PE)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Recife/PE",
-      "headline": "Defesa Civil:ALERTA DE CHUVAS COM INTENSIDADE MODERADA ate as 17:00h de 07/06/2026. Busque abrigo e evite areas alagadas.",
-      "status": "expirado",
-      "onset": "2026-06-06T20:46:34-03:00",
-      "expires": "2026-06-07T17:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 29,
+    "total_alerts": 27,
     "by_nivel": {
-      "Médio": 20,
+      "Médio": 18,
       "Alto": 9
     },
     "by_channel_list": {
-      "Google": 29
+      "Google": 27
     },
     "by_region": {
       "SE": 13,
       "N": 8,
-      "NE": 5,
+      "NE": 3,
       "S": 3
     }
   }
