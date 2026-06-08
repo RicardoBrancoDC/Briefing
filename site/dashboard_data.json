@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-06-08T17:37:12.356241-03:00",
-  "source_run_dir": "run_20260608_173650",
+  "generated_at": "2026-06-08T20:39:51.707476-03:00",
+  "source_run_dir": "run_20260608_203925",
   "cards": {
-    "vigentes": 9,
-    "ultimas24h": 29,
+    "vigentes": 3,
+    "ultimas24h": 28,
     "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "19:07",
+      "date": "08/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "expirado"
+    },
+    {
+      "time": "18:02",
+      "date": "08/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Severo",
+      "location": "Careiro da Várzea/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento. Evite areas alagadas e fique em local seguro. Siga as orientacoes da defesa civil local.",
+      "status": "expirado"
+    },
     {
       "time": "17:35",
       "date": "08/06/2026",
@@ -18,7 +42,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:13",
@@ -30,7 +54,7 @@
       "location": "Manaus/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa para Manaus. Chuva intensa pode causar alagamentos pontuais. Em caso de emergencia ligue: 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:33",
@@ -42,31 +66,7 @@
       "location": "São Miguel do Guamá/PA",
       "uf": "PA",
       "headline": "Defesa Civil:SAO MIGUEL DO GUAMA: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "vigente"
-    },
-    {
-      "time": "16:31",
-      "date": "08/06/2026",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "senderNameShort": "DC Manaus (AM)",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:15",
-      "date": "08/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -88,7 +88,7 @@
     {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual do Maranhão",
@@ -109,21 +109,21 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 14
+      "count": 13
     },
     {
       "label": "Alto",
-      "count": 12
+      "count": 11
     },
     {
       "label": "Severo",
-      "count": 3
+      "count": 4
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 16
+      "count": 15
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -137,7 +137,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 11
+      "count": 10
     },
     {
       "uf": "PA",
@@ -163,14 +163,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 9
+      "count": 3
     },
     {
       "label": "expirado",
-      "count": 20
+      "count": 25
     }
   ],
   "all_alerts": [
+    {
+      "date": "08/06/2026",
+      "time": "19:07",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-06-08T19:07:32-03:00",
+      "expires": "2026-06-08T20:00:00-03:00"
+    },
+    {
+      "date": "08/06/2026",
+      "time": "18:02",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Severo",
+      "uf": "AM",
+      "location": "Careiro da Várzea/AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento. Evite areas alagadas e fique em local seguro. Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-06-08T18:02:16-03:00",
+      "expires": "2026-06-08T20:00:00-03:00"
+    },
     {
       "date": "08/06/2026",
       "time": "17:35",
@@ -180,7 +206,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-08T17:35:31-03:00",
       "expires": "2026-06-08T20:00:00-03:00"
     },
@@ -193,7 +219,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: chuva intensa para Manaus. Chuva intensa pode causar alagamentos pontuais. Em caso de emergencia ligue: 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-08T17:13:00-03:00",
       "expires": "2026-06-08T19:00:00-03:00"
     },
@@ -206,7 +232,7 @@
       "uf": "PA",
       "location": "São Miguel do Guamá/PA",
       "headline": "Defesa Civil:SAO MIGUEL DO GUAMA: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-08T16:33:12-03:00",
       "expires": "2026-06-08T19:30:00-03:00"
     },
@@ -232,7 +258,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-08T15:15:26-03:00",
       "expires": "2026-06-08T18:00:00-03:00"
     },
@@ -414,7 +440,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-08T13:02:30-03:00",
       "expires": "2026-06-08T19:00:00-03:00"
     },
@@ -427,7 +453,7 @@
       "uf": "MA",
       "location": "MARANHÃO/MA",
       "headline": "Defesa Civil:Alerta de Baixa Umidade para sua regiao. Beba agua, evite exercicios ao sol e nao realize queimadas. Valido ate dia 08/06/2026 as 19h00min.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-08T12:24:44-03:00",
       "expires": "2026-06-08T19:00:00-03:00"
     },
@@ -508,59 +534,20 @@
       "status": "expirado",
       "onset": "2026-06-07T22:18:03-03:00",
       "expires": "2026-06-08T02:10:00-03:00"
-    },
-    {
-      "date": "07/06/2026",
-      "time": "19:09",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manacapuru/AM, Manaquiri/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-07T19:09:36-03:00",
-      "expires": "2026-06-07T20:35:00-03:00"
-    },
-    {
-      "date": "07/06/2026",
-      "time": "17:37",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil: Alerta de Alagamentos para Manaus. Siga as orientacoes da Defesa Civil Local. Evite transitar por vias alagadas.",
-      "status": "expirado",
-      "onset": "2026-06-07T17:37:49-03:00",
-      "expires": "2026-06-07T21:00:00-03:00"
-    },
-    {
-      "date": "07/06/2026",
-      "time": "17:37",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manicoré/AM, Tapauá/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-07T17:37:48-03:00",
-      "expires": "2026-06-07T20:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 29,
+    "total_alerts": 28,
     "by_nivel": {
-      "Médio": 14,
-      "Alto": 12,
-      "Severo": 3
+      "Médio": 13,
+      "Alto": 11,
+      "Severo": 4
     },
     "by_channel_list": {
-      "Google": 29
+      "Google": 28
     },
     "by_region": {
-      "N": 19,
+      "N": 18,
       "SE": 8,
       "NE": 1,
       "S": 1
