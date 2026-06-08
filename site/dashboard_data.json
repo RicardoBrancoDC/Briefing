@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-06-08T02:04:22.871047-03:00",
-  "source_run_dir": "run_20260608_020401",
+  "generated_at": "2026-06-08T08:22:23.237088-03:00",
+  "source_run_dir": "run_20260608_082204",
   "cards": {
-    "vigentes": 3,
-    "ultimas24h": 27,
+    "vigentes": 2,
+    "ultimas24h": 26,
     "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "06:04",
+      "date": "08/06/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:Chuva moderada na regiao nas prox. 3h na regiao. Fique atento e evite areas de risco. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "23:33",
       "date": "07/06/2026",
@@ -18,7 +30,7 @@
       "location": "Barcelos/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "22:18",
@@ -30,7 +42,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "19:09",
@@ -55,18 +67,6 @@
       "uf": "AM",
       "headline": "Defesa Civil: Alerta de Alagamentos para Manaus. Siga as orientacoes da Defesa Civil Local. Evite transitar por vias alagadas.",
       "status": "expirado"
-    },
-    {
-      "time": "17:37",
-      "date": "07/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Manicoré/AM, Tapauá/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -86,9 +86,9 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil Estadual de Pernambuco",
-      "short_name": "DC Pernambuco",
-      "count": 2
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
@@ -109,11 +109,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 18
+      "count": 19
     },
     {
       "label": "Alto",
-      "count": 9
+      "count": 7
     }
   ],
   "event_distribution": [
@@ -123,7 +123,7 @@
     },
     {
       "label": "Chuvas Intensas",
-      "count": 11
+      "count": 10
     },
     {
       "label": "Granizo",
@@ -148,8 +148,8 @@
       "count": 2
     },
     {
-      "uf": "PE",
-      "count": 2
+      "uf": "PR",
+      "count": 1
     },
     {
       "uf": "SC",
@@ -163,7 +163,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 3
+      "count": 2
     },
     {
       "label": "expirado",
@@ -171,6 +171,19 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "08/06/2026",
+      "time": "06:04",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:Chuva moderada na regiao nas prox. 3h na regiao. Fique atento e evite areas de risco. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-06-08T06:04:15-03:00",
+      "expires": "2026-06-08T08:55:00-03:00"
+    },
     {
       "date": "07/06/2026",
       "time": "23:33",
@@ -180,7 +193,7 @@
       "uf": "AM",
       "location": "Barcelos/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-07T23:33:20-03:00",
       "expires": "2026-06-08T03:30:00-03:00"
     },
@@ -193,7 +206,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-07T22:18:03-03:00",
       "expires": "2026-06-08T02:10:00-03:00"
     },
@@ -495,48 +508,22 @@
       "status": "expirado",
       "onset": "2026-06-07T12:42:55-03:00",
       "expires": "2026-06-07T15:30:00-03:00"
-    },
-    {
-      "date": "07/06/2026",
-      "time": "03:32",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: ZONA DA MATA. ALERTA de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-06-07T03:32:23-03:00",
-      "expires": "2026-06-07T22:00:00-03:00"
-    },
-    {
-      "date": "07/06/2026",
-      "time": "03:03",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: RMR. ALERTA continuidade de chuva MODERADA a FORTE nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-06-07T03:03:40-03:00",
-      "expires": "2026-06-07T22:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 27,
+    "total_alerts": 26,
     "by_nivel": {
-      "Médio": 18,
-      "Alto": 9
+      "Médio": 19,
+      "Alto": 7
     },
     "by_channel_list": {
-      "Google": 27
+      "Google": 26
     },
     "by_region": {
       "SE": 13,
       "N": 8,
-      "NE": 3,
-      "S": 3
+      "S": 4,
+      "NE": 1
     }
   }
 }
