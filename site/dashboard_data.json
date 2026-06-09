@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-06-09T17:22:44.872256-03:00",
-  "source_run_dir": "run_20260609_172217",
+  "generated_at": "2026-06-09T20:45:58.178042-03:00",
+  "source_run_dir": "run_20260609_204523",
   "cards": {
-    "vigentes": 13,
-    "ultimas24h": 51,
+    "vigentes": 7,
+    "ultimas24h": 52,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "19:37",
+      "date": "09/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "19:28",
+      "date": "09/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "location": "Boca do Acre/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "17:33",
+      "date": "09/06/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Belém/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:DEFESA CIVIL BELEM: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
+      "status": "expirado"
+    },
+    {
+      "time": "17:23",
+      "date": "09/06/2026",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "senderNameShort": "DC Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PARÁ/PA",
+      "uf": "PA",
+      "headline": "Defesa Civil:NORDESTE PARAENSE: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao",
+      "status": "vigente"
+    },
     {
       "time": "15:39",
       "date": "09/06/2026",
@@ -18,54 +66,6 @@
       "location": "São Domingos do Capim/PA",
       "uf": "PA",
       "headline": "Defesa Civil:SAO DOMINGO DO CAPIM:Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais.Evite areas alagadas e dirija com atencao",
-      "status": "vigente"
-    },
-    {
-      "time": "15:23",
-      "date": "09/06/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Viseu/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:VISEU: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado"
-    },
-    {
-      "time": "14:59",
-      "date": "09/06/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:14h58 Umidade do ar abaixo de 30 em Pradopolis e Franca. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente"
-    },
-    {
-      "time": "14:55",
-      "date": "09/06/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:14h55 Umidade do ar abaixo de 30 em Valparaiso e Jales. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente"
-    },
-    {
-      "time": "14:49",
-      "date": "09/06/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "José Bonifácio/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:14h49 Umidade do ar abaixo de 30 em Jose Bonifacio. Hidrate-se. Evite exercicios fisicos ao ar livre.",
       "status": "expirado"
     }
   ],
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 21
+      "count": 20
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -81,14 +81,14 @@
       "count": 16
     },
     {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
+      "name": "Defesa Civil Estadual do Pará",
+      "short_name": "DC Pará",
       "count": 5
     },
     {
-      "name": "Defesa Civil Estadual do Pará",
-      "short_name": "DC Pará",
-      "count": 3
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -114,7 +114,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 19
+      "count": 20
     },
     {
       "label": "Alto",
@@ -128,14 +128,14 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 37
-    },
-    {
-      "label": "Alagamentos",
-      "count": 5
+      "count": 38
     },
     {
       "label": "Solo/Lama",
+      "count": 5
+    },
+    {
+      "label": "Alagamentos",
       "count": 4
     },
     {
@@ -154,7 +154,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 26
+      "count": 25
     },
     {
       "uf": "SC",
@@ -162,7 +162,7 @@
     },
     {
       "uf": "PA",
-      "count": 3
+      "count": 5
     },
     {
       "uf": "SP",
@@ -184,14 +184,66 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 13
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 38
+      "count": 45
     }
   ],
   "all_alerts": [
+    {
+      "date": "09/06/2026",
+      "time": "19:37",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-09T19:37:34-03:00",
+      "expires": "2026-06-09T23:00:00-03:00"
+    },
+    {
+      "date": "09/06/2026",
+      "time": "19:28",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Boca do Acre/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-09T19:28:47-03:00",
+      "expires": "2026-06-10T03:00:00-03:00"
+    },
+    {
+      "date": "09/06/2026",
+      "time": "17:33",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "PA",
+      "location": "Belém/PA",
+      "headline": "Defesa Civil:DEFESA CIVIL BELEM: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
+      "status": "expirado",
+      "onset": "2026-06-09T17:33:52-03:00",
+      "expires": "2026-06-09T20:00:00-03:00"
+    },
+    {
+      "date": "09/06/2026",
+      "time": "17:23",
+      "senderName": "Defesa Civil Estadual do Pará",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PA",
+      "location": "PARÁ/PA",
+      "headline": "Defesa Civil:NORDESTE PARAENSE: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao",
+      "status": "vigente",
+      "onset": "2026-06-09T17:23:03-03:00",
+      "expires": "2026-06-10T20:00:00-03:00"
+    },
     {
       "date": "09/06/2026",
       "time": "15:39",
@@ -201,7 +253,7 @@
       "uf": "PA",
       "location": "São Domingos do Capim/PA",
       "headline": "Defesa Civil:SAO DOMINGO DO CAPIM:Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais.Evite areas alagadas e dirija com atencao",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-09T15:39:05-03:00",
       "expires": "2026-06-09T18:00:00-03:00"
     },
@@ -227,7 +279,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h58 Umidade do ar abaixo de 30 em Pradopolis e Franca. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-09T14:59:44-03:00",
       "expires": "2026-06-09T17:55:00-03:00"
     },
@@ -240,7 +292,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h55 Umidade do ar abaixo de 30 em Valparaiso e Jales. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-09T14:55:48-03:00",
       "expires": "2026-06-09T17:50:00-03:00"
     },
@@ -292,7 +344,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.  Afaste-se de encostas. Procure abrigo seguro. Em caso de emergencia ligue: 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-09T13:47:52-03:00",
       "expires": "2026-06-09T19:00:00-03:00"
     },
@@ -318,7 +370,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de enxurrada para Manaus (NIVEL ALTO). Evite areas alagadas e nao tente atravessar correntezas. Em caso de emergencia, ligue 199 ou 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-09T13:27:01-03:00",
       "expires": "2026-06-09T20:00:00-03:00"
     },
@@ -331,7 +383,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:Alerta de Deslizamentos para Manaus/AM. Siga as orientacoes da Defesa Civil e do plano de contingencia municipal. Em caso de emergencia, ligue 199",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-09T13:10:27-03:00",
       "expires": "2026-06-09T20:00:00-03:00"
     },
@@ -344,7 +396,7 @@
       "uf": "AM",
       "location": "Itacoatiara/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Redobre atencao em areas inclinadas. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-09T12:26:58-03:00",
       "expires": "2026-06-09T18:00:00-03:00"
     },
@@ -357,7 +409,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-09T12:07:50-03:00",
       "expires": "2026-06-09T19:00:00-03:00"
     },
@@ -370,7 +422,7 @@
       "uf": "AM",
       "location": "Caapiranga/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-09T11:58:42-03:00",
       "expires": "2026-06-09T19:00:00-03:00"
     },
@@ -815,59 +867,20 @@
       "status": "expirado",
       "onset": "2026-06-08T21:16:19-03:00",
       "expires": "2026-06-08T22:15:00-03:00"
-    },
-    {
-      "date": "08/06/2026",
-      "time": "19:07",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-08T19:07:32-03:00",
-      "expires": "2026-06-08T20:00:00-03:00"
-    },
-    {
-      "date": "08/06/2026",
-      "time": "18:02",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Careiro da Várzea/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento. Evite areas alagadas e fique em local seguro. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-08T18:02:16-03:00",
-      "expires": "2026-06-08T20:00:00-03:00"
-    },
-    {
-      "date": "08/06/2026",
-      "time": "17:35",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-08T17:35:31-03:00",
-      "expires": "2026-06-08T20:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 51,
+    "total_alerts": 52,
     "by_nivel": {
       "Alto": 21,
-      "Médio": 19,
+      "Médio": 20,
       "Severo": 11
     },
     "by_channel_list": {
-      "Google": 51
+      "Google": 52
     },
     "by_region": {
-      "N": 30,
+      "N": 31,
       "S": 16,
       "SE": 3,
       "NE": 2
