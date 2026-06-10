@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-06-10T13:11:09.237851-03:00",
-  "source_run_dir": "run_20260610_131044",
+  "generated_at": "2026-06-10T15:44:50.320541-03:00",
+  "source_run_dir": "run_20260610_154424",
   "cards": {
-    "vigentes": 13,
-    "ultimas24h": 30,
-    "autoridadesAtivas": 11,
+    "vigentes": 12,
+    "ultimas24h": 23,
+    "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "14:14",
+      "date": "10/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "13:40",
+      "date": "10/06/2026",
+      "senderName": "Defesa Civil de Dourados (MS)",
+      "senderNameShort": "DC Dourados (MS)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Dourados/MS",
+      "uf": "MS",
+      "headline": "Defesa Civil:Alerta de Chuvas e Ventos Intensos para Dourados. Evite areas de alagamentos, NAO abrigue-se debaixo de arvores. PROTEJA-SE.",
+      "status": "vigente"
+    },
+    {
+      "time": "13:20",
+      "date": "10/06/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "12:41",
       "date": "10/06/2026",
@@ -30,70 +66,24 @@
       "location": "Marapanim/PA",
       "uf": "PA",
       "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. EVITE AREAS DE RISCO. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "vigente"
-    },
-    {
-      "time": "12:04",
-      "date": "10/06/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva persistente e risco p/ alagamentos nas prox. 3h na regiao. Fique atento e evite areas de risco. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "12:00",
-      "date": "10/06/2026",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "senderNameShort": "DC Blumenau (SC)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Blumenau/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Chuva fraca a moderada entre tarde e noite desta quarta-feira (10/06) em Blumenau. Fique atento! Emerg 199/193.",
-      "status": "vigente"
-    },
-    {
-      "time": "10:37",
-      "date": "10/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.   Afaste-se de encostas. Procure abrigo seguro.  Em caso de emergencia ligue: 199/193.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Defesa Civil Estadual do Pará",
       "short_name": "DC Pará",
-      "count": 6
-    },
-    {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Defesa Civil Estadual de Mato Grosso",
@@ -101,8 +91,18 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil de Dourados (MS)",
+      "short_name": "DC Dourados (MS)",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil de Blumenau (SC)",
       "short_name": "DC Blumenau (SC)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
       "count": 1
     },
     {
@@ -114,61 +114,44 @@
       "name": "Defesa Civil Estadual de Goiás",
       "short_name": "DC Goiás",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Maranhão",
-      "short_name": "DC Maranhão",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 12
+      "count": 9
     },
     {
       "label": "Alto",
-      "count": 14
+      "count": 11
     },
     {
       "label": "Severo",
-      "count": 4
+      "count": 3
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 22
+      "count": 20
     },
     {
       "label": "Solo/Lama",
-      "count": 4
-    },
-    {
-      "label": "Baixa Umidade Do Ar",
       "count": 3
-    },
-    {
-      "label": "Enxurradas",
-      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 12
+      "count": 10
     },
     {
       "uf": "PA",
-      "count": 6
-    },
-    {
-      "uf": "SP",
-      "count": 3
+      "count": 4
     },
     {
       "uf": "PR",
-      "count": 2
+      "count": 3
     },
     {
       "uf": "SC",
@@ -179,29 +162,64 @@
       "count": 2
     },
     {
+      "uf": "MS",
+      "count": 1
+    },
+    {
       "uf": "GO",
-      "count": 1
-    },
-    {
-      "uf": "MA",
-      "count": 1
-    },
-    {
-      "uf": "BA",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 13
+      "count": 12
     },
     {
       "label": "expirado",
-      "count": 17
+      "count": 11
     }
   ],
   "all_alerts": [
+    {
+      "date": "10/06/2026",
+      "time": "14:14",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-10T14:14:08-03:00",
+      "expires": "2026-06-10T16:25:00-03:00"
+    },
+    {
+      "date": "10/06/2026",
+      "time": "13:40",
+      "senderName": "Defesa Civil de Dourados (MS)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "MS",
+      "location": "Dourados/MS",
+      "headline": "Defesa Civil:Alerta de Chuvas e Ventos Intensos para Dourados. Evite areas de alagamentos, NAO abrigue-se debaixo de arvores. PROTEJA-SE.",
+      "status": "vigente",
+      "onset": "2026-06-10T13:40:22-03:00",
+      "expires": "2026-06-13T00:55:00-03:00"
+    },
+    {
+      "date": "10/06/2026",
+      "time": "13:20",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-06-10T13:20:48-03:00",
+      "expires": "2026-06-10T16:15:00-03:00"
+    },
     {
       "date": "10/06/2026",
       "time": "12:41",
@@ -224,7 +242,7 @@
       "uf": "PA",
       "location": "Marapanim/PA",
       "headline": "Defesa Civil:ALERTA de CHUVAS INTENSAS. EVITE AREAS DE RISCO. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-10T12:13:06-03:00",
       "expires": "2026-06-10T14:00:00-03:00"
     },
@@ -237,7 +255,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva persistente e risco p/ alagamentos nas prox. 3h na regiao. Fique atento e evite areas de risco. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-10T12:04:33-03:00",
       "expires": "2026-06-10T15:00:00-03:00"
     },
@@ -276,7 +294,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO) para Manaus. Siga as orientacoes da Defesa Civil local. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-10T10:21:33-03:00",
       "expires": "2026-06-10T15:00:00-03:00"
     },
@@ -289,7 +307,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-10T10:05:01-03:00",
       "expires": "2026-06-10T13:45:00-03:00"
     },
@@ -461,154 +479,22 @@
       "status": "vigente",
       "onset": "2026-06-09T17:23:03-03:00",
       "expires": "2026-06-10T20:00:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "15:39",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "São Domingos do Capim/PA",
-      "headline": "Defesa Civil:SAO DOMINGO DO CAPIM:Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais.Evite areas alagadas e dirija com atencao",
-      "status": "expirado",
-      "onset": "2026-06-09T15:39:05-03:00",
-      "expires": "2026-06-09T18:00:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "15:23",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PA",
-      "location": "Viseu/PA",
-      "headline": "Defesa Civil:VISEU: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "expirado",
-      "onset": "2026-06-09T15:23:18-03:00",
-      "expires": "2026-06-09T17:00:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "14:59",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:14h58 Umidade do ar abaixo de 30 em Pradopolis e Franca. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-06-09T14:59:44-03:00",
-      "expires": "2026-06-09T17:55:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "14:55",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:14h55 Umidade do ar abaixo de 30 em Valparaiso e Jales. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-06-09T14:55:48-03:00",
-      "expires": "2026-06-09T17:50:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "14:49",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "José Bonifácio/SP",
-      "headline": "Defesa Civil:14h49 Umidade do ar abaixo de 30 em Jose Bonifacio. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-06-09T14:49:27-03:00",
-      "expires": "2026-06-09T16:45:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "14:45",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MA",
-      "location": "MARANHÃO/MA",
-      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193. Valido ate dia 09/06/2026 as 23h59min.",
-      "status": "expirado",
-      "onset": "2026-06-09T14:45:51-03:00",
-      "expires": "2026-06-09T23:55:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "14:17",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-09T14:17:36-03:00",
-      "expires": "2026-06-09T17:00:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "13:47",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento.  Afaste-se de encostas. Procure abrigo seguro. Em caso de emergencia ligue: 199/193.",
-      "status": "expirado",
-      "onset": "2026-06-09T13:47:52-03:00",
-      "expires": "2026-06-09T19:00:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "13:30",
-      "senderName": "Defesa Civil de Salvador (BA)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "BA",
-      "location": "Salvador/BA",
-      "headline": "Defesa Civil: Retorno p/ NIVEL OBSERVACAO devido ao acumulado de chuva abaixo de 40mm em 72h e ausencia de chuva forte nas proximas 48h. CODESAL",
-      "status": "expirado",
-      "onset": "2026-06-09T13:30:58-03:00",
-      "expires": "2026-06-10T13:00:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "13:27",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Enxurradas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de enxurrada para Manaus (NIVEL ALTO). Evite areas alagadas e nao tente atravessar correntezas. Em caso de emergencia, ligue 199 ou 193",
-      "status": "expirado",
-      "onset": "2026-06-09T13:27:01-03:00",
-      "expires": "2026-06-09T20:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 30,
+    "total_alerts": 23,
     "by_nivel": {
-      "Alto": 14,
-      "Médio": 12,
-      "Severo": 4
+      "Alto": 11,
+      "Médio": 9,
+      "Severo": 3
     },
     "by_channel_list": {
-      "Google": 30
+      "Google": 23
     },
     "by_region": {
-      "N": 18,
-      "S": 4,
-      "CO": 3,
-      "SE": 3,
-      "NE": 2
+      "N": 14,
+      "S": 5,
+      "CO": 4
     }
   }
 }
