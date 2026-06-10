@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-10T01:52:07.537531-03:00",
-  "source_run_dir": "run_20260610_015143",
+  "generated_at": "2026-06-10T07:36:12.265985-03:00",
+  "source_run_dir": "run_20260610_073553",
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 47,
-    "autoridadesAtivas": 10,
+    "vigentes": 4,
+    "ultimas24h": 31,
+    "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
@@ -42,7 +42,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "19:37",
@@ -66,19 +66,14 @@
       "location": "Boca do Acre/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 15
-    },
-    {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 14
+      "count": 13
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -124,21 +119,21 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 17
+      "count": 14
     },
     {
       "label": "Alto",
-      "count": 19
+      "count": 14
     },
     {
       "label": "Severo",
-      "count": 11
+      "count": 3
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 34
+      "count": 18
     },
     {
       "label": "Solo/Lama",
@@ -164,11 +159,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 19
-    },
-    {
-      "uf": "SC",
-      "count": 15
+      "count": 18
     },
     {
       "uf": "PA",
@@ -202,11 +193,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 4
     },
     {
       "label": "expirado",
-      "count": 41
+      "count": 27
     }
   ],
   "all_alerts": [
@@ -245,7 +236,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-09T20:59:16-03:00",
       "expires": "2026-06-10T03:00:00-03:00"
     },
@@ -271,7 +262,7 @@
       "uf": "AM",
       "location": "Boca do Acre/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-09T19:28:47-03:00",
       "expires": "2026-06-10T03:00:00-03:00"
     },
@@ -612,232 +603,24 @@
       "status": "expirado",
       "onset": "2026-06-09T08:58:45-03:00",
       "expires": "2026-06-09T13:00:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "05:10",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:SDC: ALERTA de tempestade severa com granizo e vendaval na proxima hora. BUSQUE ABRIGO longe de arvores, placas e postes de energia. Emerg 199/193",
-      "status": "expirado",
-      "onset": "2026-06-09T05:10:03-03:00",
-      "expires": "2026-06-09T06:10:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "04:47",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Lábrea/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-09T04:47:23-03:00",
-      "expires": "2026-06-09T06:00:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "04:45",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 09/06 04:42 - TEMPORAIS com RAIOS, GRANIZO, RAJADAS DE VENTO e ALAGAMENTOS na proxima 1 hora.",
-      "status": "expirado",
-      "onset": "2026-06-09T04:45:47-03:00",
-      "expires": "2026-06-09T06:00:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "04:23",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:SDC: ALERTA de tempestade severa com vendaval e granizo na proxima hora. BUSQUE ABRIGO longe de arvores, placas e postes de energia. Emerg 199/193",
-      "status": "expirado",
-      "onset": "2026-06-09T04:23:42-03:00",
-      "expires": "2026-06-09T05:30:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "04:06",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 09/06 04:04 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões da Grande Florianópolis, Baixo e Médio Vale do Itajaí nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-09T04:06:45-03:00",
-      "expires": "2026-06-09T06:35:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "03:57",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:SDC: ALERTA de tempestade severa com vendaval e granizo na proxima hora. BUSQUE ABRIGO longe de arvores, placas e postes de energia. Emerg 199/193",
-      "status": "expirado",
-      "onset": "2026-06-09T03:57:34-03:00",
-      "expires": "2026-06-09T05:00:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "03:48",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 09/06 03:44 - TEMPORAL com RAIOS, GRANIZO, RAJADAS DE VENTO e ALAGAMENTOS na proxima 1h. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-09T03:48:48-03:00",
-      "expires": "2026-06-09T04:50:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "03:39",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:SDC: ALERTA de tempestade severa com vendaval e granizo na proxima hora. BUSQUE ABRIGO longe de arvores, placas e postes de energia. Emerg 199/193",
-      "status": "expirado",
-      "onset": "2026-06-09T03:39:00-03:00",
-      "expires": "2026-06-09T04:50:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "03:28",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:SDC: ALERTA de tempestade severa com vendaval e granizo na proxima hora. BUSQUE ABRIGO longe de arvores, placas e postes de energia. Emerg 199/193",
-      "status": "expirado",
-      "onset": "2026-06-09T03:28:55-03:00",
-      "expires": "2026-06-09T04:30:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "03:08",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:SDC: ALERTA de tempestade severa com vendaval e granizo na proxima hora. BUSQUE ABRIGO longe de arvores, placas e postes de energia. Emerg 199/193",
-      "status": "expirado",
-      "onset": "2026-06-09T03:08:40-03:00",
-      "expires": "2026-06-09T04:10:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "03:02",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 09/06 03:00 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS na proxima 1h30. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-09T03:02:45-03:00",
-      "expires": "2026-06-09T04:30:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "02:50",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 09/06 02:48 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Planalto Sul, Grande Florianópolis, Médio e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-09T02:50:01-03:00",
-      "expires": "2026-06-09T05:50:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "02:42",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:SDC: ALERTA de tempestade severa com vendaval e granizo na proxima hora. BUSQUE ABRIGO longe de arvores, placas e postes de energia. Emerg 199/193",
-      "status": "expirado",
-      "onset": "2026-06-09T02:42:54-03:00",
-      "expires": "2026-06-09T03:45:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "02:32",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 09/06 02:30 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS na proxima 1h. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-09T02:32:10-03:00",
-      "expires": "2026-06-09T03:40:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "02:14",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:SDC: ALERTA de tempestade severa com vendaval e granizo na proxima hora. BUSQUE ABRIGO longe de arvores, placas e postes de energia. Emerg 199/193",
-      "status": "expirado",
-      "onset": "2026-06-09T02:14:01-03:00",
-      "expires": "2026-06-09T03:15:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "01:53",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 09/06 01:51 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS na proxima 1h. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-09T01:53:27-03:00",
-      "expires": "2026-06-09T03:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 47,
+    "total_alerts": 31,
     "by_nivel": {
-      "Alto": 19,
-      "Médio": 17,
-      "Severo": 11
+      "Alto": 14,
+      "Médio": 14,
+      "Severo": 3
     },
     "by_channel_list": {
-      "Google": 47
+      "Google": 31
     },
     "by_region": {
-      "N": 25,
-      "S": 16,
+      "N": 24,
       "SE": 3,
       "NE": 2,
-      "CO": 1
+      "CO": 1,
+      "S": 1
     }
   }
 }
