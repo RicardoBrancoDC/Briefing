@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-06-09T20:45:58.178042-03:00",
-  "source_run_dir": "run_20260609_204523",
+  "generated_at": "2026-06-10T01:52:07.537531-03:00",
+  "source_run_dir": "run_20260610_015143",
   "cards": {
-    "vigentes": 7,
-    "ultimas24h": 52,
-    "autoridadesAtivas": 8,
+    "vigentes": 6,
+    "ultimas24h": 47,
+    "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "00:01",
+      "date": "10/06/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:PR AVISO DE TEMPO: Tempestades irregulares com chuva pontualmente forte ao longo desta quarta 10/06. Mantenha-se atento. Ocorrencias, 199/193.",
+      "status": "vigente"
+    },
+    {
+      "time": "00:00",
+      "date": "10/06/2026",
+      "senderName": "Defesa Civil Estadual de Goiás",
+      "senderNameShort": "DC Goiás",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "GOIÁS/GO",
+      "uf": "GO",
+      "headline": "Defesa Civil:Possibilidade de chuvas e ventos intensos nas proximas 24 horas, com baixo risco de alagamento e raios. Emergencia 193",
+      "status": "vigente"
+    },
+    {
+      "time": "20:59",
+      "date": "09/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "19:37",
       "date": "09/06/2026",
@@ -18,7 +54,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "19:28",
@@ -31,54 +67,18 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
       "status": "vigente"
-    },
-    {
-      "time": "17:33",
-      "date": "09/06/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Belém/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:DEFESA CIVIL BELEM: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "expirado"
-    },
-    {
-      "time": "17:23",
-      "date": "09/06/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARÁ/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:NORDESTE PARAENSE: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao",
-      "status": "vigente"
-    },
-    {
-      "time": "15:39",
-      "date": "09/06/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "São Domingos do Capim/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:SAO DOMINGO DO CAPIM:Alerta ALTO de CHUVAS INTENSAS nas proximas horas.Risco de  Alagamentos e vendavais.Evite areas alagadas e dirija com atencao",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 20
-    },
-    {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 16
+      "count": 15
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 14
     },
     {
       "name": "Defesa Civil Estadual do Pará",
@@ -94,6 +94,16 @@
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
       "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual de Goiás",
+      "short_name": "DC Goiás",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Maranhão",
@@ -114,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 20
+      "count": 17
     },
     {
       "label": "Alto",
-      "count": 21
+      "count": 19
     },
     {
       "label": "Severo",
@@ -128,11 +138,11 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 38
+      "count": 34
     },
     {
       "label": "Solo/Lama",
-      "count": 5
+      "count": 4
     },
     {
       "label": "Alagamentos",
@@ -154,11 +164,11 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 25
+      "count": 19
     },
     {
       "uf": "SC",
-      "count": 16
+      "count": 15
     },
     {
       "uf": "PA",
@@ -167,6 +177,14 @@
     {
       "uf": "SP",
       "count": 3
+    },
+    {
+      "uf": "PR",
+      "count": 1
+    },
+    {
+      "uf": "GO",
+      "count": 1
     },
     {
       "uf": "MA",
@@ -184,14 +202,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 6
     },
     {
       "label": "expirado",
-      "count": 45
+      "count": 41
     }
   ],
   "all_alerts": [
+    {
+      "date": "10/06/2026",
+      "time": "00:01",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR AVISO DE TEMPO: Tempestades irregulares com chuva pontualmente forte ao longo desta quarta 10/06. Mantenha-se atento. Ocorrencias, 199/193.",
+      "status": "vigente",
+      "onset": "2026-06-10T00:01:31-03:00",
+      "expires": "2026-06-10T23:55:00-03:00"
+    },
+    {
+      "date": "10/06/2026",
+      "time": "00:00",
+      "senderName": "Defesa Civil Estadual de Goiás",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "GO",
+      "location": "GOIÁS/GO",
+      "headline": "Defesa Civil:Possibilidade de chuvas e ventos intensos nas proximas 24 horas, com baixo risco de alagamento e raios. Emergencia 193",
+      "status": "vigente",
+      "onset": "2026-06-10T00:00:00-03:00",
+      "expires": "2026-06-10T23:59:00-03:00"
+    },
+    {
+      "date": "09/06/2026",
+      "time": "20:59",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-09T20:59:16-03:00",
+      "expires": "2026-06-10T03:00:00-03:00"
+    },
     {
       "date": "09/06/2026",
       "time": "19:37",
@@ -201,7 +258,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-09T19:37:34-03:00",
       "expires": "2026-06-09T23:00:00-03:00"
     },
@@ -318,7 +375,7 @@
       "uf": "MA",
       "location": "MARANHÃO/MA",
       "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193. Valido ate dia 09/06/2026 as 23h59min.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-09T14:45:51-03:00",
       "expires": "2026-06-09T23:55:00-03:00"
     },
@@ -487,7 +544,7 @@
       "uf": "RO",
       "location": "RONDÔNIA/RO",
       "headline": "Defesa Civil:Alerta de chuvas intensas, ventos fortes, alagamentos, quedas de arvores. Siga orientacoes Defesa Civil e Bombeiros. Ligue 199 ou 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-09T10:26:58-03:00",
       "expires": "2026-06-10T00:59:00-03:00"
     },
@@ -513,7 +570,7 @@
       "uf": "PA",
       "location": "PARÁ/PA",
       "headline": "Defesa Civil:PARA: Alerta ALTO de CHUVAS INTENSAS hoje (09JUN). Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-09T09:46:50-03:00",
       "expires": "2026-06-09T23:55:00-03:00"
     },
@@ -763,127 +820,24 @@
       "status": "expirado",
       "onset": "2026-06-09T01:53:27-03:00",
       "expires": "2026-06-09T03:00:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "01:47",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Canutama/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-09T01:47:25-03:00",
-      "expires": "2026-06-09T04:00:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "01:26",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manicoré/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-09T01:26:21-03:00",
-      "expires": "2026-06-09T03:20:00-03:00"
-    },
-    {
-      "date": "09/06/2026",
-      "time": "01:16",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 09/06 01:09 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Oeste, Meio-Oeste, Planalto Sul e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-09T01:16:04-03:00",
-      "expires": "2026-06-09T04:15:00-03:00"
-    },
-    {
-      "date": "08/06/2026",
-      "time": "23:52",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Tapauá/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-08T23:52:06-03:00",
-      "expires": "2026-06-09T02:00:00-03:00"
-    },
-    {
-      "date": "08/06/2026",
-      "time": "22:48",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Novo Aripuanã/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-08T22:48:25-03:00",
-      "expires": "2026-06-09T00:00:00-03:00"
-    },
-    {
-      "date": "08/06/2026",
-      "time": "22:09",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Careiro/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-08T22:09:19-03:00",
-      "expires": "2026-06-09T06:00:00-03:00"
-    },
-    {
-      "date": "08/06/2026",
-      "time": "21:35",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Borba/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-08T21:35:26-03:00",
-      "expires": "2026-06-08T23:00:00-03:00"
-    },
-    {
-      "date": "08/06/2026",
-      "time": "21:16",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Carauari/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-08T21:16:19-03:00",
-      "expires": "2026-06-08T22:15:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 52,
+    "total_alerts": 47,
     "by_nivel": {
-      "Alto": 21,
-      "Médio": 20,
+      "Alto": 19,
+      "Médio": 17,
       "Severo": 11
     },
     "by_channel_list": {
-      "Google": 52
+      "Google": 47
     },
     "by_region": {
-      "N": 31,
+      "N": 25,
       "S": 16,
       "SE": 3,
-      "NE": 2
+      "NE": 2,
+      "CO": 1
     }
   }
 }
