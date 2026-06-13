@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-06-13T14:48:47.616070-03:00",
-  "source_run_dir": "run_20260613_144829",
+  "generated_at": "2026-06-13T16:56:31.922830-03:00",
+  "source_run_dir": "run_20260613_165614",
   "cards": {
     "vigentes": 12,
-    "ultimas24h": 61,
+    "ultimas24h": 47,
     "autoridadesAtivas": 10,
     "alertasExtremos": 2
   },
   "latest_alerts": [
+    {
+      "time": "15:35",
+      "date": "13/06/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios e rajadas de vento. Proteja-se! Fonte: Defesa Civil Estadual",
+      "status": "vigente"
+    },
     {
       "time": "14:20",
       "date": "13/06/2026",
@@ -55,35 +67,23 @@
       "uf": "RJ",
       "headline": "Defesa Civil:ALERTA de CHUVAS MODERADAS COM RAJADAS DE VENTOS a partir da TARDE (13/06) em Duque de Caxias. Evite areas alagadas. Emergencia, 21 99463-7387.",
       "status": "vigente"
-    },
-    {
-      "time": "12:43",
-      "date": "13/06/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de tempestade com possibilidade de raios e rajadas de vento. Proteja-se! Fonte: Defesa Civil Estadua",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 31
+      "count": 22
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 12
+      "count": 10
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 7
+      "count": 5
     },
     {
       "name": "Defesa Civil de Brasilândia de Minas (MG)",
@@ -93,11 +93,6 @@
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
       "count": 2
     },
     {
@@ -119,20 +114,21 @@
       "name": "Defesa Civil Estadual de Goiás",
       "short_name": "DC Goiás",
       "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 25
+      "count": 22
     },
     {
       "label": "Alto",
-      "count": 30
-    },
-    {
-      "label": "Severo",
-      "count": 4
+      "count": 23
     },
     {
       "label": "Extremo",
@@ -142,15 +138,11 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 52
+      "count": 41
     },
     {
       "label": "Alagamentos",
       "count": 3
-    },
-    {
-      "label": "Granizo",
-      "count": 2
     },
     {
       "label": "Frentes Frias/Zonas De Convergência",
@@ -163,24 +155,20 @@
     {
       "label": "Vendaval",
       "count": 1
-    },
-    {
-      "label": "Outros",
-      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "MG",
-      "count": 35
+      "count": 26
     },
     {
       "uf": "SP",
-      "count": 12
+      "count": 10
     },
     {
       "uf": "SC",
-      "count": 7
+      "count": 5
     },
     {
       "uf": "RJ",
@@ -191,11 +179,11 @@
       "count": 2
     },
     {
-      "uf": "AM",
-      "count": 2
+      "uf": "GO",
+      "count": 1
     },
     {
-      "uf": "GO",
+      "uf": "AM",
       "count": 1
     }
   ],
@@ -206,10 +194,23 @@
     },
     {
       "label": "expirado",
-      "count": 49
+      "count": 35
     }
   ],
   "all_alerts": [
+    {
+      "date": "13/06/2026",
+      "time": "15:35",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios e rajadas de vento. Proteja-se! Fonte: Defesa Civil Estadual",
+      "status": "vigente",
+      "onset": "2026-06-13T15:35:02-03:00",
+      "expires": "2026-06-13T19:00:00-03:00"
+    },
     {
       "date": "13/06/2026",
       "time": "14:20",
@@ -271,7 +272,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de tempestade com possibilidade de raios e rajadas de vento. Proteja-se! Fonte: Defesa Civil Estadua",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-13T12:43:26-03:00",
       "expires": "2026-06-13T15:50:00-03:00"
     },
@@ -807,219 +808,23 @@
       "status": "expirado",
       "onset": "2026-06-12T17:10:58-03:00",
       "expires": "2026-06-12T19:10:00-03:00"
-    },
-    {
-      "date": "12/06/2026",
-      "time": "16:50",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "MG",
-      "location": "São Domingos do Prata/MG",
-      "headline": "Defesa Civil:Alerta de chuvas intensas com granizo e vendaval com risco de inundacao e alagamento em Sao Domingos do Prata. Proteja-se.",
-      "status": "expirado",
-      "onset": "2026-06-12T16:50:59-03:00",
-      "expires": "2026-06-12T19:55:00-03:00"
-    },
-    {
-      "date": "12/06/2026",
-      "time": "16:50",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:16h50 Chuva avancando pela regiao da Nova Granada e Olimpia. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-06-12T16:50:57-03:00",
-      "expires": "2026-06-12T18:45:00-03:00"
-    },
-    {
-      "date": "12/06/2026",
-      "time": "16:44",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-12T16:44:51-03:00",
-      "expires": "2026-06-12T18:40:00-03:00"
-    },
-    {
-      "date": "12/06/2026",
-      "time": "16:40",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:16h35 Chuva avancando pela regiao da Castilho e Andradina. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-06-12T16:40:40-03:00",
-      "expires": "2026-06-12T18:35:00-03:00"
-    },
-    {
-      "date": "12/06/2026",
-      "time": "16:36",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "São Domingos do Prata/MG",
-      "headline": "Defesa Civil:Possibilidade de chuvas severas com queda de granizo. proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-12T16:36:42-03:00",
-      "expires": "2026-06-12T23:05:00-03:00"
-    },
-    {
-      "date": "12/06/2026",
-      "time": "16:19",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-12T16:19:12-03:00",
-      "expires": "2026-06-12T19:00:00-03:00"
-    },
-    {
-      "date": "12/06/2026",
-      "time": "16:12",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-12T16:12:09-03:00",
-      "expires": "2026-06-12T18:15:00-03:00"
-    },
-    {
-      "date": "12/06/2026",
-      "time": "15:40",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-12T15:40:59-03:00",
-      "expires": "2026-06-12T17:40:00-03:00"
-    },
-    {
-      "date": "12/06/2026",
-      "time": "15:37",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-12T15:37:26-03:00",
-      "expires": "2026-06-12T17:40:00-03:00"
-    },
-    {
-      "date": "12/06/2026",
-      "time": "15:33",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "São Domingos do Prata/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte em Sao Domingos do Prata. Risco de granizo. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-12T15:33:22-03:00",
-      "expires": "2026-06-12T17:35:00-03:00"
-    },
-    {
-      "date": "12/06/2026",
-      "time": "15:31",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 12/06 15:28 - TEMPORAL com RAIOS, GRANIZO, RAJADAS DE VENTO e ALAGAMENTOS na proxima 1h. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-12T15:31:02-03:00",
-      "expires": "2026-06-12T16:30:00-03:00"
-    },
-    {
-      "date": "12/06/2026",
-      "time": "15:21",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "MG",
-      "location": "Lagoa Santa/MG",
-      "headline": "Defesa Civil:Alerta de chuvas intensas com risco de alagamentos e inundacao em Lagoa Santa. Proteja-se.",
-      "status": "expirado",
-      "onset": "2026-06-12T15:21:13-03:00",
-      "expires": "2026-06-12T17:20:00-03:00"
-    },
-    {
-      "date": "12/06/2026",
-      "time": "15:18",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 12/06 15:15 - TEMPORAL com RAIOS, GRANIZO, RAJADAS DE VENTO e ALAGAMENTOS na sua regiao na proxima 1h. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-12T15:18:24-03:00",
-      "expires": "2026-06-12T16:30:00-03:00"
-    },
-    {
-      "date": "12/06/2026",
-      "time": "15:09",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Granizo",
-      "nivel": "Severo",
-      "uf": "MG",
-      "location": "Capim Branco/MG",
-      "headline": "Defesa Civil:Alerta de chuvas intensas com risco de granizo e vendaval em Capim Branco. Proteja-se",
-      "status": "expirado",
-      "onset": "2026-06-12T15:09:26-03:00",
-      "expires": "2026-06-12T17:10:00-03:00"
-    },
-    {
-      "date": "12/06/2026",
-      "time": "14:58",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Granizo",
-      "nivel": "Severo",
-      "uf": "MG",
-      "location": "Ribeirão das Neves/MG",
-      "headline": "Defesa Civil:Alerta de chuvas intensas com risco de granizo em Ribeirao das Neves. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-12T14:58:17-03:00",
-      "expires": "2026-06-12T17:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 61,
+    "total_alerts": 47,
     "by_nivel": {
-      "Alto": 30,
-      "Médio": 25,
-      "Severo": 4,
+      "Alto": 23,
+      "Médio": 22,
       "Extremo": 2
     },
     "by_channel_list": {
-      "Google": 61
+      "Google": 47
     },
     "by_region": {
-      "SE": 51,
-      "S": 7,
-      "N": 2,
-      "CO": 1
+      "SE": 40,
+      "S": 5,
+      "CO": 1,
+      "N": 1
     }
   }
 }
