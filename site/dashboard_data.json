@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-06-14T17:00:51.234532-03:00",
-  "source_run_dir": "run_20260614_170035",
+  "generated_at": "2026-06-14T18:43:19.816479-03:00",
+  "source_run_dir": "run_20260614_184305",
   "cards": {
-    "vigentes": 11,
-    "ultimas24h": 53,
-    "autoridadesAtivas": 9,
+    "vigentes": 10,
+    "ultimas24h": 50,
+    "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "18:12",
+      "date": "14/06/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios e rajadas de vento nas proximas 2h. Proteja-se!",
+      "status": "vigente"
+    },
+    {
+      "time": "18:00",
+      "date": "14/06/2026",
+      "senderName": "Defesa Civil de Nova Iguaçu (RJ)",
+      "senderNameShort": "DC Nova Iguaçu (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Nova Iguaçu/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil: Nova Iguacu: Chuva forte com vento e eventual queda de granizo pequeno, a partir da noite de hoje (14) na cidade.Emergencia:199.",
+      "status": "vigente"
+    },
+    {
+      "time": "17:08",
+      "date": "14/06/2026",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "senderNameShort": "DC Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.¿¿",
+      "status": "vigente"
+    },
     {
       "time": "16:53",
       "date": "14/06/2026",
@@ -31,54 +67,18 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
       "status": "vigente"
-    },
-    {
-      "time": "16:41",
-      "date": "14/06/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios e rajadas de vento nas proximas 2h. Proteja-se!",
-      "status": "vigente"
-    },
-    {
-      "time": "15:54",
-      "date": "14/06/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de tempestade com possibilidade de raios e rajadas de vento. Proteja-se! Fonte: Defesa Civil Estadual",
-      "status": "vigente"
-    },
-    {
-      "time": "15:15",
-      "date": "14/06/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de tempestade com possibilidade de raios e rajadas de vento. Proteja-se! Fonte: Defesa Civil Estadual",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 26
+      "count": 24
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
@@ -88,7 +88,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -101,6 +101,16 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil de Nova Iguaçu (RJ)",
+      "short_name": "DC Nova Iguaçu (RJ)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Manaus (AM)",
+      "short_name": "DC Manaus (AM)",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil de Belo Horizonte (MG)",
       "short_name": "DC Belo Horizonte (MG)",
       "count": 1
@@ -109,17 +119,12 @@
       "name": "Defesa Civil de Brasilândia de Minas (MG)",
       "short_name": "DC Brasilândia de Minas (MG)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Niterói (RJ)",
-      "short_name": "DC Niterói (RJ)",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 37
+      "count": 34
     },
     {
       "label": "Alto",
@@ -133,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 50
+      "count": 47
     },
     {
       "label": "Alagamentos",
@@ -147,11 +152,11 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 26
+      "count": 24
     },
     {
       "uf": "MG",
-      "count": 14
+      "count": 13
     },
     {
       "uf": "PR",
@@ -177,14 +182,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 11
+      "count": 10
     },
     {
       "label": "expirado",
-      "count": 42
+      "count": 40
     }
   ],
   "all_alerts": [
+    {
+      "date": "14/06/2026",
+      "time": "18:12",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios e rajadas de vento nas proximas 2h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-06-14T18:12:46-03:00",
+      "expires": "2026-06-14T20:05:00-03:00"
+    },
+    {
+      "date": "14/06/2026",
+      "time": "18:00",
+      "senderName": "Defesa Civil de Nova Iguaçu (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Nova Iguaçu/RJ",
+      "headline": "Defesa Civil: Nova Iguacu: Chuva forte com vento e eventual queda de granizo pequeno, a partir da noite de hoje (14) na cidade.Emergencia:199.",
+      "status": "vigente",
+      "onset": "2026-06-14T18:00:00-03:00",
+      "expires": "2026-06-15T06:00:00-03:00"
+    },
+    {
+      "date": "14/06/2026",
+      "time": "17:08",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.¿¿",
+      "status": "vigente",
+      "onset": "2026-06-14T17:08:42-03:00",
+      "expires": "2026-06-14T21:00:00-03:00"
+    },
     {
       "date": "14/06/2026",
       "time": "16:53",
@@ -220,7 +264,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de tempestade com raios e rajadas de vento nas proximas 2h. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-14T16:41:20-03:00",
       "expires": "2026-06-14T18:40:00-03:00"
     },
@@ -246,7 +290,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de tempestade com possibilidade de raios e rajadas de vento. Proteja-se! Fonte: Defesa Civil Estadual",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-14T15:15:45-03:00",
       "expires": "2026-06-14T18:00:00-03:00"
     },
@@ -272,7 +316,7 @@
       "uf": "SC",
       "location": "Florianópolis/SC",
       "headline": "OBSERVAÇÃO - 14/06 14:03 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Florianópolis. Pico previsto às 15:30 h. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-14T14:08:34-03:00",
       "expires": "2026-06-14T18:00:00-03:00"
     },
@@ -795,98 +839,20 @@
       "status": "expirado",
       "onset": "2026-06-13T18:46:05-03:00",
       "expires": "2026-06-13T21:30:00-03:00"
-    },
-    {
-      "date": "13/06/2026",
-      "time": "18:18",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios e rajadas de vento nas proximas 2h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-13T18:18:51-03:00",
-      "expires": "2026-06-13T20:17:00-03:00"
-    },
-    {
-      "date": "13/06/2026",
-      "time": "17:30",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios e rajadas de vento nas proximas 2h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-13T17:30:26-03:00",
-      "expires": "2026-06-13T19:27:00-03:00"
-    },
-    {
-      "date": "13/06/2026",
-      "time": "17:30",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:17h25 Chuva avancando  pela regiao de Presisdente Epitacio e Maraba Paulista. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado!",
-      "status": "expirado",
-      "onset": "2026-06-13T17:30:19-03:00",
-      "expires": "2026-06-13T19:25:00-03:00"
-    },
-    {
-      "date": "13/06/2026",
-      "time": "17:25",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:17h25 Chuva avancando pela regiao de Santa Fe do Sul e Jales. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-06-13T17:25:22-03:00",
-      "expires": "2026-06-13T19:20:00-03:00"
-    },
-    {
-      "date": "13/06/2026",
-      "time": "17:07",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-13T17:07:27-03:00",
-      "expires": "2026-06-13T20:30:00-03:00"
-    },
-    {
-      "date": "13/06/2026",
-      "time": "17:01",
-      "senderName": "Defesa Civil de Niterói (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Niterói/RJ",
-      "headline": "Defesa Civil:Niteroi:Aviso de Chuvas Intensas.Inicio: 14/06 : 15/06 12h00.Previsao de chuva moderada/forte com rajadas de vento.Emergencia,199",
-      "status": "vigente",
-      "onset": "2026-06-13T17:01:23-03:00",
-      "expires": "2026-06-15T12:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 53,
+    "total_alerts": 50,
     "by_nivel": {
-      "Médio": 37,
+      "Médio": 34,
       "Alto": 14,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 53
+      "Google": 50
     },
     "by_region": {
-      "SE": 41,
+      "SE": 38,
       "S": 7,
       "N": 3,
       "CO": 2
