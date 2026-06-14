@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-06-14T02:12:32.671803-03:00",
-  "source_run_dir": "run_20260614_021155",
+  "generated_at": "2026-06-14T06:58:39.966955-03:00",
+  "source_run_dir": "run_20260614_065812",
   "cards": {
-    "vigentes": 9,
-    "ultimas24h": 40,
+    "vigentes": 5,
+    "ultimas24h": 38,
     "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "03:32",
+      "date": "14/06/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "expirado"
+    },
+    {
+      "time": "03:21",
+      "date": "14/06/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "expirado"
+    },
+    {
+      "time": "02:46",
+      "date": "14/06/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:02h45 Chuva avancando pela regiao de Presidente Bernardes e Alfredo Marcondes. Tem raios e vento. Atinge cidades vizinhas. Abrigue-se.",
+      "status": "expirado"
+    },
     {
       "time": "01:12",
       "date": "14/06/2026",
@@ -30,42 +66,6 @@
       "location": "PARANÁ/PR",
       "uf": "PR",
       "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "01:03",
-      "date": "14/06/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:01h05 Chuva avancando pela regiao do Mirante do Paranapanema. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente"
-    },
-    {
-      "time": "00:00",
-      "date": "14/06/2026",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "senderNameShort": "DC Goiás",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "GOIÁS/GO",
-      "uf": "GO",
-      "headline": "Defesa Civil:Possibilidade de chuvas e ventos intensos nas proximas 24 horas, com baixo risco de alagamento e raios. Emergencia 193",
-      "status": "vigente"
-    },
-    {
-      "time": "23:05",
-      "date": "13/06/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Uberlândia/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de chuvas intensas, vendavais, enxurradas, alagamentos e raios para Uberlandia! Proteja-se! Fique em local seguro!",
       "status": "expirado"
     }
   ],
@@ -78,12 +78,12 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 9
+      "count": 6
     },
     {
-      "name": "Defesa Civil de Brasilândia de Minas (MG)",
-      "short_name": "DC Brasilândia de Minas (MG)",
-      "count": 4
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -91,8 +91,8 @@
       "count": 4
     },
     {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
+      "name": "Defesa Civil de Brasilândia de Minas (MG)",
+      "short_name": "DC Brasilândia de Minas (MG)",
       "count": 3
     },
     {
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 22
+      "count": 20
     },
     {
       "label": "Alto",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 35
+      "count": 33
     },
     {
       "label": "Alagamentos",
@@ -156,19 +156,19 @@
   "uf_distribution": [
     {
       "uf": "MG",
-      "count": 17
+      "count": 16
     },
     {
       "uf": "SP",
-      "count": 9
+      "count": 6
+    },
+    {
+      "uf": "PR",
+      "count": 5
     },
     {
       "uf": "SC",
       "count": 4
-    },
-    {
-      "uf": "PR",
-      "count": 3
     },
     {
       "uf": "RJ",
@@ -186,14 +186,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 9
+      "count": 5
     },
     {
       "label": "expirado",
-      "count": 31
+      "count": 33
     }
   ],
   "all_alerts": [
+    {
+      "date": "14/06/2026",
+      "time": "03:32",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "expirado",
+      "onset": "2026-06-14T03:32:05-03:00",
+      "expires": "2026-06-14T06:30:00-03:00"
+    },
+    {
+      "date": "14/06/2026",
+      "time": "03:21",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "expirado",
+      "onset": "2026-06-14T03:21:07-03:00",
+      "expires": "2026-06-14T06:15:00-03:00"
+    },
+    {
+      "date": "14/06/2026",
+      "time": "02:46",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:02h45 Chuva avancando pela regiao de Presidente Bernardes e Alfredo Marcondes. Tem raios e vento. Atinge cidades vizinhas. Abrigue-se.",
+      "status": "expirado",
+      "onset": "2026-06-14T02:46:38-03:00",
+      "expires": "2026-06-14T04:45:00-03:00"
+    },
     {
       "date": "14/06/2026",
       "time": "01:12",
@@ -216,7 +255,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-14T01:06:59-03:00",
       "expires": "2026-06-14T04:00:00-03:00"
     },
@@ -229,7 +268,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:01h05 Chuva avancando pela regiao do Mirante do Paranapanema. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-14T01:03:53-03:00",
       "expires": "2026-06-14T03:05:00-03:00"
     },
@@ -281,7 +320,7 @@
       "uf": "MG",
       "location": "Brasilândia de Minas/MG",
       "headline": "Defesa Civil:Alerta de Chuvas moderadas a intensas durante a noite e madrugada. Proteja-se e mantenha-se em locais seguros. Bombeiros 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-13T22:11:07-03:00",
       "expires": "2026-06-14T06:00:00-03:00"
     },
@@ -580,7 +619,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Atualização: Observação Marítima SDC/SC 13/06 09:20 - Mar agitado e rajadas de vento neste sábado (13) e madrugada do domingo (14). Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-13T10:00:00-03:00",
       "expires": "2026-06-14T03:00:00-03:00"
     },
@@ -648,86 +687,21 @@
       "status": "expirado",
       "onset": "2026-06-13T08:14:13-03:00",
       "expires": "2026-06-13T12:00:00-03:00"
-    },
-    {
-      "date": "13/06/2026",
-      "time": "05:59",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:05h55 Chuva avancando pela regiao de Campos do Jordao e Santa Branca. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-06-13T05:59:34-03:00",
-      "expires": "2026-06-13T07:55:00-03:00"
-    },
-    {
-      "date": "13/06/2026",
-      "time": "05:52",
-      "senderName": "Defesa Civil de Brasilândia de Minas (MG)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "Brasilândia de Minas/MG",
-      "headline": "Defesa Civil:Alerta de Chuvas moderadas para Brasilandia durante a manha. Mantenha atencao na conducao de veiculos nas estradas e rodovias. Bombeiros 193.",
-      "status": "expirado",
-      "onset": "2026-06-13T05:52:01-03:00",
-      "expires": "2026-06-13T12:00:00-03:00"
-    },
-    {
-      "date": "13/06/2026",
-      "time": "04:37",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:04h35 Chuva avancando pela regiao de Serra Negra e Mairipora. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-06-13T04:37:34-03:00",
-      "expires": "2026-06-13T06:35:00-03:00"
-    },
-    {
-      "date": "13/06/2026",
-      "time": "03:50",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:03h50 Chuva avancando pela regiao de Arthur Nogueira e Campinas. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-06-13T03:50:41-03:00",
-      "expires": "2026-06-13T05:50:00-03:00"
-    },
-    {
-      "date": "13/06/2026",
-      "time": "02:23",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:02h25 Chuva avancando pela regiao de Brotas e Anhembi. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-06-13T02:23:17-03:00",
-      "expires": "2026-06-13T04:25:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 40,
+    "total_alerts": 38,
     "by_nivel": {
-      "Médio": 22,
+      "Médio": 20,
       "Alto": 17,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 40
+      "Google": 38
     },
     "by_region": {
-      "SE": 29,
-      "S": 7,
+      "SE": 25,
+      "S": 9,
       "CO": 2,
       "N": 2
     }
