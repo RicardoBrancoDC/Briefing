@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-06-14T18:43:19.816479-03:00",
-  "source_run_dir": "run_20260614_184305",
+  "generated_at": "2026-06-14T20:39:50.827744-03:00",
+  "source_run_dir": "run_20260614_203932",
   "cards": {
-    "vigentes": 10,
-    "ultimas24h": 50,
+    "vigentes": 7,
+    "ultimas24h": 46,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "19:58",
+      "date": "14/06/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios e rajadas de vento nas proximas 2h. Proteja-se!",
+      "status": "vigente"
+    },
     {
       "time": "18:12",
       "date": "14/06/2026",
@@ -18,7 +30,7 @@
       "location": "MINAS GERAIS/MG",
       "uf": "MG",
       "headline": "Defesa Civil:Alerta de tempestade com raios e rajadas de vento nas proximas 2h. Proteja-se!",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "18:00",
@@ -54,26 +66,14 @@
       "location": "Uberlândia/MG",
       "uf": "MG",
       "headline": "Defesa Civil:Alerta de chuvas intensas, vendavais, enxurradas, alagamentos e raios para Uberlandia. Proteja-se!",
-      "status": "vigente"
-    },
-    {
-      "time": "16:41",
-      "date": "14/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Novo Airão/AM, Careiro da Várzea/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 24
+      "count": 23
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -83,12 +83,7 @@
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 5
-    },
-    {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -111,6 +106,11 @@
       "count": 1
     },
     {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil de Belo Horizonte (MG)",
       "short_name": "DC Belo Horizonte (MG)",
       "count": 1
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 34
+      "count": 31
     },
     {
       "label": "Alto",
-      "count": 14
+      "count": 13
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 47
+      "count": 43
     },
     {
       "label": "Alagamentos",
@@ -152,7 +152,7 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 24
+      "count": 23
     },
     {
       "uf": "MG",
@@ -160,11 +160,11 @@
     },
     {
       "uf": "PR",
-      "count": 5
+      "count": 3
     },
     {
       "uf": "AM",
-      "count": 3
+      "count": 2
     },
     {
       "uf": "SC",
@@ -182,14 +182,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 10
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 40
+      "count": 39
     }
   ],
   "all_alerts": [
+    {
+      "date": "14/06/2026",
+      "time": "19:58",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios e rajadas de vento nas proximas 2h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-06-14T19:58:03-03:00",
+      "expires": "2026-06-14T21:55:00-03:00"
+    },
     {
       "date": "14/06/2026",
       "time": "18:12",
@@ -199,7 +212,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de tempestade com raios e rajadas de vento nas proximas 2h. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-14T18:12:46-03:00",
       "expires": "2026-06-14T20:05:00-03:00"
     },
@@ -238,7 +251,7 @@
       "uf": "MG",
       "location": "Uberlândia/MG",
       "headline": "Defesa Civil:Alerta de chuvas intensas, vendavais, enxurradas, alagamentos e raios para Uberlandia. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-14T16:53:12-03:00",
       "expires": "2026-06-14T18:50:00-03:00"
     },
@@ -251,7 +264,7 @@
       "uf": "AM",
       "location": "Novo Airão/AM, Careiro da Várzea/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-14T16:41:23-03:00",
       "expires": "2026-06-14T19:30:00-03:00"
     },
@@ -277,7 +290,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de tempestade com possibilidade de raios e rajadas de vento. Proteja-se! Fonte: Defesa Civil Estadual",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-14T15:54:49-03:00",
       "expires": "2026-06-14T18:50:00-03:00"
     },
@@ -774,88 +787,23 @@
       "status": "expirado",
       "onset": "2026-06-13T21:02:45-03:00",
       "expires": "2026-06-13T22:58:00-03:00"
-    },
-    {
-      "date": "13/06/2026",
-      "time": "19:44",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-13T19:44:37-03:00",
-      "expires": "2026-06-13T22:40:00-03:00"
-    },
-    {
-      "date": "13/06/2026",
-      "time": "19:33",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-13T19:33:50-03:00",
-      "expires": "2026-06-13T22:30:00-03:00"
-    },
-    {
-      "date": "13/06/2026",
-      "time": "19:20",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios e rajadas de vento nas proximas 2h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-13T19:20:19-03:00",
-      "expires": "2026-06-13T21:18:00-03:00"
-    },
-    {
-      "date": "13/06/2026",
-      "time": "18:51",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:18h50 Chuva avancando na regiao de Ilha Solteira, Castilho e Andradina. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado!",
-      "status": "expirado",
-      "onset": "2026-06-13T18:51:51-03:00",
-      "expires": "2026-06-13T20:45:00-03:00"
-    },
-    {
-      "date": "13/06/2026",
-      "time": "18:46",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-13T18:46:05-03:00",
-      "expires": "2026-06-13T21:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 50,
+    "total_alerts": 46,
     "by_nivel": {
-      "Médio": 34,
-      "Alto": 14,
+      "Médio": 31,
+      "Alto": 13,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 50
+      "Google": 46
     },
     "by_region": {
-      "SE": 38,
-      "S": 7,
-      "N": 3,
-      "CO": 2
+      "SE": 37,
+      "S": 5,
+      "CO": 2,
+      "N": 2
     }
   }
 }
