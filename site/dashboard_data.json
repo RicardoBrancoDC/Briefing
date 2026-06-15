@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-06-15T02:30:44.847865-03:00",
-  "source_run_dir": "run_20260615_023033",
+  "generated_at": "2026-06-15T08:32:48.971611-03:00",
+  "source_run_dir": "run_20260615_083238",
   "cards": {
-    "vigentes": 3,
-    "ultimas24h": 45,
-    "autoridadesAtivas": 9,
+    "vigentes": 2,
+    "ultimas24h": 41,
+    "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "07:00",
+      "date": "15/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Carauari/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "04:40",
+      "date": "15/06/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:04h40 Chuva avancando pela regiao de  Sao Sebastiao. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "expirado"
+    },
+    {
+      "time": "04:32",
+      "date": "15/06/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:04h30 Chuva avancando pela regiao de  Sao Paulo e Mogi das Cruzes. Tem vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "expirado"
+    },
     {
       "time": "23:15",
       "date": "14/06/2026",
@@ -31,49 +67,13 @@
       "uf": "SP",
       "headline": "Defesa Civil:23h00 Chuva avancando pela regiao de  Nova Alianca. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
       "status": "expirado"
-    },
-    {
-      "time": "22:06",
-      "date": "14/06/2026",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "senderNameShort": "DC Goiás",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Senador Canedo/GO",
-      "uf": "GO",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Senador Canedo/GO. EVITE riscos. NAO TRANSITE em area alagada. Emergencia 193",
-      "status": "expirado"
-    },
-    {
-      "time": "21:59",
-      "date": "14/06/2026",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "senderNameShort": "DC Goiás",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Goiânia/GO",
-      "uf": "GO",
-      "headline": "Defesa Civil:Alerta em Goiania de risco ALTO de alagamentos e enxurradas. EVITE riscos. NAO TRANSITE em area alagada. Emergencia 193",
-      "status": "expirado"
-    },
-    {
-      "time": "21:55",
-      "date": "14/06/2026",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "senderNameShort": "DC Goiás",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "GOIÁS/GO",
-      "uf": "GO",
-      "headline": "Defesa Civil:Alerta em Goiania de risco ALTO de alagamentos no Autodromo, Jd Mariliza e regiao. EVITE riscos. NAO TRANSITE em area alagada. Emergencia 193",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 22
+      "count": 20
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -83,16 +83,16 @@
     {
       "name": "Defesa Civil Estadual de Goiás",
       "short_name": "DC Goiás",
-      "count": 7
+      "count": 6
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
       "count": 2
     },
     {
@@ -106,11 +106,6 @@
       "count": 1
     },
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 1
-    },
-    {
       "name": "Defesa Civil de Belo Horizonte (MG)",
       "short_name": "DC Belo Horizonte (MG)",
       "count": 1
@@ -119,7 +114,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 28
+      "count": 24
     },
     {
       "label": "Alto",
@@ -133,7 +128,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 42
+      "count": 38
     },
     {
       "label": "Alagamentos",
@@ -147,7 +142,7 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 22
+      "count": 20
     },
     {
       "uf": "MG",
@@ -155,18 +150,14 @@
     },
     {
       "uf": "GO",
-      "count": 7
+      "count": 6
     },
     {
       "uf": "AM",
-      "count": 2
+      "count": 3
     },
     {
       "uf": "SC",
-      "count": 2
-    },
-    {
-      "uf": "PR",
       "count": 2
     },
     {
@@ -177,14 +168,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 3
+      "count": 2
     },
     {
       "label": "expirado",
-      "count": 42
+      "count": 39
     }
   ],
   "all_alerts": [
+    {
+      "date": "15/06/2026",
+      "time": "07:00",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Carauari/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-15T07:00:38-03:00",
+      "expires": "2026-06-15T10:50:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "04:40",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:04h40 Chuva avancando pela regiao de  Sao Sebastiao. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "expirado",
+      "onset": "2026-06-15T04:40:53-03:00",
+      "expires": "2026-06-15T06:40:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "04:32",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:04h30 Chuva avancando pela regiao de  Sao Paulo e Mogi das Cruzes. Tem vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "expirado",
+      "onset": "2026-06-15T04:32:45-03:00",
+      "expires": "2026-06-15T06:30:00-03:00"
+    },
     {
       "date": "14/06/2026",
       "time": "23:15",
@@ -311,7 +341,7 @@
       "uf": "RJ",
       "location": "Nova Iguaçu/RJ",
       "headline": "Defesa Civil: Nova Iguacu: Chuva forte com vento e eventual queda de granizo pequeno, a partir da noite de hoje (14) na cidade.Emergencia:199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-14T18:00:00-03:00",
       "expires": "2026-06-15T06:00:00-03:00"
     },
@@ -597,7 +627,7 @@
       "uf": "MG",
       "location": "Belo Horizonte/MG",
       "headline": "Defesa Civil:Chuva, raios e ventos de 45 km/h ate 8h de segunda-feira (15) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-14T09:50:49-03:00",
       "expires": "2026-06-15T08:00:00-03:00"
     },
@@ -678,114 +708,23 @@
       "status": "expirado",
       "onset": "2026-06-14T08:33:36-03:00",
       "expires": "2026-06-14T10:55:00-03:00"
-    },
-    {
-      "date": "14/06/2026",
-      "time": "08:13",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "GO",
-      "location": "GOIÁS/GO",
-      "headline": "Defesa Civil:Possibilidade de chuvas e ventos intensos nas proximas 24 horas, com baixo risco de alagamento e raios. Emergencia 193",
-      "status": "expirado",
-      "onset": "2026-06-14T08:13:30-03:00",
-      "expires": "2026-06-14T23:55:00-03:00"
-    },
-    {
-      "date": "14/06/2026",
-      "time": "07:54",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:07h50 Chuva avancando pela regiao de Promissao, Penapolis e Lins. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-06-14T07:54:31-03:00",
-      "expires": "2026-06-14T10:00:00-03:00"
-    },
-    {
-      "date": "14/06/2026",
-      "time": "07:51",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:07h50 Chuva avancando pela regiao de Teodoro Sampaio e Rosana. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-06-14T07:51:57-03:00",
-      "expires": "2026-06-14T09:55:00-03:00"
-    },
-    {
-      "date": "14/06/2026",
-      "time": "07:48",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:07h35 Chuva avancando  pela regiao de Presisdente Epitacio e  Santo Anastacio. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado.",
-      "status": "expirado",
-      "onset": "2026-06-14T07:48:34-03:00",
-      "expires": "2026-06-14T09:50:00-03:00"
-    },
-    {
-      "date": "14/06/2026",
-      "time": "03:32",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-14T03:32:05-03:00",
-      "expires": "2026-06-14T06:30:00-03:00"
-    },
-    {
-      "date": "14/06/2026",
-      "time": "03:21",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-14T03:21:07-03:00",
-      "expires": "2026-06-14T06:15:00-03:00"
-    },
-    {
-      "date": "14/06/2026",
-      "time": "02:46",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:02h45 Chuva avancando pela regiao de Presidente Bernardes e Alfredo Marcondes. Tem raios e vento. Atinge cidades vizinhas. Abrigue-se.",
-      "status": "expirado",
-      "onset": "2026-06-14T02:46:38-03:00",
-      "expires": "2026-06-14T04:45:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 45,
+    "total_alerts": 41,
     "by_nivel": {
-      "Médio": 28,
+      "Médio": 24,
       "Alto": 11,
       "Severo": 6
     },
     "by_channel_list": {
-      "Google": 45
+      "Google": 41
     },
     "by_region": {
-      "SE": 32,
-      "CO": 7,
-      "S": 4,
-      "N": 2
+      "SE": 30,
+      "CO": 6,
+      "N": 3,
+      "S": 2
     }
   }
 }
