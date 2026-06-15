@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-06-15T15:16:04.896470-03:00",
-  "source_run_dir": "run_20260615_151551",
+  "generated_at": "2026-06-15T15:49:03.442378-03:00",
+  "source_run_dir": "run_20260615_154845",
   "cards": {
-    "vigentes": 7,
-    "ultimas24h": 25,
+    "vigentes": 9,
+    "ultimas24h": 27,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "15:30",
+      "date": "15/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "15:27",
+      "date": "15/06/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
+      "status": "vigente"
+    },
     {
       "time": "14:44",
       "date": "15/06/2026",
@@ -43,42 +67,23 @@
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 15/06 13:32 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Florianópolis. Pico previsto às 15:00 h. Ocorrências ligue 199 ou 193.",
       "status": "vigente"
-    },
-    {
-      "time": "13:34",
-      "date": "15/06/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "location": "Itajaí/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 15/06 13:27 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Itajaí. Pico previsto às 14:30 h. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "12:00",
-      "date": "15/06/2026",
-      "senderName": "Defesa Civil de Duque de Caxias (RJ)",
-      "senderNameShort": "DC Duque de Caxias (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Duque de Caxias/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:ALERTA de CHUVAS MODERADAS COM RAJADAS DE VENTOS a partir da TARDE (15/06) em Duque de Caxias. Evite areas alagadas. Emergencia, 21 99463-7387.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 7
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual de Goiás",
       "short_name": "DC Goiás",
       "count": 6
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 3
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -88,11 +93,6 @@
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
       "count": 2
     },
     {
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 10
+      "count": 11
     },
     {
       "label": "Alto",
-      "count": 9
+      "count": 10
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 23
+      "count": 25
     },
     {
       "label": "Alagamentos",
@@ -148,19 +148,19 @@
   "uf_distribution": [
     {
       "uf": "MG",
-      "count": 7
+      "count": 8
     },
     {
       "uf": "GO",
       "count": 6
     },
     {
-      "uf": "RJ",
+      "uf": "AM",
       "count": 4
     },
     {
-      "uf": "AM",
-      "count": 3
+      "uf": "RJ",
+      "count": 4
     },
     {
       "uf": "SP",
@@ -174,7 +174,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 9
     },
     {
       "label": "expirado",
@@ -182,6 +182,32 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "15/06/2026",
+      "time": "15:30",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-15T15:30:54-03:00",
+      "expires": "2026-06-15T18:00:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "15:27",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-06-15T15:27:34-03:00",
+      "expires": "2026-06-15T17:30:00-03:00"
+    },
     {
       "date": "15/06/2026",
       "time": "14:44",
@@ -509,19 +535,19 @@
     }
   ],
   "summary": {
-    "total_alerts": 25,
+    "total_alerts": 27,
     "by_nivel": {
-      "Médio": 10,
-      "Alto": 9,
+      "Médio": 11,
+      "Alto": 10,
       "Severo": 6
     },
     "by_channel_list": {
-      "Google": 25
+      "Google": 27
     },
     "by_region": {
-      "SE": 14,
+      "SE": 15,
       "CO": 6,
-      "N": 3,
+      "N": 4,
       "S": 2
     }
   }
