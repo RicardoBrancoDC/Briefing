@@ -1,27 +1,39 @@
 {
-  "generated_at": "2026-06-15T15:49:03.442378-03:00",
-  "source_run_dir": "run_20260615_154845",
+  "generated_at": "2026-06-15T19:31:43.691695-03:00",
+  "source_run_dir": "run_20260615_193111",
   "cards": {
-    "vigentes": 9,
-    "ultimas24h": 27,
-    "autoridadesAtivas": 10,
+    "vigentes": 18,
+    "ultimas24h": 39,
+    "autoridadesAtivas": 12,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "15:30",
+      "time": "19:30",
       "date": "15/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "senderNameShort": "DC Espírito Santo",
       "event": "Chuvas Intensas",
       "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "location": "Castelo/ES, Alfredo Chaves/ES",
+      "uf": "ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO em Castelo e Alfredo Chaves nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
       "status": "vigente"
     },
     {
-      "time": "15:27",
+      "time": "18:45",
+      "date": "15/06/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "Guiricema/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de tempestade de raios e granizo em todo o territorio do municipio. Abrigue-se em locais seguros. Emergencias ligue 193 ou 199. Proteja-se!",
+      "status": "vigente"
+    },
+    {
+      "time": "18:41",
       "date": "15/06/2026",
       "senderName": "Defesa Civil Estadual de Minas Gerais",
       "senderNameShort": "DC Minas Gerais",
@@ -29,43 +41,31 @@
       "nivel": "Alto",
       "location": "MINAS GERAIS/MG",
       "uf": "MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
+      "headline": "Defesa Civil:Alerta de tempestades com raios nas proximas 2h. Proteja-se!",
       "status": "vigente"
     },
     {
-      "time": "14:44",
+      "time": "18:37",
       "date": "15/06/2026",
       "senderName": "Defesa Civil Estadual de Minas Gerais",
       "senderNameShort": "DC Minas Gerais",
       "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
+      "nivel": "Severo",
+      "location": "Ubá/MG",
       "uf": "MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
+      "headline": "Defesa Civil:Alerta de tempestade com vendavais, possibilidade de enxurradas e  alagamentos no municipio de Uba. Proteja-se!",
       "status": "vigente"
     },
     {
-      "time": "14:35",
+      "time": "18:20",
       "date": "15/06/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
+      "senderName": "Defesa Civil de Maricá (RJ)",
+      "senderNameShort": "DC Maricá (RJ)",
       "event": "Chuvas Intensas",
       "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "vigente"
-    },
-    {
-      "time": "13:35",
-      "date": "15/06/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "location": "Florianópolis/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 15/06 13:32 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Florianópolis. Pico previsto às 15:00 h. Ocorrências ligue 199 ou 193.",
+      "location": "Maricá/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Marica/RJ: Atencao pancadas de chuva moderada a forte nas proximas horas. Emergencia: 199, 966282699 (fone/whatsapp)",
       "status": "vigente"
     }
   ],
@@ -73,7 +73,12 @@
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 8
+      "count": 14
+    },
+    {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual de Goiás",
@@ -83,12 +88,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 3
-    },
-    {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -96,49 +96,49 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil Estadual do Espírito Santo",
+      "short_name": "DC Espírito Santo",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Maricá (RJ)",
+      "short_name": "DC Maricá (RJ)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Niterói (RJ)",
+      "short_name": "DC Niterói (RJ)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil do Rio de Janeiro (RJ)",
+      "short_name": "Defesa Civil do Rio de Janeiro…",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil de Duque de Caxias (RJ)",
       "short_name": "DC Duque de Caxias (RJ)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Itaguaí (RJ)",
-      "short_name": "DC Itaguaí (RJ)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Mangaratiba (RJ)",
-      "short_name": "Defesa Civil Mangaratiba (RJ)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Nova Iguaçu (RJ)",
-      "short_name": "DC Nova Iguaçu (RJ)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 11
+      "count": 18
     },
     {
       "label": "Alto",
-      "count": 10
+      "count": 14
     },
     {
       "label": "Severo",
-      "count": 6
+      "count": 7
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 25
+      "count": 37
     },
     {
       "label": "Alagamentos",
@@ -148,7 +148,15 @@
   "uf_distribution": [
     {
       "uf": "MG",
-      "count": 8
+      "count": 14
+    },
+    {
+      "uf": "RJ",
+      "count": 6
+    },
+    {
+      "uf": "SP",
+      "count": 6
     },
     {
       "uf": "GO",
@@ -159,29 +167,272 @@
       "count": 4
     },
     {
-      "uf": "RJ",
-      "count": 4
-    },
-    {
-      "uf": "SP",
-      "count": 3
-    },
-    {
       "uf": "SC",
       "count": 2
+    },
+    {
+      "uf": "ES",
+      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 9
+      "count": 18
     },
     {
       "label": "expirado",
-      "count": 18
+      "count": 21
     }
   ],
   "all_alerts": [
+    {
+      "date": "15/06/2026",
+      "time": "19:30",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "ES",
+      "location": "Castelo/ES, Alfredo Chaves/ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO em Castelo e Alfredo Chaves nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
+      "status": "vigente",
+      "onset": "2026-06-15T19:30:55-03:00",
+      "expires": "2026-06-15T22:30:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "18:45",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "MG",
+      "location": "Guiricema/MG",
+      "headline": "Defesa Civil:Alerta de tempestade de raios e granizo em todo o territorio do municipio. Abrigue-se em locais seguros. Emergencias ligue 193 ou 199. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-06-15T18:45:47-03:00",
+      "expires": "2026-06-15T20:43:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "18:41",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestades com raios nas proximas 2h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-06-15T18:41:35-03:00",
+      "expires": "2026-06-15T20:39:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "18:37",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "MG",
+      "location": "Ubá/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com vendavais, possibilidade de enxurradas e  alagamentos no municipio de Uba. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-06-15T18:37:20-03:00",
+      "expires": "2026-06-15T20:34:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "18:20",
+      "senderName": "Defesa Civil de Maricá (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Maricá/RJ",
+      "headline": "Defesa Civil:Marica/RJ: Atencao pancadas de chuva moderada a forte nas proximas horas. Emergencia: 199, 966282699 (fone/whatsapp)",
+      "status": "vigente",
+      "onset": "2026-06-15T18:20:47-03:00",
+      "expires": "2027-06-17T03:00:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "18:18",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-15T18:18:01-03:00",
+      "expires": "2026-06-15T20:00:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "18:10",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Tapauá/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-06-15T18:10:28-03:00",
+      "expires": "2026-06-15T19:30:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "18:08",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:18h06 Chuva Isolada na regiao de Sao Luiz do Paraitinga e Taubate. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-06-15T18:08:11-03:00",
+      "expires": "2026-06-15T20:00:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "18:02",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:18h00 Chuva persistente na regiao de Ilhabela e Bertioga. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-06-15T18:02:58-03:00",
+      "expires": "2026-06-15T19:55:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "17:55",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-06-15T17:55:43-03:00",
+      "expires": "2026-06-15T19:53:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "17:52",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-06-15T17:52:31-03:00",
+      "expires": "2026-06-15T19:50:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "17:43",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte  com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-06-15T17:43:52-03:00",
+      "expires": "2026-06-15T19:41:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "17:39",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-06-15T17:39:49-03:00",
+      "expires": "2026-06-15T19:37:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "17:10",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:17h08 Chuva Isolada na regiao de Morro Agudo e Orlandia. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "expirado",
+      "onset": "2026-06-15T17:10:13-03:00",
+      "expires": "2026-06-15T19:05:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "16:38",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
+      "status": "expirado",
+      "onset": "2026-06-15T16:38:10-03:00",
+      "expires": "2026-06-15T18:34:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "16:32",
+      "senderName": "Defesa Civil de Niterói (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Niterói/RJ",
+      "headline": "Defesa Civil:(15/06 16:25) Niteroi: Previsao de chuva fraca a moderada para as proximas horas. Em caso de emergencia, ligue 199.",
+      "status": "vigente",
+      "onset": "2026-06-15T16:32:37-03:00",
+      "expires": "2026-06-16T06:00:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "16:19",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte  com duracao de 02:00h. Proteja-se!",
+      "status": "expirado",
+      "onset": "2026-06-15T16:19:59-03:00",
+      "expires": "2026-06-15T18:17:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "16:16",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
+      "status": "expirado",
+      "onset": "2026-06-15T16:16:59-03:00",
+      "expires": "2026-06-15T18:14:00-03:00"
+    },
+    {
+      "date": "15/06/2026",
+      "time": "16:07",
+      "senderName": "Defesa Civil do Rio de Janeiro (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Rio de Janeiro/RJ",
+      "headline": "Defesa Civil:Alerta de pancadas de chuva para a cidade do Rio nas proximas horas - 15/06 - Evite areas alagadas. Em caso de Emergencia, ligue 199, 193",
+      "status": "vigente",
+      "onset": "2026-06-15T16:07:19-03:00",
+      "expires": "2026-06-15T23:55:00-03:00"
+    },
     {
       "date": "15/06/2026",
       "time": "15:30",
@@ -191,7 +442,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-15T15:30:54-03:00",
       "expires": "2026-06-15T18:00:00-03:00"
     },
@@ -204,7 +455,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-15T15:27:34-03:00",
       "expires": "2026-06-15T17:30:00-03:00"
     },
@@ -217,7 +468,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-15T14:44:07-03:00",
       "expires": "2026-06-15T16:40:00-03:00"
     },
@@ -230,7 +481,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-15T14:35:34-03:00",
       "expires": "2026-06-15T16:35:00-03:00"
     },
@@ -243,7 +494,7 @@
       "uf": "SC",
       "location": "Florianópolis/SC",
       "headline": "OBSERVAÇÃO - 15/06 13:32 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Florianópolis. Pico previsto às 15:00 h. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-15T13:35:41-03:00",
       "expires": "2026-06-15T19:00:00-03:00"
     },
@@ -441,111 +692,20 @@
       "status": "expirado",
       "onset": "2026-06-14T19:58:03-03:00",
       "expires": "2026-06-14T21:55:00-03:00"
-    },
-    {
-      "date": "14/06/2026",
-      "time": "18:12",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios e rajadas de vento nas proximas 2h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-14T18:12:46-03:00",
-      "expires": "2026-06-14T20:05:00-03:00"
-    },
-    {
-      "date": "14/06/2026",
-      "time": "18:00",
-      "senderName": "Defesa Civil de Nova Iguaçu (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Nova Iguaçu/RJ",
-      "headline": "Defesa Civil: Nova Iguacu: Chuva forte com vento e eventual queda de granizo pequeno, a partir da noite de hoje (14) na cidade.Emergencia:199.",
-      "status": "expirado",
-      "onset": "2026-06-14T18:00:00-03:00",
-      "expires": "2026-06-15T06:00:00-03:00"
-    },
-    {
-      "date": "14/06/2026",
-      "time": "17:08",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.¿¿",
-      "status": "expirado",
-      "onset": "2026-06-14T17:08:42-03:00",
-      "expires": "2026-06-14T21:00:00-03:00"
-    },
-    {
-      "date": "14/06/2026",
-      "time": "16:53",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "MG",
-      "location": "Uberlândia/MG",
-      "headline": "Defesa Civil:Alerta de chuvas intensas, vendavais, enxurradas, alagamentos e raios para Uberlandia. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-14T16:53:12-03:00",
-      "expires": "2026-06-14T18:50:00-03:00"
-    },
-    {
-      "date": "14/06/2026",
-      "time": "16:41",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Novo Airão/AM, Careiro da Várzea/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-14T16:41:23-03:00",
-      "expires": "2026-06-14T19:30:00-03:00"
-    },
-    {
-      "date": "14/06/2026",
-      "time": "16:41",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios e rajadas de vento nas proximas 2h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-14T16:41:20-03:00",
-      "expires": "2026-06-14T18:40:00-03:00"
-    },
-    {
-      "date": "14/06/2026",
-      "time": "15:54",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com possibilidade de raios e rajadas de vento. Proteja-se! Fonte: Defesa Civil Estadual",
-      "status": "expirado",
-      "onset": "2026-06-14T15:54:49-03:00",
-      "expires": "2026-06-14T18:50:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 27,
+    "total_alerts": 39,
     "by_nivel": {
-      "Médio": 11,
-      "Alto": 10,
-      "Severo": 6
+      "Médio": 18,
+      "Alto": 14,
+      "Severo": 7
     },
     "by_channel_list": {
-      "Google": 27
+      "Google": 39
     },
     "by_region": {
-      "SE": 15,
+      "SE": 27,
       "CO": 6,
       "N": 4,
       "S": 2
