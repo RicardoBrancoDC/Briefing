@@ -1,15 +1,51 @@
 {
-  "generated_at": "2026-06-16T08:37:45.022373-03:00",
-  "source_run_dir": "run_20260616_083717",
+  "generated_at": "2026-06-16T14:24:14.769371-03:00",
+  "source_run_dir": "run_20260616_142356",
   "cards": {
-    "vigentes": 7,
-    "ultimas24h": 49,
-    "autoridadesAtivas": 11,
+    "vigentes": 9,
+    "ultimas24h": 52,
+    "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "07:41",
+      "time": "13:38",
+      "date": "16/06/2026",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "senderNameShort": "DC Rio de Janeiro",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "location": "Saquarema/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje (16/06). Emergencia, ligue 193 ou 22 992115580.",
+      "status": "vigente"
+    },
+    {
+      "time": "13:34",
+      "date": "16/06/2026",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "senderNameShort": "DC Rio de Janeiro",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "location": "RIO DE JANEIRO/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje (16/06). Emergencia, ligue 193 ou 199.",
+      "status": "vigente"
+    },
+    {
+      "time": "11:47",
+      "date": "16/06/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "location": "Florianópolis/SC, Itajaí/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 16/06 11:46 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para os municípios de Florianópolis e Itajaí. Pico previsto às 15:30 h. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "11:46",
       "date": "16/06/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
@@ -17,68 +53,32 @@
       "nivel": "Médio",
       "location": "AMAZONAS/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "expirado"
     },
     {
-      "time": "06:21",
-      "date": "16/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "location": "Japurá/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite areas inclinadas. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "02:25",
+      "time": "10:55",
       "date": "16/06/2026",
       "senderName": "Defesa Civil Mangaratiba (RJ)",
       "senderNameShort": "Defesa Civil Mangaratiba (R…",
-      "event": "Chuvas Intensas",
+      "event": "Deslizamentos",
       "nivel": "Médio",
       "location": "Mangaratiba/RJ",
       "uf": "RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
+      "headline": "Defesa Civil:MANGARATIBA/RJ-Estao sendo registrados altos indices pluviometricos no municipio. Fique atento aos proximos avisos. Emergencia ligue: 21 3030-2662",
       "status": "vigente"
-    },
-    {
-      "time": "02:05",
-      "date": "16/06/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "ESPÍRITO SANTO/ES",
-      "uf": "ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO em Brejetuba, Afonso Claudio e Laranja da Terra nas proximas 02 horas. Fique atento. Emergencia ligue 193.",
-      "status": "expirado"
-    },
-    {
-      "time": "01:11",
-      "date": "16/06/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Irupi/ES, Ibatiba/ES",
-      "uf": "ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS, VENTO e GRANIZO na regiao do Caparao nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 16
+      "count": 17
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
@@ -91,8 +91,8 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil Mangaratiba (RJ)",
-      "short_name": "Defesa Civil Mangaratiba (RJ)",
+      "name": "Defesa Civil Estadual do Rio de Janeiro",
+      "short_name": "DC Rio de Janeiro",
       "count": 2
     },
     {
@@ -101,9 +101,14 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil Mangaratiba (RJ)",
+      "short_name": "Defesa Civil Mangaratiba (RJ)",
+      "count": 2
+    },
+    {
       "name": "Defesa Civil de Maricá (RJ)",
       "short_name": "DC Maricá (RJ)",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Defesa Civil de Niterói (RJ)",
@@ -114,21 +119,16 @@
       "name": "Defesa Civil do Rio de Janeiro (RJ)",
       "short_name": "Defesa Civil do Rio de Janeiro…",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Duque de Caxias (RJ)",
-      "short_name": "DC Duque de Caxias (RJ)",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 27
+      "count": 26
     },
     {
       "label": "Alto",
-      "count": 17
+      "count": 21
     },
     {
       "label": "Severo",
@@ -141,22 +141,30 @@
       "count": 45
     },
     {
-      "label": "Solo/Lama",
+      "label": "Vendaval",
       "count": 2
     },
     {
       "label": "Alagamentos",
       "count": 2
+    },
+    {
+      "label": "Solo/Lama",
+      "count": 2
+    },
+    {
+      "label": "Deslizamentos",
+      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "MG",
-      "count": 16
+      "count": 17
     },
     {
       "uf": "AM",
-      "count": 11
+      "count": 12
     },
     {
       "uf": "ES",
@@ -164,7 +172,7 @@
     },
     {
       "uf": "RJ",
-      "count": 7
+      "count": 8
     },
     {
       "uf": "SP",
@@ -178,14 +186,118 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 9
     },
     {
       "label": "expirado",
-      "count": 42
+      "count": 43
     }
   ],
   "all_alerts": [
+    {
+      "date": "16/06/2026",
+      "time": "13:38",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Saquarema/RJ",
+      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje (16/06). Emergencia, ligue 193 ou 22 992115580.",
+      "status": "vigente",
+      "onset": "2026-06-16T13:38:09-03:00",
+      "expires": "2026-06-17T00:00:00-03:00"
+    },
+    {
+      "date": "16/06/2026",
+      "time": "13:34",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "RIO DE JANEIRO/RJ",
+      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje (16/06). Emergencia, ligue 193 ou 199.",
+      "status": "vigente",
+      "onset": "2026-06-16T13:34:01-03:00",
+      "expires": "2026-06-17T00:00:00-03:00"
+    },
+    {
+      "date": "16/06/2026",
+      "time": "11:47",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "Florianópolis/SC, Itajaí/SC",
+      "headline": "OBSERVAÇÃO - 16/06 11:46 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para os municípios de Florianópolis e Itajaí. Pico previsto às 15:30 h. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-06-16T11:47:40-03:00",
+      "expires": "2026-06-16T20:00:00-03:00"
+    },
+    {
+      "date": "16/06/2026",
+      "time": "11:46",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-06-16T11:46:43-03:00",
+      "expires": "2026-06-16T14:00:00-03:00"
+    },
+    {
+      "date": "16/06/2026",
+      "time": "10:55",
+      "senderName": "Defesa Civil Mangaratiba (RJ)",
+      "event": "Deslizamentos",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Mangaratiba/RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ-Estao sendo registrados altos indices pluviometricos no municipio. Fique atento aos proximos avisos. Emergencia ligue: 21 3030-2662",
+      "status": "vigente",
+      "onset": "2026-06-16T10:55:50-03:00",
+      "expires": "2026-06-16T23:55:00-03:00"
+    },
+    {
+      "date": "16/06/2026",
+      "time": "09:18",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "Itajaí/SC, Florianópolis/SC",
+      "headline": "Atualização: Observação Marítima SDC/SC 16/06 08:00 ¿ Alagamentos costeiros na tarde de terça (16) e quarta-feira (17). Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-06-16T09:18:41-03:00",
+      "expires": "2026-06-18T22:00:00-03:00"
+    },
+    {
+      "date": "16/06/2026",
+      "time": "09:08",
+      "senderName": "Defesa Civil de Maricá (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Maricá/RJ",
+      "headline": "Defesa Civil:Mudanca para estagio meteorologico de ATENCAO em Marica/RJ as 09h00 do dia 16/06/26. Emergencia: 199 ou 966282699 (fone/whatsapp)",
+      "status": "vigente",
+      "onset": "2026-06-16T09:08:31-03:00",
+      "expires": "2026-06-17T08:00:00-03:00"
+    },
+    {
+      "date": "16/06/2026",
+      "time": "08:44",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada. Proteja-se! Fonte: SIMGE/IGAM",
+      "status": "expirado",
+      "onset": "2026-06-16T08:44:31-03:00",
+      "expires": "2026-06-16T11:00:00-03:00"
+    },
     {
       "date": "16/06/2026",
       "time": "07:41",
@@ -195,7 +307,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-16T07:41:55-03:00",
       "expires": "2026-06-16T10:30:00-03:00"
     },
@@ -299,7 +411,7 @@
       "uf": "AM",
       "location": "São Paulo de Olivença/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite areas inclinadas.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-15T22:16:09-03:00",
       "expires": "2026-06-16T10:00:00-03:00"
     },
@@ -757,86 +869,21 @@
       "status": "expirado",
       "onset": "2026-06-15T14:35:34-03:00",
       "expires": "2026-06-15T16:35:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "13:35",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "Florianópolis/SC",
-      "headline": "OBSERVAÇÃO - 15/06 13:32 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Florianópolis. Pico previsto às 15:00 h. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-15T13:35:41-03:00",
-      "expires": "2026-06-15T19:00:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "13:34",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "Itajaí/SC",
-      "headline": "OBSERVAÇÃO - 15/06 13:27 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Itajaí. Pico previsto às 14:30 h. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-15T13:34:55-03:00",
-      "expires": "2026-06-15T20:00:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "12:00",
-      "senderName": "Defesa Civil de Duque de Caxias (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Duque de Caxias/RJ",
-      "headline": "Defesa Civil:ALERTA de CHUVAS MODERADAS COM RAJADAS DE VENTOS a partir da TARDE (15/06) em Duque de Caxias. Evite areas alagadas. Emergencia, 21 99463-7387.",
-      "status": "vigente",
-      "onset": "2026-06-15T12:00:00-03:00",
-      "expires": "2026-06-16T12:00:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "10:24",
-      "senderName": "Defesa Civil de Itaguaí (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Itaguaí/RJ",
-      "headline": "Defesa Civil: ITAGUAI - Possibilidade de chuva fraca a moderada para as proximas 24 horas no municipio. Em caso de emergencia ligue: 199/ 193.",
-      "status": "vigente",
-      "onset": "2026-06-15T10:24:55-03:00",
-      "expires": "2026-06-16T10:30:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "10:05",
-      "senderName": "Defesa Civil Mangaratiba (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
-      "status": "expirado",
-      "onset": "2026-06-15T10:05:00-03:00",
-      "expires": "2026-06-15T23:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 49,
+    "total_alerts": 52,
     "by_nivel": {
-      "Médio": 27,
-      "Alto": 17,
+      "Médio": 26,
+      "Alto": 21,
       "Severo": 5
     },
     "by_channel_list": {
-      "Google": 49
+      "Google": 52
     },
     "by_region": {
-      "SE": 36,
-      "N": 11,
+      "SE": 38,
+      "N": 12,
       "S": 2
     }
   }
