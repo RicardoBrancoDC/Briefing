@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-16T18:21:56.503431-03:00",
-  "source_run_dir": "run_20260616_182126",
+  "generated_at": "2026-06-16T20:51:03.669773-03:00",
+  "source_run_dir": "run_20260616_205037",
   "cards": {
-    "vigentes": 18,
-    "ultimas24h": 49,
+    "vigentes": 13,
+    "ultimas24h": 40,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
@@ -73,17 +73,17 @@
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 20
+      "count": 16
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 11
+      "count": 10
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 9
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual do Rio de Janeiro",
@@ -114,21 +114,21 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 30
+      "count": 25
     },
     {
       "label": "Alto",
-      "count": 14
+      "count": 13
     },
     {
       "label": "Severo",
-      "count": 5
+      "count": 2
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 40
+      "count": 31
     },
     {
       "label": "Alagamentos",
@@ -150,19 +150,19 @@
   "uf_distribution": [
     {
       "uf": "ES",
-      "count": 20
+      "count": 16
     },
     {
       "uf": "AM",
-      "count": 12
-    },
-    {
-      "uf": "MG",
-      "count": 9
+      "count": 11
     },
     {
       "uf": "RJ",
       "count": 6
+    },
+    {
+      "uf": "MG",
+      "count": 5
     },
     {
       "uf": "SC",
@@ -172,11 +172,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 18
+      "count": 13
     },
     {
       "label": "expirado",
-      "count": 31
+      "count": 27
     }
   ],
   "all_alerts": [
@@ -267,7 +267,7 @@
       "uf": "ES",
       "location": "Rio Bananal/ES, Conceição da Barra/ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e GRANIZO PONTUAL em Conceicao da Barra e Rio Bananal nas proximas 03 horas. Fique atento.Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-16T17:27:24-03:00",
       "expires": "2026-06-16T20:00:00-03:00"
     },
@@ -280,7 +280,7 @@
       "uf": "ES",
       "location": "Governador Lindenberg/ES",
       "headline": "Defesa Civil:(ES) ALERTA de CHUVA INTENSA, RAIOS, VENTO e possibilidade de GRANIZO PONTUAL em Governador Lindenberg nas proximas 02 horas.Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-16T17:11:26-03:00",
       "expires": "2026-06-16T19:00:00-03:00"
     },
@@ -293,7 +293,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-16T17:01:01-03:00",
       "expires": "2026-06-16T19:00:00-03:00"
     },
@@ -319,7 +319,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-16T16:23:24-03:00",
       "expires": "2026-06-16T20:00:00-03:00"
     },
@@ -423,7 +423,7 @@
       "uf": "SC",
       "location": "Florianópolis/SC, Itajaí/SC",
       "headline": "OBSERVAÇÃO - 16/06 11:46 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para os municípios de Florianópolis e Itajaí. Pico previsto às 15:30 h. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-16T11:47:40-03:00",
       "expires": "2026-06-16T20:00:00-03:00"
     },
@@ -699,138 +699,21 @@
       "status": "expirado",
       "onset": "2026-06-15T20:56:23-03:00",
       "expires": "2026-06-16T00:40:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "20:43",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "MG",
-      "location": "Guiricema/MG",
-      "headline": "Defesa Civil:Alerta de tempestade de raios e chuvas fortes no municipio nas proximas horas. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-15T20:43:00-03:00",
-      "expires": "2026-06-15T22:40:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "20:32",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Domingos Martins/ES, Viana/ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS, VENTO e GRANIZO em Domingos Martins e Viana nas proximas 03 horas. Abrigue-se. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-06-15T20:32:56-03:00",
-      "expires": "2026-06-15T23:30:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "20:03",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Marechal Floriano/ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO em Marechal nas proximas 02 horas e meia. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-06-15T20:03:12-03:00",
-      "expires": "2026-06-15T22:30:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "19:53",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "São Paulo de Olivença/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-15T19:53:22-03:00",
-      "expires": "2026-06-15T21:00:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "19:51",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Guarapari/ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO em Guarapari nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-06-15T19:51:02-03:00",
-      "expires": "2026-06-15T22:50:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "19:30",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Castelo/ES, Alfredo Chaves/ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO em Castelo e Alfredo Chaves nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-06-15T19:30:55-03:00",
-      "expires": "2026-06-15T22:30:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "18:45",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "MG",
-      "location": "Guiricema/MG",
-      "headline": "Defesa Civil:Alerta de tempestade de raios e granizo em todo o territorio do municipio. Abrigue-se em locais seguros. Emergencias ligue 193 ou 199. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-15T18:45:47-03:00",
-      "expires": "2026-06-15T20:43:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "18:41",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestades com raios nas proximas 2h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-15T18:41:35-03:00",
-      "expires": "2026-06-15T20:39:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "18:37",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "MG",
-      "location": "Ubá/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com vendavais, possibilidade de enxurradas e  alagamentos no municipio de Uba. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-15T18:37:20-03:00",
-      "expires": "2026-06-15T20:34:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 49,
+    "total_alerts": 40,
     "by_nivel": {
-      "Médio": 30,
-      "Alto": 14,
-      "Severo": 5
+      "Médio": 25,
+      "Alto": 13,
+      "Severo": 2
     },
     "by_channel_list": {
-      "Google": 49
+      "Google": 40
     },
     "by_region": {
-      "SE": 35,
-      "N": 12,
+      "SE": 27,
+      "N": 11,
       "S": 2
     }
   }
