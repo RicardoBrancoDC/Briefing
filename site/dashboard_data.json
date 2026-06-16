@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-06-16T14:24:14.769371-03:00",
-  "source_run_dir": "run_20260616_142356",
+  "generated_at": "2026-06-16T15:42:39.486611-03:00",
+  "source_run_dir": "run_20260616_154213",
   "cards": {
-    "vigentes": 9,
+    "vigentes": 13,
     "ultimas24h": 52,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "13:38",
+      "time": "15:23",
       "date": "16/06/2026",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "senderNameShort": "DC Rio de Janeiro",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "location": "Saquarema/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje (16/06). Emergencia, ligue 193 ou 22 992115580.",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "senderNameShort": "DC Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Linhares/ES",
+      "uf": "ES",
+      "headline": "Defesa Civil:(ES) ALERTA de CHUVA INTENSA, RAIOS, VENTO e possibilidade de GRANIZO PONTUAL em Linhares nas proximas 03 horas.Fique atento.Emergencia ligue 193.",
       "status": "vigente"
     },
     {
-      "time": "13:34",
+      "time": "15:22",
       "date": "16/06/2026",
       "senderName": "Defesa Civil Estadual do Rio de Janeiro",
       "senderNameShort": "DC Rio de Janeiro",
@@ -33,19 +33,7 @@
       "status": "vigente"
     },
     {
-      "time": "11:47",
-      "date": "16/06/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "location": "Florianópolis/SC, Itajaí/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 16/06 11:46 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para os municípios de Florianópolis e Itajaí. Pico previsto às 15:30 h. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "11:46",
+      "time": "15:20",
       "date": "16/06/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
@@ -54,18 +42,30 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
+      "status": "vigente"
     },
     {
-      "time": "10:55",
+      "time": "15:19",
       "date": "16/06/2026",
-      "senderName": "Defesa Civil Mangaratiba (RJ)",
-      "senderNameShort": "Defesa Civil Mangaratiba (R…",
-      "event": "Deslizamentos",
-      "nivel": "Médio",
-      "location": "Mangaratiba/RJ",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Santana do Paraíso/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada. Proteja-se! Fonte: SIMGE/IGAM",
+      "status": "vigente"
+    },
+    {
+      "time": "13:38",
+      "date": "16/06/2026",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "senderNameShort": "DC Rio de Janeiro",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "location": "Saquarema/RJ",
       "uf": "RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ-Estao sendo registrados altos indices pluviometricos no municipio. Fique atento aos proximos avisos. Emergencia ligue: 21 3030-2662",
+      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje (16/06). Emergencia, ligue 193 ou 22 992115580.",
       "status": "vigente"
     }
   ],
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 17
+      "count": 15
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -83,17 +83,17 @@
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 10
+      "count": 11
+    },
+    {
+      "name": "Defesa Civil Estadual do Rio de Janeiro",
+      "short_name": "DC Rio de Janeiro",
+      "count": 3
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
       "count": 3
-    },
-    {
-      "name": "Defesa Civil Estadual do Rio de Janeiro",
-      "short_name": "DC Rio de Janeiro",
-      "count": 2
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 26
+      "count": 27
     },
     {
       "label": "Alto",
-      "count": 21
+      "count": 20
     },
     {
       "label": "Severo",
@@ -138,11 +138,11 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 45
+      "count": 44
     },
     {
       "label": "Vendaval",
-      "count": 2
+      "count": 3
     },
     {
       "label": "Alagamentos",
@@ -160,7 +160,7 @@
   "uf_distribution": [
     {
       "uf": "MG",
-      "count": 17
+      "count": 15
     },
     {
       "uf": "AM",
@@ -168,11 +168,11 @@
     },
     {
       "uf": "ES",
-      "count": 10
+      "count": 11
     },
     {
       "uf": "RJ",
-      "count": 8
+      "count": 9
     },
     {
       "uf": "SP",
@@ -186,14 +186,66 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 9
+      "count": 13
     },
     {
       "label": "expirado",
-      "count": 43
+      "count": 39
     }
   ],
   "all_alerts": [
+    {
+      "date": "16/06/2026",
+      "time": "15:23",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "ES",
+      "location": "Linhares/ES",
+      "headline": "Defesa Civil:(ES) ALERTA de CHUVA INTENSA, RAIOS, VENTO e possibilidade de GRANIZO PONTUAL em Linhares nas proximas 03 horas.Fique atento.Emergencia ligue 193.",
+      "status": "vigente",
+      "onset": "2026-06-16T15:23:28-03:00",
+      "expires": "2026-06-16T18:00:00-03:00"
+    },
+    {
+      "date": "16/06/2026",
+      "time": "15:22",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "RIO DE JANEIRO/RJ",
+      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje (16/06). Emergencia, ligue 193 ou 199.",
+      "status": "vigente",
+      "onset": "2026-06-16T15:22:23-03:00",
+      "expires": "2026-06-17T00:00:00-03:00"
+    },
+    {
+      "date": "16/06/2026",
+      "time": "15:20",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-16T15:20:30-03:00",
+      "expires": "2026-06-16T18:00:00-03:00"
+    },
+    {
+      "date": "16/06/2026",
+      "time": "15:19",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "Santana do Paraíso/MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada. Proteja-se! Fonte: SIMGE/IGAM",
+      "status": "vigente",
+      "onset": "2026-06-16T15:19:32-03:00",
+      "expires": "2026-06-16T18:00:00-03:00"
+    },
     {
       "date": "16/06/2026",
       "time": "13:38",
@@ -817,65 +869,13 @@
       "status": "expirado",
       "onset": "2026-06-15T16:07:19-03:00",
       "expires": "2026-06-15T23:55:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "15:30",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-15T15:30:54-03:00",
-      "expires": "2026-06-15T18:00:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "15:27",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-15T15:27:34-03:00",
-      "expires": "2026-06-15T17:30:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "14:44",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-15T14:44:07-03:00",
-      "expires": "2026-06-15T16:40:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "14:35",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-06-15T14:35:34-03:00",
-      "expires": "2026-06-15T16:35:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 52,
     "by_nivel": {
-      "Médio": 26,
-      "Alto": 21,
+      "Médio": 27,
+      "Alto": 20,
       "Severo": 5
     },
     "by_channel_list": {
