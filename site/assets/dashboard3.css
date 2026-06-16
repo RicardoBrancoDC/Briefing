@@ -1,0 +1,57 @@
+@import url("dashboard2.css");
+
+/* dashboard3: indicador de alcance potencial e coluna de mensagens */
+.protected-panel {
+  position: relative;
+  overflow: hidden;
+}
+
+.protected-panel::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top right, rgba(50, 180, 255, 0.22), transparent 42%);
+  pointer-events: none;
+}
+
+.protected-content {
+  align-items: center;
+  gap: 10px;
+}
+
+#kpi-alcance-potencial {
+  font-size: 28px;
+  letter-spacing: -0.5px;
+}
+
+#kpi-alcance-sub {
+  display: block;
+  opacity: 0.86;
+  line-height: 1.25;
+}
+
+/* A tabela do dashboard2 tem 8 colunas. Aqui abrimos espaço para a nova coluna. */
+.alerts-table .tr {
+  grid-template-columns: 0.72fr 1.55fr 1.65fr 2.05fr 0.95fr 0.95fr 1.25fr 0.95fr 0.95fr;
+}
+
+.alerts-table .tr .messages-cell {
+  font-weight: 800;
+  color: #d8f5ff;
+  text-align: right;
+  padding-right: 8px;
+  white-space: nowrap;
+}
+
+.alerts-table .tr .messages-cell small {
+  display: block;
+  font-size: 9px;
+  font-weight: 600;
+  opacity: 0.72;
+  margin-top: 2px;
+}
+
+.alerts-table .tr .messages-cell.zero,
+.alerts-table .tr .messages-cell.unknown {
+  opacity: 0.55;
+}
