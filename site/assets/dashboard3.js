@@ -202,8 +202,8 @@ function smsCellHTML(a){
   const r = calcularSMSPorAlerta(a);
   if(r.total === null) return `<span class="sms-cell sms-unknown"><strong>--</strong><small>não localizado</small></span>`;
   let detalhe = 'estimativa município';
-  if(r.tipo === 'uf') detalhe = 'estimativa UF';
-  if(r.tipo === 'ibge') detalhe = 'estimativa IBGE';
+  if(r.tipo === 'uf') detalhe = '';
+  if(r.tipo === 'ibge') detalhe = '';
   return `<span class="sms-cell"><strong>${formatSmsNumber(r.total)}</strong><small>${detalhe}</small></span>`;
 }
 
