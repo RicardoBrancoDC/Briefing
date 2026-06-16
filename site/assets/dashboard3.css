@@ -694,6 +694,30 @@ body{
   align-items:center;
 }
 
+.tr > span:nth-child(7){
+  text-align:center;
+  justify-self:center;
+}
+
+.th > span:nth-child(7){
+  text-align:center;
+  justify-self:center;
+}
+
+.sms-estimate{
+  width:100%;
+  text-align:center;
+}
+
+.sms-estimate strong{
+  display:block;
+  text-align:center;
+}
+
+.sms-estimate small{
+  display:block;
+  text-align:center;
+}
 .th{
   height:38px;
   background:rgba(3,22,40,.55);
