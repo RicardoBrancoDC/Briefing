@@ -201,7 +201,7 @@ function atualizarSMS24h(alerts){
 function smsCellHTML(a){
   const r = calcularSMSPorAlerta(a);
   if(r.total === null) return `<span class="sms-cell sms-unknown"><strong>--</strong><small>não localizado</small></span>`;
-  let detalhe = 'estimativa município';
+  let detalhe = '';
   if(r.tipo === 'uf') detalhe = '';
   if(r.tipo === 'ibge') detalhe = '';
   return `<span class="sms-cell"><strong>${formatSmsNumber(r.total)}</strong><small>${detalhe}</small></span>`;
