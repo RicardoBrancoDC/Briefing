@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-06-16T02:37:21.044327-03:00",
-  "source_run_dir": "run_20260616_023647",
+  "generated_at": "2026-06-16T08:23:27.280156-03:00",
+  "source_run_dir": "run_20260616_082302",
   "cards": {
-    "vigentes": 11,
-    "ultimas24h": 50,
+    "vigentes": 7,
+    "ultimas24h": 49,
     "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "07:41",
+      "date": "16/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "06:21",
+      "date": "16/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "location": "Japurá/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite areas inclinadas. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "02:25",
       "date": "16/06/2026",
@@ -30,7 +54,7 @@
       "location": "ESPÍRITO SANTO/ES",
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO em Brejetuba, Afonso Claudio e Laranja da Terra nas proximas 02 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "01:11",
@@ -42,31 +66,7 @@
       "location": "Irupi/ES, Ibatiba/ES",
       "uf": "ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS, VENTO e GRANIZO na regiao do Caparao nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "00:56",
-      "date": "16/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "00:11",
-      "date": "16/06/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "ESPÍRITO SANTO/ES",
-      "uf": "ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO na regiao do Caparao nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -76,19 +76,19 @@
       "count": 16
     },
     {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 11
+    },
+    {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
       "count": 10
     },
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 10
-    },
-    {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 5
+      "count": 3
     },
     {
       "name": "Defesa Civil Mangaratiba (RJ)",
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 29
+      "count": 27
     },
     {
       "label": "Alto",
-      "count": 16
+      "count": 17
     },
     {
       "label": "Severo",
@@ -138,15 +138,15 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 47
+      "count": 45
+    },
+    {
+      "label": "Solo/Lama",
+      "count": 2
     },
     {
       "label": "Alagamentos",
       "count": 2
-    },
-    {
-      "label": "Solo/Lama",
-      "count": 1
     }
   ],
   "uf_distribution": [
@@ -155,11 +155,11 @@
       "count": 16
     },
     {
-      "uf": "ES",
-      "count": 10
+      "uf": "AM",
+      "count": 11
     },
     {
-      "uf": "AM",
+      "uf": "ES",
       "count": 10
     },
     {
@@ -168,7 +168,7 @@
     },
     {
       "uf": "SP",
-      "count": 5
+      "count": 3
     },
     {
       "uf": "SC",
@@ -178,14 +178,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 11
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 39
+      "count": 42
     }
   ],
   "all_alerts": [
+    {
+      "date": "16/06/2026",
+      "time": "07:41",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-16T07:41:55-03:00",
+      "expires": "2026-06-16T10:30:00-03:00"
+    },
+    {
+      "date": "16/06/2026",
+      "time": "06:21",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Japurá/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite areas inclinadas. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-16T06:21:19-03:00",
+      "expires": "2026-06-16T17:50:00-03:00"
+    },
     {
       "date": "16/06/2026",
       "time": "02:25",
@@ -208,7 +234,7 @@
       "uf": "ES",
       "location": "ESPÍRITO SANTO/ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO em Brejetuba, Afonso Claudio e Laranja da Terra nas proximas 02 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-16T02:05:46-03:00",
       "expires": "2026-06-16T04:00:00-03:00"
     },
@@ -221,7 +247,7 @@
       "uf": "ES",
       "location": "Irupi/ES, Ibatiba/ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS, VENTO e GRANIZO na regiao do Caparao nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-16T01:11:55-03:00",
       "expires": "2026-06-16T04:10:00-03:00"
     },
@@ -234,7 +260,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-16T00:56:34-03:00",
       "expires": "2026-06-16T05:50:00-03:00"
     },
@@ -247,7 +273,7 @@
       "uf": "ES",
       "location": "ESPÍRITO SANTO/ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA, RAIOS e VENTO na regiao do Caparao nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-16T00:11:43-03:00",
       "expires": "2026-06-16T03:05:00-03:00"
     },
@@ -299,7 +325,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-15T21:59:49-03:00",
       "expires": "2026-06-16T02:50:00-03:00"
     },
@@ -637,7 +663,7 @@
       "uf": "RJ",
       "location": "Niterói/RJ",
       "headline": "Defesa Civil:(15/06 16:25) Niteroi: Previsao de chuva fraca a moderada para as proximas horas. Em caso de emergencia, ligue 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-15T16:32:37-03:00",
       "expires": "2026-06-16T06:00:00-03:00"
     },
@@ -796,60 +822,21 @@
       "status": "expirado",
       "onset": "2026-06-15T10:05:00-03:00",
       "expires": "2026-06-15T23:55:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "07:00",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Carauari/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-15T07:00:38-03:00",
-      "expires": "2026-06-15T10:50:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "04:40",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:04h40 Chuva avancando pela regiao de  Sao Sebastiao. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-06-15T04:40:53-03:00",
-      "expires": "2026-06-15T06:40:00-03:00"
-    },
-    {
-      "date": "15/06/2026",
-      "time": "04:32",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:04h30 Chuva avancando pela regiao de  Sao Paulo e Mogi das Cruzes. Tem vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-06-15T04:32:45-03:00",
-      "expires": "2026-06-15T06:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 50,
+    "total_alerts": 49,
     "by_nivel": {
-      "Médio": 29,
-      "Alto": 16,
+      "Médio": 27,
+      "Alto": 17,
       "Severo": 5
     },
     "by_channel_list": {
-      "Google": 50
+      "Google": 49
     },
     "by_region": {
-      "SE": 38,
-      "N": 10,
+      "SE": 36,
+      "N": 11,
       "S": 2
     }
   }
