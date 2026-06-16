@@ -137,7 +137,7 @@
 
     if (resultado.total === 0) celula.classList.add("zero");
 
-    const detalhe = resultado.tipo === "uf" ? "estimativa UF" : "estimativa município";
+    const detalhe = resultado.tipo === "uf" ? "SMS Enviados" : "SMS Enviados";
     celula.innerHTML = `${formatarNumero(resultado.total)}<small>${detalhe}</small>`;
   }
 
