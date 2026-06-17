@@ -1,27 +1,15 @@
 {
-  "generated_at": "2026-06-17T11:27:17.890792-03:00",
-  "source_run_dir": "run_20260617_112658",
+  "generated_at": "2026-06-17T13:08:07.748900-03:00",
+  "source_run_dir": "run_20260617_130746",
   "cards": {
-    "vigentes": 9,
-    "ultimas24h": 34,
-    "autoridadesAtivas": 11,
+    "vigentes": 11,
+    "ultimas24h": 36,
+    "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "11:08",
-      "date": "17/06/2026",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "senderNameShort": "DC Maranhão",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "MARANHÃO/MA",
-      "uf": "MA",
-      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193. Valido ate dia 17/06/2026 as 23h59min.",
-      "status": "vigente"
-    },
-    {
-      "time": "11:01",
+      "time": "13:04",
       "date": "17/06/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
@@ -33,39 +21,51 @@
       "status": "vigente"
     },
     {
-      "time": "10:59",
+      "time": "13:00",
       "date": "17/06/2026",
-      "senderName": "Defesa Civil de Itaguaí (RJ)",
-      "senderNameShort": "DC Itaguaí (RJ)",
-      "event": "Chuvas Intensas",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Alagamentos",
       "nivel": "Médio",
-      "location": "Itaguaí/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:ITAGUAI- Nucleos de chuva moderada atuam sobre omunicipio. Em caso de emergencia ligue:199/ 193.",
+      "location": "Maués/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Evite ruas alagadas. Siga as orientacoes da defesa civil local.",
       "status": "vigente"
     },
     {
-      "time": "09:48",
+      "time": "12:24",
       "date": "17/06/2026",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "senderNameShort": "DC Manaus (AM)",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
       "event": "Alagamentos",
       "nivel": "Alto",
-      "location": "Manaus/AM",
+      "location": "Rio Preto da Eva/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento. Evite areas alagadas e fique em local seguro. Siga as orientacoes da defesa civil local.",
       "status": "vigente"
     },
     {
-      "time": "09:44",
+      "time": "11:37",
       "date": "17/06/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
       "event": "Chuvas Intensas",
       "nivel": "Alto",
-      "location": "Novo Airão/AM",
+      "location": "AMAZONAS/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "11:08",
+      "date": "17/06/2026",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "senderNameShort": "DC Maranhão",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "MARANHÃO/MA",
+      "uf": "MA",
+      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193. Valido ate dia 17/06/2026 as 23h59min.",
       "status": "vigente"
     }
   ],
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 10
+      "count": 13
     },
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
@@ -124,21 +124,21 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 22
+      "count": 21
     },
     {
       "label": "Alto",
-      "count": 12
+      "count": 15
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 26
+      "count": 27
     },
     {
       "label": "Alagamentos",
-      "count": 3
+      "count": 4
     },
     {
       "label": "Vendaval",
@@ -156,7 +156,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 13
+      "count": 16
     },
     {
       "uf": "ES",
@@ -173,16 +173,12 @@
     {
       "uf": "MA",
       "count": 1
-    },
-    {
-      "uf": "SC",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 9
+      "count": 11
     },
     {
       "label": "expirado",
@@ -190,6 +186,58 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "17/06/2026",
+      "time": "13:04",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-17T13:04:32-03:00",
+      "expires": "2026-06-17T16:30:00-03:00"
+    },
+    {
+      "date": "17/06/2026",
+      "time": "13:00",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Maués/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Evite ruas alagadas. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-17T13:00:03-03:00",
+      "expires": "2026-06-17T16:30:00-03:00"
+    },
+    {
+      "date": "17/06/2026",
+      "time": "12:24",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Rio Preto da Eva/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento. Evite areas alagadas e fique em local seguro. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-17T12:24:17-03:00",
+      "expires": "2026-06-17T15:00:00-03:00"
+    },
+    {
+      "date": "17/06/2026",
+      "time": "11:37",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-17T11:37:22-03:00",
+      "expires": "2026-06-17T14:30:00-03:00"
+    },
     {
       "date": "17/06/2026",
       "time": "11:08",
@@ -251,7 +299,7 @@
       "uf": "AM",
       "location": "Novo Airão/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-17T09:44:23-03:00",
       "expires": "2026-06-17T13:00:00-03:00"
     },
@@ -303,7 +351,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-17T08:10:26-03:00",
       "expires": "2026-06-17T13:00:00-03:00"
     },
@@ -605,48 +653,21 @@
       "status": "expirado",
       "onset": "2026-06-16T13:34:01-03:00",
       "expires": "2026-06-17T00:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "11:47",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "Florianópolis/SC, Itajaí/SC",
-      "headline": "OBSERVAÇÃO - 16/06 11:46 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para os municípios de Florianópolis e Itajaí. Pico previsto às 15:30 h. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-16T11:47:40-03:00",
-      "expires": "2026-06-16T20:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "11:46",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-16T11:46:43-03:00",
-      "expires": "2026-06-16T14:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 34,
+    "total_alerts": 36,
     "by_nivel": {
-      "Médio": 22,
-      "Alto": 12
+      "Médio": 21,
+      "Alto": 15
     },
     "by_channel_list": {
-      "Google": 34
+      "Google": 36
     },
     "by_region": {
       "SE": 19,
-      "N": 13,
-      "NE": 1,
-      "S": 1
+      "N": 16,
+      "NE": 1
     }
   }
 }
