@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-06-17T02:19:50.477575-03:00",
-  "source_run_dir": "run_20260617_021924",
+  "generated_at": "2026-06-17T08:10:46.275380-03:00",
+  "source_run_dir": "run_20260617_081027",
   "cards": {
     "vigentes": 2,
-    "ultimas24h": 28,
-    "autoridadesAtivas": 8,
+    "ultimas24h": 29,
+    "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "08:08",
+      "date": "17/06/2026",
+      "senderName": "Defesa Civil de Belo Horizonte (MG)",
+      "senderNameShort": "DC Belo Horizonte (MG)",
+      "event": "Friagem",
+      "nivel": "Médio",
+      "location": "Belo Horizonte/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de baixa temperatura em Belo Horizonte ate 10h de segunda-feira (22). Inferior a 12 graus nas primeiras horas do dia. Proteja-se!",
+      "status": "vigente"
+    },
+    {
+      "time": "05:18",
+      "date": "17/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Codajás/AM, Coari/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "expirado"
+    },
+    {
+      "time": "02:55",
+      "date": "17/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Manicoré/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "expirado"
+    },
+    {
+      "time": "02:47",
+      "date": "17/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "expirado"
+    },
     {
       "time": "23:34",
       "date": "16/06/2026",
@@ -18,54 +66,6 @@
       "location": "Careiro/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "18:11",
-      "date": "16/06/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Jaguaré/ES",
-      "uf": "ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e possibilidade de GRANIZO PONTUAL em Jaguare nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "expirado"
-    },
-    {
-      "time": "18:07",
-      "date": "16/06/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "São Mateus/ES",
-      "uf": "ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e possibilidade de GRANIZO PONTUAL em Sao Mateus nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "expirado"
-    },
-    {
-      "time": "18:01",
-      "date": "16/06/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada. Proteja-se! Fonte: SIMGE/IGAM",
-      "status": "expirado"
-    },
-    {
-      "time": "17:58",
-      "date": "16/06/2026",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "senderNameShort": "DC Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Sooretama/ES",
-      "uf": "ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA INTENSA, RAIOS, VENTO e possibilidade de GRANIZO PONTUAL em Sooretama nas proximas 03 horas. Emergencia ligue 193.",
       "status": "expirado"
     }
   ],
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -96,13 +96,18 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil Mangaratiba (RJ)",
-      "short_name": "Defesa Civil Mangaratiba (RJ)",
-      "count": 2
+      "name": "Defesa Civil de Belo Horizonte (MG)",
+      "short_name": "DC Belo Horizonte (MG)",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Mangaratiba (RJ)",
+      "short_name": "Defesa Civil Mangaratiba (RJ)",
       "count": 1
     },
     {
@@ -114,17 +119,17 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 19
+      "count": 21
     },
     {
       "label": "Alto",
-      "count": 9
+      "count": 8
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 20
+      "count": 21
     },
     {
       "label": "Alagamentos",
@@ -135,11 +140,11 @@
       "count": 3
     },
     {
-      "label": "Deslizamentos",
+      "label": "Friagem",
       "count": 1
     },
     {
-      "label": "Solo/Lama",
+      "label": "Deslizamentos",
       "count": 1
     }
   ],
@@ -150,15 +155,15 @@
     },
     {
       "uf": "AM",
-      "count": 7
+      "count": 8
     },
     {
       "uf": "RJ",
-      "count": 6
+      "count": 5
     },
     {
       "uf": "MG",
-      "count": 3
+      "count": 4
     },
     {
       "uf": "SC",
@@ -172,10 +177,62 @@
     },
     {
       "label": "expirado",
-      "count": 26
+      "count": 27
     }
   ],
   "all_alerts": [
+    {
+      "date": "17/06/2026",
+      "time": "08:08",
+      "senderName": "Defesa Civil de Belo Horizonte (MG)",
+      "event": "Friagem",
+      "nivel": "Médio",
+      "uf": "MG",
+      "location": "Belo Horizonte/MG",
+      "headline": "Defesa Civil:Alerta de baixa temperatura em Belo Horizonte ate 10h de segunda-feira (22). Inferior a 12 graus nas primeiras horas do dia. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-06-17T08:08:21-03:00",
+      "expires": "2026-06-22T10:00:00-03:00"
+    },
+    {
+      "date": "17/06/2026",
+      "time": "05:18",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Codajás/AM, Coari/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-06-17T05:18:12-03:00",
+      "expires": "2026-06-17T07:00:00-03:00"
+    },
+    {
+      "date": "17/06/2026",
+      "time": "02:55",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Manicoré/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-06-17T02:55:48-03:00",
+      "expires": "2026-06-17T04:30:00-03:00"
+    },
+    {
+      "date": "17/06/2026",
+      "time": "02:47",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-06-17T02:47:30-03:00",
+      "expires": "2026-06-17T04:00:00-03:00"
+    },
     {
       "date": "16/06/2026",
       "time": "23:34",
@@ -484,7 +541,7 @@
       "uf": "RJ",
       "location": "Maricá/RJ",
       "headline": "Defesa Civil:Mudanca para estagio meteorologico de ATENCAO em Marica/RJ as 09h00 do dia 16/06/26. Emergencia: 199 ou 966282699 (fone/whatsapp)",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-16T09:08:31-03:00",
       "expires": "2026-06-17T08:00:00-03:00"
     },
@@ -500,59 +557,20 @@
       "status": "expirado",
       "onset": "2026-06-16T08:44:31-03:00",
       "expires": "2026-06-16T11:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "07:41",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-16T07:41:55-03:00",
-      "expires": "2026-06-16T10:30:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "06:21",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Japurá/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite areas inclinadas. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-16T06:21:19-03:00",
-      "expires": "2026-06-16T17:50:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "02:25",
-      "senderName": "Defesa Civil Mangaratiba (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
-      "status": "expirado",
-      "onset": "2026-06-16T02:25:00-03:00",
-      "expires": "2026-06-16T23:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 28,
+    "total_alerts": 29,
     "by_nivel": {
-      "Médio": 19,
-      "Alto": 9
+      "Médio": 21,
+      "Alto": 8
     },
     "by_channel_list": {
-      "Google": 28
+      "Google": 29
     },
     "by_region": {
       "SE": 19,
-      "N": 7,
+      "N": 8,
       "S": 2
     }
   }
