@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-06-17T13:08:07.748900-03:00",
-  "source_run_dir": "run_20260617_130746",
+  "generated_at": "2026-06-17T15:37:12.379753-03:00",
+  "source_run_dir": "run_20260617_153648",
   "cards": {
-    "vigentes": 11,
-    "ultimas24h": 36,
+    "vigentes": 10,
+    "ultimas24h": 33,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "15:35",
+      "date": "17/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Rio Preto da Eva/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "15:13",
+      "date": "17/06/2026",
+      "senderName": "Defesa Civil de Capivari (SP)",
+      "senderNameShort": "DC Capivari (SP)",
+      "event": "Friagem",
+      "nivel": "Alto",
+      "location": "Capivari/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:Frio chegando! Temperatura minima prevista de 10 graus para os proximos dias. Cuide de quem mais precisa: pessoas vulneraveis e animais.",
+      "status": "vigente"
+    },
+    {
+      "time": "13:40",
+      "date": "17/06/2026",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "senderNameShort": "DC Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "13:04",
       "date": "17/06/2026",
@@ -31,42 +67,6 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Evite ruas alagadas. Siga as orientacoes da defesa civil local.",
       "status": "vigente"
-    },
-    {
-      "time": "12:24",
-      "date": "17/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "location": "Rio Preto da Eva/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento. Evite areas alagadas e fique em local seguro. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "11:37",
-      "date": "17/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "11:08",
-      "date": "17/06/2026",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "senderNameShort": "DC Maranhão",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "MARANHÃO/MA",
-      "uf": "MA",
-      "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193. Valido ate dia 17/06/2026 as 23h59min.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -78,22 +78,17 @@
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
-      "count": 3
+      "count": 4
     },
     {
-      "name": "Defesa Civil Estadual do Rio de Janeiro",
-      "short_name": "DC Rio de Janeiro",
-      "count": 3
-    },
-    {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 2
+      "name": "Defesa Civil de Capivari (SP)",
+      "short_name": "DC Capivari (SP)",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Maranhão",
@@ -119,56 +114,61 @@
       "name": "Defesa Civil de Belo Horizonte (MG)",
       "short_name": "DC Belo Horizonte (MG)",
       "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
+      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 21
+      "count": 19
     },
     {
       "label": "Alto",
-      "count": 15
+      "count": 14
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 27
+      "count": 26
     },
     {
       "label": "Alagamentos",
       "count": 4
     },
     {
-      "label": "Vendaval",
-      "count": 3
+      "label": "Friagem",
+      "count": 2
     },
     {
       "label": "Deslizamentos",
-      "count": 1
-    },
-    {
-      "label": "Friagem",
       "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 16
+      "count": 17
     },
     {
       "uf": "ES",
-      "count": 10
+      "count": 9
     },
     {
       "uf": "RJ",
-      "count": 6
+      "count": 3
     },
     {
       "uf": "MG",
-      "count": 3
+      "count": 2
+    },
+    {
+      "uf": "SP",
+      "count": 1
     },
     {
       "uf": "MA",
@@ -178,14 +178,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 11
+      "count": 10
     },
     {
       "label": "expirado",
-      "count": 25
+      "count": 23
     }
   ],
   "all_alerts": [
+    {
+      "date": "17/06/2026",
+      "time": "15:35",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Rio Preto da Eva/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-17T15:35:58-03:00",
+      "expires": "2026-06-17T18:00:00-03:00"
+    },
+    {
+      "date": "17/06/2026",
+      "time": "15:13",
+      "senderName": "Defesa Civil de Capivari (SP)",
+      "event": "Friagem",
+      "nivel": "Alto",
+      "uf": "SP",
+      "location": "Capivari/SP",
+      "headline": "Defesa Civil:Frio chegando! Temperatura minima prevista de 10 graus para os proximos dias. Cuide de quem mais precisa: pessoas vulneraveis e animais.",
+      "status": "vigente",
+      "onset": "2026-06-17T15:13:55-03:00",
+      "expires": "2026-06-19T23:55:00-03:00"
+    },
+    {
+      "date": "17/06/2026",
+      "time": "13:40",
+      "senderName": "Defesa Civil de Manaus (AM)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-06-17T13:40:34-03:00",
+      "expires": "2026-06-17T20:00:00-03:00"
+    },
     {
       "date": "17/06/2026",
       "time": "13:04",
@@ -221,7 +260,7 @@
       "uf": "AM",
       "location": "Rio Preto da Eva/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento. Evite areas alagadas e fique em local seguro. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-17T12:24:17-03:00",
       "expires": "2026-06-17T15:00:00-03:00"
     },
@@ -234,7 +273,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-17T11:37:22-03:00",
       "expires": "2026-06-17T14:30:00-03:00"
     },
@@ -260,7 +299,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-17T11:01:00-03:00",
       "expires": "2026-06-17T14:00:00-03:00"
     },
@@ -286,7 +325,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de alagamento para Manaus (NIVEL ALTO). Siga as orientacoes da Defesa Civil local. Evite transitar por vias alagadas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-17T09:48:02-03:00",
       "expires": "2026-06-17T14:00:00-03:00"
     },
@@ -575,98 +614,20 @@
       "status": "expirado",
       "onset": "2026-06-16T16:16:21-03:00",
       "expires": "2026-06-16T18:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "15:23",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Linhares/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA INTENSA, RAIOS, VENTO e possibilidade de GRANIZO PONTUAL em Linhares nas proximas 03 horas.Fique atento.Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-06-16T15:23:28-03:00",
-      "expires": "2026-06-16T18:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "15:22",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "RIO DE JANEIRO/RJ",
-      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje (16/06). Emergencia, ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-06-16T15:22:23-03:00",
-      "expires": "2026-06-17T00:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "15:20",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-16T15:20:30-03:00",
-      "expires": "2026-06-16T18:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "15:19",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Santana do Paraíso/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada. Proteja-se! Fonte: SIMGE/IGAM",
-      "status": "expirado",
-      "onset": "2026-06-16T15:19:32-03:00",
-      "expires": "2026-06-16T18:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "13:38",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Saquarema/RJ",
-      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje (16/06). Emergencia, ligue 193 ou 22 992115580.",
-      "status": "expirado",
-      "onset": "2026-06-16T13:38:09-03:00",
-      "expires": "2026-06-17T00:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "13:34",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "RIO DE JANEIRO/RJ",
-      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje (16/06). Emergencia, ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-06-16T13:34:01-03:00",
-      "expires": "2026-06-17T00:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 36,
+    "total_alerts": 33,
     "by_nivel": {
-      "Médio": 21,
-      "Alto": 15
+      "Médio": 19,
+      "Alto": 14
     },
     "by_channel_list": {
-      "Google": 36
+      "Google": 33
     },
     "by_region": {
-      "SE": 19,
-      "N": 16,
+      "N": 17,
+      "SE": 15,
       "NE": 1
     }
   }
