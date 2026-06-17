@@ -1,51 +1,39 @@
 {
-  "generated_at": "2026-06-17T15:37:12.379753-03:00",
-  "source_run_dir": "run_20260617_153648",
+  "generated_at": "2026-06-17T19:16:20.771610-03:00",
+  "source_run_dir": "run_20260617_191556",
   "cards": {
     "vigentes": 10,
-    "ultimas24h": 33,
+    "ultimas24h": 25,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "15:35",
+      "time": "19:12",
       "date": "17/06/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
       "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Rio Preto da Eva/AM",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Atencao para chuva intensa nas proximas horas. Siga as orientacoes da defesa civil local.",
       "status": "vigente"
     },
     {
-      "time": "15:13",
+      "time": "17:26",
       "date": "17/06/2026",
-      "senderName": "Defesa Civil de Capivari (SP)",
-      "senderNameShort": "DC Capivari (SP)",
-      "event": "Friagem",
-      "nivel": "Alto",
-      "location": "Capivari/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:Frio chegando! Temperatura minima prevista de 10 graus para os proximos dias. Cuide de quem mais precisa: pessoas vulneraveis e animais.",
-      "status": "vigente"
-    },
-    {
-      "time": "13:40",
-      "date": "17/06/2026",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "senderNameShort": "DC Manaus (AM)",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
       "event": "Chuvas Intensas",
       "nivel": "Alto",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
+      "location": "Bom Repouso/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de onda de frio prevista para quinta feira (18) temperatura minima inferior a 5 graus, nas primeiras horas da madrugada. Protejam-se!",
       "status": "vigente"
     },
     {
-      "time": "13:04",
+      "time": "17:13",
       "date": "17/06/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
@@ -57,33 +45,50 @@
       "status": "vigente"
     },
     {
-      "time": "13:00",
+      "time": "16:34",
+      "date": "17/06/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "location": "Florianópolis/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 17/06 16:32 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Florianópolis. Pico previsto às 17:15h. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "15:35",
       "date": "17/06/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "location": "Maués/AM",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Rio Preto da Eva/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Evite ruas alagadas. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 13
-    },
-    {
-      "name": "Defesa Civil Estadual do Espírito Santo",
-      "short_name": "DC Espírito Santo",
-      "count": 9
+      "count": 14
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
       "short_name": "DC Manaus (AM)",
-      "count": 4
+      "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Capivari (SP)",
@@ -114,17 +119,12 @@
       "name": "Defesa Civil de Belo Horizonte (MG)",
       "short_name": "DC Belo Horizonte (MG)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 19
+      "count": 11
     },
     {
       "label": "Alto",
@@ -134,7 +134,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 26
+      "count": 18
     },
     {
       "label": "Alagamentos",
@@ -155,16 +155,16 @@
       "count": 17
     },
     {
-      "uf": "ES",
-      "count": 9
-    },
-    {
       "uf": "RJ",
       "count": 3
     },
     {
       "uf": "MG",
       "count": 2
+    },
+    {
+      "uf": "SC",
+      "count": 1
     },
     {
       "uf": "SP",
@@ -182,10 +182,62 @@
     },
     {
       "label": "expirado",
-      "count": 23
+      "count": 15
     }
   ],
   "all_alerts": [
+    {
+      "date": "17/06/2026",
+      "time": "19:12",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Atencao para chuva intensa nas proximas horas. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-17T19:12:30-03:00",
+      "expires": "2026-06-17T22:00:00-03:00"
+    },
+    {
+      "date": "17/06/2026",
+      "time": "17:26",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "Bom Repouso/MG",
+      "headline": "Defesa Civil:Alerta de onda de frio prevista para quinta feira (18) temperatura minima inferior a 5 graus, nas primeiras horas da madrugada. Protejam-se!",
+      "status": "vigente",
+      "onset": "2026-06-17T17:26:55-03:00",
+      "expires": "2026-06-18T23:59:00-03:00"
+    },
+    {
+      "date": "17/06/2026",
+      "time": "17:13",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-17T17:13:27-03:00",
+      "expires": "2026-06-17T20:00:00-03:00"
+    },
+    {
+      "date": "17/06/2026",
+      "time": "16:34",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "Florianópolis/SC",
+      "headline": "OBSERVAÇÃO - 17/06 16:32 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Florianópolis. Pico previsto às 17:15h. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-06-17T16:34:47-03:00",
+      "expires": "2026-06-17T19:30:00-03:00"
+    },
     {
       "date": "17/06/2026",
       "time": "15:35",
@@ -195,7 +247,7 @@
       "uf": "AM",
       "location": "Rio Preto da Eva/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-17T15:35:58-03:00",
       "expires": "2026-06-17T18:00:00-03:00"
     },
@@ -234,7 +286,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-17T13:04:32-03:00",
       "expires": "2026-06-17T16:30:00-03:00"
     },
@@ -247,7 +299,7 @@
       "uf": "AM",
       "location": "Maués/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Alagamento. Evite ruas alagadas. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-17T13:00:03-03:00",
       "expires": "2026-06-17T16:30:00-03:00"
     },
@@ -351,7 +403,7 @@
       "uf": "RJ",
       "location": "Maricá/RJ",
       "headline": "Defesa Civil:Retorno para estagio meteorologico de OBSERVACAO em Marica/RJ as 09h00 do dia 17/06/26. Emergencia: 199 ou 966282699 (fone/whatsapp)",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-17T09:07:31-03:00",
       "expires": "2026-06-17T18:00:00-03:00"
     },
@@ -458,177 +510,22 @@
       "status": "expirado",
       "onset": "2026-06-16T23:34:19-03:00",
       "expires": "2026-06-17T00:55:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "18:11",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Jaguaré/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e possibilidade de GRANIZO PONTUAL em Jaguare nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-06-16T18:11:38-03:00",
-      "expires": "2026-06-16T21:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "18:07",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "São Mateus/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e possibilidade de GRANIZO PONTUAL em Sao Mateus nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-06-16T18:07:12-03:00",
-      "expires": "2026-06-16T21:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "18:01",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada. Proteja-se! Fonte: SIMGE/IGAM",
-      "status": "expirado",
-      "onset": "2026-06-16T18:01:31-03:00",
-      "expires": "2026-06-16T22:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "17:58",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Sooretama/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA INTENSA, RAIOS, VENTO e possibilidade de GRANIZO PONTUAL em Sooretama nas proximas 03 horas. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-06-16T17:58:51-03:00",
-      "expires": "2026-06-16T21:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "17:55",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Vila Valério/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA INTENSA, RAIOS, VENTO e possibilidade de GRANIZO PONTUAL em Vila Valerio nas proximas 03 horas. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-06-16T17:55:36-03:00",
-      "expires": "2026-06-16T21:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "17:52",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "São Gabriel da Palha/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA INTENSA, RAIOS, VENTO e possibilidade de GRANIZO PONTUAL em Sao Gabriel da Palha nas proximas 03 horas. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-06-16T17:52:12-03:00",
-      "expires": "2026-06-16T21:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "17:27",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Rio Bananal/ES, Conceição da Barra/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e GRANIZO PONTUAL em Conceicao da Barra e Rio Bananal nas proximas 03 horas. Fique atento.Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-06-16T17:27:24-03:00",
-      "expires": "2026-06-16T20:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "17:11",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Governador Lindenberg/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA INTENSA, RAIOS, VENTO e possibilidade de GRANIZO PONTUAL em Governador Lindenberg nas proximas 02 horas.Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-06-16T17:11:26-03:00",
-      "expires": "2026-06-16T19:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "17:01",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-16T17:01:01-03:00",
-      "expires": "2026-06-16T19:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "16:47",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "ESPÍRITO SANTO/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA INTENSA, RAIOS, VENTO e possibilidade de GRANIZO em Jaguare, Colatina e Marilandia na proxima hora. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-06-16T16:47:29-03:00",
-      "expires": "2026-06-16T18:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "16:23",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-06-16T16:23:24-03:00",
-      "expires": "2026-06-16T20:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "16:16",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "São Mateus/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, RAIOS, VENTO e possibilidade de GRANIZO PONTUAL em Sao Mateus nas proximas 02 horas. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-06-16T16:16:21-03:00",
-      "expires": "2026-06-16T18:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 33,
+    "total_alerts": 25,
     "by_nivel": {
-      "Médio": 19,
-      "Alto": 14
+      "Alto": 14,
+      "Médio": 11
     },
     "by_channel_list": {
-      "Google": 33
+      "Google": 25
     },
     "by_region": {
       "N": 17,
-      "SE": 15,
-      "NE": 1
+      "SE": 6,
+      "NE": 1,
+      "S": 1
     }
   }
 }
