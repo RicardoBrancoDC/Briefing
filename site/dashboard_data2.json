@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-17T19:16:20.831121-03:00",
+  "generated_at": "2026-06-17T20:54:06.340992-03:00",
   "source": ".cache/historico_alertas.json",
   "window_hours": 24,
   "cards": {
-    "vigentes": 10,
+    "vigentes": 7,
     "ultimas24h": 25,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0,
@@ -69,7 +69,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "184554/2026",
       "entry_id": "184554/2026",
       "sent": "2026-06-17T17:13:27-03:00",
@@ -92,7 +92,7 @@
       "location": "Florianópolis/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 17/06 16:32 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Florianópolis. Pico previsto às 17:15h. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "184553/2026",
       "entry_id": "184553/2026",
       "sent": "2026-06-17T16:34:47-03:00",
@@ -161,7 +161,7 @@
       "location": "Manaus/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "184550/2026",
       "entry_id": "184550/2026",
       "sent": "2026-06-17T13:40:34-03:00",
@@ -353,11 +353,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 10
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 15
+      "count": 18
     }
   ],
   "category_distribution": [
@@ -395,22 +395,18 @@
   "time_since_distribution": [
     {
       "label": "6h a 12h",
-      "count": 14
+      "count": 11
     },
     {
       "label": "Mais de 12h",
-      "count": 4
-    },
-    {
-      "label": "1h a 3h",
-      "count": 3
+      "count": 8
     },
     {
       "label": "3h a 6h",
-      "count": 3
+      "count": 5
     },
     {
-      "label": "Até 1h",
+      "label": "1h a 3h",
       "count": 1
     }
   ],
@@ -463,9 +459,9 @@
       "duration_minutes": 167,
       "duration_hours": 2.78,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 3,
-      "time_since_hours": 0.05,
-      "time_since_bucket": "Até 1h",
+      "time_since_minutes": 101,
+      "time_since_hours": 1.68,
+      "time_since_bucket": "1h a 3h",
       "is_active": true
     },
     {
@@ -510,9 +506,9 @@
       "duration_minutes": 1832,
       "duration_hours": 30.53,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 109,
-      "time_since_hours": 1.82,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 207,
+      "time_since_hours": 3.45,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -521,7 +517,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "sent": "2026-06-17T17:13:27-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -548,7 +544,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "17/06/2026",
       "time": "17:13",
       "sent_br": "2026-06-17T17:13:27-03:00",
@@ -557,10 +553,10 @@
       "duration_minutes": 166,
       "duration_hours": 2.77,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 122,
-      "time_since_hours": 2.03,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true
+      "time_since_minutes": 220,
+      "time_since_hours": 3.67,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false
     },
     {
       "identifier": "184553/2026",
@@ -568,7 +564,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual de Santa Catarina",
       "sent": "2026-06-17T16:34:47-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "ALAGAMENTOS",
@@ -595,7 +591,7 @@
       "uf": "SC",
       "location": "Florianópolis/SC",
       "event_short": "Alagamentos",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "17/06/2026",
       "time": "16:34",
       "sent_br": "2026-06-17T16:34:47-03:00",
@@ -604,10 +600,10 @@
       "duration_minutes": 175,
       "duration_hours": 2.92,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 161,
-      "time_since_hours": 2.68,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true
+      "time_since_minutes": 259,
+      "time_since_hours": 4.32,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false
     },
     {
       "identifier": "184552/2026",
@@ -651,8 +647,8 @@
       "duration_minutes": 144,
       "duration_hours": 2.4,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 220,
-      "time_since_hours": 3.67,
+      "time_since_minutes": 318,
+      "time_since_hours": 5.3,
       "time_since_bucket": "3h a 6h",
       "is_active": false
     },
@@ -698,8 +694,8 @@
       "duration_minutes": 3401,
       "duration_hours": 56.68,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 242,
-      "time_since_hours": 4.03,
+      "time_since_minutes": 340,
+      "time_since_hours": 5.67,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -709,7 +705,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil de Manaus (AM)",
       "sent": "2026-06-17T13:40:34-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -736,7 +732,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "17/06/2026",
       "time": "13:40",
       "sent_br": "2026-06-17T13:40:34-03:00",
@@ -745,10 +741,10 @@
       "duration_minutes": 379,
       "duration_hours": 6.32,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 335,
-      "time_since_hours": 5.58,
-      "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "time_since_minutes": 433,
+      "time_since_hours": 7.22,
+      "time_since_bucket": "6h a 12h",
+      "is_active": false
     },
     {
       "identifier": "184549/2026",
@@ -792,8 +788,8 @@
       "duration_minutes": 205,
       "duration_hours": 3.42,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 371,
-      "time_since_hours": 6.18,
+      "time_since_minutes": 469,
+      "time_since_hours": 7.82,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -839,8 +835,8 @@
       "duration_minutes": 209,
       "duration_hours": 3.48,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 376,
-      "time_since_hours": 6.27,
+      "time_since_minutes": 474,
+      "time_since_hours": 7.9,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -886,8 +882,8 @@
       "duration_minutes": 155,
       "duration_hours": 2.58,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 412,
-      "time_since_hours": 6.87,
+      "time_since_minutes": 509,
+      "time_since_hours": 8.48,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -933,8 +929,8 @@
       "duration_minutes": 172,
       "duration_hours": 2.87,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 458,
-      "time_since_hours": 7.63,
+      "time_since_minutes": 556,
+      "time_since_hours": 9.27,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -980,8 +976,8 @@
       "duration_minutes": 767,
       "duration_hours": 12.78,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 488,
-      "time_since_hours": 8.13,
+      "time_since_minutes": 586,
+      "time_since_hours": 9.77,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -1027,8 +1023,8 @@
       "duration_minutes": 179,
       "duration_hours": 2.98,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 495,
-      "time_since_hours": 8.25,
+      "time_since_minutes": 593,
+      "time_since_hours": 9.88,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -1074,8 +1070,8 @@
       "duration_minutes": 1410,
       "duration_hours": 23.5,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 496,
-      "time_since_hours": 8.27,
+      "time_since_minutes": 594,
+      "time_since_hours": 9.9,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -1121,8 +1117,8 @@
       "duration_minutes": 251,
       "duration_hours": 4.18,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 568,
-      "time_since_hours": 9.47,
+      "time_since_minutes": 666,
+      "time_since_hours": 11.1,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -1168,8 +1164,8 @@
       "duration_minutes": 195,
       "duration_hours": 3.25,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 571,
-      "time_since_hours": 9.52,
+      "time_since_minutes": 669,
+      "time_since_hours": 11.15,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -1215,8 +1211,8 @@
       "duration_minutes": 532,
       "duration_hours": 8.87,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 608,
-      "time_since_hours": 10.13,
+      "time_since_minutes": 706,
+      "time_since_hours": 11.77,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -1262,9 +1258,9 @@
       "duration_minutes": 1529,
       "duration_hours": 25.48,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 645,
-      "time_since_hours": 10.75,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 743,
+      "time_since_hours": 12.38,
+      "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
     {
@@ -1309,9 +1305,9 @@
       "duration_minutes": 135,
       "duration_hours": 2.25,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 661,
-      "time_since_hours": 11.02,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 759,
+      "time_since_hours": 12.65,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -1356,9 +1352,9 @@
       "duration_minutes": 289,
       "duration_hours": 4.82,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 665,
-      "time_since_hours": 11.08,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 763,
+      "time_since_hours": 12.72,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -1403,9 +1399,9 @@
       "duration_minutes": 7311,
       "duration_hours": 121.85,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 667,
-      "time_since_hours": 11.12,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 765,
+      "time_since_hours": 12.75,
+      "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
     {
@@ -1450,8 +1446,8 @@
       "duration_minutes": 101,
       "duration_hours": 1.68,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 838,
-      "time_since_hours": 13.97,
+      "time_since_minutes": 935,
+      "time_since_hours": 15.58,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1497,8 +1493,8 @@
       "duration_minutes": 94,
       "duration_hours": 1.57,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 980,
-      "time_since_hours": 16.33,
+      "time_since_minutes": 1078,
+      "time_since_hours": 17.97,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1544,8 +1540,8 @@
       "duration_minutes": 72,
       "duration_hours": 1.2,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 988,
-      "time_since_hours": 16.47,
+      "time_since_minutes": 1086,
+      "time_since_hours": 18.1,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1591,8 +1587,8 @@
       "duration_minutes": 80,
       "duration_hours": 1.33,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1182,
-      "time_since_hours": 19.7,
+      "time_since_minutes": 1279,
+      "time_since_hours": 21.32,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     }
