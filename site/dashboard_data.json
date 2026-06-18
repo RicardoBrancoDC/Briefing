@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-06-17T20:54:06.289112-03:00",
-  "source_run_dir": "run_20260617_205339",
+  "generated_at": "2026-06-18T02:06:41.973742-03:00",
+  "source_run_dir": "run_20260618_020622",
   "cards": {
     "vigentes": 7,
-    "ultimas24h": 25,
+    "ultimas24h": 26,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "00:58",
+      "date": "18/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "location": "Atalaia do Norte/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "22:37",
+      "date": "17/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "location": "Tabatinga/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite areas inclinadas. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "19:12",
       "date": "17/06/2026",
@@ -18,7 +42,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Atencao para chuva intensa nas proximas horas. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:26",
@@ -43,37 +67,13 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
       "status": "expirado"
-    },
-    {
-      "time": "16:34",
-      "date": "17/06/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "location": "Florianópolis/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 17/06 16:32 - ALAGAMENTOS COSTEIROS nas próximas horas devido à maré alta para o município de Florianópolis. Pico previsto às 17:15h. Ocorrências ligue 199 ou 193.",
-      "status": "expirado"
-    },
-    {
-      "time": "15:35",
-      "date": "17/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Rio Preto da Eva/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
@@ -124,21 +124,25 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 11
+      "count": 10
     },
     {
       "label": "Alto",
-      "count": 14
+      "count": 16
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 18
+      "count": 17
     },
     {
       "label": "Alagamentos",
       "count": 4
+    },
+    {
+      "label": "Solo/Lama",
+      "count": 2
     },
     {
       "label": "Friagem",
@@ -152,7 +156,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 17
+      "count": 18
     },
     {
       "uf": "RJ",
@@ -182,10 +186,36 @@
     },
     {
       "label": "expirado",
-      "count": 18
+      "count": 19
     }
   ],
   "all_alerts": [
+    {
+      "date": "18/06/2026",
+      "time": "00:58",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Atalaia do Norte/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-18T00:58:21-03:00",
+      "expires": "2026-06-18T10:00:00-03:00"
+    },
+    {
+      "date": "17/06/2026",
+      "time": "22:37",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Tabatinga/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento. Evite areas inclinadas. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-17T22:37:04-03:00",
+      "expires": "2026-06-18T09:00:00-03:00"
+    },
     {
       "date": "17/06/2026",
       "time": "19:12",
@@ -195,7 +225,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Atencao para chuva intensa nas proximas horas. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-17T19:12:30-03:00",
       "expires": "2026-06-17T22:00:00-03:00"
     },
@@ -338,7 +368,7 @@
       "uf": "MA",
       "location": "MARANHÃO/MA",
       "headline": "Defesa Civil:Alerta de chuvas intensas para sua regiao. Evite areas de risco. Em caso de emergencia ligue 199 ou 193. Valido ate dia 17/06/2026 as 23h59min.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-17T11:08:00-03:00",
       "expires": "2026-06-17T23:55:00-03:00"
     },
@@ -497,32 +527,19 @@
       "status": "expirado",
       "onset": "2026-06-17T02:47:30-03:00",
       "expires": "2026-06-17T04:00:00-03:00"
-    },
-    {
-      "date": "16/06/2026",
-      "time": "23:34",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Careiro/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-16T23:34:19-03:00",
-      "expires": "2026-06-17T00:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 25,
+    "total_alerts": 26,
     "by_nivel": {
-      "Alto": 14,
-      "Médio": 11
+      "Alto": 16,
+      "Médio": 10
     },
     "by_channel_list": {
-      "Google": 25
+      "Google": 26
     },
     "by_region": {
-      "N": 17,
+      "N": 18,
       "SE": 6,
       "NE": 1,
       "S": 1
