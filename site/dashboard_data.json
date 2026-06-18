@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-06-18T02:06:41.973742-03:00",
-  "source_run_dir": "run_20260618_020622",
+  "generated_at": "2026-06-18T07:49:56.967652-03:00",
+  "source_run_dir": "run_20260618_074943",
   "cards": {
-    "vigentes": 7,
-    "ultimas24h": 26,
+    "vigentes": 8,
+    "ultimas24h": 24,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "07:34",
+      "date": "18/06/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Atencao para chuva intensa nas proximas horas. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "00:58",
       "date": "18/06/2026",
@@ -55,25 +67,13 @@
       "uf": "MG",
       "headline": "Defesa Civil:Alerta de onda de frio prevista para quinta feira (18) temperatura minima inferior a 5 graus, nas primeiras horas da madrugada. Protejam-se!",
       "status": "vigente"
-    },
-    {
-      "time": "17:13",
-      "date": "17/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 15
+      "count": 13
     },
     {
       "name": "Defesa Civil de Manaus (AM)",
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 10
+      "count": 8
     },
     {
       "label": "Alto",
@@ -134,7 +134,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 17
+      "count": 15
     },
     {
       "label": "Alagamentos",
@@ -156,7 +156,7 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 18
+      "count": 16
     },
     {
       "uf": "RJ",
@@ -182,14 +182,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 8
     },
     {
       "label": "expirado",
-      "count": 19
+      "count": 16
     }
   ],
   "all_alerts": [
+    {
+      "date": "18/06/2026",
+      "time": "07:34",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Atencao para chuva intensa nas proximas horas. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-06-18T07:34:02-03:00",
+      "expires": "2026-06-18T10:00:00-03:00"
+    },
     {
       "date": "18/06/2026",
       "time": "00:58",
@@ -488,58 +501,19 @@
       "status": "vigente",
       "onset": "2026-06-17T08:08:21-03:00",
       "expires": "2026-06-22T10:00:00-03:00"
-    },
-    {
-      "date": "17/06/2026",
-      "time": "05:18",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Codajás/AM, Coari/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-17T05:18:12-03:00",
-      "expires": "2026-06-17T07:00:00-03:00"
-    },
-    {
-      "date": "17/06/2026",
-      "time": "02:55",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Manicoré/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-17T02:55:48-03:00",
-      "expires": "2026-06-17T04:30:00-03:00"
-    },
-    {
-      "date": "17/06/2026",
-      "time": "02:47",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-17T02:47:30-03:00",
-      "expires": "2026-06-17T04:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 26,
+    "total_alerts": 24,
     "by_nivel": {
       "Alto": 16,
-      "Médio": 10
+      "Médio": 8
     },
     "by_channel_list": {
-      "Google": 26
+      "Google": 24
     },
     "by_region": {
-      "N": 18,
+      "N": 16,
       "SE": 6,
       "NE": 1,
       "S": 1
