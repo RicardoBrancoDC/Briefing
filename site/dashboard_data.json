@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-06-19T18:38:06.989910-03:00",
-  "source_run_dir": "run_20260619_183738",
+  "generated_at": "2026-06-19T20:17:57.249754-03:00",
+  "source_run_dir": "run_20260619_201733",
   "cards": {
-    "vigentes": 20,
+    "vigentes": 17,
     "ultimas24h": 38,
     "autoridadesAtivas": 13,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "18:51",
+      "date": "19/06/2026",
+      "senderName": "Defesa Civil de Sairé (PE)",
+      "senderNameShort": "DC Sairé (PE)",
+      "event": "Chuvas Intensas",
+      "nivel": "Baixo",
+      "location": "Sairé/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas com intensidade moderada nas proximas horas para Saire/PE",
+      "status": "vigente"
+    },
     {
       "time": "18:01",
       "date": "19/06/2026",
@@ -55,18 +67,6 @@
       "uf": "PE",
       "headline": "Defesa Civil:PE: AGRESTE. ALERTA chuva MODERADA a FORTE nas prox 24h. Fique atento as orientacoes da Defesa Civil. Emergencia ligue 193 ou 199",
       "status": "vigente"
-    },
-    {
-      "time": "17:12",
-      "date": "19/06/2026",
-      "senderName": "Defesa Civil Estadual do Pará",
-      "senderNameShort": "DC Pará",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Abaetetuba/PA",
-      "uf": "PA",
-      "headline": "Defesa Civil:ABAETETUBA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -101,6 +101,11 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil de Sairé (PE)",
+      "short_name": "DC Sairé (PE)",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil de Juiz de Fora (MG)",
       "short_name": "DC Juiz de Fora (MG)",
       "count": 1
@@ -114,21 +119,20 @@
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Manaus (AM)",
-      "short_name": "DC Manaus (AM)",
-      "count": 1
     }
   ],
   "level_distribution": [
+    {
+      "label": "Baixo",
+      "count": 1
+    },
     {
       "label": "Médio",
       "count": 13
     },
     {
       "label": "Alto",
-      "count": 22
+      "count": 21
     },
     {
       "label": "Severo",
@@ -138,19 +142,19 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 28
+      "count": 29
     },
     {
       "label": "Inundações",
       "count": 6
     },
     {
-      "label": "Friagem",
+      "label": "Marés De Tempestade (Ressacas)",
       "count": 2
     },
     {
-      "label": "Marés De Tempestade (Ressacas)",
-      "count": 2
+      "label": "Friagem",
+      "count": 1
     }
   ],
   "uf_distribution": [
@@ -168,19 +172,19 @@
     },
     {
       "uf": "PE",
-      "count": 4
+      "count": 5
     },
     {
       "uf": "SC",
       "count": 4
     },
     {
-      "uf": "MG",
+      "uf": "RJ",
       "count": 2
     },
     {
-      "uf": "RJ",
-      "count": 2
+      "uf": "MG",
+      "count": 1
     },
     {
       "uf": "SP",
@@ -194,14 +198,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 20
+      "count": 17
     },
     {
       "label": "expirado",
-      "count": 18
+      "count": 21
     }
   ],
   "all_alerts": [
+    {
+      "date": "19/06/2026",
+      "time": "18:51",
+      "senderName": "Defesa Civil de Sairé (PE)",
+      "event": "Chuvas Intensas",
+      "nivel": "Baixo",
+      "uf": "PE",
+      "location": "Sairé/PE",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas com intensidade moderada nas proximas horas para Saire/PE",
+      "status": "vigente",
+      "onset": "2026-06-19T18:51:14-03:00",
+      "expires": "2026-06-20T07:40:00-03:00"
+    },
     {
       "date": "19/06/2026",
       "time": "18:01",
@@ -263,7 +280,7 @@
       "uf": "PA",
       "location": "Abaetetuba/PA",
       "headline": "Defesa Civil:ABAETETUBA: Alerta ALTO de CHUVAS INTENSAS nas proximas horas. Risco de  Alagamentos e vendavais. Evite areas alagadas e dirija com atencao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-19T17:12:35-03:00",
       "expires": "2026-06-19T19:00:00-03:00"
     },
@@ -276,7 +293,7 @@
       "uf": "PA",
       "location": "Marituba/PA",
       "headline": "Defesa Civil:MARITUBA: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-19T17:06:39-03:00",
       "expires": "2026-06-19T19:00:00-03:00"
     },
@@ -302,7 +319,7 @@
       "uf": "PA",
       "location": "Barcarena/PA",
       "headline": "Defesa Civil:BARCARENA: ALERTA de CHUVAS INTENSAS. Evite areas alagadas e busque abrigo seguro. Fique atento e siga as orientacoes da Defesa Civil.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-19T17:01:57-03:00",
       "expires": "2026-06-19T19:00:00-03:00"
     },
@@ -458,7 +475,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de Chuva Intensa (NIVEL MODERADO). Evite area de risco com historico de alagamento ou enxurrada. Em caso de emergencia ligue 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-19T15:13:16-03:00",
       "expires": "2026-06-19T20:00:00-03:00"
     },
@@ -682,27 +699,15 @@
       "status": "vigente",
       "onset": "2026-06-19T03:00:00-03:00",
       "expires": "2026-06-20T00:00:00-03:00"
-    },
-    {
-      "date": "18/06/2026",
-      "time": "20:06",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Friagem",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Nova Lima/MG",
-      "headline": "Defesa Civil:Alerta de onda de frio com previsao de baixas temperaturas na madrugada de sexta-feira (19/06/2026). Agasalhe-se adequadamente e redobre os cuidad",
-      "status": "expirado",
-      "onset": "2026-06-18T20:06:17-03:00",
-      "expires": "2026-06-19T07:00:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 38,
     "by_nivel": {
-      "Alto": 22,
+      "Alto": 21,
       "Médio": 13,
-      "Severo": 3
+      "Severo": 3,
+      "Baixo": 1
     },
     "by_channel_list": {
       "Google": 38
@@ -710,8 +715,8 @@
     "by_region": {
       "N": 15,
       "S": 13,
-      "SE": 5,
-      "NE": 4,
+      "NE": 5,
+      "SE": 4,
       "CO": 1
     }
   }
