@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-06-19T02:28:48.758669-03:00",
-  "source_run_dir": "run_20260619_022819",
+  "generated_at": "2026-06-19T07:59:07.560382-03:00",
+  "source_run_dir": "run_20260619_075854",
   "cards": {
-    "vigentes": 5,
-    "ultimas24h": 17,
-    "autoridadesAtivas": 9,
+    "vigentes": 8,
+    "ultimas24h": 20,
+    "autoridadesAtivas": 12,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "06:04",
+      "date": "19/06/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:PR AVISO DE TEMPO: Tempestades com chuva pontualmente forte e rajadas de vento ao longo desta sex 19/06. Mantenha-se atento. Ocorrencias, 199/193.",
+      "status": "vigente"
+    },
+    {
+      "time": "05:58",
+      "date": "19/06/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 19/06 05:55 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste e Oeste nas próximas 5 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "03:00",
+      "date": "19/06/2026",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "senderNameShort": "DC Rio de Janeiro",
+      "event": "Marés De Tempestade (Ressacas)",
+      "nivel": "Alto",
+      "location": "RIO DE JANEIRO/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Alerta de ressaca, com ondas de 2.5 metros.  Em caso de emergencia, ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "03:00",
+      "date": "19/06/2026",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "senderNameShort": "DC Rio de Janeiro",
+      "event": "Marés De Tempestade (Ressacas)",
+      "nivel": "Alto",
+      "location": "Saquarema/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Alerta de ressaca, com ondas de 2.5 metros. Em caso de emergencia, ligue 22992115580 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "20:06",
       "date": "18/06/2026",
@@ -18,54 +66,6 @@
       "location": "Nova Lima/MG",
       "uf": "MG",
       "headline": "Defesa Civil:Alerta de onda de frio com previsao de baixas temperaturas na madrugada de sexta-feira (19/06/2026). Agasalhe-se adequadamente e redobre os cuidad",
-      "status": "vigente"
-    },
-    {
-      "time": "17:34",
-      "date": "18/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "17:28",
-      "date": "18/06/2026",
-      "senderName": "Defesa Civil Estadual do Mato Grosso Sul",
-      "senderNameShort": "DC Mato Grosso Sul",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MATO GROSSO DO SUL/MS",
-      "uf": "MS",
-      "headline": "Defesa Civil:Previsao de chuvas intensas, tempestades com raios, granizo e queda acentuada de temperatura ate domingo. Acompanhe o clima e proteja-se.",
-      "status": "vigente"
-    },
-    {
-      "time": "16:07",
-      "date": "18/06/2026",
-      "senderName": "Defesa Civil de Manaus (AM)",
-      "senderNameShort": "DC Manaus (AM)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL MODERADO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "expirado"
-    },
-    {
-      "time": "15:48",
-      "date": "18/06/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Coari/AM, Santa Isabel do Rio Negro/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
       "status": "expirado"
     }
   ],
@@ -78,12 +78,27 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 4
+      "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual do Rio de Janeiro",
+      "short_name": "DC Rio de Janeiro",
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Mato Grosso Sul",
@@ -104,16 +119,6 @@
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Maricá (RJ)",
-      "short_name": "DC Maricá (RJ)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Sergipe",
-      "short_name": "DC Sergipe",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -123,28 +128,28 @@
     },
     {
       "label": "Médio",
-      "count": 12
+      "count": 13
     },
     {
       "label": "Alto",
-      "count": 4
+      "count": 6
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 9
+      "count": 10
     },
     {
       "label": "Baixa Umidade Do Ar",
       "count": 5
     },
     {
-      "label": "Friagem",
-      "count": 1
+      "label": "Marés De Tempestade (Ressacas)",
+      "count": 3
     },
     {
-      "label": "Marés De Tempestade (Ressacas)",
+      "label": "Friagem",
       "count": 1
     },
     {
@@ -154,20 +159,28 @@
   ],
   "uf_distribution": [
     {
-      "uf": "AM",
+      "uf": "SP",
       "count": 5
     },
     {
-      "uf": "SP",
-      "count": 5
+      "uf": "RJ",
+      "count": 4
+    },
+    {
+      "uf": "AM",
+      "count": 4
     },
     {
       "uf": "MG",
       "count": 2
     },
     {
-      "uf": "RJ",
-      "count": 2
+      "uf": "PR",
+      "count": 1
+    },
+    {
+      "uf": "SC",
+      "count": 1
     },
     {
       "uf": "MS",
@@ -185,7 +198,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 8
     },
     {
       "label": "expirado",
@@ -193,6 +206,58 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "19/06/2026",
+      "time": "06:04",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR AVISO DE TEMPO: Tempestades com chuva pontualmente forte e rajadas de vento ao longo desta sex 19/06. Mantenha-se atento. Ocorrencias, 199/193.",
+      "status": "vigente",
+      "onset": "2026-06-19T06:04:05-03:00",
+      "expires": "2026-06-19T23:00:00-03:00"
+    },
+    {
+      "date": "19/06/2026",
+      "time": "05:58",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 19/06 05:55 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste e Oeste nas próximas 5 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-06-19T05:58:03-03:00",
+      "expires": "2026-06-19T11:00:00-03:00"
+    },
+    {
+      "date": "19/06/2026",
+      "time": "03:00",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "event": "Marés De Tempestade (Ressacas)",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "RIO DE JANEIRO/RJ",
+      "headline": "Defesa Civil:Alerta de ressaca, com ondas de 2.5 metros.  Em caso de emergencia, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-06-19T03:00:00-03:00",
+      "expires": "2026-06-20T00:00:00-03:00"
+    },
+    {
+      "date": "19/06/2026",
+      "time": "03:00",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "event": "Marés De Tempestade (Ressacas)",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Saquarema/RJ",
+      "headline": "Defesa Civil:Alerta de ressaca, com ondas de 2.5 metros. Em caso de emergencia, ligue 22992115580 ou 193.",
+      "status": "vigente",
+      "onset": "2026-06-19T03:00:00-03:00",
+      "expires": "2026-06-20T00:00:00-03:00"
+    },
     {
       "date": "18/06/2026",
       "time": "20:06",
@@ -202,7 +267,7 @@
       "uf": "MG",
       "location": "Nova Lima/MG",
       "headline": "Defesa Civil:Alerta de onda de frio com previsao de baixas temperaturas na madrugada de sexta-feira (19/06/2026). Agasalhe-se adequadamente e redobre os cuidad",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-06-18T20:06:17-03:00",
       "expires": "2026-06-19T07:00:00-03:00"
     },
@@ -400,35 +465,23 @@
       "status": "vigente",
       "onset": "2026-06-18T09:01:42-03:00",
       "expires": "2026-06-19T10:00:00-03:00"
-    },
-    {
-      "date": "18/06/2026",
-      "time": "07:34",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Atencao para chuva intensa nas proximas horas. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-06-18T07:34:02-03:00",
-      "expires": "2026-06-18T10:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 17,
+    "total_alerts": 20,
     "by_nivel": {
-      "Médio": 12,
-      "Alto": 4,
+      "Médio": 13,
+      "Alto": 6,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 17
+      "Google": 20
     },
     "by_region": {
-      "SE": 9,
-      "N": 5,
+      "SE": 11,
+      "N": 4,
       "NE": 2,
+      "S": 2,
       "CO": 1
     }
   }
