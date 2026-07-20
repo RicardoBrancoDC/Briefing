@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-07-20T18:37:05.423625-03:00",
-  "source_run_dir": "run_20260720_183645",
+  "generated_at": "2026-07-20T20:18:00.015801-03:00",
+  "source_run_dir": "run_20260720_201739",
   "cards": {
-    "vigentes": 8,
-    "ultimas24h": 34,
+    "vigentes": 6,
+    "ultimas24h": 36,
     "autoridadesAtivas": 6,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "20:11",
+      "date": "20/07/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 20/07 20:10 - TEMPORAIS ISOLADOS de intensidade moderada a forte de direção RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Araranguá, Balneário Arroio do Silva, Balneário Gaivota, Balneário Rincão, Criciúma, Ermo, Forquilhinha, Içara, Jacinto Machado, Maracajá, Meleiro, Morro Grande, Nova Veneza, Passo de Torres, Praia Grande, Santa Rosa do Sul, Sombrio, São João do Sul, Timbé do Sul e Turvo nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "18:53",
+      "date": "20/07/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "17:43",
       "date": "20/07/2026",
@@ -30,7 +54,7 @@
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
       "headline": "Defesa Civil:RS:Alerta LARANJA . Condicao de ALERTA p/ tempestade c/ vento e granizo.Risco ALTO de alagamentos e destelhamento. Val ate 19h.Mantenha-se seguro",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:28",
@@ -43,30 +67,6 @@
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 20/07 17:26 - TEMPORAIS ISOLADOS de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
       "status": "vigente"
-    },
-    {
-      "time": "17:13",
-      "date": "20/07/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "location": "RIO GRANDE DO SUL/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:RS:Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo.Risco ALTO de alagamentos e destelhamento. Val ate 19h.Mantenha-se seguro",
-      "status": "vigente"
-    },
-    {
-      "time": "16:15",
-      "date": "20/07/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "location": "RIO GRANDE DO SUL/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:RS:Alerta LARANJA . Condicao de ALERTA p/ tempestade c/ vento e granizo.Risco ALTO de alagamentos e destelhamento. Val ate 18h.Mantenha-se seguro",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -83,7 +83,7 @@
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Defesa Civil Nacional",
@@ -93,7 +93,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual do Rio de Janeiro",
@@ -104,11 +104,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 19
+      "count": 20
     },
     {
       "label": "Alto",
-      "count": 15
+      "count": 16
     }
   ],
   "event_distribution": [
@@ -122,7 +122,7 @@
     },
     {
       "label": "Chuvas Intensas",
-      "count": 7
+      "count": 9
     },
     {
       "label": "Vendaval",
@@ -135,12 +135,12 @@
       "count": 11
     },
     {
-      "uf": "SP",
+      "uf": "SC",
       "count": 10
     },
     {
-      "uf": "SC",
-      "count": 9
+      "uf": "SP",
+      "count": 10
     },
     {
       "uf": "RJ",
@@ -148,20 +148,46 @@
     },
     {
       "uf": "AM",
-      "count": 1
+      "count": 2
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 8
+      "count": 6
     },
     {
       "label": "expirado",
-      "count": 26
+      "count": 30
     }
   ],
   "all_alerts": [
+    {
+      "date": "20/07/2026",
+      "time": "20:11",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 20/07 20:10 - TEMPORAIS ISOLADOS de intensidade moderada a forte de direção RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Araranguá, Balneário Arroio do Silva, Balneário Gaivota, Balneário Rincão, Criciúma, Ermo, Forquilhinha, Içara, Jacinto Machado, Maracajá, Meleiro, Morro Grande, Nova Veneza, Passo de Torres, Praia Grande, Santa Rosa do Sul, Sombrio, São João do Sul, Timbé do Sul e Turvo nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-20T20:11:33-03:00",
+      "expires": "2026-07-21T00:15:00-03:00"
+    },
+    {
+      "date": "20/07/2026",
+      "time": "18:53",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-07-20T18:53:46-03:00",
+      "expires": "2026-07-20T21:45:00-03:00"
+    },
     {
       "date": "20/07/2026",
       "time": "17:43",
@@ -184,7 +210,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS:Alerta LARANJA . Condicao de ALERTA p/ tempestade c/ vento e granizo.Risco ALTO de alagamentos e destelhamento. Val ate 19h.Mantenha-se seguro",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-20T17:39:48-03:00",
       "expires": "2026-07-20T19:00:00-03:00"
     },
@@ -210,7 +236,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS:Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo.Risco ALTO de alagamentos e destelhamento. Val ate 19h.Mantenha-se seguro",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-20T17:13:38-03:00",
       "expires": "2026-07-20T19:00:00-03:00"
     },
@@ -249,7 +275,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 20/07 15:17 - RAJADAS DE VENTO de NORTE, MODERADA e 45 A 65 KM/H para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-20T15:25:04-03:00",
       "expires": "2026-07-20T19:25:00-03:00"
     },
@@ -327,7 +353,7 @@
       "uf": "RJ",
       "location": "RIO DE JANEIRO/RJ",
       "headline": "Defesa Civil:Umidade do ar pode ficar abaixo de 30 na tarde de hoje (20/07). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-20T14:44:34-03:00",
       "expires": "2026-07-20T20:00:00-03:00"
     },
@@ -606,18 +632,18 @@
     }
   ],
   "summary": {
-    "total_alerts": 34,
+    "total_alerts": 36,
     "by_nivel": {
-      "Médio": 19,
-      "Alto": 15
+      "Médio": 20,
+      "Alto": 16
     },
     "by_channel_list": {
-      "Google": 34
+      "Google": 36
     },
     "by_region": {
-      "S": 20,
+      "S": 21,
       "SE": 13,
-      "N": 1
+      "N": 2
     }
   }
 }
