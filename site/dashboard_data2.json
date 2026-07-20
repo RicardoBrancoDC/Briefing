@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-20T17:50:54.692549-03:00",
+  "generated_at": "2026-07-20T18:37:05.486438-03:00",
   "source": ".cache/historico_alertas.json",
   "window_hours": 24,
   "cards": {
-    "vigentes": 12,
+    "vigentes": 8,
     "ultimas24h": 34,
     "autoridadesAtivas": 6,
     "alertasExtremos": 0,
@@ -115,7 +115,7 @@
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
       "headline": "Defesa Civil:RS:Alerta LARANJA . Condicao de ALERTA p/ tempestade c/ vento e granizo.Risco ALTO de alagamentos e destelhamento. Val ate 18h.Mantenha-se seguro",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "185432/2026",
       "entry_id": "185432/2026",
       "sent": "2026-07-20T16:15:56-03:00",
@@ -138,7 +138,7 @@
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
       "headline": "Defesa Civil:RS:Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo.Risco ALTO de alagamentos e destelhamento. Val ate 18h.Mantenha-se seguro",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "185431/2026",
       "entry_id": "185431/2026",
       "sent": "2026-07-20T16:05:41-03:00",
@@ -329,11 +329,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 12
+      "count": 8
     },
     {
       "label": "expirado",
-      "count": 22
+      "count": 26
     }
   ],
   "category_distribution": [
@@ -363,19 +363,23 @@
   "time_since_distribution": [
     {
       "label": "3h a 6h",
-      "count": 12
+      "count": 13
     },
     {
       "label": "6h a 12h",
       "count": 10
     },
     {
+      "label": "Mais de 12h",
+      "count": 5
+    },
+    {
       "label": "1h a 3h",
-      "count": 8
+      "count": 4
     },
     {
       "label": "Até 1h",
-      "count": 4
+      "count": 2
     }
   ],
   "channel_distribution": [
@@ -427,8 +431,8 @@
       "duration_minutes": 156,
       "duration_hours": 2.6,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 7,
-      "time_since_hours": 0.12,
+      "time_since_minutes": 54,
+      "time_since_hours": 0.9,
       "time_since_bucket": "Até 1h",
       "is_active": true
     },
@@ -474,8 +478,8 @@
       "duration_minutes": 80,
       "duration_hours": 1.33,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 11,
-      "time_since_hours": 0.18,
+      "time_since_minutes": 57,
+      "time_since_hours": 0.95,
       "time_since_bucket": "Até 1h",
       "is_active": true
     },
@@ -521,9 +525,9 @@
       "duration_minutes": 181,
       "duration_hours": 3.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 22,
-      "time_since_hours": 0.37,
-      "time_since_bucket": "Até 1h",
+      "time_since_minutes": 68,
+      "time_since_hours": 1.13,
+      "time_since_bucket": "1h a 3h",
       "is_active": true
     },
     {
@@ -568,9 +572,9 @@
       "duration_minutes": 106,
       "duration_hours": 1.77,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 37,
-      "time_since_hours": 0.62,
-      "time_since_bucket": "Até 1h",
+      "time_since_minutes": 83,
+      "time_since_hours": 1.38,
+      "time_since_bucket": "1h a 3h",
       "is_active": true
     },
     {
@@ -579,7 +583,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
       "sent": "2026-07-20T16:15:56-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "TEMPESTADE LOCAL/CONVECTIVA - GRANIZO",
@@ -606,7 +610,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "event_short": "Granizo",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "20/07/2026",
       "time": "16:15",
       "sent_br": "2026-07-20T16:15:56-03:00",
@@ -615,10 +619,10 @@
       "duration_minutes": 105,
       "duration_hours": 1.75,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 95,
-      "time_since_hours": 1.58,
+      "time_since_minutes": 142,
+      "time_since_hours": 2.37,
       "time_since_bucket": "1h a 3h",
-      "is_active": true
+      "is_active": false
     },
     {
       "identifier": "185431/2026",
@@ -626,7 +630,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
       "sent": "2026-07-20T16:05:41-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "TEMPESTADE LOCAL/CONVECTIVA - GRANIZO",
@@ -653,7 +657,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "event_short": "Granizo",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "20/07/2026",
       "time": "16:05",
       "sent_br": "2026-07-20T16:05:41-03:00",
@@ -662,10 +666,10 @@
       "duration_minutes": 114,
       "duration_hours": 1.9,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 105,
-      "time_since_hours": 1.75,
+      "time_since_minutes": 151,
+      "time_since_hours": 2.52,
       "time_since_bucket": "1h a 3h",
-      "is_active": true
+      "is_active": false
     },
     {
       "identifier": "185430/2026",
@@ -709,9 +713,9 @@
       "duration_minutes": 239,
       "duration_hours": 3.98,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 145,
-      "time_since_hours": 2.42,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 192,
+      "time_since_hours": 3.2,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -756,9 +760,9 @@
       "duration_minutes": 101,
       "duration_hours": 1.68,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 152,
-      "time_since_hours": 2.53,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 198,
+      "time_since_hours": 3.3,
+      "time_since_bucket": "3h a 6h",
       "is_active": false
     },
     {
@@ -803,9 +807,9 @@
       "duration_minutes": 104,
       "duration_hours": 1.73,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 155,
-      "time_since_hours": 2.58,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 201,
+      "time_since_hours": 3.35,
+      "time_since_bucket": "3h a 6h",
       "is_active": false
     },
     {
@@ -850,9 +854,9 @@
       "duration_minutes": 105,
       "duration_hours": 1.75,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 156,
-      "time_since_hours": 2.6,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 202,
+      "time_since_hours": 3.37,
+      "time_since_bucket": "3h a 6h",
       "is_active": false
     },
     {
@@ -897,9 +901,9 @@
       "duration_minutes": 109,
       "duration_hours": 1.82,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 160,
-      "time_since_hours": 2.67,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 206,
+      "time_since_hours": 3.43,
+      "time_since_bucket": "3h a 6h",
       "is_active": false
     },
     {
@@ -944,9 +948,9 @@
       "duration_minutes": 420,
       "duration_hours": 7.0,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 170,
-      "time_since_hours": 2.83,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 217,
+      "time_since_hours": 3.62,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -991,8 +995,8 @@
       "duration_minutes": 315,
       "duration_hours": 5.25,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 186,
-      "time_since_hours": 3.1,
+      "time_since_minutes": 232,
+      "time_since_hours": 3.87,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -1038,8 +1042,8 @@
       "duration_minutes": 151,
       "duration_hours": 2.52,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 202,
-      "time_since_hours": 3.37,
+      "time_since_minutes": 249,
+      "time_since_hours": 4.15,
       "time_since_bucket": "3h a 6h",
       "is_active": false
     },
@@ -1085,8 +1089,8 @@
       "duration_minutes": 153,
       "duration_hours": 2.55,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 204,
-      "time_since_hours": 3.4,
+      "time_since_minutes": 251,
+      "time_since_hours": 4.18,
       "time_since_bucket": "3h a 6h",
       "is_active": false
     },
@@ -1132,8 +1136,8 @@
       "duration_minutes": 156,
       "duration_hours": 2.6,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 206,
-      "time_since_hours": 3.43,
+      "time_since_minutes": 253,
+      "time_since_hours": 4.22,
       "time_since_bucket": "3h a 6h",
       "is_active": false
     },
@@ -1179,8 +1183,8 @@
       "duration_minutes": 158,
       "duration_hours": 2.63,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 209,
-      "time_since_hours": 3.48,
+      "time_since_minutes": 255,
+      "time_since_hours": 4.25,
       "time_since_bucket": "3h a 6h",
       "is_active": false
     },
@@ -1226,8 +1230,8 @@
       "duration_minutes": 160,
       "duration_hours": 2.67,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 211,
-      "time_since_hours": 3.52,
+      "time_since_minutes": 257,
+      "time_since_hours": 4.28,
       "time_since_bucket": "3h a 6h",
       "is_active": false
     },
@@ -1273,8 +1277,8 @@
       "duration_minutes": 217,
       "duration_hours": 3.62,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 268,
-      "time_since_hours": 4.47,
+      "time_since_minutes": 314,
+      "time_since_hours": 5.23,
       "time_since_bucket": "3h a 6h",
       "is_active": false
     },
@@ -1320,9 +1324,9 @@
       "duration_minutes": 120,
       "duration_hours": 2.0,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 320,
-      "time_since_hours": 5.33,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 367,
+      "time_since_hours": 6.12,
+      "time_since_bucket": "6h a 12h",
       "is_active": false
     },
     {
@@ -1367,9 +1371,9 @@
       "duration_minutes": 242,
       "duration_hours": 4.03,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 338,
-      "time_since_hours": 5.63,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 384,
+      "time_since_hours": 6.4,
+      "time_since_bucket": "6h a 12h",
       "is_active": false
     },
     {
@@ -1414,9 +1418,9 @@
       "duration_minutes": 111,
       "duration_hours": 1.85,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 341,
-      "time_since_hours": 5.68,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 388,
+      "time_since_hours": 6.47,
+      "time_since_bucket": "6h a 12h",
       "is_active": false
     },
     {
@@ -1461,9 +1465,9 @@
       "duration_minutes": 3240,
       "duration_hours": 54.0,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 350,
-      "time_since_hours": 5.83,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 397,
+      "time_since_hours": 6.62,
+      "time_since_bucket": "6h a 12h",
       "is_active": true
     },
     {
@@ -1472,7 +1476,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual de Santa Catarina",
       "sent": "2026-07-20T11:57:16-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "VENDAVAL",
@@ -1499,7 +1503,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "event_short": "Vendaval",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "20/07/2026",
       "time": "11:57",
       "sent_br": "2026-07-20T11:57:16-03:00",
@@ -1508,10 +1512,10 @@
       "duration_minutes": 357,
       "duration_hours": 5.95,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 353,
-      "time_since_hours": 5.88,
-      "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "time_since_minutes": 399,
+      "time_since_hours": 6.65,
+      "time_since_bucket": "6h a 12h",
+      "is_active": false
     },
     {
       "identifier": "185413/2026",
@@ -1555,8 +1559,8 @@
       "duration_minutes": 95,
       "duration_hours": 1.58,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 386,
-      "time_since_hours": 6.43,
+      "time_since_minutes": 432,
+      "time_since_hours": 7.2,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -1566,7 +1570,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Nacional",
       "sent": "2026-07-20T10:24:51-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -1593,7 +1597,7 @@
       "uf": "RJ",
       "location": "Mangaratiba/RJ",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "20/07/2026",
       "time": "10:24",
       "sent_br": "2026-07-20T10:24:51-03:00",
@@ -1602,10 +1606,10 @@
       "duration_minutes": 455,
       "duration_hours": 7.58,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 446,
-      "time_since_hours": 7.43,
+      "time_since_minutes": 492,
+      "time_since_hours": 8.2,
       "time_since_bucket": "6h a 12h",
-      "is_active": true
+      "is_active": false
     },
     {
       "identifier": "185409/2026",
@@ -1649,8 +1653,8 @@
       "duration_minutes": 295,
       "duration_hours": 4.92,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 446,
-      "time_since_hours": 7.43,
+      "time_since_minutes": 492,
+      "time_since_hours": 8.2,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -1696,8 +1700,8 @@
       "duration_minutes": 116,
       "duration_hours": 1.93,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 606,
-      "time_since_hours": 10.1,
+      "time_since_minutes": 653,
+      "time_since_hours": 10.88,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -1743,8 +1747,8 @@
       "duration_minutes": 170,
       "duration_hours": 2.83,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 661,
-      "time_since_hours": 11.02,
+      "time_since_minutes": 708,
+      "time_since_hours": 11.8,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -1790,9 +1794,9 @@
       "duration_minutes": 75,
       "duration_hours": 1.25,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 680,
-      "time_since_hours": 11.33,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 727,
+      "time_since_hours": 12.12,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -1837,9 +1841,9 @@
       "duration_minutes": 90,
       "duration_hours": 1.5,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 695,
-      "time_since_hours": 11.58,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 742,
+      "time_since_hours": 12.37,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -1884,9 +1888,9 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 700,
-      "time_since_hours": 11.67,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 746,
+      "time_since_hours": 12.43,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -1931,9 +1935,9 @@
       "duration_minutes": 84,
       "duration_hours": 1.4,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 705,
-      "time_since_hours": 11.75,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 751,
+      "time_since_hours": 12.52,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -1978,9 +1982,9 @@
       "duration_minutes": 90,
       "duration_hours": 1.5,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 710,
-      "time_since_hours": 11.83,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 757,
+      "time_since_hours": 12.62,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     }
   ]
