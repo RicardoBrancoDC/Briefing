@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-21T09:25:08.165766-03:00",
-  "source_run_dir": "run_20260721_092455",
+  "generated_at": "2026-07-21T11:26:40.040666-03:00",
+  "source_run_dir": "run_20260721_112625",
   "cards": {
     "vigentes": 4,
     "ultimas24h": 49,
@@ -8,6 +8,42 @@
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "11:20",
+      "date": "21/07/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 21/07 11:15 - TEMPORAIS ISOLADOS de direção RAIOS, RAJADAS DE VENTO, ALAGAMENTOS pontuais e risco de ENXURRADAS para as regiões do Planalto Sul e Litoral Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "11:08",
+      "date": "21/07/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva volumosa e persistente. Risco ALTO de alagamentos. Val. ate 16h. Mantenha-se seguro.Emerg 190/193",
+      "status": "vigente"
+    },
+    {
+      "time": "09:40",
+      "date": "21/07/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "Defesa Civil:ATENCAO - 21/07 09:36 - TEMPORAL ISOLADO de direcao RAIOS e ALAGAMENTOS na proxima 1h. Ocorrencias ligue 199 ou 193.",
+      "status": "expirado"
+    },
     {
       "time": "08:46",
       "date": "21/07/2026",
@@ -30,42 +66,6 @@
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 10h. Mantenha-se seguro.",
-      "status": "vigente"
-    },
-    {
-      "time": "07:49",
-      "date": "21/07/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 21/07 07:47 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e GRANIZO para as regiões do Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "07:40",
-      "date": "21/07/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "location": "RIO GRANDE DO SUL/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 09h. Mantenha-se seguro.",
-      "status": "expirado"
-    },
-    {
-      "time": "07:30",
-      "date": "21/07/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "location": "RIO GRANDE DO SUL/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 09h. Mantenha-se seguro.",
       "status": "expirado"
     }
   ],
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 19
+      "count": 20
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
@@ -88,7 +88,7 @@
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -119,25 +119,25 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 19
+      "count": 22
     },
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 14
-    },
-    {
-      "label": "Granizo",
       "count": 13
     },
     {
+      "label": "Granizo",
+      "count": 12
+    },
+    {
       "label": "Vendaval",
-      "count": 3
+      "count": 2
     }
   ],
   "uf_distribution": [
     {
       "uf": "SC",
-      "count": 19
+      "count": 20
     },
     {
       "uf": "RS",
@@ -148,11 +148,11 @@
       "count": 10
     },
     {
-      "uf": "RJ",
-      "count": 3
+      "uf": "AM",
+      "count": 2
     },
     {
-      "uf": "AM",
+      "uf": "RJ",
       "count": 2
     },
     {
@@ -177,6 +177,45 @@
   "all_alerts": [
     {
       "date": "21/07/2026",
+      "time": "11:20",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 21/07 11:15 - TEMPORAIS ISOLADOS de direção RAIOS, RAJADAS DE VENTO, ALAGAMENTOS pontuais e risco de ENXURRADAS para as regiões do Planalto Sul e Litoral Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-21T11:20:09-03:00",
+      "expires": "2026-07-21T15:15:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "11:08",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva volumosa e persistente. Risco ALTO de alagamentos. Val. ate 16h. Mantenha-se seguro.Emerg 190/193",
+      "status": "vigente",
+      "onset": "2026-07-21T11:08:50-03:00",
+      "expires": "2026-07-21T16:00:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "09:40",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 21/07 09:36 - TEMPORAL ISOLADO de direcao RAIOS e ALAGAMENTOS na proxima 1h. Ocorrencias ligue 199 ou 193.",
+      "status": "expirado",
+      "onset": "2026-07-21T09:40:56-03:00",
+      "expires": "2026-07-21T10:40:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
       "time": "08:46",
       "senderName": "Defesa Civil Nacional",
       "event": "Baixa Umidade Do Ar",
@@ -197,7 +236,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 10h. Mantenha-se seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T08:43:54-03:00",
       "expires": "2026-07-21T10:00:00-03:00"
     },
@@ -210,7 +249,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 21/07 07:47 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e GRANIZO para as regiões do Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T07:49:25-03:00",
       "expires": "2026-07-21T10:00:00-03:00"
     },
@@ -772,45 +811,6 @@
       "status": "expirado",
       "onset": "2026-07-20T11:57:16-03:00",
       "expires": "2026-07-20T17:55:00-03:00"
-    },
-    {
-      "date": "20/07/2026",
-      "time": "11:24",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de alagamentos e destelhamento. Val. ate 13h. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-07-20T11:24:45-03:00",
-      "expires": "2026-07-20T13:00:00-03:00"
-    },
-    {
-      "date": "20/07/2026",
-      "time": "10:24",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "headline": "Defesa Civil:MANGARATIBA-RJ. UMIDADE DO AR PODE FICAR ABAIXO DE 30 NA TARDE DE HOJE (20/07). EVITE EXERCICIOS FISICOS AO AR LIVRE A TARDE E HIDRATAR-SE.",
-      "status": "expirado",
-      "onset": "2026-07-20T10:24:51-03:00",
-      "expires": "2026-07-20T18:00:00-03:00"
-    },
-    {
-      "date": "20/07/2026",
-      "time": "10:24",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 20/07 10:19 - RAJADAS DE VENTO com direção NORTE, intensidade MODERADA variando de 45 a 65 KM/H para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 5 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-20T10:24:51-03:00",
-      "expires": "2026-07-20T15:20:00-03:00"
     }
   ],
   "summary": {
@@ -823,8 +823,8 @@
       "Google": 49
     },
     "by_region": {
-      "S": 33,
-      "SE": 14,
+      "S": 34,
+      "SE": 13,
       "N": 2
     }
   }
