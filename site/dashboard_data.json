@@ -1,15 +1,39 @@
 {
-  "generated_at": "2026-07-21T18:35:54.405534-03:00",
-  "source_run_dir": "run_20260721_183536",
+  "generated_at": "2026-07-21T20:15:14.947057-03:00",
+  "source_run_dir": "run_20260721_201450",
   "cards": {
-    "vigentes": 24,
-    "ultimas24h": 69,
-    "autoridadesAtivas": 8,
+    "vigentes": 30,
+    "ultimas24h": 80,
+    "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "18:32",
+      "time": "20:12",
+      "date": "21/07/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Deslizamentos",
+      "nivel": "Médio",
+      "location": "Portão/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:Alerta AMARELO : Risco MODERADO p/ deslizamentos pontuais em Portao. Evite areas de risco. Val por 24h. Emerg 190/193.",
+      "status": "vigente"
+    },
+    {
+      "time": "20:11",
+      "date": "21/07/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Deslizamentos",
+      "nivel": "Alto",
+      "location": "Jacinto Machado/SC",
+      "uf": "SC",
+      "headline": "Defesa Civil:ATENCAO - 21/07 20:08 - DESLIZAMENTOS para o municipio de Jacinto Machado. Ocorrencias ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "20:04",
       "date": "21/07/2026",
       "senderName": "Defesa Civil Estadual de Santa Catarina",
       "senderNameShort": "DC Santa Catarina",
@@ -17,55 +41,31 @@
       "nivel": "Médio",
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
-      "headline": "OBSERVAÇÃO - 21/07 18:30 - TEMPORAIS ISOLADOS de RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "headline": "OBSERVAÇÃO - 21/07 20:02 - TEMPORAIS ISOLADOS de RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 6 horas. Ocorrências ligue 199 ou 193.",
       "status": "vigente"
     },
     {
-      "time": "18:30",
+      "time": "19:50",
+      "date": "21/07/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Deslizamentos",
+      "nivel": "Alto",
+      "location": "Ermo/SC",
+      "uf": "SC",
+      "headline": "Defesa Civil:ATENCAO - 21/07 19:48 - DESLIZAMENTOS para o municipio de Ermo. Ocorrencias ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "19:47",
       "date": "21/07/2026",
       "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
       "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Vendaval",
+      "event": "Granizo",
       "nivel": "Alto",
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento. Risco ALTO de alagamentos e destelhamento. Val. ate 21h. Mantenha-se seguro.",
-      "status": "vigente"
-    },
-    {
-      "time": "18:25",
-      "date": "21/07/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "RIO GRANDE DO SUL/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva persistente. Risco ALTO de alagamentos. Val. ate 23h. Mantenha-se seguro. Emerg. 190/193",
-      "status": "vigente"
-    },
-    {
-      "time": "18:20",
-      "date": "21/07/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Deslizamentos",
-      "nivel": "Médio",
-      "location": "Três Coroas/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:Risco MODERADO p/ deslizamentos pontuais em Tres Coroas. Evite areas de risco. Val por 24h. Emerg 190/193.",
-      "status": "vigente"
-    },
-    {
-      "time": "18:05",
-      "date": "21/07/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Deslizamentos",
-      "nivel": "Médio",
-      "location": "Novo Hamburgo/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:Risco MODERADO p/ deslizamentos pontuais em Novo Hamburgo. Evite areas de risco. Val por 24h. Emerg 190/193.",
+      "headline": "Defesa Civil:RS: Alerta LARANJA.Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de alagamentos e destelhamento. Val ate 22h Mantenha-se seguro",
       "status": "vigente"
     }
   ],
@@ -73,12 +73,12 @@
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 26
+      "count": 33
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 22
+      "count": 27
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -104,21 +104,16 @@
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 37
+      "count": 41
     },
     {
       "label": "Alto",
-      "count": 30
+      "count": 37
     },
     {
       "label": "Severo",
@@ -128,7 +123,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 32
+      "count": 34
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -136,25 +131,29 @@
     },
     {
       "label": "Deslizamentos",
-      "count": 8
+      "count": 13
     },
     {
       "label": "Vendaval",
-      "count": 7
+      "count": 8
     },
     {
       "label": "Granizo",
-      "count": 6
+      "count": 7
+    },
+    {
+      "label": "Inundações",
+      "count": 2
     }
   ],
   "uf_distribution": [
     {
       "uf": "RS",
-      "count": 26
+      "count": 33
     },
     {
       "uf": "SC",
-      "count": 23
+      "count": 28
     },
     {
       "uf": "SP",
@@ -171,23 +170,188 @@
     {
       "uf": "PR",
       "count": 1
-    },
-    {
-      "uf": "AM",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 24
+      "count": 30
     },
     {
       "label": "expirado",
-      "count": 45
+      "count": 50
     }
   ],
   "all_alerts": [
+    {
+      "date": "21/07/2026",
+      "time": "20:12",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Deslizamentos",
+      "nivel": "Médio",
+      "uf": "RS",
+      "location": "Portão/RS",
+      "headline": "Defesa Civil:Alerta AMARELO : Risco MODERADO p/ deslizamentos pontuais em Portao. Evite areas de risco. Val por 24h. Emerg 190/193.",
+      "status": "vigente",
+      "onset": "2026-07-21T20:12:43-03:00",
+      "expires": "2026-07-22T20:10:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "20:11",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Deslizamentos",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "Jacinto Machado/SC",
+      "headline": "Defesa Civil:ATENCAO - 21/07 20:08 - DESLIZAMENTOS para o municipio de Jacinto Machado. Ocorrencias ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-21T20:11:09-03:00",
+      "expires": "2026-07-22T20:10:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "20:04",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 21/07 20:02 - TEMPORAIS ISOLADOS de RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 6 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-21T20:04:31-03:00",
+      "expires": "2026-07-22T03:05:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "19:50",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Deslizamentos",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "Ermo/SC",
+      "headline": "Defesa Civil:ATENCAO - 21/07 19:48 - DESLIZAMENTOS para o municipio de Ermo. Ocorrencias ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-21T19:50:26-03:00",
+      "expires": "2026-07-22T20:50:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "19:47",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA.Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de alagamentos e destelhamento. Val ate 22h Mantenha-se seguro",
+      "status": "vigente",
+      "onset": "2026-07-21T19:47:38-03:00",
+      "expires": "2026-07-21T22:00:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "19:38",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento. Risco ALTO de alagamentos e destelhamento. Val. ate 21h30. Mantenha-se seguro.",
+      "status": "vigente",
+      "onset": "2026-07-21T19:38:20-03:00",
+      "expires": "2026-07-21T21:30:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "19:37",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 21/07 19:36 - CHUVA PERSISTENTE de intensidade moderada a forte de RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-21T19:37:15-03:00",
+      "expires": "2026-07-21T23:35:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "19:30",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Deslizamentos",
+      "nivel": "Médio",
+      "uf": "RS",
+      "location": "Bom Princípio/RS",
+      "headline": "Defesa Civil:Alerta AMARELO : Risco MODERADO p/ deslizamentos pontuais em Bom Principio. Evite areas de risco. Val por 24h. Emerg 190/193.",
+      "status": "vigente",
+      "onset": "2026-07-21T19:30:00-03:00",
+      "expires": "2026-07-22T19:30:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "19:20",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Deslizamentos",
+      "nivel": "Médio",
+      "uf": "RS",
+      "location": "Montenegro/RS",
+      "headline": "Defesa Civil:Alerta AMARELO : Risco MODERADO p/ deslizamentos pontuais em Tres Coroas. Evite areas de risco. Val por 24h. Emerg 190/193.",
+      "status": "vigente",
+      "onset": "2026-07-21T19:20:00-03:00",
+      "expires": "2026-07-22T19:20:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "19:18",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 21/07 19:15 - TEMPORAIS de RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS as proximas 3 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-21T19:18:02-03:00",
+      "expires": "2026-07-21T22:20:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "19:04",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA p/ elevacao rio Cai. Risco ALTO com niveis elevados de Feliz a Montenegro. Val por 24h. Evite areas inundaveis. Emerg 190/193",
+      "status": "vigente",
+      "onset": "2026-07-21T19:04:55-03:00",
+      "expires": "2026-07-22T19:00:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "18:59",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA p/ elevacao rio Taquari. Risco ALTO de niveis elevados de Encantado a Taquari. Val 24h. Evite areas inundaveis. Emerg 190/193",
+      "status": "vigente",
+      "onset": "2026-07-21T18:59:24-03:00",
+      "expires": "2026-07-22T19:00:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "18:42",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 21/07 18:41 - TEMPORAL de RAIOS, RAJADAS DE VENTO e ALAGAMENTOS nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-21T18:42:51-03:00",
+      "expires": "2026-07-21T21:45:00-03:00"
+    },
     {
       "date": "21/07/2026",
       "time": "18:32",
@@ -379,7 +543,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 21/07 16:52 - TEMPORAL de RAIOS, RAJADAS DE VENTO e ALAGAMENTOS nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T16:55:06-03:00",
       "expires": "2026-07-21T19:55:00-03:00"
     },
@@ -405,7 +569,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva e vento. Risco ALTO de alagamentos e destelhamento. Val. ate 20h. Mantenha-se seguro.Emerg 190/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T16:45:00-03:00",
       "expires": "2026-07-21T20:00:00-03:00"
     },
@@ -431,7 +595,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva e vento. Risco ALTO de alagamentos e destelhamento. Val. ate 20h. Mantenha-se seguro.Emerg 190/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T16:15:00-03:00",
       "expires": "2026-07-21T20:00:00-03:00"
     },
@@ -509,7 +673,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 21/07 15:01 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 5 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T15:08:12-03:00",
       "expires": "2026-07-21T20:05:00-03:00"
     },
@@ -548,7 +712,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva volumosa e persistente. Risco ALTO de alagamentos. Val. ate 20h. Mantenha-se seguro.Emerg 190/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T14:35:00-03:00",
       "expires": "2026-07-21T20:00:00-03:00"
     },
@@ -561,7 +725,7 @@
       "uf": "RJ",
       "location": "RIO DE JANEIRO/RJ",
       "headline": "Defesa Civil:Umidade do ar pode ficar abaixo de 30 na tarde de hoje (21/07). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T14:30:31-03:00",
       "expires": "2026-07-21T19:00:00-03:00"
     },
@@ -613,7 +777,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta VERMELHO p/ chuva volumosa. Risco MUITO ALTO de alagamentos e cheias em arroios/rios pequenos. EVITE areas inundaveis.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T14:05:00-03:00",
       "expires": "2026-07-21T20:00:00-03:00"
     },
@@ -1058,48 +1222,21 @@
       "status": "expirado",
       "onset": "2026-07-20T20:19:56-03:00",
       "expires": "2026-07-21T02:20:00-03:00"
-    },
-    {
-      "date": "20/07/2026",
-      "time": "20:11",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 20/07 20:10 - TEMPORAIS ISOLADOS de intensidade moderada a forte de direção RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Araranguá, Balneário Arroio do Silva, Balneário Gaivota, Balneário Rincão, Criciúma, Ermo, Forquilhinha, Içara, Jacinto Machado, Maracajá, Meleiro, Morro Grande, Nova Veneza, Passo de Torres, Praia Grande, Santa Rosa do Sul, Sombrio, São João do Sul, Timbé do Sul e Turvo nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-20T20:11:33-03:00",
-      "expires": "2026-07-21T00:15:00-03:00"
-    },
-    {
-      "date": "20/07/2026",
-      "time": "18:53",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-07-20T18:53:46-03:00",
-      "expires": "2026-07-20T21:45:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 69,
+    "total_alerts": 80,
     "by_nivel": {
-      "Médio": 37,
-      "Alto": 30,
+      "Médio": 41,
+      "Alto": 37,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 69
+      "Google": 80
     },
     "by_region": {
-      "S": 50,
-      "SE": 18,
-      "N": 1
+      "S": 62,
+      "SE": 18
     }
   }
 }
