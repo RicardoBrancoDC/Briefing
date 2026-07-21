@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-07-20T20:18:00.015801-03:00",
-  "source_run_dir": "run_20260720_201739",
+  "generated_at": "2026-07-21T00:50:01.159606-03:00",
+  "source_run_dir": "run_20260721_004943",
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 36,
+    "vigentes": 2,
+    "ultimas24h": 38,
     "autoridadesAtivas": 6,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "20:52",
+      "date": "20/07/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "Defesa Civil:ATENCAO - 20/07 20:50 - TEMPORAIS de direcao RAIOS, RAJADAS DE VENTO e GRANIZO nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "expirado"
+    },
+    {
+      "time": "20:19",
+      "date": "20/07/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 20/07 20:18 - TEMPORAIS ISOLADOS de intensidade moderada a forte de direção RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 6 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "20:11",
       "date": "20/07/2026",
@@ -18,7 +42,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 20/07 20:10 - TEMPORAIS ISOLADOS de intensidade moderada a forte de direção RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Araranguá, Balneário Arroio do Silva, Balneário Gaivota, Balneário Rincão, Criciúma, Ermo, Forquilhinha, Içara, Jacinto Machado, Maracajá, Meleiro, Morro Grande, Nova Veneza, Passo de Torres, Praia Grande, Santa Rosa do Sul, Sombrio, São João do Sul, Timbé do Sul e Turvo nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "18:53",
@@ -30,7 +54,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:43",
@@ -42,34 +66,15 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "17:39",
-      "date": "20/07/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "location": "RIO GRANDE DO SUL/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:RS:Alerta LARANJA . Condicao de ALERTA p/ tempestade c/ vento e granizo.Risco ALTO de alagamentos e destelhamento. Val ate 19h.Mantenha-se seguro",
       "status": "expirado"
-    },
-    {
-      "time": "17:28",
-      "date": "20/07/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 20/07 17:26 - TEMPORAIS ISOLADOS de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 11
+    },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
@@ -79,11 +84,6 @@
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
       "count": 10
-    },
-    {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 9
     },
     {
       "name": "Defesa Civil Nacional",
@@ -104,11 +104,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 20
+      "count": 21
     },
     {
       "label": "Alto",
-      "count": 16
+      "count": 17
     }
   ],
   "event_distribution": [
@@ -117,12 +117,12 @@
       "count": 13
     },
     {
-      "label": "Granizo",
-      "count": 10
+      "label": "Chuvas Intensas",
+      "count": 11
     },
     {
-      "label": "Chuvas Intensas",
-      "count": 9
+      "label": "Granizo",
+      "count": 10
     },
     {
       "label": "Vendaval",
@@ -131,12 +131,12 @@
   ],
   "uf_distribution": [
     {
-      "uf": "RS",
-      "count": 11
+      "uf": "SC",
+      "count": 12
     },
     {
-      "uf": "SC",
-      "count": 10
+      "uf": "RS",
+      "count": 11
     },
     {
       "uf": "SP",
@@ -154,14 +154,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 2
     },
     {
       "label": "expirado",
-      "count": 30
+      "count": 36
     }
   ],
   "all_alerts": [
+    {
+      "date": "20/07/2026",
+      "time": "20:52",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 20/07 20:50 - TEMPORAIS de direcao RAIOS, RAJADAS DE VENTO e GRANIZO nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "expirado",
+      "onset": "2026-07-20T20:52:43-03:00",
+      "expires": "2026-07-20T23:55:00-03:00"
+    },
+    {
+      "date": "20/07/2026",
+      "time": "20:19",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 20/07 20:18 - TEMPORAIS ISOLADOS de intensidade moderada a forte de direção RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 6 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-20T20:19:56-03:00",
+      "expires": "2026-07-21T02:20:00-03:00"
+    },
     {
       "date": "20/07/2026",
       "time": "20:11",
@@ -171,7 +197,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 20/07 20:10 - TEMPORAIS ISOLADOS de intensidade moderada a forte de direção RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Araranguá, Balneário Arroio do Silva, Balneário Gaivota, Balneário Rincão, Criciúma, Ermo, Forquilhinha, Içara, Jacinto Machado, Maracajá, Meleiro, Morro Grande, Nova Veneza, Passo de Torres, Praia Grande, Santa Rosa do Sul, Sombrio, São João do Sul, Timbé do Sul e Turvo nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-20T20:11:33-03:00",
       "expires": "2026-07-21T00:15:00-03:00"
     },
@@ -184,7 +210,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-20T18:53:46-03:00",
       "expires": "2026-07-20T21:45:00-03:00"
     },
@@ -197,7 +223,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-20T17:43:02-03:00",
       "expires": "2026-07-20T20:20:00-03:00"
     },
@@ -223,7 +249,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 20/07 17:26 - TEMPORAIS ISOLADOS de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-20T17:28:48-03:00",
       "expires": "2026-07-20T20:30:00-03:00"
     },
@@ -340,7 +366,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Observação Meteorológica SDC/SC 20/07 10:00 ¿ Temporais e chuva intensa nesta segunda (20). Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-20T15:00:00-03:00",
       "expires": "2026-07-20T22:00:00-03:00"
     },
@@ -632,16 +658,16 @@
     }
   ],
   "summary": {
-    "total_alerts": 36,
+    "total_alerts": 38,
     "by_nivel": {
-      "Médio": 20,
-      "Alto": 16
+      "Médio": 21,
+      "Alto": 17
     },
     "by_channel_list": {
-      "Google": 36
+      "Google": 38
     },
     "by_region": {
-      "S": 21,
+      "S": 23,
       "SE": 13,
       "N": 2
     }
