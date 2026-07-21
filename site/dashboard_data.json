@@ -1,15 +1,27 @@
 {
-  "generated_at": "2026-07-21T16:55:32.055343-03:00",
-  "source_run_dir": "run_20260721_165511",
+  "generated_at": "2026-07-21T18:35:54.405534-03:00",
+  "source_run_dir": "run_20260721_183536",
   "cards": {
-    "vigentes": 28,
-    "ultimas24h": 57,
-    "autoridadesAtivas": 7,
+    "vigentes": 24,
+    "ultimas24h": 69,
+    "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "16:45",
+      "time": "18:32",
+      "date": "21/07/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 21/07 18:30 - TEMPORAIS ISOLADOS de RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "18:30",
       "date": "21/07/2026",
       "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
       "senderNameShort": "DC Rio Grande do Sul",
@@ -17,55 +29,43 @@
       "nivel": "Alto",
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva e vento. Risco ALTO de alagamentos e destelhamento. Val. ate 20h. Mantenha-se seguro.Emerg 190/193",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento. Risco ALTO de alagamentos e destelhamento. Val. ate 21h. Mantenha-se seguro.",
       "status": "vigente"
     },
     {
-      "time": "16:40",
+      "time": "18:25",
+      "date": "21/07/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva persistente. Risco ALTO de alagamentos. Val. ate 23h. Mantenha-se seguro. Emerg. 190/193",
+      "status": "vigente"
+    },
+    {
+      "time": "18:20",
       "date": "21/07/2026",
       "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
       "senderNameShort": "DC Rio Grande do Sul",
       "event": "Deslizamentos",
       "nivel": "Médio",
-      "location": "Caxias do Sul/RS",
+      "location": "Três Coroas/RS",
       "uf": "RS",
-      "headline": "Defesa Civil:Alerta AMARELO: Risco MODERADO p/ deslizamentos pontuais em Caxias do Sul. Evite areas de risco. Val por 24h. Emerg 190/193.",
+      "headline": "Defesa Civil:Risco MODERADO p/ deslizamentos pontuais em Tres Coroas. Evite areas de risco. Val por 24h. Emerg 190/193.",
       "status": "vigente"
     },
     {
-      "time": "16:15",
+      "time": "18:05",
       "date": "21/07/2026",
       "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
       "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "location": "RIO GRANDE DO SUL/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva e vento. Risco ALTO de alagamentos e destelhamento. Val. ate 20h. Mantenha-se seguro.Emerg 190/193",
-      "status": "vigente"
-    },
-    {
-      "time": "16:05",
-      "date": "21/07/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Baixa Umidade Do Ar",
+      "event": "Deslizamentos",
       "nivel": "Médio",
-      "location": "Itápolis/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:16:01-UMIDADE DO AR EM ITAPOLIS CHEGA A 30,5 . HIDRATAR-SE BEM E EVITAR SOL MUITO FORTE.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:30",
-      "date": "21/07/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "RIO GRANDE DO SUL/RS",
+      "location": "Novo Hamburgo/RS",
       "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO p/ chuva volumosa. Risco MUITO ALTO de alagamentos e cheias em arroios/rios pequenos. EVITE areas inundaveis. Emerg. 190/193.",
+      "headline": "Defesa Civil:Risco MODERADO p/ deslizamentos pontuais em Novo Hamburgo. Evite areas de risco. Val por 24h. Emerg 190/193.",
       "status": "vigente"
     }
   ],
@@ -73,12 +73,12 @@
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 19
+      "count": 26
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 19
+      "count": 22
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -88,32 +88,37 @@
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 3
-    },
-    {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 2
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual do Rio de Janeiro",
       "short_name": "DC Rio de Janeiro",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil de Blumenau (SC)",
+      "short_name": "DC Blumenau (SC)",
       "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
       "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 27
+      "count": 37
     },
     {
       "label": "Alto",
-      "count": 28
+      "count": 30
     },
     {
       "label": "Severo",
@@ -123,33 +128,33 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 28
+      "count": 32
     },
     {
       "label": "Baixa Umidade Do Ar",
       "count": 16
     },
     {
-      "label": "Granizo",
+      "label": "Deslizamentos",
       "count": 8
     },
     {
       "label": "Vendaval",
-      "count": 4
+      "count": 7
     },
     {
-      "label": "Deslizamentos",
-      "count": 1
+      "label": "Granizo",
+      "count": 6
     }
   ],
   "uf_distribution": [
     {
       "uf": "RS",
-      "count": 19
+      "count": 26
     },
     {
       "uf": "SC",
-      "count": 19
+      "count": 23
     },
     {
       "uf": "SP",
@@ -157,11 +162,7 @@
     },
     {
       "uf": "RJ",
-      "count": 2
-    },
-    {
-      "uf": "AM",
-      "count": 2
+      "count": 4
     },
     {
       "uf": "MG",
@@ -170,19 +171,231 @@
     {
       "uf": "PR",
       "count": 1
+    },
+    {
+      "uf": "AM",
+      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 28
+      "count": 24
     },
     {
       "label": "expirado",
-      "count": 29
+      "count": 45
     }
   ],
   "all_alerts": [
+    {
+      "date": "21/07/2026",
+      "time": "18:32",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 21/07 18:30 - TEMPORAIS ISOLADOS de RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-21T18:32:44-03:00",
+      "expires": "2026-07-21T22:30:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "18:30",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento. Risco ALTO de alagamentos e destelhamento. Val. ate 21h. Mantenha-se seguro.",
+      "status": "vigente",
+      "onset": "2026-07-21T18:30:00-03:00",
+      "expires": "2026-07-21T21:00:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "18:25",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva persistente. Risco ALTO de alagamentos. Val. ate 23h. Mantenha-se seguro. Emerg. 190/193",
+      "status": "vigente",
+      "onset": "2026-07-21T18:25:00-03:00",
+      "expires": "2026-07-21T23:00:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "18:20",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Deslizamentos",
+      "nivel": "Médio",
+      "uf": "RS",
+      "location": "Três Coroas/RS",
+      "headline": "Defesa Civil:Risco MODERADO p/ deslizamentos pontuais em Tres Coroas. Evite areas de risco. Val por 24h. Emerg 190/193.",
+      "status": "vigente",
+      "onset": "2026-07-21T18:20:00-03:00",
+      "expires": "2026-07-22T18:20:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "18:05",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Deslizamentos",
+      "nivel": "Médio",
+      "uf": "RS",
+      "location": "Novo Hamburgo/RS",
+      "headline": "Defesa Civil:Risco MODERADO p/ deslizamentos pontuais em Novo Hamburgo. Evite areas de risco. Val por 24h. Emerg 190/193.",
+      "status": "vigente",
+      "onset": "2026-07-21T18:05:00-03:00",
+      "expires": "2026-07-22T18:05:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "18:00",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:Atencao Meteorologica SDC/SC 20/07 10:00 ¿ Temporais e chuva intensa entre a terca(21) e a quarta(22). Ocorrencias ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-21T18:00:00-03:00",
+      "expires": "2026-07-22T18:00:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "18:00",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Observação Meteorológica SDC/SC 20/07 10:00 ¿ Temporais e chuva intensa entre a terça(21) e a quarta(22). Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-21T18:00:00-03:00",
+      "expires": "2026-07-22T18:00:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "18:00",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "Blumenau/SC",
+      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas isoladas de chuva c/ trovoadas a partir do final da madrugada (22/07) em Blumenau. Fique atento! Emerg 199/193.",
+      "status": "vigente",
+      "onset": "2026-07-21T18:00:00-03:00",
+      "expires": "2026-07-22T12:00:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "17:57",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Petrópolis/RJ",
+      "headline": "Defesa Civil:Previsao de ventos moderados a fortes a partir da noite de terca-feira em Petropolis. Emergencia 199. 21/07 18:00h",
+      "status": "vigente",
+      "onset": "2026-07-21T17:57:52-03:00",
+      "expires": "2026-07-23T18:00:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "17:45",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Deslizamentos",
+      "nivel": "Médio",
+      "uf": "RS",
+      "location": "São Sebastião do Caí/RS",
+      "headline": "Defesa Civil:Risco MODERADO p/ deslizamentos pontuais em Sao Sebastiao do Cai. Evite areas de risco. Val por 24h. Emerg 190/193.",
+      "status": "vigente",
+      "onset": "2026-07-21T17:45:00-03:00",
+      "expires": "2026-07-22T17:45:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "17:25",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Deslizamentos",
+      "nivel": "Médio",
+      "uf": "RS",
+      "location": "Lajeado/RS",
+      "headline": "Defesa Civil:Risco MODERADO p/ deslizamentos pontuais em Lajeado. Evite areas de risco. Val por 24h. Emerg 190/193.",
+      "status": "vigente",
+      "onset": "2026-07-21T17:25:00-03:00",
+      "expires": "2026-07-22T17:25:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "17:20",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Deslizamentos",
+      "nivel": "Médio",
+      "uf": "RS",
+      "location": "Rolante/RS",
+      "headline": "Defesa Civil:Risco MODERADO p/ deslizamentos pontuais em Rolante. Evite areas de risco. Val por 24h. Emerg 190/193.",
+      "status": "vigente",
+      "onset": "2026-07-21T17:20:00-03:00",
+      "expires": "2026-07-22T17:20:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "17:12",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "RIO DE JANEIRO/RJ",
+      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje (21/07). Emergencia, ligue 193 ou 199.",
+      "status": "vigente",
+      "onset": "2026-07-21T17:12:38-03:00",
+      "expires": "2026-07-22T00:00:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "17:10",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Deslizamentos",
+      "nivel": "Médio",
+      "uf": "RS",
+      "location": "Gramado/RS",
+      "headline": "Defesa Civil:Risco MODERADO p/ deslizamentos pontuais em Gramado. Evite areas de risco. Val por 24h. Emerg 190/193.",
+      "status": "expirado",
+      "onset": "2026-07-21T17:10:00-03:00",
+      "expires": "2026-07-21T17:10:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "16:55",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 21/07 16:52 - TEMPORAL de RAIOS, RAJADAS DE VENTO e ALAGAMENTOS nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-21T16:55:06-03:00",
+      "expires": "2026-07-21T19:55:00-03:00"
+    },
+    {
+      "date": "21/07/2026",
+      "time": "16:50",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Deslizamentos",
+      "nivel": "Médio",
+      "uf": "RS",
+      "location": "Santa Cruz do Sul/RS",
+      "headline": "Defesa Civil:Risco MODERADO p/ deslizamentos pontuais emSanta Cruz do Sul. Evite areas de risco. Val por 24h. Emerg 190/193.",
+      "status": "expirado",
+      "onset": "2026-07-21T16:50:00-03:00",
+      "expires": "2026-07-21T17:00:00-03:00"
+    },
     {
       "date": "21/07/2026",
       "time": "16:45",
@@ -257,7 +470,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 21/07 15:25 - TEMPORAIS de direcao RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T15:26:52-03:00",
       "expires": "2026-07-21T18:25:00-03:00"
     },
@@ -270,7 +483,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 21/07 15:20 - TEMPORAIS ISOLADOS de direção RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Sul e Litoral Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T15:23:22-03:00",
       "expires": "2026-07-21T18:25:00-03:00"
     },
@@ -283,7 +496,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva e vento. Risco ALTO de alagamentos e destelhamento. Val. ate 18h. Mantenha-se seguro.Emerg 190/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T15:20:00-03:00",
       "expires": "2026-07-21T18:00:00-03:00"
     },
@@ -309,7 +522,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva e vento. Risco ALTO de alagamentos e destelhamento. Val. ate 18h. Mantenha-se seguro.Emerg 190/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T14:50:00-03:00",
       "expires": "2026-07-21T18:00:00-03:00"
     },
@@ -322,7 +535,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva volumosa e persistente. Risco ALTO de alagamentos. Val. ate 18h. Mantenha-se seguro.Emerg 190/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T14:40:00-03:00",
       "expires": "2026-07-21T18:00:00-03:00"
     },
@@ -361,7 +574,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h10 Umidade do ar abaixo de 30 em Presidente Prudente e Tupa. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T14:19:39-03:00",
       "expires": "2026-07-21T17:00:00-03:00"
     },
@@ -374,7 +587,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h10 Umidade do ar abaixo de 30 em Aracatuba. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T14:17:12-03:00",
       "expires": "2026-07-21T17:00:00-03:00"
     },
@@ -387,7 +600,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h10 Umidade do ar abaixo de 30 em Sao Paulo. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T14:13:29-03:00",
       "expires": "2026-07-21T17:00:00-03:00"
     },
@@ -413,7 +626,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 em C. Paulista e Guaratingueta. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T13:34:01-03:00",
       "expires": "2026-07-21T17:00:00-03:00"
     },
@@ -426,7 +639,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 em Itapira e Mogi Guacu. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T13:26:47-03:00",
       "expires": "2026-07-21T17:00:00-03:00"
     },
@@ -439,7 +652,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 em Ibitinga e Barra Bonita. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T13:24:12-03:00",
       "expires": "2026-07-21T17:00:00-03:00"
     },
@@ -452,7 +665,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 em Jales e Jose Bonifacio. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T13:20:53-03:00",
       "expires": "2026-07-21T17:00:00-03:00"
     },
@@ -465,7 +678,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 em Sao Jose do Rio Preto. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T13:18:39-03:00",
       "expires": "2026-07-21T17:00:00-03:00"
     },
@@ -478,7 +691,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 em Casa Branca. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T13:16:10-03:00",
       "expires": "2026-07-21T17:00:00-03:00"
     },
@@ -491,7 +704,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 em Ribeirao Preto e Pradopolis. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T13:13:53-03:00",
       "expires": "2026-07-21T17:00:00-03:00"
     },
@@ -504,7 +717,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 em Barretos e Bebedouro. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T13:10:43-03:00",
       "expires": "2026-07-21T17:00:00-03:00"
     },
@@ -517,7 +730,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 em Ituverava e Franca. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T13:08:08-03:00",
       "expires": "2026-07-21T17:00:00-03:00"
     },
@@ -543,7 +756,7 @@
       "uf": "RJ",
       "location": "Mangaratiba/RJ",
       "headline": "Defesa Civil:MANGARATIBA -RJ. UMIDADE DO AR PODE FICAR ABAIXO DE 30  NA TARDE DE HOJE(21/07). EVITE EXERCICIOS FISICOS AO AR LIVRE A TARDE E HIDRATAR-SE.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T12:00:00-03:00",
       "expires": "2026-07-21T18:00:00-03:00"
     },
@@ -871,74 +1084,22 @@
       "status": "expirado",
       "onset": "2026-07-20T18:53:46-03:00",
       "expires": "2026-07-20T21:45:00-03:00"
-    },
-    {
-      "date": "20/07/2026",
-      "time": "17:43",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-07-20T17:43:02-03:00",
-      "expires": "2026-07-20T20:20:00-03:00"
-    },
-    {
-      "date": "20/07/2026",
-      "time": "17:39",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS:Alerta LARANJA . Condicao de ALERTA p/ tempestade c/ vento e granizo.Risco ALTO de alagamentos e destelhamento. Val ate 19h.Mantenha-se seguro",
-      "status": "expirado",
-      "onset": "2026-07-20T17:39:48-03:00",
-      "expires": "2026-07-20T19:00:00-03:00"
-    },
-    {
-      "date": "20/07/2026",
-      "time": "17:28",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 20/07 17:26 - TEMPORAIS ISOLADOS de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-20T17:28:48-03:00",
-      "expires": "2026-07-20T20:30:00-03:00"
-    },
-    {
-      "date": "20/07/2026",
-      "time": "17:13",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS:Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo.Risco ALTO de alagamentos e destelhamento. Val ate 19h.Mantenha-se seguro",
-      "status": "expirado",
-      "onset": "2026-07-20T17:13:38-03:00",
-      "expires": "2026-07-20T19:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 57,
+    "total_alerts": 69,
     "by_nivel": {
-      "Alto": 28,
-      "Médio": 27,
+      "Médio": 37,
+      "Alto": 30,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 57
+      "Google": 69
     },
     "by_region": {
-      "S": 39,
-      "SE": 16,
-      "N": 2
+      "S": 50,
+      "SE": 18,
+      "N": 1
     }
   }
 }
