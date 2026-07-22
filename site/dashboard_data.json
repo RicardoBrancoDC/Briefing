@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-07-22T18:33:09.612010-03:00",
-  "source_run_dir": "run_20260722_183244",
+  "generated_at": "2026-07-22T20:18:27.102469-03:00",
+  "source_run_dir": "run_20260722_201802",
   "cards": {
-    "vigentes": 61,
-    "ultimas24h": 137,
+    "vigentes": 50,
+    "ultimas24h": 124,
     "autoridadesAtivas": 8,
     "alertasExtremos": 8
   },
   "latest_alerts": [
+    {
+      "time": "18:38",
+      "date": "22/07/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "location": "Altônia/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:Risco de Alagamentos em Altonia e mun. vizinhos. Monitore. Em caso de perigo, deixe o local imediatamente. Ligue 199/193.",
+      "status": "vigente"
+    },
     {
       "time": "17:57",
       "date": "22/07/2026",
@@ -55,35 +67,23 @@
       "uf": "PR",
       "headline": "Defesa Civil:Risco de Inundacoes em General Carneiro e mun. vizinhos. Monitore. Em caso de perigo, deixe o local imediatamente. Ligue 199/193.",
       "status": "vigente"
-    },
-    {
-      "time": "17:07",
-      "date": "22/07/2026",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "senderNameShort": "DC Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PERNAMBUCO/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:PE: RMR - ALERTA DE CHUVA COM INTENSIDADE MODERADA, pontualmente FORTE para as proximas 24h. Emergencia ligar 193 e 199.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
+      "count": 37
+    },
+    {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 43
+      "count": 36
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 39
-    },
-    {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
-      "count": 36
+      "count": 32
     },
     {
       "name": "Defesa Civil Nacional",
@@ -114,11 +114,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 47
+      "count": 41
     },
     {
       "label": "Alto",
-      "count": 74
+      "count": 67
     },
     {
       "label": "Severo",
@@ -132,19 +132,19 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 62
+      "count": 57
     },
     {
       "label": "Deslizamentos",
-      "count": 29
+      "count": 24
     },
     {
       "label": "Inundações",
-      "count": 18
+      "count": 16
     },
     {
       "label": "Alagamentos",
-      "count": 12
+      "count": 13
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -152,25 +152,25 @@
     },
     {
       "label": "Vendaval",
-      "count": 4
+      "count": 3
     },
     {
       "label": "Outros",
-      "count": 4
+      "count": 3
     }
   ],
   "uf_distribution": [
     {
       "uf": "SC",
-      "count": 46
-    },
-    {
-      "uf": "RS",
       "count": 39
     },
     {
       "uf": "PR",
-      "count": 36
+      "count": 37
+    },
+    {
+      "uf": "RS",
+      "count": 32
     },
     {
       "uf": "RJ",
@@ -188,14 +188,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 61
+      "count": 50
     },
     {
       "label": "expirado",
-      "count": 76
+      "count": 74
     }
   ],
   "all_alerts": [
+    {
+      "date": "22/07/2026",
+      "time": "18:38",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "Altônia/PR",
+      "headline": "Defesa Civil:Risco de Alagamentos em Altonia e mun. vizinhos. Monitore. Em caso de perigo, deixe o local imediatamente. Ligue 199/193.",
+      "status": "vigente",
+      "onset": "2026-07-22T18:38:55-03:00",
+      "expires": "2026-07-23T00:35:00-03:00"
+    },
     {
       "date": "22/07/2026",
       "time": "17:57",
@@ -348,7 +361,7 @@
       "uf": "PR",
       "location": "Toledo/PR",
       "headline": "Defesa Civil:Risco de Alagamentos em Toledo e mun. vizinhos. Monitore. Em caso de perigo, deixe o local imediatamente. Ligue 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-22T14:08:23-03:00",
       "expires": "2026-07-22T20:05:00-03:00"
     },
@@ -400,7 +413,7 @@
       "uf": "PR",
       "location": "Cascavel/PR, Pitanga/PR",
       "headline": "Defesa Civil:Risco de Alagamentos em Cascavel, Pitanga e mun. vizinhos. Monitore. Em caso de perigo, deixe o local imediatamente. Ligue 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-22T13:43:37-03:00",
       "expires": "2026-07-22T19:40:00-03:00"
     },
@@ -439,7 +452,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:Risco de Alagamentos em sua regiao e mun. vizinhos. Monitore. Em caso de perigo, deixe o local imediatamente. Ligue 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-22T12:48:12-03:00",
       "expires": "2026-07-22T18:45:00-03:00"
     },
@@ -582,7 +595,7 @@
       "uf": "RJ",
       "location": "Paraty/RJ, Nilópolis/RJ",
       "headline": "Defesa Civil:Umidade do ar pode ficar abaixo de 30 na tarde de hoje (22/07). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-22T11:23:30-03:00",
       "expires": "2026-07-22T20:00:00-03:00"
     },
@@ -1739,7 +1752,7 @@
       "uf": "RS",
       "location": "São Leopoldo/RS",
       "headline": "Defesa Civil:Alerta AMARELO : Risco MODERADO p/ deslizamentos pontuais em Sao Leopoldo. Evite areas de risco. Val por 24h. Emerg 190/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-21T20:57:36-03:00",
       "expires": "2026-07-22T19:00:00-03:00"
     },
@@ -1794,203 +1807,21 @@
       "status": "expirado",
       "onset": "2026-07-21T20:23:42-03:00",
       "expires": "2026-07-22T00:25:00-03:00"
-    },
-    {
-      "date": "21/07/2026",
-      "time": "20:16",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 21/07 20:14 - CHUVA PERSISTENTE de intensidade moderada a forte de RAIOS, RAJADAS DE VENTO e GRANIZO nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-21T20:16:04-03:00",
-      "expires": "2026-07-22T00:15:00-03:00"
-    },
-    {
-      "date": "21/07/2026",
-      "time": "20:12",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Deslizamentos",
-      "nivel": "Médio",
-      "uf": "RS",
-      "location": "Portão/RS",
-      "headline": "Defesa Civil:Alerta AMARELO : Risco MODERADO p/ deslizamentos pontuais em Portao. Evite areas de risco. Val por 24h. Emerg 190/193.",
-      "status": "vigente",
-      "onset": "2026-07-21T20:12:43-03:00",
-      "expires": "2026-07-22T20:10:00-03:00"
-    },
-    {
-      "date": "21/07/2026",
-      "time": "20:11",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Deslizamentos",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "Jacinto Machado/SC",
-      "headline": "Defesa Civil:ATENCAO - 21/07 20:08 - DESLIZAMENTOS para o municipio de Jacinto Machado. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-07-21T20:11:09-03:00",
-      "expires": "2026-07-22T20:10:00-03:00"
-    },
-    {
-      "date": "21/07/2026",
-      "time": "20:04",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 21/07 20:02 - TEMPORAIS ISOLADOS de RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 6 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-21T20:04:31-03:00",
-      "expires": "2026-07-22T03:05:00-03:00"
-    },
-    {
-      "date": "21/07/2026",
-      "time": "19:50",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Deslizamentos",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "Ermo/SC",
-      "headline": "Defesa Civil:ATENCAO - 21/07 19:48 - DESLIZAMENTOS para o municipio de Ermo. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-07-21T19:50:26-03:00",
-      "expires": "2026-07-22T20:50:00-03:00"
-    },
-    {
-      "date": "21/07/2026",
-      "time": "19:47",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA.Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de alagamentos e destelhamento. Val ate 22h Mantenha-se seguro",
-      "status": "expirado",
-      "onset": "2026-07-21T19:47:38-03:00",
-      "expires": "2026-07-21T22:00:00-03:00"
-    },
-    {
-      "date": "21/07/2026",
-      "time": "19:38",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento. Risco ALTO de alagamentos e destelhamento. Val. ate 21h30. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-07-21T19:38:20-03:00",
-      "expires": "2026-07-21T21:30:00-03:00"
-    },
-    {
-      "date": "21/07/2026",
-      "time": "19:37",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 21/07 19:36 - CHUVA PERSISTENTE de intensidade moderada a forte de RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-21T19:37:15-03:00",
-      "expires": "2026-07-21T23:35:00-03:00"
-    },
-    {
-      "date": "21/07/2026",
-      "time": "19:30",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Deslizamentos",
-      "nivel": "Médio",
-      "uf": "RS",
-      "location": "Bom Princípio/RS",
-      "headline": "Defesa Civil:Alerta AMARELO : Risco MODERADO p/ deslizamentos pontuais em Bom Principio. Evite areas de risco. Val por 24h. Emerg 190/193.",
-      "status": "vigente",
-      "onset": "2026-07-21T19:30:00-03:00",
-      "expires": "2026-07-22T19:30:00-03:00"
-    },
-    {
-      "date": "21/07/2026",
-      "time": "19:20",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Deslizamentos",
-      "nivel": "Médio",
-      "uf": "RS",
-      "location": "Montenegro/RS",
-      "headline": "Defesa Civil:Alerta AMARELO : Risco MODERADO p/ deslizamentos pontuais em Tres Coroas. Evite areas de risco. Val por 24h. Emerg 190/193.",
-      "status": "vigente",
-      "onset": "2026-07-21T19:20:00-03:00",
-      "expires": "2026-07-22T19:20:00-03:00"
-    },
-    {
-      "date": "21/07/2026",
-      "time": "19:18",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 21/07 19:15 - TEMPORAIS de RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS as proximas 3 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-21T19:18:02-03:00",
-      "expires": "2026-07-21T22:20:00-03:00"
-    },
-    {
-      "date": "21/07/2026",
-      "time": "19:04",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA p/ elevacao rio Cai. Risco ALTO com niveis elevados de Feliz a Montenegro. Val por 24h. Evite areas inundaveis. Emerg 190/193",
-      "status": "vigente",
-      "onset": "2026-07-21T19:04:55-03:00",
-      "expires": "2026-07-22T19:00:00-03:00"
-    },
-    {
-      "date": "21/07/2026",
-      "time": "18:59",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA p/ elevacao rio Taquari. Risco ALTO de niveis elevados de Encantado a Taquari. Val 24h. Evite areas inundaveis. Emerg 190/193",
-      "status": "vigente",
-      "onset": "2026-07-21T18:59:24-03:00",
-      "expires": "2026-07-22T19:00:00-03:00"
-    },
-    {
-      "date": "21/07/2026",
-      "time": "18:42",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 21/07 18:41 - TEMPORAL de RAIOS, RAJADAS DE VENTO e ALAGAMENTOS nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-21T18:42:51-03:00",
-      "expires": "2026-07-21T21:45:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 137,
+    "total_alerts": 124,
     "by_nivel": {
-      "Alto": 74,
-      "Médio": 47,
+      "Alto": 67,
+      "Médio": 41,
       "Extremo": 8,
       "Severo": 8
     },
     "by_channel_list": {
-      "Google": 137
+      "Google": 124
     },
     "by_region": {
-      "S": 121,
+      "S": 108,
       "SE": 12,
       "NE": 4
     }
