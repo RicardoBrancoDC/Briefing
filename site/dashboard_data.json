@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-07-23T18:31:17.959845-03:00",
-  "source_run_dir": "run_20260723_183059",
+  "generated_at": "2026-07-23T20:14:40.427376-03:00",
+  "source_run_dir": "run_20260723_201425",
   "cards": {
-    "vigentes": 23,
-    "ultimas24h": 31,
+    "vigentes": 22,
+    "ultimas24h": 32,
     "autoridadesAtivas": 7,
-    "alertasExtremos": 1
+    "alertasExtremos": 2
   },
   "latest_alerts": [
+    {
+      "time": "20:00",
+      "date": "23/07/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Extremo",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Jacui. Risco MUITO ALTO de General Camara a Charqueadas. Val. por 24h. Evite areas inundaveis. Emerg 190/193",
+      "status": "vigente"
+    },
+    {
+      "time": "19:18",
+      "date": "23/07/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:19h10 Chuva avancando na regiao de Platina e Assis. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidade nas proximas horas.",
+      "status": "vigente"
+    },
     {
       "time": "18:00",
       "date": "23/07/2026",
@@ -43,30 +67,6 @@
       "uf": "PE",
       "headline": "Defesa Civil:ALERTA DE CHUVA MODERADA E PONTUALMENTE FORTE da noite de hoje (23/07) e ao longo da sexta-feira (24/07). Busque abrigo e evite areas alagadas.",
       "status": "vigente"
-    },
-    {
-      "time": "17:10",
-      "date": "23/07/2026",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "senderNameShort": "DC Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PERNAMBUCO/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:Defesa Civil PE: MATA NORTE. Previsao de CHUVA MODERADA nas prox  24h. Fique atento as orientacoes da Defesa Civil. Emergencia: ligue 193 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "17:08",
-      "date": "23/07/2026",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "senderNameShort": "DC Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PERNAMBUCO/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:RMR. Previsao de CHUVA MODERADA a FORTE nasproximas 24h. Fique atento as orientacoes da Defesa Civil.Emergencia: ligue 193ou 199.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -76,9 +76,14 @@
       "count": 12
     },
     {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 5
+    },
+    {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Defesa Civil Nacional",
@@ -86,14 +91,9 @@
       "count": 5
     },
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 4
-    },
-    {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -109,11 +109,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 19
+      "count": 20
     },
     {
       "label": "Alto",
-      "count": 8
+      "count": 7
     },
     {
       "label": "Severo",
@@ -121,17 +121,17 @@
     },
     {
       "label": "Extremo",
-      "count": 1
+      "count": 2
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 16
+      "count": 17
     },
     {
       "label": "Inundações",
-      "count": 9
+      "count": 10
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -144,10 +144,6 @@
     {
       "label": "Marés De Tempestade (Ressacas)",
       "count": 1
-    },
-    {
-      "label": "Alagamentos",
-      "count": 1
     }
   ],
   "uf_distribution": [
@@ -156,16 +152,16 @@
       "count": 16
     },
     {
-      "uf": "PR",
-      "count": 6
+      "uf": "SP",
+      "count": 5
     },
     {
-      "uf": "SP",
-      "count": 4
+      "uf": "PR",
+      "count": 5
     },
     {
       "uf": "RS",
-      "count": 2
+      "count": 3
     },
     {
       "uf": "MS",
@@ -183,14 +179,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 23
+      "count": 22
     },
     {
       "label": "expirado",
-      "count": 8
+      "count": 10
     }
   ],
   "all_alerts": [
+    {
+      "date": "23/07/2026",
+      "time": "20:00",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Extremo",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Jacui. Risco MUITO ALTO de General Camara a Charqueadas. Val. por 24h. Evite areas inundaveis. Emerg 190/193",
+      "status": "vigente",
+      "onset": "2026-07-23T20:00:00-03:00",
+      "expires": "2026-07-24T20:00:00-03:00"
+    },
+    {
+      "date": "23/07/2026",
+      "time": "19:18",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:19h10 Chuva avancando na regiao de Platina e Assis. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidade nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-07-23T19:18:12-03:00",
+      "expires": "2026-07-23T21:00:00-03:00"
+    },
     {
       "date": "23/07/2026",
       "time": "18:00",
@@ -291,7 +313,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-23T16:32:58-03:00",
       "expires": "2026-07-23T19:30:00-03:00"
     },
@@ -317,7 +339,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-23T15:54:40-03:00",
       "expires": "2026-07-23T18:55:00-03:00"
     },
@@ -382,7 +404,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13:00 - Baixa Umidade Relativa do Ar na regiao de Franca. Hidrate-se bebendo bastante agua. Nao se exponha ao Sol.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-23T13:03:56-03:00",
       "expires": "2026-07-23T19:00:00-03:00"
     },
@@ -580,36 +602,23 @@
       "status": "expirado",
       "onset": "2026-07-22T21:46:09-03:00",
       "expires": "2026-07-23T03:45:00-03:00"
-    },
-    {
-      "date": "22/07/2026",
-      "time": "18:38",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Alagamentos",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "Altônia/PR",
-      "headline": "Defesa Civil:Risco de Alagamentos em Altonia e mun. vizinhos. Monitore. Em caso de perigo, deixe o local imediatamente. Ligue 199/193.",
-      "status": "expirado",
-      "onset": "2026-07-22T18:38:55-03:00",
-      "expires": "2026-07-23T00:35:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 31,
+    "total_alerts": 32,
     "by_nivel": {
-      "Médio": 19,
-      "Alto": 8,
+      "Médio": 20,
+      "Alto": 7,
       "Severo": 3,
-      "Extremo": 1
+      "Extremo": 2
     },
     "by_channel_list": {
-      "Google": 31
+      "Google": 32
     },
     "by_region": {
       "NE": 16,
       "S": 9,
-      "SE": 4,
+      "SE": 5,
       "CO": 1,
       "N": 1
     }

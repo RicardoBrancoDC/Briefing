@@ -1,18 +1,64 @@
 {
-  "generated_at": "2026-07-23T18:31:18.027138-03:00",
+  "generated_at": "2026-07-23T20:14:40.473137-03:00",
   "source": ".cache/historico_alertas.json",
   "window_hours": 24,
   "cards": {
-    "vigentes": 23,
-    "ultimas24h": 31,
+    "vigentes": 22,
+    "ultimas24h": 32,
     "autoridadesAtivas": 7,
-    "alertasExtremos": 1,
+    "alertasExtremos": 2,
     "alertasSeveros": 3,
-    "alertasSeverosExtremos": 4,
+    "alertasSeverosExtremos": 5,
     "estadosComAlerta": 7,
-    "municipiosOuAreasComAlerta": 17
+    "municipiosOuAreasComAlerta": 16
   },
   "latest_alerts": [
+    {
+      "time": "20:00",
+      "date": "23/07/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Extremo",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Jacui. Risco MUITO ALTO de General Camara a Charqueadas. Val. por 24h. Evite areas inundaveis. Emerg 190/193",
+      "status": "vigente",
+      "identifier": "185679/2026",
+      "entry_id": "185679/2026",
+      "sent": "2026-07-23T20:01:17-03:00",
+      "onset": "2026-07-23T20:00:00-03:00",
+      "expires": "2026-07-24T20:00:00-03:00",
+      "category": "Met",
+      "severity": "Extreme",
+      "urgency": "Immediate",
+      "certainty": "Likely",
+      "responseType": "Execute",
+      "channel_list": "Google"
+    },
+    {
+      "time": "19:18",
+      "date": "23/07/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:19h10 Chuva avancando na regiao de Platina e Assis. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidade nas proximas horas.",
+      "status": "vigente",
+      "identifier": "185678/2026",
+      "entry_id": "185678/2026",
+      "sent": "2026-07-23T19:18:12-03:00",
+      "onset": "2026-07-23T19:18:12-03:00",
+      "expires": "2026-07-23T21:00:00-03:00",
+      "category": "Met",
+      "severity": "Moderate",
+      "urgency": "Expected",
+      "certainty": "Observed",
+      "responseType": "Execute",
+      "channel_list": "Google"
+    },
     {
       "time": "18:00",
       "date": "23/07/2026",
@@ -184,58 +230,12 @@
       "location": "PARANÁ/PR",
       "uf": "PR",
       "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "185670/2026",
       "entry_id": "185670/2026",
       "sent": "2026-07-23T16:32:58-03:00",
       "onset": "2026-07-23T16:32:58-03:00",
       "expires": "2026-07-23T19:30:00-03:00",
-      "category": "Met",
-      "severity": "Moderate",
-      "urgency": "Expected",
-      "certainty": "Likely",
-      "responseType": "Execute",
-      "channel_list": "Google"
-    },
-    {
-      "time": "16:30",
-      "date": "23/07/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Guajará/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "identifier": "185669/2026",
-      "entry_id": "185669/2026",
-      "sent": "2026-07-23T16:30:51-03:00",
-      "onset": "2026-07-23T16:30:51-03:00",
-      "expires": "2026-07-23T18:30:00-03:00",
-      "category": "Met",
-      "severity": "Moderate",
-      "urgency": "Expected",
-      "certainty": "Possible",
-      "responseType": "Execute",
-      "channel_list": "Google"
-    },
-    {
-      "time": "15:54",
-      "date": "23/07/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
-      "identifier": "185668/2026",
-      "entry_id": "185668/2026",
-      "sent": "2026-07-23T15:54:40-03:00",
-      "onset": "2026-07-23T15:54:40-03:00",
-      "expires": "2026-07-23T18:55:00-03:00",
       "category": "Met",
       "severity": "Moderate",
       "urgency": "Expected",
@@ -251,9 +251,14 @@
       "count": 12
     },
     {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 5
+    },
+    {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Defesa Civil Nacional",
@@ -261,14 +266,9 @@
       "count": 5
     },
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 4
-    },
-    {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -284,11 +284,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 19
+      "count": 20
     },
     {
       "label": "Alto",
-      "count": 8
+      "count": 7
     },
     {
       "label": "Severo",
@@ -296,17 +296,17 @@
     },
     {
       "label": "Extremo",
-      "count": 1
+      "count": 2
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 16
+      "count": 17
     },
     {
       "label": "Inundações",
-      "count": 9
+      "count": 10
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -319,10 +319,6 @@
     {
       "label": "Marés De Tempestade (Ressacas)",
       "count": 1
-    },
-    {
-      "label": "Alagamentos",
-      "count": 1
     }
   ],
   "uf_distribution": [
@@ -331,16 +327,16 @@
       "count": 16
     },
     {
-      "uf": "PR",
-      "count": 6
+      "uf": "SP",
+      "count": 5
     },
     {
-      "uf": "SP",
-      "count": 4
+      "uf": "PR",
+      "count": 5
     },
     {
       "uf": "RS",
-      "count": 2
+      "count": 3
     },
     {
       "uf": "MS",
@@ -358,17 +354,17 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 23
+      "count": 22
     },
     {
       "label": "expirado",
-      "count": 8
+      "count": 10
     }
   ],
   "category_distribution": [
     {
       "label": "Met",
-      "count": 29
+      "count": 30
     },
     {
       "label": "Geo",
@@ -382,18 +378,18 @@
   "duration_distribution": [
     {
       "label": "12h a 24h",
-      "count": 17
+      "count": 18
     },
     {
       "label": "2h a 6h",
-      "count": 9
-    },
-    {
-      "label": "6h a 12h",
-      "count": 2
+      "count": 8
     },
     {
       "label": "Até 2h",
+      "count": 3
+    },
+    {
+      "label": "6h a 12h",
       "count": 2
     },
     {
@@ -403,20 +399,20 @@
   ],
   "time_since_distribution": [
     {
-      "label": "Mais de 12h",
+      "label": "3h a 6h",
       "count": 10
     },
     {
-      "label": "1h a 3h",
-      "count": 8
-    },
-    {
-      "label": "3h a 6h",
-      "count": 6
+      "label": "Mais de 12h",
+      "count": 9
     },
     {
       "label": "6h a 12h",
-      "count": 5
+      "count": 8
+    },
+    {
+      "label": "1h a 3h",
+      "count": 3
     },
     {
       "label": "Até 1h",
@@ -426,10 +422,104 @@
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 31
+      "count": 32
     }
   ],
   "all_alerts": [
+    {
+      "identifier": "185679/2026",
+      "entry_id": "185679/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "sent": "2026-07-23T20:01:17-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "INUNDAÇÕES",
+      "responseType": "Execute",
+      "urgency": "Immediate",
+      "severity": "Extreme",
+      "certainty": "Likely",
+      "onset": "2026-07-23T20:00:00-03:00",
+      "expires": "2026-07-24T20:00:00-03:00",
+      "nivel": "Extremo",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Jacui. Risco MUITO ALTO de General Camara a Charqueadas. Val. por 24h. Evite areas inundaveis. Emerg 190/193",
+      "description": "RS: Alerta VERMELHO: INUNDAÇÃO do rio Jacuí. Risco MUITO ALTO de General Câmara a Charqueadas. Val. por 24h. Evite áreas inundáveis. Emerg 190/193.",
+      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 190 ou 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "RIO GRANDE DO SUL/RS",
+      "polygon_raw": "-29.809,-51.787 -29.839,-51.821 -29.867,-51.847 -29.906,-51.867 -29.949,-51.883 -29.984,-51.877 -30.009,-51.845 -30.014,-51.8 -30.002,-51.748 -29.999,-51.706 -30.009,-51.665 -30.02,-51.606 -30.004,-51.576 -30.003,-51.538 -30.0,-51.492 -29.986,-51.469 -29.968,-51.467 -29.934,-51.46 -29.895,-51.477 -29.886,-51.525 -29.896,-51.575 -29.905,-51.597 -29.912,-51.639 -29.912,-51.668 -29.908,-51.697 -29.885,-51.703 -29.874,-51.684 -29.864,-51.66 -29.845,-51.656 -29.815,-51.71 -29.809,-51.787",
+      "polygon_points": 31,
+      "has_geocode": false,
+      "uf_hint": "RS",
+      "region": "S",
+      "geometry_wkt": "POLYGON ((-51.787 -29.809, -51.821 -29.839, -51.847 -29.867, -51.867 -29.906, -51.883 -29.949, -51.877 -29.984, -51.845 -30.009, -51.8 -30.014, -51.748 -30.002, -51.706 -29.999, -51.665 -30.009, -51.606 -30.02, -51.576 -30.004, -51.538 -30.003, -51.492 -30, -51.469 -29.986, -51.467 -29.968, -51.46 -29.934, -51.477 -29.895, -51.525 -29.886, -51.575 -29.896, -51.597 -29.905, -51.639 -29.912, -51.668 -29.912, -51.697 -29.908, -51.703 -29.885, -51.684 -29.874, -51.66 -29.864, -51.656 -29.845, -51.71 -29.815, -51.787 -29.809))",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "event_short": "Inundações",
+      "status_vigencia": "vigente",
+      "date": "23/07/2026",
+      "time": "20:00",
+      "sent_br": "2026-07-23T20:01:17-03:00",
+      "onset_br": "2026-07-23T20:00:00-03:00",
+      "expires_br": "2026-07-24T20:00:00-03:00",
+      "duration_minutes": 1440,
+      "duration_hours": 24.0,
+      "duration_bucket": "12h a 24h",
+      "time_since_minutes": 14,
+      "time_since_hours": 0.23,
+      "time_since_bucket": "Até 1h",
+      "is_active": true
+    },
+    {
+      "identifier": "185678/2026",
+      "entry_id": "185678/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "sent": "2026-07-23T19:18:12-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Expected",
+      "severity": "Moderate",
+      "certainty": "Observed",
+      "onset": "2026-07-23T19:18:12-03:00",
+      "expires": "2026-07-23T21:00:00-03:00",
+      "nivel": "Médio",
+      "headline": "Defesa Civil:19h10 Chuva avancando na regiao de Platina e Assis. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidade nas proximas horas.",
+      "description": "19h10 Chuva avançado na região de Platina e Assis. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidade nas próximas horas.",
+      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "SÃO PAULO/SP",
+      "polygon_raw": "-22.793,-51.008 -22.792,-51.008 -22.792,-51.009 -22.749,-51.001 -22.629,-50.965 -22.435,-50.844 -22.307,-50.682 -22.319,-50.457 -22.412,-50.299 -22.565,-50.191 -22.686,-50.121 -22.786,-50.121 -22.918,-50.133 -22.939,-50.135 -22.935,-50.148 -22.935,-50.149 -22.935,-50.151 -22.935,-50.152 -22.935,-50.152 -22.938,-50.157 -22.946,-50.164 -22.948,-50.168 -22.949,-50.175 -22.952,-50.18 -22.953,-50.183 -22.954,-50.185 -22.952,-50.19 -22.951,-50.192 -22.951,-50.193 -22.951,-50.193 -22.951,-50.193 -22.951,-50.194 -22.952,-50.198 -22.952,-50.203 -22.952,-50.203 -22.948,-50.212 -22.947,-50.216 -22.948,-50.219 -22.948,-50.22 -22.949,-50.22 -22.949,-50.221 -22.951,-50.224 -22.952,-50.226 -22.953,-50.227 -22.953,-50.228 -22.954,-50.23 -22.954,-50.232 -22.954,-50.237 -22.953,-50.24 -22.952,-50.241 -22.95,-50.243 -22.95,-50.243 -22.949,-50.244 -22.947,-50.244 -22.946,-50.245 -22.944,-50.245 -22.94,-50.245 -22.939,-50.246 -22.938,-50.246 -22.937,-50.247 -22.937,-50.253 -22.936,-50.254 -22.936,-50.255 -22.936,-50.256 -22.936,-50.257 -22.934,-50.263 -22.931,-50.27 -22.931,-50.273 -22.931,-50.275 -22.934,-50.279 -22.935,-50.281 -22.935,-50.281 -22.937,-50.284 -22.937,-50.284 -22.937,-50.285 -22.937,-50.288 -22.937,-50.289 -22.937,-50.289 -22.937,-50.289 -22.937,-50.29 -22.936,-50.295 -22.937,-50.3 -22.938,-50.301 -22.938,-50.301 -22.941,-50.302 -22.942,-50.303 -22.944,-50.304 -22.945,-50.305 -22.946,-50.306 -22.947,-50.309 -22.949,-50.315 -22.949,-50.316 -22.95,-50.318 -22.951,-50.323 -22.951,-50.324 -22.951,-50.325 -22.95,-50.329 -22.95,-50.33 -22.95,-50.336 -22.948,-50.34 -22.947,-50.34 -22.945,-50.341 -22.944,-50.341 -22.944,-50.341 -22.943,-50.342 -22.94,-50.343 -22.936,-50.344 -22.934,-50.345 -22.933,-50.345 -22.933,-50.346 -22.93,-50.35 -22.93,-50.35 -22.927,-50.354 -22.926,-50.355 -22.924,-50.357 -22.923,-50.358 -22.922,-50.359 -22.921,-50.359 -22.92,-50.359 -22.919,-50.359 -22.919,-50.359 -22.917,-50.358 -22.916,-50.358 -22.916,-50.359 -22.913,-50.364 -22.91,-50.37 -22.905,-50.379 -22.905,-50.38 -22.905,-50.381 -22.907,-50.386 -22.907,-50.386 -22.907,-50.387 -22.907,-50.396 -22.907,-50.396 -22.907,-50.398 -22.907,-50.399 -22.907,-50.4 -22.912,-50.416 -22.913,-50.418 -22.913,-50.418 -22.915,-50.419 -22.917,-50.42 -22.923,-50.419 -22.931,-50.418 -22.934,-50.418 -22.936,-50.42 -22.937,-50.42 -22.939,-50.422 -22.94,-50.423 -22.942,-50.424 -22.942,-50.424 -22.944,-50.425 -22.945,-50.427 -22.946,-50.43 -22.946,-50.431 -22.946,-50.432 -22.942,-50.439 -22.942,-50.44 -22.942,-50.441 -22.941,-50.444 -22.941,-50.448 -22.941,-50.449 -22.941,-50.449 -22.941,-50.449 -22.941,-50.45 -22.944,-50.453 -22.944,-50.456 -22.945,-50.459 -22.944,-50.462 -22.943,-50.464 -22.941,-50.471 -22.939,-50.476 -22.936,-50.482 -22.936,-50.485 -22.936,-50.485 -22.936,-50.485 -22.936,-50.485 -22.936,-50.485 -22.936,-50.486 -22.937,-50.491 -22.938,-50.493 -22.94,-50.495 -22.942,-50.497 -22.943,-50.499 -22.944,-50.502 -22.945,-50.506 -22.945,-50.506 -22.945,-50.507 -22.944,-50.511 -22.944,-50.511 -22.943,-50.513 -22.943,-50.514 -22.942,-50.514 -22.941,-50.518 -22.94,-50.519 -22.94,-50.52 -22.94,-50.521 -22.939,-50.523 -22.938,-50.524 -22.937,-50.524 -22.936,-50.525 -22.934,-50.526 -22.934,-50.526 -22.934,-50.526 -22.931,-50.526 -22.919,-50.53 -22.919,-50.53 -22.919,-50.53 -22.918,-50.53 -22.914,-50.534 -22.913,-50.537 -22.912,-50.539 -22.912,-50.54 -22.912,-50.541 -22.911,-50.542 -22.911,-50.542 -22.911,-50.542 -22.911,-50.544 -22.911,-50.547 -22.911,-50.552 -22.911,-50.554 -22.91,-50.557 -22.905,-50.567 -22.904,-50.572 -22.904,-50.573 -22.904,-50.575 -22.903,-50.577 -22.904,-50.577 -22.904,-50.579 -22.905,-50.58 -22.91,-50.588 -22.913,-50.591 -22.913,-50.591 -22.913,-50.591 -22.913,-50.592 -22.917,-50.597 -22.923,-50.603 -22.924,-50.608 -22.924,-50.608 -22.923,-50.611 -22.922,-50.612 -22.914,-50.617 -22.913,-50.618 -22.912,-50.62 -22.91,-50.627 -22.909,-50.629 -22.908,-50.634 -22.906,-50.637 -22.901,-50.642 -22.899,-50.644 -22.898,-50.646 -22.897,-50.648 -22.896,-50.651 -22.895,-50.657 -22.895,-50.657 -22.895,-50.661 -22.895,-50.663 -22.896,-50.668 -22.897,-50.67 -22.898,-50.672 -22.899,-50.674 -22.899,-50.675 -22.901,-50.677 -22.903,-50.679 -22.906,-50.682 -22.908,-50.682 -22.911,-50.684 -22.911,-50.684 -22.911,-50.684 -22.911,-50.684 -22.912,-50.685 -22.917,-50.687 -22.918,-50.688 -22.92,-50.691 -22.923,-50.693 -22.932,-50.697 -22.937,-50.7 -22.94,-50.701 -22.942,-50.702 -22.944,-50.704 -22.948,-50.707 -22.953,-50.709 -22.954,-50.711 -22.955,-50.712 -22.955,-50.713 -22.958,-50.72 -22.959,-50.723 -22.96,-50.726 -22.962,-50.729 -22.963,-50.732 -22.963,-50.732 -22.963,-50.736 -22.962,-50.74 -22.959,-50.745 -22.958,-50.746 -22.956,-50.747 -22.953,-50.748 -22.952,-50.749 -22.951,-50.75 -22.949,-50.753 -22.947,-50.758 -22.947,-50.762 -22.946,-50.768 -22.947,-50.77 -22.946,-50.775 -22.946,-50.776 -22.946,-50.777 -22.946,-50.779 -22.949,-50.787 -22.95,-50.789 -22.951,-50.791 -22.951,-50.793 -22.951,-50.795 -22.949,-50.799 -22.948,-50.8 -22.945,-50.803 -22.943,-50.805 -22.943,-50.805 -22.94,-50.806 -22.936,-50.805 -22.928,-50.8 -22.927,-50.8 -22.921,-50.798 -22.914,-50.797 -22.913,-50.797 -22.909,-50.795 -22.907,-50.794 -22.906,-50.793 -22.905,-50.793 -22.905,-50.793 -22.905,-50.793 -22.898,-50.792 -22.897,-50.792 -22.894,-50.792 -22.89,-50.795 -22.889,-50.796 -22.889,-50.796 -22.889,-50.796 -22.888,-50.797 -22.887,-50.801 -22.885,-50.805 -22.884,-50.807 -22.884,-50.807 -22.883,-50.808 -22.88,-50.815 -22.879,-50.817 -22.874,-50.82 -22.866,-50.823 -22.866,-50.823 -22.866,-50.823 -22.865,-50.823 -22.865,-50.823 -22.865,-50.823 -22.866,-50.825 -22.865,-50.826 -22.865,-50.827 -22.862,-50.83 -22.859,-50.832 -22.853,-50.834 -22.851,-50.835 -22.847,-50.835 -22.84,-50.837 -22.84,-50.837 -22.84,-50.837 -22.839,-50.837 -22.837,-50.839 -22.833,-50.841 -22.831,-50.842 -22.828,-50.845 -22.827,-50.846 -22.826,-50.848 -22.824,-50.85 -22.824,-50.85 -22.823,-50.851 -22.821,-50.853 -22.819,-50.854 -22.819,-50.854 -22.819,-50.854 -22.818,-50.856 -22.813,-50.863 -22.806,-50.876 -22.798,-50.886 -22.796,-50.888 -22.795,-50.889 -22.794,-50.892 -22.794,-50.893 -22.794,-50.895 -22.795,-50.904 -22.795,-50.906 -22.795,-50.912 -22.795,-50.919 -22.797,-50.927 -22.799,-50.929 -22.8,-50.931 -22.804,-50.937 -22.805,-50.938 -22.805,-50.94 -22.804,-50.944 -22.803,-50.945 -22.798,-50.951 -22.797,-50.951 -22.795,-50.953 -22.791,-50.956 -22.79,-50.956 -22.79,-50.956 -22.787,-50.959 -22.786,-50.961 -22.783,-50.967 -22.783,-50.968 -22.783,-50.968 -22.783,-50.968 -22.783,-50.968 -22.782,-50.971 -22.782,-50.973 -22.782,-50.975 -22.782,-50.977 -22.782,-50.978 -22.784,-50.983 -22.784,-50.983 -22.785,-50.986 -22.788,-50.988 -22.79,-50.991 -22.791,-50.993 -22.792,-50.994 -22.792,-50.997 -22.793,-51.004 -22.793,-51.005 -22.793,-51.008",
+      "polygon_points": 428,
+      "has_geocode": false,
+      "uf_hint": "SP",
+      "region": "SE",
+      "geometry_wkt": "POLYGON ((-51.008 -22.793, -51.008 -22.792, -51.009 -22.792, -51.001 -22.749, -50.965 -22.629, -50.844 -22.435, -50.682 -22.307, -50.457 -22.319, -50.299 -22.412, -50.191 -22.565, -50.121 -22.686, -50.121 -22.786, -50.133 -22.918, -50.135 -22.939, -50.148 -22.935, -50.149 -22.935, -50.151 -22.935, -50.152 -22.935, -50.152 -22.935, -50.157 -22.938, -50.164 -22.946, -50.168 -22.948, -50.175 -22.949, -50.18 -22.952, -50.183 -22.953, -50.185 -22.954, -50.19 -22.952, -50.192 -22.951, -50.193 -22.951, -50.193 -22.951, -50.193 -22.951, -50.194 -22.951, -50.198 -22.952, -50.203 -22.952, -50.203 -22.952, -50.212 -22.948, -50.216 -22.947, -50.219 -22.948, -50.22 -22.948, -50.22 -22.949, -50.221 -22.949, -50.224 -22.951, -50.226 -22.952, -50.227 -22.953, -50.228 -22.953, -50.23 -22.954, -50.232 -22.954, -50.237 -22.954, -50.24 -22.953, -50.241 -22.952, -50.243 -22.95, -50.243 -22.95, -50.244 -22.949, -50.244 -22.947, -50.245 -22.946, -50.245 -22.944, -50.245 -22.94, -50.246 -22.939, -50.246 -22.938, -50.247 -22.937, -50.253 -22.937, -50.254 -22.936, -50.255 -22.936, -50.256 -22.936, -50.257 -22.936, -50.263 -22.934, -50.27 -22.931, -50.273 -22.931, -50.275 -22.931, -50.279 -22.934, -50.281 -22.935, -50.281 -22.935, -50.284 -22.937, -50.284 -22.937, -50.285 -22.937, -50.288 -22.937, -50.289 -22.937, -50.289 -22.937, -50.289 -22.937, -50.29 -22.937, -50.295 -22.936, -50.3 -22.937, -50.301 -22.938, -50.301 -22.938, -50.302 -22.941, -50.303 -22.942, -50.304 -22.944, -50.305 -22.945, -50.306 -22.946, -50.309 -22.947, -50.315 -22.949, -50.316 -22.949, -50.318 -22.95, -50.323 -22.951, -50.324 -22.951, -50.325 -22.951, -50.329 -22.95, -50.33 -22.95, -50.336 -22.95, -50.34 -22.948, -50.34 -22.947, -50.341 -22.945, -50.341 -22.944, -50.341 -22.944, -50.342 -22.943, -50.343 -22.94, -50.344 -22.936, -50.345 -22.934, -50.345 -22.933, -50.346 -22.933, -50.35 -22.93, -50.35 -22.93, -50.354 -22.927, -50.355 -22.926, -50.357 -22.924, -50.358 -22.923, -50.359 -22.922, -50.359 -22.921, -50.359 -22.92, -50.359 -22.919, -50.359 -22.919, -50.358 -22.917, -50.358 -22.916, -50.359 -22.916, -50.364 -22.913, -50.37 -22.91, -50.379 -22.905, -50.38 -22.905, -50.381 -22.905, -50.386 -22.907, -50.386 -22.907, -50.387 -22.907, -50.396 -22.907, -50.396 -22.907, -50.398 -22.907, -50.399 -22.907, -50.4 -22.907, -50.416 -22.912, -50.418 -22.913, -50.418 -22.913, -50.419 -22.915, -50.42 -22.917, -50.419 -22.923, -50.418 -22.931, -50.418 -22.934, -50.42 -22.936, -50.42 -22.937, -50.422 -22.939, -50.423 -22.94, -50.424 -22.942, -50.424 -22.942, -50.425 -22.944, -50.427 -22.945, -50.43 -22.946, -50.431 -22.946, -50.432 -22.946, -50.439 -22.942, -50.44 -22.942, -50.441 -22.942, -50.444 -22.941, -50.448 -22.941, -50.449 -22.941, -50.449 -22.941, -50.449 -22.941, -50.45 -22.941, -50.453 -22.944, -50.456 -22.944, -50.459 -22.945, -50.462 -22.944, -50.464 -22.943, -50.471 -22.941, -50.476 -22.939, -50.482 -22.936, -50.485 -22.936, -50.485 -22.936, -50.485 -22.936, -50.485 -22.936, -50.485 -22.936, -50.486 -22.936, -50.491 -22.937, -50.493 -22.938, -50.495 -22.94, -50.497 -22.942, -50.499 -22.943, -50.502 -22.944, -50.506 -22.945, -50.506 -22.945, -50.507 -22.945, -50.511 -22.944, -50.511 -22.944, -50.513 -22.943, -50.514 -22.943, -50.514 -22.942, -50.518 -22.941, -50.519 -22.94, -50.52 -22.94, -50.521 -22.94, -50.523 -22.939, -50.524 -22.938, -50.524 -22.937, -50.525 -22.936, -50.526 -22.934, -50.526 -22.934, -50.526 -22.934, -50.526 -22.931, -50.53 -22.919, -50.53 -22.919, -50.53 -22.919, -50.53 -22.918, -50.534 -22.914, -50.537 -22.913, -50.539 -22.912, -50.54 -22.912, -50.541 -22.912, -50.542 -22.911, -50.542 -22.911, -50.542 -22.911, -50.544 -22.911, -50.547 -22.911, -50.552 -22.911, -50.554 -22.911, -50.557 -22.91, -50.567 -22.905, -50.572 -22.904, -50.573 -22.904, -50.575 -22.904, -50.577 -22.903, -50.577 -22.904, -50.579 -22.904, -50.58 -22.905, -50.588 -22.91, -50.591 -22.913, -50.591 -22.913, -50.591 -22.913, -50.592 -22.913, -50.597 -22.917, -50.603 -22.923, -50.608 -22.924, -50.608 -22.924, -50.611 -22.923, -50.612 -22.922, -50.617 -22.914, -50.618 -22.913, -50.62 -22.912, -50.627 -22.91, -50.629 -22.909, -50.634 -22.908, -50.637 -22.906, -50.642 -22.901, -50.644 -22.899, -50.646 -22.898, -50.648 -22.897, -50.651 -22.896, -50.657 -22.895, -50.657 -22.895, -50.661 -22.895, -50.663 -22.895, -50.668 -22.896, -50.67 -22.897, -50.672 -22.898, -50.674 -22.899, -50.675 -22.899, -50.677 -22.901, -50.679 -22.903, -50.682 -22.906, -50.682 -22.908, -50.684 -22.911, -50.684 -22.911, -50.684 -22.911, -50.684 -22.911, -50.685 -22.912, -50.687 -22.917, -50.688 -22.918, -50.691 -22.92, -50.693 -22.923, -50.697 -22.932, -50.7 -22.937, -50.701 -22.94, -50.702 -22.942, -50.704 -22.944, -50.707 -22.948, -50.709 -22.953, -50.711 -22.954, -50.712 -22.955, -50.713 -22.955, -50.72 -22.958, -50.723 -22.959, -50.726 -22.96, -50.729 -22.962, -50.732 -22.963, -50.732 -22.963, -50.736 -22.963, -50.74 -22.962, -50.745 -22.959, -50.746 -22.958, -50.747 -22.956, -50.748 -22.953, -50.749 -22.952, -50.75 -22.951, -50.753 -22.949, -50.758 -22.947, -50.762 -22.947, -50.768 -22.946, -50.77 -22.947, -50.775 -22.946, -50.776 -22.946, -50.777 -22.946, -50.779 -22.946, -50.787 -22.949, -50.789 -22.95, -50.791 -22.951, -50.793 -22.951, -50.795 -22.951, -50.799 -22.949, -50.8 -22.948, -50.803 -22.945, -50.805 -22.943, -50.805 -22.943, -50.806 -22.94, -50.805 -22.936, -50.8 -22.928, -50.8 -22.927, -50.798 -22.921, -50.797 -22.914, -50.797 -22.913, -50.795 -22.909, -50.794 -22.907, -50.793 -22.906, -50.793 -22.905, -50.793 -22.905, -50.793 -22.905, -50.792 -22.898, -50.792 -22.897, -50.792 -22.894, -50.795 -22.89, -50.796 -22.889, -50.796 -22.889, -50.796 -22.889, -50.797 -22.888, -50.801 -22.887, -50.805 -22.885, -50.807 -22.884, -50.807 -22.884, -50.808 -22.883, -50.815 -22.88, -50.817 -22.879, -50.82 -22.874, -50.823 -22.866, -50.823 -22.866, -50.823 -22.866, -50.823 -22.865, -50.823 -22.865, -50.823 -22.865, -50.825 -22.866, -50.826 -22.865, -50.827 -22.865, -50.83 -22.862, -50.832 -22.859, -50.834 -22.853, -50.835 -22.851, -50.835 -22.847, -50.837 -22.84, -50.837 -22.84, -50.837 -22.84, -50.837 -22.839, -50.839 -22.837, -50.841 -22.833, -50.842 -22.831, -50.845 -22.828, -50.846 -22.827, -50.848 -22.826, -50.85 -22.824, -50.85 -22.824, -50.851 -22.823, -50.853 -22.821, -50.854 -22.819, -50.854 -22.819, -50.854 -22.819, -50.856 -22.818, -50.863 -22.813, -50.876 -22.806, -50.886 -22.798, -50.888 -22.796, -50.889 -22.795, -50.892 -22.794, -50.893 -22.794, -50.895 -22.794, -50.904 -22.795, -50.906 -22.795, -50.912 -22.795, -50.919 -22.795, -50.927 -22.797, -50.929 -22.799, -50.931 -22.8, -50.937 -22.804, -50.938 -22.805, -50.94 -22.805, -50.944 -22.804, -50.945 -22.803, -50.951 -22.798, -50.951 -22.797, -50.953 -22.795, -50.956 -22.791, -50.956 -22.79, -50.956 -22.79, -50.959 -22.787, -50.961 -22.786, -50.967 -22.783, -50.968 -22.783, -50.968 -22.783, -50.968 -22.783, -50.968 -22.783, -50.971 -22.782, -50.973 -22.782, -50.975 -22.782, -50.977 -22.782, -50.978 -22.782, -50.983 -22.784, -50.983 -22.784, -50.986 -22.785, -50.988 -22.788, -50.991 -22.79, -50.993 -22.791, -50.994 -22.792, -50.997 -22.792, -51.004 -22.793, -51.005 -22.793, -51.008 -22.793))",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "23/07/2026",
+      "time": "19:18",
+      "sent_br": "2026-07-23T19:18:12-03:00",
+      "onset_br": "2026-07-23T19:18:12-03:00",
+      "expires_br": "2026-07-23T21:00:00-03:00",
+      "duration_minutes": 101,
+      "duration_hours": 1.68,
+      "duration_bucket": "Até 2h",
+      "time_since_minutes": 56,
+      "time_since_hours": 0.93,
+      "time_since_bucket": "Até 1h",
+      "is_active": true
+    },
     {
       "identifier": "185677/2026",
       "entry_id": "185677/2026",
@@ -472,9 +562,9 @@
       "duration_minutes": 174,
       "duration_hours": 2.9,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 30,
-      "time_since_hours": 0.5,
-      "time_since_bucket": "Até 1h",
+      "time_since_minutes": 134,
+      "time_since_hours": 2.23,
+      "time_since_bucket": "1h a 3h",
       "is_active": true
     },
     {
@@ -519,9 +609,9 @@
       "duration_minutes": 1431,
       "duration_hours": 23.85,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 52,
-      "time_since_hours": 0.87,
-      "time_since_bucket": "Até 1h",
+      "time_since_minutes": 156,
+      "time_since_hours": 2.6,
+      "time_since_bucket": "1h a 3h",
       "is_active": true
     },
     {
@@ -566,8 +656,8 @@
       "duration_minutes": 1365,
       "duration_hours": 22.75,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 76,
-      "time_since_hours": 1.27,
+      "time_since_minutes": 180,
+      "time_since_hours": 3.0,
       "time_since_bucket": "1h a 3h",
       "is_active": true
     },
@@ -613,9 +703,9 @@
       "duration_minutes": 1370,
       "duration_hours": 22.83,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 81,
-      "time_since_hours": 1.35,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 184,
+      "time_since_hours": 3.07,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -660,9 +750,9 @@
       "duration_minutes": 1371,
       "duration_hours": 22.85,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 82,
-      "time_since_hours": 1.37,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 185,
+      "time_since_hours": 3.08,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -707,9 +797,9 @@
       "duration_minutes": 1374,
       "duration_hours": 22.9,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 85,
-      "time_since_hours": 1.42,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 189,
+      "time_since_hours": 3.15,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -754,9 +844,9 @@
       "duration_minutes": 480,
       "duration_hours": 8.0,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 91,
-      "time_since_hours": 1.52,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 194,
+      "time_since_hours": 3.23,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -765,7 +855,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Paraná",
       "sent": "2026-07-23T16:32:58-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -792,7 +882,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "23/07/2026",
       "time": "16:32",
       "sent_br": "2026-07-23T16:32:58-03:00",
@@ -801,10 +891,10 @@
       "duration_minutes": 177,
       "duration_hours": 2.95,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 118,
-      "time_since_hours": 1.97,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true
+      "time_since_minutes": 221,
+      "time_since_hours": 3.68,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false
     },
     {
       "identifier": "185669/2026",
@@ -848,9 +938,9 @@
       "duration_minutes": 119,
       "duration_hours": 1.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 120,
-      "time_since_hours": 2.0,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 223,
+      "time_since_hours": 3.72,
+      "time_since_bucket": "3h a 6h",
       "is_active": false
     },
     {
@@ -859,7 +949,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Paraná",
       "sent": "2026-07-23T15:54:40-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -886,7 +976,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "23/07/2026",
       "time": "15:54",
       "sent_br": "2026-07-23T15:54:40-03:00",
@@ -895,10 +985,10 @@
       "duration_minutes": 180,
       "duration_hours": 3.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 156,
-      "time_since_hours": 2.6,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true
+      "time_since_minutes": 260,
+      "time_since_hours": 4.33,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false
     },
     {
       "identifier": "185666/2026",
@@ -942,8 +1032,8 @@
       "duration_minutes": 175,
       "duration_hours": 2.92,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 211,
-      "time_since_hours": 3.52,
+      "time_since_minutes": 314,
+      "time_since_hours": 5.23,
       "time_since_bucket": "3h a 6h",
       "is_active": false
     },
@@ -989,8 +1079,8 @@
       "duration_minutes": 123,
       "duration_hours": 2.05,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 214,
-      "time_since_hours": 3.57,
+      "time_since_minutes": 318,
+      "time_since_hours": 5.3,
       "time_since_bucket": "3h a 6h",
       "is_active": false
     },
@@ -1036,8 +1126,8 @@
       "duration_minutes": 161,
       "duration_hours": 2.68,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 253,
-      "time_since_hours": 4.22,
+      "time_since_minutes": 356,
+      "time_since_hours": 5.93,
       "time_since_bucket": "3h a 6h",
       "is_active": false
     },
@@ -1083,9 +1173,9 @@
       "duration_minutes": 608,
       "duration_hours": 10.13,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 285,
-      "time_since_hours": 4.75,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 388,
+      "time_since_hours": 6.47,
+      "time_since_bucket": "6h a 12h",
       "is_active": true
     },
     {
@@ -1094,7 +1184,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "sent": "2026-07-23T13:03:56-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -1121,7 +1211,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "23/07/2026",
       "time": "13:03",
       "sent_br": "2026-07-23T13:03:56-03:00",
@@ -1130,10 +1220,10 @@
       "duration_minutes": 356,
       "duration_hours": 5.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 327,
-      "time_since_hours": 5.45,
-      "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "time_since_minutes": 430,
+      "time_since_hours": 7.17,
+      "time_since_bucket": "6h a 12h",
+      "is_active": false
     },
     {
       "identifier": "185661/2026",
@@ -1177,9 +1267,9 @@
       "duration_minutes": 2044,
       "duration_hours": 34.07,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 336,
-      "time_since_hours": 5.6,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 439,
+      "time_since_hours": 7.32,
+      "time_since_bucket": "6h a 12h",
       "is_active": true
     },
     {
@@ -1224,8 +1314,8 @@
       "duration_minutes": 1101,
       "duration_hours": 18.35,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 413,
-      "time_since_hours": 6.88,
+      "time_since_minutes": 516,
+      "time_since_hours": 8.6,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -1271,8 +1361,8 @@
       "duration_minutes": 751,
       "duration_hours": 12.52,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 427,
-      "time_since_hours": 7.12,
+      "time_since_minutes": 530,
+      "time_since_hours": 8.83,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -1318,8 +1408,8 @@
       "duration_minutes": 1440,
       "duration_hours": 24.0,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 542,
-      "time_since_hours": 9.03,
+      "time_since_minutes": 645,
+      "time_since_hours": 10.75,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -1365,8 +1455,8 @@
       "duration_minutes": 1433,
       "duration_hours": 23.88,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 564,
-      "time_since_hours": 9.4,
+      "time_since_minutes": 668,
+      "time_since_hours": 11.13,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -1412,8 +1502,8 @@
       "duration_minutes": 1080,
       "duration_hours": 18.0,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 571,
-      "time_since_hours": 9.52,
+      "time_since_minutes": 674,
+      "time_since_hours": 11.23,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -1459,8 +1549,8 @@
       "duration_minutes": 969,
       "duration_hours": 16.15,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 730,
-      "time_since_hours": 12.17,
+      "time_since_minutes": 834,
+      "time_since_hours": 13.9,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1506,8 +1596,8 @@
       "duration_minutes": 1072,
       "duration_hours": 17.87,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 834,
-      "time_since_hours": 13.9,
+      "time_since_minutes": 937,
+      "time_since_hours": 15.62,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1553,8 +1643,8 @@
       "duration_minutes": 1084,
       "duration_hours": 18.07,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 845,
-      "time_since_hours": 14.08,
+      "time_since_minutes": 948,
+      "time_since_hours": 15.8,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1600,8 +1690,8 @@
       "duration_minutes": 829,
       "duration_hours": 13.82,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1090,
-      "time_since_hours": 18.17,
+      "time_since_minutes": 1193,
+      "time_since_hours": 19.88,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1647,8 +1737,8 @@
       "duration_minutes": 1372,
       "duration_hours": 22.87,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1133,
-      "time_since_hours": 18.88,
+      "time_since_minutes": 1236,
+      "time_since_hours": 20.6,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1694,8 +1784,8 @@
       "duration_minutes": 1386,
       "duration_hours": 23.1,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1147,
-      "time_since_hours": 19.12,
+      "time_since_minutes": 1251,
+      "time_since_hours": 20.85,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1741,8 +1831,8 @@
       "duration_minutes": 119,
       "duration_hours": 1.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1155,
-      "time_since_hours": 19.25,
+      "time_since_minutes": 1258,
+      "time_since_hours": 20.97,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1788,8 +1878,8 @@
       "duration_minutes": 1395,
       "duration_hours": 23.25,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1156,
-      "time_since_hours": 19.27,
+      "time_since_minutes": 1260,
+      "time_since_hours": 21.0,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1835,55 +1925,8 @@
       "duration_minutes": 358,
       "duration_hours": 5.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1245,
-      "time_since_hours": 20.75,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false
-    },
-    {
-      "identifier": "185643/2026",
-      "entry_id": "185643/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "sent": "2026-07-22T18:38:55-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "ALAGAMENTOS",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Severe",
-      "certainty": "Likely",
-      "onset": "2026-07-22T18:38:55-03:00",
-      "expires": "2026-07-23T00:35:00-03:00",
-      "nivel": "Alto",
-      "headline": "Defesa Civil:Risco de Alagamentos em Altonia e mun. vizinhos. Monitore. Em caso de perigo, deixe o local imediatamente. Ligue 199/193.",
-      "description": "Risco de Alagamentos em Altônia e mun. vizinhos. Monitore. Em caso de perigo, deixe o local imediatamente. Ligue 199/193.",
-      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.\nVeja como proceder em casos de desastres. -\n- https://bit.ly/2W1BZxy -\n- Entenda o significado das cores do alerta:\n- http://www.defesacivil.pr.gov.br/Pagina/Significado-das-cores-dos-alertas -\n- Veja a área do alerta: -\n- https://www.defesacivil.pr.gov.br/alertas-vigentes -",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "Altônia/PR",
-      "polygon_raw": "-23.795,-53.902 -23.794,-53.902 -23.793,-53.905 -23.791,-53.909 -23.791,-53.914 -23.793,-53.916 -23.793,-53.919 -23.793,-53.92 -23.795,-53.92 -23.796,-53.923 -23.797,-53.924 -23.799,-53.925 -23.804,-53.93 -23.81,-53.934 -23.812,-53.936 -23.812,-53.937 -23.812,-53.938 -23.813,-53.94 -23.812,-53.943 -23.812,-53.946 -23.811,-53.949 -23.809,-53.95 -23.808,-53.952 -23.808,-53.953 -23.807,-53.954 -23.803,-53.96 -23.802,-53.961 -23.805,-53.967 -23.811,-53.973 -23.814,-53.977 -23.815,-53.981 -23.816,-53.982 -23.814,-54.004 -23.805,-54.083 -23.806,-54.083 -23.813,-54.085 -23.818,-54.085 -23.825,-54.086 -23.828,-54.085 -23.829,-54.083 -23.831,-54.083 -23.838,-54.086 -23.84,-54.086 -23.842,-54.087 -23.844,-54.088 -23.856,-54.086 -23.86,-54.085 -23.862,-54.083 -23.864,-54.083 -23.867,-54.082 -23.88,-54.079 -23.888,-54.079 -23.891,-54.08 -23.907,-54.087 -23.915,-54.089 -23.921,-54.091 -23.924,-54.093 -23.929,-54.094 -23.943,-54.098 -23.951,-54.101 -23.96,-54.11 -23.971,-54.117 -23.974,-54.12 -23.982,-54.129 -23.984,-54.132 -23.988,-54.14 -23.992,-54.154 -23.996,-54.164 -23.998,-54.169 -24.025,-54.098 -24.025,-54.095 -24.026,-54.093 -24.028,-54.088 -24.03,-54.082 -24.033,-54.075 -24.034,-54.069 -24.036,-54.06 -24.036,-54.055 -24.032,-54.05 -24.031,-54.049 -24.027,-54.041 -24.02,-54.034 -24.019,-54.032 -24.018,-54.028 -24.018,-54.023 -24.017,-54.019 -24.015,-54.017 -24.008,-54.011 -24.002,-54.007 -23.993,-54.003 -23.985,-53.998 -23.983,-53.995 -23.982,-53.992 -23.981,-53.988 -23.981,-53.976 -23.981,-53.974 -23.981,-53.973 -23.982,-53.972 -23.983,-53.971 -23.984,-53.971 -23.992,-53.97 -23.997,-53.968 -24.002,-53.966 -24.002,-53.964 -24.001,-53.963 -24.001,-53.961 -24.0,-53.96 -24.0,-53.958 -24.006,-53.954 -24.004,-53.953 -24.001,-53.951 -24.0,-53.952 -23.997,-53.949 -23.994,-53.948 -23.992,-53.946 -23.992,-53.945 -23.991,-53.943 -23.988,-53.941 -23.983,-53.937 -23.981,-53.936 -23.98,-53.937 -23.979,-53.936 -23.978,-53.935 -23.976,-53.934 -23.976,-53.933 -23.975,-53.932 -23.975,-53.931 -23.974,-53.931 -23.974,-53.931 -23.973,-53.931 -23.972,-53.929 -23.971,-53.928 -23.966,-53.926 -23.965,-53.926 -23.961,-53.924 -23.959,-53.924 -23.959,-53.923 -23.958,-53.922 -23.957,-53.92 -23.957,-53.919 -23.957,-53.918 -23.956,-53.918 -23.956,-53.917 -23.956,-53.916 -23.954,-53.914 -23.953,-53.914 -23.951,-53.911 -23.95,-53.908 -23.948,-53.902 -23.946,-53.9 -23.947,-53.899 -23.946,-53.898 -23.944,-53.897 -23.944,-53.896 -23.944,-53.894 -23.944,-53.891 -23.944,-53.89 -23.942,-53.889 -23.942,-53.887 -23.941,-53.884 -23.942,-53.883 -23.941,-53.882 -23.942,-53.881 -23.941,-53.879 -23.948,-53.859 -23.949,-53.818 -23.95,-53.801 -23.95,-53.771 -23.95,-53.738 -23.947,-53.739 -23.944,-53.741 -23.942,-53.741 -23.942,-53.742 -23.94,-53.742 -23.938,-53.744 -23.934,-53.744 -23.93,-53.747 -23.925,-53.745 -23.924,-53.745 -23.92,-53.747 -23.917,-53.747 -23.914,-53.744 -23.911,-53.743 -23.906,-53.744 -23.904,-53.744 -23.902,-53.744 -23.901,-53.745 -23.899,-53.744 -23.894,-53.744 -23.893,-53.746 -23.892,-53.749 -23.892,-53.75 -23.887,-53.752 -23.887,-53.754 -23.883,-53.756 -23.882,-53.758 -23.879,-53.758 -23.878,-53.76 -23.876,-53.76 -23.873,-53.763 -23.871,-53.764 -23.87,-53.766 -23.867,-53.767 -23.86,-53.771 -23.856,-53.772 -23.853,-53.775 -23.85,-53.776 -23.846,-53.782 -23.846,-53.782 -23.845,-53.782 -23.836,-53.779 -23.828,-53.786 -23.826,-53.789 -23.824,-53.786 -23.823,-53.783 -23.821,-53.781 -23.821,-53.778 -23.822,-53.775 -23.822,-53.773 -23.82,-53.77 -23.819,-53.77 -23.817,-53.768 -23.817,-53.774 -23.815,-53.782 -23.814,-53.784 -23.814,-53.788 -23.813,-53.791 -23.811,-53.798 -23.81,-53.802 -23.81,-53.806 -23.809,-53.811 -23.808,-53.814 -23.808,-53.82 -23.81,-53.822 -23.809,-53.828 -23.81,-53.829 -23.81,-53.833 -23.811,-53.836 -23.809,-53.837 -23.809,-53.838 -23.809,-53.839 -23.81,-53.839 -23.808,-53.843 -23.808,-53.844 -23.806,-53.848 -23.805,-53.853 -23.802,-53.857 -23.802,-53.858 -23.801,-53.861 -23.799,-53.865 -23.799,-53.871 -23.797,-53.876 -23.799,-53.878 -23.799,-53.881 -23.8,-53.883 -23.797,-53.886 -23.796,-53.893 -23.796,-53.898 -23.795,-53.899 -23.796,-53.901 -23.795,-53.902",
-      "polygon_points": 261,
-      "has_geocode": true,
-      "uf_hint": "PR",
-      "region": "S",
-      "geometry_wkt": "POLYGON ((-53.902 -23.795, -53.902 -23.794, -53.905 -23.793, -53.909 -23.791, -53.914 -23.791, -53.916 -23.793, -53.919 -23.793, -53.92 -23.793, -53.92 -23.795, -53.923 -23.796, -53.924 -23.797, -53.925 -23.799, -53.93 -23.804, -53.934 -23.81, -53.936 -23.812, -53.937 -23.812, -53.938 -23.812, -53.94 -23.813, -53.943 -23.812, -53.946 -23.812, -53.949 -23.811, -53.95 -23.809, -53.952 -23.808, -53.953 -23.808, -53.954 -23.807, -53.96 -23.803, -53.961 -23.802, -53.967 -23.805, -53.973 -23.811, -53.977 -23.814, -53.981 -23.815, -53.982 -23.816, -54.004 -23.814, -54.083 -23.805, -54.083 -23.806, -54.085 -23.813, -54.085 -23.818, -54.086 -23.825, -54.085 -23.828, -54.083 -23.829, -54.083 -23.831, -54.086 -23.838, -54.086 -23.84, -54.087 -23.842, -54.088 -23.844, -54.086 -23.856, -54.085 -23.86, -54.083 -23.862, -54.083 -23.864, -54.082 -23.867, -54.079 -23.88, -54.079 -23.888, -54.08 -23.891, -54.087 -23.907, -54.089 -23.915, -54.091 -23.921, -54.093 -23.924, -54.094 -23.929, -54.098 -23.943, -54.101 -23.951, -54.11 -23.96, -54.117 -23.971, -54.12 -23.974, -54.129 -23.982, -54.132 -23.984, -54.14 -23.988, -54.154 -23.992, -54.164 -23.996, -54.169 -23.998, -54.098 -24.025, -54.095 -24.025, -54.093 -24.026, -54.088 -24.028, -54.082 -24.03, -54.075 -24.033, -54.069 -24.034, -54.06 -24.036, -54.055 -24.036, -54.05 -24.032, -54.049 -24.031, -54.041 -24.027, -54.034 -24.02, -54.032 -24.019, -54.028 -24.018, -54.023 -24.018, -54.019 -24.017, -54.017 -24.015, -54.011 -24.008, -54.007 -24.002, -54.003 -23.993, -53.998 -23.985, -53.995 -23.983, -53.992 -23.982, -53.988 -23.981, -53.976 -23.981, -53.974 -23.981, -53.973 -23.981, -53.972 -23.982, -53.971 -23.983, -53.971 -23.984, -53.97 -23.992, -53.968 -23.997, -53.966 -24.002, -53.964 -24.002, -53.963 -24.001, -53.961 -24.001, -53.96 -24, -53.958 -24, -53.954 -24.006, -53.953 -24.004, -53.951 -24.001, -53.952 -24, -53.949 -23.997, -53.948 -23.994, -53.946 -23.992, -53.945 -23.992, -53.943 -23.991, -53.941 -23.988, -53.937 -23.983, -53.936 -23.981, -53.937 -23.98, -53.936 -23.979, -53.935 -23.978, -53.934 -23.976, -53.933 -23.976, -53.932 -23.975, -53.931 -23.975, -53.931 -23.974, -53.931 -23.974, -53.931 -23.973, -53.929 -23.972, -53.928 -23.971, -53.926 -23.966, -53.926 -23.965, -53.924 -23.961, -53.924 -23.959, -53.923 -23.959, -53.922 -23.958, -53.92 -23.957, -53.919 -23.957, -53.918 -23.957, -53.918 -23.956, -53.917 -23.956, -53.916 -23.956, -53.914 -23.954, -53.914 -23.953, -53.911 -23.951, -53.908 -23.95, -53.902 -23.948, -53.9 -23.946, -53.899 -23.947, -53.898 -23.946, -53.897 -23.944, -53.896 -23.944, -53.894 -23.944, -53.891 -23.944, -53.89 -23.944, -53.889 -23.942, -53.887 -23.942, -53.884 -23.941, -53.883 -23.942, -53.882 -23.941, -53.881 -23.942, -53.879 -23.941, -53.859 -23.948, -53.818 -23.949, -53.801 -23.95, -53.771 -23.95, -53.738 -23.95, -53.739 -23.947, -53.741 -23.944, -53.741 -23.942, -53.742 -23.942, -53.742 -23.94, -53.744 -23.938, -53.744 -23.934, -53.747 -23.93, -53.745 -23.925, -53.745 -23.924, -53.747 -23.92, -53.747 -23.917, -53.744 -23.914, -53.743 -23.911, -53.744 -23.906, -53.744 -23.904, -53.744 -23.902, -53.745 -23.901, -53.744 -23.899, -53.744 -23.894, -53.746 -23.893, -53.749 -23.892, -53.75 -23.892, -53.752 -23.887, -53.754 -23.887, -53.756 -23.883, -53.758 -23.882, -53.758 -23.879, -53.76 -23.878, -53.76 -23.876, -53.763 -23.873, -53.764 -23.871, -53.766 -23.87, -53.767 -23.867, -53.771 -23.86, -53.772 -23.856, -53.775 -23.853, -53.776 -23.85, -53.782 -23.846, -53.782 -23.846, -53.782 -23.845, -53.779 -23.836, -53.786 -23.828, -53.789 -23.826, -53.786 -23.824, -53.783 -23.823, -53.781 -23.821, -53.778 -23.821, -53.775 -23.822, -53.773 -23.822, -53.77 -23.82, -53.77 -23.819, -53.768 -23.817, -53.774 -23.817, -53.782 -23.815, -53.784 -23.814, -53.788 -23.814, -53.791 -23.813, -53.798 -23.811, -53.802 -23.81, -53.806 -23.81, -53.811 -23.809, -53.814 -23.808, -53.82 -23.808, -53.822 -23.81, -53.828 -23.809, -53.829 -23.81, -53.833 -23.81, -53.836 -23.811, -53.837 -23.809, -53.838 -23.809, -53.839 -23.809, -53.839 -23.81, -53.843 -23.808, -53.844 -23.808, -53.848 -23.806, -53.853 -23.805, -53.857 -23.802, -53.858 -23.802, -53.861 -23.801, -53.865 -23.799, -53.871 -23.799, -53.876 -23.797, -53.878 -23.799, -53.881 -23.799, -53.883 -23.8, -53.886 -23.797, -53.893 -23.796, -53.898 -23.796, -53.899 -23.795, -53.901 -23.796, -53.902 -23.795))",
-      "uf": "PR",
-      "location": "Altônia/PR",
-      "event_short": "Alagamentos",
-      "status_vigencia": "expirado",
-      "date": "22/07/2026",
-      "time": "18:38",
-      "sent_br": "2026-07-22T18:38:55-03:00",
-      "onset_br": "2026-07-22T18:38:55-03:00",
-      "expires_br": "2026-07-23T00:35:00-03:00",
-      "duration_minutes": 356,
-      "duration_hours": 5.93,
-      "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1432,
-      "time_since_hours": 23.87,
+      "time_since_minutes": 1348,
+      "time_since_hours": 22.47,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     }
