@@ -1,18 +1,41 @@
 {
-  "generated_at": "2026-07-23T10:59:16.372440-03:00",
+  "generated_at": "2026-07-23T11:35:55.347253-03:00",
   "source": ".cache/historico_alertas.json",
   "window_hours": 24,
   "cards": {
     "vigentes": 19,
-    "ultimas24h": 45,
+    "ultimas24h": 42,
     "autoridadesAtivas": 7,
     "alertasExtremos": 1,
-    "alertasSeveros": 5,
-    "alertasSeverosExtremos": 6,
+    "alertasSeveros": 6,
+    "alertasSeverosExtremos": 7,
     "estadosComAlerta": 6,
-    "municipiosOuAreasComAlerta": 28
+    "municipiosOuAreasComAlerta": 26
   },
   "latest_alerts": [
+    {
+      "time": "11:23",
+      "date": "23/07/2026",
+      "senderName": "Defesa Civil Estadual de Pernambuco",
+      "senderNameShort": "DC Pernambuco",
+      "event": "Inundações",
+      "nivel": "Severo",
+      "location": "Barra de Guabiraba/PE, Cortês/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:Alerta de inundacao. Moradores de areas de risco preparar para procurar local seguro. Emergencia: ligue 193 ou 199.",
+      "status": "vigente",
+      "identifier": "185659/2026",
+      "entry_id": "185659/2026",
+      "sent": "2026-07-23T11:23:50-03:00",
+      "onset": "2026-07-23T11:23:50-03:00",
+      "expires": "2026-07-23T23:55:00-03:00",
+      "category": "Met",
+      "severity": "Extreme",
+      "urgency": "Expected",
+      "certainty": "Observed",
+      "responseType": "Execute",
+      "channel_list": "Google"
+    },
     {
       "time": "09:29",
       "date": "23/07/2026",
@@ -219,56 +242,33 @@
       "certainty": "Likely",
       "responseType": "Execute",
       "channel_list": "Google"
-    },
-    {
-      "time": "23:15",
-      "date": "22/07/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:23h15 Chuva na regiao de Itaporanga e Itabera. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "identifier": "185649/2026",
-      "entry_id": "185649/2026",
-      "sent": "2026-07-22T23:15:45-03:00",
-      "onset": "2026-07-22T23:15:45-03:00",
-      "expires": "2026-07-23T01:15:00-03:00",
-      "category": "Met",
-      "severity": "Moderate",
-      "urgency": "Immediate",
-      "certainty": "Observed",
-      "responseType": "Execute",
-      "channel_list": "Google"
     }
   ],
   "top_emitters": [
-    {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
-      "count": 13
-    },
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
       "count": 11
     },
     {
-      "name": "Defesa Civil Estadual de Pernambuco",
-      "short_name": "DC Pernambuco",
-      "count": 8
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
+      "count": 11
     },
     {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 4
+      "name": "Defesa Civil Estadual de Pernambuco",
+      "short_name": "DC Pernambuco",
+      "count": 9
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
       "count": 4
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 3
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -278,7 +278,7 @@
     {
       "name": "Defesa Civil Estadual do Rio de Janeiro",
       "short_name": "DC Rio de Janeiro",
-      "count": 2
+      "count": 1
     }
   ],
   "level_distribution": [
@@ -288,11 +288,11 @@
     },
     {
       "label": "Alto",
-      "count": 24
+      "count": 20
     },
     {
       "label": "Severo",
-      "count": 5
+      "count": 6
     },
     {
       "label": "Extremo",
@@ -301,20 +301,20 @@
   ],
   "event_distribution": [
     {
-      "label": "Chuvas Intensas",
-      "count": 13
-    },
-    {
       "label": "Inundações",
       "count": 12
     },
     {
+      "label": "Chuvas Intensas",
+      "count": 12
+    },
+    {
       "label": "Baixa Umidade Do Ar",
-      "count": 8
+      "count": 7
     },
     {
       "label": "Alagamentos",
-      "count": 6
+      "count": 5
     },
     {
       "label": "Vendaval",
@@ -331,12 +331,12 @@
   ],
   "uf_distribution": [
     {
-      "uf": "PR",
+      "uf": "PE",
       "count": 13
     },
     {
-      "uf": "PE",
-      "count": 12
+      "uf": "PR",
+      "count": 11
     },
     {
       "uf": "SP",
@@ -344,15 +344,15 @@
     },
     {
       "uf": "RJ",
-      "count": 6
-    },
-    {
-      "uf": "SC",
-      "count": 4
+      "count": 5
     },
     {
       "uf": "RS",
       "count": 4
+    },
+    {
+      "uf": "SC",
+      "count": 3
     }
   ],
   "status_distribution": [
@@ -362,13 +362,13 @@
     },
     {
       "label": "expirado",
-      "count": 26
+      "count": 23
     }
   ],
   "category_distribution": [
     {
       "label": "Met",
-      "count": 41
+      "count": 38
     },
     {
       "label": "Fire",
@@ -385,20 +385,20 @@
   ],
   "duration_distribution": [
     {
-      "label": "2h a 6h",
+      "label": "12h a 24h",
       "count": 18
     },
     {
-      "label": "12h a 24h",
-      "count": 17
+      "label": "2h a 6h",
+      "count": 16
     },
     {
       "label": "Até 2h",
-      "count": 4
+      "count": 3
     },
     {
       "label": "6h a 12h",
-      "count": 4
+      "count": 3
     },
     {
       "label": "Mais de 24h",
@@ -408,15 +408,19 @@
   "time_since_distribution": [
     {
       "label": "Mais de 12h",
-      "count": 34
+      "count": 33
     },
     {
       "label": "6h a 12h",
-      "count": 7
+      "count": 4
     },
     {
       "label": "1h a 3h",
       "count": 3
+    },
+    {
+      "label": "Até 1h",
+      "count": 1
     },
     {
       "label": "3h a 6h",
@@ -426,10 +430,57 @@
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 45
+      "count": 42
     }
   ],
   "all_alerts": [
+    {
+      "identifier": "185659/2026",
+      "entry_id": "185659/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual de Pernambuco",
+      "sent": "2026-07-23T11:23:50-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "INUNDAÇÕES",
+      "responseType": "Execute",
+      "urgency": "Expected",
+      "severity": "Extreme",
+      "certainty": "Observed",
+      "onset": "2026-07-23T11:23:50-03:00",
+      "expires": "2026-07-23T23:55:00-03:00",
+      "nivel": "Severo",
+      "headline": "Defesa Civil:Alerta de inundacao. Moradores de areas de risco preparar para procurar local seguro. Emergencia: ligue 193 ou 199.",
+      "description": "Defesa Civil: PE: BARRA DE GUABIRABA E CORTÊS. Alerta de inundacao. Moradores de areas de risco preparar para procurar local seguro. Emergencia: ligue 193 ou 199.",
+      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "Barra de Guabiraba/PE, Cortês/PE",
+      "polygon_raw": "-8.377,-35.562 -8.376,-35.561 -8.374,-35.561 -8.374,-35.561 -8.372,-35.561 -8.371,-35.561 -8.37,-35.561 -8.369,-35.56 -8.368,-35.559 -8.368,-35.559 -8.367,-35.559 -8.366,-35.558 -8.359,-35.553 -8.358,-35.551 -8.358,-35.55 -8.356,-35.547 -8.355,-35.547 -8.351,-35.549 -8.36,-35.58 -8.36,-35.58 -8.361,-35.584 -8.374,-35.628 -8.377,-35.654 -8.37,-35.696 -8.372,-35.699 -8.373,-35.699 -8.374,-35.697 -8.376,-35.696 -8.376,-35.695 -8.377,-35.694 -8.378,-35.694 -8.379,-35.694 -8.379,-35.694 -8.381,-35.692 -8.381,-35.692 -8.382,-35.69 -8.385,-35.687 -8.385,-35.686 -8.386,-35.686 -8.386,-35.685 -8.386,-35.683 -8.386,-35.683 -8.387,-35.68 -8.387,-35.68 -8.388,-35.679 -8.388,-35.679 -8.389,-35.678 -8.39,-35.678 -8.391,-35.678 -8.391,-35.678 -8.392,-35.679 -8.393,-35.679 -8.394,-35.68 -8.395,-35.68 -8.395,-35.679 -8.396,-35.679 -8.397,-35.679 -8.397,-35.679 -8.398,-35.68 -8.399,-35.68 -8.399,-35.679 -8.4,-35.677 -8.401,-35.677 -8.407,-35.678 -8.42,-35.681 -8.433,-35.684 -8.44,-35.685 -8.444,-35.684 -8.444,-35.684 -8.444,-35.684 -8.461,-35.678 -8.465,-35.676 -8.49,-35.667 -8.493,-35.666 -8.49,-35.661 -8.486,-35.657 -8.459,-35.616 -8.456,-35.613 -8.455,-35.611 -8.45,-35.604 -8.432,-35.578 -8.431,-35.578 -8.431,-35.578 -8.43,-35.578 -8.429,-35.58 -8.428,-35.58 -8.427,-35.581 -8.427,-35.582 -8.426,-35.582 -8.425,-35.583 -8.424,-35.584 -8.424,-35.585 -8.423,-35.586 -8.422,-35.587 -8.421,-35.587 -8.42,-35.588 -8.419,-35.589 -8.416,-35.592 -8.416,-35.593 -8.415,-35.593 -8.415,-35.594 -8.413,-35.596 -8.412,-35.597 -8.41,-35.597 -8.409,-35.596 -8.406,-35.595 -8.402,-35.591 -8.402,-35.591 -8.402,-35.591 -8.4,-35.589 -8.399,-35.588 -8.397,-35.586 -8.397,-35.585 -8.395,-35.585 -8.395,-35.585 -8.394,-35.584 -8.392,-35.582 -8.391,-35.582 -8.39,-35.581 -8.389,-35.579 -8.388,-35.577 -8.387,-35.576 -8.385,-35.575 -8.385,-35.573 -8.384,-35.572 -8.384,-35.572 -8.383,-35.572 -8.382,-35.571 -8.382,-35.569 -8.38,-35.567 -8.379,-35.566 -8.378,-35.566 -8.378,-35.565 -8.378,-35.564 -8.378,-35.563 -8.377,-35.562",
+      "polygon_points": 136,
+      "has_geocode": true,
+      "uf_hint": "PE",
+      "region": "NE",
+      "geometry_wkt": "POLYGON ((-35.562 -8.377, -35.561 -8.376, -35.561 -8.374, -35.561 -8.374, -35.561 -8.372, -35.561 -8.371, -35.561 -8.37, -35.56 -8.369, -35.559 -8.368, -35.559 -8.368, -35.559 -8.367, -35.558 -8.366, -35.553 -8.359, -35.551 -8.358, -35.55 -8.358, -35.547 -8.356, -35.547 -8.355, -35.549 -8.351, -35.58 -8.36, -35.58 -8.36, -35.584 -8.361, -35.628 -8.374, -35.654 -8.377, -35.696 -8.37, -35.699 -8.372, -35.699 -8.373, -35.697 -8.374, -35.696 -8.376, -35.695 -8.376, -35.694 -8.377, -35.694 -8.378, -35.694 -8.379, -35.694 -8.379, -35.692 -8.381, -35.692 -8.381, -35.69 -8.382, -35.687 -8.385, -35.686 -8.385, -35.686 -8.386, -35.685 -8.386, -35.683 -8.386, -35.683 -8.386, -35.68 -8.387, -35.68 -8.387, -35.679 -8.388, -35.679 -8.388, -35.678 -8.389, -35.678 -8.39, -35.678 -8.391, -35.678 -8.391, -35.679 -8.392, -35.679 -8.393, -35.68 -8.394, -35.68 -8.395, -35.679 -8.395, -35.679 -8.396, -35.679 -8.397, -35.679 -8.397, -35.68 -8.398, -35.68 -8.399, -35.679 -8.399, -35.677 -8.4, -35.677 -8.401, -35.678 -8.407, -35.681 -8.42, -35.684 -8.433, -35.685 -8.44, -35.684 -8.444, -35.684 -8.444, -35.684 -8.444, -35.678 -8.461, -35.676 -8.465, -35.667 -8.49, -35.666 -8.493, -35.661 -8.49, -35.657 -8.486, -35.616 -8.459, -35.613 -8.456, -35.611 -8.455, -35.604 -8.45, -35.578 -8.432, -35.578 -8.431, -35.578 -8.431, -35.578 -8.43, -35.58 -8.429, -35.58 -8.428, -35.581 -8.427, -35.582 -8.427, -35.582 -8.426, -35.583 -8.425, -35.584 -8.424, -35.585 -8.424, -35.586 -8.423, -35.587 -8.422, -35.587 -8.421, -35.588 -8.42, -35.589 -8.419, -35.592 -8.416, -35.593 -8.416, -35.593 -8.415, -35.594 -8.415, -35.596 -8.413, -35.597 -8.412, -35.597 -8.41, -35.596 -8.409, -35.595 -8.406, -35.591 -8.402, -35.591 -8.402, -35.591 -8.402, -35.589 -8.4, -35.588 -8.399, -35.586 -8.397, -35.585 -8.397, -35.585 -8.395, -35.585 -8.395, -35.584 -8.394, -35.582 -8.392, -35.582 -8.391, -35.581 -8.39, -35.579 -8.389, -35.577 -8.388, -35.576 -8.387, -35.575 -8.385, -35.573 -8.385, -35.572 -8.384, -35.572 -8.384, -35.572 -8.383, -35.571 -8.382, -35.569 -8.382, -35.567 -8.38, -35.566 -8.379, -35.566 -8.378, -35.565 -8.378, -35.564 -8.378, -35.563 -8.378, -35.562 -8.377))",
+      "uf": "PE",
+      "location": "Barra de Guabiraba/PE, Cortês/PE",
+      "event_short": "Inundações",
+      "status_vigencia": "vigente",
+      "date": "23/07/2026",
+      "time": "11:23",
+      "sent_br": "2026-07-23T11:23:50-03:00",
+      "onset_br": "2026-07-23T11:23:50-03:00",
+      "expires_br": "2026-07-23T23:55:00-03:00",
+      "duration_minutes": 751,
+      "duration_hours": 12.52,
+      "duration_bucket": "12h a 24h",
+      "time_since_minutes": 12,
+      "time_since_hours": 0.2,
+      "time_since_bucket": "Até 1h",
+      "is_active": true
+    },
     {
       "identifier": "185658/2026",
       "entry_id": "185658/2026",
@@ -472,8 +523,8 @@
       "duration_minutes": 1440,
       "duration_hours": 24.0,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 90,
-      "time_since_hours": 1.5,
+      "time_since_minutes": 126,
+      "time_since_hours": 2.1,
       "time_since_bucket": "1h a 3h",
       "is_active": true
     },
@@ -519,8 +570,8 @@
       "duration_minutes": 1433,
       "duration_hours": 23.88,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 112,
-      "time_since_hours": 1.87,
+      "time_since_minutes": 149,
+      "time_since_hours": 2.48,
       "time_since_bucket": "1h a 3h",
       "is_active": true
     },
@@ -566,8 +617,8 @@
       "duration_minutes": 1080,
       "duration_hours": 18.0,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 119,
-      "time_since_hours": 1.98,
+      "time_since_minutes": 155,
+      "time_since_hours": 2.58,
       "time_since_bucket": "1h a 3h",
       "is_active": true
     },
@@ -613,8 +664,8 @@
       "duration_minutes": 969,
       "duration_hours": 16.15,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 278,
-      "time_since_hours": 4.63,
+      "time_since_minutes": 315,
+      "time_since_hours": 5.25,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -660,8 +711,8 @@
       "duration_minutes": 1072,
       "duration_hours": 17.87,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 382,
-      "time_since_hours": 6.37,
+      "time_since_minutes": 418,
+      "time_since_hours": 6.97,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -707,8 +758,8 @@
       "duration_minutes": 1084,
       "duration_hours": 18.07,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 393,
-      "time_since_hours": 6.55,
+      "time_since_minutes": 430,
+      "time_since_hours": 7.17,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -754,8 +805,8 @@
       "duration_minutes": 829,
       "duration_hours": 13.82,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 638,
-      "time_since_hours": 10.63,
+      "time_since_minutes": 675,
+      "time_since_hours": 11.25,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -801,8 +852,8 @@
       "duration_minutes": 1372,
       "duration_hours": 22.87,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 681,
-      "time_since_hours": 11.35,
+      "time_since_minutes": 718,
+      "time_since_hours": 11.97,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -848,9 +899,9 @@
       "duration_minutes": 1386,
       "duration_hours": 23.1,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 695,
-      "time_since_hours": 11.58,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 732,
+      "time_since_hours": 12.2,
+      "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
     {
@@ -895,9 +946,9 @@
       "duration_minutes": 119,
       "duration_hours": 1.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 703,
-      "time_since_hours": 11.72,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 740,
+      "time_since_hours": 12.33,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -942,9 +993,9 @@
       "duration_minutes": 1395,
       "duration_hours": 23.25,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 704,
-      "time_since_hours": 11.73,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 741,
+      "time_since_hours": 12.35,
+      "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
     {
@@ -989,8 +1040,8 @@
       "duration_minutes": 358,
       "duration_hours": 5.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 793,
-      "time_since_hours": 13.22,
+      "time_since_minutes": 829,
+      "time_since_hours": 13.82,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1036,8 +1087,8 @@
       "duration_minutes": 356,
       "duration_hours": 5.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 980,
-      "time_since_hours": 16.33,
+      "time_since_minutes": 1017,
+      "time_since_hours": 16.95,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1083,8 +1134,8 @@
       "duration_minutes": 1082,
       "duration_hours": 18.03,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1021,
-      "time_since_hours": 17.02,
+      "time_since_minutes": 1058,
+      "time_since_hours": 17.63,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1130,8 +1181,8 @@
       "duration_minutes": 1448,
       "duration_hours": 24.13,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 1028,
-      "time_since_hours": 17.13,
+      "time_since_minutes": 1064,
+      "time_since_hours": 17.73,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1177,8 +1228,8 @@
       "duration_minutes": 1362,
       "duration_hours": 22.7,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1061,
-      "time_since_hours": 17.68,
+      "time_since_minutes": 1098,
+      "time_since_hours": 18.3,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1224,8 +1275,8 @@
       "duration_minutes": 359,
       "duration_hours": 5.98,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1068,
-      "time_since_hours": 17.8,
+      "time_since_minutes": 1105,
+      "time_since_hours": 18.42,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1271,8 +1322,8 @@
       "duration_minutes": 1372,
       "duration_hours": 22.87,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1072,
-      "time_since_hours": 17.87,
+      "time_since_minutes": 1108,
+      "time_since_hours": 18.47,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1318,8 +1369,8 @@
       "duration_minutes": 1414,
       "duration_hours": 23.57,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1113,
-      "time_since_hours": 18.55,
+      "time_since_minutes": 1150,
+      "time_since_hours": 19.17,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1365,8 +1416,8 @@
       "duration_minutes": 2521,
       "duration_hours": 42.02,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 1161,
-      "time_since_hours": 19.35,
+      "time_since_minutes": 1197,
+      "time_since_hours": 19.95,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1412,8 +1463,8 @@
       "duration_minutes": 114,
       "duration_hours": 1.9,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1164,
-      "time_since_hours": 19.4,
+      "time_since_minutes": 1200,
+      "time_since_hours": 20.0,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1459,8 +1510,8 @@
       "duration_minutes": 119,
       "duration_hours": 1.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1168,
-      "time_since_hours": 19.47,
+      "time_since_minutes": 1204,
+      "time_since_hours": 20.07,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1506,8 +1557,8 @@
       "duration_minutes": 357,
       "duration_hours": 5.95,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1221,
-      "time_since_hours": 20.35,
+      "time_since_minutes": 1258,
+      "time_since_hours": 20.97,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1553,8 +1604,8 @@
       "duration_minutes": 177,
       "duration_hours": 2.95,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1241,
-      "time_since_hours": 20.68,
+      "time_since_minutes": 1277,
+      "time_since_hours": 21.28,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1600,8 +1651,8 @@
       "duration_minutes": 356,
       "duration_hours": 5.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1250,
-      "time_since_hours": 20.83,
+      "time_since_minutes": 1287,
+      "time_since_hours": 21.45,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1647,8 +1698,8 @@
       "duration_minutes": 207,
       "duration_hours": 3.45,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1256,
-      "time_since_hours": 20.93,
+      "time_since_minutes": 1293,
+      "time_since_hours": 21.55,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1694,8 +1745,8 @@
       "duration_minutes": 210,
       "duration_hours": 3.5,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1259,
-      "time_since_hours": 20.98,
+      "time_since_minutes": 1296,
+      "time_since_hours": 21.6,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1741,8 +1792,8 @@
       "duration_minutes": 211,
       "duration_hours": 3.52,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1261,
-      "time_since_hours": 21.02,
+      "time_since_minutes": 1297,
+      "time_since_hours": 21.62,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1788,8 +1839,8 @@
       "duration_minutes": 356,
       "duration_hours": 5.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1275,
-      "time_since_hours": 21.25,
+      "time_since_minutes": 1312,
+      "time_since_hours": 21.87,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1835,8 +1886,8 @@
       "duration_minutes": 1440,
       "duration_hours": 24.0,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1289,
-      "time_since_hours": 21.48,
+      "time_since_minutes": 1325,
+      "time_since_hours": 22.08,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1882,8 +1933,8 @@
       "duration_minutes": 410,
       "duration_hours": 6.83,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 1289,
-      "time_since_hours": 21.48,
+      "time_since_minutes": 1326,
+      "time_since_hours": 22.1,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1929,8 +1980,8 @@
       "duration_minutes": 356,
       "duration_hours": 5.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1331,
-      "time_since_hours": 22.18,
+      "time_since_minutes": 1367,
+      "time_since_hours": 22.78,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1976,8 +2027,8 @@
       "duration_minutes": 312,
       "duration_hours": 5.2,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1332,
-      "time_since_hours": 22.2,
+      "time_since_minutes": 1368,
+      "time_since_hours": 22.8,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -2023,8 +2074,8 @@
       "duration_minutes": 176,
       "duration_hours": 2.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1336,
-      "time_since_hours": 22.27,
+      "time_since_minutes": 1372,
+      "time_since_hours": 22.87,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -2070,8 +2121,8 @@
       "duration_minutes": 698,
       "duration_hours": 11.63,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 1347,
-      "time_since_hours": 22.45,
+      "time_since_minutes": 1384,
+      "time_since_hours": 23.07,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -2117,8 +2168,8 @@
       "duration_minutes": 237,
       "duration_hours": 3.95,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1361,
-      "time_since_hours": 22.68,
+      "time_since_minutes": 1398,
+      "time_since_hours": 23.3,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -2164,8 +2215,8 @@
       "duration_minutes": 178,
       "duration_hours": 2.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1362,
-      "time_since_hours": 22.7,
+      "time_since_minutes": 1399,
+      "time_since_hours": 23.32,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -2211,8 +2262,8 @@
       "duration_minutes": 715,
       "duration_hours": 11.92,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 1364,
-      "time_since_hours": 22.73,
+      "time_since_minutes": 1401,
+      "time_since_hours": 23.35,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -2258,8 +2309,8 @@
       "duration_minutes": 170,
       "duration_hours": 2.83,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1365,
-      "time_since_hours": 22.75,
+      "time_since_minutes": 1401,
+      "time_since_hours": 23.35,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -2305,8 +2356,8 @@
       "duration_minutes": 1440,
       "duration_hours": 24.0,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1379,
-      "time_since_hours": 22.98,
+      "time_since_minutes": 1415,
+      "time_since_hours": 23.58,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -2316,7 +2367,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
       "sent": "2026-07-22T11:40:29-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "INUNDAÇÕES",
@@ -2343,7 +2394,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "event_short": "Inundações",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "22/07/2026",
       "time": "11:40",
       "sent_br": "2026-07-22T11:40:29-03:00",
@@ -2352,196 +2403,8 @@
       "duration_minutes": 1429,
       "duration_hours": 23.82,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1398,
-      "time_since_hours": 23.3,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": true
-    },
-    {
-      "identifier": "185613/2026",
-      "entry_id": "185613/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "sent": "2026-07-22T11:32:46-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "INUNDAÇÕES",
-      "responseType": "Execute",
-      "urgency": "Immediate",
-      "severity": "Severe",
-      "certainty": "Observed",
-      "onset": "2026-07-22T11:32:46-03:00",
-      "expires": "2026-07-22T17:30:00-03:00",
-      "nivel": "Alto",
-      "headline": "Defesa Civil:ATENCAO - 22/07 11:25 - INUNDACAO GRADUAL nas proximas horas para o municipio de Sao Domingos. Ocorrencias ligue 199 ou 193.",
-      "description": "ATENÇÃO - 22/07 11:25 - INUNDAÇÃO GRADUAL nas próximas horas para o município de São Domingos. Ocorrências ligue 199 ou 193.",
-      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "São Domingos/SC",
-      "polygon_raw": "-26.4,-52.522 -26.4,-52.522 -26.399,-52.522 -26.399,-52.522 -26.399,-52.523 -26.399,-52.523 -26.399,-52.523 -26.399,-52.523 -26.399,-52.524 -26.399,-52.524 -26.399,-52.524 -26.399,-52.525 -26.399,-52.525 -26.399,-52.525 -26.4,-52.526 -26.4,-52.526 -26.4,-52.526 -26.4,-52.526 -26.4,-52.527 -26.4,-52.527 -26.4,-52.528 -26.4,-52.528 -26.4,-52.528 -26.4,-52.529 -26.4,-52.529 -26.4,-52.529 -26.4,-52.53 -26.4,-52.53 -26.4,-52.53 -26.4,-52.53 -26.4,-52.531 -26.401,-52.531 -26.401,-52.531 -26.401,-52.532 -26.401,-52.532 -26.401,-52.532 -26.402,-52.533 -26.402,-52.533 -26.402,-52.533 -26.402,-52.534 -26.402,-52.534 -26.402,-52.534 -26.403,-52.534 -26.403,-52.535 -26.403,-52.535 -26.403,-52.535 -26.403,-52.535 -26.403,-52.536 -26.403,-52.536 -26.403,-52.536 -26.403,-52.537 -26.403,-52.537 -26.403,-52.537 -26.403,-52.537 -26.403,-52.537 -26.403,-52.537 -26.403,-52.537 -26.403,-52.537 -26.403,-52.538 -26.403,-52.538 -26.403,-52.538 -26.403,-52.539 -26.403,-52.539 -26.403,-52.539 -26.403,-52.539 -26.404,-52.539 -26.404,-52.539 -26.404,-52.539 -26.404,-52.539 -26.405,-52.539 -26.405,-52.539 -26.406,-52.54 -26.407,-52.542 -26.407,-52.542 -26.407,-52.542 -26.407,-52.542 -26.407,-52.543 -26.407,-52.543 -26.407,-52.543 -26.407,-52.544 -26.407,-52.544 -26.407,-52.545 -26.407,-52.545 -26.407,-52.545 -26.407,-52.546 -26.407,-52.546 -26.408,-52.546 -26.408,-52.547 -26.408,-52.547 -26.408,-52.547 -26.408,-52.548 -26.408,-52.548 -26.409,-52.548 -26.409,-52.549 -26.409,-52.549 -26.409,-52.549 -26.409,-52.549 -26.409,-52.55 -26.41,-52.55 -26.41,-52.55 -26.41,-52.551 -26.41,-52.551 -26.41,-52.552 -26.411,-52.552 -26.411,-52.552 -26.411,-52.552 -26.411,-52.553 -26.411,-52.553 -26.411,-52.553 -26.411,-52.553 -26.411,-52.553 -26.411,-52.554 -26.411,-52.554 -26.411,-52.554 -26.411,-52.555 -26.411,-52.555 -26.411,-52.555 -26.411,-52.555 -26.41,-52.555 -26.41,-52.555 -26.41,-52.555 -26.41,-52.556 -26.41,-52.556 -26.409,-52.556 -26.409,-52.556 -26.408,-52.556 -26.408,-52.556 -26.408,-52.556 -26.407,-52.556 -26.407,-52.556 -26.408,-52.557 -26.408,-52.557 -26.408,-52.557 -26.408,-52.557 -26.408,-52.557 -26.408,-52.557 -26.408,-52.557 -26.408,-52.557 -26.409,-52.557 -26.409,-52.557 -26.409,-52.558 -26.409,-52.558 -26.409,-52.558 -26.409,-52.558 -26.409,-52.558 -26.41,-52.558 -26.41,-52.558 -26.41,-52.558 -26.41,-52.558 -26.41,-52.559 -26.41,-52.559 -26.41,-52.559 -26.41,-52.559 -26.41,-52.559 -26.41,-52.559 -26.41,-52.559 -26.411,-52.56 -26.411,-52.56 -26.411,-52.56 -26.411,-52.56 -26.411,-52.56 -26.411,-52.56 -26.411,-52.56 -26.412,-52.56 -26.412,-52.56 -26.412,-52.56 -26.412,-52.56 -26.412,-52.56 -26.412,-52.56 -26.413,-52.56 -26.413,-52.56 -26.413,-52.56 -26.413,-52.561 -26.413,-52.561 -26.413,-52.561 -26.413,-52.561 -26.413,-52.561 -26.413,-52.561 -26.414,-52.561 -26.414,-52.561 -26.414,-52.561 -26.414,-52.561 -26.414,-52.562 -26.414,-52.562 -26.414,-52.562 -26.414,-52.562 -26.414,-52.562 -26.414,-52.562 -26.414,-52.562 -26.414,-52.562 -26.414,-52.563 -26.414,-52.563 -26.415,-52.563 -26.415,-52.563 -26.415,-52.563 -26.415,-52.563 -26.415,-52.563 -26.415,-52.563 -26.415,-52.564 -26.415,-52.564 -26.415,-52.564 -26.415,-52.564 -26.414,-52.564 -26.414,-52.565 -26.414,-52.565 -26.414,-52.565 -26.414,-52.565 -26.414,-52.565 -26.414,-52.566 -26.414,-52.566 -26.414,-52.566 -26.414,-52.566 -26.414,-52.566 -26.415,-52.566 -26.415,-52.566 -26.415,-52.567 -26.415,-52.567 -26.415,-52.567 -26.415,-52.567 -26.415,-52.567 -26.415,-52.567 -26.415,-52.567 -26.415,-52.567 -26.415,-52.567 -26.415,-52.567 -26.415,-52.567 -26.415,-52.567 -26.415,-52.567 -26.416,-52.568 -26.416,-52.568 -26.416,-52.568 -26.416,-52.568 -26.416,-52.568 -26.416,-52.568 -26.416,-52.568 -26.416,-52.568 -26.416,-52.568 -26.416,-52.568 -26.416,-52.568 -26.416,-52.568 -26.416,-52.569 -26.417,-52.569 -26.417,-52.569 -26.417,-52.569 -26.417,-52.569 -26.417,-52.57 -26.417,-52.57 -26.417,-52.57 -26.417,-52.57 -26.417,-52.57 -26.417,-52.57 -26.417,-52.57 -26.418,-52.57 -26.418,-52.571 -26.418,-52.571 -26.418,-52.571 -26.418,-52.571 -26.418,-52.571 -26.418,-52.571 -26.418,-52.571 -26.419,-52.571 -26.419,-52.572 -26.419,-52.572 -26.419,-52.572 -26.419,-52.572 -26.419,-52.572 -26.419,-52.572 -26.42,-52.572 -26.42,-52.572 -26.42,-52.572 -26.42,-52.572 -26.42,-52.572 -26.42,-52.572 -26.42,-52.572 -26.421,-52.572 -26.421,-52.572 -26.421,-52.572 -26.421,-52.572 -26.421,-52.572 -26.421,-52.572 -26.422,-52.572 -26.422,-52.572 -26.422,-52.572 -26.422,-52.572 -26.422,-52.572 -26.422,-52.572 -26.422,-52.572 -26.422,-52.572 -26.423,-52.572 -26.423,-52.572 -26.423,-52.572 -26.423,-52.572 -26.423,-52.572 -26.423,-52.572 -26.424,-52.572 -26.424,-52.572 -26.424,-52.572 -26.424,-52.572 -26.424,-52.572 -26.424,-52.573 -26.424,-52.573 -26.425,-52.573 -26.425,-52.573 -26.425,-52.573 -26.425,-52.573 -26.425,-52.573 -26.425,-52.574 -26.425,-52.574 -26.425,-52.574 -26.425,-52.574 -26.426,-52.574 -26.426,-52.574 -26.426,-52.574 -26.426,-52.574 -26.426,-52.575 -26.426,-52.575 -26.426,-52.575 -26.426,-52.575 -26.426,-52.575 -26.427,-52.575 -26.427,-52.575 -26.427,-52.575 -26.427,-52.575 -26.427,-52.575 -26.427,-52.575 -26.427,-52.575 -26.427,-52.575 -26.427,-52.575 -26.428,-52.575 -26.428,-52.575 -26.428,-52.575 -26.428,-52.575 -26.428,-52.575 -26.428,-52.575 -26.429,-52.575 -26.429,-52.575 -26.429,-52.576 -26.429,-52.576 -26.429,-52.576 -26.429,-52.576 -26.429,-52.576 -26.429,-52.576 -26.43,-52.576 -26.43,-52.576 -26.43,-52.577 -26.43,-52.577 -26.43,-52.577 -26.43,-52.577 -26.43,-52.577 -26.43,-52.577 -26.43,-52.577 -26.431,-52.577 -26.431,-52.577 -26.431,-52.577 -26.431,-52.577 -26.431,-52.577 -26.431,-52.578 -26.431,-52.578 -26.431,-52.578 -26.431,-52.578 -26.431,-52.578 -26.431,-52.578 -26.431,-52.579 -26.431,-52.579 -26.431,-52.579 -26.431,-52.579 -26.431,-52.579 -26.431,-52.579 -26.431,-52.579 -26.431,-52.58 -26.431,-52.58 -26.431,-52.58 -26.431,-52.58 -26.431,-52.58 -26.431,-52.58 -26.432,-52.58 -26.432,-52.58 -26.432,-52.58 -26.432,-52.58 -26.432,-52.58 -26.432,-52.58 -26.432,-52.58 -26.432,-52.58 -26.432,-52.58 -26.433,-52.58 -26.433,-52.58 -26.433,-52.58 -26.433,-52.58 -26.433,-52.58 -26.433,-52.58 -26.433,-52.58 -26.433,-52.58 -26.433,-52.58 -26.433,-52.58 -26.433,-52.58 -26.433,-52.581 -26.433,-52.581 -26.433,-52.581 -26.433,-52.581 -26.433,-52.581 -26.433,-52.581 -26.433,-52.581 -26.433,-52.582 -26.433,-52.582 -26.433,-52.582 -26.433,-52.582 -26.433,-52.582 -26.433,-52.582 -26.434,-52.582 -26.434,-52.582 -26.434,-52.583 -26.434,-52.583 -26.434,-52.583 -26.435,-52.583 -26.435,-52.583 -26.435,-52.583 -26.435,-52.583 -26.435,-52.583 -26.436,-52.583 -26.436,-52.583 -26.436,-52.583 -26.436,-52.583 -26.436,-52.583 -26.436,-52.583 -26.437,-52.583 -26.437,-52.583 -26.437,-52.583 -26.437,-52.583 -26.437,-52.583 -26.437,-52.582 -26.437,-52.582 -26.438,-52.582 -26.438,-52.582 -26.438,-52.582 -26.438,-52.582 -26.438,-52.582 -26.439,-52.582 -26.439,-52.582 -26.439,-52.582 -26.439,-52.582 -26.44,-52.582 -26.44,-52.582 -26.44,-52.582 -26.44,-52.582 -26.44,-52.582 -26.441,-52.582 -26.441,-52.582 -26.441,-52.582 -26.441,-52.582 -26.441,-52.582 -26.442,-52.582 -26.442,-52.581 -26.442,-52.581 -26.442,-52.581 -26.443,-52.581 -26.443,-52.581 -26.443,-52.581 -26.443,-52.581 -26.444,-52.581 -26.444,-52.582 -26.444,-52.582 -26.444,-52.582 -26.444,-52.582 -26.444,-52.582 -26.444,-52.582 -26.445,-52.582 -26.445,-52.582 -26.445,-52.582 -26.445,-52.582 -26.445,-52.582 -26.445,-52.582 -26.446,-52.582 -26.446,-52.583 -26.446,-52.583 -26.446,-52.583 -26.446,-52.583 -26.446,-52.583 -26.446,-52.583 -26.446,-52.584 -26.446,-52.584 -26.447,-52.584 -26.447,-52.584 -26.447,-52.584 -26.447,-52.584 -26.447,-52.584 -26.447,-52.584 -26.447,-52.585 -26.447,-52.585 -26.447,-52.585 -26.447,-52.585 -26.447,-52.585 -26.448,-52.585 -26.448,-52.585 -26.448,-52.585 -26.448,-52.585 -26.448,-52.584 -26.448,-52.584 -26.448,-52.584 -26.448,-52.584 -26.448,-52.584 -26.448,-52.584 -26.448,-52.584 -26.448,-52.584 -26.448,-52.583 -26.448,-52.583 -26.448,-52.583 -26.448,-52.583 -26.448,-52.583 -26.448,-52.583 -26.448,-52.583 -26.449,-52.583 -26.449,-52.583 -26.449,-52.583 -26.449,-52.583 -26.449,-52.582 -26.449,-52.582 -26.449,-52.582 -26.449,-52.582 -26.45,-52.582 -26.45,-52.582 -26.45,-52.582 -26.45,-52.582 -26.45,-52.582 -26.45,-52.582 -26.45,-52.581 -26.45,-52.581 -26.45,-52.581 -26.451,-52.581 -26.451,-52.582 -26.451,-52.582 -26.451,-52.582 -26.451,-52.582 -26.451,-52.582 -26.451,-52.582 -26.451,-52.582 -26.451,-52.582 -26.451,-52.582 -26.451,-52.582 -26.451,-52.582 -26.452,-52.582 -26.452,-52.582 -26.452,-52.582 -26.452,-52.582 -26.452,-52.582 -26.452,-52.582 -26.452,-52.582 -26.452,-52.582 -26.452,-52.582 -26.452,-52.582 -26.452,-52.582 -26.452,-52.582 -26.452,-52.582 -26.452,-52.582 -26.452,-52.581 -26.452,-52.581 -26.452,-52.581 -26.452,-52.581 -26.452,-52.581 -26.452,-52.581 -26.452,-52.581 -26.452,-52.581 -26.453,-52.581 -26.453,-52.581 -26.453,-52.581 -26.453,-52.581 -26.453,-52.581 -26.453,-52.581 -26.453,-52.58 -26.453,-52.58 -26.453,-52.58 -26.453,-52.58 -26.454,-52.58 -26.454,-52.58 -26.454,-52.58 -26.454,-52.58 -26.454,-52.58 -26.454,-52.58 -26.454,-52.58 -26.454,-52.58 -26.454,-52.58 -26.454,-52.58 -26.454,-52.58 -26.454,-52.58 -26.454,-52.58 -26.454,-52.58 -26.455,-52.58 -26.455,-52.58 -26.455,-52.58 -26.455,-52.58 -26.455,-52.58 -26.455,-52.58 -26.455,-52.58 -26.455,-52.58 -26.455,-52.58 -26.455,-52.58 -26.455,-52.58 -26.456,-52.58 -26.456,-52.58 -26.456,-52.58 -26.456,-52.58 -26.456,-52.58 -26.456,-52.581 -26.456,-52.581 -26.456,-52.581 -26.456,-52.581 -26.456,-52.581 -26.456,-52.582 -26.456,-52.582 -26.456,-52.582 -26.456,-52.582 -26.456,-52.582 -26.456,-52.582 -26.456,-52.583 -26.456,-52.583 -26.456,-52.583 -26.456,-52.583 -26.456,-52.583 -26.456,-52.583 -26.456,-52.584 -26.456,-52.584 -26.456,-52.584 -26.456,-52.584 -26.456,-52.584 -26.455,-52.584 -26.455,-52.584 -26.455,-52.585 -26.455,-52.585 -26.455,-52.585 -26.455,-52.585 -26.455,-52.585 -26.455,-52.585 -26.455,-52.586 -26.455,-52.586 -26.455,-52.586 -26.455,-52.587 -26.455,-52.587 -26.455,-52.587 -26.455,-52.587 -26.455,-52.588 -26.455,-52.588 -26.455,-52.588 -26.455,-52.588 -26.455,-52.588 -26.455,-52.589 -26.455,-52.589 -26.455,-52.589 -26.455,-52.589 -26.455,-52.59 -26.455,-52.59 -26.455,-52.59 -26.455,-52.59 -26.456,-52.591 -26.456,-52.591 -26.456,-52.591 -26.456,-52.591 -26.456,-52.591 -26.457,-52.591 -26.457,-52.592 -26.457,-52.592 -26.457,-52.592 -26.457,-52.592 -26.457,-52.592 -26.457,-52.592 -26.457,-52.593 -26.458,-52.593 -26.458,-52.593 -26.458,-52.593 -26.458,-52.593 -26.458,-52.594 -26.458,-52.594 -26.458,-52.594 -26.458,-52.594 -26.459,-52.595 -26.459,-52.595 -26.459,-52.595 -26.459,-52.595 -26.459,-52.595 -26.459,-52.595 -26.459,-52.596 -26.459,-52.596 -26.459,-52.596 -26.459,-52.596 -26.459,-52.597 -26.459,-52.597 -26.459,-52.597 -26.459,-52.597 -26.459,-52.597 -26.459,-52.597 -26.459,-52.597 -26.459,-52.598 -26.459,-52.598 -26.459,-52.598 -26.459,-52.598 -26.459,-52.599 -26.459,-52.599 -26.459,-52.599 -26.459,-52.599 -26.459,-52.6 -26.46,-52.6 -26.46,-52.6 -26.46,-52.6 -26.46,-52.6 -26.46,-52.601 -26.46,-52.601 -26.46,-52.601 -26.46,-52.601 -26.46,-52.602 -26.46,-52.602 -26.46,-52.602 -26.462,-52.602 -26.462,-52.602 -26.462,-52.602 -26.462,-52.602 -26.463,-52.601 -26.463,-52.601 -26.463,-52.601 -26.463,-52.601 -26.463,-52.601 -26.463,-52.601 -26.463,-52.601 -26.463,-52.601 -26.464,-52.601 -26.464,-52.601 -26.464,-52.601 -26.464,-52.6 -26.464,-52.6 -26.464,-52.6 -26.464,-52.6 -26.464,-52.6 -26.464,-52.6 -26.464,-52.6 -26.465,-52.6 -26.465,-52.6 -26.465,-52.6 -26.465,-52.599 -26.465,-52.599 -26.465,-52.599 -26.465,-52.599 -26.465,-52.599 -26.465,-52.599 -26.465,-52.599 -26.466,-52.599 -26.466,-52.599 -26.466,-52.599 -26.466,-52.599 -26.466,-52.599 -26.466,-52.599 -26.467,-52.599 -26.467,-52.599 -26.467,-52.599 -26.467,-52.599 -26.467,-52.598 -26.468,-52.598 -26.468,-52.598 -26.468,-52.598 -26.468,-52.598 -26.468,-52.598 -26.469,-52.598 -26.469,-52.597 -26.47,-52.597 -26.47,-52.597 -26.47,-52.597 -26.47,-52.597 -26.47,-52.597 -26.47,-52.597 -26.47,-52.597 -26.47,-52.597 -26.47,-52.597 -26.47,-52.597 -26.47,-52.597 -26.471,-52.598 -26.471,-52.598 -26.471,-52.598 -26.471,-52.598 -26.471,-52.598 -26.471,-52.598 -26.471,-52.598 -26.471,-52.598 -26.471,-52.598 -26.472,-52.598 -26.472,-52.598 -26.472,-52.598 -26.472,-52.599 -26.472,-52.599 -26.472,-52.599 -26.472,-52.599 -26.473,-52.599 -26.473,-52.599 -26.473,-52.599 -26.473,-52.599 -26.473,-52.599 -26.473,-52.599 -26.473,-52.6 -26.474,-52.6 -26.474,-52.6 -26.474,-52.6 -26.474,-52.6 -26.474,-52.6 -26.474,-52.6 -26.475,-52.6 -26.475,-52.6 -26.475,-52.601 -26.475,-52.601 -26.475,-52.601 -26.475,-52.601 -26.475,-52.601 -26.475,-52.601 -26.476,-52.601 -26.476,-52.601 -26.476,-52.601 -26.476,-52.601 -26.476,-52.601 -26.476,-52.602 -26.476,-52.602 -26.476,-52.602 -26.476,-52.602 -26.476,-52.603 -26.476,-52.603 -26.475,-52.603 -26.475,-52.603 -26.475,-52.604 -26.475,-52.604 -26.475,-52.604 -26.475,-52.604 -26.475,-52.605 -26.475,-52.605 -26.475,-52.605 -26.475,-52.605 -26.475,-52.605 -26.475,-52.606 -26.475,-52.606 -26.475,-52.606 -26.475,-52.606 -26.475,-52.607 -26.475,-52.607 -26.475,-52.607 -26.475,-52.607 -26.475,-52.608 -26.475,-52.608 -26.475,-52.608 -26.475,-52.608 -26.475,-52.609 -26.475,-52.609 -26.475,-52.609 -26.476,-52.609 -26.476,-52.609 -26.476,-52.61 -26.476,-52.61 -26.476,-52.61 -26.477,-52.61 -26.477,-52.611 -26.477,-52.611 -26.478,-52.611 -26.48,-52.609 -26.481,-52.607 -26.483,-52.606 -26.485,-52.606 -26.486,-52.606 -26.488,-52.609 -26.489,-52.61 -26.491,-52.61 -26.493,-52.609 -26.498,-52.608 -26.5,-52.609 -26.502,-52.61 -26.504,-52.609 -26.509,-52.608 -26.509,-52.609 -26.51,-52.61 -26.51,-52.615 -26.511,-52.616 -26.512,-52.616 -26.52,-52.611 -26.522,-52.611 -26.526,-52.608 -26.528,-52.608 -26.53,-52.609 -26.533,-52.609 -26.541,-52.608 -26.543,-52.608 -26.551,-52.614 -26.55,-52.616 -26.55,-52.618 -26.55,-52.62 -26.551,-52.62 -26.551,-52.622 -26.553,-52.622 -26.554,-52.623 -26.554,-52.624 -26.555,-52.625 -26.556,-52.624 -26.557,-52.625 -26.557,-52.627 -26.558,-52.628 -26.558,-52.629 -26.559,-52.63 -26.559,-52.632 -26.559,-52.634 -26.56,-52.635 -26.561,-52.636 -26.562,-52.635 -26.563,-52.634 -26.564,-52.634 -26.564,-52.636 -26.565,-52.637 -26.565,-52.639 -26.565,-52.639 -26.565,-52.64 -26.566,-52.64 -26.567,-52.642 -26.566,-52.643 -26.567,-52.644 -26.567,-52.645 -26.568,-52.646 -26.568,-52.646 -26.568,-52.645 -26.569,-52.644 -26.569,-52.644 -26.57,-52.644 -26.57,-52.645 -26.569,-52.646 -26.569,-52.648 -26.569,-52.648 -26.569,-52.649 -26.57,-52.649 -26.571,-52.647 -26.572,-52.647 -26.573,-52.647 -26.574,-52.649 -26.574,-52.649 -26.575,-52.648 -26.575,-52.648 -26.576,-52.648 -26.577,-52.647 -26.577,-52.647 -26.577,-52.647 -26.577,-52.648 -26.577,-52.648 -26.578,-52.648 -26.578,-52.648 -26.578,-52.648 -26.58,-52.649 -26.581,-52.65 -26.582,-52.649 -26.583,-52.649 -26.583,-52.649 -26.582,-52.65 -26.582,-52.651 -26.583,-52.652 -26.584,-52.653 -26.584,-52.653 -26.585,-52.651 -26.586,-52.649 -26.586,-52.648 -26.59,-52.661 -26.592,-52.659 -26.593,-52.659 -26.594,-52.661 -26.596,-52.663 -26.598,-52.666 -26.599,-52.667 -26.601,-52.671 -26.602,-52.67 -26.603,-52.67 -26.604,-52.67 -26.605,-52.67 -26.606,-52.67 -26.607,-52.67 -26.608,-52.67 -26.609,-52.67 -26.61,-52.67 -26.611,-52.67 -26.612,-52.67 -26.612,-52.669 -26.613,-52.669 -26.612,-52.667 -26.612,-52.666 -26.612,-52.666 -26.612,-52.666 -26.613,-52.666 -26.614,-52.67 -26.614,-52.671 -26.616,-52.672 -26.618,-52.675 -26.619,-52.674 -26.621,-52.673 -26.621,-52.671 -26.62,-52.668 -26.62,-52.666 -26.619,-52.664 -26.618,-52.661 -26.621,-52.661 -26.623,-52.661 -26.623,-52.661 -26.623,-52.661 -26.623,-52.661 -26.623,-52.662 -26.624,-52.663 -26.626,-52.663 -26.627,-52.663 -26.628,-52.663 -26.63,-52.661 -26.631,-52.661 -26.63,-52.66 -26.629,-52.658 -26.63,-52.658 -26.631,-52.655 -26.632,-52.654 -26.633,-52.653 -26.633,-52.652 -26.632,-52.65 -26.632,-52.649 -26.629,-52.648 -26.628,-52.648 -26.627,-52.648 -26.626,-52.648 -26.626,-52.648 -26.626,-52.647 -26.627,-52.646 -26.628,-52.645 -26.634,-52.643 -26.634,-52.643 -26.634,-52.641 -26.633,-52.64 -26.631,-52.638 -26.628,-52.64 -26.623,-52.64 -26.622,-52.64 -26.622,-52.639 -26.622,-52.638 -26.624,-52.637 -26.625,-52.636 -26.626,-52.635 -26.626,-52.633 -26.627,-52.632 -26.627,-52.631 -26.63,-52.631 -26.633,-52.632 -26.635,-52.632 -26.636,-52.631 -26.635,-52.625 -26.636,-52.622 -26.636,-52.621 -26.637,-52.619 -26.638,-52.618 -26.64,-52.617 -26.641,-52.618 -26.642,-52.619 -26.646,-52.626 -26.649,-52.628 -26.651,-52.628 -26.653,-52.627 -26.655,-52.626 -26.656,-52.623 -26.656,-52.621 -26.654,-52.619 -26.655,-52.618 -26.655,-52.616 -26.655,-52.615 -26.654,-52.613 -26.652,-52.612 -26.651,-52.612 -26.651,-52.61 -26.653,-52.609 -26.653,-52.608 -26.655,-52.608 -26.657,-52.607 -26.66,-52.607 -26.664,-52.608 -26.664,-52.609 -26.665,-52.614 -26.667,-52.618 -26.668,-52.62 -26.669,-52.62 -26.67,-52.62 -26.671,-52.619 -26.672,-52.618 -26.672,-52.616 -26.672,-52.614 -26.673,-52.612 -26.674,-52.61 -26.675,-52.607 -26.673,-52.607 -26.669,-52.605 -26.667,-52.604 -26.666,-52.602 -26.666,-52.6 -26.667,-52.597 -26.667,-52.596 -26.669,-52.595 -26.674,-52.594 -26.676,-52.593 -26.678,-52.592 -26.679,-52.592 -26.679,-52.591 -26.679,-52.589 -26.677,-52.588 -26.674,-52.587 -26.672,-52.586 -26.67,-52.585 -26.667,-52.585 -26.664,-52.585 -26.664,-52.583 -26.666,-52.581 -26.667,-52.58 -26.669,-52.579 -26.671,-52.58 -26.673,-52.58 -26.676,-52.58 -26.678,-52.58 -26.679,-52.579 -26.679,-52.577 -26.677,-52.575 -26.676,-52.574 -26.674,-52.572 -26.672,-52.568 -26.671,-52.563 -26.671,-52.558 -26.67,-52.557 -26.667,-52.557 -26.664,-52.56 -26.662,-52.563 -26.661,-52.565 -26.662,-52.567 -26.663,-52.572 -26.664,-52.574 -26.662,-52.576 -26.661,-52.577 -26.65,-52.575 -26.65,-52.574 -26.649,-52.568 -26.65,-52.564 -26.653,-52.555 -26.654,-52.543 -26.655,-52.542 -26.658,-52.541 -26.661,-52.543 -26.662,-52.545 -26.663,-52.545 -26.664,-52.543 -26.664,-52.538 -26.662,-52.533 -26.662,-52.53 -26.662,-52.528 -26.661,-52.526 -26.659,-52.526 -26.657,-52.528 -26.653,-52.535 -26.651,-52.536 -26.648,-52.536 -26.637,-52.534 -26.635,-52.535 -26.634,-52.538 -26.631,-52.541 -26.627,-52.544 -26.625,-52.543 -26.621,-52.544 -26.62,-52.543 -26.618,-52.542 -26.622,-52.534 -26.625,-52.531 -26.627,-52.53 -26.63,-52.53 -26.631,-52.529 -26.633,-52.528 -26.635,-52.523 -26.636,-52.515 -26.636,-52.514 -26.636,-52.514 -26.633,-52.513 -26.631,-52.514 -26.628,-52.519 -26.627,-52.52 -26.621,-52.519 -26.618,-52.521 -26.614,-52.523 -26.611,-52.524 -26.611,-52.525 -26.611,-52.527 -26.613,-52.529 -26.613,-52.53 -26.61,-52.534 -26.608,-52.537 -26.608,-52.54 -26.607,-52.541 -26.605,-52.541 -26.603,-52.538 -26.601,-52.535 -26.601,-52.532 -26.602,-52.529 -26.605,-52.521 -26.606,-52.516 -26.605,-52.514 -26.602,-52.512 -26.6,-52.509 -26.597,-52.506 -26.596,-52.505 -26.595,-52.502 -26.59,-52.494 -26.59,-52.492 -26.59,-52.491 -26.592,-52.491 -26.598,-52.493 -26.6,-52.493 -26.601,-52.493 -26.603,-52.492 -26.605,-52.49 -26.605,-52.489 -26.603,-52.487 -26.604,-52.485 -26.604,-52.484 -26.604,-52.484 -26.603,-52.483 -26.602,-52.483 -26.601,-52.483 -26.599,-52.482 -26.595,-52.479 -26.595,-52.478 -26.593,-52.474 -26.592,-52.471 -26.592,-52.47 -26.591,-52.47 -26.59,-52.471 -26.589,-52.472 -26.589,-52.476 -26.589,-52.477 -26.588,-52.479 -26.586,-52.483 -26.584,-52.487 -26.584,-52.49 -26.583,-52.493 -26.581,-52.494 -26.579,-52.495 -26.577,-52.495 -26.576,-52.494 -26.576,-52.493 -26.576,-52.491 -26.578,-52.489 -26.579,-52.485 -26.579,-52.483 -26.579,-52.481 -26.579,-52.479 -26.579,-52.478 -26.578,-52.477 -26.576,-52.476 -26.574,-52.477 -26.572,-52.478 -26.57,-52.478 -26.569,-52.477 -26.567,-52.474 -26.567,-52.471 -26.568,-52.467 -26.568,-52.465 -26.569,-52.464 -26.57,-52.464 -26.572,-52.464 -26.573,-52.465 -26.576,-52.466 -26.578,-52.466 -26.579,-52.466 -26.579,-52.464 -26.577,-52.462 -26.575,-52.461 -26.575,-52.46 -26.574,-52.46 -26.573,-52.461 -26.572,-52.46 -26.57,-52.46 -26.569,-52.46 -26.568,-52.461 -26.567,-52.462 -26.564,-52.462 -26.564,-52.463 -26.561,-52.462 -26.56,-52.463 -26.558,-52.462 -26.557,-52.462 -26.555,-52.463 -26.554,-52.463 -26.553,-52.465 -26.553,-52.467 -26.552,-52.467 -26.55,-52.467 -26.55,-52.469 -26.549,-52.469 -26.549,-52.471 -26.548,-52.471 -26.546,-52.471 -26.546,-52.471 -26.545,-52.472 -26.545,-52.474 -26.543,-52.475 -26.542,-52.475 -26.54,-52.476 -26.54,-52.476 -26.54,-52.477 -26.54,-52.477 -26.538,-52.477 -26.537,-52.477 -26.536,-52.477 -26.536,-52.478 -26.535,-52.478 -26.534,-52.478 -26.533,-52.478 -26.533,-52.48 -26.533,-52.481 -26.532,-52.482 -26.532,-52.481 -26.523,-52.475 -26.516,-52.474 -26.515,-52.474 -26.514,-52.472 -26.514,-52.47 -26.514,-52.468 -26.513,-52.468 -26.512,-52.467 -26.512,-52.467 -26.511,-52.466 -26.51,-52.466 -26.509,-52.466 -26.508,-52.467 -26.507,-52.468 -26.507,-52.468 -26.507,-52.471 -26.507,-52.472 -26.505,-52.472 -26.505,-52.474 -26.499,-52.474 -26.497,-52.474 -26.497,-52.475 -26.496,-52.476 -26.493,-52.475 -26.49,-52.476 -26.488,-52.475 -26.488,-52.476 -26.488,-52.478 -26.487,-52.48 -26.485,-52.479 -26.482,-52.479 -26.48,-52.479 -26.479,-52.479 -26.478,-52.48 -26.476,-52.481 -26.476,-52.481 -26.469,-52.481 -26.467,-52.481 -26.467,-52.479 -26.463,-52.479 -26.461,-52.478 -26.459,-52.476 -26.458,-52.475 -26.456,-52.472 -26.455,-52.47 -26.454,-52.467 -26.453,-52.464 -26.453,-52.462 -26.452,-52.459 -26.451,-52.457 -26.45,-52.455 -26.449,-52.452 -26.449,-52.451 -26.445,-52.448 -26.438,-52.442 -26.438,-52.443 -26.44,-52.448 -26.44,-52.449 -26.441,-52.454 -26.441,-52.459 -26.441,-52.459 -26.441,-52.459 -26.44,-52.46 -26.439,-52.463 -26.437,-52.465 -26.436,-52.466 -26.433,-52.468 -26.427,-52.469 -26.426,-52.469 -26.426,-52.469 -26.426,-52.47 -26.425,-52.47 -26.425,-52.47 -26.425,-52.47 -26.425,-52.471 -26.425,-52.471 -26.425,-52.471 -26.425,-52.472 -26.425,-52.472 -26.425,-52.472 -26.425,-52.472 -26.424,-52.473 -26.424,-52.473 -26.424,-52.473 -26.424,-52.473 -26.423,-52.474 -26.423,-52.474 -26.423,-52.474 -26.422,-52.474 -26.421,-52.476 -26.42,-52.478 -26.421,-52.482 -26.42,-52.485 -26.421,-52.489 -26.421,-52.491 -26.42,-52.496 -26.415,-52.499 -26.414,-52.503 -26.412,-52.504 -26.408,-52.511 -26.406,-52.512 -26.406,-52.512 -26.406,-52.512 -26.406,-52.513 -26.406,-52.513 -26.406,-52.513 -26.406,-52.513 -26.405,-52.514 -26.405,-52.514 -26.405,-52.514 -26.405,-52.514 -26.404,-52.514 -26.404,-52.515 -26.404,-52.515 -26.403,-52.515 -26.403,-52.516 -26.403,-52.516 -26.403,-52.516 -26.403,-52.517 -26.403,-52.517 -26.403,-52.517 -26.403,-52.517 -26.403,-52.517 -26.403,-52.517 -26.402,-52.517 -26.402,-52.517 -26.402,-52.517 -26.402,-52.518 -26.401,-52.518 -26.401,-52.518 -26.401,-52.519 -26.401,-52.519 -26.401,-52.519 -26.401,-52.52 -26.401,-52.52 -26.401,-52.521 -26.401,-52.521 -26.401,-52.521 -26.4,-52.521 -26.4,-52.521 -26.4,-52.522",
-      "polygon_points": 1449,
-      "has_geocode": true,
-      "uf_hint": "SC",
-      "region": "S",
-      "geometry_wkt": "POLYGON ((-52.522 -26.4, -52.522 -26.4, -52.522 -26.399, -52.522 -26.399, -52.523 -26.399, -52.523 -26.399, -52.523 -26.399, -52.523 -26.399, -52.524 -26.399, -52.524 -26.399, -52.524 -26.399, -52.525 -26.399, -52.525 -26.399, -52.525 -26.399, -52.526 -26.4, -52.526 -26.4, -52.526 -26.4, -52.526 -26.4, -52.527 -26.4, -52.527 -26.4, -52.528 -26.4, -52.528 -26.4, -52.528 -26.4, -52.529 -26.4, -52.529 -26.4, -52.529 -26.4, -52.53 -26.4, -52.53 -26.4, -52.53 -26.4, -52.53 -26.4, -52.531 -26.4, -52.531 -26.401, -52.531 -26.401, -52.532 -26.401, -52.532 -26.401, -52.532 -26.401, -52.533 -26.402, -52.533 -26.402, -52.533 -26.402, -52.534 -26.402, -52.534 -26.402, -52.534 -26.402, -52.534 -26.403, -52.535 -26.403, -52.535 -26.403, -52.535 -26.403, -52.535 -26.403, -52.536 -26.403, -52.536 -26.403, -52.536 -26.403, -52.537 -26.403, -52.537 -26.403, -52.537 -26.403, -52.537 -26.403, -52.537 -26.403, -52.537 -26.403, -52.537 -26.403, -52.537 -26.403, -52.538 -26.403, -52.538 -26.403, -52.538 -26.403, -52.539 -26.403, -52.539 -26.403, -52.539 -26.403, -52.539 -26.403, -52.539 -26.404, -52.539 -26.404, -52.539 -26.404, -52.539 -26.404, -52.539 -26.405, -52.539 -26.405, -52.54 -26.406, -52.542 -26.407, -52.542 -26.407, -52.542 -26.407, -52.542 -26.407, -52.543 -26.407, -52.543 -26.407, -52.543 -26.407, -52.544 -26.407, -52.544 -26.407, -52.545 -26.407, -52.545 -26.407, -52.545 -26.407, -52.546 -26.407, -52.546 -26.407, -52.546 -26.408, -52.547 -26.408, -52.547 -26.408, -52.547 -26.408, -52.548 -26.408, -52.548 -26.408, -52.548 -26.409, -52.549 -26.409, -52.549 -26.409, -52.549 -26.409, -52.549 -26.409, -52.55 -26.409, -52.55 -26.41, -52.55 -26.41, -52.551 -26.41, -52.551 -26.41, -52.552 -26.41, -52.552 -26.411, -52.552 -26.411, -52.552 -26.411, -52.553 -26.411, -52.553 -26.411, -52.553 -26.411, -52.553 -26.411, -52.553 -26.411, -52.554 -26.411, -52.554 -26.411, -52.554 -26.411, -52.555 -26.411, -52.555 -26.411, -52.555 -26.411, -52.555 -26.411, -52.555 -26.41, -52.555 -26.41, -52.555 -26.41, -52.556 -26.41, -52.556 -26.41, -52.556 -26.409, -52.556 -26.409, -52.556 -26.408, -52.556 -26.408, -52.556 -26.408, -52.556 -26.407, -52.556 -26.407, -52.557 -26.408, -52.557 -26.408, -52.557 -26.408, -52.557 -26.408, -52.557 -26.408, -52.557 -26.408, -52.557 -26.408, -52.557 -26.408, -52.557 -26.409, -52.557 -26.409, -52.558 -26.409, -52.558 -26.409, -52.558 -26.409, -52.558 -26.409, -52.558 -26.409, -52.558 -26.41, -52.558 -26.41, -52.558 -26.41, -52.558 -26.41, -52.559 -26.41, -52.559 -26.41, -52.559 -26.41, -52.559 -26.41, -52.559 -26.41, -52.559 -26.41, -52.559 -26.41, -52.56 -26.411, -52.56 -26.411, -52.56 -26.411, -52.56 -26.411, -52.56 -26.411, -52.56 -26.411, -52.56 -26.411, -52.56 -26.412, -52.56 -26.412, -52.56 -26.412, -52.56 -26.412, -52.56 -26.412, -52.56 -26.412, -52.56 -26.413, -52.56 -26.413, -52.56 -26.413, -52.561 -26.413, -52.561 -26.413, -52.561 -26.413, -52.561 -26.413, -52.561 -26.413, -52.561 -26.413, -52.561 -26.414, -52.561 -26.414, -52.561 -26.414, -52.561 -26.414, -52.562 -26.414, -52.562 -26.414, -52.562 -26.414, -52.562 -26.414, -52.562 -26.414, -52.562 -26.414, -52.562 -26.414, -52.562 -26.414, -52.563 -26.414, -52.563 -26.414, -52.563 -26.415, -52.563 -26.415, -52.563 -26.415, -52.563 -26.415, -52.563 -26.415, -52.563 -26.415, -52.564 -26.415, -52.564 -26.415, -52.564 -26.415, -52.564 -26.415, -52.564 -26.414, -52.565 -26.414, -52.565 -26.414, -52.565 -26.414, -52.565 -26.414, -52.565 -26.414, -52.566 -26.414, -52.566 -26.414, -52.566 -26.414, -52.566 -26.414, -52.566 -26.414, -52.566 -26.415, -52.566 -26.415, -52.567 -26.415, -52.567 -26.415, -52.567 -26.415, -52.567 -26.415, -52.567 -26.415, -52.567 -26.415, -52.567 -26.415, -52.567 -26.415, -52.567 -26.415, -52.567 -26.415, -52.567 -26.415, -52.567 -26.415, -52.567 -26.415, -52.568 -26.416, -52.568 -26.416, -52.568 -26.416, -52.568 -26.416, -52.568 -26.416, -52.568 -26.416, -52.568 -26.416, -52.568 -26.416, -52.568 -26.416, -52.568 -26.416, -52.568 -26.416, -52.568 -26.416, -52.569 -26.416, -52.569 -26.417, -52.569 -26.417, -52.569 -26.417, -52.569 -26.417, -52.57 -26.417, -52.57 -26.417, -52.57 -26.417, -52.57 -26.417, -52.57 -26.417, -52.57 -26.417, -52.57 -26.417, -52.57 -26.418, -52.571 -26.418, -52.571 -26.418, -52.571 -26.418, -52.571 -26.418, -52.571 -26.418, -52.571 -26.418, -52.571 -26.418, -52.571 -26.419, -52.572 -26.419, -52.572 -26.419, -52.572 -26.419, -52.572 -26.419, -52.572 -26.419, -52.572 -26.419, -52.572 -26.42, -52.572 -26.42, -52.572 -26.42, -52.572 -26.42, -52.572 -26.42, -52.572 -26.42, -52.572 -26.42, -52.572 -26.421, -52.572 -26.421, -52.572 -26.421, -52.572 -26.421, -52.572 -26.421, -52.572 -26.421, -52.572 -26.422, -52.572 -26.422, -52.572 -26.422, -52.572 -26.422, -52.572 -26.422, -52.572 -26.422, -52.572 -26.422, -52.572 -26.422, -52.572 -26.423, -52.572 -26.423, -52.572 -26.423, -52.572 -26.423, -52.572 -26.423, -52.572 -26.423, -52.572 -26.424, -52.572 -26.424, -52.572 -26.424, -52.572 -26.424, -52.572 -26.424, -52.573 -26.424, -52.573 -26.424, -52.573 -26.425, -52.573 -26.425, -52.573 -26.425, -52.573 -26.425, -52.573 -26.425, -52.574 -26.425, -52.574 -26.425, -52.574 -26.425, -52.574 -26.425, -52.574 -26.426, -52.574 -26.426, -52.574 -26.426, -52.574 -26.426, -52.575 -26.426, -52.575 -26.426, -52.575 -26.426, -52.575 -26.426, -52.575 -26.426, -52.575 -26.427, -52.575 -26.427, -52.575 -26.427, -52.575 -26.427, -52.575 -26.427, -52.575 -26.427, -52.575 -26.427, -52.575 -26.427, -52.575 -26.427, -52.575 -26.428, -52.575 -26.428, -52.575 -26.428, -52.575 -26.428, -52.575 -26.428, -52.575 -26.428, -52.575 -26.429, -52.575 -26.429, -52.576 -26.429, -52.576 -26.429, -52.576 -26.429, -52.576 -26.429, -52.576 -26.429, -52.576 -26.429, -52.576 -26.43, -52.576 -26.43, -52.577 -26.43, -52.577 -26.43, -52.577 -26.43, -52.577 -26.43, -52.577 -26.43, -52.577 -26.43, -52.577 -26.43, -52.577 -26.431, -52.577 -26.431, -52.577 -26.431, -52.577 -26.431, -52.577 -26.431, -52.578 -26.431, -52.578 -26.431, -52.578 -26.431, -52.578 -26.431, -52.578 -26.431, -52.578 -26.431, -52.579 -26.431, -52.579 -26.431, -52.579 -26.431, -52.579 -26.431, -52.579 -26.431, -52.579 -26.431, -52.579 -26.431, -52.58 -26.431, -52.58 -26.431, -52.58 -26.431, -52.58 -26.431, -52.58 -26.431, -52.58 -26.431, -52.58 -26.432, -52.58 -26.432, -52.58 -26.432, -52.58 -26.432, -52.58 -26.432, -52.58 -26.432, -52.58 -26.432, -52.58 -26.432, -52.58 -26.432, -52.58 -26.433, -52.58 -26.433, -52.58 -26.433, -52.58 -26.433, -52.58 -26.433, -52.58 -26.433, -52.58 -26.433, -52.58 -26.433, -52.58 -26.433, -52.58 -26.433, -52.58 -26.433, -52.581 -26.433, -52.581 -26.433, -52.581 -26.433, -52.581 -26.433, -52.581 -26.433, -52.581 -26.433, -52.581 -26.433, -52.582 -26.433, -52.582 -26.433, -52.582 -26.433, -52.582 -26.433, -52.582 -26.433, -52.582 -26.433, -52.582 -26.434, -52.582 -26.434, -52.583 -26.434, -52.583 -26.434, -52.583 -26.434, -52.583 -26.435, -52.583 -26.435, -52.583 -26.435, -52.583 -26.435, -52.583 -26.435, -52.583 -26.436, -52.583 -26.436, -52.583 -26.436, -52.583 -26.436, -52.583 -26.436, -52.583 -26.436, -52.583 -26.437, -52.583 -26.437, -52.583 -26.437, -52.583 -26.437, -52.583 -26.437, -52.582 -26.437, -52.582 -26.437, -52.582 -26.438, -52.582 -26.438, -52.582 -26.438, -52.582 -26.438, -52.582 -26.438, -52.582 -26.439, -52.582 -26.439, -52.582 -26.439, -52.582 -26.439, -52.582 -26.44, -52.582 -26.44, -52.582 -26.44, -52.582 -26.44, -52.582 -26.44, -52.582 -26.441, -52.582 -26.441, -52.582 -26.441, -52.582 -26.441, -52.582 -26.441, -52.582 -26.442, -52.581 -26.442, -52.581 -26.442, -52.581 -26.442, -52.581 -26.443, -52.581 -26.443, -52.581 -26.443, -52.581 -26.443, -52.581 -26.444, -52.582 -26.444, -52.582 -26.444, -52.582 -26.444, -52.582 -26.444, -52.582 -26.444, -52.582 -26.444, -52.582 -26.445, -52.582 -26.445, -52.582 -26.445, -52.582 -26.445, -52.582 -26.445, -52.582 -26.445, -52.582 -26.446, -52.583 -26.446, -52.583 -26.446, -52.583 -26.446, -52.583 -26.446, -52.583 -26.446, -52.583 -26.446, -52.584 -26.446, -52.584 -26.446, -52.584 -26.447, -52.584 -26.447, -52.584 -26.447, -52.584 -26.447, -52.584 -26.447, -52.584 -26.447, -52.585 -26.447, -52.585 -26.447, -52.585 -26.447, -52.585 -26.447, -52.585 -26.447, -52.585 -26.448, -52.585 -26.448, -52.585 -26.448, -52.585 -26.448, -52.584 -26.448, -52.584 -26.448, -52.584 -26.448, -52.584 -26.448, -52.584 -26.448, -52.584 -26.448, -52.584 -26.448, -52.584 -26.448, -52.583 -26.448, -52.583 -26.448, -52.583 -26.448, -52.583 -26.448, -52.583 -26.448, -52.583 -26.448, -52.583 -26.448, -52.583 -26.449, -52.583 -26.449, -52.583 -26.449, -52.583 -26.449, -52.582 -26.449, -52.582 -26.449, -52.582 -26.449, -52.582 -26.449, -52.582 -26.45, -52.582 -26.45, -52.582 -26.45, -52.582 -26.45, -52.582 -26.45, -52.582 -26.45, -52.581 -26.45, -52.581 -26.45, -52.581 -26.45, -52.581 -26.451, -52.582 -26.451, -52.582 -26.451, -52.582 -26.451, -52.582 -26.451, -52.582 -26.451, -52.582 -26.451, -52.582 -26.451, -52.582 -26.451, -52.582 -26.451, -52.582 -26.451, -52.582 -26.451, -52.582 -26.452, -52.582 -26.452, -52.582 -26.452, -52.582 -26.452, -52.582 -26.452, -52.582 -26.452, -52.582 -26.452, -52.582 -26.452, -52.582 -26.452, -52.582 -26.452, -52.582 -26.452, -52.582 -26.452, -52.582 -26.452, -52.582 -26.452, -52.581 -26.452, -52.581 -26.452, -52.581 -26.452, -52.581 -26.452, -52.581 -26.452, -52.581 -26.452, -52.581 -26.452, -52.581 -26.452, -52.581 -26.453, -52.581 -26.453, -52.581 -26.453, -52.581 -26.453, -52.581 -26.453, -52.581 -26.453, -52.58 -26.453, -52.58 -26.453, -52.58 -26.453, -52.58 -26.453, -52.58 -26.454, -52.58 -26.454, -52.58 -26.454, -52.58 -26.454, -52.58 -26.454, -52.58 -26.454, -52.58 -26.454, -52.58 -26.454, -52.58 -26.454, -52.58 -26.454, -52.58 -26.454, -52.58 -26.454, -52.58 -26.454, -52.58 -26.454, -52.58 -26.455, -52.58 -26.455, -52.58 -26.455, -52.58 -26.455, -52.58 -26.455, -52.58 -26.455, -52.58 -26.455, -52.58 -26.455, -52.58 -26.455, -52.58 -26.455, -52.58 -26.455, -52.58 -26.456, -52.58 -26.456, -52.58 -26.456, -52.58 -26.456, -52.58 -26.456, -52.581 -26.456, -52.581 -26.456, -52.581 -26.456, -52.581 -26.456, -52.581 -26.456, -52.582 -26.456, -52.582 -26.456, -52.582 -26.456, -52.582 -26.456, -52.582 -26.456, -52.582 -26.456, -52.583 -26.456, -52.583 -26.456, -52.583 -26.456, -52.583 -26.456, -52.583 -26.456, -52.583 -26.456, -52.584 -26.456, -52.584 -26.456, -52.584 -26.456, -52.584 -26.456, -52.584 -26.456, -52.584 -26.455, -52.584 -26.455, -52.585 -26.455, -52.585 -26.455, -52.585 -26.455, -52.585 -26.455, -52.585 -26.455, -52.585 -26.455, -52.586 -26.455, -52.586 -26.455, -52.586 -26.455, -52.587 -26.455, -52.587 -26.455, -52.587 -26.455, -52.587 -26.455, -52.588 -26.455, -52.588 -26.455, -52.588 -26.455, -52.588 -26.455, -52.588 -26.455, -52.589 -26.455, -52.589 -26.455, -52.589 -26.455, -52.589 -26.455, -52.59 -26.455, -52.59 -26.455, -52.59 -26.455, -52.59 -26.455, -52.591 -26.456, -52.591 -26.456, -52.591 -26.456, -52.591 -26.456, -52.591 -26.456, -52.591 -26.457, -52.592 -26.457, -52.592 -26.457, -52.592 -26.457, -52.592 -26.457, -52.592 -26.457, -52.592 -26.457, -52.593 -26.457, -52.593 -26.458, -52.593 -26.458, -52.593 -26.458, -52.593 -26.458, -52.594 -26.458, -52.594 -26.458, -52.594 -26.458, -52.594 -26.458, -52.595 -26.459, -52.595 -26.459, -52.595 -26.459, -52.595 -26.459, -52.595 -26.459, -52.595 -26.459, -52.596 -26.459, -52.596 -26.459, -52.596 -26.459, -52.596 -26.459, -52.597 -26.459, -52.597 -26.459, -52.597 -26.459, -52.597 -26.459, -52.597 -26.459, -52.597 -26.459, -52.597 -26.459, -52.598 -26.459, -52.598 -26.459, -52.598 -26.459, -52.598 -26.459, -52.599 -26.459, -52.599 -26.459, -52.599 -26.459, -52.599 -26.459, -52.6 -26.459, -52.6 -26.46, -52.6 -26.46, -52.6 -26.46, -52.6 -26.46, -52.601 -26.46, -52.601 -26.46, -52.601 -26.46, -52.601 -26.46, -52.602 -26.46, -52.602 -26.46, -52.602 -26.46, -52.602 -26.462, -52.602 -26.462, -52.602 -26.462, -52.602 -26.462, -52.601 -26.463, -52.601 -26.463, -52.601 -26.463, -52.601 -26.463, -52.601 -26.463, -52.601 -26.463, -52.601 -26.463, -52.601 -26.463, -52.601 -26.464, -52.601 -26.464, -52.601 -26.464, -52.6 -26.464, -52.6 -26.464, -52.6 -26.464, -52.6 -26.464, -52.6 -26.464, -52.6 -26.464, -52.6 -26.464, -52.6 -26.465, -52.6 -26.465, -52.6 -26.465, -52.599 -26.465, -52.599 -26.465, -52.599 -26.465, -52.599 -26.465, -52.599 -26.465, -52.599 -26.465, -52.599 -26.465, -52.599 -26.466, -52.599 -26.466, -52.599 -26.466, -52.599 -26.466, -52.599 -26.466, -52.599 -26.466, -52.599 -26.467, -52.599 -26.467, -52.599 -26.467, -52.599 -26.467, -52.598 -26.467, -52.598 -26.468, -52.598 -26.468, -52.598 -26.468, -52.598 -26.468, -52.598 -26.468, -52.598 -26.469, -52.597 -26.469, -52.597 -26.47, -52.597 -26.47, -52.597 -26.47, -52.597 -26.47, -52.597 -26.47, -52.597 -26.47, -52.597 -26.47, -52.597 -26.47, -52.597 -26.47, -52.597 -26.47, -52.597 -26.47, -52.598 -26.471, -52.598 -26.471, -52.598 -26.471, -52.598 -26.471, -52.598 -26.471, -52.598 -26.471, -52.598 -26.471, -52.598 -26.471, -52.598 -26.471, -52.598 -26.472, -52.598 -26.472, -52.598 -26.472, -52.599 -26.472, -52.599 -26.472, -52.599 -26.472, -52.599 -26.472, -52.599 -26.473, -52.599 -26.473, -52.599 -26.473, -52.599 -26.473, -52.599 -26.473, -52.599 -26.473, -52.6 -26.473, -52.6 -26.474, -52.6 -26.474, -52.6 -26.474, -52.6 -26.474, -52.6 -26.474, -52.6 -26.474, -52.6 -26.475, -52.6 -26.475, -52.601 -26.475, -52.601 -26.475, -52.601 -26.475, -52.601 -26.475, -52.601 -26.475, -52.601 -26.475, -52.601 -26.476, -52.601 -26.476, -52.601 -26.476, -52.601 -26.476, -52.601 -26.476, -52.602 -26.476, -52.602 -26.476, -52.602 -26.476, -52.602 -26.476, -52.603 -26.476, -52.603 -26.476, -52.603 -26.475, -52.603 -26.475, -52.604 -26.475, -52.604 -26.475, -52.604 -26.475, -52.604 -26.475, -52.605 -26.475, -52.605 -26.475, -52.605 -26.475, -52.605 -26.475, -52.605 -26.475, -52.606 -26.475, -52.606 -26.475, -52.606 -26.475, -52.606 -26.475, -52.607 -26.475, -52.607 -26.475, -52.607 -26.475, -52.607 -26.475, -52.608 -26.475, -52.608 -26.475, -52.608 -26.475, -52.608 -26.475, -52.609 -26.475, -52.609 -26.475, -52.609 -26.475, -52.609 -26.476, -52.609 -26.476, -52.61 -26.476, -52.61 -26.476, -52.61 -26.476, -52.61 -26.477, -52.611 -26.477, -52.611 -26.477, -52.611 -26.478, -52.609 -26.48, -52.607 -26.481, -52.606 -26.483, -52.606 -26.485, -52.606 -26.486, -52.609 -26.488, -52.61 -26.489, -52.61 -26.491, -52.609 -26.493, -52.608 -26.498, -52.609 -26.5, -52.61 -26.502, -52.609 -26.504, -52.608 -26.509, -52.609 -26.509, -52.61 -26.51, -52.615 -26.51, -52.616 -26.511, -52.616 -26.512, -52.611 -26.52, -52.611 -26.522, -52.608 -26.526, -52.608 -26.528, -52.609 -26.53, -52.609 -26.533, -52.608 -26.541, -52.608 -26.543, -52.614 -26.551, -52.616 -26.55, -52.618 -26.55, -52.62 -26.55, -52.62 -26.551, -52.622 -26.551, -52.622 -26.553, -52.623 -26.554, -52.624 -26.554, -52.625 -26.555, -52.624 -26.556, -52.625 -26.557, -52.627 -26.557, -52.628 -26.558, -52.629 -26.558, -52.63 -26.559, -52.632 -26.559, -52.634 -26.559, -52.635 -26.56, -52.636 -26.561, -52.635 -26.562, -52.634 -26.563, -52.634 -26.564, -52.636 -26.564, -52.637 -26.565, -52.639 -26.565, -52.639 -26.565, -52.64 -26.565, -52.64 -26.566, -52.642 -26.567, -52.643 -26.566, -52.644 -26.567, -52.645 -26.567, -52.646 -26.568, -52.646 -26.568, -52.645 -26.568, -52.644 -26.569, -52.644 -26.569, -52.644 -26.57, -52.645 -26.57, -52.646 -26.569, -52.648 -26.569, -52.648 -26.569, -52.649 -26.569, -52.649 -26.57, -52.647 -26.571, -52.647 -26.572, -52.647 -26.573, -52.649 -26.574, -52.649 -26.574, -52.648 -26.575, -52.648 -26.575, -52.648 -26.576, -52.647 -26.577, -52.647 -26.577, -52.647 -26.577, -52.648 -26.577, -52.648 -26.577, -52.648 -26.578, -52.648 -26.578, -52.648 -26.578, -52.649 -26.58, -52.65 -26.581, -52.649 -26.582, -52.649 -26.583, -52.649 -26.583, -52.65 -26.582, -52.651 -26.582, -52.652 -26.583, -52.653 -26.584, -52.653 -26.584, -52.651 -26.585, -52.649 -26.586, -52.648 -26.586, -52.661 -26.59, -52.659 -26.592, -52.659 -26.593, -52.661 -26.594, -52.663 -26.596, -52.666 -26.598, -52.667 -26.599, -52.671 -26.601, -52.67 -26.602, -52.67 -26.603, -52.67 -26.604, -52.67 -26.605, -52.67 -26.606, -52.67 -26.607, -52.67 -26.608, -52.67 -26.609, -52.67 -26.61, -52.67 -26.611, -52.67 -26.612, -52.669 -26.612, -52.669 -26.613, -52.667 -26.612, -52.666 -26.612, -52.666 -26.612, -52.666 -26.612, -52.666 -26.613, -52.67 -26.614, -52.671 -26.614, -52.672 -26.616, -52.675 -26.618, -52.674 -26.619, -52.673 -26.621, -52.671 -26.621, -52.668 -26.62, -52.666 -26.62, -52.664 -26.619, -52.661 -26.618, -52.661 -26.621, -52.661 -26.623, -52.661 -26.623, -52.661 -26.623, -52.661 -26.623, -52.662 -26.623, -52.663 -26.624, -52.663 -26.626, -52.663 -26.627, -52.663 -26.628, -52.661 -26.63, -52.661 -26.631, -52.66 -26.63, -52.658 -26.629, -52.658 -26.63, -52.655 -26.631, -52.654 -26.632, -52.653 -26.633, -52.652 -26.633, -52.65 -26.632, -52.649 -26.632, -52.648 -26.629, -52.648 -26.628, -52.648 -26.627, -52.648 -26.626, -52.648 -26.626, -52.647 -26.626, -52.646 -26.627, -52.645 -26.628, -52.643 -26.634, -52.643 -26.634, -52.641 -26.634, -52.64 -26.633, -52.638 -26.631, -52.64 -26.628, -52.64 -26.623, -52.64 -26.622, -52.639 -26.622, -52.638 -26.622, -52.637 -26.624, -52.636 -26.625, -52.635 -26.626, -52.633 -26.626, -52.632 -26.627, -52.631 -26.627, -52.631 -26.63, -52.632 -26.633, -52.632 -26.635, -52.631 -26.636, -52.625 -26.635, -52.622 -26.636, -52.621 -26.636, -52.619 -26.637, -52.618 -26.638, -52.617 -26.64, -52.618 -26.641, -52.619 -26.642, -52.626 -26.646, -52.628 -26.649, -52.628 -26.651, -52.627 -26.653, -52.626 -26.655, -52.623 -26.656, -52.621 -26.656, -52.619 -26.654, -52.618 -26.655, -52.616 -26.655, -52.615 -26.655, -52.613 -26.654, -52.612 -26.652, -52.612 -26.651, -52.61 -26.651, -52.609 -26.653, -52.608 -26.653, -52.608 -26.655, -52.607 -26.657, -52.607 -26.66, -52.608 -26.664, -52.609 -26.664, -52.614 -26.665, -52.618 -26.667, -52.62 -26.668, -52.62 -26.669, -52.62 -26.67, -52.619 -26.671, -52.618 -26.672, -52.616 -26.672, -52.614 -26.672, -52.612 -26.673, -52.61 -26.674, -52.607 -26.675, -52.607 -26.673, -52.605 -26.669, -52.604 -26.667, -52.602 -26.666, -52.6 -26.666, -52.597 -26.667, -52.596 -26.667, -52.595 -26.669, -52.594 -26.674, -52.593 -26.676, -52.592 -26.678, -52.592 -26.679, -52.591 -26.679, -52.589 -26.679, -52.588 -26.677, -52.587 -26.674, -52.586 -26.672, -52.585 -26.67, -52.585 -26.667, -52.585 -26.664, -52.583 -26.664, -52.581 -26.666, -52.58 -26.667, -52.579 -26.669, -52.58 -26.671, -52.58 -26.673, -52.58 -26.676, -52.58 -26.678, -52.579 -26.679, -52.577 -26.679, -52.575 -26.677, -52.574 -26.676, -52.572 -26.674, -52.568 -26.672, -52.563 -26.671, -52.558 -26.671, -52.557 -26.67, -52.557 -26.667, -52.56 -26.664, -52.563 -26.662, -52.565 -26.661, -52.567 -26.662, -52.572 -26.663, -52.574 -26.664, -52.576 -26.662, -52.577 -26.661, -52.575 -26.65, -52.574 -26.65, -52.568 -26.649, -52.564 -26.65, -52.555 -26.653, -52.543 -26.654, -52.542 -26.655, -52.541 -26.658, -52.543 -26.661, -52.545 -26.662, -52.545 -26.663, -52.543 -26.664, -52.538 -26.664, -52.533 -26.662, -52.53 -26.662, -52.528 -26.662, -52.526 -26.661, -52.526 -26.659, -52.528 -26.657, -52.535 -26.653, -52.536 -26.651, -52.536 -26.648, -52.534 -26.637, -52.535 -26.635, -52.538 -26.634, -52.541 -26.631, -52.544 -26.627, -52.543 -26.625, -52.544 -26.621, -52.543 -26.62, -52.542 -26.618, -52.534 -26.622, -52.531 -26.625, -52.53 -26.627, -52.53 -26.63, -52.529 -26.631, -52.528 -26.633, -52.523 -26.635, -52.515 -26.636, -52.514 -26.636, -52.514 -26.636, -52.513 -26.633, -52.514 -26.631, -52.519 -26.628, -52.52 -26.627, -52.519 -26.621, -52.521 -26.618, -52.523 -26.614, -52.524 -26.611, -52.525 -26.611, -52.527 -26.611, -52.529 -26.613, -52.53 -26.613, -52.534 -26.61, -52.537 -26.608, -52.54 -26.608, -52.541 -26.607, -52.541 -26.605, -52.538 -26.603, -52.535 -26.601, -52.532 -26.601, -52.529 -26.602, -52.521 -26.605, -52.516 -26.606, -52.514 -26.605, -52.512 -26.602, -52.509 -26.6, -52.506 -26.597, -52.505 -26.596, -52.502 -26.595, -52.494 -26.59, -52.492 -26.59, -52.491 -26.59, -52.491 -26.592, -52.493 -26.598, -52.493 -26.6, -52.493 -26.601, -52.492 -26.603, -52.49 -26.605, -52.489 -26.605, -52.487 -26.603, -52.485 -26.604, -52.484 -26.604, -52.484 -26.604, -52.483 -26.603, -52.483 -26.602, -52.483 -26.601, -52.482 -26.599, -52.479 -26.595, -52.478 -26.595, -52.474 -26.593, -52.471 -26.592, -52.47 -26.592, -52.47 -26.591, -52.471 -26.59, -52.472 -26.589, -52.476 -26.589, -52.477 -26.589, -52.479 -26.588, -52.483 -26.586, -52.487 -26.584, -52.49 -26.584, -52.493 -26.583, -52.494 -26.581, -52.495 -26.579, -52.495 -26.577, -52.494 -26.576, -52.493 -26.576, -52.491 -26.576, -52.489 -26.578, -52.485 -26.579, -52.483 -26.579, -52.481 -26.579, -52.479 -26.579, -52.478 -26.579, -52.477 -26.578, -52.476 -26.576, -52.477 -26.574, -52.478 -26.572, -52.478 -26.57, -52.477 -26.569, -52.474 -26.567, -52.471 -26.567, -52.467 -26.568, -52.465 -26.568, -52.464 -26.569, -52.464 -26.57, -52.464 -26.572, -52.465 -26.573, -52.466 -26.576, -52.466 -26.578, -52.466 -26.579, -52.464 -26.579, -52.462 -26.577, -52.461 -26.575, -52.46 -26.575, -52.46 -26.574, -52.461 -26.573, -52.46 -26.572, -52.46 -26.57, -52.46 -26.569, -52.461 -26.568, -52.462 -26.567, -52.462 -26.564, -52.463 -26.564, -52.462 -26.561, -52.463 -26.56, -52.462 -26.558, -52.462 -26.557, -52.463 -26.555, -52.463 -26.554, -52.465 -26.553, -52.467 -26.553, -52.467 -26.552, -52.467 -26.55, -52.469 -26.55, -52.469 -26.549, -52.471 -26.549, -52.471 -26.548, -52.471 -26.546, -52.471 -26.546, -52.472 -26.545, -52.474 -26.545, -52.475 -26.543, -52.475 -26.542, -52.476 -26.54, -52.476 -26.54, -52.477 -26.54, -52.477 -26.54, -52.477 -26.538, -52.477 -26.537, -52.477 -26.536, -52.478 -26.536, -52.478 -26.535, -52.478 -26.534, -52.478 -26.533, -52.48 -26.533, -52.481 -26.533, -52.482 -26.532, -52.481 -26.532, -52.475 -26.523, -52.474 -26.516, -52.474 -26.515, -52.472 -26.514, -52.47 -26.514, -52.468 -26.514, -52.468 -26.513, -52.467 -26.512, -52.467 -26.512, -52.466 -26.511, -52.466 -26.51, -52.466 -26.509, -52.467 -26.508, -52.468 -26.507, -52.468 -26.507, -52.471 -26.507, -52.472 -26.507, -52.472 -26.505, -52.474 -26.505, -52.474 -26.499, -52.474 -26.497, -52.475 -26.497, -52.476 -26.496, -52.475 -26.493, -52.476 -26.49, -52.475 -26.488, -52.476 -26.488, -52.478 -26.488, -52.48 -26.487, -52.479 -26.485, -52.479 -26.482, -52.479 -26.48, -52.479 -26.479, -52.48 -26.478, -52.481 -26.476, -52.481 -26.476, -52.481 -26.469, -52.481 -26.467, -52.479 -26.467, -52.479 -26.463, -52.478 -26.461, -52.476 -26.459, -52.475 -26.458, -52.472 -26.456, -52.47 -26.455, -52.467 -26.454, -52.464 -26.453, -52.462 -26.453, -52.459 -26.452, -52.457 -26.451, -52.455 -26.45, -52.452 -26.449, -52.451 -26.449, -52.448 -26.445, -52.442 -26.438, -52.443 -26.438, -52.448 -26.44, -52.449 -26.44, -52.454 -26.441, -52.459 -26.441, -52.459 -26.441, -52.459 -26.441, -52.46 -26.44, -52.463 -26.439, -52.465 -26.437, -52.466 -26.436, -52.468 -26.433, -52.469 -26.427, -52.469 -26.426, -52.469 -26.426, -52.47 -26.426, -52.47 -26.425, -52.47 -26.425, -52.47 -26.425, -52.471 -26.425, -52.471 -26.425, -52.471 -26.425, -52.472 -26.425, -52.472 -26.425, -52.472 -26.425, -52.472 -26.425, -52.473 -26.424, -52.473 -26.424, -52.473 -26.424, -52.473 -26.424, -52.474 -26.423, -52.474 -26.423, -52.474 -26.423, -52.474 -26.422, -52.476 -26.421, -52.478 -26.42, -52.482 -26.421, -52.485 -26.42, -52.489 -26.421, -52.491 -26.421, -52.496 -26.42, -52.499 -26.415, -52.503 -26.414, -52.504 -26.412, -52.511 -26.408, -52.512 -26.406, -52.512 -26.406, -52.512 -26.406, -52.513 -26.406, -52.513 -26.406, -52.513 -26.406, -52.513 -26.406, -52.514 -26.405, -52.514 -26.405, -52.514 -26.405, -52.514 -26.405, -52.514 -26.404, -52.515 -26.404, -52.515 -26.404, -52.515 -26.403, -52.516 -26.403, -52.516 -26.403, -52.516 -26.403, -52.517 -26.403, -52.517 -26.403, -52.517 -26.403, -52.517 -26.403, -52.517 -26.403, -52.517 -26.403, -52.517 -26.402, -52.517 -26.402, -52.517 -26.402, -52.518 -26.402, -52.518 -26.401, -52.518 -26.401, -52.519 -26.401, -52.519 -26.401, -52.519 -26.401, -52.52 -26.401, -52.52 -26.401, -52.521 -26.401, -52.521 -26.401, -52.521 -26.401, -52.521 -26.4, -52.521 -26.4, -52.522 -26.4))",
-      "uf": "SC",
-      "location": "São Domingos/SC",
-      "event_short": "Inundações",
-      "status_vigencia": "expirado",
-      "date": "22/07/2026",
-      "time": "11:32",
-      "sent_br": "2026-07-22T11:32:46-03:00",
-      "onset_br": "2026-07-22T11:32:46-03:00",
-      "expires_br": "2026-07-22T17:30:00-03:00",
-      "duration_minutes": 357,
-      "duration_hours": 5.95,
-      "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1406,
-      "time_since_hours": 23.43,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false
-    },
-    {
-      "identifier": "185612/2026",
-      "entry_id": "185612/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "sent": "2026-07-22T11:23:30-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "BAIXA UMIDADE DO AR",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Severe",
-      "certainty": "Likely",
-      "onset": "2026-07-22T11:23:30-03:00",
-      "expires": "2026-07-22T20:00:00-03:00",
-      "nivel": "Alto",
-      "headline": "Defesa Civil:Umidade do ar pode ficar abaixo de 30 na tarde de hoje (22/07). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "description": "Um sistema de alta pressão favorece a ocorrência de umidade relativa do ar abaixo de 30% hoje (22/07).",
-      "instruction": "- Recomendações à população: \n- Evitar exercícios físicos ao ar livre entre 11 e 16h;\n- Sempre que possível permanecer em locais protegidos do sol, em áreas arborizadas;\n- Umidificar o ambiente com vaporizadores, recipientes com água, uso de toalhas úmidas;\n- Evitar exposição ao sol, usar protetor solar;\n- Proteja seus animais do calor: água fresca, sombra e ventilação, evite passeios das 11h às 15h e nunca deixe em carros ou locais fechados.\n- Emergência, ligue 193 ou 199.",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "Paraty/RJ, Nilópolis/RJ",
-      "polygon_raw": "-22.8,-43.402 -22.799,-43.403 -22.798,-43.404 -22.797,-43.405 -22.797,-43.405 -22.795,-43.406 -22.795,-43.406 -22.794,-43.408 -22.794,-43.408 -22.794,-43.408 -22.792,-43.41 -22.792,-43.41 -22.792,-43.41 -22.791,-43.41 -22.791,-43.41 -22.791,-43.411 -22.792,-43.412 -22.793,-43.414 -22.793,-43.414 -22.794,-43.414 -22.794,-43.415 -22.794,-43.415 -22.795,-43.416 -22.795,-43.416 -22.795,-43.417 -22.796,-43.417 -22.796,-43.418 -22.797,-43.418 -22.797,-43.419 -22.797,-43.42 -22.798,-43.421 -22.798,-43.421 -22.798,-43.421 -22.799,-43.422 -22.799,-43.423 -22.799,-43.423 -22.799,-43.423 -22.799,-43.424 -22.8,-43.424 -22.8,-43.424 -22.8,-43.424 -22.8,-43.425 -22.8,-43.425 -22.8,-43.425 -22.8,-43.425 -22.8,-43.425 -22.801,-43.426 -22.801,-43.426 -22.801,-43.426 -22.801,-43.426 -22.801,-43.426 -22.801,-43.427 -22.801,-43.427 -22.801,-43.427 -22.801,-43.427 -22.801,-43.427 -22.801,-43.428 -22.801,-43.428 -22.801,-43.428 -22.802,-43.428 -22.802,-43.428 -22.802,-43.428 -22.803,-43.428 -22.803,-43.428 -22.803,-43.428 -22.803,-43.429 -22.803,-43.429 -22.804,-43.429 -22.804,-43.429 -22.804,-43.429 -22.804,-43.429 -22.804,-43.43 -22.804,-43.43 -22.804,-43.43 -22.805,-43.431 -22.805,-43.432 -22.806,-43.432 -22.806,-43.432 -22.806,-43.432 -22.806,-43.433 -22.806,-43.433 -22.806,-43.433 -22.806,-43.433 -22.806,-43.433 -22.807,-43.434 -22.807,-43.434 -22.807,-43.434 -22.807,-43.434 -22.807,-43.434 -22.807,-43.434 -22.807,-43.435 -22.807,-43.435 -22.807,-43.435 -22.807,-43.435 -22.807,-43.435 -22.807,-43.435 -22.807,-43.435 -22.807,-43.435 -22.808,-43.436 -22.808,-43.436 -22.808,-43.436 -22.808,-43.436 -22.808,-43.436 -22.808,-43.436 -22.808,-43.436 -22.808,-43.436 -22.809,-43.437 -22.809,-43.437 -22.809,-43.437 -22.809,-43.437 -22.81,-43.437 -22.81,-43.438 -22.81,-43.438 -22.81,-43.438 -22.811,-43.438 -22.811,-43.438 -22.811,-43.438 -22.811,-43.439 -22.812,-43.439 -22.812,-43.439 -22.812,-43.44 -22.812,-43.44 -22.812,-43.44 -22.813,-43.44 -22.813,-43.44 -22.813,-43.44 -22.813,-43.44 -22.813,-43.44 -22.813,-43.44 -22.813,-43.44 -22.813,-43.441 -22.813,-43.441 -22.814,-43.441 -22.814,-43.441 -22.814,-43.441 -22.814,-43.441 -22.814,-43.441 -22.814,-43.442 -22.815,-43.442 -22.815,-43.442 -22.815,-43.442 -22.815,-43.442 -22.815,-43.442 -22.816,-43.442 -22.816,-43.442 -22.816,-43.442 -22.816,-43.442 -22.816,-43.442 -22.817,-43.442 -22.817,-43.442 -22.817,-43.442 -22.817,-43.443 -22.818,-43.443 -22.818,-43.443 -22.818,-43.443 -22.818,-43.443 -22.819,-43.443 -22.819,-43.443 -22.819,-43.443 -22.819,-43.443 -22.819,-43.443 -22.819,-43.444 -22.82,-43.444 -22.82,-43.444 -22.82,-43.444 -22.82,-43.444 -22.82,-43.445 -22.821,-43.445 -22.821,-43.445 -22.821,-43.445 -22.821,-43.445 -22.821,-43.445 -22.821,-43.445 -22.821,-43.446 -22.821,-43.446 -22.822,-43.446 -22.822,-43.446 -22.822,-43.446 -22.822,-43.446 -22.823,-43.446 -22.823,-43.446 -22.823,-43.447 -22.823,-43.447 -22.824,-43.447 -22.824,-43.447 -22.824,-43.447 -22.825,-43.447 -22.825,-43.447 -22.825,-43.447 -22.825,-43.447 -22.825,-43.448 -22.825,-43.448 -22.825,-43.448 -22.826,-43.448 -22.826,-43.448 -22.826,-43.448 -22.826,-43.449 -22.826,-43.449 -22.826,-43.449 -22.826,-43.449 -22.826,-43.45 -22.826,-43.45 -22.827,-43.45 -22.827,-43.45 -22.827,-43.451 -22.827,-43.451 -22.827,-43.452 -22.827,-43.452 -22.827,-43.452 -22.827,-43.452 -22.827,-43.452 -22.828,-43.452 -22.828,-43.452 -22.828,-43.452 -22.828,-43.452 -22.828,-43.453 -22.828,-43.453 -22.829,-43.453 -22.829,-43.453 -22.829,-43.453 -22.829,-43.453 -22.829,-43.453 -22.829,-43.454 -22.83,-43.454 -22.83,-43.454 -22.83,-43.455 -22.83,-43.455 -22.831,-43.455 -22.831,-43.455 -22.831,-43.455 -22.831,-43.456 -22.831,-43.456 -22.831,-43.456 -22.831,-43.456 -22.831,-43.456 -22.831,-43.456 -22.831,-43.456 -22.832,-43.456 -22.832,-43.456 -22.832,-43.456 -22.832,-43.457 -22.832,-43.457 -22.832,-43.457 -22.832,-43.457 -22.832,-43.457 -22.832,-43.457 -22.832,-43.458 -22.832,-43.458 -22.832,-43.458 -22.832,-43.458 -22.833,-43.458 -22.833,-43.459 -22.833,-43.459 -22.833,-43.459 -22.833,-43.459 -22.834,-43.46 -22.834,-43.46 -22.834,-43.46 -22.834,-43.46 -22.834,-43.46 -22.834,-43.46 -22.834,-43.46 -22.834,-43.461 -22.835,-43.461 -22.835,-43.462 -22.836,-43.463 -22.836,-43.464 -22.837,-43.464 -22.837,-43.464 -22.837,-43.465 -22.837,-43.465 -22.838,-43.465 -22.838,-43.466 -22.838,-43.467 -22.839,-43.467 -22.839,-43.468 -22.839,-43.468 -22.84,-43.468 -22.84,-43.469 -22.84,-43.469 -22.84,-43.468 -22.841,-43.467 -22.842,-43.466 -22.843,-43.465 -22.844,-43.463 -22.844,-43.463 -22.845,-43.462 -22.848,-43.459 -22.849,-43.458 -22.848,-43.457 -22.842,-43.439 -22.841,-43.437 -22.84,-43.435 -22.839,-43.431 -22.838,-43.43 -22.838,-43.43 -22.838,-43.43 -22.838,-43.43 -22.837,-43.43 -22.837,-43.429 -22.837,-43.429 -22.837,-43.429 -22.837,-43.429 -22.837,-43.428 -22.837,-43.428 -22.837,-43.428 -22.837,-43.428 -22.837,-43.428 -22.837,-43.428 -22.837,-43.428 -22.837,-43.428 -22.837,-43.428 -22.837,-43.428 -22.837,-43.427 -22.837,-43.427 -22.837,-43.427 -22.837,-43.427 -22.836,-43.427 -22.836,-43.427 -22.836,-43.427 -22.836,-43.427 -22.836,-43.426 -22.836,-43.427 -22.836,-43.427 -22.836,-43.427 -22.836,-43.426 -22.836,-43.426 -22.836,-43.426 -22.836,-43.426 -22.836,-43.426 -22.836,-43.426 -22.836,-43.425 -22.836,-43.425 -22.835,-43.425 -22.835,-43.425 -22.835,-43.425 -22.834,-43.425 -22.833,-43.424 -22.833,-43.424 -22.833,-43.424 -22.832,-43.424 -22.832,-43.424 -22.832,-43.424 -22.832,-43.424 -22.832,-43.423 -22.832,-43.423 -22.832,-43.423 -22.832,-43.423 -22.832,-43.423 -22.832,-43.423 -22.832,-43.422 -22.832,-43.422 -22.832,-43.422 -22.832,-43.422 -22.832,-43.421 -22.832,-43.421 -22.831,-43.421 -22.83,-43.421 -22.83,-43.42 -22.83,-43.42 -22.829,-43.42 -22.829,-43.42 -22.829,-43.42 -22.828,-43.42 -22.828,-43.419 -22.828,-43.419 -22.828,-43.419 -22.828,-43.419 -22.828,-43.419 -22.828,-43.419 -22.828,-43.419 -22.827,-43.419 -22.827,-43.418 -22.827,-43.418 -22.827,-43.418 -22.827,-43.418 -22.827,-43.418 -22.827,-43.418 -22.827,-43.418 -22.827,-43.418 -22.827,-43.418 -22.827,-43.418 -22.827,-43.418 -22.826,-43.418 -22.826,-43.418 -22.826,-43.418 -22.826,-43.418 -22.826,-43.418 -22.826,-43.417 -22.826,-43.417 -22.826,-43.417 -22.826,-43.417 -22.826,-43.417 -22.825,-43.417 -22.825,-43.417 -22.825,-43.417 -22.825,-43.417 -22.825,-43.417 -22.825,-43.417 -22.825,-43.417 -22.825,-43.417 -22.825,-43.417 -22.825,-43.417 -22.824,-43.417 -22.824,-43.417 -22.824,-43.417 -22.824,-43.417 -22.824,-43.417 -22.824,-43.417 -22.824,-43.417 -22.823,-43.417 -22.823,-43.416 -22.823,-43.416 -22.823,-43.416 -22.823,-43.416 -22.823,-43.416 -22.823,-43.416 -22.823,-43.416 -22.822,-43.416 -22.822,-43.416 -22.822,-43.416 -22.822,-43.415 -22.822,-43.415 -22.822,-43.415 -22.822,-43.415 -22.822,-43.415 -22.822,-43.415 -22.822,-43.415 -22.821,-43.415 -22.821,-43.415 -22.821,-43.415 -22.821,-43.415 -22.821,-43.415 -22.821,-43.415 -22.821,-43.414 -22.821,-43.414 -22.821,-43.414 -22.821,-43.414 -22.821,-43.414 -22.821,-43.414 -22.821,-43.414 -22.821,-43.414 -22.821,-43.414 -22.82,-43.414 -22.82,-43.414 -22.82,-43.413 -22.82,-43.413 -22.82,-43.413 -22.82,-43.413 -22.82,-43.413 -22.82,-43.413 -22.82,-43.413 -22.82,-43.413 -22.82,-43.413 -22.82,-43.413 -22.82,-43.413 -22.82,-43.413 -22.82,-43.413 -22.82,-43.413 -22.82,-43.412 -22.82,-43.412 -22.82,-43.412 -22.82,-43.412 -22.82,-43.412 -22.82,-43.412 -22.82,-43.412 -22.82,-43.411 -22.82,-43.411 -22.82,-43.411 -22.82,-43.411 -22.82,-43.411 -22.82,-43.411 -22.82,-43.411 -22.82,-43.411 -22.82,-43.41 -22.82,-43.41 -22.82,-43.41 -22.82,-43.41 -22.82,-43.41 -22.82,-43.41 -22.82,-43.41 -22.82,-43.41 -22.82,-43.41 -22.82,-43.41 -22.82,-43.41 -22.82,-43.41 -22.82,-43.41 -22.82,-43.41 -22.82,-43.41 -22.82,-43.41 -22.82,-43.41 -22.82,-43.41 -22.82,-43.409 -22.82,-43.409 -22.82,-43.409 -22.82,-43.409 -22.82,-43.409 -22.82,-43.409 -22.82,-43.409 -22.82,-43.408 -22.82,-43.408 -22.82,-43.408 -22.821,-43.408 -22.821,-43.408 -22.821,-43.407 -22.821,-43.407 -22.821,-43.407 -22.821,-43.407 -22.821,-43.407 -22.82,-43.407 -22.82,-43.407 -22.82,-43.407 -22.82,-43.407 -22.82,-43.407 -22.82,-43.407 -22.82,-43.407 -22.82,-43.406 -22.82,-43.406 -22.82,-43.406 -22.82,-43.405 -22.82,-43.405 -22.819,-43.405 -22.819,-43.405 -22.819,-43.405 -22.819,-43.404 -22.819,-43.404 -22.819,-43.404 -22.819,-43.404 -22.819,-43.404 -22.819,-43.403 -22.818,-43.403 -22.818,-43.403 -22.818,-43.403 -22.818,-43.403 -22.818,-43.403 -22.818,-43.402 -22.818,-43.402 -22.818,-43.402 -22.818,-43.402 -22.817,-43.401 -22.817,-43.401 -22.817,-43.401 -22.817,-43.401 -22.817,-43.4 -22.817,-43.4 -22.817,-43.4 -22.817,-43.4 -22.817,-43.4 -22.816,-43.399 -22.816,-43.399 -22.816,-43.399 -22.816,-43.399 -22.816,-43.399 -22.816,-43.398 -22.816,-43.398 -22.816,-43.398 -22.816,-43.397 -22.816,-43.397 -22.816,-43.397 -22.816,-43.397 -22.815,-43.396 -22.815,-43.396 -22.815,-43.396 -22.815,-43.396 -22.815,-43.395 -22.815,-43.395 -22.815,-43.394 -22.815,-43.394 -22.815,-43.394 -22.814,-43.393 -22.814,-43.393 -22.814,-43.393 -22.814,-43.393 -22.814,-43.393 -22.814,-43.393 -22.814,-43.392 -22.814,-43.392 -22.814,-43.392 -22.814,-43.392 -22.814,-43.391 -22.814,-43.391 -22.814,-43.391 -22.814,-43.391 -22.814,-43.39 -22.813,-43.39 -22.813,-43.39 -22.813,-43.391 -22.813,-43.391 -22.812,-43.392 -22.81,-43.393 -22.809,-43.394 -22.808,-43.395 -22.807,-43.396 -22.807,-43.396 -22.806,-43.397 -22.806,-43.397 -22.804,-43.398 -22.804,-43.398 -22.803,-43.4 -22.803,-43.4 -22.802,-43.4 -22.802,-43.401 -22.801,-43.401 -22.801,-43.401 -22.801,-43.401 -22.801,-43.401 -22.8,-43.402",
-      "polygon_points": 190,
-      "has_geocode": true,
-      "uf_hint": "RJ",
-      "region": "SE",
-      "geometry_wkt": "POLYGON ((-43.468 -22.84, -43.468 -22.839, -43.467 -22.839, -43.467 -22.838, -43.466 -22.838, -43.465 -22.838, -43.465 -22.837, -43.464 -22.837, -43.464 -22.836, -43.463 -22.836, -43.462 -22.835, -43.461 -22.835, -43.461 -22.834, -43.46 -22.834, -43.459 -22.833, -43.458 -22.833, -43.458 -22.832, -43.457 -22.832, -43.456 -22.832, -43.456 -22.831, -43.455 -22.831, -43.455 -22.83, -43.454 -22.83, -43.454 -22.829, -43.453 -22.829, -43.453 -22.828, -43.452 -22.828, -43.452 -22.827, -43.451 -22.827, -43.45 -22.827, -43.45 -22.826, -43.449 -22.826, -43.448 -22.826, -43.448 -22.825, -43.447 -22.825, -43.447 -22.824, -43.447 -22.823, -43.446 -22.823, -43.446 -22.822, -43.446 -22.821, -43.445 -22.821, -43.445 -22.82, -43.444 -22.82, -43.444 -22.819, -43.443 -22.819, -43.443 -22.818, -43.443 -22.817, -43.442 -22.817, -43.442 -22.816, -43.442 -22.815, -43.442 -22.814, -43.441 -22.814, -43.441 -22.813, -43.44 -22.813, -43.44 -22.812, -43.439 -22.812, -43.439 -22.811, -43.438 -22.811, -43.438 -22.81, -43.437 -22.81, -43.437 -22.809, -43.436 -22.808, -43.435 -22.807, -43.434 -22.807, -43.433 -22.806, -43.432 -22.806, -43.432 -22.805, -43.431 -22.805, -43.43 -22.804, -43.429 -22.804, -43.429 -22.803, -43.428 -22.803, -43.428 -22.802, -43.428 -22.801, -43.427 -22.801, -43.426 -22.801, -43.425 -22.8, -43.424 -22.8, -43.424 -22.799, -43.423 -22.799, -43.422 -22.799, -43.421 -22.798, -43.42 -22.797, -43.419 -22.797, -43.418 -22.797, -43.418 -22.796, -43.417 -22.796, -43.417 -22.795, -43.416 -22.795, -43.415 -22.794, -43.414 -22.794, -43.414 -22.793, -43.412 -22.792, -43.411 -22.791, -43.41 -22.791, -43.41 -22.792, -43.408 -22.794, -43.406 -22.795, -43.405 -22.797, -43.404 -22.798, -43.403 -22.799, -43.402 -22.8, -43.401 -22.801, -43.401 -22.802, -43.4 -22.802, -43.4 -22.803, -43.398 -22.804, -43.397 -22.806, -43.396 -22.807, -43.395 -22.808, -43.394 -22.809, -43.393 -22.81, -43.392 -22.812, -43.391 -22.813, -43.39 -22.813, -43.39 -22.814, -43.391 -22.814, -43.392 -22.814, -43.393 -22.814, -43.394 -22.815, -43.395 -22.815, -43.396 -22.815, -43.397 -22.816, -43.398 -22.816, -43.399 -22.816, -43.4 -22.817, -43.401 -22.817, -43.402 -22.818, -43.403 -22.818, -43.403 -22.819, -43.404 -22.819, -43.405 -22.819, -43.405 -22.82, -43.406 -22.82, -43.407 -22.82, -43.407 -22.821, -43.408 -22.821, -43.408 -22.82, -43.409 -22.82, -43.41 -22.82, -43.411 -22.82, -43.412 -22.82, -43.413 -22.82, -43.414 -22.82, -43.414 -22.821, -43.415 -22.821, -43.415 -22.822, -43.416 -22.822, -43.416 -22.823, -43.417 -22.823, -43.417 -22.824, -43.417 -22.825, -43.417 -22.826, -43.418 -22.826, -43.418 -22.827, -43.419 -22.827, -43.419 -22.828, -43.42 -22.828, -43.42 -22.829, -43.42 -22.83, -43.421 -22.83, -43.421 -22.831, -43.421 -22.832, -43.422 -22.832, -43.423 -22.832, -43.424 -22.832, -43.424 -22.833, -43.425 -22.834, -43.425 -22.835, -43.425 -22.836, -43.426 -22.836, -43.427 -22.836, -43.427 -22.837, -43.428 -22.837, -43.429 -22.837, -43.43 -22.837, -43.43 -22.838, -43.431 -22.839, -43.435 -22.84, -43.437 -22.841, -43.439 -22.842, -43.457 -22.848, -43.458 -22.849, -43.459 -22.848, -43.462 -22.845, -43.463 -22.844, -43.465 -22.843, -43.466 -22.842, -43.467 -22.841, -43.468 -22.84))",
-      "uf": "RJ",
-      "location": "Paraty/RJ, Nilópolis/RJ",
-      "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "expirado",
-      "date": "22/07/2026",
-      "time": "11:23",
-      "sent_br": "2026-07-22T11:23:30-03:00",
-      "onset_br": "2026-07-22T11:23:30-03:00",
-      "expires_br": "2026-07-22T20:00:00-03:00",
-      "duration_minutes": 516,
-      "duration_hours": 8.6,
-      "duration_bucket": "6h a 12h",
-      "time_since_minutes": 1415,
-      "time_since_hours": 23.58,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false
-    },
-    {
-      "identifier": "185611/2026",
-      "entry_id": "185611/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "sent": "2026-07-22T11:13:31-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "ALAGAMENTOS",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Severe",
-      "certainty": "Likely",
-      "onset": "2026-07-22T11:13:31-03:00",
-      "expires": "2026-07-22T17:10:00-03:00",
-      "nivel": "Alto",
-      "headline": "Defesa Civil:Risco de Alagamentos em Porto Vitoria, Pinhao e mun. vizinhos. Monitore. Em caso de perigo, deixe o local imediatamente. Ligue 199/193.",
-      "description": "Risco de Alagamentos em Porto Vitória, Pinhão e mun. vizinhos. Monitore. Em caso de perigo, deixe o local imediatamente. Ligue 199/193.",
-      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.\nVeja como proceder em casos de desastres. -\n- https://bit.ly/2W1BZxy -\n- Entenda o significado das cores do alerta:\n- http://www.defesacivil.pr.gov.br/Pagina/Significado-das-cores-dos-alertas -\n- Veja a área do alerta: -\n- https://www.defesacivil.pr.gov.br/alertas-vigentes -",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "Porto Vitória/PR, Pinhão/PR",
-      "polygon_raw": "-25.589,-51.771 -25.588,-51.772 -25.589,-51.775 -25.589,-51.778 -25.589,-51.78 -25.589,-51.782 -25.59,-51.783 -25.592,-51.785 -25.594,-51.788 -25.596,-51.79 -25.596,-51.792 -25.599,-51.793 -25.6,-51.795 -25.598,-51.796 -25.597,-51.796 -25.595,-51.797 -25.595,-51.801 -25.595,-51.805 -25.595,-51.809 -25.595,-51.812 -25.597,-51.818 -25.599,-51.818 -25.601,-51.817 -25.603,-51.815 -25.604,-51.813 -25.608,-51.807 -25.61,-51.806 -25.612,-51.806 -25.614,-51.808 -25.614,-51.808 -25.614,-51.811 -25.614,-51.816 -25.612,-51.819 -25.608,-51.821 -25.608,-51.826 -25.611,-51.834 -25.613,-51.836 -25.617,-51.838 -25.619,-51.837 -25.623,-51.835 -25.627,-51.834 -25.63,-51.833 -25.633,-51.833 -25.636,-51.833 -25.637,-51.834 -25.638,-51.836 -25.637,-51.84 -25.635,-51.842 -25.634,-51.846 -25.632,-51.849 -25.629,-51.85 -25.626,-51.85 -25.624,-51.849 -25.62,-51.847 -25.617,-51.847 -25.614,-51.848 -25.612,-51.849 -25.61,-51.852 -25.607,-51.855 -25.605,-51.857 -25.604,-51.858 -25.605,-51.863 -25.606,-51.865 -25.606,-51.869 -25.607,-51.871 -25.61,-51.874 -25.612,-51.875 -25.614,-51.875 -25.616,-51.877 -25.617,-51.879 -25.623,-51.879 -25.628,-51.881 -25.629,-51.881 -25.634,-51.881 -25.636,-51.882 -25.637,-51.882 -25.639,-51.881 -25.641,-51.88 -25.643,-51.88 -25.645,-51.881 -25.646,-51.883 -25.644,-51.885 -25.638,-51.891 -25.638,-51.893 -25.638,-51.896 -25.64,-51.9 -25.649,-51.905 -25.651,-51.906 -25.653,-51.905 -25.656,-51.903 -25.658,-51.903 -25.661,-51.904 -25.661,-51.907 -25.661,-51.909 -25.661,-51.912 -25.66,-51.914 -25.66,-51.917 -25.659,-51.919 -25.658,-51.92 -25.655,-51.919 -25.653,-51.917 -25.65,-51.916 -25.641,-51.915 -25.637,-51.915 -25.633,-51.916 -25.633,-51.92 -25.632,-51.922 -25.631,-51.924 -25.63,-51.926 -25.63,-51.928 -25.63,-51.929 -25.632,-51.931 -25.633,-51.933 -25.637,-51.934 -25.64,-51.934 -25.642,-51.934 -25.644,-51.935 -25.646,-51.936 -25.652,-51.941 -25.652,-51.943 -25.653,-51.948 -25.651,-51.952 -25.648,-51.955 -25.646,-51.956 -25.638,-51.966 -25.637,-51.968 -25.636,-51.973 -25.638,-51.975 -25.639,-51.975 -25.65,-51.974 -25.653,-51.974 -25.654,-51.973 -25.654,-51.97 -25.656,-51.965 -25.657,-51.963 -25.659,-51.964 -25.664,-51.967 -25.669,-51.97 -25.672,-51.976 -25.675,-51.98 -25.676,-51.984 -25.676,-51.986 -25.679,-51.989 -25.683,-51.991 -25.684,-51.991 -25.685,-51.99 -25.686,-51.989 -25.688,-51.985 -25.691,-51.98 -25.693,-51.979 -25.696,-51.979 -25.697,-51.979 -25.698,-51.981 -25.698,-51.983 -25.698,-51.986 -25.698,-51.989 -25.697,-51.994 -25.698,-52.0 -25.698,-52.001 -25.699,-52.002 -25.7,-52.002 -25.701,-52.002 -25.703,-52.002 -25.704,-52.001 -25.705,-52.0 -25.71,-51.997 -25.711,-51.996 -25.714,-51.995 -25.714,-51.993 -25.715,-51.991 -25.716,-51.989 -25.718,-51.988 -25.719,-51.989 -25.721,-51.991 -25.722,-51.995 -25.721,-51.998 -25.72,-52.005 -25.721,-52.008 -25.721,-52.01 -25.72,-52.011 -25.717,-52.016 -25.715,-52.019 -25.715,-52.021 -25.715,-52.022 -25.716,-52.023 -25.718,-52.023 -25.72,-52.023 -25.721,-52.022 -25.723,-52.022 -25.724,-52.021 -25.726,-52.021 -25.729,-52.02 -25.731,-52.02 -25.732,-52.021 -25.734,-52.023 -25.734,-52.025 -25.735,-52.027 -25.736,-52.029 -25.737,-52.029 -25.74,-52.028 -25.744,-52.025 -25.745,-52.025 -25.747,-52.025 -25.748,-52.026 -25.75,-52.028 -25.752,-52.028 -25.754,-52.027 -25.755,-52.026 -25.757,-52.025 -25.758,-52.024 -25.759,-52.022 -25.759,-52.02 -25.759,-52.019 -25.757,-52.018 -25.756,-52.017 -25.757,-52.016 -25.757,-52.015 -25.757,-52.012 -25.758,-52.009 -25.759,-52.005 -25.759,-52.003 -25.76,-52.001 -25.76,-52.0 -25.76,-51.998 -25.759,-51.997 -25.756,-51.996 -25.756,-51.995 -25.756,-51.993 -25.756,-51.992 -25.756,-51.99 -25.755,-51.99 -25.753,-51.99 -25.752,-51.988 -25.753,-51.987 -25.755,-51.984 -25.756,-51.984 -25.757,-51.984 -25.757,-51.982 -25.757,-51.98 -25.755,-51.979 -25.752,-51.979 -25.751,-51.977 -25.752,-51.976 -25.752,-51.974 -25.752,-51.971 -25.751,-51.97 -25.751,-51.968 -25.75,-51.968 -25.748,-51.969 -25.747,-51.967 -25.747,-51.966 -25.748,-51.964 -25.748,-51.963 -25.747,-51.961 -25.746,-51.96 -25.744,-51.96 -25.743,-51.961 -25.743,-51.963 -25.741,-51.963 -25.74,-51.963 -25.738,-51.962 -25.739,-51.961 -25.74,-51.958 -25.741,-51.955 -25.741,-51.952 -25.743,-51.951 -25.744,-51.951 -25.746,-51.951 -25.747,-51.95 -25.748,-51.949 -25.746,-51.947 -25.746,-51.946 -25.744,-51.945 -25.743,-51.946 -25.743,-51.943 -25.742,-51.941 -25.741,-51.941 -25.739,-51.94 -25.736,-51.94 -25.735,-51.939 -25.736,-51.937 -25.736,-51.936 -25.736,-51.934 -25.736,-51.933 -25.734,-51.93 -25.733,-51.929 -25.732,-51.93 -25.731,-51.929 -25.732,-51.928 -25.732,-51.926 -25.731,-51.925 -25.731,-51.924 -25.731,-51.918 -25.729,-51.918 -25.729,-51.917 -25.729,-51.915 -25.726,-51.916 -25.726,-51.914 -25.727,-51.913 -25.729,-51.912 -25.731,-51.911 -25.733,-51.91 -25.734,-51.909 -25.735,-51.907 -25.736,-51.906 -25.737,-51.905 -25.736,-51.903 -25.735,-51.902 -25.733,-51.9 -25.731,-51.897 -25.729,-51.895 -25.728,-51.893 -25.726,-51.891 -25.725,-51.89 -25.724,-51.89 -25.722,-51.893 -25.721,-51.892 -25.72,-51.889 -25.72,-51.887 -25.719,-51.886 -25.722,-51.885 -25.723,-51.883 -25.724,-51.882 -25.725,-51.882 -25.727,-51.882 -25.73,-51.882 -25.733,-51.88 -25.734,-51.879 -25.735,-51.879 -25.737,-51.879 -25.738,-51.879 -25.743,-51.879 -25.745,-51.878 -25.746,-51.877 -25.747,-51.876 -25.747,-51.875 -25.75,-51.873 -25.751,-51.871 -25.749,-51.87 -25.748,-51.871 -25.747,-51.87 -25.745,-51.867 -25.744,-51.865 -25.744,-51.863 -25.745,-51.862 -25.745,-51.86 -25.745,-51.859 -25.745,-51.857 -25.746,-51.856 -25.746,-51.854 -25.745,-51.853 -25.745,-51.851 -25.746,-51.85 -25.748,-51.85 -25.749,-51.851 -25.751,-51.852 -25.752,-51.853 -25.755,-51.854 -25.757,-51.853 -25.758,-51.852 -25.76,-51.849 -25.76,-51.847 -25.763,-51.842 -25.764,-51.841 -25.766,-51.839 -25.767,-51.838 -25.776,-51.838 -25.778,-51.836 -25.78,-51.836 -25.781,-51.836 -25.782,-51.837 -25.783,-51.838 -25.785,-51.837 -25.787,-51.838 -25.791,-51.839 -25.792,-51.838 -25.792,-51.838 -25.793,-51.838 -25.796,-51.838 -25.797,-51.837 -25.798,-51.836 -25.8,-51.835 -25.801,-51.832 -25.804,-51.83 -25.805,-51.828 -25.805,-51.827 -25.806,-51.826 -25.809,-51.825 -25.81,-51.823 -25.812,-51.822 -25.813,-51.822 -25.815,-51.821 -25.817,-51.82 -25.818,-51.82 -25.821,-51.818 -25.824,-51.815 -25.825,-51.813 -25.828,-51.811 -25.829,-51.811 -25.83,-51.811 -25.832,-51.81 -25.833,-51.809 -25.834,-51.808 -25.837,-51.806 -25.839,-51.805 -25.842,-51.803 -25.844,-51.804 -25.844,-51.804 -25.846,-51.804 -25.846,-51.805 -25.847,-51.805 -25.846,-51.807 -25.846,-51.809 -25.846,-51.809 -25.847,-51.81 -25.847,-51.811 -25.848,-51.811 -25.849,-51.81 -25.85,-51.808 -25.852,-51.807 -25.856,-51.805 -25.856,-51.805 -25.857,-51.805 -25.858,-51.804 -25.86,-51.803 -25.861,-51.806 -25.862,-51.807 -25.864,-51.81 -25.865,-51.812 -25.867,-51.812 -25.868,-51.813 -25.87,-51.813 -25.871,-51.812 -25.874,-51.81 -25.876,-51.81 -25.88,-51.809 -25.882,-51.809 -25.887,-51.809 -25.89,-51.81 -25.892,-51.81 -25.896,-51.81 -25.899,-51.81 -25.9,-51.81 -25.902,-51.809 -25.904,-51.807 -25.906,-51.807 -25.907,-51.808 -25.908,-51.809 -25.911,-51.806 -25.912,-51.805 -25.916,-51.804 -25.919,-51.806 -25.921,-51.808 -25.922,-51.811 -25.923,-51.812 -25.928,-51.812 -25.93,-51.812 -25.931,-51.811 -25.932,-51.811 -25.934,-51.813 -25.936,-51.814 -25.937,-51.815 -25.938,-51.816 -25.938,-51.816 -25.939,-51.816 -25.941,-51.816 -25.942,-51.814 -25.943,-51.813 -25.944,-51.814 -25.946,-51.814 -25.947,-51.812 -25.948,-51.811 -25.948,-51.809 -25.95,-51.81 -25.951,-51.813 -25.951,-51.816 -25.952,-51.817 -25.952,-51.819 -25.953,-51.82 -25.953,-51.821 -25.955,-51.82 -25.955,-51.819 -25.957,-51.819 -25.958,-51.817 -25.962,-51.816 -25.963,-51.817 -25.964,-51.818 -25.966,-51.818 -25.967,-51.818 -25.968,-51.819 -25.97,-51.819 -25.971,-51.818 -25.97,-51.816 -25.972,-51.815 -25.973,-51.815 -25.978,-51.814 -25.979,-51.814 -25.983,-51.811 -25.984,-51.809 -25.984,-51.808 -25.986,-51.807 -25.986,-51.805 -25.986,-51.804 -25.987,-51.802 -25.989,-51.803 -25.989,-51.804 -25.99,-51.806 -25.991,-51.807 -25.992,-51.808 -25.993,-51.806 -25.994,-51.805 -25.996,-51.805 -25.997,-51.804 -25.997,-51.802 -25.998,-51.801 -25.999,-51.8 -25.999,-51.798 -25.999,-51.797 -25.999,-51.795 -25.999,-51.795 -25.998,-51.794 -25.997,-51.79 -25.996,-51.785 -25.996,-51.782 -25.997,-51.78 -25.998,-51.779 -26.0,-51.778 -26.002,-51.777 -26.003,-51.775 -26.004,-51.774 -26.006,-51.773 -26.008,-51.771 -26.009,-51.77 -26.01,-51.769 -26.011,-51.768 -26.011,-51.767 -26.011,-51.765 -26.01,-51.763 -26.009,-51.76 -26.008,-51.757 -26.006,-51.754 -25.998,-51.747 -25.996,-51.745 -25.995,-51.743 -25.994,-51.741 -25.994,-51.739 -25.994,-51.738 -25.994,-51.735 -25.991,-51.733 -25.989,-51.731 -25.986,-51.731 -25.984,-51.731 -25.982,-51.732 -25.98,-51.734 -25.978,-51.736 -25.977,-51.739 -25.975,-51.741 -25.973,-51.742 -25.97,-51.743 -25.967,-51.739 -25.964,-51.736 -25.961,-51.734 -25.957,-51.731 -25.954,-51.729 -25.95,-51.728 -25.946,-51.727 -25.942,-51.726 -25.938,-51.725 -25.933,-51.723 -25.931,-51.722 -25.928,-51.72 -25.927,-51.72 -25.924,-51.717 -25.921,-51.714 -25.918,-51.709 -25.918,-51.708 -25.916,-51.705 -25.915,-51.701 -25.914,-51.698 -25.915,-51.695 -25.917,-51.691 -25.919,-51.688 -25.922,-51.685 -25.924,-51.683 -25.925,-51.681 -25.926,-51.68 -25.929,-51.68 -25.932,-51.68 -25.936,-51.682 -25.938,-51.684 -25.94,-51.685 -25.942,-51.687 -25.943,-51.688 -25.951,-51.693 -25.954,-51.695 -25.956,-51.696 -25.958,-51.7 -25.96,-51.704 -25.962,-51.707 -25.964,-51.71 -25.966,-51.711 -25.969,-51.711 -25.972,-51.711 -25.978,-51.709 -25.98,-51.707 -25.981,-51.704 -25.983,-51.703 -25.985,-51.7 -25.986,-51.697 -25.987,-51.69 -25.988,-51.686 -25.99,-51.684 -25.991,-51.681 -25.993,-51.679 -25.995,-51.677 -25.996,-51.678 -25.997,-51.677 -26.0,-51.676 -26.003,-51.676 -26.005,-51.676 -26.007,-51.674 -26.009,-51.67 -26.01,-51.667 -26.009,-51.665 -26.009,-51.665 -26.009,-51.664 -26.005,-51.657 -26.003,-51.654 -26.0,-51.651 -25.998,-51.648 -25.997,-51.645 -25.997,-51.643 -25.998,-51.64 -25.999,-51.639 -26.003,-51.633 -26.004,-51.63 -26.004,-51.627 -26.004,-51.623 -26.003,-51.619 -26.0,-51.618 -25.998,-51.617 -25.997,-51.616 -25.997,-51.613 -25.997,-51.611 -25.998,-51.609 -25.998,-51.606 -25.999,-51.604 -26.001,-51.601 -26.001,-51.598 -26.001,-51.596 -26.0,-51.595 -25.999,-51.593 -25.998,-51.588 -25.998,-51.584 -25.997,-51.582 -25.996,-51.581 -25.996,-51.581 -25.995,-51.58 -25.993,-51.579 -25.992,-51.58 -25.991,-51.58 -25.989,-51.582 -25.986,-51.583 -25.983,-51.583 -25.98,-51.583 -25.976,-51.581 -25.976,-51.577 -25.977,-51.576 -25.977,-51.57 -25.979,-51.567 -25.981,-51.563 -25.983,-51.559 -25.985,-51.556 -25.985,-51.554 -25.986,-51.55 -25.984,-51.545 -25.983,-51.543 -25.98,-51.541 -25.977,-51.539 -25.975,-51.539 -25.97,-51.543 -25.968,-51.543 -25.967,-51.543 -25.965,-51.541 -25.964,-51.54 -25.965,-51.538 -25.964,-51.534 -25.965,-51.53 -25.967,-51.528 -25.968,-51.526 -25.968,-51.523 -25.969,-51.521 -25.968,-51.518 -25.967,-51.517 -25.966,-51.515 -25.964,-51.513 -25.963,-51.511 -25.961,-51.511 -25.958,-51.512 -25.957,-51.513 -25.955,-51.513 -25.953,-51.513 -25.952,-51.512 -25.951,-51.511 -25.952,-51.509 -25.953,-51.507 -25.955,-51.505 -25.955,-51.502 -25.955,-51.501 -25.954,-51.5 -25.952,-51.5 -25.951,-51.5 -25.95,-51.501 -25.948,-51.501 -25.946,-51.501 -25.944,-51.502 -25.943,-51.502 -25.942,-51.502 -25.941,-51.501 -25.939,-51.5 -25.935,-51.495 -25.933,-51.493 -25.931,-51.491 -25.93,-51.488 -25.93,-51.486 -25.929,-51.485 -25.927,-51.483 -25.924,-51.481 -25.922,-51.48 -25.921,-51.477 -25.923,-51.475 -25.925,-51.472 -25.926,-51.471 -25.928,-51.469 -25.931,-51.468 -25.934,-51.469 -25.937,-51.47 -25.94,-51.472 -25.942,-51.472 -25.943,-51.47 -25.943,-51.468 -25.942,-51.465 -25.942,-51.463 -25.942,-51.46 -25.944,-51.457 -25.947,-51.454 -25.95,-51.452 -25.951,-51.449 -25.951,-51.449 -25.95,-51.448 -25.943,-51.439 -25.943,-51.436 -25.944,-51.434 -25.942,-51.433 -25.94,-51.432 -25.938,-51.432 -25.937,-51.433 -25.935,-51.434 -25.931,-51.434 -25.93,-51.435 -25.929,-51.436 -25.928,-51.437 -25.925,-51.437 -25.924,-51.436 -25.924,-51.436 -25.921,-51.434 -25.922,-51.431 -25.923,-51.43 -25.926,-51.429 -25.927,-51.427 -25.925,-51.425 -25.923,-51.423 -25.92,-51.421 -25.921,-51.418 -25.922,-51.415 -25.924,-51.412 -25.926,-51.411 -25.929,-51.412 -25.931,-51.414 -25.934,-51.416 -25.937,-51.415 -25.943,-51.414 -25.945,-51.415 -25.948,-51.415 -25.95,-51.413 -25.948,-51.409 -25.947,-51.408 -25.945,-51.406 -25.943,-51.405 -25.94,-51.405 -25.936,-51.405 -25.933,-51.406 -25.932,-51.405 -25.933,-51.403 -25.935,-51.401 -25.936,-51.397 -25.937,-51.395 -25.938,-51.393 -25.938,-51.39 -25.936,-51.388 -25.934,-51.387 -25.932,-51.386 -25.933,-51.383 -25.934,-51.381 -25.931,-51.38 -25.927,-51.38 -25.924,-51.38 -25.923,-51.381 -25.922,-51.383 -25.92,-51.384 -25.918,-51.384 -25.917,-51.383 -25.917,-51.381 -25.918,-51.374 -25.918,-51.371 -25.917,-51.37 -25.916,-51.37 -25.914,-51.371 -25.904,-51.38 -25.902,-51.38 -25.896,-51.381 -25.894,-51.38 -25.894,-51.377 -25.894,-51.372 -25.895,-51.37 -25.897,-51.368 -25.897,-51.366 -25.898,-51.363 -25.894,-51.355 -25.892,-51.355 -25.891,-51.355 -25.891,-51.358 -25.89,-51.36 -25.889,-51.364 -25.888,-51.367 -25.884,-51.368 -25.883,-51.362 -25.881,-51.36 -25.88,-51.359 -25.879,-51.357 -25.88,-51.355 -25.88,-51.352 -25.879,-51.35 -25.878,-51.349 -25.877,-51.349 -25.875,-51.348 -25.871,-51.349 -25.869,-51.348 -25.866,-51.346 -25.864,-51.345 -25.862,-51.344 -25.862,-51.341 -25.863,-51.34 -25.864,-51.338 -25.864,-51.335 -25.863,-51.334 -25.86,-51.335 -25.858,-51.336 -25.855,-51.338 -25.855,-51.336 -25.855,-51.333 -25.853,-51.33 -25.851,-51.329 -25.85,-51.327 -25.847,-51.326 -25.846,-51.322 -25.843,-51.322 -25.84,-51.324 -25.838,-51.322 -25.836,-51.323 -25.834,-51.324 -25.826,-51.321 -25.825,-51.318 -25.825,-51.314 -25.825,-51.312 -25.827,-51.311 -25.829,-51.309 -25.83,-51.305 -25.832,-51.305 -25.833,-51.303 -25.831,-51.301 -25.83,-51.301 -25.828,-51.301 -25.825,-51.302 -25.824,-51.303 -25.823,-51.305 -25.823,-51.307 -25.82,-51.307 -25.819,-51.307 -25.818,-51.305 -25.818,-51.304 -25.818,-51.303 -25.816,-51.303 -25.816,-51.305 -25.815,-51.307 -25.814,-51.308 -25.812,-51.308 -25.811,-51.309 -25.81,-51.308 -25.808,-51.308 -25.805,-51.31 -25.806,-51.312 -25.805,-51.314 -25.803,-51.315 -25.798,-51.315 -25.794,-51.315 -25.792,-51.316 -25.791,-51.317 -25.791,-51.318 -25.79,-51.321 -25.788,-51.322 -25.786,-51.323 -25.786,-51.326 -25.784,-51.328 -25.783,-51.33 -25.783,-51.331 -25.781,-51.333 -25.78,-51.336 -25.779,-51.336 -25.777,-51.337 -25.775,-51.337 -25.775,-51.339 -25.775,-51.341 -25.773,-51.343 -25.773,-51.345 -25.773,-51.349 -25.771,-51.349 -25.767,-51.351 -25.766,-51.352 -25.764,-51.354 -25.763,-51.351 -25.761,-51.352 -25.759,-51.352 -25.758,-51.354 -25.757,-51.355 -25.754,-51.356 -25.754,-51.354 -25.752,-51.354 -25.751,-51.355 -25.75,-51.358 -25.748,-51.358 -25.747,-51.359 -25.743,-51.361 -25.742,-51.361 -25.741,-51.361 -25.739,-51.364 -25.738,-51.365 -25.735,-51.366 -25.734,-51.366 -25.733,-51.364 -25.731,-51.363 -25.727,-51.362 -25.726,-51.361 -25.724,-51.358 -25.718,-51.354 -25.716,-51.356 -25.715,-51.357 -25.714,-51.357 -25.713,-51.358 -25.712,-51.357 -25.71,-51.356 -25.709,-51.355 -25.702,-51.352 -25.69,-51.345 -25.686,-51.345 -25.685,-51.347 -25.684,-51.348 -25.683,-51.349 -25.681,-51.353 -25.679,-51.355 -25.677,-51.357 -25.677,-51.358 -25.677,-51.362 -25.676,-51.363 -25.674,-51.363 -25.672,-51.363 -25.671,-51.365 -25.67,-51.367 -25.666,-51.37 -25.665,-51.373 -25.663,-51.371 -25.661,-51.372 -25.659,-51.375 -25.657,-51.376 -25.654,-51.376 -25.655,-51.379 -25.654,-51.381 -25.652,-51.382 -25.65,-51.383 -25.65,-51.384 -25.649,-51.386 -25.649,-51.387 -25.649,-51.389 -25.647,-51.392 -25.648,-51.394 -25.648,-51.396 -25.643,-51.404 -25.644,-51.406 -25.642,-51.408 -25.64,-51.411 -25.638,-51.413 -25.64,-51.417 -25.642,-51.418 -25.641,-51.42 -25.642,-51.422 -25.641,-51.424 -25.644,-51.425 -25.649,-51.424 -25.651,-51.421 -25.652,-51.421 -25.656,-51.422 -25.66,-51.427 -25.66,-51.428 -25.658,-51.429 -25.659,-51.432 -25.66,-51.437 -25.662,-51.439 -25.66,-51.442 -25.659,-51.444 -25.655,-51.444 -25.655,-51.445 -25.655,-51.446 -25.655,-51.448 -25.658,-51.451 -25.659,-51.453 -25.659,-51.455 -25.657,-51.456 -25.657,-51.458 -25.658,-51.459 -25.659,-51.463 -25.658,-51.464 -25.66,-51.465 -25.661,-51.469 -25.661,-51.471 -25.662,-51.469 -25.666,-51.468 -25.666,-51.47 -25.668,-51.472 -25.669,-51.474 -25.669,-51.477 -25.665,-51.477 -25.663,-51.477 -25.663,-51.478 -25.662,-51.48 -25.664,-51.483 -25.666,-51.485 -25.667,-51.485 -25.668,-51.484 -25.67,-51.483 -25.673,-51.483 -25.675,-51.482 -25.677,-51.484 -25.679,-51.482 -25.68,-51.482 -25.682,-51.482 -25.681,-51.484 -25.68,-51.485 -25.679,-51.486 -25.68,-51.488 -25.68,-51.49 -25.68,-51.492 -25.681,-51.494 -25.68,-51.495 -25.678,-51.497 -25.677,-51.498 -25.676,-51.501 -25.675,-51.503 -25.674,-51.506 -25.673,-51.507 -25.671,-51.507 -25.668,-51.507 -25.667,-51.508 -25.664,-51.509 -25.663,-51.51 -25.662,-51.51 -25.661,-51.51 -25.66,-51.51 -25.66,-51.508 -25.659,-51.503 -25.659,-51.502 -25.657,-51.502 -25.656,-51.503 -25.655,-51.503 -25.654,-51.501 -25.655,-51.5 -25.654,-51.497 -25.653,-51.499 -25.65,-51.5 -25.645,-51.495 -25.644,-51.494 -25.637,-51.499 -25.634,-51.5 -25.631,-51.497 -25.63,-51.495 -25.631,-51.492 -25.631,-51.489 -25.631,-51.487 -25.632,-51.486 -25.631,-51.483 -25.632,-51.479 -25.63,-51.475 -25.626,-51.474 -25.625,-51.474 -25.623,-51.476 -25.619,-51.476 -25.618,-51.477 -25.616,-51.479 -25.613,-51.481 -25.61,-51.486 -25.608,-51.487 -25.608,-51.49 -25.612,-51.492 -25.613,-51.492 -25.614,-51.49 -25.615,-51.488 -25.617,-51.488 -25.62,-51.49 -25.622,-51.494 -25.625,-51.498 -25.624,-51.5 -25.623,-51.501 -25.623,-51.503 -25.623,-51.505 -25.621,-51.509 -25.619,-51.511 -25.619,-51.512 -25.617,-51.512 -25.615,-51.511 -25.613,-51.51 -25.612,-51.512 -25.612,-51.514 -25.613,-51.516 -25.613,-51.517 -25.615,-51.518 -25.615,-51.519 -25.615,-51.521 -25.616,-51.524 -25.617,-51.525 -25.622,-51.524 -25.624,-51.521 -25.626,-51.521 -25.626,-51.526 -25.624,-51.528 -25.62,-51.532 -25.618,-51.533 -25.617,-51.534 -25.617,-51.536 -25.617,-51.539 -25.62,-51.543 -25.621,-51.544 -25.622,-51.546 -25.619,-51.548 -25.619,-51.55 -25.621,-51.554 -25.622,-51.555 -25.623,-51.556 -25.624,-51.558 -25.625,-51.56 -25.629,-51.56 -25.63,-51.561 -25.636,-51.561 -25.637,-51.563 -25.637,-51.565 -25.635,-51.566 -25.634,-51.567 -25.634,-51.57 -25.635,-51.571 -25.638,-51.573 -25.639,-51.575 -25.639,-51.577 -25.642,-51.581 -25.644,-51.581 -25.645,-51.581 -25.647,-51.581 -25.65,-51.583 -25.65,-51.584 -25.648,-51.584 -25.648,-51.589 -25.648,-51.59 -25.65,-51.592 -25.651,-51.591 -25.652,-51.59 -25.654,-51.589 -25.657,-51.59 -25.658,-51.591 -25.658,-51.591 -25.656,-51.594 -25.654,-51.596 -25.652,-51.595 -25.651,-51.595 -25.65,-51.597 -25.649,-51.599 -25.645,-51.602 -25.642,-51.602 -25.64,-51.601 -25.635,-51.601 -25.633,-51.604 -25.63,-51.606 -25.628,-51.606 -25.627,-51.607 -25.624,-51.606 -25.621,-51.605 -25.619,-51.605 -25.616,-51.607 -25.612,-51.607 -25.612,-51.609 -25.613,-51.611 -25.612,-51.614 -25.61,-51.616 -25.607,-51.615 -25.606,-51.616 -25.604,-51.618 -25.603,-51.621 -25.603,-51.622 -25.603,-51.626 -25.602,-51.626 -25.599,-51.629 -25.595,-51.626 -25.593,-51.629 -25.593,-51.631 -25.592,-51.635 -25.593,-51.637 -25.597,-51.64 -25.6,-51.641 -25.601,-51.642 -25.604,-51.641 -25.606,-51.64 -25.607,-51.639 -25.609,-51.638 -25.611,-51.638 -25.613,-51.639 -25.615,-51.64 -25.615,-51.642 -25.615,-51.645 -25.615,-51.645 -25.616,-51.649 -25.613,-51.65 -25.612,-51.651 -25.61,-51.655 -25.606,-51.654 -25.604,-51.653 -25.599,-51.654 -25.599,-51.656 -25.6,-51.658 -25.603,-51.661 -25.6,-51.665 -25.597,-51.672 -25.597,-51.675 -25.597,-51.677 -25.598,-51.678 -25.598,-51.678 -25.599,-51.68 -25.599,-51.681 -25.597,-51.685 -25.596,-51.687 -25.597,-51.691 -25.594,-51.693 -25.593,-51.699 -25.592,-51.702 -25.593,-51.705 -25.596,-51.706 -25.598,-51.705 -25.6,-51.704 -25.601,-51.705 -25.601,-51.707 -25.602,-51.708 -25.605,-51.709 -25.609,-51.706 -25.61,-51.704 -25.611,-51.703 -25.613,-51.703 -25.614,-51.704 -25.615,-51.706 -25.615,-51.709 -25.613,-51.711 -25.612,-51.715 -25.608,-51.719 -25.606,-51.722 -25.606,-51.726 -25.613,-51.731 -25.614,-51.733 -25.614,-51.733 -25.614,-51.735 -25.612,-51.738 -25.61,-51.74 -25.608,-51.74 -25.606,-51.74 -25.604,-51.741 -25.602,-51.742 -25.602,-51.744 -25.601,-51.746 -25.599,-51.749 -25.597,-51.755 -25.6,-51.757 -25.602,-51.756 -25.605,-51.751 -25.606,-51.75 -25.607,-51.749 -25.609,-51.751 -25.609,-51.754 -25.61,-51.756 -25.614,-51.761 -25.614,-51.762 -25.612,-51.767 -25.611,-51.769 -25.609,-51.77 -25.604,-51.773 -25.603,-51.775 -25.603,-51.779 -25.602,-51.78 -25.6,-51.781 -25.599,-51.78 -25.597,-51.776 -25.594,-51.776 -25.592,-51.774 -25.591,-51.772 -25.59,-51.771 -25.589,-51.771",
-      "polygon_points": 1318,
-      "has_geocode": true,
-      "uf_hint": "PR",
-      "region": "S",
-      "geometry_wkt": "POLYGON ((-51.771 -25.589, -51.772 -25.588, -51.775 -25.589, -51.778 -25.589, -51.78 -25.589, -51.782 -25.589, -51.783 -25.59, -51.785 -25.592, -51.788 -25.594, -51.79 -25.596, -51.792 -25.596, -51.793 -25.599, -51.795 -25.6, -51.796 -25.598, -51.796 -25.597, -51.797 -25.595, -51.801 -25.595, -51.805 -25.595, -51.809 -25.595, -51.812 -25.595, -51.818 -25.597, -51.818 -25.599, -51.817 -25.601, -51.815 -25.603, -51.813 -25.604, -51.807 -25.608, -51.806 -25.61, -51.806 -25.612, -51.808 -25.614, -51.808 -25.614, -51.811 -25.614, -51.816 -25.614, -51.819 -25.612, -51.821 -25.608, -51.826 -25.608, -51.834 -25.611, -51.836 -25.613, -51.838 -25.617, -51.837 -25.619, -51.835 -25.623, -51.834 -25.627, -51.833 -25.63, -51.833 -25.633, -51.833 -25.636, -51.834 -25.637, -51.836 -25.638, -51.84 -25.637, -51.842 -25.635, -51.846 -25.634, -51.849 -25.632, -51.85 -25.629, -51.85 -25.626, -51.849 -25.624, -51.847 -25.62, -51.847 -25.617, -51.848 -25.614, -51.849 -25.612, -51.852 -25.61, -51.855 -25.607, -51.857 -25.605, -51.858 -25.604, -51.863 -25.605, -51.865 -25.606, -51.869 -25.606, -51.871 -25.607, -51.874 -25.61, -51.875 -25.612, -51.875 -25.614, -51.877 -25.616, -51.879 -25.617, -51.879 -25.623, -51.881 -25.628, -51.881 -25.629, -51.881 -25.634, -51.882 -25.636, -51.882 -25.637, -51.881 -25.639, -51.88 -25.641, -51.88 -25.643, -51.881 -25.645, -51.883 -25.646, -51.885 -25.644, -51.891 -25.638, -51.893 -25.638, -51.896 -25.638, -51.9 -25.64, -51.905 -25.649, -51.906 -25.651, -51.905 -25.653, -51.903 -25.656, -51.903 -25.658, -51.904 -25.661, -51.907 -25.661, -51.909 -25.661, -51.912 -25.661, -51.914 -25.66, -51.917 -25.66, -51.919 -25.659, -51.92 -25.658, -51.919 -25.655, -51.917 -25.653, -51.916 -25.65, -51.915 -25.641, -51.915 -25.637, -51.916 -25.633, -51.92 -25.633, -51.922 -25.632, -51.924 -25.631, -51.926 -25.63, -51.928 -25.63, -51.929 -25.63, -51.931 -25.632, -51.933 -25.633, -51.934 -25.637, -51.934 -25.64, -51.934 -25.642, -51.935 -25.644, -51.936 -25.646, -51.941 -25.652, -51.943 -25.652, -51.948 -25.653, -51.952 -25.651, -51.955 -25.648, -51.956 -25.646, -51.966 -25.638, -51.968 -25.637, -51.973 -25.636, -51.975 -25.638, -51.975 -25.639, -51.974 -25.65, -51.974 -25.653, -51.973 -25.654, -51.97 -25.654, -51.965 -25.656, -51.963 -25.657, -51.964 -25.659, -51.967 -25.664, -51.97 -25.669, -51.976 -25.672, -51.98 -25.675, -51.984 -25.676, -51.986 -25.676, -51.989 -25.679, -51.991 -25.683, -51.991 -25.684, -51.99 -25.685, -51.989 -25.686, -51.985 -25.688, -51.98 -25.691, -51.979 -25.693, -51.979 -25.696, -51.979 -25.697, -51.981 -25.698, -51.983 -25.698, -51.986 -25.698, -51.989 -25.698, -51.994 -25.697, -52 -25.698, -52.001 -25.698, -52.002 -25.699, -52.002 -25.7, -52.002 -25.701, -52.002 -25.703, -52.001 -25.704, -52 -25.705, -51.997 -25.71, -51.996 -25.711, -51.995 -25.714, -51.993 -25.714, -51.991 -25.715, -51.989 -25.716, -51.988 -25.718, -51.989 -25.719, -51.991 -25.721, -51.995 -25.722, -51.998 -25.721, -52.005 -25.72, -52.008 -25.721, -52.01 -25.721, -52.011 -25.72, -52.016 -25.717, -52.019 -25.715, -52.021 -25.715, -52.022 -25.715, -52.023 -25.716, -52.023 -25.718, -52.023 -25.72, -52.022 -25.721, -52.022 -25.723, -52.021 -25.724, -52.021 -25.726, -52.02 -25.729, -52.02 -25.731, -52.021 -25.732, -52.023 -25.734, -52.025 -25.734, -52.027 -25.735, -52.029 -25.736, -52.029 -25.737, -52.028 -25.74, -52.025 -25.744, -52.025 -25.745, -52.025 -25.747, -52.026 -25.748, -52.028 -25.75, -52.028 -25.752, -52.027 -25.754, -52.026 -25.755, -52.025 -25.757, -52.024 -25.758, -52.022 -25.759, -52.02 -25.759, -52.019 -25.759, -52.018 -25.757, -52.017 -25.756, -52.016 -25.757, -52.015 -25.757, -52.012 -25.757, -52.009 -25.758, -52.005 -25.759, -52.003 -25.759, -52.001 -25.76, -52 -25.76, -51.998 -25.76, -51.997 -25.759, -51.996 -25.756, -51.995 -25.756, -51.993 -25.756, -51.992 -25.756, -51.99 -25.756, -51.99 -25.755, -51.99 -25.753, -51.988 -25.752, -51.987 -25.753, -51.984 -25.755, -51.984 -25.756, -51.984 -25.757, -51.982 -25.757, -51.98 -25.757, -51.979 -25.755, -51.979 -25.752, -51.977 -25.751, -51.976 -25.752, -51.974 -25.752, -51.971 -25.752, -51.97 -25.751, -51.968 -25.751, -51.968 -25.75, -51.969 -25.748, -51.967 -25.747, -51.966 -25.747, -51.964 -25.748, -51.963 -25.748, -51.961 -25.747, -51.96 -25.746, -51.96 -25.744, -51.961 -25.743, -51.963 -25.743, -51.963 -25.741, -51.963 -25.74, -51.962 -25.738, -51.961 -25.739, -51.958 -25.74, -51.955 -25.741, -51.952 -25.741, -51.951 -25.743, -51.951 -25.744, -51.951 -25.746, -51.95 -25.747, -51.949 -25.748, -51.947 -25.746, -51.946 -25.746, -51.945 -25.744, -51.946 -25.743, -51.943 -25.743, -51.941 -25.742, -51.941 -25.741, -51.94 -25.739, -51.94 -25.736, -51.939 -25.735, -51.937 -25.736, -51.936 -25.736, -51.934 -25.736, -51.933 -25.736, -51.93 -25.734, -51.929 -25.733, -51.93 -25.732, -51.929 -25.731, -51.928 -25.732, -51.926 -25.732, -51.925 -25.731, -51.924 -25.731, -51.918 -25.731, -51.918 -25.729, -51.917 -25.729, -51.915 -25.729, -51.916 -25.726, -51.914 -25.726, -51.913 -25.727, -51.912 -25.729, -51.911 -25.731, -51.91 -25.733, -51.909 -25.734, -51.907 -25.735, -51.906 -25.736, -51.905 -25.737, -51.903 -25.736, -51.902 -25.735, -51.9 -25.733, -51.897 -25.731, -51.895 -25.729, -51.893 -25.728, -51.891 -25.726, -51.89 -25.725, -51.89 -25.724, -51.893 -25.722, -51.892 -25.721, -51.889 -25.72, -51.887 -25.72, -51.886 -25.719, -51.885 -25.722, -51.883 -25.723, -51.882 -25.724, -51.882 -25.725, -51.882 -25.727, -51.882 -25.73, -51.88 -25.733, -51.879 -25.734, -51.879 -25.735, -51.879 -25.737, -51.879 -25.738, -51.879 -25.743, -51.878 -25.745, -51.877 -25.746, -51.876 -25.747, -51.875 -25.747, -51.873 -25.75, -51.871 -25.751, -51.87 -25.749, -51.871 -25.748, -51.87 -25.747, -51.867 -25.745, -51.865 -25.744, -51.863 -25.744, -51.862 -25.745, -51.86 -25.745, -51.859 -25.745, -51.857 -25.745, -51.856 -25.746, -51.854 -25.746, -51.853 -25.745, -51.851 -25.745, -51.85 -25.746, -51.85 -25.748, -51.851 -25.749, -51.852 -25.751, -51.853 -25.752, -51.854 -25.755, -51.853 -25.757, -51.852 -25.758, -51.849 -25.76, -51.847 -25.76, -51.842 -25.763, -51.841 -25.764, -51.839 -25.766, -51.838 -25.767, -51.838 -25.776, -51.836 -25.778, -51.836 -25.78, -51.836 -25.781, -51.837 -25.782, -51.838 -25.783, -51.837 -25.785, -51.838 -25.787, -51.839 -25.791, -51.838 -25.792, -51.838 -25.792, -51.838 -25.793, -51.838 -25.796, -51.837 -25.797, -51.836 -25.798, -51.835 -25.8, -51.832 -25.801, -51.83 -25.804, -51.828 -25.805, -51.827 -25.805, -51.826 -25.806, -51.825 -25.809, -51.823 -25.81, -51.822 -25.812, -51.822 -25.813, -51.821 -25.815, -51.82 -25.817, -51.82 -25.818, -51.818 -25.821, -51.815 -25.824, -51.813 -25.825, -51.811 -25.828, -51.811 -25.829, -51.811 -25.83, -51.81 -25.832, -51.809 -25.833, -51.808 -25.834, -51.806 -25.837, -51.805 -25.839, -51.803 -25.842, -51.804 -25.844, -51.804 -25.844, -51.804 -25.846, -51.805 -25.846, -51.805 -25.847, -51.807 -25.846, -51.809 -25.846, -51.809 -25.846, -51.81 -25.847, -51.811 -25.847, -51.811 -25.848, -51.81 -25.849, -51.808 -25.85, -51.807 -25.852, -51.805 -25.856, -51.805 -25.856, -51.805 -25.857, -51.804 -25.858, -51.803 -25.86, -51.806 -25.861, -51.807 -25.862, -51.81 -25.864, -51.812 -25.865, -51.812 -25.867, -51.813 -25.868, -51.813 -25.87, -51.812 -25.871, -51.81 -25.874, -51.81 -25.876, -51.809 -25.88, -51.809 -25.882, -51.809 -25.887, -51.81 -25.89, -51.81 -25.892, -51.81 -25.896, -51.81 -25.899, -51.81 -25.9, -51.809 -25.902, -51.807 -25.904, -51.807 -25.906, -51.808 -25.907, -51.809 -25.908, -51.806 -25.911, -51.805 -25.912, -51.804 -25.916, -51.806 -25.919, -51.808 -25.921, -51.811 -25.922, -51.812 -25.923, -51.812 -25.928, -51.812 -25.93, -51.811 -25.931, -51.811 -25.932, -51.813 -25.934, -51.814 -25.936, -51.815 -25.937, -51.816 -25.938, -51.816 -25.938, -51.816 -25.939, -51.816 -25.941, -51.814 -25.942, -51.813 -25.943, -51.814 -25.944, -51.814 -25.946, -51.812 -25.947, -51.811 -25.948, -51.809 -25.948, -51.81 -25.95, -51.813 -25.951, -51.816 -25.951, -51.817 -25.952, -51.819 -25.952, -51.82 -25.953, -51.821 -25.953, -51.82 -25.955, -51.819 -25.955, -51.819 -25.957, -51.817 -25.958, -51.816 -25.962, -51.817 -25.963, -51.818 -25.964, -51.818 -25.966, -51.818 -25.967, -51.819 -25.968, -51.819 -25.97, -51.818 -25.971, -51.816 -25.97, -51.815 -25.972, -51.815 -25.973, -51.814 -25.978, -51.814 -25.979, -51.811 -25.983, -51.809 -25.984, -51.808 -25.984, -51.807 -25.986, -51.805 -25.986, -51.804 -25.986, -51.802 -25.987, -51.803 -25.989, -51.804 -25.989, -51.806 -25.99, -51.807 -25.991, -51.808 -25.992, -51.806 -25.993, -51.805 -25.994, -51.805 -25.996, -51.804 -25.997, -51.802 -25.997, -51.801 -25.998, -51.8 -25.999, -51.798 -25.999, -51.797 -25.999, -51.795 -25.999, -51.795 -25.999, -51.794 -25.998, -51.79 -25.997, -51.785 -25.996, -51.782 -25.996, -51.78 -25.997, -51.779 -25.998, -51.778 -26, -51.777 -26.002, -51.775 -26.003, -51.774 -26.004, -51.773 -26.006, -51.771 -26.008, -51.77 -26.009, -51.769 -26.01, -51.768 -26.011, -51.767 -26.011, -51.765 -26.011, -51.763 -26.01, -51.76 -26.009, -51.757 -26.008, -51.754 -26.006, -51.747 -25.998, -51.745 -25.996, -51.743 -25.995, -51.741 -25.994, -51.739 -25.994, -51.738 -25.994, -51.735 -25.994, -51.733 -25.991, -51.731 -25.989, -51.731 -25.986, -51.731 -25.984, -51.732 -25.982, -51.734 -25.98, -51.736 -25.978, -51.739 -25.977, -51.741 -25.975, -51.742 -25.973, -51.743 -25.97, -51.739 -25.967, -51.736 -25.964, -51.734 -25.961, -51.731 -25.957, -51.729 -25.954, -51.728 -25.95, -51.727 -25.946, -51.726 -25.942, -51.725 -25.938, -51.723 -25.933, -51.722 -25.931, -51.72 -25.928, -51.72 -25.927, -51.717 -25.924, -51.714 -25.921, -51.709 -25.918, -51.708 -25.918, -51.705 -25.916, -51.701 -25.915, -51.698 -25.914, -51.695 -25.915, -51.691 -25.917, -51.688 -25.919, -51.685 -25.922, -51.683 -25.924, -51.681 -25.925, -51.68 -25.926, -51.68 -25.929, -51.68 -25.932, -51.682 -25.936, -51.684 -25.938, -51.685 -25.94, -51.687 -25.942, -51.688 -25.943, -51.693 -25.951, -51.695 -25.954, -51.696 -25.956, -51.7 -25.958, -51.704 -25.96, -51.707 -25.962, -51.71 -25.964, -51.711 -25.966, -51.711 -25.969, -51.711 -25.972, -51.709 -25.978, -51.707 -25.98, -51.704 -25.981, -51.703 -25.983, -51.7 -25.985, -51.697 -25.986, -51.69 -25.987, -51.686 -25.988, -51.684 -25.99, -51.681 -25.991, -51.679 -25.993, -51.677 -25.995, -51.678 -25.996, -51.677 -25.997, -51.676 -26, -51.676 -26.003, -51.676 -26.005, -51.674 -26.007, -51.67 -26.009, -51.667 -26.01, -51.665 -26.009, -51.665 -26.009, -51.664 -26.009, -51.657 -26.005, -51.654 -26.003, -51.651 -26, -51.648 -25.998, -51.645 -25.997, -51.643 -25.997, -51.64 -25.998, -51.639 -25.999, -51.633 -26.003, -51.63 -26.004, -51.627 -26.004, -51.623 -26.004, -51.619 -26.003, -51.618 -26, -51.617 -25.998, -51.616 -25.997, -51.613 -25.997, -51.611 -25.997, -51.609 -25.998, -51.606 -25.998, -51.604 -25.999, -51.601 -26.001, -51.598 -26.001, -51.596 -26.001, -51.595 -26, -51.593 -25.999, -51.588 -25.998, -51.584 -25.998, -51.582 -25.997, -51.581 -25.996, -51.581 -25.996, -51.58 -25.995, -51.579 -25.993, -51.58 -25.992, -51.58 -25.991, -51.582 -25.989, -51.583 -25.986, -51.583 -25.983, -51.583 -25.98, -51.581 -25.976, -51.577 -25.976, -51.576 -25.977, -51.57 -25.977, -51.567 -25.979, -51.563 -25.981, -51.559 -25.983, -51.556 -25.985, -51.554 -25.985, -51.55 -25.986, -51.545 -25.984, -51.543 -25.983, -51.541 -25.98, -51.539 -25.977, -51.539 -25.975, -51.543 -25.97, -51.543 -25.968, -51.543 -25.967, -51.541 -25.965, -51.54 -25.964, -51.538 -25.965, -51.534 -25.964, -51.53 -25.965, -51.528 -25.967, -51.526 -25.968, -51.523 -25.968, -51.521 -25.969, -51.518 -25.968, -51.517 -25.967, -51.515 -25.966, -51.513 -25.964, -51.511 -25.963, -51.511 -25.961, -51.512 -25.958, -51.513 -25.957, -51.513 -25.955, -51.513 -25.953, -51.512 -25.952, -51.511 -25.951, -51.509 -25.952, -51.507 -25.953, -51.505 -25.955, -51.502 -25.955, -51.501 -25.955, -51.5 -25.954, -51.5 -25.952, -51.5 -25.951, -51.501 -25.95, -51.501 -25.948, -51.501 -25.946, -51.502 -25.944, -51.502 -25.943, -51.502 -25.942, -51.501 -25.941, -51.5 -25.939, -51.495 -25.935, -51.493 -25.933, -51.491 -25.931, -51.488 -25.93, -51.486 -25.93, -51.485 -25.929, -51.483 -25.927, -51.481 -25.924, -51.48 -25.922, -51.477 -25.921, -51.475 -25.923, -51.472 -25.925, -51.471 -25.926, -51.469 -25.928, -51.468 -25.931, -51.469 -25.934, -51.47 -25.937, -51.472 -25.94, -51.472 -25.942, -51.47 -25.943, -51.468 -25.943, -51.465 -25.942, -51.463 -25.942, -51.46 -25.942, -51.457 -25.944, -51.454 -25.947, -51.452 -25.95, -51.449 -25.951, -51.449 -25.951, -51.448 -25.95, -51.439 -25.943, -51.436 -25.943, -51.434 -25.944, -51.433 -25.942, -51.432 -25.94, -51.432 -25.938, -51.433 -25.937, -51.434 -25.935, -51.434 -25.931, -51.435 -25.93, -51.436 -25.929, -51.437 -25.928, -51.437 -25.925, -51.436 -25.924, -51.436 -25.924, -51.434 -25.921, -51.431 -25.922, -51.43 -25.923, -51.429 -25.926, -51.427 -25.927, -51.425 -25.925, -51.423 -25.923, -51.421 -25.92, -51.418 -25.921, -51.415 -25.922, -51.412 -25.924, -51.411 -25.926, -51.412 -25.929, -51.414 -25.931, -51.416 -25.934, -51.415 -25.937, -51.414 -25.943, -51.415 -25.945, -51.415 -25.948, -51.413 -25.95, -51.409 -25.948, -51.408 -25.947, -51.406 -25.945, -51.405 -25.943, -51.405 -25.94, -51.405 -25.936, -51.406 -25.933, -51.405 -25.932, -51.403 -25.933, -51.401 -25.935, -51.397 -25.936, -51.395 -25.937, -51.393 -25.938, -51.39 -25.938, -51.388 -25.936, -51.387 -25.934, -51.386 -25.932, -51.383 -25.933, -51.381 -25.934, -51.38 -25.931, -51.38 -25.927, -51.38 -25.924, -51.381 -25.923, -51.383 -25.922, -51.384 -25.92, -51.384 -25.918, -51.383 -25.917, -51.381 -25.917, -51.374 -25.918, -51.371 -25.918, -51.37 -25.917, -51.37 -25.916, -51.371 -25.914, -51.38 -25.904, -51.38 -25.902, -51.381 -25.896, -51.38 -25.894, -51.377 -25.894, -51.372 -25.894, -51.37 -25.895, -51.368 -25.897, -51.366 -25.897, -51.363 -25.898, -51.355 -25.894, -51.355 -25.892, -51.355 -25.891, -51.358 -25.891, -51.36 -25.89, -51.364 -25.889, -51.367 -25.888, -51.368 -25.884, -51.362 -25.883, -51.36 -25.881, -51.359 -25.88, -51.357 -25.879, -51.355 -25.88, -51.352 -25.88, -51.35 -25.879, -51.349 -25.878, -51.349 -25.877, -51.348 -25.875, -51.349 -25.871, -51.348 -25.869, -51.346 -25.866, -51.345 -25.864, -51.344 -25.862, -51.341 -25.862, -51.34 -25.863, -51.338 -25.864, -51.335 -25.864, -51.334 -25.863, -51.335 -25.86, -51.336 -25.858, -51.338 -25.855, -51.336 -25.855, -51.333 -25.855, -51.33 -25.853, -51.329 -25.851, -51.327 -25.85, -51.326 -25.847, -51.322 -25.846, -51.322 -25.843, -51.324 -25.84, -51.322 -25.838, -51.323 -25.836, -51.324 -25.834, -51.321 -25.826, -51.318 -25.825, -51.314 -25.825, -51.312 -25.825, -51.311 -25.827, -51.309 -25.829, -51.305 -25.83, -51.305 -25.832, -51.303 -25.833, -51.301 -25.831, -51.301 -25.83, -51.301 -25.828, -51.302 -25.825, -51.303 -25.824, -51.305 -25.823, -51.307 -25.823, -51.307 -25.82, -51.307 -25.819, -51.305 -25.818, -51.304 -25.818, -51.303 -25.818, -51.303 -25.816, -51.305 -25.816, -51.307 -25.815, -51.308 -25.814, -51.308 -25.812, -51.309 -25.811, -51.308 -25.81, -51.308 -25.808, -51.31 -25.805, -51.312 -25.806, -51.314 -25.805, -51.315 -25.803, -51.315 -25.798, -51.315 -25.794, -51.316 -25.792, -51.317 -25.791, -51.318 -25.791, -51.321 -25.79, -51.322 -25.788, -51.323 -25.786, -51.326 -25.786, -51.328 -25.784, -51.33 -25.783, -51.331 -25.783, -51.333 -25.781, -51.336 -25.78, -51.336 -25.779, -51.337 -25.777, -51.337 -25.775, -51.339 -25.775, -51.341 -25.775, -51.343 -25.773, -51.345 -25.773, -51.349 -25.773, -51.349 -25.771, -51.351 -25.767, -51.352 -25.766, -51.354 -25.764, -51.351 -25.763, -51.352 -25.761, -51.352 -25.759, -51.354 -25.758, -51.355 -25.757, -51.356 -25.754, -51.354 -25.754, -51.354 -25.752, -51.355 -25.751, -51.358 -25.75, -51.358 -25.748, -51.359 -25.747, -51.361 -25.743, -51.361 -25.742, -51.361 -25.741, -51.364 -25.739, -51.365 -25.738, -51.366 -25.735, -51.366 -25.734, -51.364 -25.733, -51.363 -25.731, -51.362 -25.727, -51.361 -25.726, -51.358 -25.724, -51.354 -25.718, -51.356 -25.716, -51.357 -25.715, -51.357 -25.714, -51.358 -25.713, -51.357 -25.712, -51.356 -25.71, -51.355 -25.709, -51.352 -25.702, -51.345 -25.69, -51.345 -25.686, -51.347 -25.685, -51.348 -25.684, -51.349 -25.683, -51.353 -25.681, -51.355 -25.679, -51.357 -25.677, -51.358 -25.677, -51.362 -25.677, -51.363 -25.676, -51.363 -25.674, -51.363 -25.672, -51.365 -25.671, -51.367 -25.67, -51.37 -25.666, -51.373 -25.665, -51.371 -25.663, -51.372 -25.661, -51.375 -25.659, -51.376 -25.657, -51.376 -25.654, -51.379 -25.655, -51.381 -25.654, -51.382 -25.652, -51.383 -25.65, -51.384 -25.65, -51.386 -25.649, -51.387 -25.649, -51.389 -25.649, -51.392 -25.647, -51.394 -25.648, -51.396 -25.648, -51.404 -25.643, -51.406 -25.644, -51.408 -25.642, -51.411 -25.64, -51.413 -25.638, -51.417 -25.64, -51.418 -25.642, -51.42 -25.641, -51.422 -25.642, -51.424 -25.641, -51.425 -25.644, -51.424 -25.649, -51.421 -25.651, -51.421 -25.652, -51.422 -25.656, -51.427 -25.66, -51.428 -25.66, -51.429 -25.658, -51.432 -25.659, -51.437 -25.66, -51.439 -25.662, -51.442 -25.66, -51.444 -25.659, -51.444 -25.655, -51.445 -25.655, -51.446 -25.655, -51.448 -25.655, -51.451 -25.658, -51.453 -25.659, -51.455 -25.659, -51.456 -25.657, -51.458 -25.657, -51.459 -25.658, -51.463 -25.659, -51.464 -25.658, -51.465 -25.66, -51.469 -25.661, -51.471 -25.661, -51.469 -25.662, -51.468 -25.666, -51.47 -25.666, -51.472 -25.668, -51.474 -25.669, -51.477 -25.669, -51.477 -25.665, -51.477 -25.663, -51.478 -25.663, -51.48 -25.662, -51.483 -25.664, -51.485 -25.666, -51.485 -25.667, -51.484 -25.668, -51.483 -25.67, -51.483 -25.673, -51.482 -25.675, -51.484 -25.677, -51.482 -25.679, -51.482 -25.68, -51.482 -25.682, -51.484 -25.681, -51.485 -25.68, -51.486 -25.679, -51.488 -25.68, -51.49 -25.68, -51.492 -25.68, -51.494 -25.681, -51.495 -25.68, -51.497 -25.678, -51.498 -25.677, -51.501 -25.676, -51.503 -25.675, -51.506 -25.674, -51.507 -25.673, -51.507 -25.671, -51.507 -25.668, -51.508 -25.667, -51.509 -25.664, -51.51 -25.663, -51.51 -25.662, -51.51 -25.661, -51.51 -25.66, -51.508 -25.66, -51.503 -25.659, -51.502 -25.659, -51.502 -25.657, -51.503 -25.656, -51.503 -25.655, -51.501 -25.654, -51.5 -25.655, -51.497 -25.654, -51.499 -25.653, -51.5 -25.65, -51.495 -25.645, -51.494 -25.644, -51.499 -25.637, -51.5 -25.634, -51.497 -25.631, -51.495 -25.63, -51.492 -25.631, -51.489 -25.631, -51.487 -25.631, -51.486 -25.632, -51.483 -25.631, -51.479 -25.632, -51.475 -25.63, -51.474 -25.626, -51.474 -25.625, -51.476 -25.623, -51.476 -25.619, -51.477 -25.618, -51.479 -25.616, -51.481 -25.613, -51.486 -25.61, -51.487 -25.608, -51.49 -25.608, -51.492 -25.612, -51.492 -25.613, -51.49 -25.614, -51.488 -25.615, -51.488 -25.617, -51.49 -25.62, -51.494 -25.622, -51.498 -25.625, -51.5 -25.624, -51.501 -25.623, -51.503 -25.623, -51.505 -25.623, -51.509 -25.621, -51.511 -25.619, -51.512 -25.619, -51.512 -25.617, -51.511 -25.615, -51.51 -25.613, -51.512 -25.612, -51.514 -25.612, -51.516 -25.613, -51.517 -25.613, -51.518 -25.615, -51.519 -25.615, -51.521 -25.615, -51.524 -25.616, -51.525 -25.617, -51.524 -25.622, -51.521 -25.624, -51.521 -25.626, -51.526 -25.626, -51.528 -25.624, -51.532 -25.62, -51.533 -25.618, -51.534 -25.617, -51.536 -25.617, -51.539 -25.617, -51.543 -25.62, -51.544 -25.621, -51.546 -25.622, -51.548 -25.619, -51.55 -25.619, -51.554 -25.621, -51.555 -25.622, -51.556 -25.623, -51.558 -25.624, -51.56 -25.625, -51.56 -25.629, -51.561 -25.63, -51.561 -25.636, -51.563 -25.637, -51.565 -25.637, -51.566 -25.635, -51.567 -25.634, -51.57 -25.634, -51.571 -25.635, -51.573 -25.638, -51.575 -25.639, -51.577 -25.639, -51.581 -25.642, -51.581 -25.644, -51.581 -25.645, -51.581 -25.647, -51.583 -25.65, -51.584 -25.65, -51.584 -25.648, -51.589 -25.648, -51.59 -25.648, -51.592 -25.65, -51.591 -25.651, -51.59 -25.652, -51.589 -25.654, -51.59 -25.657, -51.591 -25.658, -51.591 -25.658, -51.594 -25.656, -51.596 -25.654, -51.595 -25.652, -51.595 -25.651, -51.597 -25.65, -51.599 -25.649, -51.602 -25.645, -51.602 -25.642, -51.601 -25.64, -51.601 -25.635, -51.604 -25.633, -51.606 -25.63, -51.606 -25.628, -51.607 -25.627, -51.606 -25.624, -51.605 -25.621, -51.605 -25.619, -51.607 -25.616, -51.607 -25.612, -51.609 -25.612, -51.611 -25.613, -51.614 -25.612, -51.616 -25.61, -51.615 -25.607, -51.616 -25.606, -51.618 -25.604, -51.621 -25.603, -51.622 -25.603, -51.626 -25.603, -51.626 -25.602, -51.629 -25.599, -51.626 -25.595, -51.629 -25.593, -51.631 -25.593, -51.635 -25.592, -51.637 -25.593, -51.64 -25.597, -51.641 -25.6, -51.642 -25.601, -51.641 -25.604, -51.64 -25.606, -51.639 -25.607, -51.638 -25.609, -51.638 -25.611, -51.639 -25.613, -51.64 -25.615, -51.642 -25.615, -51.645 -25.615, -51.645 -25.615, -51.649 -25.616, -51.65 -25.613, -51.651 -25.612, -51.655 -25.61, -51.654 -25.606, -51.653 -25.604, -51.654 -25.599, -51.656 -25.599, -51.658 -25.6, -51.661 -25.603, -51.665 -25.6, -51.672 -25.597, -51.675 -25.597, -51.677 -25.597, -51.678 -25.598, -51.678 -25.598, -51.68 -25.599, -51.681 -25.599, -51.685 -25.597, -51.687 -25.596, -51.691 -25.597, -51.693 -25.594, -51.699 -25.593, -51.702 -25.592, -51.705 -25.593, -51.706 -25.596, -51.705 -25.598, -51.704 -25.6, -51.705 -25.601, -51.707 -25.601, -51.708 -25.602, -51.709 -25.605, -51.706 -25.609, -51.704 -25.61, -51.703 -25.611, -51.703 -25.613, -51.704 -25.614, -51.706 -25.615, -51.709 -25.615, -51.711 -25.613, -51.715 -25.612, -51.719 -25.608, -51.722 -25.606, -51.726 -25.606, -51.731 -25.613, -51.733 -25.614, -51.733 -25.614, -51.735 -25.614, -51.738 -25.612, -51.74 -25.61, -51.74 -25.608, -51.74 -25.606, -51.741 -25.604, -51.742 -25.602, -51.744 -25.602, -51.746 -25.601, -51.749 -25.599, -51.755 -25.597, -51.757 -25.6, -51.756 -25.602, -51.751 -25.605, -51.75 -25.606, -51.749 -25.607, -51.751 -25.609, -51.754 -25.609, -51.756 -25.61, -51.761 -25.614, -51.762 -25.614, -51.767 -25.612, -51.769 -25.611, -51.77 -25.609, -51.773 -25.604, -51.775 -25.603, -51.779 -25.603, -51.78 -25.602, -51.781 -25.6, -51.78 -25.599, -51.776 -25.597, -51.776 -25.594, -51.774 -25.592, -51.772 -25.591, -51.771 -25.59, -51.771 -25.589))",
-      "uf": "PR",
-      "location": "Porto Vitória/PR, Pinhão/PR",
-      "event_short": "Alagamentos",
-      "status_vigencia": "expirado",
-      "date": "22/07/2026",
-      "time": "11:13",
-      "sent_br": "2026-07-22T11:13:31-03:00",
-      "onset_br": "2026-07-22T11:13:31-03:00",
-      "expires_br": "2026-07-22T17:10:00-03:00",
-      "duration_minutes": 356,
-      "duration_hours": 5.93,
-      "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1425,
-      "time_since_hours": 23.75,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false
-    },
-    {
-      "identifier": "185610/2026",
-      "entry_id": "185610/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "sent": "2026-07-22T11:07:41-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "CHUVAS INTENSAS",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Severe",
-      "certainty": "Likely",
-      "onset": "2026-07-22T11:07:41-03:00",
-      "expires": "2026-07-22T11:10:00-03:00",
-      "nivel": "Alto",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "description": "Chuva muito forte e rajadas de vento na região de Altônia, Iporã, Pérola, Ponta Grossa e municípios vizinhos. Evite áreas de risco e busque abrigo! Emergências 199 ou 193.",
-      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.\nVeja como proceder em casos de desastres. -\n- https://bit.ly/2W1BZxy -\n- Entenda o significado das cores do alerta:\n- http://www.defesacivil.pr.gov.br/Pagina/Significado-das-cores-dos-alertas -\n- Veja a área do alerta: -\n- https://www.defesacivil.pr.gov.br/alertas-vigentes -",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "PARANÁ/PR",
-      "polygon_raw": "-24.027,-54.206 -24.035,-54.216 -24.041,-54.206 -24.132,-53.824 -24.107,-53.415 -23.969,-53.421 -23.732,-53.616 -23.643,-54.03 -23.646,-54.03 -23.649,-54.031 -23.651,-54.032 -23.655,-54.034 -23.659,-54.037 -23.661,-54.039 -23.668,-54.044 -23.671,-54.045 -23.675,-54.047 -23.681,-54.049 -23.685,-54.05 -23.686,-54.05 -23.687,-54.051 -23.69,-54.051 -23.701,-54.053 -23.721,-54.051 -23.725,-54.052 -23.727,-54.053 -23.729,-54.054 -23.73,-54.054 -23.732,-54.056 -23.734,-54.057 -23.74,-54.06 -23.741,-54.061 -23.746,-54.065 -23.75,-54.068 -23.754,-54.07 -23.755,-54.071 -23.759,-54.072 -23.76,-54.073 -23.764,-54.075 -23.767,-54.076 -23.772,-54.078 -23.776,-54.078 -23.777,-54.078 -23.777,-54.079 -23.78,-54.08 -23.788,-54.081 -23.789,-54.081 -23.789,-54.081 -23.792,-54.082 -23.803,-54.083 -23.804,-54.083 -23.805,-54.083 -23.806,-54.083 -23.813,-54.085 -23.816,-54.085 -23.818,-54.085 -23.825,-54.086 -23.828,-54.085 -23.828,-54.085 -23.829,-54.083 -23.83,-54.083 -23.831,-54.083 -23.838,-54.086 -23.839,-54.086 -23.84,-54.086 -23.842,-54.087 -23.844,-54.088 -23.851,-54.087 -23.856,-54.086 -23.86,-54.085 -23.861,-54.084 -23.862,-54.083 -23.863,-54.083 -23.864,-54.083 -23.867,-54.082 -23.867,-54.082 -23.867,-54.082 -23.867,-54.082 -23.88,-54.079 -23.888,-54.079 -23.891,-54.08 -23.897,-54.082 -23.907,-54.087 -23.91,-54.088 -23.915,-54.089 -23.917,-54.09 -23.921,-54.091 -23.922,-54.092 -23.924,-54.093 -23.929,-54.094 -23.936,-54.096 -23.943,-54.098 -23.951,-54.101 -23.957,-54.107 -23.96,-54.11 -23.964,-54.113 -23.971,-54.117 -23.972,-54.118 -23.974,-54.12 -23.982,-54.129 -23.984,-54.132 -23.986,-54.136 -23.988,-54.14 -23.989,-54.145 -23.992,-54.154 -23.994,-54.16 -23.996,-54.164 -23.997,-54.166 -23.998,-54.169 -23.998,-54.169 -24.001,-54.172 -24.001,-54.174 -24.002,-54.174 -24.005,-54.179 -24.006,-54.18 -24.006,-54.18 -24.007,-54.181 -24.01,-54.185 -24.017,-54.193 -24.025,-54.203 -24.027,-54.206",
-      "polygon_points": 121,
-      "has_geocode": false,
-      "uf_hint": "PR",
-      "region": "S",
-      "geometry_wkt": "POLYGON ((-54.206 -24.027, -54.216 -24.035, -54.206 -24.041, -53.824 -24.132, -53.415 -24.107, -53.421 -23.969, -53.616 -23.732, -54.03 -23.643, -54.03 -23.646, -54.031 -23.649, -54.032 -23.651, -54.034 -23.655, -54.037 -23.659, -54.039 -23.661, -54.044 -23.668, -54.045 -23.671, -54.047 -23.675, -54.049 -23.681, -54.05 -23.685, -54.05 -23.686, -54.051 -23.687, -54.051 -23.69, -54.053 -23.701, -54.051 -23.721, -54.052 -23.725, -54.053 -23.727, -54.054 -23.729, -54.054 -23.73, -54.056 -23.732, -54.057 -23.734, -54.06 -23.74, -54.061 -23.741, -54.065 -23.746, -54.068 -23.75, -54.07 -23.754, -54.071 -23.755, -54.072 -23.759, -54.073 -23.76, -54.075 -23.764, -54.076 -23.767, -54.078 -23.772, -54.078 -23.776, -54.078 -23.777, -54.079 -23.777, -54.08 -23.78, -54.081 -23.788, -54.081 -23.789, -54.081 -23.789, -54.082 -23.792, -54.083 -23.803, -54.083 -23.804, -54.083 -23.805, -54.083 -23.806, -54.085 -23.813, -54.085 -23.816, -54.085 -23.818, -54.086 -23.825, -54.085 -23.828, -54.085 -23.828, -54.083 -23.829, -54.083 -23.83, -54.083 -23.831, -54.086 -23.838, -54.086 -23.839, -54.086 -23.84, -54.087 -23.842, -54.088 -23.844, -54.087 -23.851, -54.086 -23.856, -54.085 -23.86, -54.084 -23.861, -54.083 -23.862, -54.083 -23.863, -54.083 -23.864, -54.082 -23.867, -54.082 -23.867, -54.082 -23.867, -54.082 -23.867, -54.079 -23.88, -54.079 -23.888, -54.08 -23.891, -54.082 -23.897, -54.087 -23.907, -54.088 -23.91, -54.089 -23.915, -54.09 -23.917, -54.091 -23.921, -54.092 -23.922, -54.093 -23.924, -54.094 -23.929, -54.096 -23.936, -54.098 -23.943, -54.101 -23.951, -54.107 -23.957, -54.11 -23.96, -54.113 -23.964, -54.117 -23.971, -54.118 -23.972, -54.12 -23.974, -54.129 -23.982, -54.132 -23.984, -54.136 -23.986, -54.14 -23.988, -54.145 -23.989, -54.154 -23.992, -54.16 -23.994, -54.164 -23.996, -54.166 -23.997, -54.169 -23.998, -54.169 -23.998, -54.172 -24.001, -54.174 -24.001, -54.174 -24.002, -54.179 -24.005, -54.18 -24.006, -54.18 -24.006, -54.181 -24.007, -54.185 -24.01, -54.193 -24.017, -54.203 -24.025, -54.206 -24.027))",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "event_short": "Chuvas Intensas",
-      "status_vigencia": "expirado",
-      "date": "22/07/2026",
-      "time": "11:07",
-      "sent_br": "2026-07-22T11:07:41-03:00",
-      "onset_br": "2026-07-22T11:07:41-03:00",
-      "expires_br": "2026-07-22T11:10:00-03:00",
-      "duration_minutes": 2,
-      "duration_hours": 0.03,
-      "duration_bucket": "Até 2h",
-      "time_since_minutes": 1431,
-      "time_since_hours": 23.85,
+      "time_since_minutes": 1435,
+      "time_since_hours": 23.92,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     }
