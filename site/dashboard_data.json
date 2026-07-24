@@ -1,27 +1,39 @@
 {
-  "generated_at": "2026-07-24T12:49:21.569672-03:00",
-  "source_run_dir": "run_20260724_124903",
+  "generated_at": "2026-07-24T14:28:22.684917-03:00",
+  "source_run_dir": "run_20260724_142801",
   "cards": {
     "vigentes": 29,
-    "ultimas24h": 70,
+    "ultimas24h": 76,
     "autoridadesAtivas": 7,
     "alertasExtremos": 2
   },
   "latest_alerts": [
     {
-      "time": "12:38",
+      "time": "14:19",
       "date": "24/07/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "location": "Rio Pardo/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA para elevacao do rio Jacui. Risco ALTO de inundacao em Rio Pardo. Valido por 24h.Evite areas de risco.Emerg 190/193.",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:14h17 Chuva entre Pirapozinho e Assis. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
       "status": "vigente"
     },
     {
-      "time": "12:35",
+      "time": "14:14",
+      "date": "24/07/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:14h12 Chuva entre Batatais e Caujuru. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
+      "status": "vigente"
+    },
+    {
+      "time": "14:05",
       "date": "24/07/2026",
       "senderName": "Defesa Civil Estadual do Paraná",
       "senderNameShort": "DC Paraná",
@@ -33,19 +45,7 @@
       "status": "vigente"
     },
     {
-      "time": "12:22",
-      "date": "24/07/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:12h21 Chuva em Marilia. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente"
-    },
-    {
-      "time": "12:16",
+      "time": "14:05",
       "date": "24/07/2026",
       "senderName": "Defesa Civil Estadual do Paraná",
       "senderNameShort": "DC Paraná",
@@ -57,15 +57,15 @@
       "status": "vigente"
     },
     {
-      "time": "12:13",
+      "time": "13:55",
       "date": "24/07/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
       "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:12h11 Chuva entre Brauna e Pirajui. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte, possibilidade de granizo. Proteja-se!",
       "status": "vigente"
     }
   ],
@@ -73,12 +73,12 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 33
+      "count": 35
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 15
+      "count": 19
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
@@ -88,36 +88,36 @@
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 6
-    },
-    {
-      "name": "Defesa Civil Estadual de Pernambuco",
-      "short_name": "DC Pernambuco",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 2
+      "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual de Pernambuco",
+      "short_name": "DC Pernambuco",
+      "count": 3
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 47
+      "count": 50
     },
     {
       "label": "Alto",
-      "count": 18
+      "count": 22
     },
     {
       "label": "Severo",
-      "count": 3
+      "count": 2
     },
     {
       "label": "Extremo",
@@ -127,49 +127,49 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 58
+      "count": 67
     },
     {
       "label": "Inundações",
-      "count": 8
-    },
-    {
-      "label": "Baixa Umidade Do Ar",
-      "count": 3
+      "count": 7
     },
     {
       "label": "Granizo",
+      "count": 1
+    },
+    {
+      "label": "Baixa Umidade Do Ar",
       "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 33
+      "count": 35
     },
     {
       "uf": "PR",
-      "count": 15
+      "count": 19
     },
     {
       "uf": "RS",
       "count": 7
     },
     {
+      "uf": "MG",
+      "count": 4
+    },
+    {
       "uf": "PE",
-      "count": 6
+      "count": 4
+    },
+    {
+      "uf": "AM",
+      "count": 3
     },
     {
       "uf": "RJ",
       "count": 3
-    },
-    {
-      "uf": "MG",
-      "count": 3
-    },
-    {
-      "uf": "AM",
-      "count": 2
     },
     {
       "uf": "MS",
@@ -183,10 +183,140 @@
     },
     {
       "label": "expirado",
-      "count": 41
+      "count": 47
     }
   ],
   "all_alerts": [
+    {
+      "date": "24/07/2026",
+      "time": "14:19",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:14h17 Chuva entre Pirapozinho e Assis. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-07-24T14:19:12-03:00",
+      "expires": "2026-07-24T17:20:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "14:14",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:14h12 Chuva entre Batatais e Caujuru. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-07-24T14:14:27-03:00",
+      "expires": "2026-07-24T17:05:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "14:05",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-24T14:05:57-03:00",
+      "expires": "2026-07-24T17:05:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "14:05",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-24T14:05:06-03:00",
+      "expires": "2026-07-24T17:05:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "13:55",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte, possibilidade de granizo. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-07-24T13:55:12-03:00",
+      "expires": "2026-07-24T15:50:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "13:42",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-24T13:42:25-03:00",
+      "expires": "2026-07-24T16:40:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "13:34",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-24T13:34:49-03:00",
+      "expires": "2026-07-24T16:30:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "13:10",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:13h08 Chuva entre Catanduva e Ribeirao Preto. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-07-24T13:10:15-03:00",
+      "expires": "2026-07-24T15:20:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "13:09",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:13h08 Chuva entre Catanduva e Ribeirao Preto. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-07-24T13:09:59-03:00",
+      "expires": "2026-07-24T15:20:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "13:08",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Carauari/AM, São Paulo de Olivença/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-07-24T13:08:00-03:00",
+      "expires": "2026-07-24T17:00:00-03:00"
+    },
     {
       "date": "24/07/2026",
       "time": "12:38",
@@ -222,7 +352,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:12h21 Chuva em Marilia. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T12:22:20-03:00",
       "expires": "2026-07-24T14:20:00-03:00"
     },
@@ -248,7 +378,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:12h11 Chuva entre Brauna e Pirajui. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T12:13:28-03:00",
       "expires": "2026-07-24T14:10:00-03:00"
     },
@@ -261,7 +391,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:12h06 Chuva entre Bairi e Ibate. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T12:07:46-03:00",
       "expires": "2026-07-24T14:20:00-03:00"
     },
@@ -300,7 +430,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:11h48 Chuva entre Tarabai e Assis. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T11:50:45-03:00",
       "expires": "2026-07-24T13:45:00-03:00"
     },
@@ -352,7 +482,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:11h12 Chuva entre Pompeia  e Dracena. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T11:14:25-03:00",
       "expires": "2026-07-24T13:10:00-03:00"
     },
@@ -365,7 +495,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:11h07 Chuva entre Catanduva e Matao. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T11:08:39-03:00",
       "expires": "2026-07-24T13:05:00-03:00"
     },
@@ -378,7 +508,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T11:00:26-03:00",
       "expires": "2026-07-24T14:00:00-03:00"
     },
@@ -391,7 +521,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T10:41:53-03:00",
       "expires": "2026-07-24T13:40:00-03:00"
     },
@@ -430,7 +560,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T10:19:29-03:00",
       "expires": "2026-07-24T13:20:00-03:00"
     },
@@ -1044,76 +1174,24 @@
       "status": "expirado",
       "onset": "2026-07-23T14:56:32-03:00",
       "expires": "2026-07-23T17:00:00-03:00"
-    },
-    {
-      "date": "23/07/2026",
-      "time": "14:18",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:14h00 Baixa Umidade Relativa do Ar na regiao de Ituverava. Hidrate-se bebendo bastante agua. Nao se exponha ao Sol.",
-      "status": "expirado",
-      "onset": "2026-07-23T14:18:14-03:00",
-      "expires": "2026-07-23T17:00:00-03:00"
-    },
-    {
-      "date": "23/07/2026",
-      "time": "13:46",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "PE",
-      "location": "Ribeirão/PE, Gameleira/PE",
-      "headline": "Defesa Civil:Alerta de Inundacoes para Ribeirao/PE, Gameleira/PE. Siga as orientacoes da defesa civil municipal.  em caso de Emergencia: ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-07-23T13:46:18-03:00",
-      "expires": "2026-07-23T23:55:00-03:00"
-    },
-    {
-      "date": "23/07/2026",
-      "time": "13:03",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:13:00 - Baixa Umidade Relativa do Ar na regiao de Franca. Hidrate-se bebendo bastante agua. Nao se exponha ao Sol.",
-      "status": "expirado",
-      "onset": "2026-07-23T13:03:56-03:00",
-      "expires": "2026-07-23T19:00:00-03:00"
-    },
-    {
-      "date": "23/07/2026",
-      "time": "12:55",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Caruaru/PE",
-      "headline": "Defesa Civil:A defesa Civil de Caruaru alerta para Chuvas intensas.Sigam as orientacoes da Defesa Civil e em caso de emergencia ligar para 199.",
-      "status": "vigente",
-      "onset": "2026-07-23T12:55:15-03:00",
-      "expires": "2026-07-24T23:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 70,
+    "total_alerts": 76,
     "by_nivel": {
-      "Médio": 47,
-      "Alto": 18,
-      "Severo": 3,
-      "Extremo": 2
+      "Médio": 50,
+      "Alto": 22,
+      "Extremo": 2,
+      "Severo": 2
     },
     "by_channel_list": {
-      "Google": 70
+      "Google": 76
     },
     "by_region": {
-      "SE": 39,
-      "S": 22,
-      "NE": 6,
-      "N": 2,
+      "SE": 42,
+      "S": 26,
+      "NE": 4,
+      "N": 3,
       "CO": 1
     }
   }
