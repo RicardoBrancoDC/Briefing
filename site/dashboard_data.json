@@ -1,15 +1,51 @@
 {
-  "generated_at": "2026-07-24T16:50:41.113389-03:00",
-  "source_run_dir": "run_20260724_165002",
+  "generated_at": "2026-07-24T18:32:29.177597-03:00",
+  "source_run_dir": "run_20260724_183154",
   "cards": {
-    "vigentes": 34,
-    "ultimas24h": 90,
-    "autoridadesAtivas": 8,
-    "alertasExtremos": 2
+    "vigentes": 43,
+    "ultimas24h": 106,
+    "autoridadesAtivas": 7,
+    "alertasExtremos": 3
   },
   "latest_alerts": [
     {
-      "time": "16:47",
+      "time": "18:13",
+      "date": "24/07/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:PR VERMELHO: TEMPORAIS c INTENSAS RAJADAS DE VENTO, CHUVA INTENSA e GRANIZO na prox. 1h na sua regiao. Busque abrigo. Ocorrencias, 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "18:12",
+      "date": "24/07/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "Defesa Civil:ATENCAO - 24/07 18:10 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "18:05",
+      "date": "24/07/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Extremo",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Jacui. Risco MUITO ALTO em Eldorado do Sul. Val. por 24h. Evite areas inundaveis. Emerg 190/193.",
+      "status": "vigente"
+    },
+    {
+      "time": "18:05",
       "date": "24/07/2026",
       "senderName": "Defesa Civil Estadual do Paraná",
       "senderNameShort": "DC Paraná",
@@ -21,51 +57,15 @@
       "status": "vigente"
     },
     {
-      "time": "16:43",
+      "time": "18:01",
       "date": "24/07/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
       "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:ATENCAO - 24/07 16:37 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "16:37",
-      "date": "24/07/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com rajadas de vento e chuva moderada a forte, possibilidade de granizo com duracao de 02:00h.  Proteja-se!",
-      "status": "vigente"
-    },
-    {
-      "time": "16:30",
-      "date": "24/07/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com rajadas de vento e chuva moderada a forte, possibilidade de granizo  com duracao de 02:00h.  Proteja-se!",
-      "status": "vigente"
-    },
-    {
-      "time": "16:28",
-      "date": "24/07/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, rajadas de vento e chuva de moderada a forte intensidade  com duracao de 02:00h. Proteja-se!",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:17h57 Chuva entre Assis e Pirajui. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
       "status": "vigente"
     }
   ],
@@ -73,17 +73,22 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 36
+      "count": 38
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 24
+      "count": 26
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 10
+      "count": 18
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
@@ -91,107 +96,388 @@
       "count": 7
     },
     {
-      "name": "Defesa Civil Nacional",
-      "short_name": "Defesa Civil Nacional",
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
       "count": 6
     },
     {
-      "name": "Defesa Civil Estadual de Pernambuco",
-      "short_name": "DC Pernambuco",
-      "count": 3
-    },
-    {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 2
+      "name": "Defesa Civil Nacional",
+      "short_name": "Defesa Civil Nacional",
+      "count": 4
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 51
+      "count": 48
     },
     {
       "label": "Alto",
-      "count": 35
+      "count": 51
     },
     {
       "label": "Severo",
-      "count": 2
+      "count": 4
     },
     {
       "label": "Extremo",
-      "count": 2
+      "count": 3
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 80
-    },
-    {
-      "label": "Inundações",
-      "count": 7
+      "count": 85
     },
     {
       "label": "Granizo",
-      "count": 3
+      "count": 11
+    },
+    {
+      "label": "Inundações",
+      "count": 10
     }
   ],
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 36
+      "count": 38
     },
     {
       "uf": "PR",
-      "count": 24
+      "count": 26
     },
     {
       "uf": "MG",
-      "count": 11
+      "count": 19
+    },
+    {
+      "uf": "SC",
+      "count": 7
     },
     {
       "uf": "RS",
       "count": 7
     },
     {
-      "uf": "PE",
-      "count": 4
+      "uf": "AM",
+      "count": 6
     },
     {
       "uf": "RJ",
       "count": 3
-    },
-    {
-      "uf": "SC",
-      "count": 2
-    },
-    {
-      "uf": "AM",
-      "count": 2
-    },
-    {
-      "uf": "MS",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 34
+      "count": 43
     },
     {
       "label": "expirado",
-      "count": 56
+      "count": 63
     }
   ],
   "all_alerts": [
+    {
+      "date": "24/07/2026",
+      "time": "18:13",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR VERMELHO: TEMPORAIS c INTENSAS RAJADAS DE VENTO, CHUVA INTENSA e GRANIZO na prox. 1h na sua regiao. Busque abrigo. Ocorrencias, 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-24T18:13:29-03:00",
+      "expires": "2026-07-24T19:15:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "18:12",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 24/07 18:10 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-24T18:12:36-03:00",
+      "expires": "2026-07-24T21:10:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "18:05",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Extremo",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Jacui. Risco MUITO ALTO em Eldorado do Sul. Val. por 24h. Evite areas inundaveis. Emerg 190/193.",
+      "status": "vigente",
+      "onset": "2026-07-24T18:05:13-03:00",
+      "expires": "2026-07-25T18:00:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "18:05",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-24T18:05:00-03:00",
+      "expires": "2026-07-24T21:05:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "18:01",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:17h57 Chuva entre Assis e Pirajui. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-07-24T18:01:07-03:00",
+      "expires": "2026-07-24T19:55:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "17:59",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:17h57 Chuva entre Assis e Pirajui. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-07-24T17:59:59-03:00",
+      "expires": "2026-07-24T19:55:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "17:56",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 24/07 17:54 - TEMPORAL com RAIOS, RAJADAS DE VENTO e GRANIZO  nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-24T17:56:16-03:00",
+      "expires": "2026-07-24T20:55:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "17:53",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 24/07 17:51 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e GRANIZO  nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-24T17:53:25-03:00",
+      "expires": "2026-07-24T20:50:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "17:48",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 24/07 17:47 - TEMPORAIS ISOLADOS de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO e GRANIZO para as regiões do Meio-Oeste e Planalto Norte nas próximas 5 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-24T17:48:32-03:00",
+      "expires": "2026-07-24T22:45:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "17:47",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-07-24T17:47:09-03:00",
+      "expires": "2026-07-24T19:45:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "17:43",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 24/07 17:38 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e GRANIZO nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-24T17:43:30-03:00",
+      "expires": "2026-07-24T20:40:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "17:42",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "uf": "MG",
+      "location": "São Gotardo/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento, chuva moderada a forte e possibilidade de granizo com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-07-24T17:42:39-03:00",
+      "expires": "2026-07-24T19:41:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "17:40",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte  com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-07-24T17:40:16-03:00",
+      "expires": "2026-07-24T19:38:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "17:36",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte, possibilidade de granizo com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-07-24T17:36:44-03:00",
+      "expires": "2026-07-24T19:32:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "17:33",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-24T17:33:15-03:00",
+      "expires": "2026-07-24T20:35:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "17:20",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "Santa Rosa da Serra/MG, São Gotardo/MG",
+      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte com duracao de 02:00h.  Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-07-24T17:20:29-03:00",
+      "expires": "2026-07-24T19:17:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "17:04",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-07-24T17:04:31-03:00",
+      "expires": "2026-07-24T20:50:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "17:02",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-07-24T17:02:44-03:00",
+      "expires": "2026-07-24T18:59:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "17:00",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Inundações",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Beruri/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao. Fique atento e acompanhe atualizacoes. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-07-24T17:00:00-03:00",
+      "expires": "2026-07-31T17:00:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "17:00",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Inundações",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "São Gabriel da Cachoeira/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao Gradual. Fique atento e acompanhe atualizacoes. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-07-24T17:00:00-03:00",
+      "expires": "2026-07-31T17:00:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "17:00",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Inundações",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Maraã/AM, Japurá/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao Gradual. Fique atento e acompanhe atualizacoes. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-07-24T17:00:00-03:00",
+      "expires": "2026-07-31T16:30:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "16:55",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestades severas com rajadas de vento e chuva moderada a forte, possibilidade de granizo  com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-07-24T16:55:43-03:00",
+      "expires": "2026-07-24T18:53:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "16:52",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-07-24T16:52:32-03:00",
+      "expires": "2026-07-24T18:50:00-03:00"
+    },
     {
       "date": "24/07/2026",
       "time": "16:47",
@@ -240,7 +526,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de tempestade severa com rajadas de vento e chuva moderada a forte, possibilidade de granizo  com duracao de 02:00h.  Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T16:30:55-03:00",
       "expires": "2026-07-24T18:29:00-03:00"
     },
@@ -253,7 +539,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de tempestade severa com granizo, rajadas de vento e chuva de moderada a forte intensidade  com duracao de 02:00h. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T16:28:42-03:00",
       "expires": "2026-07-24T18:23:00-03:00"
     },
@@ -357,7 +643,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h35 Chuva entre Marilia e Duartina. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T15:37:04-03:00",
       "expires": "2026-07-24T17:30:00-03:00"
     },
@@ -383,7 +669,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T15:03:27-03:00",
       "expires": "2026-07-24T18:05:00-03:00"
     },
@@ -396,7 +682,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T14:56:37-03:00",
       "expires": "2026-07-24T17:00:00-03:00"
     },
@@ -409,7 +695,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T14:54:30-03:00",
       "expires": "2026-07-24T16:55:00-03:00"
     },
@@ -422,7 +708,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte, possibilidade de granizo. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T14:52:09-03:00",
       "expires": "2026-07-24T16:55:00-03:00"
     },
@@ -435,7 +721,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T14:46:44-03:00",
       "expires": "2026-07-24T17:50:00-03:00"
     },
@@ -448,7 +734,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h17 Chuva entre Pirapozinho e Assis. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T14:19:12-03:00",
       "expires": "2026-07-24T17:20:00-03:00"
     },
@@ -461,7 +747,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h12 Chuva entre Batatais e Caujuru. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T14:14:27-03:00",
       "expires": "2026-07-24T17:05:00-03:00"
     },
@@ -474,7 +760,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T14:05:57-03:00",
       "expires": "2026-07-24T17:05:00-03:00"
     },
@@ -487,7 +773,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T14:05:06-03:00",
       "expires": "2026-07-24T17:05:00-03:00"
     },
@@ -565,7 +851,7 @@
       "uf": "AM",
       "location": "Carauari/AM, São Paulo de Olivença/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T13:08:00-03:00",
       "expires": "2026-07-24T17:00:00-03:00"
     },
@@ -1270,116 +1556,23 @@
       "status": "expirado",
       "onset": "2026-07-23T19:18:12-03:00",
       "expires": "2026-07-23T21:00:00-03:00"
-    },
-    {
-      "date": "23/07/2026",
-      "time": "18:00",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-23T18:00:40-03:00",
-      "expires": "2026-07-23T20:55:00-03:00"
-    },
-    {
-      "date": "23/07/2026",
-      "time": "17:38",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA p/ elevacao no Guaiba. Risco ALTO para inundacao nas Ilhas de Porto Alegre. Val por 24h. Evite areas inundaveis. Emerg 190/193.",
-      "status": "vigente",
-      "onset": "2026-07-23T17:38:24-03:00",
-      "expires": "2026-07-24T17:30:00-03:00"
-    },
-    {
-      "date": "23/07/2026",
-      "time": "17:14",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Recife/PE",
-      "headline": "Defesa Civil:ALERTA DE CHUVA MODERADA E PONTUALMENTE FORTE da noite de hoje (23/07) e ao longo da sexta-feira (24/07). Busque abrigo e evite areas alagadas.",
-      "status": "expirado",
-      "onset": "2026-07-23T17:14:32-03:00",
-      "expires": "2026-07-24T16:00:00-03:00"
-    },
-    {
-      "date": "23/07/2026",
-      "time": "17:10",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:Defesa Civil PE: MATA NORTE. Previsao de CHUVA MODERADA nas prox  24h. Fique atento as orientacoes da Defesa Civil. Emergencia: ligue 193 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-23T17:10:00-03:00",
-      "expires": "2026-07-24T16:00:00-03:00"
-    },
-    {
-      "date": "23/07/2026",
-      "time": "17:08",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:RMR. Previsao de CHUVA MODERADA a FORTE nasproximas 24h. Fique atento as orientacoes da Defesa Civil.Emergencia: ligue 193ou 199.",
-      "status": "expirado",
-      "onset": "2026-07-23T17:08:45-03:00",
-      "expires": "2026-07-24T16:00:00-03:00"
-    },
-    {
-      "date": "23/07/2026",
-      "time": "17:05",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil PE: REGIAO METROPOLITANA DO RECIFE. Previsão de CHUVA MODERADA a FORTE nas\nproximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia: ligue 193\nou 199.",
-      "status": "expirado",
-      "onset": "2026-07-23T17:05:24-03:00",
-      "expires": "2026-07-24T16:00:00-03:00"
-    },
-    {
-      "date": "23/07/2026",
-      "time": "17:00",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MS",
-      "location": "Três Lagoas/MS",
-      "headline": "Defesa Civil:DEFESA CIVIL TL: Alerta INMET tempestade 18h hoje-23h59 sex(24/07). Chuva, vento e granizo. Evite arvores/rua alagada. Emerg:193/67981392876",
-      "status": "expirado",
-      "onset": "2026-07-23T17:00:00-03:00",
-      "expires": "2026-07-24T01:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 90,
+    "total_alerts": 106,
     "by_nivel": {
-      "Médio": 51,
-      "Alto": 35,
-      "Extremo": 2,
-      "Severo": 2
+      "Alto": 51,
+      "Médio": 48,
+      "Severo": 4,
+      "Extremo": 3
     },
     "by_channel_list": {
-      "Google": 90
+      "Google": 106
     },
     "by_region": {
-      "SE": 50,
-      "S": 33,
-      "NE": 4,
-      "N": 2,
-      "CO": 1
+      "SE": 60,
+      "S": 40,
+      "N": 6
     }
   }
 }
