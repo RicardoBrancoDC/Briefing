@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-07-24T14:28:22.684917-03:00",
-  "source_run_dir": "run_20260724_142801",
+  "generated_at": "2026-07-24T14:56:05.488086-03:00",
+  "source_run_dir": "run_20260724_145545",
   "cards": {
-    "vigentes": 29,
-    "ultimas24h": 76,
+    "vigentes": 31,
+    "ultimas24h": 79,
     "autoridadesAtivas": 7,
     "alertasExtremos": 2
   },
   "latest_alerts": [
+    {
+      "time": "14:54",
+      "date": "24/07/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
+      "status": "vigente"
+    },
+    {
+      "time": "14:52",
+      "date": "24/07/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte, possibilidade de granizo. Proteja-se!",
+      "status": "vigente"
+    },
+    {
+      "time": "14:46",
+      "date": "24/07/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "14:19",
       "date": "24/07/2026",
@@ -31,42 +67,6 @@
       "uf": "SP",
       "headline": "Defesa Civil:14h12 Chuva entre Batatais e Caujuru. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
       "status": "vigente"
-    },
-    {
-      "time": "14:05",
-      "date": "24/07/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "14:05",
-      "date": "24/07/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "13:55",
-      "date": "24/07/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte, possibilidade de granizo. Proteja-se!",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 19
+      "count": 20
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
@@ -86,14 +86,14 @@
       "count": 7
     },
     {
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
+      "count": 6
+    },
+    {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
       "count": 5
-    },
-    {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 4
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -113,7 +113,7 @@
     },
     {
       "label": "Alto",
-      "count": 22
+      "count": 25
     },
     {
       "label": "Severo",
@@ -127,7 +127,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 67
+      "count": 70
     },
     {
       "label": "Inundações",
@@ -149,7 +149,7 @@
     },
     {
       "uf": "PR",
-      "count": 19
+      "count": 20
     },
     {
       "uf": "RS",
@@ -157,7 +157,7 @@
     },
     {
       "uf": "MG",
-      "count": 4
+      "count": 6
     },
     {
       "uf": "PE",
@@ -179,14 +179,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 29
+      "count": 31
     },
     {
       "label": "expirado",
-      "count": 47
+      "count": 48
     }
   ],
   "all_alerts": [
+    {
+      "date": "24/07/2026",
+      "time": "14:54",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-07-24T14:54:30-03:00",
+      "expires": "2026-07-24T16:55:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "14:52",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte, possibilidade de granizo. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-07-24T14:52:09-03:00",
+      "expires": "2026-07-24T16:55:00-03:00"
+    },
+    {
+      "date": "24/07/2026",
+      "time": "14:46",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-24T14:46:44-03:00",
+      "expires": "2026-07-24T17:50:00-03:00"
+    },
     {
       "date": "24/07/2026",
       "time": "14:19",
@@ -443,7 +482,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-24T11:41:59-03:00",
       "expires": "2026-07-24T14:40:00-03:00"
     },
@@ -1177,19 +1216,19 @@
     }
   ],
   "summary": {
-    "total_alerts": 76,
+    "total_alerts": 79,
     "by_nivel": {
       "Médio": 50,
-      "Alto": 22,
+      "Alto": 25,
       "Extremo": 2,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 76
+      "Google": 79
     },
     "by_region": {
-      "SE": 42,
-      "S": 26,
+      "SE": 44,
+      "S": 27,
       "NE": 4,
       "N": 3,
       "CO": 1
