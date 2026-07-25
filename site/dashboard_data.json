@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-25T18:12:17.526707-03:00",
-  "source_run_dir": "run_20260725_181147",
+  "generated_at": "2026-07-25T20:16:14.701043-03:00",
+  "source_run_dir": "run_20260725_201555",
   "cards": {
-    "vigentes": 14,
-    "ultimas24h": 55,
-    "autoridadesAtivas": 8,
+    "vigentes": 5,
+    "ultimas24h": 47,
+    "autoridadesAtivas": 7,
     "alertasExtremos": 1
   },
   "latest_alerts": [
@@ -18,7 +18,7 @@
       "location": "Canutama/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:27",
@@ -42,7 +42,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:11",
@@ -54,7 +54,7 @@
       "location": "Campina Verde/MG",
       "uf": "MG",
       "headline": "Defesa Civil:Alerta de Tempestades com raios, rajadas de vento forte e chuva moderada a forte, pelas proximas duas horas. Proteja-se!",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:02",
@@ -66,19 +66,14 @@
       "location": "Novo Aripuanã/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 18
-    },
-    {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 11
+      "count": 16
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -88,7 +83,12 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 9
+      "count": 8
+    },
+    {
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
@@ -104,11 +104,6 @@
       "name": "Defesa Civil Estadual de Goiás",
       "short_name": "DC Goiás",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -118,11 +113,11 @@
     },
     {
       "label": "Alto",
-      "count": 35
+      "count": 28
     },
     {
       "label": "Severo",
-      "count": 2
+      "count": 1
     },
     {
       "label": "Extremo",
@@ -132,7 +127,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 52
+      "count": 44
     },
     {
       "label": "Inundações",
@@ -142,11 +137,7 @@
   "uf_distribution": [
     {
       "uf": "PR",
-      "count": 18
-    },
-    {
-      "uf": "MG",
-      "count": 11
+      "count": 16
     },
     {
       "uf": "SP",
@@ -154,7 +145,11 @@
     },
     {
       "uf": "AM",
-      "count": 9
+      "count": 8
+    },
+    {
+      "uf": "MG",
+      "count": 7
     },
     {
       "uf": "RS",
@@ -167,20 +162,16 @@
     {
       "uf": "GO",
       "count": 1
-    },
-    {
-      "uf": "SC",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 14
+      "count": 5
     },
     {
       "label": "expirado",
-      "count": 41
+      "count": 42
     }
   ],
   "all_alerts": [
@@ -193,7 +184,7 @@
       "uf": "AM",
       "location": "Canutama/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-25T17:38:50-03:00",
       "expires": "2026-07-25T19:35:00-03:00"
     },
@@ -219,7 +210,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-25T17:21:59-03:00",
       "expires": "2026-07-25T20:00:00-03:00"
     },
@@ -232,7 +223,7 @@
       "uf": "MG",
       "location": "Campina Verde/MG",
       "headline": "Defesa Civil:Alerta de Tempestades com raios, rajadas de vento forte e chuva moderada a forte, pelas proximas duas horas. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-25T17:11:51-03:00",
       "expires": "2026-07-25T19:10:00-03:00"
     },
@@ -245,7 +236,7 @@
       "uf": "AM",
       "location": "Novo Aripuanã/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-25T17:02:24-03:00",
       "expires": "2026-07-25T19:00:00-03:00"
     },
@@ -258,7 +249,7 @@
       "uf": "AM",
       "location": "Eirunepé/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-25T16:47:52-03:00",
       "expires": "2026-07-25T18:45:00-03:00"
     },
@@ -271,7 +262,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:16h15 Chuva isolada avancando entre Jose Bonifacio, Urupes e Sales. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-25T16:20:17-03:00",
       "expires": "2026-07-25T18:20:00-03:00"
     },
@@ -284,7 +275,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:16h15 Chuva isolada avancando entre Jose Bonifacio, Urupes e Sales. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-25T16:20:03-03:00",
       "expires": "2026-07-25T18:20:00-03:00"
     },
@@ -297,7 +288,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:16h15 Chuva isolada avancando entre Aracatuba, Birigui e Penapolis. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-25T16:16:32-03:00",
       "expires": "2026-07-25T18:15:00-03:00"
     },
@@ -310,7 +301,7 @@
       "uf": "AM",
       "location": "São Gabriel da Cachoeira/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-25T16:11:04-03:00",
       "expires": "2026-07-25T19:05:00-03:00"
     },
@@ -794,127 +785,23 @@
       "status": "expirado",
       "onset": "2026-07-24T21:07:14-03:00",
       "expires": "2026-07-24T23:05:00-03:00"
-    },
-    {
-      "date": "24/07/2026",
-      "time": "20:05",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestades severas com raios, rajadas de vento forte e chuva moderada a forte, pelas proximas duas horas. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-07-24T20:05:34-03:00",
-      "expires": "2026-07-24T22:01:00-03:00"
-    },
-    {
-      "date": "24/07/2026",
-      "time": "19:55",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-07-24T19:55:09-03:00",
-      "expires": "2026-07-24T23:40:00-03:00"
-    },
-    {
-      "date": "24/07/2026",
-      "time": "19:54",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestades severas com rajadas de vento forte e chuva moderada a forte, pelas proximas duas horas. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-07-24T19:54:30-03:00",
-      "expires": "2026-07-24T21:51:00-03:00"
-    },
-    {
-      "date": "24/07/2026",
-      "time": "19:33",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestades severas com rajadas de vento forte e chuva moderada a forte, pelas proximas duas horas.  Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-07-24T19:33:45-03:00",
-      "expires": "2026-07-24T21:31:00-03:00"
-    },
-    {
-      "date": "24/07/2026",
-      "time": "18:43",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestades severas com rajadas de vento e chuva moderada a forte, pelas proximas duas horas. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-07-24T18:43:40-03:00",
-      "expires": "2026-07-24T20:38:00-03:00"
-    },
-    {
-      "date": "24/07/2026",
-      "time": "18:40",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-24T18:40:58-03:00",
-      "expires": "2026-07-24T21:40:00-03:00"
-    },
-    {
-      "date": "24/07/2026",
-      "time": "18:13",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR VERMELHO: TEMPORAIS c INTENSAS RAJADAS DE VENTO, CHUVA INTENSA e GRANIZO na prox. 1h na sua regiao. Busque abrigo. Ocorrencias, 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-24T18:13:29-03:00",
-      "expires": "2026-07-24T19:15:00-03:00"
-    },
-    {
-      "date": "24/07/2026",
-      "time": "18:12",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 24/07 18:10 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-24T18:12:36-03:00",
-      "expires": "2026-07-24T21:10:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 55,
+    "total_alerts": 47,
     "by_nivel": {
-      "Alto": 35,
+      "Alto": 28,
       "Médio": 17,
-      "Severo": 2,
-      "Extremo": 1
+      "Extremo": 1,
+      "Severo": 1
     },
     "by_channel_list": {
-      "Google": 55
+      "Google": 47
     },
     "by_region": {
-      "SE": 23,
-      "S": 22,
-      "N": 9,
+      "S": 19,
+      "SE": 19,
+      "N": 8,
       "CO": 1
     }
   }
