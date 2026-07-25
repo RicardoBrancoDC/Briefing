@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T03:32:53.684536-03:00",
-  "source_run_dir": "run_20260725_033206",
+  "generated_at": "2026-07-25T07:03:42.520598-03:00",
+  "source_run_dir": "run_20260725_070322",
   "cards": {
     "vigentes": 13,
     "ultimas24h": 109,
@@ -9,7 +9,19 @@
   },
   "latest_alerts": [
     {
-      "time": "03:17",
+      "time": "07:00",
+      "date": "25/07/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "06:11",
       "date": "25/07/2026",
       "senderName": "Defesa Civil Estadual do Paraná",
       "senderNameShort": "DC Paraná",
@@ -21,7 +33,7 @@
       "status": "vigente"
     },
     {
-      "time": "02:11",
+      "time": "05:14",
       "date": "25/07/2026",
       "senderName": "Defesa Civil Estadual do Paraná",
       "senderNameShort": "DC Paraná",
@@ -33,31 +45,19 @@
       "status": "vigente"
     },
     {
-      "time": "01:36",
+      "time": "05:04",
       "date": "25/07/2026",
       "senderName": "Defesa Civil Estadual do Paraná",
       "senderNameShort": "DC Paraná",
       "event": "Chuvas Intensas",
-      "nivel": "Alto",
+      "nivel": "Severo",
       "location": "PARANÁ/PR",
       "uf": "PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "00:30",
-      "date": "25/07/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "headline": "Defesa Civil:PR VERMELHO: TEMPORAIS c INTENSAS RAJADAS DE VENTO, CHUVA INTENSA e GRANIZO na prox. 1h na sua regiao. Busque abrigo. Ocorrencias, 199 ou 193.",
       "status": "expirado"
     },
     {
-      "time": "00:24",
+      "time": "04:26",
       "date": "25/07/2026",
       "senderName": "Defesa Civil Estadual do Paraná",
       "senderNameShort": "DC Paraná",
@@ -66,19 +66,14 @@
       "location": "PARANÁ/PR",
       "uf": "PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado"
+      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 37
-    },
-    {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 26
+      "count": 41
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -86,9 +81,14 @@
       "count": 23
     },
     {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 21
+    },
+    {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 7
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -109,15 +109,15 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 37
+      "count": 33
     },
     {
       "label": "Alto",
-      "count": 66
+      "count": 69
     },
     {
       "label": "Severo",
-      "count": 4
+      "count": 5
     },
     {
       "label": "Extremo",
@@ -141,19 +141,19 @@
   "uf_distribution": [
     {
       "uf": "PR",
-      "count": 37
-    },
-    {
-      "uf": "SP",
-      "count": 26
+      "count": 41
     },
     {
       "uf": "MG",
       "count": 24
     },
     {
+      "uf": "SP",
+      "count": 21
+    },
+    {
       "uf": "AM",
-      "count": 7
+      "count": 8
     },
     {
       "uf": "SC",
@@ -181,7 +181,20 @@
   "all_alerts": [
     {
       "date": "25/07/2026",
-      "time": "03:17",
+      "time": "07:00",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-07-25T07:00:43-03:00",
+      "expires": "2026-07-25T11:00:00-03:00"
+    },
+    {
+      "date": "25/07/2026",
+      "time": "06:11",
       "senderName": "Defesa Civil Estadual do Paraná",
       "event": "Chuvas Intensas",
       "nivel": "Alto",
@@ -189,6 +202,71 @@
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
       "status": "vigente",
+      "onset": "2026-07-25T06:11:30-03:00",
+      "expires": "2026-07-25T09:10:00-03:00"
+    },
+    {
+      "date": "25/07/2026",
+      "time": "05:14",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-25T05:14:37-03:00",
+      "expires": "2026-07-25T08:15:00-03:00"
+    },
+    {
+      "date": "25/07/2026",
+      "time": "05:04",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR VERMELHO: TEMPORAIS c INTENSAS RAJADAS DE VENTO, CHUVA INTENSA e GRANIZO na prox. 1h na sua regiao. Busque abrigo. Ocorrencias, 199 ou 193.",
+      "status": "expirado",
+      "onset": "2026-07-25T05:04:25-03:00",
+      "expires": "2026-07-25T06:05:00-03:00"
+    },
+    {
+      "date": "25/07/2026",
+      "time": "04:26",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-25T04:26:26-03:00",
+      "expires": "2026-07-25T07:25:00-03:00"
+    },
+    {
+      "date": "25/07/2026",
+      "time": "03:40",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "expirado",
+      "onset": "2026-07-25T03:40:49-03:00",
+      "expires": "2026-07-25T06:40:00-03:00"
+    },
+    {
+      "date": "25/07/2026",
+      "time": "03:17",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "expirado",
       "onset": "2026-07-25T03:17:58-03:00",
       "expires": "2026-07-25T06:15:00-03:00"
     },
@@ -201,7 +279,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-25T02:11:17-03:00",
       "expires": "2026-07-25T05:10:00-03:00"
     },
@@ -214,7 +292,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-25T01:36:23-03:00",
       "expires": "2026-07-25T04:35:00-03:00"
     },
@@ -1517,101 +1595,23 @@
       "status": "expirado",
       "onset": "2026-07-24T07:04:20-03:00",
       "expires": "2026-07-24T09:10:00-03:00"
-    },
-    {
-      "date": "24/07/2026",
-      "time": "06:43",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:06h41 Chuva em Euclides da Cunha Paulista. Aproximando-se de Rosana. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-24T06:43:14-03:00",
-      "expires": "2026-07-24T08:45:00-03:00"
-    },
-    {
-      "date": "24/07/2026",
-      "time": "06:37",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR AVISO DE TEMPO: Temporais localizados e chuva pontualmente forte na sex e sab 24 e 25/07. Mantenha-se vigilante. Ocorrencias, ligue 199/193.",
-      "status": "vigente",
-      "onset": "2026-07-24T06:37:51-03:00",
-      "expires": "2026-07-25T22:00:00-03:00"
-    },
-    {
-      "date": "24/07/2026",
-      "time": "06:18",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:06h18 Chuva na regiao de Altinopolis . Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-24T06:18:29-03:00",
-      "expires": "2026-07-24T08:20:00-03:00"
-    },
-    {
-      "date": "24/07/2026",
-      "time": "05:31",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:05h31 Chuva forte aproximando-se de Ribeirao Preto. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-24T05:31:57-03:00",
-      "expires": "2026-07-24T07:35:00-03:00"
-    },
-    {
-      "date": "24/07/2026",
-      "time": "04:25",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:04h26 Chuva entre Leme e Santa Rita do Passa Quatro. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-24T04:25:43-03:00",
-      "expires": "2026-07-24T06:30:00-03:00"
-    },
-    {
-      "date": "24/07/2026",
-      "time": "04:19",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:04h19 Chuva aproximando-se de Taquaritinga. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-24T04:19:51-03:00",
-      "expires": "2026-07-24T06:25:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 109,
     "by_nivel": {
-      "Alto": 66,
-      "Médio": 37,
-      "Severo": 4,
+      "Alto": 69,
+      "Médio": 33,
+      "Severo": 5,
       "Extremo": 2
     },
     "by_channel_list": {
       "Google": 109
     },
     "by_region": {
-      "SE": 53,
-      "S": 49,
-      "N": 7
+      "S": 53,
+      "SE": 48,
+      "N": 8
     }
   }
 }
