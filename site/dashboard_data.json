@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-07-26T12:33:11.718998-03:00",
-  "source_run_dir": "run_20260726_123253",
+  "generated_at": "2026-07-26T14:20:00.398115-03:00",
+  "source_run_dir": "run_20260726_141944",
   "cards": {
-    "vigentes": 11,
-    "ultimas24h": 31,
+    "vigentes": 9,
+    "ultimas24h": 28,
     "autoridadesAtivas": 8,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "12:44",
+      "date": "26/07/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 26/07 12:42 - TEMPORAIS ISOLADOS de intensidade moderada com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Planalto Sul e Litoral Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "12:00",
       "date": "26/07/2026",
@@ -54,31 +66,19 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 26/07 09:20 - TEMPORAIS ISOLADOS de intensidade moderada com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 5 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "09:21",
-      "date": "26/07/2026",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "senderNameShort": "DC Blumenau (SC)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Blumenau/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas isoladas de chuva com trovoadas entre tarde e noite (26/07) em Blumenau. Fique atento! Emerg 199/193.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 11
+      "count": 10
     },
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 6
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
@@ -86,18 +86,18 @@
       "count": 4
     },
     {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 3
-    },
-    {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 3
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 4
     },
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
       "count": 2
     },
     {
@@ -114,11 +114,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 16
+      "count": 14
     },
     {
       "label": "Alto",
-      "count": 14
+      "count": 13
     },
     {
       "label": "Extremo",
@@ -128,7 +128,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 27
+      "count": 24
     },
     {
       "label": "Inundações",
@@ -138,23 +138,23 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 12
-    },
-    {
-      "uf": "SP",
-      "count": 6
+      "count": 11
     },
     {
       "uf": "SC",
-      "count": 4
+      "count": 5
     },
     {
       "uf": "RS",
       "count": 4
     },
     {
+      "uf": "SP",
+      "count": 4
+    },
+    {
       "uf": "MG",
-      "count": 3
+      "count": 2
     },
     {
       "uf": "PR",
@@ -168,14 +168,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 11
+      "count": 9
     },
     {
       "label": "expirado",
-      "count": 20
+      "count": 19
     }
   ],
   "all_alerts": [
+    {
+      "date": "26/07/2026",
+      "time": "12:44",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 26/07 12:42 - TEMPORAIS ISOLADOS de intensidade moderada com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Planalto Sul e Litoral Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-26T12:44:17-03:00",
+      "expires": "2026-07-26T16:45:00-03:00"
+    },
     {
       "date": "26/07/2026",
       "time": "12:00",
@@ -224,7 +237,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 26/07 09:20 - TEMPORAIS ISOLADOS de intensidade moderada com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 5 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-26T09:32:05-03:00",
       "expires": "2026-07-26T14:20:00-03:00"
     },
@@ -250,7 +263,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 26/07 09:20 - TEMPORAIS ISOLADOS de intensidade moderada com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 5 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-26T09:19:38-03:00",
       "expires": "2026-07-26T14:20:00-03:00"
     },
@@ -263,7 +276,7 @@
       "uf": "AM",
       "location": "Barcelos/AM, Santa Isabel do Rio Negro/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao. Fique atento e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-26T08:39:00-03:00",
       "expires": "2026-07-26T13:00:00-03:00"
     },
@@ -526,74 +539,22 @@
       "status": "expirado",
       "onset": "2026-07-25T14:33:32-03:00",
       "expires": "2026-07-25T17:00:00-03:00"
-    },
-    {
-      "date": "25/07/2026",
-      "time": "14:13",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Tapauá/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-07-25T14:13:34-03:00",
-      "expires": "2026-07-25T15:35:00-03:00"
-    },
-    {
-      "date": "25/07/2026",
-      "time": "13:47",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestades com raios, rajadas de vento forte e chuva moderada a forte. Proteja-se! Fonte: Defesa Civil Estadual",
-      "status": "expirado",
-      "onset": "2026-07-25T13:47:35-03:00",
-      "expires": "2026-07-25T16:00:00-03:00"
-    },
-    {
-      "date": "25/07/2026",
-      "time": "13:37",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:13h30 Chuva isolada avancando entre Santo Anastacio e Presid. Bernardes. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-25T13:37:28-03:00",
-      "expires": "2026-07-25T15:00:00-03:00"
-    },
-    {
-      "date": "25/07/2026",
-      "time": "13:33",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:13h30 Chuva isolada avancando entre Quata e tupa. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-25T13:33:28-03:00",
-      "expires": "2026-07-25T15:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 31,
+    "total_alerts": 28,
     "by_nivel": {
-      "Médio": 16,
-      "Alto": 14,
+      "Médio": 14,
+      "Alto": 13,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 31
+      "Google": 28
     },
     "by_region": {
-      "N": 12,
-      "SE": 10,
-      "S": 9
+      "N": 11,
+      "S": 10,
+      "SE": 7
     }
   }
 }
