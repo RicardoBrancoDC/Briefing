@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-07-26T08:39:42.415746-03:00",
-  "source_run_dir": "run_20260726_083925",
+  "generated_at": "2026-07-26T11:01:15.603990-03:00",
+  "source_run_dir": "run_20260726_110057",
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 32,
-    "autoridadesAtivas": 7,
-    "alertasExtremos": 0
+    "vigentes": 10,
+    "ultimas24h": 31,
+    "autoridadesAtivas": 8,
+    "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "10:00",
+      "date": "26/07/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Extremo",
+      "location": "São Borja/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Uruguai. Risco MUITO ALTO para Sao Borja. Valido por 24h. Evite areas inundaveis. Emergencia: 190/193.",
+      "status": "vigente"
+    },
+    {
+      "time": "09:32",
+      "date": "26/07/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 26/07 09:20 - TEMPORAIS ISOLADOS de intensidade moderada com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 5 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "09:21",
+      "date": "26/07/2026",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "senderNameShort": "DC Blumenau (SC)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Blumenau/SC",
+      "uf": "SC",
+      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas isoladas de chuva com trovoadas entre tarde e noite (26/07) em Blumenau. Fique atento! Emerg 199/193.",
+      "status": "vigente"
+    },
+    {
+      "time": "09:19",
+      "date": "26/07/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 26/07 09:20 - TEMPORAIS ISOLADOS de intensidade moderada com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 5 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "08:39",
       "date": "26/07/2026",
@@ -18,54 +66,6 @@
       "location": "Barcelos/AM, Santa Isabel do Rio Negro/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao. Fique atento e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "07:09",
-      "date": "26/07/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:PR AVISO DE TEMPO: Temporais localizados e chuva pontualmente forte no dom 26/07 na regiao. Mantenha-se vigilante. Ocorrencias, ligue 199/193.",
-      "status": "vigente"
-    },
-    {
-      "time": "04:00",
-      "date": "26/07/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Barcelos/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "03:59",
-      "date": "26/07/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Barcelos/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite transitar por areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "23:53",
-      "date": "25/07/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "location": "Itaqui/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta Vermelho p/ elevacao do rio Uruguai. Risco ALTO de inundacao em Itaqui. Val por 24h. Evite areas inundaveis. Emerg 190/193.",
       "status": "vigente"
     }
   ],
@@ -78,21 +78,21 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 8
-    },
-    {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 3
+      "count": 4
     },
     {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
+      "count": 4
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
       "count": 2
     },
     {
@@ -101,8 +101,13 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil Estadual de Goiás",
-      "short_name": "DC Goiás",
+      "name": "Defesa Civil de Blumenau (SC)",
+      "short_name": "DC Blumenau (SC)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
       "count": 1
     }
   ],
@@ -113,17 +118,21 @@
     },
     {
       "label": "Alto",
-      "count": 17
+      "count": 15
+    },
+    {
+      "label": "Extremo",
+      "count": 1
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 29
+      "count": 27
     },
     {
       "label": "Inundações",
-      "count": 3
+      "count": 4
     }
   ],
   "uf_distribution": [
@@ -133,40 +142,92 @@
     },
     {
       "uf": "SP",
-      "count": 8
-    },
-    {
-      "uf": "MG",
-      "count": 5
+      "count": 6
     },
     {
       "uf": "RS",
+      "count": 4
+    },
+    {
+      "uf": "MG",
+      "count": 4
+    },
+    {
+      "uf": "SC",
       "count": 3
     },
     {
       "uf": "PR",
-      "count": 2
-    },
-    {
-      "uf": "RJ",
       "count": 1
     },
     {
-      "uf": "GO",
+      "uf": "RJ",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 10
     },
     {
       "label": "expirado",
-      "count": 26
+      "count": 21
     }
   ],
   "all_alerts": [
+    {
+      "date": "26/07/2026",
+      "time": "10:00",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Extremo",
+      "uf": "RS",
+      "location": "São Borja/RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Uruguai. Risco MUITO ALTO para Sao Borja. Valido por 24h. Evite areas inundaveis. Emergencia: 190/193.",
+      "status": "vigente",
+      "onset": "2026-07-26T10:00:00-03:00",
+      "expires": "2026-07-27T10:00:00-03:00"
+    },
+    {
+      "date": "26/07/2026",
+      "time": "09:32",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 26/07 09:20 - TEMPORAIS ISOLADOS de intensidade moderada com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 5 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-26T09:32:05-03:00",
+      "expires": "2026-07-26T14:20:00-03:00"
+    },
+    {
+      "date": "26/07/2026",
+      "time": "09:21",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "Blumenau/SC",
+      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas isoladas de chuva com trovoadas entre tarde e noite (26/07) em Blumenau. Fique atento! Emerg 199/193.",
+      "status": "vigente",
+      "onset": "2026-07-26T09:21:14-03:00",
+      "expires": "2026-07-26T23:55:00-03:00"
+    },
+    {
+      "date": "26/07/2026",
+      "time": "09:19",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 26/07 09:20 - TEMPORAIS ISOLADOS de intensidade moderada com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 5 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-26T09:19:38-03:00",
+      "expires": "2026-07-26T14:20:00-03:00"
+    },
     {
       "date": "26/07/2026",
       "time": "08:39",
@@ -517,87 +578,22 @@
       "status": "vigente",
       "onset": "2026-07-25T11:30:00-03:00",
       "expires": "2026-07-26T11:30:00-03:00"
-    },
-    {
-      "date": "25/07/2026",
-      "time": "10:46",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestades com raios, rajadas de vento forte e chuva moderada a forte. Proteja-se! Fonte: Defesa Civil Estadual",
-      "status": "expirado",
-      "onset": "2026-07-25T10:46:35-03:00",
-      "expires": "2026-07-25T13:00:00-03:00"
-    },
-    {
-      "date": "25/07/2026",
-      "time": "10:06",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "GO",
-      "location": "GOIÁS/GO",
-      "headline": "Defesa Civil:Possibilidade de chuvas e ventos intensos nas proximas 24 horas, com baixo risco de alagamento e raios. Proteja-se. Emergencia 193",
-      "status": "expirado",
-      "onset": "2026-07-25T10:06:13-03:00",
-      "expires": "2026-07-25T23:59:00-03:00"
-    },
-    {
-      "date": "25/07/2026",
-      "time": "10:04",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:10h00 Chuva isolada avancando entre Pompeia, Marilia e Garca. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-25T10:04:21-03:00",
-      "expires": "2026-07-25T13:00:00-03:00"
-    },
-    {
-      "date": "25/07/2026",
-      "time": "09:47",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:09h45 Chuva isolada avancando entre Bauru, Jau e Avai. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-25T09:47:06-03:00",
-      "expires": "2026-07-25T12:00:00-03:00"
-    },
-    {
-      "date": "25/07/2026",
-      "time": "09:31",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-25T09:31:45-03:00",
-      "expires": "2026-07-25T12:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 32,
+    "total_alerts": 31,
     "by_nivel": {
-      "Alto": 17,
-      "Médio": 15
+      "Alto": 15,
+      "Médio": 15,
+      "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 32
+      "Google": 31
     },
     "by_region": {
-      "SE": 14,
       "N": 12,
-      "S": 5,
-      "CO": 1
+      "SE": 11,
+      "S": 8
     }
   }
 }
