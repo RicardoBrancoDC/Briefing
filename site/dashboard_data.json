@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-07-26T07:15:26.979825-03:00",
-  "source_run_dir": "run_20260726_071504",
+  "generated_at": "2026-07-26T08:39:42.415746-03:00",
+  "source_run_dir": "run_20260726_083925",
   "cards": {
-    "vigentes": 7,
-    "ultimas24h": 36,
+    "vigentes": 6,
+    "ultimas24h": 32,
     "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "08:39",
+      "date": "26/07/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Barcelos/AM, Santa Isabel do Rio Negro/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao. Fique atento e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "07:09",
       "date": "26/07/2026",
@@ -30,7 +42,7 @@
       "location": "Barcelos/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "03:59",
@@ -55,40 +67,28 @@
       "uf": "RS",
       "headline": "Defesa Civil:RS: Alerta Vermelho p/ elevacao do rio Uruguai. Risco ALTO de inundacao em Itaqui. Val por 24h. Evite areas inundaveis. Emerg 190/193.",
       "status": "vigente"
-    },
-    {
-      "time": "21:34",
-      "date": "25/07/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para AMAZONAS/AM. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Se houver vendaval, gr",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
       "count": 11
     },
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 10
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
@@ -109,39 +109,39 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 17
+      "count": 15
     },
     {
       "label": "Alto",
-      "count": 19
+      "count": 17
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 32
+      "count": 29
     },
     {
       "label": "Inundações",
-      "count": 4
+      "count": 3
     }
   ],
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 11
+      "count": 12
     },
     {
       "uf": "SP",
-      "count": 11
+      "count": 8
     },
     {
       "uf": "MG",
-      "count": 6
+      "count": 5
     },
     {
       "uf": "RS",
-      "count": 4
+      "count": 3
     },
     {
       "uf": "PR",
@@ -159,14 +159,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 6
     },
     {
       "label": "expirado",
-      "count": 29
+      "count": 26
     }
   ],
   "all_alerts": [
+    {
+      "date": "26/07/2026",
+      "time": "08:39",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Barcelos/AM, Santa Isabel do Rio Negro/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao. Fique atento e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-07-26T08:39:00-03:00",
+      "expires": "2026-07-26T13:00:00-03:00"
+    },
     {
       "date": "26/07/2026",
       "time": "07:09",
@@ -189,7 +202,7 @@
       "uf": "AM",
       "location": "Barcelos/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-26T04:00:12-03:00",
       "expires": "2026-07-26T07:30:00-03:00"
     },
@@ -569,86 +582,21 @@
       "status": "expirado",
       "onset": "2026-07-25T09:31:45-03:00",
       "expires": "2026-07-25T12:30:00-03:00"
-    },
-    {
-      "date": "25/07/2026",
-      "time": "08:17",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestades com rajadas de vento forte e chuva moderada a forte. Proteja-se! Fonte: Defesa Civil Estadual",
-      "status": "expirado",
-      "onset": "2026-07-25T08:17:45-03:00",
-      "expires": "2026-07-25T11:20:00-03:00"
-    },
-    {
-      "date": "25/07/2026",
-      "time": "07:55",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:07h50 Chuva isolada entre Araraquara, Sao Carlos e Rincao. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-25T07:55:41-03:00",
-      "expires": "2026-07-25T10:00:00-03:00"
-    },
-    {
-      "date": "25/07/2026",
-      "time": "07:53",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:07h50 Chuva isolada entre Taruma, Assis e Ourinhos. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-25T07:53:08-03:00",
-      "expires": "2026-07-25T10:00:00-03:00"
-    },
-    {
-      "date": "25/07/2026",
-      "time": "07:51",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:07h45 Chuva isolada entre Narandiba, Taciba e Iepe. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-25T07:51:03-03:00",
-      "expires": "2026-07-25T10:00:00-03:00"
-    },
-    {
-      "date": "25/07/2026",
-      "time": "07:40",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA para elevacao rio Sinos. Risco ALTO de inundacao em Sao Leopoldo. Valido por 24h. Evite areas inundaveis.Emerg 190/193",
-      "status": "vigente",
-      "onset": "2026-07-25T07:40:00-03:00",
-      "expires": "2026-07-26T07:40:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 36,
+    "total_alerts": 32,
     "by_nivel": {
-      "Alto": 19,
-      "Médio": 17
+      "Alto": 17,
+      "Médio": 15
     },
     "by_channel_list": {
-      "Google": 36
+      "Google": 32
     },
     "by_region": {
-      "SE": 18,
-      "N": 11,
-      "S": 6,
+      "SE": 14,
+      "N": 12,
+      "S": 5,
       "CO": 1
     }
   }
