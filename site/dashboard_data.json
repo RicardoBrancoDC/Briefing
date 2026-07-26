@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-07-26T01:00:06.655995-03:00",
-  "source_run_dir": "run_20260726_005937",
+  "generated_at": "2026-07-26T04:07:03.093535-03:00",
+  "source_run_dir": "run_20260726_040634",
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 42,
+    "vigentes": 7,
+    "ultimas24h": 40,
     "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "04:00",
+      "date": "26/07/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Barcelos/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "03:59",
+      "date": "26/07/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Barcelos/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite transitar por areas de risco. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "23:53",
       "date": "25/07/2026",
@@ -30,7 +54,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas para AMAZONAS/AM. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Se houver vendaval, gr",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "21:16",
@@ -43,52 +67,28 @@
       "uf": "RS",
       "headline": "Defesa Civil:RS: Alerta Vermelho p/ elevacao do rio Sinos. Risco ALTO de inundacao em Sao Leopoldo. Val por 24h. Evite areas inundaveis. Emerg 190/193.",
       "status": "vigente"
-    },
-    {
-      "time": "20:38",
-      "date": "25/07/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.  Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "17:38",
-      "date": "25/07/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Canutama/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 11
+    },
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
       "count": 11
     },
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 10
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 9
-    },
-    {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
@@ -98,7 +98,7 @@
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual de Goiás",
@@ -113,7 +113,7 @@
     },
     {
       "label": "Alto",
-      "count": 25
+      "count": 23
     },
     {
       "label": "Severo",
@@ -123,7 +123,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 38
+      "count": 36
     },
     {
       "label": "Inundações",
@@ -132,20 +132,20 @@
   ],
   "uf_distribution": [
     {
+      "uf": "AM",
+      "count": 12
+    },
+    {
       "uf": "SP",
       "count": 11
     },
     {
-      "uf": "AM",
-      "count": 10
+      "uf": "MG",
+      "count": 6
     },
     {
       "uf": "PR",
-      "count": 9
-    },
-    {
-      "uf": "MG",
-      "count": 6
+      "count": 5
     },
     {
       "uf": "RS",
@@ -163,14 +163,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 36
+      "count": 33
     }
   ],
   "all_alerts": [
+    {
+      "date": "26/07/2026",
+      "time": "04:00",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Barcelos/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-07-26T04:00:12-03:00",
+      "expires": "2026-07-26T07:30:00-03:00"
+    },
+    {
+      "date": "26/07/2026",
+      "time": "03:59",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Barcelos/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite transitar por areas de risco. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-07-26T03:59:17-03:00",
+      "expires": "2026-07-26T06:30:00-03:00"
+    },
     {
       "date": "25/07/2026",
       "time": "23:53",
@@ -193,7 +219,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:Alerta de Chuvas Intensas para AMAZONAS/AM. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Se houver vendaval, gr",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-25T21:34:16-03:00",
       "expires": "2026-07-26T01:25:00-03:00"
     },
@@ -664,74 +690,22 @@
       "status": "expirado",
       "onset": "2026-07-25T04:26:26-03:00",
       "expires": "2026-07-25T07:25:00-03:00"
-    },
-    {
-      "date": "25/07/2026",
-      "time": "03:40",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-25T03:40:49-03:00",
-      "expires": "2026-07-25T06:40:00-03:00"
-    },
-    {
-      "date": "25/07/2026",
-      "time": "03:17",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-25T03:17:58-03:00",
-      "expires": "2026-07-25T06:15:00-03:00"
-    },
-    {
-      "date": "25/07/2026",
-      "time": "02:11",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-25T02:11:17-03:00",
-      "expires": "2026-07-25T05:10:00-03:00"
-    },
-    {
-      "date": "25/07/2026",
-      "time": "01:36",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-25T01:36:23-03:00",
-      "expires": "2026-07-25T04:35:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 42,
+    "total_alerts": 40,
     "by_nivel": {
-      "Alto": 25,
+      "Alto": 23,
       "Médio": 16,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 42
+      "Google": 40
     },
     "by_region": {
       "SE": 18,
-      "S": 13,
-      "N": 10,
+      "N": 12,
+      "S": 9,
       "CO": 1
     }
   }
