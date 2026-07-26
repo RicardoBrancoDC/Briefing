@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-07-26T11:01:15.603990-03:00",
-  "source_run_dir": "run_20260726_110057",
+  "generated_at": "2026-07-26T12:33:11.718998-03:00",
+  "source_run_dir": "run_20260726_123253",
   "cards": {
-    "vigentes": 10,
+    "vigentes": 11,
     "ultimas24h": 31,
     "autoridadesAtivas": 8,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "12:00",
+      "date": "26/07/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "/SC",
+      "uf": "SC",
+      "headline": "Observação Meteorológica SDC/SC 25/07 09:30 - Temporais isolados e chuva pontualmente intensa neste domingo (26). Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "11:35",
+      "date": "26/07/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Alto",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA p/ elevacao do rio Uruguai. Risco ALTO de inundacao para Uruguaiana. Val por 24h. Evite areas inundaveis. Emerg 190/193.",
+      "status": "vigente"
+    },
     {
       "time": "10:00",
       "date": "26/07/2026",
@@ -43,30 +67,6 @@
       "uf": "SC",
       "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas isoladas de chuva com trovoadas entre tarde e noite (26/07) em Blumenau. Fique atento! Emerg 199/193.",
       "status": "vigente"
-    },
-    {
-      "time": "09:19",
-      "date": "26/07/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 26/07 09:20 - TEMPORAIS ISOLADOS de intensidade moderada com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 5 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "08:39",
-      "date": "26/07/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Barcelos/AM, Santa Isabel do Rio Negro/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao. Fique atento e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -86,14 +86,14 @@
       "count": 4
     },
     {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 4
-    },
-    {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 2
+      "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
+      "count": 3
     },
     {
       "name": "Defesa Civil Nacional",
@@ -114,11 +114,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 15
+      "count": 16
     },
     {
       "label": "Alto",
-      "count": 15
+      "count": 14
     },
     {
       "label": "Extremo",
@@ -145,15 +145,15 @@
       "count": 6
     },
     {
+      "uf": "SC",
+      "count": 4
+    },
+    {
       "uf": "RS",
       "count": 4
     },
     {
       "uf": "MG",
-      "count": 4
-    },
-    {
-      "uf": "SC",
       "count": 3
     },
     {
@@ -168,14 +168,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 10
+      "count": 11
     },
     {
       "label": "expirado",
-      "count": 21
+      "count": 20
     }
   ],
   "all_alerts": [
+    {
+      "date": "26/07/2026",
+      "time": "12:00",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "/SC",
+      "headline": "Observação Meteorológica SDC/SC 25/07 09:30 - Temporais isolados e chuva pontualmente intensa neste domingo (26). Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-26T12:00:00-03:00",
+      "expires": "2026-07-27T00:00:00-03:00"
+    },
+    {
+      "date": "26/07/2026",
+      "time": "11:35",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA p/ elevacao do rio Uruguai. Risco ALTO de inundacao para Uruguaiana. Val por 24h. Evite areas inundaveis. Emerg 190/193.",
+      "status": "vigente",
+      "onset": "2026-07-26T11:35:23-03:00",
+      "expires": "2026-07-27T11:30:00-03:00"
+    },
     {
       "date": "26/07/2026",
       "time": "10:00",
@@ -552,39 +578,13 @@
       "status": "expirado",
       "onset": "2026-07-25T13:33:28-03:00",
       "expires": "2026-07-25T15:00:00-03:00"
-    },
-    {
-      "date": "25/07/2026",
-      "time": "11:34",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestades com raios, rajadas de vento forte e chuva moderada a forte. Proteja-se! Fonte: Defesa Civil Estadual",
-      "status": "expirado",
-      "onset": "2026-07-25T11:34:38-03:00",
-      "expires": "2026-07-25T14:00:00-03:00"
-    },
-    {
-      "date": "25/07/2026",
-      "time": "11:30",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:Alerta LARANJA p/ elevacao do rio Uruguai. Risco ALTO de inundacao de Itaqui a Uruguaiana. Val por 24h. Evite areas inundaveis. Emerg 190/193.",
-      "status": "vigente",
-      "onset": "2026-07-25T11:30:00-03:00",
-      "expires": "2026-07-26T11:30:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 31,
     "by_nivel": {
-      "Alto": 15,
-      "Médio": 15,
+      "Médio": 16,
+      "Alto": 14,
       "Extremo": 1
     },
     "by_channel_list": {
@@ -592,8 +592,8 @@
     },
     "by_region": {
       "N": 12,
-      "SE": 11,
-      "S": 8
+      "SE": 10,
+      "S": 9
     }
   }
 }
