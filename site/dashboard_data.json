@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-07-26T18:14:32.431096-03:00",
-  "source_run_dir": "run_20260726_181404",
+  "generated_at": "2026-07-26T20:16:16.689763-03:00",
+  "source_run_dir": "run_20260726_201540",
   "cards": {
-    "vigentes": 16,
-    "ultimas24h": 26,
+    "vigentes": 10,
+    "ultimas24h": 28,
     "autoridadesAtivas": 7,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "18:42",
+      "date": "26/07/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "Defesa Civil:ATENCAO - 26/07 18:40 - TEMPORAL com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "18:35",
+      "date": "26/07/2026",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "senderNameShort": "DC Blumenau (SC)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Blumenau/SC",
+      "uf": "SC",
+      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas isoladas de chuva c/ trovoadas nas prox. 02h na regiao SUL de Blumenau. Fique atento! Emerg 199/193.",
+      "status": "vigente"
+    },
     {
       "time": "17:37",
       "date": "26/07/2026",
@@ -18,7 +42,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "Defesa Civil:ATENCAO - 26/07 17:36 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:20",
@@ -30,7 +54,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "Defesa Civil:ATENCAO - 26/07 17:18 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:07",
@@ -43,37 +67,13 @@
       "uf": "RS",
       "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Jacui. Risco MUITO ALTO em Cachoeira do Sul. Val por 24h. Evite areas inundaveis. Emergencia: 190/193.",
       "status": "vigente"
-    },
-    {
-      "time": "16:54",
-      "date": "26/07/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:SDC: ALERTA de tempestade com chuva intensa e vendaval na proxima hora. BUSQUE ABRIGO e nao atravesse areas alagadas. Emerg 199/193",
-      "status": "vigente"
-    },
-    {
-      "time": "16:44",
-      "date": "26/07/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:ATENCAO - 26/07 16:41 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 4 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -86,6 +86,11 @@
       "count": 5
     },
     {
+      "name": "Defesa Civil de Blumenau (SC)",
+      "short_name": "DC Blumenau (SC)",
+      "count": 2
+    },
+    {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
       "count": 2
@@ -93,11 +98,6 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Blumenau (SC)",
-      "short_name": "DC Blumenau (SC)",
       "count": 1
     },
     {
@@ -109,11 +109,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 8
+      "count": 9
     },
     {
       "label": "Alto",
-      "count": 15
+      "count": 16
     },
     {
       "label": "Severo",
@@ -127,7 +127,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 20
+      "count": 22
     },
     {
       "label": "Inundações",
@@ -141,7 +141,7 @@
   "uf_distribution": [
     {
       "uf": "SC",
-      "count": 11
+      "count": 13
     },
     {
       "uf": "AM",
@@ -163,14 +163,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 16
+      "count": 10
     },
     {
       "label": "expirado",
-      "count": 10
+      "count": 18
     }
   ],
   "all_alerts": [
+    {
+      "date": "26/07/2026",
+      "time": "18:42",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 26/07 18:40 - TEMPORAL com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-26T18:42:39-03:00",
+      "expires": "2026-07-26T21:40:00-03:00"
+    },
+    {
+      "date": "26/07/2026",
+      "time": "18:35",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "Blumenau/SC",
+      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas isoladas de chuva c/ trovoadas nas prox. 02h na regiao SUL de Blumenau. Fique atento! Emerg 199/193.",
+      "status": "vigente",
+      "onset": "2026-07-26T18:35:37-03:00",
+      "expires": "2026-07-26T20:30:00-03:00"
+    },
     {
       "date": "26/07/2026",
       "time": "17:37",
@@ -180,7 +206,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 26/07 17:36 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-26T17:37:45-03:00",
       "expires": "2026-07-26T19:35:00-03:00"
     },
@@ -193,7 +219,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 26/07 17:18 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-26T17:20:45-03:00",
       "expires": "2026-07-26T19:20:00-03:00"
     },
@@ -219,7 +245,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:SDC: ALERTA de tempestade com chuva intensa e vendaval na proxima hora. BUSQUE ABRIGO e nao atravesse areas alagadas. Emerg 199/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-26T16:54:51-03:00",
       "expires": "2026-07-26T18:50:00-03:00"
     },
@@ -232,7 +258,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 26/07 16:41 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 4 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-26T16:44:28-03:00",
       "expires": "2026-07-26T19:40:00-03:00"
     },
@@ -245,7 +271,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA DE CHUVA INTENSA: (Nivel Alto) Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-26T16:40:12-03:00",
       "expires": "2026-07-26T20:00:00-03:00"
     },
@@ -258,7 +284,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-26T16:20:55-03:00",
       "expires": "2026-07-26T19:00:00-03:00"
     },
@@ -271,7 +297,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-26T16:20:33-03:00",
       "expires": "2026-07-26T19:00:00-03:00"
     },
@@ -310,7 +336,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 26/07 14:36 - TEMPORAIS ISOLADOS de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais na sua região nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-26T14:39:39-03:00",
       "expires": "2026-07-26T18:40:00-03:00"
     },
@@ -511,18 +537,18 @@
     }
   ],
   "summary": {
-    "total_alerts": 26,
+    "total_alerts": 28,
     "by_nivel": {
-      "Alto": 15,
-      "Médio": 8,
+      "Alto": 16,
+      "Médio": 9,
       "Severo": 2,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 26
+      "Google": 28
     },
     "by_region": {
-      "S": 17,
+      "S": 19,
       "N": 8,
       "SE": 1
     }
