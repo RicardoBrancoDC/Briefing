@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-27T16:58:56.986106-03:00",
-  "source_run_dir": "run_20260727_165832",
+  "generated_at": "2026-07-27T18:33:01.056882-03:00",
+  "source_run_dir": "run_20260727_183222",
   "cards": {
-    "vigentes": 18,
-    "ultimas24h": 41,
+    "vigentes": 13,
+    "ultimas24h": 45,
     "autoridadesAtivas": 6,
-    "alertasExtremos": 3
+    "alertasExtremos": 4
   },
   "latest_alerts": [
     {
-      "time": "16:50",
+      "time": "18:15",
       "date": "27/07/2026",
       "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
       "senderNameShort": "DC Rio Grande do Sul",
@@ -17,11 +17,47 @@
       "nivel": "Alto",
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 19h50. Mantenha-se seguro.",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 21h15. Mantenha-se seguro.",
       "status": "vigente"
     },
     {
-      "time": "16:30",
+      "time": "17:50",
+      "date": "27/07/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "location": "IBGE/MS",
+      "uf": "MS",
+      "headline": "Teste de Sistema",
+      "status": "expirado"
+    },
+    {
+      "time": "17:49",
+      "date": "27/07/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "location": "IBGE/MS",
+      "uf": "MS",
+      "headline": "Teste de Sistema",
+      "status": "expirado"
+    },
+    {
+      "time": "17:49",
+      "date": "27/07/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO. Condicao de SEVERA p/ tempestade c/ granizo grande e vento. Risco MUITO ALTO de destelhamento na prox hora. Preparar",
+      "status": "vigente"
+    },
+    {
+      "time": "17:28",
       "date": "27/07/2026",
       "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
       "senderNameShort": "DC Rio Grande do Sul",
@@ -29,43 +65,7 @@
       "nivel": "Alto",
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 19h30. Mantenha-se seguro.",
-      "status": "vigente"
-    },
-    {
-      "time": "16:07",
-      "date": "27/07/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:55",
-      "date": "27/07/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:15h40 Umidade do ar abaixo de 30 em Cachoeira Paulista. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:17",
-      "date": "27/07/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:15h10 Umidade do ar abaixo de 30 em Pradopolis. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 20h30. Mantenha-se seguro.",
       "status": "vigente"
     }
   ],
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 21
+      "count": 25
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -86,14 +86,14 @@
       "count": 6
     },
     {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 4
-    },
-    {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 1
+      "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 2
     },
     {
       "name": "Defesa Civil de Blumenau (SC)",
@@ -112,28 +112,28 @@
     },
     {
       "label": "Severo",
-      "count": 3
+      "count": 6
     },
     {
       "label": "Extremo",
-      "count": 3
+      "count": 4
     }
   ],
   "event_distribution": [
     {
       "label": "Granizo",
-      "count": 13
+      "count": 19
     },
     {
       "label": "Chuvas Intensas",
-      "count": 11
-    },
-    {
-      "label": "Baixa Umidade Do Ar",
-      "count": 7
+      "count": 9
     },
     {
       "label": "Inundações",
+      "count": 7
+    },
+    {
+      "label": "Baixa Umidade Do Ar",
       "count": 7
     },
     {
@@ -152,7 +152,7 @@
   "uf_distribution": [
     {
       "uf": "RS",
-      "count": 21
+      "count": 25
     },
     {
       "uf": "AM",
@@ -163,25 +163,116 @@
       "count": 6
     },
     {
-      "uf": "SC",
-      "count": 5
+      "uf": "MS",
+      "count": 3
     },
     {
-      "uf": "MS",
-      "count": 1
+      "uf": "SC",
+      "count": 3
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 18
+      "count": 13
     },
     {
       "label": "expirado",
-      "count": 23
+      "count": 32
     }
   ],
   "all_alerts": [
+    {
+      "date": "27/07/2026",
+      "time": "18:15",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 21h15. Mantenha-se seguro.",
+      "status": "vigente",
+      "onset": "2026-07-27T18:15:00-03:00",
+      "expires": "2026-07-27T21:15:00-03:00"
+    },
+    {
+      "date": "27/07/2026",
+      "time": "17:50",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "uf": "MS",
+      "location": "IBGE/MS",
+      "headline": "Teste de Sistema",
+      "status": "expirado",
+      "onset": "2026-07-27T17:50:03-03:00",
+      "expires": "2026-07-27T18:10:00-03:00"
+    },
+    {
+      "date": "27/07/2026",
+      "time": "17:49",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "uf": "MS",
+      "location": "IBGE/MS",
+      "headline": "Teste de Sistema",
+      "status": "expirado",
+      "onset": "2026-07-27T17:49:22-03:00",
+      "expires": "2026-07-27T18:10:00-03:00"
+    },
+    {
+      "date": "27/07/2026",
+      "time": "17:49",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO. Condicao de SEVERA p/ tempestade c/ granizo grande e vento. Risco MUITO ALTO de destelhamento na prox hora. Preparar",
+      "status": "vigente",
+      "onset": "2026-07-27T17:49:02-03:00",
+      "expires": "2026-07-27T18:45:00-03:00"
+    },
+    {
+      "date": "27/07/2026",
+      "time": "17:28",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 20h30. Mantenha-se seguro.",
+      "status": "vigente",
+      "onset": "2026-07-27T17:28:11-03:00",
+      "expires": "2026-07-27T20:30:00-03:00"
+    },
+    {
+      "date": "27/07/2026",
+      "time": "17:19",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO. Condicao de SEVERA p/ tempestade c/ granizo grande. Risco MUITO ALTO de destelhamento na prox hora. Preparar.",
+      "status": "expirado",
+      "onset": "2026-07-27T17:19:49-03:00",
+      "expires": "2026-07-27T18:15:00-03:00"
+    },
+    {
+      "date": "27/07/2026",
+      "time": "17:06",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Extremo",
+      "uf": "RS",
+      "location": "Cachoeira do Sul/RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Jacui. Risco MUITO ALTO em Cachoeira do Sul. Valido por 24h. Evite areas inundaveis. Emergencia 190/193.",
+      "status": "vigente",
+      "onset": "2026-07-27T17:06:32-03:00",
+      "expires": "2026-07-28T17:00:00-03:00"
+    },
     {
       "date": "27/07/2026",
       "time": "16:50",
@@ -230,7 +321,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h40 Umidade do ar abaixo de 30 em Cachoeira Paulista. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-27T15:55:45-03:00",
       "expires": "2026-07-27T17:00:00-03:00"
     },
@@ -243,7 +334,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h10 Umidade do ar abaixo de 30 em Pradopolis. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-27T15:17:38-03:00",
       "expires": "2026-07-27T17:00:00-03:00"
     },
@@ -269,7 +360,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 18h00. Mantenha-se seguro",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-27T15:00:00-03:00",
       "expires": "2026-07-27T18:00:00-03:00"
     },
@@ -282,7 +373,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h40 Umidade do ar abaixo de 30 em Jales. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-27T14:46:45-03:00",
       "expires": "2026-07-27T17:00:00-03:00"
     },
@@ -295,7 +386,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h40 Umidade do ar abaixo de 30 em Franca. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-27T14:44:44-03:00",
       "expires": "2026-07-27T17:00:00-03:00"
     },
@@ -308,7 +399,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h40 Umidade do ar abaixo de 30 em Itapira. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-27T14:43:04-03:00",
       "expires": "2026-07-27T17:00:00-03:00"
     },
@@ -334,7 +425,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-27T14:32:21-03:00",
       "expires": "2026-07-27T17:20:00-03:00"
     },
@@ -373,7 +464,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h10 Umidade do ar abaixo de 30 em Braganca Paulista. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-27T14:15:57-03:00",
       "expires": "2026-07-27T17:00:00-03:00"
     },
@@ -675,63 +766,24 @@
       "status": "expirado",
       "onset": "2026-07-26T18:35:37-03:00",
       "expires": "2026-07-26T20:30:00-03:00"
-    },
-    {
-      "date": "26/07/2026",
-      "time": "17:37",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 26/07 17:36 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-26T17:37:45-03:00",
-      "expires": "2026-07-26T19:35:00-03:00"
-    },
-    {
-      "date": "26/07/2026",
-      "time": "17:20",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 26/07 17:18 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-26T17:20:45-03:00",
-      "expires": "2026-07-26T19:20:00-03:00"
-    },
-    {
-      "date": "26/07/2026",
-      "time": "17:07",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "RS",
-      "location": "Cachoeira do Sul/RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Jacui. Risco MUITO ALTO em Cachoeira do Sul. Val por 24h. Evite areas inundaveis. Emergencia: 190/193.",
-      "status": "vigente",
-      "onset": "2026-07-26T17:07:24-03:00",
-      "expires": "2026-07-27T17:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 41,
+    "total_alerts": 45,
     "by_nivel": {
       "Alto": 24,
       "Médio": 11,
-      "Extremo": 3,
-      "Severo": 3
+      "Severo": 6,
+      "Extremo": 4
     },
     "by_channel_list": {
-      "Google": 41
+      "Google": 45
     },
     "by_region": {
-      "S": 26,
+      "S": 28,
       "N": 8,
       "SE": 6,
-      "CO": 1
+      "CO": 3
     }
   }
 }
