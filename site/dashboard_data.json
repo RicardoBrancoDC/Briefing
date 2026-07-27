@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-07-27T01:06:47.200189-03:00",
-  "source_run_dir": "run_20260727_010613",
+  "generated_at": "2026-07-27T04:55:33.682826-03:00",
+  "source_run_dir": "run_20260727_045521",
   "cards": {
     "vigentes": 7,
-    "ultimas24h": 28,
+    "ultimas24h": 27,
     "autoridadesAtivas": 7,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "03:21",
+      "date": "27/07/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Carauari/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
+      "status": "expirado"
+    },
     {
       "time": "21:00",
       "date": "26/07/2026",
@@ -55,18 +67,6 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
       "status": "expirado"
-    },
-    {
-      "time": "18:42",
-      "date": "26/07/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:ATENCAO - 26/07 18:40 - TEMPORAL com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -93,7 +93,7 @@
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -109,11 +109,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 9
+      "count": 10
     },
     {
       "label": "Alto",
-      "count": 16
+      "count": 14
     },
     {
       "label": "Severo",
@@ -127,7 +127,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 21
+      "count": 20
     },
     {
       "label": "Inundações",
@@ -145,7 +145,7 @@
     },
     {
       "uf": "AM",
-      "count": 7
+      "count": 6
     },
     {
       "uf": "RS",
@@ -167,10 +167,23 @@
     },
     {
       "label": "expirado",
-      "count": 21
+      "count": 20
     }
   ],
   "all_alerts": [
+    {
+      "date": "27/07/2026",
+      "time": "03:21",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Carauari/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-07-27T03:21:21-03:00",
+      "expires": "2026-07-27T04:45:00-03:00"
+    },
     {
       "date": "26/07/2026",
       "time": "21:00",
@@ -508,48 +521,22 @@
       "status": "vigente",
       "onset": "2026-07-26T07:09:26-03:00",
       "expires": "2026-07-27T23:55:00-03:00"
-    },
-    {
-      "date": "26/07/2026",
-      "time": "04:00",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Barcelos/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-07-26T04:00:12-03:00",
-      "expires": "2026-07-26T07:30:00-03:00"
-    },
-    {
-      "date": "26/07/2026",
-      "time": "03:59",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Barcelos/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite transitar por areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-07-26T03:59:17-03:00",
-      "expires": "2026-07-26T06:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 28,
+    "total_alerts": 27,
     "by_nivel": {
-      "Alto": 16,
-      "Médio": 9,
+      "Alto": 14,
+      "Médio": 10,
       "Severo": 2,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 28
+      "Google": 27
     },
     "by_region": {
       "S": 20,
-      "N": 7,
+      "N": 6,
       "SE": 1
     }
   }
