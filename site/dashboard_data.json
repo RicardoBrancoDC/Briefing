@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-07-27T04:55:33.682826-03:00",
-  "source_run_dir": "run_20260727_045521",
+  "generated_at": "2026-07-27T08:43:39.564773-03:00",
+  "source_run_dir": "run_20260727_084327",
   "cards": {
-    "vigentes": 7,
+    "vigentes": 8,
     "ultimas24h": 27,
-    "autoridadesAtivas": 7,
+    "autoridadesAtivas": 6,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "08:18",
+      "date": "27/07/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Amaturá/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "08:14",
+      "date": "27/07/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "São Paulo de Olivença/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "03:21",
       "date": "27/07/2026",
@@ -43,30 +67,6 @@
       "uf": "RS",
       "headline": "Defesa Civil:RS: Alerta Vermelho p/ elevacao do rio Uruguai. Risco ALTO de inundacao em Itaqui. Val por 12h. Evite areas inundaveis. Emerg 190/193.",
       "status": "vigente"
-    },
-    {
-      "time": "21:00",
-      "date": "26/07/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "location": "Uruguaiana/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta Vermelho p/ elevacao do rio Uruguai. Risco ALTO de inundacao em Uruguaiana Val por 12h. Evite areas inundaveis. Emerg 190/193.",
-      "status": "vigente"
-    },
-    {
-      "time": "20:43",
-      "date": "26/07/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Humaitá/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -76,14 +76,14 @@
       "count": 11
     },
     {
-      "name": "Defesa Civil Estadual do Rio Grande do Sul",
-      "short_name": "DC Rio Grande do Sul",
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
       "count": 6
     },
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 5
+      "name": "Defesa Civil Estadual do Rio Grande do Sul",
+      "short_name": "DC Rio Grande do Sul",
+      "count": 6
     },
     {
       "name": "Defesa Civil de Blumenau (SC)",
@@ -98,11 +98,6 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
       "count": 1
     }
   ],
@@ -145,7 +140,7 @@
     },
     {
       "uf": "AM",
-      "count": 6
+      "count": 7
     },
     {
       "uf": "RS",
@@ -154,23 +149,45 @@
     {
       "uf": "SP",
       "count": 1
-    },
-    {
-      "uf": "PR",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 8
     },
     {
       "label": "expirado",
-      "count": 20
+      "count": 19
     }
   ],
   "all_alerts": [
+    {
+      "date": "27/07/2026",
+      "time": "08:18",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Amaturá/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-07-27T08:18:49-03:00",
+      "expires": "2026-07-27T10:00:00-03:00"
+    },
+    {
+      "date": "27/07/2026",
+      "time": "08:14",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "São Paulo de Olivença/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-07-27T08:14:15-03:00",
+      "expires": "2026-07-27T10:00:00-03:00"
+    },
     {
       "date": "27/07/2026",
       "time": "03:21",
@@ -495,32 +512,6 @@
       "status": "expirado",
       "onset": "2026-07-26T09:19:38-03:00",
       "expires": "2026-07-26T14:20:00-03:00"
-    },
-    {
-      "date": "26/07/2026",
-      "time": "08:39",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Barcelos/AM, Santa Isabel do Rio Negro/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Inundacao. Fique atento e acompanhe atualizacoes.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-07-26T08:39:00-03:00",
-      "expires": "2026-07-26T13:00:00-03:00"
-    },
-    {
-      "date": "26/07/2026",
-      "time": "07:09",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR AVISO DE TEMPO: Temporais localizados e chuva pontualmente forte no dom 26/07 na regiao. Mantenha-se vigilante. Ocorrencias, ligue 199/193.",
-      "status": "vigente",
-      "onset": "2026-07-26T07:09:26-03:00",
-      "expires": "2026-07-27T23:55:00-03:00"
     }
   ],
   "summary": {
@@ -535,8 +526,8 @@
       "Google": 27
     },
     "by_region": {
-      "S": 20,
-      "N": 6,
+      "S": 19,
+      "N": 7,
       "SE": 1
     }
   }
