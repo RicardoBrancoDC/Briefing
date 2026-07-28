@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-28T00:42:26.192913-03:00",
-  "source_run_dir": "run_20260728_004142",
+  "generated_at": "2026-07-28T03:44:30.726976-03:00",
+  "source_run_dir": "run_20260728_034354",
   "cards": {
-    "vigentes": 13,
-    "ultimas24h": 58,
+    "vigentes": 9,
+    "ultimas24h": 57,
     "autoridadesAtivas": 5,
     "alertasExtremos": 4
   },
@@ -18,7 +18,7 @@
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 01h00. Mantenha-se seguro.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "23:00",
@@ -54,7 +54,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "Defesa Civil:ATENCAO - 27/07 22:55 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Fique atento. Ocorrencias ligue 199/193",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "22:50",
@@ -83,7 +83,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 9
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -99,7 +99,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 13
+      "count": 12
     },
     {
       "label": "Alto",
@@ -121,7 +121,7 @@
     },
     {
       "label": "Chuvas Intensas",
-      "count": 16
+      "count": 15
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -155,7 +155,7 @@
     },
     {
       "uf": "AM",
-      "count": 9
+      "count": 8
     },
     {
       "uf": "SP",
@@ -169,11 +169,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 13
+      "count": 9
     },
     {
       "label": "expirado",
-      "count": 45
+      "count": 48
     }
   ],
   "all_alerts": [
@@ -186,7 +186,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 01h00. Mantenha-se seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-27T23:00:00-03:00",
       "expires": "2026-07-28T01:00:00-03:00"
     },
@@ -225,7 +225,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 27/07 22:55 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Fique atento. Ocorrencias ligue 199/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-27T22:57:59-03:00",
       "expires": "2026-07-28T00:55:00-03:00"
     },
@@ -316,7 +316,7 @@
       "uf": "AM",
       "location": "Boca do Acre/AM, Eirunepé/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Mantenha-se atento as condicoes do tempo. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-27T20:29:56-03:00",
       "expires": "2026-07-28T03:30:00-03:00"
     },
@@ -407,7 +407,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 27/07 18:46 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Planalto Sul e Litoral Sul nas próximas 6 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-27T18:50:36-03:00",
       "expires": "2026-07-28T00:45:00-03:00"
     },
@@ -917,35 +917,22 @@
       "status": "expirado",
       "onset": "2026-07-27T08:14:15-03:00",
       "expires": "2026-07-27T10:00:00-03:00"
-    },
-    {
-      "date": "27/07/2026",
-      "time": "03:21",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Carauari/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Mantenha-se atento as condicoes do tempo.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-07-27T03:21:21-03:00",
-      "expires": "2026-07-27T04:45:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 58,
+    "total_alerts": 57,
     "by_nivel": {
       "Alto": 35,
-      "Médio": 13,
+      "Médio": 12,
       "Severo": 6,
       "Extremo": 4
     },
     "by_channel_list": {
-      "Google": 58
+      "Google": 57
     },
     "by_region": {
       "S": 40,
-      "N": 9,
+      "N": 8,
       "SE": 6,
       "CO": 3
     }
