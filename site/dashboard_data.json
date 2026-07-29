@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-29T10:31:55.921424-03:00",
-  "source_run_dir": "run_20260729_103133",
+  "generated_at": "2026-07-29T11:34:51.943659-03:00",
+  "source_run_dir": "run_20260729_113421",
   "cards": {
-    "vigentes": 52,
-    "ultimas24h": 161,
+    "vigentes": 53,
+    "ultimas24h": 165,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "10:18",
+      "time": "11:27",
       "date": "29/07/2026",
       "senderName": "Defesa Civil Estadual do Paraná",
       "senderNameShort": "DC Paraná",
@@ -21,31 +21,31 @@
       "status": "vigente"
     },
     {
-      "time": "09:53",
+      "time": "11:23",
       "date": "29/07/2026",
       "senderName": "Defesa Civil Estadual de Santa Catarina",
       "senderNameShort": "DC Santa Catarina",
       "event": "Chuvas Intensas",
-      "nivel": "Severo",
+      "nivel": "Alto",
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
-      "headline": "Defesa Civil:SDC: ALERTA de tempestade severa com vendaval e granizo na proxima hora. BUSQUE ABRIGO longe de arvores, placas e postes de energia. Emerg 199/193",
+      "headline": "Defesa Civil:ATENCAO - 29/07 11:21 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e GRANIZO nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
       "status": "vigente"
     },
     {
-      "time": "09:51",
+      "time": "11:12",
       "date": "29/07/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "location": "Mangaratiba/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ - POSSIBILIDADE DE RAJADAS DE VENTO MODERADAS A FORTES PARA AS PROXIMAS 24 HORAS! EM CASO DE EMERGENCIA LIGUE: (21) 3030-2662/199.",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "senderNameShort": "DC Blumenau (SC)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Blumenau/SC",
+      "uf": "SC",
+      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas isoladas de chuva com trovoadas nas proximas 02h em Blumenau. Fique atento! Emerg 199/193.",
       "status": "vigente"
     },
     {
-      "time": "09:48",
+      "time": "11:11",
       "date": "29/07/2026",
       "senderName": "Defesa Civil Estadual do Paraná",
       "senderNameShort": "DC Paraná",
@@ -57,15 +57,15 @@
       "status": "vigente"
     },
     {
-      "time": "09:43",
+      "time": "10:51",
       "date": "29/07/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
       "event": "Chuvas Intensas",
       "nivel": "Alto",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:ATENCAO - 29/07 09:42 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e GRANIZO nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
       "status": "vigente"
     }
   ],
@@ -73,17 +73,17 @@
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 65
+      "count": 66
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 59
+      "count": 58
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 17
+      "count": 20
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -93,7 +93,7 @@
     {
       "name": "Defesa Civil de Blumenau (SC)",
       "short_name": "DC Blumenau (SC)",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -114,11 +114,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 49
+      "count": 48
     },
     {
       "label": "Alto",
-      "count": 82
+      "count": 87
     },
     {
       "label": "Severo",
@@ -128,7 +128,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 82
+      "count": 87
     },
     {
       "label": "Granizo",
@@ -140,7 +140,7 @@
     },
     {
       "label": "Deslizamentos",
-      "count": 13
+      "count": 12
     },
     {
       "label": "Vendaval",
@@ -158,15 +158,15 @@
   "uf_distribution": [
     {
       "uf": "SC",
-      "count": 71
+      "count": 73
     },
     {
       "uf": "RS",
-      "count": 59
+      "count": 58
     },
     {
       "uf": "PR",
-      "count": 17
+      "count": 20
     },
     {
       "uf": "SP",
@@ -188,14 +188,105 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 52
+      "count": 53
     },
     {
       "label": "expirado",
-      "count": 109
+      "count": 112
     }
   ],
   "all_alerts": [
+    {
+      "date": "29/07/2026",
+      "time": "11:27",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-29T11:27:32-03:00",
+      "expires": "2026-07-29T14:30:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "11:23",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 29/07 11:21 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e GRANIZO nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-29T11:23:27-03:00",
+      "expires": "2026-07-29T13:20:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "11:12",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "Blumenau/SC",
+      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas isoladas de chuva com trovoadas nas proximas 02h em Blumenau. Fique atento! Emerg 199/193.",
+      "status": "vigente",
+      "onset": "2026-07-29T11:12:02-03:00",
+      "expires": "2026-07-29T13:15:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "11:11",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-29T11:11:27-03:00",
+      "expires": "2026-07-29T14:10:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "10:51",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-29T10:51:12-03:00",
+      "expires": "2026-07-29T13:50:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "10:47",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 29/07 10:46 - TEMPORAL com RAIOS, RAJADAS DE VENTO e GRANIZO nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-29T10:47:12-03:00",
+      "expires": "2026-07-29T13:45:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "10:36",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 29/07 10:35 - TEMPORAL com RAIOS, RAJADAS DE VENTO e GRANIZO nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-29T10:36:45-03:00",
+      "expires": "2026-07-29T12:35:00-03:00"
+    },
     {
       "date": "29/07/2026",
       "time": "10:18",
@@ -218,7 +309,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:SDC: ALERTA de tempestade severa com vendaval e granizo na proxima hora. BUSQUE ABRIGO longe de arvores, placas e postes de energia. Emerg 199/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-29T09:53:28-03:00",
       "expires": "2026-07-29T10:50:00-03:00"
     },
@@ -296,7 +387,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 29/07 09:11 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e GRANIZO nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-29T09:12:47-03:00",
       "expires": "2026-07-29T11:10:00-03:00"
     },
@@ -387,7 +478,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-29T08:10:20-03:00",
       "expires": "2026-07-29T11:10:00-03:00"
     },
@@ -413,7 +504,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-29T07:59:40-03:00",
       "expires": "2026-07-29T11:00:00-03:00"
     },
@@ -439,7 +530,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 29/07 07:53 - TEMPORAIS ISOLADOS de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Planalto Sul, Litoral Sul, Grande Florianópolis, Médio e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-29T07:55:51-03:00",
       "expires": "2026-07-29T10:55:00-03:00"
     },
@@ -2249,59 +2340,20 @@
       "status": "expirado",
       "onset": "2026-07-28T11:36:13-03:00",
       "expires": "2026-07-28T13:35:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "11:13",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Deslizamentos",
-      "nivel": "Médio",
-      "uf": "RS",
-      "location": "Três Coroas/RS",
-      "headline": "Defesa Civil:RS Alerta AMARELO : Risco MODERADO p/ deslizamentos pontuais em Tres Coroas. Evite areas de risco. Val por 24h. Emerg 190/193",
-      "status": "vigente",
-      "onset": "2026-07-28T11:13:57-03:00",
-      "expires": "2026-07-29T11:00:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "10:51",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 28/07 10:49 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões da Grande Florianópolis, Baixo e Médio Vale do Itajaí nas próximas 6 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-28T10:51:36-03:00",
-      "expires": "2026-07-28T16:50:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "10:36",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 28/07 10:33 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS . Em caso de emergencia, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-28T10:36:22-03:00",
-      "expires": "2026-07-28T13:35:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 161,
+    "total_alerts": 165,
     "by_nivel": {
-      "Alto": 82,
-      "Médio": 49,
+      "Alto": 87,
+      "Médio": 48,
       "Severo": 30
     },
     "by_channel_list": {
-      "Google": 161
+      "Google": 165
     },
     "by_region": {
-      "S": 147,
+      "S": 151,
       "SE": 11,
       "N": 3
     }
