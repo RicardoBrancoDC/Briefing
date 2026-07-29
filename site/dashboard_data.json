@@ -1,15 +1,27 @@
 {
-  "generated_at": "2026-07-29T14:42:57.657171-03:00",
-  "source_run_dir": "run_20260729_144217",
+  "generated_at": "2026-07-29T16:48:47.236807-03:00",
+  "source_run_dir": "run_20260729_164807",
   "cards": {
-    "vigentes": 69,
+    "vigentes": 81,
     "ultimas24h": 186,
-    "autoridadesAtivas": 10,
-    "alertasExtremos": 0
+    "autoridadesAtivas": 11,
+    "alertasExtremos": 2
   },
   "latest_alerts": [
     {
-      "time": "14:40",
+      "time": "16:31",
+      "date": "29/07/2026",
+      "senderName": "Defesa Civil do Rio de Janeiro (RJ)",
+      "senderNameShort": "Defesa Civil do Rio de Jane…",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "location": "Rio de Janeiro/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Alerta de vento forte para a cidade do Rio nas proximas horas. Evite ficar embaixo de arvores e estruturas metalicas, 29/07 - Emergencia 199, 193",
+      "status": "vigente"
+    },
+    {
+      "time": "16:29",
       "date": "29/07/2026",
       "senderName": "Defesa Civil Estadual do Paraná",
       "senderNameShort": "DC Paraná",
@@ -21,43 +33,31 @@
       "status": "vigente"
     },
     {
-      "time": "14:25",
+      "time": "16:24",
       "date": "29/07/2026",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:14h20 Umidade do ar abaixo de 30 em Campinas e Jundiai. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente"
-    },
-    {
-      "time": "14:23",
-      "date": "29/07/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
       "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "14:22",
-      "date": "29/07/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
       "nivel": "Médio",
       "location": "SÃO PAULO/SP",
       "uf": "SP",
-      "headline": "Defesa Civil:14h20 Umidade do ar abaixo de 30 em Teodoro Sampaio e Pres Prudente. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre",
+      "headline": "Defesa Civil:16h20 Chuva isolada avancando entre Fartura, Itai e Itaporanga. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
       "status": "vigente"
     },
     {
-      "time": "14:07",
+      "time": "16:13",
+      "date": "29/07/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Severo",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO no rio Paranhana. Risco MUITO ALTO em Taquara. Valido por 24h. Evite areas inundaveis. Emergencia 190/193.",
+      "status": "vigente"
+    },
+    {
+      "time": "16:04",
       "date": "29/07/2026",
       "senderName": "Defesa Civil Estadual do Paraná",
       "senderNameShort": "DC Paraná",
@@ -71,34 +71,39 @@
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 58
-    },
-    {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 56
+      "count": 55
     },
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 30
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 48
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 26
+      "count": 32
     },
     {
-      "name": "Defesa Civil de Blumenau (SC)",
-      "short_name": "DC Blumenau (SC)",
-      "count": 7
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 26
     },
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 4
+      "count": 9
+    },
+    {
+      "name": "Defesa Civil Estadual do Rio de Janeiro",
+      "short_name": "DC Rio de Janeiro",
+      "count": 5
+    },
+    {
+      "name": "Defesa Civil de Blumenau (SC)",
+      "short_name": "DC Blumenau (SC)",
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -106,51 +111,50 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil de Petrópolis (RJ)",
-      "short_name": "DC Petrópolis (RJ)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Rio de Janeiro",
-      "short_name": "DC Rio de Janeiro",
-      "count": 1
-    },
-    {
       "name": "Defesa Civil de Angra dos Reis (RJ)",
       "short_name": "DC Angra dos Reis (RJ)",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil do Rio de Janeiro (RJ)",
+      "short_name": "Defesa Civil do Rio de Janeiro…",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 61
+      "count": 58
     },
     {
       "label": "Alto",
-      "count": 91
+      "count": 93
     },
     {
       "label": "Severo",
-      "count": 34
+      "count": 33
+    },
+    {
+      "label": "Extremo",
+      "count": 2
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 85
-    },
-    {
-      "label": "Granizo",
-      "count": 28
-    },
-    {
-      "label": "Baixa Umidade Do Ar",
-      "count": 25
+      "count": 84
     },
     {
       "label": "Vendaval",
-      "count": 18
+      "count": 27
+    },
+    {
+      "label": "Granizo",
+      "count": 25
+    },
+    {
+      "label": "Baixa Umidade Do Ar",
+      "count": 20
     },
     {
       "label": "Inundações",
@@ -167,24 +171,24 @@
   ],
   "uf_distribution": [
     {
-      "uf": "SC",
-      "count": 65
-    },
-    {
       "uf": "RS",
-      "count": 56
+      "count": 55
     },
     {
-      "uf": "SP",
-      "count": 30
+      "uf": "SC",
+      "count": 53
     },
     {
       "uf": "PR",
-      "count": 26
+      "count": 32
+    },
+    {
+      "uf": "SP",
+      "count": 27
     },
     {
       "uf": "RJ",
-      "count": 6
+      "count": 16
     },
     {
       "uf": "AM",
@@ -198,14 +202,300 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 69
+      "count": 81
     },
     {
       "label": "expirado",
-      "count": 117
+      "count": 105
     }
   ],
   "all_alerts": [
+    {
+      "date": "29/07/2026",
+      "time": "16:31",
+      "senderName": "Defesa Civil do Rio de Janeiro (RJ)",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Rio de Janeiro/RJ",
+      "headline": "Defesa Civil:Alerta de vento forte para a cidade do Rio nas proximas horas. Evite ficar embaixo de arvores e estruturas metalicas, 29/07 - Emergencia 199, 193",
+      "status": "vigente",
+      "onset": "2026-07-29T16:31:52-03:00",
+      "expires": "2026-07-29T23:55:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "16:29",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-29T16:29:42-03:00",
+      "expires": "2026-07-29T19:30:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "16:24",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:16h20 Chuva isolada avancando entre Fartura, Itai e Itaporanga. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-07-29T16:24:38-03:00",
+      "expires": "2026-07-29T18:20:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "16:13",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Severo",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO no rio Paranhana. Risco MUITO ALTO em Taquara. Valido por 24h. Evite areas inundaveis. Emergencia 190/193.",
+      "status": "vigente",
+      "onset": "2026-07-29T16:13:44-03:00",
+      "expires": "2026-07-30T16:10:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "16:04",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-29T16:04:48-03:00",
+      "expires": "2026-07-29T19:05:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "16:00",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:15:55 - Chuva na regiao de Indaiatuba, Itupeva e Jundiai. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-07-29T16:00:46-03:00",
+      "expires": "2026-07-29T19:30:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "16:00",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Nova Iguaçu/RJ",
+      "headline": "Defesa Civil: Nova Iguacu: ESTAGIO VIGILANCIA. Rajadas de vento forte entre o fim da tarde e noite de hoje (29/07). Emergencia:199.",
+      "status": "vigente",
+      "onset": "2026-07-29T16:00:00-03:00",
+      "expires": "2026-07-29T21:59:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "16:00",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Extremo",
+      "uf": "RJ",
+      "location": "Nova Iguaçu/RJ",
+      "headline": "Defesa Civil: Nova Iguacu: ESTAGIO OBSERVACAO. Rajadas de vento forte entre a tarde e noite de quarta (29). Emergencia:199.",
+      "status": "vigente",
+      "onset": "2026-07-29T16:00:00-03:00",
+      "expires": "2026-07-29T21:00:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "15:58",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "São Gabriel da Cachoeira/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-07-29T15:58:09-03:00",
+      "expires": "2026-07-29T17:00:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "15:49",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Saquarema/RJ",
+      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje (29/07) e amanha (30/07). Emergencia, ligue 22992115580.",
+      "status": "vigente",
+      "onset": "2026-07-29T15:49:22-03:00",
+      "expires": "2026-07-30T07:00:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "15:47",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR VERMELHO: TEMPORAIS c INTENSAS RAJADAS DE VENTO, CHUVA INTENSA e GRANIZO na prox. 1h na sua regiao. Busque abrigo. Ocorrencias, 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-29T15:47:47-03:00",
+      "expires": "2026-07-29T16:50:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "15:46",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "event": "Vendaval",
+      "nivel": "Severo",
+      "uf": "RJ",
+      "location": "Nilópolis/RJ",
+      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje (29/07) e amanha (30/07). Emergencia, ligue 21978941954.",
+      "status": "vigente",
+      "onset": "2026-07-29T15:46:26-03:00",
+      "expires": "2026-07-30T07:00:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "15:42",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "RIO DE JANEIRO/RJ",
+      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje (29/07) e amanha (30/07). Emergencia, ligue 193 ou 199.",
+      "status": "vigente",
+      "onset": "2026-07-29T15:42:34-03:00",
+      "expires": "2026-07-30T07:00:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "15:40",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-29T15:40:09-03:00",
+      "expires": "2026-07-29T18:40:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "15:29",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:15:25 - CHuva na regiao de Santana de Parnaiba. Tem vento e condicao para raios. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-07-29T15:29:13-03:00",
+      "expires": "2026-07-29T18:30:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "15:27",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-29T15:27:45-03:00",
+      "expires": "2026-07-29T18:30:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "15:14",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-07-29T15:14:41-03:00",
+      "expires": "2026-07-29T18:20:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "15:10",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Extremo",
+      "uf": "RJ",
+      "location": "Nova Friburgo/RJ",
+      "headline": "Defesa Civil:NF/ Umidade do ar pode ficar abaixo de 30 na tarde de hoje (29/07). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
+      "status": "vigente",
+      "onset": "2026-07-29T15:10:36-03:00",
+      "expires": "2026-07-29T19:00:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "15:10",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Itaguaí/RJ",
+      "headline": "Defesa Civil: Itaguai/RJ - POSSIBILIDADE DE RAJADAS DE VENTO MODERADAS A FORTES PARA AS PROXIMAS 24 HORAS! EM CASO DE EMERGENCIA LIGUE: 199.",
+      "status": "vigente",
+      "onset": "2026-07-29T15:10:00-03:00",
+      "expires": "2026-07-30T12:15:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "14:55",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Magé/RJ",
+      "headline": "Defesa Civil:Umidade do ar pode ficar abaixo de 30 na tarde de hoje (29/07). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
+      "status": "vigente",
+      "onset": "2026-07-29T14:55:29-03:00",
+      "expires": "2026-07-29T19:00:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "14:50",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "SP",
+      "location": "Santana de Parnaíba/SP",
+      "headline": "Defesa Civil:A Defesa Civil de Santana de Parnaiba alerta para ventos fortes nas proximas horas. Procure abrigo seguro, em caso de risco, acione a 199.",
+      "status": "vigente",
+      "onset": "2026-07-29T14:50:00-03:00",
+      "expires": "2026-07-30T20:00:00-03:00"
+    },
+    {
+      "date": "29/07/2026",
+      "time": "14:44",
+      "senderName": "Defesa Civil de Angra dos Reis (RJ)",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Angra dos Reis/RJ",
+      "headline": "Defesa Civil:(ANGRA DOS REIS) - Continuamos sob AVISO meteorologico de VENTO MODERADO/FORTE. Fique atento aos proximos avisos. Duvidas ligue: 199/ (24)3365-458",
+      "status": "vigente",
+      "onset": "2026-07-29T14:44:48-03:00",
+      "expires": "2026-07-29T23:55:00-03:00"
+    },
     {
       "date": "29/07/2026",
       "time": "14:40",
@@ -306,7 +596,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h40 Chuva isolada avancando entre Buri, Itapetininga e Capao Bonito. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-29T13:44:38-03:00",
       "expires": "2026-07-29T16:00:00-03:00"
     },
@@ -319,7 +609,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-29T13:39:33-03:00",
       "expires": "2026-07-29T16:40:00-03:00"
     },
@@ -449,7 +739,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-29T12:55:49-03:00",
       "expires": "2026-07-29T15:55:00-03:00"
     },
@@ -657,7 +947,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-29T11:52:35-03:00",
       "expires": "2026-07-29T14:55:00-03:00"
     },
@@ -1021,7 +1311,7 @@
       "uf": "SC",
       "location": "Blumenau/SC",
       "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas de chuva c/ trovoadas e RISCO DE TEMPORAIS ISOLADOS na manha de hoje (29) em Blumenau. Fique atento! Emerg 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-29T07:28:42-03:00",
       "expires": "2026-07-29T15:00:00-03:00"
     },
@@ -1814,7 +2104,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Observação Meteorológica SDC/SC 27/07 17:15 - Temporais e chuva intensa entre a noite da terça (28) e a tarde de quarta-feira (29). Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-28T22:00:00-03:00",
       "expires": "2026-07-29T15:00:00-03:00"
     },
@@ -1827,7 +2117,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Observação Meteorológica SDC/SC 27/07 17:15 - Temporais e chuva intensa entre a noite da terça (28) e a tarde de quarta-feira (29). Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-28T22:00:00-03:00",
       "expires": "2026-07-29T15:00:00-03:00"
     },
@@ -1840,7 +2130,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Observação Meteorológica SDC/SC 27/07 17:15 - Temporais e chuva intensa entre a noite da terça (28) e a tarde de quarta-feira (29). Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-28T22:00:00-03:00",
       "expires": "2026-07-29T15:00:00-03:00"
     },
@@ -1853,7 +2143,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Observação Meteorológica SDC/SC 27/07 17:15 - Temporais e chuva intensa entre a noite da terça (28) e a tarde de quarta-feira (29). Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-28T22:00:00-03:00",
       "expires": "2026-07-29T15:00:00-03:00"
     },
@@ -2337,307 +2627,22 @@
       "status": "expirado",
       "onset": "2026-07-28T16:54:33-03:00",
       "expires": "2026-07-28T17:55:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "16:46",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 28/07 16:44 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Fique atento. Ocorrencias ligue 199/193",
-      "status": "expirado",
-      "onset": "2026-07-28T16:46:21-03:00",
-      "expires": "2026-07-28T18:45:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "16:38",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 28/07 16:36 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Fique atento. Ocorrencias ligue 199/193",
-      "status": "expirado",
-      "onset": "2026-07-28T16:38:33-03:00",
-      "expires": "2026-07-28T18:40:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "16:36",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "event": "Granizo",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "Blumenau/SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas de chuva c/ trovoadas sobretudo na regiao Sul de Blumenau. RISCO P/ TEMPORAIS ISOLADOS. Fique atento! Emerg 199/193.",
-      "status": "expirado",
-      "onset": "2026-07-28T16:36:47-03:00",
-      "expires": "2026-07-28T18:00:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "16:32",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:SDC: ALERTA de tempestade severa com vendaval e granizo na proxima hora. BUSQUE ABRIGO longe de arvores, placas e postes de energia. Emerg 199/193",
-      "status": "expirado",
-      "onset": "2026-07-28T16:32:28-03:00",
-      "expires": "2026-07-28T17:30:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "16:27",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 28/07 16:25 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e GRANIZO nas proximas 2 horas. Fique atento. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-28T16:27:42-03:00",
-      "expires": "2026-07-28T18:25:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "16:20",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 18h20. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-07-28T16:20:00-03:00",
-      "expires": "2026-07-28T18:20:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "16:19",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "event": "Granizo",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "Blumenau/SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas de chuva c/ trovoadas sobretudo na regiao Sul de Blumenau. RISCO P/ TEMPORAIS ISOLADOS. Fique atento! Emerg 199/193.",
-      "status": "expirado",
-      "onset": "2026-07-28T16:19:06-03:00",
-      "expires": "2026-07-28T18:00:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "16:16",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:16h15 Umidade do ar abaixo de 30 entre Casa Branca e Itapira. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-07-28T16:16:36-03:00",
-      "expires": "2026-07-28T18:00:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "16:06",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 28/07 16:02 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Fique atento. Ocorrencias ligue 199/193",
-      "status": "expirado",
-      "onset": "2026-07-28T16:06:31-03:00",
-      "expires": "2026-07-28T18:05:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "16:03",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 28/07 16:01 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e GRANIZO nas proximas 2 horas. Fique atento. Ocorrencias ligue 199/193",
-      "status": "expirado",
-      "onset": "2026-07-28T16:03:24-03:00",
-      "expires": "2026-07-28T18:00:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "15:57",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:SDC: ALERTA de tempestade severa com vendaval e granizo na proxima hora. BUSQUE ABRIGO longe de arvores, placas e postes de energia. Emerg 199/193",
-      "status": "expirado",
-      "onset": "2026-07-28T15:57:57-03:00",
-      "expires": "2026-07-28T17:00:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "15:33",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:SDC: ALERTA de tempestade severa com vendaval e granizo na proxima hora. BUSQUE ABRIGO longe de arvores, placas e postes de energia. Emerg 199/193",
-      "status": "expirado",
-      "onset": "2026-07-28T15:33:02-03:00",
-      "expires": "2026-07-28T16:35:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "15:27",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 28/07 15:24 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Fique atento. Ocorrencias ligue 199/193",
-      "status": "expirado",
-      "onset": "2026-07-28T15:27:54-03:00",
-      "expires": "2026-07-28T17:25:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "15:25",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:15h25 Umidade do ar abaixo de 30 na Capital. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-07-28T15:25:43-03:00",
-      "expires": "2026-07-28T17:30:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "15:25",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:15h25 Umidade do ar abaixo de 30 na Capital. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-07-28T15:25:35-03:00",
-      "expires": "2026-07-28T17:30:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "15:23",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:15h19 Umidade do ar abaixo de 30 em Barra Bonita. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-07-28T15:23:10-03:00",
-      "expires": "2026-07-28T17:30:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "15:20",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:15h19 Umidade do ar abaixo de 30 entre Dracena e Tupa. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-07-28T15:20:45-03:00",
-      "expires": "2026-07-28T17:30:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "15:02",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-07-28T15:02:14-03:00",
-      "expires": "2026-07-28T18:50:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "15:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:SDC: ALERTA de tempestade severa com vendaval e granizo na proxima hora. BUSQUE ABRIGO longe de arvores, placas e postes de energia. Emerg 199/193",
-      "status": "expirado",
-      "onset": "2026-07-28T15:00:45-03:00",
-      "expires": "2026-07-28T16:00:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "15:00",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:14h59 Umidade do ar abaixo de 30 em Itapira. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-07-28T15:00:33-03:00",
-      "expires": "2026-07-28T17:55:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "15:00",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA: ELEVACAO do rio Cai. Risco ALTO de Sao Sebastiao do Cai a Montenegro. Val por 24h. Evite areas inundaveis. Emergencia: 190/193",
-      "status": "vigente",
-      "onset": "2026-07-28T15:00:00-03:00",
-      "expires": "2026-07-29T15:00:00-03:00"
-    },
-    {
-      "date": "28/07/2026",
-      "time": "14:58",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:14h57 Umidade do ar abaixo de 30 entre Barretos e Franca. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-07-28T14:58:09-03:00",
-      "expires": "2026-07-28T17:45:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 186,
     "by_nivel": {
-      "Alto": 91,
-      "Médio": 61,
-      "Severo": 34
+      "Alto": 93,
+      "Médio": 58,
+      "Severo": 33,
+      "Extremo": 2
     },
     "by_channel_list": {
       "Google": 186
     },
     "by_region": {
-      "S": 147,
-      "SE": 37,
+      "S": 140,
+      "SE": 44,
       "N": 2
     }
   }
