@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-30T17:12:19.507281-03:00",
-  "source_run_dir": "run_20260730_171157",
+  "generated_at": "2026-07-30T18:35:46.641196-03:00",
+  "source_run_dir": "run_20260730_183520",
   "cards": {
-    "vigentes": 25,
-    "ultimas24h": 92,
+    "vigentes": 21,
+    "ultimas24h": 81,
     "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
@@ -42,7 +42,7 @@
       "location": "PARANÁ/PR",
       "uf": "PR",
       "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "15:28",
@@ -73,27 +73,27 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 37
+      "count": 34
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 20
+      "count": 19
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 14
+      "count": 10
     },
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 9
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -119,29 +119,29 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 26
+      "count": 21
     },
     {
       "label": "Alto",
-      "count": 49
+      "count": 46
     },
     {
       "label": "Severo",
-      "count": 17
+      "count": 14
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 62
+      "count": 56
     },
     {
       "label": "Vendaval",
-      "count": 12
+      "count": 11
     },
     {
       "label": "Inundações",
-      "count": 12
+      "count": 10
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -149,29 +149,29 @@
     },
     {
       "label": "Deslizamentos",
-      "count": 3
+      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 37
+      "count": 34
     },
     {
       "uf": "PR",
-      "count": 21
+      "count": 19
     },
     {
       "uf": "RS",
-      "count": 14
-    },
-    {
-      "uf": "RJ",
       "count": 10
     },
     {
+      "uf": "RJ",
+      "count": 9
+    },
+    {
       "uf": "AM",
-      "count": 5
+      "count": 4
     },
     {
       "uf": "MG",
@@ -189,11 +189,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 25
+      "count": 21
     },
     {
       "label": "expirado",
-      "count": 67
+      "count": 60
     }
   ],
   "all_alerts": [
@@ -232,7 +232,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-30T15:33:04-03:00",
       "expires": "2026-07-30T18:30:00-03:00"
     },
@@ -1249,165 +1249,22 @@
       "status": "expirado",
       "onset": "2026-07-29T18:35:39-03:00",
       "expires": "2026-07-29T21:00:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "18:29",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:18:25 - Chuva na regiao de Peruibe, Itanhaem e Mongagua. Tem raios e vento. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-29T18:29:26-03:00",
-      "expires": "2026-07-29T21:30:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "18:19",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:Chuva forte na regiao de Estrela do Norte se deslocando para Narandiba e Taciba. Tem raios e vento. Atinge municipios vizinhos. Abrigue-se!",
-      "status": "expirado",
-      "onset": "2026-07-29T18:19:15-03:00",
-      "expires": "2026-07-29T20:30:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "17:54",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "Guaraci/PR",
-      "headline": "Defesa Civil: Guaraci Risco de temporal. Fique em casa. Evite arvores e areas abertas. Cuidado com raios. Emergencias: 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-29T17:54:51-03:00",
-      "expires": "2026-07-29T23:55:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "17:47",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Deslizamentos",
-      "nivel": "Médio",
-      "uf": "RS",
-      "location": "Três Coroas/RS",
-      "headline": "Defesa Civil:Alerta AMARELO : Risco MODERADO p/ deslizamentos pontuais em Tres Coroas. Evite areas de risco. Val por 24h. Emerg 190/193.",
-      "status": "vigente",
-      "onset": "2026-07-29T17:47:08-03:00",
-      "expires": "2026-07-30T17:45:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "17:38",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Deslizamentos",
-      "nivel": "Médio",
-      "uf": "RS",
-      "location": "Caxias do Sul/RS",
-      "headline": "Defesa Civil:Alerta AMARELO : Risco MODERADO p/ deslizamentos pontuais em Caxias do Sul. Evite areas de risco. Val por 24h. Emerg 190/193.",
-      "status": "vigente",
-      "onset": "2026-07-29T17:38:17-03:00",
-      "expires": "2026-07-30T17:35:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "17:29",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:17h25 Chuva isolada avancando entre Sandovalina e Pirapozinho. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-29T17:29:35-03:00",
-      "expires": "2026-07-29T19:30:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "17:28",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO no rio dos Sinos. Risco MUITO ALTO em Taquara. Valido por 24h. Evite areas inundaveis. Emergencia 190/193.",
-      "status": "vigente",
-      "onset": "2026-07-29T17:28:30-03:00",
-      "expires": "2026-07-30T17:30:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "17:25",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Duque de Caxias/RJ",
-      "headline": "Defesa Civil:ALERTA de RAJADAS DE VENTOS FORTES a partir da TARDE (29/07) em Duque de Caxias. Evite areas alagadas. Emergencia, 21 99463-7387.",
-      "status": "expirado",
-      "onset": "2026-07-29T17:25:53-03:00",
-      "expires": "2026-07-30T12:00:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "17:22",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Lábrea/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-07-29T17:22:58-03:00",
-      "expires": "2026-07-29T18:50:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "17:22",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Jacui. Risco MUITO ALTO em Dona Francisca. Valido por 24h. Evite areas inundaveis. Emergencia 190/193.",
-      "status": "expirado",
-      "onset": "2026-07-29T17:22:50-03:00",
-      "expires": "2026-07-30T17:10:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "17:14",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-29T17:14:40-03:00",
-      "expires": "2026-07-29T20:15:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 92,
+    "total_alerts": 81,
     "by_nivel": {
-      "Alto": 49,
-      "Médio": 26,
-      "Severo": 17
+      "Alto": 46,
+      "Médio": 21,
+      "Severo": 14
     },
     "by_channel_list": {
-      "Google": 92
+      "Google": 81
     },
     "by_region": {
-      "SE": 51,
-      "S": 35,
-      "N": 5,
+      "SE": 47,
+      "S": 29,
+      "N": 4,
       "CO": 1
     }
   }
