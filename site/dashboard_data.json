@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-07-31T10:01:06.932780-03:00",
-  "source_run_dir": "run_20260731_100055",
+  "generated_at": "2026-07-31T11:39:35.576209-03:00",
+  "source_run_dir": "run_20260731_113921",
   "cards": {
     "vigentes": 7,
-    "ultimas24h": 31,
-    "autoridadesAtivas": 8,
+    "ultimas24h": 24,
+    "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "10:53",
+      "date": "31/07/2026",
+      "senderName": "Defesa Civil Estadual do Piauí",
+      "senderNameShort": "DC Piauí",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "location": "PIAUÍ/PI",
+      "uf": "PI",
+      "headline": "Defesa Civil:Umidade relativa do ar com niveis criticos. Evite exposicao ao sol entre 10h e 16h. Em caso de emergencia, acione os orgaos de saude.",
+      "status": "vigente"
+    },
     {
       "time": "09:05",
       "date": "31/07/2026",
@@ -55,34 +67,12 @@
       "uf": "RS",
       "headline": "Defesa Civil:RS: Alerta VERMELHO p/ elevacao no Guaiba. Risco MUITO ALTO para inundacao nas Ilhas de POA. Val por 24h. Evite areas inundaveis. Emerg 190/193.",
       "status": "vigente"
-    },
-    {
-      "time": "18:40",
-      "date": "30/07/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "location": "RIO GRANDE DO SUL/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO no Rio Sinos. Risco MUITO ALTO entre Campo Bom e S Leopoldo. Val por 24h. Evite areas inundaveis. Emergencia 190/19",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 7
-    },
-    {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
-      "count": 7
-    },
-    {
-      "name": "Defesa Civil Nacional",
-      "short_name": "Defesa Civil Nacional",
       "count": 6
     },
     {
@@ -91,9 +81,14 @@
       "count": 4
     },
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 2
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
+      "count": 4
+    },
+    {
+      "name": "Defesa Civil Nacional",
+      "short_name": "Defesa Civil Nacional",
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -101,9 +96,19 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil Estadual do Piauí",
+      "short_name": "DC Piauí",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil Estadual do Rio de Janeiro",
       "short_name": "DC Rio de Janeiro",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual de Goiás",
@@ -114,33 +119,33 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 9
+      "count": 5
     },
     {
       "label": "Alto",
-      "count": 15
+      "count": 13
     },
     {
       "label": "Severo",
-      "count": 7
+      "count": 6
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 11
-    },
-    {
-      "label": "Vendaval",
-      "count": 9
-    },
-    {
-      "label": "Inundações",
       "count": 7
     },
     {
+      "label": "Inundações",
+      "count": 6
+    },
+    {
+      "label": "Vendaval",
+      "count": 6
+    },
+    {
       "label": "Baixa Umidade Do Ar",
-      "count": 3
+      "count": 4
     },
     {
       "label": "Deslizamentos",
@@ -149,28 +154,32 @@
   ],
   "uf_distribution": [
     {
-      "uf": "RJ",
-      "count": 8
-    },
-    {
       "uf": "RS",
-      "count": 7
+      "count": 6
     },
     {
-      "uf": "PR",
-      "count": 7
+      "uf": "RJ",
+      "count": 5
     },
     {
       "uf": "MG",
       "count": 4
     },
     {
-      "uf": "SP",
-      "count": 2
+      "uf": "PR",
+      "count": 4
     },
     {
       "uf": "AM",
       "count": 2
+    },
+    {
+      "uf": "PI",
+      "count": 1
+    },
+    {
+      "uf": "SP",
+      "count": 1
     },
     {
       "uf": "GO",
@@ -184,10 +193,23 @@
     },
     {
       "label": "expirado",
-      "count": 24
+      "count": 17
     }
   ],
   "all_alerts": [
+    {
+      "date": "31/07/2026",
+      "time": "10:53",
+      "senderName": "Defesa Civil Estadual do Piauí",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "uf": "PI",
+      "location": "PIAUÍ/PI",
+      "headline": "Defesa Civil:Umidade relativa do ar com niveis criticos. Evite exposicao ao sol entre 10h e 16h. Em caso de emergencia, acione os orgaos de saude.",
+      "status": "vigente",
+      "onset": "2026-07-31T10:53:20-03:00",
+      "expires": "2026-07-31T20:00:00-03:00"
+    },
     {
       "date": "31/07/2026",
       "time": "09:05",
@@ -486,127 +508,24 @@
       "status": "expirado",
       "onset": "2026-07-30T11:48:55-03:00",
       "expires": "2026-07-30T19:00:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "11:34",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-30T11:34:57-03:00",
-      "expires": "2026-07-30T14:35:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "11:18",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "RIO DE JANEIRO/RJ",
-      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje (30/07). Emergencia, ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-07-30T11:18:18-03:00",
-      "expires": "2026-07-31T00:00:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "11:17",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-30T11:17:10-03:00",
-      "expires": "2026-07-30T14:15:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "10:37",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:10h35 Chuva persistente entre Avanhandava e Santa Fe do Sul. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-30T10:37:01-03:00",
-      "expires": "2026-07-30T12:30:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "10:34",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ - POSSIBILIDADE DE RAJADAS DE VENTO MODERADAS A FORTES PARA AS PROXIMAS 24 HORAS! EM CASO DE EMERGENCIA LIGUE: (21) 3030-2662/199.",
-      "status": "expirado",
-      "onset": "2026-07-30T10:34:15-03:00",
-      "expires": "2026-07-31T00:00:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "10:25",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-30T10:25:16-03:00",
-      "expires": "2026-07-30T13:25:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "10:20",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "RS",
-      "location": "Eldorado do Sul/RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO p/ elevacao do rio Jacui. Risco MUITO ALTO p/ inundacao em Eldorado do Sul. Val. por 24h. Evite areas inundaveis. Emerg 190/19",
-      "status": "vigente",
-      "onset": "2026-07-30T10:20:00-03:00",
-      "expires": "2026-07-31T10:20:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "10:18",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "headline": "Defesa Civil:Alerta de Vendaval para Mangaratiba/RJ. Contate a Defesa Civil (telefone: 3030-2662).",
-      "status": "expirado",
-      "onset": "2026-07-30T10:18:53-03:00",
-      "expires": "2026-07-31T00:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 31,
+    "total_alerts": 24,
     "by_nivel": {
-      "Alto": 15,
-      "Médio": 9,
-      "Severo": 7
+      "Alto": 13,
+      "Severo": 6,
+      "Médio": 5
     },
     "by_channel_list": {
-      "Google": 31
+      "Google": 24
     },
     "by_region": {
-      "S": 14,
-      "SE": 14,
+      "S": 10,
+      "SE": 10,
       "N": 2,
-      "CO": 1
+      "CO": 1,
+      "NE": 1
     }
   }
 }
