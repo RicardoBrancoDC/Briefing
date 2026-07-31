@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-07-31T14:58:42.044756-03:00",
-  "source_run_dir": "run_20260731_145820",
+  "generated_at": "2026-07-31T16:56:26.298989-03:00",
+  "source_run_dir": "run_20260731_165605",
   "cards": {
-    "vigentes": 15,
-    "ultimas24h": 21,
-    "autoridadesAtivas": 9,
+    "vigentes": 17,
+    "ultimas24h": 19,
+    "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "15:39",
+      "date": "31/07/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:15h10 Umidade do ar abaixo de 30 entre Novo Horizonte e Ibitinga. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
+      "status": "vigente"
+    },
+    {
+      "time": "15:36",
+      "date": "31/07/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:15h10 Umidade do ar abaixo de 30 entre S J Rio Preto e Votuporanga. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
+      "status": "vigente"
+    },
     {
       "time": "14:44",
       "date": "31/07/2026",
@@ -43,37 +67,13 @@
       "uf": "SP",
       "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 entre Itapira e E Santo do Pinhal. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
       "status": "vigente"
-    },
-    {
-      "time": "13:47",
-      "date": "31/07/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 entre Campos do Jordao e Queluz. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente"
-    },
-    {
-      "time": "13:25",
-      "date": "31/07/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 entre Ribeirao Preto e Pradopolis. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 6
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
@@ -83,12 +83,12 @@
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual de Goiás",
@@ -104,26 +104,16 @@
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Rio de Janeiro",
-      "short_name": "DC Rio de Janeiro",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 8
+      "count": 9
     },
     {
       "label": "Alto",
-      "count": 8
+      "count": 5
     },
     {
       "label": "Severo",
@@ -136,12 +126,12 @@
       "count": 9
     },
     {
-      "label": "Chuvas Intensas",
+      "label": "Inundações",
       "count": 5
     },
     {
-      "label": "Inundações",
-      "count": 5
+      "label": "Chuvas Intensas",
+      "count": 3
     },
     {
       "label": "Vendaval",
@@ -155,23 +145,23 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 6
+      "count": 8
     },
     {
       "uf": "RS",
       "count": 5
     },
     {
-      "uf": "RJ",
-      "count": 3
+      "uf": "MG",
+      "count": 2
     },
     {
       "uf": "AM",
-      "count": 2
+      "count": 1
     },
     {
-      "uf": "MG",
-      "count": 2
+      "uf": "RJ",
+      "count": 1
     },
     {
       "uf": "GO",
@@ -180,23 +170,45 @@
     {
       "uf": "PI",
       "count": 1
-    },
-    {
-      "uf": "PR",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 15
+      "count": 17
     },
     {
       "label": "expirado",
-      "count": 6
+      "count": 2
     }
   ],
   "all_alerts": [
+    {
+      "date": "31/07/2026",
+      "time": "15:39",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:15h10 Umidade do ar abaixo de 30 entre Novo Horizonte e Ibitinga. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
+      "status": "vigente",
+      "onset": "2026-07-31T15:39:44-03:00",
+      "expires": "2026-07-31T17:30:00-03:00"
+    },
+    {
+      "date": "31/07/2026",
+      "time": "15:36",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:15h10 Umidade do ar abaixo de 30 entre S J Rio Preto e Votuporanga. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
+      "status": "vigente",
+      "onset": "2026-07-31T15:36:29-03:00",
+      "expires": "2026-07-31T17:30:00-03:00"
+    },
     {
       "date": "31/07/2026",
       "time": "14:44",
@@ -417,75 +429,23 @@
       "status": "expirado",
       "onset": "2026-07-30T17:01:04-03:00",
       "expires": "2026-07-30T18:55:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "16:45",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite transitar por areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-07-30T16:45:18-03:00",
-      "expires": "2026-07-30T19:35:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "15:33",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-30T15:33:04-03:00",
-      "expires": "2026-07-30T18:30:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "15:28",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Nova Friburgo/RJ",
-      "headline": "Defesa Civil:Umidade do ar pode ficar abaixo de 30 na tarde de hoje (30/07). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "status": "expirado",
-      "onset": "2026-07-30T15:28:42-03:00",
-      "expires": "2026-07-30T20:00:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "15:02",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "RIO DE JANEIRO/RJ",
-      "headline": "Defesa Civil:Umidade do ar pode ficar abaixo de 30 na tarde de hoje (30/07). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "status": "expirado",
-      "onset": "2026-07-30T15:02:52-03:00",
-      "expires": "2026-07-30T20:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 21,
+    "total_alerts": 19,
     "by_nivel": {
-      "Alto": 8,
-      "Médio": 8,
+      "Médio": 9,
+      "Alto": 5,
       "Severo": 5
     },
     "by_channel_list": {
-      "Google": 21
+      "Google": 19
     },
     "by_region": {
       "SE": 11,
-      "S": 6,
-      "N": 2,
+      "S": 5,
       "CO": 1,
+      "N": 1,
       "NE": 1
     }
   }
