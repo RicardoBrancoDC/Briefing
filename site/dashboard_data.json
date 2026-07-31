@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T08:01:26.698757-03:00",
-  "source_run_dir": "run_20260731_080113",
+  "generated_at": "2026-07-31T10:01:06.932780-03:00",
+  "source_run_dir": "run_20260731_100055",
   "cards": {
     "vigentes": 7,
     "ultimas24h": 31,
@@ -8,6 +8,30 @@
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "09:05",
+      "date": "31/07/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Severo",
+      "location": "Cachoeira do Sul/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Jacui. Risco MUITO ALTO em Cachoeira do Sul. Valido por 24h. Evite areas inundaveis. Emergencia: 190/193.",
+      "status": "vigente"
+    },
+    {
+      "time": "08:06",
+      "date": "31/07/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Severo",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Taquari. Risco MUITO ALTO de Taquari a General Camara. Val. por 12h. Evite areas inundaveis. Emerg: 190/193.",
+      "status": "vigente"
+    },
     {
       "time": "20:00",
       "date": "30/07/2026",
@@ -43,30 +67,6 @@
       "uf": "RS",
       "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO no Rio Sinos. Risco MUITO ALTO entre Campo Bom e S Leopoldo. Val por 24h. Evite areas inundaveis. Emergencia 190/19",
       "status": "vigente"
-    },
-    {
-      "time": "18:38",
-      "date": "30/07/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Araxá/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de Tempestades com raios, rajadas de vento forte e chuva moderada a forte, pelas proximas duas horas. Proteja-se!",
-      "status": "expirado"
-    },
-    {
-      "time": "17:01",
-      "date": "30/07/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:16h57 Chuva em Franca. Tem raios e vento. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -188,6 +188,32 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "31/07/2026",
+      "time": "09:05",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Severo",
+      "uf": "RS",
+      "location": "Cachoeira do Sul/RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Jacui. Risco MUITO ALTO em Cachoeira do Sul. Valido por 24h. Evite areas inundaveis. Emergencia: 190/193.",
+      "status": "vigente",
+      "onset": "2026-07-31T09:05:38-03:00",
+      "expires": "2026-08-01T09:00:00-03:00"
+    },
+    {
+      "date": "31/07/2026",
+      "time": "08:06",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Severo",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Taquari. Risco MUITO ALTO de Taquari a General Camara. Val. por 12h. Evite areas inundaveis. Emerg: 190/193.",
+      "status": "vigente",
+      "onset": "2026-07-31T08:06:19-03:00",
+      "expires": "2026-07-31T20:00:00-03:00"
+    },
     {
       "date": "30/07/2026",
       "time": "20:00",
@@ -564,32 +590,6 @@
       "status": "expirado",
       "onset": "2026-07-30T10:18:53-03:00",
       "expires": "2026-07-31T00:00:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "09:00",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "RS",
-      "location": "Cachoeira do Sul/RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Jacui. Risco MUITO ALTO em Cachoeira do Sul. Valido por 24h. Evite areas inundaveis. Emergencia 190/193.",
-      "status": "vigente",
-      "onset": "2026-07-30T09:00:00-03:00",
-      "expires": "2026-07-31T09:00:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "09:00",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "RS",
-      "location": "Cachoeira do Sul/RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Jacui. Risco MUITO ALTO em Cachoeira do Sul. Valido por 24h. Evite areas inundaveis. Emergencia 190/193.",
-      "status": "vigente",
-      "onset": "2026-07-30T09:00:00-03:00",
-      "expires": "2026-07-31T09:00:00-03:00"
     }
   ],
   "summary": {
