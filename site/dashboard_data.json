@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-31T04:17:00.186025-03:00",
-  "source_run_dir": "run_20260731_041642",
+  "generated_at": "2026-07-31T08:01:26.698757-03:00",
+  "source_run_dir": "run_20260731_080113",
   "cards": {
-    "vigentes": 8,
-    "ultimas24h": 43,
+    "vigentes": 7,
+    "ultimas24h": 31,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
@@ -71,19 +71,14 @@
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
-      "count": 10
-    },
-    {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 9
+      "count": 7
     },
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 9
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
+      "count": 7
     },
     {
       "name": "Defesa Civil Nacional",
@@ -94,6 +89,11 @@
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
       "count": 4
+    },
+    {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -114,29 +114,29 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 11
+      "count": 9
     },
     {
       "label": "Alto",
-      "count": 23
+      "count": 15
     },
     {
       "label": "Severo",
-      "count": 9
+      "count": 7
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 21
-    },
-    {
-      "label": "Inundações",
-      "count": 9
+      "count": 11
     },
     {
       "label": "Vendaval",
       "count": 9
+    },
+    {
+      "label": "Inundações",
+      "count": 7
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -149,24 +149,24 @@
   ],
   "uf_distribution": [
     {
-      "uf": "PR",
-      "count": 10
-    },
-    {
-      "uf": "RS",
-      "count": 9
-    },
-    {
-      "uf": "SP",
-      "count": 9
-    },
-    {
       "uf": "RJ",
       "count": 8
     },
     {
+      "uf": "RS",
+      "count": 7
+    },
+    {
+      "uf": "PR",
+      "count": 7
+    },
+    {
       "uf": "MG",
       "count": 4
+    },
+    {
+      "uf": "SP",
+      "count": 2
     },
     {
       "uf": "AM",
@@ -180,11 +180,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 8
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 35
+      "count": 24
     }
   ],
   "all_alerts": [
@@ -590,177 +590,21 @@
       "status": "vigente",
       "onset": "2026-07-30T09:00:00-03:00",
       "expires": "2026-07-31T09:00:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "08:00",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do Rio Taquari. Risco MUITO ALTO entre Taquari e Gen Camara. Val por 24h. Evite areas inundaveis. Emerg 190/193.",
-      "status": "vigente",
-      "onset": "2026-07-30T08:00:00-03:00",
-      "expires": "2026-07-31T08:00:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "07:07",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:07h06 Chuva persistente na regiao de Rancharia, Lucelia e Martinopolis. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-30T07:07:46-03:00",
-      "expires": "2026-07-30T09:10:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "07:00",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO no Rio Taquari. Risco MUITO ALTO em Bom Retiro do Sul. Valido por 12h. Evite areas inundaveis. Emergencia 190/193.",
-      "status": "expirado",
-      "onset": "2026-07-30T07:00:00-03:00",
-      "expires": "2026-07-30T19:00:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "06:13",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-30T06:13:21-03:00",
-      "expires": "2026-07-30T09:00:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "05:27",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:05h26 Chuva em Castilho. Tem raios e vento. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-30T05:27:06-03:00",
-      "expires": "2026-07-30T07:30:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "05:19",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:05h18 Chuva em Monte Aprazivel e Poloni. Tem raios e vento. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-30T05:19:57-03:00",
-      "expires": "2026-07-30T07:20:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "05:15",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:05h13 Chuva em Rinopolis. Tem raios e vento. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-30T05:15:12-03:00",
-      "expires": "2026-07-30T07:20:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "05:08",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-30T05:08:32-03:00",
-      "expires": "2026-07-30T08:05:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "05:06",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:05h05 Chuva em Monte Castelo e Pauliceia. Tem raios e vento. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-30T05:06:59-03:00",
-      "expires": "2026-07-30T07:05:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "04:45",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:04h44 Chuva em Panorama. Deslocando-se para Tupi Paulista. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-30T04:45:53-03:00",
-      "expires": "2026-07-30T06:55:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "04:20",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-30T04:20:59-03:00",
-      "expires": "2026-07-30T07:20:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "04:17",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:04h16 Chuva em Basto, Tupa e Quata. Tem raios e vento. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-30T04:17:23-03:00",
-      "expires": "2026-07-30T06:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 43,
+    "total_alerts": 31,
     "by_nivel": {
-      "Alto": 23,
-      "Médio": 11,
-      "Severo": 9
+      "Alto": 15,
+      "Médio": 9,
+      "Severo": 7
     },
     "by_channel_list": {
-      "Google": 43
+      "Google": 31
     },
     "by_region": {
-      "SE": 21,
-      "S": 19,
+      "S": 14,
+      "SE": 14,
       "N": 2,
       "CO": 1
     }
