@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-07-31T18:31:53.735185-03:00",
-  "source_run_dir": "run_20260731_183134",
+  "generated_at": "2026-07-31T20:18:40.992863-03:00",
+  "source_run_dir": "run_20260731_201821",
   "cards": {
-    "vigentes": 9,
-    "ultimas24h": 19,
-    "autoridadesAtivas": 7,
+    "vigentes": 6,
+    "ultimas24h": 17,
+    "autoridadesAtivas": 6,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "20:00",
+      "date": "31/07/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Severo",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO p/ elevacao no Guaiba. Risco MUITO ALTO para inundacao nas Ilhas de POA. Val por 24h. Evite areas inundaveis. Emerg 190/193.",
+      "status": "vigente"
+    },
+    {
+      "time": "19:30",
+      "date": "31/07/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Severo",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO no rio dos Sinos. Risco MUITO ALTO em S Leopoldo e N Hamburgo. Val por 24h. Evite areas inundaveis. Emerg. 190/193.",
+      "status": "vigente"
+    },
     {
       "time": "17:53",
       "date": "31/07/2026",
@@ -43,30 +67,6 @@
       "uf": "SP",
       "headline": "Defesa Civil:15h10 Umidade do ar abaixo de 30 entre S J Rio Preto e Votuporanga. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
       "status": "expirado"
-    },
-    {
-      "time": "14:44",
-      "date": "31/07/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "13:54",
-      "date": "31/07/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "location": "Maricá/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Marica/RJ: Atencao a possibilidade de rajadas de vento fortes na tarde e na noite de sabado (01/08). Emergencia: 199 ou 966282699 (fone/whatsapp)",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Defesa Civil Nacional",
@@ -99,11 +99,6 @@
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -113,11 +108,11 @@
     },
     {
       "label": "Alto",
-      "count": 5
+      "count": 4
     },
     {
       "label": "Severo",
-      "count": 5
+      "count": 4
     }
   ],
   "event_distribution": [
@@ -127,11 +122,11 @@
     },
     {
       "label": "Inundações",
-      "count": 5
+      "count": 4
     },
     {
       "label": "Chuvas Intensas",
-      "count": 3
+      "count": 2
     },
     {
       "label": "Vendaval",
@@ -149,11 +144,7 @@
     },
     {
       "uf": "RS",
-      "count": 5
-    },
-    {
-      "uf": "MG",
-      "count": 2
+      "count": 4
     },
     {
       "uf": "PE",
@@ -168,6 +159,10 @@
       "count": 1
     },
     {
+      "uf": "MG",
+      "count": 1
+    },
+    {
       "uf": "GO",
       "count": 1
     },
@@ -179,14 +174,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 9
+      "count": 6
     },
     {
       "label": "expirado",
-      "count": 10
+      "count": 11
     }
   ],
   "all_alerts": [
+    {
+      "date": "31/07/2026",
+      "time": "20:00",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Severo",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO p/ elevacao no Guaiba. Risco MUITO ALTO para inundacao nas Ilhas de POA. Val por 24h. Evite areas inundaveis. Emerg 190/193.",
+      "status": "vigente",
+      "onset": "2026-07-31T20:00:00-03:00",
+      "expires": "2026-08-01T20:00:00-03:00"
+    },
+    {
+      "date": "31/07/2026",
+      "time": "19:30",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Severo",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO no rio dos Sinos. Risco MUITO ALTO em S Leopoldo e N Hamburgo. Val por 24h. Evite areas inundaveis. Emerg. 190/193.",
+      "status": "vigente",
+      "onset": "2026-07-31T19:30:00-03:00",
+      "expires": "2026-08-01T19:30:00-03:00"
+    },
     {
       "date": "31/07/2026",
       "time": "17:53",
@@ -352,7 +373,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Umidade relativa do ar com niveis criticos. Evite exposicao ao sol entre 10h e 16h. Em caso de emergencia, acione os orgaos de saude.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-31T10:53:20-03:00",
       "expires": "2026-07-31T20:00:00-03:00"
     },
@@ -378,76 +399,24 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Taquari. Risco MUITO ALTO de Taquari a General Camara. Val. por 12h. Evite areas inundaveis. Emerg: 190/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-31T08:06:19-03:00",
       "expires": "2026-07-31T20:00:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "20:00",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Jacui. Risco MUITO ALTO entre Gen. Camara e Charqueadas. Val. por 24h. Evite areas inundaveis. Emerg 190/193",
-      "status": "vigente",
-      "onset": "2026-07-30T20:00:00-03:00",
-      "expires": "2026-07-31T20:00:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "20:00",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO p/ elevacao no Guaiba. Risco MUITO ALTO para inundacao nas Ilhas de POA. Val por 24h. Evite areas inundaveis. Emerg 190/193.",
-      "status": "vigente",
-      "onset": "2026-07-30T20:00:00-03:00",
-      "expires": "2026-07-31T20:00:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "18:40",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO no Rio Sinos. Risco MUITO ALTO entre Campo Bom e S Leopoldo. Val por 24h. Evite areas inundaveis. Emergencia 190/19",
-      "status": "vigente",
-      "onset": "2026-07-30T18:40:00-03:00",
-      "expires": "2026-07-31T18:40:00-03:00"
-    },
-    {
-      "date": "30/07/2026",
-      "time": "18:38",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Araxá/MG",
-      "headline": "Defesa Civil:Alerta de Tempestades com raios, rajadas de vento forte e chuva moderada a forte, pelas proximas duas horas. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-07-30T18:38:14-03:00",
-      "expires": "2026-07-30T20:35:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 19,
+    "total_alerts": 17,
     "by_nivel": {
       "Médio": 9,
-      "Alto": 5,
-      "Severo": 5
+      "Alto": 4,
+      "Severo": 4
     },
     "by_channel_list": {
-      "Google": 19
+      "Google": 17
     },
     "by_region": {
-      "SE": 10,
-      "S": 5,
+      "SE": 9,
+      "S": 4,
       "NE": 2,
       "CO": 1,
       "N": 1
