@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-30T20:20:47.371855-03:00",
-  "source_run_dir": "run_20260730_202025",
+  "generated_at": "2026-07-31T00:54:33.519098-03:00",
+  "source_run_dir": "run_20260731_005410",
   "cards": {
-    "vigentes": 16,
-    "ultimas24h": 72,
-    "autoridadesAtivas": 9,
+    "vigentes": 8,
+    "ultimas24h": 56,
+    "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
@@ -54,7 +54,7 @@
       "location": "Araxá/MG",
       "uf": "MG",
       "headline": "Defesa Civil:Alerta de Tempestades com raios, rajadas de vento forte e chuva moderada a forte, pelas proximas duas horas. Proteja-se!",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:01",
@@ -73,17 +73,17 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 27
+      "count": 18
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 17
+      "count": 14
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Defesa Civil Nacional",
@@ -98,7 +98,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 4
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual do Rio de Janeiro",
@@ -109,39 +109,34 @@
       "name": "Defesa Civil Estadual de Goiás",
       "short_name": "DC Goiás",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Espírito Santo",
-      "short_name": "DC Espírito Santo",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 17
+      "count": 14
     },
     {
       "label": "Alto",
-      "count": 43
+      "count": 32
     },
     {
       "label": "Severo",
-      "count": 12
+      "count": 10
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 48
+      "count": 34
     },
     {
       "label": "Inundações",
-      "count": 10
+      "count": 9
     },
     {
       "label": "Vendaval",
-      "count": 10
+      "count": 9
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -155,15 +150,15 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 27
+      "count": 18
     },
     {
       "uf": "PR",
-      "count": 17
+      "count": 14
     },
     {
       "uf": "RS",
-      "count": 10
+      "count": 9
     },
     {
       "uf": "RJ",
@@ -175,25 +170,21 @@
     },
     {
       "uf": "AM",
-      "count": 4
+      "count": 2
     },
     {
       "uf": "GO",
-      "count": 1
-    },
-    {
-      "uf": "ES",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 16
+      "count": 8
     },
     {
       "label": "expirado",
-      "count": 56
+      "count": 48
     }
   ],
   "all_alerts": [
@@ -245,7 +236,7 @@
       "uf": "MG",
       "location": "Araxá/MG",
       "headline": "Defesa Civil:Alerta de Tempestades com raios, rajadas de vento forte e chuva moderada a forte, pelas proximas duas horas. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-30T18:38:14-03:00",
       "expires": "2026-07-30T20:35:00-03:00"
     },
@@ -362,7 +353,7 @@
       "uf": "AM",
       "location": "São Paulo de Olivença/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-30T13:21:43-03:00",
       "expires": "2026-07-30T21:00:00-03:00"
     },
@@ -388,7 +379,7 @@
       "uf": "RJ",
       "location": "Nova Friburgo/RJ",
       "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje, a partir da tarde. (30/07). Emergencia, ligue 193 ou 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-30T12:14:00-03:00",
       "expires": "2026-07-31T00:00:00-03:00"
     },
@@ -401,7 +392,7 @@
       "uf": "RJ",
       "location": "Itaguaí/RJ",
       "headline": "Defesa Civil:ITAGUAI-Possibilidade de  VENTO moderado a forte para as proximas horas no municipio. Em caso de emergencia ligue: 199/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-30T12:11:37-03:00",
       "expires": "2026-07-31T00:00:00-03:00"
     },
@@ -492,7 +483,7 @@
       "uf": "RJ",
       "location": "RIO DE JANEIRO/RJ",
       "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje (30/07). Emergencia, ligue 193 ou 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-30T11:18:18-03:00",
       "expires": "2026-07-31T00:00:00-03:00"
     },
@@ -531,7 +522,7 @@
       "uf": "RJ",
       "location": "Mangaratiba/RJ",
       "headline": "Defesa Civil:MANGARATIBA/RJ - POSSIBILIDADE DE RAJADAS DE VENTO MODERADAS A FORTES PARA AS PROXIMAS 24 HORAS! EM CASO DE EMERGENCIA LIGUE: (21) 3030-2662/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-30T10:34:15-03:00",
       "expires": "2026-07-31T00:00:00-03:00"
     },
@@ -570,7 +561,7 @@
       "uf": "RJ",
       "location": "Mangaratiba/RJ",
       "headline": "Defesa Civil:Alerta de Vendaval para Mangaratiba/RJ. Contate a Defesa Civil (telefone: 3030-2662).",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-30T10:18:53-03:00",
       "expires": "2026-07-31T00:00:00-03:00"
     },
@@ -924,230 +915,22 @@
       "status": "expirado",
       "onset": "2026-07-30T01:14:21-03:00",
       "expires": "2026-07-30T03:15:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "23:40",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-07-29T23:40:43-03:00",
-      "expires": "2026-07-30T02:35:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "23:40",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-29T23:40:01-03:00",
-      "expires": "2026-07-30T02:35:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "23:27",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:23h25 Chuva em Macatuba e Sao Manuel. Tem raios e vento. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-29T23:27:07-03:00",
-      "expires": "2026-07-30T01:50:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "22:49",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-29T22:49:54-03:00",
-      "expires": "2026-07-30T01:50:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "22:36",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:22h36 Chuva em  Parapua, Quata e Caiabu. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-29T22:36:43-03:00",
-      "expires": "2026-07-30T01:00:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "22:26",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:22h25 Chuva em  Santo Anastacio e Presidente Bernardes. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-29T22:26:31-03:00",
-      "expires": "2026-07-30T01:00:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "22:19",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:22h18 Chuva forte em Agudos. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-29T22:19:26-03:00",
-      "expires": "2026-07-29T23:55:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "22:07",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "RS",
-      "location": "Eldorado do Sul/RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO p/ elevacao do rio Jacui. Risco MUITO ALTO p/ inundacao em Eldorado do Sul.  12h. Evite areas inundaveis. Emerg 190/193.",
-      "status": "vigente",
-      "onset": "2026-07-29T22:07:39-03:00",
-      "expires": "2026-07-30T22:00:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "22:06",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-07-29T22:06:22-03:00",
-      "expires": "2026-07-30T01:05:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "21:49",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:21h48 Chuva em  Sandovalina e Estrela do Norte. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-29T21:49:10-03:00",
-      "expires": "2026-07-29T23:55:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "21:47",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "ESPÍRITO SANTO/ES",
-      "headline": "Defesa Civil:Alerta de VENTOS COSTEIROS para o litoral Sul nas proximas 05 horas. Fique atento, abrigue-se. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-07-29T21:47:41-03:00",
-      "expires": "2026-07-30T03:00:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "21:42",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:21h41 Chuva em Santa Cruz do Rio Pardo e Ipaussu. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-29T21:42:37-03:00",
-      "expires": "2026-07-29T23:55:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "21:18",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:21h17 Chuva na regiao de Marilia. Tem raios e vento. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-29T21:18:45-03:00",
-      "expires": "2026-07-29T23:15:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "21:12",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:Chuva forte em Presidente Prudente deslocando para Martinopolis. Tem raios e vento. Atinge cidades vizinhas. Cuidado na proxima hora. Abrigue-se!",
-      "status": "expirado",
-      "onset": "2026-07-29T21:12:08-03:00",
-      "expires": "2026-07-29T23:10:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "20:54",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-07-29T20:54:45-03:00",
-      "expires": "2026-07-29T23:45:00-03:00"
-    },
-    {
-      "date": "29/07/2026",
-      "time": "20:35",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:20h35 Chuva na regiao de Nantes e Iepe. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-07-29T20:35:26-03:00",
-      "expires": "2026-07-29T22:35:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 72,
+    "total_alerts": 56,
     "by_nivel": {
-      "Alto": 43,
-      "Médio": 17,
-      "Severo": 12
+      "Alto": 32,
+      "Médio": 14,
+      "Severo": 10
     },
     "by_channel_list": {
-      "Google": 72
+      "Google": 56
     },
     "by_region": {
-      "SE": 40,
-      "S": 27,
-      "N": 4,
+      "SE": 30,
+      "S": 23,
+      "N": 2,
       "CO": 1
     }
   }
