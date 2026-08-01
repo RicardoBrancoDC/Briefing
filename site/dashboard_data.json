@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-01T08:37:23.190939-03:00",
-  "source_run_dir": "run_20260801_083708",
+  "generated_at": "2026-08-01T10:59:24.466604-03:00",
+  "source_run_dir": "run_20260801_105911",
   "cards": {
-    "vigentes": 8,
-    "ultimas24h": 21,
-    "autoridadesAtivas": 7,
+    "vigentes": 7,
+    "ultimas24h": 20,
+    "autoridadesAtivas": 6,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "09:22",
+      "date": "01/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "location": "Itaguaí/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Possibilidade de rajadas de vento moderado a forte nas proximas 24 horas. Emergencia, ligue 193 ou 199.",
+      "status": "vigente"
+    },
     {
       "time": "08:27",
       "date": "01/08/2026",
@@ -30,7 +42,7 @@
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 09h00. Mantenha-se seguro.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "07:33",
@@ -55,18 +67,6 @@
       "uf": "RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 08h30. Mantenha-se seguro.",
       "status": "expirado"
-    },
-    {
-      "time": "06:00",
-      "date": "01/08/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "location": "RIO GRANDE DO SUL/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 07h30. Mantenha-se seguro.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -76,14 +76,14 @@
       "count": 7
     },
     {
-      "name": "Defesa Civil Estadual do Rio Grande do Sul",
-      "short_name": "DC Rio Grande do Sul",
-      "count": 6
-    },
-    {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 4
+      "count": 5
+    },
+    {
+      "name": "Defesa Civil Estadual do Rio Grande do Sul",
+      "short_name": "DC Rio Grande do Sul",
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -99,11 +99,6 @@
       "name": "Defesa Civil Estadual de Goiás",
       "short_name": "DC Goiás",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Piauí",
-      "short_name": "DC Piauí",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -117,17 +112,17 @@
     },
     {
       "label": "Severo",
-      "count": 3
+      "count": 2
     }
   ],
   "event_distribution": [
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 9
+      "count": 8
     },
     {
       "label": "Vendaval",
-      "count": 3
+      "count": 4
     },
     {
       "label": "Granizo",
@@ -135,7 +130,7 @@
     },
     {
       "label": "Inundações",
-      "count": 3
+      "count": 2
     },
     {
       "label": "Chuvas Intensas",
@@ -153,11 +148,11 @@
     },
     {
       "uf": "RS",
-      "count": 6
+      "count": 5
     },
     {
       "uf": "RJ",
-      "count": 2
+      "count": 3
     },
     {
       "uf": "SC",
@@ -178,16 +173,12 @@
     {
       "uf": "GO",
       "count": 1
-    },
-    {
-      "uf": "PI",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 8
+      "count": 7
     },
     {
       "label": "expirado",
@@ -195,6 +186,19 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "01/08/2026",
+      "time": "09:22",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Itaguaí/RJ",
+      "headline": "Defesa Civil:Possibilidade de rajadas de vento moderado a forte nas proximas 24 horas. Emergencia, ligue 193 ou 199.",
+      "status": "vigente",
+      "onset": "2026-08-01T09:22:59-03:00",
+      "expires": "2026-08-02T08:40:00-03:00"
+    },
     {
       "date": "01/08/2026",
       "time": "08:27",
@@ -217,7 +221,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 09h00. Mantenha-se seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-01T07:35:00-03:00",
       "expires": "2026-08-01T09:00:00-03:00"
     },
@@ -441,50 +445,24 @@
       "status": "expirado",
       "onset": "2026-07-31T12:00:00-03:00",
       "expires": "2026-07-31T18:00:00-03:00"
-    },
-    {
-      "date": "31/07/2026",
-      "time": "10:53",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "PI",
-      "location": "PIAUÍ/PI",
-      "headline": "Defesa Civil:Umidade relativa do ar com niveis criticos. Evite exposicao ao sol entre 10h e 16h. Em caso de emergencia, acione os orgaos de saude.",
-      "status": "expirado",
-      "onset": "2026-07-31T10:53:20-03:00",
-      "expires": "2026-07-31T20:00:00-03:00"
-    },
-    {
-      "date": "31/07/2026",
-      "time": "09:05",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "RS",
-      "location": "Cachoeira do Sul/RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Jacui. Risco MUITO ALTO em Cachoeira do Sul. Valido por 24h. Evite areas inundaveis. Emergencia: 190/193.",
-      "status": "vigente",
-      "onset": "2026-07-31T09:05:38-03:00",
-      "expires": "2026-08-01T09:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 21,
+    "total_alerts": 20,
     "by_nivel": {
       "Médio": 11,
       "Alto": 7,
-      "Severo": 3
+      "Severo": 2
     },
     "by_channel_list": {
-      "Google": 21
+      "Google": 20
     },
     "by_region": {
-      "SE": 10,
-      "S": 7,
-      "NE": 2,
+      "SE": 11,
+      "S": 6,
       "CO": 1,
-      "N": 1
+      "N": 1,
+      "NE": 1
     }
   }
 }
