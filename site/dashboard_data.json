@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-08-01T16:37:56.529451-03:00",
-  "source_run_dir": "run_20260801_163735",
+  "generated_at": "2026-08-01T18:13:05.082658-03:00",
+  "source_run_dir": "run_20260801_181240",
   "cards": {
-    "vigentes": 14,
-    "ultimas24h": 20,
+    "vigentes": 9,
+    "ultimas24h": 23,
     "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "18:00",
+      "date": "01/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "location": "Ipojuca/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:Alerta para perigo de vendaval,a populacao deve ficar em alerta. Ao menor sinal de perigo acione a defesa civil. 0800-281-0620.Plantao 24 horas.",
+      "status": "vigente"
+    },
+    {
+      "time": "17:02",
+      "date": "01/08/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Severo",
+      "location": "São Borja/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Uruguai. Risco MUITO ALTO para Sao Borja. Valido por 24h. Evite areas inundaveis. Emergencia: 190/193.",
+      "status": "vigente"
+    },
+    {
+      "time": "16:46",
+      "date": "01/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:16h45 Umidade do ar abaixo de 30 entre Tupa e Rancharia. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
+      "status": "expirado"
+    },
+    {
+      "time": "16:41",
+      "date": "01/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:16h40 Umidade do ar abaixo de 30 em Areias. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
+      "status": "expirado"
+    },
     {
       "time": "16:18",
       "date": "01/08/2026",
@@ -19,75 +67,27 @@
       "uf": "SC",
       "headline": "Defesa Civil:ATENCAO - 01/08 16:12 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS na sua regiao. Ocorrencias ligue 199 ou 193.",
       "status": "vigente"
-    },
-    {
-      "time": "16:10",
-      "date": "01/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "Bragança Paulista/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:16h09 Umidade do ar abaixo de 30 em Braganca Paulista. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:19",
-      "date": "01/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "Dracena/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:15h19 Umidade do ar abaixo de 30 em Dracena. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:14",
-      "date": "01/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:15h13 Umidade do ar abaixo de 30 entre Pindorama e Ibitinga. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente"
-    },
-    {
-      "time": "14:35",
-      "date": "01/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 4
-    },
-    {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 3
+      "count": 6
     },
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
+      "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
       "count": 3
     },
     {
@@ -109,7 +109,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 9
+      "count": 11
     },
     {
       "label": "Alto",
@@ -117,39 +117,39 @@
     },
     {
       "label": "Severo",
-      "count": 3
+      "count": 4
     }
   ],
   "event_distribution": [
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 7
+      "count": 9
     },
     {
       "label": "Vendaval",
-      "count": 4
-    },
-    {
-      "label": "Chuvas Intensas",
-      "count": 3
+      "count": 5
     },
     {
       "label": "Inundações",
-      "count": 3
+      "count": 4
     },
     {
       "label": "Granizo",
       "count": 3
+    },
+    {
+      "label": "Chuvas Intensas",
+      "count": 2
     }
   ],
   "uf_distribution": [
     {
       "uf": "RS",
-      "count": 6
+      "count": 7
     },
     {
       "uf": "SP",
-      "count": 4
+      "count": 6
     },
     {
       "uf": "SC",
@@ -164,29 +164,81 @@
       "count": 2
     },
     {
+      "uf": "PE",
+      "count": 1
+    },
+    {
       "uf": "AM",
       "count": 1
     },
     {
       "uf": "PI",
       "count": 1
-    },
-    {
-      "uf": "PE",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 14
+      "count": 9
     },
     {
       "label": "expirado",
-      "count": 6
+      "count": 14
     }
   ],
   "all_alerts": [
+    {
+      "date": "01/08/2026",
+      "time": "18:00",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "PE",
+      "location": "Ipojuca/PE",
+      "headline": "Defesa Civil:Alerta para perigo de vendaval,a populacao deve ficar em alerta. Ao menor sinal de perigo acione a defesa civil. 0800-281-0620.Plantao 24 horas.",
+      "status": "vigente",
+      "onset": "2026-08-01T18:00:00-03:00",
+      "expires": "2026-08-02T06:00:00-03:00"
+    },
+    {
+      "date": "01/08/2026",
+      "time": "17:02",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Severo",
+      "uf": "RS",
+      "location": "São Borja/RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Uruguai. Risco MUITO ALTO para Sao Borja. Valido por 24h. Evite areas inundaveis. Emergencia: 190/193.",
+      "status": "vigente",
+      "onset": "2026-08-01T17:02:24-03:00",
+      "expires": "2026-08-02T17:00:00-03:00"
+    },
+    {
+      "date": "01/08/2026",
+      "time": "16:46",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:16h45 Umidade do ar abaixo de 30 entre Tupa e Rancharia. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
+      "status": "expirado",
+      "onset": "2026-08-01T16:46:17-03:00",
+      "expires": "2026-08-01T18:00:00-03:00"
+    },
+    {
+      "date": "01/08/2026",
+      "time": "16:41",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:16h40 Umidade do ar abaixo de 30 em Areias. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
+      "status": "expirado",
+      "onset": "2026-08-01T16:41:20-03:00",
+      "expires": "2026-08-01T18:00:00-03:00"
+    },
     {
       "date": "01/08/2026",
       "time": "16:18",
@@ -209,7 +261,7 @@
       "uf": "SP",
       "location": "Bragança Paulista/SP",
       "headline": "Defesa Civil:16h09 Umidade do ar abaixo de 30 em Braganca Paulista. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-01T16:10:13-03:00",
       "expires": "2026-08-01T18:05:00-03:00"
     },
@@ -222,7 +274,7 @@
       "uf": "SP",
       "location": "Dracena/SP",
       "headline": "Defesa Civil:15h19 Umidade do ar abaixo de 30 em Dracena. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-01T15:19:21-03:00",
       "expires": "2026-08-01T18:00:00-03:00"
     },
@@ -235,7 +287,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h13 Umidade do ar abaixo de 30 entre Pindorama e Ibitinga. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-01T15:14:51-03:00",
       "expires": "2026-08-01T17:30:00-03:00"
     },
@@ -248,7 +300,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-01T14:35:08-03:00",
       "expires": "2026-08-01T17:20:00-03:00"
     },
@@ -261,7 +313,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h14 Umidade do ar abaixo de 30 entre Ituverava e Santa Fe do Sul. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-01T14:15:35-03:00",
       "expires": "2026-08-01T17:30:00-03:00"
     },
@@ -287,7 +339,7 @@
       "uf": "GO",
       "location": "GOIÁS/GO",
       "headline": "Defesa Civil:Aviso de baixa umidade do ar: beba agua, evite sol forte e esforco excessivo. Atencao especial para criancas e idosos. Emergencia:193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-01T12:00:00-03:00",
       "expires": "2026-08-01T18:00:00-03:00"
     },
@@ -300,7 +352,7 @@
       "uf": "GO",
       "location": "GOIÁS/GO",
       "headline": "Defesa Civil:Aviso de baixa umidade do ar: beba agua, evite sol forte e esforco excessivo. Atencao especial para criancas e idosos. Emergencia:193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-01T12:00:00-03:00",
       "expires": "2026-08-01T18:00:00-03:00"
     },
@@ -433,34 +485,21 @@
       "status": "vigente",
       "onset": "2026-07-31T19:30:00-03:00",
       "expires": "2026-08-01T19:30:00-03:00"
-    },
-    {
-      "date": "31/07/2026",
-      "time": "17:53",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Ipojuca/PE",
-      "headline": "Defesa Civil:Alerta para chuvas de moderada a forte durante esta sexta-feira 31/07. Duvidas:0800-281-0620. 24h. A defesa civil somos todos nos.",
-      "status": "expirado",
-      "onset": "2026-07-31T17:53:21-03:00",
-      "expires": "2026-08-01T08:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 20,
+    "total_alerts": 23,
     "by_nivel": {
-      "Médio": 9,
+      "Médio": 11,
       "Alto": 8,
-      "Severo": 3
+      "Severo": 4
     },
     "by_channel_list": {
-      "Google": 20
+      "Google": 23
     },
     "by_region": {
-      "S": 9,
-      "SE": 6,
+      "S": 10,
+      "SE": 8,
       "CO": 2,
       "NE": 2,
       "N": 1
