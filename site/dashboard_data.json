@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-08-01T03:43:09.445544-03:00",
-  "source_run_dir": "run_20260801_034259",
+  "generated_at": "2026-08-01T07:12:55.572023-03:00",
+  "source_run_dir": "run_20260801_071241",
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 17,
+    "vigentes": 8,
+    "ultimas24h": 19,
     "autoridadesAtivas": 6,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "07:01",
+      "date": "01/08/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 08h30. Mantenha-se seguro.",
+      "status": "vigente"
+    },
+    {
+      "time": "06:00",
+      "date": "01/08/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 07h30. Mantenha-se seguro.",
+      "status": "vigente"
+    },
     {
       "time": "20:00",
       "date": "31/07/2026",
@@ -43,30 +67,6 @@
       "uf": "PE",
       "headline": "Defesa Civil:Alerta para chuvas de moderada a forte durante esta sexta-feira 31/07. Duvidas:0800-281-0620. 24h. A defesa civil somos todos nos.",
       "status": "vigente"
-    },
-    {
-      "time": "15:39",
-      "date": "31/07/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:15h10 Umidade do ar abaixo de 30 entre Novo Horizonte e Ibitinga. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado"
-    },
-    {
-      "time": "15:36",
-      "date": "31/07/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:15h10 Umidade do ar abaixo de 30 entre S J Rio Preto e Votuporanga. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 4
+      "count": 6
     },
     {
       "name": "Defesa Civil Nacional",
@@ -108,7 +108,7 @@
     },
     {
       "label": "Alto",
-      "count": 4
+      "count": 6
     },
     {
       "label": "Severo",
@@ -123,6 +123,10 @@
     {
       "label": "Inundações",
       "count": 4
+    },
+    {
+      "label": "Granizo",
+      "count": 2
     },
     {
       "label": "Chuvas Intensas",
@@ -144,7 +148,7 @@
     },
     {
       "uf": "RS",
-      "count": 4
+      "count": 6
     },
     {
       "uf": "PE",
@@ -174,7 +178,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 8
     },
     {
       "label": "expirado",
@@ -182,6 +186,32 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "01/08/2026",
+      "time": "07:01",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 08h30. Mantenha-se seguro.",
+      "status": "vigente",
+      "onset": "2026-08-01T07:01:34-03:00",
+      "expires": "2026-08-01T08:30:00-03:00"
+    },
+    {
+      "date": "01/08/2026",
+      "time": "06:00",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 07h30. Mantenha-se seguro.",
+      "status": "vigente",
+      "onset": "2026-08-01T06:00:53-03:00",
+      "expires": "2026-08-01T07:30:00-03:00"
+    },
     {
       "date": "31/07/2026",
       "time": "20:00",
@@ -405,18 +435,18 @@
     }
   ],
   "summary": {
-    "total_alerts": 17,
+    "total_alerts": 19,
     "by_nivel": {
       "Médio": 9,
-      "Alto": 4,
+      "Alto": 6,
       "Severo": 4
     },
     "by_channel_list": {
-      "Google": 17
+      "Google": 19
     },
     "by_region": {
       "SE": 9,
-      "S": 4,
+      "S": 6,
       "NE": 2,
       "CO": 1,
       "N": 1
