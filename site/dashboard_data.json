@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-08-01T07:12:55.572023-03:00",
-  "source_run_dir": "run_20260801_071241",
+  "generated_at": "2026-08-01T08:37:23.190939-03:00",
+  "source_run_dir": "run_20260801_083708",
   "cards": {
     "vigentes": 8,
-    "ultimas24h": 19,
-    "autoridadesAtivas": 6,
+    "ultimas24h": 21,
+    "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "08:27",
+      "date": "01/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 01/08 08:10 - RAJADAS DE VENTO de quadrante norte/nordeste, com intensidade MODERADA (45 a 65 km/h), para as regiões do Extremo Oeste, Oeste, Meio-Oeste, Planalto Norte, Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "07:35",
+      "date": "01/08/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 09h00. Mantenha-se seguro.",
+      "status": "vigente"
+    },
+    {
+      "time": "07:33",
+      "date": "01/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "location": "Mangaratiba/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ - POSSIBILIDADE DE RAJADAS DE VENTO MODERADAS A FORTES PARA AS PROXIMAS 24 HORAS! EM CASO DE EMERGENCIA LIGUE: (21) 3030-2662/199.",
+      "status": "vigente"
+    },
     {
       "time": "07:01",
       "date": "01/08/2026",
@@ -18,7 +54,7 @@
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 08h30. Mantenha-se seguro.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "06:00",
@@ -30,43 +66,7 @@
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 07h30. Mantenha-se seguro.",
-      "status": "vigente"
-    },
-    {
-      "time": "20:00",
-      "date": "31/07/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "location": "RIO GRANDE DO SUL/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO p/ elevacao no Guaiba. Risco MUITO ALTO para inundacao nas Ilhas de POA. Val por 24h. Evite areas inundaveis. Emerg 190/193.",
-      "status": "vigente"
-    },
-    {
-      "time": "19:30",
-      "date": "31/07/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "location": "RIO GRANDE DO SUL/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO no rio dos Sinos. Risco MUITO ALTO em S Leopoldo e N Hamburgo. Val por 24h. Evite areas inundaveis. Emerg. 190/193.",
-      "status": "vigente"
-    },
-    {
-      "time": "17:53",
-      "date": "31/07/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Ipojuca/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:Alerta para chuvas de moderada a forte durante esta sexta-feira 31/07. Duvidas:0800-281-0620. 24h. A defesa civil somos todos nos.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -83,7 +83,12 @@
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 3
+      "count": 4
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -104,15 +109,15 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 9
+      "count": 11
     },
     {
       "label": "Alto",
-      "count": 6
+      "count": 7
     },
     {
       "label": "Severo",
-      "count": 4
+      "count": 3
     }
   ],
   "event_distribution": [
@@ -121,20 +126,20 @@
       "count": 9
     },
     {
-      "label": "Inundações",
-      "count": 4
+      "label": "Vendaval",
+      "count": 3
     },
     {
       "label": "Granizo",
-      "count": 2
+      "count": 3
+    },
+    {
+      "label": "Inundações",
+      "count": 3
     },
     {
       "label": "Chuvas Intensas",
       "count": 2
-    },
-    {
-      "label": "Vendaval",
-      "count": 1
     },
     {
       "label": "Friagem",
@@ -151,15 +156,19 @@
       "count": 6
     },
     {
+      "uf": "RJ",
+      "count": 2
+    },
+    {
+      "uf": "SC",
+      "count": 1
+    },
+    {
       "uf": "PE",
       "count": 1
     },
     {
       "uf": "AM",
-      "count": 1
-    },
-    {
-      "uf": "RJ",
       "count": 1
     },
     {
@@ -182,10 +191,49 @@
     },
     {
       "label": "expirado",
-      "count": 11
+      "count": 13
     }
   ],
   "all_alerts": [
+    {
+      "date": "01/08/2026",
+      "time": "08:27",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 01/08 08:10 - RAJADAS DE VENTO de quadrante norte/nordeste, com intensidade MODERADA (45 a 65 km/h), para as regiões do Extremo Oeste, Oeste, Meio-Oeste, Planalto Norte, Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-01T08:27:53-03:00",
+      "expires": "2026-08-01T12:25:00-03:00"
+    },
+    {
+      "date": "01/08/2026",
+      "time": "07:35",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 09h00. Mantenha-se seguro.",
+      "status": "vigente",
+      "onset": "2026-08-01T07:35:00-03:00",
+      "expires": "2026-08-01T09:00:00-03:00"
+    },
+    {
+      "date": "01/08/2026",
+      "time": "07:33",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Mangaratiba/RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ - POSSIBILIDADE DE RAJADAS DE VENTO MODERADAS A FORTES PARA AS PROXIMAS 24 HORAS! EM CASO DE EMERGENCIA LIGUE: (21) 3030-2662/199.",
+      "status": "vigente",
+      "onset": "2026-08-01T07:33:43-03:00",
+      "expires": "2026-08-02T07:00:00-03:00"
+    },
     {
       "date": "01/08/2026",
       "time": "07:01",
@@ -195,7 +243,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 08h30. Mantenha-se seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-01T07:01:34-03:00",
       "expires": "2026-08-01T08:30:00-03:00"
     },
@@ -208,7 +256,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 07h30. Mantenha-se seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-01T06:00:53-03:00",
       "expires": "2026-08-01T07:30:00-03:00"
     },
@@ -247,7 +295,7 @@
       "uf": "PE",
       "location": "Ipojuca/PE",
       "headline": "Defesa Civil:Alerta para chuvas de moderada a forte durante esta sexta-feira 31/07. Duvidas:0800-281-0620. 24h. A defesa civil somos todos nos.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-07-31T17:53:21-03:00",
       "expires": "2026-08-01T08:00:00-03:00"
     },
@@ -419,34 +467,21 @@
       "status": "vigente",
       "onset": "2026-07-31T09:05:38-03:00",
       "expires": "2026-08-01T09:00:00-03:00"
-    },
-    {
-      "date": "31/07/2026",
-      "time": "08:06",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Taquari. Risco MUITO ALTO de Taquari a General Camara. Val. por 12h. Evite areas inundaveis. Emerg: 190/193.",
-      "status": "expirado",
-      "onset": "2026-07-31T08:06:19-03:00",
-      "expires": "2026-07-31T20:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 19,
+    "total_alerts": 21,
     "by_nivel": {
-      "Médio": 9,
-      "Alto": 6,
-      "Severo": 4
+      "Médio": 11,
+      "Alto": 7,
+      "Severo": 3
     },
     "by_channel_list": {
-      "Google": 19
+      "Google": 21
     },
     "by_region": {
-      "SE": 9,
-      "S": 6,
+      "SE": 10,
+      "S": 7,
       "NE": 2,
       "CO": 1,
       "N": 1

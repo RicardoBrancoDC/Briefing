@@ -1,18 +1,87 @@
 {
-  "generated_at": "2026-08-01T07:12:55.635565-03:00",
+  "generated_at": "2026-08-01T08:37:23.253329-03:00",
   "source": ".cache/historico_alertas.json",
   "window_hours": 24,
   "cards": {
     "vigentes": 8,
-    "ultimas24h": 19,
-    "autoridadesAtivas": 6,
+    "ultimas24h": 21,
+    "autoridadesAtivas": 7,
     "alertasExtremos": 0,
-    "alertasSeveros": 4,
-    "alertasSeverosExtremos": 4,
-    "estadosComAlerta": 8,
-    "municipiosOuAreasComAlerta": 9
+    "alertasSeveros": 3,
+    "alertasSeverosExtremos": 3,
+    "estadosComAlerta": 9,
+    "municipiosOuAreasComAlerta": 11
   },
   "latest_alerts": [
+    {
+      "time": "08:27",
+      "date": "01/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 01/08 08:10 - RAJADAS DE VENTO de quadrante norte/nordeste, com intensidade MODERADA (45 a 65 km/h), para as regiões do Extremo Oeste, Oeste, Meio-Oeste, Planalto Norte, Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "identifier": "186300/2026",
+      "entry_id": "186300/2026",
+      "sent": "2026-08-01T08:27:53-03:00",
+      "onset": "2026-08-01T08:27:53-03:00",
+      "expires": "2026-08-01T12:25:00-03:00",
+      "category": "Met",
+      "severity": "Moderate",
+      "urgency": "Immediate",
+      "certainty": "Observed",
+      "responseType": "Execute",
+      "channel_list": "Google"
+    },
+    {
+      "time": "07:35",
+      "date": "01/08/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 09h00. Mantenha-se seguro.",
+      "status": "vigente",
+      "identifier": "186298/2026",
+      "entry_id": "186298/2026",
+      "sent": "2026-08-01T07:32:47-03:00",
+      "onset": "2026-08-01T07:35:00-03:00",
+      "expires": "2026-08-01T09:00:00-03:00",
+      "category": "Met",
+      "severity": "Severe",
+      "urgency": "Expected",
+      "certainty": "Likely",
+      "responseType": "Execute",
+      "channel_list": "Google"
+    },
+    {
+      "time": "07:33",
+      "date": "01/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "location": "Mangaratiba/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ - POSSIBILIDADE DE RAJADAS DE VENTO MODERADAS A FORTES PARA AS PROXIMAS 24 HORAS! EM CASO DE EMERGENCIA LIGUE: (21) 3030-2662/199.",
+      "status": "vigente",
+      "identifier": "186299/2026",
+      "entry_id": "186299/2026",
+      "sent": "2026-08-01T07:33:43-03:00",
+      "onset": "2026-08-01T07:33:43-03:00",
+      "expires": "2026-08-02T07:00:00-03:00",
+      "category": "Met",
+      "severity": "Moderate",
+      "urgency": "Expected",
+      "certainty": "Possible",
+      "responseType": "Execute",
+      "channel_list": "Google"
+    },
     {
       "time": "07:01",
       "date": "01/08/2026",
@@ -23,7 +92,7 @@
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 08h30. Mantenha-se seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "186297/2026",
       "entry_id": "186297/2026",
       "sent": "2026-08-01T07:01:34-03:00",
@@ -46,7 +115,7 @@
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 07h30. Mantenha-se seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "186296/2026",
       "entry_id": "186296/2026",
       "sent": "2026-08-01T06:00:53-03:00",
@@ -115,7 +184,7 @@
       "location": "Ipojuca/PE",
       "uf": "PE",
       "headline": "Defesa Civil:Alerta para chuvas de moderada a forte durante esta sexta-feira 31/07. Duvidas:0800-281-0620. 24h. A defesa civil somos todos nos.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "186293/2026",
       "entry_id": "186293/2026",
       "sent": "2026-07-31T17:53:21-03:00",
@@ -173,75 +242,6 @@
       "certainty": "Observed",
       "responseType": "Execute",
       "channel_list": "Google"
-    },
-    {
-      "time": "14:44",
-      "date": "31/07/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "identifier": "186290/2026",
-      "entry_id": "186290/2026",
-      "sent": "2026-07-31T14:44:22-03:00",
-      "onset": "2026-07-31T14:44:22-03:00",
-      "expires": "2026-07-31T17:30:00-03:00",
-      "category": "Met",
-      "severity": "Moderate",
-      "urgency": "Immediate",
-      "certainty": "Unlikely",
-      "responseType": "Execute",
-      "channel_list": "Google"
-    },
-    {
-      "time": "13:54",
-      "date": "31/07/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "location": "Maricá/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Marica/RJ: Atencao a possibilidade de rajadas de vento fortes na tarde e na noite de sabado (01/08). Emergencia: 199 ou 966282699 (fone/whatsapp)",
-      "status": "vigente",
-      "identifier": "186289/2026",
-      "entry_id": "186289/2026",
-      "sent": "2026-07-31T13:54:11-03:00",
-      "onset": "2026-07-31T13:54:11-03:00",
-      "expires": "2026-08-02T09:00:00-03:00",
-      "category": "Met",
-      "severity": "Severe",
-      "urgency": "Expected",
-      "certainty": "Likely",
-      "responseType": "Execute",
-      "channel_list": "Google"
-    },
-    {
-      "time": "13:49",
-      "date": "31/07/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 entre Itapira e E Santo do Pinhal. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "identifier": "186288/2026",
-      "entry_id": "186288/2026",
-      "sent": "2026-07-31T13:49:45-03:00",
-      "onset": "2026-07-31T13:49:45-03:00",
-      "expires": "2026-07-31T17:00:00-03:00",
-      "category": "Met",
-      "severity": "Moderate",
-      "urgency": "Expected",
-      "certainty": "Observed",
-      "responseType": "Execute",
-      "channel_list": "Google"
     }
   ],
   "top_emitters": [
@@ -258,7 +258,12 @@
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 3
+      "count": 4
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -279,15 +284,15 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 9
+      "count": 11
     },
     {
       "label": "Alto",
-      "count": 6
+      "count": 7
     },
     {
       "label": "Severo",
-      "count": 4
+      "count": 3
     }
   ],
   "event_distribution": [
@@ -296,20 +301,20 @@
       "count": 9
     },
     {
-      "label": "Inundações",
-      "count": 4
+      "label": "Vendaval",
+      "count": 3
     },
     {
       "label": "Granizo",
-      "count": 2
+      "count": 3
+    },
+    {
+      "label": "Inundações",
+      "count": 3
     },
     {
       "label": "Chuvas Intensas",
       "count": 2
-    },
-    {
-      "label": "Vendaval",
-      "count": 1
     },
     {
       "label": "Friagem",
@@ -326,15 +331,19 @@
       "count": 6
     },
     {
+      "uf": "RJ",
+      "count": 2
+    },
+    {
+      "uf": "SC",
+      "count": 1
+    },
+    {
       "uf": "PE",
       "count": 1
     },
     {
       "uf": "AM",
-      "count": 1
-    },
-    {
-      "uf": "RJ",
       "count": 1
     },
     {
@@ -357,27 +366,27 @@
     },
     {
       "label": "expirado",
-      "count": 11
+      "count": 13
     }
   ],
   "category_distribution": [
     {
       "label": "Met",
-      "count": 19
+      "count": 21
     }
   ],
   "duration_distribution": [
     {
       "label": "2h a 6h",
-      "count": 7
+      "count": 8
     },
     {
       "label": "Até 2h",
-      "count": 4
+      "count": 5
     },
     {
       "label": "12h a 24h",
-      "count": 4
+      "count": 5
     },
     {
       "label": "Mais de 24h",
@@ -385,41 +394,178 @@
     },
     {
       "label": "6h a 12h",
-      "count": 2
+      "count": 1
     }
   ],
   "time_since_distribution": [
     {
       "label": "Mais de 12h",
-      "count": 15
-    },
-    {
-      "label": "6h a 12h",
-      "count": 2
-    },
-    {
-      "label": "Até 1h",
-      "count": 1
+      "count": 16
     },
     {
       "label": "1h a 3h",
+      "count": 4
+    },
+    {
+      "label": "Até 1h",
       "count": 1
     }
   ],
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 19
+      "count": 21
     }
   ],
   "all_alerts": [
+    {
+      "identifier": "186300/2026",
+      "entry_id": "186300/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "sent": "2026-08-01T08:27:53-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "VENDAVAL",
+      "responseType": "Execute",
+      "urgency": "Immediate",
+      "severity": "Moderate",
+      "certainty": "Observed",
+      "onset": "2026-08-01T08:27:53-03:00",
+      "expires": "2026-08-01T12:25:00-03:00",
+      "nivel": "Médio",
+      "headline": null,
+      "description": "OBSERVAÇÃO - 01/08 08:10 - RAJADAS DE VENTO de quadrante norte/nordeste, com intensidade MODERADA (45 a 65 km/h), para as regiões do Extremo Oeste, Oeste, Meio-Oeste, Planalto Norte, Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "SANTA CATARINA/SC",
+      "polygon_raw": "-28.611,-48.821 -28.611,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.61,-48.823 -28.61,-48.823 -28.61,-48.823 -28.61,-48.823 -28.61,-48.822 -28.61,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821",
+      "polygon_points": 5,
+      "has_geocode": false,
+      "uf_hint": "SC",
+      "region": "S",
+      "geometry_wkt": "MULTIPOLYGON (((-48.822 -28.61, -48.821 -28.61, -48.821 -28.611, -48.822 -28.611, -48.822 -28.61)), ((-48.822 -28.61, -48.823 -28.61, -48.822 -28.609, -48.822 -28.61)))",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "event_short": "Vendaval",
+      "status_vigencia": "vigente",
+      "date": "01/08/2026",
+      "time": "08:27",
+      "sent_br": "2026-08-01T08:27:53-03:00",
+      "onset_br": "2026-08-01T08:27:53-03:00",
+      "expires_br": "2026-08-01T12:25:00-03:00",
+      "duration_minutes": 237,
+      "duration_hours": 3.95,
+      "duration_bucket": "2h a 6h",
+      "time_since_minutes": 9,
+      "time_since_hours": 0.15,
+      "time_since_bucket": "Até 1h",
+      "is_active": true
+    },
+    {
+      "identifier": "186298/2026",
+      "entry_id": "186298/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "sent": "2026-08-01T07:32:47-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "TEMPESTADE LOCAL/CONVECTIVA - GRANIZO",
+      "responseType": "Execute",
+      "urgency": "Expected",
+      "severity": "Severe",
+      "certainty": "Likely",
+      "onset": "2026-08-01T07:35:00-03:00",
+      "expires": "2026-08-01T09:00:00-03:00",
+      "nivel": "Alto",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 09h00. Mantenha-se seguro.",
+      "description": "RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 09h00. Mantenha-se seguro. Emerg. 190/193",
+      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 190 ou 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "RIO GRANDE DO SUL/RS",
+      "polygon_raw": "-31.769,-54.296 -31.234,-54.018 -30.59,-55.23 -31.039,-55.357 -31.037,-55.35 -31.037,-55.35 -31.037,-55.35 -31.037,-55.35 -31.04,-55.349 -31.053,-55.351 -31.057,-55.352 -31.057,-55.352 -31.057,-55.352 -31.058,-55.353 -31.067,-55.358 -31.07,-55.351 -31.067,-55.348 -31.068,-55.348 -31.085,-55.338 -31.088,-55.326 -31.088,-55.326 -31.088,-55.326 -31.095,-55.33 -31.099,-55.332 -31.105,-55.331 -31.106,-55.331 -31.11,-55.327 -31.111,-55.328 -31.116,-55.329 -31.116,-55.329 -31.116,-55.329 -31.119,-55.336 -31.129,-55.337 -31.133,-55.337 -31.132,-55.333 -31.137,-55.325 -31.135,-55.32 -31.135,-55.32 -31.135,-55.32 -31.145,-55.317 -31.145,-55.315 -31.147,-55.31 -31.145,-55.309 -31.141,-55.304 -31.143,-55.289 -31.143,-55.289 -31.143,-55.289 -31.15,-55.289 -31.152,-55.287 -31.156,-55.284 -31.156,-55.284 -31.156,-55.284 -31.159,-55.289 -31.163,-55.289 -31.17,-55.273 -31.17,-55.273 -31.17,-55.273 -31.17,-55.273 -31.176,-55.269 -31.182,-55.279 -31.185,-55.284 -31.193,-55.281 -31.194,-55.261 -31.196,-55.259 -31.205,-55.249 -31.205,-55.249 -31.205,-55.249 -31.206,-55.249 -31.211,-55.252 -31.212,-55.251 -31.216,-55.246 -31.248,-55.247 -31.252,-55.245 -31.252,-55.243 -31.253,-55.239 -31.26,-55.239 -31.258,-55.234 -31.261,-55.213 -31.265,-55.182 -31.267,-55.181 -31.27,-55.178 -31.269,-55.168 -31.269,-55.168 -31.269,-55.168 -31.273,-55.166 -31.274,-55.165 -31.279,-55.161 -31.279,-55.161 -31.279,-55.161 -31.279,-55.163 -31.28,-55.165 -31.285,-55.162 -31.285,-55.155 -31.285,-55.155 -31.285,-55.155 -31.293,-55.151 -31.301,-55.135 -31.302,-55.124 -31.302,-55.124 -31.302,-55.124 -31.304,-55.124 -31.312,-55.121 -31.309,-55.113 -31.307,-55.108 -31.314,-55.101 -31.324,-55.08 -31.332,-55.073 -31.331,-55.056 -31.324,-55.06 -31.324,-55.06 -31.324,-55.06 -31.322,-55.056 -31.315,-55.059 -31.315,-55.059 -31.315,-55.059 -31.313,-55.052 -31.307,-55.046 -31.308,-55.042 -31.298,-55.036 -31.289,-55.031 -31.284,-55.034 -31.283,-55.034 -31.278,-55.03 -31.277,-55.032 -31.275,-55.035 -31.275,-55.035 -31.275,-55.035 -31.269,-55.03 -31.268,-55.023 -31.267,-55.019 -31.268,-55.014 -31.27,-55.007 -31.266,-55.006 -31.266,-55.006 -31.266,-55.006 -31.269,-55.001 -31.271,-55.001 -31.275,-55.0 -31.28,-54.999 -31.282,-54.999 -31.283,-54.996 -31.283,-54.993 -31.283,-54.993 -31.283,-54.993 -31.288,-54.994 -31.291,-54.99 -31.296,-54.981 -31.303,-54.979 -31.311,-54.981 -31.317,-54.977 -31.32,-54.967 -31.323,-54.958 -31.323,-54.958 -31.323,-54.958 -31.332,-54.952 -31.332,-54.952 -31.332,-54.952 -31.339,-54.952 -31.339,-54.952 -31.339,-54.952 -31.34,-54.955 -31.342,-54.959 -31.344,-54.959 -31.351,-54.959 -31.356,-54.934 -31.361,-54.935 -31.364,-54.935 -31.369,-54.933 -31.37,-54.936 -31.381,-54.939 -31.385,-54.931 -31.385,-54.93 -31.379,-54.92 -31.38,-54.914 -31.384,-54.903 -31.381,-54.897 -31.376,-54.898 -31.375,-54.89 -31.379,-54.885 -31.381,-54.883 -31.381,-54.883 -31.381,-54.883 -31.383,-54.886 -31.398,-54.877 -31.408,-54.856 -31.408,-54.856 -31.408,-54.856 -31.418,-54.86 -31.418,-54.856 -31.438,-54.838 -31.442,-54.835 -31.436,-54.826 -31.435,-54.819 -31.434,-54.81 -31.431,-54.806 -31.429,-54.804 -31.434,-54.788 -31.425,-54.759 -31.429,-54.723 -31.429,-54.723 -31.429,-54.723 -31.438,-54.718 -31.439,-54.709 -31.439,-54.702 -31.435,-54.7 -31.437,-54.696 -31.437,-54.696 -31.437,-54.696 -31.444,-54.694 -31.444,-54.683 -31.453,-54.669 -31.456,-54.585 -31.456,-54.585 -31.456,-54.585 -31.459,-54.587 -31.465,-54.58 -31.466,-54.579 -31.466,-54.579 -31.466,-54.579 -31.481,-54.574 -31.487,-54.559 -31.487,-54.559 -31.487,-54.559 -31.494,-54.556 -31.493,-54.554 -31.492,-54.552 -31.494,-54.55 -31.498,-54.546 -31.5,-54.539 -31.501,-54.531 -31.504,-54.526 -31.506,-54.523 -31.506,-54.523 -31.506,-54.523 -31.51,-54.523 -31.508,-54.519 -31.513,-54.513 -31.552,-54.49 -31.552,-54.49 -31.552,-54.49 -31.559,-54.493 -31.569,-54.48 -31.57,-54.477 -31.57,-54.473 -31.57,-54.473 -31.57,-54.473 -31.588,-54.469 -31.592,-54.468 -31.59,-54.465 -31.589,-54.463 -31.598,-54.454 -31.6,-54.452 -31.6,-54.452 -31.6,-54.452 -31.603,-54.452 -31.602,-54.457 -31.607,-54.456 -31.613,-54.466 -31.628,-54.459 -31.629,-54.456 -31.63,-54.453 -31.634,-54.453 -31.641,-54.451 -31.648,-54.452 -31.652,-54.453 -31.769,-54.296",
+      "polygon_points": 266,
+      "has_geocode": false,
+      "uf_hint": "RS",
+      "region": "S",
+      "geometry_wkt": "POLYGON ((-54.296 -31.769, -54.018 -31.234, -55.23 -30.59, -55.357 -31.039, -55.35 -31.037, -55.35 -31.037, -55.35 -31.037, -55.35 -31.037, -55.349 -31.04, -55.351 -31.053, -55.352 -31.057, -55.352 -31.057, -55.352 -31.057, -55.353 -31.058, -55.358 -31.067, -55.351 -31.07, -55.348 -31.067, -55.348 -31.068, -55.338 -31.085, -55.326 -31.088, -55.326 -31.088, -55.326 -31.088, -55.33 -31.095, -55.332 -31.099, -55.331 -31.105, -55.331 -31.106, -55.327 -31.11, -55.328 -31.111, -55.329 -31.116, -55.329 -31.116, -55.329 -31.116, -55.336 -31.119, -55.337 -31.129, -55.337 -31.133, -55.333 -31.132, -55.325 -31.137, -55.32 -31.135, -55.32 -31.135, -55.32 -31.135, -55.317 -31.145, -55.315 -31.145, -55.31 -31.147, -55.309 -31.145, -55.304 -31.141, -55.289 -31.143, -55.289 -31.143, -55.289 -31.143, -55.289 -31.15, -55.287 -31.152, -55.284 -31.156, -55.284 -31.156, -55.284 -31.156, -55.289 -31.159, -55.289 -31.163, -55.273 -31.17, -55.273 -31.17, -55.273 -31.17, -55.273 -31.17, -55.269 -31.176, -55.279 -31.182, -55.284 -31.185, -55.281 -31.193, -55.261 -31.194, -55.259 -31.196, -55.249 -31.205, -55.249 -31.205, -55.249 -31.205, -55.249 -31.206, -55.252 -31.211, -55.251 -31.212, -55.246 -31.216, -55.247 -31.248, -55.245 -31.252, -55.243 -31.252, -55.239 -31.253, -55.239 -31.26, -55.234 -31.258, -55.213 -31.261, -55.182 -31.265, -55.181 -31.267, -55.178 -31.27, -55.168 -31.269, -55.168 -31.269, -55.168 -31.269, -55.166 -31.273, -55.165 -31.274, -55.161 -31.279, -55.161 -31.279, -55.161 -31.279, -55.163 -31.279, -55.165 -31.28, -55.162 -31.285, -55.155 -31.285, -55.155 -31.285, -55.155 -31.285, -55.151 -31.293, -55.135 -31.301, -55.124 -31.302, -55.124 -31.302, -55.124 -31.302, -55.124 -31.304, -55.121 -31.312, -55.113 -31.309, -55.108 -31.307, -55.101 -31.314, -55.08 -31.324, -55.073 -31.332, -55.056 -31.331, -55.06 -31.324, -55.06 -31.324, -55.06 -31.324, -55.056 -31.322, -55.059 -31.315, -55.059 -31.315, -55.059 -31.315, -55.052 -31.313, -55.046 -31.307, -55.042 -31.308, -55.036 -31.298, -55.031 -31.289, -55.034 -31.284, -55.034 -31.283, -55.03 -31.278, -55.032 -31.277, -55.035 -31.275, -55.035 -31.275, -55.035 -31.275, -55.03 -31.269, -55.023 -31.268, -55.019 -31.267, -55.014 -31.268, -55.007 -31.27, -55.006 -31.266, -55.006 -31.266, -55.006 -31.266, -55.001 -31.269, -55.001 -31.271, -55 -31.275, -54.999 -31.28, -54.999 -31.282, -54.996 -31.283, -54.993 -31.283, -54.993 -31.283, -54.993 -31.283, -54.994 -31.288, -54.99 -31.291, -54.981 -31.296, -54.979 -31.303, -54.981 -31.311, -54.977 -31.317, -54.967 -31.32, -54.958 -31.323, -54.958 -31.323, -54.958 -31.323, -54.952 -31.332, -54.952 -31.332, -54.952 -31.332, -54.952 -31.339, -54.952 -31.339, -54.952 -31.339, -54.955 -31.34, -54.959 -31.342, -54.959 -31.344, -54.959 -31.351, -54.934 -31.356, -54.935 -31.361, -54.935 -31.364, -54.933 -31.369, -54.936 -31.37, -54.939 -31.381, -54.931 -31.385, -54.93 -31.385, -54.92 -31.379, -54.914 -31.38, -54.903 -31.384, -54.897 -31.381, -54.898 -31.376, -54.89 -31.375, -54.885 -31.379, -54.883 -31.381, -54.883 -31.381, -54.883 -31.381, -54.886 -31.383, -54.877 -31.398, -54.856 -31.408, -54.856 -31.408, -54.856 -31.408, -54.86 -31.418, -54.856 -31.418, -54.838 -31.438, -54.835 -31.442, -54.826 -31.436, -54.819 -31.435, -54.81 -31.434, -54.806 -31.431, -54.804 -31.429, -54.788 -31.434, -54.759 -31.425, -54.723 -31.429, -54.723 -31.429, -54.723 -31.429, -54.718 -31.438, -54.709 -31.439, -54.702 -31.439, -54.7 -31.435, -54.696 -31.437, -54.696 -31.437, -54.696 -31.437, -54.694 -31.444, -54.683 -31.444, -54.669 -31.453, -54.585 -31.456, -54.585 -31.456, -54.585 -31.456, -54.587 -31.459, -54.58 -31.465, -54.579 -31.466, -54.579 -31.466, -54.579 -31.466, -54.574 -31.481, -54.559 -31.487, -54.559 -31.487, -54.559 -31.487, -54.556 -31.494, -54.554 -31.493, -54.552 -31.492, -54.55 -31.494, -54.546 -31.498, -54.539 -31.5, -54.531 -31.501, -54.526 -31.504, -54.523 -31.506, -54.523 -31.506, -54.523 -31.506, -54.523 -31.51, -54.519 -31.508, -54.513 -31.513, -54.49 -31.552, -54.49 -31.552, -54.49 -31.552, -54.493 -31.559, -54.48 -31.569, -54.477 -31.57, -54.473 -31.57, -54.473 -31.57, -54.473 -31.57, -54.469 -31.588, -54.468 -31.592, -54.465 -31.59, -54.463 -31.589, -54.454 -31.598, -54.452 -31.6, -54.452 -31.6, -54.452 -31.6, -54.452 -31.603, -54.457 -31.602, -54.456 -31.607, -54.466 -31.613, -54.459 -31.628, -54.456 -31.629, -54.453 -31.63, -54.453 -31.634, -54.451 -31.641, -54.452 -31.648, -54.453 -31.652, -54.296 -31.769))",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "event_short": "Granizo",
+      "status_vigencia": "vigente",
+      "date": "01/08/2026",
+      "time": "07:35",
+      "sent_br": "2026-08-01T07:32:47-03:00",
+      "onset_br": "2026-08-01T07:35:00-03:00",
+      "expires_br": "2026-08-01T09:00:00-03:00",
+      "duration_minutes": 85,
+      "duration_hours": 1.42,
+      "duration_bucket": "Até 2h",
+      "time_since_minutes": 62,
+      "time_since_hours": 1.03,
+      "time_since_bucket": "1h a 3h",
+      "is_active": true
+    },
+    {
+      "identifier": "186299/2026",
+      "entry_id": "186299/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Nacional",
+      "sent": "2026-08-01T07:33:43-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "VENDAVAL",
+      "responseType": "Execute",
+      "urgency": "Expected",
+      "severity": "Moderate",
+      "certainty": "Possible",
+      "onset": "2026-08-01T07:33:43-03:00",
+      "expires": "2026-08-02T07:00:00-03:00",
+      "nivel": "Médio",
+      "headline": "Defesa Civil:MANGARATIBA/RJ - POSSIBILIDADE DE RAJADAS DE VENTO MODERADAS A FORTES PARA AS PROXIMAS 24 HORAS! EM CASO DE EMERGENCIA LIGUE: (21) 3030-2662/199.",
+      "description": "Ventos moderados/fortes.",
+      "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há leve risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda).\nObtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "Mangaratiba/RJ",
+      "polygon_raw": "-23.043,-44.136 -23.043,-44.136 -23.042,-44.136 -23.04,-44.136 -23.04,-44.137 -23.041,-44.138 -23.041,-44.138 -23.042,-44.139 -23.043,-44.139 -23.043,-44.139 -23.043,-44.138 -23.043,-44.138 -23.043,-44.137 -23.044,-44.137 -23.043,-44.136 -23.043,-44.136",
+      "polygon_points": 16,
+      "has_geocode": true,
+      "uf_hint": "RJ",
+      "region": "SE",
+      "geometry_wkt": "POLYGON ((-44.136 -23.043, -44.136 -23.043, -44.136 -23.042, -44.136 -23.04, -44.137 -23.04, -44.138 -23.041, -44.138 -23.041, -44.139 -23.042, -44.139 -23.043, -44.139 -23.043, -44.138 -23.043, -44.138 -23.043, -44.137 -23.043, -44.137 -23.044, -44.136 -23.043, -44.136 -23.043))",
+      "uf": "RJ",
+      "location": "Mangaratiba/RJ",
+      "event_short": "Vendaval",
+      "status_vigencia": "vigente",
+      "date": "01/08/2026",
+      "time": "07:33",
+      "sent_br": "2026-08-01T07:33:43-03:00",
+      "onset_br": "2026-08-01T07:33:43-03:00",
+      "expires_br": "2026-08-02T07:00:00-03:00",
+      "duration_minutes": 1406,
+      "duration_hours": 23.43,
+      "duration_bucket": "12h a 24h",
+      "time_since_minutes": 63,
+      "time_since_hours": 1.05,
+      "time_since_bucket": "1h a 3h",
+      "is_active": true
+    },
     {
       "identifier": "186297/2026",
       "entry_id": "186297/2026",
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
       "sent": "2026-08-01T07:01:34-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "TEMPESTADE LOCAL/CONVECTIVA - GRANIZO",
@@ -446,7 +592,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "event_short": "Granizo",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "01/08/2026",
       "time": "07:01",
       "sent_br": "2026-08-01T07:01:34-03:00",
@@ -455,10 +601,10 @@
       "duration_minutes": 88,
       "duration_hours": 1.47,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 11,
-      "time_since_hours": 0.18,
-      "time_since_bucket": "Até 1h",
-      "is_active": true
+      "time_since_minutes": 95,
+      "time_since_hours": 1.58,
+      "time_since_bucket": "1h a 3h",
+      "is_active": false
     },
     {
       "identifier": "186296/2026",
@@ -466,7 +612,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
       "sent": "2026-08-01T06:00:53-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "TEMPESTADE LOCAL/CONVECTIVA - GRANIZO",
@@ -493,7 +639,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "event_short": "Granizo",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "01/08/2026",
       "time": "06:00",
       "sent_br": "2026-08-01T06:00:53-03:00",
@@ -502,10 +648,10 @@
       "duration_minutes": 89,
       "duration_hours": 1.48,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 72,
-      "time_since_hours": 1.2,
+      "time_since_minutes": 156,
+      "time_since_hours": 2.6,
       "time_since_bucket": "1h a 3h",
-      "is_active": true
+      "is_active": false
     },
     {
       "identifier": "186295/2026",
@@ -549,9 +695,9 @@
       "duration_minutes": 1440,
       "duration_hours": 24.0,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 672,
-      "time_since_hours": 11.2,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 757,
+      "time_since_hours": 12.62,
+      "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
     {
@@ -596,9 +742,9 @@
       "duration_minutes": 1440,
       "duration_hours": 24.0,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 702,
-      "time_since_hours": 11.7,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 787,
+      "time_since_hours": 13.12,
+      "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
     {
@@ -607,7 +753,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Nacional",
       "sent": "2026-07-31T17:53:21-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -634,7 +780,7 @@
       "uf": "PE",
       "location": "Ipojuca/PE",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "31/07/2026",
       "time": "17:53",
       "sent_br": "2026-07-31T17:53:21-03:00",
@@ -643,10 +789,10 @@
       "duration_minutes": 846,
       "duration_hours": 14.1,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 799,
-      "time_since_hours": 13.32,
+      "time_since_minutes": 884,
+      "time_since_hours": 14.73,
       "time_since_bucket": "Mais de 12h",
-      "is_active": true
+      "is_active": false
     },
     {
       "identifier": "186292/2026",
@@ -690,8 +836,8 @@
       "duration_minutes": 110,
       "duration_hours": 1.83,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 933,
-      "time_since_hours": 15.55,
+      "time_since_minutes": 1017,
+      "time_since_hours": 16.95,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -737,8 +883,8 @@
       "duration_minutes": 113,
       "duration_hours": 1.88,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 936,
-      "time_since_hours": 15.6,
+      "time_since_minutes": 1020,
+      "time_since_hours": 17.0,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -784,8 +930,8 @@
       "duration_minutes": 165,
       "duration_hours": 2.75,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 988,
-      "time_since_hours": 16.47,
+      "time_since_minutes": 1073,
+      "time_since_hours": 17.88,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -831,8 +977,8 @@
       "duration_minutes": 2585,
       "duration_hours": 43.08,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 1038,
-      "time_since_hours": 17.3,
+      "time_since_minutes": 1123,
+      "time_since_hours": 18.72,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -878,8 +1024,8 @@
       "duration_minutes": 190,
       "duration_hours": 3.17,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1043,
-      "time_since_hours": 17.38,
+      "time_since_minutes": 1127,
+      "time_since_hours": 18.78,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -925,8 +1071,8 @@
       "duration_minutes": 192,
       "duration_hours": 3.2,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1045,
-      "time_since_hours": 17.42,
+      "time_since_minutes": 1129,
+      "time_since_hours": 18.82,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -972,8 +1118,8 @@
       "duration_minutes": 214,
       "duration_hours": 3.57,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1067,
-      "time_since_hours": 17.78,
+      "time_since_minutes": 1151,
+      "time_since_hours": 19.18,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1019,8 +1165,8 @@
       "duration_minutes": 218,
       "duration_hours": 3.63,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1071,
-      "time_since_hours": 17.85,
+      "time_since_minutes": 1155,
+      "time_since_hours": 19.25,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1066,8 +1212,8 @@
       "duration_minutes": 220,
       "duration_hours": 3.67,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1073,
-      "time_since_hours": 17.88,
+      "time_since_minutes": 1158,
+      "time_since_hours": 19.3,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1113,8 +1259,8 @@
       "duration_minutes": 4145,
       "duration_hours": 69.08,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 1098,
-      "time_since_hours": 18.3,
+      "time_since_minutes": 1182,
+      "time_since_hours": 19.7,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1160,8 +1306,8 @@
       "duration_minutes": 360,
       "duration_hours": 6.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1152,
-      "time_since_hours": 19.2,
+      "time_since_minutes": 1237,
+      "time_since_hours": 20.62,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1207,8 +1353,8 @@
       "duration_minutes": 546,
       "duration_hours": 9.1,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 1219,
-      "time_since_hours": 20.32,
+      "time_since_minutes": 1304,
+      "time_since_hours": 21.73,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1254,57 +1400,10 @@
       "duration_minutes": 1434,
       "duration_hours": 23.9,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1327,
-      "time_since_hours": 22.12,
+      "time_since_minutes": 1411,
+      "time_since_hours": 23.52,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
-    },
-    {
-      "identifier": "186279/2026",
-      "entry_id": "186279/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "sent": "2026-07-31T08:06:19-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "INUNDAÇÕES",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Extreme",
-      "certainty": "Observed",
-      "onset": "2026-07-31T08:06:19-03:00",
-      "expires": "2026-07-31T20:00:00-03:00",
-      "nivel": "Severo",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Taquari. Risco MUITO ALTO de Taquari a General Camara. Val. por 12h. Evite areas inundaveis. Emerg: 190/193.",
-      "description": "RS: Alerta VERMELHO: INUNDAÇÃO do rio Taquari. Risco MUITO ALTO de Taquari a General Câmara. Vál. por 12h. Evite áreas inundáveis. Emerg: 190/193.",
-      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 190 ou 193.",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "RIO GRANDE DO SUL/RS",
-      "polygon_raw": "-29.727,-51.921 -29.734,-51.921 -29.738,-51.892 -29.757,-51.892 -29.778,-51.892 -29.786,-51.879 -29.793,-51.859 -29.802,-51.841 -29.804,-51.83 -29.813,-51.819 -29.82,-51.806 -29.829,-51.789 -29.833,-51.777 -29.825,-51.756 -29.822,-51.743 -29.822,-51.721 -29.829,-51.702 -29.837,-51.692 -29.846,-51.684 -29.856,-51.684 -29.869,-51.686 -29.884,-51.69 -29.898,-51.696 -29.902,-51.714 -29.904,-51.724 -29.913,-51.737 -29.921,-51.755 -29.918,-51.782 -29.901,-51.798 -29.893,-51.81 -29.845,-51.873 -29.824,-51.89 -29.812,-51.919 -29.801,-51.925 -29.776,-51.935 -29.743,-51.977 -29.727,-51.921",
-      "polygon_points": 37,
-      "has_geocode": false,
-      "uf_hint": "RS",
-      "region": "S",
-      "geometry_wkt": "POLYGON ((-51.921 -29.727, -51.921 -29.734, -51.892 -29.738, -51.892 -29.757, -51.892 -29.778, -51.879 -29.786, -51.859 -29.793, -51.841 -29.802, -51.83 -29.804, -51.819 -29.813, -51.806 -29.82, -51.789 -29.829, -51.777 -29.833, -51.756 -29.825, -51.743 -29.822, -51.721 -29.822, -51.702 -29.829, -51.692 -29.837, -51.684 -29.846, -51.684 -29.856, -51.686 -29.869, -51.69 -29.884, -51.696 -29.898, -51.714 -29.902, -51.724 -29.904, -51.737 -29.913, -51.755 -29.921, -51.782 -29.918, -51.798 -29.901, -51.81 -29.893, -51.873 -29.845, -51.89 -29.824, -51.919 -29.812, -51.925 -29.801, -51.935 -29.776, -51.977 -29.743, -51.921 -29.727))",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "event_short": "Inundações",
-      "status_vigencia": "expirado",
-      "date": "31/07/2026",
-      "time": "08:06",
-      "sent_br": "2026-07-31T08:06:19-03:00",
-      "onset_br": "2026-07-31T08:06:19-03:00",
-      "expires_br": "2026-07-31T20:00:00-03:00",
-      "duration_minutes": 713,
-      "duration_hours": 11.88,
-      "duration_bucket": "6h a 12h",
-      "time_since_minutes": 1386,
-      "time_since_hours": 23.1,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false
     }
   ]
 }
