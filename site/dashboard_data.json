@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-01T12:31:02.029939-03:00",
-  "source_run_dir": "run_20260801_123039",
+  "generated_at": "2026-08-01T14:18:39.223598-03:00",
+  "source_run_dir": "run_20260801_141821",
   "cards": {
-    "vigentes": 11,
-    "ultimas24h": 24,
+    "vigentes": 10,
+    "ultimas24h": 18,
     "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "14:15",
+      "date": "01/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:14h14 Umidade do ar abaixo de 30 entre Ituverava e Santa Fe do Sul. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
+      "status": "vigente"
+    },
     {
       "time": "12:07",
       "date": "01/08/2026",
@@ -55,35 +67,23 @@
       "uf": "PI",
       "headline": "Defesa Civil:Alerta de Baixa Umidade do Ar para PIAUI/PI. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Em caso de emergencia",
       "status": "vigente"
-    },
-    {
-      "time": "11:04",
-      "date": "01/08/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "location": "Cachoeira do Sul/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Jacui. Risco MUITO ALTO em Cachoeira do Sul. Valido por 24h. Evite areas inundaveis. Emergencia: 190/193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
-    {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 7
-    },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
       "count": 6
     },
     {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 3
+    },
+    {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 5
+      "count": 3
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -109,11 +109,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 12
+      "count": 8
     },
     {
       "label": "Alto",
-      "count": 9
+      "count": 7
     },
     {
       "label": "Severo",
@@ -123,11 +123,11 @@
   "event_distribution": [
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 10
+      "count": 6
     },
     {
       "label": "Vendaval",
-      "count": 5
+      "count": 4
     },
     {
       "label": "Inundações",
@@ -140,23 +140,15 @@
     {
       "label": "Chuvas Intensas",
       "count": 2
-    },
-    {
-      "label": "Friagem",
-      "count": 1
     }
   ],
   "uf_distribution": [
-    {
-      "uf": "SP",
-      "count": 7
-    },
     {
       "uf": "RS",
       "count": 6
     },
     {
-      "uf": "RJ",
+      "uf": "SP",
       "count": 3
     },
     {
@@ -165,6 +157,10 @@
     },
     {
       "uf": "GO",
+      "count": 2
+    },
+    {
+      "uf": "RJ",
       "count": 2
     },
     {
@@ -178,23 +174,32 @@
     {
       "uf": "AM",
       "count": 1
-    },
-    {
-      "uf": "MG",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 11
+      "count": 10
     },
     {
       "label": "expirado",
-      "count": 13
+      "count": 8
     }
   ],
   "all_alerts": [
+    {
+      "date": "01/08/2026",
+      "time": "14:15",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:14h14 Umidade do ar abaixo de 30 entre Ituverava e Santa Fe do Sul. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
+      "status": "vigente",
+      "onset": "2026-08-01T14:15:35-03:00",
+      "expires": "2026-08-01T17:30:00-03:00"
+    },
     {
       "date": "01/08/2026",
       "time": "12:07",
@@ -415,112 +420,21 @@
       "status": "expirado",
       "onset": "2026-07-31T14:44:22-03:00",
       "expires": "2026-07-31T17:30:00-03:00"
-    },
-    {
-      "date": "31/07/2026",
-      "time": "13:54",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Maricá/RJ",
-      "headline": "Defesa Civil:Marica/RJ: Atencao a possibilidade de rajadas de vento fortes na tarde e na noite de sabado (01/08). Emergencia: 199 ou 966282699 (fone/whatsapp)",
-      "status": "vigente",
-      "onset": "2026-07-31T13:54:11-03:00",
-      "expires": "2026-08-02T09:00:00-03:00"
-    },
-    {
-      "date": "31/07/2026",
-      "time": "13:49",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 entre Itapira e E Santo do Pinhal. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-07-31T13:49:45-03:00",
-      "expires": "2026-07-31T17:00:00-03:00"
-    },
-    {
-      "date": "31/07/2026",
-      "time": "13:47",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 entre Campos do Jordao e Queluz. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-07-31T13:47:45-03:00",
-      "expires": "2026-07-31T17:00:00-03:00"
-    },
-    {
-      "date": "31/07/2026",
-      "time": "13:25",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 entre Ribeirao Preto e Pradopolis. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-07-31T13:25:31-03:00",
-      "expires": "2026-07-31T17:00:00-03:00"
-    },
-    {
-      "date": "31/07/2026",
-      "time": "13:21",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:13h Umidade do ar abaixo de 30 entre Barretos, Catanduva e Ariranha. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre",
-      "status": "expirado",
-      "onset": "2026-07-31T13:21:51-03:00",
-      "expires": "2026-07-31T17:00:00-03:00"
-    },
-    {
-      "date": "31/07/2026",
-      "time": "13:19",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 entre Ituverava e Franca. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-07-31T13:19:08-03:00",
-      "expires": "2026-07-31T17:00:00-03:00"
-    },
-    {
-      "date": "31/07/2026",
-      "time": "12:54",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Friagem",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Belo Horizonte/MG",
-      "headline": "Defesa Civil:Alerta de baixa temperatura em Belo Horizonte ate 10h de segunda-feira (3). Em torno de 12 graus nas primeiras horas do dia. Proteja-se!",
-      "status": "vigente",
-      "onset": "2026-07-31T12:54:42-03:00",
-      "expires": "2026-08-03T10:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 24,
+    "total_alerts": 18,
     "by_nivel": {
-      "Médio": 12,
-      "Alto": 9,
+      "Médio": 8,
+      "Alto": 7,
       "Severo": 3
     },
     "by_channel_list": {
-      "Google": 24
+      "Google": 18
     },
     "by_region": {
-      "SE": 11,
       "S": 8,
+      "SE": 5,
       "CO": 2,
       "NE": 2,
       "N": 1
