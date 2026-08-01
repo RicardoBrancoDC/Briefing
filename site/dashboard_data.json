@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-01T18:13:05.082658-03:00",
-  "source_run_dir": "run_20260801_181240",
+  "generated_at": "2026-08-01T20:14:52.491939-03:00",
+  "source_run_dir": "run_20260801_201434",
   "cards": {
-    "vigentes": 9,
-    "ultimas24h": 23,
+    "vigentes": 6,
+    "ultimas24h": 21,
     "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
@@ -71,14 +71,14 @@
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual do Rio Grande do Sul",
-      "short_name": "DC Rio Grande do Sul",
-      "count": 7
-    },
-    {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
       "count": 6
+    },
+    {
+      "name": "Defesa Civil Estadual do Rio Grande do Sul",
+      "short_name": "DC Rio Grande do Sul",
+      "count": 5
     },
     {
       "name": "Defesa Civil Nacional",
@@ -117,7 +117,7 @@
     },
     {
       "label": "Severo",
-      "count": 4
+      "count": 2
     }
   ],
   "event_distribution": [
@@ -130,12 +130,12 @@
       "count": 5
     },
     {
-      "label": "Inundações",
-      "count": 4
-    },
-    {
       "label": "Granizo",
       "count": 3
+    },
+    {
+      "label": "Inundações",
+      "count": 2
     },
     {
       "label": "Chuvas Intensas",
@@ -144,12 +144,12 @@
   ],
   "uf_distribution": [
     {
-      "uf": "RS",
-      "count": 7
-    },
-    {
       "uf": "SP",
       "count": 6
+    },
+    {
+      "uf": "RS",
+      "count": 5
     },
     {
       "uf": "SC",
@@ -179,11 +179,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 9
+      "count": 6
     },
     {
       "label": "expirado",
-      "count": 14
+      "count": 15
     }
   ],
   "all_alerts": [
@@ -365,7 +365,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Alerta de Baixa Umidade do Ar para PIAUI/PI. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Em caso de emergencia",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-01T11:27:00-03:00",
       "expires": "2026-08-01T20:00:00-03:00"
     },
@@ -459,46 +459,20 @@
       "status": "expirado",
       "onset": "2026-08-01T06:00:53-03:00",
       "expires": "2026-08-01T07:30:00-03:00"
-    },
-    {
-      "date": "31/07/2026",
-      "time": "20:00",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO p/ elevacao no Guaiba. Risco MUITO ALTO para inundacao nas Ilhas de POA. Val por 24h. Evite areas inundaveis. Emerg 190/193.",
-      "status": "vigente",
-      "onset": "2026-07-31T20:00:00-03:00",
-      "expires": "2026-08-01T20:00:00-03:00"
-    },
-    {
-      "date": "31/07/2026",
-      "time": "19:30",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO no rio dos Sinos. Risco MUITO ALTO em S Leopoldo e N Hamburgo. Val por 24h. Evite areas inundaveis. Emerg. 190/193.",
-      "status": "vigente",
-      "onset": "2026-07-31T19:30:00-03:00",
-      "expires": "2026-08-01T19:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 23,
+    "total_alerts": 21,
     "by_nivel": {
       "Médio": 11,
       "Alto": 8,
-      "Severo": 4
+      "Severo": 2
     },
     "by_channel_list": {
-      "Google": 23
+      "Google": 21
     },
     "by_region": {
-      "S": 10,
+      "S": 8,
       "SE": 8,
       "CO": 2,
       "NE": 2,
