@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-02T18:13:05.513477-03:00",
+  "generated_at": "2026-08-02T20:15:54.578886-03:00",
   "source": ".cache/historico_alertas.json",
   "window_hours": 24,
   "cards": {
-    "vigentes": 6,
+    "vigentes": 4,
     "ultimas24h": 20,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0,
@@ -343,11 +343,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 4
     },
     {
       "label": "expirado",
-      "count": 14
+      "count": 16
     }
   ],
   "category_distribution": [
@@ -377,19 +377,15 @@
   "time_since_distribution": [
     {
       "label": "3h a 6h",
-      "count": 12
+      "count": 8
+    },
+    {
+      "label": "6h a 12h",
+      "count": 8
     },
     {
       "label": "Mais de 12h",
       "count": 4
-    },
-    {
-      "label": "1h a 3h",
-      "count": 2
-    },
-    {
-      "label": "6h a 12h",
-      "count": 2
     }
   ],
   "channel_distribution": [
@@ -441,9 +437,9 @@
       "duration_minutes": 71,
       "duration_hours": 1.18,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 109,
-      "time_since_hours": 1.82,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 232,
+      "time_since_hours": 3.87,
+      "time_since_bucket": "3h a 6h",
       "is_active": false
     },
     {
@@ -488,9 +484,9 @@
       "duration_minutes": 1433,
       "duration_hours": 23.88,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 159,
-      "time_since_hours": 2.65,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 282,
+      "time_since_hours": 4.7,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -535,8 +531,8 @@
       "duration_minutes": 146,
       "duration_hours": 2.43,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 189,
-      "time_since_hours": 3.15,
+      "time_since_minutes": 311,
+      "time_since_hours": 5.18,
       "time_since_bucket": "3h a 6h",
       "is_active": false
     },
@@ -582,8 +578,8 @@
       "duration_minutes": 57,
       "duration_hours": 0.95,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 190,
-      "time_since_hours": 3.17,
+      "time_since_minutes": 313,
+      "time_since_hours": 5.22,
       "time_since_bucket": "3h a 6h",
       "is_active": false
     },
@@ -629,8 +625,8 @@
       "duration_minutes": 158,
       "duration_hours": 2.63,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 201,
-      "time_since_hours": 3.35,
+      "time_since_minutes": 323,
+      "time_since_hours": 5.38,
       "time_since_bucket": "3h a 6h",
       "is_active": false
     },
@@ -676,8 +672,8 @@
       "duration_minutes": 160,
       "duration_hours": 2.67,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 203,
-      "time_since_hours": 3.38,
+      "time_since_minutes": 326,
+      "time_since_hours": 5.43,
       "time_since_bucket": "3h a 6h",
       "is_active": false
     },
@@ -723,8 +719,8 @@
       "duration_minutes": 164,
       "duration_hours": 2.73,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 207,
-      "time_since_hours": 3.45,
+      "time_since_minutes": 330,
+      "time_since_hours": 5.5,
       "time_since_bucket": "3h a 6h",
       "is_active": false
     },
@@ -770,8 +766,8 @@
       "duration_minutes": 556,
       "duration_hours": 9.27,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 214,
-      "time_since_hours": 3.57,
+      "time_since_minutes": 337,
+      "time_since_hours": 5.62,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -817,9 +813,9 @@
       "duration_minutes": 208,
       "duration_hours": 3.47,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 251,
-      "time_since_hours": 4.18,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 374,
+      "time_since_hours": 6.23,
+      "time_since_bucket": "6h a 12h",
       "is_active": false
     },
     {
@@ -864,9 +860,9 @@
       "duration_minutes": 214,
       "duration_hours": 3.57,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 257,
-      "time_since_hours": 4.28,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 380,
+      "time_since_hours": 6.33,
+      "time_since_bucket": "6h a 12h",
       "is_active": false
     },
     {
@@ -911,9 +907,9 @@
       "duration_minutes": 217,
       "duration_hours": 3.62,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 260,
-      "time_since_hours": 4.33,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 383,
+      "time_since_hours": 6.38,
+      "time_since_bucket": "6h a 12h",
       "is_active": false
     },
     {
@@ -958,9 +954,9 @@
       "duration_minutes": 220,
       "duration_hours": 3.67,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 263,
-      "time_since_hours": 4.38,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 386,
+      "time_since_hours": 6.43,
+      "time_since_bucket": "6h a 12h",
       "is_active": false
     },
     {
@@ -969,7 +965,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Piauí",
       "sent": "2026-08-02T12:37:14-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -996,7 +992,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "02/08/2026",
       "time": "12:37",
       "sent_br": "2026-08-02T12:37:14-03:00",
@@ -1005,10 +1001,10 @@
       "duration_minutes": 442,
       "duration_hours": 7.37,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 335,
-      "time_since_hours": 5.58,
-      "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "time_since_minutes": 458,
+      "time_since_hours": 7.63,
+      "time_since_bucket": "6h a 12h",
+      "is_active": false
     },
     {
       "identifier": "186325/2026",
@@ -1016,7 +1012,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual de Goiás",
       "sent": "2026-08-02T09:36:21-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -1043,7 +1039,7 @@
       "uf": "GO",
       "location": "GOIÁS/GO",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "02/08/2026",
       "time": "12:30",
       "sent_br": "2026-08-02T09:36:21-03:00",
@@ -1052,10 +1048,10 @@
       "duration_minutes": 390,
       "duration_hours": 6.5,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 343,
-      "time_since_hours": 5.72,
-      "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "time_since_minutes": 465,
+      "time_since_hours": 7.75,
+      "time_since_bucket": "6h a 12h",
+      "is_active": false
     },
     {
       "identifier": "186324/2026",
@@ -1099,8 +1095,8 @@
       "duration_minutes": 1348,
       "duration_hours": 22.47,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 521,
-      "time_since_hours": 8.68,
+      "time_since_minutes": 644,
+      "time_since_hours": 10.73,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -1146,8 +1142,8 @@
       "duration_minutes": 1366,
       "duration_hours": 22.77,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 539,
-      "time_since_hours": 8.98,
+      "time_since_minutes": 662,
+      "time_since_hours": 11.03,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -1193,8 +1189,8 @@
       "duration_minutes": 176,
       "duration_hours": 2.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1215,
-      "time_since_hours": 20.25,
+      "time_since_minutes": 1337,
+      "time_since_hours": 22.28,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1240,8 +1236,8 @@
       "duration_minutes": 178,
       "duration_hours": 2.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1286,
-      "time_since_hours": 21.43,
+      "time_since_minutes": 1409,
+      "time_since_hours": 23.48,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1287,8 +1283,8 @@
       "duration_minutes": 175,
       "duration_hours": 2.92,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1293,
-      "time_since_hours": 21.55,
+      "time_since_minutes": 1416,
+      "time_since_hours": 23.6,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1334,8 +1330,8 @@
       "duration_minutes": 138,
       "duration_hours": 2.3,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1311,
-      "time_since_hours": 21.85,
+      "time_since_minutes": 1434,
+      "time_since_hours": 23.9,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     }
