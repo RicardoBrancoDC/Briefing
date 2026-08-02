@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-02T07:11:30.884313-03:00",
+  "generated_at": "2026-08-02T08:36:54.613522-03:00",
   "source": ".cache/historico_alertas.json",
   "window_hours": 24,
   "cards": {
     "vigentes": 3,
-    "ultimas24h": 23,
+    "ultimas24h": 20,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0,
     "alertasSeveros": 2,
     "alertasSeverosExtremos": 2,
     "estadosComAlerta": 9,
-    "municipiosOuAreasComAlerta": 15
+    "municipiosOuAreasComAlerta": 13
   },
   "latest_alerts": [
     {
@@ -253,21 +253,21 @@
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 5
-    },
-    {
-      "name": "Defesa Civil Nacional",
-      "short_name": "Defesa Civil Nacional",
-      "count": 3
-    },
-    {
-      "name": "Defesa Civil Estadual do Rio Grande do Sul",
-      "short_name": "DC Rio Grande do Sul",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil Nacional",
+      "short_name": "Defesa Civil Nacional",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual do Rio Grande do Sul",
+      "short_name": "DC Rio Grande do Sul",
       "count": 2
     },
     {
@@ -289,11 +289,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 14
+      "count": 12
     },
     {
       "label": "Alto",
-      "count": 7
+      "count": 6
     },
     {
       "label": "Severo",
@@ -311,15 +311,11 @@
     },
     {
       "label": "Vendaval",
-      "count": 5
+      "count": 3
     },
     {
       "label": "Inundações",
       "count": 2
-    },
-    {
-      "label": "Granizo",
-      "count": 1
     }
   ],
   "uf_distribution": [
@@ -329,22 +325,18 @@
     },
     {
       "uf": "SC",
-      "count": 5
-    },
-    {
-      "uf": "RS",
-      "count": 3
+      "count": 4
     },
     {
       "uf": "AM",
       "count": 2
     },
     {
-      "uf": "GO",
+      "uf": "RS",
       "count": 2
     },
     {
-      "uf": "RJ",
+      "uf": "GO",
       "count": 2
     },
     {
@@ -358,6 +350,10 @@
     {
       "uf": "PI",
       "count": 1
+    },
+    {
+      "uf": "RJ",
+      "count": 1
     }
   ],
   "status_distribution": [
@@ -367,27 +363,27 @@
     },
     {
       "label": "expirado",
-      "count": 20
+      "count": 17
     }
   ],
   "category_distribution": [
     {
       "label": "Met",
-      "count": 23
+      "count": 20
     }
   ],
   "duration_distribution": [
     {
       "label": "2h a 6h",
-      "count": 13
+      "count": 12
     },
     {
       "label": "12h a 24h",
-      "count": 4
+      "count": 3
     },
     {
       "label": "Até 2h",
-      "count": 4
+      "count": 3
     },
     {
       "label": "6h a 12h",
@@ -397,17 +393,17 @@
   "time_since_distribution": [
     {
       "label": "Mais de 12h",
-      "count": 19
+      "count": 17
     },
     {
       "label": "6h a 12h",
-      "count": 4
+      "count": 3
     }
   ],
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 23
+      "count": 20
     }
   ],
   "all_alerts": [
@@ -453,8 +449,8 @@
       "duration_minutes": 176,
       "duration_hours": 2.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 553,
-      "time_since_hours": 9.22,
+      "time_since_minutes": 638,
+      "time_since_hours": 10.63,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -500,8 +496,8 @@
       "duration_minutes": 178,
       "duration_hours": 2.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 625,
-      "time_since_hours": 10.42,
+      "time_since_minutes": 710,
+      "time_since_hours": 11.83,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -547,8 +543,8 @@
       "duration_minutes": 175,
       "duration_hours": 2.92,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 631,
-      "time_since_hours": 10.52,
+      "time_since_minutes": 717,
+      "time_since_hours": 11.95,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -594,9 +590,9 @@
       "duration_minutes": 138,
       "duration_hours": 2.3,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 650,
-      "time_since_hours": 10.83,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 735,
+      "time_since_hours": 12.25,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -641,8 +637,8 @@
       "duration_minutes": 720,
       "duration_hours": 12.0,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 791,
-      "time_since_hours": 13.18,
+      "time_since_minutes": 876,
+      "time_since_hours": 14.6,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -688,8 +684,8 @@
       "duration_minutes": 1437,
       "duration_hours": 23.95,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 849,
-      "time_since_hours": 14.15,
+      "time_since_minutes": 934,
+      "time_since_hours": 15.57,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -735,8 +731,8 @@
       "duration_minutes": 73,
       "duration_hours": 1.22,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 865,
-      "time_since_hours": 14.42,
+      "time_since_minutes": 950,
+      "time_since_hours": 15.83,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -782,8 +778,8 @@
       "duration_minutes": 78,
       "duration_hours": 1.3,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 870,
-      "time_since_hours": 14.5,
+      "time_since_minutes": 955,
+      "time_since_hours": 15.92,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -829,8 +825,8 @@
       "duration_minutes": 241,
       "duration_hours": 4.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 893,
-      "time_since_hours": 14.88,
+      "time_since_minutes": 978,
+      "time_since_hours": 16.3,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -876,8 +872,8 @@
       "duration_minutes": 114,
       "duration_hours": 1.9,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 901,
-      "time_since_hours": 15.02,
+      "time_since_minutes": 986,
+      "time_since_hours": 16.43,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -923,8 +919,8 @@
       "duration_minutes": 160,
       "duration_hours": 2.67,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 952,
-      "time_since_hours": 15.87,
+      "time_since_minutes": 1037,
+      "time_since_hours": 17.28,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -970,8 +966,8 @@
       "duration_minutes": 135,
       "duration_hours": 2.25,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 956,
-      "time_since_hours": 15.93,
+      "time_since_minutes": 1042,
+      "time_since_hours": 17.37,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1017,8 +1013,8 @@
       "duration_minutes": 164,
       "duration_hours": 2.73,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 996,
-      "time_since_hours": 16.6,
+      "time_since_minutes": 1081,
+      "time_since_hours": 18.02,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1064,8 +1060,8 @@
       "duration_minutes": 194,
       "duration_hours": 3.23,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1015,
-      "time_since_hours": 16.92,
+      "time_since_minutes": 1101,
+      "time_since_hours": 18.35,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1111,8 +1107,8 @@
       "duration_minutes": 237,
       "duration_hours": 3.95,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1143,
-      "time_since_hours": 19.05,
+      "time_since_minutes": 1229,
+      "time_since_hours": 20.48,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1158,8 +1154,8 @@
       "duration_minutes": 360,
       "duration_hours": 6.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1151,
-      "time_since_hours": 19.18,
+      "time_since_minutes": 1236,
+      "time_since_hours": 20.6,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1205,8 +1201,8 @@
       "duration_minutes": 360,
       "duration_hours": 6.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1151,
-      "time_since_hours": 19.18,
+      "time_since_minutes": 1236,
+      "time_since_hours": 20.6,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1252,8 +1248,8 @@
       "duration_minutes": 513,
       "duration_hours": 8.55,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 1184,
-      "time_since_hours": 19.73,
+      "time_since_minutes": 1269,
+      "time_since_hours": 21.15,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1299,8 +1295,8 @@
       "duration_minutes": 1436,
       "duration_hours": 23.93,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1207,
-      "time_since_hours": 20.12,
+      "time_since_minutes": 1292,
+      "time_since_hours": 21.53,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1346,151 +1342,10 @@
       "duration_minutes": 1397,
       "duration_hours": 23.28,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1308,
-      "time_since_hours": 21.8,
+      "time_since_minutes": 1393,
+      "time_since_hours": 23.22,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
-    },
-    {
-      "identifier": "186300/2026",
-      "entry_id": "186300/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "sent": "2026-08-01T08:27:53-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "VENDAVAL",
-      "responseType": "Execute",
-      "urgency": "Immediate",
-      "severity": "Moderate",
-      "certainty": "Observed",
-      "onset": "2026-08-01T08:27:53-03:00",
-      "expires": "2026-08-01T12:25:00-03:00",
-      "nivel": "Médio",
-      "headline": null,
-      "description": "OBSERVAÇÃO - 01/08 08:10 - RAJADAS DE VENTO de quadrante norte/nordeste, com intensidade MODERADA (45 a 65 km/h), para as regiões do Extremo Oeste, Oeste, Meio-Oeste, Planalto Norte, Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "SANTA CATARINA/SC",
-      "polygon_raw": "-28.611,-48.821 -28.611,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.61,-48.823 -28.61,-48.823 -28.61,-48.823 -28.61,-48.823 -28.61,-48.822 -28.61,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821",
-      "polygon_points": 5,
-      "has_geocode": false,
-      "uf_hint": "SC",
-      "region": "S",
-      "geometry_wkt": "MULTIPOLYGON (((-48.822 -28.61, -48.821 -28.61, -48.821 -28.611, -48.822 -28.611, -48.822 -28.61)), ((-48.822 -28.61, -48.823 -28.61, -48.822 -28.609, -48.822 -28.61)))",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "event_short": "Vendaval",
-      "status_vigencia": "expirado",
-      "date": "01/08/2026",
-      "time": "08:27",
-      "sent_br": "2026-08-01T08:27:53-03:00",
-      "onset_br": "2026-08-01T08:27:53-03:00",
-      "expires_br": "2026-08-01T12:25:00-03:00",
-      "duration_minutes": 237,
-      "duration_hours": 3.95,
-      "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1363,
-      "time_since_hours": 22.72,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false
-    },
-    {
-      "identifier": "186298/2026",
-      "entry_id": "186298/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "sent": "2026-08-01T07:32:47-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "TEMPESTADE LOCAL/CONVECTIVA - GRANIZO",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Severe",
-      "certainty": "Likely",
-      "onset": "2026-08-01T07:35:00-03:00",
-      "expires": "2026-08-01T09:00:00-03:00",
-      "nivel": "Alto",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 09h00. Mantenha-se seguro.",
-      "description": "RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 09h00. Mantenha-se seguro. Emerg. 190/193",
-      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 190 ou 193.",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "RIO GRANDE DO SUL/RS",
-      "polygon_raw": "-31.769,-54.296 -31.234,-54.018 -30.59,-55.23 -31.039,-55.357 -31.037,-55.35 -31.037,-55.35 -31.037,-55.35 -31.037,-55.35 -31.04,-55.349 -31.053,-55.351 -31.057,-55.352 -31.057,-55.352 -31.057,-55.352 -31.058,-55.353 -31.067,-55.358 -31.07,-55.351 -31.067,-55.348 -31.068,-55.348 -31.085,-55.338 -31.088,-55.326 -31.088,-55.326 -31.088,-55.326 -31.095,-55.33 -31.099,-55.332 -31.105,-55.331 -31.106,-55.331 -31.11,-55.327 -31.111,-55.328 -31.116,-55.329 -31.116,-55.329 -31.116,-55.329 -31.119,-55.336 -31.129,-55.337 -31.133,-55.337 -31.132,-55.333 -31.137,-55.325 -31.135,-55.32 -31.135,-55.32 -31.135,-55.32 -31.145,-55.317 -31.145,-55.315 -31.147,-55.31 -31.145,-55.309 -31.141,-55.304 -31.143,-55.289 -31.143,-55.289 -31.143,-55.289 -31.15,-55.289 -31.152,-55.287 -31.156,-55.284 -31.156,-55.284 -31.156,-55.284 -31.159,-55.289 -31.163,-55.289 -31.17,-55.273 -31.17,-55.273 -31.17,-55.273 -31.17,-55.273 -31.176,-55.269 -31.182,-55.279 -31.185,-55.284 -31.193,-55.281 -31.194,-55.261 -31.196,-55.259 -31.205,-55.249 -31.205,-55.249 -31.205,-55.249 -31.206,-55.249 -31.211,-55.252 -31.212,-55.251 -31.216,-55.246 -31.248,-55.247 -31.252,-55.245 -31.252,-55.243 -31.253,-55.239 -31.26,-55.239 -31.258,-55.234 -31.261,-55.213 -31.265,-55.182 -31.267,-55.181 -31.27,-55.178 -31.269,-55.168 -31.269,-55.168 -31.269,-55.168 -31.273,-55.166 -31.274,-55.165 -31.279,-55.161 -31.279,-55.161 -31.279,-55.161 -31.279,-55.163 -31.28,-55.165 -31.285,-55.162 -31.285,-55.155 -31.285,-55.155 -31.285,-55.155 -31.293,-55.151 -31.301,-55.135 -31.302,-55.124 -31.302,-55.124 -31.302,-55.124 -31.304,-55.124 -31.312,-55.121 -31.309,-55.113 -31.307,-55.108 -31.314,-55.101 -31.324,-55.08 -31.332,-55.073 -31.331,-55.056 -31.324,-55.06 -31.324,-55.06 -31.324,-55.06 -31.322,-55.056 -31.315,-55.059 -31.315,-55.059 -31.315,-55.059 -31.313,-55.052 -31.307,-55.046 -31.308,-55.042 -31.298,-55.036 -31.289,-55.031 -31.284,-55.034 -31.283,-55.034 -31.278,-55.03 -31.277,-55.032 -31.275,-55.035 -31.275,-55.035 -31.275,-55.035 -31.269,-55.03 -31.268,-55.023 -31.267,-55.019 -31.268,-55.014 -31.27,-55.007 -31.266,-55.006 -31.266,-55.006 -31.266,-55.006 -31.269,-55.001 -31.271,-55.001 -31.275,-55.0 -31.28,-54.999 -31.282,-54.999 -31.283,-54.996 -31.283,-54.993 -31.283,-54.993 -31.283,-54.993 -31.288,-54.994 -31.291,-54.99 -31.296,-54.981 -31.303,-54.979 -31.311,-54.981 -31.317,-54.977 -31.32,-54.967 -31.323,-54.958 -31.323,-54.958 -31.323,-54.958 -31.332,-54.952 -31.332,-54.952 -31.332,-54.952 -31.339,-54.952 -31.339,-54.952 -31.339,-54.952 -31.34,-54.955 -31.342,-54.959 -31.344,-54.959 -31.351,-54.959 -31.356,-54.934 -31.361,-54.935 -31.364,-54.935 -31.369,-54.933 -31.37,-54.936 -31.381,-54.939 -31.385,-54.931 -31.385,-54.93 -31.379,-54.92 -31.38,-54.914 -31.384,-54.903 -31.381,-54.897 -31.376,-54.898 -31.375,-54.89 -31.379,-54.885 -31.381,-54.883 -31.381,-54.883 -31.381,-54.883 -31.383,-54.886 -31.398,-54.877 -31.408,-54.856 -31.408,-54.856 -31.408,-54.856 -31.418,-54.86 -31.418,-54.856 -31.438,-54.838 -31.442,-54.835 -31.436,-54.826 -31.435,-54.819 -31.434,-54.81 -31.431,-54.806 -31.429,-54.804 -31.434,-54.788 -31.425,-54.759 -31.429,-54.723 -31.429,-54.723 -31.429,-54.723 -31.438,-54.718 -31.439,-54.709 -31.439,-54.702 -31.435,-54.7 -31.437,-54.696 -31.437,-54.696 -31.437,-54.696 -31.444,-54.694 -31.444,-54.683 -31.453,-54.669 -31.456,-54.585 -31.456,-54.585 -31.456,-54.585 -31.459,-54.587 -31.465,-54.58 -31.466,-54.579 -31.466,-54.579 -31.466,-54.579 -31.481,-54.574 -31.487,-54.559 -31.487,-54.559 -31.487,-54.559 -31.494,-54.556 -31.493,-54.554 -31.492,-54.552 -31.494,-54.55 -31.498,-54.546 -31.5,-54.539 -31.501,-54.531 -31.504,-54.526 -31.506,-54.523 -31.506,-54.523 -31.506,-54.523 -31.51,-54.523 -31.508,-54.519 -31.513,-54.513 -31.552,-54.49 -31.552,-54.49 -31.552,-54.49 -31.559,-54.493 -31.569,-54.48 -31.57,-54.477 -31.57,-54.473 -31.57,-54.473 -31.57,-54.473 -31.588,-54.469 -31.592,-54.468 -31.59,-54.465 -31.589,-54.463 -31.598,-54.454 -31.6,-54.452 -31.6,-54.452 -31.6,-54.452 -31.603,-54.452 -31.602,-54.457 -31.607,-54.456 -31.613,-54.466 -31.628,-54.459 -31.629,-54.456 -31.63,-54.453 -31.634,-54.453 -31.641,-54.451 -31.648,-54.452 -31.652,-54.453 -31.769,-54.296",
-      "polygon_points": 266,
-      "has_geocode": false,
-      "uf_hint": "RS",
-      "region": "S",
-      "geometry_wkt": "POLYGON ((-54.296 -31.769, -54.018 -31.234, -55.23 -30.59, -55.357 -31.039, -55.35 -31.037, -55.35 -31.037, -55.35 -31.037, -55.35 -31.037, -55.349 -31.04, -55.351 -31.053, -55.352 -31.057, -55.352 -31.057, -55.352 -31.057, -55.353 -31.058, -55.358 -31.067, -55.351 -31.07, -55.348 -31.067, -55.348 -31.068, -55.338 -31.085, -55.326 -31.088, -55.326 -31.088, -55.326 -31.088, -55.33 -31.095, -55.332 -31.099, -55.331 -31.105, -55.331 -31.106, -55.327 -31.11, -55.328 -31.111, -55.329 -31.116, -55.329 -31.116, -55.329 -31.116, -55.336 -31.119, -55.337 -31.129, -55.337 -31.133, -55.333 -31.132, -55.325 -31.137, -55.32 -31.135, -55.32 -31.135, -55.32 -31.135, -55.317 -31.145, -55.315 -31.145, -55.31 -31.147, -55.309 -31.145, -55.304 -31.141, -55.289 -31.143, -55.289 -31.143, -55.289 -31.143, -55.289 -31.15, -55.287 -31.152, -55.284 -31.156, -55.284 -31.156, -55.284 -31.156, -55.289 -31.159, -55.289 -31.163, -55.273 -31.17, -55.273 -31.17, -55.273 -31.17, -55.273 -31.17, -55.269 -31.176, -55.279 -31.182, -55.284 -31.185, -55.281 -31.193, -55.261 -31.194, -55.259 -31.196, -55.249 -31.205, -55.249 -31.205, -55.249 -31.205, -55.249 -31.206, -55.252 -31.211, -55.251 -31.212, -55.246 -31.216, -55.247 -31.248, -55.245 -31.252, -55.243 -31.252, -55.239 -31.253, -55.239 -31.26, -55.234 -31.258, -55.213 -31.261, -55.182 -31.265, -55.181 -31.267, -55.178 -31.27, -55.168 -31.269, -55.168 -31.269, -55.168 -31.269, -55.166 -31.273, -55.165 -31.274, -55.161 -31.279, -55.161 -31.279, -55.161 -31.279, -55.163 -31.279, -55.165 -31.28, -55.162 -31.285, -55.155 -31.285, -55.155 -31.285, -55.155 -31.285, -55.151 -31.293, -55.135 -31.301, -55.124 -31.302, -55.124 -31.302, -55.124 -31.302, -55.124 -31.304, -55.121 -31.312, -55.113 -31.309, -55.108 -31.307, -55.101 -31.314, -55.08 -31.324, -55.073 -31.332, -55.056 -31.331, -55.06 -31.324, -55.06 -31.324, -55.06 -31.324, -55.056 -31.322, -55.059 -31.315, -55.059 -31.315, -55.059 -31.315, -55.052 -31.313, -55.046 -31.307, -55.042 -31.308, -55.036 -31.298, -55.031 -31.289, -55.034 -31.284, -55.034 -31.283, -55.03 -31.278, -55.032 -31.277, -55.035 -31.275, -55.035 -31.275, -55.035 -31.275, -55.03 -31.269, -55.023 -31.268, -55.019 -31.267, -55.014 -31.268, -55.007 -31.27, -55.006 -31.266, -55.006 -31.266, -55.006 -31.266, -55.001 -31.269, -55.001 -31.271, -55 -31.275, -54.999 -31.28, -54.999 -31.282, -54.996 -31.283, -54.993 -31.283, -54.993 -31.283, -54.993 -31.283, -54.994 -31.288, -54.99 -31.291, -54.981 -31.296, -54.979 -31.303, -54.981 -31.311, -54.977 -31.317, -54.967 -31.32, -54.958 -31.323, -54.958 -31.323, -54.958 -31.323, -54.952 -31.332, -54.952 -31.332, -54.952 -31.332, -54.952 -31.339, -54.952 -31.339, -54.952 -31.339, -54.955 -31.34, -54.959 -31.342, -54.959 -31.344, -54.959 -31.351, -54.934 -31.356, -54.935 -31.361, -54.935 -31.364, -54.933 -31.369, -54.936 -31.37, -54.939 -31.381, -54.931 -31.385, -54.93 -31.385, -54.92 -31.379, -54.914 -31.38, -54.903 -31.384, -54.897 -31.381, -54.898 -31.376, -54.89 -31.375, -54.885 -31.379, -54.883 -31.381, -54.883 -31.381, -54.883 -31.381, -54.886 -31.383, -54.877 -31.398, -54.856 -31.408, -54.856 -31.408, -54.856 -31.408, -54.86 -31.418, -54.856 -31.418, -54.838 -31.438, -54.835 -31.442, -54.826 -31.436, -54.819 -31.435, -54.81 -31.434, -54.806 -31.431, -54.804 -31.429, -54.788 -31.434, -54.759 -31.425, -54.723 -31.429, -54.723 -31.429, -54.723 -31.429, -54.718 -31.438, -54.709 -31.439, -54.702 -31.439, -54.7 -31.435, -54.696 -31.437, -54.696 -31.437, -54.696 -31.437, -54.694 -31.444, -54.683 -31.444, -54.669 -31.453, -54.585 -31.456, -54.585 -31.456, -54.585 -31.456, -54.587 -31.459, -54.58 -31.465, -54.579 -31.466, -54.579 -31.466, -54.579 -31.466, -54.574 -31.481, -54.559 -31.487, -54.559 -31.487, -54.559 -31.487, -54.556 -31.494, -54.554 -31.493, -54.552 -31.492, -54.55 -31.494, -54.546 -31.498, -54.539 -31.5, -54.531 -31.501, -54.526 -31.504, -54.523 -31.506, -54.523 -31.506, -54.523 -31.506, -54.523 -31.51, -54.519 -31.508, -54.513 -31.513, -54.49 -31.552, -54.49 -31.552, -54.49 -31.552, -54.493 -31.559, -54.48 -31.569, -54.477 -31.57, -54.473 -31.57, -54.473 -31.57, -54.473 -31.57, -54.469 -31.588, -54.468 -31.592, -54.465 -31.59, -54.463 -31.589, -54.454 -31.598, -54.452 -31.6, -54.452 -31.6, -54.452 -31.6, -54.452 -31.603, -54.457 -31.602, -54.456 -31.607, -54.466 -31.613, -54.459 -31.628, -54.456 -31.629, -54.453 -31.63, -54.453 -31.634, -54.451 -31.641, -54.452 -31.648, -54.453 -31.652, -54.296 -31.769))",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "event_short": "Granizo",
-      "status_vigencia": "expirado",
-      "date": "01/08/2026",
-      "time": "07:35",
-      "sent_br": "2026-08-01T07:32:47-03:00",
-      "onset_br": "2026-08-01T07:35:00-03:00",
-      "expires_br": "2026-08-01T09:00:00-03:00",
-      "duration_minutes": 85,
-      "duration_hours": 1.42,
-      "duration_bucket": "Até 2h",
-      "time_since_minutes": 1416,
-      "time_since_hours": 23.6,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false
-    },
-    {
-      "identifier": "186299/2026",
-      "entry_id": "186299/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Nacional",
-      "sent": "2026-08-01T07:33:43-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "VENDAVAL",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Moderate",
-      "certainty": "Possible",
-      "onset": "2026-08-01T07:33:43-03:00",
-      "expires": "2026-08-02T07:00:00-03:00",
-      "nivel": "Médio",
-      "headline": "Defesa Civil:MANGARATIBA/RJ - POSSIBILIDADE DE RAJADAS DE VENTO MODERADAS A FORTES PARA AS PROXIMAS 24 HORAS! EM CASO DE EMERGENCIA LIGUE: (21) 3030-2662/199.",
-      "description": "Ventos moderados/fortes.",
-      "instruction": "Em caso de rajadas de vento: (não se abrigue debaixo de árvores, pois há leve risco de queda e descargas elétricas e não estacione veículos próximos a torres de transmissão e placas de propaganda).\nObtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "Mangaratiba/RJ",
-      "polygon_raw": "-23.043,-44.136 -23.043,-44.136 -23.042,-44.136 -23.04,-44.136 -23.04,-44.137 -23.041,-44.138 -23.041,-44.138 -23.042,-44.139 -23.043,-44.139 -23.043,-44.139 -23.043,-44.138 -23.043,-44.138 -23.043,-44.137 -23.044,-44.137 -23.043,-44.136 -23.043,-44.136",
-      "polygon_points": 16,
-      "has_geocode": true,
-      "uf_hint": "RJ",
-      "region": "SE",
-      "geometry_wkt": "POLYGON ((-44.136 -23.043, -44.136 -23.043, -44.136 -23.042, -44.136 -23.04, -44.137 -23.04, -44.138 -23.041, -44.138 -23.041, -44.139 -23.042, -44.139 -23.043, -44.139 -23.043, -44.138 -23.043, -44.138 -23.043, -44.137 -23.043, -44.137 -23.044, -44.136 -23.043, -44.136 -23.043))",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "event_short": "Vendaval",
-      "status_vigencia": "expirado",
-      "date": "01/08/2026",
-      "time": "07:33",
-      "sent_br": "2026-08-01T07:33:43-03:00",
-      "onset_br": "2026-08-01T07:33:43-03:00",
-      "expires_br": "2026-08-02T07:00:00-03:00",
-      "duration_minutes": 1406,
-      "duration_hours": 23.43,
-      "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1417,
-      "time_since_hours": 23.62,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false
     }
   ]
 }
