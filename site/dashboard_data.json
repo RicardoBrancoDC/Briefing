@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-02T03:48:10.652792-03:00",
-  "source_run_dir": "run_20260802_034800",
+  "generated_at": "2026-08-02T07:11:30.817754-03:00",
+  "source_run_dir": "run_20260802_071118",
   "cards": {
-    "vigentes": 5,
-    "ultimas24h": 25,
+    "vigentes": 3,
+    "ultimas24h": 23,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
@@ -66,7 +66,7 @@
       "location": "Ipojuca/PE",
       "uf": "PE",
       "headline": "Defesa Civil:Alerta para perigo de vendaval,a populacao deve ficar em alerta. Ao menor sinal de perigo acione a defesa civil. 0800-281-0620.Plantao 24 horas.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -81,13 +81,13 @@
       "count": 5
     },
     {
-      "name": "Defesa Civil Estadual do Rio Grande do Sul",
-      "short_name": "DC Rio Grande do Sul",
-      "count": 5
-    },
-    {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
+      "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual do Rio Grande do Sul",
+      "short_name": "DC Rio Grande do Sul",
       "count": 3
     },
     {
@@ -118,7 +118,7 @@
     },
     {
       "label": "Alto",
-      "count": 9
+      "count": 7
     },
     {
       "label": "Severo",
@@ -139,12 +139,12 @@
       "count": 5
     },
     {
-      "label": "Granizo",
-      "count": 3
-    },
-    {
       "label": "Inundações",
       "count": 2
+    },
+    {
+      "label": "Granizo",
+      "count": 1
     }
   ],
   "uf_distribution": [
@@ -158,7 +158,7 @@
     },
     {
       "uf": "RS",
-      "count": 5
+      "count": 3
     },
     {
       "uf": "AM",
@@ -188,7 +188,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 3
     },
     {
       "label": "expirado",
@@ -257,7 +257,7 @@
       "uf": "PE",
       "location": "Ipojuca/PE",
       "headline": "Defesa Civil:Alerta para perigo de vendaval,a populacao deve ficar em alerta. Ao menor sinal de perigo acione a defesa civil. 0800-281-0620.Plantao 24 horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-01T18:00:00-03:00",
       "expires": "2026-08-02T06:00:00-03:00"
     },
@@ -491,49 +491,23 @@
       "uf": "RJ",
       "location": "Mangaratiba/RJ",
       "headline": "Defesa Civil:MANGARATIBA/RJ - POSSIBILIDADE DE RAJADAS DE VENTO MODERADAS A FORTES PARA AS PROXIMAS 24 HORAS! EM CASO DE EMERGENCIA LIGUE: (21) 3030-2662/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-01T07:33:43-03:00",
       "expires": "2026-08-02T07:00:00-03:00"
-    },
-    {
-      "date": "01/08/2026",
-      "time": "07:01",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 08h30. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-08-01T07:01:34-03:00",
-      "expires": "2026-08-01T08:30:00-03:00"
-    },
-    {
-      "date": "01/08/2026",
-      "time": "06:00",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 07h30. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-08-01T06:00:53-03:00",
-      "expires": "2026-08-01T07:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 25,
+    "total_alerts": 23,
     "by_nivel": {
       "Médio": 14,
-      "Alto": 9,
+      "Alto": 7,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 25
+      "Google": 23
     },
     "by_region": {
-      "S": 11,
+      "S": 9,
       "SE": 8,
       "CO": 2,
       "N": 2,
