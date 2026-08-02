@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-08-01T20:14:52.491939-03:00",
-  "source_run_dir": "run_20260801_201434",
+  "generated_at": "2026-08-02T00:57:10.130993-03:00",
+  "source_run_dir": "run_20260802_005648",
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 21,
-    "autoridadesAtivas": 7,
+    "vigentes": 5,
+    "ultimas24h": 25,
+    "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "21:58",
+      "date": "01/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 01/08 21:55 - CHUVA PERSISTENTE de intensidade moderada a forte com ALAGAMENTOS pontuais para as regiões do Oeste, Meio-Oeste e Planalto Sul nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
+      "status": "expirado"
+    },
+    {
+      "time": "20:46",
+      "date": "01/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "Defesa Civil:ATENCAO - 01/08 20:42 - CHUVA PERSISTENTE forte e isolada com ALAGAMENTOS, RAIOS e RAJADAS DE VENTO nas proximas 3 horas Ocorrencias ligue 199/193",
+      "status": "expirado"
+    },
+    {
+      "time": "20:39",
+      "date": "01/08/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "expirado"
+    },
+    {
+      "time": "20:21",
+      "date": "01/08/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "São Paulo de Olivença/AM, Carauari/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "expirado"
+    },
     {
       "time": "18:00",
       "date": "01/08/2026",
@@ -19,54 +67,6 @@
       "uf": "PE",
       "headline": "Defesa Civil:Alerta para perigo de vendaval,a populacao deve ficar em alerta. Ao menor sinal de perigo acione a defesa civil. 0800-281-0620.Plantao 24 horas.",
       "status": "vigente"
-    },
-    {
-      "time": "17:02",
-      "date": "01/08/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "location": "São Borja/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Uruguai. Risco MUITO ALTO para Sao Borja. Valido por 24h. Evite areas inundaveis. Emergencia: 190/193.",
-      "status": "vigente"
-    },
-    {
-      "time": "16:46",
-      "date": "01/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:16h45 Umidade do ar abaixo de 30 entre Tupa e Rancharia. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado"
-    },
-    {
-      "time": "16:41",
-      "date": "01/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:16h40 Umidade do ar abaixo de 30 em Areias. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado"
-    },
-    {
-      "time": "16:18",
-      "date": "01/08/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:ATENCAO - 01/08 16:12 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS na sua regiao. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -74,6 +74,11 @@
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
       "count": 6
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
@@ -86,9 +91,9 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 3
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual de Goiás",
@@ -96,8 +101,8 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
       "count": 1
     },
     {
@@ -109,11 +114,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 11
+      "count": 14
     },
     {
       "label": "Alto",
-      "count": 8
+      "count": 9
     },
     {
       "label": "Severo",
@@ -126,6 +131,10 @@
       "count": 9
     },
     {
+      "label": "Chuvas Intensas",
+      "count": 6
+    },
+    {
       "label": "Vendaval",
       "count": 5
     },
@@ -136,10 +145,6 @@
     {
       "label": "Inundações",
       "count": 2
-    },
-    {
-      "label": "Chuvas Intensas",
-      "count": 2
     }
   ],
   "uf_distribution": [
@@ -148,12 +153,16 @@
       "count": 6
     },
     {
+      "uf": "SC",
+      "count": 5
+    },
+    {
       "uf": "RS",
       "count": 5
     },
     {
-      "uf": "SC",
-      "count": 3
+      "uf": "AM",
+      "count": 2
     },
     {
       "uf": "GO",
@@ -164,11 +173,11 @@
       "count": 2
     },
     {
-      "uf": "PE",
+      "uf": "PR",
       "count": 1
     },
     {
-      "uf": "AM",
+      "uf": "PE",
       "count": 1
     },
     {
@@ -179,14 +188,66 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 5
     },
     {
       "label": "expirado",
-      "count": 15
+      "count": 20
     }
   ],
   "all_alerts": [
+    {
+      "date": "01/08/2026",
+      "time": "21:58",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 01/08 21:55 - CHUVA PERSISTENTE de intensidade moderada a forte com ALAGAMENTOS pontuais para as regiões do Oeste, Meio-Oeste e Planalto Sul nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
+      "status": "expirado",
+      "onset": "2026-08-01T21:58:05-03:00",
+      "expires": "2026-08-02T00:55:00-03:00"
+    },
+    {
+      "date": "01/08/2026",
+      "time": "20:46",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 01/08 20:42 - CHUVA PERSISTENTE forte e isolada com ALAGAMENTOS, RAIOS e RAJADAS DE VENTO nas proximas 3 horas Ocorrencias ligue 199/193",
+      "status": "expirado",
+      "onset": "2026-08-01T20:46:13-03:00",
+      "expires": "2026-08-01T23:45:00-03:00"
+    },
+    {
+      "date": "01/08/2026",
+      "time": "20:39",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "expirado",
+      "onset": "2026-08-01T20:39:39-03:00",
+      "expires": "2026-08-01T23:35:00-03:00"
+    },
+    {
+      "date": "01/08/2026",
+      "time": "20:21",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "São Paulo de Olivença/AM, Carauari/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-08-01T20:21:27-03:00",
+      "expires": "2026-08-01T22:40:00-03:00"
+    },
     {
       "date": "01/08/2026",
       "time": "18:00",
@@ -248,7 +309,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 01/08 16:12 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS na sua regiao. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-01T16:18:07-03:00",
       "expires": "2026-08-01T20:20:00-03:00"
     },
@@ -462,21 +523,21 @@
     }
   ],
   "summary": {
-    "total_alerts": 21,
+    "total_alerts": 25,
     "by_nivel": {
-      "Médio": 11,
-      "Alto": 8,
+      "Médio": 14,
+      "Alto": 9,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 21
+      "Google": 25
     },
     "by_region": {
-      "S": 8,
+      "S": 11,
       "SE": 8,
       "CO": 2,
-      "NE": 2,
-      "N": 1
+      "N": 2,
+      "NE": 2
     }
   }
 }
