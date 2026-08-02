@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-08-02T08:36:54.536579-03:00",
-  "source_run_dir": "run_20260802_083642",
+  "generated_at": "2026-08-02T11:00:39.576787-03:00",
+  "source_run_dir": "run_20260802_110012",
   "cards": {
     "vigentes": 3,
-    "ultimas24h": 20,
+    "ultimas24h": 21,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "09:31",
+      "date": "02/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "location": "Mangaratiba/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ - POSSIBILIDADE DE RAJADAS DE VENTO MODERADAS A FORTES PARA AS PROXIMAS 24 HORAS! EM CASO DE EMERGENCIA LIGUE: (21) 3030-2662/199.",
+      "status": "vigente"
+    },
+    {
+      "time": "09:13",
+      "date": "02/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "location": "Mangaratiba/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Alerta de Vendaval para Mangaratiba/RJ",
+      "status": "vigente"
+    },
     {
       "time": "21:58",
       "date": "01/08/2026",
@@ -43,30 +67,6 @@
       "uf": "PR",
       "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
       "status": "expirado"
-    },
-    {
-      "time": "20:21",
-      "date": "01/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "São Paulo de Olivença/AM, Carauari/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Evite transitar por areas de risco.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "18:00",
-      "date": "01/08/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "location": "Ipojuca/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:Alerta para perigo de vendaval,a populacao deve ficar em alerta. Ao menor sinal de perigo acione a defesa civil. 0800-281-0620.Plantao 24 horas.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -81,13 +81,13 @@
       "count": 4
     },
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
+      "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
       "count": 2
     },
     {
@@ -118,7 +118,7 @@
     },
     {
       "label": "Alto",
-      "count": 6
+      "count": 7
     },
     {
       "label": "Severo",
@@ -136,7 +136,7 @@
     },
     {
       "label": "Vendaval",
-      "count": 3
+      "count": 4
     },
     {
       "label": "Inundações",
@@ -151,6 +151,10 @@
     {
       "uf": "SC",
       "count": 4
+    },
+    {
+      "uf": "RJ",
+      "count": 2
     },
     {
       "uf": "AM",
@@ -175,10 +179,6 @@
     {
       "uf": "PI",
       "count": 1
-    },
-    {
-      "uf": "RJ",
-      "count": 1
     }
   ],
   "status_distribution": [
@@ -188,10 +188,36 @@
     },
     {
       "label": "expirado",
-      "count": 17
+      "count": 18
     }
   ],
   "all_alerts": [
+    {
+      "date": "02/08/2026",
+      "time": "09:31",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Mangaratiba/RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ - POSSIBILIDADE DE RAJADAS DE VENTO MODERADAS A FORTES PARA AS PROXIMAS 24 HORAS! EM CASO DE EMERGENCIA LIGUE: (21) 3030-2662/199.",
+      "status": "vigente",
+      "onset": "2026-08-02T09:31:07-03:00",
+      "expires": "2026-08-03T08:00:00-03:00"
+    },
+    {
+      "date": "02/08/2026",
+      "time": "09:13",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Mangaratiba/RJ",
+      "headline": "Defesa Civil:Alerta de Vendaval para Mangaratiba/RJ",
+      "status": "vigente",
+      "onset": "2026-08-02T09:13:24-03:00",
+      "expires": "2026-08-03T08:00:00-03:00"
+    },
     {
       "date": "01/08/2026",
       "time": "21:58",
@@ -435,37 +461,24 @@
       "uf": "RS",
       "location": "Cachoeira do Sul/RS",
       "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Jacui. Risco MUITO ALTO em Cachoeira do Sul. Valido por 24h. Evite areas inundaveis. Emergencia: 190/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-01T11:04:00-03:00",
       "expires": "2026-08-02T11:00:00-03:00"
-    },
-    {
-      "date": "01/08/2026",
-      "time": "09:22",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Itaguaí/RJ",
-      "headline": "Defesa Civil:Possibilidade de rajadas de vento moderado a forte nas proximas 24 horas. Emergencia, ligue 193 ou 199.",
-      "status": "vigente",
-      "onset": "2026-08-01T09:22:59-03:00",
-      "expires": "2026-08-02T08:40:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 20,
+    "total_alerts": 21,
     "by_nivel": {
       "Médio": 12,
-      "Alto": 6,
+      "Alto": 7,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 20
+      "Google": 21
     },
     "by_region": {
+      "SE": 8,
       "S": 7,
-      "SE": 7,
       "CO": 2,
       "N": 2,
       "NE": 2
