@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-02T16:38:35.709099-03:00",
-  "source_run_dir": "run_20260802_163820",
+  "generated_at": "2026-08-02T18:13:05.461286-03:00",
+  "source_run_dir": "run_20260802_181248",
   "cards": {
-    "vigentes": 16,
-    "ultimas24h": 24,
-    "autoridadesAtivas": 9,
+    "vigentes": 6,
+    "ultimas24h": 20,
+    "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
@@ -18,7 +18,7 @@
       "location": "Fonte Boa/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "15:33",
@@ -42,7 +42,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:15h Umidade do ar abaixo de 30 em Catanduva, Ibitinga e Borborema. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "15:02",
@@ -66,19 +66,19 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:14h Umidade do ar abaixo de 30 na regiao Metropolitana de Sao Paulo. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 10
+      "count": 8
     },
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -109,31 +109,22 @@
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Rio Grande do Sul",
-      "short_name": "DC Rio Grande do Sul",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 17
+      "count": 14
     },
     {
       "label": "Alto",
       "count": 6
-    },
-    {
-      "label": "Severo",
-      "count": 1
     }
   ],
   "event_distribution": [
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 12
+      "count": 10
     },
     {
       "label": "Chuvas Intensas",
@@ -141,17 +132,13 @@
     },
     {
       "label": "Vendaval",
-      "count": 5
-    },
-    {
-      "label": "Inundações",
-      "count": 1
+      "count": 4
     }
   ],
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 10
+      "count": 8
     },
     {
       "uf": "RJ",
@@ -176,24 +163,16 @@
     {
       "uf": "PR",
       "count": 1
-    },
-    {
-      "uf": "PE",
-      "count": 1
-    },
-    {
-      "uf": "RS",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 16
+      "count": 6
     },
     {
       "label": "expirado",
-      "count": 8
+      "count": 14
     }
   ],
   "all_alerts": [
@@ -206,7 +185,7 @@
       "uf": "AM",
       "location": "Fonte Boa/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-02T16:23:24-03:00",
       "expires": "2026-08-02T17:35:00-03:00"
     },
@@ -232,7 +211,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h Umidade do ar abaixo de 30 em Catanduva, Ibitinga e Borborema. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-02T15:03:56-03:00",
       "expires": "2026-08-02T17:30:00-03:00"
     },
@@ -258,7 +237,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h Umidade do ar abaixo de 30 na regiao Metropolitana de Sao Paulo. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-02T14:51:55-03:00",
       "expires": "2026-08-02T17:30:00-03:00"
     },
@@ -271,7 +250,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h Umidade do ar abaixo de 30 entre Taubate, Aparecida e Cruzeiro. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-02T14:49:17-03:00",
       "expires": "2026-08-02T17:30:00-03:00"
     },
@@ -284,7 +263,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h Umidade do ar abaixo de 30 entre Aracatuba, Dracena e Andradina. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-02T14:45:44-03:00",
       "expires": "2026-08-02T17:30:00-03:00"
     },
@@ -310,7 +289,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h30 Umidade do ar abaixo de 30 entre Casa Branca, Itapira e Aguai. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-02T14:01:28-03:00",
       "expires": "2026-08-02T17:30:00-03:00"
     },
@@ -323,7 +302,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h30 Umidade do ar abaixo de 30 entre Ribeirao Preto e Pradopolis. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-02T13:55:25-03:00",
       "expires": "2026-08-02T17:30:00-03:00"
     },
@@ -336,7 +315,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h Umidade do ar abaixo de 30 em Jales, Votuporanga e SJ Rio Preto. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-02T13:52:47-03:00",
       "expires": "2026-08-02T17:30:00-03:00"
     },
@@ -349,7 +328,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h Umidade do ar abaixo de 30 entre Barretos,  Franca e Ituverava. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-02T13:49:49-03:00",
       "expires": "2026-08-02T17:30:00-03:00"
     },
@@ -456,76 +435,23 @@
       "status": "expirado",
       "onset": "2026-08-01T20:21:27-03:00",
       "expires": "2026-08-01T22:40:00-03:00"
-    },
-    {
-      "date": "01/08/2026",
-      "time": "18:00",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Ipojuca/PE",
-      "headline": "Defesa Civil:Alerta para perigo de vendaval,a populacao deve ficar em alerta. Ao menor sinal de perigo acione a defesa civil. 0800-281-0620.Plantao 24 horas.",
-      "status": "expirado",
-      "onset": "2026-08-01T18:00:00-03:00",
-      "expires": "2026-08-02T06:00:00-03:00"
-    },
-    {
-      "date": "01/08/2026",
-      "time": "17:02",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "RS",
-      "location": "São Borja/RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Uruguai. Risco MUITO ALTO para Sao Borja. Valido por 24h. Evite areas inundaveis. Emergencia: 190/193.",
-      "status": "vigente",
-      "onset": "2026-08-01T17:02:24-03:00",
-      "expires": "2026-08-02T17:00:00-03:00"
-    },
-    {
-      "date": "01/08/2026",
-      "time": "16:46",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:16h45 Umidade do ar abaixo de 30 entre Tupa e Rancharia. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-08-01T16:46:17-03:00",
-      "expires": "2026-08-01T18:00:00-03:00"
-    },
-    {
-      "date": "01/08/2026",
-      "time": "16:41",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:16h40 Umidade do ar abaixo de 30 em Areias. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-08-01T16:41:20-03:00",
-      "expires": "2026-08-01T18:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 24,
+    "total_alerts": 20,
     "by_nivel": {
-      "Médio": 17,
-      "Alto": 6,
-      "Severo": 1
+      "Médio": 14,
+      "Alto": 6
     },
     "by_channel_list": {
-      "Google": 24
+      "Google": 20
     },
     "by_region": {
-      "SE": 14,
-      "S": 4,
+      "SE": 12,
       "N": 3,
-      "NE": 2,
-      "CO": 1
+      "S": 3,
+      "CO": 1,
+      "NE": 1
     }
   }
 }
