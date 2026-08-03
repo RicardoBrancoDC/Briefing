@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-08-03T08:48:03.798394-03:00",
-  "source_run_dir": "run_20260803_084752",
+  "generated_at": "2026-08-03T12:20:43.282419-03:00",
+  "source_run_dir": "run_20260803_122028",
   "cards": {
-    "vigentes": 2,
-    "ultimas24h": 17,
+    "vigentes": 4,
+    "ultimas24h": 18,
     "autoridadesAtivas": 5,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "10:34",
+      "date": "03/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "location": "Belo Horizonte/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de Baixa umidade do ar em Belo Horizonte, ate 18h de domingo (9). Hidrate-se! Mais informacoes nas redes sociais: defesacivilbh",
+      "status": "vigente"
+    },
+    {
+      "time": "10:33",
+      "date": "03/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "location": "Belo Horizonte/MG",
+      "uf": "MG",
+      "headline": "Alerta de Baixa umidade do ar em Belo Horizonte, ate 18h de domingo (9). Hidrate-se! Mais informacoes nas redes sociais: defesacivilbh",
+      "status": "vigente"
+    },
+    {
+      "time": "10:06",
+      "date": "03/08/2026",
+      "senderName": "Defesa Civil Estadual do Piauí",
+      "senderNameShort": "DC Piauí",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "location": "PIAUÍ/PI",
+      "uf": "PI",
+      "headline": "Defesa Civil:Umidade relativa do ar em niveis criticos. Evite exposicao ao sol entre 10hs a 16hs. Em caso de emergencia, ligue 192 ou 193. PROTEJA-SE!",
+      "status": "vigente"
+    },
     {
       "time": "01:36",
       "date": "03/08/2026",
@@ -18,7 +54,7 @@
       "location": "Lábrea/AM",
       "uf": "AM",
       "headline": "Defesa Civil: Alerta de Baixa Qualidade do Ar para o Municipio de Labrea /AM. Siga as orientacoes da Defesa Civil Local. Use mascara de protecao.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:23",
@@ -28,42 +64,6 @@
       "event": "Chuvas Intensas",
       "nivel": "Médio",
       "location": "Fonte Boa/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "15:33",
-      "date": "02/08/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "location": "Itaguaí/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:ITAGUAI-Possibilidade de  VENTO moderado a forte para as proximashoras no municipio. Em caso de emergencia ligue: 199/193",
-      "status": "vigente"
-    },
-    {
-      "time": "15:03",
-      "date": "02/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:15h Umidade do ar abaixo de 30 em Catanduva, Ibitinga e Borborema. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado"
-    },
-    {
-      "time": "15:02",
-      "date": "02/08/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Tonantins/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
       "status": "expirado"
@@ -81,13 +81,13 @@
       "count": 6
     },
     {
-      "name": "Defesa Civil de Angra dos Reis (RJ)",
-      "short_name": "DC Angra dos Reis (RJ)",
-      "count": 1
-    },
-    {
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil de Angra dos Reis (RJ)",
+      "short_name": "DC Angra dos Reis (RJ)",
       "count": 1
     },
     {
@@ -103,20 +103,20 @@
     },
     {
       "label": "Alto",
-      "count": 6
+      "count": 7
     }
   ],
   "event_distribution": [
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 10
-    },
-    {
-      "label": "Vendaval",
-      "count": 4
+      "count": 13
     },
     {
       "label": "Chuvas Intensas",
+      "count": 2
+    },
+    {
+      "label": "Vendaval",
       "count": 2
     },
     {
@@ -130,16 +130,20 @@
       "count": 8
     },
     {
-      "uf": "RJ",
-      "count": 4
-    },
-    {
       "uf": "AM",
       "count": 3
     },
     {
+      "uf": "MG",
+      "count": 2
+    },
+    {
       "uf": "PI",
-      "count": 1
+      "count": 2
+    },
+    {
+      "uf": "RJ",
+      "count": 2
     },
     {
       "uf": "GO",
@@ -149,14 +153,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 2
+      "count": 4
     },
     {
       "label": "expirado",
-      "count": 15
+      "count": 14
     }
   ],
   "all_alerts": [
+    {
+      "date": "03/08/2026",
+      "time": "10:34",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "Belo Horizonte/MG",
+      "headline": "Defesa Civil:Alerta de Baixa umidade do ar em Belo Horizonte, ate 18h de domingo (9). Hidrate-se! Mais informacoes nas redes sociais: defesacivilbh",
+      "status": "vigente",
+      "onset": "2026-08-03T10:34:30-03:00",
+      "expires": "2026-08-09T18:00:00-03:00"
+    },
+    {
+      "date": "03/08/2026",
+      "time": "10:33",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "Belo Horizonte/MG",
+      "headline": "Alerta de Baixa umidade do ar em Belo Horizonte, ate 18h de domingo (9). Hidrate-se! Mais informacoes nas redes sociais: defesacivilbh",
+      "status": "vigente",
+      "onset": "2026-08-03T10:33:44-03:00",
+      "expires": "2026-08-09T18:00:00-03:00"
+    },
+    {
+      "date": "03/08/2026",
+      "time": "10:06",
+      "senderName": "Defesa Civil Estadual do Piauí",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "uf": "PI",
+      "location": "PIAUÍ/PI",
+      "headline": "Defesa Civil:Umidade relativa do ar em niveis criticos. Evite exposicao ao sol entre 10hs a 16hs. Em caso de emergencia, ligue 192 ou 193. PROTEJA-SE!",
+      "status": "vigente",
+      "onset": "2026-08-03T10:06:12-03:00",
+      "expires": "2026-08-03T20:00:00-03:00"
+    },
     {
       "date": "03/08/2026",
       "time": "01:36",
@@ -166,7 +209,7 @@
       "uf": "AM",
       "location": "Lábrea/AM",
       "headline": "Defesa Civil: Alerta de Baixa Qualidade do Ar para o Municipio de Labrea /AM. Siga as orientacoes da Defesa Civil Local. Use mascara de protecao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T01:36:32-03:00",
       "expires": "2026-08-03T09:00:00-03:00"
     },
@@ -351,48 +394,22 @@
       "status": "expirado",
       "onset": "2026-08-02T12:30:00-03:00",
       "expires": "2026-08-02T19:00:00-03:00"
-    },
-    {
-      "date": "02/08/2026",
-      "time": "09:31",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ - POSSIBILIDADE DE RAJADAS DE VENTO MODERADAS A FORTES PARA AS PROXIMAS 24 HORAS! EM CASO DE EMERGENCIA LIGUE: (21) 3030-2662/199.",
-      "status": "expirado",
-      "onset": "2026-08-02T09:31:07-03:00",
-      "expires": "2026-08-03T08:00:00-03:00"
-    },
-    {
-      "date": "02/08/2026",
-      "time": "09:13",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "headline": "Defesa Civil:Alerta de Vendaval para Mangaratiba/RJ",
-      "status": "expirado",
-      "onset": "2026-08-02T09:13:24-03:00",
-      "expires": "2026-08-03T08:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 17,
+    "total_alerts": 18,
     "by_nivel": {
       "Médio": 11,
-      "Alto": 6
+      "Alto": 7
     },
     "by_channel_list": {
-      "Google": 17
+      "Google": 18
     },
     "by_region": {
       "SE": 12,
       "N": 3,
-      "CO": 1,
-      "NE": 1
+      "NE": 2,
+      "CO": 1
     }
   }
 }
