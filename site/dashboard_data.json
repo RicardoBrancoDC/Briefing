@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-08-03T15:19:42.559297-03:00",
-  "source_run_dir": "run_20260803_151925",
+  "generated_at": "2026-08-03T17:01:43.375836-03:00",
+  "source_run_dir": "run_20260803_170123",
   "cards": {
     "vigentes": 20,
     "ultimas24h": 22,
-    "autoridadesAtivas": 6,
+    "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "16:48",
+      "date": "03/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:16h47 Umidade do ar abaixo de 30 em Jundiai, Juquitiba, Mococa e Monte Azul Paulista. Nao descarte bitucas e brasas onde ha vegetacao.",
+      "status": "vigente"
+    },
+    {
+      "time": "15:36",
+      "date": "03/08/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "14:51",
       "date": "03/08/2026",
@@ -18,7 +42,7 @@
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 17h. Mantenha-se seguro",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "14:42",
@@ -43,42 +67,23 @@
       "uf": "SP",
       "headline": "Defesa Civil:14h37 Umidade do ar abaixo de 30 em Santa Fe do Sul.  Nao coloque fogo em terrenos. E crime ambiental e pode causar incendio.",
       "status": "vigente"
-    },
-    {
-      "time": "14:36",
-      "date": "03/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:14h36 Umidade do ar abaixo de 30 em Campos do Jordao, Taubate, Pindamonhangaba e Cunha. Atinge municipios vizinhos. Hidrate-se.",
-      "status": "vigente"
-    },
-    {
-      "time": "14:34",
-      "date": "03/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:14h33 Umidade do ar abaixo de 30 em Mogi das Cruzes, Biritiba-Mirim, Aruja e Itatiba. Atinge municipios vizinhos. Hidrate-se.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 6
+      "count": 4
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
@@ -104,17 +109,17 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 14
+      "count": 15
     },
     {
       "label": "Alto",
-      "count": 8
+      "count": 7
     }
   ],
   "event_distribution": [
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 17
+      "count": 18
     },
     {
       "label": "Chuvas Intensas",
@@ -127,27 +132,23 @@
     {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
       "count": 1
-    },
-    {
-      "label": "Vendaval",
-      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 12
-    },
-    {
-      "uf": "RJ",
-      "count": 3
-    },
-    {
-      "uf": "MG",
-      "count": 2
+      "count": 13
     },
     {
       "uf": "AM",
+      "count": 2
+    },
+    {
+      "uf": "RJ",
+      "count": 2
+    },
+    {
+      "uf": "MG",
       "count": 2
     },
     {
@@ -176,6 +177,32 @@
   "all_alerts": [
     {
       "date": "03/08/2026",
+      "time": "16:48",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:16h47 Umidade do ar abaixo de 30 em Jundiai, Juquitiba, Mococa e Monte Azul Paulista. Nao descarte bitucas e brasas onde ha vegetacao.",
+      "status": "vigente",
+      "onset": "2026-08-03T16:48:06-03:00",
+      "expires": "2026-08-03T19:00:00-03:00"
+    },
+    {
+      "date": "03/08/2026",
+      "time": "15:36",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-08-03T15:36:22-03:00",
+      "expires": "2026-08-03T19:00:00-03:00"
+    },
+    {
+      "date": "03/08/2026",
       "time": "14:51",
       "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
       "event": "Granizo",
@@ -183,7 +210,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 17h. Mantenha-se seguro",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T14:51:59-03:00",
       "expires": "2026-08-03T17:00:00-03:00"
     },
@@ -433,39 +460,13 @@
       "status": "expirado",
       "onset": "2026-08-03T01:36:32-03:00",
       "expires": "2026-08-03T09:00:00-03:00"
-    },
-    {
-      "date": "02/08/2026",
-      "time": "16:23",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Fonte Boa/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-08-02T16:23:24-03:00",
-      "expires": "2026-08-02T17:35:00-03:00"
-    },
-    {
-      "date": "02/08/2026",
-      "time": "15:33",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Itaguaí/RJ",
-      "headline": "Defesa Civil:ITAGUAI-Possibilidade de  VENTO moderado a forte para as proximashoras no municipio. Em caso de emergencia ligue: 199/193",
-      "status": "vigente",
-      "onset": "2026-08-02T15:33:09-03:00",
-      "expires": "2026-08-03T15:27:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 22,
     "by_nivel": {
-      "Médio": 14,
-      "Alto": 8
+      "Médio": 15,
+      "Alto": 7
     },
     "by_channel_list": {
       "Google": 22
