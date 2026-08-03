@@ -1,18 +1,41 @@
 {
-  "generated_at": "2026-08-03T18:33:21.077671-03:00",
+  "generated_at": "2026-08-03T20:30:18.010355-03:00",
   "source": ".cache/historico_alertas.json",
   "window_hours": 24,
   "cards": {
-    "vigentes": 25,
-    "ultimas24h": 28,
+    "vigentes": 8,
+    "ultimas24h": 29,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0,
     "alertasSeveros": 0,
     "alertasSeverosExtremos": 0,
     "estadosComAlerta": 8,
-    "municipiosOuAreasComAlerta": 15
+    "municipiosOuAreasComAlerta": 16
   },
   "latest_alerts": [
+    {
+      "time": "18:54",
+      "date": "03/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Ipojuca/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:Alerta para chuvas de moderada a forte durante esta segunda-feira 03/08. Duvidas:0800-281-0620. 24h. A defesa civil somos todos nos.",
+      "status": "vigente",
+      "identifier": "186370/2026",
+      "entry_id": "186370/2026",
+      "sent": "2026-08-03T18:54:13-03:00",
+      "onset": "2026-08-03T18:54:13-03:00",
+      "expires": "2026-08-04T08:30:00-03:00",
+      "category": "Met",
+      "severity": "Moderate",
+      "urgency": "Immediate",
+      "certainty": "Possible",
+      "responseType": "Execute",
+      "channel_list": "Google"
+    },
     {
       "time": "17:47",
       "date": "03/08/2026",
@@ -138,7 +161,7 @@
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 19h. Mantenha-se seguro",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "186364/2026",
       "entry_id": "186364/2026",
       "sent": "2026-08-03T17:04:14-03:00",
@@ -161,7 +184,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:16h47 Umidade do ar abaixo de 30 em Jundiai, Juquitiba, Mococa e Monte Azul Paulista. Nao descarte bitucas e brasas onde ha vegetacao.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "186363/2026",
       "entry_id": "186363/2026",
       "sent": "2026-08-03T16:48:06-03:00",
@@ -184,7 +207,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "186360/2026",
       "entry_id": "186360/2026",
       "sent": "2026-08-03T15:36:22-03:00",
@@ -219,29 +242,6 @@
       "certainty": "Likely",
       "responseType": "Execute",
       "channel_list": "Google"
-    },
-    {
-      "time": "14:42",
-      "date": "03/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:14h41 Umidade do ar abaixo de 30 em Cachoeira Paulista, Areias, Casa Branca e Tambau. Nao descarte bitucas e brasas onde ha vegetacao.",
-      "status": "vigente",
-      "identifier": "186358/2026",
-      "entry_id": "186358/2026",
-      "sent": "2026-08-03T14:42:00-03:00",
-      "onset": "2026-08-03T14:42:00-03:00",
-      "expires": "2026-08-03T19:00:00-03:00",
-      "category": "Met",
-      "severity": "Moderate",
-      "urgency": "Immediate",
-      "certainty": "Observed",
-      "responseType": "Execute",
-      "channel_list": "Google"
     }
   ],
   "top_emitters": [
@@ -253,7 +253,7 @@
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual de Pernambuco",
@@ -289,7 +289,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 20
+      "count": 21
     },
     {
       "label": "Alto",
@@ -303,7 +303,7 @@
     },
     {
       "label": "Chuvas Intensas",
-      "count": 7
+      "count": 8
     },
     {
       "label": "Granizo",
@@ -321,7 +321,7 @@
     },
     {
       "uf": "PE",
-      "count": 4
+      "count": 5
     },
     {
       "uf": "SC",
@@ -351,17 +351,17 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 25
+      "count": 8
     },
     {
       "label": "expirado",
-      "count": 3
+      "count": 21
     }
   ],
   "category_distribution": [
     {
       "label": "Met",
-      "count": 27
+      "count": 28
     },
     {
       "label": "Fire",
@@ -374,12 +374,12 @@
       "count": 16
     },
     {
-      "label": "6h a 12h",
+      "label": "12h a 24h",
       "count": 5
     },
     {
-      "label": "12h a 24h",
-      "count": 4
+      "label": "6h a 12h",
+      "count": 5
     },
     {
       "label": "Mais de 24h",
@@ -393,19 +393,15 @@
   "time_since_distribution": [
     {
       "label": "3h a 6h",
-      "count": 16
-    },
-    {
-      "label": "1h a 3h",
-      "count": 7
+      "count": 13
     },
     {
       "label": "6h a 12h",
-      "count": 3
+      "count": 13
     },
     {
-      "label": "Até 1h",
-      "count": 1
+      "label": "1h a 3h",
+      "count": 2
     },
     {
       "label": "Mais de 12h",
@@ -415,10 +411,57 @@
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 28
+      "count": 29
     }
   ],
   "all_alerts": [
+    {
+      "identifier": "186370/2026",
+      "entry_id": "186370/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Nacional",
+      "sent": "2026-08-03T18:54:13-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Immediate",
+      "severity": "Moderate",
+      "certainty": "Possible",
+      "onset": "2026-08-03T18:54:13-03:00",
+      "expires": "2026-08-04T08:30:00-03:00",
+      "nivel": "Médio",
+      "headline": "Defesa Civil:Alerta para chuvas de moderada a forte durante esta segunda-feira 03/08. Duvidas:0800-281-0620. 24h. A defesa civil somos todos nos.",
+      "description": "A defesa civil alerta para chuvas com intensidade de moderada a forte ao longo desta segunda-feira 03/08 podendo se estender até a terça-feira 04/08, moradores em áreas de risco devem ficar em alerta, ao menor sinal de perigo procurem um local seguro e entrem em contato com a Defesa Civil. Tel.:0800-281-0620 (WhatsApp). Plantão 24h. A defesa civil somos todos nós.",
+      "instruction": "A população deve ficar em alerta. Ao menor sinal de perigo, saiam das residências, procurem um local seguro e acionem a defesa civil.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "Ipojuca/PE",
+      "polygon_raw": "-8.327,-35.117 -8.327,-35.117 -8.327,-35.117 -8.309,-35.14 -8.32,-35.154 -8.338,-35.161 -8.352,-35.169 -8.353,-35.169 -8.355,-35.17 -8.352,-35.173 -8.351,-35.174 -8.351,-35.174 -8.351,-35.175 -8.351,-35.176 -8.351,-35.176 -8.351,-35.176 -8.351,-35.177 -8.351,-35.177 -8.351,-35.177 -8.352,-35.178 -8.351,-35.178 -8.352,-35.179 -8.352,-35.18 -8.352,-35.18 -8.353,-35.181 -8.353,-35.182 -8.354,-35.187 -8.354,-35.189 -8.354,-35.19 -8.355,-35.191 -8.357,-35.193 -8.359,-35.193 -8.375,-35.192 -8.375,-35.192 -8.376,-35.192 -8.376,-35.192 -8.403,-35.224 -8.405,-35.225 -8.417,-35.238 -8.428,-35.233 -8.428,-35.233 -8.43,-35.232 -8.435,-35.23 -8.436,-35.229 -8.458,-35.214 -8.479,-35.202 -8.478,-35.188 -8.478,-35.167 -8.479,-35.167 -8.48,-35.166 -8.482,-35.165 -8.483,-35.165 -8.483,-35.165 -8.484,-35.164 -8.485,-35.163 -8.488,-35.158 -8.488,-35.157 -8.488,-35.155 -8.487,-35.153 -8.487,-35.153 -8.487,-35.152 -8.487,-35.151 -8.488,-35.149 -8.488,-35.147 -8.489,-35.146 -8.489,-35.145 -8.49,-35.144 -8.491,-35.143 -8.492,-35.142 -8.492,-35.143 -8.493,-35.142 -8.494,-35.142 -8.497,-35.142 -8.5,-35.142 -8.514,-35.13 -8.515,-35.129 -8.515,-35.129 -8.516,-35.128 -8.517,-35.127 -8.517,-35.127 -8.519,-35.126 -8.52,-35.122 -8.52,-35.122 -8.52,-35.122 -8.52,-35.12 -8.52,-35.12 -8.52,-35.118 -8.521,-35.117 -8.521,-35.117 -8.521,-35.117 -8.526,-35.091 -8.526,-35.09 -8.527,-35.086 -8.529,-35.077 -8.531,-35.076 -8.532,-35.076 -8.533,-35.077 -8.536,-35.075 -8.536,-35.075 -8.536,-35.075 -8.539,-35.077 -8.54,-35.079 -8.542,-35.081 -8.542,-35.082 -8.544,-35.082 -8.546,-35.082 -8.547,-35.082 -8.549,-35.082 -8.55,-35.081 -8.552,-35.081 -8.555,-35.08 -8.556,-35.08 -8.556,-35.08 -8.556,-35.078 -8.558,-35.077 -8.559,-35.076 -8.559,-35.074 -8.56,-35.073 -8.561,-35.072 -8.563,-35.072 -8.564,-35.07 -8.566,-35.069 -8.568,-35.069 -8.568,-35.069 -8.57,-35.069 -8.571,-35.069 -8.575,-35.07 -8.577,-35.07 -8.578,-35.07 -8.579,-35.071 -8.579,-35.071 -8.58,-35.072 -8.581,-35.073 -8.582,-35.073 -8.584,-35.072 -8.584,-35.07 -8.584,-35.069 -8.584,-35.069 -8.586,-35.068 -8.589,-35.066 -8.591,-35.064 -8.593,-35.063 -8.594,-35.063 -8.595,-35.065 -8.596,-35.065 -8.597,-35.065 -8.597,-35.065 -8.599,-35.062 -8.601,-35.059 -8.602,-35.058 -8.604,-35.057 -8.605,-35.056 -8.606,-35.054 -8.607,-35.053 -8.607,-35.053 -8.607,-35.052 -8.607,-35.052 -8.607,-35.051 -8.606,-35.051 -8.606,-35.05 -8.606,-35.05 -8.606,-35.05 -8.606,-35.05 -8.606,-35.05 -8.606,-35.05 -8.606,-35.049 -8.606,-35.049 -8.606,-35.049 -8.606,-35.049 -8.606,-35.049 -8.607,-35.049 -8.608,-35.048 -8.608,-35.048 -8.609,-35.048 -8.61,-35.047 -8.61,-35.047 -8.61,-35.047 -8.611,-35.046 -8.611,-35.045 -8.611,-35.045 -8.611,-35.044 -8.611,-35.044 -8.606,-35.044 -8.6,-35.042 -8.595,-35.043 -8.592,-35.04 -8.589,-35.037 -8.588,-35.036 -8.584,-35.034 -8.578,-35.033 -8.575,-35.031 -8.574,-35.031 -8.571,-35.031 -8.57,-35.031 -8.569,-35.031 -8.569,-35.03 -8.568,-35.029 -8.567,-35.028 -8.564,-35.026 -8.562,-35.025 -8.561,-35.023 -8.56,-35.022 -8.56,-35.02 -8.56,-35.018 -8.56,-35.018 -8.56,-35.016 -8.56,-35.016 -8.56,-35.015 -8.56,-35.015 -8.56,-35.014 -8.56,-35.014 -8.561,-35.013 -8.561,-35.012 -8.561,-35.012 -8.561,-35.011 -8.561,-35.011 -8.562,-35.011 -8.562,-35.01 -8.562,-35.01 -8.562,-35.01 -8.563,-35.009 -8.563,-35.009 -8.564,-35.009 -8.564,-35.008 -8.564,-35.008 -8.564,-35.008 -8.563,-35.008 -8.563,-35.008 -8.562,-35.007 -8.562,-35.007 -8.562,-35.007 -8.561,-35.007 -8.561,-35.007 -8.56,-35.008 -8.559,-35.008 -8.558,-35.009 -8.558,-35.009 -8.557,-35.009 -8.555,-35.009 -8.555,-35.009 -8.554,-35.009 -8.553,-35.009 -8.552,-35.008 -8.551,-35.007 -8.551,-35.006 -8.55,-35.005 -8.549,-35.004 -8.548,-35.004 -8.547,-35.003 -8.546,-35.003 -8.545,-35.003 -8.545,-35.003 -8.545,-35.003 -8.544,-35.003 -8.544,-35.002 -8.543,-35.002 -8.543,-35.003 -8.542,-35.003 -8.542,-35.003 -8.539,-35.002 -8.538,-35.003 -8.537,-35.003 -8.535,-35.004 -8.533,-35.005 -8.531,-35.006 -8.53,-35.006 -8.529,-35.006 -8.528,-35.006 -8.525,-35.006 -8.525,-35.006 -8.525,-35.006 -8.525,-35.006 -8.522,-35.005 -8.518,-35.005 -8.518,-35.005 -8.518,-35.005 -8.517,-35.005 -8.516,-35.004 -8.515,-35.004 -8.514,-35.004 -8.513,-35.003 -8.512,-35.002 -8.511,-35.0 -8.511,-35.0 -8.509,-35.0 -8.509,-35.0 -8.507,-35.0 -8.506,-34.999 -8.505,-35.0 -8.505,-35.0 -8.504,-35.0 -8.502,-35.0 -8.5,-35.001 -8.497,-35.001 -8.495,-35.0 -8.494,-35.0 -8.49,-35.0 -8.487,-34.999 -8.484,-34.998 -8.479,-34.996 -8.47,-34.99 -8.47,-34.99 -8.47,-34.989 -8.47,-34.989 -8.47,-34.988 -8.469,-34.988 -8.468,-34.988 -8.468,-34.987 -8.468,-34.987 -8.468,-34.987 -8.463,-34.986 -8.462,-34.985 -8.46,-34.985 -8.459,-34.984 -8.458,-34.983 -8.455,-34.983 -8.452,-34.984 -8.448,-34.983 -8.444,-34.981 -8.434,-34.977 -8.425,-34.974 -8.414,-34.969 -8.409,-34.967 -8.409,-34.967 -8.403,-34.964 -8.398,-34.962 -8.384,-34.956 -8.375,-34.952 -8.372,-34.953 -8.369,-34.955 -8.368,-34.959 -8.367,-34.96 -8.366,-34.961 -8.365,-34.961 -8.363,-34.963 -8.361,-34.965 -8.361,-34.968 -8.36,-34.971 -8.36,-34.973 -8.359,-34.975 -8.358,-34.976 -8.356,-34.977 -8.353,-34.977 -8.353,-34.979 -8.353,-34.981 -8.353,-34.986 -8.353,-34.986 -8.354,-34.988 -8.356,-34.989 -8.358,-34.989 -8.36,-34.99 -8.361,-34.991 -8.361,-34.992 -8.36,-34.995 -8.36,-34.996 -8.36,-34.998 -8.36,-35.0 -8.36,-35.001 -8.359,-35.002 -8.358,-35.004 -8.358,-35.005 -8.358,-35.006 -8.358,-35.006 -8.357,-35.012 -8.358,-35.012 -8.36,-35.014 -8.36,-35.016 -8.36,-35.017 -8.361,-35.017 -8.361,-35.019 -8.361,-35.02 -8.362,-35.021 -8.363,-35.023 -8.363,-35.023 -8.363,-35.024 -8.363,-35.024 -8.361,-35.025 -8.361,-35.025 -8.361,-35.026 -8.361,-35.027 -8.361,-35.028 -8.36,-35.03 -8.361,-35.031 -8.358,-35.031 -8.357,-35.031 -8.356,-35.034 -8.355,-35.038 -8.353,-35.039 -8.352,-35.039 -8.352,-35.039 -8.35,-35.041 -8.35,-35.041 -8.349,-35.044 -8.349,-35.044 -8.348,-35.046 -8.349,-35.047 -8.349,-35.047 -8.349,-35.048 -8.35,-35.049 -8.351,-35.049 -8.351,-35.05 -8.352,-35.051 -8.351,-35.052 -8.351,-35.052 -8.352,-35.057 -8.351,-35.058 -8.351,-35.058 -8.351,-35.058 -8.35,-35.058 -8.349,-35.058 -8.349,-35.061 -8.349,-35.061 -8.35,-35.062 -8.35,-35.063 -8.35,-35.063 -8.349,-35.064 -8.349,-35.064 -8.349,-35.066 -8.349,-35.066 -8.349,-35.066 -8.348,-35.068 -8.348,-35.069 -8.347,-35.07 -8.345,-35.07 -8.345,-35.071 -8.345,-35.071 -8.345,-35.072 -8.345,-35.072 -8.344,-35.072 -8.343,-35.072 -8.342,-35.072 -8.342,-35.073 -8.342,-35.073 -8.342,-35.074 -8.341,-35.075 -8.34,-35.075 -8.34,-35.076 -8.34,-35.076 -8.339,-35.076 -8.338,-35.076 -8.336,-35.077 -8.334,-35.078 -8.334,-35.079 -8.332,-35.08 -8.331,-35.084 -8.331,-35.085 -8.331,-35.085 -8.331,-35.086 -8.331,-35.086 -8.331,-35.087 -8.33,-35.087 -8.33,-35.087 -8.33,-35.088 -8.33,-35.088 -8.33,-35.088 -8.331,-35.089 -8.33,-35.091 -8.33,-35.092 -8.33,-35.093 -8.33,-35.094 -8.33,-35.095 -8.33,-35.095 -8.33,-35.095 -8.328,-35.098 -8.328,-35.098 -8.328,-35.098 -8.327,-35.099 -8.326,-35.1 -8.326,-35.101 -8.326,-35.101 -8.327,-35.102 -8.327,-35.102 -8.327,-35.103 -8.328,-35.104 -8.328,-35.104 -8.329,-35.105 -8.329,-35.106 -8.329,-35.106 -8.33,-35.106 -8.331,-35.107 -8.332,-35.107 -8.334,-35.108 -8.327,-35.117",
+      "polygon_points": 483,
+      "has_geocode": true,
+      "uf_hint": "PE",
+      "region": "NE",
+      "geometry_wkt": "POLYGON ((-35.117 -8.327, -35.117 -8.327, -35.117 -8.327, -35.14 -8.309, -35.154 -8.32, -35.161 -8.338, -35.169 -8.352, -35.169 -8.353, -35.17 -8.355, -35.173 -8.352, -35.174 -8.351, -35.174 -8.351, -35.175 -8.351, -35.176 -8.351, -35.176 -8.351, -35.176 -8.351, -35.177 -8.351, -35.177 -8.351, -35.177 -8.351, -35.178 -8.352, -35.178 -8.351, -35.179 -8.352, -35.18 -8.352, -35.18 -8.352, -35.181 -8.353, -35.182 -8.353, -35.187 -8.354, -35.189 -8.354, -35.19 -8.354, -35.191 -8.355, -35.193 -8.357, -35.193 -8.359, -35.192 -8.375, -35.192 -8.375, -35.192 -8.376, -35.192 -8.376, -35.224 -8.403, -35.225 -8.405, -35.238 -8.417, -35.233 -8.428, -35.233 -8.428, -35.232 -8.43, -35.23 -8.435, -35.229 -8.436, -35.214 -8.458, -35.202 -8.479, -35.188 -8.478, -35.167 -8.478, -35.167 -8.479, -35.166 -8.48, -35.165 -8.482, -35.165 -8.483, -35.165 -8.483, -35.164 -8.484, -35.163 -8.485, -35.158 -8.488, -35.157 -8.488, -35.155 -8.488, -35.153 -8.487, -35.153 -8.487, -35.152 -8.487, -35.151 -8.487, -35.149 -8.488, -35.147 -8.488, -35.146 -8.489, -35.145 -8.489, -35.144 -8.49, -35.143 -8.491, -35.142 -8.492, -35.143 -8.492, -35.142 -8.493, -35.142 -8.494, -35.142 -8.497, -35.142 -8.5, -35.13 -8.514, -35.129 -8.515, -35.129 -8.515, -35.128 -8.516, -35.127 -8.517, -35.127 -8.517, -35.126 -8.519, -35.122 -8.52, -35.122 -8.52, -35.122 -8.52, -35.12 -8.52, -35.12 -8.52, -35.118 -8.52, -35.117 -8.521, -35.117 -8.521, -35.117 -8.521, -35.091 -8.526, -35.09 -8.526, -35.086 -8.527, -35.077 -8.529, -35.076 -8.531, -35.076 -8.532, -35.077 -8.533, -35.075 -8.536, -35.075 -8.536, -35.075 -8.536, -35.077 -8.539, -35.079 -8.54, -35.081 -8.542, -35.082 -8.542, -35.082 -8.544, -35.082 -8.546, -35.082 -8.547, -35.082 -8.549, -35.081 -8.55, -35.081 -8.552, -35.08 -8.555, -35.08 -8.556, -35.08 -8.556, -35.078 -8.556, -35.077 -8.558, -35.076 -8.559, -35.074 -8.559, -35.073 -8.56, -35.072 -8.561, -35.072 -8.563, -35.07 -8.564, -35.069 -8.566, -35.069 -8.568, -35.069 -8.568, -35.069 -8.57, -35.069 -8.571, -35.07 -8.575, -35.07 -8.577, -35.07 -8.578, -35.071 -8.579, -35.071 -8.579, -35.072 -8.58, -35.073 -8.581, -35.073 -8.582, -35.072 -8.584, -35.07 -8.584, -35.069 -8.584, -35.069 -8.584, -35.068 -8.586, -35.066 -8.589, -35.064 -8.591, -35.063 -8.593, -35.063 -8.594, -35.065 -8.595, -35.065 -8.596, -35.065 -8.597, -35.065 -8.597, -35.062 -8.599, -35.059 -8.601, -35.058 -8.602, -35.057 -8.604, -35.056 -8.605, -35.054 -8.606, -35.053 -8.607, -35.053 -8.607, -35.052 -8.607, -35.052 -8.607, -35.051 -8.607, -35.051 -8.606, -35.05 -8.606, -35.05 -8.606, -35.05 -8.606, -35.05 -8.606, -35.05 -8.606, -35.05 -8.606, -35.049 -8.606, -35.049 -8.606, -35.049 -8.606, -35.049 -8.606, -35.049 -8.606, -35.049 -8.607, -35.048 -8.608, -35.048 -8.608, -35.048 -8.609, -35.047 -8.61, -35.047 -8.61, -35.047 -8.61, -35.046 -8.611, -35.045 -8.611, -35.045 -8.611, -35.044 -8.611, -35.044 -8.611, -35.044 -8.606, -35.042 -8.6, -35.043 -8.595, -35.04 -8.592, -35.037 -8.589, -35.036 -8.588, -35.034 -8.584, -35.033 -8.578, -35.031 -8.575, -35.031 -8.574, -35.031 -8.571, -35.031 -8.57, -35.031 -8.569, -35.03 -8.569, -35.029 -8.568, -35.028 -8.567, -35.026 -8.564, -35.025 -8.562, -35.023 -8.561, -35.022 -8.56, -35.02 -8.56, -35.018 -8.56, -35.018 -8.56, -35.016 -8.56, -35.016 -8.56, -35.015 -8.56, -35.015 -8.56, -35.014 -8.56, -35.014 -8.56, -35.013 -8.561, -35.012 -8.561, -35.012 -8.561, -35.011 -8.561, -35.011 -8.561, -35.011 -8.562, -35.01 -8.562, -35.01 -8.562, -35.01 -8.562, -35.009 -8.563, -35.009 -8.563, -35.009 -8.564, -35.008 -8.564, -35.008 -8.564, -35.008 -8.564, -35.008 -8.563, -35.008 -8.563, -35.007 -8.562, -35.007 -8.562, -35.007 -8.562, -35.007 -8.561, -35.007 -8.561, -35.008 -8.56, -35.008 -8.559, -35.009 -8.558, -35.009 -8.558, -35.009 -8.557, -35.009 -8.555, -35.009 -8.555, -35.009 -8.554, -35.009 -8.553, -35.008 -8.552, -35.007 -8.551, -35.006 -8.551, -35.005 -8.55, -35.004 -8.549, -35.004 -8.548, -35.003 -8.547, -35.003 -8.546, -35.003 -8.545, -35.003 -8.545, -35.003 -8.545, -35.003 -8.544, -35.002 -8.544, -35.002 -8.543, -35.003 -8.543, -35.003 -8.542, -35.003 -8.542, -35.002 -8.539, -35.003 -8.538, -35.003 -8.537, -35.004 -8.535, -35.005 -8.533, -35.006 -8.531, -35.006 -8.53, -35.006 -8.529, -35.006 -8.528, -35.006 -8.525, -35.006 -8.525, -35.006 -8.525, -35.006 -8.525, -35.005 -8.522, -35.005 -8.518, -35.005 -8.518, -35.005 -8.518, -35.005 -8.517, -35.004 -8.516, -35.004 -8.515, -35.004 -8.514, -35.003 -8.513, -35.002 -8.512, -35 -8.511, -35 -8.511, -35 -8.509, -35 -8.509, -35 -8.507, -34.999 -8.506, -35 -8.505, -35 -8.505, -35 -8.504, -35 -8.502, -35.001 -8.5, -35.001 -8.497, -35 -8.495, -35 -8.494, -35 -8.49, -34.999 -8.487, -34.998 -8.484, -34.996 -8.479, -34.99 -8.47, -34.99 -8.47, -34.989 -8.47, -34.989 -8.47, -34.988 -8.47, -34.988 -8.469, -34.988 -8.468, -34.987 -8.468, -34.987 -8.468, -34.987 -8.468, -34.986 -8.463, -34.985 -8.462, -34.985 -8.46, -34.984 -8.459, -34.983 -8.458, -34.983 -8.455, -34.984 -8.452, -34.983 -8.448, -34.981 -8.444, -34.977 -8.434, -34.974 -8.425, -34.969 -8.414, -34.967 -8.409, -34.967 -8.409, -34.964 -8.403, -34.962 -8.398, -34.956 -8.384, -34.952 -8.375, -34.953 -8.372, -34.955 -8.369, -34.959 -8.368, -34.96 -8.367, -34.961 -8.366, -34.961 -8.365, -34.963 -8.363, -34.965 -8.361, -34.968 -8.361, -34.971 -8.36, -34.973 -8.36, -34.975 -8.359, -34.976 -8.358, -34.977 -8.356, -34.977 -8.353, -34.979 -8.353, -34.981 -8.353, -34.986 -8.353, -34.986 -8.353, -34.988 -8.354, -34.989 -8.356, -34.989 -8.358, -34.99 -8.36, -34.991 -8.361, -34.992 -8.361, -34.995 -8.36, -34.996 -8.36, -34.998 -8.36, -35 -8.36, -35.001 -8.36, -35.002 -8.359, -35.004 -8.358, -35.005 -8.358, -35.006 -8.358, -35.006 -8.358, -35.012 -8.357, -35.012 -8.358, -35.014 -8.36, -35.016 -8.36, -35.017 -8.36, -35.017 -8.361, -35.019 -8.361, -35.02 -8.361, -35.021 -8.362, -35.023 -8.363, -35.023 -8.363, -35.024 -8.363, -35.024 -8.363, -35.025 -8.361, -35.025 -8.361, -35.026 -8.361, -35.027 -8.361, -35.028 -8.361, -35.03 -8.36, -35.031 -8.361, -35.031 -8.358, -35.031 -8.357, -35.034 -8.356, -35.038 -8.355, -35.039 -8.353, -35.039 -8.352, -35.039 -8.352, -35.041 -8.35, -35.041 -8.35, -35.044 -8.349, -35.044 -8.349, -35.046 -8.348, -35.047 -8.349, -35.047 -8.349, -35.048 -8.349, -35.049 -8.35, -35.049 -8.351, -35.05 -8.351, -35.051 -8.352, -35.052 -8.351, -35.052 -8.351, -35.057 -8.352, -35.058 -8.351, -35.058 -8.351, -35.058 -8.351, -35.058 -8.35, -35.058 -8.349, -35.061 -8.349, -35.061 -8.349, -35.062 -8.35, -35.063 -8.35, -35.063 -8.35, -35.064 -8.349, -35.064 -8.349, -35.066 -8.349, -35.066 -8.349, -35.066 -8.349, -35.068 -8.348, -35.069 -8.348, -35.07 -8.347, -35.07 -8.345, -35.071 -8.345, -35.071 -8.345, -35.072 -8.345, -35.072 -8.345, -35.072 -8.344, -35.072 -8.343, -35.072 -8.342, -35.073 -8.342, -35.073 -8.342, -35.074 -8.342, -35.075 -8.341, -35.075 -8.34, -35.076 -8.34, -35.076 -8.34, -35.076 -8.339, -35.076 -8.338, -35.077 -8.336, -35.078 -8.334, -35.079 -8.334, -35.08 -8.332, -35.084 -8.331, -35.085 -8.331, -35.085 -8.331, -35.086 -8.331, -35.086 -8.331, -35.087 -8.331, -35.087 -8.33, -35.087 -8.33, -35.088 -8.33, -35.088 -8.33, -35.088 -8.33, -35.089 -8.331, -35.091 -8.33, -35.092 -8.33, -35.093 -8.33, -35.094 -8.33, -35.095 -8.33, -35.095 -8.33, -35.095 -8.33, -35.098 -8.328, -35.098 -8.328, -35.098 -8.328, -35.099 -8.327, -35.1 -8.326, -35.101 -8.326, -35.101 -8.326, -35.102 -8.327, -35.102 -8.327, -35.103 -8.327, -35.104 -8.328, -35.104 -8.328, -35.105 -8.329, -35.106 -8.329, -35.106 -8.329, -35.106 -8.33, -35.107 -8.331, -35.107 -8.332, -35.108 -8.334, -35.117 -8.327))",
+      "uf": "PE",
+      "location": "Ipojuca/PE",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "03/08/2026",
+      "time": "18:54",
+      "sent_br": "2026-08-03T18:54:13-03:00",
+      "onset_br": "2026-08-03T18:54:13-03:00",
+      "expires_br": "2026-08-04T08:30:00-03:00",
+      "duration_minutes": 815,
+      "duration_hours": 13.58,
+      "duration_bucket": "12h a 24h",
+      "time_since_minutes": 96,
+      "time_since_hours": 1.6,
+      "time_since_bucket": "1h a 3h",
+      "is_active": true
+    },
     {
       "identifier": "186369/2026",
       "entry_id": "186369/2026",
@@ -461,9 +504,9 @@
       "duration_minutes": 182,
       "duration_hours": 3.03,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 45,
-      "time_since_hours": 0.75,
-      "time_since_bucket": "Até 1h",
+      "time_since_minutes": 162,
+      "time_since_hours": 2.7,
+      "time_since_bucket": "1h a 3h",
       "is_active": true
     },
     {
@@ -508,9 +551,9 @@
       "duration_minutes": 1236,
       "duration_hours": 20.6,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 69,
-      "time_since_hours": 1.15,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 186,
+      "time_since_hours": 3.1,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -555,9 +598,9 @@
       "duration_minutes": 1241,
       "duration_hours": 20.68,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 74,
-      "time_since_hours": 1.23,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 191,
+      "time_since_hours": 3.18,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -602,9 +645,9 @@
       "duration_minutes": 1247,
       "duration_hours": 20.78,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 80,
-      "time_since_hours": 1.33,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 197,
+      "time_since_hours": 3.28,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -649,9 +692,9 @@
       "duration_minutes": 1255,
       "duration_hours": 20.92,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 88,
-      "time_since_hours": 1.47,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 205,
+      "time_since_hours": 3.42,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -660,7 +703,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
       "sent": "2026-08-03T17:04:14-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "TEMPESTADE LOCAL/CONVECTIVA - GRANIZO",
@@ -687,7 +730,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "event_short": "Granizo",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "03/08/2026",
       "time": "17:04",
       "sent_br": "2026-08-03T17:04:14-03:00",
@@ -696,10 +739,10 @@
       "duration_minutes": 115,
       "duration_hours": 1.92,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 89,
-      "time_since_hours": 1.48,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true
+      "time_since_minutes": 206,
+      "time_since_hours": 3.43,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false
     },
     {
       "identifier": "186363/2026",
@@ -707,7 +750,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "sent": "2026-08-03T16:48:06-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -734,7 +777,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "03/08/2026",
       "time": "16:48",
       "sent_br": "2026-08-03T16:48:06-03:00",
@@ -743,10 +786,10 @@
       "duration_minutes": 131,
       "duration_hours": 2.18,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 105,
-      "time_since_hours": 1.75,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true
+      "time_since_minutes": 222,
+      "time_since_hours": 3.7,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false
     },
     {
       "identifier": "186360/2026",
@@ -754,7 +797,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "sent": "2026-08-03T15:36:22-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -781,7 +824,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "03/08/2026",
       "time": "15:36",
       "sent_br": "2026-08-03T15:36:22-03:00",
@@ -790,10 +833,10 @@
       "duration_minutes": 203,
       "duration_hours": 3.38,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 176,
-      "time_since_hours": 2.93,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true
+      "time_since_minutes": 293,
+      "time_since_hours": 4.88,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false
     },
     {
       "identifier": "186359/2026",
@@ -837,8 +880,8 @@
       "duration_minutes": 128,
       "duration_hours": 2.13,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 221,
-      "time_since_hours": 3.68,
+      "time_since_minutes": 338,
+      "time_since_hours": 5.63,
       "time_since_bucket": "3h a 6h",
       "is_active": false
     },
@@ -848,7 +891,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "sent": "2026-08-03T14:42:00-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -875,7 +918,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "03/08/2026",
       "time": "14:42",
       "sent_br": "2026-08-03T14:42:00-03:00",
@@ -884,10 +927,10 @@
       "duration_minutes": 258,
       "duration_hours": 4.3,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 231,
-      "time_since_hours": 3.85,
+      "time_since_minutes": 348,
+      "time_since_hours": 5.8,
       "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "is_active": false
     },
     {
       "identifier": "186357/2026",
@@ -895,7 +938,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "sent": "2026-08-03T14:38:40-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -922,7 +965,7 @@
       "uf": "SP",
       "location": "Santa Fé do Sul/SP",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "03/08/2026",
       "time": "14:38",
       "sent_br": "2026-08-03T14:38:40-03:00",
@@ -931,10 +974,10 @@
       "duration_minutes": 261,
       "duration_hours": 4.35,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 234,
-      "time_since_hours": 3.9,
+      "time_since_minutes": 351,
+      "time_since_hours": 5.85,
       "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "is_active": false
     },
     {
       "identifier": "186356/2026",
@@ -942,7 +985,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "sent": "2026-08-03T14:36:37-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -969,7 +1012,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "03/08/2026",
       "time": "14:36",
       "sent_br": "2026-08-03T14:36:37-03:00",
@@ -978,10 +1021,10 @@
       "duration_minutes": 263,
       "duration_hours": 4.38,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 236,
-      "time_since_hours": 3.93,
+      "time_since_minutes": 353,
+      "time_since_hours": 5.88,
       "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "is_active": false
     },
     {
       "identifier": "186355/2026",
@@ -989,7 +1032,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "sent": "2026-08-03T14:34:01-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -1016,7 +1059,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "03/08/2026",
       "time": "14:34",
       "sent_br": "2026-08-03T14:34:01-03:00",
@@ -1025,10 +1068,10 @@
       "duration_minutes": 265,
       "duration_hours": 4.42,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 239,
-      "time_since_hours": 3.98,
+      "time_since_minutes": 356,
+      "time_since_hours": 5.93,
       "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "is_active": false
     },
     {
       "identifier": "186354/2026",
@@ -1036,7 +1079,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "sent": "2026-08-03T14:31:33-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -1063,7 +1106,7 @@
       "uf": "SP",
       "location": "São Paulo/SP",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "03/08/2026",
       "time": "14:31",
       "sent_br": "2026-08-03T14:31:33-03:00",
@@ -1072,10 +1115,10 @@
       "duration_minutes": 268,
       "duration_hours": 4.47,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 241,
-      "time_since_hours": 4.02,
+      "time_since_minutes": 358,
+      "time_since_hours": 5.97,
       "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "is_active": false
     },
     {
       "identifier": "186353/2026",
@@ -1083,7 +1126,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "sent": "2026-08-03T14:26:13-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -1110,7 +1153,7 @@
       "uf": "SP",
       "location": "mapa",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "03/08/2026",
       "time": "14:26",
       "sent_br": "2026-08-03T14:26:13-03:00",
@@ -1119,10 +1162,10 @@
       "duration_minutes": 273,
       "duration_hours": 4.55,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 247,
-      "time_since_hours": 4.12,
-      "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "time_since_minutes": 364,
+      "time_since_hours": 6.07,
+      "time_since_bucket": "6h a 12h",
+      "is_active": false
     },
     {
       "identifier": "186352/2026",
@@ -1130,7 +1173,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "sent": "2026-08-03T14:24:04-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -1157,7 +1200,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "03/08/2026",
       "time": "14:24",
       "sent_br": "2026-08-03T14:24:04-03:00",
@@ -1166,10 +1209,10 @@
       "duration_minutes": 275,
       "duration_hours": 4.58,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 249,
-      "time_since_hours": 4.15,
-      "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "time_since_minutes": 366,
+      "time_since_hours": 6.1,
+      "time_since_bucket": "6h a 12h",
+      "is_active": false
     },
     {
       "identifier": "186351/2026",
@@ -1177,7 +1220,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "sent": "2026-08-03T14:20:28-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -1204,7 +1247,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "03/08/2026",
       "time": "14:20",
       "sent_br": "2026-08-03T14:20:28-03:00",
@@ -1213,10 +1256,10 @@
       "duration_minutes": 279,
       "duration_hours": 4.65,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 252,
-      "time_since_hours": 4.2,
-      "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "time_since_minutes": 369,
+      "time_since_hours": 6.15,
+      "time_since_bucket": "6h a 12h",
+      "is_active": false
     },
     {
       "identifier": "186350/2026",
@@ -1224,7 +1267,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "sent": "2026-08-03T14:17:00-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -1251,7 +1294,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "03/08/2026",
       "time": "14:17",
       "sent_br": "2026-08-03T14:17:00-03:00",
@@ -1260,10 +1303,10 @@
       "duration_minutes": 288,
       "duration_hours": 4.8,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 256,
-      "time_since_hours": 4.27,
-      "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "time_since_minutes": 373,
+      "time_since_hours": 6.22,
+      "time_since_bucket": "6h a 12h",
+      "is_active": false
     },
     {
       "identifier": "186349/2026",
@@ -1271,7 +1314,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "sent": "2026-08-03T14:01:59-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -1298,7 +1341,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "03/08/2026",
       "time": "14:01",
       "sent_br": "2026-08-03T14:01:59-03:00",
@@ -1307,10 +1350,10 @@
       "duration_minutes": 298,
       "duration_hours": 4.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 271,
-      "time_since_hours": 4.52,
-      "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "time_since_minutes": 388,
+      "time_since_hours": 6.47,
+      "time_since_bucket": "6h a 12h",
+      "is_active": false
     },
     {
       "identifier": "186348/2026",
@@ -1318,7 +1361,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "sent": "2026-08-03T13:57:17-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -1345,7 +1388,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "03/08/2026",
       "time": "13:57",
       "sent_br": "2026-08-03T13:57:17-03:00",
@@ -1354,10 +1397,10 @@
       "duration_minutes": 302,
       "duration_hours": 5.03,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 276,
-      "time_since_hours": 4.6,
-      "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "time_since_minutes": 393,
+      "time_since_hours": 6.55,
+      "time_since_bucket": "6h a 12h",
+      "is_active": false
     },
     {
       "identifier": "186347/2026",
@@ -1365,7 +1408,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Nacional",
       "sent": "2026-08-03T13:20:47-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -1392,7 +1435,7 @@
       "uf": "RJ",
       "location": "Nova Friburgo/RJ",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "03/08/2026",
       "time": "13:20",
       "sent_br": "2026-08-03T13:20:47-03:00",
@@ -1401,10 +1444,10 @@
       "duration_minutes": 399,
       "duration_hours": 6.65,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 312,
-      "time_since_hours": 5.2,
-      "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "time_since_minutes": 429,
+      "time_since_hours": 7.15,
+      "time_since_bucket": "6h a 12h",
+      "is_active": false
     },
     {
       "identifier": "186346/2026",
@@ -1448,9 +1491,9 @@
       "duration_minutes": 242,
       "duration_hours": 4.03,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 325,
-      "time_since_hours": 5.42,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 442,
+      "time_since_hours": 7.37,
+      "time_since_bucket": "6h a 12h",
       "is_active": false
     },
     {
@@ -1459,7 +1502,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "sent": "2026-08-03T12:50:01-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -1486,7 +1529,7 @@
       "uf": "SP",
       "location": "Ituverava/SP",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "03/08/2026",
       "time": "12:50",
       "sent_br": "2026-08-03T12:50:01-03:00",
@@ -1495,10 +1538,10 @@
       "duration_minutes": 369,
       "duration_hours": 6.15,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 343,
-      "time_since_hours": 5.72,
-      "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "time_since_minutes": 460,
+      "time_since_hours": 7.67,
+      "time_since_bucket": "6h a 12h",
+      "is_active": false
     },
     {
       "identifier": "186344/2026",
@@ -1506,7 +1549,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Rio de Janeiro",
       "sent": "2026-08-03T12:40:37-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -1533,7 +1576,7 @@
       "uf": "RJ",
       "location": "RIO DE JANEIRO/RJ",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "03/08/2026",
       "time": "12:40",
       "sent_br": "2026-08-03T12:40:37-03:00",
@@ -1542,10 +1585,10 @@
       "duration_minutes": 439,
       "duration_hours": 7.32,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 352,
-      "time_since_hours": 5.87,
-      "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "time_since_minutes": 469,
+      "time_since_hours": 7.82,
+      "time_since_bucket": "6h a 12h",
+      "is_active": false
     },
     {
       "identifier": "186343/2026",
@@ -1589,8 +1632,8 @@
       "duration_minutes": 9085,
       "duration_hours": 151.42,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 478,
-      "time_since_hours": 7.97,
+      "time_since_minutes": 595,
+      "time_since_hours": 9.92,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -1636,8 +1679,8 @@
       "duration_minutes": 9086,
       "duration_hours": 151.43,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 479,
-      "time_since_hours": 7.98,
+      "time_since_minutes": 596,
+      "time_since_hours": 9.93,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -1647,7 +1690,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Piauí",
       "sent": "2026-08-03T10:06:12-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -1674,7 +1717,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "03/08/2026",
       "time": "10:06",
       "sent_br": "2026-08-03T10:06:12-03:00",
@@ -1683,10 +1726,10 @@
       "duration_minutes": 593,
       "duration_hours": 9.88,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 507,
-      "time_since_hours": 8.45,
+      "time_since_minutes": 624,
+      "time_since_hours": 10.4,
       "time_since_bucket": "6h a 12h",
-      "is_active": true
+      "is_active": false
     },
     {
       "identifier": "186339/2026",
@@ -1730,8 +1773,8 @@
       "duration_minutes": 443,
       "duration_hours": 7.38,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 1016,
-      "time_since_hours": 16.93,
+      "time_since_minutes": 1133,
+      "time_since_hours": 18.88,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     }

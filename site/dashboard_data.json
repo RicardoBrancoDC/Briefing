@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-03T18:33:21.012777-03:00",
-  "source_run_dir": "run_20260803_183257",
+  "generated_at": "2026-08-03T20:30:17.947670-03:00",
+  "source_run_dir": "run_20260803_202952",
   "cards": {
-    "vigentes": 25,
-    "ultimas24h": 28,
+    "vigentes": 8,
+    "ultimas24h": 29,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "18:54",
+      "date": "03/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Ipojuca/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:Alerta para chuvas de moderada a forte durante esta segunda-feira 03/08. Duvidas:0800-281-0620. 24h. A defesa civil somos todos nos.",
+      "status": "vigente"
+    },
     {
       "time": "17:47",
       "date": "03/08/2026",
@@ -55,18 +67,6 @@
       "uf": "PE",
       "headline": "Defesa Civil:PE: RMR. Previsao de CHUVA MODERADA nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia: ligue 193 ou 199.",
       "status": "vigente"
-    },
-    {
-      "time": "17:04",
-      "date": "03/08/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Recife/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:ALERTA DE CHUVAS COM INTENSIDADE MODERADA PONTUALMENTE FORTE no periodo da noite 03/08 e na manha de 04/08. Busque abrigo e evite areas alagadas.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual de Pernambuco",
@@ -114,7 +114,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 20
+      "count": 21
     },
     {
       "label": "Alto",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Chuvas Intensas",
-      "count": 7
+      "count": 8
     },
     {
       "label": "Granizo",
@@ -146,7 +146,7 @@
     },
     {
       "uf": "PE",
-      "count": 4
+      "count": 5
     },
     {
       "uf": "SC",
@@ -176,14 +176,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 25
+      "count": 8
     },
     {
       "label": "expirado",
-      "count": 3
+      "count": 21
     }
   ],
   "all_alerts": [
+    {
+      "date": "03/08/2026",
+      "time": "18:54",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PE",
+      "location": "Ipojuca/PE",
+      "headline": "Defesa Civil:Alerta para chuvas de moderada a forte durante esta segunda-feira 03/08. Duvidas:0800-281-0620. 24h. A defesa civil somos todos nos.",
+      "status": "vigente",
+      "onset": "2026-08-03T18:54:13-03:00",
+      "expires": "2026-08-04T08:30:00-03:00"
+    },
     {
       "date": "03/08/2026",
       "time": "17:47",
@@ -258,7 +271,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 19h. Mantenha-se seguro",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T17:04:14-03:00",
       "expires": "2026-08-03T19:00:00-03:00"
     },
@@ -271,7 +284,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:16h47 Umidade do ar abaixo de 30 em Jundiai, Juquitiba, Mococa e Monte Azul Paulista. Nao descarte bitucas e brasas onde ha vegetacao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T16:48:06-03:00",
       "expires": "2026-08-03T19:00:00-03:00"
     },
@@ -284,7 +297,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T15:36:22-03:00",
       "expires": "2026-08-03T19:00:00-03:00"
     },
@@ -310,7 +323,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h41 Umidade do ar abaixo de 30 em Cachoeira Paulista, Areias, Casa Branca e Tambau. Nao descarte bitucas e brasas onde ha vegetacao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T14:42:00-03:00",
       "expires": "2026-08-03T19:00:00-03:00"
     },
@@ -323,7 +336,7 @@
       "uf": "SP",
       "location": "Santa Fé do Sul/SP",
       "headline": "Defesa Civil:14h37 Umidade do ar abaixo de 30 em Santa Fe do Sul.  Nao coloque fogo em terrenos. E crime ambiental e pode causar incendio.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T14:38:40-03:00",
       "expires": "2026-08-03T19:00:00-03:00"
     },
@@ -336,7 +349,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h36 Umidade do ar abaixo de 30 em Campos do Jordao, Taubate, Pindamonhangaba e Cunha. Atinge municipios vizinhos. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T14:36:37-03:00",
       "expires": "2026-08-03T19:00:00-03:00"
     },
@@ -349,7 +362,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h33 Umidade do ar abaixo de 30 em Mogi das Cruzes, Biritiba-Mirim, Aruja e Itatiba. Atinge municipios vizinhos. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T14:34:01-03:00",
       "expires": "2026-08-03T19:00:00-03:00"
     },
@@ -362,7 +375,7 @@
       "uf": "SP",
       "location": "São Paulo/SP",
       "headline": "Defesa Civil:14h30 Umidade do ar abaixo de 30 na Capital paulista.  Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T14:31:33-03:00",
       "expires": "2026-08-03T19:00:00-03:00"
     },
@@ -375,7 +388,7 @@
       "uf": "SP",
       "location": "mapa",
       "headline": "Defesa Civil:14h26 Umidade do ar abaixo de 30 em Itirapina, Sao Carlos, Descalvado, Sao Simao e Luiz Antonio. e  Atinge municipios vizinhos. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T14:26:13-03:00",
       "expires": "2026-08-03T19:00:00-03:00"
     },
@@ -388,7 +401,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h23 Umidade do ar abaixo de 30 em Tabatinga, Ibitinga, Bariri e Avare. Atinge municipios vizinhos. Use soro nos olhos e nariz.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T14:24:04-03:00",
       "expires": "2026-08-03T19:00:00-03:00"
     },
@@ -401,7 +414,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h19 Umidade do ar abaixo de 30 em Franca, Barretos, Ituverava, Pradopolis. Atinge municipios vizinhos. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T14:20:28-03:00",
       "expires": "2026-08-03T19:00:00-03:00"
     },
@@ -414,7 +427,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h15 Umidade do ar abaixo de 30 em Limeira, Espirito Santo do Pinhal, Ribeirao Preto e Jose Bonifacio. Atinge municipios vizinhos. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T14:17:00-03:00",
       "expires": "2026-08-03T19:05:00-03:00"
     },
@@ -427,7 +440,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h00 Umidade do ar abaixo de 30 em Campinas, Holambra, Itapira e Indaiatuba. Atinge municipios vizinhos. Beba bastante agua.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T14:01:59-03:00",
       "expires": "2026-08-03T19:00:00-03:00"
     },
@@ -440,7 +453,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h58 Umidade do ar abaixo de 30 em Piracaia, Nazare Paulista, Atibaia e Braganca Paulista. Atinge municipios vizinhos. Beba bastante agua.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T13:57:17-03:00",
       "expires": "2026-08-03T19:00:00-03:00"
     },
@@ -453,7 +466,7 @@
       "uf": "RJ",
       "location": "Nova Friburgo/RJ",
       "headline": "Defesa Civil:NF/ Umidade do ar pode ficar abaixo de 30 na tarde de hoje (03/08). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T13:20:47-03:00",
       "expires": "2026-08-03T20:00:00-03:00"
     },
@@ -479,7 +492,7 @@
       "uf": "SP",
       "location": "Ituverava/SP",
       "headline": "Defesa Civil:12h49 Umidade do ar abaixo de 30 em Ituverava. Atinge municipios vizinhos. Proteja-se do sol. Beba bastante agua.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T12:50:01-03:00",
       "expires": "2026-08-03T19:00:00-03:00"
     },
@@ -492,7 +505,7 @@
       "uf": "RJ",
       "location": "RIO DE JANEIRO/RJ",
       "headline": "Defesa Civil:Umidade do ar pode ficar abaixo de 30 na tarde de hoje (03/08). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T12:40:37-03:00",
       "expires": "2026-08-03T20:00:00-03:00"
     },
@@ -531,7 +544,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Umidade relativa do ar em niveis criticos. Evite exposicao ao sol entre 10hs a 16hs. Em caso de emergencia, ligue 192 ou 193. PROTEJA-SE!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T10:06:12-03:00",
       "expires": "2026-08-03T20:00:00-03:00"
     },
@@ -550,17 +563,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 28,
+    "total_alerts": 29,
     "by_nivel": {
-      "Médio": 20,
+      "Médio": 21,
       "Alto": 8
     },
     "by_channel_list": {
-      "Google": 28
+      "Google": 29
     },
     "by_region": {
       "SE": 17,
-      "NE": 5,
+      "NE": 6,
       "S": 4,
       "N": 2
     }
