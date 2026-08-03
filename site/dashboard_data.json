@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-03T01:08:59.730016-03:00",
-  "source_run_dir": "run_20260803_010844",
+  "generated_at": "2026-08-03T04:50:41.735038-03:00",
+  "source_run_dir": "run_20260803_045031",
   "cards": {
-    "vigentes": 3,
-    "ultimas24h": 16,
+    "vigentes": 4,
+    "ultimas24h": 17,
     "autoridadesAtivas": 5,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "01:36",
+      "date": "03/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
+      "nivel": "Alto",
+      "location": "Lábrea/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil: Alerta de Baixa Qualidade do Ar para o Municipio de Labrea /AM. Siga as orientacoes da Defesa Civil Local. Use mascara de protecao.",
+      "status": "vigente"
+    },
     {
       "time": "16:23",
       "date": "02/08/2026",
@@ -55,18 +67,6 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
       "status": "expirado"
-    },
-    {
-      "time": "14:51",
-      "date": "02/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:14h Umidade do ar abaixo de 30 na regiao Metropolitana de Sao Paulo. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Defesa Civil de Angra dos Reis (RJ)",
@@ -103,7 +103,7 @@
     },
     {
       "label": "Alto",
-      "count": 5
+      "count": 6
     }
   ],
   "event_distribution": [
@@ -118,6 +118,10 @@
     {
       "label": "Chuvas Intensas",
       "count": 2
+    },
+    {
+      "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
+      "count": 1
     }
   ],
   "uf_distribution": [
@@ -131,7 +135,7 @@
     },
     {
       "uf": "AM",
-      "count": 2
+      "count": 3
     },
     {
       "uf": "PI",
@@ -145,7 +149,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 3
+      "count": 4
     },
     {
       "label": "expirado",
@@ -153,6 +157,19 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "03/08/2026",
+      "time": "01:36",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Lábrea/AM",
+      "headline": "Defesa Civil: Alerta de Baixa Qualidade do Ar para o Municipio de Labrea /AM. Siga as orientacoes da Defesa Civil Local. Use mascara de protecao.",
+      "status": "vigente",
+      "onset": "2026-08-03T01:36:32-03:00",
+      "expires": "2026-08-03T09:00:00-03:00"
+    },
     {
       "date": "02/08/2026",
       "time": "16:23",
@@ -363,17 +380,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 16,
+    "total_alerts": 17,
     "by_nivel": {
       "Médio": 11,
-      "Alto": 5
+      "Alto": 6
     },
     "by_channel_list": {
-      "Google": 16
+      "Google": 17
     },
     "by_region": {
       "SE": 12,
-      "N": 2,
+      "N": 3,
       "CO": 1,
       "NE": 1
     }
