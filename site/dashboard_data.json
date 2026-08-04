@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-04T18:40:44.268357-03:00",
-  "source_run_dir": "run_20260804_183955",
+  "generated_at": "2026-08-04T20:28:58.406219-03:00",
+  "source_run_dir": "run_20260804_202828",
   "cards": {
-    "vigentes": 7,
-    "ultimas24h": 19,
+    "vigentes": 3,
+    "ultimas24h": 18,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
@@ -18,7 +18,7 @@
       "location": "Itaguaí/RJ",
       "uf": "RJ",
       "headline": "Defesa Civil:ITAGUAI-Baixa umidade relativa do ar no municipio. Hidrate-se e proteja-se do sol.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:26",
@@ -30,7 +30,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:16h26 Umidade do ar abaixo de 30 em Dracena, Ituverava e Juquitiba. Use soro nos olhos e nariz.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "15:09",
@@ -42,7 +42,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:15h08 Umidade do ar abaixo de 30 em Atibaia, Braganca Paulista, Piracaia e Tupa. Nao descarte bitucas e brasas onde ha vegetacao.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "14:53",
@@ -66,19 +66,19 @@
       "location": "RIO DE JANEIRO/RJ",
       "uf": "RJ",
       "headline": "Defesa Civil:Umidade do ar pode ficar abaixo de 30 na tarde de hoje (04/08). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Nacional",
-      "short_name": "Defesa Civil Nacional",
-      "count": 4
-    },
-    {
       "name": "Defesa Civil Estadual de Pernambuco",
       "short_name": "DC Pernambuco",
       "count": 4
+    },
+    {
+      "name": "Defesa Civil Nacional",
+      "short_name": "Defesa Civil Nacional",
+      "count": 3
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -114,7 +114,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 14
+      "count": 13
     },
     {
       "label": "Alto",
@@ -123,11 +123,11 @@
   ],
   "event_distribution": [
     {
-      "label": "Chuvas Intensas",
-      "count": 9
+      "label": "Baixa Umidade Do Ar",
+      "count": 8
     },
     {
-      "label": "Baixa Umidade Do Ar",
+      "label": "Chuvas Intensas",
       "count": 8
     },
     {
@@ -138,7 +138,7 @@
   "uf_distribution": [
     {
       "uf": "PE",
-      "count": 6
+      "count": 5
     },
     {
       "uf": "SP",
@@ -172,11 +172,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 3
     },
     {
       "label": "expirado",
-      "count": 12
+      "count": 15
     }
   ],
   "all_alerts": [
@@ -189,7 +189,7 @@
       "uf": "RJ",
       "location": "Itaguaí/RJ",
       "headline": "Defesa Civil:ITAGUAI-Baixa umidade relativa do ar no municipio. Hidrate-se e proteja-se do sol.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-04T16:33:23-03:00",
       "expires": "2026-08-04T19:00:00-03:00"
     },
@@ -202,7 +202,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:16h26 Umidade do ar abaixo de 30 em Dracena, Ituverava e Juquitiba. Use soro nos olhos e nariz.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-04T16:26:54-03:00",
       "expires": "2026-08-04T18:55:00-03:00"
     },
@@ -215,7 +215,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h08 Umidade do ar abaixo de 30 em Atibaia, Braganca Paulista, Piracaia e Tupa. Nao descarte bitucas e brasas onde ha vegetacao.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-04T15:09:34-03:00",
       "expires": "2026-08-04T19:00:00-03:00"
     },
@@ -241,7 +241,7 @@
       "uf": "RJ",
       "location": "RIO DE JANEIRO/RJ",
       "headline": "Defesa Civil:Umidade do ar pode ficar abaixo de 30 na tarde de hoje (04/08). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-04T14:33:31-03:00",
       "expires": "2026-08-04T19:00:00-03:00"
     },
@@ -413,32 +413,19 @@
       "status": "expirado",
       "onset": "2026-08-03T20:55:05-03:00",
       "expires": "2026-08-03T22:50:00-03:00"
-    },
-    {
-      "date": "03/08/2026",
-      "time": "18:54",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Ipojuca/PE",
-      "headline": "Defesa Civil:Alerta para chuvas de moderada a forte durante esta segunda-feira 03/08. Duvidas:0800-281-0620. 24h. A defesa civil somos todos nos.",
-      "status": "expirado",
-      "onset": "2026-08-03T18:54:13-03:00",
-      "expires": "2026-08-04T08:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 19,
+    "total_alerts": 18,
     "by_nivel": {
-      "Médio": 14,
+      "Médio": 13,
       "Alto": 5
     },
     "by_channel_list": {
-      "Google": 19
+      "Google": 18
     },
     "by_region": {
-      "NE": 6,
+      "NE": 5,
       "S": 5,
       "SE": 5,
       "CO": 3
