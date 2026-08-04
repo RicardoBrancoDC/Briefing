@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-08-04T15:06:55.685608-03:00",
-  "source_run_dir": "run_20260804_150623",
+  "generated_at": "2026-08-04T17:01:41.963534-03:00",
+  "source_run_dir": "run_20260804_170110",
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 24,
-    "autoridadesAtivas": 9,
+    "vigentes": 8,
+    "ultimas24h": 25,
+    "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "16:33",
+      "date": "04/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "location": "Itaguaí/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:ITAGUAI-Baixa umidade relativa do ar no municipio. Hidrate-se e proteja-se do sol.",
+      "status": "vigente"
+    },
+    {
+      "time": "16:26",
+      "date": "04/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:16h26 Umidade do ar abaixo de 30 em Dracena, Ituverava e Juquitiba. Use soro nos olhos e nariz.",
+      "status": "vigente"
+    },
+    {
+      "time": "15:09",
+      "date": "04/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:15h08 Umidade do ar abaixo de 30 em Atibaia, Braganca Paulista, Piracaia e Tupa. Nao descarte bitucas e brasas onde ha vegetacao.",
+      "status": "vigente"
+    },
     {
       "time": "14:53",
       "date": "04/08/2026",
@@ -31,42 +67,6 @@
       "uf": "RJ",
       "headline": "Defesa Civil:Umidade do ar pode ficar abaixo de 30 na tarde de hoje (04/08). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
       "status": "vigente"
-    },
-    {
-      "time": "14:06",
-      "date": "04/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:14h05 Umidade do ar abaixo de 30 em Teodoro Sampaio, Rancharia, Santa Fe do Sul e Indaiatuba. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente"
-    },
-    {
-      "time": "12:00",
-      "date": "04/08/2026",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "senderNameShort": "DC Goiás",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "location": "GOIÁS/GO",
-      "uf": "GO",
-      "headline": "Defesa Civil:Defesa civil:Aviso de baixa umidade do ar: beba agua, evite sol forte e esforco excessivo. Atencao especial para criancas e idosos. Emergencia:193",
-      "status": "vigente"
-    },
-    {
-      "time": "10:26",
-      "date": "04/08/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "Três Lagoas/MS",
-      "uf": "MS",
-      "headline": "Defesa Civil:¿¿ Defesa Civil TL: Baixa umidade do ar. Hidrate-se, evite sol e esforco fisico. Nao faca queimadas Crime : Defesa Civil e Bombeiros 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -86,14 +86,14 @@
       "count": 4
     },
     {
-      "name": "Defesa Civil Estadual do Rio Grande do Sul",
-      "short_name": "DC Rio Grande do Sul",
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
       "count": 3
     },
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 2
+      "name": "Defesa Civil Estadual do Rio Grande do Sul",
+      "short_name": "DC Rio Grande do Sul",
+      "count": 3
     },
     {
       "name": "Defesa Civil Estadual de Mato Grosso",
@@ -109,11 +109,6 @@
       "name": "Defesa Civil Estadual de Goiás",
       "short_name": "DC Goiás",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -123,17 +118,17 @@
     },
     {
       "label": "Alto",
-      "count": 5
+      "count": 6
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 15
+      "count": 14
     },
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 6
+      "count": 8
     },
     {
       "label": "Granizo",
@@ -150,19 +145,19 @@
       "count": 4
     },
     {
+      "uf": "SP",
+      "count": 3
+    },
+    {
       "uf": "RS",
       "count": 3
     },
     {
-      "uf": "SP",
+      "uf": "RJ",
       "count": 2
     },
     {
       "uf": "MT",
-      "count": 1
-    },
-    {
-      "uf": "RJ",
       "count": 1
     },
     {
@@ -172,23 +167,58 @@
     {
       "uf": "MS",
       "count": 1
-    },
-    {
-      "uf": "AM",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 8
     },
     {
       "label": "expirado",
-      "count": 18
+      "count": 17
     }
   ],
   "all_alerts": [
+    {
+      "date": "04/08/2026",
+      "time": "16:33",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Itaguaí/RJ",
+      "headline": "Defesa Civil:ITAGUAI-Baixa umidade relativa do ar no municipio. Hidrate-se e proteja-se do sol.",
+      "status": "vigente",
+      "onset": "2026-08-04T16:33:23-03:00",
+      "expires": "2026-08-04T19:00:00-03:00"
+    },
+    {
+      "date": "04/08/2026",
+      "time": "16:26",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:16h26 Umidade do ar abaixo de 30 em Dracena, Ituverava e Juquitiba. Use soro nos olhos e nariz.",
+      "status": "vigente",
+      "onset": "2026-08-04T16:26:54-03:00",
+      "expires": "2026-08-04T18:55:00-03:00"
+    },
+    {
+      "date": "04/08/2026",
+      "time": "15:09",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:15h08 Umidade do ar abaixo de 30 em Atibaia, Braganca Paulista, Piracaia e Tupa. Nao descarte bitucas e brasas onde ha vegetacao.",
+      "status": "vigente",
+      "onset": "2026-08-04T15:09:34-03:00",
+      "expires": "2026-08-04T19:00:00-03:00"
+    },
     {
       "date": "04/08/2026",
       "time": "14:53",
@@ -224,7 +254,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h05 Umidade do ar abaixo de 30 em Teodoro Sampaio, Rancharia, Santa Fe do Sul e Indaiatuba. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-04T14:06:40-03:00",
       "expires": "2026-08-04T16:05:00-03:00"
     },
@@ -474,49 +504,22 @@
       "status": "expirado",
       "onset": "2026-08-03T17:04:14-03:00",
       "expires": "2026-08-03T19:00:00-03:00"
-    },
-    {
-      "date": "03/08/2026",
-      "time": "16:48",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:16h47 Umidade do ar abaixo de 30 em Jundiai, Juquitiba, Mococa e Monte Azul Paulista. Nao descarte bitucas e brasas onde ha vegetacao.",
-      "status": "expirado",
-      "onset": "2026-08-03T16:48:06-03:00",
-      "expires": "2026-08-03T19:00:00-03:00"
-    },
-    {
-      "date": "03/08/2026",
-      "time": "15:36",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-08-03T15:36:22-03:00",
-      "expires": "2026-08-03T19:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 24,
+    "total_alerts": 25,
     "by_nivel": {
       "Médio": 19,
-      "Alto": 5
+      "Alto": 6
     },
     "by_channel_list": {
-      "Google": 24
+      "Google": 25
     },
     "by_region": {
       "NE": 10,
       "S": 7,
-      "CO": 3,
-      "SE": 3,
-      "N": 1
+      "SE": 5,
+      "CO": 3
     }
   }
 }
