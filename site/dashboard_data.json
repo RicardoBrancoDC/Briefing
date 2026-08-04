@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-08-03T20:30:17.947670-03:00",
-  "source_run_dir": "run_20260803_202952",
+  "generated_at": "2026-08-04T00:42:41.985123-03:00",
+  "source_run_dir": "run_20260804_004214",
   "cards": {
-    "vigentes": 8,
-    "ultimas24h": 29,
+    "vigentes": 7,
+    "ultimas24h": 31,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "20:55",
+      "date": "03/08/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva, vento e granizo. Risco ALTO de alagamentos e destelhamento. Val. ate 22h50. Mantenha-se seguro.",
+      "status": "expirado"
+    },
+    {
+      "time": "20:55",
+      "date": "03/08/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva, vento e granizo. Risco ALTO de alagamentos e destelhamento. Val. ate 22h50. Mantenha-se seguro.",
+      "status": "expirado"
+    },
     {
       "time": "18:54",
       "date": "03/08/2026",
@@ -30,7 +54,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 03/08 17:37 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste e Planalto Sul nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:23",
@@ -42,30 +66,6 @@
       "location": "PERNAMBUCO/PE",
       "uf": "PE",
       "headline": "Defesa Civil:PE: MATA SUL. Previsao de CHUVA MODERADA nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia: ligue 193 ou 199.",
-      "status": "vigente"
-    },
-    {
-      "time": "17:18",
-      "date": "03/08/2026",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "senderNameShort": "DC Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PERNAMBUCO/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:PE: MATA NORTE. Previsao de CHUVA MODERADA nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia: ligue 193 ou 199.",
-      "status": "vigente"
-    },
-    {
-      "time": "17:12",
-      "date": "03/08/2026",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "senderNameShort": "DC Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PERNAMBUCO/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:PE: RMR. Previsao de CHUVA MODERADA nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia: ligue 193 ou 199.",
       "status": "vigente"
     }
   ],
@@ -81,6 +81,11 @@
       "count": 6
     },
     {
+      "name": "Defesa Civil Estadual do Rio Grande do Sul",
+      "short_name": "DC Rio Grande do Sul",
+      "count": 4
+    },
+    {
       "name": "Defesa Civil Estadual de Pernambuco",
       "short_name": "DC Pernambuco",
       "count": 3
@@ -88,11 +93,6 @@
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil Estadual do Rio Grande do Sul",
-      "short_name": "DC Rio Grande do Sul",
       "count": 2
     },
     {
@@ -118,7 +118,7 @@
     },
     {
       "label": "Alto",
-      "count": 8
+      "count": 10
     }
   ],
   "event_distribution": [
@@ -132,7 +132,7 @@
     },
     {
       "label": "Granizo",
-      "count": 2
+      "count": 4
     },
     {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
@@ -149,11 +149,11 @@
       "count": 5
     },
     {
-      "uf": "SC",
-      "count": 2
+      "uf": "RS",
+      "count": 4
     },
     {
-      "uf": "RS",
+      "uf": "SC",
       "count": 2
     },
     {
@@ -176,14 +176,40 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 8
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 21
+      "count": 24
     }
   ],
   "all_alerts": [
+    {
+      "date": "03/08/2026",
+      "time": "20:55",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva, vento e granizo. Risco ALTO de alagamentos e destelhamento. Val. ate 22h50. Mantenha-se seguro.",
+      "status": "expirado",
+      "onset": "2026-08-03T20:55:31-03:00",
+      "expires": "2026-08-03T22:50:00-03:00"
+    },
+    {
+      "date": "03/08/2026",
+      "time": "20:55",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva, vento e granizo. Risco ALTO de alagamentos e destelhamento. Val. ate 22h50. Mantenha-se seguro.",
+      "status": "expirado",
+      "onset": "2026-08-03T20:55:05-03:00",
+      "expires": "2026-08-03T22:50:00-03:00"
+    },
     {
       "date": "03/08/2026",
       "time": "18:54",
@@ -206,7 +232,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 03/08 17:37 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste e Planalto Sul nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T17:47:44-03:00",
       "expires": "2026-08-03T20:50:00-03:00"
     },
@@ -563,18 +589,18 @@
     }
   ],
   "summary": {
-    "total_alerts": 29,
+    "total_alerts": 31,
     "by_nivel": {
       "Médio": 21,
-      "Alto": 8
+      "Alto": 10
     },
     "by_channel_list": {
-      "Google": 29
+      "Google": 31
     },
     "by_region": {
       "SE": 17,
       "NE": 6,
-      "S": 4,
+      "S": 6,
       "N": 2
     }
   }
