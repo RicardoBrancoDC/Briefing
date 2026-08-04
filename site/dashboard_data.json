@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-04T17:01:41.963534-03:00",
-  "source_run_dir": "run_20260804_170110",
+  "generated_at": "2026-08-04T18:40:44.268357-03:00",
+  "source_run_dir": "run_20260804_183955",
   "cards": {
-    "vigentes": 8,
-    "ultimas24h": 25,
+    "vigentes": 7,
+    "ultimas24h": 19,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
@@ -71,18 +71,13 @@
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual de Pernambuco",
-      "short_name": "DC Pernambuco",
-      "count": 7
-    },
-    {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 5
+      "count": 4
     },
     {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
+      "name": "Defesa Civil Estadual de Pernambuco",
+      "short_name": "DC Pernambuco",
       "count": 4
     },
     {
@@ -91,9 +86,14 @@
       "count": 3
     },
     {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 3
+    },
+    {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual de Mato Grosso",
@@ -114,17 +114,17 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 19
+      "count": 14
     },
     {
       "label": "Alto",
-      "count": 6
+      "count": 5
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 14
+      "count": 9
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -132,28 +132,28 @@
     },
     {
       "label": "Granizo",
-      "count": 3
+      "count": 2
     }
   ],
   "uf_distribution": [
     {
       "uf": "PE",
-      "count": 10
-    },
-    {
-      "uf": "SC",
-      "count": 4
+      "count": 6
     },
     {
       "uf": "SP",
       "count": 3
     },
     {
-      "uf": "RS",
+      "uf": "SC",
       "count": 3
     },
     {
       "uf": "RJ",
+      "count": 2
+    },
+    {
+      "uf": "RS",
       "count": 2
     },
     {
@@ -172,11 +172,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 8
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 17
+      "count": 12
     }
   ],
   "all_alerts": [
@@ -267,7 +267,7 @@
       "uf": "GO",
       "location": "GOIÁS/GO",
       "headline": "Defesa Civil:Defesa civil:Aviso de baixa umidade do ar: beba agua, evite sol forte e esforco excessivo. Atencao especial para criancas e idosos. Emergencia:193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-04T12:00:00-03:00",
       "expires": "2026-08-04T18:00:00-03:00"
     },
@@ -426,98 +426,20 @@
       "status": "expirado",
       "onset": "2026-08-03T18:54:13-03:00",
       "expires": "2026-08-04T08:30:00-03:00"
-    },
-    {
-      "date": "03/08/2026",
-      "time": "17:47",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 03/08 17:37 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste e Planalto Sul nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-03T17:47:44-03:00",
-      "expires": "2026-08-03T20:50:00-03:00"
-    },
-    {
-      "date": "03/08/2026",
-      "time": "17:23",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: MATA SUL. Previsao de CHUVA MODERADA nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia: ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-08-03T17:23:40-03:00",
-      "expires": "2026-08-04T14:00:00-03:00"
-    },
-    {
-      "date": "03/08/2026",
-      "time": "17:18",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: MATA NORTE. Previsao de CHUVA MODERADA nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia: ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-08-03T17:18:53-03:00",
-      "expires": "2026-08-04T14:00:00-03:00"
-    },
-    {
-      "date": "03/08/2026",
-      "time": "17:12",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: RMR. Previsao de CHUVA MODERADA nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia: ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-08-03T17:12:26-03:00",
-      "expires": "2026-08-04T14:00:00-03:00"
-    },
-    {
-      "date": "03/08/2026",
-      "time": "17:04",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "Recife/PE",
-      "headline": "Defesa Civil:ALERTA DE CHUVAS COM INTENSIDADE MODERADA PONTUALMENTE FORTE no periodo da noite 03/08 e na manha de 04/08. Busque abrigo e evite areas alagadas.",
-      "status": "expirado",
-      "onset": "2026-08-03T17:04:40-03:00",
-      "expires": "2026-08-04T14:00:00-03:00"
-    },
-    {
-      "date": "03/08/2026",
-      "time": "17:04",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 19h. Mantenha-se seguro",
-      "status": "expirado",
-      "onset": "2026-08-03T17:04:14-03:00",
-      "expires": "2026-08-03T19:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 25,
+    "total_alerts": 19,
     "by_nivel": {
-      "Médio": 19,
-      "Alto": 6
+      "Médio": 14,
+      "Alto": 5
     },
     "by_channel_list": {
-      "Google": 25
+      "Google": 19
     },
     "by_region": {
-      "NE": 10,
-      "S": 7,
+      "NE": 6,
+      "S": 5,
       "SE": 5,
       "CO": 3
     }
