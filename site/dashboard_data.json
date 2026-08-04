@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-08-04T07:59:16.127032-03:00",
-  "source_run_dir": "run_20260804_075903",
+  "generated_at": "2026-08-04T11:42:39.836910-03:00",
+  "source_run_dir": "run_20260804_114223",
   "cards": {
-    "vigentes": 13,
+    "vigentes": 11,
     "ultimas24h": 36,
-    "autoridadesAtivas": 8,
+    "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "10:26",
+      "date": "04/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "Três Lagoas/MS",
+      "uf": "MS",
+      "headline": "Defesa Civil:¿¿ Defesa Civil TL: Baixa umidade do ar. Hidrate-se, evite sol e esforco fisico. Nao faca queimadas Crime : Defesa Civil e Bombeiros 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "09:54",
+      "date": "04/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 04/08 09:51 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "09:18",
+      "date": "04/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Jaboatão dos Guararapes/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:Alerta continuidade de Chuvas Moderadas para Jaboatao dos Guararapes/PE. Em casos de Emergencia, ligue: 08002812099",
+      "status": "vigente"
+    },
     {
       "time": "07:28",
       "date": "04/08/2026",
@@ -18,7 +54,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 04/08 07:25 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e GRANIZO para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "06:19",
@@ -30,43 +66,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 04/08 06:16 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste, Meio-Oeste, Planalto Sul e Litoral Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "06:08",
-      "date": "04/08/2026",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "senderNameShort": "DC Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PERNAMBUCO/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:PE: AGRESTE. Previsao de CHUVA MODERADA nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia: ligue 193 ou 199.",
-      "status": "vigente"
-    },
-    {
-      "time": "05:57",
-      "date": "04/08/2026",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "senderNameShort": "DC Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PERNAMBUCO/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:PE: MATA SUL. Previsao de CHUVA MODERADA nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia: ligue 193 ou 199.",
-      "status": "vigente"
-    },
-    {
-      "time": "05:52",
-      "date": "04/08/2026",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "senderNameShort": "DC Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PERNAMBUCO/PE",
-      "uf": "PE",
-      "headline": "Defesa Civil:PE: MATA NORTE. Previsao de CHUVA MODERADA nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia: ligue 193 ou 199.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -88,7 +88,7 @@
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
@@ -104,31 +104,26 @@
       "name": "Defesa Civil Estadual do Rio de Janeiro",
       "short_name": "DC Rio de Janeiro",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Piauí",
-      "short_name": "DC Piauí",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 27
+      "count": 30
     },
     {
       "label": "Alto",
-      "count": 9
+      "count": 6
     }
   ],
   "event_distribution": [
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 18
+      "count": 16
     },
     {
       "label": "Chuvas Intensas",
-      "count": 14
+      "count": 16
     },
     {
       "label": "Granizo",
@@ -142,11 +137,11 @@
     },
     {
       "uf": "PE",
-      "count": 9
+      "count": 10
     },
     {
       "uf": "SC",
-      "count": 4
+      "count": 5
     },
     {
       "uf": "RS",
@@ -157,29 +152,64 @@
       "count": 2
     },
     {
-      "uf": "MG",
-      "count": 2
-    },
-    {
-      "uf": "AM",
+      "uf": "MS",
       "count": 1
     },
     {
-      "uf": "PI",
+      "uf": "AM",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 13
+      "count": 11
     },
     {
       "label": "expirado",
-      "count": 23
+      "count": 25
     }
   ],
   "all_alerts": [
+    {
+      "date": "04/08/2026",
+      "time": "10:26",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "MS",
+      "location": "Três Lagoas/MS",
+      "headline": "Defesa Civil:¿¿ Defesa Civil TL: Baixa umidade do ar. Hidrate-se, evite sol e esforco fisico. Nao faca queimadas Crime : Defesa Civil e Bombeiros 193.",
+      "status": "vigente",
+      "onset": "2026-08-04T10:26:01-03:00",
+      "expires": "2026-08-04T22:30:00-03:00"
+    },
+    {
+      "date": "04/08/2026",
+      "time": "09:54",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 04/08 09:51 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-04T09:54:56-03:00",
+      "expires": "2026-08-04T12:50:00-03:00"
+    },
+    {
+      "date": "04/08/2026",
+      "time": "09:18",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PE",
+      "location": "Jaboatão dos Guararapes/PE",
+      "headline": "Defesa Civil:Alerta continuidade de Chuvas Moderadas para Jaboatao dos Guararapes/PE. Em casos de Emergencia, ligue: 08002812099",
+      "status": "vigente",
+      "onset": "2026-08-04T09:18:48-03:00",
+      "expires": "2026-08-05T09:00:00-03:00"
+    },
     {
       "date": "04/08/2026",
       "time": "07:28",
@@ -189,7 +219,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 04/08 07:25 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e GRANIZO para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-04T07:28:17-03:00",
       "expires": "2026-08-04T10:30:00-03:00"
     },
@@ -202,7 +232,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 04/08 06:16 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste, Meio-Oeste, Planalto Sul e Litoral Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-04T06:19:22-03:00",
       "expires": "2026-08-04T10:20:00-03:00"
     },
@@ -293,7 +323,7 @@
       "uf": "PE",
       "location": "Ipojuca/PE",
       "headline": "Defesa Civil:Alerta para chuvas de moderada a forte durante esta segunda-feira 03/08. Duvidas:0800-281-0620. 24h. A defesa civil somos todos nos.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-03T18:54:13-03:00",
       "expires": "2026-08-04T08:30:00-03:00"
     },
@@ -608,60 +638,22 @@
       "status": "expirado",
       "onset": "2026-08-03T12:40:37-03:00",
       "expires": "2026-08-03T20:00:00-03:00"
-    },
-    {
-      "date": "03/08/2026",
-      "time": "10:34",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Belo Horizonte/MG",
-      "headline": "Defesa Civil:Alerta de Baixa umidade do ar em Belo Horizonte, ate 18h de domingo (9). Hidrate-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente",
-      "onset": "2026-08-03T10:34:30-03:00",
-      "expires": "2026-08-09T18:00:00-03:00"
-    },
-    {
-      "date": "03/08/2026",
-      "time": "10:33",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Belo Horizonte/MG",
-      "headline": "Alerta de Baixa umidade do ar em Belo Horizonte, ate 18h de domingo (9). Hidrate-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente",
-      "onset": "2026-08-03T10:33:44-03:00",
-      "expires": "2026-08-09T18:00:00-03:00"
-    },
-    {
-      "date": "03/08/2026",
-      "time": "10:06",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "PI",
-      "location": "PIAUÍ/PI",
-      "headline": "Defesa Civil:Umidade relativa do ar em niveis criticos. Evite exposicao ao sol entre 10hs a 16hs. Em caso de emergencia, ligue 192 ou 193. PROTEJA-SE!",
-      "status": "expirado",
-      "onset": "2026-08-03T10:06:12-03:00",
-      "expires": "2026-08-03T20:00:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 36,
     "by_nivel": {
-      "Médio": 27,
-      "Alto": 9
+      "Médio": 30,
+      "Alto": 6
     },
     "by_channel_list": {
       "Google": 36
     },
     "by_region": {
-      "SE": 17,
+      "SE": 15,
       "NE": 10,
-      "S": 8,
+      "S": 9,
+      "CO": 1,
       "N": 1
     }
   }
