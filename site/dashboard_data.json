@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-05T17:00:02.528051-03:00",
-  "source_run_dir": "run_20260805_165901",
+  "generated_at": "2026-08-05T18:38:41.794038-03:00",
+  "source_run_dir": "run_20260805_183721",
   "cards": {
-    "vigentes": 38,
-    "ultimas24h": 41,
+    "vigentes": 53,
+    "ultimas24h": 58,
     "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "16:47",
+      "time": "18:35",
       "date": "05/08/2026",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "senderNameShort": "DC São Paulo",
@@ -17,11 +17,11 @@
       "nivel": "Médio",
       "location": "SÃO PAULO/SP",
       "uf": "SP",
-      "headline": "Defesa Civil:16:46 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
+      "headline": "Defesa Civil:18:35 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
       "status": "vigente"
     },
     {
-      "time": "16:38",
+      "time": "18:25",
       "date": "05/08/2026",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "senderNameShort": "DC São Paulo",
@@ -29,23 +29,11 @@
       "nivel": "Médio",
       "location": "SÃO PAULO/SP",
       "uf": "SP",
-      "headline": "Defesa Civil:16:38 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
+      "headline": "Defesa Civil:18:25 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
       "status": "vigente"
     },
     {
-      "time": "16:38",
-      "date": "05/08/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "location": "RIO GRANDE DO SUL/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 19h30. Mantenha-se seguro.",
-      "status": "vigente"
-    },
-    {
-      "time": "16:36",
+      "time": "18:25",
       "date": "05/08/2026",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "senderNameShort": "DC São Paulo",
@@ -53,11 +41,11 @@
       "nivel": "Médio",
       "location": "SÃO PAULO/SP",
       "uf": "SP",
-      "headline": "Defesa Civil:16:35 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
+      "headline": "Defesa Civil:18:25 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
       "status": "vigente"
     },
     {
-      "time": "16:30",
+      "time": "18:20",
       "date": "05/08/2026",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "senderNameShort": "DC São Paulo",
@@ -65,7 +53,19 @@
       "nivel": "Médio",
       "location": "SÃO PAULO/SP",
       "uf": "SP",
-      "headline": "Defesa Civil:16:29 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
+      "headline": "Defesa Civil:18:20 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
+      "status": "vigente"
+    },
+    {
+      "time": "18:16",
+      "date": "05/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:18:15 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
       "status": "vigente"
     }
   ],
@@ -73,12 +73,17 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 19
+      "count": 33
     },
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
       "count": 9
+    },
+    {
+      "name": "Defesa Civil Estadual do Rio Grande do Sul",
+      "short_name": "DC Rio Grande do Sul",
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -89,11 +94,6 @@
       "name": "Defesa Civil Estadual do Maranhão",
       "short_name": "DC Maranhão",
       "count": 2
-    },
-    {
-      "name": "Defesa Civil Estadual do Rio Grande do Sul",
-      "short_name": "DC Rio Grande do Sul",
-      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Rio de Janeiro",
@@ -124,21 +124,21 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 31
+      "count": 45
     },
     {
       "label": "Alto",
-      "count": 10
+      "count": 13
     }
   ],
   "event_distribution": [
     {
-      "label": "Baixa Umidade Do Ar",
-      "count": 19
+      "label": "Vendaval",
+      "count": 30
     },
     {
-      "label": "Vendaval",
-      "count": 16
+      "label": "Baixa Umidade Do Ar",
+      "count": 19
     },
     {
       "label": "Chuvas Intensas",
@@ -146,13 +146,13 @@
     },
     {
       "label": "Granizo",
-      "count": 1
+      "count": 4
     }
   ],
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 19
+      "count": 33
     },
     {
       "uf": "RJ",
@@ -163,12 +163,12 @@
       "count": 5
     },
     {
-      "uf": "MA",
-      "count": 2
+      "uf": "RS",
+      "count": 4
     },
     {
-      "uf": "RS",
-      "count": 1
+      "uf": "MA",
+      "count": 2
     },
     {
       "uf": "MT",
@@ -182,14 +182,235 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 38
+      "count": 53
     },
     {
       "label": "expirado",
-      "count": 3
+      "count": 5
     }
   ],
   "all_alerts": [
+    {
+      "date": "05/08/2026",
+      "time": "18:35",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:18:35 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
+      "status": "vigente",
+      "onset": "2026-08-05T18:35:40-03:00",
+      "expires": "2026-08-08T23:55:00-03:00"
+    },
+    {
+      "date": "05/08/2026",
+      "time": "18:25",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:18:25 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
+      "status": "vigente",
+      "onset": "2026-08-05T18:25:40-03:00",
+      "expires": "2026-08-08T23:55:00-03:00"
+    },
+    {
+      "date": "05/08/2026",
+      "time": "18:25",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:18:25 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
+      "status": "vigente",
+      "onset": "2026-08-05T18:25:27-03:00",
+      "expires": "2026-08-08T23:55:00-03:00"
+    },
+    {
+      "date": "05/08/2026",
+      "time": "18:20",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:18:20 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
+      "status": "vigente",
+      "onset": "2026-08-05T18:20:40-03:00",
+      "expires": "2026-08-08T23:55:00-03:00"
+    },
+    {
+      "date": "05/08/2026",
+      "time": "18:16",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:18:15 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
+      "status": "vigente",
+      "onset": "2026-08-05T18:16:08-03:00",
+      "expires": "2026-08-08T23:55:00-03:00"
+    },
+    {
+      "date": "05/08/2026",
+      "time": "18:04",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:18:04 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
+      "status": "vigente",
+      "onset": "2026-08-05T18:04:58-03:00",
+      "expires": "2026-08-08T23:55:00-03:00"
+    },
+    {
+      "date": "05/08/2026",
+      "time": "17:56",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:17:56 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
+      "status": "vigente",
+      "onset": "2026-08-05T17:56:28-03:00",
+      "expires": "2026-08-08T23:55:00-03:00"
+    },
+    {
+      "date": "05/08/2026",
+      "time": "17:52",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:17:52 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
+      "status": "vigente",
+      "onset": "2026-08-05T17:52:30-03:00",
+      "expires": "2026-08-08T23:55:00-03:00"
+    },
+    {
+      "date": "05/08/2026",
+      "time": "17:52",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA . Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 21h. Mantenha-se seguro.",
+      "status": "vigente",
+      "onset": "2026-08-05T17:52:26-03:00",
+      "expires": "2026-08-05T21:00:00-03:00"
+    },
+    {
+      "date": "05/08/2026",
+      "time": "17:47",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:17:46 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
+      "status": "vigente",
+      "onset": "2026-08-05T17:47:20-03:00",
+      "expires": "2026-08-08T23:55:00-03:00"
+    },
+    {
+      "date": "05/08/2026",
+      "time": "17:44",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:17:43 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
+      "status": "vigente",
+      "onset": "2026-08-05T17:44:20-03:00",
+      "expires": "2026-08-08T23:55:00-03:00"
+    },
+    {
+      "date": "05/08/2026",
+      "time": "17:25",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:17:25 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
+      "status": "vigente",
+      "onset": "2026-08-05T17:25:49-03:00",
+      "expires": "2026-08-08T23:55:00-03:00"
+    },
+    {
+      "date": "05/08/2026",
+      "time": "17:09",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:17:08 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
+      "status": "vigente",
+      "onset": "2026-08-05T17:09:06-03:00",
+      "expires": "2026-08-08T23:55:00-03:00"
+    },
+    {
+      "date": "05/08/2026",
+      "time": "17:04",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:17:04 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
+      "status": "vigente",
+      "onset": "2026-08-05T17:04:21-03:00",
+      "expires": "2026-08-08T23:55:00-03:00"
+    },
+    {
+      "date": "05/08/2026",
+      "time": "17:00",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:17:00 - Condicao para fortes rajadas de vento entre quinta-feira (6) e sabado (8). Nao se exponha ao risco. Fique atento aos alertas oficiais.",
+      "status": "vigente",
+      "onset": "2026-08-05T17:00:42-03:00",
+      "expires": "2026-08-08T23:55:00-03:00"
+    },
+    {
+      "date": "05/08/2026",
+      "time": "17:00",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 20h. Mantenha-se seguro.",
+      "status": "vigente",
+      "onset": "2026-08-05T17:00:21-03:00",
+      "expires": "2026-08-05T20:00:00-03:00"
+    },
+    {
+      "date": "05/08/2026",
+      "time": "17:00",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 20h. Mantenha-se seguro.",
+      "status": "vigente",
+      "onset": "2026-08-05T17:00:11-03:00",
+      "expires": "2026-08-05T20:00:00-03:00"
+    },
     {
       "date": "05/08/2026",
       "time": "16:47",
@@ -589,7 +810,7 @@
       "uf": "MA",
       "location": "MARANHÃO/MA",
       "headline": "Defesa Civil:Alerta de Baixa Umidade para sua regiao. Beba agua, evite exercicios ao sol e nao realize queimadas. Valido ate dia 05/08/2026 as 18h00min.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-05T11:54:36-03:00",
       "expires": "2026-08-05T18:00:00-03:00"
     },
@@ -706,7 +927,7 @@
       "uf": "RJ",
       "location": "Itaguaí/RJ",
       "headline": "Defesa Civil:Alerta de Vendaval para Itaguai/RJ. Em caso de emergencia ligue: 199/193. Abrigue-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-05T06:56:44-03:00",
       "expires": "2026-08-05T18:00:00-03:00"
     },
@@ -725,17 +946,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 41,
+    "total_alerts": 58,
     "by_nivel": {
-      "Médio": 31,
-      "Alto": 10
+      "Médio": 45,
+      "Alto": 13
     },
     "by_channel_list": {
-      "Google": 41
+      "Google": 58
     },
     "by_region": {
-      "SE": 31,
-      "S": 6,
+      "SE": 45,
+      "S": 9,
       "NE": 3,
       "CO": 1
     }
