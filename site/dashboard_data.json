@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-04T20:28:58.406219-03:00",
-  "source_run_dir": "run_20260804_202828",
+  "generated_at": "2026-08-05T00:38:10.322977-03:00",
+  "source_run_dir": "run_20260805_003735",
   "cards": {
-    "vigentes": 3,
-    "ultimas24h": 18,
-    "autoridadesAtivas": 8,
+    "vigentes": 1,
+    "ultimas24h": 16,
+    "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
@@ -54,7 +54,7 @@
       "location": "MATO GROSSO/MT",
       "uf": "MT",
       "headline": "Defesa Civil:UMIDADE BAIXA: Umidade relativa do ar variando entre 30 e 20 porcento, hidrate-se. Baixo Risco de incendios florestais e a saude. Ligue: 193/199.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "14:33",
@@ -91,11 +91,6 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil Estadual do Rio Grande do Sul",
-      "short_name": "DC Rio Grande do Sul",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil Estadual de Mato Grosso",
       "short_name": "DC Mato Grosso",
       "count": 1
@@ -118,7 +113,7 @@
     },
     {
       "label": "Alto",
-      "count": 5
+      "count": 3
     }
   ],
   "event_distribution": [
@@ -129,10 +124,6 @@
     {
       "label": "Chuvas Intensas",
       "count": 8
-    },
-    {
-      "label": "Granizo",
-      "count": 2
     }
   ],
   "uf_distribution": [
@@ -153,10 +144,6 @@
       "count": 2
     },
     {
-      "uf": "RS",
-      "count": 2
-    },
-    {
       "uf": "MT",
       "count": 1
     },
@@ -172,7 +159,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 3
+      "count": 1
     },
     {
       "label": "expirado",
@@ -228,7 +215,7 @@
       "uf": "MT",
       "location": "MATO GROSSO/MT",
       "headline": "Defesa Civil:UMIDADE BAIXA: Umidade relativa do ar variando entre 30 e 20 porcento, hidrate-se. Baixo Risco de incendios florestais e a saude. Ligue: 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-04T14:53:50-03:00",
       "expires": "2026-08-04T23:00:00-03:00"
     },
@@ -280,7 +267,7 @@
       "uf": "MS",
       "location": "Três Lagoas/MS",
       "headline": "Defesa Civil:¿¿ Defesa Civil TL: Baixa umidade do ar. Hidrate-se, evite sol e esforco fisico. Nao faca queimadas Crime : Defesa Civil e Bombeiros 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-04T10:26:01-03:00",
       "expires": "2026-08-04T22:30:00-03:00"
     },
@@ -387,48 +374,22 @@
       "status": "expirado",
       "onset": "2026-08-04T05:47:12-03:00",
       "expires": "2026-08-04T14:30:00-03:00"
-    },
-    {
-      "date": "03/08/2026",
-      "time": "20:55",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva, vento e granizo. Risco ALTO de alagamentos e destelhamento. Val. ate 22h50. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-08-03T20:55:31-03:00",
-      "expires": "2026-08-03T22:50:00-03:00"
-    },
-    {
-      "date": "03/08/2026",
-      "time": "20:55",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva, vento e granizo. Risco ALTO de alagamentos e destelhamento. Val. ate 22h50. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-08-03T20:55:05-03:00",
-      "expires": "2026-08-03T22:50:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 18,
+    "total_alerts": 16,
     "by_nivel": {
       "Médio": 13,
-      "Alto": 5
+      "Alto": 3
     },
     "by_channel_list": {
-      "Google": 18
+      "Google": 16
     },
     "by_region": {
       "NE": 5,
-      "S": 5,
       "SE": 5,
-      "CO": 3
+      "CO": 3,
+      "S": 3
     }
   }
 }

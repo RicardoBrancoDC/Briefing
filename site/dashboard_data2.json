@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-04T20:28:58.446176-03:00",
+  "generated_at": "2026-08-05T00:38:10.385442-03:00",
   "source": ".cache/historico_alertas.json",
   "window_hours": 24,
   "cards": {
-    "vigentes": 3,
-    "ultimas24h": 18,
-    "autoridadesAtivas": 8,
+    "vigentes": 1,
+    "ultimas24h": 16,
+    "autoridadesAtivas": 7,
     "alertasExtremos": 0,
     "alertasSeveros": 0,
     "alertasSeverosExtremos": 0,
-    "estadosComAlerta": 8,
-    "municipiosOuAreasComAlerta": 10
+    "estadosComAlerta": 7,
+    "municipiosOuAreasComAlerta": 9
   },
   "latest_alerts": [
     {
@@ -92,7 +92,7 @@
       "location": "MATO GROSSO/MT",
       "uf": "MT",
       "headline": "Defesa Civil:UMIDADE BAIXA: Umidade relativa do ar variando entre 30 e 20 porcento, hidrate-se. Baixo Risco de incendios florestais e a saude. Ligue: 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "186389/2026",
       "entry_id": "186389/2026",
       "sent": "2026-08-04T14:53:50-03:00",
@@ -184,7 +184,7 @@
       "location": "Três Lagoas/MS",
       "uf": "MS",
       "headline": "Defesa Civil:¿¿ Defesa Civil TL: Baixa umidade do ar. Hidrate-se, evite sol e esforco fisico. Nao faca queimadas Crime : Defesa Civil e Bombeiros 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "186384/2026",
       "entry_id": "186384/2026",
       "sent": "2026-08-04T10:26:01-03:00",
@@ -266,11 +266,6 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil Estadual do Rio Grande do Sul",
-      "short_name": "DC Rio Grande do Sul",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil Estadual de Mato Grosso",
       "short_name": "DC Mato Grosso",
       "count": 1
@@ -293,7 +288,7 @@
     },
     {
       "label": "Alto",
-      "count": 5
+      "count": 3
     }
   ],
   "event_distribution": [
@@ -304,10 +299,6 @@
     {
       "label": "Chuvas Intensas",
       "count": 8
-    },
-    {
-      "label": "Granizo",
-      "count": 2
     }
   ],
   "uf_distribution": [
@@ -328,10 +319,6 @@
       "count": 2
     },
     {
-      "uf": "RS",
-      "count": 2
-    },
-    {
       "uf": "MT",
       "count": 1
     },
@@ -347,7 +334,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 3
+      "count": 1
     },
     {
       "label": "expirado",
@@ -357,7 +344,7 @@
   "category_distribution": [
     {
       "label": "Met",
-      "count": 18
+      "count": 16
     }
   ],
   "duration_distribution": [
@@ -370,32 +357,28 @@
       "count": 5
     },
     {
-      "label": "Até 2h",
-      "count": 3
-    },
-    {
       "label": "12h a 24h",
       "count": 2
+    },
+    {
+      "label": "Até 2h",
+      "count": 1
     }
   ],
   "time_since_distribution": [
     {
       "label": "Mais de 12h",
-      "count": 8
-    },
-    {
-      "label": "3h a 6h",
-      "count": 5
+      "count": 10
     },
     {
       "label": "6h a 12h",
-      "count": 5
+      "count": 6
     }
   ],
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 18
+      "count": 16
     }
   ],
   "all_alerts": [
@@ -441,9 +424,9 @@
       "duration_minutes": 146,
       "duration_hours": 2.43,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 235,
-      "time_since_hours": 3.92,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 484,
+      "time_since_hours": 8.07,
+      "time_since_bucket": "6h a 12h",
       "is_active": false
     },
     {
@@ -488,9 +471,9 @@
       "duration_minutes": 148,
       "duration_hours": 2.47,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 242,
-      "time_since_hours": 4.03,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 491,
+      "time_since_hours": 8.18,
+      "time_since_bucket": "6h a 12h",
       "is_active": false
     },
     {
@@ -535,9 +518,9 @@
       "duration_minutes": 230,
       "duration_hours": 3.83,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 319,
-      "time_since_hours": 5.32,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 568,
+      "time_since_hours": 9.47,
+      "time_since_bucket": "6h a 12h",
       "is_active": false
     },
     {
@@ -546,7 +529,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual de Mato Grosso",
       "sent": "2026-08-04T14:53:50-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -573,7 +556,7 @@
       "uf": "MT",
       "location": "MATO GROSSO/MT",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "04/08/2026",
       "time": "14:53",
       "sent_br": "2026-08-04T14:53:50-03:00",
@@ -582,10 +565,10 @@
       "duration_minutes": 486,
       "duration_hours": 8.1,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 335,
-      "time_since_hours": 5.58,
-      "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "time_since_minutes": 584,
+      "time_since_hours": 9.73,
+      "time_since_bucket": "6h a 12h",
+      "is_active": false
     },
     {
       "identifier": "186388/2026",
@@ -629,9 +612,9 @@
       "duration_minutes": 266,
       "duration_hours": 4.43,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 355,
-      "time_since_hours": 5.92,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 604,
+      "time_since_hours": 10.07,
+      "time_since_bucket": "6h a 12h",
       "is_active": false
     },
     {
@@ -676,8 +659,8 @@
       "duration_minutes": 118,
       "duration_hours": 1.97,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 382,
-      "time_since_hours": 6.37,
+      "time_since_minutes": 631,
+      "time_since_hours": 10.52,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -723,9 +706,9 @@
       "duration_minutes": 360,
       "duration_hours": 6.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 508,
-      "time_since_hours": 8.47,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 758,
+      "time_since_hours": 12.63,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -734,7 +717,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Nacional",
       "sent": "2026-08-04T10:26:01-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -761,7 +744,7 @@
       "uf": "MS",
       "location": "Três Lagoas/MS",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "04/08/2026",
       "time": "10:26",
       "sent_br": "2026-08-04T10:26:01-03:00",
@@ -770,10 +753,10 @@
       "duration_minutes": 723,
       "duration_hours": 12.05,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 602,
-      "time_since_hours": 10.03,
-      "time_since_bucket": "6h a 12h",
-      "is_active": true
+      "time_since_minutes": 852,
+      "time_since_hours": 14.2,
+      "time_since_bucket": "Mais de 12h",
+      "is_active": false
     },
     {
       "identifier": "186382/2026",
@@ -817,9 +800,9 @@
       "duration_minutes": 175,
       "duration_hours": 2.92,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 634,
-      "time_since_hours": 10.57,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 883,
+      "time_since_hours": 14.72,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -864,9 +847,9 @@
       "duration_minutes": 1421,
       "duration_hours": 23.68,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 670,
-      "time_since_hours": 11.17,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 919,
+      "time_since_hours": 15.32,
+      "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
     {
@@ -911,8 +894,8 @@
       "duration_minutes": 181,
       "duration_hours": 3.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 780,
-      "time_since_hours": 13.0,
+      "time_since_minutes": 1029,
+      "time_since_hours": 17.15,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -958,8 +941,8 @@
       "duration_minutes": 240,
       "duration_hours": 4.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 849,
-      "time_since_hours": 14.15,
+      "time_since_minutes": 1098,
+      "time_since_hours": 18.3,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1005,8 +988,8 @@
       "duration_minutes": 501,
       "duration_hours": 8.35,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 860,
-      "time_since_hours": 14.33,
+      "time_since_minutes": 1110,
+      "time_since_hours": 18.5,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1052,8 +1035,8 @@
       "duration_minutes": 512,
       "duration_hours": 8.53,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 871,
-      "time_since_hours": 14.52,
+      "time_since_minutes": 1120,
+      "time_since_hours": 18.67,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1099,8 +1082,8 @@
       "duration_minutes": 517,
       "duration_hours": 8.62,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 876,
-      "time_since_hours": 14.6,
+      "time_since_minutes": 1125,
+      "time_since_hours": 18.75,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1146,102 +1129,8 @@
       "duration_minutes": 522,
       "duration_hours": 8.7,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 881,
-      "time_since_hours": 14.68,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false
-    },
-    {
-      "identifier": "186373/2026",
-      "entry_id": "186373/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "sent": "2026-08-03T20:55:31-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "TEMPESTADE LOCAL/CONVECTIVA - GRANIZO",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Severe",
-      "certainty": "Likely",
-      "onset": "2026-08-03T20:55:31-03:00",
-      "expires": "2026-08-03T22:50:00-03:00",
-      "nivel": "Alto",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva, vento e granizo. Risco ALTO de alagamentos e destelhamento. Val. ate 22h50. Mantenha-se seguro.",
-      "description": "RS: Alerta LARANJA. Condicao de ALERTA p/ chuva, vento e granizo. Risco ALTO de alagamentos e destelhamento. Val. ate 22h50. Mantenha-se seguro.",
-      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 190 ou 193.",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "RIO GRANDE DO SUL/RS",
-      "polygon_raw": "-29.281,-56.515 -29.695,-56.006 -29.262,-55.64 -29.02,-56.247 -29.281,-56.515",
-      "polygon_points": 5,
-      "has_geocode": false,
-      "uf_hint": "RS",
-      "region": "S",
-      "geometry_wkt": "POLYGON ((-56.515 -29.281, -56.006 -29.695, -55.64 -29.262, -56.247 -29.02, -56.515 -29.281))",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "event_short": "Granizo",
-      "status_vigencia": "expirado",
-      "date": "03/08/2026",
-      "time": "20:55",
-      "sent_br": "2026-08-03T20:55:31-03:00",
-      "onset_br": "2026-08-03T20:55:31-03:00",
-      "expires_br": "2026-08-03T22:50:00-03:00",
-      "duration_minutes": 114,
-      "duration_hours": 1.9,
-      "duration_bucket": "Até 2h",
-      "time_since_minutes": 1413,
-      "time_since_hours": 23.55,
-      "time_since_bucket": "Mais de 12h",
-      "is_active": false
-    },
-    {
-      "identifier": "186371/2026",
-      "entry_id": "186371/2026",
-      "sender": "CENAD-SEDEC",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "sent": "2026-08-03T20:55:05-03:00",
-      "status": "expirado",
-      "msgType": "Alert",
-      "category": "Met",
-      "event": "TEMPESTADE LOCAL/CONVECTIVA - GRANIZO",
-      "responseType": "Execute",
-      "urgency": "Expected",
-      "severity": "Severe",
-      "certainty": "Likely",
-      "onset": "2026-08-03T20:55:05-03:00",
-      "expires": "2026-08-03T22:50:00-03:00",
-      "nivel": "Alto",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ chuva, vento e granizo. Risco ALTO de alagamentos e destelhamento. Val. ate 22h50. Mantenha-se seguro.",
-      "description": "RS: Alerta LARANJA. Condicao de ALERTA p/ chuva, vento e granizo. Risco ALTO de alagamentos e destelhamento. Val. ate 22h50. Mantenha-se seguro.",
-      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 190 ou 193.",
-      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
-      "contact": "+55 61 2034-4660",
-      "channel_list": "Google",
-      "areaDesc": "RIO GRANDE DO SUL/RS",
-      "polygon_raw": "-29.281,-56.515 -29.695,-56.006 -29.262,-55.64 -29.02,-56.247 -29.281,-56.515",
-      "polygon_points": 5,
-      "has_geocode": false,
-      "uf_hint": "RS",
-      "region": "S",
-      "geometry_wkt": "POLYGON ((-56.515 -29.281, -56.006 -29.695, -55.64 -29.262, -56.247 -29.02, -56.515 -29.281))",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "event_short": "Granizo",
-      "status_vigencia": "expirado",
-      "date": "03/08/2026",
-      "time": "20:55",
-      "sent_br": "2026-08-03T20:55:05-03:00",
-      "onset_br": "2026-08-03T20:55:05-03:00",
-      "expires_br": "2026-08-03T22:50:00-03:00",
-      "duration_minutes": 114,
-      "duration_hours": 1.9,
-      "duration_bucket": "Até 2h",
-      "time_since_minutes": 1413,
-      "time_since_hours": 23.55,
+      "time_since_minutes": 1130,
+      "time_since_hours": 18.83,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     }
