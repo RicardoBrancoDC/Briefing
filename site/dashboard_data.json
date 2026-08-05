@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-08-05T03:44:49.825654-03:00",
-  "source_run_dir": "run_20260805_034441",
+  "generated_at": "2026-08-05T07:48:05.137526-03:00",
+  "source_run_dir": "run_20260805_074751",
   "cards": {
-    "vigentes": 1,
-    "ultimas24h": 16,
-    "autoridadesAtivas": 7,
+    "vigentes": 4,
+    "ultimas24h": 13,
+    "autoridadesAtivas": 6,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "07:00",
+      "date": "05/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "location": "Duque de Caxias/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:ALERTA de UMIDADE DO AR abaixo de 20 e VENTOS MODERADOS HOJE em Duque de Caxias. HIDRATE-SE. Emergencia, 21 99463-7387.",
+      "status": "vigente"
+    },
+    {
+      "time": "06:56",
+      "date": "05/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "location": "Itaguaí/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Alerta de Vendaval para Itaguai/RJ. Em caso de emergencia ligue: 199/193. Abrigue-se.",
+      "status": "vigente"
+    },
+    {
+      "time": "05:00",
+      "date": "05/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "location": "Nova Iguaçu/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil: Nova Iguacu: Rajadas de vento moderado entre o fim da madrugada e manha de quarta-feira (05/08). Emergencia: 199",
+      "status": "vigente"
+    },
     {
       "time": "16:33",
       "date": "04/08/2026",
@@ -31,63 +67,17 @@
       "uf": "SP",
       "headline": "Defesa Civil:16h26 Umidade do ar abaixo de 30 em Dracena, Ituverava e Juquitiba. Use soro nos olhos e nariz.",
       "status": "expirado"
-    },
-    {
-      "time": "15:09",
-      "date": "04/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:15h08 Umidade do ar abaixo de 30 em Atibaia, Braganca Paulista, Piracaia e Tupa. Nao descarte bitucas e brasas onde ha vegetacao.",
-      "status": "expirado"
-    },
-    {
-      "time": "14:53",
-      "date": "04/08/2026",
-      "senderName": "Defesa Civil Estadual de Mato Grosso",
-      "senderNameShort": "DC Mato Grosso",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "MATO GROSSO/MT",
-      "uf": "MT",
-      "headline": "Defesa Civil:UMIDADE BAIXA: Umidade relativa do ar variando entre 30 e 20 porcento, hidrate-se. Baixo Risco de incendios florestais e a saude. Ligue: 193/199.",
-      "status": "expirado"
-    },
-    {
-      "time": "14:33",
-      "date": "04/08/2026",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "senderNameShort": "DC Rio de Janeiro",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "location": "RIO DE JANEIRO/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Umidade do ar pode ficar abaixo de 30 na tarde de hoje (04/08). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual de Pernambuco",
-      "short_name": "DC Pernambuco",
-      "count": 4
-    },
-    {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 3
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 3
-    },
-    {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
       "count": 3
     },
     {
@@ -104,44 +94,45 @@
       "name": "Defesa Civil Estadual de Goiás",
       "short_name": "DC Goiás",
       "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 13
+      "count": 8
     },
     {
       "label": "Alto",
-      "count": 3
+      "count": 5
     }
   ],
   "event_distribution": [
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 8
+      "count": 9
+    },
+    {
+      "label": "Vendaval",
+      "count": 2
     },
     {
       "label": "Chuvas Intensas",
-      "count": 8
+      "count": 2
     }
   ],
   "uf_distribution": [
     {
-      "uf": "PE",
+      "uf": "RJ",
       "count": 5
     },
     {
       "uf": "SP",
       "count": 3
-    },
-    {
-      "uf": "SC",
-      "count": 3
-    },
-    {
-      "uf": "RJ",
-      "count": 2
     },
     {
       "uf": "MT",
@@ -154,19 +145,66 @@
     {
       "uf": "MS",
       "count": 1
+    },
+    {
+      "uf": "SC",
+      "count": 1
+    },
+    {
+      "uf": "PE",
+      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 1
+      "count": 4
     },
     {
       "label": "expirado",
-      "count": 15
+      "count": 9
     }
   ],
   "all_alerts": [
+    {
+      "date": "05/08/2026",
+      "time": "07:00",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Duque de Caxias/RJ",
+      "headline": "Defesa Civil:ALERTA de UMIDADE DO AR abaixo de 20 e VENTOS MODERADOS HOJE em Duque de Caxias. HIDRATE-SE. Emergencia, 21 99463-7387.",
+      "status": "vigente",
+      "onset": "2026-08-05T07:00:00-03:00",
+      "expires": "2026-08-05T20:59:00-03:00"
+    },
+    {
+      "date": "05/08/2026",
+      "time": "06:56",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Itaguaí/RJ",
+      "headline": "Defesa Civil:Alerta de Vendaval para Itaguai/RJ. Em caso de emergencia ligue: 199/193. Abrigue-se.",
+      "status": "vigente",
+      "onset": "2026-08-05T06:56:44-03:00",
+      "expires": "2026-08-05T18:00:00-03:00"
+    },
+    {
+      "date": "05/08/2026",
+      "time": "05:00",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Nova Iguaçu/RJ",
+      "headline": "Defesa Civil: Nova Iguacu: Rajadas de vento moderado entre o fim da madrugada e manha de quarta-feira (05/08). Emergencia: 199",
+      "status": "vigente",
+      "onset": "2026-08-05T05:00:00-03:00",
+      "expires": "2026-08-05T12:00:00-03:00"
+    },
     {
       "date": "04/08/2026",
       "time": "16:33",
@@ -296,100 +334,22 @@
       "status": "vigente",
       "onset": "2026-08-04T09:18:48-03:00",
       "expires": "2026-08-05T09:00:00-03:00"
-    },
-    {
-      "date": "04/08/2026",
-      "time": "07:28",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 04/08 07:25 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e GRANIZO para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-04T07:28:17-03:00",
-      "expires": "2026-08-04T10:30:00-03:00"
-    },
-    {
-      "date": "04/08/2026",
-      "time": "06:19",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 04/08 06:16 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste, Meio-Oeste, Planalto Sul e Litoral Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-04T06:19:22-03:00",
-      "expires": "2026-08-04T10:20:00-03:00"
-    },
-    {
-      "date": "04/08/2026",
-      "time": "06:08",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: AGRESTE. Previsao de CHUVA MODERADA nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia: ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-08-04T06:08:06-03:00",
-      "expires": "2026-08-04T14:30:00-03:00"
-    },
-    {
-      "date": "04/08/2026",
-      "time": "05:57",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: MATA SUL. Previsao de CHUVA MODERADA nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia: ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-08-04T05:57:53-03:00",
-      "expires": "2026-08-04T14:30:00-03:00"
-    },
-    {
-      "date": "04/08/2026",
-      "time": "05:52",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: MATA NORTE. Previsao de CHUVA MODERADA nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia: ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-08-04T05:52:35-03:00",
-      "expires": "2026-08-04T14:30:00-03:00"
-    },
-    {
-      "date": "04/08/2026",
-      "time": "05:47",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: RMR. Previsao de CHUVA MODERADA nas proximas 24h. Fique atento as orientacoes da Defesa Civil. Emergencia: ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-08-04T05:47:12-03:00",
-      "expires": "2026-08-04T14:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 16,
+    "total_alerts": 13,
     "by_nivel": {
-      "Médio": 13,
-      "Alto": 3
+      "Médio": 8,
+      "Alto": 5
     },
     "by_channel_list": {
-      "Google": 16
+      "Google": 13
     },
     "by_region": {
-      "NE": 5,
-      "SE": 5,
+      "SE": 8,
       "CO": 3,
-      "S": 3
+      "NE": 1,
+      "S": 1
     }
   }
 }
