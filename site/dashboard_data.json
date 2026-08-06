@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-06T00:45:11.687636-03:00",
-  "source_run_dir": "run_20260806_004408",
+  "generated_at": "2026-08-06T03:51:24.778448-03:00",
+  "source_run_dir": "run_20260806_034959",
   "cards": {
-    "vigentes": 31,
-    "ultimas24h": 75,
+    "vigentes": 28,
+    "ultimas24h": 76,
     "autoridadesAtivas": 13,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "02:18",
+      "date": "06/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:02h20 Chuva isolada na regiao de Itaquaquecetuba e Suzano. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente"
+    },
     {
       "time": "00:00",
       "date": "06/08/2026",
@@ -30,7 +42,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:23h30 Chuva moderada na regiao norte da Capital de Sao Paulo. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "23:16",
@@ -42,7 +54,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:23h15 Chuva isolada na regiao de Itu e Cabreuva. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "23:06",
@@ -54,18 +66,6 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:23h05 Chuva isolada na regiao de Caieiras e Cajamar. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente"
-    },
-    {
-      "time": "22:26",
-      "date": "05/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:22h25 Chuva isolada na regiao de Dois Corregos e Anhembi. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
       "status": "expirado"
     }
   ],
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 43
+      "count": 44
     },
     {
       "name": "Defesa Civil Nacional",
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 57
+      "count": 58
     },
     {
       "label": "Alto",
@@ -142,7 +142,7 @@
     },
     {
       "label": "Chuvas Intensas",
-      "count": 17
+      "count": 18
     },
     {
       "label": "Granizo",
@@ -156,7 +156,7 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 43
+      "count": 44
     },
     {
       "uf": "RJ",
@@ -194,14 +194,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 31
+      "count": 28
     },
     {
       "label": "expirado",
-      "count": 44
+      "count": 48
     }
   ],
   "all_alerts": [
+    {
+      "date": "06/08/2026",
+      "time": "02:18",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:02h20 Chuva isolada na regiao de Itaquaquecetuba e Suzano. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-08-06T02:18:55-03:00",
+      "expires": "2026-08-06T04:20:00-03:00"
+    },
     {
       "date": "06/08/2026",
       "time": "00:00",
@@ -224,7 +237,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:23h30 Chuva moderada na regiao norte da Capital de Sao Paulo. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-05T23:31:30-03:00",
       "expires": "2026-08-06T01:30:00-03:00"
     },
@@ -237,7 +250,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:23h15 Chuva isolada na regiao de Itu e Cabreuva. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-05T23:16:01-03:00",
       "expires": "2026-08-06T01:15:00-03:00"
     },
@@ -250,7 +263,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:23h05 Chuva isolada na regiao de Caieiras e Cajamar. Tem ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-05T23:06:39-03:00",
       "expires": "2026-08-06T01:05:00-03:00"
     },
@@ -874,7 +887,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Observação Meteorológica SDC/SC 04/08 13:50 - Temporais isolados entre quarta (05) e a sexta-feira (07). Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-05T14:00:00-03:00",
       "expires": "2026-08-06T03:00:00-03:00"
     },
@@ -1179,16 +1192,16 @@
     }
   ],
   "summary": {
-    "total_alerts": 75,
+    "total_alerts": 76,
     "by_nivel": {
-      "Médio": 57,
+      "Médio": 58,
       "Alto": 18
     },
     "by_channel_list": {
-      "Google": 75
+      "Google": 76
     },
     "by_region": {
-      "SE": 55,
+      "SE": 56,
       "S": 15,
       "NE": 3,
       "CO": 1,
