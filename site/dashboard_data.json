@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-08-07T02:53:47.155294-03:00",
-  "source_run_dir": "run_20260807_025318",
+  "generated_at": "2026-08-07T04:49:22.534563-03:00",
+  "source_run_dir": "run_20260807_044846",
   "cards": {
-    "vigentes": 40,
-    "ultimas24h": 169,
+    "vigentes": 32,
+    "ultimas24h": 171,
     "autoridadesAtivas": 12,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "04:13",
+      "date": "07/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:4:13 Chuva aproximando-se de Presidente Epitacio e Maraba Paulista. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
+      "status": "vigente"
+    },
+    {
+      "time": "03:41",
+      "date": "07/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:3:39 Chuva se aproximando da area entre Mirante do Paranapanema e Nantes. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
+      "status": "vigente"
+    },
+    {
+      "time": "03:14",
+      "date": "07/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:3:13 Chuva aproximando-se de Rosana e Euclides da Cunha. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
+      "status": "vigente"
+    },
     {
       "time": "02:45",
       "date": "07/08/2026",
@@ -30,43 +66,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "Defesa Civil:ATENCAO - 07/08 01:26 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e GRANIZO nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "01:23",
-      "date": "07/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "São Paulo de Olivença/AM, Amaturá/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "01:00",
-      "date": "07/08/2026",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "senderNameShort": "DC Blumenau (SC)",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "location": "Blumenau/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas de chuva c/ trovoadas e RISCO DE TEMPORAIS ISOLADOS nas proximas 02h em Blumenau. Fique atento! Emerg 199/193.",
-      "status": "vigente"
-    },
-    {
-      "time": "01:00",
-      "date": "07/08/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:ATENCAO - 07/08 00:58 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e GRANIZO nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 37
+      "count": 39
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
@@ -128,11 +128,11 @@
     },
     {
       "label": "Médio",
-      "count": 39
+      "count": 40
     },
     {
       "label": "Alto",
-      "count": 97
+      "count": 98
     },
     {
       "label": "Severo",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 107
+      "count": 109
     },
     {
       "label": "Vendaval",
@@ -172,7 +172,7 @@
     },
     {
       "uf": "SP",
-      "count": 37
+      "count": 39
     },
     {
       "uf": "RS",
@@ -202,14 +202,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 40
+      "count": 32
     },
     {
       "label": "expirado",
-      "count": 129
+      "count": 139
     }
   ],
   "all_alerts": [
+    {
+      "date": "07/08/2026",
+      "time": "04:13",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:4:13 Chuva aproximando-se de Presidente Epitacio e Maraba Paulista. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-08-07T04:13:59-03:00",
+      "expires": "2026-08-07T07:00:00-03:00"
+    },
+    {
+      "date": "07/08/2026",
+      "time": "03:41",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:3:39 Chuva se aproximando da area entre Mirante do Paranapanema e Nantes. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-08-07T03:41:28-03:00",
+      "expires": "2026-08-07T06:00:00-03:00"
+    },
+    {
+      "date": "07/08/2026",
+      "time": "03:14",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:3:13 Chuva aproximando-se de Rosana e Euclides da Cunha. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-08-07T03:14:26-03:00",
+      "expires": "2026-08-07T05:50:00-03:00"
+    },
     {
       "date": "07/08/2026",
       "time": "02:45",
@@ -232,7 +271,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 07/08 01:26 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e GRANIZO nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-07T01:27:33-03:00",
       "expires": "2026-08-07T04:20:00-03:00"
     },
@@ -258,7 +297,7 @@
       "uf": "SC",
       "location": "Blumenau/SC",
       "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas de chuva c/ trovoadas e RISCO DE TEMPORAIS ISOLADOS nas proximas 02h em Blumenau. Fique atento! Emerg 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-07T01:00:13-03:00",
       "expires": "2026-08-07T03:00:00-03:00"
     },
@@ -271,7 +310,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 07/08 00:58 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e GRANIZO nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-07T01:00:06-03:00",
       "expires": "2026-08-07T03:55:00-03:00"
     },
@@ -284,7 +323,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-07T00:47:02-03:00",
       "expires": "2026-08-07T03:45:00-03:00"
     },
@@ -297,7 +336,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 07/08 00:35 - TEMPORAIS ISOLADOS de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO e GRANIZO para as regiões do Planalto Norte, Litoral Norte, Litoral Sul, Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-07T00:36:22-03:00",
       "expires": "2026-08-07T04:35:00-03:00"
     },
@@ -310,7 +349,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 07/08 00:29 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e GRANIZO  nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-07T00:31:37-03:00",
       "expires": "2026-08-07T03:30:00-03:00"
     },
@@ -323,7 +362,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-07T00:24:28-03:00",
       "expires": "2026-08-07T03:25:00-03:00"
     },
@@ -336,7 +375,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 07/08 00:18 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e GRANIZO  nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-07T00:20:31-03:00",
       "expires": "2026-08-07T03:15:00-03:00"
     },
@@ -388,7 +427,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 06/08 23:34 - TEMPORAIS ISOLADOS de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para os municípios de Campo Alegre, Canoinhas, Corupá, Itaiópolis, Mafra, Papanduva, Rio Negrinho, São Bento do Sul e Três Barras nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-06T23:36:43-03:00",
       "expires": "2026-08-07T03:40:00-03:00"
     },
@@ -414,7 +453,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 06/08 22:54 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Planalto Norte, Grande Florianópolis e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-06T22:58:32-03:00",
       "expires": "2026-08-07T03:00:00-03:00"
     },
@@ -440,7 +479,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:Atencao para rajadas de vento no Litoral Sul e Baixada Santista. Em caso de  emergencia, procure abrigo.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-06T22:21:03-03:00",
       "expires": "2026-08-07T03:30:00-03:00"
     },
@@ -2393,35 +2432,22 @@
       "status": "expirado",
       "onset": "2026-08-06T04:55:52-03:00",
       "expires": "2026-08-06T07:50:00-03:00"
-    },
-    {
-      "date": "06/08/2026",
-      "time": "03:56",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:03h55 Chuva isolada na regiao de Aracatuba. Tem raios e  ventos. Atinge cidades vizinhas. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-06T03:56:01-03:00",
-      "expires": "2026-08-06T05:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 169,
+    "total_alerts": 171,
     "by_nivel": {
-      "Alto": 97,
-      "Médio": 39,
+      "Alto": 98,
+      "Médio": 40,
       "Severo": 32,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 169
+      "Google": 171
     },
     "by_region": {
       "S": 108,
-      "SE": 55,
+      "SE": 57,
       "CO": 4,
       "N": 2
     }
