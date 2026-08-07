@@ -1,27 +1,39 @@
 {
-  "generated_at": "2026-08-07T14:12:57.989515-03:00",
-  "source_run_dir": "run_20260807_141155",
+  "generated_at": "2026-08-07T16:22:08.723802-03:00",
+  "source_run_dir": "run_20260807_162023",
   "cards": {
-    "vigentes": 48,
-    "ultimas24h": 159,
-    "autoridadesAtivas": 14,
+    "vigentes": 59,
+    "ultimas24h": 157,
+    "autoridadesAtivas": 15,
     "alertasExtremos": 2
   },
   "latest_alerts": [
     {
-      "time": "13:57",
+      "time": "16:15",
       "date": "07/08/2026",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "senderNameShort": "DC Rio de Janeiro",
+      "senderName": "Defesa Civil Estadual de Pernambuco",
+      "senderNameShort": "DC Pernambuco",
       "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "location": "RIO DE JANEIRO/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Umidade do ar pode ficar abaixo de 30 na tarde de hoje (07/08). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
+      "nivel": "Severo",
+      "location": "PERNAMBUCO/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:PE: SERTAO PERNAMBUCANO. Baixa umidade do ar. Beba muita agua. Emergencia: ligue 193 ou 192.",
       "status": "vigente"
     },
     {
-      "time": "13:55",
+      "time": "16:13",
+      "date": "07/08/2026",
+      "senderName": "Defesa Civil Estadual do Mato Grosso Sul",
+      "senderNameShort": "DC Mato Grosso Sul",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MATO GROSSO DO SUL/MS",
+      "uf": "MS",
+      "headline": "Defesa Civil:POSSIVEL CHUVA EM SUA REGIAO. Acompanhe o clima visualmente e PROTEJA-SE. Evite areas alagadas",
+      "status": "vigente"
+    },
+    {
+      "time": "16:10",
       "date": "07/08/2026",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "senderNameShort": "DC São Paulo",
@@ -29,11 +41,11 @@
       "nivel": "Médio",
       "location": "SÃO PAULO/SP",
       "uf": "SP",
-      "headline": "Defesa Civil:13:50 - Chuva na regiao de Ourinhos. Tem vento e raios. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
+      "headline": "Defesa Civil:16h08 Chuva isolada na regiao de Marilia e Guaranta. Tem raios e ventos. Atinge municipios vizinhos. Busque abrigo.",
       "status": "vigente"
     },
     {
-      "time": "13:47",
+      "time": "16:08",
       "date": "07/08/2026",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "senderNameShort": "DC São Paulo",
@@ -41,31 +53,19 @@
       "nivel": "Médio",
       "location": "SÃO PAULO/SP",
       "uf": "SP",
-      "headline": "Defesa Civil:13:45 - Chuva na regiao de Mirandopolis e Valparaiso. Tem vento e raios. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Em caso de emergencia, ligue 199 ou 193",
       "status": "vigente"
     },
     {
-      "time": "13:28",
+      "time": "16:07",
       "date": "07/08/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
       "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "13:05",
-      "date": "07/08/2026",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "senderNameShort": "DC Rio de Janeiro",
-      "event": "Vendaval",
-      "nivel": "Extremo",
-      "location": "Nova Iguaçu/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil: Previsao de vento forte na cidade de Nova Iguacu. A Prefeitura recomenda anticipacao do retorno para casa, visando garantir a segura",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:16h07 Chuva isolada na regiao de Taciba, Nantes, Iepe e Candido Mota. Tem raios e ventos. Atinge municipios vizinhos. Tome cuidado nas proximas ho",
       "status": "vigente"
     }
   ],
@@ -73,12 +73,7 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 52
-    },
-    {
-      "name": "Defesa Civil Nacional",
-      "short_name": "Defesa Civil Nacional",
-      "count": 23
+      "count": 49
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -86,19 +81,24 @@
       "count": 23
     },
     {
-      "name": "Defesa Civil Estadual do Rio Grande do Sul",
-      "short_name": "DC Rio Grande do Sul",
-      "count": 23
+      "name": "Defesa Civil Nacional",
+      "short_name": "Defesa Civil Nacional",
+      "count": 22
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 12
+      "count": 17
+    },
+    {
+      "name": "Defesa Civil Estadual do Rio Grande do Sul",
+      "short_name": "DC Rio Grande do Sul",
+      "count": 17
     },
     {
       "name": "Defesa Civil Estadual do Rio de Janeiro",
       "short_name": "DC Rio de Janeiro",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -128,15 +128,15 @@
     },
     {
       "label": "Médio",
-      "count": 49
+      "count": 52
     },
     {
       "label": "Alto",
-      "count": 69
+      "count": 68
     },
     {
       "label": "Severo",
-      "count": 38
+      "count": 34
     },
     {
       "label": "Extremo",
@@ -146,19 +146,15 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 86
+      "count": 91
     },
     {
       "label": "Vendaval",
-      "count": 56
+      "count": 53
     },
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 11
-    },
-    {
-      "label": "Granizo",
-      "count": 3
+      "count": 10
     },
     {
       "label": "Marés De Tempestade (Ressacas)",
@@ -172,7 +168,7 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 52
+      "count": 49
     },
     {
       "uf": "RJ",
@@ -183,12 +179,16 @@
       "count": 25
     },
     {
-      "uf": "RS",
-      "count": 23
+      "uf": "PR",
+      "count": 17
     },
     {
-      "uf": "PR",
-      "count": 12
+      "uf": "RS",
+      "count": 17
+    },
+    {
+      "uf": "MS",
+      "count": 4
     },
     {
       "uf": "AM",
@@ -203,21 +203,242 @@
       "count": 3
     },
     {
-      "uf": "MS",
-      "count": 3
+      "uf": "PE",
+      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 48
+      "count": 59
     },
     {
       "label": "expirado",
-      "count": 111
+      "count": 98
     }
   ],
   "all_alerts": [
+    {
+      "date": "07/08/2026",
+      "time": "16:15",
+      "senderName": "Defesa Civil Estadual de Pernambuco",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Severo",
+      "uf": "PE",
+      "location": "PERNAMBUCO/PE",
+      "headline": "Defesa Civil:PE: SERTAO PERNAMBUCANO. Baixa umidade do ar. Beba muita agua. Emergencia: ligue 193 ou 192.",
+      "status": "vigente",
+      "onset": "2026-08-07T16:15:59-03:00",
+      "expires": "2026-08-09T23:59:00-03:00"
+    },
+    {
+      "date": "07/08/2026",
+      "time": "16:13",
+      "senderName": "Defesa Civil Estadual do Mato Grosso Sul",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MS",
+      "location": "MATO GROSSO DO SUL/MS",
+      "headline": "Defesa Civil:POSSIVEL CHUVA EM SUA REGIAO. Acompanhe o clima visualmente e PROTEJA-SE. Evite areas alagadas",
+      "status": "vigente",
+      "onset": "2026-08-07T16:13:16-03:00",
+      "expires": "2026-08-08T00:55:00-03:00"
+    },
+    {
+      "date": "07/08/2026",
+      "time": "16:10",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:16h08 Chuva isolada na regiao de Marilia e Guaranta. Tem raios e ventos. Atinge municipios vizinhos. Busque abrigo.",
+      "status": "vigente",
+      "onset": "2026-08-07T16:10:00-03:00",
+      "expires": "2026-08-07T18:10:00-03:00"
+    },
+    {
+      "date": "07/08/2026",
+      "time": "16:08",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Em caso de emergencia, ligue 199 ou 193",
+      "status": "vigente",
+      "onset": "2026-08-07T16:08:47-03:00",
+      "expires": "2026-08-07T18:30:00-03:00"
+    },
+    {
+      "date": "07/08/2026",
+      "time": "16:07",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:16h07 Chuva isolada na regiao de Taciba, Nantes, Iepe e Candido Mota. Tem raios e ventos. Atinge municipios vizinhos. Tome cuidado nas proximas ho",
+      "status": "vigente",
+      "onset": "2026-08-07T16:07:43-03:00",
+      "expires": "2026-08-07T18:10:00-03:00"
+    },
+    {
+      "date": "07/08/2026",
+      "time": "15:57",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:15h57 Chuva isolada na regiao de Jundiai, Jarinu e Atibaia. Tem ventos. Atinge municipios vizinhos. Tome cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-08-07T15:57:21-03:00",
+      "expires": "2026-08-07T17:55:00-03:00"
+    },
+    {
+      "date": "07/08/2026",
+      "time": "15:54",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:15h53 Chuva isolada na regiao de Getulina, Pompeia e Herculandia. Tem raios e ventos.  Atinge municipios vizinhos. Tome cuidado nas proximas horas",
+      "status": "vigente",
+      "onset": "2026-08-07T15:54:15-03:00",
+      "expires": "2026-08-07T18:30:00-03:00"
+    },
+    {
+      "date": "07/08/2026",
+      "time": "15:41",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-07T15:41:15-03:00",
+      "expires": "2026-08-07T18:40:00-03:00"
+    },
+    {
+      "date": "07/08/2026",
+      "time": "15:36",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:15h37 Chuva isolada na regiao de Braganca Paulista. Tem ventos.  Atinge municipios vizinhos. Tome cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-08-07T15:36:59-03:00",
+      "expires": "2026-08-07T17:35:00-03:00"
+    },
+    {
+      "date": "07/08/2026",
+      "time": "15:34",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:15h33 Chuva isolada na regiao de Penapolis, Luiziania, Brauna e Arco-Iris. Tem raios e ventos.  Atinge municipios vizinhos. Busque abrigo.",
+      "status": "vigente",
+      "onset": "2026-08-07T15:34:06-03:00",
+      "expires": "2026-08-07T17:30:00-03:00"
+    },
+    {
+      "date": "07/08/2026",
+      "time": "15:25",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:15h25 Chuva isolada na regiao de Monte Mor, Campinas, Tuiuti e Pedreira. Tem ventos.  Atinge municipios vizinhos. Tenha cuidado nas proximas horas",
+      "status": "vigente",
+      "onset": "2026-08-07T15:25:15-03:00",
+      "expires": "2026-08-07T17:25:00-03:00"
+    },
+    {
+      "date": "07/08/2026",
+      "time": "15:23",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-07T15:23:18-03:00",
+      "expires": "2026-08-07T18:20:00-03:00"
+    },
+    {
+      "date": "07/08/2026",
+      "time": "15:20",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-07T15:20:27-03:00",
+      "expires": "2026-08-07T18:20:00-03:00"
+    },
+    {
+      "date": "07/08/2026",
+      "time": "14:46",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-07T14:46:48-03:00",
+      "expires": "2026-08-07T17:45:00-03:00"
+    },
+    {
+      "date": "07/08/2026",
+      "time": "14:23",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-07T14:23:15-03:00",
+      "expires": "2026-08-07T17:20:00-03:00"
+    },
+    {
+      "date": "07/08/2026",
+      "time": "14:20",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:14:15 - Chuva se espalhando pela regiao de Aracatuba. Tem raios e vento. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-08-07T14:20:10-03:00",
+      "expires": "2026-08-07T17:30:00-03:00"
+    },
+    {
+      "date": "07/08/2026",
+      "time": "14:18",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "event": "Vendaval",
+      "nivel": "Severo",
+      "uf": "RJ",
+      "location": "RIO DE JANEIRO/RJ",
+      "headline": "Defesa Civil: ERJ ALERTA para rajadas de vento nas proximas horas. Em caso de Emergencia ligue 199, 193, procure ABRIGO",
+      "status": "vigente",
+      "onset": "2026-08-07T14:18:58-03:00",
+      "expires": "2026-08-07T17:00:00-03:00"
+    },
     {
       "date": "07/08/2026",
       "time": "13:57",
@@ -292,7 +513,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-07T13:04:33-03:00",
       "expires": "2026-08-07T15:00:00-03:00"
     },
@@ -331,7 +552,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-07T12:49:02-03:00",
       "expires": "2026-08-07T15:50:00-03:00"
     },
@@ -344,7 +565,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:12h38 Chuva isolada na regiao de Junqueiropolis, Flora Rica e Pacaembu. Tem raios e  ventos. Atinge cidades vizinhas.  Abrigue-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-07T12:39:37-03:00",
       "expires": "2026-08-07T15:00:00-03:00"
     },
@@ -370,7 +591,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:12:15 - Chuva na regiao da Baixada Santista. Tem vento e condicoes para raios. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-07T12:20:27-03:00",
       "expires": "2026-08-07T15:15:00-03:00"
     },
@@ -474,7 +695,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:11h31 Chuva isolada na regiao de Pres. Epitacio, Dracena, Panorama e Nova Independencia. Tem raios e  ventos. Atinge cidades vizinhas. Abrigue-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-07T11:32:31-03:00",
       "expires": "2026-08-07T14:30:00-03:00"
     },
@@ -2037,272 +2258,26 @@
       "status": "expirado",
       "onset": "2026-08-06T16:22:03-03:00",
       "expires": "2026-08-06T19:25:00-03:00"
-    },
-    {
-      "date": "06/08/2026",
-      "time": "16:21",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:16:20 - Chuva na regiao de Itai. Tem raios e vento. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-06T16:21:24-03:00",
-      "expires": "2026-08-06T19:30:00-03:00"
-    },
-    {
-      "date": "06/08/2026",
-      "time": "16:16",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:Novas areas de instabilidade se deslocando em direcao a regiao de Assis e Palmital. Tem raios e vento. Atinge areas proximas. Busque abrigo!",
-      "status": "expirado",
-      "onset": "2026-08-06T16:16:07-03:00",
-      "expires": "2026-08-06T19:30:00-03:00"
-    },
-    {
-      "date": "06/08/2026",
-      "time": "16:14",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:Chuva forte na regiao de Maracai. Tem raios e vento. Atinge municipios vizinhos. Caso necessario, busque abrigo.",
-      "status": "expirado",
-      "onset": "2026-08-06T16:14:04-03:00",
-      "expires": "2026-08-06T19:35:00-03:00"
-    },
-    {
-      "date": "06/08/2026",
-      "time": "16:05",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:Chuva forte se deslocando para Piraju. Tem raios e vento. atinge municipios vizinhos. Caso necessario, busque abrigo.",
-      "status": "expirado",
-      "onset": "2026-08-06T16:05:24-03:00",
-      "expires": "2026-08-06T19:35:00-03:00"
-    },
-    {
-      "date": "06/08/2026",
-      "time": "16:00",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:15:55 - Chuva na regiao de Sao Miguel Arcanjo. Tem raios e vento. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-06T16:00:47-03:00",
-      "expires": "2026-08-06T19:10:00-03:00"
-    },
-    {
-      "date": "06/08/2026",
-      "time": "15:58",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:15:55 - Chuva na regiao de Juquia e Sete Barras. Tem raios e vento. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-06T15:58:36-03:00",
-      "expires": "2026-08-06T18:30:00-03:00"
-    },
-    {
-      "date": "06/08/2026",
-      "time": "15:52",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 19h50. Mantenha-se seguro",
-      "status": "expirado",
-      "onset": "2026-08-06T15:52:33-03:00",
-      "expires": "2026-08-06T19:50:00-03:00"
-    },
-    {
-      "date": "06/08/2026",
-      "time": "15:49",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:Chuva forte na regiao de Taciba. Tem raios e vento. Atinge areas proximas. Busque abrigo, caso necessario.",
-      "status": "expirado",
-      "onset": "2026-08-06T15:49:52-03:00",
-      "expires": "2026-08-06T18:30:00-03:00"
-    },
-    {
-      "date": "06/08/2026",
-      "time": "15:48",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:Chuva forte se deslocando para Ipaussu. Tem raios e vento. Atinge areas proximas. Busque abrigo, caso necessario.",
-      "status": "expirado",
-      "onset": "2026-08-06T15:48:20-03:00",
-      "expires": "2026-08-06T18:30:00-03:00"
-    },
-    {
-      "date": "06/08/2026",
-      "time": "15:45",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA Condicao de ALERTA p tempestade vento e granizo Risco ALTO de destelhamento. Val. ate 19h45. Mantenha-se seguro. Emerg 190/193",
-      "status": "expirado",
-      "onset": "2026-08-06T15:45:00-03:00",
-      "expires": "2026-08-06T19:45:00-03:00"
-    },
-    {
-      "date": "06/08/2026",
-      "time": "15:29",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:Chuva forte na regiao de Ourinhos. Tem raios e vento. Atinge municipios vizinhos. Busque abrigo, caso necessario.",
-      "status": "expirado",
-      "onset": "2026-08-06T15:29:53-03:00",
-      "expires": "2026-08-06T18:30:00-03:00"
-    },
-    {
-      "date": "06/08/2026",
-      "time": "15:23",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:15h20 Umidade do ar abaixo de 30 em Jales, Barretos e Itapira. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-08-06T15:23:43-03:00",
-      "expires": "2026-08-06T18:00:00-03:00"
-    },
-    {
-      "date": "06/08/2026",
-      "time": "15:15",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Maricá/RJ",
-      "headline": "Defesa Civil:Marica/RJ: Atencao a previsao de rajadas de vento fortes da tarde de sexta 7/8 a madrugada de sabado 8/8. Emerg. 199, 966282699 (fone/whatsapp)",
-      "status": "vigente",
-      "onset": "2026-08-06T15:15:00-03:00",
-      "expires": "2026-08-08T09:00:00-03:00"
-    },
-    {
-      "date": "06/08/2026",
-      "time": "15:04",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/tempestade c/granizo e vento. Risco ALTO de destelhamento. Val. ate 17h00. Mantenha-se seguro. Emerg. 190",
-      "status": "expirado",
-      "onset": "2026-08-06T15:04:20-03:00",
-      "expires": "2026-08-06T17:00:00-03:00"
-    },
-    {
-      "date": "06/08/2026",
-      "time": "14:55",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA Condicao de ALERTA p/tempestade c/granizo e vento. Risco ALTO de destelhamento. Val ate 17h00 Mantenha-se seguro Emerg. 190/193",
-      "status": "expirado",
-      "onset": "2026-08-06T14:55:31-03:00",
-      "expires": "2026-08-06T17:00:00-03:00"
-    },
-    {
-      "date": "06/08/2026",
-      "time": "14:43",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:14:40 - Chuva na regiao de Ourinhos. Tem raios e condicao para ventos. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-06T14:43:45-03:00",
-      "expires": "2026-08-06T19:35:00-03:00"
-    },
-    {
-      "date": "06/08/2026",
-      "time": "14:40",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 15h40. Mantenha-se seguro",
-      "status": "expirado",
-      "onset": "2026-08-06T14:40:00-03:00",
-      "expires": "2026-08-06T15:40:00-03:00"
-    },
-    {
-      "date": "06/08/2026",
-      "time": "14:37",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 16h35. Mantenha-se seguro",
-      "status": "expirado",
-      "onset": "2026-08-06T14:37:50-03:00",
-      "expires": "2026-08-06T16:35:00-03:00"
-    },
-    {
-      "date": "06/08/2026",
-      "time": "14:30",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:14h30 Umidade do ar abaixo de 30 em Votuporanga, Ituverava, Pindamonhangaba e Santa Fe do Sul. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-08-06T14:30:03-03:00",
-      "expires": "2026-08-06T18:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 159,
+    "total_alerts": 157,
     "by_nivel": {
-      "Alto": 69,
-      "Médio": 49,
-      "Severo": 38,
+      "Alto": 68,
+      "Médio": 52,
+      "Severo": 34,
       "Extremo": 2,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 159
+      "Google": 157
     },
     "by_region": {
-      "SE": 85,
-      "S": 60,
-      "CO": 10,
-      "N": 4
+      "SE": 82,
+      "S": 59,
+      "CO": 11,
+      "N": 4,
+      "NE": 1
     }
   }
 }
