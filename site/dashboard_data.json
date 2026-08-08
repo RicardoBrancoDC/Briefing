@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-08-08T02:12:26.786922-03:00",
-  "source_run_dir": "run_20260808_021153",
+  "generated_at": "2026-08-08T04:19:24.600044-03:00",
+  "source_run_dir": "run_20260808_041856",
   "cards": {
-    "vigentes": 15,
-    "ultimas24h": 99,
+    "vigentes": 14,
+    "ultimas24h": 98,
     "autoridadesAtivas": 14,
     "alertasExtremos": 2
   },
   "latest_alerts": [
+    {
+      "time": "03:57",
+      "date": "08/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:03h55 - Chuva na regiao de Dois Corregos e Anhembi. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
+      "status": "vigente"
+    },
+    {
+      "time": "03:00",
+      "date": "08/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:03h00 - Chuva isolada na regiao de Arealva. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
+      "status": "vigente"
+    },
+    {
+      "time": "02:40",
+      "date": "08/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:02h40 - Chuva isolada na regiao de Angatuba. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
+      "status": "vigente"
+    },
     {
       "time": "01:46",
       "date": "08/08/2026",
@@ -18,7 +54,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:01h45 - Chuva isolada na regiao de Mogi-mirim. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "01:27",
@@ -30,42 +66,6 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:01h25 - Chuva na regiao de Silveiras e Areias. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
-      "status": "vigente"
-    },
-    {
-      "time": "01:06",
-      "date": "08/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:01h05 - Chuva na regiao de Itirapina e Limeira. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
-      "status": "vigente"
-    },
-    {
-      "time": "01:05",
-      "date": "08/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:01h05 - Chuva na regiao de Itirapina e Limeira. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
-      "status": "vigente"
-    },
-    {
-      "time": "22:18",
-      "date": "07/08/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios e rajadas de vento nas proximas 2h. Proteja-se!",
       "status": "expirado"
     }
   ],
@@ -83,7 +83,7 @@
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 8
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 58
+      "count": 59
     },
     {
       "label": "Alto",
-      "count": 29
+      "count": 27
     },
     {
       "label": "Severo",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 64
+      "count": 63
     },
     {
       "label": "Vendaval",
@@ -172,7 +172,7 @@
     },
     {
       "uf": "PR",
-      "count": 8
+      "count": 7
     },
     {
       "uf": "AM",
@@ -206,7 +206,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 15
+      "count": 14
     },
     {
       "label": "expirado",
@@ -216,6 +216,45 @@
   "all_alerts": [
     {
       "date": "08/08/2026",
+      "time": "03:57",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:03h55 - Chuva na regiao de Dois Corregos e Anhembi. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-08-08T03:57:06-03:00",
+      "expires": "2026-08-08T05:55:00-03:00"
+    },
+    {
+      "date": "08/08/2026",
+      "time": "03:00",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:03h00 - Chuva isolada na regiao de Arealva. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-08-08T03:00:46-03:00",
+      "expires": "2026-08-08T05:00:00-03:00"
+    },
+    {
+      "date": "08/08/2026",
+      "time": "02:40",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:02h40 - Chuva isolada na regiao de Angatuba. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-08-08T02:40:13-03:00",
+      "expires": "2026-08-08T05:40:00-03:00"
+    },
+    {
+      "date": "08/08/2026",
       "time": "01:46",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "event": "Chuvas Intensas",
@@ -223,7 +262,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:01h45 - Chuva isolada na regiao de Mogi-mirim. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-08T01:46:00-03:00",
       "expires": "2026-08-08T03:45:00-03:00"
     },
@@ -236,7 +275,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:01h25 - Chuva na regiao de Silveiras e Areias. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-08T01:27:49-03:00",
       "expires": "2026-08-08T03:25:00-03:00"
     },
@@ -249,7 +288,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:01h05 - Chuva na regiao de Itirapina e Limeira. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-08T01:06:21-03:00",
       "expires": "2026-08-08T03:05:00-03:00"
     },
@@ -262,7 +301,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:01h05 - Chuva na regiao de Itirapina e Limeira. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-08T01:05:00-03:00",
       "expires": "2026-08-08T03:05:00-03:00"
     },
@@ -1448,74 +1487,22 @@
       "status": "expirado",
       "onset": "2026-08-07T04:58:04-03:00",
       "expires": "2026-08-07T07:00:00-03:00"
-    },
-    {
-      "date": "07/08/2026",
-      "time": "04:13",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:4:13 Chuva aproximando-se de Presidente Epitacio e Maraba Paulista. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-07T04:13:59-03:00",
-      "expires": "2026-08-07T07:00:00-03:00"
-    },
-    {
-      "date": "07/08/2026",
-      "time": "03:41",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:3:39 Chuva se aproximando da area entre Mirante do Paranapanema e Nantes. Tem raios e vento. Atinge cidades vizinhas. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-07T03:41:28-03:00",
-      "expires": "2026-08-07T06:00:00-03:00"
-    },
-    {
-      "date": "07/08/2026",
-      "time": "03:14",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:3:13 Chuva aproximando-se de Rosana e Euclides da Cunha. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-07T03:14:26-03:00",
-      "expires": "2026-08-07T05:50:00-03:00"
-    },
-    {
-      "date": "07/08/2026",
-      "time": "02:45",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-07T02:45:38-03:00",
-      "expires": "2026-08-07T05:45:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 99,
+    "total_alerts": 98,
     "by_nivel": {
-      "Médio": 58,
-      "Alto": 29,
+      "Médio": 59,
+      "Alto": 27,
       "Severo": 10,
       "Extremo": 2
     },
     "by_channel_list": {
-      "Google": 99
+      "Google": 98
     },
     "by_region": {
       "SE": 76,
-      "S": 11,
+      "S": 10,
       "CO": 7,
       "N": 4,
       "NE": 1
