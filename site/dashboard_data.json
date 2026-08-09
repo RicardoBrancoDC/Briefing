@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-08-09T06:06:17.911887-03:00",
-  "source_run_dir": "run_20260809_060547",
+  "generated_at": "2026-08-09T07:55:39.378029-03:00",
+  "source_run_dir": "run_20260809_075524",
   "cards": {
-    "vigentes": 11,
-    "ultimas24h": 96,
+    "vigentes": 14,
+    "ultimas24h": 92,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "07:51",
+      "date": "09/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:07h50 Chuva na regiao de Cajati, Ilha Comprida e Iguape. Tem raios e ventos. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
+      "status": "vigente"
+    },
+    {
+      "time": "07:23",
+      "date": "09/08/2026",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "senderNameShort": "DC Blumenau (SC)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Blumenau/SC",
+      "uf": "SC",
+      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas isoladas de chuva c/ trovoadas e RISCO DE CHUVA INTENSA a partir do final da manha (09). Fique atento! Emerg 199/193",
+      "status": "vigente"
+    },
+    {
+      "time": "06:59",
+      "date": "09/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "location": "Duque de Caxias/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:ALERTA de RAJADAS DE VENTOS MODERADOS A FORTES a partir da MANHA (09/08) em Duque de Caxias. ABRIGUE-SE. Emergencia, 21 99463-7387",
+      "status": "vigente"
+    },
     {
       "time": "05:51",
       "date": "09/08/2026",
@@ -31,59 +67,23 @@
       "uf": "SC",
       "headline": "Defesa Civil:ATENCAO - 09/08 02:50 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
       "status": "expirado"
-    },
-    {
-      "time": "01:36",
-      "date": "09/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:01h35 Chuva se espalhando pela regiao de Eldorado e Registro. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
-      "status": "expirado"
-    },
-    {
-      "time": "01:11",
-      "date": "09/08/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:PR AVISO DE TEMPO: Temporais com chuva forte neste dom 09/08. Mantenha-se atento e evite situacoes de risco. Ocorrencias, ligue 199/193.",
-      "status": "vigente"
-    },
-    {
-      "time": "01:09",
-      "date": "09/08/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:PR AVISO DE TEMPO: Temporais com chuva forte neste dom 09/08. Mantenha-se atento e evite situacoes de risco. Ocorrencias, ligue 199/193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 42
+      "count": 41
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 26
+      "count": 25
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 14
+      "count": 12
     },
     {
       "name": "Defesa Civil Nacional",
@@ -113,16 +113,12 @@
   ],
   "level_distribution": [
     {
-      "label": "Baixo",
-      "count": 1
-    },
-    {
       "label": "Médio",
-      "count": 38
+      "count": 34
     },
     {
       "label": "Alto",
-      "count": 49
+      "count": 50
     },
     {
       "label": "Severo",
@@ -132,7 +128,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 84
+      "count": 80
     },
     {
       "label": "Vendaval",
@@ -150,15 +146,15 @@
   "uf_distribution": [
     {
       "uf": "SC",
-      "count": 46
+      "count": 45
     },
     {
       "uf": "PR",
-      "count": 26
+      "count": 25
     },
     {
       "uf": "SP",
-      "count": 14
+      "count": 12
     },
     {
       "uf": "RJ",
@@ -180,14 +176,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 11
+      "count": 14
     },
     {
       "label": "expirado",
-      "count": 85
+      "count": 78
     }
   ],
   "all_alerts": [
+    {
+      "date": "09/08/2026",
+      "time": "07:51",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:07h50 Chuva na regiao de Cajati, Ilha Comprida e Iguape. Tem raios e ventos. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-08-09T07:51:04-03:00",
+      "expires": "2026-08-09T09:50:00-03:00"
+    },
+    {
+      "date": "09/08/2026",
+      "time": "07:23",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "Blumenau/SC",
+      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas isoladas de chuva c/ trovoadas e RISCO DE CHUVA INTENSA a partir do final da manha (09). Fique atento! Emerg 199/193",
+      "status": "vigente",
+      "onset": "2026-08-09T07:23:34-03:00",
+      "expires": "2026-08-09T23:55:00-03:00"
+    },
+    {
+      "date": "09/08/2026",
+      "time": "06:59",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Duque de Caxias/RJ",
+      "headline": "Defesa Civil:ALERTA de RAJADAS DE VENTOS MODERADOS A FORTES a partir da MANHA (09/08) em Duque de Caxias. ABRIGUE-SE. Emergencia, 21 99463-7387",
+      "status": "vigente",
+      "onset": "2026-08-09T06:59:00-03:00",
+      "expires": "2026-08-10T17:59:00-03:00"
+    },
     {
       "date": "09/08/2026",
       "time": "05:51",
@@ -1344,113 +1379,21 @@
       "status": "expirado",
       "onset": "2026-08-08T08:06:01-03:00",
       "expires": "2026-08-08T13:10:00-03:00"
-    },
-    {
-      "date": "08/08/2026",
-      "time": "07:44",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 08/08 07:39 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e GRANIZO para as regiões do Meio-Oeste, Planalto Norte, Litoral Norte, Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 5 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-08T07:44:24-03:00",
-      "expires": "2026-08-08T12:50:00-03:00"
-    },
-    {
-      "date": "08/08/2026",
-      "time": "07:28",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Baixo",
-      "uf": "RJ",
-      "location": "Maricá/RJ",
-      "headline": "Retorno para estágio meteorológico de NORMALIDADE em Maricá/RJ às 07h00 do dia 08/08/2026. Emergência : 199 ou 96628-2699 (Fone/Whatsapp).",
-      "status": "expirado",
-      "onset": "2026-08-08T07:28:26-03:00",
-      "expires": "2026-08-08T12:00:00-03:00"
-    },
-    {
-      "date": "08/08/2026",
-      "time": "07:17",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR AVISO DE TEMPO: Temporais com chuva forte e ventos neste sab 08/08. Mantenha-se atento e evite situacoes de risco. Ocorrencias, ligue 199/193.",
-      "status": "expirado",
-      "onset": "2026-08-08T07:17:32-03:00",
-      "expires": "2026-08-09T01:10:00-03:00"
-    },
-    {
-      "date": "08/08/2026",
-      "time": "06:48",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:06h50 - Chuva se espalhando pela regiao de  Itu e Porto Feliz. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-08T06:48:51-03:00",
-      "expires": "2026-08-08T08:50:00-03:00"
-    },
-    {
-      "date": "08/08/2026",
-      "time": "06:44",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "Blumenau/SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas de chuva c/ trovoadas e RISCO DE TEMPORAIS ISOLADOS entre manha e tarde (08) em Blumenau. Fique atento! Emerg 199/193.",
-      "status": "expirado",
-      "onset": "2026-08-08T06:44:27-03:00",
-      "expires": "2026-08-08T23:55:00-03:00"
-    },
-    {
-      "date": "08/08/2026",
-      "time": "06:39",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:06h40 - Chuva se espalhando pela regiao de Socorro e Serra Negra Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-08T06:39:57-03:00",
-      "expires": "2026-08-08T08:40:00-03:00"
-    },
-    {
-      "date": "08/08/2026",
-      "time": "06:28",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:06h30 - Chuva se espalhando pela regiao de Guarulhos. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-08T06:28:59-03:00",
-      "expires": "2026-08-08T08:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 96,
+    "total_alerts": 92,
     "by_nivel": {
-      "Alto": 49,
-      "Médio": 38,
-      "Severo": 8,
-      "Baixo": 1
+      "Alto": 50,
+      "Médio": 34,
+      "Severo": 8
     },
     "by_channel_list": {
-      "Google": 96
+      "Google": 92
     },
     "by_region": {
-      "S": 74,
-      "SE": 20,
+      "S": 72,
+      "SE": 18,
       "CO": 1,
       "N": 1
     }
