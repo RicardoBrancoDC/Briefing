@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-09T04:20:06.417261-03:00",
-  "source_run_dir": "run_20260809_041943",
+  "generated_at": "2026-08-09T06:06:17.911887-03:00",
+  "source_run_dir": "run_20260809_060547",
   "cards": {
-    "vigentes": 12,
-    "ultimas24h": 101,
+    "vigentes": 11,
+    "ultimas24h": 96,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "05:51",
+      "date": "09/08/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "02:52",
       "date": "09/08/2026",
@@ -18,7 +30,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "Defesa Civil:ATENCAO - 09/08 02:50 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "01:36",
@@ -55,18 +67,6 @@
       "uf": "PR",
       "headline": "Defesa Civil:PR AVISO DE TEMPO: Temporais com chuva forte neste dom 09/08. Mantenha-se atento e evite situacoes de risco. Ocorrencias, ligue 199/193.",
       "status": "vigente"
-    },
-    {
-      "time": "01:04",
-      "date": "09/08/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 09/08 01:02 - TEMPORAIS ISOLADOS de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Planalto Norte, Litoral Norte, Baixo e Médio Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -78,12 +78,12 @@
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 25
+      "count": 26
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 19
+      "count": 14
     },
     {
       "name": "Defesa Civil Nacional",
@@ -96,14 +96,14 @@
       "count": 4
     },
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual de Goiás",
@@ -118,7 +118,7 @@
     },
     {
       "label": "Médio",
-      "count": 43
+      "count": 38
     },
     {
       "label": "Alto",
@@ -132,7 +132,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 89
+      "count": 84
     },
     {
       "label": "Vendaval",
@@ -154,23 +154,23 @@
     },
     {
       "uf": "PR",
-      "count": 25
+      "count": 26
     },
     {
       "uf": "SP",
-      "count": 19
+      "count": 14
     },
     {
       "uf": "RJ",
       "count": 6
     },
     {
-      "uf": "AM",
+      "uf": "RS",
       "count": 2
     },
     {
-      "uf": "RS",
-      "count": 2
+      "uf": "AM",
+      "count": 1
     },
     {
       "uf": "GO",
@@ -180,14 +180,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 12
+      "count": 11
     },
     {
       "label": "expirado",
-      "count": 89
+      "count": 85
     }
   ],
   "all_alerts": [
+    {
+      "date": "09/08/2026",
+      "time": "05:51",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-09T05:51:12-03:00",
+      "expires": "2026-08-09T08:50:00-03:00"
+    },
     {
       "date": "09/08/2026",
       "time": "02:52",
@@ -197,7 +210,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 09/08 02:50 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-09T02:52:29-03:00",
       "expires": "2026-08-09T05:50:00-03:00"
     },
@@ -249,7 +262,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 09/08 01:02 - TEMPORAIS ISOLADOS de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Planalto Norte, Litoral Norte, Baixo e Médio Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-09T01:04:47-03:00",
       "expires": "2026-08-09T05:00:00-03:00"
     },
@@ -1422,102 +1435,24 @@
       "status": "expirado",
       "onset": "2026-08-08T06:28:59-03:00",
       "expires": "2026-08-08T08:30:00-03:00"
-    },
-    {
-      "date": "08/08/2026",
-      "time": "06:04",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:06h05 - Chuva se espalhando na regiao de Holambra e Pedreira. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-08T06:04:15-03:00",
-      "expires": "2026-08-08T08:05:00-03:00"
-    },
-    {
-      "date": "08/08/2026",
-      "time": "05:56",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:05h55 - Chuva se espalhando na regiao de Jundiai e Francisco Morato. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-08T05:56:45-03:00",
-      "expires": "2026-08-08T07:55:00-03:00"
-    },
-    {
-      "date": "08/08/2026",
-      "time": "05:38",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-08-08T05:38:51-03:00",
-      "expires": "2026-08-08T08:30:00-03:00"
-    },
-    {
-      "date": "08/08/2026",
-      "time": "05:34",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:05h35 - Chuva se espalhando na regiao de Americana e Itupeva. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-08T05:34:35-03:00",
-      "expires": "2026-08-08T07:35:00-03:00"
-    },
-    {
-      "date": "08/08/2026",
-      "time": "04:40",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:04h40 - Chuva na regiao de Itirapina e Mombuca. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-08T04:40:30-03:00",
-      "expires": "2026-08-08T06:40:00-03:00"
-    },
-    {
-      "date": "08/08/2026",
-      "time": "04:40",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:04h40 - Chuva na regiao de Itirapina e Mombuca. Tem raios e vento. Atinge municipios vizinhos. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-08T04:40:12-03:00",
-      "expires": "2026-08-08T06:40:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 101,
+    "total_alerts": 96,
     "by_nivel": {
       "Alto": 49,
-      "Médio": 43,
+      "Médio": 38,
       "Severo": 8,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 101
+      "Google": 96
     },
     "by_region": {
-      "S": 73,
-      "SE": 25,
-      "N": 2,
-      "CO": 1
+      "S": 74,
+      "SE": 20,
+      "CO": 1,
+      "N": 1
     }
   }
 }
