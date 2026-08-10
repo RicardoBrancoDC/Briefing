@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-08-10T08:29:09.043568-03:00",
-  "source_run_dir": "run_20260810_082856",
+  "generated_at": "2026-08-10T10:48:47.855829-03:00",
+  "source_run_dir": "run_20260810_104835",
   "cards": {
     "vigentes": 5,
-    "ultimas24h": 92,
-    "autoridadesAtivas": 9,
-    "alertasExtremos": 0
+    "ultimas24h": 81,
+    "autoridadesAtivas": 7,
+    "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "10:06",
+      "date": "10/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Frentes Frias/Zonas De Convergência",
+      "nivel": "Médio",
+      "location": "Belford Roxo/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Belford Roxo, chuva fraca a moderada hoje (10/08). Evite areas alagadas, redobre a atencao e acompanhe a Defesa Civil. Emergencia: 193/967200158",
+      "status": "vigente"
+    },
+    {
+      "time": "10:00",
+      "date": "10/08/2026",
+      "senderName": "Defesa Civil de Petrópolis (RJ)",
+      "senderNameShort": "DC Petrópolis (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Extremo",
+      "location": "Petrópolis/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Petropolis - SIMULADO CAXAMBU - Evacuacao imediata em areas de risco. Dirijam-se para os pontos de apoio.",
+      "status": "vigente"
+    },
+    {
+      "time": "09:31",
+      "date": "10/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "location": "Belo Horizonte/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de Baixa umidade do ar em Belo Horizonte, ate 18h de segunda-feira (10). Hidrate-se! Mais informacoes nas redes sociais: defesacivilbh",
+      "status": "vigente"
+    },
+    {
+      "time": "08:57",
+      "date": "10/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Marés De Tempestade (Ressacas)",
+      "nivel": "Médio",
+      "location": "Niterói/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Niteroi: Aviso de Ressaca. Inicio: 10/08 segunda-feira 18h. Fim: 12/08 quarta-feira 00h. Ondas com altura de 2,5 metros. Emergencia, 199.",
+      "status": "vigente"
+    },
     {
       "time": "06:47",
       "date": "10/08/2026",
@@ -18,54 +66,6 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:6h46 Chuva em Capao Bonito. Deslocando-se para Sao Miguel Arcanjo. Tem raios e ventos. Atinge cidades proximas. Cuidado nas proximas horas.",
-      "status": "vigente"
-    },
-    {
-      "time": "02:31",
-      "date": "10/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:02h29 Chuva se aproximado da area entre Ipaussu e Fartura. Tem raios e ventos. Atinge cidades proximos. Cuidado nas proximas horas.",
-      "status": "expirado"
-    },
-    {
-      "time": "00:02",
-      "date": "10/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:00h01 Chuva em Salesopolis. Tem raios e ventos. Atinge cidades proximos. Cuidado nas proximas horas.",
-      "status": "expirado"
-    },
-    {
-      "time": "00:00",
-      "date": "10/08/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Friagem",
-      "nivel": "Alto",
-      "location": "Nova Iguaçu/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil: Nova Iguacu: Baixas temperaturas do ar entre segunda (10) e quarta (12), princip. entre a noite e inicio da manha. Emergencia, 199.",
-      "status": "vigente"
-    },
-    {
-      "time": "23:58",
-      "date": "09/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:23h57 Chuva em Barra do Chapeu e Itapirapua Paulista. Avancando para Apiai. Tem raios e ventos. Atinge cidades proximos. Cuidado na proxima hora.",
       "status": "expirado"
     }
   ],
@@ -78,27 +78,22 @@
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 13
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 7
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual do Rio de Janeiro",
       "short_name": "DC Rio de Janeiro",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 4
-    },
-    {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Defesa Civil de Petrópolis (RJ)",
@@ -106,45 +101,44 @@
       "count": 1
     },
     {
-      "name": "Defesa Civil do Rio de Janeiro (RJ)",
-      "short_name": "Defesa Civil do Rio de Janeiro…",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Angra dos Reis (RJ)",
-      "short_name": "DC Angra dos Reis (RJ)",
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 58
+      "count": 53
     },
     {
       "label": "Alto",
-      "count": 32
+      "count": 25
     },
     {
       "label": "Severo",
       "count": 2
+    },
+    {
+      "label": "Extremo",
+      "count": 1
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 55
+      "count": 54
     },
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 21
+      "count": 22
     },
     {
       "label": "Vendaval",
-      "count": 13
+      "count": 2
     },
     {
-      "label": "Friagem",
+      "label": "Frentes Frias/Zonas De Convergência",
       "count": 1
     },
     {
@@ -152,7 +146,7 @@
       "count": 1
     },
     {
-      "label": "Ventos Costeiros (Mobilidade De Dunas)",
+      "label": "Friagem",
       "count": 1
     }
   ],
@@ -163,15 +157,19 @@
     },
     {
       "uf": "RJ",
-      "count": 21
+      "count": 12
     },
     {
       "uf": "PR",
-      "count": 7
+      "count": 6
     },
     {
       "uf": "SC",
-      "count": 4
+      "count": 2
+    },
+    {
+      "uf": "MG",
+      "count": 1
     },
     {
       "uf": "AM",
@@ -185,10 +183,62 @@
     },
     {
       "label": "expirado",
-      "count": 87
+      "count": 76
     }
   ],
   "all_alerts": [
+    {
+      "date": "10/08/2026",
+      "time": "10:06",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Frentes Frias/Zonas De Convergência",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Belford Roxo/RJ",
+      "headline": "Defesa Civil:Belford Roxo, chuva fraca a moderada hoje (10/08). Evite areas alagadas, redobre a atencao e acompanhe a Defesa Civil. Emergencia: 193/967200158",
+      "status": "vigente",
+      "onset": "2026-08-10T10:06:15-03:00",
+      "expires": "2026-08-10T19:00:00-03:00"
+    },
+    {
+      "date": "10/08/2026",
+      "time": "10:00",
+      "senderName": "Defesa Civil de Petrópolis (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Extremo",
+      "uf": "RJ",
+      "location": "Petrópolis/RJ",
+      "headline": "Defesa Civil:Petropolis - SIMULADO CAXAMBU - Evacuacao imediata em areas de risco. Dirijam-se para os pontos de apoio.",
+      "status": "vigente",
+      "onset": "2026-08-10T10:00:10-03:00",
+      "expires": "2026-08-10T12:00:00-03:00"
+    },
+    {
+      "date": "10/08/2026",
+      "time": "09:31",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "Belo Horizonte/MG",
+      "headline": "Defesa Civil:Alerta de Baixa umidade do ar em Belo Horizonte, ate 18h de segunda-feira (10). Hidrate-se! Mais informacoes nas redes sociais: defesacivilbh",
+      "status": "vigente",
+      "onset": "2026-08-10T09:31:14-03:00",
+      "expires": "2026-08-10T18:00:00-03:00"
+    },
+    {
+      "date": "10/08/2026",
+      "time": "08:57",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Marés De Tempestade (Ressacas)",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Niterói/RJ",
+      "headline": "Defesa Civil:Niteroi: Aviso de Ressaca. Inicio: 10/08 segunda-feira 18h. Fim: 12/08 quarta-feira 00h. Ondas com altura de 2,5 metros. Emergencia, 199.",
+      "status": "vigente",
+      "onset": "2026-08-10T08:57:29-03:00",
+      "expires": "2026-08-12T23:59:00-03:00"
+    },
     {
       "date": "10/08/2026",
       "time": "06:47",
@@ -198,7 +248,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:6h46 Chuva em Capao Bonito. Deslocando-se para Sao Miguel Arcanjo. Tem raios e ventos. Atinge cidades proximas. Cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-10T06:47:53-03:00",
       "expires": "2026-08-10T09:00:00-03:00"
     },
@@ -1189,216 +1239,22 @@
       "status": "expirado",
       "onset": "2026-08-09T11:00:00-03:00",
       "expires": "2026-08-09T19:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "10:45",
-      "senderName": "Defesa Civil de Petrópolis (RJ)",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Petrópolis/RJ",
-      "headline": "Defesa Civil:Previsao de ventos moderados a fortes em Petropolis. Nao fique perto de arvores e objetos metalicos soltos. Emergencia 199. 09/08 10:45h",
-      "status": "expirado",
-      "onset": "2026-08-09T10:45:36-03:00",
-      "expires": "2026-08-09T23:55:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "10:40",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "RIO DE JANEIRO/RJ",
-      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje (09/08). Emergencia, ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-08-09T10:40:00-03:00",
-      "expires": "2026-08-10T00:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "10:15",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ - POSSIBILIDADE DE RAJADAS DE VENTO MODERADAS A FORTES PARA AS PROXIMAS 24 HORAS! EM CASO DE EMERGENCIA LIGUE: (21) 3030-2662/199.",
-      "status": "vigente",
-      "onset": "2026-08-09T10:15:51-03:00",
-      "expires": "2026-08-10T23:55:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "10:10",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Atualização: Observação Marítima SDC/SC 09/08 09:10 - Mar agitado entre esse domingo (09) e a terça-feira (11). Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-08-09T10:10:02-03:00",
-      "expires": "2026-08-11T12:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "10:03",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Itaguaí/RJ",
-      "headline": "Defesa Civil:Defesa Civil- Itaguai: Permanece a previsao de rajadas de vento moderado a forte para o dia de hoje no Municipio. Emergencia ligue: 199/193.",
-      "status": "expirado",
-      "onset": "2026-08-09T10:03:13-03:00",
-      "expires": "2026-08-09T23:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "09:59",
-      "senderName": "Defesa Civil do Rio de Janeiro (RJ)",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Rio de Janeiro/RJ",
-      "headline": "Defesa Civil:Alerta de vento forte na cidade do Rio nas proximas horas. Evite ficar sob arvores, estruturas metalicas. 09/08. Emergencias 199, 193",
-      "status": "expirado",
-      "onset": "2026-08-09T09:59:48-03:00",
-      "expires": "2026-08-09T23:55:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "09:43",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-09T09:43:15-03:00",
-      "expires": "2026-08-09T12:35:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "09:21",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Maricá/RJ",
-      "headline": "Defesa Civil:Marica/RJ:Atencao as rajadas fortes de vento previstas ate a tarde deste domingo (9/8). Emergencia: 199 ou 96628-2699 (Fone/Whatsapp).",
-      "status": "expirado",
-      "onset": "2026-08-09T09:21:47-03:00",
-      "expires": "2026-08-09T18:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "09:20",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 09/08 09:14 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Planalto Norte e Litoral Norte nas próximas 6 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-09T09:20:58-03:00",
-      "expires": "2026-08-09T15:30:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "09:18",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Niterói/RJ",
-      "headline": "Defesa Civil:Niteroi: Previsao de rajadas de vento moderadas a fortes nas proximas horas. Emergencia, 199",
-      "status": "expirado",
-      "onset": "2026-08-09T09:18:09-03:00",
-      "expires": "2026-08-09T20:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "09:04",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Niterói/RJ",
-      "headline": "Defesa Civil:Niteroi: Previsao de rajadas de vento moderadas a fortes nas proximas horas. Emergencia, 199",
-      "status": "expirado",
-      "onset": "2026-08-09T09:04:37-03:00",
-      "expires": "2026-08-09T20:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "09:02",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Nova Iguaçu/RJ",
-      "headline": "Defesa Civil: Nova Iguacu: AVISO METEOROLOGICO. Previsao de reducao para rajadas moderadas de vento nesta manha de domingo(09). Emergencia:199.",
-      "status": "expirado",
-      "onset": "2026-08-09T09:02:48-03:00",
-      "expires": "2026-08-09T14:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "09:00",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Nova Iguaçu/RJ",
-      "headline": "Defesa Civil: Nova Iguacu: AVISO METEOROLOGICO. Previsao de Rajada de vento moderada a forte nesta manha de domingo(09) na cidade. Emergencia:199.",
-      "status": "expirado",
-      "onset": "2026-08-09T09:00:00-03:00",
-      "expires": "2026-08-09T14:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "08:53",
-      "senderName": "Defesa Civil de Angra dos Reis (RJ)",
-      "event": "Ventos Costeiros (Mobilidade De Dunas)",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Angra dos Reis/RJ",
-      "headline": "Defesa Civil:(ANGRA DOS REIS) - Continuamos sob AVISO meteorologico de VENTO MODERADO/FORTE. Fique atento aos proximos avisos. Duvidas ligue: 199/ (24)3365-458",
-      "status": "vigente",
-      "onset": "2026-08-09T08:53:47-03:00",
-      "expires": "2026-08-10T10:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "08:41",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Mesquita/RJ",
-      "headline": "Defesa Civil:Mesquita(09/08 08:30): previsao de rajadas de vento moderada/forte. Nao fique debaixo de arvores ou estruturas metalicas. Emergencia: 199",
-      "status": "expirado",
-      "onset": "2026-08-09T08:41:35-03:00",
-      "expires": "2026-08-09T21:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 92,
+    "total_alerts": 81,
     "by_nivel": {
-      "Médio": 58,
-      "Alto": 32,
-      "Severo": 2
+      "Médio": 53,
+      "Alto": 25,
+      "Severo": 2,
+      "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 92
+      "Google": 81
     },
     "by_region": {
-      "SE": 80,
-      "S": 11,
+      "SE": 72,
+      "S": 8,
       "N": 1
     }
   }
