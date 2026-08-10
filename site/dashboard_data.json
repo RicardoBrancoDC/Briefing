@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-10T06:51:54.361061-03:00",
-  "source_run_dir": "run_20260810_065141",
+  "generated_at": "2026-08-10T08:29:09.043568-03:00",
+  "source_run_dir": "run_20260810_082856",
   "cards": {
-    "vigentes": 6,
-    "ultimas24h": 95,
-    "autoridadesAtivas": 10,
+    "vigentes": 5,
+    "ultimas24h": 92,
+    "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
@@ -73,12 +73,12 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 60
+      "count": 59
     },
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 14
+      "count": 13
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
@@ -114,21 +114,16 @@
       "name": "Defesa Civil de Angra dos Reis (RJ)",
       "short_name": "DC Angra dos Reis (RJ)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Blumenau (SC)",
-      "short_name": "DC Blumenau (SC)",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 60
+      "count": 58
     },
     {
       "label": "Alto",
-      "count": 33
+      "count": 32
     },
     {
       "label": "Severo",
@@ -138,7 +133,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 57
+      "count": 55
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -146,7 +141,7 @@
     },
     {
       "label": "Vendaval",
-      "count": 14
+      "count": 13
     },
     {
       "label": "Friagem",
@@ -164,11 +159,11 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 60
+      "count": 59
     },
     {
       "uf": "RJ",
-      "count": 22
+      "count": 21
     },
     {
       "uf": "PR",
@@ -176,7 +171,7 @@
     },
     {
       "uf": "SC",
-      "count": 5
+      "count": 4
     },
     {
       "uf": "AM",
@@ -186,11 +181,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 5
     },
     {
       "label": "expirado",
-      "count": 89
+      "count": 87
     }
   ],
   "all_alerts": [
@@ -1389,60 +1384,21 @@
       "status": "expirado",
       "onset": "2026-08-09T08:41:35-03:00",
       "expires": "2026-08-09T21:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "07:51",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:07h50 Chuva na regiao de Cajati, Ilha Comprida e Iguape. Tem raios e ventos. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-09T07:51:04-03:00",
-      "expires": "2026-08-09T09:50:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "07:23",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "Blumenau/SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas isoladas de chuva c/ trovoadas e RISCO DE CHUVA INTENSA a partir do final da manha (09). Fique atento! Emerg 199/193",
-      "status": "expirado",
-      "onset": "2026-08-09T07:23:34-03:00",
-      "expires": "2026-08-09T23:55:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "06:59",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Duque de Caxias/RJ",
-      "headline": "Defesa Civil:ALERTA de RAJADAS DE VENTOS MODERADOS A FORTES a partir da MANHA (09/08) em Duque de Caxias. ABRIGUE-SE. Emergencia, 21 99463-7387",
-      "status": "vigente",
-      "onset": "2026-08-09T06:59:00-03:00",
-      "expires": "2026-08-10T17:59:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 95,
+    "total_alerts": 92,
     "by_nivel": {
-      "Médio": 60,
-      "Alto": 33,
+      "Médio": 58,
+      "Alto": 32,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 95
+      "Google": 92
     },
     "by_region": {
-      "SE": 82,
-      "S": 12,
+      "SE": 80,
+      "S": 11,
       "N": 1
     }
   }
