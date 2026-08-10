@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-10T14:12:53.621399-03:00",
-  "source_run_dir": "run_20260810_141228",
+  "generated_at": "2026-08-10T16:20:38.117260-03:00",
+  "source_run_dir": "run_20260810_162009",
   "cards": {
     "vigentes": 16,
-    "ultimas24h": 77,
-    "autoridadesAtivas": 11,
+    "ultimas24h": 55,
+    "autoridadesAtivas": 10,
     "alertasExtremos": 1
   },
   "latest_alerts": [
@@ -73,12 +73,12 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 51
+      "count": 35
     },
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 9
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -88,12 +88,7 @@
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 4
-    },
-    {
-      "name": "Defesa Civil Estadual do Rio de Janeiro",
-      "short_name": "DC Rio de Janeiro",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Defesa Civil de Angra dos Reis (RJ)",
@@ -119,16 +114,21 @@
       "name": "Defesa Civil de Petrópolis (RJ)",
       "short_name": "DC Petrópolis (RJ)",
       "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 51
+      "count": 35
     },
     {
       "label": "Alto",
-      "count": 23
+      "count": 17
     },
     {
       "label": "Severo",
@@ -142,11 +142,11 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 49
+      "count": 39
     },
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 17
+      "count": 7
     },
     {
       "label": "Alagamentos",
@@ -161,22 +161,22 @@
       "count": 2
     },
     {
-      "label": "Vendaval",
-      "count": 2
+      "label": "Incêndios Em Parques, Áreas De Proteção Ambiental E Áreas De Preservação Permanente Nacionais, Estaduais Ou Municipais",
+      "count": 1
     },
     {
       "label": "Outros",
-      "count": 2
+      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 51
+      "count": 35
     },
     {
       "uf": "RJ",
-      "count": 12
+      "count": 7
     },
     {
       "uf": "SC",
@@ -184,7 +184,7 @@
     },
     {
       "uf": "PR",
-      "count": 4
+      "count": 3
     },
     {
       "uf": "GO",
@@ -214,7 +214,7 @@
     },
     {
       "label": "expirado",
-      "count": 61
+      "count": 39
     }
   ],
   "all_alerts": [
@@ -932,308 +932,22 @@
       "status": "expirado",
       "onset": "2026-08-09T16:27:04-03:00",
       "expires": "2026-08-09T20:20:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "16:16",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:16h15 Umidade do ar abaixo de 30 em Altair, Bebedouro, Pradopolis, Sao Simao e Descalvado. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-08-09T16:16:13-03:00",
-      "expires": "2026-08-09T19:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "16:12",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:16h12 Chuva isolada na regiao de Sao Roque e Mairinque. Tem raios. Atinge municipios vizinhos. Busque abrigo.",
-      "status": "expirado",
-      "onset": "2026-08-09T16:12:29-03:00",
-      "expires": "2026-08-09T18:15:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "16:10",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:16h10 Chuva isolada na regiao de Cerqueira Cesar, Arandu, Avare e Itatinga. Tem raios. Atinge municipios vizinhos. Busque abrigo.",
-      "status": "expirado",
-      "onset": "2026-08-09T16:10:55-03:00",
-      "expires": "2026-08-09T18:10:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "15:29",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:15h29 Chuva isolada na regiao de Aguas de Lindoia. Tem condicao para raios. Atinge municipios vizinhos. Busque abrigo.",
-      "status": "expirado",
-      "onset": "2026-08-09T15:29:41-03:00",
-      "expires": "2026-08-09T17:30:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "15:28",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:15h27 Chuva isolada na regiao de Sorocaba. Tem condicao para raios. Atinge municipios vizinhos. Busque abrigo.",
-      "status": "expirado",
-      "onset": "2026-08-09T15:28:05-03:00",
-      "expires": "2026-08-09T17:30:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "15:20",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "Catanduva/SP, Paranapuã/SP",
-      "headline": "Defesa Civil:15h20 Umidade do ar abaixo de 30 em Catanduva e Paranapua. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-08-09T15:20:43-03:00",
-      "expires": "2026-08-09T17:20:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "15:16",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:15h15 Chuva isolada na regiao de Buri e Campina do Monte Alegre. Tem raios. Atinge municipios vizinhos. Busque abrigo.",
-      "status": "expirado",
-      "onset": "2026-08-09T15:16:01-03:00",
-      "expires": "2026-08-09T19:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "15:03",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:15h03 Chuva isolada na regiao de Bom Sucesso de Itarare, Barra do Chapeu e Nova Campina. Tem raios. Atinge municipios vizinhos. Busque abrigo.",
-      "status": "expirado",
-      "onset": "2026-08-09T15:03:59-03:00",
-      "expires": "2026-08-09T17:05:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "15:00",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:14h59 Chuva isolada na regiao de Sao Pedro do Turvo e Santa Cruz do Rio Pardo. Tem raios. Atinge municipios vizinhos. Busque abrigo.",
-      "status": "expirado",
-      "onset": "2026-08-09T15:00:15-03:00",
-      "expires": "2026-08-09T16:55:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "15:00",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:14h59 Chuva isolada na regiao de Sao Pedro do Turvo e Santa Cruz do Rio Pardo. Tem raios. Atinge municipios vizinhos. Busque abrigo.",
-      "status": "expirado",
-      "onset": "2026-08-09T15:00:05-03:00",
-      "expires": "2026-08-09T16:55:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "15:00",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Nova Friburgo/RJ",
-      "headline": "Defesa Civil:NF/ Umidade do ar pode ficar abaixo de 30 na tarde de hoje (09/08). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "status": "expirado",
-      "onset": "2026-08-09T15:00:00-03:00",
-      "expires": "2026-08-09T19:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "14:56",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Belford Roxo/RJ",
-      "headline": "Defesa Civil:Belford Roxo: alerta de rajadas MODERADAS nesta tarde e inicio da noite. Evite arvores, postes e estruturas frageis. Emergencia: 967200158 ou 193",
-      "status": "expirado",
-      "onset": "2026-08-09T14:56:54-03:00",
-      "expires": "2026-08-10T00:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "14:49",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "Tambaú/SP, Ibitinga/SP",
-      "headline": "Defesa Civil:14h49 Umidade do ar abaixo de 30 em Tambau e Ibitinga. Hidrate-se. Use soro nos olhos e nariz.",
-      "status": "expirado",
-      "onset": "2026-08-09T14:49:34-03:00",
-      "expires": "2026-08-09T19:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "14:45",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "Votuporanga/SP",
-      "headline": "Defesa Civil:14h45 Umidade do ar abaixo de 20 em Votuporanga. Hidrate-se. Use soro nos olhos e nariz.",
-      "status": "expirado",
-      "onset": "2026-08-09T14:45:36-03:00",
-      "expires": "2026-08-09T16:45:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "14:42",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Belford Roxo/RJ",
-      "headline": "Defesa Civil:Belford Roxo: alerta de baixa umidade podendo ficar abaixo de 30 a tarde. Hidrate-se, evite esforco e queimadas. Emergencia: 967200158 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-09T14:42:26-03:00",
-      "expires": "2026-08-09T19:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "14:36",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "Mirassol/SP",
-      "headline": "Defesa Civil:14h36 Umidade do ar abaixo de 20 em Mirassol. Hidrate-se. Use soro nos olhos e nariz.",
-      "status": "expirado",
-      "onset": "2026-08-09T14:36:41-03:00",
-      "expires": "2026-08-09T19:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "14:35",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:14h35 Umidade do ar abaixo de 30 em Tabatinga, Mendonca, General Salgado, Cardoso e Indiapora. Hidrate-se.",
-      "status": "expirado",
-      "onset": "2026-08-09T14:35:28-03:00",
-      "expires": "2026-08-09T16:35:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "14:32",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Itaguaí/RJ",
-      "headline": "Defesa Civil:Defesa Civil-Itaguai: Umidade do ar abaixo de 30 na tarde de hoje (09/08). Evite exercicios fisicos e hidrate-se. Emergencia Ligue: 199/193.",
-      "status": "expirado",
-      "onset": "2026-08-09T14:32:49-03:00",
-      "expires": "2026-08-09T19:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "14:30",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:14h30 Umidade do ar abaixo de 30 em Casa Branca, Itirapua, Ribeirao Corrente, Colina, Ariranha, Pindorama e Santa Adelia. Hidrate-se.",
-      "status": "expirado",
-      "onset": "2026-08-09T14:30:45-03:00",
-      "expires": "2026-08-09T19:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "14:26",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:14h25 Chuva isolada na regiao de Itabera, Itapeva e Paranapanema. Tem raios. Atinge municipios vizinhos. Busque abrigo.",
-      "status": "expirado",
-      "onset": "2026-08-09T14:26:17-03:00",
-      "expires": "2026-08-09T16:25:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "14:25",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "RIO DE JANEIRO/RJ",
-      "headline": "Defesa Civil:Rajadas de vento moderado a forte hoje (09/08). Emergencia, ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-08-09T14:25:00-03:00",
-      "expires": "2026-08-10T00:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "14:21",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-09T14:21:20-03:00",
-      "expires": "2026-08-09T17:20:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 77,
+    "total_alerts": 55,
     "by_nivel": {
-      "Médio": 51,
-      "Alto": 23,
+      "Médio": 35,
+      "Alto": 17,
       "Severo": 2,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 77
+      "Google": 55
     },
     "by_region": {
-      "SE": 64,
-      "S": 9,
+      "SE": 43,
+      "S": 8,
       "CO": 2,
       "N": 1,
       "NE": 1
