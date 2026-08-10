@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-10T05:07:45.275457-03:00",
-  "source_run_dir": "run_20260810_050735",
+  "generated_at": "2026-08-10T06:51:54.361061-03:00",
+  "source_run_dir": "run_20260810_065141",
   "cards": {
-    "vigentes": 5,
+    "vigentes": 6,
     "ultimas24h": 95,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "06:47",
+      "date": "10/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:6h46 Chuva em Capao Bonito. Deslocando-se para Sao Miguel Arcanjo. Tem raios e ventos. Atinge cidades proximas. Cuidado nas proximas horas.",
+      "status": "vigente"
+    },
     {
       "time": "02:31",
       "date": "10/08/2026",
@@ -55,25 +67,13 @@
       "uf": "SP",
       "headline": "Defesa Civil:23h57 Chuva em Barra do Chapeu e Itapirapua Paulista. Avancando para Apiai. Tem raios e ventos. Atinge cidades proximos. Cuidado na proxima hora.",
       "status": "expirado"
-    },
-    {
-      "time": "21:34",
-      "date": "09/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:21h32 Chuva em Sao Roque. Avancando para Zona Norte e Central de Sao Paulo. Tem raios e ventos. Atinge cidades proximos. Cuidado na proxima hora.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 59
+      "count": 60
     },
     {
       "name": "Defesa Civil Nacional",
@@ -83,7 +83,7 @@
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 8
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Rio de Janeiro",
@@ -164,7 +164,7 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 59
+      "count": 60
     },
     {
       "uf": "RJ",
@@ -172,7 +172,7 @@
     },
     {
       "uf": "PR",
-      "count": 8
+      "count": 7
     },
     {
       "uf": "SC",
@@ -186,14 +186,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 6
     },
     {
       "label": "expirado",
-      "count": 90
+      "count": 89
     }
   ],
   "all_alerts": [
+    {
+      "date": "10/08/2026",
+      "time": "06:47",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:6h46 Chuva em Capao Bonito. Deslocando-se para Sao Miguel Arcanjo. Tem raios e ventos. Atinge cidades proximas. Cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-08-10T06:47:53-03:00",
+      "expires": "2026-08-10T09:00:00-03:00"
+    },
     {
       "date": "10/08/2026",
       "time": "02:31",
@@ -1415,19 +1428,6 @@
       "status": "vigente",
       "onset": "2026-08-09T06:59:00-03:00",
       "expires": "2026-08-10T17:59:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "05:51",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-09T05:51:12-03:00",
-      "expires": "2026-08-09T08:50:00-03:00"
     }
   ],
   "summary": {
@@ -1441,8 +1441,8 @@
       "Google": 95
     },
     "by_region": {
-      "SE": 81,
-      "S": 13,
+      "SE": 82,
+      "S": 12,
       "N": 1
     }
   }
