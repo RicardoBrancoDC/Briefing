@@ -1,15 +1,51 @@
 {
-  "generated_at": "2026-08-10T12:19:43.542727-03:00",
-  "source_run_dir": "run_20260810_121920",
+  "generated_at": "2026-08-10T14:12:53.621399-03:00",
+  "source_run_dir": "run_20260810_141228",
   "cards": {
-    "vigentes": 11,
-    "ultimas24h": 81,
-    "autoridadesAtivas": 10,
+    "vigentes": 16,
+    "ultimas24h": 77,
+    "autoridadesAtivas": 11,
     "alertasExtremos": 1
   },
   "latest_alerts": [
     {
-      "time": "12:06",
+      "time": "13:59",
+      "date": "10/08/2026",
+      "senderName": "Defesa Civil de Angra dos Reis (RJ)",
+      "senderNameShort": "DC Angra dos Reis (RJ)",
+      "event": "Marés De Tempestade (Ressacas)",
+      "nivel": "Médio",
+      "location": "Angra dos Reis/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:(ANGRA DOS REIS) - AVISO DE RESSACA para as proximas horas. Nao navegue em condicoes de perigo. Verifique a seguranca da embarcacao. Ligue: 199.",
+      "status": "vigente"
+    },
+    {
+      "time": "13:49",
+      "date": "10/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "location": "Joinville/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 10/08 13:47 - Risco de ALAGAMENTOS COSTEIROS para o município de Joinville. Pico previsto às 14:00h. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "13:43",
+      "date": "10/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "location": "Florianópolis/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 10/08 13:40 - Risco de ALAGAMENTOS COSTEIROS para o município de Florianópolis. Pico previsto às 14:30h. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "13:15",
       "date": "10/08/2026",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "senderNameShort": "DC São Paulo",
@@ -17,55 +53,19 @@
       "nivel": "Médio",
       "location": "SÃO PAULO/SP",
       "uf": "SP",
-      "headline": "Defesa Civil:12h00 Umidade do ar abaixo de 30 em Pedregulho, Ituverava, Jeriquara e Franca. Atinge municipios vizinhos. Evite exercicios fisicos ao ar livre.",
+      "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 em Barretos, Urupes, Cristais Paulista e Ribeirao Corrente. Atinge municipios vizinhos. Hidrate-se.",
       "status": "vigente"
     },
     {
-      "time": "12:03",
+      "time": "12:22",
       "date": "10/08/2026",
       "senderName": "Defesa Civil Nacional",
       "senderNameShort": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
+      "event": "Incêndios Em Parques, Áreas De Proteção Ambiental E Áreas De Preservação Permanente Nacionais, Estaduais Ou Municipais",
       "nivel": "Médio",
       "location": "Niterói/RJ",
       "uf": "RJ",
-      "headline": "Defesa Civil:Niteroi: Mudanca para Estagio de Vigilancia devido a ausencia de ventos fortes e previsao de chuva fraca a moderada isolada. Emergencia, 199.",
-      "status": "vigente"
-    },
-    {
-      "time": "12:00",
-      "date": "10/08/2026",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "senderNameShort": "DC Goiás",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "location": "GOIÁS/GO",
-      "uf": "GO",
-      "headline": "Defesa Civil: Alerta critico de baixa umidade das 12h de 10/08 ate 18h de 10/08. Hidrate-se, evite sol e esforco fisico. Emergencia 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "12:00",
-      "date": "10/08/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Friagem",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Observação Meteorológica SDC/SC 10/08 10:30 - Frio intenso entre a tarde desta segunda (10) e a manhã de quarta-feira (12). Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "12:00",
-      "date": "10/08/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Alagamentos",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Atualização: Observação Marítima SDC/SC 10/08 10:15 -  Alagamentos costeiros nas tardes de segunda (10) e terça-feira (11). Fique atento. Ocorrências ligue 199 ou 193.",
+      "headline": "Defesa Civil:Niteroi: Devido aos registros de chuva na cidade, o Risco de Fogo em Vegetacao sera alterado para MEDIO. Emergencia, 199.",
       "status": "vigente"
     }
   ],
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 55
+      "count": 51
     },
     {
       "name": "Defesa Civil Nacional",
@@ -81,19 +81,24 @@
       "count": 9
     },
     {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
       "count": 5
     },
     {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
       "count": 4
     },
     {
       "name": "Defesa Civil Estadual do Rio de Janeiro",
       "short_name": "DC Rio de Janeiro",
-      "count": 3
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil de Angra dos Reis (RJ)",
+      "short_name": "DC Angra dos Reis (RJ)",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual de Goiás",
@@ -114,21 +119,16 @@
       "name": "Defesa Civil de Petrópolis (RJ)",
       "short_name": "DC Petrópolis (RJ)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 53
+      "count": 51
     },
     {
       "label": "Alto",
-      "count": 25
+      "count": 23
     },
     {
       "label": "Severo",
@@ -142,11 +142,19 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 52
+      "count": 49
     },
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 22
+      "count": 17
+    },
+    {
+      "label": "Alagamentos",
+      "count": 3
+    },
+    {
+      "label": "Marés De Tempestade (Ressacas)",
+      "count": 2
     },
     {
       "label": "Friagem",
@@ -157,33 +165,25 @@
       "count": 2
     },
     {
-      "label": "Alagamentos",
-      "count": 1
-    },
-    {
-      "label": "Frentes Frias/Zonas De Convergência",
-      "count": 1
-    },
-    {
       "label": "Outros",
-      "count": 1
+      "count": 2
     }
   ],
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 55
+      "count": 51
     },
     {
       "uf": "RJ",
       "count": 12
     },
     {
-      "uf": "PR",
+      "uf": "SC",
       "count": 5
     },
     {
-      "uf": "SC",
+      "uf": "PR",
       "count": 4
     },
     {
@@ -210,14 +210,79 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 11
+      "count": 16
     },
     {
       "label": "expirado",
-      "count": 70
+      "count": 61
     }
   ],
   "all_alerts": [
+    {
+      "date": "10/08/2026",
+      "time": "13:59",
+      "senderName": "Defesa Civil de Angra dos Reis (RJ)",
+      "event": "Marés De Tempestade (Ressacas)",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Angra dos Reis/RJ",
+      "headline": "Defesa Civil:(ANGRA DOS REIS) - AVISO DE RESSACA para as proximas horas. Nao navegue em condicoes de perigo. Verifique a seguranca da embarcacao. Ligue: 199.",
+      "status": "vigente",
+      "onset": "2026-08-10T13:59:40-03:00",
+      "expires": "2026-08-12T00:00:00-03:00"
+    },
+    {
+      "date": "10/08/2026",
+      "time": "13:49",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "Joinville/SC",
+      "headline": "OBSERVAÇÃO - 10/08 13:47 - Risco de ALAGAMENTOS COSTEIROS para o município de Joinville. Pico previsto às 14:00h. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-10T13:49:07-03:00",
+      "expires": "2026-08-10T18:45:00-03:00"
+    },
+    {
+      "date": "10/08/2026",
+      "time": "13:43",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Alagamentos",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "Florianópolis/SC",
+      "headline": "OBSERVAÇÃO - 10/08 13:40 - Risco de ALAGAMENTOS COSTEIROS para o município de Florianópolis. Pico previsto às 14:30h. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-10T13:43:05-03:00",
+      "expires": "2026-08-10T18:40:00-03:00"
+    },
+    {
+      "date": "10/08/2026",
+      "time": "13:15",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 em Barretos, Urupes, Cristais Paulista e Ribeirao Corrente. Atinge municipios vizinhos. Hidrate-se.",
+      "status": "vigente",
+      "onset": "2026-08-10T13:15:25-03:00",
+      "expires": "2026-08-10T18:00:00-03:00"
+    },
+    {
+      "date": "10/08/2026",
+      "time": "12:22",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Incêndios Em Parques, Áreas De Proteção Ambiental E Áreas De Preservação Permanente Nacionais, Estaduais Ou Municipais",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Niterói/RJ",
+      "headline": "Defesa Civil:Niteroi: Devido aos registros de chuva na cidade, o Risco de Fogo em Vegetacao sera alterado para MEDIO. Emergencia, 199.",
+      "status": "vigente",
+      "onset": "2026-08-10T12:22:35-03:00",
+      "expires": "2026-08-11T00:00:00-03:00"
+    },
     {
       "date": "10/08/2026",
       "time": "12:06",
@@ -1153,138 +1218,21 @@
       "status": "expirado",
       "onset": "2026-08-09T14:21:20-03:00",
       "expires": "2026-08-09T17:20:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "13:46",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-09T13:46:53-03:00",
-      "expires": "2026-08-09T16:45:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "13:24",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 09/08 13:21 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Planalto Norte, Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-09T13:24:53-03:00",
-      "expires": "2026-08-09T17:30:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "13:21",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "RIO DE JANEIRO/RJ",
-      "headline": "Defesa Civil:Umidade do ar pode ficar abaixo de 30 na tarde de hoje (09/08). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "status": "expirado",
-      "onset": "2026-08-09T13:21:04-03:00",
-      "expires": "2026-08-09T19:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "13:03",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "Ribeirão Preto/SP, Mococa/SP",
-      "headline": "Defesa Civil:13h02 Umidade do ar abaixo de 30 em Ribeirao Preto e Mococa. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-08-09T13:03:22-03:00",
-      "expires": "2026-08-09T15:05:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "12:59",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:12h59 Umidade do ar abaixo de 30 em Pedregulho, Sao Joaquim da Barra e Olimpia. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-08-09T12:59:49-03:00",
-      "expires": "2026-08-09T19:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "12:56",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:12h56 Umidade do ar abaixo de 30 em Populina, Parapua, Fernandopolis, Nhandeara, Monte Azul Paulista e Monte Aprazivel. Hidrate-se.",
-      "status": "expirado",
-      "onset": "2026-08-09T12:56:44-03:00",
-      "expires": "2026-08-09T19:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "12:36",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Itaguaí/RJ",
-      "headline": "Defesa Civil:Defesa Civil-Itaguai: Umidade do ar abaixo de 30 na tarde de hoje (09/08). Evite exercicios fisicos e hidrate-se. Emergencia Ligue: 199/193.",
-      "status": "expirado",
-      "onset": "2026-08-09T12:36:40-03:00",
-      "expires": "2026-08-09T19:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "12:29",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "São José do Rio Preto/SP, Barretos/SP",
-      "headline": "Defesa Civil:12h29 Umidade do ar abaixo de 30 em Sao Jose do Rio Preto e Barretos. Proteja-se do sol. Beba bastante agua.",
-      "status": "expirado",
-      "onset": "2026-08-09T12:29:24-03:00",
-      "expires": "2026-08-09T19:00:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "12:25",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:12h25 Chuva na regiao de Apiai e Iporanga. Tem raios. Atinge municipios vizinhos. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-09T12:25:06-03:00",
-      "expires": "2026-08-09T14:25:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 81,
+    "total_alerts": 77,
     "by_nivel": {
-      "Médio": 53,
-      "Alto": 25,
+      "Médio": 51,
+      "Alto": 23,
       "Severo": 2,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 81
+      "Google": 77
     },
     "by_region": {
-      "SE": 68,
+      "SE": 64,
       "S": 9,
       "CO": 2,
       "N": 1,
