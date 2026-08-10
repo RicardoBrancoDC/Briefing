@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-10T18:06:03.995233-03:00",
-  "source_run_dir": "run_20260810_180518",
+  "generated_at": "2026-08-10T20:00:17.249794-03:00",
+  "source_run_dir": "run_20260810_195946",
   "cards": {
-    "vigentes": 16,
-    "ultimas24h": 44,
-    "autoridadesAtivas": 10,
+    "vigentes": 9,
+    "ultimas24h": 34,
+    "autoridadesAtivas": 11,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "19:13",
+      "date": "10/08/2026",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "senderNameShort": "DC Espírito Santo",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "location": "ESPÍRITO SANTO/ES",
+      "uf": "ES",
+      "headline": "Defesa Civil:(ES) ALERTA de VENTOS COSTEIROS e CHUVA MODERADA no LITORAL SUL nas proximas 08 horas. Fique atento. Em caso de emergencia ligue 193.",
+      "status": "vigente"
+    },
     {
       "time": "17:02",
       "date": "10/08/2026",
@@ -18,7 +30,7 @@
       "location": "Manicoré/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:45",
@@ -42,7 +54,7 @@
       "location": "PARANÁ/PR",
       "uf": "PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:41",
@@ -54,26 +66,14 @@
       "location": "PARANÁ/PR",
       "uf": "PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "13:59",
-      "date": "10/08/2026",
-      "senderName": "Defesa Civil de Angra dos Reis (RJ)",
-      "senderNameShort": "DC Angra dos Reis (RJ)",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Médio",
-      "location": "Angra dos Reis/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:(ANGRA DOS REIS) - AVISO DE RESSACA para as proximas horas. Nao navegue em condicoes de perigo. Verifique a seguranca da embarcacao. Ligue: 199.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 22
+      "count": 11
     },
     {
       "name": "Defesa Civil Nacional",
@@ -89,6 +89,11 @@
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
       "count": 4
+    },
+    {
+      "name": "Defesa Civil Estadual do Espírito Santo",
+      "short_name": "DC Espírito Santo",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -114,25 +119,16 @@
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Petrópolis (RJ)",
-      "short_name": "DC Petrópolis (RJ)",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 25
-    },
-    {
-      "label": "Alto",
       "count": 17
     },
     {
-      "label": "Severo",
-      "count": 1
+      "label": "Alto",
+      "count": 16
     },
     {
       "label": "Extremo",
@@ -142,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 28
+      "count": 17
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -161,18 +157,18 @@
       "count": 2
     },
     {
-      "label": "Incêndios Em Parques, Áreas De Proteção Ambiental E Áreas De Preservação Permanente Nacionais, Estaduais Ou Municipais",
+      "label": "Vendaval",
       "count": 1
     },
     {
       "label": "Outros",
-      "count": 1
+      "count": 2
     }
   ],
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 22
+      "count": 11
     },
     {
       "uf": "RJ",
@@ -185,6 +181,10 @@
     {
       "uf": "SC",
       "count": 4
+    },
+    {
+      "uf": "ES",
+      "count": 1
     },
     {
       "uf": "AM",
@@ -210,14 +210,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 16
+      "count": 9
     },
     {
       "label": "expirado",
-      "count": 28
+      "count": 25
     }
   ],
   "all_alerts": [
+    {
+      "date": "10/08/2026",
+      "time": "19:13",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "ES",
+      "location": "ESPÍRITO SANTO/ES",
+      "headline": "Defesa Civil:(ES) ALERTA de VENTOS COSTEIROS e CHUVA MODERADA no LITORAL SUL nas proximas 08 horas. Fique atento. Em caso de emergencia ligue 193.",
+      "status": "vigente",
+      "onset": "2026-08-10T19:13:00-03:00",
+      "expires": "2026-08-11T03:00:00-03:00"
+    },
     {
       "date": "10/08/2026",
       "time": "17:02",
@@ -227,7 +240,7 @@
       "uf": "AM",
       "location": "Manicoré/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-10T17:02:35-03:00",
       "expires": "2026-08-10T18:30:00-03:00"
     },
@@ -253,7 +266,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-10T16:43:32-03:00",
       "expires": "2026-08-10T19:40:00-03:00"
     },
@@ -266,7 +279,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-10T16:41:16-03:00",
       "expires": "2026-08-10T19:40:00-03:00"
     },
@@ -292,7 +305,7 @@
       "uf": "SC",
       "location": "Joinville/SC",
       "headline": "OBSERVAÇÃO - 10/08 13:47 - Risco de ALAGAMENTOS COSTEIROS para o município de Joinville. Pico previsto às 14:00h. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-10T13:49:07-03:00",
       "expires": "2026-08-10T18:45:00-03:00"
     },
@@ -305,7 +318,7 @@
       "uf": "SC",
       "location": "Florianópolis/SC",
       "headline": "OBSERVAÇÃO - 10/08 13:40 - Risco de ALAGAMENTOS COSTEIROS para o município de Florianópolis. Pico previsto às 14:30h. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-10T13:43:05-03:00",
       "expires": "2026-08-10T18:40:00-03:00"
     },
@@ -409,7 +422,7 @@
       "uf": "MT",
       "location": "/MT",
       "headline": "Defesa Civil:MT. UMIDADE BAIXA:Umidade relativa do ar variando entre 30 e 20 porcento, hidrate-se. Risco de incendios florestais e a saude. Ligue: 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-10T10:59:00-03:00",
       "expires": "2026-08-10T20:00:00-03:00"
     },
@@ -422,7 +435,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Umidade relativa do ar em niveis criticos. Evite exposicao ao sol entre 10hs e 16hs. Em caso de emergencias, ligue 192 ou 193. PROTEJA-SE!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-10T10:51:04-03:00",
       "expires": "2026-08-10T20:00:00-03:00"
     },
@@ -435,7 +448,7 @@
       "uf": "RJ",
       "location": "Belford Roxo/RJ",
       "headline": "Defesa Civil:Belford Roxo, chuva fraca a moderada hoje (10/08). Evite areas alagadas, redobre a atencao e acompanhe a Defesa Civil. Emergencia: 193/967200158",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-10T10:06:15-03:00",
       "expires": "2026-08-10T19:00:00-03:00"
     },
@@ -646,164 +659,20 @@
       "status": "expirado",
       "onset": "2026-08-09T20:12:22-03:00",
       "expires": "2026-08-09T23:10:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "19:57",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:19h57 Chuva avancando por Anhembi e  Santa Maria da Serra. Tem raios e ventos. Atinge municipios proximos. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-09T19:57:44-03:00",
-      "expires": "2026-08-09T22:10:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "19:27",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:19h26 Chuva avancando por Juquitiba, Vargem Grande Paulista, Sao Roque e Aluminio. Tem ventos. Atinge municipios proximos. Busque abrigo.",
-      "status": "expirado",
-      "onset": "2026-08-09T19:27:21-03:00",
-      "expires": "2026-08-09T21:30:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "19:17",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:19h17 Chuva forte isolada na regiao de Bofete e Pardinho. Tem raios e ventos. Atinge municipios proximos. Busque abrigo.",
-      "status": "expirado",
-      "onset": "2026-08-09T19:17:16-03:00",
-      "expires": "2026-08-09T21:15:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "19:01",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:19h00 Chuva forte isolada na regiao de Ibiuna e Miracatu. Tem raios e ventos. Atinge municipios proximos. Busque abrigo.",
-      "status": "expirado",
-      "onset": "2026-08-09T19:01:44-03:00",
-      "expires": "2026-08-09T21:05:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "18:47",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:18h46 Chuva isolada na regiao de Aracoiaba da Serra, Piedade e Votorantim. Tem raios e ventos. Atinge municipios proximos. Busque abrigo.",
-      "status": "expirado",
-      "onset": "2026-08-09T18:47:13-03:00",
-      "expires": "2026-08-09T20:45:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "18:42",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:18h42 Chuva forte na regiao de Avare e Itatinga. Tem raios, ventos e chance de granizo. Atinge municipios proximos. Busque abrigo.",
-      "status": "expirado",
-      "onset": "2026-08-09T18:42:10-03:00",
-      "expires": "2026-08-09T20:45:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "18:38",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:Chuva forte na regiao de Pilar do Sul. Tem raios, ventos e chance de granizo. Atinge municipios proximos. Matenha-se em local seguro.",
-      "status": "expirado",
-      "onset": "2026-08-09T18:38:27-03:00",
-      "expires": "2026-08-09T20:35:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "18:29",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:18h28 Chuva forte isolada na regiao de Pilar do Sul. Tem raios. Atinge municipios vizinhos. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-09T18:29:23-03:00",
-      "expires": "2026-08-09T20:30:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "18:24",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:18h25 Chuva isolada na regiao de Itarare. Tem raios. Atinge municipios vizinhos. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-09T18:24:48-03:00",
-      "expires": "2026-08-09T20:25:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "18:21",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:18h22 Chuva isolada na regiao de Mongagua, avancando para Praia Grande. Tem raios. Atinge municipios vizinhos. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-09T18:21:53-03:00",
-      "expires": "2026-08-09T20:25:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "18:09",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:18h08 Chuva forte isolada na regiao de Sarapui e Alambari. Tem raios. Atinge municipios vizinhos. Tome cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-09T18:09:03-03:00",
-      "expires": "2026-08-09T20:10:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 44,
+    "total_alerts": 34,
     "by_nivel": {
-      "Médio": 25,
-      "Alto": 17,
-      "Extremo": 1,
-      "Severo": 1
+      "Médio": 17,
+      "Alto": 16,
+      "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 44
+      "Google": 34
     },
     "by_region": {
-      "SE": 31,
+      "SE": 21,
       "S": 9,
       "CO": 2,
       "N": 1,
