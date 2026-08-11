@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-08-11T08:08:08.556144-03:00",
-  "source_run_dir": "run_20260811_080749",
+  "generated_at": "2026-08-11T10:46:28.731448-03:00",
+  "source_run_dir": "run_20260811_104607",
   "cards": {
-    "vigentes": 10,
-    "ultimas24h": 29,
+    "vigentes": 11,
+    "ultimas24h": 28,
     "autoridadesAtivas": 12,
-    "alertasExtremos": 1
+    "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "10:43",
+      "date": "11/08/2026",
+      "senderName": "Defesa Civil Estadual do Tocantins",
+      "senderNameShort": "DC Tocantins",
+      "event": "Vendaval",
+      "nivel": "Baixo",
+      "location": "Palmas/TO",
+      "uf": "TO",
+      "headline": "Defesa Civil:Previsao de rajadas de vento em Palmas hoje e amanha, principalmente das 10h as 15h. Evite arvores e estruturas frageis. Emergencia: 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "10:25",
+      "date": "11/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "Aviso: Atualização: Chuva pontualmente intensa e temporais isolados entre terça (11) e sexta-feira (14), com risco moderado para ocorrências associadas a alagamentos, destelhamentos, queda de galhos e árvores.  Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "10:21",
+      "date": "11/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 11/08 10:18 - TEMPORAIS ISOLADOS de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "08:04",
       "date": "11/08/2026",
@@ -31,58 +67,22 @@
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 11/08 07:23 - TEMPORAIS ISOLADOS de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
       "status": "vigente"
-    },
-    {
-      "time": "07:07",
-      "date": "11/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "07:00",
-      "date": "11/08/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Observação Meteorológica SDC/SC 10/08 11:00 - Chuva pontualmente intensa e temporais isolados na terça-feira (11). Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "23:32",
-      "date": "10/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Lábrea/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Nacional",
-      "short_name": "Defesa Civil Nacional",
-      "count": 7
-    },
-    {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 6
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
+      "count": 4
+    },
+    {
+      "name": "Defesa Civil Nacional",
+      "short_name": "Defesa Civil Nacional",
       "count": 4
     },
     {
@@ -101,6 +101,11 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil Estadual do Tocantins",
+      "short_name": "DC Tocantins",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil de Blumenau (SC)",
       "short_name": "DC Blumenau (SC)",
       "count": 1
@@ -114,38 +119,33 @@
       "name": "Defesa Civil Estadual de Goiás",
       "short_name": "DC Goiás",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Mato Grosso",
-      "short_name": "DC Mato Grosso",
-      "count": 1
     }
   ],
   "level_distribution": [
+    {
+      "label": "Baixo",
+      "count": 1
+    },
     {
       "label": "Médio",
       "count": 22
     },
     {
       "label": "Alto",
-      "count": 6
-    },
-    {
-      "label": "Extremo",
-      "count": 1
+      "count": 5
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 11
+      "count": 12
     },
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 6
+      "count": 5
     },
     {
-      "label": "Marés De Tempestade (Ressacas)",
+      "label": "Vendaval",
       "count": 3
     },
     {
@@ -153,7 +153,7 @@
       "count": 3
     },
     {
-      "label": "Vendaval",
+      "label": "Marés De Tempestade (Ressacas)",
       "count": 2
     },
     {
@@ -162,17 +162,17 @@
     },
     {
       "label": "Outros",
-      "count": 3
+      "count": 2
     }
   ],
   "uf_distribution": [
     {
-      "uf": "RJ",
-      "count": 8
+      "uf": "SC",
+      "count": 9
     },
     {
-      "uf": "SC",
-      "count": 7
+      "uf": "RJ",
+      "count": 5
     },
     {
       "uf": "AM",
@@ -191,6 +191,10 @@
       "count": 2
     },
     {
+      "uf": "TO",
+      "count": 1
+    },
+    {
       "uf": "GO",
       "count": 1
     },
@@ -201,23 +205,58 @@
     {
       "uf": "PI",
       "count": 1
-    },
-    {
-      "uf": "MG",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 10
+      "count": 11
     },
     {
       "label": "expirado",
-      "count": 19
+      "count": 17
     }
   ],
   "all_alerts": [
+    {
+      "date": "11/08/2026",
+      "time": "10:43",
+      "senderName": "Defesa Civil Estadual do Tocantins",
+      "event": "Vendaval",
+      "nivel": "Baixo",
+      "uf": "TO",
+      "location": "Palmas/TO",
+      "headline": "Defesa Civil:Previsao de rajadas de vento em Palmas hoje e amanha, principalmente das 10h as 15h. Evite arvores e estruturas frageis. Emergencia: 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-11T10:43:30-03:00",
+      "expires": "2026-08-12T16:00:00-03:00"
+    },
+    {
+      "date": "11/08/2026",
+      "time": "10:25",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Aviso: Atualização: Chuva pontualmente intensa e temporais isolados entre terça (11) e sexta-feira (14), com risco moderado para ocorrências associadas a alagamentos, destelhamentos, queda de galhos e árvores.  Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-11T10:25:37-03:00",
+      "expires": "2026-08-12T23:55:00-03:00"
+    },
+    {
+      "date": "11/08/2026",
+      "time": "10:21",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 11/08 10:18 - TEMPORAIS ISOLADOS de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-11T10:21:59-03:00",
+      "expires": "2026-08-11T13:20:00-03:00"
+    },
     {
       "date": "11/08/2026",
       "time": "08:04",
@@ -253,7 +292,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-11T07:07:31-03:00",
       "expires": "2026-08-11T09:50:00-03:00"
     },
@@ -542,74 +581,22 @@
       "status": "expirado",
       "onset": "2026-08-10T10:51:04-03:00",
       "expires": "2026-08-10T20:00:00-03:00"
-    },
-    {
-      "date": "10/08/2026",
-      "time": "10:06",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Frentes Frias/Zonas De Convergência",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Belford Roxo/RJ",
-      "headline": "Defesa Civil:Belford Roxo, chuva fraca a moderada hoje (10/08). Evite areas alagadas, redobre a atencao e acompanhe a Defesa Civil. Emergencia: 193/967200158",
-      "status": "expirado",
-      "onset": "2026-08-10T10:06:15-03:00",
-      "expires": "2026-08-10T19:00:00-03:00"
-    },
-    {
-      "date": "10/08/2026",
-      "time": "10:00",
-      "senderName": "Defesa Civil de Petrópolis (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Extremo",
-      "uf": "RJ",
-      "location": "Petrópolis/RJ",
-      "headline": "Defesa Civil:Petropolis - SIMULADO CAXAMBU - Evacuacao imediata em areas de risco. Dirijam-se para os pontos de apoio.",
-      "status": "expirado",
-      "onset": "2026-08-10T10:00:10-03:00",
-      "expires": "2026-08-10T12:00:00-03:00"
-    },
-    {
-      "date": "10/08/2026",
-      "time": "09:31",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Belo Horizonte/MG",
-      "headline": "Defesa Civil:Alerta de Baixa umidade do ar em Belo Horizonte, ate 18h de segunda-feira (10). Hidrate-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "expirado",
-      "onset": "2026-08-10T09:31:14-03:00",
-      "expires": "2026-08-10T18:00:00-03:00"
-    },
-    {
-      "date": "10/08/2026",
-      "time": "08:57",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Marés De Tempestade (Ressacas)",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Niterói/RJ",
-      "headline": "Defesa Civil:Niteroi: Aviso de Ressaca. Inicio: 10/08 segunda-feira 18h. Fim: 12/08 quarta-feira 00h. Ondas com altura de 2,5 metros. Emergencia, 199.",
-      "status": "vigente",
-      "onset": "2026-08-10T08:57:29-03:00",
-      "expires": "2026-08-12T23:59:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 29,
+    "total_alerts": 28,
     "by_nivel": {
       "Médio": 22,
-      "Alto": 6,
-      "Extremo": 1
+      "Alto": 5,
+      "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 29
+      "Google": 28
     },
     "by_region": {
-      "SE": 13,
-      "S": 9,
-      "N": 4,
+      "S": 11,
+      "SE": 9,
+      "N": 5,
       "CO": 2,
       "NE": 1
     }
