@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-10T23:31:17.106040-03:00",
-  "source_run_dir": "run_20260810_233053",
+  "generated_at": "2026-08-11T02:31:22.625525-03:00",
+  "source_run_dir": "run_20260811_023105",
   "cards": {
-    "vigentes": 12,
-    "ultimas24h": 29,
+    "vigentes": 8,
+    "ultimas24h": 27,
     "autoridadesAtivas": 11,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "23:32",
+      "date": "10/08/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Lábrea/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "expirado"
+    },
     {
       "time": "21:08",
       "date": "10/08/2026",
@@ -18,7 +30,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "20:40",
@@ -55,30 +67,13 @@
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de VENTOS COSTEIROS e CHUVA MODERADA no LITORAL SUL nas proximas 08 horas. Fique atento. Em caso de emergencia ligue 193.",
       "status": "vigente"
-    },
-    {
-      "time": "17:02",
-      "date": "10/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Manicoré/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 8
-    },
-    {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -86,9 +81,14 @@
       "count": 4
     },
     {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 4
+    },
+    {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 17
+      "count": 18
     },
     {
       "label": "Alto",
-      "count": 11
+      "count": 8
     },
     {
       "label": "Extremo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 10
+      "count": 9
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -157,8 +157,8 @@
       "count": 2
     },
     {
-      "label": "Friagem",
-      "count": 2
+      "label": "Deslizamentos",
+      "count": 1
     },
     {
       "label": "Outros",
@@ -168,19 +168,19 @@
   "uf_distribution": [
     {
       "uf": "RJ",
-      "count": 9
-    },
-    {
-      "uf": "SP",
-      "count": 6
+      "count": 8
     },
     {
       "uf": "SC",
       "count": 4
     },
     {
+      "uf": "SP",
+      "count": 4
+    },
+    {
       "uf": "AM",
-      "count": 2
+      "count": 3
     },
     {
       "uf": "ES",
@@ -210,14 +210,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 12
+      "count": 8
     },
     {
       "label": "expirado",
-      "count": 17
+      "count": 19
     }
   ],
   "all_alerts": [
+    {
+      "date": "10/08/2026",
+      "time": "23:32",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Lábrea/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-08-10T23:32:44-03:00",
+      "expires": "2026-08-11T02:30:00-03:00"
+    },
     {
       "date": "10/08/2026",
       "time": "21:08",
@@ -227,7 +240,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-10T21:08:58-03:00",
       "expires": "2026-08-10T23:55:00-03:00"
     },
@@ -383,7 +396,7 @@
       "uf": "RJ",
       "location": "Niterói/RJ",
       "headline": "Defesa Civil:Niteroi: Devido aos registros de chuva na cidade, o Risco de Fogo em Vegetacao sera alterado para MEDIO. Emergencia, 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-10T12:22:35-03:00",
       "expires": "2026-08-11T00:00:00-03:00"
     },
@@ -409,7 +422,7 @@
       "uf": "RJ",
       "location": "Niterói/RJ",
       "headline": "Defesa Civil:Niteroi: Mudanca para Estagio de Vigilancia devido a ausencia de ventos fortes e previsao de chuva fraca a moderada isolada. Emergencia, 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-10T12:03:06-03:00",
       "expires": "2026-08-11T00:00:00-03:00"
     },
@@ -555,62 +568,23 @@
       "status": "expirado",
       "onset": "2026-08-10T02:31:17-03:00",
       "expires": "2026-08-10T05:00:00-03:00"
-    },
-    {
-      "date": "10/08/2026",
-      "time": "00:02",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:00h01 Chuva em Salesopolis. Tem raios e ventos. Atinge cidades proximos. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-10T00:02:38-03:00",
-      "expires": "2026-08-10T02:10:00-03:00"
-    },
-    {
-      "date": "10/08/2026",
-      "time": "00:00",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Friagem",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Nova Iguaçu/RJ",
-      "headline": "Defesa Civil: Nova Iguacu: Baixas temperaturas do ar entre segunda (10) e quarta (12), princip. entre a noite e inicio da manha. Emergencia, 199.",
-      "status": "vigente",
-      "onset": "2026-08-10T00:00:00-03:00",
-      "expires": "2026-08-12T23:59:00-03:00"
-    },
-    {
-      "date": "09/08/2026",
-      "time": "23:58",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:23h57 Chuva em Barra do Chapeu e Itapirapua Paulista. Avancando para Apiai. Tem raios e ventos. Atinge cidades proximos. Cuidado na proxima hora.",
-      "status": "expirado",
-      "onset": "2026-08-09T23:58:39-03:00",
-      "expires": "2026-08-10T02:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 29,
+    "total_alerts": 27,
     "by_nivel": {
-      "Médio": 17,
-      "Alto": 11,
+      "Médio": 18,
+      "Alto": 8,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 29
+      "Google": 27
     },
     "by_region": {
-      "SE": 18,
+      "SE": 15,
       "S": 6,
+      "N": 3,
       "CO": 2,
-      "N": 2,
       "NE": 1
     }
   }
