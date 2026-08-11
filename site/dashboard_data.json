@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-11T02:31:22.625525-03:00",
-  "source_run_dir": "run_20260811_023105",
+  "generated_at": "2026-08-11T04:41:13.720048-03:00",
+  "source_run_dir": "run_20260811_044056",
   "cards": {
-    "vigentes": 8,
-    "ultimas24h": 27,
+    "vigentes": 6,
+    "ultimas24h": 26,
     "autoridadesAtivas": 11,
     "alertasExtremos": 1
   },
@@ -42,7 +42,7 @@
       "location": "ESPÍRITO SANTO/ES",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de VENTOS COSTEIROS e CHUVA na GRANDE VITORIA nas proximas 08 horas. Fique atento. Em caso de emergencia ligue 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "20:38",
@@ -66,7 +66,7 @@
       "location": "ESPÍRITO SANTO/ES",
       "uf": "ES",
       "headline": "Defesa Civil:(ES) ALERTA de VENTOS COSTEIROS e CHUVA MODERADA no LITORAL SUL nas proximas 08 horas. Fique atento. Em caso de emergencia ligue 193.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -81,13 +81,13 @@
       "count": 4
     },
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 4
-    },
-    {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
+      "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
       "count": 3
     },
     {
@@ -128,7 +128,7 @@
     },
     {
       "label": "Alto",
-      "count": 8
+      "count": 7
     },
     {
       "label": "Extremo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 9
+      "count": 8
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -175,11 +175,11 @@
       "count": 4
     },
     {
-      "uf": "SP",
-      "count": 4
+      "uf": "AM",
+      "count": 3
     },
     {
-      "uf": "AM",
+      "uf": "SP",
       "count": 3
     },
     {
@@ -210,11 +210,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 8
+      "count": 6
     },
     {
       "label": "expirado",
-      "count": 19
+      "count": 20
     }
   ],
   "all_alerts": [
@@ -253,7 +253,7 @@
       "uf": "ES",
       "location": "ESPÍRITO SANTO/ES",
       "headline": "Defesa Civil:(ES) ALERTA de VENTOS COSTEIROS e CHUVA na GRANDE VITORIA nas proximas 08 horas. Fique atento. Em caso de emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-10T20:40:17-03:00",
       "expires": "2026-08-11T04:00:00-03:00"
     },
@@ -279,7 +279,7 @@
       "uf": "ES",
       "location": "ESPÍRITO SANTO/ES",
       "headline": "Defesa Civil:(ES) ALERTA de VENTOS COSTEIROS e CHUVA MODERADA no LITORAL SUL nas proximas 08 horas. Fique atento. Em caso de emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-10T19:13:00-03:00",
       "expires": "2026-08-11T03:00:00-03:00"
     },
@@ -555,33 +555,20 @@
       "status": "expirado",
       "onset": "2026-08-10T06:47:53-03:00",
       "expires": "2026-08-10T09:00:00-03:00"
-    },
-    {
-      "date": "10/08/2026",
-      "time": "02:31",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:02h29 Chuva se aproximado da area entre Ipaussu e Fartura. Tem raios e ventos. Atinge cidades proximos. Cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-08-10T02:31:17-03:00",
-      "expires": "2026-08-10T05:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 27,
+    "total_alerts": 26,
     "by_nivel": {
       "Médio": 18,
-      "Alto": 8,
+      "Alto": 7,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 27
+      "Google": 26
     },
     "by_region": {
-      "SE": 15,
+      "SE": 14,
       "S": 6,
       "N": 3,
       "CO": 2,
