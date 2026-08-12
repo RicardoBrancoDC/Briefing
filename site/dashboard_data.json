@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-12T06:34:37.328182-03:00",
-  "source_run_dir": "run_20260812_063421",
+  "generated_at": "2026-08-12T08:13:12.620433-03:00",
+  "source_run_dir": "run_20260812_081257",
   "cards": {
-    "vigentes": 3,
-    "ultimas24h": 25,
+    "vigentes": 4,
+    "ultimas24h": 22,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "07:45",
+      "date": "12/08/2026",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "senderNameShort": "DC Blumenau (SC)",
+      "event": "Chuvas Intensas",
+      "nivel": "Baixo",
+      "location": "Blumenau/SC",
+      "uf": "SC",
+      "headline": "Defesa Civil:ALERTABLU-ATENCAO:Chuva intermitente fraca a moderada ao longo do dia (12/08) em Blumenau. Fique atento! Ocorrencias, 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "00:19",
       "date": "12/08/2026",
@@ -55,30 +67,18 @@
       "uf": "SC",
       "headline": "Defesa Civil:ATENCAO - 11/08 21:17 - CHUVA PERSISTENTE ALAGAMENTOS e RAJADAS DE VENTO nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
       "status": "expirado"
-    },
-    {
-      "time": "20:02",
-      "date": "11/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 14
+      "count": 12
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Defesa Civil de Blumenau (SC)",
@@ -114,11 +114,11 @@
   "level_distribution": [
     {
       "label": "Baixo",
-      "count": 1
+      "count": 2
     },
     {
       "label": "Médio",
-      "count": 22
+      "count": 18
     },
     {
       "label": "Alto",
@@ -128,7 +128,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 20
+      "count": 17
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -146,11 +146,11 @@
   "uf_distribution": [
     {
       "uf": "SC",
-      "count": 16
+      "count": 14
     },
     {
       "uf": "AM",
-      "count": 4
+      "count": 3
     },
     {
       "uf": "SP",
@@ -176,14 +176,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 3
+      "count": 4
     },
     {
       "label": "expirado",
-      "count": 22
+      "count": 18
     }
   ],
   "all_alerts": [
+    {
+      "date": "12/08/2026",
+      "time": "07:45",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "event": "Chuvas Intensas",
+      "nivel": "Baixo",
+      "uf": "SC",
+      "location": "Blumenau/SC",
+      "headline": "Defesa Civil:ALERTABLU-ATENCAO:Chuva intermitente fraca a moderada ao longo do dia (12/08) em Blumenau. Fique atento! Ocorrencias, 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-12T07:45:37-03:00",
+      "expires": "2026-08-12T23:55:00-03:00"
+    },
     {
       "date": "12/08/2026",
       "time": "00:19",
@@ -456,73 +469,21 @@
       "status": "expirado",
       "onset": "2026-08-11T10:21:59-03:00",
       "expires": "2026-08-11T13:20:00-03:00"
-    },
-    {
-      "date": "11/08/2026",
-      "time": "08:04",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "Blumenau/SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Chuva persistente fraca a moderada com trovoadas a partir da tarde de hoje (11) em Blumenau. Fique atento! Emerg 199/193.",
-      "status": "expirado",
-      "onset": "2026-08-11T08:04:51-03:00",
-      "expires": "2026-08-11T23:55:00-03:00"
-    },
-    {
-      "date": "11/08/2026",
-      "time": "07:29",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 11/08 07:23 - TEMPORAIS ISOLADOS de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-11T07:29:10-03:00",
-      "expires": "2026-08-11T11:25:00-03:00"
-    },
-    {
-      "date": "11/08/2026",
-      "time": "07:07",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-08-11T07:07:31-03:00",
-      "expires": "2026-08-11T09:50:00-03:00"
-    },
-    {
-      "date": "11/08/2026",
-      "time": "07:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Observação Meteorológica SDC/SC 10/08 11:00 - Chuva pontualmente intensa e temporais isolados na terça-feira (11). Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-11T07:00:00-03:00",
-      "expires": "2026-08-11T23:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 25,
+    "total_alerts": 22,
     "by_nivel": {
-      "Médio": 22,
+      "Médio": 18,
       "Alto": 2,
-      "Baixo": 1
+      "Baixo": 2
     },
     "by_channel_list": {
-      "Google": 25
+      "Google": 22
     },
     "by_region": {
-      "S": 16,
-      "N": 5,
+      "S": 14,
+      "N": 4,
       "CO": 2,
       "SE": 2
     }
