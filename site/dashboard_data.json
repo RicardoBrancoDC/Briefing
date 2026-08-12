@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-12T08:13:12.620433-03:00",
-  "source_run_dir": "run_20260812_081257",
+  "generated_at": "2026-08-12T10:52:00.721753-03:00",
+  "source_run_dir": "run_20260812_105143",
   "cards": {
-    "vigentes": 4,
-    "ultimas24h": 22,
+    "vigentes": 3,
+    "ultimas24h": 20,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "09:02",
+      "date": "12/08/2026",
+      "senderName": "Defesa Civil Estadual do Piauí",
+      "senderNameShort": "DC Piauí",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "location": "PIAUÍ/PI",
+      "uf": "PI",
+      "headline": "Defesa Civil:Alerta de Baixa Umidade com niveis criticos. Evite o contato com raios solares entre 10hs e 16hs. Em emergencia ligue 192 ou 193. PROTEJA-SE!",
+      "status": "vigente"
+    },
     {
       "time": "07:45",
       "date": "12/08/2026",
@@ -55,25 +67,13 @@
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 11/08 23:27 - CHUVA PERSISTENTE de intensidade moderada a forte com ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste, Meio-Oeste e Planalto Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
       "status": "expirado"
-    },
-    {
-      "time": "21:20",
-      "date": "11/08/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:ATENCAO - 11/08 21:17 - CHUVA PERSISTENTE ALAGAMENTOS e RAJADAS DE VENTO nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 12
+      "count": 10
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -84,6 +84,11 @@
       "name": "Defesa Civil de Blumenau (SC)",
       "short_name": "DC Blumenau (SC)",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual do Piauí",
+      "short_name": "DC Piauí",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -104,53 +109,48 @@
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Tocantins",
-      "short_name": "DC Tocantins",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Baixo",
-      "count": 2
+      "count": 1
     },
     {
       "label": "Médio",
-      "count": 18
+      "count": 16
     },
     {
       "label": "Alto",
-      "count": 2
+      "count": 3
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 17
+      "count": 15
     },
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 3
+      "count": 4
     },
     {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
-      "count": 1
-    },
-    {
-      "label": "Vendaval",
       "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "SC",
-      "count": 14
+      "count": 12
     },
     {
       "uf": "AM",
       "count": 3
+    },
+    {
+      "uf": "PI",
+      "count": 1
     },
     {
       "uf": "SP",
@@ -167,23 +167,32 @@
     {
       "uf": "RJ",
       "count": 1
-    },
-    {
-      "uf": "TO",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 4
+      "count": 3
     },
     {
       "label": "expirado",
-      "count": 18
+      "count": 17
     }
   ],
   "all_alerts": [
+    {
+      "date": "12/08/2026",
+      "time": "09:02",
+      "senderName": "Defesa Civil Estadual do Piauí",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "uf": "PI",
+      "location": "PIAUÍ/PI",
+      "headline": "Defesa Civil:Alerta de Baixa Umidade com niveis criticos. Evite o contato com raios solares entre 10hs e 16hs. Em emergencia ligue 192 ou 193. PROTEJA-SE!",
+      "status": "vigente",
+      "onset": "2026-08-12T09:02:46-03:00",
+      "expires": "2026-08-12T20:00:00-03:00"
+    },
     {
       "date": "12/08/2026",
       "time": "07:45",
@@ -430,62 +439,24 @@
       "status": "expirado",
       "onset": "2026-08-11T10:59:50-03:00",
       "expires": "2026-08-11T13:55:00-03:00"
-    },
-    {
-      "date": "11/08/2026",
-      "time": "10:43",
-      "senderName": "Defesa Civil Estadual do Tocantins",
-      "event": "Vendaval",
-      "nivel": "Baixo",
-      "uf": "TO",
-      "location": "Palmas/TO",
-      "headline": "Defesa Civil:Previsao de rajadas de vento em Palmas hoje e amanha, principalmente das 10h as 15h. Evite arvores e estruturas frageis. Emergencia: 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-08-11T10:43:30-03:00",
-      "expires": "2026-08-12T16:00:00-03:00"
-    },
-    {
-      "date": "11/08/2026",
-      "time": "10:25",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Aviso: Atualização: Chuva pontualmente intensa e temporais isolados entre terça (11) e sexta-feira (14), com risco moderado para ocorrências associadas a alagamentos, destelhamentos, queda de galhos e árvores.  Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-08-11T10:25:37-03:00",
-      "expires": "2026-08-12T23:55:00-03:00"
-    },
-    {
-      "date": "11/08/2026",
-      "time": "10:21",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 11/08 10:18 - TEMPORAIS ISOLADOS de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-11T10:21:59-03:00",
-      "expires": "2026-08-11T13:20:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 22,
+    "total_alerts": 20,
     "by_nivel": {
-      "Médio": 18,
-      "Alto": 2,
-      "Baixo": 2
+      "Médio": 16,
+      "Alto": 3,
+      "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 22
+      "Google": 20
     },
     "by_region": {
-      "S": 14,
-      "N": 4,
+      "S": 12,
+      "N": 3,
       "CO": 2,
-      "SE": 2
+      "SE": 2,
+      "NE": 1
     }
   }
 }
