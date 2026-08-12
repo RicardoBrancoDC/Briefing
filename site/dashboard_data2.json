@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-11T23:49:03.037742-03:00",
+  "generated_at": "2026-08-12T02:49:26.303975-03:00",
   "source": ".cache/historico_alertas.json",
   "window_hours": 24,
   "cards": {
-    "vigentes": 7,
-    "ultimas24h": 23,
+    "vigentes": 5,
+    "ultimas24h": 25,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0,
     "alertasSeveros": 0,
@@ -13,6 +13,52 @@
     "municipiosOuAreasComAlerta": 8
   },
   "latest_alerts": [
+    {
+      "time": "00:19",
+      "date": "12/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 12/08 00:14 - CHUVA PERSISTENTE de intensidade moderada com RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Meio-Oeste, Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "identifier": "187011/2026",
+      "entry_id": "187011/2026",
+      "sent": "2026-08-12T00:19:26-03:00",
+      "onset": "2026-08-12T00:19:26-03:00",
+      "expires": "2026-08-12T04:15:00-03:00",
+      "category": "Met",
+      "severity": "Moderate",
+      "urgency": "Expected",
+      "certainty": "Observed",
+      "responseType": "Execute",
+      "channel_list": "Google"
+    },
+    {
+      "time": "00:00",
+      "date": "12/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "Observação Meteorológica SDC/SC 10/08 11:00 - Chuva pontualmente intensa e temporais isolados na quarta-feira (12). Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "identifier": "186967/2026",
+      "entry_id": "186967/2026",
+      "sent": "2026-08-10T11:18:51-03:00",
+      "onset": "2026-08-12T00:00:00-03:00",
+      "expires": "2026-08-12T23:00:00-03:00",
+      "category": "Met",
+      "severity": "Moderate",
+      "urgency": "Expected",
+      "certainty": "Likely",
+      "responseType": "Execute",
+      "channel_list": "Google"
+    },
     {
       "time": "23:29",
       "date": "11/08/2026",
@@ -196,59 +242,13 @@
       "certainty": "Likely",
       "responseType": "Execute",
       "channel_list": "Google"
-    },
-    {
-      "time": "15:26",
-      "date": "11/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "Ituverava/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:15h25 Umidade do ar abaixo de 30 em Ituverava. Hidrate-se. Nao descarte bitucas e brasas onde ha vegetacao.",
-      "status": "expirado",
-      "identifier": "187002/2026",
-      "entry_id": "187002/2026",
-      "sent": "2026-08-11T15:26:44-03:00",
-      "onset": "2026-08-11T15:26:44-03:00",
-      "expires": "2026-08-11T19:00:00-03:00",
-      "category": "Met",
-      "severity": "Moderate",
-      "urgency": "Immediate",
-      "certainty": "Observed",
-      "responseType": "Execute",
-      "channel_list": "Google"
-    },
-    {
-      "time": "13:36",
-      "date": "11/08/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 11/08 13:33 - CHUVA PERSISTENTE de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Sul, Litoral Sul, Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "identifier": "187001/2026",
-      "entry_id": "187001/2026",
-      "sent": "2026-08-11T13:36:11-03:00",
-      "onset": "2026-08-11T13:36:11-03:00",
-      "expires": "2026-08-11T16:35:00-03:00",
-      "category": "Met",
-      "severity": "Moderate",
-      "urgency": "Immediate",
-      "certainty": "Possible",
-      "responseType": "Execute",
-      "channel_list": "Google"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 12
+      "count": 14
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -293,7 +293,7 @@
     },
     {
       "label": "Médio",
-      "count": 20
+      "count": 22
     },
     {
       "label": "Alto",
@@ -303,7 +303,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 18
+      "count": 20
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -321,7 +321,7 @@
   "uf_distribution": [
     {
       "uf": "SC",
-      "count": 14
+      "count": 16
     },
     {
       "uf": "AM",
@@ -351,17 +351,17 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 5
     },
     {
       "label": "expirado",
-      "count": 16
+      "count": 20
     }
   ],
   "category_distribution": [
     {
       "label": "Met",
-      "count": 22
+      "count": 24
     },
     {
       "label": "Fire",
@@ -371,11 +371,11 @@
   "duration_distribution": [
     {
       "label": "2h a 6h",
-      "count": 15
+      "count": 16
     },
     {
       "label": "12h a 24h",
-      "count": 3
+      "count": 4
     },
     {
       "label": "Até 2h",
@@ -392,33 +392,123 @@
   ],
   "time_since_distribution": [
     {
-      "label": "6h a 12h",
-      "count": 9
-    },
-    {
       "label": "Mais de 12h",
-      "count": 9
+      "count": 14
     },
     {
-      "label": "3h a 6h",
-      "count": 3
-    },
-    {
-      "label": "Até 1h",
-      "count": 1
+      "label": "6h a 12h",
+      "count": 7
     },
     {
       "label": "1h a 3h",
-      "count": 1
+      "count": 2
+    },
+    {
+      "label": "3h a 6h",
+      "count": 2
     }
   ],
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 23
+      "count": 25
     }
   ],
   "all_alerts": [
+    {
+      "identifier": "187011/2026",
+      "entry_id": "187011/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "sent": "2026-08-12T00:19:26-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Expected",
+      "severity": "Moderate",
+      "certainty": "Observed",
+      "onset": "2026-08-12T00:19:26-03:00",
+      "expires": "2026-08-12T04:15:00-03:00",
+      "nivel": "Médio",
+      "headline": null,
+      "description": "OBSERVAÇÃO - 12/08 00:14 - CHUVA PERSISTENTE de intensidade moderada com RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Meio-Oeste, Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "SANTA CATARINA/SC",
+      "polygon_raw": "-28.611,-48.821 -28.611,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.61,-48.823 -28.61,-48.823 -28.61,-48.823 -28.61,-48.823 -28.61,-48.822 -28.61,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821",
+      "polygon_points": 5,
+      "has_geocode": false,
+      "uf_hint": "SC",
+      "region": "S",
+      "geometry_wkt": "MULTIPOLYGON (((-48.822 -28.61, -48.821 -28.61, -48.821 -28.611, -48.822 -28.611, -48.822 -28.61)), ((-48.822 -28.61, -48.823 -28.61, -48.822 -28.609, -48.822 -28.61)))",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "12/08/2026",
+      "time": "00:19",
+      "sent_br": "2026-08-12T00:19:26-03:00",
+      "onset_br": "2026-08-12T00:19:26-03:00",
+      "expires_br": "2026-08-12T04:15:00-03:00",
+      "duration_minutes": 235,
+      "duration_hours": 3.92,
+      "duration_bucket": "2h a 6h",
+      "time_since_minutes": 150,
+      "time_since_hours": 2.5,
+      "time_since_bucket": "1h a 3h",
+      "is_active": true
+    },
+    {
+      "identifier": "186967/2026",
+      "entry_id": "186967/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "sent": "2026-08-10T11:18:51-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Expected",
+      "severity": "Moderate",
+      "certainty": "Likely",
+      "onset": "2026-08-12T00:00:00-03:00",
+      "expires": "2026-08-12T23:00:00-03:00",
+      "nivel": "Médio",
+      "headline": null,
+      "description": "Observação Meteorológica SDC/SC 10/08 11:00 - Chuva pontualmente intensa e temporais isolados na quarta-feira (12). Ocorrências ligue 199 ou 193.",
+      "instruction": "Siga as orientações da defesa civil local e do plano de contingência municipal. Em caso de emergência, ligue 199 ou 193.",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "SANTA CATARINA/SC",
+      "polygon_raw": "-28.611,-48.821 -28.611,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.821 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.61,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.609,-48.822 -28.61,-48.823 -28.61,-48.823 -28.61,-48.823 -28.61,-48.823 -28.61,-48.822 -28.61,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.822 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821 -28.611,-48.821",
+      "polygon_points": 5,
+      "has_geocode": false,
+      "uf_hint": "SC",
+      "region": "S",
+      "geometry_wkt": "MULTIPOLYGON (((-48.822 -28.61, -48.821 -28.61, -48.821 -28.611, -48.822 -28.611, -48.822 -28.61)), ((-48.822 -28.61, -48.823 -28.61, -48.822 -28.609, -48.822 -28.61)))",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "12/08/2026",
+      "time": "00:00",
+      "sent_br": "2026-08-10T11:18:51-03:00",
+      "onset_br": "2026-08-12T00:00:00-03:00",
+      "expires_br": "2026-08-12T23:00:00-03:00",
+      "duration_minutes": 1380,
+      "duration_hours": 23.0,
+      "duration_bucket": "12h a 24h",
+      "time_since_minutes": 169,
+      "time_since_hours": 2.82,
+      "time_since_bucket": "1h a 3h",
+      "is_active": true
+    },
     {
       "identifier": "187010/2026",
       "entry_id": "187010/2026",
@@ -461,9 +551,9 @@
       "duration_minutes": 240,
       "duration_hours": 4.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 19,
-      "time_since_hours": 0.32,
-      "time_since_bucket": "Até 1h",
+      "time_since_minutes": 199,
+      "time_since_hours": 3.32,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -508,9 +598,9 @@
       "duration_minutes": 119,
       "duration_hours": 1.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 149,
-      "time_since_hours": 2.48,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 329,
+      "time_since_hours": 5.48,
+      "time_since_bucket": "3h a 6h",
       "is_active": false
     },
     {
@@ -555,9 +645,9 @@
       "duration_minutes": 117,
       "duration_hours": 1.95,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 226,
-      "time_since_hours": 3.77,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 406,
+      "time_since_hours": 6.77,
+      "time_since_bucket": "6h a 12h",
       "is_active": false
     },
     {
@@ -602,9 +692,9 @@
       "duration_minutes": 241,
       "duration_hours": 4.02,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 255,
-      "time_since_hours": 4.25,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 436,
+      "time_since_hours": 7.27,
+      "time_since_bucket": "6h a 12h",
       "is_active": false
     },
     {
@@ -649,9 +739,9 @@
       "duration_minutes": 236,
       "duration_hours": 3.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 345,
-      "time_since_hours": 5.75,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 525,
+      "time_since_hours": 8.75,
+      "time_since_bucket": "6h a 12h",
       "is_active": false
     },
     {
@@ -696,8 +786,8 @@
       "duration_minutes": 149,
       "duration_hours": 2.48,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 378,
-      "time_since_hours": 6.3,
+      "time_since_minutes": 559,
+      "time_since_hours": 9.32,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -743,8 +833,8 @@
       "duration_minutes": 166,
       "duration_hours": 2.77,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 425,
-      "time_since_hours": 7.08,
+      "time_since_minutes": 605,
+      "time_since_hours": 10.08,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -790,8 +880,8 @@
       "duration_minutes": 207,
       "duration_hours": 3.45,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 466,
-      "time_since_hours": 7.77,
+      "time_since_minutes": 646,
+      "time_since_hours": 10.77,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -837,8 +927,8 @@
       "duration_minutes": 213,
       "duration_hours": 3.55,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 502,
-      "time_since_hours": 8.37,
+      "time_since_minutes": 682,
+      "time_since_hours": 11.37,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -884,9 +974,9 @@
       "duration_minutes": 178,
       "duration_hours": 2.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 612,
-      "time_since_hours": 10.2,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 793,
+      "time_since_hours": 13.22,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -931,9 +1021,9 @@
       "duration_minutes": 176,
       "duration_hours": 2.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 630,
-      "time_since_hours": 10.5,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 810,
+      "time_since_hours": 13.5,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -978,9 +1068,9 @@
       "duration_minutes": 192,
       "duration_hours": 3.2,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 691,
-      "time_since_hours": 11.52,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 872,
+      "time_since_hours": 14.53,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -989,7 +1079,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual de Mato Grosso",
       "sent": "2026-08-11T12:07:20-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "BAIXA UMIDADE DO AR",
@@ -1016,7 +1106,7 @@
       "uf": "MT",
       "location": "/MT",
       "event_short": "Baixa Umidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "11/08/2026",
       "time": "12:07",
       "sent_br": "2026-08-11T12:07:20-03:00",
@@ -1025,10 +1115,10 @@
       "duration_minutes": 712,
       "duration_hours": 11.87,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 701,
-      "time_since_hours": 11.68,
-      "time_since_bucket": "6h a 12h",
-      "is_active": true
+      "time_since_minutes": 882,
+      "time_since_hours": 14.7,
+      "time_since_bucket": "Mais de 12h",
+      "is_active": false
     },
     {
       "identifier": "186991/2026",
@@ -1072,9 +1162,9 @@
       "duration_minutes": 360,
       "duration_hours": 6.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 709,
-      "time_since_hours": 11.82,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 889,
+      "time_since_hours": 14.82,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -1083,7 +1173,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Nacional",
       "sent": "2026-08-11T11:41:18-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Fire",
       "event": "INCÊNDIO FLORESTAL - INCÊNDIOS EM ÁREAS NÃO PROTEGIDAS, COM REFLEXOS NA QUALIDADE DO AR",
@@ -1110,7 +1200,7 @@
       "uf": "RJ",
       "location": "Niterói/RJ",
       "event_short": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "11/08/2026",
       "time": "11:41",
       "sent_br": "2026-08-11T11:41:18-03:00",
@@ -1119,10 +1209,10 @@
       "duration_minutes": 733,
       "duration_hours": 12.22,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 727,
-      "time_since_hours": 12.12,
+      "time_since_minutes": 908,
+      "time_since_hours": 15.13,
       "time_since_bucket": "Mais de 12h",
-      "is_active": true
+      "is_active": false
     },
     {
       "identifier": "186996/2026",
@@ -1166,8 +1256,8 @@
       "duration_minutes": 175,
       "duration_hours": 2.92,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 769,
-      "time_since_hours": 12.82,
+      "time_since_minutes": 949,
+      "time_since_hours": 15.82,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1213,8 +1303,8 @@
       "duration_minutes": 1756,
       "duration_hours": 29.27,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 785,
-      "time_since_hours": 13.08,
+      "time_since_minutes": 965,
+      "time_since_hours": 16.08,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1260,8 +1350,8 @@
       "duration_minutes": 2249,
       "duration_hours": 37.48,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 803,
-      "time_since_hours": 13.38,
+      "time_since_minutes": 983,
+      "time_since_hours": 16.38,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1307,8 +1397,8 @@
       "duration_minutes": 178,
       "duration_hours": 2.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 807,
-      "time_since_hours": 13.45,
+      "time_since_minutes": 987,
+      "time_since_hours": 16.45,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1318,7 +1408,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil de Blumenau (SC)",
       "sent": "2026-08-11T08:04:51-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -1345,7 +1435,7 @@
       "uf": "SC",
       "location": "Blumenau/SC",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "11/08/2026",
       "time": "08:04",
       "sent_br": "2026-08-11T08:04:51-03:00",
@@ -1354,10 +1444,10 @@
       "duration_minutes": 950,
       "duration_hours": 15.83,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 944,
-      "time_since_hours": 15.73,
+      "time_since_minutes": 1124,
+      "time_since_hours": 18.73,
       "time_since_bucket": "Mais de 12h",
-      "is_active": true
+      "is_active": false
     },
     {
       "identifier": "186988/2026",
@@ -1401,8 +1491,8 @@
       "duration_minutes": 235,
       "duration_hours": 3.92,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 979,
-      "time_since_hours": 16.32,
+      "time_since_minutes": 1160,
+      "time_since_hours": 19.33,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1448,8 +1538,8 @@
       "duration_minutes": 162,
       "duration_hours": 2.7,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1001,
-      "time_since_hours": 16.68,
+      "time_since_minutes": 1181,
+      "time_since_hours": 19.68,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1459,7 +1549,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual de Santa Catarina",
       "sent": "2026-08-10T11:13:29-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS",
@@ -1486,7 +1576,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "11/08/2026",
       "time": "07:00",
       "sent_br": "2026-08-10T11:13:29-03:00",
@@ -1495,10 +1585,10 @@
       "duration_minutes": 1015,
       "duration_hours": 16.92,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1009,
-      "time_since_hours": 16.82,
+      "time_since_minutes": 1189,
+      "time_since_hours": 19.82,
       "time_since_bucket": "Mais de 12h",
-      "is_active": true
+      "is_active": false
     }
   ]
 }
