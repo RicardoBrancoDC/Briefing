@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-08-11T20:08:04.192053-03:00",
-  "source_run_dir": "run_20260811_200715",
+  "generated_at": "2026-08-11T23:49:02.973189-03:00",
+  "source_run_dir": "run_20260811_234834",
   "cards": {
-    "vigentes": 9,
-    "ultimas24h": 25,
-    "autoridadesAtivas": 9,
+    "vigentes": 7,
+    "ultimas24h": 23,
+    "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "23:29",
+      "date": "11/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 11/08 23:27 - CHUVA PERSISTENTE de intensidade moderada a forte com ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste, Meio-Oeste e Planalto Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "21:20",
+      "date": "11/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "Defesa Civil:ATENCAO - 11/08 21:17 - CHUVA PERSISTENTE ALAGAMENTOS e RAJADAS DE VENTO nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "expirado"
+    },
     {
       "time": "20:02",
       "date": "11/08/2026",
@@ -18,7 +42,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "19:33",
@@ -30,7 +54,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 11/08 19:31 - CHUVA PERSISTENTE de intensidade moderada com ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Norte, Litoral Norte, Planalto Sul, Litoral Sul, Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "18:03",
@@ -42,30 +66,6 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 11/08 17:55 - TEMPORAIS ISOLADOS com RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "17:30",
-      "date": "11/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "16:43",
-      "date": "11/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
       "status": "expirado"
     }
   ],
@@ -73,21 +73,16 @@
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 10
+      "count": 12
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 6
+      "count": 4
     },
     {
       "name": "Defesa Civil de Blumenau (SC)",
       "short_name": "DC Blumenau (SC)",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil Nacional",
-      "short_name": "Defesa Civil Nacional",
       "count": 2
     },
     {
@@ -106,13 +101,13 @@
       "count": 1
     },
     {
-      "name": "Defesa Civil Estadual do Tocantins",
-      "short_name": "DC Tocantins",
+      "name": "Defesa Civil Nacional",
+      "short_name": "Defesa Civil Nacional",
       "count": 1
     },
     {
-      "name": "Defesa Civil Estadual do Espírito Santo",
-      "short_name": "DC Espírito Santo",
+      "name": "Defesa Civil Estadual do Tocantins",
+      "short_name": "DC Tocantins",
       "count": 1
     }
   ],
@@ -123,7 +118,7 @@
     },
     {
       "label": "Médio",
-      "count": 22
+      "count": 20
     },
     {
       "label": "Alto",
@@ -140,30 +135,22 @@
       "count": 3
     },
     {
-      "label": "Vendaval",
-      "count": 2
-    },
-    {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
       "count": 1
     },
     {
-      "label": "Deslizamentos",
+      "label": "Vendaval",
       "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "SC",
-      "count": 12
+      "count": 14
     },
     {
       "uf": "AM",
-      "count": 6
-    },
-    {
-      "uf": "RJ",
-      "count": 2
+      "count": 4
     },
     {
       "uf": "SP",
@@ -178,18 +165,18 @@
       "count": 1
     },
     {
-      "uf": "TO",
+      "uf": "RJ",
       "count": 1
     },
     {
-      "uf": "ES",
+      "uf": "TO",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 9
+      "count": 7
     },
     {
       "label": "expirado",
@@ -199,6 +186,32 @@
   "all_alerts": [
     {
       "date": "11/08/2026",
+      "time": "23:29",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 11/08 23:27 - CHUVA PERSISTENTE de intensidade moderada a forte com ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste, Meio-Oeste e Planalto Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-11T23:29:29-03:00",
+      "expires": "2026-08-12T03:30:00-03:00"
+    },
+    {
+      "date": "11/08/2026",
+      "time": "21:20",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 11/08 21:17 - CHUVA PERSISTENTE ALAGAMENTOS e RAJADAS DE VENTO nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "expirado",
+      "onset": "2026-08-11T21:20:03-03:00",
+      "expires": "2026-08-11T23:20:00-03:00"
+    },
+    {
+      "date": "11/08/2026",
       "time": "20:02",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "event": "Chuvas Intensas",
@@ -206,7 +219,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-11T20:02:36-03:00",
       "expires": "2026-08-11T22:00:00-03:00"
     },
@@ -219,7 +232,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 11/08 19:31 - CHUVA PERSISTENTE de intensidade moderada com ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Norte, Litoral Norte, Planalto Sul, Litoral Sul, Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-11T19:33:12-03:00",
       "expires": "2026-08-11T23:35:00-03:00"
     },
@@ -232,7 +245,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 11/08 17:55 - TEMPORAIS ISOLADOS com RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste e Meio-Oeste nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-11T18:03:39-03:00",
       "expires": "2026-08-11T22:00:00-03:00"
     },
@@ -469,75 +482,23 @@
       "status": "vigente",
       "onset": "2026-08-11T07:00:00-03:00",
       "expires": "2026-08-11T23:55:00-03:00"
-    },
-    {
-      "date": "10/08/2026",
-      "time": "23:32",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Lábrea/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-08-10T23:32:44-03:00",
-      "expires": "2026-08-11T02:30:00-03:00"
-    },
-    {
-      "date": "10/08/2026",
-      "time": "21:08",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-08-10T21:08:58-03:00",
-      "expires": "2026-08-10T23:55:00-03:00"
-    },
-    {
-      "date": "10/08/2026",
-      "time": "20:40",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "ESPÍRITO SANTO/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de VENTOS COSTEIROS e CHUVA na GRANDE VITORIA nas proximas 08 horas. Fique atento. Em caso de emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-08-10T20:40:17-03:00",
-      "expires": "2026-08-11T04:00:00-03:00"
-    },
-    {
-      "date": "10/08/2026",
-      "time": "20:38",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Deslizamentos",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ-Estao sendo registrados altos indices pluviometricos no municipio. Fique atento aos proximos avisos.Emergencia:21 3030-2662/199/193",
-      "status": "expirado",
-      "onset": "2026-08-10T20:38:02-03:00",
-      "expires": "2026-08-11T19:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 25,
+    "total_alerts": 23,
     "by_nivel": {
-      "Médio": 22,
+      "Médio": 20,
       "Alto": 2,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 25
+      "Google": 23
     },
     "by_region": {
-      "S": 12,
-      "N": 7,
-      "SE": 4,
-      "CO": 2
+      "S": 14,
+      "N": 5,
+      "CO": 2,
+      "SE": 2
     }
   }
 }
