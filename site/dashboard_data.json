@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-08-12T12:17:57.337058-03:00",
-  "source_run_dir": "run_20260812_121734",
+  "generated_at": "2026-08-12T14:17:00.527796-03:00",
+  "source_run_dir": "run_20260812_141629",
   "cards": {
-    "vigentes": 7,
-    "ultimas24h": 19,
+    "vigentes": 9,
+    "ultimas24h": 20,
     "autoridadesAtivas": 6,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "14:14",
+      "date": "12/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:14h10 Umidade do ar abaixo de 30 em Populina, Santa Fe do Sul, Jales e Barretos. Atinge municipios vizinhos. Hidrate-se.",
+      "status": "vigente"
+    },
+    {
+      "time": "12:22",
+      "date": "12/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 12/08 12:19 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Angelina, Antônio Carlos, Balneário Camboriú, Biguaçu, Bombinhas, Camboriú, Canelinha, Florianópolis, Governador Celso Ramos, Itapema, Leoberto Leal, Major Gercino, Nova Trento, Palhoça, Porto Belo, Santo Amaro da Imperatriz, São José, São João Batista, São Pedro de Alcântara, Tijucas e Águas Mornas nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "12:20",
+      "date": "12/08/2026",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "senderNameShort": "DC Blumenau (SC)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Blumenau/SC",
+      "uf": "SC",
+      "headline": "Defesa Civil:ALERTABLU-ATENCAO: TEMPORAIS c/ trovoadas e RISCO de CHUVA INTENSA, ALAGAMENTOS e DESLIZAMENTOS nos dias 13 a 15/08. Fique atento! Emerg 199/193.",
+      "status": "vigente"
+    },
     {
       "time": "12:01",
       "date": "12/08/2026",
@@ -18,7 +54,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "Defesa Civil:ATENCAO - 12/08 11:59 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e GRANIZO nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "11:52",
@@ -31,54 +67,28 @@
       "uf": "MT",
       "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
       "status": "vigente"
-    },
-    {
-      "time": "11:49",
-      "date": "12/08/2026",
-      "senderName": "Defesa Civil Estadual de Mato Grosso",
-      "senderNameShort": "DC Mato Grosso",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "/MT",
-      "uf": "MT",
-      "headline": "Defesa Civil:MT. UMIDADE BAIXA: Umidade relativa do ar variando entre 30 e 20 porcento, hidrate-se. Risco de incendios florestais e a saude. Ligue  193/199.",
-      "status": "vigente"
-    },
-    {
-      "time": "11:34",
-      "date": "12/08/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 12/08 11:21 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Planalto Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "09:02",
-      "date": "12/08/2026",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "senderNameShort": "DC Piauí",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "location": "PIAUÍ/PI",
-      "uf": "PI",
-      "headline": "Defesa Civil:Alerta de Baixa Umidade com niveis criticos. Evite o contato com raios solares entre 10hs e 16hs. Em emergencia ligue 192 ou 193. PROTEJA-SE!",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 11
+      "count": 10
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
       "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil de Blumenau (SC)",
+      "short_name": "DC Blumenau (SC)",
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual de Mato Grosso",
@@ -89,16 +99,6 @@
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil de Blumenau (SC)",
-      "short_name": "DC Blumenau (SC)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -108,7 +108,7 @@
     },
     {
       "label": "Médio",
-      "count": 15
+      "count": 16
     },
     {
       "label": "Alto",
@@ -122,7 +122,7 @@
     },
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 3
+      "count": 4
     }
   ],
   "uf_distribution": [
@@ -135,29 +135,68 @@
       "count": 3
     },
     {
+      "uf": "SP",
+      "count": 2
+    },
+    {
       "uf": "MT",
       "count": 2
     },
     {
       "uf": "PI",
       "count": 1
-    },
-    {
-      "uf": "SP",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 9
     },
     {
       "label": "expirado",
-      "count": 12
+      "count": 11
     }
   ],
   "all_alerts": [
+    {
+      "date": "12/08/2026",
+      "time": "14:14",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:14h10 Umidade do ar abaixo de 30 em Populina, Santa Fe do Sul, Jales e Barretos. Atinge municipios vizinhos. Hidrate-se.",
+      "status": "vigente",
+      "onset": "2026-08-12T14:14:54-03:00",
+      "expires": "2026-08-12T18:00:00-03:00"
+    },
+    {
+      "date": "12/08/2026",
+      "time": "12:22",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 12/08 12:19 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para os municípios de Angelina, Antônio Carlos, Balneário Camboriú, Biguaçu, Bombinhas, Camboriú, Canelinha, Florianópolis, Governador Celso Ramos, Itapema, Leoberto Leal, Major Gercino, Nova Trento, Palhoça, Porto Belo, Santo Amaro da Imperatriz, São José, São João Batista, São Pedro de Alcântara, Tijucas e Águas Mornas nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-12T12:22:02-03:00",
+      "expires": "2026-08-12T15:25:00-03:00"
+    },
+    {
+      "date": "12/08/2026",
+      "time": "12:20",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "Blumenau/SC",
+      "headline": "Defesa Civil:ALERTABLU-ATENCAO: TEMPORAIS c/ trovoadas e RISCO de CHUVA INTENSA, ALAGAMENTOS e DESLIZAMENTOS nos dias 13 a 15/08. Fique atento! Emerg 199/193.",
+      "status": "vigente",
+      "onset": "2026-08-12T12:20:55-03:00",
+      "expires": "2026-08-15T23:55:00-03:00"
+    },
     {
       "date": "12/08/2026",
       "time": "12:01",
@@ -167,7 +206,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 12/08 11:59 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e GRANIZO nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-12T12:01:37-03:00",
       "expires": "2026-08-12T14:00:00-03:00"
     },
@@ -378,50 +417,24 @@
       "status": "expirado",
       "onset": "2026-08-11T15:26:44-03:00",
       "expires": "2026-08-11T19:00:00-03:00"
-    },
-    {
-      "date": "11/08/2026",
-      "time": "13:36",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 11/08 13:33 - CHUVA PERSISTENTE de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Sul, Litoral Sul, Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-11T13:36:11-03:00",
-      "expires": "2026-08-11T16:35:00-03:00"
-    },
-    {
-      "date": "11/08/2026",
-      "time": "13:18",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 11/08 13:12 - TEMPORAIS ISOLADOS de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Norte, Litoral Norte, Médio e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-11T13:18:33-03:00",
-      "expires": "2026-08-11T16:15:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 19,
+    "total_alerts": 20,
     "by_nivel": {
-      "Médio": 15,
+      "Médio": 16,
       "Alto": 3,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 19
+      "Google": 20
     },
     "by_region": {
       "S": 12,
       "N": 3,
       "CO": 2,
-      "NE": 1,
-      "SE": 1
+      "SE": 2,
+      "NE": 1
     }
   }
 }
