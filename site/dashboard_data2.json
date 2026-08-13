@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T02:51:18.926646-03:00",
+  "generated_at": "2026-08-13T04:58:24.805726-03:00",
   "source": ".cache/historico_alertas.json",
   "window_hours": 24,
   "cards": {
@@ -363,18 +363,14 @@
   "time_since_distribution": [
     {
       "label": "Mais de 12h",
-      "count": 9
+      "count": 13
+    },
+    {
+      "label": "3h a 6h",
+      "count": 2
     },
     {
       "label": "6h a 12h",
-      "count": 5
-    },
-    {
-      "label": "Até 1h",
-      "count": 1
-    },
-    {
-      "label": "1h a 3h",
       "count": 1
     }
   ],
@@ -427,9 +423,9 @@
       "duration_minutes": 239,
       "duration_hours": 3.98,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 60,
-      "time_since_hours": 1.0,
-      "time_since_bucket": "Até 1h",
+      "time_since_minutes": 187,
+      "time_since_hours": 3.12,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -474,9 +470,9 @@
       "duration_minutes": 2875,
       "duration_hours": 47.92,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 171,
-      "time_since_hours": 2.85,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 298,
+      "time_since_hours": 4.97,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -521,8 +517,8 @@
       "duration_minutes": 120,
       "duration_hours": 2.0,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 592,
-      "time_since_hours": 9.87,
+      "time_since_minutes": 719,
+      "time_since_hours": 11.98,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -568,9 +564,9 @@
       "duration_minutes": 112,
       "duration_hours": 1.87,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 644,
-      "time_since_hours": 10.73,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 771,
+      "time_since_hours": 12.85,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -615,9 +611,9 @@
       "duration_minutes": 239,
       "duration_hours": 3.98,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 661,
-      "time_since_hours": 11.02,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 788,
+      "time_since_hours": 13.13,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -662,9 +658,9 @@
       "duration_minutes": 165,
       "duration_hours": 2.75,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 696,
-      "time_since_hours": 11.6,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 823,
+      "time_since_hours": 13.72,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -709,9 +705,9 @@
       "duration_minutes": 170,
       "duration_hours": 2.83,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 701,
-      "time_since_hours": 11.68,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 829,
+      "time_since_hours": 13.82,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -756,8 +752,8 @@
       "duration_minutes": 225,
       "duration_hours": 3.75,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 756,
-      "time_since_hours": 12.6,
+      "time_since_minutes": 883,
+      "time_since_hours": 14.72,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -803,8 +799,8 @@
       "duration_minutes": 182,
       "duration_hours": 3.03,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 869,
-      "time_since_hours": 14.48,
+      "time_since_minutes": 996,
+      "time_since_hours": 16.6,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -850,8 +846,8 @@
       "duration_minutes": 5014,
       "duration_hours": 83.57,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 870,
-      "time_since_hours": 14.5,
+      "time_since_minutes": 997,
+      "time_since_hours": 16.62,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -897,8 +893,8 @@
       "duration_minutes": 118,
       "duration_hours": 1.97,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 889,
-      "time_since_hours": 14.82,
+      "time_since_minutes": 1016,
+      "time_since_hours": 16.93,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -944,8 +940,8 @@
       "duration_minutes": 782,
       "duration_hours": 13.03,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 898,
-      "time_since_hours": 14.97,
+      "time_since_minutes": 1025,
+      "time_since_hours": 17.08,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -991,8 +987,8 @@
       "duration_minutes": 785,
       "duration_hours": 13.08,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 901,
-      "time_since_hours": 15.02,
+      "time_since_minutes": 1028,
+      "time_since_hours": 17.13,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1038,8 +1034,8 @@
       "duration_minutes": 230,
       "duration_hours": 3.83,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 916,
-      "time_since_hours": 15.27,
+      "time_since_minutes": 1043,
+      "time_since_hours": 17.38,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1085,8 +1081,8 @@
       "duration_minutes": 657,
       "duration_hours": 10.95,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 1068,
-      "time_since_hours": 17.8,
+      "time_since_minutes": 1195,
+      "time_since_hours": 19.92,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1132,8 +1128,8 @@
       "duration_minutes": 969,
       "duration_hours": 16.15,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1145,
-      "time_since_hours": 19.08,
+      "time_since_minutes": 1272,
+      "time_since_hours": 21.2,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     }
