@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-13T00:02:50.266607-03:00",
-  "source_run_dir": "run_20260813_000230",
+  "generated_at": "2026-08-13T02:51:18.827232-03:00",
+  "source_run_dir": "run_20260813_025106",
   "cards": {
-    "vigentes": 4,
+    "vigentes": 3,
     "ultimas24h": 16,
     "autoridadesAtivas": 6,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "01:50",
+      "date": "13/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 13/08 01:46 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Planalto Sul e Litoral Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "00:00",
       "date": "13/08/2026",
@@ -54,18 +66,6 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 12/08 15:46 - CHUVA PERSISTENTE de intensidade moderada a forte com RAJADAS DE VENTO, RAIOS e ALAGAMENTOS pontuais para as regiões do Planalto Sul, Litoral Sul e Grande Florianópolis nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado"
-    },
-    {
-      "time": "15:14",
-      "date": "12/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:15h10 Umidade do ar abaixo de 30 em J Bonifacio, Ariranha e Ituverava. Atinge municipios vizinhos. Hidrate-se. Evite exercicio fisico ao ar livre",
       "status": "expirado"
     }
   ],
@@ -150,14 +150,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 4
+      "count": 3
     },
     {
       "label": "expirado",
-      "count": 12
+      "count": 13
     }
   ],
   "all_alerts": [
+    {
+      "date": "13/08/2026",
+      "time": "01:50",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 13/08 01:46 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Planalto Sul e Litoral Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-13T01:50:33-03:00",
+      "expires": "2026-08-13T05:50:00-03:00"
+    },
     {
       "date": "13/08/2026",
       "time": "00:00",
@@ -297,7 +310,7 @@
       "uf": "MT",
       "location": "MATO GROSSO/MT",
       "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-12T11:52:58-03:00",
       "expires": "2026-08-13T00:55:00-03:00"
     },
@@ -310,7 +323,7 @@
       "uf": "MT",
       "location": "/MT",
       "headline": "Defesa Civil:MT. UMIDADE BAIXA: Umidade relativa do ar variando entre 30 e 20 porcento, hidrate-se. Risco de incendios florestais e a saude. Ligue  193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-12T11:49:55-03:00",
       "expires": "2026-08-13T00:55:00-03:00"
     },
@@ -352,19 +365,6 @@
       "status": "expirado",
       "onset": "2026-08-12T07:45:37-03:00",
       "expires": "2026-08-12T23:55:00-03:00"
-    },
-    {
-      "date": "12/08/2026",
-      "time": "00:19",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 12/08 00:14 - CHUVA PERSISTENTE de intensidade moderada com RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Meio-Oeste, Planalto Sul, Litoral Sul, Grande Florianópolis e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-12T00:19:26-03:00",
-      "expires": "2026-08-12T04:15:00-03:00"
     }
   ],
   "summary": {
