@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-12T20:05:50.172687-03:00",
-  "source_run_dir": "run_20260812_200508",
+  "generated_at": "2026-08-13T00:02:50.266607-03:00",
+  "source_run_dir": "run_20260813_000230",
   "cards": {
-    "vigentes": 5,
-    "ultimas24h": 18,
+    "vigentes": 4,
+    "ultimas24h": 16,
     "autoridadesAtivas": 6,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "00:00",
+      "date": "13/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "Aviso:  Observação meteorológica SDC/SC 11/08 09:35 -  Chuva pontualmente intensa e temporais  entre quinta (13) e sexta-feira (14), com risco moderado para ocorrências associadas a alagamentos, destelhamentos, queda de galhos e árvores.  Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "16:59",
       "date": "12/08/2026",
@@ -55,25 +67,13 @@
       "uf": "SP",
       "headline": "Defesa Civil:15h10 Umidade do ar abaixo de 30 em J Bonifacio, Ariranha e Ituverava. Atinge municipios vizinhos. Hidrate-se. Evite exercicio fisico ao ar livre",
       "status": "expirado"
-    },
-    {
-      "time": "15:09",
-      "date": "12/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:15h10 Umidade do ar abaixo de 30 em Dracena, Votuporanga, Mirassol e Monte Azul Paulista. Atinge municipios vizinhos. Hidrate-se.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 8
+      "count": 6
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -108,17 +108,17 @@
     },
     {
       "label": "Médio",
-      "count": 14
+      "count": 13
     },
     {
       "label": "Alto",
-      "count": 3
+      "count": 2
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 12
+      "count": 10
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -128,7 +128,7 @@
   "uf_distribution": [
     {
       "uf": "SC",
-      "count": 10
+      "count": 8
     },
     {
       "uf": "SP",
@@ -150,14 +150,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 4
     },
     {
       "label": "expirado",
-      "count": 13
+      "count": 12
     }
   ],
   "all_alerts": [
+    {
+      "date": "13/08/2026",
+      "time": "00:00",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Aviso:  Observação meteorológica SDC/SC 11/08 09:35 -  Chuva pontualmente intensa e temporais  entre quinta (13) e sexta-feira (14), com risco moderado para ocorrências associadas a alagamentos, destelhamentos, queda de galhos e árvores.  Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-13T00:00:00-03:00",
+      "expires": "2026-08-14T23:55:00-03:00"
+    },
     {
       "date": "12/08/2026",
       "time": "16:59",
@@ -336,7 +349,7 @@
       "uf": "SC",
       "location": "Blumenau/SC",
       "headline": "Defesa Civil:ALERTABLU-ATENCAO:Chuva intermitente fraca a moderada ao longo do dia (12/08) em Blumenau. Fique atento! Ocorrencias, 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-12T07:45:37-03:00",
       "expires": "2026-08-12T23:55:00-03:00"
     },
@@ -352,59 +365,20 @@
       "status": "expirado",
       "onset": "2026-08-12T00:19:26-03:00",
       "expires": "2026-08-12T04:15:00-03:00"
-    },
-    {
-      "date": "12/08/2026",
-      "time": "00:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Observação Meteorológica SDC/SC 10/08 11:00 - Chuva pontualmente intensa e temporais isolados na quarta-feira (12). Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-08-12T00:00:00-03:00",
-      "expires": "2026-08-12T23:00:00-03:00"
-    },
-    {
-      "date": "11/08/2026",
-      "time": "23:29",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 11/08 23:27 - CHUVA PERSISTENTE de intensidade moderada a forte com ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste, Meio-Oeste e Planalto Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-11T23:29:29-03:00",
-      "expires": "2026-08-12T03:30:00-03:00"
-    },
-    {
-      "date": "11/08/2026",
-      "time": "21:20",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 11/08 21:17 - CHUVA PERSISTENTE ALAGAMENTOS e RAJADAS DE VENTO nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-11T21:20:03-03:00",
-      "expires": "2026-08-11T23:20:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 18,
+    "total_alerts": 16,
     "by_nivel": {
-      "Médio": 14,
-      "Alto": 3,
+      "Médio": 13,
+      "Alto": 2,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 18
+      "Google": 16
     },
     "by_region": {
-      "S": 10,
+      "S": 8,
       "SE": 4,
       "CO": 2,
       "N": 1,
