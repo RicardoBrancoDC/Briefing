@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-08-13T04:58:24.615964-03:00",
-  "source_run_dir": "run_20260813_045814",
+  "generated_at": "2026-08-13T06:36:13.631181-03:00",
+  "source_run_dir": "run_20260813_063556",
   "cards": {
-    "vigentes": 3,
-    "ultimas24h": 16,
-    "autoridadesAtivas": 6,
+    "vigentes": 5,
+    "ultimas24h": 19,
+    "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "06:07",
+      "date": "13/08/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Deslizamentos",
+      "nivel": "Médio",
+      "location": "Caxias do Sul/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:DEFESA CIVIL RS Alerta AMARELO : Risco MODERADO p/ deslizamentos pontuais em Caxias do Sul . Evite areas de risco. Val por 24h. Emerg 190/193.",
+      "status": "vigente"
+    },
+    {
+      "time": "06:06",
+      "date": "13/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 13/08 06:05 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Extremo Oeste, Oeste, Meio-Oeste e Planalto Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "06:01",
+      "date": "13/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 13/08 05:59 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Planalto Sul e Litoral Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "01:50",
       "date": "13/08/2026",
@@ -18,7 +54,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 13/08 01:46 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Planalto Sul e Litoral Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "00:00",
@@ -31,49 +67,13 @@
       "uf": "SC",
       "headline": "Aviso:  Observação meteorológica SDC/SC 11/08 09:35 -  Chuva pontualmente intensa e temporais  entre quinta (13) e sexta-feira (14), com risco moderado para ocorrências associadas a alagamentos, destelhamentos, queda de galhos e árvores.  Ocorrências ligue 199 ou 193.",
       "status": "vigente"
-    },
-    {
-      "time": "16:59",
-      "date": "12/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Manicoré/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "16:07",
-      "date": "12/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:16h05 Umidade do ar abaixo de 30 em Rancharia, Ribeirao Preto, Paulo de Faria e Indiapora. Atinge municipios vizinhos. Hidrate-se.",
-      "status": "expirado"
-    },
-    {
-      "time": "15:50",
-      "date": "12/08/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 12/08 15:46 - CHUVA PERSISTENTE de intensidade moderada a forte com RAJADAS DE VENTO, RAIOS e ALAGAMENTOS pontuais para as regiões do Planalto Sul, Litoral Sul e Grande Florianópolis nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 6
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -89,6 +89,11 @@
       "name": "Defesa Civil Estadual de Mato Grosso",
       "short_name": "DC Mato Grosso",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual do Rio Grande do Sul",
+      "short_name": "DC Rio Grande do Sul",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -108,7 +113,7 @@
     },
     {
       "label": "Médio",
-      "count": 13
+      "count": 16
     },
     {
       "label": "Alto",
@@ -118,17 +123,21 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 10
+      "count": 12
     },
     {
       "label": "Baixa Umidade Do Ar",
       "count": 6
+    },
+    {
+      "label": "Deslizamentos",
+      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "SC",
-      "count": 8
+      "count": 10
     },
     {
       "uf": "SP",
@@ -137,6 +146,10 @@
     {
       "uf": "MT",
       "count": 2
+    },
+    {
+      "uf": "RS",
+      "count": 1
     },
     {
       "uf": "AM",
@@ -150,14 +163,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 3
+      "count": 5
     },
     {
       "label": "expirado",
-      "count": 13
+      "count": 14
     }
   ],
   "all_alerts": [
+    {
+      "date": "13/08/2026",
+      "time": "06:07",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Deslizamentos",
+      "nivel": "Médio",
+      "uf": "RS",
+      "location": "Caxias do Sul/RS",
+      "headline": "Defesa Civil:DEFESA CIVIL RS Alerta AMARELO : Risco MODERADO p/ deslizamentos pontuais em Caxias do Sul . Evite areas de risco. Val por 24h. Emerg 190/193.",
+      "status": "vigente",
+      "onset": "2026-08-13T06:07:32-03:00",
+      "expires": "2026-08-14T06:00:00-03:00"
+    },
+    {
+      "date": "13/08/2026",
+      "time": "06:06",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 13/08 06:05 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Extremo Oeste, Oeste, Meio-Oeste e Planalto Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-13T06:06:32-03:00",
+      "expires": "2026-08-13T10:05:00-03:00"
+    },
+    {
+      "date": "13/08/2026",
+      "time": "06:01",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 13/08 05:59 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Planalto Sul e Litoral Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-13T06:01:13-03:00",
+      "expires": "2026-08-13T10:00:00-03:00"
+    },
     {
       "date": "13/08/2026",
       "time": "01:50",
@@ -167,7 +219,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 13/08 01:46 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Planalto Sul e Litoral Sul nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-13T01:50:33-03:00",
       "expires": "2026-08-13T05:50:00-03:00"
     },
@@ -368,17 +420,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 16,
+    "total_alerts": 19,
     "by_nivel": {
-      "Médio": 13,
+      "Médio": 16,
       "Alto": 2,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 16
+      "Google": 19
     },
     "by_region": {
-      "S": 8,
+      "S": 11,
       "SE": 4,
       "CO": 2,
       "N": 1,
