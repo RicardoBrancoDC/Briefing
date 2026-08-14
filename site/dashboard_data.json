@@ -1,51 +1,15 @@
 {
-  "generated_at": "2026-08-14T02:51:01.993172-03:00",
-  "source_run_dir": "run_20260814_024939",
+  "generated_at": "2026-08-14T04:54:21.184896-03:00",
+  "source_run_dir": "run_20260814_045352",
   "cards": {
-    "vigentes": 14,
-    "ultimas24h": 161,
+    "vigentes": 11,
+    "ultimas24h": 164,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "02:12",
-      "date": "14/08/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:ATENCAO - 14/08 02:09 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Fique atento. Ocorrencias ligue 199/193",
-      "status": "vigente"
-    },
-    {
-      "time": "01:57",
-      "date": "14/08/2026",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "senderNameShort": "DC Blumenau (SC)",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "location": "Blumenau/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Risco p/ TEMPORAIS com CHUVA INTENSA e GRANIZO PONTUAL nas prox. 02h em Blumenau. Fique atento! Emerg 199/193.",
-      "status": "vigente"
-    },
-    {
-      "time": "01:53",
-      "date": "14/08/2026",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "senderNameShort": "DC Blumenau (SC)",
-      "event": "Granizo",
-      "nivel": "Severo",
-      "location": "Blumenau/SC",
-      "uf": "SC",
-      "headline": "Defesa Civil:ALERTABLU-ALERTA: TEMPORAL c/ CHUVA INTENSA e GRANIZO PONTUAL na prox. 01h no EXTREMO NORTE de BLUMENAU. Busque abrigo! Emerg 199/193.",
-      "status": "expirado"
-    },
-    {
-      "time": "01:20",
+      "time": "04:39",
       "date": "14/08/2026",
       "senderName": "Defesa Civil Estadual do Paraná",
       "senderNameShort": "DC Paraná",
@@ -57,7 +21,31 @@
       "status": "vigente"
     },
     {
-      "time": "01:09",
+      "time": "04:13",
+      "date": "14/08/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "02:57",
+      "date": "14/08/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "02:12",
       "date": "14/08/2026",
       "senderName": "Defesa Civil Estadual de Santa Catarina",
       "senderNameShort": "DC Santa Catarina",
@@ -65,8 +53,20 @@
       "nivel": "Alto",
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
-      "headline": "Defesa Civil:ATENCAO - 14/08 01:07 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Fique atento. Ocorrencias ligue 199/193",
-      "status": "vigente"
+      "headline": "Defesa Civil:ATENCAO - 14/08 02:09 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Fique atento. Ocorrencias ligue 199/193",
+      "status": "expirado"
+    },
+    {
+      "time": "01:57",
+      "date": "14/08/2026",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "senderNameShort": "DC Blumenau (SC)",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "location": "Blumenau/SC",
+      "uf": "SC",
+      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Risco p/ TEMPORAIS com CHUVA INTENSA e GRANIZO PONTUAL nas prox. 02h em Blumenau. Fique atento! Emerg 199/193.",
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -83,7 +83,7 @@
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 18
+      "count": 21
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Alto",
-      "count": 85
+      "count": 88
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 108
+      "count": 111
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -176,7 +176,7 @@
     },
     {
       "uf": "PR",
-      "count": 18
+      "count": 21
     },
     {
       "uf": "RS",
@@ -210,14 +210,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 14
+      "count": 11
     },
     {
       "label": "expirado",
-      "count": 147
+      "count": 153
     }
   ],
   "all_alerts": [
+    {
+      "date": "14/08/2026",
+      "time": "04:39",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-14T04:39:48-03:00",
+      "expires": "2026-08-14T07:40:00-03:00"
+    },
+    {
+      "date": "14/08/2026",
+      "time": "04:13",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-14T04:13:03-03:00",
+      "expires": "2026-08-14T07:10:00-03:00"
+    },
+    {
+      "date": "14/08/2026",
+      "time": "02:57",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-14T02:57:16-03:00",
+      "expires": "2026-08-14T05:55:00-03:00"
+    },
     {
       "date": "14/08/2026",
       "time": "02:12",
@@ -227,7 +266,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 14/08 02:09 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Fique atento. Ocorrencias ligue 199/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-14T02:12:28-03:00",
       "expires": "2026-08-14T04:10:00-03:00"
     },
@@ -240,7 +279,7 @@
       "uf": "SC",
       "location": "Blumenau/SC",
       "headline": "Defesa Civil:ALERTABLU-ATENCAO: Risco p/ TEMPORAIS com CHUVA INTENSA e GRANIZO PONTUAL nas prox. 02h em Blumenau. Fique atento! Emerg 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-14T01:57:18-03:00",
       "expires": "2026-08-14T03:00:00-03:00"
     },
@@ -266,7 +305,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-14T01:20:59-03:00",
       "expires": "2026-08-14T04:20:00-03:00"
     },
@@ -279,7 +318,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Defesa Civil:ATENCAO - 14/08 01:07 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Fique atento. Ocorrencias ligue 199/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-14T01:09:26-03:00",
       "expires": "2026-08-14T03:05:00-03:00"
     },
@@ -292,7 +331,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 14/08 00:39 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para áreas das regiões do Planalto Norte, Litoral Norte, Baixo, Médio e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-14T00:41:04-03:00",
       "expires": "2026-08-14T04:40:00-03:00"
     },
@@ -305,7 +344,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-14T00:34:00-03:00",
       "expires": "2026-08-14T03:30:00-03:00"
     },
@@ -2313,17 +2352,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 161,
+    "total_alerts": 164,
     "by_nivel": {
-      "Alto": 85,
+      "Alto": 88,
       "Médio": 58,
       "Severo": 18
     },
     "by_channel_list": {
-      "Google": 161
+      "Google": 164
     },
     "by_region": {
-      "S": 114,
+      "S": 117,
       "SE": 41,
       "N": 3,
       "CO": 2,
