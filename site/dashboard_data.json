@@ -1,15 +1,27 @@
 {
-  "generated_at": "2026-08-14T10:47:35.752447-03:00",
-  "source_run_dir": "run_20260814_104715",
+  "generated_at": "2026-08-14T12:15:52.694889-03:00",
+  "source_run_dir": "run_20260814_121526",
   "cards": {
-    "vigentes": 10,
-    "ultimas24h": 138,
-    "autoridadesAtivas": 10,
+    "vigentes": 18,
+    "ultimas24h": 134,
+    "autoridadesAtivas": 12,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "10:44",
+      "time": "12:10",
+      "date": "14/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Baixo",
+      "location": "IBGE/MS",
+      "uf": "MS",
+      "headline": "Defesa Civil:Teste do sistema. Nenhuma acao recomendada",
+      "status": "vigente"
+    },
+    {
+      "time": "12:06",
       "date": "14/08/2026",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "senderNameShort": "DC São Paulo",
@@ -17,55 +29,43 @@
       "nivel": "Médio",
       "location": "SÃO PAULO/SP",
       "uf": "SP",
-      "headline": "Defesa Civil:10h40 Umidade do ar abaixo de 30 em Franca e Ituverava. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
+      "headline": "Defesa Civil:12h Umidade do ar abaixo de 30 na regiao de SJ Rio Preto e Votuporanga. Atinge municipios vizinhos. Evite exercicios fisicos ao ar livre.",
       "status": "vigente"
     },
     {
-      "time": "10:22",
+      "time": "12:00",
       "date": "14/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:10h20 Chuva isolada na regiao de Itanhaem. Tem raios e vento. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "vigente"
-    },
-    {
-      "time": "10:10",
-      "date": "14/08/2026",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "senderNameShort": "DC Piauí",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "location": "PIAUÍ/PI",
-      "uf": "PI",
-      "headline": "Defesa Civil:Alerta critico de baixa umidade das 12h de 14/08 ate 18h de 15/08. Hidrate-se, evite sol e esforco fisico. EM CASO DE EMERGENCIA LIGUE 192 OU 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "10:07",
-      "date": "14/08/2026",
-      "senderName": "Defesa Civil Estadual de Mato Grosso",
-      "senderNameShort": "DC Mato Grosso",
+      "senderName": "Defesa Civil Estadual de Goiás",
+      "senderNameShort": "DC Goiás",
       "event": "Baixa Umidade Do Ar",
       "nivel": "Alto",
-      "location": "/MT",
-      "uf": "MT",
-      "headline": "Defesa Civil:MT. UMIDADE BAIXA: A Umidade relativa do ar variando entre 20 e 12 por cento, hidrate-se. Risco de incendios florestais e a saude. Ligue: 193/199.",
+      "location": "GOIÁS/GO",
+      "uf": "GO",
+      "headline": "Defesa Civil: Alerta critico de baixa umidade das 12h de 14/08 ate 18h de 15/08. Hidrate-se, evite sol e esforco fisico excessivo. Emergencia 193.",
       "status": "vigente"
     },
     {
-      "time": "09:25",
+      "time": "12:00",
       "date": "14/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
+      "senderName": "Defesa Civil Estadual de Goiás",
+      "senderNameShort": "DC Goiás",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "location": "GOIÁS/GO",
+      "uf": "GO",
+      "headline": "Defesa Civil: Alerta critico de baixa umidade das 12h de 14/08 ate 18h de 15/08. Hidrate-se, evite sol e esforco fisico excessivo. Emergencia 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "11:35",
+      "date": "14/08/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
       "event": "Chuvas Intensas",
       "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:09h20 Chuva isolada na regiao de Iguape e Juquia. Tem raios e vento. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:PR AVISO DE TEMPO: Temporais potencialmente severos na tarde e noite nesta sex 14/08. Evite areas de risco. Ocorrencias, ligue 199/193.",
       "status": "vigente"
     }
   ],
@@ -73,36 +73,36 @@
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 58
+      "count": 50
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 41
+      "count": 40
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 22
+      "count": 24
     },
     {
       "name": "Defesa Civil de Blumenau (SC)",
       "short_name": "DC Blumenau (SC)",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 3
-    },
-    {
-      "name": "Defesa Civil Estadual de Mato Grosso",
-      "short_name": "DC Mato Grosso",
-      "count": 2
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
+      "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual de Goiás",
+      "short_name": "DC Goiás",
       "count": 2
     },
     {
@@ -111,46 +111,54 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil Estadual do Piauí",
-      "short_name": "DC Piauí",
+      "name": "Defesa Civil Estadual do Maranhão",
+      "short_name": "DC Maranhão",
       "count": 1
     },
     {
-      "name": "Defesa Civil de Petrópolis (RJ)",
-      "short_name": "DC Petrópolis (RJ)",
+      "name": "Defesa Civil Estadual do Piauí",
+      "short_name": "DC Piauí",
       "count": 1
     }
   ],
   "level_distribution": [
     {
+      "label": "Baixo",
+      "count": 1
+    },
+    {
       "label": "Médio",
-      "count": 55
+      "count": 54
     },
     {
       "label": "Alto",
-      "count": 69
+      "count": 64
     },
     {
       "label": "Severo",
-      "count": 14
+      "count": 15
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 92
+      "count": 86
     },
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 37
-    },
-    {
-      "label": "Granizo",
-      "count": 5
+      "count": 38
     },
     {
       "label": "Inundações",
-      "count": 3
+      "count": 4
+    },
+    {
+      "label": "Granizo",
+      "count": 4
+    },
+    {
+      "label": "Vendaval",
+      "count": 1
     },
     {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
@@ -160,26 +168,30 @@
   "uf_distribution": [
     {
       "uf": "SC",
-      "count": 64
+      "count": 55
     },
     {
       "uf": "SP",
-      "count": 41
+      "count": 40
     },
     {
       "uf": "PR",
-      "count": 22
+      "count": 24
+    },
+    {
+      "uf": "RS",
+      "count": 3
     },
     {
       "uf": "AM",
       "count": 3
     },
     {
-      "uf": "MT",
+      "uf": "MS",
       "count": 2
     },
     {
-      "uf": "RS",
+      "uf": "GO",
       "count": 2
     },
     {
@@ -187,25 +199,172 @@
       "count": 2
     },
     {
+      "uf": "MA",
+      "count": 1
+    },
+    {
       "uf": "PI",
       "count": 1
     },
     {
-      "uf": "MS",
+      "uf": "MT",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 10
+      "count": 18
     },
     {
       "label": "expirado",
-      "count": 128
+      "count": 116
     }
   ],
   "all_alerts": [
+    {
+      "date": "14/08/2026",
+      "time": "12:10",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Baixo",
+      "uf": "MS",
+      "location": "IBGE/MS",
+      "headline": "Defesa Civil:Teste do sistema. Nenhuma acao recomendada",
+      "status": "vigente",
+      "onset": "2026-08-14T12:10:54-03:00",
+      "expires": "2026-08-14T13:00:00-03:00"
+    },
+    {
+      "date": "14/08/2026",
+      "time": "12:06",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:12h Umidade do ar abaixo de 30 na regiao de SJ Rio Preto e Votuporanga. Atinge municipios vizinhos. Evite exercicios fisicos ao ar livre.",
+      "status": "vigente",
+      "onset": "2026-08-14T12:06:56-03:00",
+      "expires": "2026-08-14T18:00:00-03:00"
+    },
+    {
+      "date": "14/08/2026",
+      "time": "12:00",
+      "senderName": "Defesa Civil Estadual de Goiás",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "uf": "GO",
+      "location": "GOIÁS/GO",
+      "headline": "Defesa Civil: Alerta critico de baixa umidade das 12h de 14/08 ate 18h de 15/08. Hidrate-se, evite sol e esforco fisico excessivo. Emergencia 193.",
+      "status": "vigente",
+      "onset": "2026-08-14T12:00:00-03:00",
+      "expires": "2026-08-15T18:00:00-03:00"
+    },
+    {
+      "date": "14/08/2026",
+      "time": "12:00",
+      "senderName": "Defesa Civil Estadual de Goiás",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "uf": "GO",
+      "location": "GOIÁS/GO",
+      "headline": "Defesa Civil: Alerta critico de baixa umidade das 12h de 14/08 ate 18h de 15/08. Hidrate-se, evite sol e esforco fisico excessivo. Emergencia 193.",
+      "status": "vigente",
+      "onset": "2026-08-14T12:00:00-03:00",
+      "expires": "2026-08-15T18:00:00-03:00"
+    },
+    {
+      "date": "14/08/2026",
+      "time": "11:35",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR AVISO DE TEMPO: Temporais potencialmente severos na tarde e noite nesta sex 14/08. Evite areas de risco. Ocorrencias, ligue 199/193.",
+      "status": "vigente",
+      "onset": "2026-08-14T11:35:41-03:00",
+      "expires": "2026-08-15T01:00:00-03:00"
+    },
+    {
+      "date": "14/08/2026",
+      "time": "11:33",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR AVISO DE TEMPO: Temporais com chuva pontualmente forte e vento nesta sex 14/08. Mantenha-se atento e em observacao. Ocorrencias, ligue 199/193.",
+      "status": "vigente",
+      "onset": "2026-08-14T11:33:34-03:00",
+      "expires": "2026-08-15T01:00:00-03:00"
+    },
+    {
+      "date": "14/08/2026",
+      "time": "11:27",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "MA",
+      "location": "MARANHÃO/MA",
+      "headline": "Defesa Civil:Alerta de Baixa Umidade para sua regiao. Beba agua, evite exercicios ao sol e nao realize queimadas. Valido ate dia 14/08/2026 as 19h00min.",
+      "status": "vigente",
+      "onset": "2026-08-14T11:27:41-03:00",
+      "expires": "2026-08-14T19:00:00-03:00"
+    },
+    {
+      "date": "14/08/2026",
+      "time": "11:24",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:11h25 Umidade do ar abaixo de 30 na regiao de Santa Fe do Sul e Jales. Atinge municipios vizinhos. Evite exercicios fisicos ao ar livre.",
+      "status": "vigente",
+      "onset": "2026-08-14T11:24:45-03:00",
+      "expires": "2026-08-14T18:00:00-03:00"
+    },
+    {
+      "date": "14/08/2026",
+      "time": "11:22",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:11h20 Umidade do ar abaixo de 30 na regiao de Barretos e Guaira. Atinge municipios vizinhos. Hidrate-se. Evite exercicios fisicos ao ar livre.",
+      "status": "vigente",
+      "onset": "2026-08-14T11:22:23-03:00",
+      "expires": "2026-08-14T18:00:00-03:00"
+    },
+    {
+      "date": "14/08/2026",
+      "time": "11:18",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:11h15 Chuva isolada na regiao de Ibiuna e Juquitiba. Tem raios e vento. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-08-14T11:18:13-03:00",
+      "expires": "2026-08-14T13:20:00-03:00"
+    },
+    {
+      "date": "14/08/2026",
+      "time": "11:01",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Severo",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO  no rio Jacui. Risco MUITO ALTO em Dona Francisca. Valido por 24h. Evite areas inundaveis. Emerg 190/193.",
+      "status": "vigente",
+      "onset": "2026-08-14T11:01:52-03:00",
+      "expires": "2026-08-15T11:00:00-03:00"
+    },
     {
       "date": "14/08/2026",
       "time": "10:44",
@@ -267,7 +426,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:09h20 Chuva isolada na regiao de Iguape e Juquia. Tem raios e vento. Atinge cidades vizinhas. Tome cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-14T09:25:31-03:00",
       "expires": "2026-08-14T12:00:00-03:00"
     },
@@ -306,7 +465,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:Risco de Inundacoes em CURITIBA e mun. vizinhos. Monitore. Em caso de perigo, deixe o local imediatamente. Ligue 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-14T05:14:21-03:00",
       "expires": "2026-08-14T11:10:00-03:00"
     },
@@ -527,7 +686,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO  no rio Jacui. Risco MUITO ALTO em Dona Francisca. Valido por 12h. Evite areas inundaveis. Emerg 190/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-13T23:00:00-03:00",
       "expires": "2026-08-14T11:00:00-03:00"
     },
@@ -1804,219 +1963,25 @@
       "status": "expirado",
       "onset": "2026-08-13T12:26:28-03:00",
       "expires": "2026-08-13T15:30:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "12:11",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 13/08 12:09 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Norte, Litoral Norte, Baixo, Médio e Alto Vale do Itajaí nas próximas 6 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-13T12:11:15-03:00",
-      "expires": "2026-08-13T18:10:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "12:06",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 13/08 12:04 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-13T12:06:41-03:00",
-      "expires": "2026-08-13T13:05:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "12:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 13/08 11:59 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-13T12:00:48-03:00",
-      "expires": "2026-08-13T14:00:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "11:53",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 13/08 11:51 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS, nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-13T11:53:57-03:00",
-      "expires": "2026-08-13T14:50:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "11:50",
-      "senderName": "Defesa Civil Estadual de Mato Grosso",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "MT",
-      "location": "MATO GROSSO/MT",
-      "headline": "Defesa Civil:MT. UMIDADE BAIXA: A Umidade relativa do ar variando entre 20 e 12 por cento, hidrate-se. Risco de incendios florestais e a saude. Ligue: 193/199.",
-      "status": "expirado",
-      "onset": "2026-08-13T11:50:44-03:00",
-      "expires": "2026-08-13T19:00:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "11:42",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "Blumenau/SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas de chuva c/ trovoadas e RISCO DE TEMPORAIS ISOLADOS nas proximas 02h em Blumenau. Fique atento! Emerg 199/193.",
-      "status": "expirado",
-      "onset": "2026-08-13T11:42:07-03:00",
-      "expires": "2026-08-13T14:00:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "11:40",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "Orlândia/SP, Miguelópolis/SP",
-      "headline": "Defesa Civil:11h39 Umidade do ar abaixo de 30 em Orlandia e Miguelopolis. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-08-13T11:40:01-03:00",
-      "expires": "2026-08-13T19:00:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "11:32",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 13/08 11:30 - TEMPORAIS ISOLADOS de intensidade moderada a forte com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões da Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-13T11:32:42-03:00",
-      "expires": "2026-08-13T15:30:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "11:28",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "Ribeirão Corrente/SP, Tambaú/SP",
-      "headline": "Defesa Civil:11h28 Umidade do ar abaixo de 30 em Ribeirao Corrente e Tambau. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-08-13T11:28:10-03:00",
-      "expires": "2026-08-13T19:00:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "11:24",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 13/08 11:22 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS, nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-13T11:24:00-03:00",
-      "expires": "2026-08-13T14:25:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "11:23",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:11h24 Umidade do ar abaixo de 30 em Ituverava, Votuporanga e Mirassol. Hidrate-se. Proteja-se do sol. Beba bastante agua.",
-      "status": "expirado",
-      "onset": "2026-08-13T11:23:49-03:00",
-      "expires": "2026-08-13T19:00:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "11:15",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 13/08 11:10 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS, nas proximas 3 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-13T11:15:19-03:00",
-      "expires": "2026-08-13T14:15:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "11:13",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "Jales/SP",
-      "headline": "Defesa Civil:11h13 Umidade do ar abaixo de 30 em Jales. Hidrate-se. Proteja-se do sol. Beba bastante agua.",
-      "status": "expirado",
-      "onset": "2026-08-13T11:13:55-03:00",
-      "expires": "2026-08-13T19:00:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "11:08",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 13/08 11:05 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Sul, Litoral Sul, Grande Florianópolis, Médio e Alto Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-13T11:08:30-03:00",
-      "expires": "2026-08-13T15:05:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "11:08",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "Santa Fé do Sul/SP, Franca/SP",
-      "headline": "Defesa Civil:Umidade do ar abaixo de 30 em Santa Fe Sul e Franca. Hidrate-se. Proteja-se do sol. Beba bastante agua.",
-      "status": "expirado",
-      "onset": "2026-08-13T11:08:13-03:00",
-      "expires": "2026-08-13T19:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 138,
+    "total_alerts": 134,
     "by_nivel": {
-      "Alto": 69,
-      "Médio": 55,
-      "Severo": 14
+      "Alto": 64,
+      "Médio": 54,
+      "Severo": 15,
+      "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 138
+      "Google": 134
     },
     "by_region": {
-      "S": 88,
-      "SE": 43,
-      "CO": 3,
+      "S": 82,
+      "SE": 42,
+      "CO": 5,
       "N": 3,
-      "NE": 1
+      "NE": 2
     }
   }
 }
