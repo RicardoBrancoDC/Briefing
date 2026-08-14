@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-14T06:31:06.125825-03:00",
-  "source_run_dir": "run_20260814_063036",
+  "generated_at": "2026-08-14T08:11:30.045459-03:00",
+  "source_run_dir": "run_20260814_081110",
   "cards": {
-    "vigentes": 13,
-    "ultimas24h": 165,
+    "vigentes": 8,
+    "ultimas24h": 154,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
@@ -42,7 +42,7 @@
       "location": "PARANÁ/PR",
       "uf": "PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "05:00",
@@ -54,7 +54,7 @@
       "location": "PARANÁ/PR",
       "uf": "PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "04:39",
@@ -66,14 +66,14 @@
       "location": "PARANÁ/PR",
       "uf": "PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
-      "count": 78
+      "count": 70
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -86,13 +86,13 @@
       "count": 25
     },
     {
-      "name": "Defesa Civil Estadual do Rio Grande do Sul",
-      "short_name": "DC Rio Grande do Sul",
-      "count": 9
-    },
-    {
       "name": "Defesa Civil de Blumenau (SC)",
       "short_name": "DC Blumenau (SC)",
+      "count": 6
+    },
+    {
+      "name": "Defesa Civil Estadual do Rio Grande do Sul",
+      "short_name": "DC Rio Grande do Sul",
       "count": 6
     },
     {
@@ -124,21 +124,21 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 55
+      "count": 53
     },
     {
       "label": "Alto",
-      "count": 92
+      "count": 84
     },
     {
       "label": "Severo",
-      "count": 18
+      "count": 17
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 112
+      "count": 104
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -146,7 +146,7 @@
     },
     {
       "label": "Granizo",
-      "count": 12
+      "count": 9
     },
     {
       "label": "Inundações",
@@ -164,7 +164,7 @@
   "uf_distribution": [
     {
       "uf": "SC",
-      "count": 84
+      "count": 76
     },
     {
       "uf": "SP",
@@ -176,7 +176,7 @@
     },
     {
       "uf": "RS",
-      "count": 9
+      "count": 6
     },
     {
       "uf": "AM",
@@ -206,11 +206,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 13
+      "count": 8
     },
     {
       "label": "expirado",
-      "count": 152
+      "count": 146
     }
   ],
   "all_alerts": [
@@ -249,7 +249,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-14T05:06:56-03:00",
       "expires": "2026-08-14T08:10:00-03:00"
     },
@@ -262,7 +262,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-14T05:00:28-03:00",
       "expires": "2026-08-14T07:55:00-03:00"
     },
@@ -275,7 +275,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-14T04:39:48-03:00",
       "expires": "2026-08-14T07:40:00-03:00"
     },
@@ -288,7 +288,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-14T04:13:03-03:00",
       "expires": "2026-08-14T07:10:00-03:00"
     },
@@ -2215,163 +2215,20 @@
       "status": "expirado",
       "onset": "2026-08-13T08:11:53-03:00",
       "expires": "2026-08-13T23:55:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "08:10",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 10h. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-08-13T08:10:43-03:00",
-      "expires": "2026-08-13T10:00:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "08:10",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 10h. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-08-13T08:10:04-03:00",
-      "expires": "2026-08-13T10:00:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "07:33",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "RIO GRANDE DO SUL/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 09h35. Mantenha-se seguro.",
-      "status": "expirado",
-      "onset": "2026-08-13T07:33:59-03:00",
-      "expires": "2026-08-13T09:35:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "07:30",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:SDC: ALERTA de tempestade severa com vendaval e granizo na proxima hora. BUSQUE ABRIGO longe de arvores, placas e postes de energia. Emerg 199/193",
-      "status": "expirado",
-      "onset": "2026-08-13T07:30:14-03:00",
-      "expires": "2026-08-13T08:25:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "07:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:Atencao Meteorologica SDC/SC 12/08 09:50 - Temporais com granizo e chuva intensa entre a quinta-feira (13) e o sabado (15).  Emerg. 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-13T07:00:00-03:00",
-      "expires": "2026-08-13T23:55:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "07:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:Atencao Meteorologica SDC/SC 12/08 09:50 - Temporais com granizo e chuva intensa entre a quinta-feira (13) e o sabado (15).  Emerg. 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-13T07:00:00-03:00",
-      "expires": "2026-08-13T23:55:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "07:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:Atencao Meteorologica SDC/SC 12/08 09:50 - Temporais com granizo e chuva intensa entre a quinta-feira (13) e o sabado (15).  Emerg. 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-13T07:00:00-03:00",
-      "expires": "2026-08-13T23:55:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "07:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:Atencao Meteorologica SDC/SC 12/08 09:50 - Temporais com granizo e chuva intensa na quinta-feira (13). Em caso de emergencia, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-13T07:00:00-03:00",
-      "expires": "2026-08-13T23:55:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "07:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Observação Meteorológica SDC/SC 12/08 09:50 - Temporais isolados com granizo e chuva pontualmente intensa entre no sábado (15). Em caso de emergência, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-13T07:00:00-03:00",
-      "expires": "2026-08-13T23:55:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "07:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Observação Meteorológica SDC/SC 12/08 09:50 ¿ Temporais  isolados com granizo e chuva pontualmente intensa entre a quinta-feira (13) e o sábado (15). Em caso de emergência, ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-08-13T07:00:00-03:00",
-      "expires": "2026-08-15T23:55:00-03:00"
-    },
-    {
-      "date": "13/08/2026",
-      "time": "06:38",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 13/08 06:35 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-13T06:38:58-03:00",
-      "expires": "2026-08-13T08:35:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 165,
+    "total_alerts": 154,
     "by_nivel": {
-      "Alto": 92,
-      "Médio": 55,
-      "Severo": 18
+      "Alto": 84,
+      "Médio": 53,
+      "Severo": 17
     },
     "by_channel_list": {
-      "Google": 165
+      "Google": 154
     },
     "by_region": {
-      "S": 118,
+      "S": 107,
       "SE": 41,
       "N": 3,
       "CO": 2,
