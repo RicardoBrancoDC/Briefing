@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-21T15:54:36.485770-03:00",
+  "generated_at": "2026-08-21T16:03:04.104345-03:00",
   "source": ".cache/historico_alertas.json",
   "window_hours": 24,
   "cards": {
-    "vigentes": 41,
+    "vigentes": 40,
     "ultimas24h": 45,
     "autoridadesAtivas": 22,
     "alertasExtremos": 1,
@@ -393,11 +393,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 41
+      "count": 40
     },
     {
       "label": "expirado",
-      "count": 4
+      "count": 5
     }
   ],
   "category_distribution": [
@@ -442,16 +442,16 @@
       "count": 19
     },
     {
+      "label": "6h a 12h",
+      "count": 11
+    },
+    {
       "label": "1h a 3h",
       "count": 10
     },
     {
-      "label": "6h a 12h",
-      "count": 10
-    },
-    {
       "label": "Até 1h",
-      "count": 6
+      "count": 5
     }
   ],
   "channel_distribution": [
@@ -503,8 +503,8 @@
       "duration_minutes": 249,
       "duration_hours": 4.15,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 3,
-      "time_since_hours": 0.05,
+      "time_since_minutes": 12,
+      "time_since_hours": 0.2,
       "time_since_bucket": "Até 1h",
       "is_active": true
     },
@@ -550,8 +550,8 @@
       "duration_minutes": 1576,
       "duration_hours": 26.27,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 10,
-      "time_since_hours": 0.17,
+      "time_since_minutes": 19,
+      "time_since_hours": 0.32,
       "time_since_bucket": "Até 1h",
       "is_active": true
     },
@@ -597,8 +597,8 @@
       "duration_minutes": 317,
       "duration_hours": 5.28,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 12,
-      "time_since_hours": 0.2,
+      "time_since_minutes": 20,
+      "time_since_hours": 0.33,
       "time_since_bucket": "Até 1h",
       "is_active": true
     },
@@ -644,8 +644,8 @@
       "duration_minutes": 198,
       "duration_hours": 3.3,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 12,
-      "time_since_hours": 0.2,
+      "time_since_minutes": 21,
+      "time_since_hours": 0.35,
       "time_since_bucket": "Até 1h",
       "is_active": true
     },
@@ -691,8 +691,8 @@
       "duration_minutes": 200,
       "duration_hours": 3.33,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 15,
-      "time_since_hours": 0.25,
+      "time_since_minutes": 23,
+      "time_since_hours": 0.38,
       "time_since_bucket": "Até 1h",
       "is_active": true
     },
@@ -738,9 +738,9 @@
       "duration_minutes": 217,
       "duration_hours": 3.62,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 56,
-      "time_since_hours": 0.93,
-      "time_since_bucket": "Até 1h",
+      "time_since_minutes": 65,
+      "time_since_hours": 1.08,
+      "time_since_bucket": "1h a 3h",
       "is_active": true
     },
     {
@@ -785,8 +785,8 @@
       "duration_minutes": 251,
       "duration_hours": 4.18,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 66,
-      "time_since_hours": 1.1,
+      "time_since_minutes": 74,
+      "time_since_hours": 1.23,
       "time_since_bucket": "1h a 3h",
       "is_active": true
     },
@@ -832,8 +832,8 @@
       "duration_minutes": 253,
       "duration_hours": 4.22,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 68,
-      "time_since_hours": 1.13,
+      "time_since_minutes": 76,
+      "time_since_hours": 1.27,
       "time_since_bucket": "1h a 3h",
       "is_active": true
     },
@@ -879,8 +879,8 @@
       "duration_minutes": 294,
       "duration_hours": 4.9,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 108,
-      "time_since_hours": 1.8,
+      "time_since_minutes": 117,
+      "time_since_hours": 1.95,
       "time_since_bucket": "1h a 3h",
       "is_active": true
     },
@@ -926,8 +926,8 @@
       "duration_minutes": 483,
       "duration_hours": 8.05,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 118,
-      "time_since_hours": 1.97,
+      "time_since_minutes": 126,
+      "time_since_hours": 2.1,
       "time_since_bucket": "1h a 3h",
       "is_active": true
     },
@@ -973,8 +973,8 @@
       "duration_minutes": 500,
       "duration_hours": 8.33,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 134,
-      "time_since_hours": 2.23,
+      "time_since_minutes": 143,
+      "time_since_hours": 2.38,
       "time_since_bucket": "1h a 3h",
       "is_active": true
     },
@@ -1020,8 +1020,8 @@
       "duration_minutes": 332,
       "duration_hours": 5.53,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 147,
-      "time_since_hours": 2.45,
+      "time_since_minutes": 155,
+      "time_since_hours": 2.58,
       "time_since_bucket": "1h a 3h",
       "is_active": true
     },
@@ -1067,8 +1067,8 @@
       "duration_minutes": 332,
       "duration_hours": 5.53,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 151,
-      "time_since_hours": 2.52,
+      "time_since_minutes": 160,
+      "time_since_hours": 2.67,
       "time_since_bucket": "1h a 3h",
       "is_active": true
     },
@@ -1114,8 +1114,8 @@
       "duration_minutes": 207,
       "duration_hours": 3.45,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 156,
-      "time_since_hours": 2.6,
+      "time_since_minutes": 165,
+      "time_since_hours": 2.75,
       "time_since_bucket": "1h a 3h",
       "is_active": true
     },
@@ -1161,8 +1161,8 @@
       "duration_minutes": 350,
       "duration_hours": 5.83,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 164,
-      "time_since_hours": 2.73,
+      "time_since_minutes": 173,
+      "time_since_hours": 2.88,
       "time_since_bucket": "1h a 3h",
       "is_active": true
     },
@@ -1208,9 +1208,9 @@
       "duration_minutes": 361,
       "duration_hours": 6.02,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 176,
-      "time_since_hours": 2.93,
-      "time_since_bucket": "1h a 3h",
+      "time_since_minutes": 184,
+      "time_since_hours": 3.07,
+      "time_since_bucket": "3h a 6h",
       "is_active": true
     },
     {
@@ -1255,8 +1255,8 @@
       "duration_minutes": 315,
       "duration_hours": 5.25,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 189,
-      "time_since_hours": 3.15,
+      "time_since_minutes": 198,
+      "time_since_hours": 3.3,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -1302,8 +1302,8 @@
       "duration_minutes": 389,
       "duration_hours": 6.48,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 204,
-      "time_since_hours": 3.4,
+      "time_since_minutes": 212,
+      "time_since_hours": 3.53,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -1349,8 +1349,8 @@
       "duration_minutes": 514,
       "duration_hours": 8.57,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 208,
-      "time_since_hours": 3.47,
+      "time_since_minutes": 217,
+      "time_since_hours": 3.62,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -1396,8 +1396,8 @@
       "duration_minutes": 59,
       "duration_hours": 0.98,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 233,
-      "time_since_hours": 3.88,
+      "time_since_minutes": 242,
+      "time_since_hours": 4.03,
       "time_since_bucket": "3h a 6h",
       "is_active": false
     },
@@ -1443,8 +1443,8 @@
       "duration_minutes": 2159,
       "duration_hours": 35.98,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 234,
-      "time_since_hours": 3.9,
+      "time_since_minutes": 243,
+      "time_since_hours": 4.05,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -1454,7 +1454,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil de Nova Iguaçu (RJ)",
       "sent": "2026-08-21T11:20:56-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "VENDAVAL",
@@ -1481,7 +1481,7 @@
       "uf": "RJ",
       "location": "Nova Iguaçu/RJ",
       "event_short": "Vendaval",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "21/08/2026",
       "time": "12:00",
       "sent_br": "2026-08-21T11:20:56-03:00",
@@ -1490,10 +1490,10 @@
       "duration_minutes": 240,
       "duration_hours": 4.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 234,
-      "time_since_hours": 3.9,
+      "time_since_minutes": 243,
+      "time_since_hours": 4.05,
       "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "is_active": false
     },
     {
       "identifier": "187734/2026",
@@ -1537,8 +1537,8 @@
       "duration_minutes": 437,
       "duration_hours": 7.28,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 251,
-      "time_since_hours": 4.18,
+      "time_since_minutes": 260,
+      "time_since_hours": 4.33,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -1584,8 +1584,8 @@
       "duration_minutes": 455,
       "duration_hours": 7.58,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 269,
-      "time_since_hours": 4.48,
+      "time_since_minutes": 278,
+      "time_since_hours": 4.63,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -1631,8 +1631,8 @@
       "duration_minutes": 1418,
       "duration_hours": 23.63,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 272,
-      "time_since_hours": 4.53,
+      "time_since_minutes": 281,
+      "time_since_hours": 4.68,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -1678,8 +1678,8 @@
       "duration_minutes": 468,
       "duration_hours": 7.8,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 283,
-      "time_since_hours": 4.72,
+      "time_since_minutes": 291,
+      "time_since_hours": 4.85,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -1725,8 +1725,8 @@
       "duration_minutes": 529,
       "duration_hours": 8.82,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 283,
-      "time_since_hours": 4.72,
+      "time_since_minutes": 292,
+      "time_since_hours": 4.87,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -1772,8 +1772,8 @@
       "duration_minutes": 420,
       "duration_hours": 7.0,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 294,
-      "time_since_hours": 4.9,
+      "time_since_minutes": 303,
+      "time_since_hours": 5.05,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -1819,8 +1819,8 @@
       "duration_minutes": 1380,
       "duration_hours": 23.0,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 295,
-      "time_since_hours": 4.92,
+      "time_since_minutes": 303,
+      "time_since_hours": 5.05,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -1866,8 +1866,8 @@
       "duration_minutes": 543,
       "duration_hours": 9.05,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 297,
-      "time_since_hours": 4.95,
+      "time_since_minutes": 306,
+      "time_since_hours": 5.1,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -1913,8 +1913,8 @@
       "duration_minutes": 507,
       "duration_hours": 8.45,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 321,
-      "time_since_hours": 5.35,
+      "time_since_minutes": 330,
+      "time_since_hours": 5.5,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -1960,8 +1960,8 @@
       "duration_minutes": 507,
       "duration_hours": 8.45,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 322,
-      "time_since_hours": 5.37,
+      "time_since_minutes": 330,
+      "time_since_hours": 5.5,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -2007,8 +2007,8 @@
       "duration_minutes": 510,
       "duration_hours": 8.5,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 324,
-      "time_since_hours": 5.4,
+      "time_since_minutes": 333,
+      "time_since_hours": 5.55,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -2054,8 +2054,8 @@
       "duration_minutes": 1422,
       "duration_hours": 23.7,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 336,
-      "time_since_hours": 5.6,
+      "time_since_minutes": 345,
+      "time_since_hours": 5.75,
       "time_since_bucket": "3h a 6h",
       "is_active": true
     },
@@ -2101,9 +2101,9 @@
       "duration_minutes": 538,
       "duration_hours": 8.97,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 352,
-      "time_since_hours": 5.87,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 361,
+      "time_since_hours": 6.02,
+      "time_since_bucket": "6h a 12h",
       "is_active": true
     },
     {
@@ -2148,8 +2148,8 @@
       "duration_minutes": 321,
       "duration_hours": 5.35,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 376,
-      "time_since_hours": 6.27,
+      "time_since_minutes": 384,
+      "time_since_hours": 6.4,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -2195,8 +2195,8 @@
       "duration_minutes": 60,
       "duration_hours": 1.0,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 414,
-      "time_since_hours": 6.9,
+      "time_since_minutes": 423,
+      "time_since_hours": 7.05,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -2242,8 +2242,8 @@
       "duration_minutes": 1279,
       "duration_hours": 21.32,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 433,
-      "time_since_hours": 7.22,
+      "time_since_minutes": 442,
+      "time_since_hours": 7.37,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -2289,8 +2289,8 @@
       "duration_minutes": 1289,
       "duration_hours": 21.48,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 444,
-      "time_since_hours": 7.4,
+      "time_since_minutes": 452,
+      "time_since_hours": 7.53,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -2336,8 +2336,8 @@
       "duration_minutes": 1365,
       "duration_hours": 22.75,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 459,
-      "time_since_hours": 7.65,
+      "time_since_minutes": 468,
+      "time_since_hours": 7.8,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -2383,8 +2383,8 @@
       "duration_minutes": 1320,
       "duration_hours": 22.0,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 474,
-      "time_since_hours": 7.9,
+      "time_since_minutes": 483,
+      "time_since_hours": 8.05,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -2430,8 +2430,8 @@
       "duration_minutes": 1445,
       "duration_hours": 24.08,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 479,
-      "time_since_hours": 7.98,
+      "time_since_minutes": 488,
+      "time_since_hours": 8.13,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -2477,8 +2477,8 @@
       "duration_minutes": 1735,
       "duration_hours": 28.92,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 534,
-      "time_since_hours": 8.9,
+      "time_since_minutes": 543,
+      "time_since_hours": 9.05,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     },
@@ -2524,8 +2524,8 @@
       "duration_minutes": 209,
       "duration_hours": 3.48,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 563,
-      "time_since_hours": 9.38,
+      "time_since_minutes": 572,
+      "time_since_hours": 9.53,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -2571,8 +2571,8 @@
       "duration_minutes": 930,
       "duration_hours": 15.5,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 564,
-      "time_since_hours": 9.4,
+      "time_since_minutes": 573,
+      "time_since_hours": 9.55,
       "time_since_bucket": "6h a 12h",
       "is_active": true
     }
