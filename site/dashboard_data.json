@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-08-21T16:03:04.034384-03:00",
-  "source_run_dir": "run_20260821_160148",
+  "generated_at": "2026-08-21T19:48:35.769499-03:00",
+  "source_run_dir": "run_20260821_194710",
   "cards": {
-    "vigentes": 40,
-    "ultimas24h": 45,
+    "vigentes": 20,
+    "ultimas24h": 48,
     "autoridadesAtivas": 22,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "18:23",
+      "date": "21/08/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "17:00",
+      "date": "21/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "Votuporanga/SP, Ibiúna/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:17h00 Umidade do ar abaixo de 30 em Votuporanga e Ibiuna. Proteja-se do sol. Beba bastante agua.",
+      "status": "expirado"
+    },
+    {
+      "time": "16:39",
+      "date": "21/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:16h38 Umidade do ar abaixo de 30 em Indaiatuba, Americana, Campinas e Jahu. Proteja-se do sol. Beba bastante agua.",
+      "status": "expirado"
+    },
     {
       "time": "15:50",
       "date": "21/08/2026",
@@ -31,59 +67,23 @@
       "uf": "BA",
       "headline": "Defesa Civil:Alerta Baixa umidade risco de incendios e a saude.Evite queimadas, hidrate-se, evite sol e atividades fisicas. Procure a Defesa Civil e ligue 193.",
       "status": "vigente"
-    },
-    {
-      "time": "15:42",
-      "date": "21/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Médio",
-      "location": "Benjamin Constant/AM, Atalaia do Norte/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite encostas e acompanhe atualizacoes. Atencao as areas mais vulneraveis do municipio.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:41",
-      "date": "21/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:15h41 Umidade do ar abaixo de 30 em Tatui, Monte Azul Paulista, Laranjal Paulista, Descalvado e Porto Feliz . Hidrate-se.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:39",
-      "date": "21/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:15h40 Umidade do ar abaixo de 30 em Sao Pedro, Charqueada, Araraquara, Sao Carlos, Dois Corregos, Bauru, Ariranha e Dracena. Hidrate-se.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
+    {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 9
+    },
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
       "count": 8
     },
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 7
-    },
-    {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Defesa Civil de Belford Roxo (RJ)",
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 16
+      "count": 18
     },
     {
       "label": "Alto",
-      "count": 24
+      "count": 25
     },
     {
       "label": "Severo",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 20
+      "count": 22
     },
     {
       "label": "Vendaval",
@@ -150,7 +150,7 @@
     },
     {
       "label": "Chuvas Intensas",
-      "count": 5
+      "count": 6
     },
     {
       "label": "Solo/Lama",
@@ -172,11 +172,11 @@
     },
     {
       "uf": "SP",
-      "count": 7
+      "count": 9
     },
     {
       "uf": "AM",
-      "count": 5
+      "count": 6
     },
     {
       "uf": "MA",
@@ -218,14 +218,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 40
+      "count": 20
     },
     {
       "label": "expirado",
-      "count": 5
+      "count": 28
     }
   ],
   "all_alerts": [
+    {
+      "date": "21/08/2026",
+      "time": "18:23",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-08-21T18:23:51-03:00",
+      "expires": "2026-08-21T22:05:00-03:00"
+    },
+    {
+      "date": "21/08/2026",
+      "time": "17:00",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "Votuporanga/SP, Ibiúna/SP",
+      "headline": "Defesa Civil:17h00 Umidade do ar abaixo de 30 em Votuporanga e Ibiuna. Proteja-se do sol. Beba bastante agua.",
+      "status": "expirado",
+      "onset": "2026-08-21T17:00:15-03:00",
+      "expires": "2026-08-21T19:00:00-03:00"
+    },
+    {
+      "date": "21/08/2026",
+      "time": "16:39",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:16h38 Umidade do ar abaixo de 30 em Indaiatuba, Americana, Campinas e Jahu. Proteja-se do sol. Beba bastante agua.",
+      "status": "expirado",
+      "onset": "2026-08-21T16:39:09-03:00",
+      "expires": "2026-08-21T19:00:00-03:00"
+    },
     {
       "date": "21/08/2026",
       "time": "15:50",
@@ -274,7 +313,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h41 Umidade do ar abaixo de 30 em Tatui, Monte Azul Paulista, Laranjal Paulista, Descalvado e Porto Feliz . Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T15:41:51-03:00",
       "expires": "2026-08-21T19:00:00-03:00"
     },
@@ -287,7 +326,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h40 Umidade do ar abaixo de 30 em Sao Pedro, Charqueada, Araraquara, Sao Carlos, Dois Corregos, Bauru, Ariranha e Dracena. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T15:39:26-03:00",
       "expires": "2026-08-21T19:00:00-03:00"
     },
@@ -300,7 +339,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T14:57:40-03:00",
       "expires": "2026-08-21T18:35:00-03:00"
     },
@@ -313,7 +352,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h47 Umidade do ar abaixo de 30 em Barra Bonita, Arealva, Pederneiras, Itatinga e Sarapui. Proteja-se do sol. Beba bastante agua.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T14:48:17-03:00",
       "expires": "2026-08-21T19:00:00-03:00"
     },
@@ -326,7 +365,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h47 Umidade do ar abaixo de 30 em Sao Jose dos Campos, Nazare Paulista, Braganca Paulista, Sorocaba e Ipero. Beba bastante agua.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T14:46:15-03:00",
       "expires": "2026-08-21T19:00:00-03:00"
     },
@@ -339,7 +378,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h05 Umidade do ar abaixo de 30 em Botucatu, Itatinga, Bofete e Piracaia. Proteja-se do sol. Beba bastante agua.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T14:05:50-03:00",
       "expires": "2026-08-21T19:00:00-03:00"
     },
@@ -378,7 +417,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h27 Umidade do ar abaixo de 30 em Mirassol, Lins, Juquitiba e Sao Miguel Arcanjo. Proteja-se do sol. Beba bastante agua.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T13:27:19-03:00",
       "expires": "2026-08-21T19:00:00-03:00"
     },
@@ -391,7 +430,7 @@
       "uf": "RJ",
       "location": "Rio de Janeiro/RJ",
       "headline": "Defesa Civil:Alerta de VENTO FORTE nas proximas horas. Cidade do Rio em Estagio 2. Evite locais abertos. Fique em lugar seguro. Emergencias: ligue 199, 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T13:22:37-03:00",
       "expires": "2026-08-21T18:55:00-03:00"
     },
@@ -404,7 +443,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T13:17:58-03:00",
       "expires": "2026-08-21T16:45:00-03:00"
     },
@@ -417,7 +456,7 @@
       "uf": "RJ",
       "location": "RIO DE JANEIRO/RJ",
       "headline": "Defesa Civil:Umidade do ar pode ficar abaixo de 30 na tarde de hoje (21/08). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T13:10:00-03:00",
       "expires": "2026-08-21T19:00:00-03:00"
     },
@@ -430,7 +469,7 @@
       "uf": "MA",
       "location": "MARANHÃO/MA",
       "headline": "Defesa Civil:Alerta de Baixa Umidade para sua regiao. Beba agua, evite exercicios ao sol e nao realize queimadas. Valido ate dia 21/08/2026 as 19h00min.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T12:58:07-03:00",
       "expires": "2026-08-21T19:00:00-03:00"
     },
@@ -443,7 +482,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T12:44:54-03:00",
       "expires": "2026-08-21T18:00:00-03:00"
     },
@@ -456,7 +495,7 @@
       "uf": "RJ",
       "location": "Niterói/RJ",
       "headline": "Defesa Civil:(21/08 12:25) Niteroi: Previsao de rajadas de vento forte nas proximas horas. Em caso de emergencia, ligue 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T12:30:31-03:00",
       "expires": "2026-08-21T19:00:00-03:00"
     },
@@ -521,7 +560,7 @@
       "uf": "RJ",
       "location": "Itaguaí/RJ",
       "headline": "Defesa Civil:Itaguai: Umidade do ar pode ficar abaixo de 30 na tarde de hoje. Evite exercicios fisicos ao ar livre a tarde e hidrate-se. Emergencia 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T11:42:45-03:00",
       "expires": "2026-08-21T19:00:00-03:00"
     },
@@ -534,7 +573,7 @@
       "uf": "MA",
       "location": "MARANHÃO/MA",
       "headline": "Umidade relativa do ar variando entre 20% e 12%. Risco de incêndios florestais e à saúde. Ressecamento da pele, desconforto nos olhos, boca e nariz",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T11:25:00-03:00",
       "expires": "2026-08-21T19:00:00-03:00"
     },
@@ -560,7 +599,7 @@
       "uf": "GO",
       "location": "GOIÁS/GO",
       "headline": "Defesa Civil:Aviso de baixa umidade do ar: beba agua, evite sol forte e esforco excessivo. Atencao especial para criancas e idosos. Emergencia:193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T11:11:18-03:00",
       "expires": "2026-08-21T19:00:00-03:00"
     },
@@ -586,7 +625,7 @@
       "uf": "RJ",
       "location": "Belford Roxo/RJ",
       "headline": "Defesa Civil:Baixa umidade podera atingir 20 a 30 em Belford Roxo. Hidrate-se, evite esforco ao sol e nao faca queimadas. Emergencia: 193 ou (21) 97178-6419.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T11:00:00-03:00",
       "expires": "2026-08-21T18:00:00-03:00"
     },
@@ -625,7 +664,7 @@
       "uf": "SP",
       "location": "Urupês/SP",
       "headline": "Defesa Civil:10h32 Umidade do ar abaixo de 30 em Urupes. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T10:32:50-03:00",
       "expires": "2026-08-21T19:00:00-03:00"
     },
@@ -638,7 +677,7 @@
       "uf": "RJ",
       "location": "Nova Friburgo/RJ",
       "headline": "Defesa Civil:NF/ Umidade do ar pode ficar abaixo de 30 na tarde de hoje (21/08). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T10:32:05-03:00",
       "expires": "2026-08-21T19:00:00-03:00"
     },
@@ -651,7 +690,7 @@
       "uf": "RJ",
       "location": "RIO DE JANEIRO/RJ",
       "headline": "Defesa Civil:Umidade do ar pode ficar abaixo de 30 na tarde de hoje (21/08). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T10:30:00-03:00",
       "expires": "2026-08-21T19:00:00-03:00"
     },
@@ -677,7 +716,7 @@
       "uf": "RJ",
       "location": "Rio de Janeiro/RJ",
       "headline": "Defesa Civil:Alerta de VENTO FORTE nas proximas horas. Cidade do Rio em Estagio 2. Evite locais abertos. Fique em lugar seguro. Emergencias: ligue 199, 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T10:02:00-03:00",
       "expires": "2026-08-21T19:00:00-03:00"
     },
@@ -813,19 +852,19 @@
     }
   ],
   "summary": {
-    "total_alerts": 45,
+    "total_alerts": 48,
     "by_nivel": {
-      "Alto": 24,
-      "Médio": 16,
+      "Alto": 25,
+      "Médio": 18,
       "Severo": 4,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 45
+      "Google": 48
     },
     "by_region": {
-      "SE": 30,
-      "N": 5,
+      "SE": 32,
+      "N": 6,
       "CO": 4,
       "NE": 4,
       "S": 2
