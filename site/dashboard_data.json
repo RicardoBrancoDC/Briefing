@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-22T17:43:41.893372-03:00",
-  "source_run_dir": "run_20260822_174312",
+  "generated_at": "2026-08-22T19:42:42.089184-03:00",
+  "source_run_dir": "run_20260822_194218",
   "cards": {
-    "vigentes": 30,
+    "vigentes": 4,
     "ultimas24h": 41,
     "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "18:19",
+      "date": "22/08/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Juruá/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "16:50",
       "date": "22/08/2026",
@@ -18,7 +30,7 @@
       "location": "Itaí/SP, Birigui/SP",
       "uf": "SP",
       "headline": "Defesa Civil:16h50 Umidade do ar abaixo de 30 em Itai e Birigui. Hidrate-se. Evite fazer exercicios ao ar livre.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:46",
@@ -30,7 +42,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:16h45 Umidade do ar abaixo de 30 em Aguai, Jaguariuna, Espirito Santo do Pinhal,  Santa Gertrudes,Presidente Epitacio e Tupi Paulista. Hidrate-se",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "15:52",
@@ -42,7 +54,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:15h52 Umidade do ar abaixo de 30 em Jundiai, Artur Nogueira, Bofete, Maracai, Cassia dos Coqueiros, Auriflama e Terra Roxa. Hidrate-se.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "15:48",
@@ -54,19 +66,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:15h48 Umidade do ar abaixo de 30 em Estrela DOeste, Sao Simao, Limeira, Santa Cruz do Rio Pardo e Gaviao Peixoto. Hidrate-se.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:44",
-      "date": "22/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:15h44 Umidade do ar abaixo de 30 em Iepe, Lins, Osvaldo Cruz, Valparaiso, Guararapes, Aracatuba, Ilha Solteira e Fernandopolis. Hidrate-se.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -171,14 +171,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 30
+      "count": 4
     },
     {
       "label": "expirado",
-      "count": 11
+      "count": 37
     }
   ],
   "all_alerts": [
+    {
+      "date": "22/08/2026",
+      "time": "18:19",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Juruá/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-08-22T18:19:03-03:00",
+      "expires": "2026-08-22T20:00:00-03:00"
+    },
     {
       "date": "22/08/2026",
       "time": "16:50",
@@ -188,7 +201,7 @@
       "uf": "SP",
       "location": "Itaí/SP, Birigui/SP",
       "headline": "Defesa Civil:16h50 Umidade do ar abaixo de 30 em Itai e Birigui. Hidrate-se. Evite fazer exercicios ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T16:50:42-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -201,7 +214,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:16h45 Umidade do ar abaixo de 30 em Aguai, Jaguariuna, Espirito Santo do Pinhal,  Santa Gertrudes,Presidente Epitacio e Tupi Paulista. Hidrate-se",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T16:46:32-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -214,7 +227,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h52 Umidade do ar abaixo de 30 em Jundiai, Artur Nogueira, Bofete, Maracai, Cassia dos Coqueiros, Auriflama e Terra Roxa. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T15:52:47-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -227,7 +240,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h48 Umidade do ar abaixo de 30 em Estrela DOeste, Sao Simao, Limeira, Santa Cruz do Rio Pardo e Gaviao Peixoto. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T15:48:32-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -240,7 +253,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h44 Umidade do ar abaixo de 30 em Iepe, Lins, Osvaldo Cruz, Valparaiso, Guararapes, Aracatuba, Ilha Solteira e Fernandopolis. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T15:44:26-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -253,7 +266,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h40 Umidade do ar abaixo de 30 em Tambau, Casa Branca, Porto Ferreira, Sao Sebastiao da Grama, Santo Antonio da Alegria e Assis. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T15:41:04-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -266,7 +279,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h31 Umidade do ar abaixo de 30 em Nova Granada, Altair, Guaraci, Jaborandi, Sertaozinho, Brodowski, Mococa e Tapiratiba. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T15:31:57-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -279,7 +292,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h28 Umidade do ar abaixo de 30 em Bauru, Barra Bonita, Dois Corregos, Charqueada, Laranjal Paulista e Nova Odessa. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T15:28:22-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -292,7 +305,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h24 Umidade do ar abaixo de 30 em Monte Aprazivel, Sao Jose do Rio Preto, Mirassol, Jose Bonifacio, Potirendaba, Uchoa e Pindorama. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T15:24:55-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -305,7 +318,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h19 Umidade do ar abaixo de 30 em Populina, Indiapora, Cardoso, Jales, General Salgado, Nhandeara, Votuporanga e Mendonca. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T15:20:13-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -318,7 +331,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h15 Umidade do ar abaixo de 30 em Palmital, Marilia, Tupa, Mariapolis, Adamantina, Presidente Venceslau, Piquerobi e Dracena. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T15:15:50-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -331,7 +344,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:Alerta de Baixa Umidade do Ar para SAO PAULO/SP. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Em caso de emerge",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T15:12:58-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -344,7 +357,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h08 Umidade do ar abaixo de 30 em Americana, Campinas, Valinhos, Indaiatuba, Braganca Paulista, Itapira, Araras e Campos do Jordao. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T15:08:29-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -357,7 +370,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h04 Umidade do ar abaixo de 30 na regiao de Barretos, Colina, Bebedouro, Morro Agudo e Miguelopolis. Atinge municipios proximos. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T15:04:59-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -370,7 +383,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h59 Umidade do ar abaixo de 30 na regiao de Olimpia, Tabapua, Catanduva e Santa Adelia. Atinge municipios proximos. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T15:00:23-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -383,7 +396,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h57 Umidade do ar abaixo de 30 na regiao de Bariri, Jahu e Boa Esperanca do Sul. Atinge municipios proximos. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T14:58:05-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -396,7 +409,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h50 Umidade do ar abaixo de 30 na regiao de Matao, Araraquara, Sao Carlos, Rio Claro e Pirassununga. Atinge municipios proximos. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T14:50:50-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -422,7 +435,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h06 Umidade do ar abaixo de 30 em Nuporanga, Orlandia, Tabatinga e Santa Fe do Sul. Proteja-se do sol. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T13:06:16-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -435,7 +448,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h00 Umidade do ar abaixo de 30 em Sao Joaquim da Barra, Ribeirao Preto e Batatais. Proteja-se do sol. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T13:00:22-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -461,7 +474,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:12h43 Umidade do ar abaixo de 30 em Brotas, Jeriquara e Teodoro Sampaio. Proteja-se do sol. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T12:43:37-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -474,7 +487,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:12h23 Umidade do ar abaixo de 30 em Franca, Itirapua e Ibitinga. Proteja-se do sol. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T12:24:16-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -487,7 +500,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:11h58 Umidade do ar abaixo de 30 em Pedregulho, Cristais Paulista e Divinolandia. Proteja-se do sol. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T11:58:32-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -500,7 +513,7 @@
       "uf": "SP",
       "location": "Ribeirão Corrente/SP",
       "headline": "Defesa Civil:11h53 Umidade do ar abaixo de 30 em Ribeirao Corrente. Proteja-se do sol. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T11:53:53-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -513,7 +526,7 @@
       "uf": "SP",
       "location": "Ituverava/SP",
       "headline": "Defesa Civil:11h20 Umidade do ar abaixo de 30 em Ituverava. Proteja-se do sol. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T11:20:49-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
     },
@@ -526,7 +539,7 @@
       "uf": "DF",
       "location": "DF, MG, BA, MS, GO, TO, MT",
       "headline": "Defesa Civil:Alerta critico de baixa umidade das 11:00h ate 18:00h de hoje ,22/08. Hidrata-se,evite sol e esforco fisico excessivo.Emergencia:193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T11:00:00-03:00",
       "expires": "2026-08-22T18:00:00-03:00"
     },
@@ -539,7 +552,7 @@
       "uf": "DF",
       "location": "DF, MG, BA, MS, GO, TO, MT",
       "headline": "Defesa Civil:Alerta critico de baixa umidade das 11:00h ate 18:00h de hoje ,22/08. Hidrata-se,evite sol e esforco fisico excessivo.Emergencia:193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T11:00:00-03:00",
       "expires": "2026-08-22T18:00:00-03:00"
     },
@@ -552,7 +565,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.¿",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T10:06:28-03:00",
       "expires": "2026-08-22T18:00:00-03:00"
     },
@@ -698,19 +711,6 @@
       "status": "expirado",
       "onset": "2026-08-21T20:40:34-03:00",
       "expires": "2026-08-22T00:40:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "18:23",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-08-21T18:23:51-03:00",
-      "expires": "2026-08-21T22:05:00-03:00"
     }
   ],
   "summary": {
