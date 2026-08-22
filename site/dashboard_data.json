@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-22T00:12:10.042214-03:00",
-  "source_run_dir": "run_20260822_001114",
+  "generated_at": "2026-08-22T01:54:42.890310-03:00",
+  "source_run_dir": "run_20260822_015346",
   "cards": {
-    "vigentes": 14,
-    "ultimas24h": 52,
+    "vigentes": 13,
+    "ultimas24h": 53,
     "autoridadesAtivas": 23,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "01:27",
+      "date": "22/08/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "00:08",
       "date": "22/08/2026",
@@ -42,7 +54,7 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 21/08 20:35 - RAJADAS DE VENTO de quadrante sul, com intensidade MODERADA (45 a 65 km/h), para as regiões do Litoral Norte, Litoral Sul, Grande Florianópolis, Baixo e Médio Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "20:40",
@@ -54,18 +66,6 @@
       "location": "SANTA CATARINA/SC",
       "uf": "SC",
       "headline": "OBSERVAÇÃO - 21/08 20:35 - RAJADAS DE VENTO de quadrante sul, com intensidade MODERADA (45 a 65 km/h), para as regiões do Litoral Norte, Litoral Sul, Grande Florianópolis, Baixo e Médio Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "18:23",
-      "date": "21/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
       "status": "expirado"
     }
   ],
@@ -76,14 +76,14 @@
       "count": 9
     },
     {
-      "name": "Defesa Civil Nacional",
-      "short_name": "Defesa Civil Nacional",
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
       "count": 8
     },
     {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 7
+      "name": "Defesa Civil Nacional",
+      "short_name": "Defesa Civil Nacional",
+      "count": 8
     },
     {
       "name": "Defesa Civil de Belford Roxo (RJ)",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Alto",
-      "count": 27
+      "count": 28
     },
     {
       "label": "Severo",
@@ -150,7 +150,7 @@
     },
     {
       "label": "Chuvas Intensas",
-      "count": 8
+      "count": 9
     },
     {
       "label": "Solo/Lama",
@@ -171,12 +171,12 @@
       "count": 23
     },
     {
-      "uf": "SP",
+      "uf": "AM",
       "count": 9
     },
     {
-      "uf": "AM",
-      "count": 8
+      "uf": "SP",
+      "count": 9
     },
     {
       "uf": "SC",
@@ -222,14 +222,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 14
+      "count": 13
     },
     {
       "label": "expirado",
-      "count": 38
+      "count": 40
     }
   ],
   "all_alerts": [
+    {
+      "date": "22/08/2026",
+      "time": "01:27",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-08-22T01:27:33-03:00",
+      "expires": "2026-08-22T06:00:00-03:00"
+    },
     {
       "date": "22/08/2026",
       "time": "00:08",
@@ -265,7 +278,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 21/08 20:35 - RAJADAS DE VENTO de quadrante sul, com intensidade MODERADA (45 a 65 km/h), para as regiões do Litoral Norte, Litoral Sul, Grande Florianópolis, Baixo e Médio Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T20:42:09-03:00",
       "expires": "2026-08-22T00:40:00-03:00"
     },
@@ -278,7 +291,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "OBSERVAÇÃO - 21/08 20:35 - RAJADAS DE VENTO de quadrante sul, com intensidade MODERADA (45 a 65 km/h), para as regiões do Litoral Norte, Litoral Sul, Grande Florianópolis, Baixo e Médio Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T20:40:34-03:00",
       "expires": "2026-08-22T00:40:00-03:00"
     },
@@ -908,19 +921,19 @@
     }
   ],
   "summary": {
-    "total_alerts": 52,
+    "total_alerts": 53,
     "by_nivel": {
-      "Alto": 27,
+      "Alto": 28,
       "Médio": 20,
       "Severo": 4,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 52
+      "Google": 53
     },
     "by_region": {
       "SE": 32,
-      "N": 8,
+      "N": 9,
       "CO": 4,
       "NE": 4,
       "S": 4
