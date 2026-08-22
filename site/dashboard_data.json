@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-08-22T10:04:23.451432-03:00",
-  "source_run_dir": "run_20260822_100351",
+  "generated_at": "2026-08-22T11:42:28.373663-03:00",
+  "source_run_dir": "run_20260822_114202",
   "cards": {
-    "vigentes": 7,
-    "ultimas24h": 48,
-    "autoridadesAtivas": 20,
+    "vigentes": 10,
+    "ultimas24h": 41,
+    "autoridadesAtivas": 13,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "11:20",
+      "date": "22/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "Ituverava/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:11h20 Umidade do ar abaixo de 30 em Ituverava. Proteja-se do sol. Hidrate-se.",
+      "status": "vigente"
+    },
+    {
+      "time": "11:00",
+      "date": "22/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "location": "DF, MG, BA, MS, GO, TO, MT",
+      "uf": "DF",
+      "headline": "Defesa Civil:Alerta critico de baixa umidade das 11:00h ate 18:00h de hoje ,22/08. Hidrata-se,evite sol e esforco fisico excessivo.Emergencia:193.",
+      "status": "vigente"
+    },
+    {
+      "time": "11:00",
+      "date": "22/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "location": "DF, MG, BA, MS, GO, TO, MT",
+      "uf": "DF",
+      "headline": "Defesa Civil:Alerta critico de baixa umidade das 11:00h ate 18:00h de hoje ,22/08. Hidrata-se,evite sol e esforco fisico excessivo.Emergencia:193.",
+      "status": "vigente"
+    },
+    {
+      "time": "10:06",
+      "date": "22/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Manaus/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.¿",
+      "status": "vigente"
+    },
     {
       "time": "09:19",
       "date": "22/08/2026",
@@ -19,54 +67,6 @@
       "uf": "RJ",
       "headline": "Defesa Civil:Niteroi: Mudanca para Estagio de Vigilancia devido a ausencia de ventos fortes e previsao de chuva fraca isolada. Emergencia, 199.",
       "status": "vigente"
-    },
-    {
-      "time": "08:03",
-      "date": "22/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "location": "Japurá/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "07:20",
-      "date": "22/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Médio",
-      "location": "Japurá/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite encostas e acompanhe atualizacoes. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "07:05",
-      "date": "22/08/2026",
-      "senderName": "Defesa Civil de Maricá (RJ)",
-      "senderNameShort": "DC Maricá (RJ)",
-      "event": "Vendaval",
-      "nivel": "Baixo",
-      "location": "Maricá/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Retorno para estagio meteorologico de NORMALIDADE em Marica/RJ as 07h00 do dia 22/08/2026. Emergencia : 199 ou 96628-2699 (Fone/Whatsapp).",
-      "status": "vigente"
-    },
-    {
-      "time": "06:56",
-      "date": "22/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -83,7 +83,7 @@
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 6
+      "count": 9
     },
     {
       "name": "Defesa Civil de Niterói (RJ)",
@@ -96,21 +96,6 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil de Belford Roxo (RJ)",
-      "short_name": "DC Belford Roxo (RJ)",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil Estadual do Rio de Janeiro",
-      "short_name": "DC Rio de Janeiro",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil Estadual do Maranhão",
-      "short_name": "DC Maranhão",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil de Maricá (RJ)",
       "short_name": "DC Maricá (RJ)",
       "count": 1
@@ -118,6 +103,21 @@
     {
       "name": "Defesa Civil do Distrito Federal",
       "short_name": "Defesa Civil do Distrito Federal",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual da Bahia",
+      "short_name": "DC Bahia",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Belford Roxo (RJ)",
+      "short_name": "DC Belford Roxo (RJ)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil do Rio de Janeiro (RJ)",
+      "short_name": "Defesa Civil do Rio de Janeiro…",
       "count": 1
     }
   ],
@@ -128,29 +128,29 @@
     },
     {
       "label": "Médio",
-      "count": 21
+      "count": 19
     },
     {
       "label": "Alto",
-      "count": 24
+      "count": 20
     },
     {
       "label": "Severo",
-      "count": 2
+      "count": 1
     }
   ],
   "event_distribution": [
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 21
+      "count": 16
     },
     {
       "label": "Vendaval",
-      "count": 13
+      "count": 11
     },
     {
       "label": "Chuvas Intensas",
-      "count": 9
+      "count": 10
     },
     {
       "label": "Solo/Lama",
@@ -159,73 +159,105 @@
     {
       "label": "Ressaca",
       "count": 1
-    },
-    {
-      "label": "Inundações",
-      "count": 1
     }
   ],
   "uf_distribution": [
     {
-      "uf": "RJ",
-      "count": 16
+      "uf": "AM",
+      "count": 13
     },
     {
-      "uf": "AM",
-      "count": 12
+      "uf": "RJ",
+      "count": 11
     },
     {
       "uf": "SP",
       "count": 9
     },
     {
+      "uf": "DF",
+      "count": 3
+    },
+    {
       "uf": "SC",
       "count": 2
-    },
-    {
-      "uf": "MA",
-      "count": 2
-    },
-    {
-      "uf": "DF",
-      "count": 1
     },
     {
       "uf": "BA",
       "count": 1
     },
     {
+      "uf": "MA",
+      "count": 1
+    },
+    {
       "uf": "MS",
-      "count": 1
-    },
-    {
-      "uf": "RS",
-      "count": 1
-    },
-    {
-      "uf": "GO",
-      "count": 1
-    },
-    {
-      "uf": "MT",
-      "count": 1
-    },
-    {
-      "uf": "PI",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 10
     },
     {
       "label": "expirado",
-      "count": 41
+      "count": 31
     }
   ],
   "all_alerts": [
+    {
+      "date": "22/08/2026",
+      "time": "11:20",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "Ituverava/SP",
+      "headline": "Defesa Civil:11h20 Umidade do ar abaixo de 30 em Ituverava. Proteja-se do sol. Hidrate-se.",
+      "status": "vigente",
+      "onset": "2026-08-22T11:20:49-03:00",
+      "expires": "2026-08-22T19:00:00-03:00"
+    },
+    {
+      "date": "22/08/2026",
+      "time": "11:00",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "uf": "DF",
+      "location": "DF, MG, BA, MS, GO, TO, MT",
+      "headline": "Defesa Civil:Alerta critico de baixa umidade das 11:00h ate 18:00h de hoje ,22/08. Hidrata-se,evite sol e esforco fisico excessivo.Emergencia:193.",
+      "status": "vigente",
+      "onset": "2026-08-22T11:00:00-03:00",
+      "expires": "2026-08-22T18:00:00-03:00"
+    },
+    {
+      "date": "22/08/2026",
+      "time": "11:00",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "uf": "DF",
+      "location": "DF, MG, BA, MS, GO, TO, MT",
+      "headline": "Defesa Civil:Alerta critico de baixa umidade das 11:00h ate 18:00h de hoje ,22/08. Hidrata-se,evite sol e esforco fisico excessivo.Emergencia:193.",
+      "status": "vigente",
+      "onset": "2026-08-22T11:00:00-03:00",
+      "expires": "2026-08-22T18:00:00-03:00"
+    },
+    {
+      "date": "22/08/2026",
+      "time": "10:06",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.¿",
+      "status": "vigente",
+      "onset": "2026-08-22T10:06:28-03:00",
+      "expires": "2026-08-22T18:00:00-03:00"
+    },
     {
       "date": "22/08/2026",
       "time": "09:19",
@@ -706,168 +738,25 @@
       "status": "expirado",
       "onset": "2026-08-21T11:42:45-03:00",
       "expires": "2026-08-21T19:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "11:25",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "MA",
-      "location": "MARANHÃO/MA",
-      "headline": "Umidade relativa do ar variando entre 20% e 12%. Risco de incêndios florestais e à saúde. Ressecamento da pele, desconforto nos olhos, boca e nariz",
-      "status": "expirado",
-      "onset": "2026-08-21T11:25:00-03:00",
-      "expires": "2026-08-21T19:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "11:21",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "event": "Inundações",
-      "nivel": "Severo",
-      "uf": "RS",
-      "location": "Quaraí/RS",
-      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO no rio Quarai.Risco MUITO ALTO em Quarai. Valido por 24h. Evite areas inundaveis. Emergencia: 190/193.",
-      "status": "vigente",
-      "onset": "2026-08-21T11:21:46-03:00",
-      "expires": "2026-08-22T11:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "11:11",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "GO",
-      "location": "GOIÁS/GO",
-      "headline": "Defesa Civil:Aviso de baixa umidade do ar: beba agua, evite sol forte e esforco excessivo. Atencao especial para criancas e idosos. Emergencia:193",
-      "status": "expirado",
-      "onset": "2026-08-21T11:11:18-03:00",
-      "expires": "2026-08-21T19:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "11:10",
-      "senderName": "Defesa Civil Estadual de Mato Grosso",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "MT",
-      "location": "MATO GROSSO/MT",
-      "headline": "Defesa Civil:MT. UMIDADE BAIXA: A Umidade relativa do ar variando entre 20 e 12 por cento, hidrate-se. Risco de incendios florestais e a saude. Ligue: 193/199.",
-      "status": "expirado",
-      "onset": "2026-08-21T11:10:38-03:00",
-      "expires": "2026-08-21T20:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "11:00",
-      "senderName": "Defesa Civil de Belford Roxo (RJ)",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Belford Roxo/RJ",
-      "headline": "Defesa Civil:Baixa umidade podera atingir 20 a 30 em Belford Roxo. Hidrate-se, evite esforco ao sol e nao faca queimadas. Emergencia: 193 ou (21) 97178-6419.",
-      "status": "expirado",
-      "onset": "2026-08-21T11:00:00-03:00",
-      "expires": "2026-08-21T18:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "10:59",
-      "senderName": "Defesa Civil de Petrópolis (RJ)",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Petrópolis/RJ",
-      "headline": "Defesa Civil:PETROPOLIS Permanece a condicao de ventos moderados a muito fortes. Evite areas abertas e fique longe de arvores. Emergencia 199. 21/08 11h",
-      "status": "expirado",
-      "onset": "2026-08-21T10:59:08-03:00",
-      "expires": "2026-08-22T10:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "10:56",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "PI",
-      "location": "PIAUÍ/PI",
-      "headline": "Defesa Civil:Alerta de Baixa Umidade do Ar para PIAUI/PI. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Em caso de emergencia",
-      "status": "expirado",
-      "onset": "2026-08-21T10:56:53-03:00",
-      "expires": "2026-08-21T20:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "10:32",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "Urupês/SP",
-      "headline": "Defesa Civil:10h32 Umidade do ar abaixo de 30 em Urupes. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-08-21T10:32:50-03:00",
-      "expires": "2026-08-21T19:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "10:32",
-      "senderName": "Defesa Civil de Nova Friburgo (RJ)",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Nova Friburgo/RJ",
-      "headline": "Defesa Civil:NF/ Umidade do ar pode ficar abaixo de 30 na tarde de hoje (21/08). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "status": "expirado",
-      "onset": "2026-08-21T10:32:05-03:00",
-      "expires": "2026-08-21T19:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "10:30",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "RIO DE JANEIRO/RJ",
-      "headline": "Defesa Civil:Umidade do ar pode ficar abaixo de 30 na tarde de hoje (21/08). Evite exercicios fisicos ao ar livre a tarde e hidrate-se.",
-      "status": "expirado",
-      "onset": "2026-08-21T10:30:00-03:00",
-      "expires": "2026-08-21T19:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "10:17",
-      "senderName": "Defesa Civil de Guapimirim (RJ)",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Guapimirim/RJ",
-      "headline": "Defesa Civil:Guapimirim informa-previsao de vendaval com ventos  de intensidade moderada a muito forte nas proximas horas. Emergencia 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-21T10:17:45-03:00",
-      "expires": "2026-08-22T10:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 48,
+    "total_alerts": 41,
     "by_nivel": {
-      "Alto": 24,
-      "Médio": 21,
-      "Severo": 2,
-      "Baixo": 1
+      "Alto": 20,
+      "Médio": 19,
+      "Baixo": 1,
+      "Severo": 1
     },
     "by_channel_list": {
-      "Google": 48
+      "Google": 41
     },
     "by_region": {
-      "SE": 25,
-      "N": 12,
+      "SE": 20,
+      "N": 13,
       "CO": 4,
-      "NE": 4,
-      "S": 3
+      "NE": 2,
+      "S": 2
     }
   }
 }
