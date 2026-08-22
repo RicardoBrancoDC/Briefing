@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-08-22T07:44:28.509919-03:00",
-  "source_run_dir": "run_20260822_074355",
+  "generated_at": "2026-08-22T10:04:23.451432-03:00",
+  "source_run_dir": "run_20260822_100351",
   "cards": {
-    "vigentes": 10,
-    "ultimas24h": 54,
-    "autoridadesAtivas": 22,
-    "alertasExtremos": 1
+    "vigentes": 7,
+    "ultimas24h": 48,
+    "autoridadesAtivas": 20,
+    "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "09:19",
+      "date": "22/08/2026",
+      "senderName": "Defesa Civil de Niterói (RJ)",
+      "senderNameShort": "DC Niterói (RJ)",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "location": "Niterói/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Niteroi: Mudanca para Estagio de Vigilancia devido a ausencia de ventos fortes e previsao de chuva fraca isolada. Emergencia, 199.",
+      "status": "vigente"
+    },
+    {
+      "time": "08:03",
+      "date": "22/08/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "location": "Japurá/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "07:20",
       "date": "22/08/2026",
@@ -42,30 +66,6 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "06:50",
-      "date": "22/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "01:27",
-      "date": "22/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
       "status": "expirado"
     }
   ],
@@ -73,7 +73,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
@@ -83,17 +83,12 @@
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 8
+      "count": 6
     },
     {
-      "name": "Defesa Civil de Belford Roxo (RJ)",
-      "short_name": "DC Belford Roxo (RJ)",
-      "count": 3
-    },
-    {
-      "name": "Defesa Civil Estadual do Rio de Janeiro",
-      "short_name": "DC Rio de Janeiro",
-      "count": 3
+      "name": "Defesa Civil de Niterói (RJ)",
+      "short_name": "DC Niterói (RJ)",
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -101,8 +96,13 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil do Rio de Janeiro (RJ)",
-      "short_name": "Defesa Civil do Rio de Janeiro…",
+      "name": "Defesa Civil de Belford Roxo (RJ)",
+      "short_name": "DC Belford Roxo (RJ)",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual do Rio de Janeiro",
+      "short_name": "DC Rio de Janeiro",
       "count": 2
     },
     {
@@ -111,13 +111,13 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil de Nova Friburgo (RJ)",
-      "short_name": "DC Nova Friburgo (RJ)",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil de Maricá (RJ)",
       "short_name": "DC Maricá (RJ)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil do Distrito Federal",
+      "short_name": "Defesa Civil do Distrito Federal",
       "count": 1
     }
   ],
@@ -132,33 +132,29 @@
     },
     {
       "label": "Alto",
-      "count": 28
+      "count": 24
     },
     {
       "label": "Severo",
-      "count": 3
-    },
-    {
-      "label": "Extremo",
-      "count": 1
+      "count": 2
     }
   ],
   "event_distribution": [
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 22
+      "count": 21
     },
     {
       "label": "Vendaval",
-      "count": 18
+      "count": 13
     },
     {
       "label": "Chuvas Intensas",
-      "count": 10
+      "count": 9
     },
     {
       "label": "Solo/Lama",
-      "count": 2
+      "count": 3
     },
     {
       "label": "Ressaca",
@@ -172,11 +168,11 @@
   "uf_distribution": [
     {
       "uf": "RJ",
-      "count": 22
+      "count": 16
     },
     {
       "uf": "AM",
-      "count": 11
+      "count": 12
     },
     {
       "uf": "SP",
@@ -217,23 +213,45 @@
     {
       "uf": "PI",
       "count": 1
-    },
-    {
-      "uf": "PR",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 10
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 44
+      "count": 41
     }
   ],
   "all_alerts": [
+    {
+      "date": "22/08/2026",
+      "time": "09:19",
+      "senderName": "Defesa Civil de Niterói (RJ)",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Niterói/RJ",
+      "headline": "Defesa Civil:Niteroi: Mudanca para Estagio de Vigilancia devido a ausencia de ventos fortes e previsao de chuva fraca isolada. Emergencia, 199.",
+      "status": "vigente",
+      "onset": "2026-08-22T09:19:40-03:00",
+      "expires": "2026-08-23T00:00:00-03:00"
+    },
+    {
+      "date": "22/08/2026",
+      "time": "08:03",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Japurá/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-08-22T08:03:59-03:00",
+      "expires": "2026-08-22T16:00:00-03:00"
+    },
     {
       "date": "22/08/2026",
       "time": "07:20",
@@ -269,7 +287,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T06:56:26-03:00",
       "expires": "2026-08-22T09:55:00-03:00"
     },
@@ -282,7 +300,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T06:50:01-03:00",
       "expires": "2026-08-22T09:30:00-03:00"
     },
@@ -763,7 +781,7 @@
       "uf": "RJ",
       "location": "Petrópolis/RJ",
       "headline": "Defesa Civil:PETROPOLIS Permanece a condicao de ventos moderados a muito fortes. Evite areas abertas e fique longe de arvores. Emergencia 199. 21/08 11h",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T10:59:08-03:00",
       "expires": "2026-08-22T10:00:00-03:00"
     },
@@ -828,133 +846,28 @@
       "uf": "RJ",
       "location": "Guapimirim/RJ",
       "headline": "Defesa Civil:Guapimirim informa-previsao de vendaval com ventos  de intensidade moderada a muito forte nas proximas horas. Emergencia 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T10:17:45-03:00",
       "expires": "2026-08-22T10:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "10:02",
-      "senderName": "Defesa Civil do Rio de Janeiro (RJ)",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Rio de Janeiro/RJ",
-      "headline": "Defesa Civil:Alerta de VENTO FORTE nas proximas horas. Cidade do Rio em Estagio 2. Evite locais abertos. Fique em lugar seguro. Emergencias: ligue 199, 193",
-      "status": "expirado",
-      "onset": "2026-08-21T10:02:00-03:00",
-      "expires": "2026-08-21T19:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "09:38",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Mesquita/RJ",
-      "headline": "Defesa Civil:Mesquita(21/08 09:30): previsao de baixa umidade relativa do ar entre a manha e tarde desta sexta. Consuma bastante agua. Emergencia:199",
-      "status": "expirado",
-      "onset": "2026-08-21T09:38:19-03:00",
-      "expires": "2026-08-21T15:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "09:00",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Extremo",
-      "uf": "PR",
-      "location": "Arapongas/PR, Rolândia/PR",
-      "headline": "Defesa Civil:SIMULADO em Arapongas. Hoje, 21/08, sera realizado exercicio de Defesa Civil no municipio. NAO HA RISCO REAL. Nenhuma acao e necessaria.",
-      "status": "expirado",
-      "onset": "2026-08-21T09:00:00-03:00",
-      "expires": "2026-08-21T10:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "08:40",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Severo",
-      "uf": "RJ",
-      "location": "Itaguaí/RJ",
-      "headline": "Defesa Civil:Defesa Civil-Itaguai:Permanece a previsao de rajadas de vento moderado a muito forte entre hoje 21/08 ate amanha 22/08. Emergencia 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-08-21T08:40:43-03:00",
-      "expires": "2026-08-22T06:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "08:30",
-      "senderName": "Defesa Civil de Nova Friburgo (RJ)",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Nova Friburgo/RJ",
-      "headline": "Defesa Civil:NF/ PERMANECE A PREVISAO de rajadas de vento moderado a muito forte entre hoje (21/08) ate amanha (22/08). Emergencia, ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-08-21T08:30:07-03:00",
-      "expires": "2026-08-22T06:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "08:15",
-      "senderName": "Defesa Civil de Belford Roxo (RJ)",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Belford Roxo/RJ",
-      "headline": "Defesa Civil:VENTOS FORTES podem superar 60 km/h em Belford Roxo, vigencia ate 06h de sabado. Evite arvores e estruturas frageis. Emergencias: 193 ou 971786419",
-      "status": "expirado",
-      "onset": "2026-08-21T08:15:00-03:00",
-      "expires": "2026-08-22T07:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "08:00",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "RIO DE JANEIRO/RJ",
-      "headline": "Defesa Civil:Permanece a previsao de rajadas de vento moderado a muito forte entre hoje (21/08) ate amanha (22/08). Emergencia, ligue 193 ou 199.",
-      "status": "expirado",
-      "onset": "2026-08-21T08:00:00-03:00",
-      "expires": "2026-08-22T06:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "07:54",
-      "senderName": "Defesa Civil de Barra Mansa (RJ)",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Barra Mansa/RJ",
-      "headline": "Defesa Civil:Devido a passagem de uma frente fria, ha possibilidade de rajadas de vento para hoje (21/08). Em caso de emergencias disque 199/(24)981213427/193.",
-      "status": "vigente",
-      "onset": "2026-08-21T07:54:58-03:00",
-      "expires": "2026-08-22T08:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 54,
+    "total_alerts": 48,
     "by_nivel": {
-      "Alto": 28,
+      "Alto": 24,
       "Médio": 21,
-      "Severo": 3,
-      "Baixo": 1,
-      "Extremo": 1
+      "Severo": 2,
+      "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 54
+      "Google": 48
     },
     "by_region": {
-      "SE": 31,
-      "N": 11,
+      "SE": 25,
+      "N": 12,
       "CO": 4,
       "NE": 4,
-      "S": 4
+      "S": 3
     }
   }
 }
