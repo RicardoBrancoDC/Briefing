@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-08-21T19:48:35.769499-03:00",
-  "source_run_dir": "run_20260821_194710",
+  "generated_at": "2026-08-21T22:56:30.641217-03:00",
+  "source_run_dir": "run_20260821_225416",
   "cards": {
-    "vigentes": 20,
-    "ultimas24h": 48,
-    "autoridadesAtivas": 22,
+    "vigentes": 14,
+    "ultimas24h": 51,
+    "autoridadesAtivas": 23,
     "alertasExtremos": 1
   },
   "latest_alerts": [
+    {
+      "time": "21:07",
+      "date": "21/08/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "20:42",
+      "date": "21/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 21/08 20:35 - RAJADAS DE VENTO de quadrante sul, com intensidade MODERADA (45 a 65 km/h), para as regiões do Litoral Norte, Litoral Sul, Grande Florianópolis, Baixo e Médio Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "20:40",
+      "date": "21/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "OBSERVAÇÃO - 21/08 20:35 - RAJADAS DE VENTO de quadrante sul, com intensidade MODERADA (45 a 65 km/h), para as regiões do Litoral Norte, Litoral Sul, Grande Florianópolis, Baixo e Médio Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "18:23",
       "date": "21/08/2026",
@@ -18,7 +54,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:00",
@@ -31,42 +67,6 @@
       "uf": "SP",
       "headline": "Defesa Civil:17h00 Umidade do ar abaixo de 30 em Votuporanga e Ibiuna. Proteja-se do sol. Beba bastante agua.",
       "status": "expirado"
-    },
-    {
-      "time": "16:39",
-      "date": "21/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:16h38 Umidade do ar abaixo de 30 em Indaiatuba, Americana, Campinas e Jahu. Proteja-se do sol. Beba bastante agua.",
-      "status": "expirado"
-    },
-    {
-      "time": "15:50",
-      "date": "21/08/2026",
-      "senderName": "Defesa Civil do Distrito Federal",
-      "senderNameShort": "Defesa Civil do Distrito Fe…",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "location": "Brasília/DF",
-      "uf": "DF",
-      "headline": "Defesa Civil:ALERTA DE TEMP ALTA E UMIDADE BAIXA EM TODO DF. Se mantenha Hidratado, evite exposicao ao sol nas horas mais quentes, em caso de risco ligue 199.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:43",
-      "date": "21/08/2026",
-      "senderName": "Defesa Civil Estadual da Bahia",
-      "senderNameShort": "DC Bahia",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "location": "BAHIA/BA",
-      "uf": "BA",
-      "headline": "Defesa Civil:Alerta Baixa umidade risco de incendios e a saude.Evite queimadas, hidrate-se, evite sol e atividades fisicas. Procure a Defesa Civil e ligue 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -83,7 +83,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Defesa Civil de Belford Roxo (RJ)",
@@ -94,6 +94,11 @@
       "name": "Defesa Civil Estadual do Rio de Janeiro",
       "short_name": "DC Rio de Janeiro",
       "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 2
     },
     {
       "name": "Defesa Civil do Rio de Janeiro (RJ)",
@@ -114,21 +119,16 @@
       "name": "Defesa Civil do Distrito Federal",
       "short_name": "Defesa Civil do Distrito Federal",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual da Bahia",
-      "short_name": "DC Bahia",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 18
+      "count": 20
     },
     {
       "label": "Alto",
-      "count": 25
+      "count": 26
     },
     {
       "label": "Severo",
@@ -146,11 +146,11 @@
     },
     {
       "label": "Vendaval",
-      "count": 17
+      "count": 19
     },
     {
       "label": "Chuvas Intensas",
-      "count": 6
+      "count": 7
     },
     {
       "label": "Solo/Lama",
@@ -176,7 +176,11 @@
     },
     {
       "uf": "AM",
-      "count": 6
+      "count": 7
+    },
+    {
+      "uf": "SC",
+      "count": 2
     },
     {
       "uf": "MA",
@@ -218,14 +222,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 20
+      "count": 14
     },
     {
       "label": "expirado",
-      "count": 28
+      "count": 37
     }
   ],
   "all_alerts": [
+    {
+      "date": "21/08/2026",
+      "time": "21:07",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-08-21T21:07:29-03:00",
+      "expires": "2026-08-22T00:05:00-03:00"
+    },
+    {
+      "date": "21/08/2026",
+      "time": "20:42",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 21/08 20:35 - RAJADAS DE VENTO de quadrante sul, com intensidade MODERADA (45 a 65 km/h), para as regiões do Litoral Norte, Litoral Sul, Grande Florianópolis, Baixo e Médio Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-21T20:42:09-03:00",
+      "expires": "2026-08-22T00:40:00-03:00"
+    },
+    {
+      "date": "21/08/2026",
+      "time": "20:40",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 21/08 20:35 - RAJADAS DE VENTO de quadrante sul, com intensidade MODERADA (45 a 65 km/h), para as regiões do Litoral Norte, Litoral Sul, Grande Florianópolis, Baixo e Médio Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-21T20:40:34-03:00",
+      "expires": "2026-08-22T00:40:00-03:00"
+    },
     {
       "date": "21/08/2026",
       "time": "18:23",
@@ -235,7 +278,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T18:23:51-03:00",
       "expires": "2026-08-21T22:05:00-03:00"
     },
@@ -274,7 +317,7 @@
       "uf": "DF",
       "location": "Brasília/DF",
       "headline": "Defesa Civil:ALERTA DE TEMP ALTA E UMIDADE BAIXA EM TODO DF. Se mantenha Hidratado, evite exposicao ao sol nas horas mais quentes, em caso de risco ligue 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T15:50:43-03:00",
       "expires": "2026-08-21T20:00:00-03:00"
     },
@@ -300,7 +343,7 @@
       "uf": "AM",
       "location": "Benjamin Constant/AM, Atalaia do Norte/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite encostas e acompanhe atualizacoes. Atencao as areas mais vulneraveis do municipio.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T15:42:20-03:00",
       "expires": "2026-08-21T21:00:00-03:00"
     },
@@ -391,7 +434,7 @@
       "uf": "RJ",
       "location": "Belford Roxo/RJ",
       "headline": "Defesa Civil:Belford Roxo: ventos fortes nas proximas horas. Municipio em Estagio 2. Evite areas abertas. Emergencia: 193, (21) 96720-0158 ou 97178-6419.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T13:56:18-03:00",
       "expires": "2026-08-21T22:00:00-03:00"
     },
@@ -404,7 +447,7 @@
       "uf": "RJ",
       "location": "Belford Roxo/RJ",
       "headline": "Defesa Civil:Alerta de Vendaval para Belford Roxo/RJ",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T13:40:00-03:00",
       "expires": "2026-08-21T22:00:00-03:00"
     },
@@ -508,7 +551,7 @@
       "uf": "RJ",
       "location": "Mesquita/RJ",
       "headline": "Defesa Civil:Mesquita(21/08 12:20): mudanca para ATENCAO. Previsao de rajadas de vento forte/muito forte nesta tarde. Evite locais abertos. Emergencia:199",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T12:25:49-03:00",
       "expires": "2026-08-21T21:00:00-03:00"
     },
@@ -612,7 +655,7 @@
       "uf": "MT",
       "location": "MATO GROSSO/MT",
       "headline": "Defesa Civil:MT. UMIDADE BAIXA: A Umidade relativa do ar variando entre 20 e 12 por cento, hidrate-se. Risco de incendios florestais e a saude. Ligue: 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T11:10:38-03:00",
       "expires": "2026-08-21T20:00:00-03:00"
     },
@@ -651,7 +694,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Alerta de Baixa Umidade do Ar para PIAUI/PI. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Em caso de emergencia",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T10:56:53-03:00",
       "expires": "2026-08-21T20:00:00-03:00"
     },
@@ -846,28 +889,28 @@
       "uf": "RJ",
       "location": "Maricá/RJ",
       "headline": "Defesa Civil:Mudanca para estagio de OBSERVACAO em Marica/RJ as 06h25 do dia 21/08 - previsao de vento muito forte. Emergencia: 199, 966282699 (fone/whatsapp)",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T06:29:37-03:00",
       "expires": "2026-08-21T22:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 48,
+    "total_alerts": 51,
     "by_nivel": {
-      "Alto": 25,
-      "Médio": 18,
+      "Alto": 26,
+      "Médio": 20,
       "Severo": 4,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 48
+      "Google": 51
     },
     "by_region": {
       "SE": 32,
-      "N": 6,
+      "N": 7,
       "CO": 4,
       "NE": 4,
-      "S": 2
+      "S": 4
     }
   }
 }
