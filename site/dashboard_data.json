@@ -1,15 +1,39 @@
 {
-  "generated_at": "2026-08-22T05:51:28.691146-03:00",
-  "source_run_dir": "run_20260822_055101",
+  "generated_at": "2026-08-22T07:44:28.509919-03:00",
+  "source_run_dir": "run_20260822_074355",
   "cards": {
-    "vigentes": 12,
-    "ultimas24h": 53,
-    "autoridadesAtivas": 23,
+    "vigentes": 10,
+    "ultimas24h": 54,
+    "autoridadesAtivas": 22,
     "alertasExtremos": 1
   },
   "latest_alerts": [
     {
-      "time": "01:27",
+      "time": "07:20",
+      "date": "22/08/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Médio",
+      "location": "Japurá/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite encostas e acompanhe atualizacoes. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "07:05",
+      "date": "22/08/2026",
+      "senderName": "Defesa Civil de Maricá (RJ)",
+      "senderNameShort": "DC Maricá (RJ)",
+      "event": "Vendaval",
+      "nivel": "Baixo",
+      "location": "Maricá/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Retorno para estagio meteorologico de NORMALIDADE em Marica/RJ as 07h00 do dia 22/08/2026. Emergencia : 199 ou 96628-2699 (Fone/Whatsapp).",
+      "status": "vigente"
+    },
+    {
+      "time": "06:56",
       "date": "22/08/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
@@ -21,7 +45,19 @@
       "status": "vigente"
     },
     {
-      "time": "00:08",
+      "time": "06:50",
+      "date": "22/08/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "01:27",
       "date": "22/08/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
@@ -31,54 +67,18 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
       "status": "expirado"
-    },
-    {
-      "time": "21:07",
-      "date": "21/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "20:42",
-      "date": "21/08/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 21/08 20:35 - RAJADAS DE VENTO de quadrante sul, com intensidade MODERADA (45 a 65 km/h), para as regiões do Litoral Norte, Litoral Sul, Grande Florianópolis, Baixo e Médio Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado"
-    },
-    {
-      "time": "20:40",
-      "date": "21/08/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "OBSERVAÇÃO - 21/08 20:35 - RAJADAS DE VENTO de quadrante sul, com intensidade MODERADA (45 a 65 km/h), para as regiões do Litoral Norte, Litoral Sul, Grande Florianópolis, Baixo e Médio Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 10
+    },
+    {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
       "count": 9
-    },
-    {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 8
     },
     {
       "name": "Defesa Civil Nacional",
@@ -116,15 +116,19 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil do Distrito Federal",
-      "short_name": "Defesa Civil do Distrito Federal",
+      "name": "Defesa Civil de Maricá (RJ)",
+      "short_name": "DC Maricá (RJ)",
       "count": 1
     }
   ],
   "level_distribution": [
     {
+      "label": "Baixo",
+      "count": 1
+    },
+    {
       "label": "Médio",
-      "count": 20
+      "count": 21
     },
     {
       "label": "Alto",
@@ -132,7 +136,7 @@
     },
     {
       "label": "Severo",
-      "count": 4
+      "count": 3
     },
     {
       "label": "Extremo",
@@ -146,15 +150,15 @@
     },
     {
       "label": "Vendaval",
-      "count": 19
+      "count": 18
     },
     {
       "label": "Chuvas Intensas",
-      "count": 9
+      "count": 10
     },
     {
       "label": "Solo/Lama",
-      "count": 1
+      "count": 2
     },
     {
       "label": "Ressaca",
@@ -168,11 +172,11 @@
   "uf_distribution": [
     {
       "uf": "RJ",
-      "count": 23
+      "count": 22
     },
     {
       "uf": "AM",
-      "count": 9
+      "count": 11
     },
     {
       "uf": "SP",
@@ -222,14 +226,66 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 12
+      "count": 10
     },
     {
       "label": "expirado",
-      "count": 41
+      "count": 44
     }
   ],
   "all_alerts": [
+    {
+      "date": "22/08/2026",
+      "time": "07:20",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Solo/Lama",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Japurá/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Deslizamento. Evite encostas e acompanhe atualizacoes. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-08-22T07:20:44-03:00",
+      "expires": "2026-08-22T15:00:00-03:00"
+    },
+    {
+      "date": "22/08/2026",
+      "time": "07:05",
+      "senderName": "Defesa Civil de Maricá (RJ)",
+      "event": "Vendaval",
+      "nivel": "Baixo",
+      "uf": "RJ",
+      "location": "Maricá/RJ",
+      "headline": "Defesa Civil:Retorno para estagio meteorologico de NORMALIDADE em Marica/RJ as 07h00 do dia 22/08/2026. Emergencia : 199 ou 96628-2699 (Fone/Whatsapp).",
+      "status": "vigente",
+      "onset": "2026-08-22T07:05:08-03:00",
+      "expires": "2026-08-22T12:00:00-03:00"
+    },
+    {
+      "date": "22/08/2026",
+      "time": "06:56",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-08-22T06:56:26-03:00",
+      "expires": "2026-08-22T09:55:00-03:00"
+    },
+    {
+      "date": "22/08/2026",
+      "time": "06:50",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-08-22T06:50:01-03:00",
+      "expires": "2026-08-22T09:30:00-03:00"
+    },
     {
       "date": "22/08/2026",
       "time": "01:27",
@@ -239,7 +295,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T01:27:33-03:00",
       "expires": "2026-08-22T06:00:00-03:00"
     },
@@ -824,7 +880,7 @@
       "uf": "RJ",
       "location": "Itaguaí/RJ",
       "headline": "Defesa Civil:Defesa Civil-Itaguai:Permanece a previsao de rajadas de vento moderado a muito forte entre hoje 21/08 ate amanha 22/08. Emergencia 193 ou 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T08:40:43-03:00",
       "expires": "2026-08-22T06:00:00-03:00"
     },
@@ -837,7 +893,7 @@
       "uf": "RJ",
       "location": "Nova Friburgo/RJ",
       "headline": "Defesa Civil:NF/ PERMANECE A PREVISAO de rajadas de vento moderado a muito forte entre hoje (21/08) ate amanha (22/08). Emergencia, ligue 193 ou 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T08:30:07-03:00",
       "expires": "2026-08-22T06:00:00-03:00"
     },
@@ -850,7 +906,7 @@
       "uf": "RJ",
       "location": "Belford Roxo/RJ",
       "headline": "Defesa Civil:VENTOS FORTES podem superar 60 km/h em Belford Roxo, vigencia ate 06h de sabado. Evite arvores e estruturas frageis. Emergencias: 193 ou 971786419",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T08:15:00-03:00",
       "expires": "2026-08-22T07:00:00-03:00"
     },
@@ -863,7 +919,7 @@
       "uf": "RJ",
       "location": "RIO DE JANEIRO/RJ",
       "headline": "Defesa Civil:Permanece a previsao de rajadas de vento moderado a muito forte entre hoje (21/08) ate amanha (22/08). Emergencia, ligue 193 ou 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-21T08:00:00-03:00",
       "expires": "2026-08-22T06:00:00-03:00"
     },
@@ -879,61 +935,23 @@
       "status": "vigente",
       "onset": "2026-08-21T07:54:58-03:00",
       "expires": "2026-08-22T08:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "07:00",
-      "senderName": "Defesa Civil de Duque de Caxias (RJ)",
-      "event": "Vendaval",
-      "nivel": "Severo",
-      "uf": "RJ",
-      "location": "Duque de Caxias/RJ",
-      "headline": "Defesa Civil:ALERTA de RAJADAS DE VENTOS MODERADOS A MUITO FORTES a partir do final da manha (21/08) em Duque de Caxias. ABRIGUE-SE. Emergencia, 21 99463-7387.",
-      "status": "vigente",
-      "onset": "2026-08-21T07:00:00-03:00",
-      "expires": "2026-08-22T11:55:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "06:30",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-08-21T06:30:37-03:00",
-      "expires": "2026-08-21T10:00:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "06:29",
-      "senderName": "Defesa Civil de Maricá (RJ)",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Maricá/RJ",
-      "headline": "Defesa Civil:Mudanca para estagio de OBSERVACAO em Marica/RJ as 06h25 do dia 21/08 - previsao de vento muito forte. Emergencia: 199, 966282699 (fone/whatsapp)",
-      "status": "expirado",
-      "onset": "2026-08-21T06:29:37-03:00",
-      "expires": "2026-08-21T22:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 53,
+    "total_alerts": 54,
     "by_nivel": {
       "Alto": 28,
-      "Médio": 20,
-      "Severo": 4,
+      "Médio": 21,
+      "Severo": 3,
+      "Baixo": 1,
       "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 53
+      "Google": 54
     },
     "by_region": {
-      "SE": 32,
-      "N": 9,
+      "SE": 31,
+      "N": 11,
       "CO": 4,
       "NE": 4,
       "S": 4
