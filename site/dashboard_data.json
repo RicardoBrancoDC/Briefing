@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-08-23T07:44:38.646835-03:00",
-  "source_run_dir": "run_20260823_074421",
+  "generated_at": "2026-08-23T10:05:24.500385-03:00",
+  "source_run_dir": "run_20260823_100504",
   "cards": {
-    "vigentes": 2,
-    "ultimas24h": 34,
+    "vigentes": 5,
+    "ultimas24h": 35,
     "autoridadesAtivas": 5,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "09:48",
+      "date": "23/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Ressaca",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "Atualização: Observação Marítima SDC/SC 23/08 09:30 - Mar agitado e ressaca entre este domingo (23) e a manhã da terça-feira (25). Ocorrências ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "09:09",
+      "date": "23/08/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "07:45",
+      "date": "23/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "04:07",
       "date": "23/08/2026",
@@ -31,42 +67,6 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
       "status": "expirado"
-    },
-    {
-      "time": "18:19",
-      "date": "22/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Juruá/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "16:50",
-      "date": "22/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "Itaí/SP, Birigui/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:16h50 Umidade do ar abaixo de 30 em Itai e Birigui. Hidrate-se. Evite fazer exercicios ao ar livre.",
-      "status": "expirado"
-    },
-    {
-      "time": "16:46",
-      "date": "22/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:16h45 Umidade do ar abaixo de 30 em Aguai, Jaguariuna, Espirito Santo do Pinhal,  Santa Gertrudes,Presidente Epitacio e Tupi Paulista. Hidrate-se",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -91,15 +91,15 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil de Niterói (RJ)",
-      "short_name": "DC Niterói (RJ)",
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 25
+      "count": 26
     },
     {
       "label": "Alto",
@@ -117,14 +117,10 @@
     },
     {
       "label": "Chuvas Intensas",
-      "count": 4
+      "count": 6
     },
     {
-      "label": "Vendaval",
-      "count": 1
-    },
-    {
-      "label": "Solo/Lama",
+      "label": "Ressaca",
       "count": 1
     }
   ],
@@ -135,7 +131,7 @@
     },
     {
       "uf": "AM",
-      "count": 5
+      "count": 6
     },
     {
       "uf": "PE",
@@ -146,21 +142,60 @@
       "count": 2
     },
     {
-      "uf": "RJ",
+      "uf": "SC",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 2
+      "count": 5
     },
     {
       "label": "expirado",
-      "count": 32
+      "count": 30
     }
   ],
   "all_alerts": [
+    {
+      "date": "23/08/2026",
+      "time": "09:48",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Ressaca",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Atualização: Observação Marítima SDC/SC 23/08 09:30 - Mar agitado e ressaca entre este domingo (23) e a manhã da terça-feira (25). Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-23T09:48:57-03:00",
+      "expires": "2026-08-25T12:00:00-03:00"
+    },
+    {
+      "date": "23/08/2026",
+      "time": "09:09",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-08-23T09:09:08-03:00",
+      "expires": "2026-08-23T14:00:00-03:00"
+    },
+    {
+      "date": "23/08/2026",
+      "time": "07:45",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-08-23T07:45:48-03:00",
+      "expires": "2026-08-23T11:30:00-03:00"
+    },
     {
       "date": "23/08/2026",
       "time": "04:07",
@@ -576,49 +611,24 @@
       "status": "expirado",
       "onset": "2026-08-22T10:06:28-03:00",
       "expires": "2026-08-22T18:00:00-03:00"
-    },
-    {
-      "date": "22/08/2026",
-      "time": "09:19",
-      "senderName": "Defesa Civil de Niterói (RJ)",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Niterói/RJ",
-      "headline": "Defesa Civil:Niteroi: Mudanca para Estagio de Vigilancia devido a ausencia de ventos fortes e previsao de chuva fraca isolada. Emergencia, 199.",
-      "status": "expirado",
-      "onset": "2026-08-22T09:19:40-03:00",
-      "expires": "2026-08-23T00:00:00-03:00"
-    },
-    {
-      "date": "22/08/2026",
-      "time": "08:03",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Solo/Lama",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Japurá/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Deslizamento.  Evite encostas e areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-08-22T08:03:59-03:00",
-      "expires": "2026-08-22T16:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 34,
+    "total_alerts": 35,
     "by_nivel": {
-      "Médio": 25,
+      "Médio": 26,
       "Alto": 7,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 34
+      "Google": 35
     },
     "by_region": {
-      "SE": 25,
-      "N": 5,
+      "SE": 24,
+      "N": 6,
       "CO": 2,
-      "NE": 2
+      "NE": 2,
+      "S": 1
     }
   }
 }
