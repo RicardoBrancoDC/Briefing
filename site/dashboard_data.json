@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-23T04:05:09.878516-03:00",
-  "source_run_dir": "run_20260823_040451",
+  "generated_at": "2026-08-23T05:52:01.721727-03:00",
+  "source_run_dir": "run_20260823_055144",
   "cards": {
     "vigentes": 2,
-    "ultimas24h": 37,
+    "ultimas24h": 38,
     "autoridadesAtivas": 6,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "04:07",
+      "date": "23/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "expirado"
+    },
     {
       "time": "20:57",
       "date": "22/08/2026",
@@ -55,18 +67,6 @@
       "uf": "SP",
       "headline": "Defesa Civil:16h45 Umidade do ar abaixo de 30 em Aguai, Jaguariuna, Espirito Santo do Pinhal,  Santa Gertrudes,Presidente Epitacio e Tupi Paulista. Hidrate-se",
       "status": "expirado"
-    },
-    {
-      "time": "15:52",
-      "date": "22/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:15h52 Umidade do ar abaixo de 30 em Jundiai, Artur Nogueira, Bofete, Maracai, Cassia dos Coqueiros, Auriflama e Terra Roxa. Hidrate-se.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -83,7 +83,7 @@
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual de Pernambuco",
@@ -112,7 +112,7 @@
     },
     {
       "label": "Alto",
-      "count": 8
+      "count": 9
     },
     {
       "label": "Severo",
@@ -126,7 +126,7 @@
     },
     {
       "label": "Chuvas Intensas",
-      "count": 5
+      "count": 6
     },
     {
       "label": "Vendaval",
@@ -144,7 +144,7 @@
     },
     {
       "uf": "AM",
-      "count": 7
+      "count": 8
     },
     {
       "uf": "PE",
@@ -166,10 +166,23 @@
     },
     {
       "label": "expirado",
-      "count": 35
+      "count": 36
     }
   ],
   "all_alerts": [
+    {
+      "date": "23/08/2026",
+      "time": "04:07",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-08-23T04:07:23-03:00",
+      "expires": "2026-08-23T05:30:00-03:00"
+    },
     {
       "date": "22/08/2026",
       "time": "20:57",
@@ -653,19 +666,19 @@
     }
   ],
   "summary": {
-    "total_alerts": 37,
+    "total_alerts": 38,
     "by_nivel": {
       "Médio": 26,
-      "Alto": 8,
+      "Alto": 9,
       "Severo": 2,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 37
+      "Google": 38
     },
     "by_region": {
       "SE": 26,
-      "N": 7,
+      "N": 8,
       "CO": 2,
       "NE": 2
     }
