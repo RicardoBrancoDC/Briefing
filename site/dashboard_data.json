@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-23T17:43:24.943887-03:00",
-  "source_run_dir": "run_20260823_174249",
+  "generated_at": "2026-08-23T19:42:42.074988-03:00",
+  "source_run_dir": "run_20260823_194204",
   "cards": {
-    "vigentes": 17,
+    "vigentes": 5,
     "ultimas24h": 24,
     "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "17:55",
+      "date": "23/08/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "16:36",
       "date": "23/08/2026",
@@ -30,7 +42,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:16h32 Umidade do ar abaixo de 30 em Presidente Epitacio, Paraguacu Paulista, Campos Novos Paulista, Laranjal Paulista e Cafelandia. Hidrate-se.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "15:01",
@@ -42,7 +54,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:15h00 Umidade do ar abaixo de 30 em Tupa, Piquerobi, Guararapes, Promissao, Avanhandava, Mendonca e Jose Bonifacio. Proteja-se do sol.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "14:26",
@@ -54,19 +66,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:14h25 Umidade do ar abaixo de 30 em Campinas, Valinhos, Piracaia, Atibaia e Braganca Paulista. Evite exercicios fisicos ao ar  livre. Hidrate-se.",
-      "status": "vigente"
-    },
-    {
-      "time": "14:12",
-      "date": "23/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:14h11 Umidade do ar abaixo de 30 em Lins, Rancharia, Bauru, Adamantina, Mariapolis, Presidente Prudente, Aracatuba e Birigui.  Hidrate-se.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -167,14 +167,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 17
+      "count": 5
     },
     {
       "label": "expirado",
-      "count": 7
+      "count": 19
     }
   ],
   "all_alerts": [
+    {
+      "date": "23/08/2026",
+      "time": "17:55",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-08-23T17:55:15-03:00",
+      "expires": "2026-08-23T21:30:00-03:00"
+    },
     {
       "date": "23/08/2026",
       "time": "16:36",
@@ -197,7 +210,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:16h32 Umidade do ar abaixo de 30 em Presidente Epitacio, Paraguacu Paulista, Campos Novos Paulista, Laranjal Paulista e Cafelandia. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-23T16:33:00-03:00",
       "expires": "2026-08-23T19:00:00-03:00"
     },
@@ -210,7 +223,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h00 Umidade do ar abaixo de 30 em Tupa, Piquerobi, Guararapes, Promissao, Avanhandava, Mendonca e Jose Bonifacio. Proteja-se do sol.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-23T15:01:08-03:00",
       "expires": "2026-08-23T19:00:00-03:00"
     },
@@ -223,7 +236,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h25 Umidade do ar abaixo de 30 em Campinas, Valinhos, Piracaia, Atibaia e Braganca Paulista. Evite exercicios fisicos ao ar  livre. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-23T14:26:19-03:00",
       "expires": "2026-08-23T19:00:00-03:00"
     },
@@ -236,7 +249,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h11 Umidade do ar abaixo de 30 em Lins, Rancharia, Bauru, Adamantina, Mariapolis, Presidente Prudente, Aracatuba e Birigui.  Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-23T14:12:59-03:00",
       "expires": "2026-08-23T19:00:00-03:00"
     },
@@ -249,7 +262,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h02 Umidade do ar abaixo de 30 em Leme, Boa Esperanca do Sul, Socorro, Sao Sebastiao da Grama, Indaiatuba, Jundiai e Itatiba.  Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-23T14:02:33-03:00",
       "expires": "2026-08-23T19:00:00-03:00"
     },
@@ -262,7 +275,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-23T14:00:35-03:00",
       "expires": "2026-08-23T19:00:00-03:00"
     },
@@ -275,7 +288,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h54 Umidade do ar abaixo de 30 em Pradopolis, Tabatinga, Ibitinga, Arealva, Bariri, Matao, Araraquara, Jahu e Brotas.  Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-23T13:54:48-03:00",
       "expires": "2026-08-23T19:00:00-03:00"
     },
@@ -314,7 +327,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:12h42 Umidade do ar abaixo de 30 em Olimpia, Altair e Guaraci. Evite exercicios fisicos ao ar  livre. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-23T12:42:35-03:00",
       "expires": "2026-08-23T19:00:00-03:00"
     },
@@ -340,7 +353,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:12h36 Umidade do ar abaixo de 30 em Catanduva, Ariranha, Pindorama, Sao Carlos, Valparaiso e Itapira. Evite exercicios fisicos ao ar  livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-23T12:36:35-03:00",
       "expires": "2026-08-23T19:00:00-03:00"
     },
@@ -353,7 +366,7 @@
       "uf": "GO",
       "location": "GOIÁS/GO",
       "headline": "Defesa Civil:Aviso de baixa umidade do ar: beba agua, evite sol forte e esforco excessivo. Atencao especial para criancas e idosos. Emergencia:193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-23T12:00:00-03:00",
       "expires": "2026-08-23T18:00:00-03:00"
     },
@@ -366,7 +379,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:11h47 Umidade do ar abaixo de 30 em Populina, Votuporanga, Santa Fe do Sul, Dracena, Teodoro Sampaio, Jales e Mirassol. Proteja-se do sol.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-23T11:47:41-03:00",
       "expires": "2026-08-23T19:00:00-03:00"
     },
@@ -379,7 +392,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:11h41 Umidade do ar abaixo de 30 em Colina, Orlandia, Franca, Pedregulho e Sao Joaquim da Barra. Atinge cidades vizinhas. Proteja-se do sol.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-23T11:42:46-03:00",
       "expires": "2026-08-23T19:00:00-03:00"
     },
@@ -405,7 +418,7 @@
       "uf": "MA",
       "location": "MARANHÃO/MA",
       "headline": "Defesa Civil:Alerta de Baixa Umidade para sua regiao. Beba agua, evite exercicios ao sol e nao realize queimadas. Valido ate dia 23/08/2026 as 18h00min.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-23T10:32:13-03:00",
       "expires": "2026-08-23T18:00:00-03:00"
     },
@@ -473,19 +486,6 @@
       "status": "expirado",
       "onset": "2026-08-22T20:57:07-03:00",
       "expires": "2026-08-22T23:50:00-03:00"
-    },
-    {
-      "date": "22/08/2026",
-      "time": "18:19",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Juruá/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-08-22T18:19:03-03:00",
-      "expires": "2026-08-22T20:00:00-03:00"
     }
   ],
   "summary": {
