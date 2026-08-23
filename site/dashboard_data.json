@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-22T23:02:58.279646-03:00",
-  "source_run_dir": "run_20260822_230228",
+  "generated_at": "2026-08-23T00:18:48.590785-03:00",
+  "source_run_dir": "run_20260823_001822",
   "cards": {
-    "vigentes": 4,
-    "ultimas24h": 39,
+    "vigentes": 2,
+    "ultimas24h": 38,
     "autoridadesAtivas": 6,
     "alertasExtremos": 0
   },
@@ -18,7 +18,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "18:19",
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 8
+      "count": 7
     },
     {
       "name": "Defesa Civil Nacional",
@@ -112,7 +112,7 @@
     },
     {
       "label": "Alto",
-      "count": 10
+      "count": 9
     },
     {
       "label": "Severo",
@@ -126,7 +126,7 @@
     },
     {
       "label": "Chuvas Intensas",
-      "count": 7
+      "count": 6
     },
     {
       "label": "Vendaval",
@@ -144,7 +144,7 @@
     },
     {
       "uf": "AM",
-      "count": 9
+      "count": 8
     },
     {
       "uf": "PE",
@@ -162,11 +162,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 4
+      "count": 2
     },
     {
       "label": "expirado",
-      "count": 35
+      "count": 36
     }
   ],
   "all_alerts": [
@@ -179,7 +179,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T20:57:07-03:00",
       "expires": "2026-08-22T23:50:00-03:00"
     },
@@ -582,7 +582,7 @@
       "uf": "RJ",
       "location": "Niterói/RJ",
       "headline": "Defesa Civil:Niteroi: Mudanca para Estagio de Vigilancia devido a ausencia de ventos fortes e previsao de chuva fraca isolada. Emergencia, 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T09:19:40-03:00",
       "expires": "2026-08-23T00:00:00-03:00"
     },
@@ -663,35 +663,22 @@
       "status": "expirado",
       "onset": "2026-08-22T01:27:33-03:00",
       "expires": "2026-08-22T06:00:00-03:00"
-    },
-    {
-      "date": "22/08/2026",
-      "time": "00:08",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-08-22T00:08:38-03:00",
-      "expires": "2026-08-22T03:05:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 39,
+    "total_alerts": 38,
     "by_nivel": {
       "Médio": 26,
-      "Alto": 10,
+      "Alto": 9,
       "Severo": 2,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 39
+      "Google": 38
     },
     "by_region": {
       "SE": 26,
-      "N": 9,
+      "N": 8,
       "CO": 2,
       "NE": 2
     }
