@@ -1,15 +1,27 @@
 {
-  "generated_at": "2026-08-23T11:44:30.082615-03:00",
-  "source_run_dir": "run_20260823_114406",
+  "generated_at": "2026-08-23T13:46:27.110988-03:00",
+  "source_run_dir": "run_20260823_134600",
   "cards": {
-    "vigentes": 7,
-    "ultimas24h": 34,
+    "vigentes": 11,
+    "ultimas24h": 32,
     "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "11:42",
+      "time": "12:53",
+      "date": "23/08/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "location": "Jutaí/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento. Evite areas alagadas e fique em local seguro. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "12:42",
       "date": "23/08/2026",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "senderNameShort": "DC São Paulo",
@@ -17,55 +29,43 @@
       "nivel": "Médio",
       "location": "SÃO PAULO/SP",
       "uf": "SP",
-      "headline": "Defesa Civil:11h41 Umidade do ar abaixo de 30 em Colina, Orlandia, Franca, Pedregulho e Sao Joaquim da Barra. Atinge cidades vizinhas. Proteja-se do sol.",
+      "headline": "Defesa Civil:12h42 Umidade do ar abaixo de 30 em Olimpia, Altair e Guaraci. Evite exercicios fisicos ao ar  livre. Hidrate-se.",
       "status": "vigente"
     },
     {
-      "time": "11:06",
-      "date": "23/08/2026",
-      "senderName": "Defesa Civil de Niterói (RJ)",
-      "senderNameShort": "DC Niterói (RJ)",
-      "event": "Ressaca",
-      "nivel": "Médio",
-      "location": "Niterói/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Niteroi: Aviso de Ressaca. Inicio: 24/08 segunda-feira 06h. Fim: 26/08 quarta-feira 15h. Ondas com altura de 2,5/3 metros. Emergencia, 199.",
-      "status": "vigente"
-    },
-    {
-      "time": "10:32",
-      "date": "23/08/2026",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "senderNameShort": "DC Maranhão",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "MARANHÃO/MA",
-      "uf": "MA",
-      "headline": "Defesa Civil:Alerta de Baixa Umidade para sua regiao. Beba agua, evite exercicios ao sol e nao realize queimadas. Valido ate dia 23/08/2026 as 18h00min.",
-      "status": "vigente"
-    },
-    {
-      "time": "09:48",
-      "date": "23/08/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Ressaca",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Atualização: Observação Marítima SDC/SC 23/08 09:30 - Mar agitado e ressaca entre este domingo (23) e a manhã da terça-feira (25). Ocorrências ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "09:09",
+      "time": "12:36",
       "date": "23/08/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
+      "event": "Alagamentos",
       "nivel": "Alto",
-      "location": "AMAZONAS/AM",
+      "location": "Coari/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento. Evite areas alagadas e fique em local seguro. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "12:36",
+      "date": "23/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:12h36 Umidade do ar abaixo de 30 em Catanduva, Ariranha, Pindorama, Sao Carlos, Valparaiso e Itapira. Evite exercicios fisicos ao ar  livre.",
+      "status": "vigente"
+    },
+    {
+      "time": "12:00",
+      "date": "23/08/2026",
+      "senderName": "Defesa Civil Estadual de Goiás",
+      "senderNameShort": "DC Goiás",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "location": "GOIÁS/GO",
+      "uf": "GO",
+      "headline": "Defesa Civil:Aviso de baixa umidade do ar: beba agua, evite sol forte e esforco excessivo. Atencao especial para criancas e idosos. Emergencia:193",
       "status": "vigente"
     }
   ],
@@ -73,12 +73,12 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 24
+      "count": 21
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 3
+      "count": 5
     },
     {
       "name": "Defesa Civil Nacional",
@@ -86,9 +86,9 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil Estadual de Pernambuco",
-      "short_name": "DC Pernambuco",
-      "count": 2
+      "name": "Defesa Civil Estadual de Goiás",
+      "short_name": "DC Goiás",
+      "count": 1
     },
     {
       "name": "Defesa Civil de Niterói (RJ)",
@@ -109,25 +109,25 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 28
+      "count": 25
     },
     {
       "label": "Alto",
-      "count": 4
-    },
-    {
-      "label": "Severo",
-      "count": 2
+      "count": 7
     }
   ],
   "event_distribution": [
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 27
+      "count": 23
     },
     {
       "label": "Chuvas Intensas",
       "count": 5
+    },
+    {
+      "label": "Alagamentos",
+      "count": 2
     },
     {
       "label": "Ressaca",
@@ -137,15 +137,15 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 24
+      "count": 21
     },
     {
       "uf": "AM",
-      "count": 5
+      "count": 7
     },
     {
-      "uf": "PE",
-      "count": 2
+      "uf": "GO",
+      "count": 1
     },
     {
       "uf": "RJ",
@@ -163,14 +163,92 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 11
     },
     {
       "label": "expirado",
-      "count": 27
+      "count": 21
     }
   ],
   "all_alerts": [
+    {
+      "date": "23/08/2026",
+      "time": "12:53",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Jutaí/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento. Evite areas alagadas e fique em local seguro. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-08-23T12:53:26-03:00",
+      "expires": "2026-08-23T17:00:00-03:00"
+    },
+    {
+      "date": "23/08/2026",
+      "time": "12:42",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:12h42 Umidade do ar abaixo de 30 em Olimpia, Altair e Guaraci. Evite exercicios fisicos ao ar  livre. Hidrate-se.",
+      "status": "vigente",
+      "onset": "2026-08-23T12:42:35-03:00",
+      "expires": "2026-08-23T19:00:00-03:00"
+    },
+    {
+      "date": "23/08/2026",
+      "time": "12:36",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Coari/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Alagamento. Evite areas alagadas e fique em local seguro. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-08-23T12:36:38-03:00",
+      "expires": "2026-08-23T16:00:00-03:00"
+    },
+    {
+      "date": "23/08/2026",
+      "time": "12:36",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:12h36 Umidade do ar abaixo de 30 em Catanduva, Ariranha, Pindorama, Sao Carlos, Valparaiso e Itapira. Evite exercicios fisicos ao ar  livre.",
+      "status": "vigente",
+      "onset": "2026-08-23T12:36:35-03:00",
+      "expires": "2026-08-23T19:00:00-03:00"
+    },
+    {
+      "date": "23/08/2026",
+      "time": "12:00",
+      "senderName": "Defesa Civil Estadual de Goiás",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "uf": "GO",
+      "location": "GOIÁS/GO",
+      "headline": "Defesa Civil:Aviso de baixa umidade do ar: beba agua, evite sol forte e esforco excessivo. Atencao especial para criancas e idosos. Emergencia:193",
+      "status": "vigente",
+      "onset": "2026-08-23T12:00:00-03:00",
+      "expires": "2026-08-23T18:00:00-03:00"
+    },
+    {
+      "date": "23/08/2026",
+      "time": "11:47",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:11h47 Umidade do ar abaixo de 30 em Populina, Votuporanga, Santa Fe do Sul, Dracena, Teodoro Sampaio, Jales e Mirassol. Proteja-se do sol.",
+      "status": "vigente",
+      "onset": "2026-08-23T11:47:41-03:00",
+      "expires": "2026-08-23T19:00:00-03:00"
+    },
     {
       "date": "23/08/2026",
       "time": "11:42",
@@ -508,126 +586,22 @@
       "status": "expirado",
       "onset": "2026-08-22T14:50:50-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
-    },
-    {
-      "date": "22/08/2026",
-      "time": "13:16",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Severo",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: SERTAO SAO FRANCISCO. Baixa umidade do ar. Beba muita agua. Emergencia ligue 193 ou 199",
-      "status": "vigente",
-      "onset": "2026-08-22T13:16:23-03:00",
-      "expires": "2026-08-24T12:30:00-03:00"
-    },
-    {
-      "date": "22/08/2026",
-      "time": "13:06",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:13h06 Umidade do ar abaixo de 30 em Nuporanga, Orlandia, Tabatinga e Santa Fe do Sul. Proteja-se do sol. Hidrate-se.",
-      "status": "expirado",
-      "onset": "2026-08-22T13:06:16-03:00",
-      "expires": "2026-08-22T19:00:00-03:00"
-    },
-    {
-      "date": "22/08/2026",
-      "time": "13:00",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:13h00 Umidade do ar abaixo de 30 em Sao Joaquim da Barra, Ribeirao Preto e Batatais. Proteja-se do sol. Hidrate-se.",
-      "status": "expirado",
-      "onset": "2026-08-22T13:00:22-03:00",
-      "expires": "2026-08-22T19:00:00-03:00"
-    },
-    {
-      "date": "22/08/2026",
-      "time": "12:56",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Severo",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:PE: SERTAO PERNAMBUCO. Baixa umidade do ar. Beba muita agua. Emergencia ligue 193 ou 199",
-      "status": "vigente",
-      "onset": "2026-08-22T12:56:34-03:00",
-      "expires": "2026-08-24T12:30:00-03:00"
-    },
-    {
-      "date": "22/08/2026",
-      "time": "12:43",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:12h43 Umidade do ar abaixo de 30 em Brotas, Jeriquara e Teodoro Sampaio. Proteja-se do sol. Hidrate-se.",
-      "status": "expirado",
-      "onset": "2026-08-22T12:43:37-03:00",
-      "expires": "2026-08-22T19:00:00-03:00"
-    },
-    {
-      "date": "22/08/2026",
-      "time": "12:24",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:12h23 Umidade do ar abaixo de 30 em Franca, Itirapua e Ibitinga. Proteja-se do sol. Hidrate-se.",
-      "status": "expirado",
-      "onset": "2026-08-22T12:24:16-03:00",
-      "expires": "2026-08-22T19:00:00-03:00"
-    },
-    {
-      "date": "22/08/2026",
-      "time": "11:58",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:11h58 Umidade do ar abaixo de 30 em Pedregulho, Cristais Paulista e Divinolandia. Proteja-se do sol. Hidrate-se.",
-      "status": "expirado",
-      "onset": "2026-08-22T11:58:32-03:00",
-      "expires": "2026-08-22T19:00:00-03:00"
-    },
-    {
-      "date": "22/08/2026",
-      "time": "11:53",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "Ribeirão Corrente/SP",
-      "headline": "Defesa Civil:11h53 Umidade do ar abaixo de 30 em Ribeirao Corrente. Proteja-se do sol. Hidrate-se.",
-      "status": "expirado",
-      "onset": "2026-08-22T11:53:53-03:00",
-      "expires": "2026-08-22T19:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 34,
+    "total_alerts": 32,
     "by_nivel": {
-      "Médio": 28,
-      "Alto": 4,
-      "Severo": 2
+      "Médio": 25,
+      "Alto": 7
     },
     "by_channel_list": {
-      "Google": 34
+      "Google": 32
     },
     "by_region": {
-      "SE": 25,
-      "N": 5,
-      "NE": 3,
+      "SE": 22,
+      "N": 7,
+      "CO": 1,
+      "NE": 1,
       "S": 1
     }
   }
