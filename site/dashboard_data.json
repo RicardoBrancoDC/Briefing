@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-22T19:42:42.089184-03:00",
-  "source_run_dir": "run_20260822_194218",
+  "generated_at": "2026-08-22T23:02:58.279646-03:00",
+  "source_run_dir": "run_20260822_230228",
   "cards": {
     "vigentes": 4,
-    "ultimas24h": 41,
-    "autoridadesAtivas": 7,
+    "ultimas24h": 39,
+    "autoridadesAtivas": 6,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "20:57",
+      "date": "22/08/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
     {
       "time": "18:19",
       "date": "22/08/2026",
@@ -18,7 +30,7 @@
       "location": "Juruá/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:50",
@@ -55,18 +67,6 @@
       "uf": "SP",
       "headline": "Defesa Civil:15h52 Umidade do ar abaixo de 30 em Jundiai, Artur Nogueira, Bofete, Maracai, Cassia dos Coqueiros, Auriflama e Terra Roxa. Hidrate-se.",
       "status": "expirado"
-    },
-    {
-      "time": "15:48",
-      "date": "22/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:15h48 Umidade do ar abaixo de 30 em Estrela DOeste, Sao Simao, Limeira, Santa Cruz do Rio Pardo e Gaviao Peixoto. Hidrate-se.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -91,11 +91,6 @@
       "count": 2
     },
     {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil de Niterói (RJ)",
       "short_name": "DC Niterói (RJ)",
       "count": 1
@@ -113,7 +108,7 @@
     },
     {
       "label": "Médio",
-      "count": 28
+      "count": 26
     },
     {
       "label": "Alto",
@@ -135,7 +130,7 @@
     },
     {
       "label": "Vendaval",
-      "count": 4
+      "count": 2
     },
     {
       "label": "Solo/Lama",
@@ -162,10 +157,6 @@
     {
       "uf": "RJ",
       "count": 2
-    },
-    {
-      "uf": "SC",
-      "count": 2
     }
   ],
   "status_distribution": [
@@ -175,10 +166,23 @@
     },
     {
       "label": "expirado",
-      "count": 37
+      "count": 35
     }
   ],
   "all_alerts": [
+    {
+      "date": "22/08/2026",
+      "time": "20:57",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-08-22T20:57:07-03:00",
+      "expires": "2026-08-22T23:50:00-03:00"
+    },
     {
       "date": "22/08/2026",
       "time": "18:19",
@@ -188,7 +192,7 @@
       "uf": "AM",
       "location": "Juruá/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-22T18:19:03-03:00",
       "expires": "2026-08-22T20:00:00-03:00"
     },
@@ -672,64 +676,24 @@
       "status": "expirado",
       "onset": "2026-08-22T00:08:38-03:00",
       "expires": "2026-08-22T03:05:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "21:07",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-08-21T21:07:29-03:00",
-      "expires": "2026-08-22T00:05:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "20:42",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 21/08 20:35 - RAJADAS DE VENTO de quadrante sul, com intensidade MODERADA (45 a 65 km/h), para as regiões do Litoral Norte, Litoral Sul, Grande Florianópolis, Baixo e Médio Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-21T20:42:09-03:00",
-      "expires": "2026-08-22T00:40:00-03:00"
-    },
-    {
-      "date": "21/08/2026",
-      "time": "20:40",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 21/08 20:35 - RAJADAS DE VENTO de quadrante sul, com intensidade MODERADA (45 a 65 km/h), para as regiões do Litoral Norte, Litoral Sul, Grande Florianópolis, Baixo e Médio Vale do Itajaí nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-21T20:40:34-03:00",
-      "expires": "2026-08-22T00:40:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 41,
+    "total_alerts": 39,
     "by_nivel": {
-      "Médio": 28,
+      "Médio": 26,
       "Alto": 10,
       "Severo": 2,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 41
+      "Google": 39
     },
     "by_region": {
       "SE": 26,
       "N": 9,
       "CO": 2,
-      "NE": 2,
-      "S": 2
+      "NE": 2
     }
   }
 }
