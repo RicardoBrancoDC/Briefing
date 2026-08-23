@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-08-23T10:05:24.500385-03:00",
-  "source_run_dir": "run_20260823_100504",
+  "generated_at": "2026-08-23T11:44:30.082615-03:00",
+  "source_run_dir": "run_20260823_114406",
   "cards": {
-    "vigentes": 5,
-    "ultimas24h": 35,
-    "autoridadesAtivas": 5,
+    "vigentes": 7,
+    "ultimas24h": 34,
+    "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "11:42",
+      "date": "23/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:11h41 Umidade do ar abaixo de 30 em Colina, Orlandia, Franca, Pedregulho e Sao Joaquim da Barra. Atinge cidades vizinhas. Proteja-se do sol.",
+      "status": "vigente"
+    },
+    {
+      "time": "11:06",
+      "date": "23/08/2026",
+      "senderName": "Defesa Civil de Niterói (RJ)",
+      "senderNameShort": "DC Niterói (RJ)",
+      "event": "Ressaca",
+      "nivel": "Médio",
+      "location": "Niterói/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Niteroi: Aviso de Ressaca. Inicio: 24/08 segunda-feira 06h. Fim: 26/08 quarta-feira 15h. Ondas com altura de 2,5/3 metros. Emergencia, 199.",
+      "status": "vigente"
+    },
+    {
+      "time": "10:32",
+      "date": "23/08/2026",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "senderNameShort": "DC Maranhão",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "MARANHÃO/MA",
+      "uf": "MA",
+      "headline": "Defesa Civil:Alerta de Baixa Umidade para sua regiao. Beba agua, evite exercicios ao sol e nao realize queimadas. Valido ate dia 23/08/2026 as 18h00min.",
+      "status": "vigente"
+    },
     {
       "time": "09:48",
       "date": "23/08/2026",
@@ -31,42 +67,6 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
       "status": "vigente"
-    },
-    {
-      "time": "07:45",
-      "date": "23/08/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "04:07",
-      "date": "23/08/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "20:57",
-      "date": "22/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -76,19 +76,29 @@
       "count": 24
     },
     {
-      "name": "Defesa Civil Nacional",
-      "short_name": "Defesa Civil Nacional",
-      "count": 5
-    },
-    {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
       "count": 3
     },
     {
+      "name": "Defesa Civil Nacional",
+      "short_name": "Defesa Civil Nacional",
+      "count": 2
+    },
+    {
       "name": "Defesa Civil Estadual de Pernambuco",
       "short_name": "DC Pernambuco",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil de Niterói (RJ)",
+      "short_name": "DC Niterói (RJ)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual do Maranhão",
+      "short_name": "DC Maranhão",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -99,11 +109,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 26
+      "count": 28
     },
     {
       "label": "Alto",
-      "count": 7
+      "count": 4
     },
     {
       "label": "Severo",
@@ -113,15 +123,15 @@
   "event_distribution": [
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 28
+      "count": 27
     },
     {
       "label": "Chuvas Intensas",
-      "count": 6
+      "count": 5
     },
     {
       "label": "Ressaca",
-      "count": 1
+      "count": 2
     }
   ],
   "uf_distribution": [
@@ -131,15 +141,19 @@
     },
     {
       "uf": "AM",
-      "count": 6
+      "count": 5
     },
     {
       "uf": "PE",
       "count": 2
     },
     {
-      "uf": "DF",
-      "count": 2
+      "uf": "RJ",
+      "count": 1
+    },
+    {
+      "uf": "MA",
+      "count": 1
     },
     {
       "uf": "SC",
@@ -149,14 +163,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 30
+      "count": 27
     }
   ],
   "all_alerts": [
+    {
+      "date": "23/08/2026",
+      "time": "11:42",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:11h41 Umidade do ar abaixo de 30 em Colina, Orlandia, Franca, Pedregulho e Sao Joaquim da Barra. Atinge cidades vizinhas. Proteja-se do sol.",
+      "status": "vigente",
+      "onset": "2026-08-23T11:42:46-03:00",
+      "expires": "2026-08-23T19:00:00-03:00"
+    },
+    {
+      "date": "23/08/2026",
+      "time": "11:06",
+      "senderName": "Defesa Civil de Niterói (RJ)",
+      "event": "Ressaca",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Niterói/RJ",
+      "headline": "Defesa Civil:Niteroi: Aviso de Ressaca. Inicio: 24/08 segunda-feira 06h. Fim: 26/08 quarta-feira 15h. Ondas com altura de 2,5/3 metros. Emergencia, 199.",
+      "status": "vigente",
+      "onset": "2026-08-23T11:06:50-03:00",
+      "expires": "2026-08-26T15:00:00-03:00"
+    },
+    {
+      "date": "23/08/2026",
+      "time": "10:32",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "MA",
+      "location": "MARANHÃO/MA",
+      "headline": "Defesa Civil:Alerta de Baixa Umidade para sua regiao. Beba agua, evite exercicios ao sol e nao realize queimadas. Valido ate dia 23/08/2026 as 18h00min.",
+      "status": "vigente",
+      "onset": "2026-08-23T10:32:13-03:00",
+      "expires": "2026-08-23T18:00:00-03:00"
+    },
     {
       "date": "23/08/2026",
       "time": "09:48",
@@ -192,7 +245,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-23T07:45:48-03:00",
       "expires": "2026-08-23T11:30:00-03:00"
     },
@@ -559,75 +612,22 @@
       "status": "expirado",
       "onset": "2026-08-22T11:53:53-03:00",
       "expires": "2026-08-22T19:00:00-03:00"
-    },
-    {
-      "date": "22/08/2026",
-      "time": "11:20",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "Ituverava/SP",
-      "headline": "Defesa Civil:11h20 Umidade do ar abaixo de 30 em Ituverava. Proteja-se do sol. Hidrate-se.",
-      "status": "expirado",
-      "onset": "2026-08-22T11:20:49-03:00",
-      "expires": "2026-08-22T19:00:00-03:00"
-    },
-    {
-      "date": "22/08/2026",
-      "time": "11:00",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "DF",
-      "location": "DF, MG, BA, MS, GO, TO, MT",
-      "headline": "Defesa Civil:Alerta critico de baixa umidade das 11:00h ate 18:00h de hoje ,22/08. Hidrata-se,evite sol e esforco fisico excessivo.Emergencia:193.",
-      "status": "expirado",
-      "onset": "2026-08-22T11:00:00-03:00",
-      "expires": "2026-08-22T18:00:00-03:00"
-    },
-    {
-      "date": "22/08/2026",
-      "time": "11:00",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "DF",
-      "location": "DF, MG, BA, MS, GO, TO, MT",
-      "headline": "Defesa Civil:Alerta critico de baixa umidade das 11:00h ate 18:00h de hoje ,22/08. Hidrata-se,evite sol e esforco fisico excessivo.Emergencia:193.",
-      "status": "expirado",
-      "onset": "2026-08-22T11:00:00-03:00",
-      "expires": "2026-08-22T18:00:00-03:00"
-    },
-    {
-      "date": "22/08/2026",
-      "time": "10:06",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Manaus/AM",
-      "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.¿",
-      "status": "expirado",
-      "onset": "2026-08-22T10:06:28-03:00",
-      "expires": "2026-08-22T18:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 35,
+    "total_alerts": 34,
     "by_nivel": {
-      "Médio": 26,
-      "Alto": 7,
+      "Médio": 28,
+      "Alto": 4,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 35
+      "Google": 34
     },
     "by_region": {
-      "SE": 24,
-      "N": 6,
-      "CO": 2,
-      "NE": 2,
+      "SE": 25,
+      "N": 5,
+      "NE": 3,
       "S": 1
     }
   }
