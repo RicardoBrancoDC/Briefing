@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-08-24T10:16:49.092955-03:00",
-  "source_run_dir": "run_20260824_101634",
+  "generated_at": "2026-08-24T12:05:43.102111-03:00",
+  "source_run_dir": "run_20260824_120510",
   "cards": {
-    "vigentes": 4,
-    "ultimas24h": 22,
-    "autoridadesAtivas": 7,
+    "vigentes": 5,
+    "ultimas24h": 19,
+    "autoridadesAtivas": 6,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "12:00",
+      "date": "24/08/2026",
+      "senderName": "Defesa Civil Estadual de Goiás",
+      "senderNameShort": "DC Goiás",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "location": "GOIÁS/GO",
+      "uf": "GO",
+      "headline": "Defesa Civil:Alerta critico de baixa umidade das 12h de 24/08 ate 18:00h de 24/08. Hidrate-se, evite sol e esforco fisico excessivo. Emergencia 193",
+      "status": "vigente"
+    },
+    {
+      "time": "10:49",
+      "date": "24/08/2026",
+      "senderName": "Defesa Civil Estadual do Piauí",
+      "senderNameShort": "DC Piauí",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "location": "PIAUÍ/PI",
+      "uf": "PI",
+      "headline": "Defesa Civil:Alerta critico de baixa umidade das 12h de 24/08 ate 21h de 24/08. Hidrate-se, evite sol e esforco fisico. EM CASO DE EMERGENCIA LIGUE 192 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "10:05",
       "date": "24/08/2026",
@@ -43,42 +67,28 @@
       "uf": "RJ",
       "headline": "Defesa Civil:(ANGRA DOS REIS) - Estamos sob AVISO DE RESSACA. Nao navegue em condicoes de perigo. Verifique a seguranca da embarcacao. Ligue 199.",
       "status": "vigente"
-    },
-    {
-      "time": "17:55",
-      "date": "23/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "16:36",
-      "date": "23/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 10
+      "count": 8
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
       "count": 7
+    },
+    {
+      "name": "Defesa Civil Estadual de Goiás",
+      "short_name": "DC Goiás",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual do Piauí",
+      "short_name": "DC Piauí",
+      "count": 1
     },
     {
       "name": "Defesa Civil Mangaratiba (RJ)",
@@ -89,45 +99,26 @@
       "name": "Defesa Civil de Angra dos Reis (RJ)",
       "short_name": "DC Angra dos Reis (RJ)",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Goiás",
-      "short_name": "DC Goiás",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Niterói (RJ)",
-      "short_name": "DC Niterói (RJ)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Maranhão",
-      "short_name": "DC Maranhão",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 15
+      "count": 11
     },
     {
       "label": "Alto",
-      "count": 7
+      "count": 8
     }
   ],
   "event_distribution": [
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 12
+      "count": 10
     },
     {
       "label": "Chuvas Intensas",
       "count": 4
-    },
-    {
-      "label": "Ressaca",
-      "count": 2
     },
     {
       "label": "Alagamentos",
@@ -138,6 +129,10 @@
       "count": 1
     },
     {
+      "label": "Ressaca",
+      "count": 1
+    },
+    {
       "label": "Solo/Lama",
       "count": 1
     }
@@ -145,7 +140,7 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 10
+      "count": 8
     },
     {
       "uf": "AM",
@@ -153,28 +148,54 @@
     },
     {
       "uf": "RJ",
-      "count": 3
+      "count": 2
     },
     {
       "uf": "GO",
       "count": 1
     },
     {
-      "uf": "MA",
+      "uf": "PI",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 4
+      "count": 5
     },
     {
       "label": "expirado",
-      "count": 18
+      "count": 14
     }
   ],
   "all_alerts": [
+    {
+      "date": "24/08/2026",
+      "time": "12:00",
+      "senderName": "Defesa Civil Estadual de Goiás",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "uf": "GO",
+      "location": "GOIÁS/GO",
+      "headline": "Defesa Civil:Alerta critico de baixa umidade das 12h de 24/08 ate 18:00h de 24/08. Hidrate-se, evite sol e esforco fisico excessivo. Emergencia 193",
+      "status": "vigente",
+      "onset": "2026-08-24T12:00:00-03:00",
+      "expires": "2026-08-24T18:00:00-03:00"
+    },
+    {
+      "date": "24/08/2026",
+      "time": "10:49",
+      "senderName": "Defesa Civil Estadual do Piauí",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "uf": "PI",
+      "location": "PIAUÍ/PI",
+      "headline": "Defesa Civil:Alerta critico de baixa umidade das 12h de 24/08 ate 21h de 24/08. Hidrate-se, evite sol e esforco fisico. EM CASO DE EMERGENCIA LIGUE 192 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-24T10:49:54-03:00",
+      "expires": "2026-08-24T21:00:00-03:00"
+    },
     {
       "date": "24/08/2026",
       "time": "10:05",
@@ -395,84 +416,19 @@
       "status": "expirado",
       "onset": "2026-08-23T12:36:35-03:00",
       "expires": "2026-08-23T19:00:00-03:00"
-    },
-    {
-      "date": "23/08/2026",
-      "time": "12:00",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "GO",
-      "location": "GOIÁS/GO",
-      "headline": "Defesa Civil:Aviso de baixa umidade do ar: beba agua, evite sol forte e esforco excessivo. Atencao especial para criancas e idosos. Emergencia:193",
-      "status": "expirado",
-      "onset": "2026-08-23T12:00:00-03:00",
-      "expires": "2026-08-23T18:00:00-03:00"
-    },
-    {
-      "date": "23/08/2026",
-      "time": "11:47",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:11h47 Umidade do ar abaixo de 30 em Populina, Votuporanga, Santa Fe do Sul, Dracena, Teodoro Sampaio, Jales e Mirassol. Proteja-se do sol.",
-      "status": "expirado",
-      "onset": "2026-08-23T11:47:41-03:00",
-      "expires": "2026-08-23T19:00:00-03:00"
-    },
-    {
-      "date": "23/08/2026",
-      "time": "11:42",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:11h41 Umidade do ar abaixo de 30 em Colina, Orlandia, Franca, Pedregulho e Sao Joaquim da Barra. Atinge cidades vizinhas. Proteja-se do sol.",
-      "status": "expirado",
-      "onset": "2026-08-23T11:42:46-03:00",
-      "expires": "2026-08-23T19:00:00-03:00"
-    },
-    {
-      "date": "23/08/2026",
-      "time": "11:06",
-      "senderName": "Defesa Civil de Niterói (RJ)",
-      "event": "Ressaca",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Niterói/RJ",
-      "headline": "Defesa Civil:Niteroi: Aviso de Ressaca. Inicio: 24/08 segunda-feira 06h. Fim: 26/08 quarta-feira 15h. Ondas com altura de 2,5/3 metros. Emergencia, 199.",
-      "status": "vigente",
-      "onset": "2026-08-23T11:06:50-03:00",
-      "expires": "2026-08-26T15:00:00-03:00"
-    },
-    {
-      "date": "23/08/2026",
-      "time": "10:32",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "MA",
-      "location": "MARANHÃO/MA",
-      "headline": "Defesa Civil:Alerta de Baixa Umidade para sua regiao. Beba agua, evite exercicios ao sol e nao realize queimadas. Valido ate dia 23/08/2026 as 18h00min.",
-      "status": "expirado",
-      "onset": "2026-08-23T10:32:13-03:00",
-      "expires": "2026-08-23T18:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 22,
+    "total_alerts": 19,
     "by_nivel": {
-      "Médio": 15,
-      "Alto": 7
+      "Médio": 11,
+      "Alto": 8
     },
     "by_channel_list": {
-      "Google": 22
+      "Google": 19
     },
     "by_region": {
-      "SE": 13,
+      "SE": 10,
       "N": 7,
       "CO": 1,
       "NE": 1
