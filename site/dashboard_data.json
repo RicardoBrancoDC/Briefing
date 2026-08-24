@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-24T02:05:17.498782-03:00",
-  "source_run_dir": "run_20260824_020453",
+  "generated_at": "2026-08-24T04:32:03.060709-03:00",
+  "source_run_dir": "run_20260824_043144",
   "cards": {
     "vigentes": 2,
-    "ultimas24h": 23,
+    "ultimas24h": 22,
     "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
@@ -81,11 +81,6 @@
       "count": 7
     },
     {
-      "name": "Defesa Civil Nacional",
-      "short_name": "Defesa Civil Nacional",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil Estadual de Goiás",
       "short_name": "DC Goiás",
       "count": 1
@@ -104,6 +99,11 @@
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
       "count": 1
+    },
+    {
+      "name": "Defesa Civil Nacional",
+      "short_name": "Defesa Civil Nacional",
+      "count": 1
     }
   ],
   "level_distribution": [
@@ -113,7 +113,7 @@
     },
     {
       "label": "Alto",
-      "count": 9
+      "count": 8
     }
   ],
   "event_distribution": [
@@ -123,7 +123,7 @@
     },
     {
       "label": "Chuvas Intensas",
-      "count": 6
+      "count": 5
     },
     {
       "label": "Alagamentos",
@@ -145,7 +145,7 @@
     },
     {
       "uf": "AM",
-      "count": 9
+      "count": 8
     },
     {
       "uf": "GO",
@@ -171,7 +171,7 @@
     },
     {
       "label": "expirado",
-      "count": 21
+      "count": 20
     }
   ],
   "all_alerts": [
@@ -460,33 +460,20 @@
       "status": "expirado",
       "onset": "2026-08-23T07:45:48-03:00",
       "expires": "2026-08-23T11:30:00-03:00"
-    },
-    {
-      "date": "23/08/2026",
-      "time": "04:07",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-08-23T04:07:23-03:00",
-      "expires": "2026-08-23T05:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 23,
+    "total_alerts": 22,
     "by_nivel": {
       "Médio": 14,
-      "Alto": 9
+      "Alto": 8
     },
     "by_channel_list": {
-      "Google": 23
+      "Google": 22
     },
     "by_region": {
       "SE": 11,
-      "N": 9,
+      "N": 8,
       "CO": 1,
       "NE": 1,
       "S": 1
