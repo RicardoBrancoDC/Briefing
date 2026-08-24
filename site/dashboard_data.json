@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-24T17:53:19.915590-03:00",
-  "source_run_dir": "run_20260824_175251",
+  "generated_at": "2026-08-24T19:47:56.714346-03:00",
+  "source_run_dir": "run_20260824_194730",
   "cards": {
-    "vigentes": 18,
+    "vigentes": 9,
     "ultimas24h": 19,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "18:58",
+      "date": "24/08/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas 2h. Proteja-se!",
+      "status": "vigente"
+    },
     {
       "time": "17:17",
       "date": "24/08/2026",
@@ -18,7 +30,7 @@
       "location": "Ribeirão das Neves/MG",
       "uf": "MG",
       "headline": "Defesa Civil:Alerta de risco de chuva, com ventos fortes, podendo ocorrer granizo em alguns pontos de  Ribeirao das Neves nas proximas horas. Proteja-se!",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "15:41",
@@ -42,7 +54,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:14h10 Umidade do ar abaixo de 30 na regiao de Lins, Ibitinga, Penapolis e Itajobi. Atinge cidades vizinhas. Hidrate-se. Proteja-se do sol.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "14:20",
@@ -54,19 +66,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:14h10 Umidade do ar abaixo de 30 na regiao de Lins, Ibitinga, Penapolis e Itajobi. Atinge cidades vizinhas. Hidrate-se. Proteja-se do sol.",
-      "status": "vigente"
-    },
-    {
-      "time": "14:16",
-      "date": "24/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:14h Umidade do ar abaixo de 30 na regiao de Aracatuba,  Guararapes, Dracena e Andradina. Atinge cidades vizinhas. Hidrate-se. Proteja-se do sol.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -76,19 +76,14 @@
       "count": 8
     },
     {
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
+      "count": 2
+    },
+    {
       "name": "Defesa Civil de Niterói (RJ)",
       "short_name": "DC Niterói (RJ)",
       "count": 2
-    },
-    {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 1
     },
     {
       "name": "Defesa Civil Nacional",
@@ -113,6 +108,11 @@
     {
       "name": "Defesa Civil Mangaratiba (RJ)",
       "short_name": "Defesa Civil Mangaratiba (RJ)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
       "count": 1
     },
     {
@@ -168,11 +168,7 @@
     },
     {
       "uf": "MG",
-      "count": 2
-    },
-    {
-      "uf": "AM",
-      "count": 2
+      "count": 3
     },
     {
       "uf": "MT",
@@ -185,19 +181,36 @@
     {
       "uf": "PI",
       "count": 1
+    },
+    {
+      "uf": "AM",
+      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 18
+      "count": 9
     },
     {
       "label": "expirado",
-      "count": 1
+      "count": 10
     }
   ],
   "all_alerts": [
+    {
+      "date": "24/08/2026",
+      "time": "18:58",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas 2h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-08-24T18:58:33-03:00",
+      "expires": "2026-08-24T20:56:00-03:00"
+    },
     {
       "date": "24/08/2026",
       "time": "17:17",
@@ -207,7 +220,7 @@
       "uf": "MG",
       "location": "Ribeirão das Neves/MG",
       "headline": "Defesa Civil:Alerta de risco de chuva, com ventos fortes, podendo ocorrer granizo em alguns pontos de  Ribeirao das Neves nas proximas horas. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-24T17:17:00-03:00",
       "expires": "2026-08-24T19:15:00-03:00"
     },
@@ -233,7 +246,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h10 Umidade do ar abaixo de 30 na regiao de Lins, Ibitinga, Penapolis e Itajobi. Atinge cidades vizinhas. Hidrate-se. Proteja-se do sol.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-24T14:30:11-03:00",
       "expires": "2026-08-24T18:00:00-03:00"
     },
@@ -246,7 +259,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h10 Umidade do ar abaixo de 30 na regiao de Lins, Ibitinga, Penapolis e Itajobi. Atinge cidades vizinhas. Hidrate-se. Proteja-se do sol.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-24T14:20:04-03:00",
       "expires": "2026-08-24T18:00:00-03:00"
     },
@@ -259,7 +272,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:14h Umidade do ar abaixo de 30 na regiao de Aracatuba,  Guararapes, Dracena e Andradina. Atinge cidades vizinhas. Hidrate-se. Proteja-se do sol.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-24T14:16:14-03:00",
       "expires": "2026-08-24T18:00:00-03:00"
     },
@@ -298,7 +311,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 na regiao de Ribeirao Preto, Sao Simao e Araraquara. Atinge cidades vizinhas. Hidrate-se. Proteja-se do sol.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-24T13:12:50-03:00",
       "expires": "2026-08-24T18:00:00-03:00"
     },
@@ -311,7 +324,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:13h10 Umidade do ar abaixo de 30 na regiao de Sao Jose do Rio Preto, Tanabi e Riolandia. Atinge cidades vizinhas. Hidrate-se. Proteja-se do sol.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-24T13:09:13-03:00",
       "expires": "2026-08-24T18:00:00-03:00"
     },
@@ -337,7 +350,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:12h30 Umidade do ar abaixo de 30 na regiao de Santa Fe do Sul, Jales e Votuporanga. Atinge cidades vizinhas. Hidrate-se. Proteja-se do sol.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-24T12:37:55-03:00",
       "expires": "2026-08-24T18:00:00-03:00"
     },
@@ -350,7 +363,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:12h30 Umidade do ar abaixo de 30 na regiao de Franca, Ituverava e Orlandia. Atinge cidades vizinhas. Hidrate-se. Proteja-se do sol.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-24T12:35:46-03:00",
       "expires": "2026-08-24T18:00:00-03:00"
     },
@@ -363,7 +376,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:12h30 Umidade do ar abaixo de 30 na regiao de Franca, Ituverava e Orlandia. Atinge cidades vizinhas. Hidrate-se. Proteja-se do sol.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-24T12:33:04-03:00",
       "expires": "2026-08-24T18:00:00-03:00"
     },
@@ -376,7 +389,7 @@
       "uf": "GO",
       "location": "GOIÁS/GO",
       "headline": "Defesa Civil:Alerta critico de baixa umidade das 12h de 24/08 ate 18:00h de 24/08. Hidrate-se, evite sol e esforco fisico excessivo. Emergencia 193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-24T12:00:00-03:00",
       "expires": "2026-08-24T18:00:00-03:00"
     },
@@ -431,19 +444,6 @@
       "status": "vigente",
       "onset": "2026-08-24T09:25:51-03:00",
       "expires": "2026-08-26T15:00:00-03:00"
-    },
-    {
-      "date": "23/08/2026",
-      "time": "17:55",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-08-23T17:55:15-03:00",
-      "expires": "2026-08-23T21:30:00-03:00"
     }
   ],
   "summary": {
@@ -457,9 +457,9 @@
       "Google": 19
     },
     "by_region": {
-      "SE": 14,
+      "SE": 15,
       "CO": 2,
-      "N": 2,
+      "N": 1,
       "NE": 1
     }
   }
