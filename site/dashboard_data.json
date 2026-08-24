@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-08-24T07:57:01.486721-03:00",
-  "source_run_dir": "run_20260824_075647",
+  "generated_at": "2026-08-24T10:16:49.092955-03:00",
+  "source_run_dir": "run_20260824_101634",
   "cards": {
-    "vigentes": 2,
-    "ultimas24h": 21,
-    "autoridadesAtivas": 6,
+    "vigentes": 4,
+    "ultimas24h": 22,
+    "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "10:05",
+      "date": "24/08/2026",
+      "senderName": "Defesa Civil Mangaratiba (RJ)",
+      "senderNameShort": "Defesa Civil Mangaratiba (R…",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Mangaratiba/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva moderada a forte para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
+      "status": "vigente"
+    },
+    {
+      "time": "09:45",
+      "date": "24/08/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
+      "nivel": "Médio",
+      "location": "Apuí/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Qualidade do Ar. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "09:25",
+      "date": "24/08/2026",
+      "senderName": "Defesa Civil de Angra dos Reis (RJ)",
+      "senderNameShort": "DC Angra dos Reis (RJ)",
+      "event": "Ressaca",
+      "nivel": "Médio",
+      "location": "Angra dos Reis/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:(ANGRA DOS REIS) - Estamos sob AVISO DE RESSACA. Nao navegue em condicoes de perigo. Verifique a seguranca da embarcacao. Ligue 199.",
+      "status": "vigente"
+    },
     {
       "time": "17:55",
       "date": "23/08/2026",
@@ -31,42 +67,6 @@
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
       "status": "expirado"
-    },
-    {
-      "time": "16:33",
-      "date": "23/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:16h32 Umidade do ar abaixo de 30 em Presidente Epitacio, Paraguacu Paulista, Campos Novos Paulista, Laranjal Paulista e Cafelandia. Hidrate-se.",
-      "status": "expirado"
-    },
-    {
-      "time": "15:01",
-      "date": "23/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:15h00 Umidade do ar abaixo de 30 em Tupa, Piquerobi, Guararapes, Promissao, Avanhandava, Mendonca e Jose Bonifacio. Proteja-se do sol.",
-      "status": "expirado"
-    },
-    {
-      "time": "14:26",
-      "date": "23/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:14h25 Umidade do ar abaixo de 30 em Campinas, Valinhos, Piracaia, Atibaia e Braganca Paulista. Evite exercicios fisicos ao ar  livre. Hidrate-se.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -79,6 +79,16 @@
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
       "count": 7
+    },
+    {
+      "name": "Defesa Civil Mangaratiba (RJ)",
+      "short_name": "Defesa Civil Mangaratiba (RJ)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Angra dos Reis (RJ)",
+      "short_name": "DC Angra dos Reis (RJ)",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual de Goiás",
@@ -94,21 +104,16 @@
       "name": "Defesa Civil Estadual do Maranhão",
       "short_name": "DC Maranhão",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 13
+      "count": 15
     },
     {
       "label": "Alto",
-      "count": 8
+      "count": 7
     }
   ],
   "event_distribution": [
@@ -121,12 +126,16 @@
       "count": 4
     },
     {
+      "label": "Ressaca",
+      "count": 2
+    },
+    {
       "label": "Alagamentos",
       "count": 2
     },
     {
-      "label": "Ressaca",
-      "count": 2
+      "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
+      "count": 1
     },
     {
       "label": "Solo/Lama",
@@ -143,33 +152,68 @@
       "count": 7
     },
     {
+      "uf": "RJ",
+      "count": 3
+    },
+    {
       "uf": "GO",
       "count": 1
     },
     {
-      "uf": "RJ",
-      "count": 1
-    },
-    {
       "uf": "MA",
-      "count": 1
-    },
-    {
-      "uf": "SC",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 2
+      "count": 4
     },
     {
       "label": "expirado",
-      "count": 19
+      "count": 18
     }
   ],
   "all_alerts": [
+    {
+      "date": "24/08/2026",
+      "time": "10:05",
+      "senderName": "Defesa Civil Mangaratiba (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Mangaratiba/RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva moderada a forte para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
+      "status": "vigente",
+      "onset": "2026-08-24T10:05:00-03:00",
+      "expires": "2026-08-24T23:55:00-03:00"
+    },
+    {
+      "date": "24/08/2026",
+      "time": "09:45",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Apuí/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Qualidade do Ar. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-08-24T09:45:21-03:00",
+      "expires": "2026-08-25T09:30:00-03:00"
+    },
+    {
+      "date": "24/08/2026",
+      "time": "09:25",
+      "senderName": "Defesa Civil de Angra dos Reis (RJ)",
+      "event": "Ressaca",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Angra dos Reis/RJ",
+      "headline": "Defesa Civil:(ANGRA DOS REIS) - Estamos sob AVISO DE RESSACA. Nao navegue em condicoes de perigo. Verifique a seguranca da embarcacao. Ligue 199.",
+      "status": "vigente",
+      "onset": "2026-08-24T09:25:51-03:00",
+      "expires": "2026-08-26T15:00:00-03:00"
+    },
     {
       "date": "23/08/2026",
       "time": "17:55",
@@ -416,49 +460,22 @@
       "status": "expirado",
       "onset": "2026-08-23T10:32:13-03:00",
       "expires": "2026-08-23T18:00:00-03:00"
-    },
-    {
-      "date": "23/08/2026",
-      "time": "09:48",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Ressaca",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Atualização: Observação Marítima SDC/SC 23/08 09:30 - Mar agitado e ressaca entre este domingo (23) e a manhã da terça-feira (25). Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-08-23T09:48:57-03:00",
-      "expires": "2026-08-25T12:00:00-03:00"
-    },
-    {
-      "date": "23/08/2026",
-      "time": "09:09",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-08-23T09:09:08-03:00",
-      "expires": "2026-08-23T14:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 21,
+    "total_alerts": 22,
     "by_nivel": {
-      "Médio": 13,
-      "Alto": 8
+      "Médio": 15,
+      "Alto": 7
     },
     "by_channel_list": {
-      "Google": 21
+      "Google": 22
     },
     "by_region": {
-      "SE": 11,
+      "SE": 13,
       "N": 7,
       "CO": 1,
-      "NE": 1,
-      "S": 1
+      "NE": 1
     }
   }
 }
