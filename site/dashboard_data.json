@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-08-25T10:14:57.288753-03:00",
-  "source_run_dir": "run_20260825_101436",
+  "generated_at": "2026-08-25T12:10:15.183072-03:00",
+  "source_run_dir": "run_20260825_120943",
   "cards": {
-    "vigentes": 5,
-    "ultimas24h": 21,
-    "autoridadesAtivas": 9,
+    "vigentes": 7,
+    "ultimas24h": 22,
+    "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "12:00",
+      "date": "25/08/2026",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "senderNameShort": "DC Maranhão",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "MARANHÃO/MA",
+      "uf": "MA",
+      "headline": "Defesa Civil:Alerta de Baixa Umidade para sua regiao. Beba agua, evite exercicios ao sol e nao realize queimadas. Valido ate dia 25/08/2026 as 20h00min.",
+      "status": "vigente"
+    },
+    {
+      "time": "11:57",
+      "date": "25/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "Franca/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:11h56 Umidade do ar abaixo de 30 em Franca. Hidrate-se. Evite exercicios fisicos ao ar livre.",
+      "status": "vigente"
+    },
+    {
+      "time": "11:03",
+      "date": "25/08/2026",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "senderNameShort": "DC Mato Grosso",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "MATO GROSSO/MT",
+      "uf": "MT",
+      "headline": "Defesa Civil:MT. UMIDADE BAIXA: Umidade relativa do ar variando entre 30 e 20 porcento, hidrate-se. Risco de incendios florestais e a saude. Ligue 193/199.",
+      "status": "vigente"
+    },
     {
       "time": "09:25",
       "date": "25/08/2026",
@@ -18,7 +54,7 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:09h25 Chuva isolada na regiao de Euclides da Cunha Paulista e Teodoro Sampaio. Tem ventos. Atinge cidades vizinhas. Busque abrigo.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "08:35",
@@ -31,54 +67,23 @@
       "uf": "PE",
       "headline": "Defesa Civil:Defesa Civil PE: SERTAO PERNAMBUCANO. Baixa umidade do ar. Beba muita agua. Emergencia: ligue 193 ou 192.",
       "status": "vigente"
-    },
-    {
-      "time": "08:30",
-      "date": "25/08/2026",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "senderNameShort": "DC Santa Catarina",
-      "event": "Ressaca",
-      "nivel": "Médio",
-      "location": "SANTA CATARINA/SC",
-      "uf": "SC",
-      "headline": "Observação Marítima SDC/SC 25/08 08:30 ¿ Mar agitado entre esta terça (25) e sexta-feira (28). \n\nO risco é moderado para ocorrências associadas à agitação marítima e ressaca. \n\nEm caso de emergência, ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "02:01",
-      "date": "25/08/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Brasilândia de Minas/MG",
-      "uf": "MG",
-      "headline": "Chuvas moderadas com frio até início da manhã em Brasilândia de Minas. Atenção na condução de veículo nas estradas. Proteja-se. Bombeiros 193.",
-      "status": "expirado"
-    },
-    {
-      "time": "19:56",
-      "date": "24/08/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de pancadas de chuva com raios e rajadas de vento ocasionais nas proximas 1h30. Proteja-se!",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
       "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual de Mato Grosso",
+      "short_name": "DC Mato Grosso",
+      "count": 2
     },
     {
       "name": "Defesa Civil Nacional",
@@ -91,6 +96,11 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil Estadual do Maranhão",
+      "short_name": "DC Maranhão",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil Estadual de Pernambuco",
       "short_name": "DC Pernambuco",
       "count": 1
@@ -99,31 +109,16 @@
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Mato Grosso",
-      "short_name": "DC Mato Grosso",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Goiás",
-      "short_name": "DC Goiás",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Piauí",
-      "short_name": "DC Piauí",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 14
+      "count": 17
     },
     {
       "label": "Alto",
-      "count": 5
+      "count": 3
     },
     {
       "label": "Severo",
@@ -133,7 +128,7 @@
   "event_distribution": [
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 12
+      "count": 13
     },
     {
       "label": "Chuvas Intensas",
@@ -151,15 +146,23 @@
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 9
+      "count": 10
     },
     {
       "uf": "MG",
       "count": 5
     },
     {
+      "uf": "MT",
+      "count": 2
+    },
+    {
       "uf": "RJ",
       "count": 2
+    },
+    {
+      "uf": "MA",
+      "count": 1
     },
     {
       "uf": "PE",
@@ -168,31 +171,58 @@
     {
       "uf": "SC",
       "count": 1
-    },
-    {
-      "uf": "MT",
-      "count": 1
-    },
-    {
-      "uf": "GO",
-      "count": 1
-    },
-    {
-      "uf": "PI",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 16
+      "count": 15
     }
   ],
   "all_alerts": [
+    {
+      "date": "25/08/2026",
+      "time": "12:00",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "MA",
+      "location": "MARANHÃO/MA",
+      "headline": "Defesa Civil:Alerta de Baixa Umidade para sua regiao. Beba agua, evite exercicios ao sol e nao realize queimadas. Valido ate dia 25/08/2026 as 20h00min.",
+      "status": "vigente",
+      "onset": "2026-08-25T12:00:00-03:00",
+      "expires": "2026-08-25T20:00:00-03:00"
+    },
+    {
+      "date": "25/08/2026",
+      "time": "11:57",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "Franca/SP",
+      "headline": "Defesa Civil:11h56 Umidade do ar abaixo de 30 em Franca. Hidrate-se. Evite exercicios fisicos ao ar livre.",
+      "status": "vigente",
+      "onset": "2026-08-25T11:57:01-03:00",
+      "expires": "2026-08-25T19:00:00-03:00"
+    },
+    {
+      "date": "25/08/2026",
+      "time": "11:03",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "MT",
+      "location": "MATO GROSSO/MT",
+      "headline": "Defesa Civil:MT. UMIDADE BAIXA: Umidade relativa do ar variando entre 30 e 20 porcento, hidrate-se. Risco de incendios florestais e a saude. Ligue 193/199.",
+      "status": "vigente",
+      "onset": "2026-08-25T11:03:40-03:00",
+      "expires": "2026-08-26T00:00:00-03:00"
+    },
     {
       "date": "25/08/2026",
       "time": "09:25",
@@ -202,7 +232,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:09h25 Chuva isolada na regiao de Euclides da Cunha Paulista e Teodoro Sampaio. Tem ventos. Atinge cidades vizinhas. Busque abrigo.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-25T09:25:53-03:00",
       "expires": "2026-08-25T11:20:00-03:00"
     },
@@ -439,46 +469,20 @@
       "status": "expirado",
       "onset": "2026-08-24T12:33:04-03:00",
       "expires": "2026-08-24T18:00:00-03:00"
-    },
-    {
-      "date": "24/08/2026",
-      "time": "12:00",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "GO",
-      "location": "GOIÁS/GO",
-      "headline": "Defesa Civil:Alerta critico de baixa umidade das 12h de 24/08 ate 18:00h de 24/08. Hidrate-se, evite sol e esforco fisico excessivo. Emergencia 193",
-      "status": "expirado",
-      "onset": "2026-08-24T12:00:00-03:00",
-      "expires": "2026-08-24T18:00:00-03:00"
-    },
-    {
-      "date": "24/08/2026",
-      "time": "10:49",
-      "senderName": "Defesa Civil Estadual do Piauí",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Alto",
-      "uf": "PI",
-      "location": "PIAUÍ/PI",
-      "headline": "Defesa Civil:Alerta critico de baixa umidade das 12h de 24/08 ate 21h de 24/08. Hidrate-se, evite sol e esforco fisico. EM CASO DE EMERGENCIA LIGUE 192 ou 193.",
-      "status": "expirado",
-      "onset": "2026-08-24T10:49:54-03:00",
-      "expires": "2026-08-24T21:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 21,
+    "total_alerts": 22,
     "by_nivel": {
-      "Médio": 14,
-      "Alto": 5,
+      "Médio": 17,
+      "Alto": 3,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 21
+      "Google": 22
     },
     "by_region": {
-      "SE": 16,
+      "SE": 17,
       "CO": 2,
       "NE": 2,
       "S": 1
