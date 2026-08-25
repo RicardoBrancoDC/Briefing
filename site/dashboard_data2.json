@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-25T06:03:24.550558-03:00",
+  "generated_at": "2026-08-25T07:56:28.871702-03:00",
   "source": ".cache/historico_alertas.json",
   "window_hours": 24,
   "cards": {
-    "vigentes": 6,
+    "vigentes": 5,
     "ultimas24h": 21,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0,
@@ -23,7 +23,7 @@
       "location": "Brasilândia de Minas/MG",
       "uf": "MG",
       "headline": "Chuvas moderadas com frio até início da manhã em Brasilândia de Minas. Atenção na condução de veículo nas estradas. Proteja-se. Bombeiros 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "187848/2026",
       "entry_id": "187848/2026",
       "sent": "2026-08-25T02:01:46-03:00",
@@ -365,11 +365,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 6
+      "count": 5
     },
     {
       "label": "expirado",
-      "count": 15
+      "count": 16
     }
   ],
   "category_distribution": [
@@ -411,14 +411,14 @@
   "time_since_distribution": [
     {
       "label": "Mais de 12h",
-      "count": 18
-    },
-    {
-      "label": "6h a 12h",
-      "count": 2
+      "count": 19
     },
     {
       "label": "3h a 6h",
+      "count": 1
+    },
+    {
+      "label": "6h a 12h",
       "count": 1
     }
   ],
@@ -435,7 +435,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Nacional",
       "sent": "2026-08-25T02:01:46-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "CHUVAS INTENSAS",
@@ -462,7 +462,7 @@
       "uf": "MG",
       "location": "Brasilândia de Minas/MG",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "25/08/2026",
       "time": "02:01",
       "sent_br": "2026-08-25T02:01:46-03:00",
@@ -471,10 +471,10 @@
       "duration_minutes": 298,
       "duration_hours": 4.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 241,
-      "time_since_hours": 4.02,
+      "time_since_minutes": 354,
+      "time_since_hours": 5.9,
       "time_since_bucket": "3h a 6h",
-      "is_active": true
+      "is_active": false
     },
     {
       "identifier": "187847/2026",
@@ -518,8 +518,8 @@
       "duration_minutes": 86,
       "duration_hours": 1.43,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 606,
-      "time_since_hours": 10.1,
+      "time_since_minutes": 719,
+      "time_since_hours": 11.98,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -565,9 +565,9 @@
       "duration_minutes": 117,
       "duration_hours": 1.95,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 664,
-      "time_since_hours": 11.07,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 777,
+      "time_since_hours": 12.95,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -612,8 +612,8 @@
       "duration_minutes": 118,
       "duration_hours": 1.97,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 766,
-      "time_since_hours": 12.77,
+      "time_since_minutes": 879,
+      "time_since_hours": 14.65,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -659,8 +659,8 @@
       "duration_minutes": 978,
       "duration_hours": 16.3,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 862,
-      "time_since_hours": 14.37,
+      "time_since_minutes": 975,
+      "time_since_hours": 16.25,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -706,8 +706,8 @@
       "duration_minutes": 209,
       "duration_hours": 3.48,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 933,
-      "time_since_hours": 15.55,
+      "time_since_minutes": 1046,
+      "time_since_hours": 17.43,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -753,8 +753,8 @@
       "duration_minutes": 219,
       "duration_hours": 3.65,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 943,
-      "time_since_hours": 15.72,
+      "time_since_minutes": 1056,
+      "time_since_hours": 17.6,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -800,8 +800,8 @@
       "duration_minutes": 223,
       "duration_hours": 3.72,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 947,
-      "time_since_hours": 15.78,
+      "time_since_minutes": 1060,
+      "time_since_hours": 17.67,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -847,8 +847,8 @@
       "duration_minutes": 4014,
       "duration_hours": 66.9,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 958,
-      "time_since_hours": 15.97,
+      "time_since_minutes": 1071,
+      "time_since_hours": 17.85,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -894,8 +894,8 @@
       "duration_minutes": 4032,
       "duration_hours": 67.2,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 976,
-      "time_since_hours": 16.27,
+      "time_since_minutes": 1089,
+      "time_since_hours": 18.15,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -941,8 +941,8 @@
       "duration_minutes": 287,
       "duration_hours": 4.78,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1010,
-      "time_since_hours": 16.83,
+      "time_since_minutes": 1123,
+      "time_since_hours": 18.72,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -988,8 +988,8 @@
       "duration_minutes": 290,
       "duration_hours": 4.83,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1014,
-      "time_since_hours": 16.9,
+      "time_since_minutes": 1127,
+      "time_since_hours": 18.78,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1035,8 +1035,8 @@
       "duration_minutes": 480,
       "duration_hours": 8.0,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 1023,
-      "time_since_hours": 17.05,
+      "time_since_minutes": 1136,
+      "time_since_hours": 18.93,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1082,8 +1082,8 @@
       "duration_minutes": 322,
       "duration_hours": 5.37,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1045,
-      "time_since_hours": 17.42,
+      "time_since_minutes": 1158,
+      "time_since_hours": 19.3,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1129,8 +1129,8 @@
       "duration_minutes": 324,
       "duration_hours": 5.4,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1047,
-      "time_since_hours": 17.45,
+      "time_since_minutes": 1160,
+      "time_since_hours": 19.33,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1176,8 +1176,8 @@
       "duration_minutes": 326,
       "duration_hours": 5.43,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1050,
-      "time_since_hours": 17.5,
+      "time_since_minutes": 1163,
+      "time_since_hours": 19.38,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1223,8 +1223,8 @@
       "duration_minutes": 360,
       "duration_hours": 6.0,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 1083,
-      "time_since_hours": 18.05,
+      "time_since_minutes": 1196,
+      "time_since_hours": 19.93,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1270,8 +1270,8 @@
       "duration_minutes": 610,
       "duration_hours": 10.17,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 1153,
-      "time_since_hours": 19.22,
+      "time_since_minutes": 1266,
+      "time_since_hours": 21.1,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1317,8 +1317,8 @@
       "duration_minutes": 830,
       "duration_hours": 13.83,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1198,
-      "time_since_hours": 19.97,
+      "time_since_minutes": 1311,
+      "time_since_hours": 21.85,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1364,8 +1364,8 @@
       "duration_minutes": 1424,
       "duration_hours": 23.73,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1218,
-      "time_since_hours": 20.3,
+      "time_since_minutes": 1331,
+      "time_since_hours": 22.18,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1411,8 +1411,8 @@
       "duration_minutes": 3214,
       "duration_hours": 53.57,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 1237,
-      "time_since_hours": 20.62,
+      "time_since_minutes": 1350,
+      "time_since_hours": 22.5,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     }
