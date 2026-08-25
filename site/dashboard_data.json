@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-08-25T07:56:28.791860-03:00",
-  "source_run_dir": "run_20260825_075619",
+  "generated_at": "2026-08-25T10:14:57.288753-03:00",
+  "source_run_dir": "run_20260825_101436",
   "cards": {
     "vigentes": 5,
     "ultimas24h": 21,
-    "autoridadesAtivas": 10,
+    "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "09:25",
+      "date": "25/08/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:09h25 Chuva isolada na regiao de Euclides da Cunha Paulista e Teodoro Sampaio. Tem ventos. Atinge cidades vizinhas. Busque abrigo.",
+      "status": "vigente"
+    },
+    {
+      "time": "08:35",
+      "date": "25/08/2026",
+      "senderName": "Defesa Civil Estadual de Pernambuco",
+      "senderNameShort": "DC Pernambuco",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Severo",
+      "location": "PERNAMBUCO/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:Defesa Civil PE: SERTAO PERNAMBUCANO. Baixa umidade do ar. Beba muita agua. Emergencia: ligue 193 ou 192.",
+      "status": "vigente"
+    },
+    {
+      "time": "08:30",
+      "date": "25/08/2026",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "senderNameShort": "DC Santa Catarina",
+      "event": "Ressaca",
+      "nivel": "Médio",
+      "location": "SANTA CATARINA/SC",
+      "uf": "SC",
+      "headline": "Observação Marítima SDC/SC 25/08 08:30 ¿ Mar agitado entre esta terça (25) e sexta-feira (28). \n\nO risco é moderado para ocorrências associadas à agitação marítima e ressaca. \n\nEm caso de emergência, ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "02:01",
       "date": "25/08/2026",
@@ -31,49 +67,13 @@
       "uf": "MG",
       "headline": "Defesa Civil:Alerta de pancadas de chuva com raios e rajadas de vento ocasionais nas proximas 1h30. Proteja-se!",
       "status": "expirado"
-    },
-    {
-      "time": "18:58",
-      "date": "24/08/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas 2h. Proteja-se!",
-      "status": "expirado"
-    },
-    {
-      "time": "17:17",
-      "date": "24/08/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Granizo",
-      "nivel": "Severo",
-      "location": "Ribeirão das Neves/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de risco de chuva, com ventos fortes, podendo ocorrer granizo em alguns pontos de  Ribeirao das Neves nas proximas horas. Proteja-se!",
-      "status": "expirado"
-    },
-    {
-      "time": "15:41",
-      "date": "24/08/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Belo Horizonte/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Chuva, raios e ventos de 40 km/h ate 8h de terca-feira (25) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -91,6 +91,16 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil Estadual de Pernambuco",
+      "short_name": "DC Pernambuco",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 1
+    },
+    {
       "name": "Defesa Civil Estadual de Mato Grosso",
       "short_name": "DC Mato Grosso",
       "count": 1
@@ -104,27 +114,12 @@
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Mangaratiba (RJ)",
-      "short_name": "Defesa Civil Mangaratiba (RJ)",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil de Angra dos Reis (RJ)",
-      "short_name": "DC Angra dos Reis (RJ)",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 15
+      "count": 14
     },
     {
       "label": "Alto",
@@ -132,13 +127,13 @@
     },
     {
       "label": "Severo",
-      "count": 1
+      "count": 2
     }
   ],
   "event_distribution": [
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 11
+      "count": 12
     },
     {
       "label": "Chuvas Intensas",
@@ -151,16 +146,12 @@
     {
       "label": "Granizo",
       "count": 1
-    },
-    {
-      "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
-      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 8
+      "count": 9
     },
     {
       "uf": "MG",
@@ -168,7 +159,15 @@
     },
     {
       "uf": "RJ",
-      "count": 4
+      "count": 2
+    },
+    {
+      "uf": "PE",
+      "count": 1
+    },
+    {
+      "uf": "SC",
+      "count": 1
     },
     {
       "uf": "MT",
@@ -180,10 +179,6 @@
     },
     {
       "uf": "PI",
-      "count": 1
-    },
-    {
-      "uf": "AM",
       "count": 1
     }
   ],
@@ -198,6 +193,45 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "25/08/2026",
+      "time": "09:25",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:09h25 Chuva isolada na regiao de Euclides da Cunha Paulista e Teodoro Sampaio. Tem ventos. Atinge cidades vizinhas. Busque abrigo.",
+      "status": "vigente",
+      "onset": "2026-08-25T09:25:53-03:00",
+      "expires": "2026-08-25T11:20:00-03:00"
+    },
+    {
+      "date": "25/08/2026",
+      "time": "08:35",
+      "senderName": "Defesa Civil Estadual de Pernambuco",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Severo",
+      "uf": "PE",
+      "location": "PERNAMBUCO/PE",
+      "headline": "Defesa Civil:Defesa Civil PE: SERTAO PERNAMBUCANO. Baixa umidade do ar. Beba muita agua. Emergencia: ligue 193 ou 192.",
+      "status": "vigente",
+      "onset": "2026-08-25T08:35:00-03:00",
+      "expires": "2026-08-26T23:55:00-03:00"
+    },
+    {
+      "date": "25/08/2026",
+      "time": "08:30",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Ressaca",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Observação Marítima SDC/SC 25/08 08:30 ¿ Mar agitado entre esta terça (25) e sexta-feira (28). \n\nO risco é moderado para ocorrências associadas à agitação marítima e ressaca. \n\nEm caso de emergência, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-25T08:30:00-03:00",
+      "expires": "2026-08-28T23:55:00-03:00"
+    },
     {
       "date": "25/08/2026",
       "time": "02:01",
@@ -259,7 +293,7 @@
       "uf": "MG",
       "location": "Belo Horizonte/MG",
       "headline": "Defesa Civil:Chuva, raios e ventos de 40 km/h ate 8h de terca-feira (25) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-24T15:41:18-03:00",
       "expires": "2026-08-25T08:00:00-03:00"
     },
@@ -431,62 +465,23 @@
       "status": "expirado",
       "onset": "2026-08-24T10:49:54-03:00",
       "expires": "2026-08-24T21:00:00-03:00"
-    },
-    {
-      "date": "24/08/2026",
-      "time": "10:05",
-      "senderName": "Defesa Civil Mangaratiba (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Mangaratiba/RJ",
-      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva moderada a forte para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
-      "status": "expirado",
-      "onset": "2026-08-24T10:05:00-03:00",
-      "expires": "2026-08-24T23:55:00-03:00"
-    },
-    {
-      "date": "24/08/2026",
-      "time": "09:45",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Apuí/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Qualidade do Ar. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
-      "onset": "2026-08-24T09:45:21-03:00",
-      "expires": "2026-08-25T09:30:00-03:00"
-    },
-    {
-      "date": "24/08/2026",
-      "time": "09:25",
-      "senderName": "Defesa Civil de Angra dos Reis (RJ)",
-      "event": "Ressaca",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Angra dos Reis/RJ",
-      "headline": "Defesa Civil:(ANGRA DOS REIS) - Estamos sob AVISO DE RESSACA. Nao navegue em condicoes de perigo. Verifique a seguranca da embarcacao. Ligue 199.",
-      "status": "vigente",
-      "onset": "2026-08-24T09:25:51-03:00",
-      "expires": "2026-08-26T15:00:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 21,
     "by_nivel": {
-      "Médio": 15,
+      "Médio": 14,
       "Alto": 5,
-      "Severo": 1
+      "Severo": 2
     },
     "by_channel_list": {
       "Google": 21
     },
     "by_region": {
-      "SE": 17,
+      "SE": 16,
       "CO": 2,
-      "N": 1,
-      "NE": 1
+      "NE": 2,
+      "S": 1
     }
   }
 }
