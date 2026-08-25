@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-24T19:47:56.714346-03:00",
-  "source_run_dir": "run_20260824_194730",
+  "generated_at": "2026-08-24T22:58:00.149044-03:00",
+  "source_run_dir": "run_20260824_225732",
   "cards": {
-    "vigentes": 9,
-    "ultimas24h": 19,
+    "vigentes": 6,
+    "ultimas24h": 20,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "19:56",
+      "date": "24/08/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de pancadas de chuva com raios e rajadas de vento ocasionais nas proximas 1h30. Proteja-se!",
+      "status": "expirado"
+    },
     {
       "time": "18:58",
       "date": "24/08/2026",
@@ -18,7 +30,7 @@
       "location": "MINAS GERAIS/MG",
       "uf": "MG",
       "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas 2h. Proteja-se!",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:17",
@@ -55,18 +67,6 @@
       "uf": "SP",
       "headline": "Defesa Civil:14h10 Umidade do ar abaixo de 30 na regiao de Lins, Ibitinga, Penapolis e Itajobi. Atinge cidades vizinhas. Hidrate-se. Proteja-se do sol.",
       "status": "expirado"
-    },
-    {
-      "time": "14:20",
-      "date": "24/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:14h10 Umidade do ar abaixo de 30 na regiao de Lins, Ibitinga, Penapolis e Itajobi. Atinge cidades vizinhas. Hidrate-se. Proteja-se do sol.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Defesa Civil de Niterói (RJ)",
@@ -128,7 +128,7 @@
     },
     {
       "label": "Alto",
-      "count": 4
+      "count": 5
     },
     {
       "label": "Severo",
@@ -142,7 +142,7 @@
     },
     {
       "label": "Chuvas Intensas",
-      "count": 3
+      "count": 4
     },
     {
       "label": "Ressaca",
@@ -163,12 +163,12 @@
       "count": 8
     },
     {
-      "uf": "RJ",
+      "uf": "MG",
       "count": 4
     },
     {
-      "uf": "MG",
-      "count": 3
+      "uf": "RJ",
+      "count": 4
     },
     {
       "uf": "MT",
@@ -190,14 +190,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 9
+      "count": 6
     },
     {
       "label": "expirado",
-      "count": 10
+      "count": 14
     }
   ],
   "all_alerts": [
+    {
+      "date": "24/08/2026",
+      "time": "19:56",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de pancadas de chuva com raios e rajadas de vento ocasionais nas proximas 1h30. Proteja-se!",
+      "status": "expirado",
+      "onset": "2026-08-24T19:56:40-03:00",
+      "expires": "2026-08-24T21:23:00-03:00"
+    },
     {
       "date": "24/08/2026",
       "time": "18:58",
@@ -207,7 +220,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de tempestade com raios nas proximas 2h. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-24T18:58:33-03:00",
       "expires": "2026-08-24T20:56:00-03:00"
     },
@@ -337,7 +350,7 @@
       "uf": "MT",
       "location": "MATO GROSSO/MT",
       "headline": "Defesa Civil:MT. UMIDADE BAIXA: A Umidade relativa do ar variando entre 20 e 12 por cento, hidrate-se. Risco de incendios florestais e a saude. Ligue: 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-24T13:00:00-03:00",
       "expires": "2026-08-24T21:00:00-03:00"
     },
@@ -402,7 +415,7 @@
       "uf": "PI",
       "location": "PIAUÍ/PI",
       "headline": "Defesa Civil:Alerta critico de baixa umidade das 12h de 24/08 ate 21h de 24/08. Hidrate-se, evite sol e esforco fisico. EM CASO DE EMERGENCIA LIGUE 192 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-24T10:49:54-03:00",
       "expires": "2026-08-24T21:00:00-03:00"
     },
@@ -447,17 +460,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 19,
+    "total_alerts": 20,
     "by_nivel": {
       "Médio": 14,
-      "Alto": 4,
+      "Alto": 5,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 19
+      "Google": 20
     },
     "by_region": {
-      "SE": 15,
+      "SE": 16,
       "CO": 2,
       "N": 1,
       "NE": 1
