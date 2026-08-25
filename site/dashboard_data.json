@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-25T01:57:42.336291-03:00",
-  "source_run_dir": "run_20260825_015730",
+  "generated_at": "2026-08-25T04:11:25.987235-03:00",
+  "source_run_dir": "run_20260825_041115",
   "cards": {
-    "vigentes": 5,
-    "ultimas24h": 20,
+    "vigentes": 6,
+    "ultimas24h": 21,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "02:01",
+      "date": "25/08/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Brasilândia de Minas/MG",
+      "uf": "MG",
+      "headline": "Chuvas moderadas com frio até início da manhã em Brasilândia de Minas. Atenção na condução de veículo nas estradas. Proteja-se. Bombeiros 193.",
+      "status": "vigente"
+    },
     {
       "time": "19:56",
       "date": "24/08/2026",
@@ -55,18 +67,6 @@
       "uf": "MG",
       "headline": "Defesa Civil:Chuva, raios e ventos de 40 km/h ate 8h de terca-feira (25) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
       "status": "vigente"
-    },
-    {
-      "time": "14:30",
-      "date": "24/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:14h10 Umidade do ar abaixo de 30 na regiao de Lins, Ibitinga, Penapolis e Itajobi. Atinge cidades vizinhas. Hidrate-se. Proteja-se do sol.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -81,14 +81,14 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil de Niterói (RJ)",
-      "short_name": "DC Niterói (RJ)",
+      "name": "Defesa Civil Nacional",
+      "short_name": "Defesa Civil Nacional",
       "count": 2
     },
     {
-      "name": "Defesa Civil Nacional",
-      "short_name": "Defesa Civil Nacional",
-      "count": 1
+      "name": "Defesa Civil de Niterói (RJ)",
+      "short_name": "DC Niterói (RJ)",
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual de Mato Grosso",
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 14
+      "count": 15
     },
     {
       "label": "Alto",
@@ -142,7 +142,7 @@
     },
     {
       "label": "Chuvas Intensas",
-      "count": 4
+      "count": 5
     },
     {
       "label": "Ressaca",
@@ -164,7 +164,7 @@
     },
     {
       "uf": "MG",
-      "count": 4
+      "count": 5
     },
     {
       "uf": "RJ",
@@ -190,7 +190,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 6
     },
     {
       "label": "expirado",
@@ -198,6 +198,19 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "25/08/2026",
+      "time": "02:01",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "MG",
+      "location": "Brasilândia de Minas/MG",
+      "headline": "Chuvas moderadas com frio até início da manhã em Brasilândia de Minas. Atenção na condução de veículo nas estradas. Proteja-se. Bombeiros 193.",
+      "status": "vigente",
+      "onset": "2026-08-25T02:01:46-03:00",
+      "expires": "2026-08-25T07:00:00-03:00"
+    },
     {
       "date": "24/08/2026",
       "time": "19:56",
@@ -460,17 +473,17 @@
     }
   ],
   "summary": {
-    "total_alerts": 20,
+    "total_alerts": 21,
     "by_nivel": {
-      "Médio": 14,
+      "Médio": 15,
       "Alto": 5,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 20
+      "Google": 21
     },
     "by_region": {
-      "SE": 16,
+      "SE": 17,
       "CO": 2,
       "N": 1,
       "NE": 1
