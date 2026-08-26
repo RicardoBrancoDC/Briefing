@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-26T04:11:58.766983-03:00",
-  "source_run_dir": "run_20260826_041146",
+  "generated_at": "2026-08-26T06:05:49.524602-03:00",
+  "source_run_dir": "run_20260826_060538",
   "cards": {
     "vigentes": 6,
-    "ultimas24h": 28,
+    "ultimas24h": 29,
     "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "05:37",
+      "date": "26/08/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "03:53",
       "date": "26/08/2026",
@@ -30,7 +42,7 @@
       "location": "PARANÁ/PR",
       "uf": "PR",
       "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "23:18",
@@ -55,18 +67,6 @@
       "uf": "PR",
       "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
       "status": "expirado"
-    },
-    {
-      "time": "20:11",
-      "date": "25/08/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de pancadas de chuva, acompanhadas de raios, previstas para as proximas horas. Proteja-se e evite areas abertas.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 22
+      "count": 23
     },
     {
       "label": "Alto",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 14
+      "count": 15
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -160,7 +160,7 @@
     },
     {
       "uf": "PR",
-      "count": 4
+      "count": 5
     },
     {
       "uf": "MG",
@@ -202,10 +202,23 @@
     },
     {
       "label": "expirado",
-      "count": 22
+      "count": 23
     }
   ],
   "all_alerts": [
+    {
+      "date": "26/08/2026",
+      "time": "05:37",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-26T05:37:05-03:00",
+      "expires": "2026-08-26T08:35:00-03:00"
+    },
     {
       "date": "26/08/2026",
       "time": "03:53",
@@ -228,7 +241,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-26T02:53:46-03:00",
       "expires": "2026-08-26T05:50:00-03:00"
     },
@@ -572,18 +585,18 @@
     }
   ],
   "summary": {
-    "total_alerts": 28,
+    "total_alerts": 29,
     "by_nivel": {
-      "Médio": 22,
+      "Médio": 23,
       "Alto": 4,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 28
+      "Google": 29
     },
     "by_region": {
       "SE": 17,
-      "S": 5,
+      "S": 6,
       "NE": 3,
       "N": 2,
       "CO": 1

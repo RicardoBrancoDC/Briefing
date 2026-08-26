@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-26T04:11:58.833001-03:00",
+  "generated_at": "2026-08-26T06:05:49.585639-03:00",
   "source": ".cache/historico_alertas.json",
   "window_hours": 24,
   "cards": {
     "vigentes": 6,
-    "ultimas24h": 28,
+    "ultimas24h": 29,
     "autoridadesAtivas": 11,
     "alertasExtremos": 0,
     "alertasSeveros": 2,
@@ -13,6 +13,29 @@
     "municipiosOuAreasComAlerta": 15
   },
   "latest_alerts": [
+    {
+      "time": "05:37",
+      "date": "26/08/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "identifier": "187880/2026",
+      "entry_id": "187880/2026",
+      "sent": "2026-08-26T05:37:05-03:00",
+      "onset": "2026-08-26T05:37:05-03:00",
+      "expires": "2026-08-26T08:35:00-03:00",
+      "category": "Met",
+      "severity": "Moderate",
+      "urgency": "Expected",
+      "certainty": "Likely",
+      "responseType": "Execute",
+      "channel_list": "Google"
+    },
     {
       "time": "03:53",
       "date": "26/08/2026",
@@ -46,7 +69,7 @@
       "location": "PARANÁ/PR",
       "uf": "PR",
       "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "identifier": "187878/2026",
       "entry_id": "187878/2026",
       "sent": "2026-08-26T02:53:46-03:00",
@@ -219,29 +242,6 @@
       "certainty": "Likely",
       "responseType": "Execute",
       "channel_list": "Google"
-    },
-    {
-      "time": "17:56",
-      "date": "25/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:17h55 Chuva isolada na regiao de Sandovalina, Itororo do Paranapanema e Narandiba. Tem raios. Atinge cidades vizinhas. Busque abrigo.",
-      "status": "expirado",
-      "identifier": "187869/2026",
-      "entry_id": "187869/2026",
-      "sent": "2026-08-25T17:56:14-03:00",
-      "onset": "2026-08-25T17:56:14-03:00",
-      "expires": "2026-08-25T19:55:00-03:00",
-      "category": "Met",
-      "severity": "Moderate",
-      "urgency": "Immediate",
-      "certainty": "Observed",
-      "responseType": "Execute",
-      "channel_list": "Google"
     }
   ],
   "top_emitters": [
@@ -253,7 +253,7 @@
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -299,7 +299,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 22
+      "count": 23
     },
     {
       "label": "Alto",
@@ -313,7 +313,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 14
+      "count": 15
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -335,7 +335,7 @@
     },
     {
       "uf": "PR",
-      "count": 4
+      "count": 5
     },
     {
       "uf": "MG",
@@ -377,13 +377,13 @@
     },
     {
       "label": "expirado",
-      "count": 22
+      "count": 23
     }
   ],
   "category_distribution": [
     {
       "label": "Met",
-      "count": 25
+      "count": 26
     },
     {
       "label": "Fire",
@@ -397,7 +397,7 @@
   "duration_distribution": [
     {
       "label": "2h a 6h",
-      "count": 14
+      "count": 15
     },
     {
       "label": "Até 2h",
@@ -419,15 +419,11 @@
   "time_since_distribution": [
     {
       "label": "Mais de 12h",
-      "count": 16
+      "count": 19
     },
     {
       "label": "6h a 12h",
-      "count": 8
-    },
-    {
-      "label": "3h a 6h",
-      "count": 2
+      "count": 7
     },
     {
       "label": "Até 1h",
@@ -436,15 +432,66 @@
     {
       "label": "1h a 3h",
       "count": 1
+    },
+    {
+      "label": "3h a 6h",
+      "count": 1
     }
   ],
   "channel_distribution": [
     {
       "label": "Google",
-      "count": 28
+      "count": 29
     }
   ],
   "all_alerts": [
+    {
+      "identifier": "187880/2026",
+      "entry_id": "187880/2026",
+      "sender": "CENAD-SEDEC",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "sent": "2026-08-26T05:37:05-03:00",
+      "status": "vigente",
+      "msgType": "Alert",
+      "category": "Met",
+      "event": "TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS",
+      "responseType": "Execute",
+      "urgency": "Expected",
+      "severity": "Moderate",
+      "certainty": "Likely",
+      "onset": "2026-08-26T05:37:05-03:00",
+      "expires": "2026-08-26T08:35:00-03:00",
+      "nivel": "Médio",
+      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "description": "Pancadas de chuva com núcleos de intensidade moderada e incidências de raios. Emergências 199 ou 193.",
+      "instruction": "Veja como proceder em casos de desastres. -\n- https://bit.ly/2W1BZxy -\n- Entenda o significado das cores do alerta:\n- http://www.defesacivil.pr.gov.br/Pagina/Significado-das-cores-dos-alertas -\n- Veja a área do alerta: -\n- https://www.defesacivil.pr.gov.br/alertas-vigentes -",
+      "web": "https://www.gov.br/mdr/pt-br/assuntos/protecao-e-defesa-civil/saiba-como-agir",
+      "contact": "+55 61 2034-4660",
+      "channel_list": "Google",
+      "areaDesc": "PARANÁ/PR",
+      "polygon_raw": "-23.333,-49.622 -23.253,-50.594 -23.292,-50.522 -23.975,-51.112 -24.071,-50.028 -23.357,-49.606 -23.357,-49.607 -23.355,-49.609 -23.354,-49.611 -23.354,-49.611 -23.355,-49.617 -23.355,-49.619 -23.356,-49.62 -23.356,-49.621 -23.356,-49.622 -23.356,-49.626 -23.356,-49.632 -23.356,-49.632 -23.356,-49.632 -23.356,-49.633 -23.356,-49.633 -23.356,-49.633 -23.354,-49.635 -23.351,-49.637 -23.349,-49.637 -23.349,-49.637 -23.349,-49.637 -23.348,-49.638 -23.342,-49.637 -23.341,-49.637 -23.339,-49.636 -23.339,-49.634 -23.343,-49.632 -23.344,-49.631 -23.343,-49.629 -23.342,-49.628 -23.342,-49.627 -23.34,-49.626 -23.338,-49.626 -23.337,-49.625 -23.335,-49.623 -23.333,-49.622",
+      "polygon_points": 42,
+      "has_geocode": false,
+      "uf_hint": "PR",
+      "region": "S",
+      "geometry_wkt": "POLYGON ((-49.622 -23.333, -50.594 -23.253, -50.522 -23.292, -51.112 -23.975, -50.028 -24.071, -49.606 -23.357, -49.607 -23.357, -49.609 -23.355, -49.611 -23.354, -49.611 -23.354, -49.617 -23.355, -49.619 -23.355, -49.62 -23.356, -49.621 -23.356, -49.622 -23.356, -49.626 -23.356, -49.632 -23.356, -49.632 -23.356, -49.632 -23.356, -49.633 -23.356, -49.633 -23.356, -49.633 -23.356, -49.635 -23.354, -49.637 -23.351, -49.637 -23.349, -49.637 -23.349, -49.637 -23.349, -49.638 -23.348, -49.637 -23.342, -49.637 -23.341, -49.636 -23.339, -49.634 -23.339, -49.632 -23.343, -49.631 -23.344, -49.629 -23.343, -49.628 -23.342, -49.627 -23.342, -49.626 -23.34, -49.626 -23.338, -49.625 -23.337, -49.623 -23.335, -49.622 -23.333))",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "event_short": "Chuvas Intensas",
+      "status_vigencia": "vigente",
+      "date": "26/08/2026",
+      "time": "05:37",
+      "sent_br": "2026-08-26T05:37:05-03:00",
+      "onset_br": "2026-08-26T05:37:05-03:00",
+      "expires_br": "2026-08-26T08:35:00-03:00",
+      "duration_minutes": 177,
+      "duration_hours": 2.95,
+      "duration_bucket": "2h a 6h",
+      "time_since_minutes": 28,
+      "time_since_hours": 0.47,
+      "time_since_bucket": "Até 1h",
+      "is_active": true
+    },
     {
       "identifier": "187879/2026",
       "entry_id": "187879/2026",
@@ -487,9 +534,9 @@
       "duration_minutes": 176,
       "duration_hours": 2.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 17,
-      "time_since_hours": 0.28,
-      "time_since_bucket": "Até 1h",
+      "time_since_minutes": 131,
+      "time_since_hours": 2.18,
+      "time_since_bucket": "1h a 3h",
       "is_active": true
     },
     {
@@ -498,7 +545,7 @@
       "sender": "CENAD-SEDEC",
       "senderName": "Defesa Civil Estadual do Paraná",
       "sent": "2026-08-26T02:53:46-03:00",
-      "status": "vigente",
+      "status": "expirado",
       "msgType": "Alert",
       "category": "Met",
       "event": "TEMPESTADE LOCAL/CONVECTIVA - CHUVAS INTENSAS",
@@ -525,7 +572,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "event_short": "Chuvas Intensas",
-      "status_vigencia": "vigente",
+      "status_vigencia": "expirado",
       "date": "26/08/2026",
       "time": "02:53",
       "sent_br": "2026-08-26T02:53:46-03:00",
@@ -534,10 +581,10 @@
       "duration_minutes": 176,
       "duration_hours": 2.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 78,
-      "time_since_hours": 1.3,
-      "time_since_bucket": "1h a 3h",
-      "is_active": true
+      "time_since_minutes": 192,
+      "time_since_hours": 3.2,
+      "time_since_bucket": "3h a 6h",
+      "is_active": false
     },
     {
       "identifier": "187876/2026",
@@ -581,9 +628,9 @@
       "duration_minutes": 176,
       "duration_hours": 2.93,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 293,
-      "time_since_hours": 4.88,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 407,
+      "time_since_hours": 6.78,
+      "time_since_bucket": "6h a 12h",
       "is_active": false
     },
     {
@@ -628,9 +675,9 @@
       "duration_minutes": 178,
       "duration_hours": 2.97,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 330,
-      "time_since_hours": 5.5,
-      "time_since_bucket": "3h a 6h",
+      "time_since_minutes": 444,
+      "time_since_hours": 7.4,
+      "time_since_bucket": "6h a 12h",
       "is_active": false
     },
     {
@@ -675,8 +722,8 @@
       "duration_minutes": 113,
       "duration_hours": 1.88,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 480,
-      "time_since_hours": 8.0,
+      "time_since_minutes": 594,
+      "time_since_hours": 9.9,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -722,8 +769,8 @@
       "duration_minutes": 113,
       "duration_hours": 1.88,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 540,
-      "time_since_hours": 9.0,
+      "time_since_minutes": 654,
+      "time_since_hours": 10.9,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -769,8 +816,8 @@
       "duration_minutes": 155,
       "duration_hours": 2.58,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 557,
-      "time_since_hours": 9.28,
+      "time_since_minutes": 671,
+      "time_since_hours": 11.18,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -816,8 +863,8 @@
       "duration_minutes": 225,
       "duration_hours": 3.75,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 562,
-      "time_since_hours": 9.37,
+      "time_since_minutes": 676,
+      "time_since_hours": 11.27,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -863,8 +910,8 @@
       "duration_minutes": 114,
       "duration_hours": 1.9,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 566,
-      "time_since_hours": 9.43,
+      "time_since_minutes": 680,
+      "time_since_hours": 11.33,
       "time_since_bucket": "6h a 12h",
       "is_active": false
     },
@@ -910,9 +957,9 @@
       "duration_minutes": 118,
       "duration_hours": 1.97,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 615,
-      "time_since_hours": 10.25,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 729,
+      "time_since_hours": 12.15,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -957,9 +1004,9 @@
       "duration_minutes": 172,
       "duration_hours": 2.87,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 664,
-      "time_since_hours": 11.07,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 777,
+      "time_since_hours": 12.95,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -1004,9 +1051,9 @@
       "duration_minutes": 145,
       "duration_hours": 2.42,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 697,
-      "time_since_hours": 11.62,
-      "time_since_bucket": "6h a 12h",
+      "time_since_minutes": 811,
+      "time_since_hours": 13.52,
+      "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
     {
@@ -1051,8 +1098,8 @@
       "duration_minutes": 966,
       "duration_hours": 16.1,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 738,
-      "time_since_hours": 12.3,
+      "time_since_minutes": 852,
+      "time_since_hours": 14.2,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1098,8 +1145,8 @@
       "duration_minutes": 189,
       "duration_hours": 3.15,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 741,
-      "time_since_hours": 12.35,
+      "time_since_minutes": 855,
+      "time_since_hours": 14.25,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1145,8 +1192,8 @@
       "duration_minutes": 189,
       "duration_hours": 3.15,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 741,
-      "time_since_hours": 12.35,
+      "time_since_minutes": 855,
+      "time_since_hours": 14.25,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1192,8 +1239,8 @@
       "duration_minutes": 288,
       "duration_hours": 4.8,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 840,
-      "time_since_hours": 14.0,
+      "time_since_minutes": 954,
+      "time_since_hours": 15.9,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1239,8 +1286,8 @@
       "duration_minutes": 339,
       "duration_hours": 5.65,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 891,
-      "time_since_hours": 14.85,
+      "time_since_minutes": 1005,
+      "time_since_hours": 16.75,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1286,8 +1333,8 @@
       "duration_minutes": 461,
       "duration_hours": 7.68,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 893,
-      "time_since_hours": 14.88,
+      "time_since_minutes": 1007,
+      "time_since_hours": 16.78,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1333,8 +1380,8 @@
       "duration_minutes": 177,
       "duration_hours": 2.95,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 899,
-      "time_since_hours": 14.98,
+      "time_since_minutes": 1013,
+      "time_since_hours": 16.88,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1380,8 +1427,8 @@
       "duration_minutes": 351,
       "duration_hours": 5.85,
       "duration_bucket": "2h a 6h",
-      "time_since_minutes": 903,
-      "time_since_hours": 15.05,
+      "time_since_minutes": 1017,
+      "time_since_hours": 16.95,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1427,8 +1474,8 @@
       "duration_minutes": 656,
       "duration_hours": 10.93,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 913,
-      "time_since_hours": 15.22,
+      "time_since_minutes": 1027,
+      "time_since_hours": 17.12,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1474,8 +1521,8 @@
       "duration_minutes": 1279,
       "duration_hours": 21.32,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 961,
-      "time_since_hours": 16.02,
+      "time_since_minutes": 1075,
+      "time_since_hours": 17.92,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1521,8 +1568,8 @@
       "duration_minutes": 480,
       "duration_hours": 8.0,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 971,
-      "time_since_hours": 16.18,
+      "time_since_minutes": 1085,
+      "time_since_hours": 18.08,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1568,8 +1615,8 @@
       "duration_minutes": 422,
       "duration_hours": 7.03,
       "duration_bucket": "6h a 12h",
-      "time_since_minutes": 974,
-      "time_since_hours": 16.23,
+      "time_since_minutes": 1088,
+      "time_since_hours": 18.13,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1615,8 +1662,8 @@
       "duration_minutes": 776,
       "duration_hours": 12.93,
       "duration_bucket": "12h a 24h",
-      "time_since_minutes": 1028,
-      "time_since_hours": 17.13,
+      "time_since_minutes": 1142,
+      "time_since_hours": 19.03,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1662,8 +1709,8 @@
       "duration_minutes": 114,
       "duration_hours": 1.9,
       "duration_bucket": "Até 2h",
-      "time_since_minutes": 1126,
-      "time_since_hours": 18.77,
+      "time_since_minutes": 1239,
+      "time_since_hours": 20.65,
       "time_since_bucket": "Mais de 12h",
       "is_active": false
     },
@@ -1709,8 +1756,8 @@
       "duration_minutes": 2360,
       "duration_hours": 39.33,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 1176,
-      "time_since_hours": 19.6,
+      "time_since_minutes": 1290,
+      "time_since_hours": 21.5,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     },
@@ -1756,8 +1803,8 @@
       "duration_minutes": 5245,
       "duration_hours": 87.42,
       "duration_bucket": "Mais de 24h",
-      "time_since_minutes": 1181,
-      "time_since_hours": 19.68,
+      "time_since_minutes": 1295,
+      "time_since_hours": 21.58,
       "time_since_bucket": "Mais de 12h",
       "is_active": true
     }
