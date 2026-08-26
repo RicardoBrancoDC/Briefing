@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-08-26T10:19:46.477149-03:00",
-  "source_run_dir": "run_20260826_101933",
+  "generated_at": "2026-08-26T12:56:32.339336-03:00",
+  "source_run_dir": "run_20260826_125603",
   "cards": {
-    "vigentes": 1,
+    "vigentes": 5,
     "ultimas24h": 27,
-    "autoridadesAtivas": 9,
+    "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "12:05",
+      "date": "26/08/2026",
+      "senderName": "Defesa Civil Mangaratiba (RJ)",
+      "senderNameShort": "Defesa Civil Mangaratiba (R…",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Mangaratiba/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
+      "status": "vigente"
+    },
+    {
+      "time": "11:18",
+      "date": "26/08/2026",
+      "senderName": "Defesa Civil Estadual de Goiás",
+      "senderNameShort": "DC Goiás",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "location": "GOIÁS/GO",
+      "uf": "GO",
+      "headline": "Defesa Civil:Alerta critico de baixa umidade das 10h de 26/08 ate 23h de 26/08. Hidrate-se, evite sol e esforco fisico excessivo. Emergencia 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "10:59",
+      "date": "26/08/2026",
+      "senderName": "Defesa Civil Estadual do Piauí",
+      "senderNameShort": "DC Piauí",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "location": "PIAUÍ/PI",
+      "uf": "PI",
+      "headline": "Defesa Civil:Alerta de baixa umidade em niveis criticos de 10hs a 23hs em 26/08. Evite exposicao ao sol, hidrate-se! Em emergencia ligue 192 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "10:58",
+      "date": "26/08/2026",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "senderNameShort": "DC Mato Grosso",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "MATO GROSSO/MT",
+      "uf": "MT",
+      "headline": "Defesa Civil:MT. UMIDADE BAIXA: Umidade relativa do ar variando entre 30 e 20 porcento, hidrate-se. Risco de incendios florestais e a saude. Ligue 193/199.",
+      "status": "vigente"
+    },
     {
       "time": "10:17",
       "date": "26/08/2026",
@@ -19,61 +67,13 @@
       "uf": "MA",
       "headline": "Defesa Civil:Alerta de Baixa Umidade do Ar para Balsas e  Alto Parnaiba. Beba agua, evite exercicios ao sol e nao realize queimadas. Validade: 26/08 as 23h.",
       "status": "vigente"
-    },
-    {
-      "time": "05:37",
-      "date": "26/08/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado"
-    },
-    {
-      "time": "03:53",
-      "date": "26/08/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado"
-    },
-    {
-      "time": "02:53",
-      "date": "26/08/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado"
-    },
-    {
-      "time": "23:18",
-      "date": "25/08/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 11
+      "count": 10
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
@@ -86,44 +86,49 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil Estadual do Maranhão",
-      "short_name": "DC Maranhão",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil Nacional",
-      "short_name": "Defesa Civil Nacional",
-      "count": 1
-    },
-    {
       "name": "Defesa Civil Estadual do Piauí",
       "short_name": "DC Piauí",
+      "count": 2
+    },
+    {
+      "name": "Defesa Civil Mangaratiba (RJ)",
+      "short_name": "Defesa Civil Mangaratiba (RJ)",
       "count": 1
     },
     {
-      "name": "Defesa Civil de Niterói (RJ)",
-      "short_name": "DC Niterói (RJ)",
+      "name": "Defesa Civil Estadual de Goiás",
+      "short_name": "DC Goiás",
       "count": 1
     },
     {
       "name": "Defesa Civil Estadual de Mato Grosso",
       "short_name": "DC Mato Grosso",
       "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual do Maranhão",
+      "short_name": "DC Maranhão",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Nacional",
+      "short_name": "Defesa Civil Nacional",
+      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 22
+      "count": 20
     },
     {
       "label": "Alto",
-      "count": 4
+      "count": 6
     },
     {
       "label": "Severo",
@@ -133,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 14
+      "count": 15
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -141,13 +146,13 @@
     },
     {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
-      "count": 2
+      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 11
+      "count": 10
     },
     {
       "uf": "PR",
@@ -158,37 +163,93 @@
       "count": 4
     },
     {
-      "uf": "MA",
-      "count": 2
-    },
-    {
-      "uf": "AM",
+      "uf": "RJ",
       "count": 2
     },
     {
       "uf": "PI",
-      "count": 1
+      "count": 2
     },
     {
-      "uf": "RJ",
+      "uf": "GO",
       "count": 1
     },
     {
       "uf": "MT",
+      "count": 1
+    },
+    {
+      "uf": "MA",
+      "count": 1
+    },
+    {
+      "uf": "AM",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 1
+      "count": 5
     },
     {
       "label": "expirado",
-      "count": 26
+      "count": 22
     }
   ],
   "all_alerts": [
+    {
+      "date": "26/08/2026",
+      "time": "12:05",
+      "senderName": "Defesa Civil Mangaratiba (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Mangaratiba/RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ-Possibilidade de chuva fraca a moderada para as proximas 24h. Em caso de Emergencia ligue: 21 3030-2662/199/193.",
+      "status": "vigente",
+      "onset": "2026-08-26T12:05:35-03:00",
+      "expires": "2026-08-27T08:00:00-03:00"
+    },
+    {
+      "date": "26/08/2026",
+      "time": "11:18",
+      "senderName": "Defesa Civil Estadual de Goiás",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "uf": "GO",
+      "location": "GOIÁS/GO",
+      "headline": "Defesa Civil:Alerta critico de baixa umidade das 10h de 26/08 ate 23h de 26/08. Hidrate-se, evite sol e esforco fisico excessivo. Emergencia 193.",
+      "status": "vigente",
+      "onset": "2026-08-26T11:18:31-03:00",
+      "expires": "2026-08-26T23:00:00-03:00"
+    },
+    {
+      "date": "26/08/2026",
+      "time": "10:59",
+      "senderName": "Defesa Civil Estadual do Piauí",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Alto",
+      "uf": "PI",
+      "location": "PIAUÍ/PI",
+      "headline": "Defesa Civil:Alerta de baixa umidade em niveis criticos de 10hs a 23hs em 26/08. Evite exposicao ao sol, hidrate-se! Em emergencia ligue 192 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-26T10:59:25-03:00",
+      "expires": "2026-08-26T23:00:00-03:00"
+    },
+    {
+      "date": "26/08/2026",
+      "time": "10:58",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "MT",
+      "location": "MATO GROSSO/MT",
+      "headline": "Defesa Civil:MT. UMIDADE BAIXA: Umidade relativa do ar variando entre 30 e 20 porcento, hidrate-se. Risco de incendios florestais e a saude. Ligue 193/199.",
+      "status": "vigente",
+      "onset": "2026-08-26T10:58:25-03:00",
+      "expires": "2026-08-27T00:00:00-03:00"
+    },
     {
       "date": "26/08/2026",
       "time": "10:17",
@@ -487,65 +548,13 @@
       "status": "expirado",
       "onset": "2026-08-25T12:58:22-03:00",
       "expires": "2026-08-25T23:55:00-03:00"
-    },
-    {
-      "date": "25/08/2026",
-      "time": "12:10",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "Apuí/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Qualidade do Ar.  Acompanhar as previsoes meteorologicas. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-08-25T12:10:04-03:00",
-      "expires": "2026-08-26T09:30:00-03:00"
-    },
-    {
-      "date": "25/08/2026",
-      "time": "12:00",
-      "senderName": "Defesa Civil Estadual do Maranhão",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "MA",
-      "location": "MARANHÃO/MA",
-      "headline": "Defesa Civil:Alerta de Baixa Umidade para sua regiao. Beba agua, evite exercicios ao sol e nao realize queimadas. Valido ate dia 25/08/2026 as 20h00min.",
-      "status": "expirado",
-      "onset": "2026-08-25T12:00:00-03:00",
-      "expires": "2026-08-25T20:00:00-03:00"
-    },
-    {
-      "date": "25/08/2026",
-      "time": "11:57",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "Franca/SP",
-      "headline": "Defesa Civil:11h56 Umidade do ar abaixo de 30 em Franca. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "expirado",
-      "onset": "2026-08-25T11:57:01-03:00",
-      "expires": "2026-08-25T19:00:00-03:00"
-    },
-    {
-      "date": "25/08/2026",
-      "time": "11:03",
-      "senderName": "Defesa Civil Estadual de Mato Grosso",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Médio",
-      "uf": "MT",
-      "location": "MATO GROSSO/MT",
-      "headline": "Defesa Civil:MT. UMIDADE BAIXA: Umidade relativa do ar variando entre 30 e 20 porcento, hidrate-se. Risco de incendios florestais e a saude. Ligue 193/199.",
-      "status": "expirado",
-      "onset": "2026-08-25T11:03:40-03:00",
-      "expires": "2026-08-26T00:00:00-03:00"
     }
   ],
   "summary": {
     "total_alerts": 27,
     "by_nivel": {
-      "Médio": 22,
-      "Alto": 4,
+      "Médio": 20,
+      "Alto": 6,
       "Severo": 1
     },
     "by_channel_list": {
@@ -555,8 +564,8 @@
       "SE": 16,
       "S": 5,
       "NE": 3,
-      "N": 2,
-      "CO": 1
+      "CO": 2,
+      "N": 1
     }
   }
 }
