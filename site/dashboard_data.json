@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-26T07:54:16.693892-03:00",
-  "source_run_dir": "run_20260826_075407",
+  "generated_at": "2026-08-26T10:19:46.477149-03:00",
+  "source_run_dir": "run_20260826_101933",
   "cards": {
-    "vigentes": 5,
-    "ultimas24h": 29,
-    "autoridadesAtivas": 11,
+    "vigentes": 1,
+    "ultimas24h": 27,
+    "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "10:17",
+      "date": "26/08/2026",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "senderNameShort": "DC Maranhão",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "location": "Balsas/MA, Alto Parnaíba/MA",
+      "uf": "MA",
+      "headline": "Defesa Civil:Alerta de Baixa Umidade do Ar para Balsas e  Alto Parnaiba. Beba agua, evite exercicios ao sol e nao realize queimadas. Validade: 26/08 as 23h.",
+      "status": "vigente"
+    },
     {
       "time": "05:37",
       "date": "26/08/2026",
@@ -18,7 +30,7 @@
       "location": "PARANÁ/PR",
       "uf": "PR",
       "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "03:53",
@@ -55,25 +67,13 @@
       "uf": "PR",
       "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
       "status": "expirado"
-    },
-    {
-      "time": "22:41",
-      "date": "25/08/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
@@ -84,6 +84,11 @@
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
       "count": 3
+    },
+    {
+      "name": "Defesa Civil Estadual do Maranhão",
+      "short_name": "DC Maranhão",
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -106,25 +111,15 @@
       "count": 1
     },
     {
-      "name": "Defesa Civil Estadual do Maranhão",
-      "short_name": "DC Maranhão",
-      "count": 1
-    },
-    {
       "name": "Defesa Civil Estadual de Mato Grosso",
       "short_name": "DC Mato Grosso",
-      "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Pernambuco",
-      "short_name": "DC Pernambuco",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 23
+      "count": 22
     },
     {
       "label": "Alto",
@@ -132,13 +127,13 @@
     },
     {
       "label": "Severo",
-      "count": 2
+      "count": 1
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 15
+      "count": 14
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -147,16 +142,12 @@
     {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
       "count": 2
-    },
-    {
-      "label": "Ressaca",
-      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 12
+      "count": 11
     },
     {
       "uf": "PR",
@@ -165,6 +156,10 @@
     {
       "uf": "MG",
       "count": 4
+    },
+    {
+      "uf": "MA",
+      "count": 2
     },
     {
       "uf": "AM",
@@ -179,33 +174,34 @@
       "count": 1
     },
     {
-      "uf": "MA",
-      "count": 1
-    },
-    {
       "uf": "MT",
-      "count": 1
-    },
-    {
-      "uf": "PE",
-      "count": 1
-    },
-    {
-      "uf": "SC",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 1
     },
     {
       "label": "expirado",
-      "count": 24
+      "count": 26
     }
   ],
   "all_alerts": [
+    {
+      "date": "26/08/2026",
+      "time": "10:17",
+      "senderName": "Defesa Civil Estadual do Maranhão",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "MA",
+      "location": "Balsas/MA, Alto Parnaíba/MA",
+      "headline": "Defesa Civil:Alerta de Baixa Umidade do Ar para Balsas e  Alto Parnaiba. Beba agua, evite exercicios ao sol e nao realize queimadas. Validade: 26/08 as 23h.",
+      "status": "vigente",
+      "onset": "2026-08-26T10:17:54-03:00",
+      "expires": "2026-08-26T23:00:00-03:00"
+    },
     {
       "date": "26/08/2026",
       "time": "05:37",
@@ -215,7 +211,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-26T05:37:05-03:00",
       "expires": "2026-08-26T08:35:00-03:00"
     },
@@ -384,7 +380,7 @@
       "uf": "MG",
       "location": "Belo Horizonte/MG",
       "headline": "Defesa Civil:Chuva, raios e ventos de 45 km/h ate 8h de quarta-feira (26) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-25T15:53:30-03:00",
       "expires": "2026-08-26T08:00:00-03:00"
     },
@@ -501,7 +497,7 @@
       "uf": "AM",
       "location": "Apuí/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: Qualidade do Ar.  Acompanhar as previsoes meteorologicas. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-25T12:10:04-03:00",
       "expires": "2026-08-26T09:30:00-03:00"
     },
@@ -543,60 +539,21 @@
       "status": "expirado",
       "onset": "2026-08-25T11:03:40-03:00",
       "expires": "2026-08-26T00:00:00-03:00"
-    },
-    {
-      "date": "25/08/2026",
-      "time": "09:25",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:09h25 Chuva isolada na regiao de Euclides da Cunha Paulista e Teodoro Sampaio. Tem ventos. Atinge cidades vizinhas. Busque abrigo.",
-      "status": "expirado",
-      "onset": "2026-08-25T09:25:53-03:00",
-      "expires": "2026-08-25T11:20:00-03:00"
-    },
-    {
-      "date": "25/08/2026",
-      "time": "08:35",
-      "senderName": "Defesa Civil Estadual de Pernambuco",
-      "event": "Baixa Umidade Do Ar",
-      "nivel": "Severo",
-      "uf": "PE",
-      "location": "PERNAMBUCO/PE",
-      "headline": "Defesa Civil:Defesa Civil PE: SERTAO PERNAMBUCANO. Baixa umidade do ar. Beba muita agua. Emergencia: ligue 193 ou 192.",
-      "status": "vigente",
-      "onset": "2026-08-25T08:35:00-03:00",
-      "expires": "2026-08-26T23:55:00-03:00"
-    },
-    {
-      "date": "25/08/2026",
-      "time": "08:30",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Ressaca",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Observação Marítima SDC/SC 25/08 08:30 ¿ Mar agitado entre esta terça (25) e sexta-feira (28). \n\nO risco é moderado para ocorrências associadas à agitação marítima e ressaca. \n\nEm caso de emergência, ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-08-25T08:30:00-03:00",
-      "expires": "2026-08-28T23:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 29,
+    "total_alerts": 27,
     "by_nivel": {
-      "Médio": 23,
+      "Médio": 22,
       "Alto": 4,
-      "Severo": 2
+      "Severo": 1
     },
     "by_channel_list": {
-      "Google": 29
+      "Google": 27
     },
     "by_region": {
-      "SE": 17,
-      "S": 6,
+      "SE": 16,
+      "S": 5,
       "NE": 3,
       "N": 2,
       "CO": 1
