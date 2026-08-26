@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-08-25T23:02:06.661642-03:00",
-  "source_run_dir": "run_20260825_230135",
+  "generated_at": "2026-08-26T00:28:37.199715-03:00",
+  "source_run_dir": "run_20260826_002822",
   "cards": {
-    "vigentes": 7,
-    "ultimas24h": 26,
+    "vigentes": 6,
+    "ultimas24h": 27,
     "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "23:18",
+      "date": "25/08/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "22:41",
       "date": "25/08/2026",
@@ -55,18 +67,6 @@
       "uf": "SP",
       "headline": "Defesa Civil:18h54 Chuva isolada na regiao de Taruma e Candido Mota. Tem ventos. Atinge cidades vizinhas. Busque abrigo.",
       "status": "expirado"
-    },
-    {
-      "time": "18:49",
-      "date": "25/08/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Parintins/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -81,6 +81,11 @@
       "count": 3
     },
     {
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
+      "count": 2
+    },
+    {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
       "count": 2
@@ -89,11 +94,6 @@
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
       "count": 2
-    },
-    {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
-      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 20
+      "count": 21
     },
     {
       "label": "Alto",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 12
+      "count": 13
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -163,12 +163,12 @@
       "count": 5
     },
     {
-      "uf": "AM",
+      "uf": "PR",
       "count": 2
     },
     {
-      "uf": "PR",
-      "count": 1
+      "uf": "AM",
+      "count": 2
     },
     {
       "uf": "PI",
@@ -198,14 +198,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 7
+      "count": 6
     },
     {
       "label": "expirado",
-      "count": 19
+      "count": 21
     }
   ],
   "all_alerts": [
+    {
+      "date": "25/08/2026",
+      "time": "23:18",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-25T23:18:26-03:00",
+      "expires": "2026-08-26T02:15:00-03:00"
+    },
     {
       "date": "25/08/2026",
       "time": "22:41",
@@ -436,7 +449,7 @@
       "uf": "RJ",
       "location": "Niterói/RJ",
       "headline": "Defesa Civil:Niteroi: Devido aos registros de chuva na cidade, o Risco de Fogo em Vegetacao sera alterado para BAIXO. Emergencia, 199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-25T12:58:22-03:00",
       "expires": "2026-08-25T23:55:00-03:00"
     },
@@ -488,7 +501,7 @@
       "uf": "MT",
       "location": "MATO GROSSO/MT",
       "headline": "Defesa Civil:MT. UMIDADE BAIXA: Umidade relativa do ar variando entre 30 e 20 porcento, hidrate-se. Risco de incendios florestais e a saude. Ligue 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-25T11:03:40-03:00",
       "expires": "2026-08-26T00:00:00-03:00"
     },
@@ -546,20 +559,20 @@
     }
   ],
   "summary": {
-    "total_alerts": 26,
+    "total_alerts": 27,
     "by_nivel": {
-      "Médio": 20,
+      "Médio": 21,
       "Alto": 4,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 26
+      "Google": 27
     },
     "by_region": {
       "SE": 18,
       "NE": 3,
+      "S": 3,
       "N": 2,
-      "S": 2,
       "CO": 1
     }
   }
