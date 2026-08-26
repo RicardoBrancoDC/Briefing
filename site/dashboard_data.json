@@ -1,13 +1,37 @@
 {
-  "generated_at": "2026-08-26T01:58:47.150456-03:00",
-  "source_run_dir": "run_20260826_015837",
+  "generated_at": "2026-08-26T04:11:58.766983-03:00",
+  "source_run_dir": "run_20260826_041146",
   "cards": {
-    "vigentes": 5,
-    "ultimas24h": 27,
+    "vigentes": 6,
+    "ultimas24h": 28,
     "autoridadesAtivas": 11,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "03:53",
+      "date": "26/08/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "02:53",
+      "date": "26/08/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente"
+    },
     {
       "time": "23:18",
       "date": "25/08/2026",
@@ -18,7 +42,7 @@
       "location": "PARANÁ/PR",
       "uf": "PR",
       "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "22:41",
@@ -43,30 +67,6 @@
       "uf": "MG",
       "headline": "Defesa Civil:Alerta de pancadas de chuva, acompanhadas de raios, previstas para as proximas horas. Proteja-se e evite areas abertas.",
       "status": "expirado"
-    },
-    {
-      "time": "19:11",
-      "date": "25/08/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Itabirito/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de chuvas fortes, ventos intensos e possibilidade de granizo em Itabirito nas proximas horas. Procure local seguro e proteja-se!",
-      "status": "expirado"
-    },
-    {
-      "time": "18:54",
-      "date": "25/08/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:18h54 Chuva isolada na regiao de Taruma e Candido Mota. Tem ventos. Atinge cidades vizinhas. Busque abrigo.",
-      "status": "expirado"
     }
   ],
   "top_emitters": [
@@ -76,14 +76,14 @@
       "count": 12
     },
     {
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
+      "count": 4
+    },
+    {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
       "count": 3
-    },
-    {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
-      "count": 2
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -93,7 +93,7 @@
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual do Piauí",
@@ -124,7 +124,7 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 21
+      "count": 22
     },
     {
       "label": "Alto",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 13
+      "count": 14
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -159,12 +159,12 @@
       "count": 12
     },
     {
-      "uf": "MG",
-      "count": 5
+      "uf": "PR",
+      "count": 4
     },
     {
-      "uf": "PR",
-      "count": 2
+      "uf": "MG",
+      "count": 4
     },
     {
       "uf": "AM",
@@ -198,7 +198,7 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 6
     },
     {
       "label": "expirado",
@@ -206,6 +206,32 @@
     }
   ],
   "all_alerts": [
+    {
+      "date": "26/08/2026",
+      "time": "03:53",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-26T03:53:59-03:00",
+      "expires": "2026-08-26T06:50:00-03:00"
+    },
+    {
+      "date": "26/08/2026",
+      "time": "02:53",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-08-26T02:53:46-03:00",
+      "expires": "2026-08-26T05:50:00-03:00"
+    },
     {
       "date": "25/08/2026",
       "time": "23:18",
@@ -215,7 +241,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR AMARELO: Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-08-25T23:18:26-03:00",
       "expires": "2026-08-26T02:15:00-03:00"
     },
@@ -543,35 +569,22 @@
       "status": "vigente",
       "onset": "2026-08-25T08:30:00-03:00",
       "expires": "2026-08-28T23:55:00-03:00"
-    },
-    {
-      "date": "25/08/2026",
-      "time": "02:01",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "Brasilândia de Minas/MG",
-      "headline": "Chuvas moderadas com frio até início da manhã em Brasilândia de Minas. Atenção na condução de veículo nas estradas. Proteja-se. Bombeiros 193.",
-      "status": "expirado",
-      "onset": "2026-08-25T02:01:46-03:00",
-      "expires": "2026-08-25T07:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 27,
+    "total_alerts": 28,
     "by_nivel": {
-      "Médio": 21,
+      "Médio": 22,
       "Alto": 4,
       "Severo": 2
     },
     "by_channel_list": {
-      "Google": 27
+      "Google": 28
     },
     "by_region": {
-      "SE": 18,
+      "SE": 17,
+      "S": 5,
       "NE": 3,
-      "S": 3,
       "N": 2,
       "CO": 1
     }
