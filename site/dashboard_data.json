@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-02T21:21:57.141999-03:00",
-  "source_run_dir": "run_20260902_212112",
+  "generated_at": "2026-09-03T04:14:28.526401-03:00",
+  "source_run_dir": "run_20260903_041405",
   "cards": {
-    "vigentes": 5,
-    "ultimas24h": 35,
-    "autoridadesAtivas": 9,
+    "vigentes": 2,
+    "ultimas24h": 16,
+    "autoridadesAtivas": 6,
     "alertasExtremos": 0
   },
   "latest_alerts": [
@@ -18,7 +18,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:19",
@@ -71,19 +71,14 @@
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual do Espírito Santo",
-      "short_name": "DC Espírito Santo",
-      "count": 12
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 7
-    },
-    {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
@@ -91,57 +86,43 @@
       "count": 3
     },
     {
-      "name": "Defesa Civil de Niterói (RJ)",
-      "short_name": "DC Niterói (RJ)",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil Nacional",
-      "short_name": "Defesa Civil Nacional",
-      "count": 2
-    },
-    {
       "name": "Defesa Civil de Belford Roxo (RJ)",
       "short_name": "DC Belford Roxo (RJ)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil de Niterói (RJ)",
+      "short_name": "DC Niterói (RJ)",
       "count": 1
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
       "count": 1
-    },
-    {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 21
+      "count": 8
     },
     {
       "label": "Alto",
-      "count": 11
+      "count": 6
     },
     {
       "label": "Severo",
-      "count": 3
+      "count": 2
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 22
+      "count": 5
     },
     {
       "label": "Baixa Umidade Do Ar",
       "count": 5
-    },
-    {
-      "label": "Vendaval",
-      "count": 3
     },
     {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
@@ -152,33 +133,29 @@
       "count": 2
     },
     {
+      "label": "Vendaval",
+      "count": 1
+    },
+    {
       "label": "Deslizamentos",
       "count": 1
     }
   ],
   "uf_distribution": [
     {
-      "uf": "ES",
-      "count": 12
+      "uf": "AM",
+      "count": 5
     },
     {
       "uf": "SP",
-      "count": 7
-    },
-    {
-      "uf": "AM",
-      "count": 6
-    },
-    {
-      "uf": "RJ",
-      "count": 4
+      "count": 5
     },
     {
       "uf": "PR",
       "count": 3
     },
     {
-      "uf": "MG",
+      "uf": "RJ",
       "count": 2
     },
     {
@@ -189,11 +166,11 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 5
+      "count": 2
     },
     {
       "label": "expirado",
-      "count": 30
+      "count": 14
     }
   ],
   "all_alerts": [
@@ -206,7 +183,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-09-02T18:03:48-03:00",
       "expires": "2026-09-02T22:00:00-03:00"
     },
@@ -297,7 +274,7 @@
       "uf": "RJ",
       "location": "Belford Roxo/RJ",
       "headline": "Defesa Civil:Belford Roxo/Observacao:pancadas de chuva moderada a forte nas proximas horas, com rajadas de vento. Evite areas alagadas.Emergencia:971786419/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-09-02T14:00:00-03:00",
       "expires": "2026-09-02T23:59:00-03:00"
     },
@@ -401,271 +378,24 @@
       "uf": "SC",
       "location": "Mafra/SC",
       "headline": "Defesa Civil:ATENCAO - 02/09 08:44 - INUNDACAO GRADUAL para o municipio de Mafra nas proximas horas. Evite areas de risco. Ocorrencias ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-09-02T08:50:53-03:00",
       "expires": "2026-09-02T23:55:00-03:00"
-    },
-    {
-      "date": "02/09/2026",
-      "time": "04:11",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Viana/ES, Vila Velha/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, VENTO e RAIOS em VIANA e VILA VELHA nas proximas 02 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-09-02T04:11:13-03:00",
-      "expires": "2026-09-02T06:00:00-03:00"
-    },
-    {
-      "date": "02/09/2026",
-      "time": "03:10",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Guarapari/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, VENTO e RAIOS em GUARAPARI nas proximas 03 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-09-02T03:10:50-03:00",
-      "expires": "2026-09-02T06:00:00-03:00"
-    },
-    {
-      "date": "02/09/2026",
-      "time": "02:45",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "ESPÍRITO SANTO/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, VENTO e RAIOS na regiao SERRANA nas proximas 03 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-09-02T02:45:19-03:00",
-      "expires": "2026-09-02T06:00:00-03:00"
-    },
-    {
-      "date": "02/09/2026",
-      "time": "02:35",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "ESPÍRITO SANTO/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, VENTO e RAIOS na regiao SUL nas proximas 04 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-09-02T02:35:04-03:00",
-      "expires": "2026-09-02T06:00:00-03:00"
-    },
-    {
-      "date": "02/09/2026",
-      "time": "01:58",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "ESPÍRITO SANTO/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, VENTO e RAIOS na regiao LITORAL SUL nas proximas 02 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-09-02T01:58:55-03:00",
-      "expires": "2026-09-02T04:00:00-03:00"
-    },
-    {
-      "date": "02/09/2026",
-      "time": "01:37",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "ES",
-      "location": "Irupi/ES, Iúna/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA FORTE em IRUPI e IUNA na proxima 01 hora. Evite area de risco. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-09-02T01:37:23-03:00",
-      "expires": "2026-09-02T03:00:00-03:00"
-    },
-    {
-      "date": "02/09/2026",
-      "time": "00:36",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "ESPÍRITO SANTO/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA, VENTO e RAIOS nas regioes CAPARAO e SERRANA nas proximas 02 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-09-02T00:36:02-03:00",
-      "expires": "2026-09-02T03:00:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "23:08",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Belo Horizonte/MG",
-      "headline": "Defesa Civil:23h - Chuva de intensidade forte nas proximas 3 horas em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "expirado",
-      "onset": "2026-09-01T23:08:34-03:00",
-      "expires": "2026-09-02T02:00:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "23:00",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:23h00 - Chuva se espalhando pela regiao de Piracicaba e Rio das Pedras. Tem raios e vento. Atinge municipios vizinhos. Abrigue-se.",
-      "status": "expirado",
-      "onset": "2026-09-01T23:00:00-03:00",
-      "expires": "2026-09-02T01:00:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "22:33",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Vargem Alta/ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA FORTE, VENTO e RAIOS em VARGEM ALTA nas proximas 03 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-09-01T22:33:42-03:00",
-      "expires": "2026-09-02T02:00:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "22:24",
-      "senderName": "Defesa Civil de Niterói (RJ)",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Niterói/RJ",
-      "headline": "Defesa Civil:Niteroi: Previsao de rajadas de vento moderadas a fortes nas proximas horas. Emergencia, ligue 199.",
-      "status": "expirado",
-      "onset": "2026-09-01T22:24:24-03:00",
-      "expires": "2026-09-02T06:00:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "22:14",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Castelo/ES, Cachoeiro de Itapemirim/ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA FORTE, VENTO e RAIOS em CASTELO e CACHOEIRO DE ITAPEMIRIM nas proximas 04 horas. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-09-01T22:14:08-03:00",
-      "expires": "2026-09-02T02:00:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "22:09",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Mesquita/RJ",
-      "headline": "Defesa Civil:Mesquita(01/09 22:05): previsao de rajadas de vento moderado/forte nas proximas horas. Nao fique debaixo de arvores. Emergencia:199",
-      "status": "expirado",
-      "onset": "2026-09-01T22:09:33-03:00",
-      "expires": "2026-09-02T07:00:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "21:52",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Alegre/ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA FORTE e VENTO em ALEGRE nas proximas 04 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-09-01T21:52:24-03:00",
-      "expires": "2026-09-02T02:00:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "21:43",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:21h43 - Chuva se espalhando pela regiao de Tiete no sentido de Jundiai. Tem raios e vento. Atinge municipios vizinhos. Abrigue-se.",
-      "status": "expirado",
-      "onset": "2026-09-01T21:43:00-03:00",
-      "expires": "2026-09-01T23:43:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "21:39",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "Ibitirama/ES, Muqui/ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA FORTE e VENTO em IBITIRAMA e MUQUI nas proximas 04 horas. Evite area de risco. Fique atento. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-09-01T21:39:06-03:00",
-      "expires": "2026-09-02T01:00:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "21:37",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-09-01T21:37:00-03:00",
-      "expires": "2026-09-02T03:30:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "21:30",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de pancadas de chuva com raios nas proximas 2h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-09-01T21:30:22-03:00",
-      "expires": "2026-09-01T23:28:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "21:29",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "ES",
-      "location": "Defesa Civil Estadual do Espírito Santo",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA FORTE em DORES D RIO PRETO e DIVINO SAO LOURENCO na proxima 01 hora. Evite area de risco. Fique atento. Emergencia ligue 193",
-      "status": "expirado",
-      "onset": "2026-09-01T21:29:09-03:00",
-      "expires": "2026-09-01T22:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 35,
+    "total_alerts": 16,
     "by_nivel": {
-      "Médio": 21,
-      "Alto": 11,
-      "Severo": 3
+      "Médio": 8,
+      "Alto": 6,
+      "Severo": 2
     },
     "by_channel_list": {
-      "Google": 35
+      "Google": 16
     },
     "by_region": {
-      "SE": 25,
-      "N": 6,
+      "SE": 7,
+      "N": 5,
       "S": 4
     }
   }
