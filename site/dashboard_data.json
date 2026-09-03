@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-02T18:12:00.970847-03:00",
-  "source_run_dir": "run_20260902_181118",
+  "generated_at": "2026-09-02T21:21:57.141999-03:00",
+  "source_run_dir": "run_20260902_212112",
   "cards": {
-    "vigentes": 13,
-    "ultimas24h": 51,
+    "vigentes": 5,
+    "ultimas24h": 35,
     "autoridadesAtivas": 9,
     "alertasExtremos": 0
   },
@@ -30,7 +30,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:14",
@@ -42,7 +42,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:10",
@@ -54,7 +54,7 @@
       "location": "Dracena/SP, Mirassol/SP",
       "uf": "SP",
       "headline": "Defesa Civil:16h10 Umidade do ar abaixo de 30 em Dracena e Mirassol. Hidrate-se. Proteja-se do sol.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "15:39",
@@ -66,44 +66,29 @@
       "location": "SÃO PAULO/SP",
       "uf": "SP",
       "headline": "Defesa Civil:15h39 Umidade do ar abaixo de 30 em Pereira Barreto, Ariranha, Monte Azul Paulista e Pradopolis. Hidrate-se. Proteja-se do sol.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 13
+      "count": 12
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 10
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 7
-    },
-    {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
       "count": 6
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 4
-    },
-    {
-      "name": "Defesa Civil Nacional",
-      "short_name": "Defesa Civil Nacional",
-      "count": 4
-    },
-    {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Defesa Civil de Niterói (RJ)",
@@ -111,19 +96,34 @@
       "count": 2
     },
     {
+      "name": "Defesa Civil Nacional",
+      "short_name": "Defesa Civil Nacional",
+      "count": 2
+    },
+    {
       "name": "Defesa Civil de Belford Roxo (RJ)",
       "short_name": "DC Belford Roxo (RJ)",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
       "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 31
+      "count": 21
     },
     {
       "label": "Alto",
-      "count": 17
+      "count": 11
     },
     {
       "label": "Severo",
@@ -133,7 +133,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 37
+      "count": 22
     },
     {
       "label": "Baixa Umidade Do Ar",
@@ -141,7 +141,7 @@
     },
     {
       "label": "Vendaval",
-      "count": 4
+      "count": 3
     },
     {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
@@ -159,22 +159,14 @@
   "uf_distribution": [
     {
       "uf": "ES",
-      "count": 13
+      "count": 12
     },
     {
       "uf": "SP",
-      "count": 10
+      "count": 7
     },
     {
       "uf": "AM",
-      "count": 7
-    },
-    {
-      "uf": "MG",
-      "count": 7
-    },
-    {
-      "uf": "SC",
       "count": 6
     },
     {
@@ -183,17 +175,25 @@
     },
     {
       "uf": "PR",
-      "count": 4
+      "count": 3
+    },
+    {
+      "uf": "MG",
+      "count": 2
+    },
+    {
+      "uf": "SC",
+      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 13
+      "count": 5
     },
     {
       "label": "expirado",
-      "count": 38
+      "count": 30
     }
   ],
   "all_alerts": [
@@ -219,7 +219,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-09-02T16:19:11-03:00",
       "expires": "2026-09-02T20:05:00-03:00"
     },
@@ -232,7 +232,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-09-02T16:14:19-03:00",
       "expires": "2026-09-02T19:00:00-03:00"
     },
@@ -245,7 +245,7 @@
       "uf": "SP",
       "location": "Dracena/SP, Mirassol/SP",
       "headline": "Defesa Civil:16h10 Umidade do ar abaixo de 30 em Dracena e Mirassol. Hidrate-se. Proteja-se do sol.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-09-02T16:10:58-03:00",
       "expires": "2026-09-02T19:00:00-03:00"
     },
@@ -258,7 +258,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h39 Umidade do ar abaixo de 30 em Pereira Barreto, Ariranha, Monte Azul Paulista e Pradopolis. Hidrate-se. Proteja-se do sol.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-09-02T15:39:36-03:00",
       "expires": "2026-09-02T19:00:00-03:00"
     },
@@ -271,7 +271,7 @@
       "uf": "SP",
       "location": "Jardinópolis/SP, Itapira/SP",
       "headline": "Defesa Civil:15h15 Umidade do ar abaixo de 30 em Jardinopolis e Itapira. Hidrate-se. Proteja-se do sol.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-09-02T15:16:11-03:00",
       "expires": "2026-09-02T19:00:00-03:00"
     },
@@ -284,7 +284,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:15h14 Umidade do ar abaixo de 30 em Sao Jose do Rio Preto, Pindorama, Bebedouro, Ribeirao Preto, Sao Simao e Ituverava. Hidrate-se.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-09-02T15:14:48-03:00",
       "expires": "2026-09-02T19:00:00-03:00"
     },
@@ -310,7 +310,7 @@
       "uf": "SP",
       "location": "Franca/SP, Itirapuã/SP",
       "headline": "Defesa Civil:13h44 Umidade do ar abaixo de 30 em Franca e Itirapua. Hidrate-se. Evite exercicios fisicos ao ar livre.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-09-02T13:43:39-03:00",
       "expires": "2026-09-02T19:00:00-03:00"
     },
@@ -651,230 +651,22 @@
       "status": "expirado",
       "onset": "2026-09-01T21:29:09-03:00",
       "expires": "2026-09-01T22:30:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "21:09",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "ESPÍRITO SANTO/ES",
-      "headline": "Defesa Civil:(ES) ALERTA de CHUVA FORTE, VENTO, RAIOS e GRANIZO na regiao SUL e CAPARAO nas proximas 06 horas. Evite area de risco. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-09-01T21:09:54-03:00",
-      "expires": "2026-09-02T03:00:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "21:01",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Belo Horizonte/MG",
-      "headline": "Defesa Civil:20h55 - Chuva de intensidade moderada a forte nas proximas 2 horas em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente",
-      "onset": "2026-09-01T21:01:37-03:00",
-      "expires": "2026-09-02T22:55:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "20:38",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestades com raios nas proximas 2h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-09-01T20:38:11-03:00",
-      "expires": "2026-09-01T22:36:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "20:31",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:20h30 Chuva se espalhando pela regiao central da capital e redondezas. Tem vento. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-09-01T20:31:14-03:00",
-      "expires": "2026-09-01T22:30:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "19:43",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestades com raios nas proximas 2h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-09-01T19:43:40-03:00",
-      "expires": "2026-09-01T21:40:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "19:18",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Vendaval",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 01/09 19:15 - RAJADAS DE VENTO de quadrante sul, com intensidade MODERADA (45 a 65 km/h), para as regiões do Litoral Sul, Grande Florianópolis e Baixo Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-09-01T19:18:10-03:00",
-      "expires": "2026-09-01T22:20:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "19:14",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:19h10 Chuva isolada na regiao de Ibiuna, Juquitiba e Embu-Guacu. Tem raios e vento. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-09-01T19:14:12-03:00",
-      "expires": "2026-09-01T20:00:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "19:11",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:19h10 Chuva isolada na regiao de Itapetininga e Sarapui. Tem raios e vento. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-09-01T19:11:27-03:00",
-      "expires": "2026-09-01T21:00:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "19:08",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 01/09 19:06 - TEMPORAIS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-09-01T19:08:48-03:00",
-      "expires": "2026-09-01T21:10:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "19:03",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "Campo do Tenente/PR",
-      "headline": "Defesa Civil:Pancadas de chuva c trovoadas e risco de temporais isolados ao longo das proximas 3h. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-09-01T19:03:52-03:00",
-      "expires": "2026-09-01T22:00:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "19:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 01/09 18:57 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões da Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-09-01T19:00:35-03:00",
-      "expires": "2026-09-01T22:00:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "19:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 01/09 18:57 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões da Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-09-01T19:00:23-03:00",
-      "expires": "2026-09-01T22:00:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "18:46",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 01/09 18:44 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS nas proximas 2 horas. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-09-01T18:46:45-03:00",
-      "expires": "2026-09-01T20:50:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "18:41",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestades com raios nas proximas 2h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-09-01T18:41:31-03:00",
-      "expires": "2026-09-01T20:39:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "18:41",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "Belo Horizonte/MG",
-      "headline": "Defesa Civil:Chuva e ventos de 40 km/h ate 8h de quarta-feira (2) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "expirado",
-      "onset": "2026-09-01T18:41:22-03:00",
-      "expires": "2026-09-02T08:00:00-03:00"
-    },
-    {
-      "date": "01/09/2026",
-      "time": "18:35",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-09-01T18:35:16-03:00",
-      "expires": "2026-09-01T21:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 51,
+    "total_alerts": 35,
     "by_nivel": {
-      "Médio": 31,
-      "Alto": 17,
+      "Médio": 21,
+      "Alto": 11,
       "Severo": 3
     },
     "by_channel_list": {
-      "Google": 51
+      "Google": 35
     },
     "by_region": {
-      "SE": 34,
-      "S": 10,
-      "N": 7
+      "SE": 25,
+      "N": 6,
+      "S": 4
     }
   }
 }
