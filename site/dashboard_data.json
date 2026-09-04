@@ -1,15 +1,51 @@
 {
-  "generated_at": "2026-09-03T18:08:08.389466-03:00",
-  "source_run_dir": "run_20260903_180719",
+  "generated_at": "2026-09-03T21:11:53.252952-03:00",
+  "source_run_dir": "run_20260903_211028",
   "cards": {
-    "vigentes": 11,
-    "ultimas24h": 26,
+    "vigentes": 14,
+    "ultimas24h": 33,
     "autoridadesAtivas": 7,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "18:02",
+      "time": "21:09",
+      "date": "03/09/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "19:37",
+      "date": "03/09/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Apuí/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "19:06",
+      "date": "03/09/2026",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "senderNameShort": "DC Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "location": "RIO GRANDE DO SUL/RS",
+      "uf": "RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 20h05. Mantenha-se seguro",
+      "status": "expirado"
+    },
+    {
+      "time": "18:26",
       "date": "03/09/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
@@ -17,55 +53,19 @@
       "nivel": "Alto",
       "location": "AMAZONAS/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:Alerta de Estiagem. Siga as orientacoes da defesa civil local. Consuma apenas agua tratada. Acompanhe os boletins hidrologicos.",
+      "headline": "Defesa Civil:Alerta ALTA de Estiagem. Siga as orientacoes da defesa civil local. Consuma apenas agua tratada. Acompanhe os boletins hidrologicos.",
       "status": "vigente"
     },
     {
-      "time": "17:32",
+      "time": "18:23",
       "date": "03/09/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Carauari/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "17:23",
-      "date": "03/09/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Canutama/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "17:03",
-      "date": "03/09/2026",
-      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
-      "senderNameShort": "DC Rio Grande do Sul",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "RIO GRANDE DO SUL/RS",
-      "uf": "RS",
-      "headline": "Defesa Civil:EXERCICIO DE SIMULACAO:Alerta VERMELHO. Condicao SEVERA p/ chuva volumosa. Risco MUITO ALTO de INUNDACAO cota 19 m e MOVIMENTOS DE MASSA. Evacuar.",
-      "status": "vigente"
-    },
-    {
-      "time": "16:59",
-      "date": "03/09/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Onda De Calor",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:Alerta de Onda de Calor para regiao metropolitana de Manaus. Siga as orientacoes da defesa civil local. Em caso de emergencia, ligue 199 ou 193.",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Baixo",
+      "location": "Caruaru/PE",
+      "uf": "PE",
+      "headline": "Defesa Civil:Defesa civil de Caruaru alerta para Umidade relativa do ar variando entre 30 e 20.",
       "status": "vigente"
     }
   ],
@@ -78,17 +78,17 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 6
+      "count": 11
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Defesa Civil de Petrópolis (RJ)",
@@ -109,7 +109,7 @@
   "level_distribution": [
     {
       "label": "Baixo",
-      "count": 1
+      "count": 2
     },
     {
       "label": "Médio",
@@ -117,7 +117,7 @@
     },
     {
       "label": "Alto",
-      "count": 4
+      "count": 10
     },
     {
       "label": "Severo",
@@ -127,27 +127,27 @@
   "event_distribution": [
     {
       "label": "Baixa Umidade Do Ar",
-      "count": 13
+      "count": 14
     },
     {
       "label": "Chuvas Intensas",
-      "count": 5
+      "count": 7
+    },
+    {
+      "label": "Estiagem",
+      "count": 4
+    },
+    {
+      "label": "Granizo",
+      "count": 3
     },
     {
       "label": "Vendaval",
       "count": 2
     },
     {
-      "label": "Granizo",
-      "count": 2
-    },
-    {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
       "count": 2
-    },
-    {
-      "label": "Estiagem",
-      "count": 1
     },
     {
       "label": "Outros",
@@ -161,15 +161,19 @@
     },
     {
       "uf": "AM",
-      "count": 6
+      "count": 11
     },
     {
       "uf": "RS",
-      "count": 3
+      "count": 4
     },
     {
       "uf": "RJ",
       "count": 2
+    },
+    {
+      "uf": "PE",
+      "count": 1
     },
     {
       "uf": "MT",
@@ -187,14 +191,105 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 11
+      "count": 14
     },
     {
       "label": "expirado",
-      "count": 15
+      "count": 19
     }
   ],
   "all_alerts": [
+    {
+      "date": "03/09/2026",
+      "time": "21:09",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-09-03T21:09:24-03:00",
+      "expires": "2026-09-04T01:00:00-03:00"
+    },
+    {
+      "date": "03/09/2026",
+      "time": "19:37",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Apuí/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-09-03T19:37:58-03:00",
+      "expires": "2026-09-03T21:35:00-03:00"
+    },
+    {
+      "date": "03/09/2026",
+      "time": "19:06",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 20h05. Mantenha-se seguro",
+      "status": "expirado",
+      "onset": "2026-09-03T19:06:02-03:00",
+      "expires": "2026-09-03T20:05:00-03:00"
+    },
+    {
+      "date": "03/09/2026",
+      "time": "18:26",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Estiagem",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:Alerta ALTA de Estiagem. Siga as orientacoes da defesa civil local. Consuma apenas agua tratada. Acompanhe os boletins hidrologicos.",
+      "status": "vigente",
+      "onset": "2026-09-03T18:26:55-03:00",
+      "expires": "2026-09-11T18:00:00-03:00"
+    },
+    {
+      "date": "03/09/2026",
+      "time": "18:23",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Baixo",
+      "uf": "PE",
+      "location": "Caruaru/PE",
+      "headline": "Defesa Civil:Defesa civil de Caruaru alerta para Umidade relativa do ar variando entre 30 e 20.",
+      "status": "vigente",
+      "onset": "2026-09-03T18:23:47-03:00",
+      "expires": "2026-09-04T23:59:00-03:00"
+    },
+    {
+      "date": "03/09/2026",
+      "time": "18:16",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Estiagem",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:Alerta ALTA de Estiagem. Siga as orientacoes da defesa civil local. Consuma apenas agua tratada. Acompanhe os boletins hidrologicos.",
+      "status": "vigente",
+      "onset": "2026-09-03T18:16:06-03:00",
+      "expires": "2026-09-11T18:00:00-03:00"
+    },
+    {
+      "date": "03/09/2026",
+      "time": "18:09",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Estiagem",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:Alerta ALTA de Estiagem. Siga as orientacoes da defesa civil local. Consuma apenas agua tratada. Acompanhe os boletins hidrologicos.",
+      "status": "vigente",
+      "onset": "2026-09-03T18:09:27-03:00",
+      "expires": "2026-09-11T18:00:00-03:00"
+    },
     {
       "date": "03/09/2026",
       "time": "18:02",
@@ -217,7 +312,7 @@
       "uf": "AM",
       "location": "Carauari/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-09-03T17:32:06-03:00",
       "expires": "2026-09-03T19:45:00-03:00"
     },
@@ -230,7 +325,7 @@
       "uf": "AM",
       "location": "Canutama/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-09-03T17:23:53-03:00",
       "expires": "2026-09-03T18:45:00-03:00"
     },
@@ -243,7 +338,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "Defesa Civil:EXERCICIO DE SIMULACAO:Alerta VERMELHO. Condicao SEVERA p/ chuva volumosa. Risco MUITO ALTO de INUNDACAO cota 19 m e MOVIMENTOS DE MASSA. Evacuar.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-09-03T17:03:12-03:00",
       "expires": "2026-09-03T18:30:00-03:00"
     },
@@ -535,21 +630,22 @@
     }
   ],
   "summary": {
-    "total_alerts": 26,
+    "total_alerts": 33,
     "by_nivel": {
       "Médio": 20,
-      "Alto": 4,
-      "Baixo": 1,
+      "Alto": 10,
+      "Baixo": 2,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 26
+      "Google": 33
     },
     "by_region": {
       "SE": 15,
-      "N": 7,
-      "S": 3,
-      "CO": 1
+      "N": 12,
+      "S": 4,
+      "CO": 1,
+      "NE": 1
     }
   }
 }
