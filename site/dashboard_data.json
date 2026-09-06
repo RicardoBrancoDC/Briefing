@@ -1,39 +1,15 @@
 {
-  "generated_at": "2026-09-05T19:13:58.626823-03:00",
-  "source_run_dir": "run_20260905_191208",
+  "generated_at": "2026-09-05T21:00:35.905415-03:00",
+  "source_run_dir": "run_20260905_205858",
   "cards": {
-    "vigentes": 41,
-    "ultimas24h": 106,
+    "vigentes": 40,
+    "ultimas24h": 109,
     "autoridadesAtivas": 16,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "19:10",
-      "date": "05/09/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Tupaciguara/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:ALERTA DE FORTES CHUVAS, RAIOS E RAJADAS DE VENTO. Evite areas de risco e procure um local seguro.",
-      "status": "vigente"
-    },
-    {
-      "time": "19:10",
-      "date": "05/09/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "19:06",
+      "time": "20:54",
       "date": "05/09/2026",
       "senderName": "Defesa Civil Estadual do Paraná",
       "senderNameShort": "DC Paraná",
@@ -45,7 +21,7 @@
       "status": "vigente"
     },
     {
-      "time": "18:25",
+      "time": "20:35",
       "date": "05/09/2026",
       "senderName": "Defesa Civil Nacional",
       "senderNameShort": "Defesa Civil Nacional",
@@ -53,11 +29,35 @@
       "nivel": "Alto",
       "location": "MINAS GERAIS/MG",
       "uf": "MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios e fortes rajadas de vento nas proximas horas. Proteja-se!",
+      "headline": "Defesa Civil:alerta de Tempestade nas proximas horas, com raios, fortes rajadas de vento e chuva intensa. Redobre a atencao e evite areas de risco.",
       "status": "vigente"
     },
     {
-      "time": "18:18",
+      "time": "20:25",
+      "date": "05/09/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Belo Horizonte/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:20h20 - Chuva de intensidade moderada a forte nas proximas 3 horas em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
+      "status": "vigente"
+    },
+    {
+      "time": "20:15",
+      "date": "05/09/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "19:40",
       "date": "05/09/2026",
       "senderName": "Defesa Civil Nacional",
       "senderNameShort": "Defesa Civil Nacional",
@@ -65,8 +65,8 @@
       "nivel": "Alto",
       "location": "MINAS GERAIS/MG",
       "uf": "MG",
-      "headline": "Defesa Civil:Alerta de tempestade com raios e fortes rajadas de vento nas proximas horas. Proteja-se!",
-      "status": "expirado"
+      "headline": "Defesa Civil:Alerta de tempestade com raios e fortes rajadas de vento nas proximas horas, Proteja-se!",
+      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -78,7 +78,7 @@
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 15
+      "count": 19
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -98,7 +98,7 @@
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
@@ -124,11 +124,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 71
+      "count": 72
     },
     {
       "label": "Alto",
-      "count": 32
+      "count": 34
     },
     {
       "label": "Severo",
@@ -138,7 +138,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 96
+      "count": 99
     },
     {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
@@ -167,16 +167,16 @@
       "count": 22
     },
     {
+      "uf": "MG",
+      "count": 15
+    },
+    {
       "uf": "AM",
       "count": 13
     },
     {
-      "uf": "MG",
-      "count": 11
-    },
-    {
       "uf": "PR",
-      "count": 4
+      "count": 3
     },
     {
       "uf": "SC",
@@ -198,14 +198,92 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 41
+      "count": 40
     },
     {
       "label": "expirado",
-      "count": 65
+      "count": 69
     }
   ],
   "all_alerts": [
+    {
+      "date": "05/09/2026",
+      "time": "20:54",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-09-05T20:54:58-03:00",
+      "expires": "2026-09-05T23:55:00-03:00"
+    },
+    {
+      "date": "05/09/2026",
+      "time": "20:35",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:alerta de Tempestade nas proximas horas, com raios, fortes rajadas de vento e chuva intensa. Redobre a atencao e evite areas de risco.",
+      "status": "vigente",
+      "onset": "2026-09-05T20:35:07-03:00",
+      "expires": "2026-09-05T22:30:00-03:00"
+    },
+    {
+      "date": "05/09/2026",
+      "time": "20:25",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "MG",
+      "location": "Belo Horizonte/MG",
+      "headline": "Defesa Civil:20h20 - Chuva de intensidade moderada a forte nas proximas 3 horas em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
+      "status": "vigente",
+      "onset": "2026-09-05T20:25:47-03:00",
+      "expires": "2026-09-05T23:20:00-03:00"
+    },
+    {
+      "date": "05/09/2026",
+      "time": "20:15",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-09-05T20:15:53-03:00",
+      "expires": "2026-09-06T05:00:00-03:00"
+    },
+    {
+      "date": "05/09/2026",
+      "time": "19:40",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios e fortes rajadas de vento nas proximas horas, Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-09-05T19:40:07-03:00",
+      "expires": "2026-09-05T21:25:00-03:00"
+    },
+    {
+      "date": "05/09/2026",
+      "time": "19:33",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com raios e fortes rajadas de vento nas proximas horas. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-09-05T19:33:59-03:00",
+      "expires": "2026-09-05T21:25:00-03:00"
+    },
     {
       "date": "05/09/2026",
       "time": "19:10",
@@ -215,7 +293,7 @@
       "uf": "MG",
       "location": "Tupaciguara/MG",
       "headline": "Defesa Civil:ALERTA DE FORTES CHUVAS, RAIOS E RAJADAS DE VENTO. Evite areas de risco e procure um local seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-09-05T19:10:49-03:00",
       "expires": "2026-09-05T21:00:00-03:00"
     },
@@ -254,7 +332,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de tempestade com raios e fortes rajadas de vento nas proximas horas. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-09-05T18:25:32-03:00",
       "expires": "2026-09-05T20:08:00-03:00"
     },
@@ -280,7 +358,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de tempestade com raios e fortes rajadas de vento nas proximas horas",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-09-05T18:09:52-03:00",
       "expires": "2026-09-05T19:52:00-03:00"
     },
@@ -293,7 +371,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:18h00 Chuva intensa e isolada em Ituverava e Restinga em direcao a Franca e Predegulho. Tem raios e ventos. Atinge municipios vizinhos. Cuidado!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-09-05T18:08:19-03:00",
       "expires": "2026-09-05T20:00:00-03:00"
     },
@@ -306,7 +384,7 @@
       "uf": "MG",
       "location": "Carmo de Minas/MG",
       "headline": "Defesa Civil:Alerta de chuva forte, raios e ventos intensos na sua regiao. Perigo de queda de arvores. Evite sair e proteja-se em local seguro!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-09-05T18:06:33-03:00",
       "expires": "2026-09-05T19:50:00-03:00"
     },
@@ -332,7 +410,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-09-05T17:57:25-03:00",
       "expires": "2026-09-05T21:00:00-03:00"
     },
@@ -527,7 +605,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuvas intensas. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-09-05T15:56:05-03:00",
       "expires": "2026-09-05T19:30:00-03:00"
     },
@@ -1544,61 +1622,22 @@
       "status": "expirado",
       "onset": "2026-09-04T21:26:56-03:00",
       "expires": "2026-09-04T23:25:00-03:00"
-    },
-    {
-      "date": "04/09/2026",
-      "time": "20:35",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-09-04T20:35:06-03:00",
-      "expires": "2026-09-05T05:00:00-03:00"
-    },
-    {
-      "date": "04/09/2026",
-      "time": "19:56",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-09-04T19:56:24-03:00",
-      "expires": "2026-09-04T22:55:00-03:00"
-    },
-    {
-      "date": "04/09/2026",
-      "time": "19:51",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-09-04T19:51:56-03:00",
-      "expires": "2026-09-04T22:50:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 106,
+    "total_alerts": 109,
     "by_nivel": {
-      "Médio": 71,
-      "Alto": 32,
+      "Médio": 72,
+      "Alto": 34,
       "Severo": 3
     },
     "by_channel_list": {
-      "Google": 106
+      "Google": 109
     },
     "by_region": {
-      "SE": 84,
+      "SE": 88,
       "N": 14,
-      "S": 6,
+      "S": 5,
       "CO": 2
     }
   }
