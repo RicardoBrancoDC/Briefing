@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-10-02T15:47:33.115987-03:00",
-  "source_run_dir": "run_20261002_154631",
+  "generated_at": "2026-10-02T16:25:03.478928-03:00",
+  "source_run_dir": "run_20261002_162357",
   "cards": {
-    "vigentes": 43,
-    "ultimas24h": 117,
+    "vigentes": 42,
+    "ultimas24h": 114,
     "autoridadesAtivas": 10,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "16:08",
+      "date": "02/10/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "15:48",
+      "date": "02/10/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Magé/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Chuvas Intensas em Mage, previsao chuva com raios e rajadas de vento entre hoje 02 ate 04/10/26, DC 21986445425/993325170/193.",
+      "status": "vigente"
+    },
+    {
+      "time": "15:43",
+      "date": "02/10/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Nova Friburgo/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Pancadas de chuva moderada a forte hoje (02/10) e amanha (03/10). Emergencia, ligue 199/193",
+      "status": "vigente"
+    },
     {
       "time": "15:37",
       "date": "02/10/2026",
@@ -30,60 +66,24 @@
       "location": "Lábrea/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO vendaval. Proteja-se imediatamente: permaneca em local fechado e protegido. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "15:35",
-      "date": "02/10/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "location": "Guiricema/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de tempestade com chuva forte em Guiricema/MG. Risco de alagamentos em vias publicas. Emergencias ligue Defesa Civil. Proteja-se!",
-      "status": "vigente"
-    },
-    {
-      "time": "15:31",
-      "date": "02/10/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Niterói/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Niteroi:Retorno para Estagio de VIGILANCIA as 15h05 desta sexta 02/10.Previsao de chuva fraca a moderada isolada nas proximas horas.Emergencia,199",
-      "status": "vigente"
-    },
-    {
-      "time": "15:22",
-      "date": "02/10/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "RIO DE JANEIRO/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Pancadas de chuva moderada a forte hoje 02/10 e amanha 03/10 Emergencia, ligue 199",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 71
+      "count": 74
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
-      "count": 29
+      "count": 25
     },
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 9
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
@@ -128,11 +128,11 @@
     },
     {
       "label": "Médio",
-      "count": 34
+      "count": 32
     },
     {
       "label": "Alto",
-      "count": 66
+      "count": 65
     },
     {
       "label": "Severo",
@@ -142,7 +142,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 86
+      "count": 83
     },
     {
       "label": "Granizo",
@@ -172,19 +172,19 @@
   "uf_distribution": [
     {
       "uf": "MG",
-      "count": 57
+      "count": 53
     },
     {
       "uf": "AM",
-      "count": 18
+      "count": 19
     },
     {
       "uf": "RJ",
-      "count": 13
+      "count": 15
     },
     {
       "uf": "SP",
-      "count": 9
+      "count": 7
     },
     {
       "uf": "RS",
@@ -222,14 +222,53 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 43
+      "count": 42
     },
     {
       "label": "expirado",
-      "count": 74
+      "count": 72
     }
   ],
   "all_alerts": [
+    {
+      "date": "02/10/2026",
+      "time": "16:08",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-10-02T16:08:01-03:00",
+      "expires": "2026-10-02T19:00:00-03:00"
+    },
+    {
+      "date": "02/10/2026",
+      "time": "15:48",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Magé/RJ",
+      "headline": "Defesa Civil:Chuvas Intensas em Mage, previsao chuva com raios e rajadas de vento entre hoje 02 ate 04/10/26, DC 21986445425/993325170/193.",
+      "status": "vigente",
+      "onset": "2026-10-02T15:48:00-03:00",
+      "expires": "2026-10-04T08:00:00-03:00"
+    },
+    {
+      "date": "02/10/2026",
+      "time": "15:43",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Nova Friburgo/RJ",
+      "headline": "Defesa Civil:Pancadas de chuva moderada a forte hoje (02/10) e amanha (03/10). Emergencia, ligue 199/193",
+      "status": "vigente",
+      "onset": "2026-10-02T15:43:10-03:00",
+      "expires": "2026-10-03T12:00:00-03:00"
+    },
     {
       "date": "02/10/2026",
       "time": "15:37",
@@ -252,7 +291,7 @@
       "uf": "AM",
       "location": "Lábrea/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO vendaval. Proteja-se imediatamente: permaneca em local fechado e protegido. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-02T15:35:43-03:00",
       "expires": "2026-10-02T16:00:00-03:00"
     },
@@ -382,7 +421,7 @@
       "uf": "MG",
       "location": "Orizânia/MG",
       "headline": "Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-02T14:53:15-03:00",
       "expires": "2026-10-02T16:20:00-03:00"
     },
@@ -408,7 +447,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-02T14:40:56-03:00",
       "expires": "2026-10-02T16:20:00-03:00"
     },
@@ -447,7 +486,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Alerta de Tempestade com rajadas de vento e chuva moderada a forte. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-02T14:15:30-03:00",
       "expires": "2026-10-02T16:10:00-03:00"
     },
@@ -1672,100 +1711,22 @@
       "status": "expirado",
       "onset": "2026-10-01T16:26:55-03:00",
       "expires": "2026-10-01T18:24:00-03:00"
-    },
-    {
-      "date": "01/10/2026",
-      "time": "16:19",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-10-01T16:19:55-03:00",
-      "expires": "2026-10-01T18:18:00-03:00"
-    },
-    {
-      "date": "01/10/2026",
-      "time": "16:18",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:16:15 - Chuva se deslocando pela regiao de Cacapava e Taubate. Tem raios e vento. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-10-01T16:18:49-03:00",
-      "expires": "2026-10-01T23:35:00-03:00"
-    },
-    {
-      "date": "01/10/2026",
-      "time": "16:17",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-10-01T16:17:13-03:00",
-      "expires": "2026-10-01T18:14:00-03:00"
-    },
-    {
-      "date": "01/10/2026",
-      "time": "16:14",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:lerta de tempestade severa com rajadas de vento e chuva forte  com duracao de 02:00h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-10-01T16:14:20-03:00",
-      "expires": "2026-10-01T18:12:00-03:00"
-    },
-    {
-      "date": "01/10/2026",
-      "time": "16:11",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-10-01T16:11:39-03:00",
-      "expires": "2026-10-01T18:09:00-03:00"
-    },
-    {
-      "date": "01/10/2026",
-      "time": "15:49",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:15:45 - Chuva na regiao de Araraquara. Tem raios e vento. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
-      "status": "expirado",
-      "onset": "2026-10-01T15:49:07-03:00",
-      "expires": "2026-10-01T19:55:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 117,
+    "total_alerts": 114,
     "by_nivel": {
-      "Alto": 66,
-      "Médio": 34,
+      "Alto": 65,
+      "Médio": 32,
       "Severo": 16,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 117
+      "Google": 114
     },
     "by_region": {
-      "SE": 84,
-      "N": 21,
+      "SE": 80,
+      "N": 22,
       "S": 8,
       "CO": 4
     }
