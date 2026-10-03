@@ -1,13 +1,61 @@
 {
-  "generated_at": "2026-10-03T02:26:38.295230-03:00",
-  "source_run_dir": "run_20261003_022536",
+  "generated_at": "2026-10-03T08:46:18.195715-03:00",
+  "source_run_dir": "run_20261003_084556",
   "cards": {
-    "vigentes": 33,
-    "ultimas24h": 77,
-    "autoridadesAtivas": 2,
+    "vigentes": 28,
+    "ultimas24h": 76,
+    "autoridadesAtivas": 1,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "05:09",
+      "date": "03/10/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Deslizamentos",
+      "nivel": "Alto",
+      "location": "Mangaratiba/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ-Estao sendo registrados altos indices pluviometricos no municipio. Fique atento aos proximos avisos. ligue: 21 3030-2662/199/193.",
+      "status": "vigente"
+    },
+    {
+      "time": "04:07",
+      "date": "03/10/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "Mesquita/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Mesquita(03/10 4h): previsao de chuva fraca/moderada nas proximas horas. Evite areas alagadas e areas de risco. Emergencia:199",
+      "status": "vigente"
+    },
+    {
+      "time": "03:46",
+      "date": "03/10/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Niterói/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:03/10 03:40 Niteroi: previsao de chuva fraca a moderada, nas proximas horas. Emergencia, ligue 199.",
+      "status": "vigente"
+    },
+    {
+      "time": "03:03",
+      "date": "03/10/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Rio de Janeiro/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Tempo instavel na cidade do Rio com chuva prolongada. Solo encharcado, fique atento ao risco de deslizamento. 03/10. Emergencia, 199, 193",
+      "status": "vigente"
+    },
     {
       "time": "01:01",
       "date": "03/10/2026",
@@ -18,55 +66,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Atencao para chuva intensa nas proximas horas. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
-    },
-    {
-      "time": "00:06",
-      "date": "03/10/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Atencao para chuva intensa nas proximas horas. Siga as orientacoes da defesa civil local.",
       "status": "expirado"
-    },
-    {
-      "time": "00:00",
-      "date": "03/10/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Cantagalo/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:ATENCAO Sab 03/10 chuva fraca/moderada pontualmente forte. Dom. 04/10  chuva fraca/moderada e rapida Defesa Civil 199.",
-      "status": "vigente"
-    },
-    {
-      "time": "23:42",
-      "date": "02/10/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Caapiranga/AM, Anamã/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
-    },
-    {
-      "time": "22:40",
-      "date": "02/10/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Solo/Lama",
-      "nivel": "Severo",
-      "location": "Manaus/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro. Em caso de emergencia ligue: 199 e/ou 193.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
@@ -74,11 +74,6 @@
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
       "count": 76
-    },
-    {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 1
     }
   ],
   "level_distribution": [
@@ -88,7 +83,7 @@
     },
     {
       "label": "Médio",
-      "count": 20
+      "count": 19
     },
     {
       "label": "Alto",
@@ -102,15 +97,19 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 52
-    },
-    {
-      "label": "Inundações",
-      "count": 5
+      "count": 53
     },
     {
       "label": "Estiagem",
       "count": 5
+    },
+    {
+      "label": "Inundações",
+      "count": 4
+    },
+    {
+      "label": "Deslizamentos",
+      "count": 3
     },
     {
       "label": "Solo/Lama",
@@ -121,30 +120,26 @@
       "count": 3
     },
     {
-      "label": "Vendaval",
-      "count": 2
-    },
-    {
       "label": "Outros",
-      "count": 7
+      "count": 5
     }
   ],
   "uf_distribution": [
     {
       "uf": "MG",
-      "count": 27
-    },
-    {
-      "uf": "AM",
       "count": 26
     },
     {
+      "uf": "AM",
+      "count": 24
+    },
+    {
       "uf": "RJ",
-      "count": 12
+      "count": 16
     },
     {
       "uf": "RS",
-      "count": 5
+      "count": 4
     },
     {
       "uf": "MS",
@@ -161,23 +156,71 @@
     {
       "uf": "RO",
       "count": 1
-    },
-    {
-      "uf": "SC",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 33
+      "count": 28
     },
     {
       "label": "expirado",
-      "count": 44
+      "count": 48
     }
   ],
   "all_alerts": [
+    {
+      "date": "03/10/2026",
+      "time": "05:09",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Deslizamentos",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Mangaratiba/RJ",
+      "headline": "Defesa Civil:MANGARATIBA/RJ-Estao sendo registrados altos indices pluviometricos no municipio. Fique atento aos proximos avisos. ligue: 21 3030-2662/199/193.",
+      "status": "vigente",
+      "onset": "2026-10-03T05:09:51-03:00",
+      "expires": "2026-10-04T00:00:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "04:07",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Mesquita/RJ",
+      "headline": "Defesa Civil:Mesquita(03/10 4h): previsao de chuva fraca/moderada nas proximas horas. Evite areas alagadas e areas de risco. Emergencia:199",
+      "status": "vigente",
+      "onset": "2026-10-03T04:07:56-03:00",
+      "expires": "2026-10-04T00:00:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "03:46",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Niterói/RJ",
+      "headline": "Defesa Civil:03/10 03:40 Niteroi: previsao de chuva fraca a moderada, nas proximas horas. Emergencia, ligue 199.",
+      "status": "vigente",
+      "onset": "2026-10-03T03:46:06-03:00",
+      "expires": "2026-10-03T10:00:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "03:03",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Rio de Janeiro/RJ",
+      "headline": "Defesa Civil:Tempo instavel na cidade do Rio com chuva prolongada. Solo encharcado, fique atento ao risco de deslizamento. 03/10. Emergencia, 199, 193",
+      "status": "vigente",
+      "onset": "2026-10-03T03:03:01-03:00",
+      "expires": "2026-10-04T23:55:00-03:00"
+    },
     {
       "date": "03/10/2026",
       "time": "01:01",
@@ -187,7 +230,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Atencao para chuva intensa nas proximas horas. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-03T01:01:15-03:00",
       "expires": "2026-10-03T03:00:00-03:00"
     },
@@ -239,7 +282,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro. Em caso de emergencia ligue: 199 e/ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-02T22:40:01-03:00",
       "expires": "2026-10-03T05:00:00-03:00"
     },
@@ -252,7 +295,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA RISCO SEVERO: Deslizamento. Afaste-se de encostas. Procure abrigo seguro. Em caso de emergencia ligue: 199 e/ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-02T22:34:06-03:00",
       "expires": "2026-10-03T05:00:00-03:00"
     },
@@ -291,7 +334,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:Alerta de Alagamentos para Manaus. Siga as orientacoes da Defesa Civil Local. Evite transitar por vias alagadas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-02T22:07:51-03:00",
       "expires": "2026-10-03T05:00:00-03:00"
     },
@@ -304,7 +347,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de Chuva Intensa. Evite locais com risco de alagamento e enxurrada. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-02T22:04:46-03:00",
       "expires": "2026-10-03T05:00:00-03:00"
     },
@@ -629,7 +672,7 @@
       "uf": "RJ",
       "location": "Niterói/RJ",
       "headline": "Defesa Civil:Niteroi:Retorno para Estagio de VIGILANCIA as 15h05 desta sexta 02/10.Previsao de chuva fraca a moderada isolada nas proximas horas.Emergencia,199",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-02T15:31:09-03:00",
       "expires": "2026-10-03T06:00:00-03:00"
     },
@@ -1110,91 +1153,26 @@
       "uf": "RS",
       "location": "Alegrete/RS",
       "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Ibirapuita. Risco MUITO ALTO em Alegrete. Valido por 24h. Evite areas inundaveis. Emergencia: 190/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-02T09:34:13-03:00",
       "expires": "2026-10-03T08:15:00-03:00"
-    },
-    {
-      "date": "02/10/2026",
-      "time": "08:19",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Frentes Frias/Zonas De Convergência",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Belo Horizonte/MG",
-      "headline": "Defesa Civil:Chuva raios e ventos de 70 km/h ate 8h de sabado 03 em BH  Proteja-se Mais informacoes nas redes sociais  defesacivilbh",
-      "status": "vigente",
-      "onset": "2026-10-02T08:19:51-03:00",
-      "expires": "2026-10-03T08:00:00-03:00"
-    },
-    {
-      "date": "02/10/2026",
-      "time": "06:32",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-10-02T06:32:40-03:00",
-      "expires": "2026-10-02T09:30:00-03:00"
-    },
-    {
-      "date": "02/10/2026",
-      "time": "06:10",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Inundações",
-      "nivel": "Alto",
-      "uf": "RS",
-      "location": "Alegrete/RS",
-      "headline": "Defesa Civil:RS: Alerta LARANJA para elevacao do rio Ibirapuita. Risco ALTO de inundacao em Alegrete. Valido por 12h. Evite areas inundaveis. Emerg: 190/193.",
-      "status": "expirado",
-      "onset": "2026-10-02T06:10:21-03:00",
-      "expires": "2026-10-02T18:05:00-03:00"
-    },
-    {
-      "date": "02/10/2026",
-      "time": "05:46",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-10-02T05:46:41-03:00",
-      "expires": "2026-10-02T08:30:00-03:00"
-    },
-    {
-      "date": "02/10/2026",
-      "time": "03:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Ressaca",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Observação Marítima SDC/SC 01/10 09:20 - Mar agitado na sexta-feira (02). Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-10-02T03:00:00-03:00",
-      "expires": "2026-10-03T06:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 77,
+    "total_alerts": 76,
     "by_nivel": {
       "Alto": 46,
-      "Médio": 20,
+      "Médio": 19,
       "Severo": 10,
       "Baixo": 1
     },
     "by_channel_list": {
-      "Google": 77
+      "Google": 76
     },
     "by_region": {
-      "SE": 40,
-      "N": 28,
-      "S": 6,
+      "SE": 43,
+      "N": 26,
+      "S": 4,
       "CO": 3
     }
   }
