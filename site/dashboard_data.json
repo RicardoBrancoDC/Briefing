@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-03T18:31:36.554362-03:00",
-  "source_run_dir": "run_20261003_182950",
+  "generated_at": "2026-10-03T21:45:17.963123-03:00",
+  "source_run_dir": "run_20261003_214355",
   "cards": {
-    "vigentes": 47,
-    "ultimas24h": 81,
-    "autoridadesAtivas": 1,
+    "vigentes": 49,
+    "ultimas24h": 106,
+    "autoridadesAtivas": 2,
     "alertasExtremos": 2
   },
   "latest_alerts": [
     {
-      "time": "18:22",
+      "time": "21:32",
       "date": "03/10/2026",
       "senderName": "Defesa Civil Nacional",
       "senderNameShort": "Defesa Civil Nacional",
@@ -17,55 +17,55 @@
       "nivel": "Alto",
       "location": "RIO GRANDE DO SUL/RS",
       "uf": "RS",
-      "headline": "RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 20h20. Mantenha-se seguro",
+      "headline": "RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 23h. Mantenha-se seguro",
       "status": "vigente"
     },
     {
-      "time": "18:18",
+      "time": "21:19",
+      "date": "03/10/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de Tempestade Severa com granizo, vendaval e chuva forte nas proximas horas. Procure local e sguro e proteja-se!",
+      "status": "vigente"
+    },
+    {
+      "time": "21:15",
       "date": "03/10/2026",
       "senderName": "Defesa Civil Nacional",
       "senderNameShort": "Defesa Civil Nacional",
       "event": "Granizo",
       "nivel": "Severo",
-      "location": "RIO GRANDE DO SUL/RS",
-      "uf": "RS",
+      "location": "SANTA CATARINA/SC, RIO GRANDE DO SUL/RS",
+      "uf": "SC",
       "headline": "RS: Alerta VERMELHO p/ tempestade c/ GRANIZO GRANDE na prox. hora. Risco MUITO ALTO de destelhamento. ABRIGUE-SE. Emerg.190/193",
       "status": "vigente"
     },
     {
-      "time": "18:13",
+      "time": "21:01",
       "date": "03/10/2026",
       "senderName": "Defesa Civil Nacional",
       "senderNameShort": "Defesa Civil Nacional",
       "event": "Granizo",
-      "nivel": "Severo",
-      "location": "RIO GRANDE DO SUL/RS",
-      "uf": "RS",
-      "headline": "RS: Alerta VERMELHO p/ tempestade c/ GRANIZO GRANDE na prox. hora. Risco MUITO ALTO de destelhamento. ABRIGUE-SE. Emerg.190/193",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG, BAHIA/BA",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com granizo, vendaval e chuva forte nas proximas horas. Procure um local seguro e proteja-se!",
       "status": "vigente"
     },
     {
-      "time": "18:10",
+      "time": "21:00",
       "date": "03/10/2026",
       "senderName": "Defesa Civil Nacional",
       "senderNameShort": "Defesa Civil Nacional",
       "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:18h05 Chuva isolada na regiao de Araraquara, Rincao e Descalvado. Atinge municipios vizinhos. Tem raios e vento. Tenha cuidado nas proximas horas.",
-      "status": "vigente"
-    },
-    {
-      "time": "18:06",
-      "date": "03/10/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "location": "RIO GRANDE DO SUL/RS",
-      "uf": "RS",
-      "headline": "RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 20h10. Mantenha-se seguro",
+      "nivel": "Severo",
+      "location": "SANTA CATARINA/SC, RIO GRANDE DO SUL/RS",
+      "uf": "SC",
+      "headline": "Defesa Civil:SDC: ALERTA de tempestade severa com vendaval e granizo na prox. hora. BUSQUE ABRIGO longe de arvores, placas e postes de energia.Emerg 199/193.",
       "status": "vigente"
     }
   ],
@@ -73,21 +73,26 @@
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 81
+      "count": 105
+    },
+    {
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 1
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 38
+      "count": 44
     },
     {
       "label": "Alto",
-      "count": 27
+      "count": 37
     },
     {
       "label": "Severo",
-      "count": 14
+      "count": 23
     },
     {
       "label": "Extremo",
@@ -97,23 +102,23 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 47
+      "count": 53
     },
     {
       "label": "Vendaval",
-      "count": 11
+      "count": 17
+    },
+    {
+      "label": "Granizo",
+      "count": 16
     },
     {
       "label": "Inundações",
-      "count": 5
+      "count": 6
     },
     {
       "label": "Deslizamentos",
       "count": 5
-    },
-    {
-      "label": "Granizo",
-      "count": 4
     },
     {
       "label": "Alagamentos",
@@ -126,27 +131,31 @@
   ],
   "uf_distribution": [
     {
+      "uf": "RS",
+      "count": 29
+    },
+    {
       "uf": "RJ",
       "count": 20
     },
     {
       "uf": "AM",
-      "count": 17
-    },
-    {
-      "uf": "RS",
-      "count": 16
+      "count": 19
     },
     {
       "uf": "SP",
-      "count": 13
-    },
-    {
-      "uf": "MG",
-      "count": 8
+      "count": 16
     },
     {
       "uf": "SC",
+      "count": 9
+    },
+    {
+      "uf": "MG",
+      "count": 7
+    },
+    {
+      "uf": "MS",
       "count": 2
     },
     {
@@ -160,23 +169,383 @@
     {
       "uf": "MT",
       "count": 1
-    },
-    {
-      "uf": "MS",
-      "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 47
+      "count": 49
     },
     {
       "label": "expirado",
-      "count": 34
+      "count": 57
     }
   ],
   "all_alerts": [
+    {
+      "date": "03/10/2026",
+      "time": "21:32",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 23h. Mantenha-se seguro",
+      "status": "vigente",
+      "onset": "2026-10-03T21:32:34-03:00",
+      "expires": "2026-10-03T23:00:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "21:19",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de Tempestade Severa com granizo, vendaval e chuva forte nas proximas horas. Procure local e sguro e proteja-se!",
+      "status": "vigente",
+      "onset": "2026-10-03T21:19:50-03:00",
+      "expires": "2026-10-03T23:15:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "21:15",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC, RIO GRANDE DO SUL/RS",
+      "headline": "RS: Alerta VERMELHO p/ tempestade c/ GRANIZO GRANDE na prox. hora. Risco MUITO ALTO de destelhamento. ABRIGUE-SE. Emerg.190/193",
+      "status": "vigente",
+      "onset": "2026-10-03T21:15:00-03:00",
+      "expires": "2026-10-03T22:15:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "21:01",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG, BAHIA/BA",
+      "headline": "Defesa Civil:Alerta de Tempestade com granizo, vendaval e chuva forte nas proximas horas. Procure um local seguro e proteja-se!",
+      "status": "vigente",
+      "onset": "2026-10-03T21:01:42-03:00",
+      "expires": "2026-10-03T22:55:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "21:00",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC, RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:SDC: ALERTA de tempestade severa com vendaval e granizo na prox. hora. BUSQUE ABRIGO longe de arvores, placas e postes de energia.Emerg 199/193.",
+      "status": "vigente",
+      "onset": "2026-10-03T21:00:07-03:00",
+      "expires": "2026-10-03T21:55:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "21:00",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "MS",
+      "location": "MS, SP, SC, PR",
+      "headline": "PR AVISO DE TEMPO: Tempestades pontualmente severas desde o inicio deste dom 04/10. Mantenha-se atento e evite o risco. Ocorrencias ligue 199/193",
+      "status": "vigente",
+      "onset": "2026-10-03T21:00:00-03:00",
+      "expires": "2026-10-04T21:00:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "21:00",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Inundações",
+      "nivel": "Severo",
+      "uf": "RS",
+      "location": "Itaqui/RS",
+      "headline": "RS: Alerta VERMELHO: INUNDAÇÃO do rio Uruguai. Risco MUITO ALTO em Itaqui. Válido por 12h. Evite áreas inundáveis. Emergência: 190/193.",
+      "status": "vigente",
+      "onset": "2026-10-03T21:00:00-03:00",
+      "expires": "2026-10-04T09:00:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "20:52",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC, RIO GRANDE DO SUL/RS",
+      "headline": "RS: Alerta VERMELHO p/ tempestade c/ GRANIZO GRANDE na prox. hora. Risco MUITO ALTO de destelhamento. ABRIGUE-SE. Emerg.190/193",
+      "status": "vigente",
+      "onset": "2026-10-03T20:52:08-03:00",
+      "expires": "2026-10-03T21:50:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "20:47",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP, PARANÁ/PR",
+      "headline": "PR AVISO DE TEMPO: Tempestades pontualmente intensas desde o inicio deste dom 04/10. Mantenha-se atento e evite o risco. Ocorrencias ligue 199/193",
+      "status": "vigente",
+      "onset": "2026-10-03T20:47:30-03:00",
+      "expires": "2026-10-04T21:00:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "20:43",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 22h. Mantenha-se seguro",
+      "status": "vigente",
+      "onset": "2026-10-03T20:43:12-03:00",
+      "expires": "2026-10-03T22:00:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "20:39",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite transitar por areas de risco. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-10-03T20:39:03-03:00",
+      "expires": "2026-10-04T02:00:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "20:35",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:Alerta de Vendaval",
+      "status": "vigente",
+      "onset": "2026-10-03T20:35:08-03:00",
+      "expires": "2026-10-03T22:00:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "20:15",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "RS: Alerta VERMELHO p/ tempestade c/ GRANIZO GRANDE na prox. hora. Risco MUITO ALTO de destelhamento. ABRIGUE-SE. Emerg.190/193",
+      "status": "expirado",
+      "onset": "2026-10-03T20:15:06-03:00",
+      "expires": "2026-10-03T21:05:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "19:47",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 21h50. Mantenha-se seguro",
+      "status": "vigente",
+      "onset": "2026-10-03T19:47:18-03:00",
+      "expires": "2026-10-03T21:50:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "19:45",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:Risco identificado: granizo  5cm",
+      "status": "expirado",
+      "onset": "2026-10-03T19:45:42-03:00",
+      "expires": "2026-10-03T20:40:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "19:41",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC, RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:ATENCAO - 03/10 19:35 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e GRANIZO nas proximas 4 horas. Ocorrencias ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-10-03T19:41:05-03:00",
+      "expires": "2026-10-03T23:40:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "19:23",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "RS: Alerta VERMELHO p/ tempestade c/ GRANIZO GRANDE na prox. hora. Risco MUITO ALTO de destelhamento. ABRIGUE-SE. Emerg.190/193",
+      "status": "expirado",
+      "onset": "2026-10-03T19:23:37-03:00",
+      "expires": "2026-10-03T20:25:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "19:13",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "RS: Alerta VERMELHO p/ tempestade c/ GRANIZO GRANDE na prox. hora. Risco MUITO ALTO de destelhamento. ABRIGUE-SE. Emerg.190/193",
+      "status": "expirado",
+      "onset": "2026-10-03T19:13:40-03:00",
+      "expires": "2026-10-03T20:15:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "19:10",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 21h10. Mantenha-se seguro",
+      "status": "expirado",
+      "onset": "2026-10-03T19:10:44-03:00",
+      "expires": "2026-10-03T21:10:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "19:06",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Maraã/AM, Tefé/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite transitar por areas de risco. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-10-03T19:06:08-03:00",
+      "expires": "2026-10-03T21:50:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "19:00",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Observação Meteorológica SDC/SC 01/10 11:35 - Temporais com vendaval e chuva pontualmente intensa entre o final do sábado (03) e o início do domingo (04). Ocorrência ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-10-03T19:00:00-03:00",
+      "expires": "2026-10-04T05:00:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "18:49",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "RS: Alerta LARANJA. Condição de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 20h50. Mantenha-se seguro",
+      "status": "expirado",
+      "onset": "2026-10-03T18:49:14-03:00",
+      "expires": "2026-10-03T20:50:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "18:43",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "Marília/SP, Vera Cruz/SP",
+      "headline": "Defesa Civil:18h40 Chuva isolada na regiao de Marilia e Vera Cruz. Atinge municipios vizinhos. Tem raios e vento. Tenha cuidado nas proximas horas.",
+      "status": "expirado",
+      "onset": "2026-10-03T18:43:47-03:00",
+      "expires": "2026-10-03T20:40:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "18:40",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "RS: Alerta VERMELHO p/ tempestade c/ GRANIZO GRANDE e VENDAVAL na prox. hora. Risco MUITO ALTO de destelhamento. ABRIGUE-SE. Emerg.190/193",
+      "status": "expirado",
+      "onset": "2026-10-03T18:40:24-03:00",
+      "expires": "2026-10-03T19:40:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "18:37",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC, RIO GRANDE DO SUL/RS",
+      "headline": "RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 21h. Mantenha-se seguro",
+      "status": "expirado",
+      "onset": "2026-10-03T18:37:22-03:00",
+      "expires": "2026-10-03T21:00:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "18:36",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Severo",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "RS: Alerta VERMELHO p/ tempestade c/ GRANIZO GRANDE na prox. hora. Risco MUITO ALTO de destelhamento. ABRIGUE-SE. Emerg.190/193",
+      "status": "expirado",
+      "onset": "2026-10-03T18:36:48-03:00",
+      "expires": "2026-10-03T19:35:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "18:33",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SC, PR, RS",
+      "headline": "OBSERVAÇÃO - 03/10 18:28 - TEMPORAIS com RAIOS, RAJADAS DE VENTO e GRANIZO para as regiões do Extremo Oeste, Oeste, Meio-Oeste e Planalto Sul nas próximas 6 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-10-03T18:33:49-03:00",
+      "expires": "2026-10-04T00:30:00-03:00"
+    },
+    {
+      "date": "03/10/2026",
+      "time": "18:33",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:18h20 Chuva isolada na regiao de Sorocaba, Itu e Mairinque. Atinge municipios vizinhos. Tem raios e vento. Tenha cuidado nas proximas horas.",
+      "status": "expirado",
+      "onset": "2026-10-03T18:33:07-03:00",
+      "expires": "2026-10-03T20:20:00-03:00"
+    },
     {
       "date": "03/10/2026",
       "time": "18:22",
@@ -186,7 +555,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 20h20. Mantenha-se seguro",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-03T18:22:54-03:00",
       "expires": "2026-10-03T20:20:00-03:00"
     },
@@ -199,7 +568,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "RS: Alerta VERMELHO p/ tempestade c/ GRANIZO GRANDE na prox. hora. Risco MUITO ALTO de destelhamento. ABRIGUE-SE. Emerg.190/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-03T18:18:54-03:00",
       "expires": "2026-10-03T19:20:00-03:00"
     },
@@ -212,7 +581,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "RS: Alerta VERMELHO p/ tempestade c/ GRANIZO GRANDE na prox. hora. Risco MUITO ALTO de destelhamento. ABRIGUE-SE. Emerg.190/193",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-03T18:13:38-03:00",
       "expires": "2026-10-03T19:10:00-03:00"
     },
@@ -225,7 +594,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:18h05 Chuva isolada na regiao de Araraquara, Rincao e Descalvado. Atinge municipios vizinhos. Tem raios e vento. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-03T18:10:31-03:00",
       "expires": "2026-10-03T20:05:00-03:00"
     },
@@ -238,7 +607,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 20h10. Mantenha-se seguro",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-03T18:06:52-03:00",
       "expires": "2026-10-03T20:10:00-03:00"
     },
@@ -277,7 +646,7 @@
       "uf": "SP",
       "location": "Laranjal Paulista/SP, Capivari/SP",
       "headline": "Defesa Civil:17h55 Chuva isolada na regiao de Laranjal Paulista e Capivari. Atinge municipios vizinhos. Tem raios e vento. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-03T17:57:10-03:00",
       "expires": "2026-10-03T19:55:00-03:00"
     },
@@ -290,7 +659,7 @@
       "uf": "SP",
       "location": "Avanhandava/SP",
       "headline": "Defesa Civil:17h50 Chuva isolada na regiao de Avanhandava. Atinge municipios vizinhos. Tem raios e vento. Tenha cuidado nas proximas horas",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-03T17:52:35-03:00",
       "expires": "2026-10-03T19:50:00-03:00"
     },
@@ -303,7 +672,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 19h50. Mantenha-se seguro",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-03T17:50:19-03:00",
       "expires": "2026-10-03T19:50:00-03:00"
     },
@@ -316,7 +685,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte nas proximas horas. Procure local seguro.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-03T17:35:30-03:00",
       "expires": "2026-10-03T19:15:00-03:00"
     },
@@ -329,7 +698,7 @@
       "uf": "SP",
       "location": "Presidente Epitácio/SP",
       "headline": "Defesa Civil:17h20 Chuva isolada na regiao de Presidente Epitacio. Atinge municipios vizinhos. Tem raios e vento. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-03T17:29:13-03:00",
       "expires": "2026-10-03T19:20:00-03:00"
     },
@@ -342,7 +711,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 19h20. Mantenha-se seguro",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-03T17:22:53-03:00",
       "expires": "2026-10-03T19:20:00-03:00"
     },
@@ -355,7 +724,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-03T17:18:57-03:00",
       "expires": "2026-10-03T20:00:00-03:00"
     },
@@ -368,7 +737,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "RS: Alerta LARANJA. Condição de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 19h15. Mantenha-se seguro",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-03T17:18:43-03:00",
       "expires": "2026-10-03T19:15:00-03:00"
     },
@@ -381,7 +750,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:17h00 Chuva isolada na regiao de Buritama, Zacarias e Barbosa. Atinge municipios vizinhos. Tem raios e vento. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-03T17:03:24-03:00",
       "expires": "2026-10-03T19:00:00-03:00"
     },
@@ -394,7 +763,7 @@
       "uf": "RS",
       "location": "RIO GRANDE DO SUL/RS",
       "headline": "RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ vento e granizo. Risco ALTO de destelhamento. Val. ate 18h45. Mantenha-se seguro",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-03T16:47:54-03:00",
       "expires": "2026-10-03T18:45:00-03:00"
     },
@@ -1190,63 +1559,24 @@
       "status": "expirado",
       "onset": "2026-10-02T22:01:58-03:00",
       "expires": "2026-10-02T23:00:00-03:00"
-    },
-    {
-      "date": "02/10/2026",
-      "time": "19:31",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Severo",
-      "uf": "MG",
-      "location": "Cataguases/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com chuva forte com rajadas de vento. Procure local seguro, evite areas abertas e arvores Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-10-02T19:31:29-03:00",
-      "expires": "2026-10-02T21:20:00-03:00"
-    },
-    {
-      "date": "02/10/2026",
-      "time": "18:59",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se",
-      "status": "expirado",
-      "onset": "2026-10-02T18:59:29-03:00",
-      "expires": "2026-10-02T20:50:00-03:00"
-    },
-    {
-      "date": "02/10/2026",
-      "time": "18:38",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h.Proteja-se",
-      "status": "expirado",
-      "onset": "2026-10-02T18:38:49-03:00",
-      "expires": "2026-10-02T20:30:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 81,
+    "total_alerts": 106,
     "by_nivel": {
-      "Médio": 38,
-      "Alto": 27,
-      "Severo": 14,
+      "Médio": 44,
+      "Alto": 37,
+      "Severo": 23,
       "Extremo": 2
     },
     "by_channel_list": {
-      "Google": 81
+      "Google": 106
     },
     "by_region": {
-      "SE": 43,
-      "S": 18,
-      "N": 17,
-      "CO": 2,
+      "SE": 45,
+      "S": 38,
+      "N": 19,
+      "CO": 3,
       "NE": 1
     }
   }
