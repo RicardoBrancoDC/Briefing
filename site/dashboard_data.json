@@ -1,27 +1,63 @@
 {
-  "generated_at": "2026-10-17T12:44:26.154750-03:00",
-  "source_run_dir": "run_20261017_124341",
+  "generated_at": "2026-10-17T15:35:13.725616-03:00",
+  "source_run_dir": "run_20261017_153425",
   "cards": {
-    "vigentes": 33,
-    "ultimas24h": 147,
-    "autoridadesAtivas": 24,
-    "alertasExtremos": 0
+    "vigentes": 34,
+    "ultimas24h": 132,
+    "autoridadesAtivas": 21,
+    "alertasExtremos": 1
   },
   "latest_alerts": [
     {
-      "time": "12:30",
+      "time": "15:23",
+      "date": "17/10/2026",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "senderNameShort": "DC Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Linhares/ES",
+      "uf": "ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA,RAIOS e GRANIZO para Linhares nas proximas 05 horas. Proteja-se. Emergencia ligue 193.",
+      "status": "vigente"
+    },
+    {
+      "time": "15:06",
+      "date": "17/10/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se!",
+      "status": "vigente"
+    },
+    {
+      "time": "15:01",
+      "date": "17/10/2026",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "senderNameShort": "DC Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Defesa Civil Estadual do Espírito Santo",
+      "uf": "ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA, VENTOS, RAIOS e GRANIZO para Cachoeiro de Itapemirim e Rio Novo do Sul nas proximas 02 horas. Emergencia 193",
+      "status": "vigente"
+    },
+    {
+      "time": "14:53",
       "date": "17/10/2026",
       "senderName": "Defesa Civil Nacional",
       "senderNameShort": "Defesa Civil Nacional",
       "event": "Chuvas Intensas",
       "nivel": "Alto",
-      "location": "Duque de Caxias/RJ",
-      "uf": "RJ",
-      "headline": "Defesa Civil:Permanece as condicoes para CHUVAS MODERADAS com RAJADAS DE VENTOS (TARDE/NOITE, 17/10) em Duque de Caxias. Evite areas alagadas, 21 99463-7387.",
-      "status": "vigente"
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
+      "status": "expirado"
     },
     {
-      "time": "12:28",
+      "time": "14:46",
       "date": "17/10/2026",
       "senderName": "Defesa Civil Nacional",
       "senderNameShort": "Defesa Civil Nacional",
@@ -31,64 +67,23 @@
       "uf": "MG",
       "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
       "status": "vigente"
-    },
-    {
-      "time": "12:18",
-      "date": "17/10/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Governador Valadares/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se!",
-      "status": "vigente"
-    },
-    {
-      "time": "12:10",
-      "date": "17/10/2026",
-      "senderName": "Defesa Civil de Belo Horizonte (MG)",
-      "senderNameShort": "DC Belo Horizonte (MG)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "location": "Belo Horizonte/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Chuva, raios e ventos de 60 km/h ate 8h de domingo (18) em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
-      "status": "vigente"
-    },
-    {
-      "time": "12:02",
-      "date": "17/10/2026",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "senderNameShort": "DC Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Humaitá/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 35
-    },
-    {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 28
+      "count": 40
+    },
+    {
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
+      "count": 27
     },
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 19
-    },
-    {
-      "name": "Defesa Civil Estadual de Santa Catarina",
-      "short_name": "DC Santa Catarina",
-      "count": 12
+      "count": 14
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
@@ -96,29 +91,34 @@
       "count": 11
     },
     {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 9
-    },
-    {
       "name": "Defesa Civil Estadual do Espírito Santo",
       "short_name": "DC Espírito Santo",
-      "count": 6
+      "count": 8
     },
     {
-      "name": "Defesa Civil Estadual do Rio de Janeiro",
-      "short_name": "DC Rio de Janeiro",
-      "count": 5
+      "name": "Defesa Civil Estadual de Santa Catarina",
+      "short_name": "DC Santa Catarina",
+      "count": 8
+    },
+    {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 8
+    },
+    {
+      "name": "Defesa Civil de Belo Horizonte (MG)",
+      "short_name": "DC Belo Horizonte (MG)",
+      "count": 2
     },
     {
       "name": "Defesa Civil de Niterói (RJ)",
       "short_name": "DC Niterói (RJ)",
-      "count": 3
+      "count": 2
     },
     {
-      "name": "Defesa Civil de Belford Roxo (RJ)",
-      "short_name": "DC Belford Roxo (RJ)",
-      "count": 2
+      "name": "Defesa Civil de Três Rios (RJ)",
+      "short_name": "DC Três Rios (RJ)",
+      "count": 1
     }
   ],
   "level_distribution": [
@@ -128,33 +128,33 @@
     },
     {
       "label": "Médio",
-      "count": 56
+      "count": 41
     },
     {
       "label": "Alto",
-      "count": 78
+      "count": 77
     },
     {
       "label": "Severo",
       "count": 12
+    },
+    {
+      "label": "Extremo",
+      "count": 1
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 130
+      "count": 117
     },
     {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
       "count": 6
     },
     {
-      "label": "Estiagem",
-      "count": 5
-    },
-    {
       "label": "Granizo",
-      "count": 2
+      "count": 5
     },
     {
       "label": "Ressaca",
@@ -165,29 +165,29 @@
       "count": 1
     },
     {
+      "label": "Deslizamentos",
+      "count": 1
+    },
+    {
       "label": "Outros",
-      "count": 2
+      "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "MG",
-      "count": 41
-    },
-    {
-      "uf": "RJ",
-      "count": 29
+      "count": 50
     },
     {
       "uf": "SP",
-      "count": 23
+      "count": 22
+    },
+    {
+      "uf": "RJ",
+      "count": 15
     },
     {
       "uf": "AM",
-      "count": 19
-    },
-    {
-      "uf": "SC",
       "count": 14
     },
     {
@@ -195,12 +195,16 @@
       "count": 11
     },
     {
+      "uf": "SC",
+      "count": 9
+    },
+    {
       "uf": "ES",
-      "count": 6
+      "count": 8
     },
     {
       "uf": "RO",
-      "count": 2
+      "count": 1
     },
     {
       "uf": "MT",
@@ -214,14 +218,339 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 33
+      "count": 34
     },
     {
       "label": "expirado",
-      "count": 114
+      "count": 98
     }
   ],
   "all_alerts": [
+    {
+      "date": "17/10/2026",
+      "time": "15:23",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "ES",
+      "location": "Linhares/ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA,RAIOS e GRANIZO para Linhares nas proximas 05 horas. Proteja-se. Emergencia ligue 193.",
+      "status": "vigente",
+      "onset": "2026-10-17T15:23:19-03:00",
+      "expires": "2026-10-17T21:00:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "15:06",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-10-17T15:06:41-03:00",
+      "expires": "2026-10-17T16:58:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "15:01",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "ES",
+      "location": "Defesa Civil Estadual do Espírito Santo",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA, VENTOS, RAIOS e GRANIZO para Cachoeiro de Itapemirim e Rio Novo do Sul nas proximas 02 horas. Emergencia 193",
+      "status": "vigente",
+      "onset": "2026-10-17T15:01:35-03:00",
+      "expires": "2026-10-17T17:00:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "14:53",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
+      "status": "expirado",
+      "onset": "2026-10-17T14:53:27-03:00",
+      "expires": "2026-10-17T14:50:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "14:46",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-10-17T14:46:12-03:00",
+      "expires": "2026-10-17T16:40:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "14:41",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se",
+      "status": "vigente",
+      "onset": "2026-10-17T14:41:27-03:00",
+      "expires": "2026-10-17T16:36:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "14:38",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "ES",
+      "location": "Atilio Vivacqua/ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA, VENTOS, RAIOS e GRANIZO para Atilio Vivacquae nas proximas 02 horas. Proteja-se. Emergencia ligue 193.",
+      "status": "vigente",
+      "onset": "2026-10-17T14:38:09-03:00",
+      "expires": "2026-10-17T16:00:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "14:35",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-10-17T14:35:43-03:00",
+      "expires": "2026-10-17T16:29:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "14:31",
+      "senderName": "Defesa Civil de Três Rios (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Três Rios/RJ",
+      "headline": "Defesa Civil:Tres Rios 17/10: Possibilidade pancadas moderada a forte nas proximas 24h, ventos intensos e relampagos. Emergencia 193(CBMERJ) e 199(Def. Civil)",
+      "status": "vigente",
+      "onset": "2026-10-17T14:31:55-03:00",
+      "expires": "2026-11-18T10:00:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "14:29",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "Brasilândia de Minas/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com ventos raios e chuva agora em Brasilandia ate 17h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-10-17T14:29:24-03:00",
+      "expires": "2026-10-17T17:00:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "14:24",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Extremo",
+      "uf": "MG",
+      "location": "Tumiritinga/MG",
+      "headline": "Defesa Civil:Alerta tempestade com rajadas de vento e chuva forte no municipio de Tumiritinga. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-10-17T14:24:12-03:00",
+      "expires": "2026-10-17T16:18:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "14:17",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade Severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-10-17T14:17:57-03:00",
+      "expires": "2026-10-17T16:14:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "13:53",
+      "senderName": "Defesa Civil de Magé (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Magé/RJ",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Mage/RJ. Prepare-se, evite areas de risco, procure locais seguros e pontos de  apoio da Prefeitura, emergencia 193",
+      "status": "vigente",
+      "onset": "2026-10-17T13:53:07-03:00",
+      "expires": "2026-10-18T09:00:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "13:46",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "ES",
+      "location": "ESPÍRITO SANTO/ES",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas para ESPIRITO SANTO/ES. Siga as orientacoes da defesa civil local e do plano de contingencia municipal. Em caso de emerg",
+      "status": "vigente",
+      "onset": "2026-10-17T13:46:03-03:00",
+      "expires": "2026-10-17T16:45:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "13:22",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "Sobrália/MG, Tarumirim/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
+      "status": "expirado",
+      "onset": "2026-10-17T13:22:06-03:00",
+      "expires": "2026-10-17T15:06:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "13:17",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "João Pinheiro/MG",
+      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se!",
+      "status": "expirado",
+      "onset": "2026-10-17T13:17:23-03:00",
+      "expires": "2026-10-17T15:12:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "13:16",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
+      "status": "vigente",
+      "onset": "2026-10-17T13:16:58-03:00",
+      "expires": "2026-10-18T15:10:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "13:09",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "Peçanha/MG, Virgolândia/MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
+      "status": "expirado",
+      "onset": "2026-10-17T13:09:50-03:00",
+      "expires": "2026-10-17T15:04:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "13:08",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
+      "status": "expirado",
+      "onset": "2026-10-17T13:08:17-03:00",
+      "expires": "2026-10-17T14:50:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "13:04",
+      "senderName": "Defesa Civil de Belo Horizonte (MG)",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "Belo Horizonte/MG",
+      "headline": "Defesa Civil:12h55 - Chuva de intensidade moderada a forte nas proximas 2 horas em BH. Proteja-se! Mais informacoes nas redes sociais: defesacivilbh",
+      "status": "expirado",
+      "onset": "2026-10-17T13:04:24-03:00",
+      "expires": "2026-10-17T15:03:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "12:59",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
+      "status": "expirado",
+      "onset": "2026-10-17T12:59:39-03:00",
+      "expires": "2026-10-17T14:54:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "12:58",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "Carauari/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Atencao para chuva intensa nas proximas horas. Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-10-17T12:58:52-03:00",
+      "expires": "2026-10-17T15:00:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "12:56",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
+      "status": "expirado",
+      "onset": "2026-10-17T12:56:34-03:00",
+      "expires": "2026-10-17T14:50:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "12:52",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com rajadas de vento e chuva moderada a forte as 12:40h com duracao de 02:00h. Proteja-se!",
+      "status": "expirado",
+      "onset": "2026-10-17T12:52:26-03:00",
+      "expires": "2026-10-17T14:45:00-03:00"
+    },
+    {
+      "date": "17/10/2026",
+      "time": "12:48",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "ES",
+      "location": "Linhares/ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA, VENTOS, RAIOS para Linhares nas proximas 02 horas. Proteja-se. Emergencia ligue 193.",
+      "status": "expirado",
+      "onset": "2026-10-17T12:48:41-03:00",
+      "expires": "2026-10-17T14:45:00-03:00"
+    },
     {
       "date": "17/10/2026",
       "time": "12:30",
@@ -244,7 +573,7 @@
       "uf": "MG",
       "location": "MINAS GERAIS/MG",
       "headline": "Defesa Civil:Alerta de tempestade com rajadas de vento e chuva moderada a forte com duracao de 02:00h. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-17T12:28:07-03:00",
       "expires": "2026-10-17T14:20:00-03:00"
     },
@@ -257,7 +586,7 @@
       "uf": "MG",
       "location": "Governador Valadares/MG",
       "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-17T12:18:39-03:00",
       "expires": "2026-10-17T14:10:00-03:00"
     },
@@ -283,7 +612,7 @@
       "uf": "AM",
       "location": "Humaitá/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-17T12:02:50-03:00",
       "expires": "2026-10-17T14:00:00-03:00"
     },
@@ -348,7 +677,7 @@
       "uf": "AM",
       "location": "Barcelos/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: vendaval. Proteja-se imediatamente: permaneca em local fechado e protegido. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-17T11:19:13-03:00",
       "expires": "2026-10-17T13:30:00-03:00"
     },
@@ -452,7 +781,7 @@
       "uf": "ES",
       "location": "Atilio Vivacqua/ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA, VENTOS, RAIOS e GRANIZO para toda a Regiao Sul do ES nas proximas 06 horas. Proteja-se. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-17T08:29:06-03:00",
       "expires": "2026-10-17T14:00:00-03:00"
     },
@@ -465,7 +794,7 @@
       "uf": "ES",
       "location": "ESPÍRITO SANTO/ES",
       "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA, VENTOS, RAIOS e GRANIZO para toda a Regiao Sul do ES nas proximas 06 horas. Proteja-se. Emergencia ligue 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-17T08:21:30-03:00",
       "expires": "2026-10-17T14:00:00-03:00"
     },
@@ -1612,543 +1941,24 @@
       "status": "expirado",
       "onset": "2026-10-16T15:38:29-03:00",
       "expires": "2026-10-16T16:40:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "15:34",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Defesa Civil:ATENCAO - 16/10 15:32 - TEMPORAL com RAIOS, RAJADAS DE VENTO e ALAGAMENTOS na proxima hora. Fique atento. Ocorrencias ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-10-16T15:34:52-03:00",
-      "expires": "2026-10-16T16:35:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "15:28",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "ESPÍRITO SANTO/ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA, VENTO, RAIOS e GRANIZO NA REGIAO Noroeste nas proximas 07 horas. Proteja-se. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-10-16T15:28:01-03:00",
-      "expires": "2026-10-16T22:00:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "15:20",
-      "senderName": "Defesa Civil de Belford Roxo (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Belford Roxo/RJ",
-      "headline": "Defesa Civil:BELFORD ROXO/ATENCAO: Hoje (16/10), risco de chuva moderada a forte, raios e rajadas de vento. Evite alagamentos. Emergencia: (21) 96720-0158/193.",
-      "status": "expirado",
-      "onset": "2026-10-16T15:20:10-03:00",
-      "expires": "2026-10-16T23:59:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "15:17",
-      "senderName": "Defesa Civil de Guapimirim (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Guapimirim/RJ",
-      "headline": "Defesa Civil:Guapimirim informa-previsao de chuva moderada a forte com raios e ventos intensos nas proximas horas. Emergencia Ligue:2632-2947 ou 199.",
-      "status": "expirado",
-      "onset": "2026-10-16T15:17:14-03:00",
-      "expires": "2026-10-17T08:10:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "15:08",
-      "senderName": "Defesa Civil de Nova Friburgo (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Nova Friburgo/RJ",
-      "headline": "Defesa Civil:NF/Pancadas de chuva moderada a forte com raios e rajadas de vento hoje (16/10). Emergencia, ligue 199/193.",
-      "status": "expirado",
-      "onset": "2026-10-16T15:08:34-03:00",
-      "expires": "2026-10-17T00:00:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "15:07",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com chuva moderada a forte. Proteja-se!!!",
-      "status": "expirado",
-      "onset": "2026-10-16T15:07:54-03:00",
-      "expires": "2026-10-16T16:10:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "14:57",
-      "senderName": "Defesa Civil de Magé (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Magé/RJ",
-      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Mage/RJ Previsao de chuva com raios e rajadas de vento hoje ate amanha 17/10, tel 193, 21 986445425 e 993325170.",
-      "status": "expirado",
-      "onset": "2026-10-16T14:57:16-03:00",
-      "expires": "2026-10-17T09:00:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "14:54",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Duque de Caxias/RJ",
-      "headline": "Defesa Civil:Permanece as condicoes para CHUVAS MODERADAS com RAJADAS DE VENTOS (TARDE/NOITE, 16/10) em Duque de Caxias. Evite areas alagadas, 21 99463-7387.",
-      "status": "expirado",
-      "onset": "2026-10-16T14:54:15-03:00",
-      "expires": "2026-10-17T11:55:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "14:50",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Alerta de Tempestade com chuva moderada a forte. Proteja-se!!!",
-      "status": "expirado",
-      "onset": "2026-10-16T14:50:34-03:00",
-      "expires": "2026-10-16T15:45:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "14:47",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 16/10 14:44 - TEMPORAIS ISOLADOS com RAIOS, GRANIZO, RAJADAS DE VENTO e ALAGAMENTOS pontuais para as regiões do Planalto Sul e Litoral Sul nas próximas 3 horas. Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
-      "onset": "2026-10-16T14:47:18-03:00",
-      "expires": "2026-10-17T17:50:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "14:45",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Itaguaí/RJ",
-      "headline": "Defesa Civil:Itaguai: Pancadas de chuva moderada a forte com raios e rajadas de vento hoje (16/10). Emergencia, ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-10-16T14:45:34-03:00",
-      "expires": "2026-10-17T00:00:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "14:40",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "ESPÍRITO SANTO/ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA, VENTO, RAIOS e GRANIZO NA REGIAO Serrana nas proximas 08 horas. Proteja-se. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-10-16T14:40:57-03:00",
-      "expires": "2026-10-16T22:00:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "14:38",
-      "senderName": "Defesa Civil Estadual do Espírito Santo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "ES",
-      "location": "ESPÍRITO SANTO/ES",
-      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSA, VENTO, RAIOS e GRANIZO NA REGIAO SUL nas proximas 08 horas. Proteja-se. Emergencia ligue 193.",
-      "status": "expirado",
-      "onset": "2026-10-16T14:38:38-03:00",
-      "expires": "2026-10-16T22:00:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "14:31",
-      "senderName": "Defesa Civil de Petrópolis (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Petrópolis/RJ",
-      "headline": "Defesa Civil:PETROPOLIS Previsao de chuva moderada a forte com raios e rajadas de vento. Evite areas alagadas/inundadas. Emergencia 199. 16/10 14:32",
-      "status": "expirado",
-      "onset": "2026-10-16T14:31:52-03:00",
-      "expires": "2026-10-17T10:00:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "14:30",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Saquarema/RJ",
-      "headline": "Defesa Civil:Pancadas de chuva moderada a forte com raios e rajadas de vento hoje (16/10). Emergencia, ligue 22992115580",
-      "status": "expirado",
-      "onset": "2026-10-16T14:30:00-03:00",
-      "expires": "2026-10-17T00:00:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "14:25",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Nilópolis/RJ",
-      "headline": "Defesa Civil:Pancadas de chuva moderada a forte com raios e rajadas de vento hoje (16/10). Emergencia, ligue 21978941954.",
-      "status": "expirado",
-      "onset": "2026-10-16T14:25:00-03:00",
-      "expires": "2026-10-17T00:00:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "14:24",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Mesquita/RJ",
-      "headline": "Defesa Civil:Mesquita(16/10 14:25):pancadas de chuva moderada/forte, com raios, nas proximas horas. Evite areas alagadas e areas de risco. Emergencia:199",
-      "status": "expirado",
-      "onset": "2026-10-16T14:24:27-03:00",
-      "expires": "2026-10-16T21:00:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "14:23",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com chuva moderada a forte. Proteja-se!!!",
-      "status": "expirado",
-      "onset": "2026-10-16T14:23:44-03:00",
-      "expires": "2026-10-16T15:30:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "14:20",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa.  Chuva intensa pode causar alagamentos pontuais.   Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-10-16T14:20:25-03:00",
-      "expires": "2026-10-16T18:10:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "14:20",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "RIO DE JANEIRO/RJ",
-      "headline": "Defesa Civil:Pancadas de chuva moderada a forte com raios e rajadas de vento hoje (16/10). Emergencia, ligue 199.",
-      "status": "expirado",
-      "onset": "2026-10-16T14:20:00-03:00",
-      "expires": "2026-10-17T00:00:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "14:20",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Itaocara/RJ",
-      "headline": "Defesa Civil:Pancadas de chuva moderada a forte com raios e rajadas de vento hoje (16/10). Emergencia, ligue 22981410895",
-      "status": "expirado",
-      "onset": "2026-10-16T14:20:00-03:00",
-      "expires": "2026-10-17T00:00:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "14:19",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Nova Iguaçu/RJ",
-      "headline": "Defesa Civil: Nova Iguacu: ESTAGIO DE ATENCAO. CHUVA FORTE e RAIOS entre tarde de hoje(16/10) e madrugada de Sabado(17/10).Emergencia:199.",
-      "status": "expirado",
-      "onset": "2026-10-16T14:19:52-03:00",
-      "expires": "2026-10-17T06:00:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "14:15",
-      "senderName": "Defesa Civil de Blumenau (SC)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "Blumenau/SC",
-      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Pancadas de chuva c/ trovoadas na regiao Norte de Blumenau nas prox. 02h. RISCO DE CHUVA INTENSA. Fique atento! Emerg 199/193.",
-      "status": "expirado",
-      "onset": "2026-10-16T14:15:30-03:00",
-      "expires": "2026-10-16T16:30:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "14:10",
-      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "RIO DE JANEIRO/RJ",
-      "headline": "Defesa Civil:Pancadas de chuva moderada a forte com raios e rajadas de vento hoje (16/10). Emergencia, ligue 199.",
-      "status": "expirado",
-      "onset": "2026-10-16T14:10:00-03:00",
-      "expires": "2026-10-17T00:00:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "14:07",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:14:00 - Chuva isolada entre os municipios de Duartina, Santa Cruz do Rio Pardo e Agudos. Tem raios e vento. Atinge municipios vizinhos. Cuidado!",
-      "status": "expirado",
-      "onset": "2026-10-16T14:07:22-03:00",
-      "expires": "2026-10-16T19:30:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "13:52",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com chuva moderada a forte. Proteja-se!!!",
-      "status": "expirado",
-      "onset": "2026-10-16T13:52:51-03:00",
-      "expires": "2026-10-16T14:50:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "13:51",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Alerta de Tempestade com chuva moderada a forte. Proteja-se!!!",
-      "status": "expirado",
-      "onset": "2026-10-16T13:51:00-03:00",
-      "expires": "2026-10-16T15:45:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "13:48",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com chuva moderada a forte. Proteja-se!!!",
-      "status": "expirado",
-      "onset": "2026-10-16T13:48:37-03:00",
-      "expires": "2026-10-16T15:40:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "13:45",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com chuva moderada a forte. Proteja-se!!!",
-      "status": "expirado",
-      "onset": "2026-10-16T13:45:16-03:00",
-      "expires": "2026-10-16T15:40:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "13:44",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Granizo",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 16/10 11:59 - TEMPORAIS ISOLADOS com GRANIZO, RAIOS e RAJADAS DE VENTO para as regiões do Planalto Norte, Litoral Norte, Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 6 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-10-16T13:44:41-03:00",
-      "expires": "2026-10-16T18:00:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "13:42",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com chuva moderada a forte. Proteja-se!!!",
-      "status": "expirado",
-      "onset": "2026-10-16T13:42:37-03:00",
-      "expires": "2026-10-16T15:40:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "13:42",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Granizo",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 16/10 11:59 - TEMPORAIS ISOLADOS com GRANIZO, RAIOS e RAJADAS DE VENTO para as regiões do Planalto Norte, Litoral Norte, Grande Florianópolis, Baixo, Médio e Alto Vale do Itajaí nas próximas 6 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-10-16T13:42:36-03:00",
-      "expires": "2026-10-16T18:00:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "13:31",
-      "senderName": "Defesa Civil de Niterói (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "RJ",
-      "location": "Niterói/RJ",
-      "headline": "Defesa Civil:Niteroi: Aviso de acumulados elevados de chuva. Inicio: 16/10 (sexta) 15h. Fim: 18/10 (domingo) 12:00. Em caso de emergencia, ligue 199.",
-      "status": "vigente",
-      "onset": "2026-10-16T13:31:48-03:00",
-      "expires": "2026-10-18T12:00:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "13:30",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Estiagem",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Fonte Boa/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Estiagem.  Prepare-se e evite areas baixas.  Siga as orientacoes da defesa civil local. Consuma apenas agua tratada.",
-      "status": "vigente",
-      "onset": "2026-10-16T13:30:21-03:00",
-      "expires": "2026-10-23T12:40:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "13:26",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Estiagem",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Estiagem.  Prepare-se e evite areas baixas.  Siga as orientacoes da defesa civil local. Consuma apenas agua tratada.",
-      "status": "vigente",
-      "onset": "2026-10-16T13:26:45-03:00",
-      "expires": "2026-10-23T12:40:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "13:20",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Estiagem",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Tabatinga/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Estiagem.  Prepare-se e evite areas baixas.  Siga as orientacoes da defesa civil local. Consuma apenas agua tratada.",
-      "status": "vigente",
-      "onset": "2026-10-16T13:20:43-03:00",
-      "expires": "2026-10-23T12:40:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "13:15",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Estiagem",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Guajará/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Estiagem.  Prepare-se e evite areas baixas.  Siga as orientacoes da defesa civil local. Consuma apenas agua tratada.",
-      "status": "vigente",
-      "onset": "2026-10-16T13:15:32-03:00",
-      "expires": "2026-10-23T12:20:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "13:11",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Estiagem",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Estiagem.  Prepare-se e evite areas baixas.  Siga as orientacoes da defesa civil local. Consuma apenas agua tratada.",
-      "status": "vigente",
-      "onset": "2026-10-16T13:11:58-03:00",
-      "expires": "2026-10-23T12:00:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "13:04",
-      "senderName": "Defesa Civil de Três Rios (RJ)",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RJ",
-      "location": "Três Rios/RJ",
-      "headline": "Defesa Civil:Tres Rios 16/10: Possibilidade pancadas moderada a forte nas proximas 24h, ventos intensos e relampagos. Emergencia 193(CBMERJ) e 199(Def. Civil)",
-      "status": "expirado",
-      "onset": "2026-10-16T13:04:09-03:00",
-      "expires": "2026-10-17T12:00:00-03:00"
-    },
-    {
-      "date": "16/10/2026",
-      "time": "12:58",
-      "senderName": "Defesa Civil Estadual de Rondônia",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "RO",
-      "location": "/RO",
-      "headline": "Defesa Civil:Chuvas e ventos em areas sob aviso. Evite locais alagados, mantenha distancia de arvores, postes e fios rompidos. Emergencia:193, 192,190.",
-      "status": "expirado",
-      "onset": "2026-10-16T12:58:04-03:00",
-      "expires": "2026-10-16T23:59:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 147,
+    "total_alerts": 132,
     "by_nivel": {
-      "Alto": 78,
-      "Médio": 56,
+      "Alto": 77,
+      "Médio": 41,
       "Severo": 12,
-      "Baixo": 1
+      "Baixo": 1,
+      "Extremo": 1
     },
     "by_channel_list": {
-      "Google": 147
+      "Google": 132
     },
     "by_region": {
-      "SE": 99,
-      "S": 25,
-      "N": 21,
+      "SE": 95,
+      "S": 20,
+      "N": 15,
       "CO": 2
     }
   }
