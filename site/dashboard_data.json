@@ -1,13 +1,25 @@
 {
-  "generated_at": "2026-10-20T18:43:43.315542-03:00",
-  "source_run_dir": "run_20261020_184250",
+  "generated_at": "2026-10-20T21:42:23.354241-03:00",
+  "source_run_dir": "run_20261020_214127",
   "cards": {
-    "vigentes": 11,
-    "ultimas24h": 34,
+    "vigentes": 6,
+    "ultimas24h": 19,
     "autoridadesAtivas": 5,
     "alertasExtremos": 0
   },
   "latest_alerts": [
+    {
+      "time": "19:48",
+      "date": "20/10/2026",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "senderNameShort": "DC Minas Gerais",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "location": "MINAS GERAIS/MG",
+      "uf": "MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com vendaval e chuva moderada a forte. Procure um local seguro e proteja-se!",
+      "status": "expirado"
+    },
     {
       "time": "18:16",
       "date": "20/10/2026",
@@ -30,7 +42,7 @@
       "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite transitar por areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "17:29",
@@ -42,7 +54,7 @@
       "location": "Chapada Gaúcha/MG, Januária/MG",
       "uf": "MG",
       "headline": "Defesa Civil:Alerta de Tempestade com chuva moderada a forte. Proteja-se!",
-      "status": "vigente"
+      "status": "expirado"
     },
     {
       "time": "16:37",
@@ -54,27 +66,10 @@
       "location": "Manaus/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "16:19",
-      "date": "20/10/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.Evite transitar por areas de  as orientacoes da defesa civil local.",
-      "status": "vigente"
+      "status": "expirado"
     }
   ],
   "top_emitters": [
-    {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 17
-    },
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
@@ -83,7 +78,12 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 5
+      "count": 4
+    },
+    {
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
+      "count": 3
     },
     {
       "name": "Defesa Civil Estadual de Rondônia",
@@ -103,7 +103,7 @@
     },
     {
       "label": "Alto",
-      "count": 29
+      "count": 14
     },
     {
       "label": "Severo",
@@ -113,11 +113,7 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 15
-    },
-    {
-      "label": "Granizo",
-      "count": 12
+      "count": 11
     },
     {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
@@ -130,16 +126,20 @@
     {
       "label": "Solo/Lama",
       "count": 2
+    },
+    {
+      "label": "Vendaval",
+      "count": 1
     }
   ],
   "uf_distribution": [
     {
-      "uf": "MG",
-      "count": 17
+      "uf": "AM",
+      "count": 14
     },
     {
-      "uf": "AM",
-      "count": 15
+      "uf": "MG",
+      "count": 3
     },
     {
       "uf": "RO",
@@ -153,14 +153,27 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 11
+      "count": 6
     },
     {
       "label": "expirado",
-      "count": 23
+      "count": 13
     }
   ],
   "all_alerts": [
+    {
+      "date": "20/10/2026",
+      "time": "19:48",
+      "senderName": "Defesa Civil Estadual de Minas Gerais",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "MG",
+      "location": "MINAS GERAIS/MG",
+      "headline": "Defesa Civil:Alerta de Tempestade com vendaval e chuva moderada a forte. Procure um local seguro e proteja-se!",
+      "status": "expirado",
+      "onset": "2026-10-20T19:48:17-03:00",
+      "expires": "2026-10-20T21:40:00-03:00"
+    },
     {
       "date": "20/10/2026",
       "time": "18:16",
@@ -183,7 +196,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite transitar por areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-20T18:05:25-03:00",
       "expires": "2026-10-20T20:40:00-03:00"
     },
@@ -196,7 +209,7 @@
       "uf": "MG",
       "location": "Chapada Gaúcha/MG, Januária/MG",
       "headline": "Defesa Civil:Alerta de Tempestade com chuva moderada a forte. Proteja-se!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-20T17:29:35-03:00",
       "expires": "2026-10-20T21:00:00-03:00"
     },
@@ -209,7 +222,7 @@
       "uf": "AM",
       "location": "Manaus/AM",
       "headline": "Defesa Civil:ALERTA de chuva intensa (NIVEL ALTO). Evite areas de risco com historico de alagamento ou enxurrada. Em caso de emergencia, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-20T16:37:00-03:00",
       "expires": "2026-10-20T19:00:00-03:00"
     },
@@ -222,7 +235,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa.Evite transitar por areas de  as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-20T16:19:41-03:00",
       "expires": "2026-10-20T20:00:00-03:00"
     },
@@ -394,229 +407,21 @@
       "status": "expirado",
       "onset": "2026-10-19T22:01:51-03:00",
       "expires": "2026-10-20T09:00:00-03:00"
-    },
-    {
-      "date": "19/10/2026",
-      "time": "21:34",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Taiobeiras/MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-10-19T21:34:18-03:00",
-      "expires": "2026-10-19T23:32:00-03:00"
-    },
-    {
-      "date": "19/10/2026",
-      "time": "21:23",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Comercinho/MG, Santa Cruz de Salinas/MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte  com duracao de 02:00h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-10-19T21:23:29-03:00",
-      "expires": "2026-10-19T23:22:00-03:00"
-    },
-    {
-      "date": "19/10/2026",
-      "time": "21:21",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Ponto dos Volantes/MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-10-19T21:21:41-03:00",
-      "expires": "2026-10-19T23:20:00-03:00"
-    },
-    {
-      "date": "19/10/2026",
-      "time": "21:20",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte  com duracao de 02:00h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-10-19T21:20:14-03:00",
-      "expires": "2026-10-19T23:18:00-03:00"
-    },
-    {
-      "date": "19/10/2026",
-      "time": "21:18",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Água Boa/MG, São José da Safira/MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-10-19T21:18:02-03:00",
-      "expires": "2026-10-19T23:16:00-03:00"
-    },
-    {
-      "date": "19/10/2026",
-      "time": "20:33",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Divisa Alegre/MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte  com duracao de 02:00h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-10-19T20:33:22-03:00",
-      "expires": "2026-10-19T22:32:00-03:00"
-    },
-    {
-      "date": "19/10/2026",
-      "time": "20:31",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Araçuaí/MG, Itinga/MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-10-19T20:31:48-03:00",
-      "expires": "2026-10-19T22:30:00-03:00"
-    },
-    {
-      "date": "19/10/2026",
-      "time": "20:29",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Divisópolis/MG, Pedra Azul/MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-10-19T20:29:53-03:00",
-      "expires": "2026-10-19T22:27:00-03:00"
-    },
-    {
-      "date": "19/10/2026",
-      "time": "20:26",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Mantena/MG, Nova Belém/MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-10-19T20:26:50-03:00",
-      "expires": "2026-10-19T22:25:00-03:00"
-    },
-    {
-      "date": "19/10/2026",
-      "time": "20:25",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Crisólita/MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-10-19T20:25:24-03:00",
-      "expires": "2026-10-19T22:24:00-03:00"
-    },
-    {
-      "date": "19/10/2026",
-      "time": "20:23",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade Severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-10-19T20:23:33-03:00",
-      "expires": "2026-10-19T22:21:00-03:00"
-    },
-    {
-      "date": "19/10/2026",
-      "time": "20:11",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Granizo",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Fronteira dos Vales/MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-10-19T20:11:20-03:00",
-      "expires": "2026-10-19T22:06:00-03:00"
-    },
-    {
-      "date": "19/10/2026",
-      "time": "19:44",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte com duracao de 02:00h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-10-19T19:44:45-03:00",
-      "expires": "2026-10-19T21:42:00-03:00"
-    },
-    {
-      "date": "19/10/2026",
-      "time": "19:35",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "Águas Formosas/MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com granizo, vendaval e chuva forte  com duracao de 02:00h. Proteja-se!",
-      "status": "vigente",
-      "onset": "2026-10-19T19:35:00-03:00",
-      "expires": "2026-10-21T21:33:00-03:00"
-    },
-    {
-      "date": "19/10/2026",
-      "time": "19:34",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "Canutama/AM, Itamarati/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite areas com historico de alagamento.  Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-10-19T19:34:00-03:00",
-      "expires": "2026-10-19T23:30:00-03:00"
-    },
-    {
-      "date": "19/10/2026",
-      "time": "19:30",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com vendaval e chuva forte  com duracao de 02:00h. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-10-19T19:30:17-03:00",
-      "expires": "2026-10-19T21:27:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 34,
+    "total_alerts": 19,
     "by_nivel": {
-      "Alto": 29,
+      "Alto": 14,
       "Médio": 4,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 34
+      "Google": 19
     },
     "by_region": {
-      "SE": 17,
-      "N": 16,
+      "N": 15,
+      "SE": 3,
       "NE": 1
     }
   }
