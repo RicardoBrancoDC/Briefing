@@ -1,84 +1,99 @@
 {
-  "generated_at": "2026-10-21T04:45:03.532562-03:00",
-  "source_run_dir": "run_20261021_044440",
+  "generated_at": "2026-10-21T10:53:23.413764-03:00",
+  "source_run_dir": "run_20261021_105258",
   "cards": {
-    "vigentes": 4,
-    "ultimas24h": 15,
-    "autoridadesAtivas": 3,
+    "vigentes": 7,
+    "ultimas24h": 20,
+    "autoridadesAtivas": 6,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "23:46",
-      "date": "20/10/2026",
+      "time": "10:43",
+      "date": "21/10/2026",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "senderNameShort": "DC Amazonas",
+      "event": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
+      "nivel": "Alto",
+      "location": "AMAZONAS/AM",
+      "uf": "AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Qualidade do Ar. Evitar atividades e exercicios ao ar livre. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
+    },
+    {
+      "time": "10:32",
+      "date": "21/10/2026",
       "senderName": "Defesa Civil Nacional",
       "senderNameShort": "Defesa Civil Nacional",
       "event": "Chuvas Intensas",
       "nivel": "Alto",
-      "location": "AMAZONAS/AM",
+      "location": "Apuí/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite transitar por areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente"
     },
     {
-      "time": "22:05",
-      "date": "20/10/2026",
+      "time": "10:17",
+      "date": "21/10/2026",
       "senderName": "Defesa Civil Nacional",
       "senderNameShort": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
+      "event": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
+      "nivel": "Severo",
+      "location": "Autazes/AM",
       "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite transitar por areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
+      "headline": "Defesa Civil:Alerta de Incendio Florestal - Incendios em areas nao protegidas, com reflexos na qualidade do ar",
+      "status": "vigente"
     },
     {
-      "time": "19:48",
-      "date": "20/10/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Vendaval",
-      "nivel": "Alto",
-      "location": "MINAS GERAIS/MG",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com vendaval e chuva moderada a forte. Procure um local seguro e proteja-se!",
-      "status": "expirado"
-    },
-    {
-      "time": "18:16",
-      "date": "20/10/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
-      "event": "Alagamentos",
+      "time": "10:11",
+      "date": "21/10/2026",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "senderNameShort": "DC Mato Grosso",
+      "event": "Baixa Umidade Do Ar",
       "nivel": "Médio",
-      "location": "Presidente Figueiredo/AM",
-      "uf": "AM",
-      "headline": "A análise dos acumulados de chuva registrados na última hora indica possibilidade de alagamentos, em função da limitação da capacidade de drenagem local, com acúmulo de água em ruas, vias não pavimentadas e áreas mais vulneráveis do referido município.",
-      "status": "expirado"
+      "location": "MATO GROSSO/MT",
+      "uf": "MT",
+      "headline": "Defesa Civil:MT. UMIDADE BAIXA: Umidade relativa do ar variando entre 30 e 20 porcento, hidrate-se. Risco de incendios florestais e a saude. Ligue: 193/199.",
+      "status": "vigente"
     },
     {
-      "time": "18:05",
-      "date": "20/10/2026",
-      "senderName": "Defesa Civil Nacional",
-      "senderNameShort": "Defesa Civil Nacional",
+      "time": "10:01",
+      "date": "21/10/2026",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "senderNameShort": "DC Paraná",
       "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "AMAZONAS/AM",
-      "uf": "AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite transitar por areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "expirado"
+      "nivel": "Médio",
+      "location": "PARANÁ/PR",
+      "uf": "PR",
+      "headline": "Defesa Civil:PR AVISO DE TEMPO: Temporais irregulares e chuva pontualmente forte nesta qua 21/10. Mantenha-se atento e evite o risco. Ocorrencias ligue 199/193",
+      "status": "vigente"
     }
   ],
   "top_emitters": [
     {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 12
+      "count": 13
+    },
+    {
+      "name": "Defesa Civil Estadual de Mato Grosso",
+      "short_name": "DC Mato Grosso",
+      "count": 2
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
       "short_name": "DC Minas Gerais",
       "count": 2
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 1
+    },
+    {
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
+      "count": 1
     },
     {
       "name": "Defesa Civil Estadual de Rondônia",
@@ -89,11 +104,11 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 4
+      "count": 6
     },
     {
       "label": "Alto",
-      "count": 10
+      "count": 13
     },
     {
       "label": "Severo",
@@ -103,11 +118,15 @@
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 10
+      "count": 14
     },
     {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
       "count": 3
+    },
+    {
+      "label": "Baixa Umidade Do Ar",
+      "count": 1
     },
     {
       "label": "Vendaval",
@@ -121,11 +140,19 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 12
+      "count": 14
+    },
+    {
+      "uf": "MT",
+      "count": 2
     },
     {
       "uf": "MG",
       "count": 2
+    },
+    {
+      "uf": "PR",
+      "count": 1
     },
     {
       "uf": "RO",
@@ -135,14 +162,105 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 4
+      "count": 7
     },
     {
       "label": "expirado",
-      "count": 11
+      "count": 13
     }
   ],
   "all_alerts": [
+    {
+      "date": "21/10/2026",
+      "time": "10:43",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Qualidade do Ar. Evitar atividades e exercicios ao ar livre. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-10-21T10:43:05-03:00",
+      "expires": "2026-10-22T10:30:00-03:00"
+    },
+    {
+      "date": "21/10/2026",
+      "time": "10:32",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Apuí/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-10-21T10:32:39-03:00",
+      "expires": "2026-10-21T11:40:00-03:00"
+    },
+    {
+      "date": "21/10/2026",
+      "time": "10:17",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
+      "nivel": "Severo",
+      "uf": "AM",
+      "location": "Autazes/AM",
+      "headline": "Defesa Civil:Alerta de Incendio Florestal - Incendios em areas nao protegidas, com reflexos na qualidade do ar",
+      "status": "vigente",
+      "onset": "2026-10-21T10:17:35-03:00",
+      "expires": "2026-10-22T09:00:00-03:00"
+    },
+    {
+      "date": "21/10/2026",
+      "time": "10:11",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "event": "Baixa Umidade Do Ar",
+      "nivel": "Médio",
+      "uf": "MT",
+      "location": "MATO GROSSO/MT",
+      "headline": "Defesa Civil:MT. UMIDADE BAIXA: Umidade relativa do ar variando entre 30 e 20 porcento, hidrate-se. Risco de incendios florestais e a saude. Ligue: 193/199.",
+      "status": "vigente",
+      "onset": "2026-10-21T10:11:38-03:00",
+      "expires": "2026-10-21T23:00:00-03:00"
+    },
+    {
+      "date": "21/10/2026",
+      "time": "10:01",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR AVISO DE TEMPO: Temporais irregulares e chuva pontualmente forte nesta qua 21/10. Mantenha-se atento e evite o risco. Ocorrencias ligue 199/193",
+      "status": "vigente",
+      "onset": "2026-10-21T10:01:52-03:00",
+      "expires": "2026-10-22T08:00:00-03:00"
+    },
+    {
+      "date": "21/10/2026",
+      "time": "09:56",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "MT",
+      "location": "MATO GROSSO/MT",
+      "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
+      "status": "vigente",
+      "onset": "2026-10-21T09:56:24-03:00",
+      "expires": "2026-10-22T00:59:00-03:00"
+    },
+    {
+      "date": "21/10/2026",
+      "time": "07:36",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Presidente Figueiredo/AM",
+      "headline": "A análise da imagem de satélite GOES, no canal infravermelho, disponível no portal da INMET, indica a presença de nuvens associadas a chuva intensa com possibilidade de pancadas de chuva de intensidade moderada a forte sobre o(s) referido(s) município(s). Também há chance de descargas elétricas e rajadas de vento, além do risco de alagamentos e enxurradas em áreas vulneráveis.",
+      "status": "expirado",
+      "onset": "2026-10-21T07:36:32-03:00",
+      "expires": "2026-10-21T10:00:00-03:00"
+    },
     {
       "date": "20/10/2026",
       "time": "23:46",
@@ -308,50 +426,26 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: Qualidade do Ar. Use mascara ao sair de casa e evite exposicao a fumaca. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-20T10:53:38-03:00",
-      "expires": "2026-10-21T09:00:00-03:00"
-    },
-    {
-      "date": "20/10/2026",
-      "time": "10:33",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Qualidade do Ar. Use mascara ao sair de casa e evite exposicao a fumaca. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
-      "onset": "2026-10-20T10:33:27-03:00",
-      "expires": "2026-10-21T09:00:00-03:00"
-    },
-    {
-      "date": "20/10/2026",
-      "time": "10:19",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Qualidade do Ar. Use mascara ao sair de casa e evite exposicao a fumaca. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
-      "onset": "2026-10-20T10:19:51-03:00",
       "expires": "2026-10-21T09:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 15,
+    "total_alerts": 20,
     "by_nivel": {
-      "Alto": 10,
-      "Médio": 4,
+      "Alto": 13,
+      "Médio": 6,
       "Severo": 1
     },
     "by_channel_list": {
-      "Google": 15
+      "Google": 20
     },
     "by_region": {
-      "N": 13,
-      "SE": 2
+      "N": 15,
+      "CO": 2,
+      "SE": 2,
+      "S": 1
     }
   }
 }
