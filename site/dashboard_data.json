@@ -1,15 +1,39 @@
 {
-  "generated_at": "2026-10-21T20:26:40.405039-03:00",
-  "source_run_dir": "run_20261021_202557",
+  "generated_at": "2026-10-22T01:58:14.777517-03:00",
+  "source_run_dir": "run_20261022_015736",
   "cards": {
-    "vigentes": 19,
-    "ultimas24h": 58,
+    "vigentes": 15,
+    "ultimas24h": 70,
     "autoridadesAtivas": 8,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "20:03",
+      "time": "01:49",
+      "date": "22/10/2026",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "senderNameShort": "DC São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "location": "SÃO PAULO/SP",
+      "uf": "SP",
+      "headline": "Defesa Civil:01h49 Chuva com raios e vento na regiao de Salto, Indaiatuba, Itu, Itupeva e municipios vizinhos. Tenha cuidado nas proximas horas.",
+      "status": "vigente"
+    },
+    {
+      "time": "00:14",
+      "date": "22/10/2026",
+      "senderName": "Defesa Civil Nacional",
+      "senderNameShort": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "Maracaju/MS",
+      "uf": "MS",
+      "headline": "Defesa Civil:Alerta Amarelo para POSSIBILIDADE de chuvas fortes e rajadas de vento previsto para Maracaju.Acompanhe v",
+      "status": "vigente"
+    },
+    {
+      "time": "23:40",
       "date": "21/10/2026",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "senderNameShort": "DC São Paulo",
@@ -17,23 +41,23 @@
       "nivel": "Médio",
       "location": "SÃO PAULO/SP",
       "uf": "SP",
-      "headline": "Defesa Civil:20h03 Chuva com vento na regiao de Fartura, Itaporanga, Taguai, Taquarituba e municipios vizinhos. Tenha cuidado nas proximas horas.",
+      "headline": "Defesa Civil:23h39 Chuva isolada com vento na regiao de Aluminio, Sao Roque, Mairinque e municipios vizinhos. Tenha cuidado nas proximas horas.",
       "status": "vigente"
     },
     {
-      "time": "19:34",
+      "time": "23:28",
       "date": "21/10/2026",
       "senderName": "Defesa Civil Estadual do Amazonas",
       "senderNameShort": "DC Amazonas",
       "event": "Chuvas Intensas",
       "nivel": "Alto",
-      "location": "Fonte Boa/AM, Pauini/AM",
+      "location": "AMAZONAS/AM",
       "uf": "AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
       "status": "vigente"
     },
     {
-      "time": "18:47",
+      "time": "23:26",
       "date": "21/10/2026",
       "senderName": "Defesa Civil Estadual do Paraná",
       "senderNameShort": "DC Paraná",
@@ -41,31 +65,7 @@
       "nivel": "Alto",
       "location": "PARANÁ/PR",
       "uf": "PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente"
-    },
-    {
-      "time": "18:15",
-      "date": "21/10/2026",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "senderNameShort": "DC Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "Defesa Civil Estadual de Minas Gerais",
-      "uf": "MG",
-      "headline": "Defesa Civil:Alerta de tempestade severa com rajadas de vento e chuva moderada a forte  com duracao de 02:00h. Proteja-se!",
-      "status": "expirado"
-    },
-    {
-      "time": "18:12",
-      "date": "21/10/2026",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "senderNameShort": "DC Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "PARANÁ/PR",
-      "uf": "PR",
-      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "headline": "Defesa Civil:PR LARANJA- Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
       "status": "vigente"
     }
   ],
@@ -73,12 +73,12 @@
     {
       "name": "Defesa Civil Estadual do Amazonas",
       "short_name": "DC Amazonas",
-      "count": 17
+      "count": 20
     },
     {
       "name": "Defesa Civil Estadual do Paraná",
       "short_name": "DC Paraná",
-      "count": 17
+      "count": 20
     },
     {
       "name": "Defesa Civil Estadual de Minas Gerais",
@@ -86,19 +86,19 @@
       "count": 10
     },
     {
+      "name": "Defesa Civil Estadual De São Paulo",
+      "short_name": "DC São Paulo",
+      "count": 7
+    },
+    {
       "name": "Defesa Civil Nacional",
       "short_name": "Defesa Civil Nacional",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
       "count": 3
-    },
-    {
-      "name": "Defesa Civil Estadual De São Paulo",
-      "short_name": "DC São Paulo",
-      "count": 2
     },
     {
       "name": "Defesa Civil Estadual de Mato Grosso",
@@ -114,29 +114,29 @@
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 19
+      "count": 24
     },
     {
       "label": "Alto",
-      "count": 35
+      "count": 41
     },
     {
       "label": "Severo",
-      "count": 4
+      "count": 5
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 48
+      "count": 58
+    },
+    {
+      "label": "Alagamentos",
+      "count": 4
     },
     {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
       "count": 4
-    },
-    {
-      "label": "Alagamentos",
-      "count": 2
     },
     {
       "label": "Tempestade De Raios",
@@ -158,27 +158,31 @@
   "uf_distribution": [
     {
       "uf": "AM",
-      "count": 23
+      "count": 26
     },
     {
       "uf": "PR",
-      "count": 17
+      "count": 20
     },
     {
       "uf": "MG",
       "count": 10
     },
     {
+      "uf": "SP",
+      "count": 7
+    },
+    {
       "uf": "SC",
       "count": 3
     },
     {
-      "uf": "SP",
+      "uf": "MT",
       "count": 2
     },
     {
-      "uf": "MT",
-      "count": 2
+      "uf": "MS",
+      "count": 1
     },
     {
       "uf": "RS",
@@ -188,14 +192,196 @@
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 19
+      "count": 15
     },
     {
       "label": "expirado",
-      "count": 39
+      "count": 55
     }
   ],
   "all_alerts": [
+    {
+      "date": "22/10/2026",
+      "time": "01:49",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:01h49 Chuva com raios e vento na regiao de Salto, Indaiatuba, Itu, Itupeva e municipios vizinhos. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-10-22T01:49:31-03:00",
+      "expires": "2026-10-22T04:30:00-03:00"
+    },
+    {
+      "date": "22/10/2026",
+      "time": "00:14",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "MS",
+      "location": "Maracaju/MS",
+      "headline": "Defesa Civil:Alerta Amarelo para POSSIBILIDADE de chuvas fortes e rajadas de vento previsto para Maracaju.Acompanhe v",
+      "status": "vigente",
+      "onset": "2026-10-22T00:14:37-03:00",
+      "expires": "2026-10-22T23:59:00-03:00"
+    },
+    {
+      "date": "21/10/2026",
+      "time": "23:40",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:23h39 Chuva isolada com vento na regiao de Aluminio, Sao Roque, Mairinque e municipios vizinhos. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-10-21T23:40:01-03:00",
+      "expires": "2026-10-22T02:00:00-03:00"
+    },
+    {
+      "date": "21/10/2026",
+      "time": "23:28",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-10-21T23:28:09-03:00",
+      "expires": "2026-10-22T03:20:00-03:00"
+    },
+    {
+      "date": "21/10/2026",
+      "time": "23:26",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA- Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-10-21T23:26:04-03:00",
+      "expires": "2026-10-22T02:25:00-03:00"
+    },
+    {
+      "date": "21/10/2026",
+      "time": "22:23",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "expirado",
+      "onset": "2026-10-21T22:23:25-03:00",
+      "expires": "2026-10-22T01:20:00-03:00"
+    },
+    {
+      "date": "21/10/2026",
+      "time": "22:22",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:22h22 Chuva com raios e vento na regiao de Avare, Cerqueira Cesar, Itatinga e municipios vizinhos. Tenha cuidado nas proximas horas.",
+      "status": "expirado",
+      "onset": "2026-10-21T22:22:06-03:00",
+      "expires": "2026-10-22T00:30:00-03:00"
+    },
+    {
+      "date": "21/10/2026",
+      "time": "22:04",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Alagamentos",
+      "nivel": "Severo",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Alagamento.  Nao enfrente areas alagadas. Procure local seguro.  Em caso de emergencia ligue: 199 e/ou 193.",
+      "status": "vigente",
+      "onset": "2026-10-21T22:04:42-03:00",
+      "expires": "2026-10-22T07:00:00-03:00"
+    },
+    {
+      "date": "21/10/2026",
+      "time": "21:21",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Alagamentos",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:Alerta de Alagamentos para Manaus. Siga as orientacoes da Defesa Civil Local. Evite transitar por vias alagadas.",
+      "status": "expirado",
+      "onset": "2026-10-21T21:21:28-03:00",
+      "expires": "2026-10-21T23:59:00-03:00"
+    },
+    {
+      "date": "21/10/2026",
+      "time": "21:20",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-10-21T21:20:13-03:00",
+      "expires": "2026-10-22T02:10:00-03:00"
+    },
+    {
+      "date": "21/10/2026",
+      "time": "20:51",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Manaus/AM",
+      "headline": "Defesa Civil:ALERTA de Chuva Intensa. Evite locais com risco de alagamento e enxurrada. Em caso de emergencia, ligue 199 ou 193.",
+      "status": "expirado",
+      "onset": "2026-10-21T20:51:29-03:00",
+      "expires": "2026-10-21T23:59:00-03:00"
+    },
+    {
+      "date": "21/10/2026",
+      "time": "20:49",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:20h49 Chuva com vento na regiao de Bofete, Pardinho e municipios vizinhos. Tenha cuidado nas proximas horas.",
+      "status": "expirado",
+      "onset": "2026-10-21T20:49:56-03:00",
+      "expires": "2026-10-21T23:30:00-03:00"
+    },
+    {
+      "date": "21/10/2026",
+      "time": "20:46",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:20h47 Chuva com raios e vento na regiao de Ipaussu, Santa Cruz do Rio Pardo, Piraju e municipios vizinhos. Tenha cuidado nas proximas horas.",
+      "status": "expirado",
+      "onset": "2026-10-21T20:46:53-03:00",
+      "expires": "2026-10-21T23:00:00-03:00"
+    },
+    {
+      "date": "21/10/2026",
+      "time": "20:27",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "expirado",
+      "onset": "2026-10-21T20:27:33-03:00",
+      "expires": "2026-10-21T23:25:00-03:00"
+    },
     {
       "date": "21/10/2026",
       "time": "20:03",
@@ -205,7 +391,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:20h03 Chuva com vento na regiao de Fartura, Itaporanga, Taguai, Taquarituba e municipios vizinhos. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-21T20:03:48-03:00",
       "expires": "2026-10-21T22:30:00-03:00"
     },
@@ -218,7 +404,7 @@
       "uf": "AM",
       "location": "Fonte Boa/AM, Pauini/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-21T19:34:57-03:00",
       "expires": "2026-10-21T22:30:00-03:00"
     },
@@ -231,7 +417,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-21T18:47:19-03:00",
       "expires": "2026-10-21T21:45:00-03:00"
     },
@@ -257,7 +443,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-21T18:12:15-03:00",
       "expires": "2026-10-21T21:10:00-03:00"
     },
@@ -270,7 +456,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-21T18:10:55-03:00",
       "expires": "2026-10-21T21:10:00-03:00"
     },
@@ -309,7 +495,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-21T18:02:54-03:00",
       "expires": "2026-10-21T21:00:00-03:00"
     },
@@ -322,7 +508,7 @@
       "uf": "AM",
       "location": "AMAZONAS/AM",
       "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuva intensa pode causar alagamentos pontuais.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-21T17:58:07-03:00",
       "expires": "2026-10-21T20:50:00-03:00"
     },
@@ -335,7 +521,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-21T17:52:25-03:00",
       "expires": "2026-10-21T20:50:00-03:00"
     },
@@ -361,7 +547,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:17:05 - Chuva forte isolada na regiao de Ourinhos. Tem raios e vento. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-21T17:09:34-03:00",
       "expires": "2026-10-21T23:55:00-03:00"
     },
@@ -881,7 +1067,7 @@
       "uf": "MT",
       "location": "MATO GROSSO/MT",
       "headline": "Defesa Civil:MT. UMIDADE BAIXA: Umidade relativa do ar variando entre 30 e 20 porcento, hidrate-se. Risco de incendios florestais e a saude. Ligue: 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-21T10:11:38-03:00",
       "expires": "2026-10-21T23:00:00-03:00"
     },
@@ -907,7 +1093,7 @@
       "uf": "MT",
       "location": "MATO GROSSO/MT",
       "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-10-21T09:56:24-03:00",
       "expires": "2026-10-22T00:59:00-03:00"
     },
@@ -923,49 +1109,23 @@
       "status": "expirado",
       "onset": "2026-10-21T07:36:32-03:00",
       "expires": "2026-10-21T10:00:00-03:00"
-    },
-    {
-      "date": "20/10/2026",
-      "time": "23:46",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite transitar por areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-10-20T23:46:59-03:00",
-      "expires": "2026-10-20T23:50:00-03:00"
-    },
-    {
-      "date": "20/10/2026",
-      "time": "22:05",
-      "senderName": "Defesa Civil Nacional",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Evite transitar por areas de risco. Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-10-20T22:05:00-03:00",
-      "expires": "2026-10-20T23:50:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 58,
+    "total_alerts": 70,
     "by_nivel": {
-      "Alto": 35,
-      "Médio": 19,
-      "Severo": 4
+      "Alto": 41,
+      "Médio": 24,
+      "Severo": 5
     },
     "by_channel_list": {
-      "Google": 58
+      "Google": 70
     },
     "by_region": {
-      "N": 23,
-      "S": 21,
-      "SE": 12,
-      "CO": 2
+      "N": 26,
+      "S": 24,
+      "SE": 17,
+      "CO": 3
     }
   }
 }
