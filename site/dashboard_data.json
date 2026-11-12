@@ -1,51 +1,39 @@
 {
-  "generated_at": "2026-11-12T06:55:33.069716-03:00",
-  "source_run_dir": "run_20261112_065506",
+  "generated_at": "2026-11-12T15:24:24.852225-03:00",
+  "source_run_dir": "run_20261112_152332",
   "cards": {
-    "vigentes": 16,
-    "ultimas24h": 101,
-    "autoridadesAtivas": 12,
+    "vigentes": 49,
+    "ultimas24h": 146,
+    "autoridadesAtivas": 18,
     "alertasExtremos": 0
   },
   "latest_alerts": [
     {
-      "time": "06:37",
+      "time": "15:15",
       "date": "12/11/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "senderNameShort": "DC Rio de Janeiro",
       "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:06h35 Chuva na regiao de Porto Feliz, Salto e Itu. Tem raios. Atinge municipios vizinhos. Tenha cuidado!",
+      "nivel": "Médio",
+      "location": "Nilópolis/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Previsao de chuva moderada a forte, com raios e rajadas de vento, hoje (12/11). Emergencia, ligue  21 978941954.",
       "status": "vigente"
     },
     {
-      "time": "06:20",
+      "time": "15:13",
       "date": "12/11/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "senderNameShort": "DC Espírito Santo",
       "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:06h20 Chuva forte na regiao de Sao Miguel Arcanjo, Itapetininga, Capao Bonito e Boituva. Tem raios. Atinge municipios vizinhos. Tenha cuidado!",
+      "nivel": "Médio",
+      "location": "Vila Valério/ES, Sooretama/ES",
+      "uf": "ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSO nas regioes Vila Valerio, Sooretama nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
       "status": "vigente"
     },
     {
-      "time": "06:06",
-      "date": "12/11/2026",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "senderNameShort": "DC São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "location": "SÃO PAULO/SP",
-      "uf": "SP",
-      "headline": "Defesa Civil:06h05 Chuva forte na regiao de Campinas,  Indaiatuba e Itupeva. Tem raios. Atinge municipios vizinhos. Tenha cuidado!",
-      "status": "vigente"
-    },
-    {
-      "time": "05:53",
+      "time": "15:12",
       "date": "12/11/2026",
       "senderName": "Defesa Civil Estadual do Paraná",
       "senderNameShort": "DC Paraná",
@@ -57,7 +45,19 @@
       "status": "vigente"
     },
     {
-      "time": "05:25",
+      "time": "15:10",
+      "date": "12/11/2026",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "senderNameShort": "DC Rio de Janeiro",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "location": "RIO DE JANEIRO/RJ",
+      "uf": "RJ",
+      "headline": "Defesa Civil:Previsao de chuva moderada a forte, com raios e rajadas de vento, hoje (12/11). Emergencia, ligue 199.",
+      "status": "vigente"
+    },
+    {
+      "time": "15:10",
       "date": "12/11/2026",
       "senderName": "Defesa Civil Estadual De São Paulo",
       "senderNameShort": "DC São Paulo",
@@ -65,7 +65,7 @@
       "nivel": "Médio",
       "location": "SÃO PAULO/SP",
       "uf": "SP",
-      "headline": "Defesa Civil:05h25 Chuva na regiao de Capivari, Monte Mor e Elias Fausto. Tem raios. Atinge municipios vizinhos. Tenha cuidado!",
+      "headline": "Defesa Civil:15:05 - Chuva na regiao de Ibiuna, Juquitiba e Sao Lourenco da Serra. Tem vento e condicao para raios. Atinge municipios vizinhos. Tenha cuidado!",
       "status": "vigente"
     }
   ],
@@ -73,143 +73,952 @@
     {
       "name": "Defesa Civil Estadual De São Paulo",
       "short_name": "DC São Paulo",
-      "count": 51
-    },
-    {
-      "name": "Defesa Civil Estadual do Paraná",
-      "short_name": "DC Paraná",
-      "count": 11
-    },
-    {
-      "name": "Defesa Civil Estadual do Amazonas",
-      "short_name": "DC Amazonas",
-      "count": 11
-    },
-    {
-      "name": "Defesa Civil Estadual de Minas Gerais",
-      "short_name": "DC Minas Gerais",
-      "count": 11
+      "count": 60
     },
     {
       "name": "Defesa Civil Estadual de Santa Catarina",
       "short_name": "DC Santa Catarina",
+      "count": 17
+    },
+    {
+      "name": "Defesa Civil Estadual do Paraná",
+      "short_name": "DC Paraná",
+      "count": 16
+    },
+    {
+      "name": "Defesa Civil Estadual do Amazonas",
+      "short_name": "DC Amazonas",
+      "count": 14
+    },
+    {
+      "name": "Defesa Civil Estadual de Minas Gerais",
+      "short_name": "DC Minas Gerais",
+      "count": 10
+    },
+    {
+      "name": "Defesa Civil Estadual do Espírito Santo",
+      "short_name": "DC Espírito Santo",
       "count": 7
     },
     {
-      "name": "Defesa Civil Nacional",
-      "short_name": "Defesa Civil Nacional",
-      "count": 3
-    },
-    {
-      "name": "Defesa Civil Estadual de Goiás",
-      "short_name": "DC Goiás",
-      "count": 2
-    },
-    {
-      "name": "Defesa Civil de Blumenau (SC)",
-      "short_name": "DC Blumenau (SC)",
-      "count": 1
+      "name": "Defesa Civil Estadual do Rio de Janeiro",
+      "short_name": "DC Rio de Janeiro",
+      "count": 4
     },
     {
       "name": "Defesa Civil Estadual do Rio Grande do Sul",
       "short_name": "DC Rio Grande do Sul",
-      "count": 1
+      "count": 4
     },
     {
-      "name": "Defesa Civil do Distrito Federal",
-      "short_name": "Defesa Civil do Distrito Federal",
-      "count": 1
+      "name": "Defesa Civil Nacional",
+      "short_name": "Defesa Civil Nacional",
+      "count": 4
+    },
+    {
+      "name": "Defesa Civil de Blumenau (SC)",
+      "short_name": "DC Blumenau (SC)",
+      "count": 2
     }
   ],
   "level_distribution": [
     {
       "label": "Médio",
-      "count": 56
+      "count": 84
     },
     {
       "label": "Alto",
-      "count": 39
+      "count": 52
     },
     {
       "label": "Severo",
-      "count": 6
+      "count": 10
     }
   ],
   "event_distribution": [
     {
       "label": "Chuvas Intensas",
-      "count": 93
+      "count": 130
     },
     {
       "label": "Vendaval",
-      "count": 4
+      "count": 8
     },
     {
       "label": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
       "count": 3
     },
     {
+      "label": "Granizo",
+      "count": 2
+    },
+    {
       "label": "Inundações",
+      "count": 2
+    },
+    {
+      "label": "Tempestade De Raios",
       "count": 1
     }
   ],
   "uf_distribution": [
     {
       "uf": "SP",
-      "count": 52
-    },
-    {
-      "uf": "PR",
-      "count": 11
-    },
-    {
-      "uf": "AM",
-      "count": 11
-    },
-    {
-      "uf": "MG",
-      "count": 11
+      "count": 62
     },
     {
       "uf": "SC",
+      "count": 19
+    },
+    {
+      "uf": "PR",
+      "count": 16
+    },
+    {
+      "uf": "AM",
+      "count": 14
+    },
+    {
+      "uf": "MG",
+      "count": 10
+    },
+    {
+      "uf": "RJ",
       "count": 8
+    },
+    {
+      "uf": "ES",
+      "count": 7
+    },
+    {
+      "uf": "RS",
+      "count": 4
     },
     {
       "uf": "MS",
       "count": 2
     },
     {
-      "uf": "GO",
-      "count": 2
-    },
-    {
-      "uf": "RS",
-      "count": 1
-    },
-    {
-      "uf": "DF",
-      "count": 1
-    },
-    {
       "uf": "MT",
       "count": 1
     },
     {
-      "uf": "BA",
+      "uf": "RO",
+      "count": 1
+    },
+    {
+      "uf": "PI",
+      "count": 1
+    },
+    {
+      "uf": "GO",
       "count": 1
     }
   ],
   "status_distribution": [
     {
       "label": "vigente",
-      "count": 16
+      "count": 49
     },
     {
       "label": "expirado",
-      "count": 85
+      "count": 97
     }
   ],
   "all_alerts": [
+    {
+      "date": "12/11/2026",
+      "time": "15:15",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Nilópolis/RJ",
+      "headline": "Defesa Civil:Previsao de chuva moderada a forte, com raios e rajadas de vento, hoje (12/11). Emergencia, ligue  21 978941954.",
+      "status": "vigente",
+      "onset": "2026-11-12T15:15:15-03:00",
+      "expires": "2026-11-13T00:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "15:13",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "ES",
+      "location": "Vila Valério/ES, Sooretama/ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSO nas regioes Vila Valerio, Sooretama nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
+      "status": "vigente",
+      "onset": "2026-11-12T15:13:12-03:00",
+      "expires": "2026-11-12T18:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "15:12",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-11-12T15:12:04-03:00",
+      "expires": "2026-11-12T18:10:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "15:10",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "RIO DE JANEIRO/RJ",
+      "headline": "Defesa Civil:Previsao de chuva moderada a forte, com raios e rajadas de vento, hoje (12/11). Emergencia, ligue 199.",
+      "status": "vigente",
+      "onset": "2026-11-12T15:10:40-03:00",
+      "expires": "2026-11-13T00:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "15:10",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:15:05 - Chuva na regiao de Ibiuna, Juquitiba e Sao Lourenco da Serra. Tem vento e condicao para raios. Atinge municipios vizinhos. Tenha cuidado!",
+      "status": "vigente",
+      "onset": "2026-11-12T15:10:36-03:00",
+      "expires": "2026-11-12T23:30:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "15:02",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:15:00 - Chuva isolada na Zona Leste de Sao Paulo. Tem vento e condicao para raios. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-11-12T15:02:34-03:00",
+      "expires": "2026-11-12T23:30:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "15:01",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuvas intensas pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-11-12T15:01:07-03:00",
+      "expires": "2026-11-12T18:40:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "14:54",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:14:50 - Chuva se espalhando por Santos, Guaruja e Bertioga. Tem vento e condicao para raios. Atinge municipios vizinhos. Tenha cuidado!",
+      "status": "vigente",
+      "onset": "2026-11-12T14:54:14-03:00",
+      "expires": "2026-11-12T23:50:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "14:49",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-11-12T14:49:09-03:00",
+      "expires": "2026-11-12T17:50:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "14:45",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:14:40 - Chuva forte na regiao de Santo Andre, Suzano e Serra de Santos. Tem vento e condicao para raios. Atinge municipios vizinhos. Cuidado!",
+      "status": "vigente",
+      "onset": "2026-11-12T14:45:16-03:00",
+      "expires": "2026-11-12T23:55:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "14:43",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "ES",
+      "location": "Jaguaré/ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSO na regiao Jaguare nas proximas 01 horas. Fique atento. Emergencia ligue 193.",
+      "status": "vigente",
+      "onset": "2026-11-12T14:43:18-03:00",
+      "expires": "2026-11-12T16:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "14:40",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:Chuva forte se deslocando para Sete Barras. Tem raios, vento e condicao para granizo. Atinge municipios vizinhos. Busque abrigo.",
+      "status": "vigente",
+      "onset": "2026-11-12T14:40:59-03:00",
+      "expires": "2026-11-12T23:30:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "14:35",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "ES",
+      "location": "ESPÍRITO SANTO/ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSO na regiao NORTE nas proximas 03 horas. Fique atento. Emergencia ligue 193.",
+      "status": "vigente",
+      "onset": "2026-11-12T14:35:28-03:00",
+      "expires": "2026-11-12T17:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "14:26",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:14:25 - Chuva isolada na Zona Sul de Sao Paulo. Tem vento e condicao para raios. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-11-12T14:26:28-03:00",
+      "expires": "2026-11-12T23:30:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "14:23",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:14:20 - Chuva persistente na regiao de Ribeirao Branco e Capao Bonito. Tem raios e vento. Atinge municipios vizinhos. Tenha cuidado!",
+      "status": "vigente",
+      "onset": "2026-11-12T14:23:55-03:00",
+      "expires": "2026-11-12T23:30:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "14:20",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:14:15 - Chuva isolada na Serra do Mar. Tem vento e condicao para raios. Atinge areas vizinhas. Redobre a atencao ao dirigir em pistas molhadas.",
+      "status": "vigente",
+      "onset": "2026-11-12T14:20:22-03:00",
+      "expires": "2026-11-12T23:30:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "14:20",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "ES",
+      "location": "Jaguaré/ES",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Jaguare/ES. Fique atento. Em casos de emergencia ligue 193.",
+      "status": "vigente",
+      "onset": "2026-11-12T14:20:13-03:00",
+      "expires": "2026-11-12T17:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "14:17",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:14:15 - Chuva isolada na regiao de Bofete e Porangaba. Tem raios e vento. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-11-12T14:17:11-03:00",
+      "expires": "2026-11-12T23:30:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "13:46",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-11-12T13:46:17-03:00",
+      "expires": "2026-11-12T16:45:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "13:39",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 12/11 13:36 - TEMPORAL com RAIOS, ALAGAMENTOS e GRANIZO na proxima 1 hora. Ocorrencias ligue 199 ou 193.",
+      "status": "expirado",
+      "onset": "2026-11-12T13:39:20-03:00",
+      "expires": "2026-11-12T14:50:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "13:35",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 12/11 13:32 - TEMPORAL com RAIOS, ALAGAMENTOS e GRANIZO na proxima 1 hora. Ocorrencias ligue 199 ou 193.",
+      "status": "expirado",
+      "onset": "2026-11-12T13:35:14-03:00",
+      "expires": "2026-11-12T14:35:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "13:32",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-11-12T13:32:08-03:00",
+      "expires": "2026-11-12T16:30:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "13:19",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Severo",
+      "uf": "ES",
+      "location": "ESPÍRITO SANTO/ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSO na regiao Pedro Canario nas proximas 02 horas. Fique atento. Emergencia ligue 193.",
+      "status": "expirado",
+      "onset": "2026-11-12T13:19:51-03:00",
+      "expires": "2026-11-12T15:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "13:00",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 12/11 12:58 - TEMPORAL com RAIOS, GRANIZO e ALAGAMENTOS na proxima 1h. Ocorrencias ligue 199 ou 193.",
+      "status": "expirado",
+      "onset": "2026-11-12T13:00:48-03:00",
+      "expires": "2026-11-12T14:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "12:58",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "ES",
+      "location": "Conceição da Barra/ES",
+      "headline": "Defesa Civil:Alerta de Chuvas Intensas para Conceicao da Barra/ES. Siga as orientacoes da defesa civil local e do plano de contingencia municipal.",
+      "status": "vigente",
+      "onset": "2026-11-12T12:58:16-03:00",
+      "expires": "2026-11-12T16:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "12:48",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-11-12T12:48:45-03:00",
+      "expires": "2026-11-12T15:45:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "12:47",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 12/11 12:44 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS na proxima 1 hora.",
+      "status": "expirado",
+      "onset": "2026-11-12T12:47:16-03:00",
+      "expires": "2026-11-12T13:50:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "12:45",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: chuva intensa. Chuvas intensas pode causar alagamentos pontuais. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-11-12T12:45:53-03:00",
+      "expires": "2026-11-12T16:35:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "12:44",
+      "senderName": "Defesa Civil Estadual do Espírito Santo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "ES",
+      "location": "Pedro Canário/ES, Pinheiros/ES",
+      "headline": "Defesa Civil:(ES)  ALERTA de CHUVA INTENSO nas regioes Pinheiros, Pedro Canario nas proximas 04 horas.   Em caso de emergencia, ligue 193.",
+      "status": "vigente",
+      "onset": "2026-11-12T12:44:45-03:00",
+      "expires": "2026-11-12T16:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "12:41",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 13h40. Mantenha-se seguro",
+      "status": "expirado",
+      "onset": "2026-11-12T12:41:48-03:00",
+      "expires": "2026-11-12T13:40:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "12:41",
+      "senderName": "Defesa Civil de Itaguaí (RJ)",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Itaguaí/RJ",
+      "headline": "Defesa Civil:Rajadas de vento moderado hoje (12/11) em Itaguai. Emergencia, ligue 193 ou 199.",
+      "status": "vigente",
+      "onset": "2026-11-12T12:41:33-03:00",
+      "expires": "2026-11-13T00:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "12:39",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 12/11 12:37 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Meio-Oeste, Planalto Norte, Planalto Sul e Alto Vale do Itajaí nas próximas 6 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-11-12T12:39:01-03:00",
+      "expires": "2026-11-12T18:45:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "12:35",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 12/11 12:32 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS na proxima 1h. Ocorrencias ligue 199 ou 193.",
+      "status": "expirado",
+      "onset": "2026-11-12T12:35:32-03:00",
+      "expires": "2026-11-12T13:35:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "12:34",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:12:30 - Chuva na regiao de Guapiara e Capao Bonito. Tem raios e vento. Atinge municipios vizinhos. Tenha cuidado nas proximas horas.",
+      "status": "vigente",
+      "onset": "2026-11-12T12:34:16-03:00",
+      "expires": "2026-11-12T23:55:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "12:29",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Defesa Civil:ATENCAO - 12/11 12:27 - TEMPORAL com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS na proxima 1h. Ocorrencias ligue 199 ou 193.",
+      "status": "expirado",
+      "onset": "2026-11-12T12:29:50-03:00",
+      "expires": "2026-11-12T13:30:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "12:03",
+      "senderName": "Defesa Civil de Belford Roxo (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Belford Roxo/RJ",
+      "headline": "Defesa Civil:Belford Roxo/ESTAGIO DE ATENCAO: Risco de chuva forte isolada, raios e rajadas ate 13/11 as 12h. Evite areas alagadas. Emergencias: 96720-0158/193",
+      "status": "vigente",
+      "onset": "2026-11-12T12:03:13-03:00",
+      "expires": "2026-11-13T12:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "12:00",
+      "senderName": "Defesa Civil de Blumenau (SC)",
+      "event": "Tempestade De Raios",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "Blumenau/SC",
+      "headline": "Defesa Civil:ALERTABLU-ATENCAO: Durante a tarde desta quinta (12) condicao p/ pancadas isoladas de chuva c/ trovoadas em BLUMENAU. Fique atento! Emerg 199/193.",
+      "status": "vigente",
+      "onset": "2026-11-12T12:00:00-03:00",
+      "expires": "2026-11-12T19:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "11:51",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 12/11 11:49 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para as regiões do Extremo Oeste, Oeste, Meio-Oeste e Planalto Sul nas próximas 6 horas. Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-11-12T11:51:08-03:00",
+      "expires": "2026-11-12T17:50:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "11:47",
+      "senderName": "Defesa Civil Nacional",
+      "event": "Vendaval",
+      "nivel": "Alto",
+      "uf": "RJ",
+      "location": "Duque de Caxias/RJ",
+      "headline": "Defesa Civil:ALERTA de PANCADAS de CHUVA MODERADA com RAIOS e RAJADAS de VENTOS FORTES HOJE e AMANHA (12-13/11) em Duque de Caxias. Ligue (21) 99463-7387.",
+      "status": "vigente",
+      "onset": "2026-11-12T11:47:58-03:00",
+      "expires": "2026-11-13T23:59:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "11:41",
+      "senderName": "Defesa Civil Estadual do Paraná",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PR",
+      "location": "PARANÁ/PR",
+      "headline": "Defesa Civil:PR AVISO DE TEMPO: Temporais localizados entre a tarde e noite desta qui 12/11. Mantenha-se atento e evite o risco. Ocorrencias ligue 199/193.",
+      "status": "vigente",
+      "onset": "2026-11-12T11:41:03-03:00",
+      "expires": "2026-11-13T04:30:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "11:31",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "OBSERVAÇÃO - 12/11 11:28 - TEMPORAL ISOLADO com RAIOS, RAJADAS DE VENTO, GRANIZO e ALAGAMENTOS pontuais para os municípios de Abdon Batista, Anita Garibaldi, Campo Belo do Sul, Campos Novos, Celso Ramos, Cerro Negro, Lages, São José do Cerrito e Vargem nas próximas 2 horas. Ocorrências ligue 199 ou 193.",
+      "status": "expirado",
+      "onset": "2026-11-12T11:31:38-03:00",
+      "expires": "2026-11-12T13:30:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "11:14",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Qualidade do Ar.  Acompanhar as previsoes meteorologicas. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-11-12T11:14:15-03:00",
+      "expires": "2026-11-13T10:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "11:06",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO ALTO: Qualidade do Ar.  Evitar atividades e exercicios ao ar livre. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-11-12T11:06:48-03:00",
+      "expires": "2026-11-13T10:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "11:05",
+      "senderName": "Defesa Civil Estadual de Mato Grosso",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "MT",
+      "location": "/MT",
+      "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199.",
+      "status": "vigente",
+      "onset": "2026-11-12T11:05:51-03:00",
+      "expires": "2026-11-13T00:55:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "11:03",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Atualização: Observação Meteorológica DC/SC 12/11 10:50 - Chuva pontualmente intensa e temporais isolados nesta quinta-feira (12). Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-11-12T11:03:51-03:00",
+      "expires": "2026-11-12T21:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "11:01",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
+      "nivel": "Severo",
+      "uf": "AM",
+      "location": "Parintins/AM",
+      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Qualidade do Ar. Use mascara ao sair de casa e evite exposicao a fumaca. Siga as orientacoes da defesa civil local.",
+      "status": "vigente",
+      "onset": "2026-11-12T11:01:47-03:00",
+      "expires": "2026-11-13T10:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "11:01",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Atualização: Observação Meteorológica DC/SC 12/11 10:50 - Chuva pontualmente intensa e temporais isolados nesta quinta-feira (12). Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-11-12T11:01:43-03:00",
+      "expires": "2026-11-12T21:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "10:49",
+      "senderName": "Defesa Civil Estadual de Rondônia",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RO",
+      "location": "/RO",
+      "headline": "Defesa Civil:Chuvas e ventos em areas sob aviso. Evite locais alagados, mantenha distancia de arvores, postes efios rompidos. Emergencia:193, 192,190.",
+      "status": "vigente",
+      "onset": "2026-11-12T10:49:06-03:00",
+      "expires": "2026-11-12T23:59:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "10:24",
+      "senderName": "Defesa Civil Estadual do Piauí",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "PI",
+      "location": "PIAUÍ/PI",
+      "headline": "Defesa Civil:Alerta de Tempestade em 12/11 das 10hs as 23hs. Evite areas de risco de alagamentos ou enxurradas. Em emergencia ligue 190 ou 193. PROTEJA-SE!",
+      "status": "vigente",
+      "onset": "2026-11-12T10:24:00-03:00",
+      "expires": "2026-11-12T23:55:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "10:23",
+      "senderName": "Defesa Civil Estadual de Goiás",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "GO",
+      "location": "/GO",
+      "headline": "Defesa Civil:Possibilidade de chuvas e ventos intensos nas proximas 24 horas, com baixo risco de alagamento e raios. Emergencia 193",
+      "status": "vigente",
+      "onset": "2026-11-12T10:23:55-03:00",
+      "expires": "2026-12-12T23:55:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "10:01",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Granizo",
+      "nivel": "Alto",
+      "uf": "RS",
+      "location": "RIO GRANDE DO SUL/RS",
+      "headline": "Defesa Civil:RS: Alerta LARANJA. Condicao de ALERTA p/ tempestade c/ granizo e vento. Risco ALTO de destelhamento. Val. ate 10h50. Mantenha-se seguro",
+      "status": "expirado",
+      "onset": "2026-11-12T10:01:59-03:00",
+      "expires": "2026-11-12T10:50:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "10:00",
+      "senderName": "Defesa Civil Estadual de Santa Catarina",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SC",
+      "location": "SANTA CATARINA/SC",
+      "headline": "Observação Meteorológica SDC/SC 11/11 10:15 -Temporais isolados no decorrer da quinta-feira (12). Ocorrências ligue 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-11-12T10:00:00-03:00",
+      "expires": "2026-11-12T21:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "10:00",
+      "senderName": "Defesa Civil Mangaratiba (RJ)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Mangaratiba/RJ",
+      "headline": "Defesa Civil:MANGARATIBA-RJ: Possibilidade de chuva e rajada de vento, moderado a forte, para as proximas 24h. Emergencia, ligue: (21) 3030-2662 / 199 ou 193.",
+      "status": "vigente",
+      "onset": "2026-11-12T10:00:00-03:00",
+      "expires": "2026-11-12T23:55:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "09:51",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "Saquarema/RJ",
+      "headline": "Defesa Civil:Rajadas de vento moderado a pontualmente forte hoje (12/11). Emergencia, ligue 193 ou 22 992115580.",
+      "status": "vigente",
+      "onset": "2026-11-12T09:51:53-03:00",
+      "expires": "2026-11-13T00:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "09:48",
+      "senderName": "Defesa Civil Estadual do Rio de Janeiro",
+      "event": "Vendaval",
+      "nivel": "Médio",
+      "uf": "RJ",
+      "location": "RIO DE JANEIRO/RJ",
+      "headline": "Defesa Civil:Rajadas de vento moderado a pontualmente forte hoje (12/11). Emergencia, ligue 193 ou 199.",
+      "status": "vigente",
+      "onset": "2026-11-12T09:48:05-03:00",
+      "expires": "2026-11-13T00:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "09:24",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Alto",
+      "uf": "AM",
+      "location": "Tefé/AM, Alvarães/AM",
+      "headline": "A análise da imagem do satélite GOES, disponibilizada por CIRA/NOAA, indica áreas de nebulosidade associadas a pancadas de chuva no(s) município(s) mencionado(s), com possibilidade de pancadas de intensidade moderada a forte, acompanhada de descargas elétricas e rajadas de vento. Essas condições podem favorecer a ocorrência de alagamentos e enxurradas em áreas vulneráveis.",
+      "status": "expirado",
+      "onset": "2026-11-12T09:24:09-03:00",
+      "expires": "2026-11-12T13:15:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "09:10",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:09h10 Chuva em toda regiao de Itanhaem e Bertioga. Tem raios. Atinge municipios vizinhos. Tenha cuidado!",
+      "status": "expirado",
+      "onset": "2026-11-12T09:10:30-03:00",
+      "expires": "2026-11-12T11:10:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "08:48",
+      "senderName": "Defesa Civil Estadual De São Paulo",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "SÃO PAULO/SP",
+      "headline": "Defesa Civil:08h48 Chuva forte em toda regiao da Capital. Tem raios. Atinge municipios vizinhos. Tenha cuidado!",
+      "status": "expirado",
+      "onset": "2026-11-12T08:48:16-03:00",
+      "expires": "2026-11-12T10:50:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "08:27",
+      "senderName": "Defesa Civil de Barueri (SP)",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "SP",
+      "location": "Barueri/SP",
+      "headline": "Defesa Civil:Barueri/SP - Possibilidade de chuvas intensas para as proximas horas. Pode haver vento, granizo e raios. Tenha cuidado. Emerg. 199 ou 4199-1419.",
+      "status": "expirado",
+      "onset": "2026-11-12T08:27:42-03:00",
+      "expires": "2026-11-12T12:55:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "08:00",
+      "senderName": "Defesa Civil Estadual do Rio Grande do Sul",
+      "event": "Inundações",
+      "nivel": "Severo",
+      "uf": "RS",
+      "location": "Uruguaiana/RS",
+      "headline": "Defesa Civil:RS: Alerta VERMELHO: INUNDACAO do rio Uruguai. Risco MUITO ALTO em Uruguaiana. Valido por 24h. Evite areas inundaveis. Emergencia: 190/193.",
+      "status": "vigente",
+      "onset": "2026-11-12T08:00:00-03:00",
+      "expires": "2026-11-13T08:00:00-03:00"
+    },
+    {
+      "date": "12/11/2026",
+      "time": "07:54",
+      "senderName": "Defesa Civil Estadual do Amazonas",
+      "event": "Chuvas Intensas",
+      "nivel": "Médio",
+      "uf": "AM",
+      "location": "AMAZONAS/AM",
+      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Evite areas com historico de alagamento.    Siga as orientacoes da defesa civil local.",
+      "status": "expirado",
+      "onset": "2026-11-12T07:54:46-03:00",
+      "expires": "2026-11-12T11:00:00-03:00"
+    },
     {
       "date": "12/11/2026",
       "time": "06:37",
@@ -219,7 +1028,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:06h35 Chuva na regiao de Porto Feliz, Salto e Itu. Tem raios. Atinge municipios vizinhos. Tenha cuidado!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-11-12T06:37:10-03:00",
       "expires": "2026-11-12T08:35:00-03:00"
     },
@@ -232,7 +1041,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:06h20 Chuva forte na regiao de Sao Miguel Arcanjo, Itapetininga, Capao Bonito e Boituva. Tem raios. Atinge municipios vizinhos. Tenha cuidado!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-11-12T06:20:18-03:00",
       "expires": "2026-11-12T08:30:00-03:00"
     },
@@ -245,7 +1054,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:06h05 Chuva forte na regiao de Campinas,  Indaiatuba e Itupeva. Tem raios. Atinge municipios vizinhos. Tenha cuidado!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-11-12T06:06:45-03:00",
       "expires": "2026-11-12T08:00:00-03:00"
     },
@@ -258,7 +1067,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-11-12T05:53:19-03:00",
       "expires": "2026-11-12T08:50:00-03:00"
     },
@@ -271,7 +1080,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:05h25 Chuva na regiao de Capivari, Monte Mor e Elias Fausto. Tem raios. Atinge municipios vizinhos. Tenha cuidado!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-11-12T05:25:51-03:00",
       "expires": "2026-11-12T08:20:00-03:00"
     },
@@ -284,7 +1093,7 @@
       "uf": "SP",
       "location": "SÃO PAULO/SP",
       "headline": "Defesa Civil:05h05 Chuva na regiao de Guarei e Angatuba. Tem raios. Atinge municipios vizinhos. Tenha cuidado!",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-11-12T05:07:16-03:00",
       "expires": "2026-11-12T08:00:00-03:00"
     },
@@ -323,7 +1132,7 @@
       "uf": "PR",
       "location": "PARANÁ/PR",
       "headline": "Defesa Civil:PR LARANJA: Chuva c trovoadas e risco para fortes temporais nas prox. 3h na sua regiao. Fique atento. Ocorrencias, ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-11-12T04:16:56-03:00",
       "expires": "2026-11-12T07:15:00-03:00"
     },
@@ -531,7 +1340,7 @@
       "uf": "SC",
       "location": "Blumenau/SC",
       "headline": "Defesa Civil:ALERTABLU-ATENCAO:Pancadas de chuva c/ trovoadas e RISCO DE TEMPORAIS ISOLADOS entre madrugada e manha (12) em BNU. Fique atento! Emerg 199/193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-11-12T00:00:00-03:00",
       "expires": "2026-11-12T12:00:00-03:00"
     },
@@ -960,7 +1769,7 @@
       "uf": "SC",
       "location": "SANTA CATARINA/SC",
       "headline": "Atualização: Observação Meteorológica SDC/SC 11/11 09:45 - Chuva persistente nesta quarta (11) e madrugada de quinta-feira (12). Ocorrências ligue 199 ou 193.",
-      "status": "vigente",
+      "status": "expirado",
       "onset": "2026-11-11T18:00:00-03:00",
       "expires": "2026-11-12T09:00:00-03:00"
     },
@@ -1314,231 +2123,23 @@
       "status": "expirado",
       "onset": "2026-11-11T15:38:53-03:00",
       "expires": "2026-11-11T17:40:00-03:00"
-    },
-    {
-      "date": "11/11/2026",
-      "time": "15:22",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:15h22 Chuva isolada na regiao de Barrinha, Pradopolis e Dumont. Tem raios. Atinge municipios vizinhos. Tenha cuidado!",
-      "status": "expirado",
-      "onset": "2026-11-11T15:22:38-03:00",
-      "expires": "2026-11-11T17:25:00-03:00"
-    },
-    {
-      "date": "11/11/2026",
-      "time": "15:20",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:15h19 Chuva isolada na regiao de Dolcinopolis e Turmalina. Tem raios. Atinge municipios vizinhos. Tenha cuidado!",
-      "status": "expirado",
-      "onset": "2026-11-11T15:20:12-03:00",
-      "expires": "2026-11-11T17:20:00-03:00"
-    },
-    {
-      "date": "11/11/2026",
-      "time": "15:16",
-      "senderName": "Defesa Civil Estadual De São Paulo",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SP",
-      "location": "SÃO PAULO/SP",
-      "headline": "Defesa Civil:15h15 Chuva isolada na regiao de Cerqueira Cesar. Tem raios. Atinge municipios vizinhos. Tenha cuidado!",
-      "status": "expirado",
-      "onset": "2026-11-11T15:16:16-03:00",
-      "expires": "2026-11-11T17:15:00-03:00"
-    },
-    {
-      "date": "11/11/2026",
-      "time": "15:15",
-      "senderName": "Defesa Civil Estadual de Minas Gerais",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "MG",
-      "location": "MINAS GERAIS/MG",
-      "headline": "Defesa Civil:Alerta de Tempestade com chuva forte e rajadas de vento. Proteja-se!",
-      "status": "expirado",
-      "onset": "2026-11-11T15:15:29-03:00",
-      "expires": "2026-11-11T18:00:00-03:00"
-    },
-    {
-      "date": "11/11/2026",
-      "time": "14:39",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: chuva intensa. Atencao para chuva intensa nas proximas horas.    Siga as orientacoes da defesa civil local.",
-      "status": "expirado",
-      "onset": "2026-11-11T14:39:23-03:00",
-      "expires": "2026-11-11T18:40:00-03:00"
-    },
-    {
-      "date": "11/11/2026",
-      "time": "14:00",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "Aviso: Observação Meteorológica SDC/SC 10/11 15:00 - Temporais isolados entre a tarde de quarta (11) e quinta-feira (12), com risco moderado para alagamentos e enxurradas pontuais, destelhamentos, danos na rede elétrica e queda de galhos e árvores.  Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-11-11T14:00:00-03:00",
-      "expires": "2026-11-11T22:00:00-03:00"
-    },
-    {
-      "date": "11/11/2026",
-      "time": "13:38",
-      "senderName": "Defesa Civil Estadual de Santa Catarina",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "SC",
-      "location": "SANTA CATARINA/SC",
-      "headline": "OBSERVAÇÃO - 11/11 13:35 - TEMPORAIS ISOLADOS com RAIOS, RAJADAS DE VENTO e GRANIZO para as regiões do Extremo Oeste e Oeste nas próximas 4 horas. Ocorrências ligue 199 ou 193.",
-      "status": "expirado",
-      "onset": "2026-11-11T13:38:25-03:00",
-      "expires": "2026-11-11T17:35:00-03:00"
-    },
-    {
-      "date": "11/11/2026",
-      "time": "13:34",
-      "senderName": "Defesa Civil do Distrito Federal",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "DF",
-      "location": "Brasília/DF",
-      "headline": "Defesa Civil:ALERTA DE CHUVAS INTENSAS NO DF. No transito evite pontos de alagamento, aumente a distancia do carro a sua frente e em caso de risco ligue 199.",
-      "status": "vigente",
-      "onset": "2026-11-11T13:34:43-03:00",
-      "expires": "2026-11-12T10:00:00-03:00"
-    },
-    {
-      "date": "11/11/2026",
-      "time": "13:25",
-      "senderName": "Defesa Civil Estadual do Paraná",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "PR",
-      "location": "PARANÁ/PR",
-      "headline": "Defesa Civil:PR AVISO DE TEMPO: Temporais localizados entre a tarde e noite desta qua 11/11. Mantenha-se atento e evite o risco. Ocorrencias ligue 199/193.",
-      "status": "expirado",
-      "onset": "2026-11-11T13:25:17-03:00",
-      "expires": "2026-11-12T04:00:00-03:00"
-    },
-    {
-      "date": "11/11/2026",
-      "time": "10:03",
-      "senderName": "Defesa Civil Estadual de Mato Grosso",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "MT",
-      "location": "MATO GROSSO/MT",
-      "headline": "Defesa Civil:MT. Previsao de Chuva ate 30mm/h, ventos de 40 a 60km/h. Riscos de queda de galhos de arvores, alagamentos e descargas eletricas. Ligue: 193/199",
-      "status": "expirado",
-      "onset": "2026-11-11T10:03:00-03:00",
-      "expires": "2026-11-12T00:55:00-03:00"
-    },
-    {
-      "date": "11/11/2026",
-      "time": "10:00",
-      "senderName": "Defesa Civil Estadual da Bahia",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "BA",
-      "location": "BAHIA/BA",
-      "headline": "Defesa Civil:Alerta de chuva acumulada na Bahia/BA: risco de alagamentos e deslizamentos. Siga as orientacoes da Defesa Civil. Emergencia: ligue 193",
-      "status": "expirado",
-      "onset": "2026-11-11T10:00:08-03:00",
-      "expires": "2026-11-11T23:59:00-03:00"
-    },
-    {
-      "date": "11/11/2026",
-      "time": "09:51",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
-      "nivel": "Médio",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO MODERADO: Qualidade do Ar.   Use mascara ao sair de casa e evite exposicao a fumaca.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
-      "onset": "2026-11-11T09:51:00-03:00",
-      "expires": "2026-11-12T10:00:00-03:00"
-    },
-    {
-      "date": "11/11/2026",
-      "time": "09:37",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
-      "nivel": "Alto",
-      "uf": "AM",
-      "location": "AMAZONAS/AM",
-      "headline": "Defesa Civil:ALERTA RISCO ALTO: Qualidade do Ar.   Use mascara ao sair de casa e evite exposicao a fumaca.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
-      "onset": "2026-11-11T09:37:08-03:00",
-      "expires": "2026-11-12T10:30:00-03:00"
-    },
-    {
-      "date": "11/11/2026",
-      "time": "09:33",
-      "senderName": "Defesa Civil Estadual do Amazonas",
-      "event": "Incêndios Em Áreas Não Protegidas, Com Reflexos Na Qualidade Do Ar",
-      "nivel": "Severo",
-      "uf": "AM",
-      "location": "Barreirinha/AM, Parintins/AM",
-      "headline": "Defesa Civil:ALERTA RISCO SEVERO: Qualidade do Ar.   Use mascara ao sair de casa e evite exposicao a fumaca.  Siga as orientacoes da defesa civil local.",
-      "status": "vigente",
-      "onset": "2026-11-11T09:33:45-03:00",
-      "expires": "2026-11-12T10:30:00-03:00"
-    },
-    {
-      "date": "11/11/2026",
-      "time": "07:09",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "event": "Chuvas Intensas",
-      "nivel": "Alto",
-      "uf": "GO",
-      "location": "GOIÁS/GO",
-      "headline": "Defesa Civil:Possibilidade de chuvas e ventos intensos nas proximas 24 horas, com baixo risco de alagamento e raios. Emergencia 193",
-      "status": "expirado",
-      "onset": "2026-11-11T07:09:01-03:00",
-      "expires": "2026-11-12T00:00:00-03:00"
-    },
-    {
-      "date": "11/11/2026",
-      "time": "07:04",
-      "senderName": "Defesa Civil Estadual de Goiás",
-      "event": "Chuvas Intensas",
-      "nivel": "Médio",
-      "uf": "GO",
-      "location": "GOIÁS/GO",
-      "headline": "Defesa Civil:Possibilidade de chuvas e ventos intensos nas proximas 24 horas, com baixo risco de alagamento e raios. Emergencia 193.",
-      "status": "expirado",
-      "onset": "2026-11-11T07:04:39-03:00",
-      "expires": "2026-11-12T00:00:00-03:00"
     }
   ],
   "summary": {
-    "total_alerts": 101,
+    "total_alerts": 146,
     "by_nivel": {
-      "Médio": 56,
-      "Alto": 39,
-      "Severo": 6
+      "Médio": 84,
+      "Alto": 52,
+      "Severo": 10
     },
     "by_channel_list": {
-      "Google": 101
+      "Google": 146
     },
     "by_region": {
-      "SE": 63,
-      "S": 20,
-      "N": 11,
-      "CO": 6,
+      "SE": 87,
+      "S": 39,
+      "N": 15,
+      "CO": 4,
       "NE": 1
     }
   }
